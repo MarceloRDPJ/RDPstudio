@@ -12,9 +12,9 @@
         body {
             font-family: 'Inter', sans-serif;
             background-color: #0f172a; /* Slate 900 */
-            background-image: 
-                radial-gradient(at 0% 0%, hsla(24, 90%, 15%, 0.6) 0, transparent 50%), 
-                radial-gradient(at 50% 100%, hsla(20, 80%, 10%, 0.8) 0, transparent 50%), 
+            background-image:
+                radial-gradient(at 0% 0%, hsla(24, 90%, 15%, 0.6) 0, transparent 50%),
+                radial-gradient(at 50% 100%, hsla(20, 80%, 10%, 0.8) 0, transparent 50%),
                 radial-gradient(at 100% 0%, hsla(0, 0%, 15%, 1) 0, transparent 50%);
             background-attachment: fixed;
             color: #e2e8f0;
@@ -53,7 +53,7 @@
             opacity: 0;
             transform: translateY(20px);
         }
-        
+
         .delay-100 { animation-delay: 0.1s; }
         .delay-200 { animation-delay: 0.2s; }
         .delay-300 { animation-delay: 0.3s; }
@@ -73,132 +73,157 @@
             background-color: rgba(234, 88, 12, 0.08);
             transform: scale(1.01);
         }
-        
+
         /* Código/Dados */
         .font-mono { font-family: 'Roboto Mono', monospace; }
+
+        /* Botão Voltar "Glass" */
+        .btn-glass-secondary {
+            background: rgba(20, 20, 25, 0.5);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 140, 0, 0.2);
+            transition: all 0.3s ease;
+        }
+        .btn-glass-secondary:hover {
+            border-color: rgba(255, 140, 0, 0.7);
+            box-shadow: 0 0 20px rgba(234, 88, 12, 0.4);
+            transform: translateY(-2px);
+            color: #fb923c; /* orange-300 */
+        }
     </style>
 </head>
-<body class="flex items-center justify-center min-h-screen p-4 selection:bg-orange-500 selection:text-white">
+<body class="selection:bg-orange-500 selection:text-white">
+
+    <!-- Botão Voltar ao Hub -->
+    <a href="../../index.html" class="btn-glass-secondary fixed top-4 left-4 z-50 inline-flex items-center text-sm font-bold py-2 px-4 rounded-lg transition-all group text-orange-400">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2 transform group-hover:-translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+        </svg>
+        Voltar ao Hub
+    </a>
 
     <!-- Container Principal -->
-    <div class="glass-panel p-8 rounded-3xl w-full max-w-xl mx-auto relative overflow-hidden animate-fade-in-up">
-        
-        <!-- Decoração de Topo (Laranja da marca) -->
-        <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-orange-600 via-orange-500 to-yellow-500"></div>
+    <div class="flex items-center justify-center min-h-screen p-4">
+        <div class="glass-panel p-8 rounded-3xl w-full max-w-xl mx-auto relative overflow-hidden animate-fade-in-up">
 
-        <!-- Cabeçalho -->
-        <div class="text-center mb-8">
-            <!-- Espaço para Logo -->
-            <div class="mx-auto mb-4 h-20 w-20 flex items-center justify-center rounded-full bg-black/40 ring-2 ring-orange-500/50 shadow-[0_0_30px_rgba(234,88,12,0.2)]">
-                <!-- Tenta carregar logo.png, se não tiver, mostra ícone SVG -->
-                <img src="logo.png" alt="Logo TecnoIT" class="h-16 w-16 object-contain" onerror="this.style.display='none'; document.getElementById('fallback-icon').style.display='block';">
-                
-                <!-- Ícone Fallback (Caso não tenha a imagem na pasta) -->
-                <svg id="fallback-icon" style="display:none;" xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
-                </svg>
+            <!-- Decoração de Topo (Laranja da marca) -->
+            <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-orange-600 via-orange-500 to-yellow-500"></div>
+
+            <!-- Cabeçalho -->
+            <div class="text-center mb-8">
+                <!-- Espaço para Logo -->
+                <div class="mx-auto mb-4 h-20 w-20 flex items-center justify-center rounded-full bg-black/40 ring-2 ring-orange-500/50 shadow-[0_0_30px_rgba(234,88,12,0.2)]">
+                    <!-- Tenta carregar logo.png, se não tiver, mostra ícone SVG -->
+                    <img src="logo.png" alt="Logo TecnoIT" class="h-16 w-16 object-contain" onerror="this.style.display='none'; document.getElementById('fallback-icon').style.display='block';">
+
+                    <!-- Ícone Fallback (Caso não tenha a imagem na pasta) -->
+                    <svg id="fallback-icon" style="display:none;" xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
+                    </svg>
+                </div>
+
+                <h1 class="text-4xl font-bold text-white tracking-tight">
+                    Validador <span class="text-orange-500">TecnoIT</span>
+                </h1>
+                <p class="text-gray-400 mt-2 text-xs uppercase tracking-[0.2em] font-semibold">Firewall Security Automation</p>
             </div>
-            
-            <h1 class="text-4xl font-bold text-white tracking-tight">
-                Validador <span class="text-orange-500">TecnoIT</span>
-            </h1>
-            <p class="text-gray-400 mt-2 text-xs uppercase tracking-[0.2em] font-semibold">Firewall Security Automation</p>
-        </div>
-        
-        <!-- Card de Instruções -->
-        <div class="bg-slate-900/50 border border-slate-800 rounded-xl p-5 mb-8 animate-fade-in-up delay-100 hover:border-orange-500/30 transition-colors duration-300 group">
-            <div class="flex items-center mb-3">
-                <span class="bg-orange-500/20 text-orange-400 p-1.5 rounded mr-3 group-hover:text-orange-300 transition-colors">
+
+            <!-- Card de Instruções -->
+            <div class="bg-slate-900/50 border border-slate-800 rounded-xl p-5 mb-8 animate-fade-in-up delay-100 hover:border-orange-500/30 transition-colors duration-300 group">
+                <div class="flex items-center mb-3">
+                    <span class="bg-orange-500/20 text-orange-400 p-1.5 rounded mr-3 group-hover:text-orange-300 transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </span>
+                    <h3 class="text-sm font-bold text-gray-200 uppercase">Requisitos do Arquivo</h3>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs text-gray-400 font-mono">
+                    <ul class="space-y-2">
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-orange-600 rounded-full mr-2"></span>Formato .CSV (ponto e vírgula)</li>
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-orange-600 rounded-full mr-2"></span>Col A: Nome do Equipamento</li>
+                    </ul>
+                    <ul class="space-y-2">
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-gray-500 rounded-full mr-2"></span>Col B: MAC (Qualquer formato)</li>
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-green-500 rounded-full mr-2"></span>Saída: AA:BB:CC:11:22:33</li>
+                    </ul>
+                </div>
+
+                <button id="downloadTemplateButton" class="mt-4 w-full py-2 text-xs font-bold text-orange-500 hover:text-orange-400 border border-dashed border-orange-500/30 hover:border-orange-500 rounded transition-all duration-300 flex items-center justify-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                    </svg>
+                    BAIXAR MODELO CSV
+                </button>
+            </div>
+
+            <!-- Área de Upload -->
+            <div class="space-y-5 animate-fade-in-up delay-200">
+
+                <label for="csvFileInput" class="file-drop-zone group w-full flex flex-col items-center justify-center h-32 cursor-pointer rounded-2xl relative overflow-hidden">
+                    <div class="relative z-10 flex flex-col items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-gray-500 group-hover:text-orange-500 mb-2 transition-colors duration-300 transform group-hover:scale-110" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
+                        </svg>
+                        <span class="text-gray-300 font-medium group-hover:text-white transition-colors text-sm">Selecionar Arquivo CSV</span>
+                    </div>
+                    <input type="file" id="csvFileInput" accept=".csv" class="hidden">
+                </label>
+
+                <!-- Nome do arquivo com animação -->
+                <div id="fileInfoContainer" class="hidden items-center justify-between bg-slate-800/80 rounded px-4 py-2 border-l-2 border-orange-500 shadow-lg">
+                    <div class="flex items-center overflow-hidden">
+                        <svg class="w-4 h-4 text-orange-500 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <p id="fileName" class="text-sm text-white font-medium truncate"></p>
+                    </div>
+                    <span class="text-[10px] text-orange-400 font-bold ml-2 uppercase">Pronto</span>
+                </div>
+
+                <!-- Botão de Ação Principal -->
+                <button id="processButton" class="btn-tecnoit w-full text-white font-bold py-4 px-6 rounded-xl shadow-lg flex justify-center items-center gap-3 tracking-wide uppercase text-sm" disabled>
+                    <span>Validar & Converter</span>
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
                     </svg>
-                </span>
-                <h3 class="text-sm font-bold text-gray-200 uppercase">Requisitos do Arquivo</h3>
+                </button>
             </div>
-            
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs text-gray-400 font-mono">
-                <ul class="space-y-2">
-                    <li class="flex items-center"><span class="w-1.5 h-1.5 bg-orange-600 rounded-full mr-2"></span>Formato .CSV (ponto e vírgula)</li>
-                    <li class="flex items-center"><span class="w-1.5 h-1.5 bg-orange-600 rounded-full mr-2"></span>Col A: Nome do Equipamento</li>
-                </ul>
-                <ul class="space-y-2">
-                    <li class="flex items-center"><span class="w-1.5 h-1.5 bg-gray-500 rounded-full mr-2"></span>Col B: MAC (Qualquer formato)</li>
-                    <li class="flex items-center"><span class="w-1.5 h-1.5 bg-green-500 rounded-full mr-2"></span>Saída: AA:BB:CC:11:22:33</li>
-                </ul>
-            </div>
-            
-            <button id="downloadTemplateButton" class="mt-4 w-full py-2 text-xs font-bold text-orange-500 hover:text-orange-400 border border-dashed border-orange-500/30 hover:border-orange-500 rounded transition-all duration-300 flex items-center justify-center gap-2">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
-                </svg>
-                BAIXAR MODELO CSV
-            </button>
-        </div>
-        
-        <!-- Área de Upload -->
-        <div class="space-y-5 animate-fade-in-up delay-200">
-            
-            <label for="csvFileInput" class="file-drop-zone group w-full flex flex-col items-center justify-center h-32 cursor-pointer rounded-2xl relative overflow-hidden">
-                <div class="relative z-10 flex flex-col items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-gray-500 group-hover:text-orange-500 mb-2 transition-colors duration-300 transform group-hover:scale-110" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
-                    </svg>
-                    <span class="text-gray-300 font-medium group-hover:text-white transition-colors text-sm">Selecionar Arquivo CSV</span>
+
+            <!-- Área de Resultados -->
+            <div id="resultsArea" class="hidden mt-8 pt-6 border-t border-slate-700/50 animate-fade-in-up delay-300">
+                <div class="flex items-center justify-between mb-4">
+                    <h2 class="text-lg font-bold text-white">Resultado da Análise</h2>
+                    <div class="h-2 w-2 bg-green-500 rounded-full animate-pulse"></div>
                 </div>
-                <input type="file" id="csvFileInput" accept=".csv" class="hidden">
-            </label>
-            
-            <!-- Nome do arquivo com animação -->
-            <div id="fileInfoContainer" class="hidden items-center justify-between bg-slate-800/80 rounded px-4 py-2 border-l-2 border-orange-500 shadow-lg">
-                <div class="flex items-center overflow-hidden">
-                    <svg class="w-4 h-4 text-orange-500 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                    <p id="fileName" class="text-sm text-white font-medium truncate"></p>
+
+                <div id="summary" class="mb-5">
+                    <!-- Conteúdo injetado via JS -->
                 </div>
-                <span class="text-[10px] text-orange-400 font-bold ml-2 uppercase">Pronto</span>
-            </div>
-            
-            <!-- Botão de Ação Principal -->
-            <button id="processButton" class="btn-tecnoit w-full text-white font-bold py-4 px-6 rounded-xl shadow-lg flex justify-center items-center gap-3 tracking-wide uppercase text-sm" disabled>
-                <span>Validar & Converter</span>
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                </svg>
-            </button>
-        </div>
 
-        <!-- Área de Resultados -->
-        <div id="resultsArea" class="hidden mt-8 pt-6 border-t border-slate-700/50 animate-fade-in-up delay-300">
-            <div class="flex items-center justify-between mb-4">
-                <h2 class="text-lg font-bold text-white">Resultado da Análise</h2>
-                <div class="h-2 w-2 bg-green-500 rounded-full animate-pulse"></div>
-            </div>
-            
-            <div id="summary" class="mb-5">
-                <!-- Conteúdo injetado via JS -->
+                <div class="grid grid-cols-1 gap-3">
+                    <a id="downloadTxtLink" class="hidden flex items-center justify-between w-full bg-slate-800 hover:bg-slate-700 border border-slate-700 hover:border-green-500/50 text-white p-3 rounded-lg transition-all duration-300 group cursor-pointer">
+                        <!-- Injetado via JS -->
+                    </a>
+
+                    <a id="downloadErrorsLink" class="hidden flex items-center justify-between w-full bg-slate-800 hover:bg-slate-700 border border-slate-700 hover:border-red-500/50 text-white p-3 rounded-lg transition-all duration-300 group cursor-pointer">
+                        <!-- Injetado via JS -->
+                    </a>
+                </div>
             </div>
 
-            <div class="grid grid-cols-1 gap-3">
-                <a id="downloadTxtLink" class="hidden flex items-center justify-between w-full bg-slate-800 hover:bg-slate-700 border border-slate-700 hover:border-green-500/50 text-white p-3 rounded-lg transition-all duration-300 group cursor-pointer">
-                    <!-- Injetado via JS -->
-                </a>
-                
-                <a id="downloadErrorsLink" class="hidden flex items-center justify-between w-full bg-slate-800 hover:bg-slate-700 border border-slate-700 hover:border-red-500/50 text-white p-3 rounded-lg transition-all duration-300 group cursor-pointer">
-                    <!-- Injetado via JS -->
-                </a>
+            <!-- Rodapé -->
+            <div class="mt-8 text-center">
+                <p class="opacity-30 text-[10px] font-light tracking-[0.3em] hover:text-orange-500 transition-colors cursor-default">POWERED BY TECNOIT © 2025</p>
             </div>
-        </div>
-        
-        <!-- Rodapé -->
-        <div class="mt-8 text-center">
-            <p class="opacity-30 text-[10px] font-light tracking-[0.3em] hover:text-orange-500 transition-colors cursor-default">POWERED BY TECNOIT © 2025</p>
-        </div>
 
+        </div>
     </div>
 
     <script>
         /* --- Configuração --- */
-        const coluna_equipamento = 0; 
-        const coluna_mac = 1;         
+        const coluna_equipamento = 0;
+        const coluna_mac = 1;
         /* --- Fim da Configuração --- */
 
         /* Referências DOM */
@@ -221,14 +246,14 @@
             if (file) {
                 currentFileName = file.name;
                 fileNameDisplay.textContent = file.name;
-                
+
                 // Mostra container do nome do arquivo
                 fileInfoContainer.classList.remove('hidden');
                 fileInfoContainer.classList.add('flex', 'animate-fade-in-up');
 
                 // Habilita botão
                 processButton.disabled = false;
-                
+
                 // Reseta UI anterior
                 resultsArea.classList.add('hidden');
                 txtLink.classList.add('hidden');
@@ -238,24 +263,24 @@
                 reader.onload = (e) => {
                     csvFileContent = e.target.result;
                 };
-                reader.readAsText(file, 'iso-8859-1'); 
+                reader.readAsText(file, 'iso-8859-1');
             }
         });
 
         /* 2. Processamento */
         processButton.addEventListener('click', () => {
             if (!csvFileContent) return;
-            
+
             // Estado de loading
             const btnText = processButton.querySelector('span');
             const originalText = btnText.innerText;
             btnText.innerText = "PROCESSANDO...";
             processButton.disabled = true;
             processButton.classList.add('opacity-80');
-            
+
             // Reseta e inicia
             resultsArea.classList.add('hidden');
-            
+
             setTimeout(() => {
                 processCSV(csvFileContent);
                 btnText.innerText = "VALIDAR NOVAMENTE";
@@ -272,7 +297,7 @@
                 "TecnoIT-Server-01;AA-BB-CC-11-22-33",
                 "TecnoIT-Wifi-Guest;00:11:22:AA:BB:CC"
             ].join('\n');
-            
+
             const blob = new Blob(["\uFEFF" + csvTemplateContent], { type: 'text/csv;charset=utf-8;' });
             const link = document.createElement('a');
             link.href = URL.createObjectURL(blob);
@@ -285,18 +310,18 @@
         /* 4. Lógica Principal */
         function processCSV(csvContent) {
             const outputLines = [];
-            const linhasComErro = [['Equipamento', 'MAC (Original)', 'Motivo do Erro']]; 
+            const linhasComErro = [['Equipamento', 'MAC (Original)', 'Motivo do Erro']];
 
             const macsVistos = {};
             const nomesVistos = {};
             const macRegex = /^([0-9A-Fa-f]{2}[:]){5}([0-9A-Fa-f]{2})$/;
 
-            const linhas = csvContent.split(/\r?\n/); 
+            const linhas = csvContent.split(/\r?\n/);
             let linhasProcessadas = 0;
 
             for (let i = 1; i < linhas.length; i++) {
                 const linhaOriginal = linhas[i];
-                const linhaNumero = i + 1; 
+                const linhaNumero = i + 1;
                 if (!linhaOriginal.trim()) continue;
 
                 linhasProcessadas++;
@@ -347,7 +372,7 @@
                 outputLines.push('next');
             }
 
-            const numSucesso = outputLines.length / 5; 
+            const numSucesso = outputLines.length / 5;
             const numErros = linhasComErro.length - 1;
 
             // TXT Sucesso
