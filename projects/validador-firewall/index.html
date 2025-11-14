@@ -218,6 +218,11 @@
                         <!-- Injetado via JS -->
                     </a>
 
+                    <!-- NOVO LINK PARA GRUPO -->
+                    <a id="downloadGroupLink" class="hidden flex items-center justify-between w-full bg-slate-800 hover:bg-slate-700 border border-slate-700 hover:border-blue-500/50 text-white p-3 rounded-lg transition-all duration-300 group cursor-pointer">
+                        <!-- Injetado via JS -->
+                    </a>
+
                     <a id="downloadErrorsLink" class="hidden flex items-center justify-between w-full bg-slate-800 hover:bg-slate-700 border border-slate-700 hover:border-red-500/50 text-white p-3 rounded-lg transition-all duration-300 group cursor-pointer">
                         <!-- Injetado via JS -->
                     </a>
@@ -247,6 +252,7 @@
         const summaryDisplay = document.getElementById('summary');
         const txtLink = document.getElementById('downloadTxtLink');
         const errorsLink = document.getElementById('downloadErrorsLink');
+        const downloadGroupLink = document.getElementById('downloadGroupLink'); // NOVO
         const downloadTemplateButton = document.getElementById('downloadTemplateButton');
 
         let csvFileContent = null;
@@ -270,6 +276,7 @@
                 resultsArea.classList.add('hidden');
                 txtLink.classList.add('hidden');
                 errorsLink.classList.add('hidden');
+                downloadGroupLink.classList.add('hidden'); // NOVO
 
                 const reader = new FileReader();
                 reader.onload = (e) => {
@@ -323,6 +330,7 @@
         function processCSV(csvContent) {
             const outputLines = [];
             const linhasComErro = [['Equipamento', 'MAC (Original)', 'Motivo do Erro']];
+            const listaObjetos = []; // NOVO: Array para nomes de objetos válidos
 
             const macsVistos = {};
             const nomesVistos = {};
@@ -357,10 +365,24 @@
                 }
 
                 // LÓGICA: Troca hífen por dois pontos e converte para maiúsculo
-                const macFormatado = macOriginal.replace(/-/g, ':').toUpperCase();
+                // Adiciona também a remoção de " e . para limpar o MAC
+                const macLimpo = macOriginal.replace(/[\s."\-]/g, '');
+                
+                // Tenta formatar para o padrão com dois pontos
+                let macFormatado = '';
+                if (macLimpo.length === 12) {
+                     macFormatado = macLimpo
+                        .match(/.{1,2}/g)
+                        .join(':')
+                        .toUpperCase();
+                } else {
+                    // Se não tem 12 chars, usa a lógica antiga para pegar erros de formato
+                     macFormatado = macOriginal.replace(/-/g, ':').toUpperCase();
+                }
+
 
                 if (!macRegex.test(macFormatado)) {
-                    linhasComErro.push([equipamento, macOriginal, `Linha ${linhaNumero}: Formato inválido`]);
+                    linhasComErro.push([equipamento, macOriginal, `Linha ${linhaNumero}: Formato inválido (${macFormatado})`]);
                     continue;
                 }
 
@@ -377,6 +399,9 @@
                 nomesVistos[equipamento] = linhaNumero;
                 macsVistos[macFormatado] = linhaNumero;
 
+                // NOVO: Adiciona nome válido à lista do grupo
+                listaObjetos.push(equipamento);
+
                 outputLines.push(`edit "${equipamento}"`);
                 outputLines.push('set type mac');
                 outputLines.push(`set macaddr ${macFormatado}`);
@@ -384,24 +409,55 @@
                 outputLines.push('next');
             }
 
-            const numSucesso = outputLines.length / 5;
+            const numSucesso = outputLines.length / 5; // ou listaObjetos.length
             const numErros = linhasComErro.length - 1;
 
-            // TXT Sucesso
+            // TXT Sucesso (Objetos)
             if (numSucesso > 0) {
                 const txtContent = 'config firewall address\n' + outputLines.join('\n') + '\nend\n';
                 const blob = new Blob(["\uFEFF" + txtContent], { type: 'text/plain;charset=utf-8' });
                 txtLink.href = URL.createObjectURL(blob);
-                txtLink.download = 'config_firewall.txt';
+                txtLink.download = 'config_firewall_OBJ.txt'; // Renomeado para clareza
                 txtLink.innerHTML = `
                     <div class="flex flex-col">
-                        <span class="text-xs text-gray-400 font-bold uppercase">Script Gerado</span>
-                        <span class="font-bold text-green-400">Baixar .TXT</span>
+                        <span class="text-xs text-gray-400 font-bold uppercase">Script de Objetos</span>
+                        <span class="font-bold text-green-400">Baixar .TXT (Objetos)</span>
                     </div>
                     <span class="bg-slate-900 border border-slate-600 text-white text-xs font-mono px-2 py-1 rounded">${numSucesso} OK</span>
                 `;
                 txtLink.classList.remove('hidden');
+            } else {
+                 txtLink.classList.add('hidden');
             }
+
+            // NOVO: Script do Grupo (addrgrp)
+            if (numSucesso > 0) {
+                // Constrói a string de membros: "<obj1>" "<obj2>" ...
+                const membersString = listaObjetos.map(nome => `"${nome}"`).join(' ');
+                
+                const groupScriptContent = [
+                    'config firewall addrgrp',
+                    'edit "macs_liberados"',
+                    `set member ${membersString}`,
+                    'next',
+                    'end\n'
+                ].join('\n');
+
+                const blob = new Blob(["\uFEFF" + groupScriptContent], { type: 'text/plain;charset=utf-8' });
+                downloadGroupLink.href = URL.createObjectURL(blob);
+                downloadGroupLink.download = 'macs_liberados_GRP.txt';
+                downloadGroupLink.innerHTML = `
+                    <div class="flex flex-col">
+                        <span class="text-xs text-gray-400 font-bold uppercase">Script de Grupo</span>
+                        <span class="font-bold text-blue-400">Baixar .TXT (Grupo)</span>
+                    </div>
+                    <span class="bg-slate-900 border border-slate-600 text-white text-xs font-mono px-2 py-1 rounded">${numSucesso} Membros</span>
+                `;
+                downloadGroupLink.classList.remove('hidden');
+            } else {
+                downloadGroupLink.classList.add('hidden');
+            }
+
 
             // CSV Erros
             if (numErros > 0) {
@@ -417,6 +473,8 @@
                     <span class="bg-slate-900 border border-slate-600 text-white text-xs font-mono px-2 py-1 rounded">${numErros} Erros</span>
                 `;
                 errorsLink.classList.remove('hidden');
+            } else {
+                errorsLink.classList.add('hidden');
             }
 
             // Resumo
