@@ -149,52 +149,58 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                         </svg>
                     </span>
-                    <h3 class="text-sm font-bold text-gray-200 uppercase">Requisitos do Arquivo</h3>
+                    <h3 class="text-sm font-bold text-gray-200 uppercase">Instruções de Uso</h3>
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs text-gray-400 font-mono">
                     <ul class="space-y-2">
-                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-orange-600 rounded-full mr-2"></span>Formato .CSV (ponto e vírgula)</li>
-                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-orange-600 rounded-full mr-2"></span>Col A: Nome do Equipamento</li>
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-orange-600 rounded-full mr-2"></span>Cole dados de Excel, CSV ou Texto</li>
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-orange-600 rounded-full mr-2"></span>Col 1: Nome do Equipamento</li>
                     </ul>
                     <ul class="space-y-2">
-                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-gray-500 rounded-full mr-2"></span>Col B: MAC (Qualquer formato)</li>
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-gray-500 rounded-full mr-2"></span>Col 2: MAC (Hífen ou Dois Pontos)</li>
                         <li class="flex items-center"><span class="w-1.5 h-1.5 bg-green-500 rounded-full mr-2"></span>Saída: AA:BB:CC:11:22:33</li>
                     </ul>
                 </div>
 
-                <button id="downloadTemplateButton" class="mt-4 w-full py-2 text-xs font-bold text-orange-500 hover:text-orange-400 border border-dashed border-orange-500/30 hover:border-orange-500 rounded transition-all duration-300 flex items-center justify-center gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
-                    </svg>
-                    BAIXAR MODELO CSV
-                </button>
+                <div class="mt-4 flex gap-2">
+                     <button id="clearButton" class="w-1/3 py-2 text-xs font-bold text-gray-500 hover:text-white border border-dashed border-gray-600 hover:border-gray-400 rounded transition-all duration-300">
+                        LIMPAR
+                    </button>
+                     <button id="downloadTemplateButton" class="w-2/3 py-2 text-xs font-bold text-orange-500 hover:text-orange-400 border border-dashed border-orange-500/30 hover:border-orange-500 rounded transition-all duration-300 flex items-center justify-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                        </svg>
+                        BAIXAR MODELO CSV
+                    </button>
+                </div>
             </div>
 
-            <!-- Área de Upload -->
+            <!-- Área de Entrada de Dados -->
             <div class="space-y-5 animate-fade-in-up delay-200">
 
-                <label for="csvFileInput" class="file-drop-zone group w-full flex flex-col items-center justify-center h-32 cursor-pointer rounded-2xl relative overflow-hidden">
-                    <div class="relative z-10 flex flex-col items-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-gray-500 group-hover:text-orange-500 mb-2 transition-colors duration-300 transform group-hover:scale-110" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
+                <!-- Botão de Upload / Dropzone (RESTAURADO) -->
+                <label for="fileInput" class="group flex items-center justify-center w-full py-3 bg-slate-800/50 hover:bg-slate-800 border border-dashed border-slate-600 hover:border-orange-500 rounded-xl cursor-pointer transition-all duration-300">
+                    <div class="flex items-center space-x-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400 group-hover:text-orange-500 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
                         </svg>
-                        <span class="text-gray-300 font-medium group-hover:text-white transition-colors text-sm">Selecionar Arquivo CSV</span>
+                        <span class="text-xs text-gray-400 font-bold uppercase group-hover:text-white transition-colors">Carregar Arquivo .CSV ou .TXT</span>
                     </div>
-                    <input type="file" id="csvFileInput" accept=".csv" class="hidden">
+                    <input type="file" id="fileInput" class="hidden" accept=".csv,.txt">
                 </label>
 
-                <!-- Nome do arquivo com animação -->
-                <div id="fileInfoContainer" class="hidden items-center justify-between bg-slate-800/80 rounded px-4 py-2 border-l-2 border-orange-500 shadow-lg">
-                    <div class="flex items-center overflow-hidden">
-                        <svg class="w-4 h-4 text-orange-500 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                        <p id="fileName" class="text-sm text-white font-medium truncate"></p>
+                <div class="relative group">
+                    <div class="absolute -inset-0.5 bg-gradient-to-r from-orange-600 to-yellow-600 rounded-lg blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
+                    <textarea id="dataInput" class="relative block w-full bg-slate-900 border border-slate-700 text-gray-300 rounded-lg p-4 font-mono text-xs focus:ring-2 focus:ring-orange-500 focus:outline-none transition-all resize-y min-h-[200px] placeholder-gray-600" placeholder="Exemplo de entrada:&#10;SME-MICR-302390    30-DE-4B-E7-DC-B2&#10;SME-MICR-302395    9C-A2-F4-C2-F6-84&#10;&#10;Ou CSV:&#10;Equipamento;MAC&#10;PC-01;AA:BB:CC:11:22:33"></textarea>
+
+                    <div class="absolute bottom-3 right-3 text-[10px] text-gray-500 pointer-events-none uppercase font-bold tracking-wider">
+                        Cole seus dados aqui
                     </div>
-                    <span class="text-[10px] text-orange-400 font-bold ml-2 uppercase">Pronto</span>
                 </div>
 
                 <!-- Botão de Ação Principal -->
-                <button id="processButton" class="btn-tecnoit w-full text-white font-bold py-4 px-6 rounded-xl shadow-lg flex justify-center items-center gap-3 tracking-wide uppercase text-sm" disabled>
+                <button id="processButton" class="btn-tecnoit w-full text-white font-bold py-4 px-6 rounded-xl shadow-lg flex justify-center items-center gap-3 tracking-wide uppercase text-sm">
                     <span>Validar & Converter</span>
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -238,61 +244,51 @@
     </div>
 
     <script>
-        /* --- Configuração --- */
-        const coluna_equipamento = 0;
-        const coluna_mac = 1;
-        /* --- Fim da Configuração --- */
-
         /* Referências DOM */
-        const fileInput = document.getElementById('csvFileInput');
-        const fileInfoContainer = document.getElementById('fileInfoContainer');
-        const fileNameDisplay = document.getElementById('fileName');
+        const dataInput = document.getElementById('dataInput');
+        const fileInput = document.getElementById('fileInput');
         const processButton = document.getElementById('processButton');
+        const clearButton = document.getElementById('clearButton');
         const resultsArea = document.getElementById('resultsArea');
         const summaryDisplay = document.getElementById('summary');
         const txtLink = document.getElementById('downloadTxtLink');
         const errorsLink = document.getElementById('downloadErrorsLink');
-        const downloadGroupLink = document.getElementById('downloadGroupLink'); // NOVO
+        const downloadGroupLink = document.getElementById('downloadGroupLink');
         const downloadTemplateButton = document.getElementById('downloadTemplateButton');
 
-        let csvFileContent = null;
-        let currentFileName = "";
+        /* 1. Limpar Dados */
+        clearButton.addEventListener('click', () => {
+            dataInput.value = '';
+            fileInput.value = ''; // Reseta o input file também
+            dataInput.focus();
+            resultsArea.classList.add('hidden');
+        });
 
-        /* 1. Upload do Arquivo */
+        /* 2. Leitura de Arquivo (NOVO) */
         fileInput.addEventListener('change', (event) => {
             const file = event.target.files[0];
             if (file) {
-                currentFileName = file.name;
-                fileNameDisplay.textContent = file.name;
-
-                // Mostra container do nome do arquivo
-                fileInfoContainer.classList.remove('hidden');
-                fileInfoContainer.classList.add('flex', 'animate-fade-in-up');
-
-                // Habilita botão
-                processButton.disabled = false;
-
-                // Reseta UI anterior
-                resultsArea.classList.add('hidden');
-                txtLink.classList.add('hidden');
-                errorsLink.classList.add('hidden');
-                downloadGroupLink.classList.add('hidden'); // NOVO
-
                 const reader = new FileReader();
                 reader.onload = (e) => {
-                    csvFileContent = e.target.result;
+                    const content = e.target.result;
+                    dataInput.value = content; // Preenche o textarea
+                    // Opcional: Feedback visual de que carregou
+                    // alert("Arquivo carregado com sucesso!");
                 };
-                reader.readAsText(file, 'iso-8859-1');
+                reader.readAsText(file, 'iso-8859-1'); // Mantém codificação compatível
             }
         });
 
         /* 2. Processamento */
         processButton.addEventListener('click', () => {
-            if (!csvFileContent) return;
+            const content = dataInput.value;
+            if (!content.trim()) {
+                alert("Por favor, cole os dados no campo de texto.");
+                return;
+            }
 
             // Estado de loading
             const btnText = processButton.querySelector('span');
-            const originalText = btnText.innerText;
             btnText.innerText = "PROCESSANDO...";
             processButton.disabled = true;
             processButton.classList.add('opacity-80');
@@ -301,7 +297,7 @@
             resultsArea.classList.add('hidden');
 
             setTimeout(() => {
-                processCSV(csvFileContent);
+                processData(content);
                 btnText.innerText = "VALIDAR NOVAMENTE";
                 processButton.disabled = false;
                 processButton.classList.remove('opacity-80');
@@ -327,42 +323,72 @@
         });
 
         /* 4. Lógica Principal */
-        function processCSV(csvContent) {
+        function processData(content) {
             const outputLines = [];
             const linhasComErro = [['Equipamento', 'MAC (Original)', 'Motivo do Erro']];
-            const listaObjetos = []; // NOVO: Array para nomes de objetos válidos
+            const listaObjetos = []; // Array para nomes de objetos válidos
 
             const macsVistos = {};
             const nomesVistos = {};
             const macRegex = /^([0-9A-Fa-f]{2}[:]){5}([0-9A-Fa-f]{2})$/;
 
-            const linhas = csvContent.split(/\r?\n/);
+            const linhas = content.split(/\r?\n/);
             let linhasProcessadas = 0;
 
-            for (let i = 1; i < linhas.length; i++) {
+            for (let i = 0; i < linhas.length; i++) {
                 const linhaOriginal = linhas[i];
                 const linhaNumero = i + 1;
+
+                // Ignora linhas vazias
                 if (!linhaOriginal.trim()) continue;
 
+                // --- NOVA LÓGICA DE PARSING FLEXÍVEL ---
+                let tokens = [];
+                // 1. Tenta separar por TAB (comum em Excel)
+                if (linhaOriginal.includes('\t')) {
+                    tokens = linhaOriginal.split('\t');
+                }
+                // 2. Tenta separar por Ponto e Vírgula (CSV Europeu/BR)
+                else if (linhaOriginal.includes(';')) {
+                    tokens = linhaOriginal.split(';');
+                }
+                // 3. Tenta separar por Vírgula (CSV Padrão) - cuidado com texto, mas simples aqui
+                else if (linhaOriginal.includes(',')) {
+                    tokens = linhaOriginal.split(',');
+                }
+                // 4. Se não tiver nenhum dos acima, tenta espaços múltiplos (copiado de tabela HTML/texto)
+                else {
+                    tokens = linhaOriginal.trim().split(/\s+/);
+                }
+
+                // Filtra tokens vazios que podem surgir de tabs duplos ou espaços no final
+                tokens = tokens.map(t => t.trim()).filter(t => t !== "");
+
+                // Ignora linhas de cabeçalho comuns
+                if (tokens.length > 0) {
+                    const firstTokenLower = tokens[0].toLowerCase();
+                    if (firstTokenLower === "equipamento" || firstTokenLower === "name" || firstTokenLower === "nome") {
+                        continue;
+                    }
+                }
+
                 linhasProcessadas++;
-                const colunas = linhaOriginal.split(';');
 
                 let equipamento = "";
                 let macOriginal = "";
 
-                try {
-                    if (colunas.length <= coluna_mac) throw new Error("Dados incompletos");
-                    equipamento = colunas[coluna_equipamento].trim();
-                    macOriginal = colunas[coluna_mac].trim();
-                } catch (e) {
-                    linhasComErro.push(['Linha Incompleta', linhaOriginal, `Linha ${linhaNumero}: Leitura falhou`]);
-                    continue;
+                if (tokens.length >= 2) {
+                    equipamento = tokens[0];
+                    // O MAC geralmente é o último ou segundo token.
+                    // Vamos assumir o segundo para simplificar a maioria dos casos de "Nome MAC"
+                    // Mas se tiver mais tokens (ex: descrição), pegamos o segundo também.
+                    macOriginal = tokens[1];
+                } else {
+                     linhasComErro.push(['Linha Incompleta', linhaOriginal, `Linha ${linhaNumero}: Menos de 2 colunas detectadas`]);
+                     continue;
                 }
+                // --- FIM DA LÓGICA FLEXÍVEL ---
 
-                if (!equipamento || !macOriginal) {
-                    linhasComErro.push([equipamento, macOriginal, `Linha ${linhaNumero}: Dados vazios`]);
-                    continue;
-                }
 
                 // LÓGICA: Troca hífen por dois pontos e converte para maiúsculo
                 // Adiciona também a remoção de " e . para limpar o MAC
@@ -379,7 +405,6 @@
                     // Se não tem 12 chars, usa a lógica antiga para pegar erros de formato
                      macFormatado = macOriginal.replace(/-/g, ':').toUpperCase();
                 }
-
 
                 if (!macRegex.test(macFormatado)) {
                     linhasComErro.push([equipamento, macOriginal, `Linha ${linhaNumero}: Formato inválido (${macFormatado})`]);
@@ -399,7 +424,7 @@
                 nomesVistos[equipamento] = linhaNumero;
                 macsVistos[macFormatado] = linhaNumero;
 
-                // NOVO: Adiciona nome válido à lista do grupo
+                // Adiciona nome válido à lista do grupo
                 listaObjetos.push(equipamento);
 
                 outputLines.push(`edit "${equipamento}"`);
@@ -409,7 +434,7 @@
                 outputLines.push('next');
             }
 
-            const numSucesso = outputLines.length / 5; // ou listaObjetos.length
+            const numSucesso = outputLines.length / 5; // Cada objeto tem 5 linhas de config
             const numErros = linhasComErro.length - 1;
 
             // TXT Sucesso (Objetos)
@@ -417,7 +442,7 @@
                 const txtContent = 'config firewall address\n' + outputLines.join('\n') + '\nend\n';
                 const blob = new Blob(["\uFEFF" + txtContent], { type: 'text/plain;charset=utf-8' });
                 txtLink.href = URL.createObjectURL(blob);
-                txtLink.download = 'config_firewall_OBJ.txt'; // Renomeado para clareza
+                txtLink.download = 'config_firewall_OBJ.txt';
                 txtLink.innerHTML = `
                     <div class="flex flex-col">
                         <span class="text-xs text-gray-400 font-bold uppercase">Script de Objetos</span>
@@ -430,15 +455,15 @@
                  txtLink.classList.add('hidden');
             }
 
-            // NOVO: Script do Grupo (addrgrp)
+            // Script do Grupo (addrgrp) - COM COR 13 ADICIONADA
             if (numSucesso > 0) {
-                // Constrói a string de membros: "<obj1>" "<obj2>" ...
                 const membersString = listaObjetos.map(nome => `"${nome}"`).join(' ');
                 
                 const groupScriptContent = [
                     'config firewall addrgrp',
                     'edit "macs_liberados"',
                     `set member ${membersString}`,
+                    'set color 13',
                     'next',
                     'end\n'
                 ].join('\n');
