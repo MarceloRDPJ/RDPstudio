@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <!-- Version 1.2 Added Preview Feature -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Validador TecnoIT - Firewall MACs</title>
@@ -92,6 +93,44 @@
             transform: translateY(-2px);
             color: #fb923c; /* orange-300 */
         }
+
+        /* Modal */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.75);
+            backdrop-filter: blur(8px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 50;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+        }
+        .modal-overlay.active {
+            opacity: 1;
+            pointer-events: auto;
+        }
+        .modal-content {
+            background: #0f172a;
+            border: 1px solid rgba(234, 88, 12, 0.3);
+            width: 90%;
+            max-width: 800px;
+            height: 80vh;
+            border-radius: 1rem;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            transform: scale(0.95);
+            transition: transform 0.3s ease;
+        }
+        .modal-overlay.active .modal-content {
+            transform: scale(1);
+        }
     </style>
 </head>
 <body class="p-4 md:p-8 selection:bg-orange-500 selection:text-white">
@@ -149,52 +188,58 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                         </svg>
                     </span>
-                    <h3 class="text-sm font-bold text-gray-200 uppercase">Requisitos do Arquivo</h3>
+                    <h3 class="text-sm font-bold text-gray-200 uppercase">Instruções de Uso</h3>
                 </div>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs text-gray-400 font-mono">
                     <ul class="space-y-2">
-                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-orange-600 rounded-full mr-2"></span>Formato .CSV (ponto e vírgula)</li>
-                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-orange-600 rounded-full mr-2"></span>Col A: Nome do Equipamento</li>
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-orange-600 rounded-full mr-2"></span>Cole dados de Excel, CSV ou Texto</li>
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-orange-600 rounded-full mr-2"></span>Col 1: Nome do Equipamento</li>
                     </ul>
                     <ul class="space-y-2">
-                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-gray-500 rounded-full mr-2"></span>Col B: MAC (Qualquer formato)</li>
+                        <li class="flex items-center"><span class="w-1.5 h-1.5 bg-gray-500 rounded-full mr-2"></span>Col 2: MAC (Hífen ou Dois Pontos)</li>
                         <li class="flex items-center"><span class="w-1.5 h-1.5 bg-green-500 rounded-full mr-2"></span>Saída: AA:BB:CC:11:22:33</li>
                     </ul>
                 </div>
 
-                <button id="downloadTemplateButton" class="mt-4 w-full py-2 text-xs font-bold text-orange-500 hover:text-orange-400 border border-dashed border-orange-500/30 hover:border-orange-500 rounded transition-all duration-300 flex items-center justify-center gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
-                    </svg>
-                    BAIXAR MODELO CSV
-                </button>
+                <div class="mt-4 flex gap-2">
+                     <button id="clearButton" class="w-1/3 py-2 text-xs font-bold text-gray-500 hover:text-white border border-dashed border-gray-600 hover:border-gray-400 rounded transition-all duration-300">
+                        LIMPAR
+                    </button>
+                     <button id="downloadTemplateButton" class="w-2/3 py-2 text-xs font-bold text-orange-500 hover:text-orange-400 border border-dashed border-orange-500/30 hover:border-orange-500 rounded transition-all duration-300 flex items-center justify-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                        </svg>
+                        BAIXAR MODELO CSV
+                    </button>
+                </div>
             </div>
 
-            <!-- Área de Upload -->
+            <!-- Área de Entrada de Dados -->
             <div class="space-y-5 animate-fade-in-up delay-200">
 
-                <label for="csvFileInput" class="file-drop-zone group w-full flex flex-col items-center justify-center h-32 cursor-pointer rounded-2xl relative overflow-hidden">
-                    <div class="relative z-10 flex flex-col items-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-gray-500 group-hover:text-orange-500 mb-2 transition-colors duration-300 transform group-hover:scale-110" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
+                <!-- Botão de Upload / Dropzone (RESTAURADO) -->
+                <label for="fileInput" class="group flex items-center justify-center w-full py-3 bg-slate-800/50 hover:bg-slate-800 border border-dashed border-slate-600 hover:border-orange-500 rounded-xl cursor-pointer transition-all duration-300">
+                    <div class="flex items-center space-x-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400 group-hover:text-orange-500 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12" />
                         </svg>
-                        <span class="text-gray-300 font-medium group-hover:text-white transition-colors text-sm">Selecionar Arquivo CSV</span>
+                        <span class="text-xs text-gray-400 font-bold uppercase group-hover:text-white transition-colors">Carregar Arquivo .CSV ou .TXT</span>
                     </div>
-                    <input type="file" id="csvFileInput" accept=".csv" class="hidden">
+                    <input type="file" id="fileInput" class="hidden" accept=".csv,.txt">
                 </label>
 
-                <!-- Nome do arquivo com animação -->
-                <div id="fileInfoContainer" class="hidden items-center justify-between bg-slate-800/80 rounded px-4 py-2 border-l-2 border-orange-500 shadow-lg">
-                    <div class="flex items-center overflow-hidden">
-                        <svg class="w-4 h-4 text-orange-500 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                        <p id="fileName" class="text-sm text-white font-medium truncate"></p>
+                <div class="relative group">
+                    <div class="absolute -inset-0.5 bg-gradient-to-r from-orange-600 to-yellow-600 rounded-lg blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
+                    <textarea id="dataInput" class="relative block w-full bg-slate-900 border border-slate-700 text-gray-300 rounded-lg p-4 font-mono text-xs focus:ring-2 focus:ring-orange-500 focus:outline-none transition-all resize-y min-h-[200px] placeholder-gray-600" placeholder="Exemplo de entrada:&#10;SME-MICR-302390    30-DE-4B-E7-DC-B2&#10;SME-MICR-302395    9C-A2-F4-C2-F6-84&#10;&#10;Ou CSV:&#10;Equipamento;MAC&#10;PC-01;AA:BB:CC:11:22:33"></textarea>
+
+                    <div class="absolute bottom-3 right-3 text-[10px] text-gray-500 pointer-events-none uppercase font-bold tracking-wider">
+                        Cole seus dados aqui
                     </div>
-                    <span class="text-[10px] text-orange-400 font-bold ml-2 uppercase">Pronto</span>
                 </div>
 
                 <!-- Botão de Ação Principal -->
-                <button id="processButton" class="btn-tecnoit w-full text-white font-bold py-4 px-6 rounded-xl shadow-lg flex justify-center items-center gap-3 tracking-wide uppercase text-sm" disabled>
+                <button id="processButton" class="btn-tecnoit w-full text-white font-bold py-4 px-6 rounded-xl shadow-lg flex justify-center items-center gap-3 tracking-wide uppercase text-sm">
                     <span>Validar & Converter</span>
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -214,14 +259,32 @@
                 </div>
 
                 <div class="grid grid-cols-1 gap-3">
-                    <a id="downloadTxtLink" class="hidden flex items-center justify-between w-full bg-slate-800 hover:bg-slate-700 border border-slate-700 hover:border-green-500/50 text-white p-3 rounded-lg transition-all duration-300 group cursor-pointer">
-                        <!-- Injetado via JS -->
-                    </a>
 
-                    <!-- NOVO LINK PARA GRUPO -->
-                    <a id="downloadGroupLink" class="hidden flex items-center justify-between w-full bg-slate-800 hover:bg-slate-700 border border-slate-700 hover:border-blue-500/50 text-white p-3 rounded-lg transition-all duration-300 group cursor-pointer">
-                        <!-- Injetado via JS -->
-                    </a>
+                    <!-- Linha Script Objetos (Download + Preview) -->
+                    <div id="rowObjects" class="hidden flex gap-2">
+                        <a id="downloadTxtLink" class="flex-1 flex items-center justify-between bg-slate-800 hover:bg-slate-700 border border-slate-700 hover:border-green-500/50 text-white p-3 rounded-lg transition-all duration-300 group cursor-pointer">
+                            <!-- Injetado via JS -->
+                        </a>
+                        <button id="viewObjectsBtn" class="w-14 bg-slate-800 hover:bg-slate-700 border border-slate-700 hover:border-green-500 text-green-500 hover:text-green-400 rounded-lg flex items-center justify-center transition-all duration-300" title="Visualizar Script">
+                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                            </svg>
+                        </button>
+                    </div>
+
+                    <!-- Linha Script Grupo (Download + Preview) -->
+                    <div id="rowGroup" class="hidden flex gap-2">
+                        <a id="downloadGroupLink" class="flex-1 flex items-center justify-between bg-slate-800 hover:bg-slate-700 border border-slate-700 hover:border-blue-500/50 text-white p-3 rounded-lg transition-all duration-300 group cursor-pointer">
+                            <!-- Injetado via JS -->
+                        </a>
+                        <button id="viewGroupBtn" class="w-14 bg-slate-800 hover:bg-slate-700 border border-slate-700 hover:border-blue-500 text-blue-500 hover:text-blue-400 rounded-lg flex items-center justify-center transition-all duration-300" title="Visualizar Script">
+                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                            </svg>
+                        </button>
+                    </div>
 
                     <a id="downloadErrorsLink" class="hidden flex items-center justify-between w-full bg-slate-800 hover:bg-slate-700 border border-slate-700 hover:border-red-500/50 text-white p-3 rounded-lg transition-all duration-300 group cursor-pointer">
                         <!-- Injetado via JS -->
@@ -237,78 +300,146 @@
         </div>
     </div>
 
-    <script>
-        /* --- Configuração --- */
-        const coluna_equipamento = 0;
-        const coluna_mac = 1;
-        /* --- Fim da Configuração --- */
+    <!-- Modal de Visualização -->
+    <div id="previewModal" class="modal-overlay">
+        <div class="modal-content">
+            <div class="flex items-center justify-between p-4 border-b border-slate-700">
+                <h3 class="text-white font-bold text-lg flex items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-orange-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                    </svg>
+                    Visualizar Script
+                </h3>
+                <button id="closeModalIcon" class="text-gray-400 hover:text-white transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+            <div class="p-4 overflow-auto flex-1 bg-slate-950/50 relative group">
+                <pre id="modalText" class="text-xs text-green-400 font-mono whitespace-pre-wrap break-all"></pre>
+            </div>
+            <div class="p-4 border-t border-slate-700 flex justify-end gap-2 bg-slate-900/80">
+                <button id="copyModalBtn" class="px-4 py-2 bg-slate-700 hover:bg-slate-600 text-white text-sm font-bold rounded transition-colors flex items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3" />
+                    </svg>
+                    Copiar
+                </button>
+                <button id="closeModalBtnFooter" class="px-4 py-2 bg-orange-600 hover:bg-orange-500 text-white text-sm font-bold rounded transition-colors">
+                    Fechar
+                </button>
+            </div>
+        </div>
+    </div>
 
+    <script>
         /* Referências DOM */
-        const fileInput = document.getElementById('csvFileInput');
-        const fileInfoContainer = document.getElementById('fileInfoContainer');
-        const fileNameDisplay = document.getElementById('fileName');
+        const dataInput = document.getElementById('dataInput');
+        const fileInput = document.getElementById('fileInput');
         const processButton = document.getElementById('processButton');
+        const clearButton = document.getElementById('clearButton');
         const resultsArea = document.getElementById('resultsArea');
         const summaryDisplay = document.getElementById('summary');
         const txtLink = document.getElementById('downloadTxtLink');
         const errorsLink = document.getElementById('downloadErrorsLink');
-        const downloadGroupLink = document.getElementById('downloadGroupLink'); // NOVO
+        const downloadGroupLink = document.getElementById('downloadGroupLink');
         const downloadTemplateButton = document.getElementById('downloadTemplateButton');
 
-        let csvFileContent = null;
-        let currentFileName = "";
+        // Rows
+        const rowObjects = document.getElementById('rowObjects');
+        const rowGroup = document.getElementById('rowGroup');
+        const viewObjectsBtn = document.getElementById('viewObjectsBtn');
+        const viewGroupBtn = document.getElementById('viewGroupBtn');
 
-        /* 1. Upload do Arquivo */
+        // Modal
+        const previewModal = document.getElementById('previewModal');
+        const modalText = document.getElementById('modalText');
+        const closeModalIcon = document.getElementById('closeModalIcon');
+        const closeModalBtnFooter = document.getElementById('closeModalBtnFooter');
+        const copyModalBtn = document.getElementById('copyModalBtn');
+
+        /* 0. Funções do Modal */
+        function openModal(content) {
+            modalText.textContent = content;
+            previewModal.classList.add('active');
+        }
+
+        function closeModal() {
+            previewModal.classList.remove('active');
+        }
+
+        [closeModalIcon, closeModalBtnFooter].forEach(btn => btn.addEventListener('click', closeModal));
+
+        // Fechar com ESC
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && previewModal.classList.contains('active')) {
+                closeModal();
+            }
+        });
+
+        // Fechar clicando fora
+        previewModal.addEventListener('click', (e) => {
+            if (e.target === previewModal) {
+                closeModal();
+            }
+        });
+
+        copyModalBtn.addEventListener('click', () => {
+            navigator.clipboard.writeText(modalText.textContent).then(() => {
+                const originalText = copyModalBtn.innerHTML;
+                copyModalBtn.innerHTML = '<span class="text-green-400">Copiado!</span>';
+                setTimeout(() => {
+                    copyModalBtn.innerHTML = originalText;
+                }, 2000);
+            });
+        });
+
+        /* 1. Limpar Dados */
+        clearButton.addEventListener('click', () => {
+            dataInput.value = '';
+            fileInput.value = '';
+            dataInput.focus();
+            resultsArea.classList.add('hidden');
+        });
+
+        /* 2. Leitura de Arquivo */
         fileInput.addEventListener('change', (event) => {
             const file = event.target.files[0];
             if (file) {
-                currentFileName = file.name;
-                fileNameDisplay.textContent = file.name;
-
-                // Mostra container do nome do arquivo
-                fileInfoContainer.classList.remove('hidden');
-                fileInfoContainer.classList.add('flex', 'animate-fade-in-up');
-
-                // Habilita botão
-                processButton.disabled = false;
-
-                // Reseta UI anterior
-                resultsArea.classList.add('hidden');
-                txtLink.classList.add('hidden');
-                errorsLink.classList.add('hidden');
-                downloadGroupLink.classList.add('hidden'); // NOVO
-
                 const reader = new FileReader();
                 reader.onload = (e) => {
-                    csvFileContent = e.target.result;
+                    const content = e.target.result;
+                    dataInput.value = content;
                 };
                 reader.readAsText(file, 'iso-8859-1');
             }
         });
 
-        /* 2. Processamento */
+        /* 3. Processamento */
         processButton.addEventListener('click', () => {
-            if (!csvFileContent) return;
+            const content = dataInput.value;
+            if (!content.trim()) {
+                alert("Por favor, cole os dados no campo de texto.");
+                return;
+            }
 
-            // Estado de loading
             const btnText = processButton.querySelector('span');
-            const originalText = btnText.innerText;
             btnText.innerText = "PROCESSANDO...";
             processButton.disabled = true;
             processButton.classList.add('opacity-80');
 
-            // Reseta e inicia
             resultsArea.classList.add('hidden');
 
             setTimeout(() => {
-                processCSV(csvFileContent);
+                processData(content);
                 btnText.innerText = "VALIDAR NOVAMENTE";
                 processButton.disabled = false;
                 processButton.classList.remove('opacity-80');
             }, 500);
         });
 
-        /* 3. Baixar Modelo */
+        /* 4. Baixar Modelo */
         downloadTemplateButton.addEventListener('click', (e) => {
             e.preventDefault();
             const csvTemplateContent = [
@@ -326,60 +457,67 @@
             document.body.removeChild(link);
         });
 
-        /* 4. Lógica Principal */
-        function processCSV(csvContent) {
+        /* 5. Lógica Principal */
+        function processData(content) {
             const outputLines = [];
             const linhasComErro = [['Equipamento', 'MAC (Original)', 'Motivo do Erro']];
-            const listaObjetos = []; // NOVO: Array para nomes de objetos válidos
+            const listaObjetos = [];
 
             const macsVistos = {};
             const nomesVistos = {};
             const macRegex = /^([0-9A-Fa-f]{2}[:]){5}([0-9A-Fa-f]{2})$/;
 
-            const linhas = csvContent.split(/\r?\n/);
+            const linhas = content.split(/\r?\n/);
             let linhasProcessadas = 0;
 
-            for (let i = 1; i < linhas.length; i++) {
+            for (let i = 0; i < linhas.length; i++) {
                 const linhaOriginal = linhas[i];
                 const linhaNumero = i + 1;
+
                 if (!linhaOriginal.trim()) continue;
 
+                // --- PARSING FLEXÍVEL ---
+                let tokens = [];
+                if (linhaOriginal.includes('\t')) {
+                    tokens = linhaOriginal.split('\t');
+                } else if (linhaOriginal.includes(';')) {
+                    tokens = linhaOriginal.split(';');
+                } else if (linhaOriginal.includes(',')) {
+                    tokens = linhaOriginal.split(',');
+                } else {
+                    tokens = linhaOriginal.trim().split(/\s+/);
+                }
+
+                tokens = tokens.map(t => t.trim()).filter(t => t !== "");
+
+                if (tokens.length > 0) {
+                    const firstTokenLower = tokens[0].toLowerCase();
+                    if (firstTokenLower === "equipamento" || firstTokenLower === "name" || firstTokenLower === "nome") {
+                        continue;
+                    }
+                }
+
                 linhasProcessadas++;
-                const colunas = linhaOriginal.split(';');
 
                 let equipamento = "";
                 let macOriginal = "";
 
-                try {
-                    if (colunas.length <= coluna_mac) throw new Error("Dados incompletos");
-                    equipamento = colunas[coluna_equipamento].trim();
-                    macOriginal = colunas[coluna_mac].trim();
-                } catch (e) {
-                    linhasComErro.push(['Linha Incompleta', linhaOriginal, `Linha ${linhaNumero}: Leitura falhou`]);
-                    continue;
+                if (tokens.length >= 2) {
+                    equipamento = tokens[0];
+                    macOriginal = tokens[1];
+                } else {
+                     linhasComErro.push(['Linha Incompleta', linhaOriginal, `Linha ${linhaNumero}: Menos de 2 colunas detectadas`]);
+                     continue;
                 }
 
-                if (!equipamento || !macOriginal) {
-                    linhasComErro.push([equipamento, macOriginal, `Linha ${linhaNumero}: Dados vazios`]);
-                    continue;
-                }
-
-                // LÓGICA: Troca hífen por dois pontos e converte para maiúsculo
-                // Adiciona também a remoção de " e . para limpar o MAC
                 const macLimpo = macOriginal.replace(/[\s."\-]/g, '');
                 
-                // Tenta formatar para o padrão com dois pontos
                 let macFormatado = '';
                 if (macLimpo.length === 12) {
-                     macFormatado = macLimpo
-                        .match(/.{1,2}/g)
-                        .join(':')
-                        .toUpperCase();
+                     macFormatado = macLimpo.match(/.{1,2}/g).join(':').toUpperCase();
                 } else {
-                    // Se não tem 12 chars, usa a lógica antiga para pegar erros de formato
                      macFormatado = macOriginal.replace(/-/g, ':').toUpperCase();
                 }
-
 
                 if (!macRegex.test(macFormatado)) {
                     linhasComErro.push([equipamento, macOriginal, `Linha ${linhaNumero}: Formato inválido (${macFormatado})`]);
@@ -399,7 +537,6 @@
                 nomesVistos[equipamento] = linhaNumero;
                 macsVistos[macFormatado] = linhaNumero;
 
-                // NOVO: Adiciona nome válido à lista do grupo
                 listaObjetos.push(equipamento);
 
                 outputLines.push(`edit "${equipamento}"`);
@@ -409,15 +546,15 @@
                 outputLines.push('next');
             }
 
-            const numSucesso = outputLines.length / 5; // ou listaObjetos.length
+            const numSucesso = outputLines.length / 5;
             const numErros = linhasComErro.length - 1;
 
-            // TXT Sucesso (Objetos)
+            // --- RESULTADO: Objetos ---
             if (numSucesso > 0) {
                 const txtContent = 'config firewall address\n' + outputLines.join('\n') + '\nend\n';
                 const blob = new Blob(["\uFEFF" + txtContent], { type: 'text/plain;charset=utf-8' });
                 txtLink.href = URL.createObjectURL(blob);
-                txtLink.download = 'config_firewall_OBJ.txt'; // Renomeado para clareza
+                txtLink.download = 'config_firewall_OBJ.txt';
                 txtLink.innerHTML = `
                     <div class="flex flex-col">
                         <span class="text-xs text-gray-400 font-bold uppercase">Script de Objetos</span>
@@ -425,20 +562,26 @@
                     </div>
                     <span class="bg-slate-900 border border-slate-600 text-white text-xs font-mono px-2 py-1 rounded">${numSucesso} OK</span>
                 `;
-                txtLink.classList.remove('hidden');
+
+                // Show Row
+                rowObjects.classList.remove('hidden');
+
+                // Attach Content to Preview Button
+                viewObjectsBtn.onclick = () => openModal(txtContent);
+
             } else {
-                 txtLink.classList.add('hidden');
+                 rowObjects.classList.add('hidden');
             }
 
-            // NOVO: Script do Grupo (addrgrp)
+            // --- RESULTADO: Grupo ---
             if (numSucesso > 0) {
-                // Constrói a string de membros: "<obj1>" "<obj2>" ...
                 const membersString = listaObjetos.map(nome => `"${nome}"`).join(' ');
                 
                 const groupScriptContent = [
                     'config firewall addrgrp',
                     'edit "macs_liberados"',
                     `set member ${membersString}`,
+                    'set color 13',
                     'next',
                     'end\n'
                 ].join('\n');
@@ -453,13 +596,19 @@
                     </div>
                     <span class="bg-slate-900 border border-slate-600 text-white text-xs font-mono px-2 py-1 rounded">${numSucesso} Membros</span>
                 `;
-                downloadGroupLink.classList.remove('hidden');
+
+                // Show Row
+                rowGroup.classList.remove('hidden');
+
+                // Attach Content to Preview Button
+                viewGroupBtn.onclick = () => openModal(groupScriptContent);
+
             } else {
-                downloadGroupLink.classList.add('hidden');
+                rowGroup.classList.add('hidden');
             }
 
 
-            // CSV Erros
+            // --- RESULTADO: Erros ---
             if (numErros > 0) {
                 const csvContent = linhasComErro.map(row => row.join(';')).join('\n');
                 const blob = new Blob(["\uFEFF" + csvContent], { type: 'text/csv;charset=utf-8' });
