@@ -1,46 +1,85 @@
-# Validador de MACs para Firewall - TecnoIT
+# Validador de MACs - TecnoIT
 
-## 📖 Descrição
+![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)
+![Version: 2.0](https://img.shields.io/badge/Version-2.0%20Ultra%20Modern-blueviolet.svg)
 
-Esta é uma ferramenta front-end de página única, desenvolvida para otimizar e automatizar a criação de scripts de configuração de firewall a partir de uma lista de equipamentos e seus respectivos endereços MAC. A aplicação valida, formata e converte os dados de um arquivo `.csv` em um script `.txt` pronto para ser importado no firewall, além de gerar um relatório detalhado de quaisquer inconsistências encontradas.
-
-O design foi pensado para ser intuitivo e profissional, refletindo a identidade visual da TecnoIT, com um tema escuro, animações sutis e foco na experiência do usuário.
-
-## ✨ Funcionalidades Principais
-
--   **Upload de Arquivo:** Interface de "arrastar e soltar" (drag-and-drop) ou seleção de arquivo para carregar a lista de MACs em formato `.csv`.
--   **Validação Abrangente:** O script realiza as seguintes verificações:
-    -   Formato correto do endereço MAC.
-    -   Detecção de nomes de equipamentos duplicados.
-    -   Detecção de endereços MAC duplicados.
-    -   Verificação de linhas com dados ausentes ou incompletos.
--   **Conversão Automática:** Endereços MAC em diferentes formatos (ex: `AA-BB-CC-11-22-33`) são automaticamente convertidos para o padrão do firewall (`AA:BB:CC:11:22:33`) em maiúsculas.
--   **Geração de Saídas:**
-    -   **Script de Sucesso (`.txt`):** Gera um arquivo de texto com os comandos de configuração para todos os MACs válidos.
-    -   **Relatório de Erros (`.csv`):** Cria um arquivo CSV com a lista de todas as entradas que falharam na validação, incluindo o motivo específico do erro para fácil correção.
--   **Download de Modelo:** Inclui um botão para baixar um arquivo `.csv` de exemplo, garantindo que o usuário utilize o formato correto.
--   **Resumo Visual:** Apresenta um painel de resultados claro, mostrando o total de linhas processadas, o número de sucessos e o número de falhas.
-
-## 🚀 Como Usar
-
-1.  **Abra o arquivo `Validador_firewall.html`** em qualquer navegador de internet moderno (Google Chrome, Firefox, etc.).
-2.  **Carregue o Arquivo:** Arraste e solte seu arquivo `.csv` na área indicada ou clique para selecioná-lo.
-3.  **Processe:** Clique no botão "Validar & Converter".
-4.  **Baixe os Resultados:** Após o processamento, os links para download do script `.txt` e do relatório de erros `.csv` (se houver) aparecerão na área de resultados.
-
-## 📋 Requisitos do Arquivo de Entrada
-
--   **Formato:** O arquivo deve ser `.csv`.
--   **Delimitador:** As colunas devem ser separadas por **ponto e vírgula (`;`)**.
--   **Estrutura:**
-    -   **Coluna A:** Nome do Equipamento.
-    -   **Coluna B:** Endereço MAC.
-
-## 🛠️ Tecnologias Utilizadas
-
--   **HTML5:** Estrutura semântica da página.
--   **Tailwind CSS:** Framework de CSS para estilização rápida e moderna (utilizado via CDN).
--   **JavaScript (Vanilla):** Lógica de validação, processamento de arquivos e manipulação do DOM, sem a necessidade de frameworks externos.
+**[PT]** Ferramenta profissional para validação e conversão de endereços MAC para configurações de Firewall.
+**[EN]** Professional tool for MAC address validation and conversion for Firewall configurations.
 
 ---
-*Powered by TecnoIT © 2025*
+
+### ⚠️ Declaração de Autoria / Authorship Disclaimer
+
+**[PT]**
+Este projeto foi desenvolvido de forma **totalmente independente** por **Marcelo Rodrigues**.
+Não foi encomendado, solicitado ou remunerado por nenhuma empresa.
+
+**[EN]**
+This project was developed **completely independently** by **Marcelo Rodrigues**.
+It was not commissioned, requested, or remunerated by any company.
+
+---
+
+## 📸 Screenshots
+
+### Interface Principal / Main Interface
+![Interface Principal](../../assets/screenshots/validador_initial.png)
+
+### Resultados da Validação / Validation Results
+![Resultados](../../assets/screenshots/validador_results.png)
+
+---
+
+## ✨ Funcionalidades / Features
+
+1.  **Entrada Flexível:** Aceita Colar (Ctrl+V) ou Upload de arquivo `.csv` / `.txt`.
+2.  **Validação Inteligente:**
+    *   Verifica formato do MAC (aceita `:` ou `-`).
+    *   Detecta duplicatas de MAC e de Nome.
+    *   Identifica linhas incompletas.
+3.  **Conversão Automática:** Formata para `XX:XX:XX:XX:XX:XX` (Padrão Firewall).
+4.  **Scripts Gerados:**
+    *   **Objeto (Address):** Cria os objetos individuais.
+    *   **Grupo (Addrgrp):** Adiciona todos os objetos a um grupo.
+5.  **Relatório de Erros:** Gera um CSV detalhando quais linhas falharam e o motivo.
+6.  **Visualização Rápida:** Modais interativos para visualizar e copiar os scripts sem download.
+
+---
+
+## 🚀 Como Usar / How to Use
+
+1.  Acesse a **[Demonstração Online](https://marcelordpj.github.io/Tecnoit/projects/validador-firewall/index.html)**.
+2.  Cole os dados na caixa de texto OU arraste um arquivo CSV.
+    *   *Formato esperado:* `Nome;MAC` (separado por ponto e vírgula, tab ou espaço).
+3.  Clique em **"VALIDAR & CONVERTER"**.
+4.  Analise o resumo no painel de resultados.
+5.  Use os botões para visualizar (`Visualizar & Copiar`) ou baixar (`Baixar .TXT`) os scripts gerados.
+
+---
+
+## 📋 Exemplo de Entrada / Input Example
+
+```text
+PC-Financeiro-01    AA-BB-CC-11-22-33
+Server-Backup       00:11:22:33:44:55
+Laptop-Guest        AABBCC112233
+```
+
+## 💻 Tecnologias / Technologies
+
+*   **HTML5 & JavaScript (Vanilla)** - Processamento 100% no cliente (Client-side).
+*   **Tailwind CSS** - Design responsivo e tema escuro moderno.
+*   **FileReader API** - Leitura de arquivos locais segura.
+
+---
+
+## 👤 Autor / Author
+
+**Marcelo Rodrigues**
+*   [GitHub Profile](https://github.com/MarceloRDPJ)
+
+---
+
+## 📄 Licença / License
+
+Distribuído sob a licença MIT. Veja `LICENSE` na raiz do repositório para mais informações.
