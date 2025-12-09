@@ -519,6 +519,11 @@
 
         /* 5. Lógica Principal */
         function processData(content) {
+            // Reset Global Data
+            generatedObjectsScript = "";
+            generatedGroupScript = "";
+            generatedErrorsData = [];
+
             const outputLines = [];
             const linhasComErro = [['Equipamento', 'MAC (Original)', 'Motivo do Erro']];
             const listaObjetos = [];
@@ -693,23 +698,22 @@
             modal.classList.remove('hidden');
             document.body.style.overflow = 'hidden'; // Prevent background scroll
 
-            // Reset buttons
+            // Reset buttons visibility
             modalCopyBtn.classList.add('hidden');
             modalDownloadBtn.classList.add('hidden');
 
-            // Remove previous event listeners (to avoid duplication if re-opened)
-            const newCopyBtn = modalCopyBtn.cloneNode(true);
-            modalCopyBtn.parentNode.replaceChild(newCopyBtn, modalCopyBtn);
-            // Re-select
-            const freshCopyBtn = document.getElementById('modalCopyBtn');
+            // Clear previous content
+            modalTitle.innerHTML = '';
+            modalBody.innerHTML = '';
 
             if (type === 'objects') {
                 modalTitle.innerHTML = `<span class="text-green-400">#</span> Visualizar Script de Objetos`;
                 modalBody.innerHTML = `<pre class="p-4 text-xs font-mono text-gray-300 whitespace-pre-wrap break-all">${escapeHtml(generatedObjectsScript)}</pre>`;
 
                 // Setup Buttons
-                freshCopyBtn.classList.remove('hidden');
-                freshCopyBtn.onclick = () => copyToClipboard(generatedObjectsScript);
+                modalCopyBtn.classList.remove('hidden');
+                // Use .onclick assignment to overwrite previous handlers safely
+                modalCopyBtn.onclick = function() { copyToClipboard(generatedObjectsScript); };
 
                 modalDownloadBtn.classList.remove('hidden');
                 modalDownloadBtn.href = downloadObjects.href;
@@ -720,8 +724,8 @@
                 modalBody.innerHTML = `<pre class="p-4 text-xs font-mono text-gray-300 whitespace-pre-wrap break-all">${escapeHtml(generatedGroupScript)}</pre>`;
 
                 // Setup Buttons
-                freshCopyBtn.classList.remove('hidden');
-                freshCopyBtn.onclick = () => copyToClipboard(generatedGroupScript);
+                modalCopyBtn.classList.remove('hidden');
+                modalCopyBtn.onclick = function() { copyToClipboard(generatedGroupScript); };
 
                 modalDownloadBtn.classList.remove('hidden');
                 modalDownloadBtn.href = downloadGroup.href;
