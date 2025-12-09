@@ -4,239 +4,105 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TecnoIT - Hub de Projetos</title>
-
-    <!-- Carrega o Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-
-    <!-- Fontes: Inter (UI) e Roboto Mono (Dados/Stats) -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Roboto+Mono:wght@400;600&display=swap" rel="stylesheet">
-
-    <!-- Ícone -->
     <link rel="icon" href="favicon.png" type="image/png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
 
     <style>
         body {
             font-family: 'Inter', sans-serif;
-            /* Fundo "Tech" (ardósia 900) com gradientes radiais, inspirado no seu outro projeto */
             background-color: #0f172a;
             background-image:
-                radial-gradient(at 0% 0%, hsla(24, 90%, 15%, 0.6) 0, transparent 50%),
-                radial-gradient(at 50% 100%, hsla(20, 80%, 10%, 0.8) 0, transparent 50%),
-                radial-gradient(at 100% 0%, hsla(0, 0%, 15%, 1) 0, transparent 50%);
+                radial-gradient(at 0% 0%, hsla(253, 16%, 7%, 1) 0, transparent 50%),
+                radial-gradient(at 50% 0%, hsla(225, 39%, 30%, 1) 0, transparent 50%),
+                radial-gradient(at 100% 0%, hsla(339, 49%, 30%, 1) 0, transparent 50%);
             background-attachment: fixed;
-            color: #e2e8f0; /* slate-200 */
-            /* ANIMAÇÃO DE FUNDO */
-            animation: moveBackground 25s ease infinite;
+            color: #e2e8f0;
+            overflow-x: hidden;
         }
 
-        .font-mono {
-            font-family: 'Roboto Mono', monospace;
+        /* Glassmorphism Cards */
+        .glass-card {
+            background: rgba(30, 41, 59, 0.4);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
         }
 
-        /* Efeito Glassmorphism Premium Crystalline */
-        .glass-panel {
-            background: linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.01));
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            border-top: 1px solid rgba(255, 255, 255, 0.2);
-            border-left: 1px solid rgba(255, 255, 255, 0.2);
-            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-            transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
-        }
-
-        /* Novo Hover "Chic" - Lift & Glow Refinado */
-        .glass-panel:hover {
-            transform: translateY(-8px) scale(1.02);
-            background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.02));
-            border-color: rgba(255, 255, 255, 0.3);
+        .glass-card:hover {
+            background: rgba(30, 41, 59, 0.6);
+            border-color: rgba(99, 102, 241, 0.3);
+            transform: translateY(-5px) scale(1.01);
             box-shadow:
-                0 20px 40px rgba(0,0,0,0.4),
-                0 0 20px rgba(234, 88, 12, 0.2), /* Orange glow subtle */
-                inset 0 0 20px rgba(255, 255, 255, 0.05); /* Inner light */
+                0 20px 25px -5px rgba(0, 0, 0, 0.2),
+                0 10px 10px -5px rgba(0, 0, 0, 0.1),
+                0 0 20px rgba(99, 102, 241, 0.1); /* Subtle Indigo Glow */
         }
 
-        .glass-header {
-             background: rgba(15, 23, 42, 0.4);
-             backdrop-filter: blur(15px);
-             -webkit-backdrop-filter: blur(15px);
-             border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-             position: sticky;
-             top: 0;
-             z-index: 50;
+        /* Gradient Text */
+        .text-gradient {
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-image: linear-gradient(to right, #818cf8, #c084fc, #f472b6);
         }
 
-        /* Botão Padrão TecnoIT (Laranja) */
-        .btn-tecnoit {
-            background-image: linear-gradient(135deg, #ea580c 0%, #c2410c 100%);
-            background-size: 200% auto;
-            transition: all 0.4s ease;
+        /* Header Button (About) */
+        .btn-header {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
         }
-        .btn-tecnoit:hover:not(:disabled) {
-            background-position: right center;
+        .btn-header:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 255, 255, 0.3);
             transform: translateY(-2px);
-            /* ANIMAÇÃO DE PULSE/GLOW */
-            animation: pulseGlow 1.5s infinite ease-in-out;
-            box-shadow: 0 0 20px rgba(234, 88, 12, 0.4);
         }
 
-        /* Animação de entrada */
-        .animate-fade-in-up {
-            animation: fadeInUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        /* Primary Action Button (Access Project) */
+        .btn-action {
+            background: linear-gradient(to right, #4f46e5, #9333ea);
+            position: relative;
+            z-index: 10;
+            transition: all 0.3s ease;
+        }
+        .btn-action:hover {
+            box-shadow: 0 0 20px rgba(124, 58, 237, 0.5);
+            transform: scale(1.05);
+        }
+
+        /* Animations */
+        .fade-in-up {
             opacity: 0;
             transform: translateY(20px);
+            animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
         }
         .delay-100 { animation-delay: 0.1s; }
         .delay-200 { animation-delay: 0.2s; }
         .delay-300 { animation-delay: 0.3s; }
-        /* NOVOS DELAYS PARA A CASCATA */
-        .delay-400 { animation-delay: 0.4s; }
-        .delay-500 { animation-delay: 0.5s; }
 
         @keyframes fadeInUp {
-            from { opacity: 0; transform: translateY(20px); }
             to { opacity: 1; transform: translateY(0); }
         }
 
-        /* KEYFRAMES PARA AS ANIMAÇÕES */
-        @keyframes moveBackground {
-            0%   { background-position: 0% 0%, 50% 100%, 100% 0%; }
-            50%  { background-position: 100% 50%, 0% 50%, 50% 0%; }
-            100% { background-position: 0% 0%, 50% 100%, 100% 0%; }
+        /* Modal Animations */
+        @keyframes slideInRight {
+            from { transform: translateX(100%); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+        @keyframes slideOutRight {
+            from { transform: translateX(0); opacity: 1; }
+            to { transform: translateX(100%); opacity: 0; }
         }
 
-        @keyframes pulseGlow {
-            0%, 100% { box-shadow: 0 0 20px rgba(234, 88, 12, 0.4); }
-            50% { box-shadow: 0 0 35px rgba(234, 88, 12, 0.6); }
-        }
+        .modal-enter { animation: slideInRight 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+        .modal-exit { animation: slideOutRight 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
 
-        /* ANIMAÇÕES PARA O MODAL (PAINEL SOBRE) */
-        @keyframes slideInFromRight {
-            from { opacity: 0; transform: translateX(100%); }
-            to { opacity: 1; transform: translateX(0); }
-        }
-        @keyframes fadeOutToRight {
-            from { opacity: 1; transform: translateX(0); }
-            to { opacity: 0; transform: translateX(100%); }
-        }
-        .animate-slide-in-right {
-            animation: slideInFromRight 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-        }
-        .animate-fade-out-right {
-            animation: fadeOutToRight 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-        }
-
-    </style>
-</head>
-<body class="selection:bg-orange-500 selection:text-white overflow-x-hidden">
-
-    <!-- Cabeçalho -->
-    <header class="glass-header py-4 px-4 md:px-8 w-full mb-8">
-        <div class="container mx-auto flex justify-between items-center">
-            <div class="flex items-center gap-3">
-                <!-- Logo -->
-                <img src="logo.png" alt="TecnoIT Logo" class="w-10 h-10 md:w-12 md:h-12 rounded-lg animate-fade-in-up">
-                <h1 class="text-2xl md:text-3xl font-bold text-white tracking-tight animate-fade-in-up delay-100">
-                    TecnoIT <span class="font-light opacity-50">Hub</span>
-                </h1>
-            </div>
-
-            <!-- Botão de Informação (Sobre) -->
-            <button id="openAboutModal" class="text-orange-400 opacity-50 hover:opacity-100 transition-opacity duration-300 animate-fade-in-up delay-200" title="Sobre este Hub">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-            </button>
-        </div>
-    </header>
-
-    <!-- Conteúdo Principal -->
-    <main class="container mx-auto px-4 md:px-8 pb-12">
-
-        <div class="mb-12 px-2 text-center md:text-left">
-            <h2 class="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-gray-300 tracking-tight animate-fade-in-up delay-200 drop-shadow-[0_0_10px_rgba(255,255,255,0.3)]">Projetos Disponíveis</h2>
-            <p class="text-gray-300 mt-3 text-lg font-light animate-fade-in-up delay-300 max-w-2xl">Ferramentas premium e utilitários desenvolvidos para alta performance.</p>
-        </div>
-
-        <!-- Grid de Projetos -->
-        <!--
-            COMENTÁRIO PARA MANUTENÇÃO:
-            Para adicionar um novo projeto, copie e cole todo o bloco <div class="glass-panel ...">...</div> abaixo.
-            Altere os textos (h3, p), o ícone SVG e, o mais importante:
-            1. Atualize o 'id' do span (ex: id="clicks-novo-projeto")
-            2. Atualize o 'data-project-id' do botão (ex: data-project-id="novo-projeto")
-            3. Atualize o 'data-href' do botão para o link correto do projeto.
-            O script de contagem cuidará do resto automaticamente.
-        -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-
-            <!-- Projeto 1: Validador de MACs -->
-            <div class="w-full max-w-sm mx-auto animate-fade-in-up delay-300">
-                <div class="glass-panel p-8 rounded-2xl w-full h-96 flex flex-col justify-between cursor-default relative overflow-hidden group">
-                    <!-- Shine Effect -->
-                    <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
-
-                    <div class="relative z-10">
-                        <div class="h-12 w-12 bg-gradient-to-br from-orange-500 to-orange-700 rounded-xl flex items-center justify-center mb-6 shadow-lg shadow-orange-500/20">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg>
-                        </div>
-                        <h3 class="text-2xl font-bold text-white tracking-tight mb-3">Validador de MACs</h3>
-                        <p class="text-gray-300 text-sm leading-relaxed font-light">Converte listas CSV em scripts de configuração de firewall com precisão e rapidez.</p>
-                    </div>
-                    <div class="flex justify-between items-center mt-6 relative z-10">
-                        <div class="flex items-center gap-2 text-gray-400 text-sm font-mono bg-black/20 px-3 py-1 rounded-full border border-white/5" title="Total de acessos">
-                           <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-.042.148-.082.296-.12.444m-1.78 4.111A10.023 10.023 0 0112 19c-4.478 0-8.268-2.943-9.542-7a9.97 9.97 0 011.52-4.111" /></svg>
-                           <span id="clicks-validator-firewall">0</span>
-                        </div>
-                        <button class="btn-tecnoit text-white font-semibold py-2 px-6 rounded-lg shadow-lg text-xs tracking-wider uppercase border border-white/10 hover:border-orange-500/50"
-                                data-project-id="validator-firewall"
-                                data-href="projects/validador-firewall/index.html">
-                            Acessar
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Projeto 2: Abertura de Chamados GLPI -->
-            <div class="w-full max-w-sm mx-auto animate-fade-in-up delay-400">
-                <div class="glass-panel p-8 rounded-2xl w-full h-96 flex flex-col justify-between cursor-default relative overflow-hidden group">
-                     <!-- Shine Effect -->
-                     <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
-
-                    <div class="relative z-10">
-                        <div class="h-12 w-12 bg-gradient-to-br from-blue-500 to-blue-700 rounded-xl flex items-center justify-center mb-6 shadow-lg shadow-blue-500/20">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
-                            </svg>
-                        </div>
-                        <h3 class="text-2xl font-bold text-white tracking-tight mb-3">Abertura de Chamados</h3>
-                        <p class="text-gray-300 text-sm leading-relaxed font-light">Automação inteligente para abertura de chamados em massa no GLPI.</p>
-                    </div>
-                    <div class="flex justify-between items-center mt-6 relative z-10">
-                       <div class="flex items-center gap-2 text-gray-400 text-sm font-mono bg-black/20 px-3 py-1 rounded-full border border-white/5" title="Total de acessos">
-                           <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-.042.148-.082.296-.12.444m-1.78 4.111A10.023 10.023 0 0112 19c-4.478 0-8.268-2.943-9.542-7a9.97 9.97 0 011.52-4.111" /></svg>
-                           <span id="clicks-abertura-chamados-glpi">0</span>
-                       </div>
-                        <button class="btn-tecnoit text-white font-semibold py-2 px-6 rounded-lg shadow-lg text-xs tracking-wider uppercase border border-white/10 hover:border-orange-500/50"
-                                data-project-id="abertura-chamados-glpi"
-                                data-href="projects/abertura-chamados-glpi/index.html">
-                            Acessar
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </main>
-
-    <!-- Rodapé -->
-    <footer class="text-center p-8 mt-16 relative z-50">
-        <div class="watermark-container"></div>
-    </footer>
-
-    <style>
+        /* Footer Protection (Mandatory) */
         .watermark-container::after {
             content: "© 2025 TecnoIT. Desenvolvido por Marcelo Rodrigues.";
             font-size: 0.75rem;
@@ -248,8 +114,12 @@
             pointer-events: none;
             user-select: none;
             -webkit-user-select: none;
+            transition: color 0.3s ease;
         }
-        /* Proteção contra ocultação simples */
+        .watermark-container:hover::after {
+            color: #f97316;
+            opacity: 0.9;
+        }
         body:not(:has(.watermark-container))::after {
             content: "© 2025 TecnoIT. Desenvolvido por Marcelo Rodrigues.";
             position: fixed;
@@ -261,75 +131,197 @@
             z-index: 9999;
         }
     </style>
+</head>
+<body class="antialiased selection:bg-indigo-500 selection:text-white">
 
-    <!--
-        MODAL (PAINEL SOBRE)
-        HTML para o painel de informações
-    -->
-    <div id="aboutModalOverlay" class="fixed inset-0 bg-black/60 backdrop-blur-sm z-40 hidden opacity-0 transition-opacity duration-300"></div>
+    <!-- Background Decoration -->
+    <div class="fixed top-0 left-0 w-full h-full overflow-hidden -z-10 pointer-events-none">
+        <div class="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] bg-purple-900/10 rounded-full blur-[120px]"></div>
+        <div class="absolute bottom-[-10%] right-[-10%] w-[50%] h-[50%] bg-indigo-900/10 rounded-full blur-[120px]"></div>
+    </div>
 
-    <div id="aboutModalPanel" class="fixed top-0 right-0 h-full w-full max-w-md bg-slate-900/80 backdrop-blur-2xl border-l border-orange-500/20 shadow-2xl z-50 hidden transform translate-x-full">
-        <!-- Conteúdo do Modal -->
-        <div class="p-6 md:p-8 h-full flex flex-col overflow-y-auto">
+    <div class="max-w-7xl mx-auto px-6 py-8 min-h-screen flex flex-col">
 
-            <!-- Cabeçalho do Modal -->
-            <div class="flex items-center justify-between pb-4 border-b border-slate-700/50">
-                <div class="flex items-center gap-3">
-                    <img src="logo.png" alt="TecnoIT Logo" class="w-10 h-10 rounded-lg">
-                    <div>
-                        <h3 class="text-xl font-bold text-white">Sobre o TecnoIT Hub</h3>
-                        <p class="text-sm text-gray-400">Informações e Links</p>
+        <!-- Header -->
+        <header class="flex justify-between items-center mb-16 fade-in-up">
+            <div class="flex items-center gap-4">
+                <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-indigo-500/20 to-purple-500/20 flex items-center justify-center border border-white/5">
+                    <img src="logo.png" alt="TecnoIT" class="w-8 h-8 opacity-90 drop-shadow-lg">
+                </div>
+                <div>
+                    <h1 class="text-2xl font-bold tracking-tight">TecnoIT <span class="text-indigo-400 font-light">Hub</span></h1>
+                    <p class="text-xs text-slate-500 font-mono tracking-widest uppercase">Portfolio & Tools</p>
+                </div>
+            </div>
+
+            <button id="openAboutModal" class="btn-header p-3 rounded-xl text-slate-400 hover:text-white group" title="Sobre o Projeto">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 group-hover:rotate-12 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+            </button>
+        </header>
+
+        <!-- Main Content -->
+        <main class="flex-grow">
+            <!-- Section Title -->
+            <div class="mb-12 text-center md:text-left fade-in-up delay-100">
+                <h2 class="text-4xl md:text-5xl font-extrabold mb-4">
+                    Ferramentas <span class="text-gradient">Premium</span>
+                </h2>
+                <p class="text-lg text-slate-400 max-w-2xl font-light leading-relaxed">
+                    Utilitários desenvolvidos para alta performance, automação e precisão técnica. Selecione uma ferramenta para começar.
+                </p>
+            </div>
+
+            <!-- Projects Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Card: Validador Firewall -->
+                <div class="glass-card rounded-3xl p-8 flex flex-col h-96 group fade-in-up delay-200">
+                    <!-- Icon/Badge -->
+                    <div class="flex justify-between items-start mb-6">
+                        <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-orange-500/20 to-red-500/20 flex items-center justify-center border border-orange-500/10 group-hover:border-orange-500/30 transition-colors">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-orange-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                        </div>
+                        <div class="flex items-center gap-2 px-3 py-1 rounded-full bg-black/20 border border-white/5 text-xs font-mono text-slate-400">
+                            <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-.042.148-.082.296-.12.444m-1.78 4.111A10.023 10.023 0 0112 19c-4.478 0-8.268-2.943-9.542-7a9.97 9.97 0 011.52-4.111" /></svg>
+                            <span id="clicks-validator-firewall">0</span>
+                        </div>
+                    </div>
+
+                    <!-- Content -->
+                    <div class="flex-grow">
+                        <h3 class="text-2xl font-bold text-white mb-2 group-hover:text-orange-400 transition-colors">Validador de MACs</h3>
+                        <p class="text-sm text-slate-400 leading-relaxed">
+                            Engine robusta para conversão e validação de listas de acesso. Gera scripts Fortigate compatíveis instantaneamente.
+                        </p>
+                    </div>
+
+                    <!-- Action -->
+                    <div class="mt-6 pt-6 border-t border-white/5 flex justify-end">
+                        <button class="btn-action px-6 py-2.5 rounded-xl text-white text-sm font-bold uppercase tracking-wide shadow-lg"
+                                data-project-id="validator-firewall"
+                                data-href="projects/validador-firewall/index.html">
+                            Acessar Ferramenta
+                        </button>
                     </div>
                 </div>
-                <button id="closeAboutModal" class="text-gray-500 hover:text-orange-400 transition-colors">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" /></svg>
+
+                <!-- Card: Automação GLPI -->
+                <div class="glass-card rounded-3xl p-8 flex flex-col h-96 group fade-in-up delay-300">
+                    <!-- Icon/Badge -->
+                    <div class="flex justify-between items-start mb-6">
+                        <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-indigo-500/20 to-blue-500/20 flex items-center justify-center border border-indigo-500/10 group-hover:border-indigo-500/30 transition-colors">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+                            </svg>
+                        </div>
+                        <div class="flex items-center gap-2 px-3 py-1 rounded-full bg-black/20 border border-white/5 text-xs font-mono text-slate-400">
+                             <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-.042.148-.082.296-.12.444m-1.78 4.111A10.023 10.023 0 0112 19c-4.478 0-8.268-2.943-9.542-7a9.97 9.97 0 011.52-4.111" /></svg>
+                             <span id="clicks-abertura-chamados-glpi">0</span>
+                        </div>
+                    </div>
+
+                    <!-- Content -->
+                    <div class="flex-grow">
+                        <h3 class="text-2xl font-bold text-white mb-2 group-hover:text-indigo-400 transition-colors">Automação GLPI</h3>
+                        <p class="text-sm text-slate-400 leading-relaxed">
+                            Bot inteligente que varre diretórios locais e realiza abertura de tickets em massa via API com upload de evidências.
+                        </p>
+                    </div>
+
+                    <!-- Action -->
+                    <div class="mt-6 pt-6 border-t border-white/5 flex justify-end">
+                        <button class="btn-action px-6 py-2.5 rounded-xl text-white text-sm font-bold uppercase tracking-wide shadow-lg"
+                                data-project-id="abertura-chamados-glpi"
+                                data-href="projects/abertura-chamados-glpi/index.html">
+                            Acessar Ferramenta
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="mt-20 text-center relative z-50 pt-8 border-t border-slate-800/50">
+            <div class="watermark-container"></div>
+        </footer>
+
+    </div>
+
+    <!-- About Modal (Glassmorphism Redesign) -->
+    <div id="aboutModalOverlay" class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm z-40 hidden opacity-0 transition-opacity duration-300"></div>
+
+    <div id="aboutModalPanel" class="fixed top-0 right-0 h-full w-full max-w-md bg-slate-900/90 backdrop-blur-2xl border-l border-white/10 shadow-2xl z-50 hidden translate-x-full">
+        <div class="p-8 h-full flex flex-col overflow-y-auto">
+
+            <!-- Header -->
+            <div class="flex items-center justify-between mb-8 pb-8 border-b border-white/10">
+                <div class="flex items-center gap-4">
+                    <img src="logo.png" alt="Logo" class="w-10 h-10 rounded-xl">
+                    <div>
+                        <h3 class="text-xl font-bold text-white">Sobre</h3>
+                        <p class="text-xs text-slate-400 uppercase tracking-widest">TecnoIT Hub</p>
+                    </div>
+                </div>
+                <button id="closeAboutModal" class="p-2 rounded-lg hover:bg-white/10 text-slate-400 hover:text-white transition-colors">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
                 </button>
             </div>
 
-            <!-- Descrição -->
-            <div class="py-6 space-y-4 text-gray-300 text-sm leading-relaxed">
-                <p>Este Hub foi uma iniciativa própria, desenvolvido por mim (Marcelo Rodrigues) durante minha atuação como prestador de serviços (PJ) para a <span class="font-bold text-orange-400">TecnoIT</span>.</p>
-                <p>O intuito principal é <span class="font-bold text-orange-400">otimizar meu tempo</span> e automatizar processos recorrentes no meu trabalho como Analista de Service Desk.</p>
-                <p class="text-gray-400 text-xs italic">Este portal continuará em atualização com novos projetos, de acordo com as demandas que identifico.</p>
+            <!-- Content -->
+            <div class="space-y-6 text-sm text-slate-300 leading-relaxed font-light">
+                <p>Este Hub é uma iniciativa independente desenvolvida por <strong class="text-white">Marcelo Rodrigues</strong>. Criado com foco em otimização de workflow e automação de processos de Service Desk.</p>
+
+                <div class="p-4 rounded-xl bg-indigo-500/10 border border-indigo-500/20">
+                    <p class="text-indigo-300 text-xs">
+                        🚀 <strong class="uppercase tracking-wider">Objetivo</strong><br>
+                        Centralizar ferramentas de alta utilidade, reduzindo tarefas repetitivas e aumentando a precisão técnica.
+                    </p>
+                </div>
+
+                <p class="text-xs text-slate-500 italic">Atualizações contínuas são aplicadas conforme novas demandas surgem no ambiente operacional.</p>
             </div>
 
-            <!-- Estatísticas -->
-            <div class="py-6 border-y border-slate-700/50">
-                <h4 class="text-xs font-bold text-gray-500 uppercase tracking-wider mb-3">Estatísticas (Local)</h4>
-                <div class="bg-slate-800/50 p-4 rounded-lg flex items-center justify-between">
-                    <span class="text-sm font-medium text-white">Total de Cliques (Todos os Projetos)</span>
-                    <span id="totalClicksDisplay" class="font-mono text-2xl font-bold text-orange-400">0</span>
+            <!-- Stats -->
+            <div class="mt-8 py-6 border-y border-white/10">
+                <h4 class="text-xs font-bold text-slate-500 uppercase tracking-widest mb-4">Engajamento Global</h4>
+                <div class="flex justify-between items-end">
+                    <span class="text-sm text-slate-400">Total de Interações</span>
+                    <span id="totalClicksDisplay" class="text-3xl font-mono font-bold text-white">0</span>
                 </div>
             </div>
 
-            <!-- Links Externos (Rodapé do Modal) -->
-            <div class="mt-auto pt-6 space-y-3">
-                <a href="https://github.com/MarceloRDPJ" target="_blank" rel="noopener noreferrer" class="group flex items-center justify-center gap-3 w-full bg-gray-700/50 hover:bg-gray-700 text-white font-bold py-3 px-5 rounded-lg transition-all duration-300">
-                    <svg class="w-5 h-5 opacity-70 group-hover:opacity-100" fill="currentColor" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
-                    GitHub (MarceloRDPJ)
+            <!-- Social Links -->
+            <div class="mt-auto space-y-3 pt-8">
+                <a href="https://github.com/MarceloRDPJ" target="_blank" class="flex items-center gap-4 p-4 rounded-xl bg-slate-800 hover:bg-slate-700 border border-white/5 hover:border-white/10 transition-all group">
+                    <svg class="w-5 h-5 text-slate-400 group-hover:text-white" fill="currentColor" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+                    <span class="font-bold text-slate-300 group-hover:text-white">GitHub</span>
                 </a>
-                <a href="https://www.linkedin.com/in/marcelo-rodrigues-088478211/" target="_blank" rel="noopener noreferrer" class="group flex items-center justify-center gap-3 w-full bg-blue-600/80 hover:bg-blue-600 text-white font-bold py-3 px-5 rounded-lg transition-all duration-300">
-                    <svg class="w-5 h-5 opacity-70 group-hover:opacity-100" fill="currentColor" viewBox="0 0 16 16"><path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v4.577h2.401v-4.93c0-2.616-1.417-3.85-3.303-3.85-1.55 0-2.26.86-2.63 1.439h.016v-1.2h-2.4v7.225h2.401z"/></svg>
-                    LinkedIn (Marcelo Rodrigues)
+                <a href="https://www.linkedin.com/in/marcelo-rodrigues-088478211/" target="_blank" class="flex items-center gap-4 p-4 rounded-xl bg-blue-600/10 hover:bg-blue-600/20 border border-blue-500/20 hover:border-blue-500/40 transition-all group">
+                    <svg class="w-5 h-5 text-blue-400" fill="currentColor" viewBox="0 0 16 16"><path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v4.577h2.401v-4.93c0-2.616-1.417-3.85-3.303-3.85-1.55 0-2.26.86-2.63 1.439h.016v-1.2h-2.4v7.225h2.401z"/></svg>
+                    <span class="font-bold text-blue-400 group-hover:text-blue-300">LinkedIn</span>
                 </a>
             </div>
-
         </div>
     </div>
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const projectButtons = document.querySelectorAll('[data-project-id]');
-            const namespace = 'tecnoit.hub'; // Namespace único para este site
+            const namespace = 'tecnoit.hub';
 
-            // --- INÍCIO DA LÓGICA DO MODAL (SOBRE) ---
+            // --- Modal Logic ---
             const openModalButton = document.getElementById('openAboutModal');
             const closeModalButton = document.getElementById('closeAboutModal');
             const modalOverlay = document.getElementById('aboutModalOverlay');
             const modalPanel = document.getElementById('aboutModalPanel');
             const totalClicksDisplay = document.getElementById('totalClicksDisplay');
 
-            // Desabilita o botão do modal até que os dados sejam carregados
+            // Initially disable modal button until data loads
             openModalButton.disabled = true;
 
             function calculateTotalClicks() {
@@ -348,29 +340,34 @@
                 calculateTotalClicks();
                 modalOverlay.classList.remove('hidden');
                 modalPanel.classList.remove('hidden');
-                modalOverlay.offsetHeight;
-                modalPanel.offsetHeight;
+
+                // Force reflow
+                void modalOverlay.offsetHeight;
+                void modalPanel.offsetHeight;
+
                 modalOverlay.classList.remove('opacity-0');
                 modalPanel.classList.remove('translate-x-full');
-                modalPanel.classList.add('animate-slide-in-right');
+                modalPanel.classList.add('modal-enter');
             }
 
             function closeModal() {
                 modalOverlay.classList.add('opacity-0');
-                modalPanel.classList.add('animate-fade-out-right');
+                modalPanel.classList.remove('modal-enter');
+                modalPanel.classList.add('modal-exit');
+
                 setTimeout(() => {
                     modalOverlay.classList.add('hidden');
                     modalPanel.classList.add('hidden');
-                    modalPanel.classList.remove('animate-fade-out-right');
+                    modalPanel.classList.remove('modal-exit');
+                    modalPanel.classList.add('translate-x-full'); // Reset position
                 }, 400);
             }
 
             openModalButton.addEventListener('click', openModal);
             closeModalButton.addEventListener('click', closeModal);
             modalOverlay.addEventListener('click', closeModal);
-            // --- FIM DA LÓGICA DO MODAL ---
 
-            // 1. Função para Carregar Contagens na Inicialização
+            // --- Click Tracking & Navigation ---
             function loadClickCounts() {
                 const fetchPromises = [];
                 projectButtons.forEach(button => {
@@ -384,7 +381,7 @@
                                 displayElement.textContent = data.value || 0;
                             })
                             .catch(error => {
-                                console.error('Erro ao carregar contagem para o projeto:', projectId, error);
+                                console.error('Error loading count:', projectId, error);
                                 displayElement.textContent = 0;
                             });
                         fetchPromises.push(promise);
@@ -393,34 +390,36 @@
                 return Promise.all(fetchPromises);
             }
 
-            // 2. Adicionar Event Listeners para Contagem e Redirecionamento
             projectButtons.forEach(button => {
                 button.addEventListener('click', () => {
                     const projectId = button.dataset.projectId;
                     const href = button.dataset.href;
                     const displayElement = document.getElementById('clicks-' + projectId);
 
+                    // Optimistic update
+                    if(displayElement) {
+                        let current = parseInt(displayElement.textContent || 0);
+                        displayElement.textContent = current + 1;
+                    }
+
                     if (displayElement) {
                          fetch(`https://abacus.jasoncameron.dev/hit/${namespace}/${projectId}`)
                             .then(response => response.json())
                             .then(data => {
-                                if (data.value) {
-                                    displayElement.textContent = data.value;
-                                }
+                                if (data.value) displayElement.textContent = data.value;
                             })
-                            .catch(error => console.error('Erro ao incrementar contagem para o projeto:', projectId, error));
+                            .catch(e => console.error(e));
                     }
 
                     if (href && href !== '#') {
-                        window.open(href, '_blank');
+                        setTimeout(() => window.location.href = href, 150);
                     }
                 });
             });
 
-            // Carregar contagens e, em seguida, habilitar o botão do modal
             loadClickCounts().then(() => {
                 openModalButton.disabled = false;
-                console.log("Contagens carregadas. Botão do modal habilitado.");
+                openModalButton.classList.remove('opacity-50');
             });
         });
     </script>
