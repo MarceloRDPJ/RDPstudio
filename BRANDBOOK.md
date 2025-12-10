@@ -1,4 +1,4 @@
-# TecnoIT Brand Book & Design System
+# RDP STUDIO Brand Book & Design System
 
 ## 1. Core Principles
 - **Ultra Modern Aesthetic**: Glassmorphism, gradients, and subtle animations.

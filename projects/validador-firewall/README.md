@@ -1,4 +1,4 @@
-# Validador de MACs - TecnoIT
+# Validador de MACs - RDP STUDIO
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)
 ![Version: 2.0](https://img.shields.io/badge/Version-2.0%20Ultra%20Modern-blueviolet.svg)
@@ -48,7 +48,7 @@ It was not commissioned, requested, or remunerated by any company.
 
 ## 🚀 Como Usar / How to Use
 
-1.  Acesse a **[Demonstração Online](https://marcelordpj.github.io/Tecnoit/projects/validador-firewall/index.html)**.
+1.  Acesse a **[Demonstração Online](https://marcelordpj.github.io/rdpstudio/projects/validador-firewall/index.html)**.
 2.  Cole os dados na caixa de texto OU arraste um arquivo CSV.
     *   *Formato esperado:* `Nome;MAC` (separado por ponto e vírgula, tab ou espaço).
 3.  Clique em **"VALIDAR & CONVERTER"**.
