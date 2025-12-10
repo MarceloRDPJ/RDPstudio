@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- TODO: REPLACE_BRANDING - Atualizar título com nome final da empresa/marca -->
-    <title>Hub - Portfólio Profissional</title>
+    <!-- Branding Updated: RDP STUDIO -->
+    <title>RDP STUDIO - Hub Portfólio</title>
     <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="icon" sizes="192x192" href="android-chrome-192x192.png">
+    <link rel="icon" sizes="512x512" href="android-chrome-512x512.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
 
@@ -118,7 +121,7 @@
 
         /* Footer Protection */
         .watermark-container::after {
-            content: "© 2025 Marcelo Rodrigues. Portfolio Profissional.";
+            content: "© 2025 RDP STUDIO. Todos os direitos reservados.";
             font-size: 0.75rem;
             color: #64748b;
             opacity: 0.5;
@@ -145,21 +148,20 @@
         <!-- Header -->
         <header class="flex flex-col md:flex-row justify-between items-center mb-16 fade-in-up gap-6">
             <div class="flex items-center gap-4">
-                <!-- TODO: REPLACE_BRANDING - Substituir logo placeholder por logo final -->
-                <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-indigo-500/20 to-purple-500/20 flex items-center justify-center border border-white/5 relative group">
-                     <span class="font-bold text-xl text-white group-hover:scale-110 transition-transform duration-300">M</span>
-                     <div class="absolute inset-0 rounded-2xl ring-1 ring-white/10 group-hover:ring-indigo-500/50 transition-all"></div>
+                <!-- Branding Logo -->
+                <div class="w-12 h-12 rounded-2xl flex items-center justify-center relative group">
+                     <img src="logo.png" alt="RDP STUDIO Logo" class="w-full h-full object-contain group-hover:scale-110 transition-transform duration-300">
                 </div>
                 <div>
-                    <!-- TODO: REPLACE_BRANDING - Substituir texto placeholder por nome final -->
-                    <h1 class="text-2xl font-bold tracking-tight text-white">Marcelo <span class="text-indigo-400 font-light">Rodrigues</span></h1>
+                    <!-- Branding Name -->
+                    <h1 class="text-2xl font-bold tracking-tight text-white">RDP <span class="text-indigo-400 font-light">STUDIO</span></h1>
                     <p class="text-[10px] text-slate-500 font-mono tracking-[0.2em] uppercase">Engenharia de Software & Soluções</p>
                 </div>
             </div>
 
             <!-- Navigation -->
             <nav class="flex items-center gap-8 text-sm font-medium">
-                <button onclick="document.getElementById('aboutModalOverlay').classList.remove('hidden');" class="nav-link">Sobre</button>
+                <button onclick="toggleAboutModal(true)" class="nav-link">Sobre</button>
                 <a href="#projetos" class="nav-link">Projetos</a>
                 <a href="#contato" class="nav-link text-indigo-400 hover:text-indigo-300">Contato</a>
             </nav>
@@ -219,7 +221,6 @@
                     </div>
 
                     <div class="flex-grow">
-                        <!-- TODO: REPLACE_BRANDING - Se necessário remover nomes específicos -->
                         <h3 class="text-2xl font-bold text-white mb-2 group-hover:text-orange-400 transition-colors">Validador de Acesso</h3>
                         <p class="text-sm text-slate-400 leading-relaxed mb-4">
                             Engine para validação e sanitização de dados de rede. Converte listas CSV em scripts de configuração Fortigate instantaneamente.
@@ -350,7 +351,7 @@
         <div class="p-8 h-full flex flex-col overflow-y-auto">
             <div class="flex items-center justify-between mb-8 pb-8 border-b border-white/10">
                 <h3 class="text-xl font-bold text-white">Sobre o Portfólio</h3>
-                <button onclick="document.getElementById('aboutModalOverlay').classList.add('hidden');" class="text-slate-400 hover:text-white">
+                <button onclick="toggleAboutModal(false)" class="text-slate-400 hover:text-white">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
                 </button>
             </div>
@@ -371,7 +372,7 @@
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const projectButtons = document.querySelectorAll('[data-project-id]');
-            const namespace = 'tecnoit.hub';
+            const namespace = 'rdpstudio.hub';
 
             // --- Search & Filter Logic ---
             const searchInput = document.getElementById('searchInput');
@@ -434,7 +435,7 @@
             // Expose globally for header button
             window.toggleAboutModal = toggleModal;
 
-            document.querySelector('[onclick*="aboutModalOverlay"]').onclick = (e) => {
+            document.querySelector('[onclick*="toggleAboutModal(true)"]').onclick = (e) => {
                 e.preventDefault();
                 toggleModal(true);
             };
