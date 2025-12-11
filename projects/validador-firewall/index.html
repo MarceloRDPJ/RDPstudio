@@ -8,6 +8,16 @@
     <link rel="icon" type="image/png" href="../../favicon.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Mermaid JS -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'dark',
+            securityLevel: 'loose',
+            fontFamily: 'Inter'
+        });
+    </script>
 
     <style>
         /* --- BRANDBOOK CORE STYLES --- */
@@ -178,6 +188,28 @@
             <p class="text-lg text-slate-400 max-w-lg mx-auto">
                 Automação de segurança para Firewall. Valide, formate e gere scripts em segundos.
             </p>
+        </div>
+
+        <!-- Architecture Diagram -->
+        <div class="glass-card p-6 rounded-2xl mb-8 fade-in-up delay-150">
+            <div class="flex items-center gap-3 mb-4 border-b border-white/5 pb-4">
+                <div class="w-2 h-2 rounded-full bg-purple-500"></div>
+                <h3 class="text-sm font-bold text-white uppercase tracking-wider">Fluxo de Processamento</h3>
+            </div>
+            <div class="mermaid flex justify-center">
+                graph LR;
+                    I[Input: CSV/TXT] -->|Regex Parse| E{Engine JS};
+                    E -->|Validação| V[Check Duplicados/Format];
+                    V -->|Erro| R[Relatório CSV];
+                    V -->|Sucesso| G[Gerador Script];
+                    G -->|Output| F[Script Fortigate];
+                    style I fill:#475569,stroke:#fff,stroke-width:2px,color:white
+                    style E fill:#6366F1,stroke:#fff,stroke-width:2px,color:white
+                    style V fill:#8B5CF6,stroke:#fff,stroke-width:2px,color:white
+                    style R fill:#EF4444,stroke:#fff,stroke-width:2px,color:white
+                    style G fill:#10B981,stroke:#fff,stroke-width:2px,color:white
+                    style F fill:#F59E0B,stroke:#fff,stroke-width:2px,color:white
+            </div>
         </div>
 
         <!-- Instructions Card -->
