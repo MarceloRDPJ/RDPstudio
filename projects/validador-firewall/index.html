@@ -1,66 +1,92 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <!-- Version 3.0 - Ultra Modern UI Standard (GLPI Style) -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Validador RDP STUDIO - Firewall MACs</title>
     <link rel="icon" type="image/png" href="../../favicon.png">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <!-- Mermaid JS -->
-    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+
     <script>
-        mermaid.initialize({
-            startOnLoad: true,
-            theme: 'dark',
-            securityLevel: 'loose',
-            fontFamily: 'Inter'
-        });
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        deepBlue: '#1E3A5F',
+                        techGray: '#2D3748',
+                        vibrantCyan: '#00B4D8',
+                        energeticAmber: '#F59E0B',
+                        trustGreen: '#10B981',
+                        darkSlate: '#020617',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    },
+                    animation: {
+                        'fade-in-up': 'fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards',
+                        'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                    }
+                }
+            }
+        }
     </script>
 
     <style>
-        /* --- BRANDBOOK CORE STYLES --- */
+        /* --- RDP STUDIO BRAND CORE --- */
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #0f172a;
-            background-image:
-                radial-gradient(at 0% 0%, hsla(253, 16%, 7%, 1) 0, transparent 50%),
-                radial-gradient(at 50% 0%, hsla(225, 39%, 30%, 1) 0, transparent 50%),
-                radial-gradient(at 100% 0%, hsla(339, 49%, 30%, 1) 0, transparent 50%);
+            background-color: #020617; /* Dark Slate */
+            background-image: radial-gradient(circle at 15% 50%, rgba(30, 58, 95, 0.15), transparent 25%), radial-gradient(circle at 85% 30%, rgba(0, 180, 216, 0.1), transparent 25%);
             background-attachment: fixed;
-            color: #e2e8f0;
+            color: #F8FAFC;
             overflow-x: hidden;
+            position: relative;
         }
 
-        /* Glassmorphism */
+        /* NOISE TEXTURE */
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 9999;
+            opacity: 0.03;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+        }
+
+        /* Glassmorphism Refinado */
         .glass-card {
             background: rgba(30, 41, 59, 0.4);
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
             border: 1px solid rgba(255, 255, 255, 0.05);
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-        }
-        .glass-card:hover {
-            background: rgba(30, 41, 59, 0.6);
-            border-color: rgba(99, 102, 241, 0.3); /* Indigo tint */
-            transform: translateY(-5px);
-            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
         }
 
-        /* Gradient Text */
+        .glass-card:hover {
+            border-color: rgba(0, 180, 216, 0.3);
+            box-shadow: 0 0 30px rgba(0, 180, 216, 0.1);
+            transform: translateY(-2px);
+        }
+
+        /* Text Gradients */
         .text-gradient {
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            background-image: linear-gradient(to right, #818cf8, #c084fc, #f472b6);
+            background-image: linear-gradient(to right, #00B4D8, #38bdf8, #10B981);
         }
 
-        /* Primary Button (Glow) */
+        /* Buttons (Btn Glow) */
         .btn-glow {
-            background: linear-gradient(to right, #4f46e5, #9333ea);
+            background: linear-gradient(to right, #00B4D8, #1E3A5F);
             position: relative;
             z-index: 1;
             overflow: hidden;
@@ -70,17 +96,15 @@
             content: '';
             position: absolute;
             top: 0; left: 0; right: 0; bottom: 0;
-            background: linear-gradient(to right, #4338ca, #7e22ce);
+            background: linear-gradient(to right, #0ea5e9, #00B4D8);
             opacity: 0;
             z-index: -1;
             transition: opacity 0.3s ease;
         }
-        .btn-glow:hover::before {
-            opacity: 1;
-        }
+        .btn-glow:hover::before { opacity: 1; }
         .btn-glow:hover {
-            box-shadow: 0 0 20px rgba(124, 58, 237, 0.5);
-            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(0, 180, 216, 0.5);
+            transform: scale(1.02);
         }
         .btn-glow:disabled {
             filter: grayscale(0.8);
@@ -88,31 +112,33 @@
             opacity: 0.7;
         }
 
+        /* Input Styles */
+        .file-drop-zone {
+            transition: all 0.3s ease;
+            background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='12' ry='12' stroke='%2300B4D8' stroke-width='2' stroke-dasharray='12%2c 12' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+            background-color: rgba(30, 58, 95, 0.2);
+        }
+        .file-drop-zone:hover {
+            background-color: rgba(0, 180, 216, 0.05);
+            transform: scale(1.01);
+        }
+
         /* Animations */
         .fade-in-up {
             opacity: 0;
-            transform: translateY(20px);
             animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
         }
         .delay-100 { animation-delay: 0.1s; }
         .delay-200 { animation-delay: 0.2s; }
         .delay-300 { animation-delay: 0.3s; }
+        
+        @keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
 
-        @keyframes fadeInUp {
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        /* Specific Project Components */
-        .font-mono { font-family: 'JetBrains Mono', monospace; }
-
-        .file-drop-zone {
-            transition: all 0.3s ease;
-            background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='12' ry='12' stroke='%236366F1' stroke-width='2' stroke-dasharray='12%2c 12' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
-        }
-        .file-drop-zone:hover {
-            background-color: rgba(99, 102, 241, 0.05);
-            transform: scale(1.01);
-        }
+        /* Scrollbar */
+        .custom-scrollbar::-webkit-scrollbar { width: 6px; height: 6px; }
+        .custom-scrollbar::-webkit-scrollbar-track { background: rgba(2, 6, 23, 0.5); border-radius: 3px; }
+        .custom-scrollbar::-webkit-scrollbar-thumb { background: rgba(0, 180, 216, 0.5); border-radius: 3px; }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: rgba(0, 180, 216, 0.8); }
 
         /* Footer Protection */
         .watermark-container::after {
@@ -129,42 +155,22 @@
             -webkit-user-select: none;
             transition: color 0.3s ease;
         }
-        .watermark-container:hover::after {
-            color: #f97316;
-            opacity: 0.8;
-        }
-        body:not(:has(.watermark-container))::after {
-            content: "© 2025 RDP STUDIO. Desenvolvido por Marcelo Rodrigues.";
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            color: white;
-            background: red;
-            padding: 10px;
-            z-index: 9999;
-        }
-
-        /* Scrollbar */
-        .custom-scrollbar::-webkit-scrollbar { width: 8px; height: 8px; }
-        .custom-scrollbar::-webkit-scrollbar-track { background: rgba(0,0,0,0.2); border-radius: 4px; }
-        .custom-scrollbar::-webkit-scrollbar-thumb { background: rgba(99, 102, 241, 0.5); border-radius: 4px; }
-        .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: rgba(99, 102, 241, 0.8); }
     </style>
 </head>
-<body class="antialiased selection:bg-indigo-500 selection:text-white">
+<body class="antialiased selection:bg-vibrantCyan selection:text-white">
 
-    <!-- Background Elements -->
+    <!-- Background Glows -->
     <div class="fixed top-0 left-0 w-full h-full overflow-hidden -z-10 pointer-events-none">
-        <div class="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-purple-900/20 rounded-full blur-[120px]"></div>
-        <div class="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-indigo-900/20 rounded-full blur-[120px]"></div>
+        <div class="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-deepBlue/20 rounded-full blur-[120px]"></div>
+        <div class="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-vibrantCyan/10 rounded-full blur-[120px]"></div>
     </div>
 
-    <div class="max-w-4xl mx-auto px-6 py-12">
+    <div class="max-w-4xl mx-auto px-6 py-8 md:py-12">
 
         <!-- Standardized Header -->
-        <header class="flex justify-between items-center mb-16 fade-in-up">
+        <header class="flex flex-wrap justify-between items-center mb-16 gap-4 fade-in-up relative z-50">
             <a href="../../index.html" class="flex items-center gap-2 text-slate-400 hover:text-white transition-colors group">
-                <div class="p-2 rounded-lg bg-white/5 border border-white/10 group-hover:border-indigo-500/50 transition-colors">
+                <div class="p-2 rounded-lg bg-white/5 border border-white/10 group-hover:border-vibrantCyan/50 transition-colors">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd" />
                     </svg>
@@ -172,177 +178,203 @@
                 <span class="text-sm font-semibold tracking-wide uppercase">Voltar ao Hub</span>
             </a>
             <div class="flex items-center gap-3">
-                <span class="px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs font-bold uppercase tracking-wider">
+                <span class="px-3 py-1 rounded-full bg-vibrantCyan/10 border border-vibrantCyan/20 text-vibrantCyan text-xs font-bold uppercase tracking-wider">
                     Validador v2.5
                 </span>
-                <!-- TODO: REPLACE_BRANDING - Atualizar logo -->
                 <img src="../../assets/images/branding/logo.png" alt="Logo" class="h-8 w-8 opacity-80" onerror="this.style.display='none'">
             </div>
         </header>
 
         <!-- Main Title Area -->
         <div class="text-center mb-12 fade-in-up delay-100">
-            <!-- TODO: REPLACE_BRANDING - Atualizar título -->
-            <h1 class="text-5xl font-extrabold mb-4">
+            <h1 class="text-4xl md:text-5xl font-extrabold mb-4 leading-tight">
                 Validador <span class="text-gradient">de MACs</span>
             </h1>
-            <p class="text-lg text-slate-400 max-w-lg mx-auto">
-                Automação de segurança para Firewall. Valide, formate e gere scripts em segundos.
+            <p class="text-base md:text-lg text-slate-400 max-w-lg mx-auto font-light leading-relaxed">
+                Automação de segurança para Firewall Fortigate. Valide, formate e gere scripts em segundos.
             </p>
         </div>
 
-        <!-- Architecture Diagram -->
-        <div class="glass-card p-6 rounded-2xl mb-8 fade-in-up delay-150">
-            <div class="flex items-center gap-3 mb-4 border-b border-white/5 pb-4">
-                <div class="w-2 h-2 rounded-full bg-purple-500"></div>
-                <h3 class="text-sm font-bold text-white uppercase tracking-wider">Fluxo de Processamento</h3>
+        <!-- Professional Pipeline Visualization (Replacing Rustic Mermaid) -->
+        <div class="mb-12 fade-in-up delay-200">
+            <div class="text-xs font-bold text-slate-500 uppercase tracking-widest mb-4 flex items-center gap-2">
+                <i class="fa-solid fa-microchip"></i> Fluxo de Processamento
             </div>
-            <div class="mermaid flex justify-center">
-                graph LR;
-                    I[Input: CSV/TXT] -->|Regex Parse| E{Engine JS};
-                    E -->|Validação| V[Check Duplicados/Format];
-                    V -->|Erro| R[Relatório CSV];
-                    V -->|Sucesso| G[Gerador Script];
-                    G -->|Output| F[Script Fortigate];
-                    style I fill:#475569,stroke:#fff,stroke-width:2px,color:white
-                    style E fill:#6366F1,stroke:#fff,stroke-width:2px,color:white
-                    style V fill:#8B5CF6,stroke:#fff,stroke-width:2px,color:white
-                    style R fill:#EF4444,stroke:#fff,stroke-width:2px,color:white
-                    style G fill:#10B981,stroke:#fff,stroke-width:2px,color:white
-                    style F fill:#F59E0B,stroke:#fff,stroke-width:2px,color:white
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-4 relative">
+                <!-- Connecting Line (Desktop) -->
+                <div class="hidden md:block absolute top-1/2 left-0 w-full h-[2px] bg-slate-800 -z-10 transform -translate-y-1/2"></div>
+
+                <!-- Step 1 -->
+                <div class="glass-card p-4 rounded-xl text-center relative group">
+                    <div class="w-10 h-10 mx-auto bg-slate-800 rounded-full flex items-center justify-center text-slate-400 mb-3 border border-slate-700 group-hover:border-vibrantCyan group-hover:text-vibrantCyan transition-all z-10 relative">
+                        <i class="fa-solid fa-file-csv"></i>
+                    </div>
+                    <h4 class="text-white font-bold text-sm">Input</h4>
+                    <p class="text-[10px] text-slate-400 mt-1">Excel, CSV ou TXT</p>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="glass-card p-4 rounded-xl text-center relative group">
+                    <div class="w-10 h-10 mx-auto bg-slate-800 rounded-full flex items-center justify-center text-slate-400 mb-3 border border-slate-700 group-hover:border-vibrantCyan group-hover:text-vibrantCyan transition-all z-10 relative">
+                        <i class="fa-solid fa-gears"></i>
+                    </div>
+                    <h4 class="text-white font-bold text-sm">Engine JS</h4>
+                    <p class="text-[10px] text-slate-400 mt-1">Regex & Parsing</p>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="glass-card p-4 rounded-xl text-center relative group">
+                    <div class="w-10 h-10 mx-auto bg-slate-800 rounded-full flex items-center justify-center text-slate-400 mb-3 border border-slate-700 group-hover:border-energeticAmber group-hover:text-energeticAmber transition-all z-10 relative">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <h4 class="text-white font-bold text-sm">Validação</h4>
+                    <p class="text-[10px] text-slate-400 mt-1">Duplicatas & Formato</p>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="glass-card p-4 rounded-xl text-center relative group">
+                    <div class="w-10 h-10 mx-auto bg-slate-800 rounded-full flex items-center justify-center text-slate-400 mb-3 border border-slate-700 group-hover:border-trustGreen group-hover:text-trustGreen transition-all z-10 relative">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h4 class="text-white font-bold text-sm">Output</h4>
+                    <p class="text-[10px] text-slate-400 mt-1">Script Fortigate</p>
+                </div>
             </div>
         </div>
 
         <!-- Instructions Card -->
-        <div class="glass-card p-6 rounded-2xl mb-12 fade-in-up delay-200">
-            <div class="flex items-center gap-3 mb-4 border-b border-white/5 pb-4">
-                <div class="w-2 h-2 rounded-full bg-indigo-500"></div>
-                <h3 class="text-sm font-bold text-white uppercase tracking-wider">Instruções de Uso</h3>
-            </div>
-            <div class="grid md:grid-cols-2 gap-6 text-sm text-slate-400 font-mono">
-                <ul class="space-y-3">
-                    <li class="flex items-center gap-2">
-                        <svg class="w-4 h-4 text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-                        Cole dados de Excel, CSV ou Texto
-                    </li>
-                    <li class="flex items-center gap-2">
-                        <svg class="w-4 h-4 text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-                        Col 1: Nome do Equipamento
-                    </li>
-                </ul>
-                <ul class="space-y-3">
-                    <li class="flex items-center gap-2">
-                        <svg class="w-4 h-4 text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-                        Col 2: MAC (Hífen ou Dois Pontos)
-                    </li>
-                    <li class="flex items-center gap-2">
-                        <svg class="w-4 h-4 text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-                        Saída: Script Fortigate Formatado
-                    </li>
-                </ul>
-            </div>
-            <div class="flex gap-4 mt-6">
-                <button id="clearButton" class="px-4 py-2 rounded-lg border border-white/10 hover:bg-white/5 text-slate-400 text-xs font-bold transition-colors">
-                    LIMPAR DADOS
+        <div class="glass-card p-6 md:p-8 rounded-2xl mb-12 fade-in-up delay-200 border-l-4 border-l-vibrantCyan">
+            <div class="flex items-center justify-between mb-6">
+                <div class="flex items-center gap-3">
+                    <div class="w-8 h-8 rounded-lg bg-vibrantCyan/10 flex items-center justify-center text-vibrantCyan">
+                        <i class="fa-solid fa-circle-info"></i>
+                    </div>
+                    <h3 class="text-base font-bold text-white uppercase tracking-wider">Instruções de Uso</h3>
+                </div>
+                <button id="downloadTemplateButton" class="text-xs font-bold text-vibrantCyan hover:text-white transition-colors flex items-center gap-2 px-3 py-1.5 rounded-lg bg-vibrantCyan/10 hover:bg-vibrantCyan/20">
+                    <i class="fa-solid fa-download"></i> BAIXAR MODELO
                 </button>
-                <button id="downloadTemplateButton" class="px-4 py-2 rounded-lg border border-indigo-500/30 text-indigo-400 hover:text-indigo-300 hover:bg-indigo-500/10 text-xs font-bold transition-colors flex items-center gap-2">
-                    <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
-                    BAIXAR MODELO CSV
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-6 text-sm text-slate-400 font-mono bg-slate-900/50 p-4 rounded-xl border border-white/5">
+                <ul class="space-y-3">
+                    <li class="flex items-center gap-3">
+                        <i class="fa-solid fa-check text-trustGreen text-xs"></i>
+                        <span>Cole dados de Excel, CSV ou Texto</span>
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <i class="fa-solid fa-check text-trustGreen text-xs"></i>
+                        <span>Col 1: Nome do Equipamento</span>
+                    </li>
+                </ul>
+                <ul class="space-y-3">
+                    <li class="flex items-center gap-3">
+                        <i class="fa-solid fa-check text-trustGreen text-xs"></i>
+                        <span>Col 2: MAC (Hífen ou Dois Pontos)</span>
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <i class="fa-solid fa-check text-trustGreen text-xs"></i>
+                        <span>Saída: Script Fortigate Formatado</span>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="flex justify-end mt-4">
+                <button id="clearButton" class="text-xs font-bold text-slate-500 hover:text-red-400 transition-colors flex items-center gap-2 px-3 py-1">
+                    <i class="fa-solid fa-trash-can"></i> LIMPAR DADOS
                 </button>
             </div>
         </div>
 
         <!-- Input Area -->
         <div class="space-y-6 fade-in-up delay-300">
-            <label for="fileInput" class="group flex flex-col items-center justify-center w-full h-32 file-drop-zone rounded-xl cursor-pointer bg-slate-800/30 hover:bg-slate-800/50">
+            <label for="fileInput" class="group flex flex-col items-center justify-center w-full h-32 file-drop-zone rounded-xl cursor-pointer">
                 <div class="flex flex-col items-center justify-center pt-5 pb-6">
-                    <svg class="w-8 h-8 mb-3 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path></svg>
-                    <p class="mb-2 text-sm text-slate-400"><span class="font-bold text-white">Clique para carregar</span> ou arraste e solte</p>
-                    <p class="text-xs text-slate-500">CSV ou TXT</p>
+                    <i class="fa-solid fa-cloud-arrow-up text-3xl mb-3 text-vibrantCyan group-hover:scale-110 transition-transform"></i>
+                    <p class="mb-1 text-sm text-slate-300"><span class="font-bold text-white">Clique para carregar</span> ou arraste</p>
+                    <p class="text-xs text-slate-500">Suporta .CSV ou .TXT</p>
                 </div>
                 <input type="file" id="fileInput" class="hidden" accept=".csv,.txt" />
             </label>
 
             <div class="relative">
-                <textarea id="dataInput" class="block w-full p-6 bg-slate-900/50 border border-slate-700/50 rounded-xl text-sm font-mono text-slate-300 focus:ring-2 focus:ring-indigo-500 focus:border-transparent outline-none transition-all resize-y min-h-[200px]" placeholder="Cole seus dados aqui..."></textarea>
-                <div class="absolute bottom-4 right-4 text-[10px] text-slate-600 font-mono">INPUT_STREAM</div>
+                <textarea id="dataInput" class="block w-full p-6 bg-slate-900/50 border border-slate-700/50 rounded-xl text-sm font-mono text-slate-300 focus:ring-1 focus:ring-vibrantCyan focus:border-vibrantCyan outline-none transition-all resize-y min-h-[200px] placeholder-slate-600 custom-scrollbar" placeholder="Cole seus dados aqui...
+Exemplo:
+PC-FINANCEIRO; 00-11-22-33-44-55
+IMPRESSORA-RH; AA:BB:CC:DD:EE:FF"></textarea>
+                <div class="absolute bottom-4 right-4 text-[10px] text-slate-600 font-mono bg-slate-800 px-2 py-1 rounded">INPUT_STREAM</div>
             </div>
 
-            <button id="processButton" class="btn-glow w-full py-4 rounded-xl text-white font-bold text-sm tracking-widest uppercase shadow-lg flex justify-center items-center gap-3">
+            <button id="processButton" class="btn-glow w-full py-4 rounded-xl text-white font-bold text-sm tracking-widest uppercase shadow-lg flex justify-center items-center gap-3 group">
                 <span>Validar & Converter</span>
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
+                <i class="fa-solid fa-rocket group-hover:translate-x-1 transition-transform"></i>
             </button>
         </div>
 
         <!-- Results Area -->
-        <div id="resultsArea" class="hidden mt-12 fade-in-up">
-            <div class="flex items-center gap-4 mb-6">
-                <h2 class="text-2xl font-bold text-white">Resultado</h2>
+        <div id="resultsArea" class="hidden mt-16 fade-in-up">
+            <div class="flex items-center gap-4 mb-8">
+                <h2 class="text-2xl font-bold text-white">Resultado da Análise</h2>
                 <div class="h-[1px] flex-grow bg-slate-800"></div>
-                <div id="summary" class="flex gap-4">
+                <div id="summary" class="flex flex-wrap gap-2">
                     <!-- Summary injected via JS -->
                 </div>
             </div>
 
             <div class="grid gap-4">
                 <!-- Objects Card -->
-                <div id="cardObjects" class="hidden glass-card p-6 rounded-xl flex items-center justify-between group">
+                <div id="cardObjects" class="hidden glass-card p-6 rounded-xl flex flex-col md:flex-row items-start md:items-center justify-between gap-4 group border-l-4 border-l-trustGreen">
                     <div class="flex items-center gap-4">
-                        <div class="p-3 rounded-lg bg-green-500/10 text-green-400">
-                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <div class="p-3 rounded-lg bg-trustGreen/10 text-trustGreen">
+                            <i class="fa-solid fa-cube text-xl"></i>
                         </div>
                         <div>
                             <h4 class="font-bold text-white">Script de Objetos</h4>
-                            <span id="badgeObjects" class="text-xs text-slate-400 font-mono">0 Items</span>
+                            <span id="badgeObjects" class="text-xs text-slate-400 font-mono block mt-1">0 Items</span>
                         </div>
                     </div>
-                    <div class="flex gap-3">
-                        <button onclick="openModal('objects')" class="px-4 py-2 rounded-lg bg-white/5 hover:bg-white/10 text-sm font-bold text-white transition-colors">Visualizar</button>
-                        <a id="downloadObjects" href="#" class="px-4 py-2 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-sm font-bold text-white transition-colors flex items-center gap-2">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
-                            Baixar
+                    <div class="flex gap-3 w-full md:w-auto">
+                        <button onclick="openModal('objects')" class="flex-1 md:flex-none px-4 py-2 rounded-lg bg-white/5 hover:bg-white/10 text-sm font-bold text-white transition-colors border border-white/5">Visualizar</button>
+                        <a id="downloadObjects" href="#" class="flex-1 md:flex-none px-4 py-2 rounded-lg bg-trustGreen hover:bg-emerald-600 text-sm font-bold text-white transition-colors flex items-center justify-center gap-2 shadow-lg shadow-trustGreen/20">
+                            <i class="fa-solid fa-download"></i> Baixar
                         </a>
                     </div>
                 </div>
 
                 <!-- Group Card -->
-                <div id="cardGroup" class="hidden glass-card p-6 rounded-xl flex items-center justify-between group">
+                <div id="cardGroup" class="hidden glass-card p-6 rounded-xl flex flex-col md:flex-row items-start md:items-center justify-between gap-4 group border-l-4 border-l-vibrantCyan">
                     <div class="flex items-center gap-4">
-                        <div class="p-3 rounded-lg bg-blue-500/10 text-blue-400">
-                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                        <div class="p-3 rounded-lg bg-vibrantCyan/10 text-vibrantCyan">
+                            <i class="fa-solid fa-layer-group text-xl"></i>
                         </div>
                         <div>
                             <h4 class="font-bold text-white">Script de Grupo</h4>
-                            <span id="badgeGroup" class="text-xs text-slate-400 font-mono">0 Membros</span>
+                            <span id="badgeGroup" class="text-xs text-slate-400 font-mono block mt-1">0 Membros</span>
                         </div>
                     </div>
-                    <div class="flex gap-3">
-                        <button onclick="openModal('group')" class="px-4 py-2 rounded-lg bg-white/5 hover:bg-white/10 text-sm font-bold text-white transition-colors">Visualizar</button>
-                        <a id="downloadGroup" href="#" class="px-4 py-2 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-sm font-bold text-white transition-colors flex items-center gap-2">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
-                            Baixar
+                    <div class="flex gap-3 w-full md:w-auto">
+                        <button onclick="openModal('group')" class="flex-1 md:flex-none px-4 py-2 rounded-lg bg-white/5 hover:bg-white/10 text-sm font-bold text-white transition-colors border border-white/5">Visualizar</button>
+                        <a id="downloadGroup" href="#" class="flex-1 md:flex-none px-4 py-2 rounded-lg bg-vibrantCyan hover:bg-cyan-600 text-sm font-bold text-white transition-colors flex items-center justify-center gap-2 shadow-lg shadow-vibrantCyan/20">
+                            <i class="fa-solid fa-download"></i> Baixar
                         </a>
                     </div>
                 </div>
 
                 <!-- Errors Card -->
-                <div id="cardErrors" class="hidden glass-card p-6 rounded-xl flex items-center justify-between border-red-500/20 group">
+                <div id="cardErrors" class="hidden glass-card p-6 rounded-xl flex flex-col md:flex-row items-start md:items-center justify-between gap-4 border-l-4 border-l-red-500 bg-red-500/5">
                     <div class="flex items-center gap-4">
                         <div class="p-3 rounded-lg bg-red-500/10 text-red-400">
-                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <i class="fa-solid fa-triangle-exclamation text-xl"></i>
                         </div>
                         <div>
                             <h4 class="font-bold text-white">Erros Encontrados</h4>
-                            <span id="badgeErrors" class="text-xs text-red-400 font-mono">0 Erros</span>
+                            <span id="badgeErrors" class="text-xs text-red-400 font-mono block mt-1">0 Erros</span>
                         </div>
                     </div>
-                    <div class="flex gap-3">
-                        <button onclick="openModal('errors')" class="px-4 py-2 rounded-lg bg-white/5 hover:bg-white/10 text-sm font-bold text-white transition-colors">Relatório</button>
-                        <a id="downloadErrors" href="#" class="px-4 py-2 rounded-lg bg-red-600 hover:bg-red-500 text-sm font-bold text-white transition-colors flex items-center gap-2">
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
-                            Baixar CSV
+                    <div class="flex gap-3 w-full md:w-auto">
+                        <button onclick="openModal('errors')" class="flex-1 md:flex-none px-4 py-2 rounded-lg bg-white/5 hover:bg-white/10 text-sm font-bold text-white transition-colors border border-white/5">Relatório</button>
+                        <a id="downloadErrors" href="#" class="flex-1 md:flex-none px-4 py-2 rounded-lg bg-red-600 hover:bg-red-500 text-sm font-bold text-white transition-colors flex items-center justify-center gap-2 shadow-lg shadow-red-500/20">
+                            <i class="fa-solid fa-file-csv"></i> Baixar CSV
                         </a>
                     </div>
                 </div>
@@ -377,27 +409,26 @@
 
     <!-- Modal -->
     <div id="previewModal" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4">
-        <div class="absolute inset-0 bg-slate-950/80 backdrop-blur-sm transition-opacity" onclick="closeModal()"></div>
-        <div class="relative glass-card w-full max-w-4xl max-h-[85vh] rounded-2xl flex flex-col overflow-hidden ring-1 ring-indigo-500/20 shadow-2xl">
+        <div class="absolute inset-0 bg-slate-950/90 backdrop-blur-md transition-opacity" onclick="closeModal()"></div>
+        <div class="relative glass-card w-full max-w-4xl max-h-[85vh] rounded-2xl flex flex-col overflow-hidden ring-1 ring-vibrantCyan/20 shadow-2xl">
             <!-- Header -->
             <div class="flex items-center justify-between p-6 border-b border-white/5 bg-slate-900/50">
                 <h3 id="modalTitle" class="text-lg font-bold text-white">Visualização</h3>
-                <button onclick="closeModal()" class="text-slate-400 hover:text-white transition-colors">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                <button onclick="closeModal()" class="w-8 h-8 rounded-full flex items-center justify-center bg-white/5 hover:bg-red-500/20 text-slate-400 hover:text-red-500 transition-colors">
+                    <i class="fa-solid fa-xmark"></i>
                 </button>
             </div>
             <!-- Body -->
-            <div id="modalBody" class="p-0 overflow-auto custom-scrollbar flex-1 bg-[#0f172a]">
+            <div id="modalBody" class="p-0 overflow-auto custom-scrollbar flex-1 bg-[#0b101b]">
                 <!-- Content -->
             </div>
             <!-- Footer -->
             <div class="p-6 border-t border-white/5 bg-slate-900/50 flex justify-end gap-3">
                  <button id="modalCopyBtn" class="hidden px-4 py-2 rounded-lg border border-white/10 hover:bg-white/5 text-sm font-bold text-white transition-colors flex items-center gap-2">
-                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
-                    Copiar
+                    <i class="fa-regular fa-copy"></i> Copiar
                 </button>
-                 <a id="modalDownloadBtn" href="#" class="hidden btn-glow px-6 py-2 rounded-lg text-sm font-bold text-white shadow-lg transition-transform transform hover:-translate-y-1">
-                    Baixar Arquivo
+                 <a id="modalDownloadBtn" href="#" class="hidden btn-glow px-6 py-2 rounded-lg text-sm font-bold text-white shadow-lg transition-transform transform hover:-translate-y-1 flex items-center gap-2">
+                    <i class="fa-solid fa-download"></i> Baixar Arquivo
                 </a>
             </div>
         </div>
@@ -405,8 +436,8 @@
 
     <!-- Toast -->
     <div id="toast" class="fixed bottom-8 right-8 z-[110] transform translate-y-20 opacity-0 transition-all duration-300 pointer-events-none">
-        <div class="glass-card px-6 py-3 rounded-xl flex items-center gap-3 border-green-500/30">
-            <svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+        <div class="glass-card px-6 py-3 rounded-xl flex items-center gap-3 border border-trustGreen/30 bg-slate-900/90 shadow-2xl">
+            <i class="fa-solid fa-check-circle text-trustGreen"></i>
             <span class="font-bold text-white text-sm">Copiado com sucesso!</span>
         </div>
     </div>
@@ -611,9 +642,9 @@
             }
 
             summaryDisplay.innerHTML = `
-                <div class="px-3 py-1 rounded bg-slate-800 text-xs text-slate-400">Total: <span class="text-white font-bold">${linhasProcessadas}</span></div>
-                <div class="px-3 py-1 rounded bg-green-500/10 text-xs text-green-400">Válidos: <span class="font-bold">${numSucesso}</span></div>
-                <div class="px-3 py-1 rounded bg-red-500/10 text-xs text-red-400">Erros: <span class="font-bold">${numErros}</span></div>
+                <div class="px-3 py-1 rounded bg-slate-800 text-xs text-slate-400 border border-white/5">Total: <span class="text-white font-bold">${linhasProcessadas}</span></div>
+                <div class="px-3 py-1 rounded bg-trustGreen/10 text-xs text-trustGreen border border-trustGreen/20">Válidos: <span class="font-bold">${numSucesso}</span></div>
+                <div class="px-3 py-1 rounded bg-red-500/10 text-xs text-red-400 border border-red-500/20">Erros: <span class="font-bold">${numErros}</span></div>
             `;
             resultsArea.classList.remove('hidden');
         }
@@ -633,7 +664,7 @@
             modalCopyBtn.onclick = null;
 
             if (type === 'objects') {
-                modalTitle.innerHTML = `<span class="text-green-400 font-mono">#</span> Script de Objetos`;
+                modalTitle.innerHTML = `<span class="text-trustGreen font-mono">#</span> Script de Objetos`;
                 modalBody.innerHTML = `<pre class="p-6 text-xs font-mono text-slate-300 whitespace-pre-wrap break-all">${escapeHtml(generatedObjectsScript)}</pre>`;
                 modalCopyBtn.classList.remove('hidden');
                 modalCopyBtn.onclick = () => copyToClipboard(generatedObjectsScript);
@@ -642,7 +673,7 @@
                 modalDownloadBtn.download = downloadObjects.download;
             }
             else if (type === 'group') {
-                modalTitle.innerHTML = `<span class="text-blue-400 font-mono">@</span> Script de Grupo`;
+                modalTitle.innerHTML = `<span class="text-vibrantCyan font-mono">@</span> Script de Grupo`;
                 modalBody.innerHTML = `<pre class="p-6 text-xs font-mono text-slate-300 whitespace-pre-wrap break-all">${escapeHtml(generatedGroupScript)}</pre>`;
                 modalCopyBtn.classList.remove('hidden');
                 modalCopyBtn.onclick = () => copyToClipboard(generatedGroupScript);
