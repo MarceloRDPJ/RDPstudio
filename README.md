@@ -1,58 +1,87 @@
-# RDP STUDIO - Hub de Engenharia e Inovação
+# RDP STUDIO - Enterprise Engineering Hub
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Status](https://img.shields.io/badge/status-active-success.svg)
-![Version](https://img.shields.io/badge/version-2025.1.0-purple.svg)
+<div align="center">
 
-> **Engenharia Criativa & Funcional.**
-> Soluções de alto impacto focadas em Cloud, Cibersegurança e Automação com IA.
+![Logo RDP Studio](assets/images/clients/tecnoit.png) <!-- Using Client Logo as Placeholder or Text if no main logo -->
 
----
+**Transformando Complexidade em Solução.**
 
-## 📋 Visão Geral
+[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
+[![Status](https://img.shields.io/badge/status-production-success.svg?style=flat-square)](https://marcelordpj.github.io/Tecnoit/)
+[![Security](https://img.shields.io/badge/security-audited-orange.svg?style=flat-square)](SECURITY.md)
+[![Uptime](https://img.shields.io/badge/uptime-99.9%25-green.svg?style=flat-square)](https://marcelordpj.github.io/Tecnoit/)
 
-Este repositório hospeda o **Hub Central da RDP Studio**, uma vitrine interativa que centraliza projetos de engenharia de software desenvolvidos por **Marcelo Rodrigues**. Mais do que um portfólio, é uma demonstração de arquitetura frontend moderna, design cognitivo e boas práticas de desenvolvimento.
+[Explorar Portfólio](https://marcelordpj.github.io/Tecnoit/) • [Ver Documentação](BRANDBOOK.md) • [Reportar Bug](https://github.com/MarceloRDPJ/Tecnoit/issues)
 
-A plataforma serve como ponto de entrada para diversas ferramentas e automações, incluindo:
-- 🤖 **Assistentes de IA** (Chatbots com LLMs)
-- 🛡️ **Ferramentas de Cibersegurança** (Validadores de Firewall)
-- ⚙️ **Automação de Infraestrutura** (Bots para GLPI)
-- 🎮 **Geek Tools** (Scanners de Jogos)
+</div>
 
 ---
 
-## 🚀 Tecnologias e Arquitetura
+## 🎯 O Que é a RDP Studio?
 
-O projeto segue uma arquitetura **Serverless Static**, focada em performance, segurança e baixo custo.
+A **RDP Studio** não é apenas uma consultoria; é um hub de engenharia de alta performance liderado por **Marcelo Rodrigues**. Nossa missão é unir **Infraestrutura Robusta** com **Desenvolvimento Ágil** e **Segurança Ofensiva**.
 
-| Categoria | Tecnologias |
-| :--- | :--- |
-| **Frontend** | HTML5 Semântico, Tailwind CSS (CDN), FontAwesome |
-| **Design** | Glassmorphism, Neuro-Design (Cognitive Load Reduction) |
-| **Scripts** | JavaScript (ES6+) Vanilla |
-| **Deploy** | GitHub Pages |
-| **Analytics** | Abacus API (Privacy-focused click tracking) |
+Este repositório (`Tecnoit`) hospeda o nosso **Hub Central**, uma vitrine tecnológica construída com princípios de **Neuro-Design** e **Arquitetura Estática Serverless**.
+
+### Diferenciais Técnicos
+*   **Neuro-Estratégia:** Interfaces projetadas para reduzir a carga cognitiva e guiar a atenção do usuário (Padrões F/Z).
+*   **Glassmorphism UI:** Estética ultra-moderna que transmite transparência e tecnologia.
+*   **Performance First:** Zero build-steps complexos, carregamento instantâneo via CDN e Tailwind.
 
 ---
 
-## 📂 Estrutura do Projeto
+## 🏗️ Arquitetura do Ecossistema
+
+A plataforma atua como um orquestrador para diversos microsserviços e ferramentas isoladas.
 
 ```mermaid
 graph TD;
-    root[RDP Studio Hub] --> assets[Assets & Images];
-    root --> projects[Projetos];
-    projects --> p1[Assistente Vendas IA];
-    projects --> p2[Validador Firewall];
-    projects --> p3[Automação GLPI];
-    projects --> p4[Scanner Games];
-    root --> docs[Documentação];
-    docs --> brand[BRANDBOOK.md];
-    docs --> sec[SECURITY.md];
+    Hub[RDP Studio Hub] -->|Navegação| P1[Assistente IA];
+    Hub -->|Navegação| P2[Validador Firewall];
+    Hub -->|Navegação| P3[Automação GLPI];
+    Hub -->|Navegação| P4[Scanner Games];
+
+    P1 -->|API| T[Telegram];
+    P1 -->|LLM| G[Gemini 1.5 Pro];
+    P2 -->|Engine| JS[Regex Parser];
+    P2 -->|Output| F[Fortigate Scripts];
+    P3 -->|Integration| GLPI[GLPI API];
+    P4 -->|Fetch| E[Epic Games Store];
+
+    style Hub fill:#1E3A5F,stroke:#00B4D8,stroke-width:3px,color:white
+    style P1 fill:#2D3748,stroke:#fff,stroke-width:2px,color:white
+    style P2 fill:#2D3748,stroke:#fff,stroke-width:2px,color:white
+    style P3 fill:#2D3748,stroke:#fff,stroke-width:2px,color:white
+    style P4 fill:#2D3748,stroke:#fff,stroke-width:2px,color:white
 ```
 
-## 🛠️ Instalação e Execução Local
+---
 
-Para rodar este projeto em sua máquina local para testes ou desenvolvimento:
+## 🚀 Projetos em Destaque
+
+### 🤖 [Assistente de Vendas IA](./projects/assistente-vendas-ia/)
+> **Stack:** Python, Gemini 1.5 Pro, Supabase, Telegram API.
+Agente autônomo capaz de negociar, verificar estoque e validar pagamentos via PIX lendo comprovantes com Visão Computacional.
+
+### 🛡️ [Validador de Firewall](./projects/validador-firewall/)
+> **Stack:** JavaScript, Regex Engine, File API.
+Ferramenta de conformidade que sanitiza listas de MAC Address e gera scripts prontos para importação em Firewalls Fortigate.
+
+### ⚙️ [Automação GLPI](./projects/abertura-chamados-glpi/)
+> **Stack:** Python, REST API.
+Bot de abertura massiva de chamados que varre diretórios locais, identifica evidências e abre tickets com anexos automaticamente.
+
+---
+
+## 🛠️ Como Executar Localmente
+
+Siga estes passos para ter o ambiente completo rodando em sua máquina:
+
+### Pré-requisitos
+*   Git
+*   Python 3.x (apenas para servidor local)
+
+### Instalação
 
 1.  **Clone o repositório:**
     ```bash
@@ -60,36 +89,49 @@ Para rodar este projeto em sua máquina local para testes ou desenvolvimento:
     cd Tecnoit
     ```
 
-2.  **Inicie um servidor local:**
-    Como o projeto usa módulos ES6 e CORS em alguns subprojetos, é recomendado usar um servidor HTTP simples.
+2.  **Inicie o Servidor Local:**
+    Devido às políticas de CORS dos navegadores modernos, alguns módulos requerem um servidor HTTP.
     ```bash
-    # Python 3
+    # Linux/Mac
     python3 -m http.server 8000
+
+    # Windows
+    python -m http.server 8000
     ```
 
 3.  **Acesse:**
-    Abra seu navegador em `http://localhost:8000`.
-
-## 🎨 Design System
-
-Consulte o arquivo [`BRANDBOOK.md`](./BRANDBOOK.md) para detalhes sobre:
-- Paleta de Cores (Deep Blue, Vibrant Cyan, Tech Gray)
-- Tipografia (Inter, JetBrains Mono)
-- Componentes UI (Glass Cards, Botões)
-
-## 🤝 Como Contribuir
-
-Contribuições são bem-vindas! Se você tiver uma ideia para melhorar o hub ou um dos projetos:
-
-1.  Faça um Fork do projeto.
-2.  Crie uma Branch para sua Feature (`git checkout -b feat/NovaFeature`).
-3.  Commit suas mudanças seguindo o padrão [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) (`git commit -m 'feat: adiciona nova seção de analytics'`).
-4.  Faça o Push para a Branch (`git push origin feat/NovaFeature`).
-5.  Abra um Pull Request.
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
+    Abra `http://localhost:8000` no seu navegador.
 
 ---
-**© 2025 RDP STUDIO.** Desenvolvido por Marcelo Rodrigues.
+
+## 📚 Documentação & Padrões
+
+Mantemos um rigoroso padrão de qualidade e design.
+*   **[BRANDBOOK.md](./BRANDBOOK.md):** Guia de Estilo, Cores e Tipografia.
+*   **[SECURITY.md](./SECURITY.md):** Política de Segurança e Report de Vulnerabilidades.
+*   **[CHANGELOG.md](./CHANGELOG.md):** Histórico de Versões e Atualizações.
+
+---
+
+## 🤝 Contribuição
+
+Este é um projeto Open Source sob licença MIT. Contribuições são encorajadas!
+
+1.  Faça um **Fork**.
+2.  Crie uma branch: `git checkout -b feat/minha-feature`.
+3.  Commit suas mudanças: `git commit -m 'feat: adiciona nova funcionalidade'`.
+4.  Push: `git push origin feat/minha-feature`.
+5.  Abra um **Pull Request**.
+
+---
+
+<div align="center">
+  <p>
+    <b>© 2025 RDP STUDIO.</b><br>
+    <i>Excellence in Engineering.</i>
+  </p>
+  <p>
+    <a href="https://linkedin.com/in/marcelo-rodrigues-088478211">LinkedIn</a> •
+    <a href="mailto:contato@rdpstudio.com">Email</a>
+  </p>
+</div>

@@ -14,6 +14,16 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Mermaid JS for Architecture Diagrams -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'dark',
+            securityLevel: 'loose',
+            fontFamily: 'Inter'
+        });
+    </script>
 
     <style>
         body {
@@ -195,7 +205,27 @@
                     <p class="text-slate-400 leading-relaxed">
                         O sistema opera em uma arquitetura de microsserviços orientada a eventos. O núcleo, desenvolvido em <strong>Python</strong>, orquestra as interações entre a API do Telegram e o modelo <strong>Gemini 1.5 Pro</strong>.
                     </p>
-                    <ul class="space-y-3 text-slate-300 text-sm">
+
+                    <!-- Mermaid Diagram -->
+                    <div class="glass-panel p-4 rounded-xl overflow-hidden">
+                        <div class="mermaid">
+                            graph TD;
+                                U[Usuário] -->|Mensagem/Foto| T[Telegram API];
+                                T -->|Webhook| B(Backend Python);
+                                B -->|Contexto| G[Gemini 1.5 Pro];
+                                G -->|Resposta/Intent| B;
+                                B -->|Dados| D[(Supabase DB)];
+                                B -->|Resposta Final| T;
+                                T --> U;
+                                style U fill:#f97316,stroke:#fff,stroke-width:2px,color:white
+                                style T fill:#229ED9,stroke:#fff,stroke-width:2px,color:white
+                                style B fill:#FFD43B,stroke:#fff,stroke-width:2px,color:black
+                                style G fill:#8E75B2,stroke:#fff,stroke-width:2px,color:white
+                                style D fill:#3ECF8E,stroke:#fff,stroke-width:2px,color:white
+                        </div>
+                    </div>
+
+                    <ul class="space-y-3 text-slate-300 text-sm mt-4">
                         <li class="flex items-start gap-3">
                             <i class="fa-solid fa-check text-teal-500 mt-1"></i>
                             <span>Processamento de Linguagem Natural (NLP) para entender intenção de compra.</span>
