@@ -74,9 +74,9 @@
             <nav class="hidden md:flex items-center gap-8 text-sm font-medium">
                 <a href="index.html" class="nav-link">Home</a>
                 <a href="projetos.html" class="nav-link">Projetos</a>
-                <a href="empresa.html" class="nav-link">A Empresa</a>
+                <a href="index.html#empresa" class="nav-link">A Empresa</a>
                 <a href="sobre.html" class="nav-link active text-vibrantCyan">Sobre Mim</a>
-                <a href="https://wa.me/5562999999999" target="_blank" class="px-4 py-2 rounded-lg bg-vibrantCyan/10 text-vibrantCyan hover:bg-vibrantCyan hover:text-white transition-all">Contato</a>
+                <a href="https://wa.me/5562996780498" target="_blank" class="px-4 py-2 rounded-lg bg-vibrantCyan/10 text-vibrantCyan hover:bg-vibrantCyan hover:text-white transition-all">Contato</a>
             </nav>
         </header>
 
@@ -96,6 +96,10 @@
                     <p class="text-slate-400 max-w-xl leading-relaxed">
                         Especialista em unir infraestrutura complexa com soluções de software elegantes. Focado em Segurança Ofensiva, Automação e Inteligência Artificial.
                     </p>
+                    <div class="mt-4 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-800 border border-white/5 text-slate-300 text-sm">
+                        <i class="fa-solid fa-cake-candles text-energeticAmber"></i>
+                        <span id="age-display">-- anos</span>
+                    </div>
                 </div>
             </section>
 
@@ -237,5 +241,19 @@
         </footer>
 
     </div>
+
+    <script>
+        // Automatic Age Calculation
+        document.addEventListener("DOMContentLoaded", () => {
+            const birthDate = new Date("2003-02-28");
+            const today = new Date();
+            let age = today.getFullYear() - birthDate.getFullYear();
+            const m = today.getMonth() - birthDate.getMonth();
+            if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+                age--;
+            }
+            document.getElementById("age-display").textContent = `${age} anos`;
+        });
+    </script>
 </body>
 </html>
