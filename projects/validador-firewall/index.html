@@ -448,66 +448,95 @@
         });
 
         function processData(content) {
+            // 1. Reset global state to prevent stale data from previous runs
+            generatedObjectsScript = "";
+            generatedGroupScript = "";
+            generatedErrorsData = [];
+
             const outputLines = [];
             const linhasComErro = [['Equipamento', 'MAC (Original)', 'Motivo do Erro']];
             const listaObjetos = [];
             const macsVistos = {};
             const nomesVistos = {};
+            // Regex to validate a MAC address format (e.g., 00:1A:2B:3C:4D:5E)
             const macRegex = /^([0-9A-Fa-f]{2}[:]){5}([0-9A-Fa-f]{2})$/;
+            // Regex to find a MAC-like string in a line, supporting various separators.
+            const macFinderRegex = /([0-9A-Fa-f]{2}[:-]){5}[0-9A-Fa-f]{2}|[0-9A-Fa-f]{12}/i;
 
             const linhas = content.split(/\r?\n/);
             let linhasProcessadas = 0;
 
             for (let i = 0; i < linhas.length; i++) {
-                const linhaOriginal = linhas[i];
+                let linhaOriginal = linhas[i].trim();
                 const linhaNumero = i + 1;
-                if (!linhaOriginal.trim()) continue;
 
-                let tokens = [];
-                if (linhaOriginal.includes('\t')) tokens = linhaOriginal.split('\t');
-                else if (linhaOriginal.includes(';')) tokens = linhaOriginal.split(';');
-                else if (linhaOriginal.includes(',')) tokens = linhaOriginal.split(',');
-                else tokens = linhaOriginal.trim().split(/\s+/);
+                if (!linhaOriginal) continue; // Skip empty lines
 
-                tokens = tokens.map(t => t.trim()).filter(t => t !== "");
-                if (tokens.length > 0) {
-                    const firstTokenLower = tokens[0].toLowerCase();
-                    if (firstTokenLower === "equipamento" || firstTokenLower === "name" || firstTokenLower === "nome") continue;
-                }
+                // Skip header lines
+                const firstTokenLower = linhaOriginal.split(/[\s,;\t]/)[0].toLowerCase();
+                if (["equipamento", "name", "nome"].includes(firstTokenLower)) continue;
 
                 linhasProcessadas++;
+
                 let equipamento = "";
                 let macOriginal = "";
 
-                if (tokens.length >= 2) {
-                    equipamento = tokens[0];
-                    macOriginal = tokens[1];
+                const match = linhaOriginal.match(macFinderRegex);
+
+                if (match) {
+                    // Case 1: MAC is on the current line
+                    macOriginal = match[0];
+                    // Everything before the MAC is the name
+                    equipamento = linhaOriginal.substring(0, match.index).trim();
+
+                    if (!equipamento) {
+                        linhasComErro.push(['Nome Ausente', macOriginal, `Linha ${linhaNumero}: MAC encontrado sem um nome de dispositivo na mesma linha.`]);
+                        continue;
+                    }
                 } else {
-                     linhasComErro.push(['Linha Incompleta', linhaOriginal, `Linha ${linhaNumero}: Menos de 2 colunas detectadas`]);
-                     continue;
+                    // Case 2: MAC might be on the next line
+                    if (i + 1 < linhas.length) {
+                        const proximaLinha = linhas[i + 1].trim();
+                        const proximaLinhaMatch = proximaLinha.match(macFinderRegex);
+                        // Check if the next line *only* contains a MAC
+                        if (proximaLinhaMatch && proximaLinhaMatch[0].length === proximaLinha.length) {
+                            equipamento = linhaOriginal;
+                            macOriginal = proximaLinha;
+                            i++; // Increment i to skip the next line on the next iteration
+                        } else {
+                            linhasComErro.push([linhaOriginal, 'N/A', `Linha ${linhaNumero}: Formato não reconhecido e a linha seguinte não contém um MAC válido.`]);
+                            continue;
+                        }
+                    } else {
+                        linhasComErro.push([linhaOriginal, 'N/A', `Linha ${linhaNumero}: Formato não reconhecido e não há mais linhas.`]);
+                        continue;
+                    }
                 }
 
-                const macLimpo = macOriginal.replace(/[\s."\-]/g, '');
+                // --- Validation Logic (remains mostly the same) ---
+                const macLimpo = macOriginal.replace(/[\s."\-:]/g, '');
                 let macFormatado = '';
                 if (macLimpo.length === 12) {
                      macFormatado = macLimpo.match(/.{1,2}/g).join(':').toUpperCase();
                 } else {
-                     macFormatado = macOriginal.replace(/-/g, ':').toUpperCase();
+                    // Fallback for malformed but potentially fixable MACs
+                    macFormatado = macOriginal.replace(/-/g, ':').toUpperCase();
                 }
 
                 if (!macRegex.test(macFormatado)) {
-                    linhasComErro.push([equipamento, macOriginal, `Linha ${linhaNumero}: Formato inválido (${macFormatado})`]);
+                    linhasComErro.push([equipamento, macOriginal, `Linha ${linhaNumero}: Formato de MAC inválido (${macFormatado})`]);
                     continue;
                 }
                 if (nomesVistos.hasOwnProperty(equipamento)) {
-                    linhasComErro.push([equipamento, macOriginal, `Linha ${linhaNumero}: Nome duplicado`]);
+                    linhasComErro.push([equipamento, macOriginal, `Linha ${linhaNumero}: Nome de dispositivo duplicado`]);
                     continue;
                 }
                 if (macsVistos.hasOwnProperty(macFormatado)) {
-                    linhasComErro.push([equipamento, macOriginal, `Linha ${linhaNumero}: MAC duplicado`]);
+                    linhasComErro.push([equipamento, macOriginal, `Linha ${linhaNumero}: Endereço MAC duplicado`]);
                     continue;
                 }
 
+                // Passed validation, add to success list
                 nomesVistos[equipamento] = linhaNumero;
                 macsVistos[macFormatado] = linhaNumero;
                 listaObjetos.push(equipamento);
@@ -519,6 +548,7 @@
                 outputLines.push('next');
             }
 
+            // --- UI Update Logic (remains the same) ---
             const numSucesso = outputLines.length / 5;
             const numErros = linhasComErro.length - 1;
 
