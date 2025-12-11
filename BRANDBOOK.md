@@ -1,31 +1,43 @@
-# RDP STUDIO Brand Book & Design System
+# RDP STUDIO Brand Book & Design System (Neuro-Strategy Edition)
 
-## 1. Core Principles
-- **Ultra Modern Aesthetic**: Glassmorphism, gradients, and subtle animations.
-- **Clean & Professional**: Organized layouts, consistent typography (Inter/JetBrains Mono).
-- **Immersive**: Backgrounds are not flat; they use multiple radial gradients.
-- **Standardized Navigation**: "Back to Hub" is always top-left.
+## 1. Core Principles (Neuro-Strategy)
+- **Reduction of Cognitive Load**: Generous whitespace, clear visual blocks, diagrams over long text.
+- **Attention Direction (Eye Tracking)**:
+  - F-Pattern for content pages.
+  - Z-Pattern for action pages (Home).
+  - Key information (taglines, metrics, CTAs) positioned at fixation points.
+- **Decision Making & Biases**:
+  - **Von Restorff Effect**: Highlight key items with Energetic Amber.
+  - **Neuroquantified Social Proof**: Specific metrics (e.g., "+40% availability").
+  - **Authority Bias**: Professional imagery and certification badges.
+- **Ultra Modern Aesthetic**: Glassmorphism, gradients, and subtle animations (Micro-interactions).
 
-## 2. Color Palette
+## 2. Color Palette (Neurostrategic)
 
-### Backgrounds
-- **Main Background**: `#0f172a` (Slate 900)
-- **Gradients**:
-  - Purple: `hsla(253, 16%, 7%, 1)`
-  - Indigo: `hsla(225, 39%, 30%, 1)`
-  - Pink/Rose: `hsla(339, 49%, 30%, 1)`
+### Primary Colors (Confidence & Stability)
+- **Deep Blue**: `#1E3A5F` (Headers, Titles)
+- **Tech Gray**: `#2D3748` (Text, Borders)
+- **Dark Slate**: `#020617` (Background Base for Dark Mode)
+
+### Highlight Colors (Action & Innovation)
+- **Vibrant Cyan**: `#00B4D8` (Main CTAs, Technology tags)
+- **Energetic Amber**: `#F59E0B` (Alerts, Von Restorff highlights)
+
+### Success Colors (Metrics & Confirmation)
+- **Trust Green**: `#10B981` (Positive KPIs, Status)
+
+### Backgrounds & Gradients
+- **Main Background**: `#020617` (Slate 950)
+- **Immersive Gradients**:
+  - Radial gradients using Deep Blue and Slate variants to create depth without noise.
 
 ### Text Gradients
-- `linear-gradient(to right, #818cf8, #c084fc, #f472b6)` (Indigo-400 -> Purple-400 -> Pink-400)
-
-### Primary Actions
-- **Button Gradient**: `linear-gradient(to right, #4f46e5, #9333ea)` (Indigo-600 -> Purple-600)
-- **Hover Glow**: `box-shadow: 0 0 20px rgba(124, 58, 237, 0.5)`
+- `linear-gradient(to right, #00B4D8, #38bdf8, #10B981)` (Cyan -> Sky -> Green) for innovation/tech feel.
 
 ## 3. Typography
-- **Primary Font**: `Inter`, sans-serif (UI, Text)
-- **Monospace**: `JetBrains Mono` (Code, IDs, Data)
-- **Headings**: Bold/ExtraBold Inter.
+- **Primary Font**: `Inter`, sans-serif (UI, Text) - Optimized for screen reading.
+- **Monospace**: `JetBrains Mono` (Code, IDs, Data) - For technical credibility.
+- **Headings**: ExtraBold Inter for strong hierarchy.
 
 ## 4. UI Components (CSS)
 
@@ -33,21 +45,20 @@
 ```css
 body {
     font-family: 'Inter', sans-serif;
-    background-color: #0f172a;
+    background-color: #020617; /* Dark Slate */
     background-image:
-        radial-gradient(at 0% 0%, hsla(253, 16%, 7%, 1) 0, transparent 50%),
-        radial-gradient(at 50% 0%, hsla(225, 39%, 30%, 1) 0, transparent 50%),
-        radial-gradient(at 100% 0%, hsla(339, 49%, 30%, 1) 0, transparent 50%);
+        radial-gradient(circle at 15% 50%, rgba(30, 58, 95, 0.15), transparent 25%),
+        radial-gradient(circle at 85% 30%, rgba(0, 180, 216, 0.1), transparent 25%);
     background-attachment: fixed;
-    color: #e2e8f0;
+    color: #F8FAFC; /* Soft White */
     overflow-x: hidden;
 }
 ```
 
-### Glass Card
+### Glass Card (Refined)
 ```css
 .glass-card {
-    background: rgba(30, 41, 59, 0.4);
+    background: rgba(30, 41, 59, 0.4); /* Slate 800 with opacity */
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border: 1px solid rgba(255, 255, 255, 0.05);
@@ -56,62 +67,26 @@ body {
 }
 .glass-card:hover {
     background: rgba(30, 41, 59, 0.6);
-    border-color: rgba(99, 102, 241, 0.3); /* Indigo tint */
+    border-color: rgba(0, 180, 216, 0.3); /* Cyan tint */
     transform: translateY(-5px);
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.1);
 }
 ```
 
-### Text Gradient
-```css
-.text-gradient {
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(to right, #818cf8, #c084fc, #f472b6);
-}
-```
+### Buttons
+- **Primary CTA**: `bg-[#00B4D8] hover:bg-[#0096B4] text-white font-bold`
+- **Secondary**: `border border-[#00B4D8] text-[#00B4D8] hover:bg-[#00B4D8]/10`
 
 ### "Back to Hub" Button (Standard)
 ```html
 <header class="flex justify-between items-center mb-16 fade-in-up">
     <a href="../../index.html" class="flex items-center gap-2 text-slate-400 hover:text-white transition-colors group">
-        <div class="p-2 rounded-lg bg-white/5 border border-white/10 group-hover:border-indigo-500/50 transition-colors">
+        <div class="p-2 rounded-lg bg-white/5 border border-white/10 group-hover:border-[#00B4D8]/50 transition-colors">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                 <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd" />
             </svg>
         </div>
         <span class="text-sm font-semibold tracking-wide uppercase">Voltar ao Hub</span>
     </a>
-    <div class="flex items-center gap-3">
-        <!-- Project Specific Badge/Logo Here -->
-    </div>
 </header>
-```
-
-### Primary Button (Glow)
-```css
-.btn-glow {
-    background: linear-gradient(to right, #4f46e5, #9333ea);
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-    transition: all 0.3s ease;
-}
-.btn-glow::before {
-    content: '';
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background: linear-gradient(to right, #4338ca, #7e22ce);
-    opacity: 0;
-    z-index: -1;
-    transition: opacity 0.3s ease;
-}
-.btn-glow:hover::before {
-    opacity: 1;
-}
-.btn-glow:hover {
-    box-shadow: 0 0 20px rgba(124, 58, 237, 0.5);
-    transform: scale(1.05);
-}
 ```

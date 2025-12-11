@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Branding Updated: RDP STUDIO -->
-    <title>RDP STUDIO - Hub Portfólio</title>
-    <meta name="description" content="Portfólio de Engenharia de Software, Automação e Soluções Digitais. RDP Studio.">
+    <title>RDP STUDIO - Arquitetura de Software & Soluções Digitais</title>
+    <meta name="description" content="RDP Studio: Consultoria em Engenharia de Software, Cloud, Cibersegurança e Inteligência Artificial. Soluções de alto impacto para o seu negócio.">
 
     <!-- Icons -->
     <link rel="icon" href="favicon.png" type="image/png">
@@ -18,64 +18,73 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        deepBlue: '#1E3A5F',
+                        techGray: '#2D3748',
+                        vibrantCyan: '#00B4D8',
+                        energeticAmber: '#F59E0B',
+                        trustGreen: '#10B981',
+                        darkSlate: '#020617',
+                        slate800: 'rgba(30, 41, 59, 0.4)',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    },
+                    animation: {
+                        'fade-in-up': 'fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards',
+                        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                    }
+                }
+            }
+        }
+    </script>
+
     <style>
         /* Base & Scrollbar */
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #0f172a;
+            background-color: #020617;
             background-image:
-                radial-gradient(at 0% 0%, hsla(253, 16%, 7%, 1) 0, transparent 50%),
-                radial-gradient(at 50% 0%, hsla(225, 39%, 30%, 1) 0, transparent 50%),
-                radial-gradient(at 100% 0%, hsla(339, 49%, 30%, 1) 0, transparent 50%);
+                radial-gradient(circle at 15% 50%, rgba(30, 58, 95, 0.15), transparent 25%),
+                radial-gradient(circle at 85% 30%, rgba(0, 180, 216, 0.1), transparent 25%);
             background-attachment: fixed;
-            color: #e2e8f0;
+            color: #F8FAFC;
             overflow-x: hidden;
         }
 
         ::-webkit-scrollbar { width: 8px; }
-        ::-webkit-scrollbar-track { background: #0f172a; }
-        ::-webkit-scrollbar-thumb { background: #334155; border-radius: 4px; }
+        ::-webkit-scrollbar-track { background: #020617; }
+        ::-webkit-scrollbar-thumb { background: #2D3748; border-radius: 4px; }
         ::-webkit-scrollbar-thumb:hover { background: #475569; }
 
         /* Glassmorphism Cards */
         .glass-card {
             background: rgba(30, 41, 59, 0.4);
-            backdrop-filter: blur(16px);
-            -webkit-backdrop-filter: blur(16px);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
             border: 1px solid rgba(255, 255, 255, 0.05);
             box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-            position: relative;
-            overflow: hidden;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .glass-card::before {
-            content: '';
-            position: absolute;
-            top: 0; left: 0; right: 0; bottom: 0;
-            background: linear-gradient(135deg, rgba(255,255,255,0.05) 0%, transparent 100%);
-            opacity: 0;
-            transition: opacity 0.4s;
-            pointer-events: none;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         .glass-card:hover {
-            background: rgba(30, 41, 59, 0.7);
-            border-color: rgba(99, 102, 241, 0.4);
-            transform: translateY(-5px) scale(1.01);
-            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 0 15px rgba(99, 102, 241, 0.1);
+            background: rgba(30, 41, 59, 0.6);
+            border-color: rgba(0, 180, 216, 0.3);
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.1);
         }
-
-        .glass-card:hover::before { opacity: 1; }
 
         /* Gradient Text */
         .text-gradient {
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            background-image: linear-gradient(to right, #818cf8, #c084fc, #f472b6);
+            background-image: linear-gradient(to right, #00B4D8, #38bdf8, #10B981);
         }
 
         /* Nav Link */
@@ -90,39 +99,11 @@
             content: '';
             position: absolute;
             bottom: -4px; left: 0; width: 0; height: 2px;
-            background: #818cf8;
+            background: #00B4D8;
             transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
             border-radius: 2px;
         }
         .nav-link:hover::after, .nav-link.active::after { width: 100%; }
-
-        /* Search & Filter */
-        .search-input {
-            background: rgba(30, 41, 59, 0.6);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            transition: all 0.3s;
-        }
-        .search-input:focus {
-            outline: none;
-            border-color: #818cf8;
-            box-shadow: 0 0 0 3px rgba(129, 140, 248, 0.2);
-            background: rgba(30, 41, 59, 0.8);
-        }
-
-        .filter-btn {
-            background: rgba(255, 255, 255, 0.03);
-            border: 1px solid rgba(255, 255, 255, 0.05);
-            transition: all 0.3s;
-        }
-        .filter-btn:hover {
-            background: rgba(255, 255, 255, 0.1);
-        }
-        .filter-btn.active {
-            background: rgba(129, 140, 248, 0.2);
-            border-color: rgba(129, 140, 248, 0.5);
-            color: #fff;
-            box-shadow: 0 0 15px rgba(129, 140, 248, 0.15);
-        }
 
         /* Tags */
         .tech-tag {
@@ -138,12 +119,13 @@
             transition: all 0.2s;
         }
         .tech-tag:hover {
-            background: rgba(255,255,255,0.1);
+            background: rgba(0, 180, 216, 0.1);
             color: #fff;
-            border-color: rgba(255,255,255,0.2);
+            border-color: rgba(0, 180, 216, 0.3);
         }
 
         /* Animations */
+        @keyframes fadeInUp { to { opacity: 1; transform: translateY(0); } }
         .fade-in-up {
             opacity: 0;
             transform: translateY(20px);
@@ -155,43 +137,9 @@
         .delay-400 { animation-delay: 0.4s; }
         .delay-500 { animation-delay: 0.5s; }
 
-        @keyframes fadeInUp { to { opacity: 1; transform: translateY(0); } }
-
-        .project-card-hidden {
-            display: none !important;
-        }
-
-        /* Mobile Menu */
-        #mobile-menu {
-            transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
-            transform-origin: top;
-        }
-        #mobile-menu.hidden {
-            transform: scaleY(0);
-            opacity: 0;
-            pointer-events: none;
-        }
-        #mobile-menu:not(.hidden) {
-            transform: scaleY(1);
-            opacity: 1;
-        }
-
-        /* Scroll Top Button */
-        #scrollTopBtn {
-            opacity: 0;
-            transform: translateY(20px);
-            transition: all 0.3s;
-            pointer-events: none;
-        }
-        #scrollTopBtn.visible {
-            opacity: 1;
-            transform: translateY(0);
-            pointer-events: auto;
-        }
-
         /* Footer Protection */
         .watermark-container::after {
-            content: "© 2025 RDP STUDIO. Todos os direitos reservados.";
+            content: "© 2025 RDP STUDIO. Desenvolvido por Marcelo Rodrigues.";
             font-size: 0.75rem;
             color: #64748b;
             opacity: 0.5;
@@ -203,7 +151,7 @@
             -webkit-user-select: none;
             transition: color 0.3s ease;
         }
-        .watermark-container:hover::after { color: #f97316; opacity: 0.9; }
+        .watermark-container:hover::after { color: #F59E0B; opacity: 0.9; }
         body:not(:has(.watermark-container))::after {
             content: "Copyright Protected";
             position: fixed; bottom: 20px; right: 20px;
@@ -211,234 +159,503 @@
         }
     </style>
 </head>
-<body class="antialiased selection:bg-indigo-500 selection:text-white">
+<body class="antialiased selection:bg-vibrantCyan selection:text-white">
 
-    <div class="max-w-7xl mx-auto px-6 py-8 min-h-screen flex flex-col relative">
+    <div class="max-w-7xl mx-auto px-6 py-6 min-h-screen flex flex-col relative">
 
         <!-- Header -->
-        <header class="flex justify-between items-center mb-16 fade-in-up relative z-30">
-            <div class="flex items-center gap-4">
-                <!-- Branding Logo -->
-                <div class="w-12 h-12 rounded-2xl flex items-center justify-center relative group overflow-hidden glass-card p-1">
+        <header class="flex justify-between items-center mb-12 fade-in-up relative z-50">
+            <div class="flex items-center gap-4 cursor-pointer" onclick="window.scrollTo({top:0, behavior:'smooth'})">
+                <div class="w-10 h-10 rounded-xl flex items-center justify-center relative group overflow-hidden glass-card p-1">
                      <img src="logo.png" alt="RDP STUDIO Logo" class="w-full h-full object-contain group-hover:scale-110 transition-transform duration-300">
                 </div>
                 <div>
-                    <!-- Branding Name -->
-                    <h1 class="text-2xl font-bold tracking-tight text-white leading-none">RDP <span class="text-indigo-400 font-light">STUDIO</span></h1>
-                    <p class="text-[10px] text-slate-500 font-mono tracking-[0.2em] uppercase mt-1">Engenharia de Software</p>
+                    <h1 class="text-xl font-bold tracking-tight text-white leading-none">RDP <span class="text-vibrantCyan font-light">STUDIO</span></h1>
                 </div>
             </div>
 
             <!-- Desktop Navigation -->
             <nav class="hidden md:flex items-center gap-8 text-sm font-medium">
-                <button onclick="toggleAboutModal(true)" class="nav-link">Sobre</button>
-                <a href="#projetos" class="nav-link">Projetos</a>
-                <a href="#contato" class="nav-link text-indigo-400 hover:text-indigo-300">Contato</a>
+                <a href="#about-founder" class="nav-link">Sobre o Fundador</a>
+                <a href="#company" class="nav-link">A Empresa</a>
+                <a href="#projects" class="nav-link">Projetos</a>
+                <a href="#clients" class="nav-link">Clientes</a>
+                <a href="#contact" class="nav-link text-vibrantCyan hover:text-cyan-300">Contato</a>
             </nav>
 
             <!-- Mobile Menu Button -->
             <button id="mobileMenuBtn" class="md:hidden p-2 text-slate-300 hover:text-white focus:outline-none">
-                <i class="fa-solid fa-bars text-2xl"></i>
+                <i class="fa-solid fa-bars text-xl"></i>
             </button>
         </header>
 
         <!-- Mobile Menu Dropdown -->
-        <div id="mobile-menu" class="hidden md:hidden absolute top-24 left-6 right-6 z-20 glass-card rounded-2xl p-4 flex flex-col gap-4 text-center">
-            <button onclick="toggleAboutModal(true); toggleMobileMenu()" class="py-2 text-slate-300 hover:text-white font-medium border-b border-white/5">Sobre</button>
-            <a href="#projetos" onclick="toggleMobileMenu()" class="py-2 text-slate-300 hover:text-white font-medium border-b border-white/5">Projetos</a>
-            <a href="#contato" onclick="toggleMobileMenu()" class="py-2 text-indigo-400 hover:text-indigo-300 font-bold">Contato</a>
+        <div id="mobile-menu" class="hidden md:hidden absolute top-20 left-6 right-6 z-40 glass-card rounded-2xl p-4 flex flex-col gap-4 text-center transform transition-transform origin-top duration-300">
+            <a href="#about-founder" onclick="toggleMobileMenu()" class="py-2 text-slate-300 hover:text-white font-medium border-b border-white/5">Sobre o Fundador</a>
+            <a href="#company" onclick="toggleMobileMenu()" class="py-2 text-slate-300 hover:text-white font-medium border-b border-white/5">A Empresa</a>
+            <a href="#projects" onclick="toggleMobileMenu()" class="py-2 text-slate-300 hover:text-white font-medium border-b border-white/5">Projetos</a>
+             <a href="#clients" onclick="toggleMobileMenu()" class="py-2 text-slate-300 hover:text-white font-medium border-b border-white/5">Clientes</a>
+            <a href="#contact" onclick="toggleMobileMenu()" class="py-2 text-vibrantCyan hover:text-cyan-300 font-bold">Contato</a>
         </div>
 
         <!-- Main Content -->
-        <main class="flex-grow">
-            <!-- Hero / Intro -->
-            <div class="mb-16 text-center md:text-left fade-in-up delay-100 flex flex-col md:flex-row justify-between items-end gap-8">
-                <div>
-                    <h2 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
-                        Engenharia <br>
-                        <span class="text-gradient">Criativa & Funcional</span>
+        <main class="flex-grow space-y-32">
+
+            <!-- 1. Hero Section -->
+            <section class="min-h-[70vh] flex flex-col md:flex-row items-center justify-between gap-12 fade-in-up delay-100">
+                <div class="md:w-1/2 space-y-8">
+                    <h2 class="text-5xl md:text-7xl font-extrabold leading-tight tracking-tight">
+                        Transformamos <br>
+                        <span class="text-gradient">Complexidade</span> em
+                        <span class="text-white">Solução.</span>
                     </h2>
-                    <p class="text-lg text-slate-400 max-w-2xl font-light leading-relaxed">
-                        Soluções de alto impacto desenvolvidas com foco em automação, segurança e experiência do usuário.
-                        Transformando ideias complexas em interfaces intuitivas.
+                    <p class="text-lg text-slate-400 max-w-xl font-light leading-relaxed">
+                        Especialistas em Cloud, Cibersegurança, Infraestrutura e Desenvolvimento de IA.
+                        A RDP Studio projeta o futuro digital do seu negócio com robustez e inteligência.
                     </p>
-                </div>
-
-                <!-- Search & Filter Bar -->
-                <div class="w-full md:w-auto flex flex-col gap-4 items-end">
-                    <div class="relative w-full md:w-80 group">
-                        <input type="text" id="searchInput" placeholder="Buscar projetos..." class="search-input w-full pl-10 pr-4 py-3 rounded-xl text-sm text-white placeholder-slate-500">
-                        <i class="fa-solid fa-search absolute left-3.5 top-3.5 text-slate-500 group-focus-within:text-indigo-400 transition-colors"></i>
-                    </div>
-                    <div class="flex gap-2 flex-wrap justify-center md:justify-end w-full" id="filterContainer">
-                        <button class="filter-btn active px-4 py-1.5 rounded-lg text-xs font-semibold text-slate-400 uppercase tracking-wide" data-filter="all">Todos</button>
-                        <button class="filter-btn px-4 py-1.5 rounded-lg text-xs font-semibold text-slate-400 uppercase tracking-wide" data-filter="seguranca">Segurança</button>
-                        <button class="filter-btn px-4 py-1.5 rounded-lg text-xs font-semibold text-slate-400 uppercase tracking-wide" data-filter="automacao">Automação</button>
-                        <button class="filter-btn px-4 py-1.5 rounded-lg text-xs font-semibold text-slate-400 uppercase tracking-wide" data-filter="geek">Geek</button>
+                    <div class="flex flex-wrap gap-4 pt-4">
+                        <a href="#projects" class="px-8 py-3 rounded-full bg-vibrantCyan hover:bg-cyan-600 text-white font-bold transition-all shadow-lg shadow-cyan-500/25 hover:shadow-cyan-500/50 transform hover:-translate-y-1">
+                            Ver Projetos
+                        </a>
+                        <a href="#about-founder" class="px-8 py-3 rounded-full glass-card hover:bg-white/10 text-white font-semibold transition-all border border-white/10 hover:border-white/30 transform hover:-translate-y-1">
+                            Sobre o Fundador
+                        </a>
                     </div>
                 </div>
-            </div>
 
-            <!-- Projects Grid -->
-            <div id="projetos" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 min-h-[400px] mb-20">
-
-                <!-- Card: Assistente de Vendas IA -->
-                <div class="glass-card rounded-3xl p-8 group fade-in-up delay-200 h-96 cursor-pointer"
-                     onclick="window.location.href='projects/assistente-vendas-ia/index.html'"
-                     data-category="automacao"
-                     data-tags="ia telegram automacao gemini api python">
-
-                    <div class="flex justify-between items-start mb-6">
-                        <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-teal-500/20 to-cyan-500/20 flex items-center justify-center border border-teal-500/10 group-hover:border-teal-500/30 transition-colors shadow-[0_0_15px_rgba(20,184,166,0.1)]">
-                            <i class="fa-solid fa-robot text-xl text-teal-400"></i>
+                <!-- Hero Visual / Illustration -->
+                <div class="md:w-1/2 flex justify-center md:justify-end relative">
+                    <div class="relative w-80 h-80 md:w-96 md:h-96">
+                        <div class="absolute inset-0 bg-gradient-to-tr from-deepBlue to-vibrantCyan rounded-full blur-3xl opacity-20 animate-pulse-slow"></div>
+                        <div class="glass-card w-full h-full rounded-3xl flex items-center justify-center border border-white/10 relative z-10 overflow-hidden">
+                            <div class="absolute inset-0 bg-grid-white/[0.05] bg-[size:20px_20px]"></div>
+                            <i class="fa-solid fa-network-wired text-8xl text-vibrantCyan opacity-80 drop-shadow-[0_0_15px_rgba(0,180,216,0.5)]"></i>
                         </div>
-                        <div class="flex flex-col items-end gap-2">
-                             <span class="px-2 py-1 rounded bg-teal-500/10 text-teal-400 text-[10px] font-bold uppercase tracking-wider border border-teal-500/20">Automação</span>
-                             <div class="flex gap-1">
-                                <span class="tech-tag">IA</span>
-                                <span class="tech-tag">Bot</span>
+                        <!-- Floating Badges -->
+                        <div class="absolute -top-4 -left-4 glass-card px-4 py-2 rounded-lg text-xs font-mono text-trustGreen border border-trustGreen/30 shadow-lg z-20 animate-bounce">
+                            <i class="fa-solid fa-check-circle mr-2"></i>99.9% Uptime
+                        </div>
+                        <div class="absolute -bottom-6 -right-2 glass-card px-4 py-2 rounded-lg text-xs font-mono text-energeticAmber border border-energeticAmber/30 shadow-lg z-20" style="animation: pulse 3s infinite">
+                            <i class="fa-solid fa-shield-alt mr-2"></i>Secure by Design
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 1.2 Areas of Expertise -->
+            <section id="expertise" class="fade-in-up delay-200">
+                <div class="text-center mb-16">
+                    <span class="text-vibrantCyan font-mono text-xs uppercase tracking-widest">O que fazemos</span>
+                    <h3 class="text-3xl font-bold text-white mt-2">Áreas de Atuação</h3>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <!-- Card 1 -->
+                    <div class="glass-card p-8 rounded-2xl group hover:bg-slate-800/50">
+                        <div class="w-12 h-12 rounded-lg bg-indigo-500/20 flex items-center justify-center text-indigo-400 mb-6 text-2xl group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h4 class="text-xl font-bold mb-3">Desenvolvimento & Arquitetura</h4>
+                        <p class="text-sm text-slate-400 leading-relaxed">
+                            Criação de sistemas escaláveis, APIs robustas e microserviços de alta performance.
+                        </p>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="glass-card p-8 rounded-2xl group hover:bg-slate-800/50">
+                        <div class="w-12 h-12 rounded-lg bg-vibrantCyan/20 flex items-center justify-center text-vibrantCyan mb-6 text-2xl group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-server"></i>
+                        </div>
+                        <h4 class="text-xl font-bold mb-3">Infraestrutura & Redes</h4>
+                        <p class="text-sm text-slate-400 leading-relaxed">
+                            Gestão de servidores, automação de infraestrutura (IaC) e otimização de redes.
+                        </p>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="glass-card p-8 rounded-2xl group hover:bg-slate-800/50">
+                        <div class="w-12 h-12 rounded-lg bg-energeticAmber/20 flex items-center justify-center text-energeticAmber mb-6 text-2xl group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-lock"></i>
+                        </div>
+                        <h4 class="text-xl font-bold mb-3">Segurança da Informação</h4>
+                        <p class="text-sm text-slate-400 leading-relaxed">
+                            Proteção de dados, testes de vulnerabilidade e implementação de políticas de segurança.
+                        </p>
+                    </div>
+                     <!-- Card 4 -->
+                     <div class="glass-card p-8 rounded-2xl group hover:bg-slate-800/50">
+                        <div class="w-12 h-12 rounded-lg bg-purple-500/20 flex items-center justify-center text-purple-400 mb-6 text-2xl group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-brain"></i>
+                        </div>
+                        <h4 class="text-xl font-bold mb-3">Inteligência Artificial</h4>
+                        <p class="text-sm text-slate-400 leading-relaxed">
+                            Implementação de LLMs, chatbots inteligentes e análise de dados para negócios.
+                        </p>
+                    </div>
+                     <!-- Card 5 -->
+                     <div class="glass-card p-8 rounded-2xl group hover:bg-slate-800/50">
+                        <div class="w-12 h-12 rounded-lg bg-trustGreen/20 flex items-center justify-center text-trustGreen mb-6 text-2xl group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-headset"></i>
+                        </div>
+                        <h4 class="text-xl font-bold mb-3">Suporte & Observabilidade</h4>
+                        <p class="text-sm text-slate-400 leading-relaxed">
+                            Monitoramento proativo 24/7 e suporte técnico especializado.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+             <!-- 1.4 Statistics -->
+             <section class="border-y border-white/5 py-12 fade-in-up delay-200 bg-slate-900/30">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                    <div>
+                        <div class="text-4xl font-extrabold text-white mb-2 counter" data-target="15">0</div>
+                        <div class="text-xs text-slate-400 uppercase tracking-widest">Projetos Entregues</div>
+                    </div>
+                    <div>
+                        <div class="text-4xl font-extrabold text-white mb-2 counter" data-target="30">0</div>
+                        <div class="text-xs text-slate-400 uppercase tracking-widest">Ambientes Geridos</div>
+                    </div>
+                    <div>
+                        <div class="text-4xl font-extrabold text-white mb-2 flex justify-center items-center gap-1">
+                            <span class="counter" data-target="99">0</span><span>%</span>
+                        </div>
+                        <div class="text-xs text-slate-400 uppercase tracking-widest">Disponibilidade</div>
+                    </div>
+                    <div>
+                        <div class="text-4xl font-extrabold text-white mb-2 counter" data-target="5000">0</div>
+                        <div class="text-xs text-slate-400 uppercase tracking-widest">Linhas de Código</div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- 2. Projects (Hub) -->
+            <section id="projects" class="fade-in-up delay-300 scroll-mt-24">
+                <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+                    <div>
+                        <span class="text-vibrantCyan font-mono text-xs uppercase tracking-widest">Portfolio</span>
+                        <h3 class="text-3xl font-bold text-white mt-2">Hub de Projetos</h3>
+                        <p class="text-slate-400 mt-2 text-sm">Demonstração prática de capacidade técnica.</p>
+                    </div>
+
+                    <!-- Filter & Search -->
+                    <div class="flex flex-col items-end gap-3">
+                        <div class="relative w-full md:w-64 group">
+                            <input type="text" id="searchInput" placeholder="Buscar..." class="w-full bg-slate-900/50 border border-white/10 rounded-lg px-4 py-2 text-sm focus:outline-none focus:border-vibrantCyan/50 transition-colors">
+                            <i class="fa-solid fa-search absolute right-3 top-2.5 text-slate-500"></i>
+                        </div>
+                        <div class="flex gap-2 flex-wrap justify-end" id="filterContainer">
+                            <button class="filter-btn active px-3 py-1 rounded text-[10px] font-bold uppercase tracking-wide border border-white/10 hover:bg-white/5 transition-colors text-white bg-white/10" data-filter="all">Todos</button>
+                            <button class="filter-btn px-3 py-1 rounded text-[10px] font-bold uppercase tracking-wide border border-white/10 hover:bg-white/5 transition-colors text-slate-400" data-filter="seguranca">Segurança</button>
+                            <button class="filter-btn px-3 py-1 rounded text-[10px] font-bold uppercase tracking-wide border border-white/10 hover:bg-white/5 transition-colors text-slate-400" data-filter="automacao">Automação</button>
+                            <button class="filter-btn px-3 py-1 rounded text-[10px] font-bold uppercase tracking-wide border border-white/10 hover:bg-white/5 transition-colors text-slate-400" data-filter="geek">Geek</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projects Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                     <!-- Card: Assistente de Vendas IA -->
+                    <div class="glass-card rounded-3xl p-8 group h-96 cursor-pointer flex flex-col relative overflow-hidden"
+                        onclick="window.location.href='projects/assistente-vendas-ia/index.html'"
+                        data-category="automacao"
+                        data-tags="ia telegram automacao gemini python">
+
+                        <div class="absolute top-0 right-0 p-4 opacity-50 group-hover:opacity-100 transition-opacity">
+                            <i class="fa-solid fa-arrow-up-right-from-square text-white"></i>
+                        </div>
+
+                        <div class="w-12 h-12 rounded-xl bg-teal-500/20 flex items-center justify-center text-teal-400 mb-6 text-2xl border border-teal-500/10">
+                            <i class="fa-solid fa-robot"></i>
+                        </div>
+
+                        <h4 class="text-xl font-bold text-white mb-2 group-hover:text-vibrantCyan transition-colors">Assistente de Vendas IA</h4>
+                        <p class="text-sm text-slate-400 line-clamp-3 mb-4 flex-grow">
+                             Bot inteligente com IA (Gemini) para gestão de vendas via Telegram. Processamento de linguagem natural e automação de estoque.
+                        </p>
+
+                        <div class="flex flex-wrap gap-2 mt-auto">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Gemini</span>
+                            <span class="tech-tag">Telegram API</span>
+                        </div>
+                    </div>
+
+                    <!-- Card: Validador Firewall -->
+                    <div class="glass-card rounded-3xl p-8 group h-96 cursor-pointer flex flex-col relative overflow-hidden"
+                        onclick="window.location.href='projects/validador-firewall/index.html'"
+                        data-category="seguranca"
+                        data-tags="javascript firewall regex security">
+
+                        <div class="absolute top-0 right-0 p-4 opacity-50 group-hover:opacity-100 transition-opacity">
+                            <i class="fa-solid fa-arrow-up-right-from-square text-white"></i>
+                        </div>
+
+                        <div class="w-12 h-12 rounded-xl bg-energeticAmber/20 flex items-center justify-center text-energeticAmber mb-6 text-2xl border border-energeticAmber/10">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+
+                        <h4 class="text-xl font-bold text-white mb-2 group-hover:text-energeticAmber transition-colors">Validador de Acesso</h4>
+                        <p class="text-sm text-slate-400 line-clamp-3 mb-4 flex-grow">
+                            Engine para validação e sanitização de dados de rede. Garante conformidade de segurança e gera scripts Fortigate automaticamente.
+                        </p>
+
+                        <div class="flex flex-wrap gap-2 mt-auto">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Regex</span>
+                            <span class="tech-tag">Security</span>
+                        </div>
+                    </div>
+
+                    <!-- Card: Automação GLPI -->
+                    <div class="glass-card rounded-3xl p-8 group h-96 cursor-pointer flex flex-col relative overflow-hidden"
+                        onclick="window.location.href='projects/abertura-chamados-glpi/index.html'"
+                        data-category="automacao"
+                        data-tags="python api integration backend glpi">
+
+                        <div class="absolute top-0 right-0 p-4 opacity-50 group-hover:opacity-100 transition-opacity">
+                            <i class="fa-solid fa-arrow-up-right-from-square text-white"></i>
+                        </div>
+
+                        <div class="w-12 h-12 rounded-xl bg-indigo-500/20 flex items-center justify-center text-indigo-400 mb-6 text-2xl border border-indigo-500/10">
+                            <i class="fa-solid fa-server"></i>
+                        </div>
+
+                        <h4 class="text-xl font-bold text-white mb-2 group-hover:text-indigo-400 transition-colors">Bot GLPI</h4>
+                        <p class="text-sm text-slate-400 line-clamp-3 mb-4 flex-grow">
+                            Orquestrador autônomo para abertura massiva de tickets. Integração robusta via API para upload de evidências e roteamento.
+                        </p>
+
+                        <div class="flex flex-wrap gap-2 mt-auto">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">API REST</span>
+                            <span class="tech-tag">Automation</span>
+                        </div>
+                    </div>
+
+                     <!-- Card: Epic Games Scanner -->
+                     <div class="glass-card rounded-3xl p-8 group h-96 cursor-pointer flex flex-col relative overflow-hidden"
+                        onclick="window.location.href='projects/scanner-game-free/index.html'"
+                        data-category="geek"
+                        data-tags="react api frontend ai monitoring">
+
+                        <div class="absolute top-0 right-0 p-4 opacity-50 group-hover:opacity-100 transition-opacity">
+                            <i class="fa-solid fa-arrow-up-right-from-square text-white"></i>
+                        </div>
+
+                        <div class="w-12 h-12 rounded-xl bg-purple-500/20 flex items-center justify-center text-purple-400 mb-6 text-2xl border border-purple-500/10">
+                            <i class="fa-solid fa-gamepad"></i>
+                        </div>
+
+                        <h4 class="text-xl font-bold text-white mb-2 group-hover:text-purple-400 transition-colors">Scanner IA Games</h4>
+                        <p class="text-sm text-slate-400 line-clamp-3 mb-4 flex-grow">
+                            Monitoramento em tempo real de ofertas digitais. Detecta padrões para encontrar jogos gratuitos e promoções ocultas.
+                        </p>
+
+                        <div class="flex flex-wrap gap-2 mt-auto">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">API Consumption</span>
+                            <span class="tech-tag">Frontend</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- 3. About Founder -->
+            <section id="about-founder" class="fade-in-up delay-400 scroll-mt-24">
+                <div class="glass-card rounded-3xl p-8 md:p-12 border border-white/5 relative overflow-hidden">
+                    <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-deepBlue via-vibrantCyan to-trustGreen"></div>
+
+                    <div class="flex flex-col md:flex-row gap-12 items-start">
+                        <!-- Profile -->
+                        <div class="md:w-1/3 text-center md:text-left">
+                            <div class="w-32 h-32 rounded-full bg-slate-700 mx-auto md:mx-0 mb-6 overflow-hidden border-4 border-slate-800 shadow-2xl">
+                                <!-- Placeholder for Profile Pic -->
+                                <div class="w-full h-full flex items-center justify-center bg-gradient-to-br from-slate-600 to-slate-800 text-4xl text-slate-400">
+                                    <i class="fa-solid fa-user"></i>
+                                </div>
+                            </div>
+                            <h3 class="text-2xl font-bold text-white">Marcelo Rodrigues</h3>
+                            <p class="text-vibrantCyan font-mono text-sm mb-4">Founder & Lead Engineer</p>
+
+                            <div class="flex gap-4 justify-center md:justify-start mb-8">
+                                <a href="https://www.linkedin.com/in/marcelo-rodrigues-088478211/" target="_blank" class="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center text-slate-400 hover:text-white hover:bg-blue-600/20 transition-all">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://github.com/MarceloRDPJ" target="_blank" class="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center text-slate-400 hover:text-white hover:bg-slate-600/20 transition-all">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a href="mailto:contato@rdpstudio.com" class="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center text-slate-400 hover:text-white hover:bg-indigo-600/20 transition-all">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                            </div>
+
+                            <!-- Certifications -->
+                            <div class="text-left">
+                                <h4 class="text-xs font-bold uppercase text-slate-500 mb-3 tracking-widest">Certificações</h4>
+                                <ul class="space-y-2 text-sm text-slate-300">
+                                    <li class="flex items-center gap-2"><i class="fa-solid fa-certificate text-energeticAmber"></i> Fortinet NSE</li>
+                                    <li class="flex items-center gap-2"><i class="fa-brands fa-aws text-energeticAmber"></i> AWS Cloud Practitioner</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Details -->
+                        <div class="md:w-2/3">
+                            <h4 class="text-2xl font-bold text-white mb-6">Competências Técnicas</h4>
+
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
+                                <div>
+                                    <h5 class="text-sm font-bold text-vibrantCyan mb-4 uppercase">Infra & Cloud</h5>
+                                    <div class="space-y-3">
+                                        <div class="bg-slate-900/50 rounded-full h-2 w-full overflow-hidden relative">
+                                            <div class="bg-indigo-500 h-full absolute top-0 left-0" style="width: 90%"></div>
+                                        </div>
+                                        <div class="flex justify-between text-xs text-slate-400"><span>Linux/Server</span> <span>90%</span></div>
+
+                                        <div class="bg-slate-900/50 rounded-full h-2 w-full overflow-hidden relative">
+                                            <div class="bg-indigo-500 h-full absolute top-0 left-0" style="width: 85%"></div>
+                                        </div>
+                                        <div class="flex justify-between text-xs text-slate-400"><span>Docker/K8s</span> <span>85%</span></div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5 class="text-sm font-bold text-vibrantCyan mb-4 uppercase">Development</h5>
+                                    <div class="space-y-3">
+                                        <div class="bg-slate-900/50 rounded-full h-2 w-full overflow-hidden relative">
+                                            <div class="bg-purple-500 h-full absolute top-0 left-0" style="width: 95%"></div>
+                                        </div>
+                                        <div class="flex justify-between text-xs text-slate-400"><span>Python</span> <span>95%</span></div>
+
+                                        <div class="bg-slate-900/50 rounded-full h-2 w-full overflow-hidden relative">
+                                            <div class="bg-purple-500 h-full absolute top-0 left-0" style="width: 80%"></div>
+                                        </div>
+                                        <div class="flex justify-between text-xs text-slate-400"><span>React/JS</span> <span>80%</span></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h4 class="text-xl font-bold text-white mb-6">Experiência Profissional</h4>
+                            <div class="space-y-6 relative border-l border-slate-700 ml-3 pl-8">
+                                <div class="relative">
+                                    <div class="absolute -left-[39px] top-1 w-5 h-5 rounded-full bg-vibrantCyan border-4 border-slate-900"></div>
+                                    <h5 class="text-lg font-bold text-white">Founder & Lead Engineer</h5>
+                                    <span class="text-xs text-slate-500 font-mono">2024 - Presente | RDP Studio</span>
+                                    <p class="text-sm text-slate-400 mt-2">Liderança técnica, arquitetura de soluções e desenvolvimento de produtos próprios e para clientes.</p>
+                                </div>
+                                <div class="relative">
+                                    <div class="absolute -left-[39px] top-1 w-5 h-5 rounded-full bg-slate-700 border-4 border-slate-900"></div>
+                                    <h5 class="text-lg font-bold text-white">Analista de Infraestrutura e Segurança</h5>
+                                    <span class="text-xs text-slate-500 font-mono">2021 - 2024 | Diversas Empresas</span>
+                                    <p class="text-sm text-slate-400 mt-2">Gestão de firewalls, servidores Linux, automação de tarefas e resposta a incidentes.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 4. The Company (RDP Studio) -->
+            <section id="company" class="fade-in-up delay-200 scroll-mt-24">
+                 <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <span class="text-vibrantCyan font-mono text-xs uppercase tracking-widest">A Empresa</span>
+                        <h3 class="text-3xl font-bold text-white mt-2 mb-6">Metodologia & Visão</h3>
+                        <p class="text-slate-400 mb-6 leading-relaxed">
+                            A RDP Studio nasceu da necessidade de unir infraestrutura robusta com desenvolvimento ágil.
+                            Acreditamos que segurança não deve ser um gargalo, mas sim um habilitador de inovação.
+                        </p>
+
+                        <div class="space-y-4">
+                            <div class="flex items-start gap-4">
+                                <div class="w-8 h-8 rounded bg-trustGreen/20 flex items-center justify-center text-trustGreen mt-1 shrink-0">
+                                    <i class="fa-solid fa-check"></i>
+                                </div>
+                                <div>
+                                    <h5 class="font-bold text-white">DevSecOps Culture</h5>
+                                    <p class="text-sm text-slate-400">Segurança integrada desde a primeira linha de código.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-4">
+                                <div class="w-8 h-8 rounded bg-vibrantCyan/20 flex items-center justify-center text-vibrantCyan mt-1 shrink-0">
+                                    <i class="fa-solid fa-rocket"></i>
+                                </div>
+                                <div>
+                                    <h5 class="font-bold text-white">Infra-as-Code (IaC)</h5>
+                                    <p class="text-sm text-slate-400">Infraestrutura versionada, auditável e reprodutível.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="glass-card p-8 rounded-2xl border border-white/5">
+                        <h4 class="text-xl font-bold text-white mb-6 text-center">Fluxo de Trabalho</h4>
+                        <div class="relative flex justify-between items-center text-center">
+                             <!-- Connecting Line -->
+                             <div class="absolute top-4 left-0 w-full h-0.5 bg-slate-700 -z-10"></div>
+
+                             <div class="bg-slate-900 border border-slate-700 p-2 rounded-lg z-10 w-20">
+                                <i class="fa-solid fa-magnifying-glass text-vibrantCyan mb-2"></i>
+                                <div class="text-[10px] uppercase font-bold text-slate-400">Diag</div>
+                             </div>
+                             <div class="bg-slate-900 border border-slate-700 p-2 rounded-lg z-10 w-20">
+                                <i class="fa-solid fa-layer-group text-purple-400 mb-2"></i>
+                                <div class="text-[10px] uppercase font-bold text-slate-400">Arq</div>
+                             </div>
+                             <div class="bg-slate-900 border border-slate-700 p-2 rounded-lg z-10 w-20">
+                                <i class="fa-solid fa-code text-trustGreen mb-2"></i>
+                                <div class="text-[10px] uppercase font-bold text-slate-400">Dev</div>
+                             </div>
+                             <div class="bg-slate-900 border border-slate-700 p-2 rounded-lg z-10 w-20">
+                                <i class="fa-solid fa-check-double text-energeticAmber mb-2"></i>
+                                <div class="text-[10px] uppercase font-bold text-slate-400">QA</div>
                              </div>
                         </div>
                     </div>
+                 </div>
+            </section>
 
-                    <div class="flex-grow">
-                        <h3 class="text-2xl font-bold text-white mb-2 group-hover:text-teal-400 transition-colors">Assistente de Vendas</h3>
-                        <p class="text-sm text-slate-400 leading-relaxed mb-4 line-clamp-3">
-                            Bot inteligente com IA (Gemini) para gestão de vendas via Telegram. Processamento de linguagem natural e automação de estoque.
-                        </p>
+             <!-- 5. Clients -->
+             <section id="clients" class="py-12 border-t border-white/5 scroll-mt-24">
+                <div class="text-center mb-8">
+                     <span class="text-vibrantCyan font-mono text-xs uppercase tracking-widest">Confiança</span>
+                     <h3 class="text-2xl font-bold text-white mt-1">Quem confia na RDP Studio</h3>
+                </div>
+                <div class="flex flex-wrap justify-center gap-8 md:gap-16 opacity-70 grayscale hover:grayscale-0 transition-all duration-500">
+                    <!-- Text Placeholders for Logos as images are missing -->
+                    <div class="flex items-center gap-2 text-xl font-bold text-slate-300">
+                        <i class="fa-solid fa-building"></i> TecnoIT
                     </div>
-
-                    <div class="mt-auto pt-6 border-t border-white/5 flex justify-between items-center">
-                        <div class="flex items-center gap-2 text-xs text-slate-500 font-mono">
-                             <i class="fa-regular fa-eye"></i>
-                             <span id="clicks-assistente-vendas-ia">0</span>
-                        </div>
-                        <button class="px-5 py-2 rounded-xl bg-white/5 hover:bg-teal-500/20 border border-white/10 hover:border-teal-500/50 text-white text-xs font-bold uppercase tracking-wide transition-all flex items-center gap-2 group-hover:gap-3"
-                                data-project-id="assistente-vendas-ia">
-                            Detalhes <i class="fa-solid fa-arrow-right text-[10px]"></i>
-                        </button>
+                    <div class="flex items-center gap-2 text-xl font-bold text-slate-300">
+                        <i class="fa-solid fa-gem"></i> Lume Beauty
+                    </div>
+                    <div class="flex items-center gap-2 text-xl font-bold text-slate-300">
+                         <i class="fa-solid fa-hand-holding-heart"></i> Fundação Tiradentes
                     </div>
                 </div>
+            </section>
 
-                <!-- Card: Validador Firewall -->
-                <div class="glass-card rounded-3xl p-8 group fade-in-up delay-300 h-96 cursor-pointer"
-                     onclick="window.location.href='projects/validador-firewall/index.html'"
-                     data-category="seguranca"
-                     data-tags="javascript firewall regex automacao security">
-
-                    <div class="flex justify-between items-start mb-6">
-                        <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-orange-500/20 to-red-500/20 flex items-center justify-center border border-orange-500/10 group-hover:border-orange-500/30 transition-colors shadow-[0_0_15px_rgba(249,115,22,0.1)]">
-                            <i class="fa-solid fa-shield-halved text-xl text-orange-400"></i>
-                        </div>
-                        <div class="flex flex-col items-end gap-2">
-                            <span class="px-2 py-1 rounded bg-orange-500/10 text-orange-400 text-[10px] font-bold uppercase tracking-wider border border-orange-500/20">Segurança</span>
-                            <div class="flex gap-1">
-                                <span class="tech-tag">NetSec</span>
-                                <span class="tech-tag">RegEx</span>
-                            </div>
-                        </div>
+            <!-- 6. Status System -->
+             <section class="glass-card p-6 rounded-xl flex flex-col md:flex-row justify-between items-center gap-4 border-l-4 border-trustGreen">
+                <div class="flex items-center gap-4">
+                    <div class="relative">
+                        <div class="w-3 h-3 bg-trustGreen rounded-full"></div>
+                        <div class="w-3 h-3 bg-trustGreen rounded-full absolute top-0 left-0 animate-ping"></div>
                     </div>
-
-                    <div class="flex-grow">
-                        <h3 class="text-2xl font-bold text-white mb-2 group-hover:text-orange-400 transition-colors">Validador de Acesso</h3>
-                        <p class="text-sm text-slate-400 leading-relaxed mb-4 line-clamp-3">
-                            Engine para validação e sanitização de dados de rede. Garante conformidade de segurança e gera scripts Fortigate automaticamente.
-                        </p>
-                    </div>
-
-                    <div class="mt-auto pt-6 border-t border-white/5 flex justify-between items-center">
-                        <div class="flex items-center gap-2 text-xs text-slate-500 font-mono">
-                             <i class="fa-regular fa-eye"></i>
-                             <span id="clicks-validator-firewall">0</span>
-                        </div>
-                        <button class="px-5 py-2 rounded-xl bg-white/5 hover:bg-orange-500/20 border border-white/10 hover:border-orange-500/50 text-white text-xs font-bold uppercase tracking-wide transition-all flex items-center gap-2 group-hover:gap-3"
-                                data-project-id="validator-firewall">
-                            Detalhes <i class="fa-solid fa-arrow-right text-[10px]"></i>
-                        </button>
+                    <div>
+                        <h4 class="text-sm font-bold text-white">Status Operacional</h4>
+                        <p class="text-xs text-slate-400">Todos os sistemas operando normalmente.</p>
                     </div>
                 </div>
-
-                <!-- Card: Automação GLPI -->
-                <div class="glass-card rounded-3xl p-8 group fade-in-up delay-400 h-96 cursor-pointer"
-                     onclick="window.location.href='projects/abertura-chamados-glpi/index.html'"
-                     data-category="automacao"
-                     data-tags="python api integration backend glpi">
-
-                    <div class="flex justify-between items-start mb-6">
-                        <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-indigo-500/20 to-blue-500/20 flex items-center justify-center border border-indigo-500/10 group-hover:border-indigo-500/30 transition-colors shadow-[0_0_15px_rgba(99,102,241,0.1)]">
-                             <i class="fa-solid fa-server text-xl text-indigo-400"></i>
-                        </div>
-                        <div class="flex flex-col items-end gap-2">
-                            <span class="px-2 py-1 rounded bg-indigo-500/10 text-indigo-400 text-[10px] font-bold uppercase tracking-wider border border-indigo-500/20">Automação</span>
-                            <div class="flex gap-1">
-                                <span class="tech-tag">API</span>
-                                <span class="tech-tag">Backend</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="flex-grow">
-                        <h3 class="text-2xl font-bold text-white mb-2 group-hover:text-indigo-400 transition-colors">Bot GLPI</h3>
-                        <p class="text-sm text-slate-400 leading-relaxed mb-4 line-clamp-3">
-                            Orquestrador autônomo para abertura massiva de tickets. Integração robusta via API para upload de evidências e roteamento.
-                        </p>
-                    </div>
-
-                    <div class="mt-auto pt-6 border-t border-white/5 flex justify-between items-center">
-                        <div class="flex items-center gap-2 text-xs text-slate-500 font-mono">
-                             <i class="fa-regular fa-eye"></i>
-                             <span id="clicks-abertura-chamados-glpi">0</span>
-                        </div>
-                        <button class="px-5 py-2 rounded-xl bg-white/5 hover:bg-indigo-500/20 border border-white/10 hover:border-indigo-500/50 text-white text-xs font-bold uppercase tracking-wide transition-all flex items-center gap-2 group-hover:gap-3"
-                                data-project-id="abertura-chamados-glpi">
-                            Detalhes <i class="fa-solid fa-arrow-right text-[10px]"></i>
-                        </button>
-                    </div>
+                <div class="flex gap-4 text-xs font-mono text-slate-400">
+                    <div class="px-3 py-1 bg-slate-900 rounded border border-white/5">API: <span class="text-trustGreen">ONLINE</span></div>
+                    <div class="px-3 py-1 bg-slate-900 rounded border border-white/5">WEB: <span class="text-trustGreen">ONLINE</span></div>
+                    <div class="px-3 py-1 bg-slate-900 rounded border border-white/5">INFRA: <span class="text-trustGreen">ONLINE</span></div>
                 </div>
-
-                <!-- Card: Epic Games Scanner -->
-                <div class="glass-card rounded-3xl p-8 group fade-in-up delay-500 h-96 cursor-pointer"
-                     onclick="window.location.href='projects/scanner-game-free/index.html'"
-                     data-category="geek"
-                     data-tags="react api frontend ai monitoring">
-
-                    <div class="flex justify-between items-start mb-6">
-                        <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-purple-500/20 to-pink-500/20 flex items-center justify-center border border-purple-500/10 group-hover:border-purple-500/30 transition-colors shadow-[0_0_15px_rgba(168,85,247,0.1)]">
-                             <i class="fa-solid fa-gamepad text-xl text-purple-400"></i>
-                        </div>
-                        <div class="flex flex-col items-end gap-2">
-                            <span class="px-2 py-1 rounded bg-purple-500/10 text-purple-400 text-[10px] font-bold uppercase tracking-wider border border-purple-500/20">Geek</span>
-                            <div class="flex gap-1">
-                                <span class="tech-tag">React</span>
-                                <span class="tech-tag">Live</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="flex-grow">
-                        <h3 class="text-2xl font-bold text-white mb-2 group-hover:text-purple-400 transition-colors">Scanner IA</h3>
-                        <p class="text-sm text-slate-400 leading-relaxed mb-4 line-clamp-3">
-                            Monitoramento em tempo real de ofertas digitais. Detecta padrões para encontrar jogos gratuitos e promoções ocultas na Epic Store.
-                        </p>
-                    </div>
-
-                    <div class="mt-auto pt-6 border-t border-white/5 flex justify-between items-center">
-                        <div class="flex items-center gap-2 text-xs text-slate-500 font-mono">
-                             <i class="fa-regular fa-eye"></i>
-                             <span id="clicks-scanner-game-free">0</span>
-                        </div>
-                        <button class="px-5 py-2 rounded-xl bg-white/5 hover:bg-purple-500/20 border border-white/10 hover:border-purple-500/50 text-white text-xs font-bold uppercase tracking-wide transition-all flex items-center gap-2 group-hover:gap-3"
-                                data-project-id="scanner-game-free">
-                            Detalhes <i class="fa-solid fa-arrow-right text-[10px]"></i>
-                        </button>
-                    </div>
-                </div>
-
-            </div>
+            </section>
 
             <!-- Contact Section -->
-            <section id="contato" class="mt-24 pt-12 border-t border-slate-800/50 text-center fade-in-up delay-200">
-                <h3 class="text-3xl font-bold text-white mb-8">Vamos Conversar?</h3>
+            <section id="contact" class="text-center pt-12">
+                <h3 class="text-3xl font-bold text-white mb-8">Pronto para inovar?</h3>
                 <div class="flex justify-center gap-6 flex-wrap">
                     <a href="https://www.linkedin.com/in/marcelo-rodrigues-088478211/" target="_blank" class="glass-card px-8 py-4 rounded-xl hover:bg-blue-600/10 border-blue-500/20 flex items-center gap-3 group transition-all">
                         <i class="fa-brands fa-linkedin text-xl text-blue-400 group-hover:scale-110 transition-transform"></i>
@@ -454,114 +671,149 @@
                     </a>
                 </div>
             </section>
+
         </main>
 
         <!-- Footer -->
-        <footer class="mt-20 text-center relative z-50 pt-8 border-t border-slate-800/50 pb-8">
-            <div class="watermark-container"></div>
+        <footer class="mt-20 border-t border-slate-800/50 pt-12 pb-8 text-sm text-slate-500">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+                <div>
+                    <h5 class="text-white font-bold mb-4">RDP STUDIO</h5>
+                    <p class="text-xs leading-relaxed">Engenharia de Software e Soluções Digitais. Focados em qualidade, segurança e inovação.</p>
+                </div>
+                <div>
+                    <h5 class="text-white font-bold mb-4">Links Rápidos</h5>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="#projects" class="hover:text-vibrantCyan">Projetos</a></li>
+                        <li><a href="#about-founder" class="hover:text-vibrantCyan">Sobre</a></li>
+                        <li><a href="#contact" class="hover:text-vibrantCyan">Contato</a></li>
+                    </ul>
+                </div>
+                 <div>
+                    <h5 class="text-white font-bold mb-4">Legal</h5>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="#" class="hover:text-white">Termos de Uso</a></li>
+                        <li><a href="#" class="hover:text-white">Privacidade</a></li>
+                        <li><a href="LICENSE" class="hover:text-white">Licença MIT</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="text-white font-bold mb-4">Social</h5>
+                    <div class="flex gap-4">
+                         <a href="#" class="hover:text-white"><i class="fa-brands fa-instagram"></i></a>
+                         <a href="#" class="hover:text-white"><i class="fa-brands fa-linkedin"></i></a>
+                         <a href="#" class="hover:text-white"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center pt-8 border-t border-slate-800/50 relative z-50">
+                 <div class="watermark-container"></div>
+            </div>
         </footer>
 
         <!-- Scroll Top Button -->
-        <button id="scrollTopBtn" onclick="scrollToTop()" class="fixed bottom-8 right-8 z-40 p-4 rounded-full bg-indigo-600 hover:bg-indigo-500 text-white shadow-lg shadow-indigo-500/30 transition-all hover:-translate-y-1">
+        <button id="scrollTopBtn" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })" class="fixed bottom-8 right-8 z-40 p-4 rounded-full bg-vibrantCyan hover:bg-cyan-600 text-white shadow-lg shadow-cyan-500/30 transition-all hover:-translate-y-1 opacity-0 translate-y-10 pointer-events-none">
             <i class="fa-solid fa-arrow-up"></i>
         </button>
 
     </div>
 
-    <!-- About Modal -->
-    <div id="aboutModalOverlay" class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm z-[60] hidden opacity-0 transition-opacity duration-300"></div>
-    <div id="aboutModalPanel" class="fixed top-0 right-0 h-full w-full max-w-md bg-slate-900/95 backdrop-blur-2xl border-l border-white/10 shadow-2xl z-[70] hidden translate-x-full transition-transform duration-300">
-        <div class="p-8 h-full flex flex-col overflow-y-auto">
-            <div class="flex items-center justify-between mb-8 pb-8 border-b border-white/10">
-                <h3 class="text-2xl font-bold text-white">Sobre o Portfólio</h3>
-                <button onclick="toggleAboutModal(false)" class="text-slate-400 hover:text-white p-2 hover:bg-white/5 rounded-lg transition-colors">
-                    <i class="fa-solid fa-times text-xl"></i>
-                </button>
-            </div>
-            <div class="space-y-6 text-sm text-slate-300 leading-relaxed font-light">
-                <p>Bem-vindo ao <strong>RDP STUDIO</strong>, um hub centralizador de projetos de engenharia de software focados em excelência técnica e design moderno.</p>
-
-                <div class="p-6 rounded-2xl bg-gradient-to-br from-indigo-500/10 to-purple-500/10 border border-indigo-500/20">
-                    <p class="text-indigo-400 text-xs uppercase tracking-wider font-bold mb-3 flex items-center gap-2">
-                        <i class="fa-solid fa-bolt"></i> Filosofia
-                    </p>
-                    <p class="text-slate-200">
-                        Cada linha de código é escrita com propósito. Priorizamos arquiteturas escaláveis, segurança ofensiva/defensiva e uma UX que encanta.
-                    </p>
-                </div>
-
-                <div>
-                    <h4 class="text-white font-bold mb-3">Stack Principal</h4>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="tech-tag text-xs">Python</span>
-                        <span class="tech-tag text-xs">React</span>
-                        <span class="tech-tag text-xs">Tailwind</span>
-                        <span class="tech-tag text-xs">Node.js</span>
-                        <span class="tech-tag text-xs">AI/LLM</span>
-                    </div>
-                </div>
-
-                <p>Este portfólio é Open Source e serve como demonstração de capacidades para recrutadores, parceiros e entusiastas.</p>
-            </div>
-            <div class="mt-auto pt-8 border-t border-white/10">
-                <p class="text-xs text-slate-500 text-center font-mono">Build Version: 2025.1.0<br>Developed by Marcelo Rodrigues</p>
-            </div>
-        </div>
-    </div>
-
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            const projectButtons = document.querySelectorAll('[data-project-id]');
-            const namespace = 'rdpstudio.hub';
-
-            // --- Mobile Menu Logic ---
+            // --- Mobile Menu ---
             const mobileMenuBtn = document.getElementById('mobileMenuBtn');
             const mobileMenu = document.getElementById('mobile-menu');
-            const icon = mobileMenuBtn.querySelector('i');
+            const mobileIcon = mobileMenuBtn.querySelector('i');
 
-            window.toggleMobileMenu = function() {
+            window.toggleMobileMenu = () => {
                 const isHidden = mobileMenu.classList.contains('hidden');
                 if (isHidden) {
                     mobileMenu.classList.remove('hidden');
-                    icon.classList.remove('fa-bars');
-                    icon.classList.add('fa-times');
+                    mobileIcon.classList.remove('fa-bars');
+                    mobileIcon.classList.add('fa-times');
                 } else {
                     mobileMenu.classList.add('hidden');
-                    icon.classList.remove('fa-times');
-                    icon.classList.add('fa-bars');
+                    mobileIcon.classList.remove('fa-times');
+                    mobileIcon.classList.add('fa-bars');
                 }
             };
+            mobileMenuBtn.addEventListener('click', toggleMobileMenu);
 
-            mobileMenuBtn.addEventListener('click', window.toggleMobileMenu);
+            // --- Scroll Events (Navbar & ScrollTop) ---
+            const header = document.querySelector('header');
+            const scrollTopBtn = document.getElementById('scrollTopBtn');
 
+            window.addEventListener('scroll', () => {
+                const scrollY = window.scrollY;
+                if (scrollY > 50) {
+                    header.classList.add('py-4'); // Compact header
+                } else {
+                    header.classList.remove('py-4');
+                }
 
-            // --- Search & Filter Logic ---
+                if (scrollY > 300) {
+                    scrollTopBtn.classList.remove('opacity-0', 'translate-y-10', 'pointer-events-none');
+                } else {
+                    scrollTopBtn.classList.add('opacity-0', 'translate-y-10', 'pointer-events-none');
+                }
+            });
+
+            // --- Animated Counters ---
+            const counters = document.querySelectorAll('.counter');
+            const observerOptions = { threshold: 0.5 };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const counter = entry.target;
+                        const target = +counter.getAttribute('data-target');
+                        const duration = 2000; // 2s
+                        const increment = target / (duration / 16);
+
+                        let current = 0;
+                        const updateCounter = () => {
+                            current += increment;
+                            if (current < target) {
+                                counter.textContent = Math.ceil(current);
+                                requestAnimationFrame(updateCounter);
+                            } else {
+                                counter.textContent = target;
+                            }
+                        };
+                        updateCounter();
+                        observer.unobserve(counter);
+                    }
+                });
+            }, observerOptions);
+
+            counters.forEach(c => observer.observe(c));
+
+            // --- Project Filtering ---
             const searchInput = document.getElementById('searchInput');
             const filterBtns = document.querySelectorAll('.filter-btn');
-            const projects = document.querySelectorAll('.glass-card[data-category]');
+            const projects = document.querySelectorAll('[data-category]');
 
             function filterProjects() {
                 const query = searchInput.value.toLowerCase();
-                const activeCategory = document.querySelector('.filter-btn.active').dataset.filter;
+                const activeCategory = document.querySelector('.filter-btn.bg-white\\/10').dataset.filter; // Finding active by class check
 
                 projects.forEach(card => {
                     const category = card.dataset.category;
                     const tags = card.dataset.tags;
-                    const title = card.querySelector('h3').innerText.toLowerCase();
+                    const title = card.querySelector('h4').innerText.toLowerCase();
                     const text = card.querySelector('p').innerText.toLowerCase();
 
                     const matchesSearch = title.includes(query) || text.includes(query) || tags.includes(query);
                     const matchesCategory = activeCategory === 'all' || category === activeCategory;
 
                     if (matchesSearch && matchesCategory) {
-                        card.classList.remove('project-card-hidden');
-                        card.classList.add('fade-in-up'); // Re-trigger animation
-                        // Reset animation logic slightly to allow re-flow
+                        card.style.display = 'flex';
+                        card.classList.add('fade-in-up');
                         card.style.animation = 'none';
                         card.offsetHeight; /* trigger reflow */
                         card.style.animation = 'fadeInUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards';
                     } else {
-                        card.classList.add('project-card-hidden');
+                        card.style.display = 'none';
                     }
                 });
             }
@@ -569,102 +821,43 @@
             searchInput.addEventListener('input', filterProjects);
 
             filterBtns.forEach(btn => {
-                btn.addEventListener('click', () => {
-                    filterBtns.forEach(b => b.classList.remove('active'));
-                    btn.classList.add('active');
+                btn.addEventListener('click', (e) => {
+                    // Reset classes manually
+                    filterBtns.forEach(b => {
+                        b.classList.remove('bg-white/10', 'text-white');
+                        b.classList.add('text-slate-400');
+                        b.classList.remove('active');
+                    });
+
+                    // Set active
+                    e.target.classList.remove('text-slate-400');
+                    e.target.classList.add('bg-white/10', 'text-white', 'active');
+
                     filterProjects();
                 });
             });
 
-            // --- About Modal Toggle Logic ---
-            const overlay = document.getElementById('aboutModalOverlay');
-            const panel = document.getElementById('aboutModalPanel');
+             // --- Active Navigation Link on Scroll ---
+             const sections = document.querySelectorAll('section[id]');
+             const navLinks = document.querySelectorAll('.nav-link');
 
-            function toggleModal(show) {
-                if (show) {
-                    overlay.classList.remove('hidden');
-                    panel.classList.remove('hidden');
-                    // Reflow
-                    void overlay.offsetHeight;
-                    overlay.classList.remove('opacity-0');
-                    panel.classList.remove('translate-x-full');
-                    document.body.style.overflow = 'hidden'; // Prevent bg scroll
-                } else {
-                    overlay.classList.add('opacity-0');
-                    panel.classList.add('translate-x-full');
-                    document.body.style.overflow = '';
-                    setTimeout(() => {
-                        overlay.classList.add('hidden');
-                        panel.classList.add('hidden');
-                    }, 300);
-                }
-            }
-
-            // Expose globally
-            window.toggleAboutModal = toggleModal;
-            window.scrollToTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
-
-            overlay.onclick = () => toggleModal(false);
-
-            // --- Scroll to Top Visibility ---
-            const scrollTopBtn = document.getElementById('scrollTopBtn');
-            window.addEventListener('scroll', () => {
-                if (window.scrollY > 300) {
-                    scrollTopBtn.classList.add('visible');
-                } else {
-                    scrollTopBtn.classList.remove('visible');
-                }
-            });
-
-            // --- Click Tracking ---
-            function loadClickCounts() {
-                projectButtons.forEach(button => {
-                    const projectId = button.dataset.projectId;
-                    const displayElement = document.getElementById('clicks-' + projectId);
-                    if (displayElement) {
-                        fetch(`https://abacus.jasoncameron.dev/get/${namespace}/${projectId}`)
-                            .then(r => r.json())
-                            .then(d => displayElement.textContent = d.value || 0)
-                            .catch(console.error);
+             window.addEventListener('scroll', () => {
+                let current = '';
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+                    if (pageYOffset >= (sectionTop - 150)) {
+                        current = section.getAttribute('id');
                     }
                 });
-            }
 
-            // Note: Click tracking on card click now handles redirection
-            // The logic inside onclick attribute handles navigation, but we want to track it.
-            // We can attach listeners to the card itself if needed, but existing buttons also work.
-            // Let's ensure the separate buttons still track clicks.
-
-            projectButtons.forEach(button => {
-                button.addEventListener('click', (e) => {
-                    e.stopPropagation(); // Prevent bubbling if card has onclick
-                    const projectId = button.dataset.projectId;
-
-                    // Optimistic update
-                    const display = document.getElementById('clicks-' + projectId);
-                    if(display) display.textContent = parseInt(display.textContent||0) + 1;
-
-                    fetch(`https://abacus.jasoncameron.dev/hit/${namespace}/${projectId}`).catch(console.error);
-
-                    // Navigation handled by parent card or self if href exists
-                    const href = button.dataset.href; // if button has href
-                    if(href) {
-                         setTimeout(() => window.location.href = href, 150);
-                    } else {
-                        // If parent has onclick, let it handle? No, stopPropagation stopped it.
-                        // But the button in the new design is "Detalhes ->", which should probably just link.
-                        // We will let the user click the card for the link, or the button.
-                        // Let's redirect if the button is clicked.
-                        const card = button.closest('.glass-card');
-                        if(card) {
-                             const cardHref = card.getAttribute('onclick').match(/window.location.href='(.*?)'/)[1];
-                             setTimeout(() => window.location.href = cardHref, 150);
-                        }
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href').includes(current)) {
+                        link.classList.add('active');
                     }
                 });
-            });
-
-            loadClickCounts();
+             });
         });
     </script>
 </body>

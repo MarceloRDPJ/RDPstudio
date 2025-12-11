@@ -1,56 +1,95 @@
-# RDP STUDIO - Professional Portfolio Hub
+# RDP STUDIO - Hub de Engenharia e Inovação
 
-[PT-BR] Este repositório hospeda o portfólio profissional de **Marcelo Rodrigues** sob a marca **RDP STUDIO**. É uma vitrine de excelência técnica, apresentando soluções em Engenharia de Software, Automação, Segurança Ofensiva/Defensiva e Design de Interfaces.
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Status](https://img.shields.io/badge/status-active-success.svg)
+![Version](https://img.shields.io/badge/version-2025.1.0-purple.svg)
 
-[EN] This repository hosts the professional portfolio of **Marcelo Rodrigues** under the **RDP STUDIO** brand. It serves as a showcase of technical excellence, featuring solutions in Software Engineering, Automation, Offensive/Defensive Security, and UI Design.
-
-🔗 **Live Demo:** [https://marcelordpj.github.io/Tecnoit/](https://marcelordpj.github.io/Tecnoit/)
-
-## 🚀 Featured Projects / Projetos em Destaque
-
-### 1. Assistente de Vendas IA (Automation/AI)
-**Stack:** Python, Gemini AI, Telegram API, Supabase
-[PT] Agente autônomo para gestão de vendas e estoque via chat, capaz de ler comprovantes bancários com visão computacional.
-[EN] Autonomous agent for sales and inventory management via chat, capable of reading bank receipts using computer vision.
-
-### 2. Validador de Firewall (Security)
-**Stack:** JavaScript, RegEx, DOM Manipulation
-[PT] Engine de sanitização de dados de rede e gerador de scripts de configuração para Fortigate.
-[EN] Network data sanitization engine and configuration script generator for Fortigate firewalls.
-
-### 3. Automação GLPI (Automation)
-**Stack:** Python Logic, Web Interface
-[PT] Orquestrador para abertura massiva de tickets com integração via API.
-[EN] Orchestrator for massive ticket creation with API integration.
-
-### 4. Epic Games Scanner (Geek/Monitoring)
-**Stack:** React, Tailwind CSS
-[PT] Monitoramento em tempo real de ofertas digitais e detecção de promoções ocultas.
-[EN] Real-time monitoring of digital offers and detection of hidden promotions.
-
-## 📂 Repository Structure / Estrutura
-
-```bash
-.
-├── assets/                  # Global resources (images, icons)
-├── projects/                # Individual projects directory
-│   ├── assistente-vendas-ia/
-│   ├── abertura-chamados-glpi/
-│   ├── scanner-game-free/
-│   └── validador-firewall/
-├── index.html               # Main Hub (Portfolio Showcase)
-├── BRANDBOOK.md             # Design System & Style Guide
-└── CONTRIBUTING.md          # Maintenance protocols
-```
-
-## 🛠️ Protocols / Protocolos
-
-This project enforces strict design and code quality standards.
-Este projeto aplica padrões rigorosos de design e qualidade de código.
-
-- **[BRANDBOOK.md](BRANDBOOK.md)**: "Ultra Modern" Design System (Glassmorphism, Purple/Indigo gradients).
-- **[CONTRIBUTING.md](CONTRIBUTING.md)**: Commit standards and documentation requirements.
+> **Engenharia Criativa & Funcional.**
+> Soluções de alto impacto focadas em Cloud, Cibersegurança e Automação com IA.
 
 ---
-© 2025 RDP STUDIO / Marcelo Rodrigues.
-MIT License.
+
+## 📋 Visão Geral
+
+Este repositório hospeda o **Hub Central da RDP Studio**, uma vitrine interativa que centraliza projetos de engenharia de software desenvolvidos por **Marcelo Rodrigues**. Mais do que um portfólio, é uma demonstração de arquitetura frontend moderna, design cognitivo e boas práticas de desenvolvimento.
+
+A plataforma serve como ponto de entrada para diversas ferramentas e automações, incluindo:
+- 🤖 **Assistentes de IA** (Chatbots com LLMs)
+- 🛡️ **Ferramentas de Cibersegurança** (Validadores de Firewall)
+- ⚙️ **Automação de Infraestrutura** (Bots para GLPI)
+- 🎮 **Geek Tools** (Scanners de Jogos)
+
+---
+
+## 🚀 Tecnologias e Arquitetura
+
+O projeto segue uma arquitetura **Serverless Static**, focada em performance, segurança e baixo custo.
+
+| Categoria | Tecnologias |
+| :--- | :--- |
+| **Frontend** | HTML5 Semântico, Tailwind CSS (CDN), FontAwesome |
+| **Design** | Glassmorphism, Neuro-Design (Cognitive Load Reduction) |
+| **Scripts** | JavaScript (ES6+) Vanilla |
+| **Deploy** | GitHub Pages |
+| **Analytics** | Abacus API (Privacy-focused click tracking) |
+
+---
+
+## 📂 Estrutura do Projeto
+
+```mermaid
+graph TD;
+    root[RDP Studio Hub] --> assets[Assets & Images];
+    root --> projects[Projetos];
+    projects --> p1[Assistente Vendas IA];
+    projects --> p2[Validador Firewall];
+    projects --> p3[Automação GLPI];
+    projects --> p4[Scanner Games];
+    root --> docs[Documentação];
+    docs --> brand[BRANDBOOK.md];
+    docs --> sec[SECURITY.md];
+```
+
+## 🛠️ Instalação e Execução Local
+
+Para rodar este projeto em sua máquina local para testes ou desenvolvimento:
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone https://github.com/MarceloRDPJ/Tecnoit.git
+    cd Tecnoit
+    ```
+
+2.  **Inicie um servidor local:**
+    Como o projeto usa módulos ES6 e CORS em alguns subprojetos, é recomendado usar um servidor HTTP simples.
+    ```bash
+    # Python 3
+    python3 -m http.server 8000
+    ```
+
+3.  **Acesse:**
+    Abra seu navegador em `http://localhost:8000`.
+
+## 🎨 Design System
+
+Consulte o arquivo [`BRANDBOOK.md`](./BRANDBOOK.md) para detalhes sobre:
+- Paleta de Cores (Deep Blue, Vibrant Cyan, Tech Gray)
+- Tipografia (Inter, JetBrains Mono)
+- Componentes UI (Glass Cards, Botões)
+
+## 🤝 Como Contribuir
+
+Contribuições são bem-vindas! Se você tiver uma ideia para melhorar o hub ou um dos projetos:
+
+1.  Faça um Fork do projeto.
+2.  Crie uma Branch para sua Feature (`git checkout -b feat/NovaFeature`).
+3.  Commit suas mudanças seguindo o padrão [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) (`git commit -m 'feat: adiciona nova seção de analytics'`).
+4.  Faça o Push para a Branch (`git push origin feat/NovaFeature`).
+5.  Abra um Pull Request.
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
+
+---
+**© 2025 RDP STUDIO.** Desenvolvido por Marcelo Rodrigues.
