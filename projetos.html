@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RDP STUDIO - Projetos</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        deepBlue: '#1E3A5F',
+                        techGray: '#2D3748',
+                        vibrantCyan: '#00B4D8',
+                        energeticAmber: '#F59E0B',
+                        trustGreen: '#10B981',
+                        darkSlate: '#020617',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    },
+                    animation: {
+                        'fade-in-up': 'fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #020617;
+            background-image: radial-gradient(circle at 85% 10%, rgba(16, 185, 129, 0.1), transparent 25%), radial-gradient(circle at 15% 80%, rgba(0, 180, 216, 0.1), transparent 25%);
+            background-attachment: fixed;
+            color: #F8FAFC;
+        }
+        .glass-card {
+            background: rgba(30, 41, 59, 0.4);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: all 0.3s ease;
+        }
+        .glass-card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(0, 180, 216, 0.3);
+            background: rgba(30, 41, 59, 0.6);
+        }
+        .nav-link { color: #94a3b8; transition: color 0.3s; }
+        .nav-link:hover, .nav-link.active { color: #fff; font-weight: 600; }
+        .tech-tag {
+            font-size: 0.7rem; padding: 2px 8px; border-radius: 4px;
+            background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.1);
+            color: #cbd5e1; font-family: 'JetBrains Mono', monospace;
+        }
+        @keyframes fadeInUp { to { opacity: 1; transform: translateY(0); } }
+        .fade-in-up { opacity: 0; transform: translateY(20px); animation: fadeInUp 0.8s forwards; }
+
+        .watermark-container::after {
+            content: "© 2025 RDP STUDIO. Desenvolvido por Marcelo Rodrigues.";
+            font-size: 0.75rem; color: #64748b; opacity: 0.5;
+            display: block; pointer-events: none;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-vibrantCyan selection:text-white">
+
+    <div class="max-w-7xl mx-auto px-6 py-6 min-h-screen flex flex-col relative">
+
+        <!-- Header -->
+        <header class="flex justify-between items-center mb-12 relative z-50">
+            <a href="index.html" class="flex items-center gap-4 group">
+                <div class="w-10 h-10 rounded-xl glass-card flex items-center justify-center p-1">
+                     <img src="logo.png" alt="Logo" class="w-full h-full object-contain group-hover:scale-110 transition-transform">
+                </div>
+                <h1 class="text-xl font-bold tracking-tight text-white">RDP <span class="text-vibrantCyan font-light">STUDIO</span></h1>
+            </a>
+
+            <!-- Nav -->
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="projetos.html" class="nav-link active text-vibrantCyan">Projetos</a>
+                <a href="empresa.html" class="nav-link">A Empresa</a>
+                <a href="sobre.html" class="nav-link">Sobre Mim</a>
+                <a href="https://wa.me/5562999999999" target="_blank" class="px-4 py-2 rounded-lg bg-vibrantCyan/10 text-vibrantCyan hover:bg-vibrantCyan hover:text-white transition-all">Contato</a>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+        <main class="flex-grow">
+            <div class="text-center mb-16 fade-in-up">
+                <h2 class="text-4xl font-bold text-white mb-4">Portfólio de Projetos</h2>
+                <p class="text-slate-400">Soluções reais desenvolvidas para clientes e demandas de mercado.</p>
+            </div>
+
+            <!-- Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 fade-in-up" style="animation-delay: 0.2s">
+
+                <!-- 1. PC Doctor Ultimate -->
+                <div class="glass-card rounded-2xl overflow-hidden flex flex-col group h-full">
+                    <div class="h-48 bg-slate-800 relative overflow-hidden flex items-center justify-center">
+                        <!-- Placeholder visual -->
+                        <div class="absolute inset-0 bg-gradient-to-br from-blue-900 to-slate-900 opacity-80"></div>
+                        <i class="fa-solid fa-microchip text-6xl text-blue-400 z-10"></i>
+                    </div>
+                    <div class="p-8 flex flex-col flex-grow">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-xl font-bold text-white group-hover:text-vibrantCyan transition-colors">PC Doctor Ultimate</h3>
+                            <span class="text-xs font-bold text-blue-400 uppercase tracking-wide bg-blue-400/10 px-2 py-1 rounded">Hardware</span>
+                        </div>
+                        <p class="text-sm text-slate-400 mb-6 flex-grow">
+                            Suite completa para diagnóstico de hardware e manutenção preditiva de computadores. Análise térmica, stress-test e relatórios automatizados.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">Hardware Analysis</span>
+                            <span class="tech-tag">Diagnostics</span>
+                        </div>
+                        <button disabled class="w-full py-3 rounded-xl bg-slate-700/50 text-slate-400 text-sm font-bold cursor-not-allowed border border-white/5">
+                            Em Breve (Private)
+                        </button>
+                    </div>
+                </div>
+
+                <!-- 2. Bot de Gestão / Cosméticos -->
+                <div class="glass-card rounded-2xl overflow-hidden flex flex-col group h-full">
+                    <div class="h-48 bg-slate-800 relative overflow-hidden flex items-center justify-center">
+                        <div class="absolute inset-0 bg-gradient-to-br from-purple-900 to-slate-900 opacity-80"></div>
+                        <i class="fa-solid fa-robot text-6xl text-purple-400 z-10"></i>
+                    </div>
+                    <div class="p-8 flex flex-col flex-grow">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-xl font-bold text-white group-hover:text-vibrantCyan transition-colors">Bot de Gestão IA</h3>
+                            <span class="text-xs font-bold text-purple-400 uppercase tracking-wide bg-purple-400/10 px-2 py-1 rounded">Automação</span>
+                        </div>
+                        <p class="text-sm text-slate-400 mb-6 flex-grow">
+                            Assistente virtual para Lume Beauty. Gestão de estoque e vendas via Telegram API, com OCR para leitura de comprovantes.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Telegram API</span>
+                            <span class="tech-tag">Gemini AI</span>
+                        </div>
+                        <a href="projects/assistente-vendas-ia/index.html" class="w-full py-3 rounded-xl bg-vibrantCyan hover:bg-cyan-600 text-white text-sm font-bold flex items-center justify-center gap-2 transition-all shadow-lg hover:shadow-cyan-500/20">
+                            Ver Case <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- 3. Automação GLPI (TecnoIT) -->
+                <div class="glass-card rounded-2xl overflow-hidden flex flex-col group h-full">
+                    <div class="h-48 bg-slate-800 relative overflow-hidden flex items-center justify-center">
+                        <div class="absolute inset-0 bg-gradient-to-br from-indigo-900 to-slate-900 opacity-80"></div>
+                        <i class="fa-solid fa-server text-6xl text-indigo-400 z-10"></i>
+                    </div>
+                    <div class="p-8 flex flex-col flex-grow">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-xl font-bold text-white group-hover:text-vibrantCyan transition-colors">Automação GLPI</h3>
+                            <span class="text-xs font-bold text-indigo-400 uppercase tracking-wide bg-indigo-400/10 px-2 py-1 rounded">Infra</span>
+                        </div>
+                        <p class="text-sm text-slate-400 mb-6 flex-grow">
+                            Script Python para abertura massiva de chamados. Varredura de diretórios e upload automático de evidências para o TecnoIT.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">GLPI API</span>
+                            <span class="tech-tag">Scripting</span>
+                        </div>
+                        <a href="projects/abertura-chamados-glpi/index.html" class="w-full py-3 rounded-xl bg-vibrantCyan hover:bg-cyan-600 text-white text-sm font-bold flex items-center justify-center gap-2 transition-all shadow-lg hover:shadow-cyan-500/20">
+                            Ver Case <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- 4. RDP Studio Portfolio -->
+                <div class="glass-card rounded-2xl overflow-hidden flex flex-col group h-full">
+                    <div class="h-48 bg-slate-800 relative overflow-hidden flex items-center justify-center">
+                        <div class="absolute inset-0 bg-gradient-to-br from-teal-900 to-slate-900 opacity-80"></div>
+                        <i class="fa-solid fa-globe text-6xl text-teal-400 z-10"></i>
+                    </div>
+                    <div class="p-8 flex flex-col flex-grow">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-xl font-bold text-white group-hover:text-vibrantCyan transition-colors">RDP Studio Hub</h3>
+                            <span class="text-xs font-bold text-teal-400 uppercase tracking-wide bg-teal-400/10 px-2 py-1 rounded">Frontend</span>
+                        </div>
+                        <p class="text-sm text-slate-400 mb-6 flex-grow">
+                            Este próprio portfólio. Arquitetura Serverless Static, Neuro-Design System e integração com APIs externas.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="tech-tag">HTML5/JS</span>
+                            <span class="tech-tag">Tailwind</span>
+                            <span class="tech-tag">Neuro-Design</span>
+                        </div>
+                        <a href="https://github.com/MarceloRDPJ/Tecnoit" target="_blank" class="w-full py-3 rounded-xl bg-slate-700 hover:bg-slate-600 text-white text-sm font-bold flex items-center justify-center gap-2 transition-all border border-white/10">
+                            <i class="fa-brands fa-github"></i> Ver Código
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="mt-20 border-t border-slate-800/50 pt-12 pb-8 text-center text-sm text-slate-500">
+            <div class="watermark-container"></div>
+        </footer>
+
+    </div>
+</body>
+</html>
