@@ -53,7 +53,7 @@
             background-image: linear-gradient(to right, #00B4D8, #38bdf8, #10B981);
         }
         .nav-link { color: #94a3b8; transition: color 0.3s; }
-        .nav-link:hover, .nav-link.active { color: #fff; font-weight: 600; }
+        .nav-link:hover, .nav-link.active { color: #fff; }
         @keyframes fadeInUp { to { opacity: 1; transform: translateY(0); } }
         .fade-in-up { opacity: 0; transform: translateY(20px); animation: fadeInUp 0.8s forwards; }
     </style>
@@ -178,22 +178,22 @@
                         <h3 class="text-2xl font-bold text-white">Quem confia na RDP Studio</h3>
                     </div>
 
-                    <div class="flex flex-wrap justify-center items-center gap-12 md:gap-20 opacity-80">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto opacity-90">
 
                         <!-- TecnoIT -->
-                        <div class="h-16 group">
-                            <img src="assets/images/clients/tecnoit.png" alt="TecnoIT" class="h-full w-auto object-contain grayscale group-hover:grayscale-0 transition-all duration-500 hover:scale-110">
+                        <div class="glass-card h-32 rounded-xl flex items-center justify-center p-6 group hover:border-vibrantCyan/30 transition-all duration-500">
+                            <img src="assets/images/clients/tecnoit.png" alt="TecnoIT" class="h-16 w-auto object-contain group-hover:-0 transition-all duration-500 group-hover:scale-110 brightness-0 invert opacity-80 group-hover:opacity-100">
                         </div>
 
                         <!-- Lume Beauty -->
-                        <div class="h-16 group">
-                            <img src="assets/images/clients/lume.png" alt="Lume Beauty" class="h-full w-auto object-contain grayscale group-hover:grayscale-0 transition-all duration-500 hover:scale-110">
+                        <div class="glass-card h-32 rounded-xl flex items-center justify-center p-6 group hover:border-vibrantCyan/30 transition-all duration-500">
+                            <img src="assets/images/clients/lume.png" alt="Lume Beauty" class="h-16 w-auto object-contain grayscale group-hover:grayscale-0 transition-all duration-500 group-hover:scale-110">
                         </div>
 
                         <!-- Fundação Tiradentes -->
-                        <div class="h-16 flex items-center gap-3 group px-6 py-2 rounded-xl border border-white/5 hover:bg-white/5 transition-all">
-                            <i class="fa-solid fa-hand-holding-heart text-3xl text-vibrantCyan group-hover:scale-110 transition-transform"></i>
-                            <span class="text-xl font-bold text-slate-300 group-hover:text-white transition-colors">Fundação Tiradentes</span>
+                        <div class="glass-card h-32 rounded-xl flex items-center justify-center p-6 gap-4 group hover:border-vibrantCyan/30 transition-all duration-500">
+                            <i class="fa-solid fa-hand-holding-heart text-4xl text-slate-500 group-hover:text-vibrantCyan transition-colors duration-300 group-hover:scale-110"></i>
+                            <span class="text-lg font-bold text-slate-400 group-hover:text-white transition-colors duration-300">Fundação Tiradentes</span>
                         </div>
 
                     </div>
