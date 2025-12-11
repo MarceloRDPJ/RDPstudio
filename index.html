@@ -69,7 +69,8 @@
             background: #818cf8;
             transition: width 0.3s;
         }
-        .nav-link:hover::after { width: 100%; }
+        .nav-link:hover::after, .nav-link.active::after { width: 100%; }
+        .nav-link.active { color: #fff; }
 
         /* Search & Filter */
         .search-input {
@@ -160,12 +161,29 @@
             </div>
 
             <!-- Navigation -->
-            <nav class="flex items-center gap-8 text-sm font-medium">
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium">
                 <button onclick="toggleAboutModal(true)" class="nav-link">Sobre</button>
                 <a href="#projetos" class="nav-link">Projetos</a>
                 <a href="#contato" class="nav-link text-indigo-400 hover:text-indigo-300">Contato</a>
             </nav>
+
+            <!-- Mobile Menu Button -->
+            <div class="md:hidden">
+                <button id="mobileMenuBtn" class="text-slate-400 hover:text-white">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
         </header>
+
+        <!-- Mobile Menu Panel -->
+        <div id="mobileMenuPanel" class="fixed inset-0 bg-slate-900/95 z-50 hidden flex-col items-center justify-center gap-6 text-lg transition-opacity duration-300 opacity-0">
+            <button id="closeMobileMenuBtn" class="absolute top-8 right-6 text-slate-400 hover:text-white">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            </button>
+            <button onclick="toggleAboutModal(true); closeMobileMenu();" class="nav-link">Sobre</button>
+            <a href="#projetos" class="nav-link mobile-nav-link">Projetos</a>
+            <a href="#contato" class="nav-link mobile-nav-link text-indigo-400 hover:text-indigo-300">Contato</a>
+        </div>
 
         <!-- Main Content -->
         <main class="flex-grow">
@@ -201,7 +219,7 @@
             <div id="projetos" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 min-h-[400px]">
 
                 <!-- Card: Validador Firewall -->
-                <div class="glass-card rounded-3xl p-8 group fade-in-up delay-200 h-full"
+                <div class="glass-card rounded-3xl p-8 group fade-in-up delay-200 h-96"
                      data-category="seguranca"
                      data-tags="javascript firewall regex automacao">
 
@@ -241,7 +259,7 @@
                 </div>
 
                 <!-- Card: Automação GLPI -->
-                <div class="glass-card rounded-3xl p-8 group fade-in-up delay-300 h-full"
+                <div class="glass-card rounded-3xl p-8 group fade-in-up delay-300 h-96"
                      data-category="automacao"
                      data-tags="python api integration backend">
 
@@ -281,7 +299,7 @@
                 </div>
 
                 <!-- Card: Epic Games Scanner -->
-                <div class="glass-card rounded-3xl p-8 group fade-in-up delay-300 h-full"
+                <div class="glass-card rounded-3xl p-8 group fade-in-up delay-300 h-96"
                      data-category="geek"
                      data-tags="react api frontend ai">
 
@@ -441,6 +459,64 @@
             };
 
             overlay.onclick = () => toggleModal(false);
+
+            // --- Mobile Menu Logic ---
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+            const closeMobileMenuBtn = document.getElementById('closeMobileMenuBtn');
+            const mobileMenuPanel = document.getElementById('mobileMenuPanel');
+            const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+
+            function openMobileMenu() {
+                mobileMenuPanel.classList.remove('hidden');
+                mobileMenuPanel.classList.add('flex');
+                void mobileMenuPanel.offsetHeight; // Trigger reflow
+                mobileMenuPanel.classList.remove('opacity-0');
+                document.body.classList.add('overflow-hidden');
+            }
+
+            function closeMobileMenu() {
+                mobileMenuPanel.classList.add('opacity-0');
+                setTimeout(() => {
+                    mobileMenuPanel.classList.add('hidden');
+                    mobileMenuPanel.classList.remove('flex');
+                }, 300);
+                document.body.classList.remove('overflow-hidden');
+            }
+
+            mobileMenuBtn.addEventListener('click', openMobileMenu);
+            closeMobileMenuBtn.addEventListener('click', closeMobileMenu);
+            mobileNavLinks.forEach(link => {
+                link.addEventListener('click', closeMobileMenu);
+            });
+
+            // --- Nav Link Active State Logic ---
+            const sections = document.querySelectorAll('section[id], div[id].grid');
+            const navLinks = document.querySelectorAll('nav a.nav-link, .mobile-nav-link');
+
+            const observerOptions = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.4
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const id = entry.target.getAttribute('id');
+                        navLinks.forEach(link => {
+                            link.classList.remove('active');
+                            if (link.getAttribute('href') === `#${id}`) {
+                                link.classList.add('active');
+                            }
+                        });
+                    }
+                });
+            }, observerOptions);
+
+            sections.forEach(section => {
+                observer.observe(section);
+            });
+
 
             // --- Click Tracking ---
             function loadClickCounts() {
