@@ -1,85 +1,50 @@
-# Validador de MACs - RDP STUDIO
+# Validador de Firewall (MACs)
 
-![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)
-![Version: 2.0](https://img.shields.io/badge/Version-2.0%20Ultra%20Modern-blueviolet.svg)
+![Status](https://img.shields.io/badge/status-stable-success.svg?style=flat-square)
+![Tech](https://img.shields.io/badge/JS-Vanilla-yellow.svg?style=flat-square)
+![Security](https://img.shields.io/badge/Security-Fortigate-red.svg?style=flat-square)
 
-**[PT]** Ferramenta profissional para validação e conversão de endereços MAC para configurações de Firewall.
-**[EN]** Professional tool for MAC address validation and conversion for Firewall configurations.
-
----
-
-### ⚠️ Declaração de Autoria / Authorship Disclaimer
-
-**[PT]**
-Este projeto foi desenvolvido de forma **totalmente independente** por **Marcelo Rodrigues**.
-Não foi encomendado, solicitado ou remunerado por nenhuma empresa.
-
-**[EN]**
-This project was developed **completely independently** by **Marcelo Rodrigues**.
-It was not commissioned, requested, or remunerated by any company.
+> **Engine de Conformidade e Automação para Firewalls.**
+> Sanitize listas de MAC Address, valide formatos e gere scripts Fortigate em segundos.
 
 ---
 
-## 📸 Screenshots
+## 📋 Visão Geral
 
-### Interface Principal / Main Interface
-![Interface Principal](../../assets/screenshots/validador_initial.png)
+Ferramenta essencial para administradores de rede e segurança. O Validador resolve o problema comum de receber listas de ativos despadronizadas (Excel, CSV, TXT) e precisar importá-las em Firewalls (Fortigate).
 
-### Resultados da Validação / Validation Results
-![Resultados](../../assets/screenshots/validador_results.png)
-
----
-
-## ✨ Funcionalidades / Features
-
-1.  **Entrada Flexível:** Aceita Colar (Ctrl+V) ou Upload de arquivo `.csv` / `.txt`.
-2.  **Validação Inteligente:**
-    *   Verifica formato do MAC (aceita `:` ou `-`).
-    *   Detecta duplicatas de MAC e de Nome.
-    *   Identifica linhas incompletas.
-3.  **Conversão Automática:** Formata para `XX:XX:XX:XX:XX:XX` (Padrão Firewall).
-4.  **Scripts Gerados:**
-    *   **Objeto (Address):** Cria os objetos individuais.
-    *   **Grupo (Addrgrp):** Adiciona todos os objetos a um grupo.
-5.  **Relatório de Erros:** Gera um CSV detalhando quais linhas falharam e o motivo.
-6.  **Visualização Rápida:** Modais interativos para visualizar e copiar os scripts sem download.
+### Principais Funcionalidades
+- 🧹 **Sanitização de Dados:** Remove caracteres inválidos e corrige formatação.
+- 🔍 **Detecção de Duplicatas:** Impede que MACs ou Nomes repetidos quebrem a importação.
+- ⚙️ **Gerador de Scripts:** Cria comandos CLI prontos para "Copiar e Colar" no terminal do Firewall.
+- 🛡️ **Segurança:** Processamento 100% local (Client-side), garantindo privacidade dos dados.
 
 ---
 
-## 🚀 Como Usar / How to Use
+## 🏗️ Fluxo de Processamento
 
-1.  Acesse a **[Demonstração Online](https://marcelordpj.github.io/rdpstudio/projects/validador-firewall/index.html)**.
-2.  Cole os dados na caixa de texto OU arraste um arquivo CSV.
-    *   *Formato esperado:* `Nome;MAC` (separado por ponto e vírgula, tab ou espaço).
-3.  Clique em **"VALIDAR & CONVERTER"**.
-4.  Analise o resumo no painel de resultados.
-5.  Use os botões para visualizar (`Visualizar & Copiar`) ou baixar (`Baixar .TXT`) os scripts gerados.
-
----
-
-## 📋 Exemplo de Entrada / Input Example
-
-```text
-PC-Financeiro-01    AA-BB-CC-11-22-33
-Server-Backup       00:11:22:33:44:55
-Laptop-Guest        AABBCC112233
+```mermaid
+graph LR;
+    Input[CSV/TXT Sujo] -->|Parse| Engine{JS Engine};
+    Engine -->|Regex Check| Validate[Validação];
+    Validate -->|Erro| Relatorio[CSV de Erros];
+    Validate -->|Sucesso| Script[Script Fortigate];
+    Script --> Output[Download/Copy];
 ```
 
-## 💻 Tecnologias / Technologies
+## 🚀 Como Usar
 
-*   **HTML5 & JavaScript (Vanilla)** - Processamento 100% no cliente (Client-side).
-*   **Tailwind CSS** - Design responsivo e tema escuro moderno.
-*   **FileReader API** - Leitura de arquivos locais segura.
+1.  Cole sua lista de equipamentos (Nome + MAC) na área de texto.
+2.  Clique em **"Validar & Converter"**.
+3.  Visualize os resultados nas abas de "Objetos" e "Grupos".
+4.  Baixe os scripts gerados.
+
+## 🛠️ Stack Tecnológica
+
+- **Core:** JavaScript ES6+
+- **Interface:** HTML5 + Tailwind CSS (Glassmorphism)
+- **Logic:** Regex Patterns for MAC Validation
 
 ---
 
-## 👤 Autor / Author
-
-**Marcelo Rodrigues**
-*   [GitHub Profile](https://github.com/MarceloRDPJ)
-
----
-
-## 📄 Licença / License
-
-Distribuído sob a licença MIT. Veja `LICENSE` na raiz do repositório para mais informações.
+**© 2025 RDP STUDIO.** Desenvolvido por Marcelo Rodrigues.
