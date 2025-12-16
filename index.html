@@ -128,7 +128,7 @@
                 <h1 class="text-xl font-bold tracking-tight text-white">RDP <span class="text-vibrantCyan font-light">STUDIO</span></h1>
             </a>
 
-            <!-- Nav -->
+            <!-- Nav (Desktop) -->
             <nav class="hidden md:flex items-center gap-8 text-sm font-medium">
                 <a href="index.html" class="nav-link active text-vibrantCyan">Home</a>
                 <a href="projetos.html" class="nav-link">Projetos</a>
@@ -136,7 +136,22 @@
                 <a href="sobre.html" class="nav-link">Sobre Mim</a>
                 <a href="https://wa.me/5562996780498" target="_blank" class="px-4 py-2 rounded-lg bg-vibrantCyan/10 text-vibrantCyan hover:bg-vibrantCyan hover:text-white transition-all">Contato</a>
             </nav>
+
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-btn" class="md:hidden text-white text-2xl p-2 z-50 relative group">
+                <div class="absolute inset-0 bg-white/5 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                <i class="fa-solid fa-bars relative z-10"></i>
+            </button>
         </header>
+
+        <!-- Mobile Menu Overlay -->
+        <div id="mobile-menu-overlay" class="fixed inset-0 z-40 bg-slate-900/95 backdrop-blur-xl transform translate-x-full transition-transform duration-300 flex flex-col items-center justify-center space-y-8 md:hidden">
+            <a href="index.html" class="text-2xl font-bold text-white hover:text-vibrantCyan transition-colors mobile-link">Home</a>
+            <a href="projetos.html" class="text-2xl font-bold text-white hover:text-vibrantCyan transition-colors mobile-link">Projetos</a>
+            <a href="#empresa" class="text-2xl font-bold text-white hover:text-vibrantCyan transition-colors mobile-link">A Empresa</a>
+            <a href="sobre.html" class="text-2xl font-bold text-white hover:text-vibrantCyan transition-colors mobile-link">Sobre Mim</a>
+            <a href="https://wa.me/5562996780498" target="_blank" class="px-8 py-3 rounded-full bg-vibrantCyan text-white font-bold text-lg shadow-lg shadow-vibrantCyan/20 mobile-link">Contato</a>
+        </div>
 
         <!-- Main Content -->
         <main class="flex-grow flex flex-col justify-center space-y-20">
@@ -271,7 +286,7 @@
                     <div class="w-full max-w-5xl mx-auto overflow-hidden relative group" style="mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent); -webkit-mask-image: linear-gradient(to right, transparent, black 20%, black 80%, transparent);">
                         
                         <!-- Scrolling Track -->
-                        <div class="flex items-center gap-16 md:gap-32 w-max animate-scroll py-6">
+                        <div class="flex items-center gap-8 md:gap-32 w-max animate-scroll py-6">
                             
                             <!-- LIST 1 -->
                             <div class="flex items-center gap-4 group/item cursor-pointer opacity-50 hover:opacity-100 transition-all duration-500">
@@ -494,6 +509,60 @@
             setInterval(simulateRealTime, 2000);
         });
 
+        // --- MOBILE MENU LOGIC ---
+        const menuBtn = document.getElementById('mobile-menu-btn');
+        const menuOverlay = document.getElementById('mobile-menu-overlay');
+        const mobileLinks = document.querySelectorAll('.mobile-link');
+        let isMenuOpen = false;
+
+        if (menuBtn && menuOverlay) {
+            menuBtn.addEventListener('click', () => {
+                isMenuOpen = !isMenuOpen;
+                const icon = menuBtn.querySelector('i');
+                if (isMenuOpen) {
+                    menuOverlay.classList.remove('translate-x-full');
+                    icon.classList.remove('fa-bars');
+                    icon.classList.add('fa-xmark');
+                    document.body.style.overflow = 'hidden';
+                } else {
+                    menuOverlay.classList.add('translate-x-full');
+                    icon.classList.remove('fa-xmark');
+                    icon.classList.add('fa-bars');
+                    document.body.style.overflow = 'auto';
+                }
+            });
+
+            mobileLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    isMenuOpen = false;
+                    menuOverlay.classList.add('translate-x-full');
+                    const icon = menuBtn.querySelector('i');
+                    icon.classList.remove('fa-xmark');
+                    icon.classList.add('fa-bars');
+                    document.body.style.overflow = 'auto';
+                });
+            });
+        }
+
+        // --- SCROLL TO TOP LOGIC ---
+        const scrollBtn = document.createElement('button');
+        scrollBtn.innerHTML = '<i class="fa-solid fa-arrow-up"></i>';
+        scrollBtn.className = 'fixed bottom-8 right-8 z-30 bg-vibrantCyan text-white p-4 rounded-full shadow-lg opacity-0 transition-opacity duration-300 hover:bg-cyan-600 hidden md:block'; // Hidden on mobile initially, logic below checks scroll
+        // However, user wants mobile usability. Fixed bottom right is standard.
+        scrollBtn.className = 'fixed bottom-6 right-6 z-30 w-12 h-12 flex items-center justify-center bg-vibrantCyan text-white rounded-full shadow-lg opacity-0 pointer-events-none transition-all duration-300 hover:bg-cyan-600 hover:-translate-y-1';
+        document.body.appendChild(scrollBtn);
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                scrollBtn.classList.remove('opacity-0', 'pointer-events-none');
+            } else {
+                scrollBtn.classList.add('opacity-0', 'pointer-events-none');
+            }
+        });
+
+        scrollBtn.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
     </script>
 </body>
 </html>
