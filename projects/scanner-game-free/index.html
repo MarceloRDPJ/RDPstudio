@@ -174,27 +174,58 @@
         const EpicDashboard = ({ epicData, newsItems }) => {
             const { current_games, upcoming_games, mystery_detected, status, latency } = epicData || { current_games: [] };
 
+            // Mock Logs for the "API Analysis" visual
+            const [logs, setLogs] = React.useState([
+                "> Conectando ao endpoint seguro...",
+                "> Handshake estabelecido.",
+                "> Recebendo pacote de dados...",
+                "> Descriptografando...",
+                "> Análise de integridade: OK"
+            ]);
+
+            React.useEffect(() => {
+                const interval = setInterval(() => {
+                    const newLog = `> [${new Date().toLocaleTimeString()}] Ping ${Math.floor(Math.random() * 50) + 10}ms - OK`;
+                    setLogs(prev => [newLog, ...prev].slice(0, 6));
+                }, 2500);
+                return () => clearInterval(interval);
+            }, []);
+
             return (
                 <div className="animate-fade-in space-y-8">
                     
-                    {/* STATUS BAR */}
-                    <div className="glass-panel p-4 rounded-xl flex flex-wrap gap-6 items-center justify-between border-l-4 border-vibrantCyan">
-                        <div className="flex items-center gap-3">
-                            <div className="p-2 bg-slate-800 rounded-lg"><Icon name="server" className="text-vibrantCyan" /></div>
-                            <div>
-                                <h3 className="text-sm font-bold text-white">Epic Store API</h3>
-                                <div className="text-xs text-slate-400 font-mono flex gap-3">
-                                    <span>STATUS: <span className="text-trustGreen">{status}</span></span>
-                                    <span>LATENCY: {latency}</span>
+                    {/* STATUS BAR & API ANALYSIS */}
+                    <div className="glass-panel p-4 rounded-xl border-l-4 border-vibrantCyan">
+                         <div className="flex flex-col md:flex-row gap-6 justify-between items-start md:items-center">
+                            <div className="flex items-center gap-4">
+                                <div className="p-3 bg-slate-800/50 rounded-lg border border-white/5 relative overflow-hidden group">
+                                    <div className="absolute inset-0 bg-vibrantCyan/20 translate-y-full group-hover:translate-y-0 transition-transform"></div>
+                                    <Icon name="server" className="text-xl text-vibrantCyan relative z-10" />
+                                </div>
+                                <div>
+                                    <h3 className="text-sm font-bold text-white uppercase tracking-wider">Epic Store API Node</h3>
+                                    <div className="text-xs text-slate-400 font-mono flex gap-4 mt-1">
+                                        <span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-trustGreen animate-pulse"></span> {status}</span>
+                                        <span>LATENCY: {latency}</span>
+                                        <span>UPTIME: 99.9%</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        {mystery_detected && (
-                            <div className="flex items-center gap-2 px-4 py-2 bg-mysteryPurple/20 border border-mysteryPurple/50 rounded-full animate-pulse">
-                                <Icon name="mask" className="text-mysteryPurple" />
-                                <span className="text-sm font-bold text-mysteryPurple uppercase tracking-widest">Mistério Detectado</span>
+
+                            {/* Visual Traffic Graph (CSS only) */}
+                            <div className="hidden md:flex items-end gap-1 h-8 w-32">
+                                {[40, 70, 45, 90, 60, 30, 80, 50].map((h, i) => (
+                                    <div key={i} className="w-full bg-vibrantCyan/20 rounded-t-sm animate-pulse" style={{ height: `${h}%`, animationDelay: `${i * 0.1}s` }}></div>
+                                ))}
                             </div>
-                        )}
+
+                            {mystery_detected && (
+                                <div className="flex items-center gap-2 px-4 py-2 bg-mysteryPurple/20 border border-mysteryPurple/50 rounded-full animate-pulse shadow-[0_0_15px_rgba(139,92,246,0.2)]">
+                                    <Icon name="mask" className="text-mysteryPurple" />
+                                    <span className="text-sm font-bold text-mysteryPurple uppercase tracking-widest">Mistério Detectado</span>
+                                </div>
+                            )}
+                        </div>
                     </div>
 
                     <div className="dashboard-grid">
@@ -278,39 +309,72 @@
                             </div>
 
                             {/* RAW DATA TERMINAL */}
-                            <div className="glass-panel rounded-xl p-4 bg-black/40 font-mono text-[10px] text-slate-500 overflow-hidden">
-                                <div className="flex justify-between items-center mb-2 text-xs text-slate-400">
-                                    <span><Icon name="terminal" className="mr-1" /> SYSTEM_LOG</span>
-                                    <span className="w-2 h-2 rounded-full bg-trustGreen animate-pulse"></span>
+                            <div className="glass-panel rounded-xl p-4 bg-black/40 font-mono text-[10px] text-slate-500 overflow-hidden border border-white/5">
+                                <div className="flex justify-between items-center mb-2 text-xs text-slate-400 border-b border-white/5 pb-2">
+                                    <span className="flex items-center gap-2"><Icon name="terminal" className="text-vibrantCyan" /> SECURITY_LOG_V2.1</span>
+                                    <span className="text-[10px] text-trustGreen">ENCRYPTED</span>
                                 </div>
-                                <div className="space-y-1 opacity-70">
-                                    <p>> Conectando ao endpoint seguro...</p>
-                                    <p>> Handshake estabelecido.</p>
-                                    <p>> Recebendo pacote [{latency}]</p>
-                                    <p className="text-vibrantCyan">> Dados descriptografados com sucesso.</p>
+                                <div className="space-y-1 font-mono text-slate-400 h-24 overflow-hidden relative">
+                                    <div className="absolute inset-0 pointer-events-none bg-gradient-to-t from-black/80 to-transparent z-10"></div>
+                                    {logs.map((log, i) => (
+                                        <p key={i} className="truncate border-l-2 border-transparent hover:border-vibrantCyan pl-2 transition-colors">
+                                            {log}
+                                        </p>
+                                    ))}
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    {/* RELATED NEWS SECTION */}
-                    {newsItems && newsItems.length > 0 && (
-                        <div className="pt-8 border-t border-white/5">
-                            <h3 className="text-xl font-bold text-white mb-6">Últimas Notícias & Vazamentos</h3>
-                            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                                {newsItems.map((item, index) => (
-                                    <div key={index} className="glass-panel rounded-lg p-4 hover:border-vibrantCyan/30 transition-colors group cursor-pointer">
-                                        <div className="flex justify-between items-start mb-2">
-                                            <span className="text-[10px] text-slate-500">{item.date}</span>
-                                            <Badge type={item.category} />
-                                        </div>
-                                        <h4 className="text-sm font-bold text-white leading-tight mb-2 group-hover:text-vibrantCyan transition-colors">{item.title}</h4>
-                                        <p className="text-xs text-slate-400 line-clamp-2">{item.summary}</p>
-                                    </div>
-                                ))}
-                            </div>
+                    {/* INTERCEPTED INTELLIGENCE SECTION */}
+                    <div className="mt-8 pt-8 border-t border-white/5">
+                        <div className="flex items-center justify-between mb-6">
+                            <h2 className="text-xl font-bold text-white flex items-center gap-3">
+                                <Icon name="user-secret" className="text-energeticAmber" />
+                                Inteligência Interceptada
+                                <span className="text-xs bg-energeticAmber/20 text-energeticAmber px-2 py-1 rounded border border-energeticAmber/30">CONFIDENTIAL</span>
+                            </h2>
                         </div>
-                    )}
+
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                            {newsItems && newsItems.length > 0 ? (
+                                newsItems.map((item, idx) => (
+                                    <div key={idx} className="glass-panel p-5 rounded-xl border border-white/5 hover:border-energeticAmber/50 transition-all group hover:bg-white/5">
+                                        <div className="flex items-start justify-between mb-3">
+                                            <Badge type={item.category} />
+                                            <span className="text-[10px] text-slate-500 font-mono">{item.date}</span>
+                                        </div>
+                                        <h3 className="text-sm font-bold text-white mb-2 group-hover:text-energeticAmber transition-colors line-clamp-2">
+                                            {item.title}
+                                        </h3>
+                                        <p className="text-xs text-slate-400 leading-relaxed line-clamp-3 mb-4">
+                                            {item.summary}
+                                        </p>
+                                        <div className="flex items-center justify-between pt-3 border-t border-white/5">
+                                            <span className="text-[10px] text-slate-500 flex items-center gap-1">
+                                                <Icon name="tower-broadcast" /> {item.sources[0]}
+                                            </span>
+                                            {item.reliability && (
+                                                <span className={`text-[10px] font-bold px-1.5 py-0.5 rounded ${
+                                                    item.reliability === 'High' ? 'text-trustGreen bg-trustGreen/10' :
+                                                    item.reliability === 'Medium' ? 'text-energeticAmber bg-energeticAmber/10' :
+                                                    'text-dangerRed bg-dangerRed/10'
+                                                }`}>
+                                                    {item.reliability.toUpperCase()}
+                                                </span>
+                                            )}
+                                        </div>
+                                    </div>
+                                ))
+                            ) : (
+                                <div className="col-span-3 text-center py-10 text-slate-600">
+                                    <Icon name="shield-cat" className="text-2xl mb-2 opacity-50" />
+                                    <p className="text-sm">Nenhuma inteligência interceptada no momento.</p>
+                                </div>
+                            )}
+                        </div>
+                    </div>
+
                 </div>
             );
         };

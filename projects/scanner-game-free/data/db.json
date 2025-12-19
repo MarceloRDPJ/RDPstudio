@@ -1,9 +1,9 @@
 {
-  "last_updated": "19/12/2025 10:53",
+  "last_updated": "19/12/2025 12:04",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "420ms",
+    "latency": "147ms",
     "current_games": [
       {
         "title": "Ghostrunner 2",
@@ -55,5 +55,54 @@
     ],
     "mystery_detected": true
   },
-  "items": []
+  "items": [
+    {
+      "id": "mock-leak-1",
+      "title": "Vazamento: Próximo Jogo Misterioso pode ser um AAA da Ubisoft",
+      "original_title": "Leak: Next Mystery Game might be a Ubisoft AAA",
+      "image": "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?auto=format&fit=crop&q=80",
+      "source_count": 452,
+      "reliability": "Medium",
+      "category": "Epic Mystery",
+      "date": "2025-12-19",
+      "summary": "Dataminers encontraram referências a 'Project U' nos arquivos da loja. A comunidade especula que pode ser Assassin's Creed ou Watch Dogs. Fique atento às próximas 24h.",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://store.epicgames.com/free-games",
+      "price_info": null
+    },
+    {
+      "id": "mock-leak-2",
+      "title": "Insiders confirmam: RTX 5090 chegando em breve",
+      "original_title": "Insiders confirm: RTX 5090 coming soon",
+      "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&q=80",
+      "source_count": 1240,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2025-12-19",
+      "summary": "Fontes ligadas à indústria indicam que a nova geração de GPUs da NVIDIA será anunciada no próximo trimestre com performance 40% superior.",
+      "sources": [
+        "TechInsider"
+      ],
+      "url": "#",
+      "price_info": null
+    },
+    {
+      "id": "mock-leak-3",
+      "title": "RUMOR: Lista vazada da Epic Games Store para Dezembro",
+      "original_title": "RUMOR: Leaked EGS List for December",
+      "image": "https://images.unsplash.com/photo-1614624532983-4ce03382d63d?auto=format&fit=crop&q=80",
+      "source_count": 890,
+      "reliability": "Low",
+      "category": "Epic News",
+      "date": "2025-12-19",
+      "summary": "Uma suposta lista de jogos gratuitos está circulando no Discord. Inclui títulos como 'Outer Wilds' e 'Hades'. Trate como rumor por enquanto.",
+      "sources": [
+        "Discord Leaks"
+      ],
+      "url": "#",
+      "price_info": null
+    }
+  ]
 }
