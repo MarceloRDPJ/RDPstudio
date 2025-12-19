@@ -18,3 +18,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 - Resolved visibility issues with dark logos on dark backgrounds in the "Partners" section.
 - Fixed "About Me" page navigation menu jumping when switching active states.
+
+### Added
+- Implemented "Intercepted Intelligence" section in RDP Insider (Epic Dashboard) to display news and leaks.
+- Added "Mock Simulation Protocol" to `crawler.py` to ensure leak data is available even when external APIs fail.
+- Enhanced "System Log" in Epic Dashboard with visual security logs and simulated encryption output.
