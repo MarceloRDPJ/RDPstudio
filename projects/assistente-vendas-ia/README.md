@@ -1,52 +1,51 @@
-# Assistente de Vendas IA
+# Assistente de Vendas IA (Telegram)
 
-![Status](https://img.shields.io/badge/status-production-success.svg?style=flat-square)
-![AI](https://img.shields.io/badge/AI-Gemini_Pro-purple.svg?style=flat-square)
-![Platform](https://img.shields.io/badge/Telegram-Bot-blue.svg?style=flat-square)
-
-> **Agente de IA Autônomo para Vendas e Gestão.**
-> Atendimento 24/7, gestão de estoque e validação de pagamentos via visão computacional.
-
----
+> **Status:** Ativo
+> **Versão:** 1.2 (Neuro-Symbolic AI)
+> **Tecnologia:** Python 3.11, Google Gemini Pro, Supabase, Aiogram
 
 ## 📋 Visão Geral
 
-Desenvolvido para a **Lume Beauty**, este bot revoluciona o atendimento ao cliente no Telegram. Diferente de chatbots baseados em regras simples, ele utiliza **LLMs (Gemini 1.5 Pro)** para entender contexto, negociar e fechar vendas de forma natural.
+O **Assistente de Vendas IA** é um agente autônomo projetado para revolucionar o atendimento ao cliente via Telegram. Diferente de chatbots tradicionais baseados em árvores de decisão fixas (menus), este assistente utiliza um **LLM (Large Language Model)** para entender linguagem natural, intenção de compra e contexto.
 
-### Principais Funcionalidades
-- 💬 **NLP Avançado:** Conversação natural e contextual.
-- 📦 **Gestão de Estoque:** Consulta e baixa de produtos em tempo real (Supabase).
-- 👁️ **Visão Computacional:** Lê comprovantes de PIX enviados por foto para validar pagamentos.
-- 🚀 **Alta Disponibilidade:** Arquitetura Serverless.
+Ele atua como um vendedor sênior: verifica estoque em tempo real, calcula preços, negocia (dentro de limites) e até valida comprovantes de pagamento visualmente.
 
----
+## 🚀 Diferenciais Técnicos
 
-## 🏗️ Arquitetura
+### 🧠 Cérebro Cognitivo (Gemini Pro)
+O núcleo do bot utiliza a API do Google Gemini Pro configurada com um "System Prompt" robusto que define a personalidade da marca e as regras de negócio. Isso permite conversas fluídas como:
+> *Cliente:* "Vocês tem aquele batom vermelho da linha matte?"
+> *IA:* "Sim! Temos o 'Red Velvet' em estoque. Ele custa R$ 49,90. Quer ver uma foto?"
+
+### 👁️ Visão Computacional (Pagamentos)
+O bot aceita imagens enviadas pelo usuário. Se o cliente envia um "print" de um comprovante Pix, o agente:
+1.  Analisa a imagem usando OCR/Visão Computacional.
+2.  Extrai dados chaves (Valor, Data, Destinatário).
+3.  Compara com o valor do pedido em aberto.
+4.  Aprova ou rejeita a transação automaticamente.
+
+### 🗄️ Integração com Banco de Dados (Supabase)
+Todo o inventário e histórico de pedidos reside em um banco PostgreSQL (Supabase). O Python utiliza chamadas assíncronas (`asyncpg`) para garantir alta performance mesmo com múltiplos usuários simultâneos.
+
+## 🔄 Fluxo de Arquitetura
 
 ```mermaid
-sequenceDiagram
-    participant User as Usuário
-    participant TG as Telegram
-    participant Py as Backend Python
-    participant AI as Gemini Pro
-    participant DB as Supabase
-
-    User->>TG: Envia Mensagem
-    TG->>Py: Webhook Update
-    Py->>DB: Busca Contexto/Estoque
-    Py->>AI: Envia Prompt + Contexto
-    AI-->>Py: Resposta Gerada
-    Py->>TG: Envia Resposta
-    TG-->>User: Exibe Mensagem
+graph LR
+    U(Usuário) -->|Mensagem| T[Telegram API]
+    T -->|Webhook| P{Python Controller}
+    P <-->|NLP & Vision| G[Google Gemini API]
+    P <-->|Query Estoque| DB[(Supabase SQL)]
+    P -->|Resposta| T
 ```
 
 ## 🛠️ Stack Tecnológica
 
-- **Core:** Python 3.11, Aiogram
-- **AI Model:** Google Gemini 1.5 Pro
-- **Database:** Supabase (PostgreSQL + Vector)
-- **Deploy:** Render / Docker
+*   **Aiogram 3.x:** Framework assíncrono moderno para bots Telegram.
+*   **Google Generative AI SDK:** Interface com o modelo Gemini.
+*   **Supabase (PostgreSQL):** Persistência de dados e Vetor Store (para busca semântica de produtos).
+*   **Python Decouple:** Gestão segura de variáveis de ambiente.
 
 ---
+**Nota:** Este projeto demonstra a capacidade de integrar IA Generativa em processos de negócios críticos (Vendas e Finanças).
 
-**© 2025 RDP STUDIO.** Desenvolvido por Marcelo Rodrigues.
+**Desenvolvido por Marcelo Rodrigues (RDP Studio)**
