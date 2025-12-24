@@ -1,64 +1,304 @@
 {
-  "last_updated": "2025-12-23T12:44:20",
-  "display_date": "23/12/2025 12:44",
+  "last_updated": "2025-12-24T12:42:59",
+  "display_date": "24/12/2025 12:42",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "2457ms",
+    "latency": "611ms",
     "current_games": [
       {
-        "title": "Paradise Killer",
-        "description": "Ilha Paraíso, um mundo fora da realidade. Houve um assassinato que apenas a “maníaca por investigação” Lady Love Dies pode resolver. Reúna evidências e interrogue suspeitos nesta aventura em mundo aberto. Você pode acusar qualquer pessoa, mas terá que provar seu caso em julgamento para condenar.",
-        "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Dec22_giveaway_2560x1440_2560x1440-0165246ad3c9454e887f576036328add",
-        "url": "https://store.epicgames.com/p/mysterygame2025-6",
-        "price": "0",
-        "start_date": "2025-12-22T16:00:00.000Z",
-        "end_date": "2025-12-23T16:00:00.000Z"
-      }
-    ],
-    "upcoming_games": [
-      {
-        "title": "Mystery Game 7",
-        "description": "Jogo Misterioso 7",
-        "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Holiday25_FreeGames_Teaser_2560x1440_2560x1440-012542ce76be0f7521af765ba97d3453",
+        "title": "Bloodstained: Ritual of the Night",
+        "description": "Igavânia retorna!\n\nJogue como Miriam, uma órfã marcada pela maldição de um alquimista que lentamente cristaliza seu corpo. Para salvar a humanidade e a si mesma no processo, ela deve lutar pelo castelo e derrotar o invocador, Gebel.",
+        "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Dec23_giveaway_2560x14401_2560x1440-a65228ad80054bb1a716e87eaa2a10f9",
         "url": "https://store.epicgames.com/p/mysterygame2025-7",
         "price": "0",
         "start_date": "2025-12-23T16:00:00.000Z",
         "end_date": "2025-12-24T16:00:00.000Z"
       }
     ],
+    "upcoming_games": [
+      {
+        "title": "Mystery Game 8",
+        "description": "Jogo Misterioso 8",
+        "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Holiday25_FreeGames_Teaser_2560x1440_2560x1440-012542ce76be0f7521af765ba97d3453",
+        "url": "https://store.epicgames.com/p/mysterygame2025-8",
+        "price": "0",
+        "start_date": "2025-12-24T16:00:00.000Z",
+        "end_date": "2025-12-25T16:00:00.000Z"
+      }
+    ],
     "mystery_detected": true
   },
   "items": [
     {
-      "id": "https://store.epicgames.com/p/mysterygame2025-6",
-      "title": "GRÁTIS: Paradise Killer",
-      "original_title": "Paradise Killer",
-      "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Dec22_giveaway_2560x1440_2560x1440-0165246ad3c9454e887f576036328add",
+      "id": "https://store.epicgames.com/p/mysterygame2025-7",
+      "title": "GRÁTIS: Bloodstained: Ritual of the Night",
+      "original_title": "Bloodstained: Ritual of the Night",
+      "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Dec23_giveaway_2560x14401_2560x1440-a65228ad80054bb1a716e87eaa2a10f9",
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2025-12-23",
-      "summary": "Ilha Paraíso, um mundo fora da realidade. Houve um assassinato que apenas a “maníaca por investigação” Lady Love Dies pode resolver. Reúna evidências e interrogue suspeitos nesta aventura em mundo aberto. Você pode acusar qualquer pessoa, mas terá que provar seu caso em julgamento para condenar.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/mysterygame2025-6"
-    },
-    {
-      "id": "https://store.epicgames.com/p/mysterygame2025-7",
-      "title": "EM BREVE: Mystery Game 7",
-      "original_title": "Mystery Game 7",
-      "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Holiday25_FreeGames_Teaser_2560x1440_2560x1440-012542ce76be0f7521af765ba97d3453",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Release Date",
-      "date": "2025-12-23",
-      "summary": "Disponível gratuitamente a partir de 23/12. Jogo Misterioso 7",
+      "date": "2025-12-24",
+      "summary": "Igavânia retorna!\n\nJogue como Miriam, uma órfã marcada pela maldição de um alquimista que lentamente cristaliza seu corpo. Para salvar a humanidade e a si mesma no processo, ela deve lutar pelo castelo e derrotar o invocador, Gebel.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/mysterygame2025-7"
+    },
+    {
+      "id": "https://store.epicgames.com/p/mysterygame2025-8",
+      "title": "EM BREVE: Mystery Game 8",
+      "original_title": "Mystery Game 8",
+      "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Holiday25_FreeGames_Teaser_2560x1440_2560x1440-012542ce76be0f7521af765ba97d3453",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2025-12-24",
+      "summary": "Disponível gratuitamente a partir de 24/12. Jogo Misterioso 8",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/mysterygame2025-8"
+    },
+    {
+      "id": "https://www.eurogamer.net/in-2025-elden-ring-nightreign-was-my-playground-for-experimentation",
+      "title": "Em 2025, Elden Ring Nightreign era meu playground para experimentações",
+      "original_title": "In 2025, Elden Ring Nightreign was my playground for experimentation",
+      "image": "https://assetsio.gnwcdn.com/nightreign_NOFIMIK.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2025-12-24",
+      "summary": "Em maio, a FromSoftware saiu de sua zona de conforto e fez algo que nunca havia feito antes: lançou um jogo multiplayer. Claro, a série Dark Souls e Elden Ring apresentam a capacidade de convocar amigos e invadir inimigos, mas Nightre...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/in-2025-elden-ring-nightreign-was-my-playground-for-experimentation"
+    },
+    {
+      "id": "https://www.eurogamer.net/danganronpa-romps-to-10-million-sales",
+      "title": "A excêntrica série Battle Royale-meets-Ace Attorney Danganronpa chega a 10 milhões de vendas",
+      "original_title": "Eccentric Battle Royale-meets-Ace Attorney series Danganronpa romps to 10 million sales",
+      "image": "https://assetsio.gnwcdn.com/danganronpa-art.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2025-12-24",
+      "summary": "Danganronpa, uma série de jogos que nunca consigo soletrar com segurança, acaba de ultrapassar 10 milhões de vendas, anunciou o fabricante Spike Chunshoft. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/danganronpa-romps-to-10-million-sales"
+    },
+    {
+      "id": "https://www.eurogamer.net/todd-howard-stokes-fallout-5-fires-as-second-tv-season-begins",
+      "title": "“Há muito tempo que temos uma equipe completa em Fallout” – Todd Howard atiça fogos em Fallout 5 enquanto a segunda temporada de TV ganha vida",
+      "original_title": "\"We've had a full team on Fallout for a long time\" - Todd Howard stokes Fallout 5 fires as second TV season roars into life",
+      "image": "https://assetsio.gnwcdn.com/Todd-Howard-surrounded-by-sunglasses-wearing-ghouls-and-Walton-Goggins-The-Ghoul-from-Fallout-season-two.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2025-12-24",
+      "summary": "O chefe da Bethesda Game Studios, Todd Howard, alimentou o fogo do Fallout 5 ao dizer que a franquia é “aquela em que ainda estamos trabalhando mais, acima de tudo”. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/todd-howard-stokes-fallout-5-fires-as-second-tv-season-begins"
+    },
+    {
+      "id": "https://www.eurogamer.net/three-characters-a-life-changing-experience-and-the-mysterious-project-w-for-maxence-cazorla-expedition-33-is-more-than-just-a-game-of-the-year-contender",
+      "title": "Três personagens, uma experiência de mudança de vida e o misterioso ‘Projeto W’: para Maxence Cazorla, a Expedição 33 é mais do que apenas um candidato ao Jogo do Ano",
+      "original_title": "Three characters, a life-changing experience, and the mysterious 'Project W': for Maxence Cazorla, Expedition 33 is more than just a Game of the Year contender",
+      "image": "https://assetsio.gnwcdn.com/MAXENCE.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2025-12-24",
+      "summary": "Clair Obscur: A Expedição 33 esteve na boca de todos este ano. Vindo de um novo estúdio com apenas um número relativamente pequeno de desenvolvedores, em seu lançamento o jogo ganhou muitos elogios em toda a indústria. É justo dizer que é um título querido,...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/three-characters-a-life-changing-experience-and-the-mysterious-project-w-for-maxence-cazorla-expedition-33-is-more-than-just-a-game-of-the-year-contender"
+    },
+    {
+      "id": "https://www.techpowerup.com/344398/intel-envisions-16-compute-dies-and-24-hbm5-modules-in-a-single-package",
+      "title": "Intel prevê 16 matrizes de computação e 24 módulos HBM5 em um único pacote",
+      "original_title": "Intel Envisions 16 Compute Dies and 24 HBM5 Modules in a Single Package",
+      "image": "https://tpucdn.com/img/IBF6eCnC9BhaetTo_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2025-12-24",
+      "summary": "A Intel Foundry publicou um breve vídeo de demonstração de suas tecnologias avançadas de empacotamento, demonstrando o dimensionamento do silício além dos limites do retículo de 830 mm². De acordo com o vídeo, a interconexão Foveros 3D e EMIB-T da Intel pode escalar o silício para retificação de 12x...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/344398/intel-envisions-16-compute-dies-and-24-hbm5-modules-in-a-single-package"
+    },
+    {
+      "id": "https://www.techpowerup.com/344241/lifetime-access-to-microsoft-office-2021-and-windows-11-pro-for-usd-40",
+      "title": "Acesso vitalício ao Microsoft Office 2021 e Windows 11 Pro por US$ 40",
+      "original_title": "Lifetime Access to Microsoft Office 2021 and Windows 11 Pro for $40",
+      "image": "https://tpucdn.com/img/el2rxkQr7XEdqPrq_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2025-12-24",
+      "summary": "Um novo pacote de software que oferece licenças vitalícias do Microsoft Office Professional 2021 para Windows e Windows 11 Pro está agora disponível por um pagamento único de US$ 39,97. Para usuários que dependem fortemente dos ecossistemas da Microsoft para trabalho, estudo ou atividades pessoais...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/344241/lifetime-access-to-microsoft-office-2021-and-windows-11-pro-for-usd-40"
+    },
+    {
+      "id": "https://www.techpowerup.com/344395/intels-fab-52-is-bigger-than-tsmc-arizona-produces-more-than-40-000-wafers-per-month",
+      "title": "O Fab 52 da Intel é maior que o TSMC Arizona e produz mais de 40.000 wafers por mês",
+      "original_title": "Intel's Fab 52 is Bigger Than TSMC Arizona, Produces More Than 40,000 Wafers Per Month",
+      "image": "https://tpucdn.com/img/C5KE6a4uSZsYELGc_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2025-12-24",
+      "summary": "A Intel Foundry tem enorme capacidade nos Estados Unidos, com seu tamanho ultrapassando o campus da TSMC no Arizona em termos de capacidade de produção e espaço de construção. Uma equipe da CNBC visitou o Fab 52 da Intel no Arizona para explorar suas operações, descobrindo então...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/344395/intels-fab-52-is-bigger-than-tsmc-arizona-produces-more-than-40-000-wafers-per-month"
+    },
+    {
+      "id": "https://www.techpowerup.com/344388/cyberpunk-2-creative-director-denies-elevator-loading-theories-defends-move-to-ue5",
+      "title": "Diretor criativo de Cyberpunk 2 nega teorias de carregamento de elevador e defende mudança para UE5",
+      "original_title": "Cyberpunk 2 Creative Director Denies Elevator Loading Theories, Defends Move to UE5",
+      "image": "https://tpucdn.com/img/sfG2jl4S2IvQQBGy_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2025-12-24",
+      "summary": "O diretor criativo de Cyberpunk 2 desmascarou oficialmente a teoria de que as cenas de elevador no jogo Cyberpunk original existem para esconder cenas de carregamento. Em um post no Bluesky, Igor Sarzynski comentou que “os elevadores no Cyberpunk não são ‘inteligentes…",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/344388/cyberpunk-2-creative-director-denies-elevator-loading-theories-defends-move-to-ue5"
+    },
+    {
+      "id": "https://www.techpowerup.com/344387/call-of-duty-coming-to-nintendo-switch-2-in-a-few-months",
+      "title": "Call of Duty chegando ao Nintendo Switch 2 “dentro de alguns meses”",
+      "original_title": "Call of Duty Coming to Nintendo Switch 2 \"In a Few Months\"",
+      "image": "https://tpucdn.com/img/1Gx3qGv1QCOeB9yz_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2025-12-24",
+      "summary": "A Microsoft há muito tempo faz um discurso inflamado contra jogos exclusivos, prometendo anteriormente que a franquia Call of Duty, entre outras, estaria em breve disponível em múltiplas plataformas no primeiro dia, embora isso ainda não tenha se concretizado. Porém, de acordo com...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/344387/call-of-duty-coming-to-nintendo-switch-2-in-a-few-months"
+    },
+    {
+      "id": "https://www.techpowerup.com/344385/arch-linux-drops-support-for-nvidia-pascal-and-older-gpus",
+      "title": "Arch Linux descarta suporte para NVIDIA Pascal e GPUs mais antigas",
+      "original_title": "Arch Linux Drops Support for NVIDIA Pascal and Older GPUs",
+      "image": "https://tpucdn.com/img/CDpgqmqGx5PHpgbO_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2025-12-24",
+      "summary": "O Linux pode ser uma opção sólida para quem procura um sistema operacional que suporte hardware mais antigo, mas distribuições de ponta como o Arch Linux geralmente abandonam o suporte para hardware mais antigo mais cedo do que outras distribuições. Foi exatamente isso que aconteceu...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/344385/arch-linux-drops-support-for-nvidia-pascal-and-older-gpus"
+    },
+    {
+      "id": "https://www.techpowerup.com/344382/why-rockstar-never-gave-us-gta-tokyo",
+      "title": "Por que a Rockstar nunca nos deu “GTA: Tokyo”",
+      "original_title": "Why Rockstar Never Gave Us \"GTA: Tokyo\"",
+      "image": "https://tpucdn.com/img/vPNtpBFijk9txUJf_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2025-12-24",
+      "summary": "Grand Theft Auto VI está chegando, salvo quaisquer atrasos, como o mais recente capítulo da série de jogos baseado nos EUA, mas uma entrevista recente no GamesHub com o ex-diretor técnico da Rockstar, Obbe Vermeij, revelou que a série pode ter...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/344382/why-rockstar-never-gave-us-gta-tokyo"
+    },
+    {
+      "id": "https://www.eurogamer.net/merry-christmas-james-bond-game-007-first-light-has-been-delayed",
+      "title": "Feliz Natal, o jogo de James Bond 007 First Light foi adiado",
+      "original_title": "Merry Christmas, James Bond game 007 First Light has been delayed",
+      "image": "https://assetsio.gnwcdn.com/James-Bond-in-007-First-Light-wearing-sunglasses-in-a-sunny-resort.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2025-12-23",
+      "summary": "O promissor jogo de James Bond, 007 First Light, foi adiado. A desenvolvedora dinamarquesa IO Interactive anunciou a mudança na data de lançamento esta tarde, sinalizando uma mudança de dois meses para 27 de maio de 2026. First Light deveria ser lançado em março. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/merry-christmas-james-bond-game-007-first-light-has-been-delayed"
+    },
+    {
+      "id": "https://www.eurogamer.net/grand-theft-auto-tokyo-rio-moscow-istanbul-rockstar-had-ideas-for-them-all",
+      "title": "Grand Theft Auto Tóquio, Rio, Moscou, Istambul – a Rockstar aparentemente tinha ideias para todos eles",
+      "original_title": "Grand Theft Auto Tokyo, Rio, Moscow, Istanbul - Rockstar apparently had ideas for them all",
+      "image": "https://assetsio.gnwcdn.com/gta-tokyo-2.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2025-12-23",
+      "summary": "Um ex-membro importante da equipe de Grand Theft Auto disse que a Rockstar brincou com ideias para muitos cenários não americanos para a série, incluindo as cidades de Tóquio, Rio, Moscou e Istambul. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/grand-theft-auto-tokyo-rio-moscow-istanbul-rockstar-had-ideas-for-them-all"
+    },
+    {
+      "id": "https://www.eurogamer.net/ea-shareholders-approve-saudi-arabian-buyout-leaving-only-the-us-government-able-to-block-the-deal",
+      "title": "Os acionistas da EA aprovam a aquisição da Arábia Saudita, deixando apenas o governo dos EUA capaz de bloquear o negócio",
+      "original_title": "EA shareholders approve Saudi Arabian buyout, leaving only the US Government able to block the deal",
+      "image": "https://assetsio.gnwcdn.com/Apex-Legends-Season-26-Wildcard-mode-promo-art-stacked-legends.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2025-12-23",
+      "summary": "Os acionistas da EA aprovaram a proposta de aquisição da gigante dos videojogos por 55 mil milhões de dólares pela Arábia Saudita e empresas de capital privado, deixando apenas o governo dos EUA no caminho daquela que seria a maior aquisição corporativa de todos os tempos. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/ea-shareholders-approve-saudi-arabian-buyout-leaving-only-the-us-government-able-to-block-the-deal"
+    },
+    {
+      "id": "https://www.eurogamer.net/in-2025-blades-of-fire-and-hideo-kojima-showed-me-i-can-still-be-surprised-by-a-video-game-and-that-originality-is-essential",
+      "title": "Blades of Fire e Hideo Kojima me mostraram que ainda posso me surpreender com um videogame e que originalidade é essencial",
+      "original_title": "Blades of Fire and Hideo Kojima showed me I can still be surprised by a video game and that originality is essential",
+      "image": "https://assetsio.gnwcdn.com/TomO_2025_Gameofyear.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2025-12-23",
+      "summary": "Estou bastante confiante em minha capacidade de julgar videogames. Eu os toco (cada vez mais mal nos últimos anos!) Há quase 40 anos e escrevo sobre eles há mais de 20, então é raro que algo me surpreenda. Mas é exatamente isso que...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/in-2025-blades-of-fire-and-hideo-kojima-showed-me-i-can-still-be-surprised-by-a-video-game-and-that-originality-is-essential"
+    },
+    {
+      "id": "https://www.eurogamer.net/we-were-worried-hed-never-work-with-us-again-dispatch-creators-on-working-with-breaking-bad-star-aaron-paul-and-whether-hed-want-to-be-involved-again",
+      "title": "“Estávamos preocupados que ele nunca mais trabalhasse conosco” – criadores do Dispatch sobre como trabalhar com a estrela de Breaking Bad, Aaron Paul, e se ele gostaria de se envolver novamente",
+      "original_title": "\"We were worried he'd never work with us again\" - Dispatch creators on working with Breaking Bad star Aaron Paul, and whether he'd want to be involved again",
+      "image": "https://assetsio.gnwcdn.com/aaron-paul-dispatch-robert.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2025-12-23",
+      "summary": "Dois dos principais criadores do Dispatch acreditam que a estrela de Breaking Bad, Aaron Paul, não teria concordado em estar no jogo se percebesse o quanto isso realmente daria trabalho. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/we-were-worried-hed-never-work-with-us-again-dispatch-creators-on-working-with-breaking-bad-star-aaron-paul-and-whether-hed-want-to-be-involved-again"
     },
     {
       "id": "https://www.eurogamer.net/battlefield-6-ai-sticker-backlash",
@@ -76,171 +316,6 @@
       "url": "https://www.eurogamer.net/battlefield-6-ai-sticker-backlash"
     },
     {
-      "id": "https://www.eurogamer.net/games-of-2025-clair-obscur-expedition-33",
-      "title": "Em 2025, Clair Obscur provou que jogos menores de desenvolvedores apaixonados são o futuro que os jogadores desejam",
-      "original_title": "In 2025, Clair Obscur proved smaller-sized games from passionate developers are the future players want",
-      "image": "https://assetsio.gnwcdn.com/clair-obscur_E40remb.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2025-12-23",
-      "summary": "“Não há problema em fazer um jogo pequeno”, disse o diretor do Astro Bot, Nicolas Doucet, na GDC deste ano. Para muitos, Astro Bot foi o Jogo do Ano de 2024, um jogo que pode ter sido feito por um estúdio de propriedade do PlayStation, mas de acordo com Doucet foi baseado em AA-s inteligentes...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/games-of-2025-clair-obscur-expedition-33"
-    },
-    {
-      "id": "https://www.eurogamer.net/uniqlo-new-range-of-pokemon-t-shirts-for-30th-anniversary",
-      "title": "A Uniqlo está lançando uma nova linha de camisetas Pokémon em tons pastéis para o 30º aniversário do próximo ano",
-      "original_title": "Uniqlo's doing a new range of pastelly Pokémon T-shirts for next year's 30th anniversary",
-      "image": "https://assetsio.gnwcdn.com/uniqlo-pokemon.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2025-12-23",
-      "summary": "Você precisa de uma nova camiseta Pokémon? Não responda isso. Você poderia ser convencido a comprar uma nova camiseta Pokémon se uma boa aparecesse? Bem, preparem-se, porque a moderna empresa japonesa de roupas de rua Uniqlo anunciou uma nova coleção Pokémon...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/uniqlo-new-range-of-pokemon-t-shirts-for-30th-anniversary"
-    },
-    {
-      "id": "https://www.eurogamer.net/drop-everything-and-play-sektori",
-      "title": "Largue tudo e jogue Sektori",
-      "original_title": "Drop everything and play Sektori",
-      "image": "https://assetsio.gnwcdn.com/sektori-4.jpeg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2025-12-23",
-      "summary": "Às vezes você simplesmente sabe. Alguns segundos depois de Sektori, através de um tutorial sedutoramente vago e saindo do outro lado para sua cabine com ponta de flecha, você caiu na pequena zona de jogo inicial de êxtase reprimido, uma forma de diamante de refinamento e refração de kine...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/drop-everything-and-play-sektori"
-    },
-    {
-      "id": "https://www.eurogamer.net/vince-zampella-co-creator-of-call-of-duty-and-respawn-entertainment-has-died",
-      "title": "Vince Zampella, co-criador de Call of Duty e Respawn Entertainment, morreu",
-      "original_title": "Vince Zampella, co-creator of Call of Duty and Respawn Entertainment, has died",
-      "image": "https://assetsio.gnwcdn.com/vince-zampella-headshot.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2025-12-23",
-      "summary": "Vince Zampella, co-criador de Call of Duty e lendário chefe de estúdio, faleceu. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/vince-zampella-co-creator-of-call-of-duty-and-respawn-entertainment-has-died"
-    },
-    {
-      "id": "https://www.techpowerup.com/344358/thermaltake-launches-magcurve-360-ultra-argb-sync-aio-liquid-cooler",
-      "title": "(PR) Thermaltake lança refrigerador líquido MAGCurve 360 ​​Ultra ARGB Sync AIO",
-      "original_title": "(PR) Thermaltake Launches MAGCurve 360 Ultra ARGB Sync AIO Liquid Cooler",
-      "image": "https://tpucdn.com/img/HRb4QgHtXb9h8y8V_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2025-12-23",
-      "summary": "Thermaltake, marca líder de PC DIY para soluções de hardware premium, apresenta com orgulho o MAGCurve 360 ​​Ultra ARGB Sync AIO Liquid Cooler, uma solução de resfriamento com foco visual que combina personalização criativa de exibição com design térmico de alto desempenho...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/344358/thermaltake-launches-magcurve-360-ultra-argb-sync-aio-liquid-cooler"
-    },
-    {
-      "id": "https://www.techpowerup.com/344360/beelink-reveals-specs-and-pricing-for-the-me-pro-2-bay-nas",
-      "title": "Beelink revela especificações e preços do NAS ME Pro 2-Bay",
-      "original_title": "Beelink Reveals Specs and Pricing for the ME Pro 2-Bay NAS",
-      "image": "https://tpucdn.com/img/AhqU4e34S2s8yy7e_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2025-12-23",
-      "summary": "Na semana passada, a Beelink revelou um teaser para seus dispositivos ME Pro NAS e agora a empresa revelou o preço de seus dois primeiros modelos de 2 compartimentos, que vêm em um total de cinco SKUs diferentes. Todos os cinco SKUs são baseados em SoCs Intel Twin Lake, com os três...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/344360/beelink-reveals-specs-and-pricing-for-the-me-pro-2-bay-nas"
-    },
-    {
-      "id": "https://www.techpowerup.com/344241/lifetime-access-to-microsoft-office-2021-and-windows-11-pro-for-usd-40",
-      "title": "Acesso vitalício ao Microsoft Office 2021 e Windows 11 Pro por US$ 40",
-      "original_title": "Lifetime Access to Microsoft Office 2021 and Windows 11 Pro for $40",
-      "image": "https://tpucdn.com/img/el2rxkQr7XEdqPrq_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2025-12-23",
-      "summary": "Um novo pacote de software que oferece licenças vitalícias do Microsoft Office Professional 2021 para Windows e Windows 11 Pro está agora disponível por um pagamento único de US$ 39,97. Para usuários que dependem fortemente dos ecossistemas da Microsoft para trabalho, estudo ou atividades pessoais...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/344241/lifetime-access-to-microsoft-office-2021-and-windows-11-pro-for-usd-40"
-    },
-    {
-      "id": "https://www.techpowerup.com/344359/nvidia-puts-100-hour-monthly-limit-on-all-geforce-now-subscriptions",
-      "title": "NVIDIA impõe limite mensal de 100 horas em todas as assinaturas do GeForce NOW",
-      "original_title": "NVIDIA Puts 100-Hour Monthly Limit on All GeForce NOW Subscriptions",
-      "image": "https://tpucdn.com/img/ZPojNYSnepjYNrND_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2025-12-23",
-      "summary": "A NVIDIA anunciou que a partir de 1º de janeiro de 2026, cada assinatura de jogos em nuvem GeForce NOW será limitada a 100 horas de jogo por mês. A empresa está implementando sua promessa de longa duração revelada em 2024, com a opção de os usuários...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/344359/nvidia-puts-100-hour-monthly-limit-on-all-geforce-now-subscriptions"
-    },
-    {
-      "id": "https://www.techpowerup.com/344356/the-intellivision-sprint-retro-console-launches-today-in-europe",
-      "title": "(PR) A consola Intellivision Sprint Retro é lançada hoje na Europa",
-      "original_title": "(PR) The Intellivision Sprint Retro Console Launches Today in Europe",
-      "image": "https://tpucdn.com/img/3MelHXu0z7z5E9K3_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2025-12-23",
-      "summary": "Hoje, a PLAION REPLAI lança oficialmente o Intellivision Sprint em toda a Europa. Este renascimento premium e fielmente elaborado de um dos consoles domésticos mais intelectualmente ambiciosos dos jogos chega bem a tempo para o Natal. Criado em colaboração com...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/344356/the-intellivision-sprint-retro-console-launches-today-in-europe"
-    },
-    {
-      "id": "https://www.techpowerup.com/344354/lg-display-unveils-worlds-first-240hz-rgb-stripe-oled-panel",
-      "title": "(PR) LG Display lança o primeiro painel OLED com listras RGB de 240 Hz do mundo",
-      "original_title": "(PR) LG Display Unveils World's First 240Hz RGB Stripe OLED Panel",
-      "image": "https://tpucdn.com/img/1ekeGHi0MUpWoGiT_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2025-12-23",
-      "summary": "A LG Display, líder mundial em inovação em tecnologias de exibição, anunciou hoje que lançará o primeiro painel OLED 4K de 27 polegadas do mundo para monitores com estrutura de faixa RGB e taxa de atualização de 240 Hz na CES 2026, o maior evento de TI do mundo...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/344354/lg-display-unveils-worlds-first-240hz-rgb-stripe-oled-panel"
-    },
-    {
-      "id": "https://www.techpowerup.com/344353/flagship-intel-xeon-698x-granite-rapids-ws-sku-listed-at-usd-8-300",
-      "title": "SKU carro-chefe do Intel Xeon 698X “Granite Rapids-WS” listado por US$ 8.300",
-      "original_title": "Flagship Intel Xeon 698X \"Granite Rapids-WS\" SKU Listed at $8,300",
-      "image": "https://tpucdn.com/img/oYky1EKAEyucsleZ_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2025-12-23",
-      "summary": "A Intel está aparentemente se aproximando do lançamento dos processadores para estações de trabalho \"Granite Rapids-WS\", conforme as listagens mais recentes apareceram, encontradas por @momomo_us no X. As listagens mostram que a linha começa com uma CPU Xeon 634 básica com cache de 48M e rodando 2,7 GH...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/344353/flagship-intel-xeon-698x-granite-rapids-ws-sku-listed-at-usd-8-300"
-    },
-    {
       "id": "https://www.techpowerup.com/344352/system-integrators-start-offering-no-ram-pcs-amid-rising-memory-costs",
       "title": "Integradores de sistemas começam a oferecer PCs sem RAM em meio ao aumento dos custos de memória",
       "original_title": "System Integrators Start Offering No-RAM PCs Amid Rising Memory Costs",
@@ -256,109 +331,34 @@
       "url": "https://www.techpowerup.com/344352/system-integrators-start-offering-no-ram-pcs-amid-rising-memory-costs"
     },
     {
-      "id": "https://www.techpowerup.com/344348/windows-11-25h2-includes-a-faster-nvme-driver-needing-manual-installation",
-      "title": "Windows 11 25H2 inclui um driver NVMe mais rápido que precisa de instalação manual",
-      "original_title": "Windows 11 25H2 Includes a Faster NVMe Driver Needing Manual Installation",
-      "image": "https://tpucdn.com/img/Zd4F09vHcXr2Sw90_thm.jpg",
+      "id": "https://www.techpowerup.com/344378/amd-prepares-expo-v1-2-for-better-memory-oc-profiles",
+      "title": "AMD prepara EXPO v1.2 para melhores perfis de OC de memória",
+      "original_title": "AMD Prepares EXPO v1.2 for Better Memory OC Profiles",
+      "image": "https://tpucdn.com/img/b2JGQfsMZdNe1oA4_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2025-12-23",
-      "summary": "Embora o Windows conheça o protocolo de mídia de armazenamento NVMe desde o Windows 8.1, descobriu-se que o driver padrão da Microsoft para dispositivos NVMe, disk.sys, oferece desempenho abaixo do ideal. Este driver remonta a 2006 e faz parte do Microsoft'...",
+      "summary": "A tecnologia Extended Profiles for Overclocking (EXPO) da AMD está recebendo uma atualização com a versão 1.2. De acordo com o último HWiNFO v8.35-5890 Beta, esta ferramenta adicionou suporte para AMD EXPO 1.2, embora a AMD não tenha lançado oficialmente esta versão...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/344348/windows-11-25h2-includes-a-faster-nvme-driver-needing-manual-installation"
+      "url": "https://www.techpowerup.com/344378/amd-prepares-expo-v1-2-for-better-memory-oc-profiles"
     },
     {
-      "id": "https://www.techpowerup.com/344347/gigabyte-removes-controversial-leaking-thermal-gel-from-newer-gpus",
-      "title": "GIGABYTE remove controverso vazamento de gel térmico de GPUs mais recentes",
-      "original_title": "GIGABYTE Removes Controversial Leaking Thermal Gel from Newer GPUs",
-      "image": "https://tpucdn.com/img/Fe5g9ClIDuaClKIr_thm.jpg",
+      "id": "https://www.techpowerup.com/344375/amd-zen-6-skus-with-3d-v-cache-could-pack-up-to-288-mb-of-cache",
+      "title": "SKUs AMD “Zen 6” com 3D V-Cache podem conter até 288 MB de cache",
+      "original_title": "AMD \"Zen 6\" SKUs with 3D V-Cache Could Pack Up to 288 MB of Cache",
+      "image": "https://tpucdn.com/img/43XH6w7E0ZeTCTwD_thm.jpg",
       "source_count": 1,
       "reliability": "High",
-      "category": "Rumor",
+      "category": "Hardware",
       "date": "2025-12-23",
-      "summary": "A GIGABYTE atualizou seu site para a placa gráfica GeForce RTX 5070 Ti WINDFORCE OC V2 para refletir uma mudança no uso de seu polêmico gel térmico com vazamento. O site mais antigo, cortesia da UNIKO's Hardware, trazia informações sobre \"nível de servidor...",
+      "summary": "Espera-se que os próximos processadores clientes “Zen 6” da AMD continuem a tendência de oferecer SKUs opcionais com 3D V-Cache, semelhantes aos seus antecessores. No entanto, esses novos processadores podem apresentar capacidades de cache significativamente maiores em comparação com o cu...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/344347/gigabyte-removes-controversial-leaking-thermal-gel-from-newer-gpus"
-    },
-    {
-      "id": "https://www.eurogamer.net/cronos-the-new-dawn-easy-mode",
-      "title": "Cronos: The New Dawn é muito difícil para você? Um modo fácil está finalmente a caminho",
-      "original_title": "Cronos: The New Dawn too hard for you? An easy mode is finally on the way",
-      "image": "https://assetsio.gnwcdn.com/Cronos_-The-New-Dawn-_-Official-Gameplay-Trailer-_-DON'T-LET-THEM-MERGE-0-14-screenshot-(1).png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2025-12-22",
-      "summary": "O jogo de terror psicológico que viaja no tempo, Cronos: The New Dawn, está finalmente recebendo um modo de dificuldade adicional e mais fácil para pessoas que desejam menos desafios de jogo. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/cronos-the-new-dawn-easy-mode"
-    },
-    {
-      "id": "https://www.eurogamer.net/is-it-okay-for-video-games-to-be-this-good-developers-tell-us-their-favourite-games-of-the-year",
-      "title": "“É normal que os videogames sejam tão bons?” - os desenvolvedores nos contam seus jogos favoritos do ano",
-      "original_title": "\"Is it okay for video games to be this good?\" - developers tell us their favourite games of the year",
-      "image": "https://assetsio.gnwcdn.com/dev-pics-header-logo.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2025-12-22",
-      "summary": "Antes de dizermos o que pensamos e antes de revelarmos o que vocês pensam, pensamos em fazer algo um pouco diferente como parte de nossas habituais comemorações de jogos do ano de fim de ano. O que, nos perguntamos, fazem as pessoas que realmente fazem os jogos...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/is-it-okay-for-video-games-to-be-this-good-developers-tell-us-their-favourite-games-of-the-year"
-    },
-    {
-      "id": "https://www.eurogamer.net/clair-obscurs-gustave-motion-performer-argues-game-awards-should-have-a-best-character-category-rather-than-isolating-a-single-performer-and-potentially-leaving-others-invisible",
-      "title": "O artista de movimento Gustave de Clair Obscur argumenta que os prêmios de jogos deveriam ter uma categoria de Melhor Personagem, em vez de \"isolar um único artista e potencialmente deixar outros invisíveis\"",
-      "original_title": "Clair Obscur's Gustave motion performer argues game awards should have a Best Character category, rather than \"isolating a single performer and potentially leaving others invisible\"",
-      "image": "https://assetsio.gnwcdn.com/Actor-Macence-Cazorla-overlaid-on-an-image-of-Gustave-in-Clair-Obscur_kfhPUdE.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2025-12-22",
-      "summary": "Desde o lançamento de Clair Obscur: Expedition 33, tem havido muita discussão sobre o desempenho do jogo. Embora todos sejam exemplares e tenham visto nomes como Jennifer English e Ben Starr receberem indicações para Melhor Artista no The Game Awa deste ano...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/clair-obscurs-gustave-motion-performer-argues-game-awards-should-have-a-best-character-category-rather-than-isolating-a-single-performer-and-potentially-leaving-others-invisible"
-    },
-    {
-      "id": "https://www.eurogamer.net/kotor-2-switch-lawsuit-expert-argued-fan-made-mod-entire-dlc-was-based-on-had-no-economic-value",
-      "title": "O especialista no processo do KOTOR 2 Switch argumentou que o mod feito por um fã no qual todo o DLC foi baseado não tinha “nenhum valor econômico”",
-      "original_title": "Expert in KOTOR 2 Switch lawsuit argued that the fan-made mod entire DLC was based on had \"no economic value\"",
-      "image": "https://assetsio.gnwcdn.com/kotor2.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2025-12-22",
-      "summary": "Novos detalhes foram revelados sobre o processo de propaganda falsa de Knights of the Old Republic 2 para consoles Switch. Isso inclui um argumento apresentado por um especialista trazido pela Aspyr, que afirmou que o mod Restored Content feito por um fã é o desaparecido...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/kotor-2-switch-lawsuit-expert-argued-fan-made-mod-entire-dlc-was-based-on-had-no-economic-value"
-    },
-    {
-      "id": "https://www.eurogamer.net/passionate-response-to-tomb-raider-2013s-switch-port-could-mean-rise-and-shadow-also-come-to-nintendos-consoles",
-      "title": "“Resposta apaixonada” à porta Switch de Tomb Raider 2013 pode significar que Rise and Shadow também chegará aos consoles da Nintendo",
-      "original_title": "\"Passionate response\" to Tomb Raider 2013's Switch port could mean Rise and Shadow also come to Nintendo's consoles",
-      "image": "https://assetsio.gnwcdn.com/Lara-and-Jonah-in-Shadow-of-the-Tomb-Raider.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2025-12-22",
-      "summary": "O Tomb Raider 2013 reiniciado fez sua estreia no Switch há apenas algumas semanas e, graças à “resposta apaixonada” da comunidade, o desenvolvedor de porte Aspyr pode agora considerar trazer as duas entradas finais da trilogia também para a plataforma da Nintendo…",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/passionate-response-to-tomb-raider-2013s-switch-port-could-mean-rise-and-shadow-also-come-to-nintendos-consoles"
+      "url": "https://www.techpowerup.com/344375/amd-zen-6-skus-with-3d-v-cache-could-pack-up-to-288-mb-of-cache"
     }
   ]
 }
