@@ -1,64 +1,139 @@
 {
-  "last_updated": "2025-12-25T12:41:52",
-  "display_date": "25/12/2025 12:41",
+  "last_updated": "2025-12-26T12:42:26",
+  "display_date": "26/12/2025 12:42",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "538ms",
+    "latency": "482ms",
     "current_games": [
       {
-        "title": "The Callisto Protocol",
-        "description": "Sobreviva para escapar dos horrores de Calisto. Usando uma mistura única de tiro e combate corpo a corpo, os jogadores precisarão combater criaturas em rápida evolução enquanto procuram para desbloquear novas armas e equipamentos para escapar da crescente ameaça da Lua Morta de Júpiter.",
-        "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Dec24_giveaway_2560x1440_2560x1440-c86b6fef71f542ec96a6b712a2a85c1c",
-        "url": "https://store.epicgames.com/p/mysterygame2025-8",
-        "price": "0",
-        "start_date": "2025-12-24T16:00:00.000Z",
-        "end_date": "2025-12-25T16:00:00.000Z"
-      }
-    ],
-    "upcoming_games": [
-      {
-        "title": "Mystery Game 9",
-        "description": "Jogo Misterioso 9",
-        "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Holiday25_FreeGames_Teaser_2560x1440_2560x1440-012542ce76be0f7521af765ba97d3453",
+        "title": "Disco Elysium - The Final Cut",
+        "description": "Disco Elysium - The Final Cut é um RPG inovador. Você é um detetive com um sistema de habilidades único à sua disposição. Interrogue personagens inesquecíveis, desvende assassinatos ou aceite subornos. Torne-se um herói ou um desastre absoluto de um ser humano.",
+        "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Dec25_giveaway_2560x1440_2560x1440-58d80c45b740479dbfa8abe327255bc8",
         "url": "https://store.epicgames.com/p/mysterygame2025-9",
         "price": "0",
         "start_date": "2025-12-25T16:00:00.000Z",
         "end_date": "2025-12-26T16:00:00.000Z"
       }
     ],
+    "upcoming_games": [
+      {
+        "title": "Mystery Game 10",
+        "description": "Jogo Mistério 10",
+        "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Holiday25_FreeGames_Teaser_2560x1440_2560x1440-012542ce76be0f7521af765ba97d3453",
+        "url": "https://store.epicgames.com/p/mysterygame2025-10",
+        "price": "0",
+        "start_date": "2025-12-26T16:00:00.000Z",
+        "end_date": "2025-12-27T16:00:00.000Z"
+      }
+    ],
     "mystery_detected": true
   },
   "items": [
     {
-      "id": "https://store.epicgames.com/p/mysterygame2025-8",
-      "title": "GRÁTIS: The Callisto Protocol",
-      "original_title": "The Callisto Protocol",
-      "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Dec24_giveaway_2560x1440_2560x1440-c86b6fef71f542ec96a6b712a2a85c1c",
+      "id": "https://store.epicgames.com/p/mysterygame2025-9",
+      "title": "GRÁTIS: Disco Elysium - The Final Cut",
+      "original_title": "Disco Elysium - The Final Cut",
+      "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Dec25_giveaway_2560x1440_2560x1440-58d80c45b740479dbfa8abe327255bc8",
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2025-12-25",
-      "summary": "Sobreviva para escapar dos horrores de Calisto. Usando uma mistura única de tiro e combate corpo a corpo, os jogadores precisarão combater criaturas em rápida evolução enquanto procuram para desbloquear novas armas e equipamentos para escapar da crescente ameaça da Lua Morta de Júpiter.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/mysterygame2025-8"
-    },
-    {
-      "id": "https://store.epicgames.com/p/mysterygame2025-9",
-      "title": "EM BREVE: Mystery Game 9",
-      "original_title": "Mystery Game 9",
-      "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Holiday25_FreeGames_Teaser_2560x1440_2560x1440-012542ce76be0f7521af765ba97d3453",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Release Date",
-      "date": "2025-12-25",
-      "summary": "Disponível gratuitamente a partir de 25/12. Jogo Misterioso 9",
+      "date": "2025-12-26",
+      "summary": "Disco Elysium - The Final Cut é um RPG inovador. Você é um detetive com um sistema de habilidades único à sua disposição. Interrogue personagens inesquecíveis, desvende assassinatos ou aceite subornos. Torne-se um herói ou um desastre absoluto de um ser humano.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/mysterygame2025-9"
+    },
+    {
+      "id": "https://store.epicgames.com/p/mysterygame2025-10",
+      "title": "EM BREVE: Mystery Game 10",
+      "original_title": "Mystery Game 10",
+      "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Holiday25_FreeGames_Teaser_2560x1440_2560x1440-012542ce76be0f7521af765ba97d3453",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2025-12-26",
+      "summary": "Disponível gratuitamente a partir de 26/12. Jogo Mistério 10",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/mysterygame2025-10"
+    },
+    {
+      "id": "https://www.eurogamer.net/in-2025-winter-burrow-showed-how-a-little-kindness-goes-a-long-way",
+      "title": "Em 2025, Winter Burrow mostrou como um pouco de gentileza ajuda muito",
+      "original_title": "In 2025, Winter Burrow showed how a little kindness goes a long way",
+      "image": "https://assetsio.gnwcdn.com/winter-burrow_PFDTmok.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2025-12-26",
+      "summary": "Em um mundo barulhento, onde todos lutam para serem ouvidos, é fácil esquecer que os momentos tranquilos e menores de gentileza têm mais poder. Muitas vezes é fácil pensar que guardar segredo é a maneira mais fácil de lidar com as coisas, o que...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/in-2025-winter-burrow-showed-how-a-little-kindness-goes-a-long-way"
+    },
+    {
+      "id": "https://www.techpowerup.com/344435/amd-ryzen-9-9950x3d2-and-ryzen-7-9850x3d-are-real-coming-this-ces",
+      "title": "AMD Ryzen 9 9950X3D2 e Ryzen 7 9850X3D são reais, vindo nesta CES?",
+      "original_title": "AMD Ryzen 9 9950X3D2 and Ryzen 7 9850X3D are Real, Coming this CES?",
+      "image": "https://tpucdn.com/img/v0qpnpaG4hVcpnMT_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2025-12-26",
+      "summary": "A AMD está se preparando para atualizar sua linha de processadores para desktop “Zen 5” da série Ryzen 9000 com dois chips de última geração voltados para jogadores e entusiastas de PC, o Ryzen 7 9850X3D de 8 núcleos e o Ryzen 9 9950X3D2 de 16 núcleos. O 9850X3D é um 9800X3D com aumento de velocidade, enquanto ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/344435/amd-ryzen-9-9950x3d2-and-ryzen-7-9850x3d-are-real-coming-this-ces"
+    },
+    {
+      "id": "https://www.techpowerup.com/344434/sapphire-intros-nitro-pantom-link-radeon-rx-9070-xt-and-x870e-socket-am5-motherboard",
+      "title": "Sapphire apresenta placa-mãe NITRO + Pantom Link Radeon RX 9070 XT e X870E Socket AM5",
+      "original_title": "Sapphire Intros NITRO+ Pantom Link Radeon RX 9070 XT and X870E Socket AM5 Motherboard",
+      "image": "https://tpucdn.com/img/G9W6hnQhpGWXXQLw_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2025-12-26",
+      "summary": "A Sapphire lançou sua principal placa gráfica e placa-mãe com tecnologia discreta de fornecimento de energia PhantomLink. A tecnologia vê um slot de fornecimento de energia GC-HPWR semelhante ao ASUS BTF localizado ao longo do plano do slot PCI-Express 5.0 x16 principal, que fornece...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/344434/sapphire-intros-nitro-pantom-link-radeon-rx-9070-xt-and-x870e-socket-am5-motherboard"
+    },
+    {
+      "id": "https://www.techpowerup.com/344433/mediatek-and-denso-collaborate-on-automotive-socs-for-adas",
+      "title": "(PR) MediaTek e DENSO colaboram em SoCs automotivos para ADAS",
+      "original_title": "(PR) MediaTek and DENSO Collaborate on Automotive SoCs for ADAS",
+      "image": "https://tpucdn.com/img/phAWzhp45yjqYHKt_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2025-12-26",
+      "summary": "A MediaTek, líder global em soluções inovadoras de semicondutores, anunciou hoje que está trabalhando em estreita colaboração com a DENSO, um dos principais fornecedores mundiais de tecnologia automotiva, para desenvolver uma solução automotiva personalizada de System-on-Chip (SoC) sob medida ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/344433/mediatek-and-denso-collaborate-on-automotive-socs-for-adas"
+    },
+    {
+      "id": "https://www.techpowerup.com/344432/lg-unveils-ultragear-evo-ai-series-gaming-monitors-with-in-built-ai-upscaling",
+      "title": "LG lança monitores de jogos da série UltraGear EVO AI com upscaling de IA integrado",
+      "original_title": "LG Unveils UltraGear EVO AI Series Gaming Monitors with In-built AI Upscaling",
+      "image": "https://tpucdn.com/img/bZlXiLwKCIFKropU_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2025-12-26",
+      "summary": "A LG anunciou a linha UltraGear EVO de monitores para PC para jogos do segmento entusiasta. A série inclui três modelos, incluindo dois ultra-amplos e um monitor de proporção convencional. Liderando o grupo está o UltraGear EVO 52G930B, um gigantesco processador de 52 polegadas...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/344432/lg-unveils-ultragear-evo-ai-series-gaming-monitors-with-in-built-ai-upscaling"
     },
     {
       "id": "https://www.eurogamer.net/banjo-kazooie-freezeezy-peak-greatest-christmas-level-rare",
@@ -69,7 +144,7 @@
       "reliability": "High",
       "category": "News",
       "date": "2025-12-25",
-      "summary": "Amamos um bioma em videogames. Até a palavra é uma que associo inerentemente aos videogames, apesar de suas origens como uma terminologia geográfica adequada para adultos. Dentro desse panteão temático gloriosamente exagerado… existe alguma coisa...",
+      "summary": "Amamos um bioma em videogames. Até mesmo a palavra é uma que associo inerentemente aos videogames, apesar de suas origens como uma terminologia geográfica adequada para adultos. Dentro desse panteão temático gloriosamente exagerado… existe alguma coisa...",
       "sources": [
         "Eurogamer"
       ],
@@ -89,6 +164,51 @@
         "Eurogamer"
       ],
       "url": "https://www.eurogamer.net/what-weve-been-playing-christmas-day-edition-hope-i-dont-disgrace-myself"
+    },
+    {
+      "id": "https://www.techpowerup.com/344428/framework-announces-another-dram-price-hike-memory-costs-usd-10-per-gb-of-capacity",
+      "title": "Framework anuncia outro aumento no preço da DRAM, a memória custa US$ 10 por GB de capacidade",
+      "original_title": "Framework Announces Another DRAM Price Hike, Memory Costs $10 per GB of Capacity",
+      "image": "https://tpucdn.com/img/Fs0LogTNT97yhlkb_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2025-12-25",
+      "summary": "Framework atualizou sua postagem original no blog sobre aumento de preços de DRAM em 24 de dezembro de 2025, explicando que a empresa deve responder à volatilidade de preços que seus fornecedores estão enfrentando. Inicialmente, a Framework anunciou um aumento de 50% no preço de sua memória DDR5...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/344428/framework-announces-another-dram-price-hike-memory-costs-usd-10-per-gb-of-capacity"
+    },
+    {
+      "id": "https://www.techpowerup.com/344425/nuphy-launches-node-100-low-profile-and-full-height-retro-mechanical-keyboard",
+      "title": "NuPhy lança teclado mecânico retrô Node 100 de baixo perfil e altura total",
+      "original_title": "NuPhy Launches Node 100 Low-Profile and Full-Height Retro Mechanical Keyboard",
+      "image": "https://tpucdn.com/img/rVHSgDrQRj0p87P8_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2025-12-25",
+      "summary": "A NuPhy lançou no início deste ano o Node 75, um teclado mecânico 75% sem fio com um design retrô inspirado no Braun T3, e agora trouxe essa linguagem de design retrô para um layout 1800, o que significa que você obtém um teclado com um teclado numérico de tamanho normal...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/344425/nuphy-launches-node-100-low-profile-and-full-height-retro-mechanical-keyboard"
+    },
+    {
+      "id": "https://www.techpowerup.com/344418/microsofts-hardware-accelerated-bitlocker-brings-massive-performance-gains",
+      "title": "O BitLocker acelerado por hardware da Microsoft traz enormes ganhos de desempenho",
+      "original_title": "Microsoft's Hardware-Accelerated BitLocker Brings Massive Performance Gains",
+      "image": "https://tpucdn.com/img/oFmd1b1L5mjyHbHO_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2025-12-25",
+      "summary": "A Microsoft revelou um novo sistema de criptografia BitLocker acelerado por hardware para Windows 11, que muda as operações criptográficas de software para unidades aceleradoras dedicadas integradas em futuras microarquiteturas de CPU. Historicamente, baseado em software...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/344418/microsofts-hardware-accelerated-bitlocker-brings-massive-performance-gains"
     },
     {
       "id": "https://www.eurogamer.net/eurogamers-alternate-game-awards-2025",
@@ -122,7 +242,7 @@
     },
     {
       "id": "https://www.eurogamer.net/in-2025-elden-ring-nightreign-was-my-playground-for-experimentation",
-      "title": "Em 2025, Elden Ring Nightreign era meu playground para experimentações",
+      "title": "Em 2025, Elden Ring Nightreign era meu playground para experimentação",
       "original_title": "In 2025, Elden Ring Nightreign was my playground for experimentation",
       "image": "https://assetsio.gnwcdn.com/nightreign_NOFIMIK.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
@@ -226,111 +346,6 @@
       "url": "https://www.techpowerup.com/344241/lifetime-access-to-microsoft-office-2021-and-windows-11-pro-for-usd-40"
     },
     {
-      "id": "https://www.techpowerup.com/344401/nvidia-tested-intels-18a-node-but-did-not-commit-to-intel-foundry",
-      "title": "NVIDIA testou o nó 18A da Intel, mas não se comprometeu com a Intel Foundry",
-      "original_title": "NVIDIA Tested Intel's 18A Node but Did Not Commit to Intel Foundry",
-      "image": "https://tpucdn.com/img/hDBurpKtYwyg1jun_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2025-12-24",
-      "summary": "De acordo com um relatório da Reuters, a NVIDIA explorou o uso do nó 18A da Intel Foundry, mas não iniciou a produção em massa. A Reuters afirma: \"A NVIDIA testou recentemente se fabricaria seus chips usando o processo de produção conhecido da Intel...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/344401/nvidia-tested-intels-18a-node-but-did-not-commit-to-intel-foundry"
-    },
-    {
-      "id": "https://www.techpowerup.com/344400/msi-launches-all-new-digime-with-voicemod-integration",
-      "title": "(PR) MSI lança novo DigiME com integração Voicemod",
-      "original_title": "(PR) MSI Launches All-New DigiME with Voicemod Integration",
-      "image": "https://tpucdn.com/img/0ByJ8VRzeB4RMso5_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2025-12-24",
-      "summary": "A MSI orgulhosamente anuncia uma grande reformulação em sua plataforma virtual de transmissão ao vivo, DigiME. A nova versão apresenta UI/UX e fluxo de trabalho totalmente otimizados, juntamente com a integração oficial do Voicemod, o principal software de transformação de voz em tempo real do mundo.",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/344400/msi-launches-all-new-digime-with-voicemod-integration"
-    },
-    {
-      "id": "https://www.techpowerup.com/344398/intel-envisions-16-compute-dies-and-24-hbm5-modules-in-a-single-package",
-      "title": "Intel prevê 16 matrizes de computação e 24 módulos HBM5 em um único pacote",
-      "original_title": "Intel Envisions 16 Compute Dies and 24 HBM5 Modules in a Single Package",
-      "image": "https://tpucdn.com/img/IBF6eCnC9BhaetTo_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2025-12-24",
-      "summary": "A Intel Foundry publicou um breve vídeo de demonstração de suas tecnologias avançadas de empacotamento, demonstrando o dimensionamento do silício além dos limites do retículo de 830 mm². De acordo com o vídeo, a interconexão Foveros 3D e EMIB-T da Intel pode escalar o silício para retificação de 12x...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/344398/intel-envisions-16-compute-dies-and-24-hbm5-modules-in-a-single-package"
-    },
-    {
-      "id": "https://www.techpowerup.com/344395/intels-fab-52-is-bigger-than-tsmc-arizona-produces-more-than-40-000-wafers-per-month",
-      "title": "O Fab 52 da Intel é maior que o TSMC Arizona e produz mais de 40.000 wafers por mês",
-      "original_title": "Intel's Fab 52 is Bigger Than TSMC Arizona, Produces More Than 40,000 Wafers Per Month",
-      "image": "https://tpucdn.com/img/C5KE6a4uSZsYELGc_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2025-12-24",
-      "summary": "A Intel Foundry tem enorme capacidade nos Estados Unidos, com seu tamanho ultrapassando o campus da TSMC no Arizona em termos de capacidade de produção e espaço de construção. Uma equipe da CNBC visitou o Fab 52 da Intel no Arizona para explorar suas operações, descobrindo então...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/344395/intels-fab-52-is-bigger-than-tsmc-arizona-produces-more-than-40-000-wafers-per-month"
-    },
-    {
-      "id": "https://www.techpowerup.com/344388/cyberpunk-2-creative-director-denies-elevator-loading-theories-defends-move-to-ue5",
-      "title": "Diretor criativo de Cyberpunk 2 nega teorias de carregamento de elevador e defende mudança para UE5",
-      "original_title": "Cyberpunk 2 Creative Director Denies Elevator Loading Theories, Defends Move to UE5",
-      "image": "https://tpucdn.com/img/sfG2jl4S2IvQQBGy_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2025-12-24",
-      "summary": "O diretor criativo de Cyberpunk 2 desmascarou oficialmente a teoria de que as cenas de elevador no jogo Cyberpunk original existem para esconder cenas de carregamento. Em um post no Bluesky, Igor Sarzynski comentou que “os elevadores no Cyberpunk não são ‘inteligentes…",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/344388/cyberpunk-2-creative-director-denies-elevator-loading-theories-defends-move-to-ue5"
-    },
-    {
-      "id": "https://www.techpowerup.com/344387/call-of-duty-coming-to-nintendo-switch-2-in-a-few-months",
-      "title": "Call of Duty chegando ao Nintendo Switch 2 “dentro de alguns meses”",
-      "original_title": "Call of Duty Coming to Nintendo Switch 2 \"In a Few Months\"",
-      "image": "https://tpucdn.com/img/1Gx3qGv1QCOeB9yz_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2025-12-24",
-      "summary": "A Microsoft há muito tempo faz um discurso inflamado contra jogos exclusivos, prometendo anteriormente que a franquia Call of Duty, entre outras, estaria em breve disponível em múltiplas plataformas no primeiro dia, embora isso ainda não tenha se concretizado. Porém, de acordo com...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/344387/call-of-duty-coming-to-nintendo-switch-2-in-a-few-months"
-    },
-    {
-      "id": "https://www.techpowerup.com/344385/arch-linux-drops-support-for-nvidia-pascal-and-older-gpus",
-      "title": "Arch Linux descarta suporte para NVIDIA Pascal e GPUs mais antigas",
-      "original_title": "Arch Linux Drops Support for NVIDIA Pascal and Older GPUs",
-      "image": "https://tpucdn.com/img/CDpgqmqGx5PHpgbO_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2025-12-24",
-      "summary": "O Linux pode ser uma opção sólida para quem procura um sistema operacional que suporte hardware mais antigo, mas distribuições de ponta como o Arch Linux geralmente abandonam o suporte para hardware mais antigo mais cedo do que outras distribuições. Foi exatamente isso que aconteceu...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/344385/arch-linux-drops-support-for-nvidia-pascal-and-older-gpus"
-    },
-    {
       "id": "https://www.eurogamer.net/merry-christmas-james-bond-game-007-first-light-has-been-delayed",
       "title": "Feliz Natal, o jogo de James Bond 007 First Light foi adiado",
       "original_title": "Merry Christmas, James Bond game 007 First Light has been delayed",
@@ -344,21 +359,6 @@
         "Eurogamer"
       ],
       "url": "https://www.eurogamer.net/merry-christmas-james-bond-game-007-first-light-has-been-delayed"
-    },
-    {
-      "id": "https://www.eurogamer.net/grand-theft-auto-tokyo-rio-moscow-istanbul-rockstar-had-ideas-for-them-all",
-      "title": "Grand Theft Auto Tóquio, Rio, Moscou, Istambul – a Rockstar aparentemente tinha ideias para todos eles",
-      "original_title": "Grand Theft Auto Tokyo, Rio, Moscow, Istanbul - Rockstar apparently had ideas for them all",
-      "image": "https://assetsio.gnwcdn.com/gta-tokyo-2.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2025-12-23",
-      "summary": "Um ex-membro importante da equipe de Grand Theft Auto disse que a Rockstar brincou com ideias para muitos cenários não americanos para a série, incluindo as cidades de Tóquio, Rio, Moscou e Istambul. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/grand-theft-auto-tokyo-rio-moscow-istanbul-rockstar-had-ideas-for-them-all"
     }
   ]
 }
