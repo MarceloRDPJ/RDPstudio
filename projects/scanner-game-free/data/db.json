@@ -1,19 +1,19 @@
 {
-  "last_updated": "2025-12-31T12:43:13",
-  "display_date": "31/12/2025 12:43",
+  "last_updated": "2026-01-01T12:42:42",
+  "display_date": "01/01/2026 12:42",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "208ms",
+    "latency": "115ms",
     "current_games": [
       {
-        "title": "Trine Classic Collection",
-        "description": "Coleção Trine Clássica",
-        "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Dec30_giveaway_2560x1440_2560x1440-a3a3c03556904202b2127565527e967f",
-        "url": "https://store.epicgames.com/p/mysterygame2025-14",
+        "title": "Chivalry 2",
+        "description": "Chivalry 2 é um jogo de terror multijogador em primeira pessoa inspirado em batalhas épicas de filmes medievais. Os jogadores são lançados na ação de cada momento icônico da época - desde o confronto de espadas até tempestades de flechas flamejantes, até cercos a castelos extensos e muito mais.",
+        "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Dec31_giveaway_2560x14401_2560x1440-d0f16b070b06435bad29ebb36cf5db5d",
+        "url": "https://store.epicgames.com/p/mysterygame2025-15",
         "price": "0",
-        "start_date": "2025-12-30T16:00:00.000Z",
-        "end_date": "2025-12-31T16:00:00.000Z"
+        "start_date": "2025-12-31T16:00:00.000Z",
+        "end_date": "2026-01-01T16:00:00.000Z"
       }
     ],
     "upcoming_games": [
@@ -27,32 +27,41 @@
         "end_date": "2026-01-15T16:00:00.000Z"
       },
       {
-        "title": "Mystery Game 15",
-        "description": "Jogo Mistério 15",
+        "title": "Mystery Game 17",
+        "description": "Jogo Mistério 17",
         "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Holiday25_FreeGames_Teaser_2560x1440_2560x1440-012542ce76be0f7521af765ba97d3453",
-        "url": "https://store.epicgames.com/p/mysterygame2025-15",
+        "url": "https://store.epicgames.com/p/mysterygame2025-17",
         "price": "0",
-        "start_date": "2025-12-31T16:00:00.000Z",
-        "end_date": "2026-01-01T16:00:00.000Z"
+        "start_date": "2026-01-01T16:00:00.000Z",
+        "end_date": "2026-01-08T16:00:00.000Z"
+      },
+      {
+        "title": "Mystery Game 16",
+        "description": "Jogo Mistério 16",
+        "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Holiday25_FreeGames_Teaser_2560x1440_2560x1440-012542ce76be0f7521af765ba97d3453",
+        "url": "https://store.epicgames.com/p/mysterygame2025-16",
+        "price": "0",
+        "start_date": "2026-01-01T16:00:00.000Z",
+        "end_date": "2026-01-08T16:00:00.000Z"
       }
     ],
     "mystery_detected": true
   },
   "items": [
     {
-      "id": "https://store.epicgames.com/p/mysterygame2025-14",
-      "title": "GRÁTIS: Trine Classic Collection",
-      "original_title": "Trine Classic Collection",
-      "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Dec30_giveaway_2560x1440_2560x1440-a3a3c03556904202b2127565527e967f",
+      "id": "https://store.epicgames.com/p/mysterygame2025-15",
+      "title": "GRÁTIS: Chivalry 2",
+      "original_title": "Chivalry 2",
+      "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Dec31_giveaway_2560x14401_2560x1440-d0f16b070b06435bad29ebb36cf5db5d",
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2025-12-31",
-      "summary": "Coleção Trine Clássica",
+      "date": "2026-01-01",
+      "summary": "Chivalry 2 é um jogo de terror multijogador em primeira pessoa inspirado em batalhas épicas de filmes medievais. Os jogadores são lançados na ação de cada momento icônico da época - desde o confronto de espadas até tempestades de flechas flamejantes, até cercos a castelos extensos e muito mais.",
       "sources": [
         "Epic Games Store"
       ],
-      "url": "https://store.epicgames.com/p/mysterygame2025-14"
+      "url": "https://store.epicgames.com/p/mysterygame2025-15"
     },
     {
       "id": "https://store.epicgames.com/p/68621af956534439a7f8de5a0e5873e5",
@@ -62,7 +71,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2025-12-31",
+      "date": "2026-01-01",
       "summary": "Disponível gratuitamente a partir de 08/01. Os Bloons estão de volta e melhores do que nunca! Prepare-se para um enorme jogo de defesa de torre em 3D projetado para oferecer horas e horas do melhor jogo de estratégia disponível.",
       "sources": [
         "Epic Games Store"
@@ -70,19 +79,139 @@
       "url": "https://store.epicgames.com/p/68621af956534439a7f8de5a0e5873e5"
     },
     {
-      "id": "https://store.epicgames.com/p/mysterygame2025-15",
-      "title": "EM BREVE: Mystery Game 15",
-      "original_title": "Mystery Game 15",
+      "id": "https://store.epicgames.com/p/mysterygame2025-17",
+      "title": "EM BREVE: Mystery Game 17",
+      "original_title": "Mystery Game 17",
       "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Holiday25_FreeGames_Teaser_2560x1440_2560x1440-012542ce76be0f7521af765ba97d3453",
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2025-12-31",
-      "summary": "Disponível gratuitamente a partir de 31/12. Jogo Mistério 15",
+      "date": "2026-01-01",
+      "summary": "Disponível gratuitamente a partir de 01/01. Jogo Mistério 17",
       "sources": [
         "Epic Games Store"
       ],
-      "url": "https://store.epicgames.com/p/mysterygame2025-15"
+      "url": "https://store.epicgames.com/p/mysterygame2025-17"
+    },
+    {
+      "id": "https://store.epicgames.com/p/mysterygame2025-16",
+      "title": "EM BREVE: Mystery Game 16",
+      "original_title": "Mystery Game 16",
+      "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Holiday25_FreeGames_Teaser_2560x1440_2560x1440-012542ce76be0f7521af765ba97d3453",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-01-01",
+      "summary": "Disponível gratuitamente a partir de 01/01. Jogo Mistério 16",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/mysterygame2025-16"
+    },
+    {
+      "id": "https://www.eurogamer.net/blue-prince-our-game-of-the-year-is-so-much-more-than-just-a-brilliant-puzzler",
+      "title": "Blue Prince, nosso jogo do ano, é muito mais do que apenas um quebra-cabeças brilhante",
+      "original_title": "Blue Prince, our game of the year, is so much more than just a brilliant puzzler",
+      "image": "https://assetsio.gnwcdn.com/blue-prince-goty-header.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-01-01",
+      "summary": "Minha tia-avó viveu até os 102 anos e, quando estava morrendo, revelou que havia se casado não cinco vezes, mas seis. Não temos ideia de quem foi o sexto marido ou onde ele se encaixava na linha do tempo da tia Mickey. Devo presumir que nunca saberemos. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/blue-prince-our-game-of-the-year-is-so-much-more-than-just-a-brilliant-puzzler"
+    },
+    {
+      "id": "https://www.techpowerup.com/344591/samsung-display-begins-mass-supply-of-worlds-first-360-hz-v-stripe-qd-oled",
+      "title": "(PR) Samsung Display inicia fornecimento em massa do primeiro V-Stripe QD-OLED de 360 ​​Hz do mundo",
+      "original_title": "(PR) Samsung Display Begins Mass Supply of World's First 360 Hz V-Stripe QD-OLED",
+      "image": "https://tpucdn.com/img/O6fMvIL3MQYoc4kC_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-01-01",
+      "summary": "A Samsung Display anunciou hoje que iniciou a produção em massa do primeiro painel QD-OLED de 34 polegadas e 360 ​​Hz do mundo, apresentando uma estrutura de pixel \"V (Vertical)-Stripe\". A empresa vem fornecendo os painéis para sete fabricantes globais de monitores...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/344591/samsung-display-begins-mass-supply-of-worlds-first-360-hz-v-stripe-qd-oled"
+    },
+    {
+      "id": "https://www.techpowerup.com/344590/msi-announces-a-pair-of-new-32-inch-4k-qd-oled-gaming-monitors",
+      "title": "(PR) MSI anuncia um par de novos monitores de jogos 4K QD-OLED de 32 polegadas",
+      "original_title": "(PR) MSI Announces a Pair of New 32-inch 4K QD-OLED Gaming Monitors",
+      "image": "https://tpucdn.com/img/f8qHX1PAkQowqpGC_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-01-01",
+      "summary": "A MSI anunciou uma atualização significativa em sua linha de monitores de jogos 4K QD-OLED de 32 polegadas, apresentando dois novos modelos feitos sob medida para perfis de jogadores distintos. Tanto o MPG 322UR QD-OLED X24 quanto o MAG 321UP QD-OLED X24 são ancorados pelo mais recente Tandem OLE de 5 camadas...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/344590/msi-announces-a-pair-of-new-32-inch-4k-qd-oled-gaming-monitors"
+    },
+    {
+      "id": "https://www.techpowerup.com/344501/replace-all-of-your-ai-subscriptions-with-a-single-lifetime-tool",
+      "title": "Substitua todas as suas assinaturas de IA por uma ferramenta única e vitalícia",
+      "original_title": "Replace All of Your AI Subscriptions with a Single Lifetime Tool",
+      "image": "https://tpucdn.com/img/qVCOhxtMGUvf66Xu_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-01-01",
+      "summary": "Se você está alternando entre ChatGPT, Claude, Gemini e meia dúzia de outras ferramentas de IA para obter uma resposta sólida, provavelmente está pagando pelas mesmas ferramentas mais de uma vez. ChatPlayground AI oferece uma alternativa mais simples: uma plataforma onde você pode executar um si...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/344501/replace-all-of-your-ai-subscriptions-with-a-single-lifetime-tool"
+    },
+    {
+      "id": "https://www.eurogamer.net/here-are-our-ps-plus-monthly-games-for-january",
+      "title": "Aqui estão nossos jogos mensais PS Plus de janeiro",
+      "original_title": "Here are our PS Plus monthly games for January",
+      "image": "https://assetsio.gnwcdn.com/epic-mickey-screen.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2025-12-31",
+      "summary": "A Sony revelou suas ofertas mensais de jogos PS Plus para janeiro. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/here-are-our-ps-plus-monthly-games-for-january"
+    },
+    {
+      "id": "https://www.eurogamer.net/arc-raiders-was-steams-best-selling-game-over-the-holiday-period",
+      "title": "Arc Raiders foi o jogo mais vendido do Steam durante o período de férias",
+      "original_title": "Arc Raiders was Steam's best-selling game over the holiday period",
+      "image": "https://assetsio.gnwcdn.com/arc-raiders-2_Lnfc4S0.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2025-12-31",
+      "summary": "Arc Raiders foi o jogo mais vendido do Steam durante o período de férias. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/arc-raiders-was-steams-best-selling-game-over-the-holiday-period"
+    },
+    {
+      "id": "https://www.eurogamer.net/square-enixs-yosuke-saito-teases-theres-just-a-little-something-on-the-way-for-fans-of-nier-and-dragon-quest-in-2026",
+      "title": "Yosuke Saito da Square Enix brinca que há “só uma coisinha” a caminho para os fãs de Nier e Dragon Quest em 2026",
+      "original_title": "Square Enix's Yosuke Saito teases there's \"just a little something\" on the way for fans of Nier and Dragon Quest in 2026",
+      "image": "https://assetsio.gnwcdn.com/nier-automata-2b.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2025-12-31",
+      "summary": "O produtor de Nier, Yosuke Saito, brincou que há “só uma coisinha” a caminho para os fãs em 2026. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/square-enixs-yosuke-saito-teases-theres-just-a-little-something-on-the-way-for-fans-of-nier-and-dragon-quest-in-2026"
     },
     {
       "id": "https://www.eurogamer.net/the-50-best-games-of-2025-ranked",
@@ -100,79 +229,109 @@
       "url": "https://www.eurogamer.net/the-50-best-games-of-2025-ranked"
     },
     {
-      "id": "https://www.techpowerup.com/344563/asrock-to-announce-expanded-pc-lineup-and-debut-aio-liquid-cooler-at-ces-2026",
-      "title": "ASRock anunciará linha expandida de PCs e estreia AIO Liquid Cooler na CES 2026",
-      "original_title": "ASRock to Announce Expanded PC Lineup and Debut AIO Liquid Cooler at CES 2026",
-      "image": "https://tpucdn.com/img/VEBooCxnkLcqqKCF_thm.jpg",
+      "id": "https://www.techpowerup.com/344579/colorful-breaks-ryzen-7-9800x3d-frequency-world-oc-record-with-7335-45-mhz",
+      "title": "Colorful quebra o recorde mundial de OC de frequência Ryzen 7 9800X3D com 7335,45 MHz",
+      "original_title": "Colorful Breaks Ryzen 7 9800X3D Frequency World OC Record with 7335.45 MHz",
+      "image": "https://tpucdn.com/img/Xov3Qj8wVKpytZpb_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2025-12-31",
-      "summary": "ASRock, líder global em placas-mãe, placas gráficas, monitores de jogos, PCs de formato pequeno, unidades de fonte de alimentação e coolers líquidos AIO, está preparada para impressionar os entusiastas da tecnologia em todo o mundo na CES 2026 com suas mais recentes inovações na linha de produtos. Isso sim...",
+      "summary": "A Colorful conquistou o recorde mundial de OC em frequência com o AMD Ryzen 7 9800 X3D em sua placa-mãe iGame X870E Vulcan OC. De acordo com a lista HWBot enviada pela Hero, a CPU atingiu um clock de pico de 7335,48 MHz sob resfriamento com nitrogênio líquido, mas...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/344563/asrock-to-announce-expanded-pc-lineup-and-debut-aio-liquid-cooler-at-ces-2026"
+      "url": "https://www.techpowerup.com/344579/colorful-breaks-ryzen-7-9800x3d-frequency-world-oc-record-with-7335-45-mhz"
     },
     {
-      "id": "https://www.techpowerup.com/344562/lg-electronics-expands-xboom-by-will-i-am-lineup",
-      "title": "(PR) LG Electronics expande linha xboom by will.i.am",
-      "original_title": "(PR) LG Electronics Expands xboom by will.i.am Lineup",
-      "image": "https://tpucdn.com/img/rw2sq2DTl7H3aUkB_thm.jpg",
+      "id": "https://www.techpowerup.com/344578/leaks-predict-usd-5000-rtx-5090-gpus-in-2026-thanks-to-ai-industry-demand",
+      "title": "Vazamentos prevêem GPUs RTX 5090 de US$ 5.000 em 2026 graças à demanda da indústria de IA",
+      "original_title": "Leaks Predict $5000 RTX 5090 GPUs in 2026 Thanks to AI Industry Demand",
+      "image": "https://tpucdn.com/img/4rHtJ697Mt9cbEDf_thm.jpg",
       "source_count": 1,
       "reliability": "High",
-      "category": "Hardware",
+      "category": "Rumor",
       "date": "2025-12-31",
-      "summary": "A LG Electronics (LG) e o inovador global will.i.am estão apresentando uma linha expandida de xboom na CES 2026, aproveitando o sucesso dos modelos de 2025, como o Stage 301 e o Bounce and Grab original. Apresentando alto-falantes inspirados em palco para festas e rugg...",
+      "summary": "Não é nenhum segredo que os jogos estão sofrendo uma espécie de crise de acessibilidade, com o aumento da demanda por GPUs com capacidade de IA e memória DDR5, resultando no aumento dos preços para os jogadores e outros efeitos colaterais de longo alcance no mercado de hardware para jogos. Agora...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/344562/lg-electronics-expands-xboom-by-will-i-am-lineup"
+      "url": "https://www.techpowerup.com/344578/leaks-predict-usd-5000-rtx-5090-gpus-in-2026-thanks-to-ai-industry-demand"
     },
     {
-      "id": "https://www.techpowerup.com/344501/replace-all-of-your-ai-subscriptions-with-a-single-lifetime-tool",
-      "title": "Substitua todas as suas assinaturas de IA por uma ferramenta única e vitalícia",
-      "original_title": "Replace All of Your AI Subscriptions with a Single Lifetime Tool",
-      "image": "https://tpucdn.com/img/qVCOhxtMGUvf66Xu_thm.jpg",
+      "id": "https://www.techpowerup.com/344577/msi-teases-return-of-rtx-5090-lightning-gpus-for-ces-2026",
+      "title": "MSI provoca retorno de GPUs RTX 5090 Lightning para CES 2026",
+      "original_title": "MSI Teases Return of RTX 5090 Lightning GPUs for CES 2026",
+      "image": "https://tpucdn.com/img/k3tZCqUbHOHwjWbu_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2025-12-31",
-      "summary": "Se você está alternando entre ChatGPT, Claude, Gemini e meia dúzia de outras ferramentas de IA para obter uma resposta sólida, provavelmente está pagando pelas mesmas ferramentas mais de uma vez. ChatPlayground AI oferece uma alternativa mais simples: uma plataforma onde você pode executar um si...",
+      "summary": "Vazamentos já previram uma linha de lançamento de hardware empilhada para CES 2026, com empresas como a Lenovo planejando uma linha atualizada de laptops para jogos Legion, enquanto a HP está planejando uma série de novos monitores de jogos OLED de alta taxa de atualização para o ...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/344501/replace-all-of-your-ai-subscriptions-with-a-single-lifetime-tool"
+      "url": "https://www.techpowerup.com/344577/msi-teases-return-of-rtx-5090-lightning-gpus-for-ces-2026"
     },
     {
-      "id": "https://www.techpowerup.com/344561/advantech-unveils-next-generation-edge-ai-compute-solutions-powered-by-qualcomm-dragonwing-iq-x-series",
-      "title": "(PR) Advantech lança soluções de computação de IA de ponta de última geração com tecnologia Qualcomm Dragonwing IQ-X Series",
-      "original_title": "(PR) Advantech Unveils Next-Generation Edge AI Compute Solutions Powered by Qualcomm Dragonwing IQ-X Series",
-      "image": "https://tpucdn.com/img/ALIAzo96cIAt1hfC_thm.jpg",
+      "id": "https://www.techpowerup.com/344574/riot-leaks-2xko-console-launch-date-before-pulling-trailer-offline",
+      "title": "Riot vaza data de lançamento do console 2XKO antes de colocar o trailer off-line",
+      "original_title": "Riot Leaks 2XKO Console Launch Date Before Pulling Trailer Offline",
+      "image": "https://tpucdn.com/img/lM5M4CdJLMewj7uk_thm.jpg",
       "source_count": 1,
       "reliability": "High",
-      "category": "Hardware",
+      "category": "Rumor",
       "date": "2025-12-31",
-      "summary": "A Advantech tem o orgulho de apresentar seu mais recente conjunto de soluções de computação de IA de ponta de alto desempenho, alimentadas pela plataforma Dragonwing IQ-X - AOM-6731, AIMB-293 e SOM-6820. Construídos sobre esta plataforma inovadora, estes produtos inovadores são motores...",
+      "summary": "2XKO é o próximo jogo de luta 2v2 da Riot Games ambientado no universo League of Legends e apresentando os mesmos personagens. Embora o jogo já esteja disponível em beta aberto no PC, ele ainda não foi lançado no console. A Riot já confirmou...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/344561/advantech-unveils-next-generation-edge-ai-compute-solutions-powered-by-qualcomm-dragonwing-iq-x-series"
+      "url": "https://www.techpowerup.com/344574/riot-leaks-2xko-console-launch-date-before-pulling-trailer-offline"
     },
     {
-      "id": "https://www.techpowerup.com/344560/tsmc-kicks-off-2-nm-mass-production",
-      "title": "TSMC inicia produção em massa de 2 nm",
-      "original_title": "TSMC Kicks Off 2 nm Mass Production",
-      "image": "https://tpucdn.com/img/4MeT8oz4FfxpuC4f_thm.jpg",
+      "id": "https://www.techpowerup.com/344571/rtx-5090-with-1350-w-oc-saved-from-melted-connector-by-asrock-psu",
+      "title": "RTX 5090 com 1350 W OC salvo do conector derretido pela ASRock PSU",
+      "original_title": "RTX 5090 With 1350 W OC Saved From Melted Connector by ASRock PSU",
+      "image": "https://tpucdn.com/img/ucnrgMO04InX2EPu_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2025-12-31",
-      "summary": "A TSMC anunciou que iniciou a produção em massa de 2 nm no Fab 22, localizado na cidade de Kaohsiung, no sul de Taiwan. Esta é a primeira fábrica da TSMC no extremo sul de Taiwan e é a primeira fase de cinco que estarão neste local...",
+      "summary": "Relatos de derretimento de conectores 12VHPWR e 12V-2x6 em GPUs NVIDIA – bem como alguns exemplos da AMD – tornaram-se tão comuns que os fornecedores de hardware começaram a criar proteções contra o problema. Uma dessas salvaguardas é um sensor térmico encontrado...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/344560/tsmc-kicks-off-2-nm-mass-production"
+      "url": "https://www.techpowerup.com/344571/rtx-5090-with-1350-w-oc-saved-from-melted-connector-by-asrock-psu"
+    },
+    {
+      "id": "https://www.techpowerup.com/344568/asus-announces-strategic-price-adjustments-for-dram-and-ssds",
+      "title": "ASUS anuncia “ajustes estratégicos de preços” para DRAM e SSDs",
+      "original_title": "ASUS Announces \"Strategic Price Adjustments\" for DRAM and SSDs",
+      "image": "https://tpucdn.com/img/cJmkuKoRfLPerlpG_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2025-12-31",
+      "summary": "Recentemente cobrimos um boato de que a ASUS estava planejando expandir sua produção de placas-mãe compatíveis com DDR4 e teorizamos que poderia ser uma maneira de oferecer opções de construção baratas para jogadores de PC em meio a uma crescente escassez de DRAM que continua a ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/344568/asus-announces-strategic-price-adjustments-for-dram-and-ssds"
+    },
+    {
+      "id": "https://www.techpowerup.com/344570/samsung-welcomes-galaxy-a17-5g-and-galaxy-tab-a11-to-the-galaxy-ecosystem",
+      "title": "(PR) Samsung dá as boas-vindas ao Galaxy A17 5G e Galaxy Tab A11+ ao ecossistema Galaxy",
+      "original_title": "(PR) Samsung Welcomes Galaxy A17 5G and Galaxy Tab A11+ to the Galaxy Ecosystem",
+      "image": "https://tpucdn.com/img/qsLfZMYfsWkP3Mme_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2025-12-31",
+      "summary": "A Samsung Electronics America apresentou hoje duas novas adições ao seu portfólio móvel: Galaxy A17 5G e Galaxy Tab A11+, expandindo as experiências do Galaxy para todos os tipos de usuários e, ao mesmo tempo, oferecendo novas experiências divertidas e úteis por um valor incrível. Como...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/344570/samsung-welcomes-galaxy-a17-5g-and-galaxy-tab-a11-to-the-galaxy-ecosystem"
     },
     {
       "id": "https://www.eurogamer.net/rainbow-six-siege-still-struggling-after-ubisoft-was-forced-to-briefly-intentionally-shut-it-down-following-third-party-hack",
@@ -183,7 +342,7 @@
       "reliability": "High",
       "category": "News",
       "date": "2025-12-30",
-      "summary": "Rainbow Six Siege ainda está lutando hoje, depois que hackers distribuíram “bilhões” em moeda do jogo, forçando a Ubisoft a encerrar o jogo “intencionalmente” por um breve período. Leia mais...",
+      "summary": "Rainbow Six Siege ainda está em dificuldades hoje, depois que hackers distribuíram “bilhões” em moeda do jogo, forçando a Ubisoft a encerrar o jogo “intencionalmente” por um breve período. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
@@ -235,81 +394,6 @@
       "url": "https://www.eurogamer.net/eurogamer-readers-top-50-games-of-2025"
     },
     {
-      "id": "https://www.techpowerup.com/344545/kbdfans-launches-tofu60-3-0-gaming-keyboard-with-myriad-color-and-customization-options",
-      "title": "KBDfans lança teclado para jogos Tofu60 3.0 com inúmeras opções de cores e personalização",
-      "original_title": "KBDfans Launches Tofu60 3.0 Gaming Keyboard With Myriad Color and Customization Options",
-      "image": "https://tpucdn.com/img/NHfif6DBQoYtvHBD_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2025-12-30",
-      "summary": "KBDfans anunciou oficialmente a versão 3 de seu famoso teclado para jogos personalizado Tofu60, que oferece uma variedade de opções, incluindo inúmeras opções de cores, a escolha de mecânico com fio em opções soldadas e hot-swap, mecânico sem fio e ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/344545/kbdfans-launches-tofu60-3-0-gaming-keyboard-with-myriad-color-and-customization-options"
-    },
-    {
-      "id": "https://www.techpowerup.com/344543/sapphire-amd-radeon-rx-9070-xt-nitro-melts-connector-after-almost-a-year-in-use",
-      "title": "Sapphire AMD Radeon RX 9070 XT Nitro+ derrete conector após “quase um ano” de uso",
-      "original_title": "Sapphire AMD Radeon RX 9070 XT Nitro+ Melts Connector After \"Almost a Year\" in Use",
-      "image": "https://tpucdn.com/img/1oSQn5PIXkbrJVSO_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2025-12-30",
-      "summary": "Não é nenhum segredo que as GPUs NVIDIA têm o hábito de queimar conectores 12vHPWR e 12V-2x6, mas cada vez mais, surgem relatórios sobre o mesmo acontecendo com as GPUs Radeon da AMD executando os mesmos conectores. O último relatório de tais conexões queimadas...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/344543/sapphire-amd-radeon-rx-9070-xt-nitro-melts-connector-after-almost-a-year-in-use"
-    },
-    {
-      "id": "https://www.techpowerup.com/344542/mainstream-pc-oems-get-dram-priority-as-supply-crisis-changes-market",
-      "title": "OEMs de PC convencionais obtêm prioridade DRAM à medida que a crise de fornecimento muda o mercado",
-      "original_title": "Mainstream PC OEMs Get DRAM Priority As Supply Crisis Changes Market",
-      "image": "https://tpucdn.com/img/SrXK9X1S1y6hqW9r_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2025-12-30",
-      "summary": "Já vimos os inúmeros efeitos de longo alcance da crise DRAM se manifestarem de várias maneiras, incluindo ofertas de traga sua própria RAM de fabricantes de PC personalizados e rumores de consoles de próxima geração atrasados. No entanto, um novo relatório do DigiTimes afirma...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/344542/mainstream-pc-oems-get-dram-priority-as-supply-crisis-changes-market"
-    },
-    {
-      "id": "https://www.techpowerup.com/344540/long-live-am4-asus-rumored-to-increased-ddr4-motherboard-production",
-      "title": "Vida longa ao AM4: rumores de que a ASUS aumentará a produção de placas-mãe DDR4",
-      "original_title": "Long Live AM4: ASUS Rumored To Increased DDR4 Motherboard Production",
-      "image": "https://tpucdn.com/img/qYIMgrbVsTFbmwNl_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2025-12-30",
-      "summary": "Talvez em resposta à enorme demanda por DDR5 e ao resultante aumento de preços para hardware de PC, a ASUS aparentemente esteja planejando aumentar a produção de suas placas-mãe B550 AM4, que ainda dependem de RAM DDR4 envelhecida. Isso está de acordo com um vazamento...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/344540/long-live-am4-asus-rumored-to-increased-ddr4-motherboard-production"
-    },
-    {
-      "id": "https://www.techpowerup.com/340219/amd-ryzen-9-9955hx3d-comes-to-sff-desktop-pcs-in-new-aoostar-m-atx-motherboard",
-      "title": "AMD Ryzen 9 9955HX3D chega aos desktops SFF na nova placa-mãe Aoostar m-ATX",
-      "original_title": "AMD Ryzen 9 9955HX3D Comes to SFF Desktop PCs in New Aoostar m-ATX Motherboard",
-      "image": "https://tpucdn.com/img/OLwgwptCe3m30UB2_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2025-12-30",
-      "summary": "O Ryzen 9 9955HX3D da AMD foi lançado no início deste ano como uma CPU para jogos móveis de 16 núcleos baseada na arquitetura Zen 5 da AMD. Agora, parece que está chegando a uma placa-mãe microATX projetada para uso em construções de PC DIY, cortesia da Aoostar. A empresa, conhecida por...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/340219/amd-ryzen-9-9955hx3d-comes-to-sff-desktop-pcs-in-new-aoostar-m-atx-motherboard"
-    },
-    {
       "id": "https://www.eurogamer.net/peak-isnt-trying-to-be-game-of-the-year-but-friendslop-games-do-put-connection-front-and-centre-of-the-experience",
       "title": "Peak não está “tentando ser o Jogo do Ano”, mas os jogos “friendslop” colocam “a conexão na frente e no centro da experiência”",
       "original_title": "Peak isn't \"trying to be Game of the Year\", but \"friendslop\" games do put \"connection front and centre of the experience\"",
@@ -323,66 +407,6 @@
         "Eurogamer"
       ],
       "url": "https://www.eurogamer.net/peak-isnt-trying-to-be-game-of-the-year-but-friendslop-games-do-put-connection-front-and-centre-of-the-experience"
-    },
-    {
-      "id": "https://www.eurogamer.net/gog-and-cd-projekt-founder-micha-kicinski-acquires-100-ownership-of-gog",
-      "title": "O fundador do GOG e CD Projekt, Michał Kiciński, adquire 100% da propriedade do GOG",
-      "original_title": "GOG and CD Projekt founder Michał Kiciński acquires 100% ownership of GOG",
-      "image": "https://assetsio.gnwcdn.com/Screenshot-2025-12-29-at-16.51.45.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2025-12-29",
-      "summary": "Micha&lstrok Kici&nacuteski, cofundador da CD Projekt, adquiriu 100% da propriedade da GOG, a loja de jogos digitais sem DRM. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/gog-and-cd-projekt-founder-micha-kicinski-acquires-100-ownership-of-gog"
-    },
-    {
-      "id": "https://www.eurogamer.net/games-of-2025-no-mans-sky",
-      "title": "Apesar de muitos jogos excelentes em 2025, No Man's Sky é o lugar feliz que continua me atraindo de volta",
-      "original_title": "Despite a load of great games in 2025, No Man's Sky is the happy place that keeps drawing me back in again",
-      "image": "https://assetsio.gnwcdn.com/no-mans-sky-end-of-year-header2025.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2025-12-29",
-      "summary": "Se estamos planejando o ano com base em obsessões inesperadas, as minhas foram (sem nenhuma ordem específica) o estranho cinema italiano dos anos 60 e 70, um apetite doentio por edições de colecionador de mídia física desnecessariamente elaboradas, terror folclórico em li...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/games-of-2025-no-mans-sky"
-    },
-    {
-      "id": "https://www.eurogamer.net/games-of-2025-dispatch",
-      "title": "Os pênis diferenciam o Dispatch, e quero dizer isso com toda a sinceridade",
-      "original_title": "Penises set Dispatch apart, and I mean that quite sincerely",
-      "image": "https://assetsio.gnwcdn.com/dispatch-games-of-2025.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2025-12-29",
-      "summary": "Acho que muito do Dispatch pode ser resumido em um único momento no início do jogo, quando o jogador fica cara a cara com um pênis. Lá está ele, visivelmente pendurado entre as pernas de um supervilão nu e encharcado de tóxicos que você está prestes a...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/games-of-2025-dispatch"
-    },
-    {
-      "id": "https://www.eurogamer.net/donkey-kong-bananza-might-not-be-the-best-game-of-the-year-but-its-surely-the-one-i-loved-the-most",
-      "title": "Donkey Kong Bananza pode não ser o melhor jogo do ano, mas com certeza é o que mais amei",
-      "original_title": "Donkey Kong Bananza might not be the best game of the year, but it's surely the one I loved the most",
-      "image": "https://assetsio.gnwcdn.com/bananza_720.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2025-12-28",
-      "summary": "Acho que hoje em dia, depois de anos em que a Nintendo evitou completamente a corrida pelo poder dos consoles e se concentrou em diferentes maneiras de jogar e aprimorar sua arte principal, esquecemos que a Nintendo ainda é uma empresa bastante afiada em termos de inovação técnica...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/donkey-kong-bananza-might-not-be-the-best-game-of-the-year-but-its-surely-the-one-i-loved-the-most"
     }
   ]
 }
