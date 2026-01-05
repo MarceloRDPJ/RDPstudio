@@ -14,6 +14,10 @@
 O logotipo da RDP Studio representa a fusão entre tecnologia e precisão.
 
 - **Localização Oficial**: `assets/images/branding/logo.png`
+- **Ícones do Sistema (Favicons)**:
+  - `favicon-32x32.png`, `favicon-16x16.png` (Navegadores Desktop)
+  - `apple-touch-icon.png` (iOS/MacOS)
+  - `android-chrome-*.png` (Android/PWA - via `site.webmanifest`)
 - **Uso Correto**:
   - Sempre manter a proporção original.
   - Usar sobre fundos escuros (`#020617` ou `#1E3A5F`) para garantir contraste.
