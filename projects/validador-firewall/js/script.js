@@ -58,17 +58,154 @@ const downloadErrors = document.getElementById('downloadErrors');
 // Info Toggle Logic
 const toggleInfoBtn = document.getElementById('toggleInfoBtn');
 const infoSection = document.getElementById('infoSection');
-const infoChevron = document.getElementById('infoChevron');
+// infoChevron removed in new HTML layout
 
 if (toggleInfoBtn && infoSection) {
     toggleInfoBtn.addEventListener('click', () => {
         infoSection.classList.toggle('hidden');
-        if (infoSection.classList.contains('hidden')) {
-            infoChevron.style.transform = 'rotate(0deg)';
-        } else {
-            infoChevron.style.transform = 'rotate(180deg)';
+        if (!infoSection.classList.contains('hidden')) {
+             infoSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
     });
+}
+
+// --- DEMO / ONBOARDING LOGIC ---
+const startDemoBtn = document.getElementById('startDemoBtn');
+
+if (startDemoBtn) {
+    startDemoBtn.addEventListener('click', startDemo);
+}
+
+function delay(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function startDemo() {
+    // 1. Reset State
+    clearButton.click();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+
+    // Helper to create tooltips
+    const createTooltip = (element, text, position = 'bottom') => {
+        const rect = element.getBoundingClientRect();
+        const tooltip = document.createElement('div');
+        tooltip.className = 'tooltip-container';
+        tooltip.innerHTML = `${text}<div class="tooltip-arrow"></div>`;
+        document.body.appendChild(tooltip);
+
+        const tRect = tooltip.getBoundingClientRect();
+        let top, left;
+
+        if (position === 'bottom') {
+            top = rect.bottom + window.scrollY + 15;
+            left = rect.left + window.scrollX + (rect.width / 2) - (tRect.width / 2);
+            tooltip.querySelector('.tooltip-arrow').style.top = '-8px';
+            tooltip.querySelector('.tooltip-arrow').style.bottom = 'auto';
+            tooltip.querySelector('.tooltip-arrow').style.borderTop = 'none';
+            tooltip.querySelector('.tooltip-arrow').style.borderBottom = '8px solid #00B4D8';
+        } else {
+            // Top default
+            top = rect.top + window.scrollY - tRect.height - 15;
+            left = rect.left + window.scrollX + (rect.width / 2) - (tRect.width / 2);
+        }
+
+        tooltip.style.top = `${top}px`;
+        tooltip.style.left = `${left}px`;
+        return tooltip;
+    };
+
+    const clearTooltips = () => {
+        document.querySelectorAll('.tooltip-container').forEach(el => el.remove());
+        document.querySelectorAll('.demo-highlight').forEach(el => el.classList.remove('demo-highlight'));
+        document.querySelectorAll('.flow-card-active').forEach(el => el.classList.remove('flow-card-active'));
+    };
+
+    // SEQUENCE
+    // Step 0: Scroll to Flow
+    const stepInput = document.getElementById('step-input');
+    const stepEngine = document.getElementById('step-engine');
+    const stepValidation = document.getElementById('step-validation');
+    const stepOutput = document.getElementById('step-output');
+
+    clearTooltips();
+
+    // Disable interaction during demo
+    document.body.style.pointerEvents = 'none';
+
+    await delay(500);
+
+    // Step 1: Input Highlight
+    stepInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    stepInput.classList.add('flow-card-active');
+
+    await delay(1500);
+
+    // Move to Text Area
+    stepInput.classList.remove('flow-card-active');
+    dataInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    dataInput.classList.add('demo-highlight');
+    const t1 = createTooltip(dataInput, "1. Cole seus dados aqui (Excel, CSV ou Texto).<br>Ex: Nome; MAC", "top");
+
+    // Typewriter Effect
+    const demoText = "PC-DIRETORIA; AA-BB-CC-DD-EE-FF\nPRINTER-RH; 00:11:22:33:44:55\nSERVER-DB; 1234.5678.90AB";
+    for (let i = 0; i < demoText.length; i++) {
+        dataInput.value += demoText.charAt(i);
+        await delay(30);
+    }
+
+    await delay(1000);
+
+    // Step 2: Process Button
+    t1.remove();
+    dataInput.classList.remove('demo-highlight');
+
+    processButton.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    processButton.classList.add('demo-highlight');
+    const t2 = createTooltip(processButton, "2. Clique para validar e gerar os scripts.", "top");
+
+    await delay(2000);
+
+    // Click
+    processButton.click();
+    t2.remove();
+    processButton.classList.remove('demo-highlight');
+
+    // Visual Flow Simulation
+    stepEngine.classList.add('flow-card-active');
+    await delay(800);
+
+    stepEngine.classList.remove('flow-card-active');
+    stepValidation.classList.add('flow-card-active');
+    await delay(800);
+
+    stepValidation.classList.remove('flow-card-active');
+    stepOutput.classList.add('flow-card-active');
+
+    await delay(800);
+
+    stepOutput.classList.remove('flow-card-active');
+
+    // Step 3: Results
+    resultsArea.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+    // Highlight Download Buttons
+    const cardObj = document.getElementById('cardObjects');
+    cardObj.classList.add('demo-highlight');
+    const t3 = createTooltip(cardObj, "3. Baixe os scripts formatados para o Fortigate!", "top");
+
+    await delay(4000);
+
+    // Cleanup
+    t3.remove();
+    cardObj.classList.remove('demo-highlight');
+    document.body.style.pointerEvents = 'auto'; // Re-enable interaction
+
+    // Final Toast
+    const toast = document.createElement('div');
+    toast.className = 'fixed bottom-10 right-10 bg-vibrantCyan text-slate-900 font-bold px-6 py-4 rounded-xl shadow-2xl z-[100] fade-in-up';
+    toast.innerHTML = '<i class="fa-solid fa-check-circle mr-2"></i> Demonstração Concluída!';
+    document.body.appendChild(toast);
+    setTimeout(() => toast.remove(), 3000);
 }
 
 let generatedObjectsScript = "";
