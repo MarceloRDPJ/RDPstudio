@@ -85,106 +85,128 @@
         </div>
 
         <!-- Main Title Area -->
-        <div class="text-center mb-8 fade-in-up delay-100 relative">
-            <h1 class="text-3xl md:text-5xl font-extrabold mb-2 leading-tight">
+        <div class="text-center mb-12 fade-in-up delay-100 relative">
+            <h1 class="text-3xl md:text-5xl font-extrabold mb-4 leading-tight">
                 Validador <span class="text-gradient">de MACs</span>
             </h1>
-            <p class="text-sm md:text-base text-slate-400 max-w-lg mx-auto font-light leading-relaxed mb-6">
+            <p class="text-sm md:text-base text-slate-400 max-w-lg mx-auto font-light leading-relaxed mb-8">
                 Automação de segurança para Firewall Fortigate.
             </p>
 
-            <button id="toggleInfoBtn" class="mx-auto flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 text-xs font-bold text-slate-300 transition-all hover:text-vibrantCyan">
-                <i class="fa-solid fa-circle-question"></i>
-                <span>COMO FUNCIONA / INSTRUÇÕES</span>
-                <i class="fa-solid fa-chevron-down ml-1 transition-transform duration-300" id="infoChevron"></i>
-            </button>
+            <div class="flex justify-center gap-4">
+                <button id="startDemoBtn" class="flex items-center gap-2 px-6 py-2.5 rounded-full bg-vibrantCyan text-slate-900 text-xs font-bold tracking-wide transition-all hover:scale-105 hover:shadow-[0_0_20px_rgba(0,180,216,0.5)]">
+                    <i class="fa-solid fa-play"></i>
+                    <span>VER DEMONSTRAÇÃO</span>
+                </button>
+
+                <button id="toggleInfoBtn" class="flex items-center gap-2 px-6 py-2.5 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 text-xs font-bold text-slate-300 transition-all hover:text-white">
+                    <i class="fa-solid fa-book-open"></i>
+                    <span>A HISTÓRIA</span>
+                </button>
+            </div>
         </div>
 
-        <!-- Collapsible Info Section (Default Hidden) -->
-        <div id="infoSection" class="hidden overflow-hidden transition-all duration-500 ease-in-out">
-            <div class="pt-4 pb-8 space-y-8">
-                <!-- Professional Pipeline Visualization -->
-                <div class="fade-in-up">
-                    <div class="text-xs font-bold text-slate-500 uppercase tracking-widest mb-4 flex items-center gap-2 justify-center">
-                        <i class="fa-solid fa-microchip"></i> Fluxo de Processamento
-                    </div>
-                    <div class="grid grid-cols-1 md:grid-cols-4 gap-4 relative">
-                        <!-- Connecting Line (Desktop) -->
-                        <div class="hidden md:block absolute top-1/2 left-0 w-full h-[2px] bg-slate-800 -z-10 transform -translate-y-1/2"></div>
-
-                        <!-- Step 1 -->
-                        <div class="glass-card p-4 rounded-xl text-center relative group">
-                            <div class="w-10 h-10 mx-auto bg-slate-800 rounded-full flex items-center justify-center text-slate-400 mb-3 border border-slate-700 group-hover:border-vibrantCyan group-hover:text-vibrantCyan transition-all z-10 relative">
-                                <i class="fa-solid fa-file-csv"></i>
-                            </div>
-                            <h4 class="text-white font-bold text-sm">Input</h4>
-                            <p class="text-[10px] text-slate-400 mt-1">Excel, CSV ou TXT</p>
-                        </div>
-
-                        <!-- Step 2 -->
-                        <div class="glass-card p-4 rounded-xl text-center relative group">
-                            <div class="w-10 h-10 mx-auto bg-slate-800 rounded-full flex items-center justify-center text-slate-400 mb-3 border border-slate-700 group-hover:border-vibrantCyan group-hover:text-vibrantCyan transition-all z-10 relative">
-                                <i class="fa-solid fa-gears"></i>
-                            </div>
-                            <h4 class="text-white font-bold text-sm">Engine JS</h4>
-                            <p class="text-[10px] text-slate-400 mt-1">Regex & Parsing</p>
-                        </div>
-
-                        <!-- Step 3 -->
-                        <div class="glass-card p-4 rounded-xl text-center relative group">
-                            <div class="w-10 h-10 mx-auto bg-slate-800 rounded-full flex items-center justify-center text-slate-400 mb-3 border border-slate-700 group-hover:border-energeticAmber group-hover:text-energeticAmber transition-all z-10 relative">
-                                <i class="fa-solid fa-shield-halved"></i>
-                            </div>
-                            <h4 class="text-white font-bold text-sm">Validação</h4>
-                            <p class="text-[10px] text-slate-400 mt-1">Duplicatas & Formato</p>
-                        </div>
-
-                        <!-- Step 4 -->
-                        <div class="glass-card p-4 rounded-xl text-center relative group">
-                            <div class="w-10 h-10 mx-auto bg-slate-800 rounded-full flex items-center justify-center text-slate-400 mb-3 border border-slate-700 group-hover:border-trustGreen group-hover:text-trustGreen transition-all z-10 relative">
-                                <i class="fa-solid fa-code"></i>
-                            </div>
-                            <h4 class="text-white font-bold text-sm">Output</h4>
-                            <p class="text-[10px] text-slate-400 mt-1">Script Fortigate</p>
-                        </div>
-                    </div>
+        <!-- Fluxo de Processamento (Always Visible Now) -->
+        <div class="mb-16 fade-in-up delay-200">
+             <div class="text-xs font-bold text-slate-500 uppercase tracking-widest mb-6 flex items-center gap-2 justify-center">
+                <i class="fa-solid fa-microchip text-vibrantCyan"></i> Pipeline de Automação
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 relative px-4">
+                <!-- Connecting Line (Desktop) -->
+                <div class="hidden md:block flow-line-container">
+                     <div class="flow-line-active"></div>
                 </div>
 
-                <!-- Instructions Card -->
-                <div class="glass-card p-6 md:p-8 rounded-2xl fade-in-up border-l-4 border-l-vibrantCyan">
-                    <div class="flex items-center justify-between mb-6">
-                        <div class="flex items-center gap-3">
-                            <div class="w-8 h-8 rounded-lg bg-vibrantCyan/10 flex items-center justify-center text-vibrantCyan">
-                                <i class="fa-solid fa-circle-info"></i>
-                            </div>
-                            <h3 class="text-base font-bold text-white uppercase tracking-wider">Instruções de Uso</h3>
-                        </div>
-                        <button id="downloadTemplateButton" class="text-xs font-bold text-vibrantCyan hover:text-white transition-colors flex items-center gap-2 px-3 py-1.5 rounded-lg bg-vibrantCyan/10 hover:bg-vibrantCyan/20">
-                            <i class="fa-solid fa-download"></i> BAIXAR MODELO
-                        </button>
+                <!-- Step 1 -->
+                <div id="step-input" class="glass-card p-6 rounded-2xl text-center relative group z-10 bg-[#0f172a]">
+                    <div class="w-14 h-14 mx-auto bg-slate-800/80 rounded-full flex items-center justify-center text-slate-400 mb-4 border border-slate-700 group-hover:border-vibrantCyan group-hover:text-vibrantCyan transition-all shadow-lg group-hover:shadow-vibrantCyan/20">
+                        <i class="fa-solid fa-file-csv text-xl"></i>
                     </div>
+                    <h4 class="text-white font-bold text-base mb-1">Input</h4>
+                    <p class="text-xs text-slate-400">Excel, CSV ou TXT</p>
+                </div>
 
-                    <div class="grid md:grid-cols-2 gap-6 text-sm text-slate-400 font-mono bg-slate-900/50 p-4 rounded-xl border border-white/5">
-                        <ul class="space-y-3">
-                            <li class="flex items-center gap-3">
-                                <i class="fa-solid fa-check text-trustGreen text-xs"></i>
-                                <span>Cole dados de Excel, CSV ou Texto</span>
-                            </li>
-                            <li class="flex items-center gap-3">
-                                <i class="fa-solid fa-check text-trustGreen text-xs"></i>
-                                <span>Col 1: Nome do Equipamento</span>
-                            </li>
-                        </ul>
-                        <ul class="space-y-3">
-                            <li class="flex items-center gap-3">
-                                <i class="fa-solid fa-check text-trustGreen text-xs"></i>
-                                <span>Col 2: MAC (Hífen ou Dois Pontos)</span>
-                            </li>
-                            <li class="flex items-center gap-3">
-                                <i class="fa-solid fa-check text-trustGreen text-xs"></i>
-                                <span>Saída: Script Fortigate Formatado</span>
-                            </li>
-                        </ul>
+                <!-- Step 2 -->
+                <div id="step-engine" class="glass-card p-6 rounded-2xl text-center relative group z-10 bg-[#0f172a]">
+                    <div class="w-14 h-14 mx-auto bg-slate-800/80 rounded-full flex items-center justify-center text-slate-400 mb-4 border border-slate-700 group-hover:border-vibrantCyan group-hover:text-vibrantCyan transition-all shadow-lg group-hover:shadow-vibrantCyan/20">
+                        <i class="fa-solid fa-gears text-xl"></i>
+                    </div>
+                    <h4 class="text-white font-bold text-base mb-1">Engine JS</h4>
+                    <p class="text-xs text-slate-400">Regex & Parsing</p>
+                </div>
+
+                <!-- Step 3 -->
+                <div id="step-validation" class="glass-card p-6 rounded-2xl text-center relative group z-10 bg-[#0f172a]">
+                    <div class="w-14 h-14 mx-auto bg-slate-800/80 rounded-full flex items-center justify-center text-slate-400 mb-4 border border-slate-700 group-hover:border-energeticAmber group-hover:text-energeticAmber transition-all shadow-lg group-hover:shadow-energeticAmber/20">
+                        <i class="fa-solid fa-shield-halved text-xl"></i>
+                    </div>
+                    <h4 class="text-white font-bold text-base mb-1">Validação</h4>
+                    <p class="text-xs text-slate-400">Duplicatas & Formato</p>
+                </div>
+
+                <!-- Step 4 -->
+                <div id="step-output" class="glass-card p-6 rounded-2xl text-center relative group z-10 bg-[#0f172a]">
+                    <div class="w-14 h-14 mx-auto bg-slate-800/80 rounded-full flex items-center justify-center text-slate-400 mb-4 border border-slate-700 group-hover:border-trustGreen group-hover:text-trustGreen transition-all shadow-lg group-hover:shadow-trustGreen/20">
+                        <i class="fa-solid fa-code text-xl"></i>
+                    </div>
+                    <h4 class="text-white font-bold text-base mb-1">Output</h4>
+                    <p class="text-xs text-slate-400">Script Fortigate</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Collapsible Origin Story (Default Hidden) -->
+        <div id="infoSection" class="hidden overflow-hidden transition-all duration-500 ease-in-out mb-12">
+            <div class="p-1">
+                <!-- Story Card -->
+                <div class="glass-card rounded-2xl overflow-hidden relative border-t border-t-vibrantCyan/50">
+                    <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-vibrantCyan to-transparent opacity-50"></div>
+
+                    <div class="grid md:grid-cols-5 gap-0">
+                        <!-- Left: Visual/Icon -->
+                        <div class="md:col-span-2 bg-gradient-to-br from-slate-900 to-deepBlue p-8 flex flex-col justify-center items-center text-center relative overflow-hidden">
+                            <div class="absolute inset-0 opacity-20" style="background-image: radial-gradient(#00B4D8 1px, transparent 1px); background-size: 20px 20px;"></div>
+                            <div class="w-20 h-20 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center text-3xl text-vibrantCyan mb-4 shadow-[0_0_30px_rgba(0,180,216,0.2)]">
+                                <i class="fa-solid fa-stopwatch"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-white mb-2">A Gênese da Eficiência</h3>
+                            <p class="text-xs text-slate-400 uppercase tracking-widest">De horas para segundos</p>
+                        </div>
+
+                        <!-- Right: Text -->
+                        <div class="md:col-span-3 p-8 md:p-10 flex flex-col justify-center">
+                            <p class="text-slate-300 leading-relaxed mb-6 font-light">
+                                <strong class="text-white block mb-2 text-lg">Enfrentávamos um desafio titânico.</strong>
+                                A configuração manual de mais de 150 equipamentos de rede não era apenas trabalhosa — era uma batalha contra o relógio. Cada linha digitada no CLI era uma oportunidade de erro e perda de tempo precioso. A ineficiência não era uma opção.
+                            </p>
+                            <p class="text-slate-300 leading-relaxed mb-8 font-light">
+                                Desenvolvemos o <strong class="text-vibrantCyan">Validador RDP</strong> para transcender o trabalho manual. O que antes demandava horas de configuração complexa e tediosa, hoje é executado com precisão cirúrgica em <strong class="text-trustGreen">menos de 60 segundos</strong>.
+                            </p>
+
+                            <!-- Quick Specs -->
+                            <div class="pt-6 border-t border-white/5">
+                                <div class="flex items-center justify-between mb-4">
+                                    <span class="text-xs font-bold text-slate-500 uppercase">Guia Rápido</span>
+                                    <button id="downloadTemplateButton" class="text-[10px] font-bold text-vibrantCyan hover:text-white transition-colors flex items-center gap-2 bg-vibrantCyan/10 px-3 py-1 rounded-full hover:bg-vibrantCyan/20">
+                                        <i class="fa-solid fa-download"></i> BAIXAR CSV EXEMPLO
+                                    </button>
+                                </div>
+                                <div class="grid grid-cols-2 gap-4 text-xs font-mono text-slate-400">
+                                    <div class="flex items-center gap-2">
+                                        <i class="fa-solid fa-check text-trustGreen"></i> Col 1: Nome
+                                    </div>
+                                    <div class="flex items-center gap-2">
+                                        <i class="fa-solid fa-check text-trustGreen"></i> Col 2: MAC Address
+                                    </div>
+                                    <div class="flex items-center gap-2">
+                                        <i class="fa-solid fa-check text-trustGreen"></i> Formato: CSV/Excel
+                                    </div>
+                                    <div class="flex items-center gap-2">
+                                        <i class="fa-solid fa-check text-trustGreen"></i> Output: Fortigate
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
