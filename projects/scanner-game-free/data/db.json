@@ -1,31 +1,11 @@
 {
-  "last_updated": "2026-01-08T12:46:42",
-  "display_date": "08/01/2026 12:46",
+  "last_updated": "2026-01-09T12:45:18",
+  "display_date": "09/01/2026 12:45",
   "status": "Active",
   "epic_data": {
     "status": "Online",
     "latency": "510ms",
     "current_games": [
-      {
-        "title": "Wildgate",
-        "description": "Wildgate é um jogo de tiro multijogador PVP baseado em tripulação que combina combate tático entre navios e ação em primeira pessoa em ritmo acelerado. Evite perigos ambientais mortais, procure armas poderosas e atualizações de navios e seja a primeira tripulação a escapar com o Artefato.",
-        "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Jan1-7_Game16_giveaway_2560x1440_2560x1440-e996755894df43a4b28c831e7a0290d2",
-        "url": "https://store.epicgames.com/p/mysterygame2025-17",
-        "price": "0",
-        "start_date": "2026-01-01T16:00:00.000Z",
-        "end_date": "2026-01-08T16:00:00.000Z"
-      },
-      {
-        "title": "Total War: THREE KINGDOMS",
-        "description": "Total War: THREE KINGDOMS recria conflitos épicos na China antiga em uma era de heróis e lendas, combinando emocionante construção de império, política e conquista com impressionantes batalhas em tempo real.",
-        "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Jan1-7_Game17_giveaway_2560x14401_2560x1440-ac71243943c54e85955897af724527f2",
-        "url": "https://store.epicgames.com/p/mysterygame2025-16",
-        "price": "0",
-        "start_date": "2026-01-01T16:00:00.000Z",
-        "end_date": "2026-01-08T16:00:00.000Z"
-      }
-    ],
-    "upcoming_games": [
       {
         "title": "Bloons TD 6",
         "description": "Os Bloons estão de volta e melhores do que nunca! Prepare-se para um enorme jogo de defesa de torre em 3D projetado para oferecer horas e horas do melhor jogo de estratégia disponível.",
@@ -36,53 +16,343 @@
         "end_date": "2026-01-15T16:00:00.000Z"
       }
     ],
+    "upcoming_games": [
+      {
+        "title": "Styx: Master of Shadows",
+        "description": "Styx: Master of Shadows é um jogo de infiltração com elementos de RPG que se passa em um universo sombrio de fantasia, onde você se esgueira, rouba e assassina como Styx, um Goblin de dois séculos de idade.",
+        "image": "https://cdn1.epicgames.com/spt-assets/45709e0bb07e43bd9e652991779d4dfa/styx-master-of-shadows-17of4.jpg",
+        "url": "https://store.epicgames.com/p/0aa23c9aff4045d7b4b9b5ccc06b5c03",
+        "price": "$19.99",
+        "start_date": "2026-01-15T16:00:00.000Z",
+        "end_date": "2026-01-22T16:00:00.000Z"
+      },
+      {
+        "title": "Styx: Shards of Darkness",
+        "description": "Styx retorna em uma nova aventura furtiva! Explore e domine enormes ambientes abertos, passe furtivamente ou assassine novos inimigos e chefes e experimente a nova gama de habilidades e armas letais do arsenal do nosso goblin assassino.",
+        "image": "https://cdn1.epicgames.com/spt-assets/6ccdf6a1518741f0842177137adc00b0/styx-shards-of-darkness-1bh52.jpg",
+        "url": "https://store.epicgames.com/p/81e2a51d2be949b986993cdca25f4d7d",
+        "price": "$19.99",
+        "start_date": "2026-01-15T16:00:00.000Z",
+        "end_date": "2026-01-22T16:00:00.000Z"
+      }
+    ],
     "mystery_detected": false
   },
   "items": [
     {
-      "id": "https://store.epicgames.com/p/mysterygame2025-17",
-      "title": "GRÁTIS: Wildgate",
-      "original_title": "Wildgate",
-      "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Jan1-7_Game16_giveaway_2560x1440_2560x1440-e996755894df43a4b28c831e7a0290d2",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Free Games",
-      "date": "2026-01-08",
-      "summary": "Wildgate é um jogo de tiro multijogador PVP baseado em tripulação que combina combate tático entre navios e ação em primeira pessoa em ritmo acelerado. Evite perigos ambientais mortais, procure armas poderosas e atualizações de navios e seja a primeira tripulação a escapar com o Artefato.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/mysterygame2025-17"
-    },
-    {
-      "id": "https://store.epicgames.com/p/mysterygame2025-16",
-      "title": "GRÁTIS: Total War: THREE KINGDOMS",
-      "original_title": "Total War: THREE KINGDOMS",
-      "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Jan1-7_Game17_giveaway_2560x14401_2560x1440-ac71243943c54e85955897af724527f2",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Free Games",
-      "date": "2026-01-08",
-      "summary": "Total War: THREE KINGDOMS recria conflitos épicos na China antiga em uma era de heróis e lendas, combinando emocionante construção de império, política e conquista com impressionantes batalhas em tempo real.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/mysterygame2025-16"
-    },
-    {
       "id": "https://store.epicgames.com/p/68621af956534439a7f8de5a0e5873e5",
-      "title": "EM BREVE: Bloons TD 6",
+      "title": "GRÁTIS: Bloons TD 6",
       "original_title": "Bloons TD 6",
       "image": "https://cdn1.epicgames.com/spt-assets/764b2d57552c436590f50318bd7587f9/bloons-td-6-offer-1jl6n.jpg",
       "source_count": 1,
       "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-01-08",
-      "summary": "Disponível gratuitamente a partir de 08/01. Os Bloons estão de volta e melhores do que nunca! Prepare-se para um enorme jogo de defesa de torre em 3D projetado para oferecer horas e horas do melhor jogo de estratégia disponível.",
+      "category": "Free Games",
+      "date": "2026-01-09",
+      "summary": "Os Bloons estão de volta e melhores do que nunca! Prepare-se para um enorme jogo de defesa de torre em 3D projetado para oferecer horas e horas do melhor jogo de estratégia disponível.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/68621af956534439a7f8de5a0e5873e5"
+    },
+    {
+      "id": "https://store.epicgames.com/p/0aa23c9aff4045d7b4b9b5ccc06b5c03",
+      "title": "EM BREVE: Styx: Master of Shadows",
+      "original_title": "Styx: Master of Shadows",
+      "image": "https://cdn1.epicgames.com/spt-assets/45709e0bb07e43bd9e652991779d4dfa/styx-master-of-shadows-17of4.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-01-09",
+      "summary": "Disponível gratuitamente a partir de 15/01. Styx: Master of Shadows é um jogo de infiltração com elementos de RPG que se passa em um universo sombrio de fantasia, onde você se esgueira, rouba e assassina como Styx, um Goblin de dois séculos de idade.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/0aa23c9aff4045d7b4b9b5ccc06b5c03"
+    },
+    {
+      "id": "https://store.epicgames.com/p/81e2a51d2be949b986993cdca25f4d7d",
+      "title": "EM BREVE: Styx: Shards of Darkness",
+      "original_title": "Styx: Shards of Darkness",
+      "image": "https://cdn1.epicgames.com/spt-assets/6ccdf6a1518741f0842177137adc00b0/styx-shards-of-darkness-1bh52.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-01-09",
+      "summary": "Disponível gratuitamente a partir de 15/01. Styx retorna em uma nova aventura furtiva! Explore e domine enormes ambientes abertos, passe furtivamente ou assassine novos inimigos e chefes e experimente a nova gama de habilidades e armas letais do arsenal do nosso goblin assassino.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/81e2a51d2be949b986993cdca25f4d7d"
+    },
+    {
+      "id": "https://www.eurogamer.net/our-new-year-2026-gaming-resolutions-i-want-to-see-how-close-i-can-get-to-100-percenting-the-game-in-24-hours",
+      "title": "Nossas resoluções de jogos para o Ano Novo de 2026 - \"Quero ver o quão perto posso chegar de 100 por cento do jogo em 24 horas\"",
+      "original_title": "Our New Year 2026 gaming resolutions - \"I want to see how close I can get to 100 percenting the game in 24 hours\"",
+      "image": "https://assetsio.gnwcdn.com/2026-gaming-resolution.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-01-09",
+      "summary": "Janeiro é o mês que, onde moro, no sul da Inglaterra, todo mundo volta a ficar sério. Toda a parafernália do Natal – toda a alegria, alegria e iluminação colorida – é eliminada em favor de metas sérias para o ano que se inicia. ...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/our-new-year-2026-gaming-resolutions-i-want-to-see-how-close-i-can-get-to-100-percenting-the-game-in-24-hours"
+    },
+    {
+      "id": "https://www.eurogamer.net/cygames-ai-studio-formed",
+      "title": "Desenvolvedores do amado jogo de cavalos, Umamusume, confirmam planos para estabelecer um subestúdio focado em IA",
+      "original_title": "Developers of beloved horse game, Umamusume, confirm plans to establish AI-focused sub-studio",
+      "image": "https://assetsio.gnwcdn.com/umamusume-pretty-derby-running.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-01-09",
+      "summary": "Cygames, desenvolvedora japonesa de videogames responsável por uma variedade de jogos populares, incluindo Umamusume: Pretty Derby, anunciou sua intenção de criar uma empresa subsidiária focada em IA. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/cygames-ai-studio-formed"
+    },
+    {
+      "id": "https://www.eurogamer.net/xbox-rpg-avowed-is-finally-coming-to-playstation-5",
+      "title": "Um ano depois, o Xbox RPG Avowed está finalmente chegando ao PlayStation 5",
+      "original_title": "A year later, Xbox RPG Avowed is finally coming to PlayStation 5",
+      "image": "https://assetsio.gnwcdn.com/avowed-title-alternative.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-01-09",
+      "summary": "O antigo RPG exclusivo do Xbox, Avowed, está chegando ao PlayStation 5 e será lançado no primeiro aniversário do jogo: 17 de fevereiro de 2026 (nota: o lançamento original para PC e Xbox Series S/X aconteceu em 18 de fevereiro de 2025, mas é apenas um dia...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/xbox-rpg-avowed-is-finally-coming-to-playstation-5"
+    },
+    {
+      "id": "https://www.eurogamer.net/clair-obscurs-final-boss-was-a-bit-easier-than-developer-sandfall-planned-mostly-because-everyone-actually-engaged-with-all-the-side-content",
+      "title": "O chefe final de Clair Obscur foi um pouco mais fácil do que o desenvolvedor Sandfall planejou, principalmente porque todos realmente se envolveram com todo o conteúdo secundário",
+      "original_title": "Clair Obscur's final boss was a bit easier than developer Sandfall planned, mostly because everyone actually engaged with all the side content",
+      "image": "https://assetsio.gnwcdn.com/clair-obscur-steam-headline-2.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-01-09",
+      "summary": "Clair Obscur: Sandfall, desenvolvedor da Expedition 33, subestimou o quanto os jogadores se envolveriam com as várias missões secundárias e conteúdo opcional do jogo e, como resultado dessa moagem extra, a luta contra o chefe final seria um pouco desanimadora. Rea...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/clair-obscurs-final-boss-was-a-bit-easier-than-developer-sandfall-planned-mostly-because-everyone-actually-engaged-with-all-the-side-content"
+    },
+    {
+      "id": "https://www.techpowerup.com/345017/geekom-at-2026-ces-laptops-and-mini-pcs-hands-on",
+      "title": "GEEKOM na CES 2026: Laptops e Mini PCs práticos",
+      "original_title": "GEEKOM at 2026 CES: Laptops and Mini PCs Hands On",
+      "image": "https://tpucdn.com/img/LLWQ6ewBSc88dJ3D_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-01-09",
+      "summary": "GEEKOM apresentou sua linha de laptops e mini PCs com foco em sua linha atualizada de 2026 aqui na CES. Durante nossa visita ao estande da GEEKOM, colocamos em nossas mãos os novos laptops GeekBook X14 Pro e X16 Pro, junto com os mini PCs A9 Max e IT15. O Ge...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/345017/geekom-at-2026-ces-laptops-and-mini-pcs-hands-on"
+    },
+    {
+      "id": "https://www.techpowerup.com/345018/new-gpu-startup-bolt-graphics-promises-2-5x-path-tracing-performance-of-an-rtx-5090",
+      "title": "Novo gráfico Bolt de inicialização da GPU promete desempenho de rastreamento de caminho 2,5x de um RTX 5090",
+      "original_title": "New GPU Startup Bolt Graphics Promises 2.5x Path Tracing Performance of an RTX 5090",
+      "image": "https://tpucdn.com/img/361fVp22XpSR1klc_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-01-09",
+      "summary": "Bolt Graphics é uma nova startup de hardware gráfico de computador com sede em Sunnyvale, Califórnia. Esta empresa quer agitar as coisas no mercado de hardware gráfico de consumo com uma arquitetura gráfica totalmente nova e inovadora para renderização gráfica, jogos...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/345018/new-gpu-startup-bolt-graphics-promises-2-5x-path-tracing-performance-of-an-rtx-5090"
+    },
+    {
+      "id": "https://www.techpowerup.com/345016/good-way-shows-off-thunderbolt-5-egpu-dock",
+      "title": "Good Way mostra dock Thunderbolt 5 eGPU",
+      "original_title": "Good Way Shows Off Thunderbolt 5 eGPU Dock",
+      "image": "https://tpucdn.com/img/jtnruBb0ekWipInc_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-01-09",
+      "summary": "A sua placa gráfica externa precisa ser completamente fechada? Pode ser um dock para você aproveitar o cartão e ele se ventilar melhor? A Good Way tem uma possível resposta para esta solução, com seu novo DBF7059 Thunderbolt 5 eGPU Dock. Isso...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/345016/good-way-shows-off-thunderbolt-5-egpu-dock"
+    },
+    {
+      "id": "https://www.techpowerup.com/345011/tcl-reveals-active-tracking-ai-monitor-alongside-display-lineup-at-ces-2026",
+      "title": "TCL revela monitor de IA de rastreamento ativo junto com linha de monitores na CES 2026",
+      "original_title": "TCL Reveals Active-Tracking AI Monitor Alongside Display Lineup at CES 2026",
+      "image": "https://tpucdn.com/img/FarOY9k2FwvZwOzE_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-01-09",
+      "summary": "No estande da TCL na CES 2026, um dos produtos mais incomuns em exibição foi o CyboPal ONE, um monitor robótico de IA com rastreamento ativo. A TCL fornece a tela 4K enquanto o sistema CyboPal cuida da robótica e do software. O monitor usa uma base motorizada de 6 DOF...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/345011/tcl-reveals-active-tracking-ai-monitor-alongside-display-lineup-at-ces-2026"
+    },
+    {
+      "id": "https://www.techpowerup.com/345015/razer-project-motoko-ai-headset-watches-and-learns",
+      "title": "Headset Razer “Project Motoko” AI observa e aprende",
+      "original_title": "Razer \"Project Motoko\" AI Headset Watches and Learns",
+      "image": "https://tpucdn.com/img/r4IJL8j7CeiRpNfq_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-01-09",
+      "summary": "A Razer apareceu na CES 2026 com um protótipo de fone de ouvido que mais parece um projeto de pesquisa de ficção científica do que um produto acabado. “Projeto Motoko” é um fone de ouvido sem fio que a empresa descreve como um “assistente de IA em tempo integral”. Possui dois e...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/345015/razer-project-motoko-ai-headset-watches-and-learns"
+    },
+    {
+      "id": "https://www.techpowerup.com/345014/darkflash-cases-coolers-and-keyboards-at-ces-2026",
+      "title": "Capas, coolers e teclados darkFlash na CES 2026",
+      "original_title": "darkFlash Cases, Coolers, and Keyboards at CES 2026",
+      "image": "https://tpucdn.com/img/tXweVG2cycD38C0f_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-01-09",
+      "summary": "darkFlash trouxe uma nova linha de gabinetes, coolers de CPU e teclados para jogos para a 2026 International CES. Para começar, temos o TH285 Plus, uma fascinante torre média panorâmica com vidro em três superfícies, uma radiação lateral recuada...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/345014/darkflash-cases-coolers-and-keyboards-at-ces-2026"
+    },
+    {
+      "id": "https://www.techpowerup.com/345013/cps-pccooler-at-2026-ces-first-air-cpu-cooler-with-true-color-display",
+      "title": "CPS PCCooler na CES 2026: Primeiro Air CPU Cooler com display True-Color",
+      "original_title": "CPS PCCooler at 2026 CES: First Air CPU Cooler with True-Color Display",
+      "image": "https://tpucdn.com/img/MXwCXCgVDBJTAVZG_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-01-09",
+      "summary": "CPS PCCooler trouxe uma grande seleção de novos gabinetes, PSUs, AIO e coolers de CPU do tipo ar, para a 2026 International CES. Para começar, encontramos suas séries KN, YS e YT premium ATX 3.1 PSU, cada uma com 12V moderno...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/345013/cps-pccooler-at-2026-ces-first-air-cpu-cooler-with-true-color-display"
+    },
+    {
+      "id": "https://www.techpowerup.com/345010/razer-brings-local-ai-development-to-power-users-at-ces-2026",
+      "title": "Razer traz desenvolvimento local de IA para usuários avançados na CES 2026",
+      "original_title": "Razer Brings Local AI Development to Power Users at CES 2026",
+      "image": "https://tpucdn.com/img/Yj5fLgNv0KHQW85m_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-01-09",
+      "summary": "A Razer entrou no espaço de desenvolvimento de IA na CES 2026 com o Forge AI Dev Workstation, um computador poderoso construído para lidar com tarefas de IA localmente, em vez de depender de serviços em nuvem. O sistema suporta até quatro placas gráficas profissionais, AMD ou...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/345010/razer-brings-local-ai-development-to-power-users-at-ces-2026"
+    },
+    {
+      "id": "https://www.techpowerup.com/345009/razer-project-madison-gaming-chair-has-real-time-haptic-feedback-and-integrated-speakers",
+      "title": "A cadeira para jogos Razer “Project Madison” tem feedback tátil em tempo real e alto-falantes integrados",
+      "original_title": "Razer \"Project Madison\" Gaming Chair Has Real-Time Haptic Feedback and Integrated Speakers",
+      "image": "https://tpucdn.com/img/3Yr9zpFTGZCmyb4n_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-01-09",
+      "summary": "Na CES 2026, a estrela do estande da Razer foi seu novo projeto para uma experiência de jogo mais envolvente. Chamada de “Projeto Madison”, é uma cadeira para jogos projetada para proporcionar uma “sensação” adicional vinda do sistema para o seu corpo. A Razer consegue isso implementando ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/345009/razer-project-madison-gaming-chair-has-real-time-haptic-feedback-and-integrated-speakers"
+    },
+    {
+      "id": "https://www.techpowerup.com/345008/netac-shows-ddr5-memory-portable-ssds-and-pcie-5-0-m-2-nvme-drives-at-ces-2026",
+      "title": "Netac mostra memória DDR5, SSDs portáteis e unidades PCIe 5.0 M.2 NVMe na CES 2026",
+      "original_title": "Netac Shows DDR5 Memory, Portable SSDs, and PCIe 5.0 M.2 NVMe Drives at CES 2026",
+      "image": "https://tpucdn.com/img/7HepaNzOaq2X6CK5_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-01-09",
+      "summary": "No estande da Netac na CES 2026, vimos uma frota de soluções de memória e armazenamento que a empresa preparou para o mercado consumidor. Começando com sua linha de memória Basic, ela inclui memória DDR5 rodando até 4.800 MT/s com capacidades de até 32 ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/345008/netac-shows-ddr5-memory-portable-ssds-and-pcie-5-0-m-2-nvme-drives-at-ces-2026"
+    },
+    {
+      "id": "https://www.eurogamer.net/2026s-rumoured-witcher-3-expansion-will-take-us-further-afield-than-ever-before-per-new-rumours",
+      "title": "A suposta expansão de Witcher 3 de 2026 nos levará mais longe do que nunca, de acordo com novos rumores",
+      "original_title": "2026's rumoured Witcher 3 expansion will take us further afield than ever before, per new rumours",
+      "image": "https://assetsio.gnwcdn.com/witcher-3-zerrakania.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Rumor",
+      "date": "2026-01-08",
+      "summary": "Tem sido um ano agitado até agora para um jogo com mais de 10 anos. Se você não está acompanhando, na semana passada perguntamos \"haverá realmente uma nova expansão de Witcher 3 este ano?\", respondendo aos comentários de Borys Nie&sacutepielak, um sou confiável...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/2026s-rumoured-witcher-3-expansion-will-take-us-further-afield-than-ever-before-per-new-rumours"
+    },
+    {
+      "id": "https://www.eurogamer.net/phasmophobia-studio-kinetic-moves-into-indie-publishing",
+      "title": "O estúdio Phasmophobia Kinetic passa para a publicação independente, mas está totalmente focado no iminente lançamento 1.0 do jogo de terror",
+      "original_title": "Phasmophobia studio Kinetic moves into indie publishing but is otherwise entirely focused on horror game's impending 1.0 release",
+      "image": "https://assetsio.gnwcdn.com/Phasmophobia-Key-art.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-01-08",
+      "summary": "O estúdio Phasmophobia, Kinetic Games, está se expandindo para a publicação de jogos independentes e está buscando ativamente \"jogos criativos de pequenas equipes e desenvolvedores solo em todo o mundo, que tenham uma visão clara para seu título e estejam de 12 a 18 meses a partir do lançamento\", informou uma imprensa...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/phasmophobia-studio-kinetic-moves-into-indie-publishing"
+    },
+    {
+      "id": "https://www.eurogamer.net/xbox-developer-direct-showcase-january-2026",
+      "title": "O Xbox hospedará um Developer Direct no final deste mês, apresentando Fable, Forza e muito mais",
+      "original_title": "Xbox is hosting a Developer Direct later this month, featuring Fable, Forza, and more",
+      "image": "https://assetsio.gnwcdn.com/Fable---Xbox-Games-Showcase-1-10-screenshot.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-01-08",
+      "summary": "A Microsoft anunciou outro Developer Direct, marcado para 22 de janeiro. Contará com Fable, Forza e Beast of Reincarnation. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/xbox-developer-direct-showcase-january-2026"
+    },
+    {
+      "id": "https://www.eurogamer.net/nintendos-got-two-new-joy-con-2-colours-for-switch-2",
+      "title": "A Nintendo tem duas novas cores do Joy-Con 2 para o Switch 2, e elas serão lançadas no próximo mês",
+      "original_title": "Nintendo's got two new Joy-Con 2 colours for Switch 2, and they're due next month",
+      "image": "https://assetsio.gnwcdn.com/switch-2-controllers-purple-green.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-01-08",
+      "summary": "A Nintendo anunciou duas novas cores de controle Joy-Con 2 para Switch 2 e disse que serão lançadas no próximo mês. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/nintendos-got-two-new-joy-con-2-colours-for-switch-2"
     },
     {
       "id": "https://www.eurogamer.net/rockstar-games-and-iwgb-clash-at-preliminary-hearing-for-fired-gta-6-workers",
@@ -113,276 +383,6 @@
         "Eurogamer"
       ],
       "url": "https://www.eurogamer.net/netease-pirate-rpg-sea-of-remnants-gets-a-new-gameplay-trailer-showcasing-drink-offs-mahjong-and-ocean-combat"
-    },
-    {
-      "id": "https://www.eurogamer.net/avatar-frontiers-of-pandora-fire-and-ash-player-boost",
-      "title": "Avatar: Frontiers of Pandora vê um aumento no número de jogadores após o domínio de bilheteria de Avatar: Fire e Ash, e a adição de um DLC surpreendentemente decente e atualização",
-      "original_title": "Avatar: Frontiers of Pandora sees a boost in players after Avatar: Fire and Ash's box office domination, and the addition of a surprisingly decent DLC drop and update",
-      "image": "https://assetsio.gnwcdn.com/Avatar-header_XjBwH1k.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-01-08",
-      "summary": "O mundo ficou azul mais uma vez. Avatar: Fire and Ash, de James Cameron, está incendiando as bilheterias, já tendo ultrapassado a marca global de US$ 1 bilhão e provavelmente dando início a conversas sérias sobre Avatar 4 e 5 (ambos estão escritos, mas esperando...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/avatar-frontiers-of-pandora-fire-and-ash-player-boost"
-    },
-    {
-      "id": "https://www.eurogamer.net/a-mysterious-new-life-is-strange-game-has-just-been-rated-in-europe",
-      "title": "Um misterioso novo jogo Life is Strange acaba de ser avaliado na Europa",
-      "original_title": "A mysterious new Life is Strange game has just been rated in Europe",
-      "image": "https://assetsio.gnwcdn.com/Chloe-in-Life-is-Strange.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-01-08",
-      "summary": "Um novo jogo Life is Strange, intitulado Life is Strange: Reunion, foi avaliado na Europa. Desde que foi descoberto pelos fãs, a presença do jogo no site do PEGI foi removida. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/a-mysterious-new-life-is-strange-game-has-just-been-rated-in-europe"
-    },
-    {
-      "id": "https://www.techpowerup.com/344969/alphacool-brings-benchtable-external-radiators-and-more-to-ces-2026",
-      "title": "Alphacool traz bancada, radiadores externos e muito mais para a CES 2026",
-      "original_title": "Alphacool Brings Benchtable, External Radiators, and More to CES 2026",
-      "image": "https://tpucdn.com/img/cyZzGhkoLHh0Qt9f_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-01-08",
-      "summary": "A tela CES 2026 da Alphacool estava repleta de surpresas e abordamos um pouco aqui. No entanto, a empresa tem muito mais para mostrar. Durante nossa visita, notamos que havia uma amostra do próximo gabinete aberto para PC chamado Benchtable, que...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/344969/alphacool-brings-benchtable-external-radiators-and-more-to-ces-2026"
-    },
-    {
-      "id": "https://www.techpowerup.com/344968/ecs-liva-mini-pcs-copilot-notebooks-and-kiosk-motherboards-at-ces-2026",
-      "title": "Mini PCs ECS LIVA, notebooks Copilot+ e placas-mãe quiosque na CES 2026",
-      "original_title": "ECS LIVA Mini PCs, Copilot+ Notebooks, and Kiosk Motherboards at CES 2026",
-      "image": "https://tpucdn.com/img/FKxt8aVA5aCRvZHT_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-01-08",
-      "summary": "O ECS Elitegroup trouxe uma série de novos mini-PCs LIVA, notebooks, PCs industriais e placas-mãe básicas para quiosques e construções de PCs para pequenas empresas. Começamos nosso tour pelo estande da ECS com o US50AR, um notebook convencional de 15,6 polegadas construído...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/344968/ecs-liva-mini-pcs-copilot-notebooks-and-kiosk-motherboards-at-ces-2026"
-    },
-    {
-      "id": "https://www.techpowerup.com/344967/vesa-demos-dp80ll-displayhdr-true-black-1000-and-clearmr-standards-at-ces",
-      "title": "VESA demonstra padrões DP80LL, DisplayHDR True Black 1000 e ClearMR na CES",
-      "original_title": "VESA Demos DP80LL, DisplayHDR True Black 1000 and ClearMR Standards at CES",
-      "image": "https://tpucdn.com/img/3aqS7obV09iQ2DMJ_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-01-08",
-      "summary": "Este ano, a VESA não anunciou nada de novo no espaço do consumidor, mas a organização de padrões estava demonstrando alguns dos anúncios do ano passado. Uma das demonstrações mais interessantes foi dos novos cabos DP80LL que foram anunciados nesta época no ano passado....",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/344967/vesa-demos-dp80ll-displayhdr-true-black-1000-and-clearmr-standards-at-ces"
-    },
-    {
-      "id": "https://www.techpowerup.com/344966/carbice-shows-off-ice-pad-a-high-performance-carbon-nanotube-thermal-pad",
-      "title": "Carbice mostra Ice Pad, uma almofada térmica de nanotubos de carbono de alto desempenho",
-      "original_title": "Carbice Shows Off Ice Pad, a High-Performance Carbon Nanotube Thermal Pad",
-      "image": "https://tpucdn.com/img/kjqXtT3kfpBjcGqR_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-01-08",
-      "summary": "Carbice é um novo participante na CES, e conhecemos seu novo produto revolucionário, chamado simplesmente Ice Pad. Esta é uma almofada térmica de alto desempenho baseada em nanotubos de carbono, uma tecnologia mais avançada do que as almofadas térmicas à base de grafite de, digamos...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/344966/carbice-shows-off-ice-pad-a-high-performance-carbon-nanotube-thermal-pad"
-    },
-    {
-      "id": "https://www.techpowerup.com/344964/alphacool-at-ces-2026-waterblocks-manifolds-and-massive-monoblocks",
-      "title": "Alphacool na CES 2026: Waterblocks, Manifolds e Massive Monoblocks",
-      "original_title": "Alphacool at CES 2026: Waterblocks, Manifolds, and Massive Monoblocks",
-      "image": "https://tpucdn.com/img/NWY2cpb1zrcBQkV1_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-01-08",
-      "summary": "Na CES 2026, o estande da Alphacool estava repleto de uma ampla gama de produtos de refrigeração líquida. Entre suas ofertas básicas estava o Core GPU AIO, parte da série Core da Alphacool, fornecendo uma solução abrangente de resfriamento para vários modelos de GPU, incluindo...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/344964/alphacool-at-ces-2026-waterblocks-manifolds-and-massive-monoblocks"
-    },
-    {
-      "id": "https://www.techpowerup.com/344961/sharkoon-launches-sk6-argb-pc-case",
-      "title": "(PR) Sharkoon lança gabinete para PC SK6 ARGB",
-      "original_title": "(PR) Sharkoon Launches SK6 ARGB PC Case",
-      "image": "https://tpucdn.com/img/SKTEXB1MyMcJBO0M_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-01-08",
-      "summary": "Se você deseja um gabinete para PC com refrigeração de alto desempenho e também um visual moderno com vidro contínuo, o SK6 ARGB é a escolha certa. Para uma iluminação impressionante, existem três ventoinhas ARGB PWM pré-instaladas - duas das quais têm painel lateral...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/344961/sharkoon-launches-sk6-argb-pc-case"
-    },
-    {
-      "id": "https://www.techpowerup.com/344963/ayaneo-officially-releases-its-mini-pc-am03",
-      "title": "(PR) Ayaneo lança oficialmente seu Mini PC AM03",
-      "original_title": "(PR) Ayaneo Officially Releases Its Mini PC AM03",
-      "image": "https://tpucdn.com/img/RUO5kiZEIXQSb3oM_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-01-08",
-      "summary": "Ayaneo lança oficialmente o novo Mini PC AM03. Combinando design artístico com desempenho excepcional, o AM03 redefine a estética do desktop e traz uma experiência única de entretenimento de desktop para os jogadores. A partir de ¥ 2.699, Ayaneo Mini PC AM0...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/344963/ayaneo-officially-releases-its-mini-pc-am03"
-    },
-    {
-      "id": "https://www.techpowerup.com/344962/acemagic-showcases-next-generation-ai-and-gaming-mini-pcs-at-ces-2026",
-      "title": "(PR) Acemagic apresenta IA de última geração e mini PCs para jogos na CES 2026",
-      "original_title": "(PR) Acemagic Showcases Next-Generation AI and Gaming Mini PCs at CES 2026",
-      "image": "https://tpucdn.com/img/1OBOIzCyWWw8MQwt_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-01-08",
-      "summary": "A Acemagic revelou sua mais recente linha de Mini PCs na CES 2026, destacando avanços significativos na computação local de IA, criação de conteúdo e desempenho de jogos. Entre as principais exposições estava o Mini PC carro-chefe da Acemagic equipado com AMD Ryzen AI 9 HX 470...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/344962/acemagic-showcases-next-generation-ai-and-gaming-mini-pcs-at-ces-2026"
-    },
-    {
-      "id": "https://www.techpowerup.com/344957/thermaltake-adds-wood-accents-to-tr300-mid-tower-atx-pc-case",
-      "title": "Thermaltake adiciona detalhes em madeira ao gabinete para PC TR300 Mid Tower ATX",
-      "original_title": "Thermaltake Adds Wood Accents to TR300 Mid Tower ATX PC Case",
-      "image": "https://tpucdn.com/img/7vTIonfftOKQfxOd_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-01-08",
-      "summary": "A Thermaltake exibiu seus gabinetes para PC TR300 e TR200 ao lado de uma versão com detalhes em madeira do gabinete para PC TR100 SFF na Computex em maio de 2025, e anunciou que os gabinetes TR200 e TR300 também estariam disponíveis com painéis frontais de madeira, no entanto, este d...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/344957/thermaltake-adds-wood-accents-to-tr300-mid-tower-atx-pc-case"
-    },
-    {
-      "id": "https://www.techpowerup.com/344956/thermaltake-showcases-core-px-infinity-ws-argb-case",
-      "title": "Thermaltake apresenta gabinete Core PX Infinity WS ARGB",
-      "original_title": "Thermaltake Showcases Core PX Infinity WS ARGB Case",
-      "image": "https://tpucdn.com/img/psABPPEBTobgXOZ8_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-01-08",
-      "summary": "A Thermaltake estreou uma série de novos gabinetes retrô para PC e alguns novos hardwares de fonte de alimentação chamativos na CES 2026, mas além do gabinete Koralie TR100 de edição limitada, um dos gabinetes mais marcantes apresentados no salão de Las Vegas deve ser o Thermaltake.",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/344956/thermaltake-showcases-core-px-infinity-ws-argb-case"
-    },
-    {
-      "id": "https://www.eurogamer.net/netflix-confirms-the-witcher-series-will-end-this-year",
-      "title": "Netflix confirma que a série The Witcher terminará este ano",
-      "original_title": "Netflix confirms The Witcher series will end this year",
-      "image": "https://assetsio.gnwcdn.com/liam-hemsworth-witcher-netflix.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-01-07",
-      "summary": "A Netflix confirmou hoje que a quinta e última temporada de The Witcher irá ao ar no serviço de streaming este ano. Segue-se a 4ª temporada em rápida sucessão - a série foi lançada no final de outubro do ano passado. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/netflix-confirms-the-witcher-series-will-end-this-year"
-    },
-    {
-      "id": "https://www.eurogamer.net/witcher-3-expansion-rumours-analyst-100-percent-certain-cd-projekt-red-will-release-significant-new-content-this-year",
-      "title": "Os rumores da expansão de Witcher 3 se recusam a desaparecer: o analista original está “100% certo de que o CD Projekt Red lançará novos conteúdos significativos este ano”",
-      "original_title": "The Witcher 3 expansion rumours refuse to go away: originating analyst is \"100% certain CD Projekt Red will release significant new content this year\"",
-      "image": "https://assetsio.gnwcdn.com/witcher-3-geralt-roach-lanterns.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Rumor",
-      "date": "2026-01-07",
-      "summary": "O analista que previu o lançamento da expansão Witcher 3 em 2026 me disse que está “100 por cento certo de que [CD Projekt Red] lançará novos conteúdos significativos este ano”. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/witcher-3-expansion-rumours-analyst-100-percent-certain-cd-projekt-red-will-release-significant-new-content-this-year"
-    },
-    {
-      "id": "https://www.eurogamer.net/raid-shadow-legends-collaboration-assassins-creed-black-flag-remake",
-      "title": "Os fãs estão convencidos de que uma colaboração em Raid: Shadow Legends pode sinalizar a chegada iminente de um remake de Assassin's Creed Black Flag",
-      "original_title": "Fans are convinced a Raid: Shadow Legends collaboration could signal the impending arrival of an Assassin's Creed Black Flag remake",
-      "image": "https://assetsio.gnwcdn.com/AC-black-flag_JY4OziI.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-01-07",
-      "summary": "Há muito tempo que ouvimos rumores de um remake completo de Assassin's Creed: Black Flag. Após o desenvolvimento conturbado de Skull & Bones, esses recursos da geração atual poderiam impulsionar a produção de tal projeto, então a ideia nunca surgiu...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/raid-shadow-legends-collaboration-assassins-creed-black-flag-remake"
-    },
-    {
-      "id": "https://www.eurogamer.net/hollywood-sure-sounds-keen-to-make-an-arc-raiders-film",
-      "title": "Hollywood certamente parece interessada em fazer um filme de Arc Raiders",
-      "original_title": "Hollywood sure sounds keen to make an Arc Raiders film",
-      "image": "https://assetsio.gnwcdn.com/screenshot-from-arc-raiders-showing-a-chap-hiding-behind-a-car-overlaid-on-an-image-of-the-Hollywood-sign_w0CaAhN.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-01-07",
-      "summary": "Aparentemente, existem muitos estúdios interessados ​​em fazer um filme ou programa de TV baseado no atirador de Embark, Arc Raiders. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/hollywood-sure-sounds-keen-to-make-an-arc-raiders-film"
-    },
-    {
-      "id": "https://www.eurogamer.net/fallout-4-new-vegas-player-numbers-skyrocket-thanks-to-the-unavoidable-impact-of-fallout-season-2",
-      "title": "Fallout 4, o número de jogadores de New Vegas dispara graças ao impacto inevitável da 2ª temporada de Fallout",
-      "original_title": "Fallout 4, New Vegas player numbers skyrocket thanks to the unavoidable impact of Fallout Season 2",
-      "image": "https://assetsio.gnwcdn.com/fallout-tv_pmPj3u2.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-01-07",
-      "summary": "Se você ainda não assistiu, Fallout Season 2 é muito bom e tem feito muito sucesso. Tanto é verdade que a 3ª temporada já está em fase de escrita. Infelizmente, novos jogos ainda estão distantes, e é por isso que tanto veteranos quanto...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/fallout-4-new-vegas-player-numbers-skyrocket-thanks-to-the-unavoidable-impact-of-fallout-season-2"
-    },
-    {
-      "id": "https://www.eurogamer.net/danganronpa-and-the-hundred-line-last-defense-academy-creator-blames-an-insult-from-a-co-worker-on-getting-him-back-into-game-development",
-      "title": "O criador de Danganronpa e The Hundred Line: Last Defense Academy culpa um insulto de um colega de trabalho por trazê-lo de volta ao desenvolvimento de jogos",
-      "original_title": "Danganronpa and The Hundred Line: Last Defense Academy creator blames an insult from a co-worker on getting him back into game development",
-      "image": "https://assetsio.gnwcdn.com/hundred-line.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-01-07",
-      "summary": "Kazutaka Kodaka é um dos nomes mais reconhecidos na indústria de games para quem realmente gosta de visual novels inspiradas em anime. Recentemente, ele liderou o desenvolvimento de The Hundred Line: Last Defense Academy, e seu nome pode ser familiar para qualquer um...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/danganronpa-and-the-hundred-line-last-defense-academy-creator-blames-an-insult-from-a-co-worker-on-getting-him-back-into-game-development"
     }
   ]
 }
