@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-01-09T12:45:18",
-  "display_date": "09/01/2026 12:45",
+  "last_updated": "2026-01-10T12:40:38",
+  "display_date": "10/01/2026 12:40",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "510ms",
+    "latency": "220ms",
     "current_games": [
       {
         "title": "Bloons TD 6",
-        "description": "Os Bloons estão de volta e melhores do que nunca! Prepare-se para um enorme jogo de defesa de torre em 3D projetado para oferecer horas e horas do melhor jogo de estratégia disponível.",
+        "description": "Os Bloons estão de volta e melhores do que nunca! Prepare-se para um enorme jogo de defesa de torre 3D projetado para oferecer horas e horas do melhor jogo de estratégia disponível.",
         "image": "https://cdn1.epicgames.com/spt-assets/764b2d57552c436590f50318bd7587f9/bloons-td-6-offer-1jl6n.jpg",
         "url": "https://store.epicgames.com/p/68621af956534439a7f8de5a0e5873e5",
         "price": "$13.99",
@@ -47,8 +47,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-01-09",
-      "summary": "Os Bloons estão de volta e melhores do que nunca! Prepare-se para um enorme jogo de defesa de torre em 3D projetado para oferecer horas e horas do melhor jogo de estratégia disponível.",
+      "date": "2026-01-10",
+      "summary": "Os Bloons estão de volta e melhores do que nunca! Prepare-se para um enorme jogo de defesa de torre 3D projetado para oferecer horas e horas do melhor jogo de estratégia disponível.",
       "sources": [
         "Epic Games Store"
       ],
@@ -62,7 +62,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-01-09",
+      "date": "2026-01-10",
       "summary": "Disponível gratuitamente a partir de 15/01. Styx: Master of Shadows é um jogo de infiltração com elementos de RPG que se passa em um universo sombrio de fantasia, onde você se esgueira, rouba e assassina como Styx, um Goblin de dois séculos de idade.",
       "sources": [
         "Epic Games Store"
@@ -77,12 +77,177 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-01-09",
+      "date": "2026-01-10",
       "summary": "Disponível gratuitamente a partir de 15/01. Styx retorna em uma nova aventura furtiva! Explore e domine enormes ambientes abertos, passe furtivamente ou assassine novos inimigos e chefes e experimente a nova gama de habilidades e armas letais do arsenal do nosso goblin assassino.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/81e2a51d2be949b986993cdca25f4d7d"
+    },
+    {
+      "id": "https://www.eurogamer.net/what-weve-been-playing-fishcakes",
+      "title": "O que estamos brincando - \"Eu fiz bolinhos de peixe e os dei para um rapaz congelado chamado Pirate Pete\"",
+      "original_title": "What we've been playing - \"I then made fishcakes and fed them to a time-frozen lad called Pirate Pete\"",
+      "image": "https://assetsio.gnwcdn.com/fishcakes-photo.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-01-10",
+      "summary": "Olá e Feliz Ano Novo - posso dizer isso agora? Não tenho certeza de onde está o ponto de corte. Algumas pessoas ainda têm suas árvores de Natal montadas. Tivemos o nosso antes do Ano Novo. Bem-vindo de volta ao que estamos jogando! Ou como gosto de chamar esta parte...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/what-weve-been-playing-fishcakes"
+    },
+    {
+      "id": "https://www.techpowerup.com/345046/zettlab-brings-its-d4-and-d6-ai-nas-to-ces-2026",
+      "title": "Zettlab traz seu NAS D4 e D6 AI para a CES 2026",
+      "original_title": "Zettlab Brings its D4 and D6 AI NAS to CES 2026",
+      "image": "https://tpucdn.com/img/5fUREMrqACzZke5M_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-01-10",
+      "summary": "Nos últimos anos, vimos muitas novas entradas no mercado de NAS e outro novo player é a Zettlab. A empresa realizou uma campanha bem-sucedida no Kickstarter, arrecadando mais de US$ 1,48 milhão de 1.820 apoiadores. A empresa trouxe o nível básico D4 ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/345046/zettlab-brings-its-d4-and-d6-ai-nas-to-ces-2026"
+    },
+    {
+      "id": "https://www.techpowerup.com/345045/j5create-shows-docks-with-built-in-displays-8k-144-hz-support-and-ai-meeting-tools-at-ces-2026",
+      "title": "j5create mostra docks com monitores integrados, suporte a 8K 144 Hz e ferramentas de reunião de IA na CES 2026",
+      "original_title": "j5create Shows Docks with Built-In Displays, 8K 144 Hz Support, and AI Meeting Tools at CES 2026",
+      "image": "https://tpucdn.com/img/6kNOFYDPwSQCEPND_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-01-10",
+      "summary": "A j5create dedicou seu estande na CES 2026 a soluções de conectividade de ponta que aprimoram a infraestrutura de TI moderna, especialmente em streaming de vídeo em altas resoluções e taxas de atualização. Todos os novos produtos são baseados na série Thunderbolt 5, oferecendo 12...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/345045/j5create-shows-docks-with-built-in-displays-8k-144-hz-support-and-ai-meeting-tools-at-ces-2026"
+    },
+    {
+      "id": "https://www.techpowerup.com/345044/acemagic-shows-amd-gorgon-point-and-intel-panther-lake-mini-pcs-at-ces-2026",
+      "title": "Acemagic mostra mini-PCs AMD “Gorgon Point” e Intel “Panther Lake” na CES 2026",
+      "original_title": "Acemagic Shows AMD \"Gorgon Point\" and Intel \"Panther Lake\" Mini-PCs at CES 2026",
+      "image": "https://tpucdn.com/img/DLhy13ugfXgVF4lm_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-01-10",
+      "summary": "No CES 2026 International Show, a Acemagic foi uma das poucas empresas a apresentar mini PCs com os recém-anunciados chips AMD “Gorgon Point” e Intel “Panther Lake”. Em um mini PC Board 3 Dual-C inspirado na antiga estética retrô, a Acemagic tem c...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/345044/acemagic-shows-amd-gorgon-point-and-intel-panther-lake-mini-pcs-at-ces-2026"
+    },
+    {
+      "id": "https://www.techpowerup.com/345038/iqunix-previews-upcoming-q101-ultra-lightweight-magnesium-gaming-mouse-at-ces-2026",
+      "title": "Iqunix apresenta o próximo mouse para jogos de magnésio “ultraleve” Q101 na CES 2026",
+      "original_title": "Iqunix Previews Upcoming Q101 \"Ultra-Lightweight\" Magnesium Gaming Mouse at CES 2026",
+      "image": "https://tpucdn.com/img/Wb2RmBxOaQyzGWEk_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-01-10",
+      "summary": "Iqunix é conhecido por seu efeito Hall e teclados mecânicos, muitos dos quais têm uma estética única ou algum tipo de recurso interessante, como o armazenamento de dongle magnético e estilo de montagem personalizado do Magi65 Pro. A marca parece estar trazendo esses des...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/345038/iqunix-previews-upcoming-q101-ultra-lightweight-magnesium-gaming-mouse-at-ces-2026"
+    },
+    {
+      "id": "https://www.eurogamer.net/larian-will-certainly-consider-a-divinity-switch-2-release",
+      "title": "Larian “certamente considerará” um lançamento do Divinity Switch 2",
+      "original_title": "Larian \"will certainly consider\" a Divinity Switch 2 release",
+      "image": "https://assetsio.gnwcdn.com/Divinity-screenshot-showing-a-goblin-like-character-holding-up-a-flaggon.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-01-09",
+      "summary": "O desenvolvedor de Baldur's Gate 3, Larian, \"certamente considerará\" colocar seu próximo lançamento, Divinity, no Switch 2. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/larian-will-certainly-consider-a-divinity-switch-2-release"
+    },
+    {
+      "id": "https://www.eurogamer.net/roblox-adds-facial-age-checks-to-curb-concerns-around-online-safety-in-worlds-most-popular-game-for-children",
+      "title": "Roblox adiciona verificações de idade facial para reduzir preocupações sobre segurança online no jogo infantil mais popular do mundo",
+      "original_title": "Roblox adds facial age checks to curb concerns around online safety in world's most popular game for children",
+      "image": "https://assetsio.gnwcdn.com/roblox-characters_LHW6U2o.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-01-09",
+      "summary": "Roblox iniciou sua implementação global de verificação de idade facial na popular plataforma de jogos a partir de hoje, em uma tentativa de melhorar a segurança infantil após uma enxurrada de críticas. Isso ocorre depois de uma implementação parcial da tecnologia em dezembro...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/roblox-adds-facial-age-checks-to-curb-concerns-around-online-safety-in-worlds-most-popular-game-for-children"
+    },
+    {
+      "id": "https://www.eurogamer.net/what-would-discord-going-public-mean-for-gamings-biggest-communication-platform",
+      "title": "O que a abertura de capital do Discord significaria para a maior plataforma de comunicação de jogos?",
+      "original_title": "What would Discord going public mean for gaming's biggest communication platform?",
+      "image": "https://assetsio.gnwcdn.com/discord-logo-icon-only.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-01-09",
+      "summary": "No início desta semana, relatórios indicavam que grandes movimentos estavam acontecendo no Discord. De acordo com a Bloomberg, a empresa responsável pela plataforma social mais popular de jogos havia entrado com pedido confidencial de IPO, indicando um grande movimento em direção à abertura de capital. ...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/what-would-discord-going-public-mean-for-gamings-biggest-communication-platform"
+    },
+    {
+      "id": "https://www.eurogamer.net/change-of-mind-larian-says-it-will-not-use-gen-ai-at-all-in-relation-to-divinity-concept-art",
+      "title": "Mudança de ideia: Larian diz que não usará gen-AI em relação à arte conceitual da Divindade",
+      "original_title": "Change of mind: Larian says it will not use gen-AI at all in relation to Divinity concept art",
+      "image": "https://assetsio.gnwcdn.com/larian-divinity-fire.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-01-09",
+      "summary": "O desenvolvedor do Baldur’s Gate 3, Larian, mudou sua postura em relação à IA generativa após a reação enfrentada no final do ano passado. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/change-of-mind-larian-says-it-will-not-use-gen-ai-at-all-in-relation-to-divinity-concept-art"
+    },
+    {
+      "id": "https://www.eurogamer.net/22-year-old-eve-online-new-players-why",
+      "title": "À medida que os MMOs mais recentes fecham ou lutam para encontrar um público, Eve Online, de 22 anos, viu recentemente um grande aumento no número de novos jogadores. Mas por que?",
+      "original_title": "As newer MMOs shutter or struggle to find an audience, 22-year-old Eve Online recently saw a massive surge in new players. But why?",
+      "image": "https://assetsio.gnwcdn.com/eve-online-ship_y3b6jAZ.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-01-09",
+      "summary": "Eve Online – o épico MMO de ficção científica sobre viagens espaciais – viu um aumento no número de jogadores no final de 2025. O jogo teve mais de um milhão de jogadores levando às estrelas em 2025 e se beneficiou do maior fluxo de jogadores novos e antigos em anos. Leia m...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/22-year-old-eve-online-new-players-why"
+    },
+    {
+      "id": "https://www.eurogamer.net/despite-helping-create-it-fromsofts-hidetaka-miyazaki-reckons-game-of-thrones-author-george-r-r-martin-would-probably-be-quite-surprised-by-how-the-world-of-elden-ring-turned-out",
+      "title": "Apesar de ter ajudado a criá-lo, Hidetaka Miyazaki, da FromSoft, avalia que o autor de Game of Thrones, George R. R. Martin, provavelmente ficaria bastante surpreso com a forma como o mundo de Elden Ring acabou.",
+      "original_title": "Despite helping create it, FromSoft's Hidetaka Miyazaki reckons Game of Thrones author George R. R. Martin would probably be quite surprised by how the world of Elden Ring turned out",
+      "image": "https://assetsio.gnwcdn.com/Elden-Ring-screenshot-showing-a-knight-holding-up-a-torch-in-an-area-full-of-giant-gem-like-looking-rocks.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-01-09",
+      "summary": "O autor de Game of Thrones, George R. R. Martin, provavelmente ficaria bastante surpreso com a forma como o mundo de Elden Ring - para o qual ele ajudou o desenvolvedor FromSoftware a criar uma história de fundo - realmente acabou. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/despite-helping-create-it-fromsofts-hidetaka-miyazaki-reckons-game-of-thrones-author-george-r-r-martin-would-probably-be-quite-surprised-by-how-the-world-of-elden-ring-turned-out"
     },
     {
       "id": "https://www.eurogamer.net/our-new-year-2026-gaming-resolutions-i-want-to-see-how-close-i-can-get-to-100-percenting-the-game-in-24-hours",
@@ -123,266 +288,101 @@
       "reliability": "High",
       "category": "News",
       "date": "2026-01-09",
-      "summary": "O antigo RPG exclusivo do Xbox, Avowed, está chegando ao PlayStation 5 e será lançado no primeiro aniversário do jogo: 17 de fevereiro de 2026 (nota: o lançamento original para PC e Xbox Series S/X aconteceu em 18 de fevereiro de 2025, mas é apenas um dia...",
+      "summary": "O antigo jogo de RPG exclusivo do Xbox, Avowed, está chegando ao PlayStation 5 e será lançado no primeiro aniversário do jogo: 17 de fevereiro de 2026 (nota: o lançamento original para PC e Xbox Series S/X aconteceu em 18 de fevereiro de 2025, mas é apenas um dia...",
       "sources": [
         "Eurogamer"
       ],
       "url": "https://www.eurogamer.net/xbox-rpg-avowed-is-finally-coming-to-playstation-5"
     },
     {
-      "id": "https://www.eurogamer.net/clair-obscurs-final-boss-was-a-bit-easier-than-developer-sandfall-planned-mostly-because-everyone-actually-engaged-with-all-the-side-content",
-      "title": "O chefe final de Clair Obscur foi um pouco mais fácil do que o desenvolvedor Sandfall planejou, principalmente porque todos realmente se envolveram com todo o conteúdo secundário",
-      "original_title": "Clair Obscur's final boss was a bit easier than developer Sandfall planned, mostly because everyone actually engaged with all the side content",
-      "image": "https://assetsio.gnwcdn.com/clair-obscur-steam-headline-2.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-01-09",
-      "summary": "Clair Obscur: Sandfall, desenvolvedor da Expedition 33, subestimou o quanto os jogadores se envolveriam com as várias missões secundárias e conteúdo opcional do jogo e, como resultado dessa moagem extra, a luta contra o chefe final seria um pouco desanimadora. Rea...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/clair-obscurs-final-boss-was-a-bit-easier-than-developer-sandfall-planned-mostly-because-everyone-actually-engaged-with-all-the-side-content"
-    },
-    {
-      "id": "https://www.techpowerup.com/345017/geekom-at-2026-ces-laptops-and-mini-pcs-hands-on",
-      "title": "GEEKOM na CES 2026: Laptops e Mini PCs práticos",
-      "original_title": "GEEKOM at 2026 CES: Laptops and Mini PCs Hands On",
-      "image": "https://tpucdn.com/img/LLWQ6ewBSc88dJ3D_thm.jpg",
+      "id": "https://www.techpowerup.com/345036/keychron-unveils-nape-pro-wireless-trackball-mouse-and-new-keyboards-at-ces-2026",
+      "title": "Keychron lança mouse trackball sem fio Nape Pro e novos teclados na CES 2026",
+      "original_title": "Keychron Unveils Nape Pro Wireless Trackball Mouse and New Keyboards at CES 2026",
+      "image": "https://tpucdn.com/img/RjZjpk2bM22kxlCF_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-01-09",
-      "summary": "GEEKOM apresentou sua linha de laptops e mini PCs com foco em sua linha atualizada de 2026 aqui na CES. Durante nossa visita ao estande da GEEKOM, colocamos em nossas mãos os novos laptops GeekBook X14 Pro e X16 Pro, junto com os mini PCs A9 Max e IT15. O Ge...",
+      "summary": "Quando você pensa no Keychron, você imediatamente os associa a teclados premium. Mas antes de chegarmos aos teclados, o estande da CES deste ano chamou nossa atenção com um produto verdadeiramente único: o mouse trackball sem fio Keychron Nape Pro. Este co...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/345017/geekom-at-2026-ces-laptops-and-mini-pcs-hands-on"
+      "url": "https://www.techpowerup.com/345036/keychron-unveils-nape-pro-wireless-trackball-mouse-and-new-keyboards-at-ces-2026"
     },
     {
-      "id": "https://www.techpowerup.com/345018/new-gpu-startup-bolt-graphics-promises-2-5x-path-tracing-performance-of-an-rtx-5090",
-      "title": "Novo gráfico Bolt de inicialização da GPU promete desempenho de rastreamento de caminho 2,5x de um RTX 5090",
-      "original_title": "New GPU Startup Bolt Graphics Promises 2.5x Path Tracing Performance of an RTX 5090",
-      "image": "https://tpucdn.com/img/361fVp22XpSR1klc_thm.jpg",
+      "id": "https://www.techpowerup.com/345034/minisforum-shows-intel-panther-lake-mini-pc-and-more-at-ces-2026",
+      "title": "Minisforum mostra mini PC Intel “Panther Lake” e muito mais na CES 2026",
+      "original_title": "Minisforum Shows Intel \"Panther Lake\" Mini PC and More at CES 2026",
+      "image": "https://tpucdn.com/img/EiZKExu2v8L7Gkqf_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-01-09",
-      "summary": "Bolt Graphics é uma nova startup de hardware gráfico de computador com sede em Sunnyvale, Califórnia. Esta empresa quer agitar as coisas no mercado de hardware gráfico de consumo com uma arquitetura gráfica totalmente nova e inovadora para renderização gráfica, jogos...",
+      "summary": "O Minisforum marcou presença na CES 2026 com mini PCs que vão desde soluções Intel a AMD, até mesmo com uma mistura de SoCs baseados em Arm. Curiosamente, os sistemas vêm em vários formatos e tamanhos, mas nosso foco começa com o mini PC M2 Pro. Em forma de...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/345018/new-gpu-startup-bolt-graphics-promises-2-5x-path-tracing-performance-of-an-rtx-5090"
+      "url": "https://www.techpowerup.com/345034/minisforum-shows-intel-panther-lake-mini-pc-and-more-at-ces-2026"
     },
     {
-      "id": "https://www.techpowerup.com/345016/good-way-shows-off-thunderbolt-5-egpu-dock",
-      "title": "Good Way mostra dock Thunderbolt 5 eGPU",
-      "original_title": "Good Way Shows Off Thunderbolt 5 eGPU Dock",
-      "image": "https://tpucdn.com/img/jtnruBb0ekWipInc_thm.jpg",
+      "id": "https://www.techpowerup.com/345033/thunderobot-launches-zero-air-gaming-laptops-with-intel-panther-lake-at-ces-2026",
+      "title": "Thunderobot lança laptops para jogos ZERO Air com Intel Panther Lake na CES 2026",
+      "original_title": "Thunderobot Launches ZERO Air Gaming Laptops with Intel Panther Lake at CES 2026",
+      "image": "https://tpucdn.com/img/l7DNh2Pob36Zc4xb_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-01-09",
-      "summary": "A sua placa gráfica externa precisa ser completamente fechada? Pode ser um dock para você aproveitar o cartão e ele se ventilar melhor? A Good Way tem uma possível resposta para esta solução, com seu novo DBF7059 Thunderbolt 5 eGPU Dock. Isso...",
+      "summary": "Thunderobot é bastante conhecido no mercado chinês e nos últimos anos parece estar determinado a abrir caminho a nível mundial com produtos que se destaquem dos habituais. Na CES 2026, a Thunderobot revelou oficialmente sua série de laptops para jogos ZERO Air, alguns...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/345016/good-way-shows-off-thunderbolt-5-egpu-dock"
+      "url": "https://www.techpowerup.com/345033/thunderobot-launches-zero-air-gaming-laptops-with-intel-panther-lake-at-ces-2026"
     },
     {
-      "id": "https://www.techpowerup.com/345011/tcl-reveals-active-tracking-ai-monitor-alongside-display-lineup-at-ces-2026",
-      "title": "TCL revela monitor de IA de rastreamento ativo junto com linha de monitores na CES 2026",
-      "original_title": "TCL Reveals Active-Tracking AI Monitor Alongside Display Lineup at CES 2026",
-      "image": "https://tpucdn.com/img/FarOY9k2FwvZwOzE_thm.jpg",
+      "id": "https://www.techpowerup.com/345032/huion-at-ces-2026-shows-kamvas-gen-3-tablets-for-digital-artwork",
+      "title": "Huion na CES 2026 mostra tablets Kamvas Gen 3 para arte digital",
+      "original_title": "Huion at CES 2026 Shows Kamvas Gen 3 Tablets for Digital Artwork",
+      "image": "https://tpucdn.com/img/9raWSJczCZksQI9h_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-01-09",
-      "summary": "No estande da TCL na CES 2026, um dos produtos mais incomuns em exibição foi o CyboPal ONE, um monitor robótico de IA com rastreamento ativo. A TCL fornece a tela 4K enquanto o sistema CyboPal cuida da robótica e do software. O monitor usa uma base motorizada de 6 DOF...",
+      "summary": "A Huion surpreendeu os artistas digitais na CES 2026 com Kamvas Pro 27 e Kamvas 22, construídos com base na tecnologia de exibição Gen 3 da Huion. A tela Kamvas “menor” de 22 polegadas vem com resolução de 2560x1440 em proporção de 16:9 com taxa de atualização de 90 Hz. O painel ...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/345011/tcl-reveals-active-tracking-ai-monitor-alongside-display-lineup-at-ces-2026"
+      "url": "https://www.techpowerup.com/345032/huion-at-ces-2026-shows-kamvas-gen-3-tablets-for-digital-artwork"
     },
     {
-      "id": "https://www.techpowerup.com/345015/razer-project-motoko-ai-headset-watches-and-learns",
-      "title": "Headset Razer “Project Motoko” AI observa e aprende",
-      "original_title": "Razer \"Project Motoko\" AI Headset Watches and Learns",
-      "image": "https://tpucdn.com/img/r4IJL8j7CeiRpNfq_thm.jpg",
+      "id": "https://www.techpowerup.com/345031/gpd-mini-laptops-and-handhelds-powered-by-amd-strix-halo-point-arrive-to-ces-2026",
+      "title": "Mini laptops e dispositivos portáteis GPD com tecnologia AMD \"Strix Halo/Point\" chegam à CES 2026",
+      "original_title": "GPD Mini Laptops and Handhelds Powered by AMD \"Strix Halo/Point\" Arrive to CES 2026",
+      "image": "https://tpucdn.com/img/CU8f7EnOKv65IfFF_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-01-09",
-      "summary": "A Razer apareceu na CES 2026 com um protótipo de fone de ouvido que mais parece um projeto de pesquisa de ficção científica do que um produto acabado. “Projeto Motoko” é um fone de ouvido sem fio que a empresa descreve como um “assistente de IA em tempo integral”. Possui dois e...",
+      "summary": "GPD, um conhecido fabricante de mini PCs com formatos exclusivos, apresentou toda a sua linha de sistemas equipados com AMD \"Strix Halo\" e \"Strix Point\" na CES 2026. Liderando a linha está o GPD WIN 5, um dispositivo portátil com o AMD Ryzen AI M...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/345015/razer-project-motoko-ai-headset-watches-and-learns"
+      "url": "https://www.techpowerup.com/345031/gpd-mini-laptops-and-handhelds-powered-by-amd-strix-halo-point-arrive-to-ces-2026"
     },
     {
-      "id": "https://www.techpowerup.com/345014/darkflash-cases-coolers-and-keyboards-at-ces-2026",
-      "title": "Capas, coolers e teclados darkFlash na CES 2026",
-      "original_title": "darkFlash Cases, Coolers, and Keyboards at CES 2026",
-      "image": "https://tpucdn.com/img/tXweVG2cycD38C0f_thm.jpg",
+      "id": "https://www.techpowerup.com/345029/tianma-introduces-27-inch-qhd-610-hz-oxide-display-at-ces-2026",
+      "title": "(PR) Tianma apresenta display de óxido QHD de 27 polegadas e 610 Hz na CES 2026",
+      "original_title": "(PR) Tianma Introduces 27-inch QHD 610 Hz Oxide Display at CES 2026",
+      "image": "https://tpucdn.com/img/r76v6S0VFYFzSbKs_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-01-09",
-      "summary": "darkFlash trouxe uma nova linha de gabinetes, coolers de CPU e teclados para jogos para a 2026 International CES. Para começar, temos o TH285 Plus, uma fascinante torre média panorâmica com vidro em três superfícies, uma radiação lateral recuada...",
+      "summary": "A Tianma, fabricante líder global de monitores de tela plana, está lançando um monitor Oxide TFT-LCD de 27 polegadas com resolução QHD (2560×1440) e uma taxa de atualização de 610 Hz líder do setor para movimentos ultra suaves em jogos competitivos. Aproveitando o avanço...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/345014/darkflash-cases-coolers-and-keyboards-at-ces-2026"
-    },
-    {
-      "id": "https://www.techpowerup.com/345013/cps-pccooler-at-2026-ces-first-air-cpu-cooler-with-true-color-display",
-      "title": "CPS PCCooler na CES 2026: Primeiro Air CPU Cooler com display True-Color",
-      "original_title": "CPS PCCooler at 2026 CES: First Air CPU Cooler with True-Color Display",
-      "image": "https://tpucdn.com/img/MXwCXCgVDBJTAVZG_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-01-09",
-      "summary": "CPS PCCooler trouxe uma grande seleção de novos gabinetes, PSUs, AIO e coolers de CPU do tipo ar, para a 2026 International CES. Para começar, encontramos suas séries KN, YS e YT premium ATX 3.1 PSU, cada uma com 12V moderno...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/345013/cps-pccooler-at-2026-ces-first-air-cpu-cooler-with-true-color-display"
-    },
-    {
-      "id": "https://www.techpowerup.com/345010/razer-brings-local-ai-development-to-power-users-at-ces-2026",
-      "title": "Razer traz desenvolvimento local de IA para usuários avançados na CES 2026",
-      "original_title": "Razer Brings Local AI Development to Power Users at CES 2026",
-      "image": "https://tpucdn.com/img/Yj5fLgNv0KHQW85m_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-01-09",
-      "summary": "A Razer entrou no espaço de desenvolvimento de IA na CES 2026 com o Forge AI Dev Workstation, um computador poderoso construído para lidar com tarefas de IA localmente, em vez de depender de serviços em nuvem. O sistema suporta até quatro placas gráficas profissionais, AMD ou...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/345010/razer-brings-local-ai-development-to-power-users-at-ces-2026"
-    },
-    {
-      "id": "https://www.techpowerup.com/345009/razer-project-madison-gaming-chair-has-real-time-haptic-feedback-and-integrated-speakers",
-      "title": "A cadeira para jogos Razer “Project Madison” tem feedback tátil em tempo real e alto-falantes integrados",
-      "original_title": "Razer \"Project Madison\" Gaming Chair Has Real-Time Haptic Feedback and Integrated Speakers",
-      "image": "https://tpucdn.com/img/3Yr9zpFTGZCmyb4n_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-01-09",
-      "summary": "Na CES 2026, a estrela do estande da Razer foi seu novo projeto para uma experiência de jogo mais envolvente. Chamada de “Projeto Madison”, é uma cadeira para jogos projetada para proporcionar uma “sensação” adicional vinda do sistema para o seu corpo. A Razer consegue isso implementando ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/345009/razer-project-madison-gaming-chair-has-real-time-haptic-feedback-and-integrated-speakers"
-    },
-    {
-      "id": "https://www.techpowerup.com/345008/netac-shows-ddr5-memory-portable-ssds-and-pcie-5-0-m-2-nvme-drives-at-ces-2026",
-      "title": "Netac mostra memória DDR5, SSDs portáteis e unidades PCIe 5.0 M.2 NVMe na CES 2026",
-      "original_title": "Netac Shows DDR5 Memory, Portable SSDs, and PCIe 5.0 M.2 NVMe Drives at CES 2026",
-      "image": "https://tpucdn.com/img/7HepaNzOaq2X6CK5_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-01-09",
-      "summary": "No estande da Netac na CES 2026, vimos uma frota de soluções de memória e armazenamento que a empresa preparou para o mercado consumidor. Começando com sua linha de memória Basic, ela inclui memória DDR5 rodando até 4.800 MT/s com capacidades de até 32 ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/345008/netac-shows-ddr5-memory-portable-ssds-and-pcie-5-0-m-2-nvme-drives-at-ces-2026"
-    },
-    {
-      "id": "https://www.eurogamer.net/2026s-rumoured-witcher-3-expansion-will-take-us-further-afield-than-ever-before-per-new-rumours",
-      "title": "A suposta expansão de Witcher 3 de 2026 nos levará mais longe do que nunca, de acordo com novos rumores",
-      "original_title": "2026's rumoured Witcher 3 expansion will take us further afield than ever before, per new rumours",
-      "image": "https://assetsio.gnwcdn.com/witcher-3-zerrakania.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Rumor",
-      "date": "2026-01-08",
-      "summary": "Tem sido um ano agitado até agora para um jogo com mais de 10 anos. Se você não está acompanhando, na semana passada perguntamos \"haverá realmente uma nova expansão de Witcher 3 este ano?\", respondendo aos comentários de Borys Nie&sacutepielak, um sou confiável...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/2026s-rumoured-witcher-3-expansion-will-take-us-further-afield-than-ever-before-per-new-rumours"
-    },
-    {
-      "id": "https://www.eurogamer.net/phasmophobia-studio-kinetic-moves-into-indie-publishing",
-      "title": "O estúdio Phasmophobia Kinetic passa para a publicação independente, mas está totalmente focado no iminente lançamento 1.0 do jogo de terror",
-      "original_title": "Phasmophobia studio Kinetic moves into indie publishing but is otherwise entirely focused on horror game's impending 1.0 release",
-      "image": "https://assetsio.gnwcdn.com/Phasmophobia-Key-art.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-01-08",
-      "summary": "O estúdio Phasmophobia, Kinetic Games, está se expandindo para a publicação de jogos independentes e está buscando ativamente \"jogos criativos de pequenas equipes e desenvolvedores solo em todo o mundo, que tenham uma visão clara para seu título e estejam de 12 a 18 meses a partir do lançamento\", informou uma imprensa...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/phasmophobia-studio-kinetic-moves-into-indie-publishing"
-    },
-    {
-      "id": "https://www.eurogamer.net/xbox-developer-direct-showcase-january-2026",
-      "title": "O Xbox hospedará um Developer Direct no final deste mês, apresentando Fable, Forza e muito mais",
-      "original_title": "Xbox is hosting a Developer Direct later this month, featuring Fable, Forza, and more",
-      "image": "https://assetsio.gnwcdn.com/Fable---Xbox-Games-Showcase-1-10-screenshot.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-01-08",
-      "summary": "A Microsoft anunciou outro Developer Direct, marcado para 22 de janeiro. Contará com Fable, Forza e Beast of Reincarnation. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/xbox-developer-direct-showcase-january-2026"
-    },
-    {
-      "id": "https://www.eurogamer.net/nintendos-got-two-new-joy-con-2-colours-for-switch-2",
-      "title": "A Nintendo tem duas novas cores do Joy-Con 2 para o Switch 2, e elas serão lançadas no próximo mês",
-      "original_title": "Nintendo's got two new Joy-Con 2 colours for Switch 2, and they're due next month",
-      "image": "https://assetsio.gnwcdn.com/switch-2-controllers-purple-green.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-01-08",
-      "summary": "A Nintendo anunciou duas novas cores de controle Joy-Con 2 para Switch 2 e disse que serão lançadas no próximo mês. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/nintendos-got-two-new-joy-con-2-colours-for-switch-2"
-    },
-    {
-      "id": "https://www.eurogamer.net/rockstar-games-and-iwgb-clash-at-preliminary-hearing-for-fired-gta-6-workers",
-      "title": "“Reiteramos nossa firme convicção de que a Rockstar violou a lei” – sindicato e fabricante de GTA 6 entram em conflito novamente em torno de audiência preliminar para trabalhadores demitidos",
-      "original_title": "\"We reiterate our firm belief that Rockstar broke the law\" - union and GTA 6 maker clash again around preliminary hearing for fired workers",
-      "image": "https://assetsio.gnwcdn.com/gta-6_1GbPEoE.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-01-08",
-      "summary": "O Sindicato dos Trabalhadores Independentes da Grã-Bretanha (IWGB) e a Rockstar Games trocaram mais golpes após uma audiência preliminar esta semana. Lá, o IWGB pediu a um juiz que concedesse aos desenvolvedores demitidos do Grand Theft Auto 6 uma medida provisória. Ler ...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/rockstar-games-and-iwgb-clash-at-preliminary-hearing-for-fired-gta-6-workers"
-    },
-    {
-      "id": "https://www.eurogamer.net/netease-pirate-rpg-sea-of-remnants-gets-a-new-gameplay-trailer-showcasing-drink-offs-mahjong-and-ocean-combat",
-      "title": "O RPG pirata Netease Sea of ​​Remnants recebe um novo trailer de jogo, apresentando bebidas, Mahjong e combate no oceano",
-      "original_title": "Netease pirate RPG Sea of Remnants gets a new gameplay trailer, showcasing drink-offs, Mahjong, and ocean combat",
-      "image": "https://assetsio.gnwcdn.com/sea-of-remnants_RTMyy3S.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-01-08",
-      "summary": "Netease finalmente lançou um trailer de jogo para seu RPG de aventura pirata Sea of ​​​​Remnants, que apresenta uma variedade de recursos, incluindo combate de navios, exploração de áreas abertas, competições de bebida e Mahjong. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/netease-pirate-rpg-sea-of-remnants-gets-a-new-gameplay-trailer-showcasing-drink-offs-mahjong-and-ocean-combat"
+      "url": "https://www.techpowerup.com/345029/tianma-introduces-27-inch-qhd-610-hz-oxide-display-at-ces-2026"
     }
   ]
 }
