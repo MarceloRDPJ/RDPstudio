@@ -3,49 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RDP Studio | Soluções de Alto Impacto</title>
-
-    <!-- Meta Tags -->
-    <meta name="description" content="Engenharia de software focada em ROI, segurança e escalabilidade.">
-    <meta name="theme-color" content="#020617">
-
+    <title>RDP Studio | Projetos</title>
+    <meta name="description" content="Portfólio de projetos da RDP Studio: Automação, Segurança e Inteligência Artificial.">
     <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
-
+    <link rel="manifest" href="../site.webmanifest">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
-    <!-- Changed font to Inter as per RDP Brandbook -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <script>
         tailwind.config = {
             theme: {
                 extend: {
-                    fontFamily: {
-                        sans: ['"Inter"', 'sans-serif'],
-                        mono: ['"JetBrains Mono"', 'monospace'],
-                    },
                     colors: {
-                        // RDP Studio Brand Colors Mapped to Layout
-                        bgDeep: '#020617',         // Dark Slate
-                        surface: '#0B0F17',        // Slightly lighter
-                        surfaceHighlight: '#1E3A5F', // Deep Blue
-                        brandPrimary: '#00B4D8',   // Vibrant Cyan
-                        brandAccent: '#10B981',    // Trust Green (or keep cyan accents)
-                        success: '#10B981',        // Trust Green
                         deepBlue: '#1E3A5F',
+                        techGray: '#2D3748',
+                        vibrantCyan: '#00B4D8',
                         energeticAmber: '#F59E0B',
+                        trustGreen: '#10B981',
+                        darkSlate: '#020617',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
                     },
                     animation: {
-                        'subtle-pulse': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-                        'reveal': 'reveal 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards',
-                    },
-                    keyframes: {
-                        reveal: {
-                            '0%': { opacity: 0, transform: 'translateY(20px)' },
-                            '100%': { opacity: 1, transform: 'translateY(0)' },
-                        }
+                        'fade-in-up': 'fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards',
                     }
                 }
             }
@@ -53,20 +37,38 @@
     </script>
     <style>
         body {
+            font-family: 'Inter', sans-serif;
             background-color: #020617;
-            color: #f1f5f9;
-            overflow-x: hidden;
-            /* Ruído sutil para textura "premium" */
-            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.03'/%3E%3C/svg%3E");
+            background-image: radial-gradient(circle at 15% 50%, rgba(30, 58, 95, 0.15), transparent 25%), radial-gradient(circle at 85% 30%, rgba(0, 180, 216, 0.1), transparent 25%);
+            background-attachment: fixed;
+            color: #F8FAFC;
         }
+        .glass-card {
+            background: rgba(30, 41, 59, 0.4);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: all 0.3s ease;
+        }
+        .text-gradient {
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-image: linear-gradient(to right, #00B4D8, #38bdf8, #10B981);
+        }
+        .nav-link { color: #94a3b8; transition: color 0.3s; }
+        .nav-link:hover, .nav-link.active { color: #fff; }
 
-        /* --- MAGNETIC BUTTONS (Lei de Fitts) --- */
-        .magnetic-btn {
-            transition: transform 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        @keyframes fadeInUp { to { opacity: 1; transform: translateY(0); } }
+        .fade-in-up { opacity: 0; transform: translateY(20px); animation: fadeInUp 0.8s forwards; }
+
+        .custom-scrollbar {
+            scrollbar-width: thin;
+            scrollbar-color: rgba(30, 58, 95, 0.8) rgba(2, 6, 23, 0.5);
         }
-        .magnetic-btn:hover {
-            transform: scale(1.02);
-        }
+        .custom-scrollbar::-webkit-scrollbar { width: 6px; }
+        .custom-scrollbar::-webkit-scrollbar-track { background: rgba(2, 6, 23, 0.3); border-radius: 4px; }
+        .custom-scrollbar::-webkit-scrollbar-thumb { background-color: rgba(30, 58, 95, 0.6); border-radius: 4px; border: 1px solid rgba(255, 255, 255, 0.05); }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover { background-color: #00B4D8; }
 
         /* --- FOCUS CARDS (Efeito Túnel) --- */
         .card-container:hover .project-card {
@@ -79,7 +81,7 @@
             filter: blur(0);
             transform: scale(1.02);
             z-index: 10;
-            box-shadow: 0 25px 50px -12px rgba(0, 180, 216, 0.25); /* Cyan shadow */
+            box-shadow: 0 25px 50px -12px rgba(0, 180, 216, 0.25);
             border-color: rgba(0, 180, 216, 0.5);
         }
 
@@ -108,49 +110,28 @@
             left: 150%;
             transition: 0.7s ease-in-out;
         }
-
-        /* --- TYPOGRAPHY HIERARCHY --- */
-        .gradient-text {
-            background: linear-gradient(135deg, #fff 30%, #94a3b8 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        .accent-text {
-            color: #00B4D8;
-            font-weight: 600;
-        }
-
-        /* --- UTILS --- */
-        .nav-link { color: #94a3b8; transition: color 0.3s; }
-        .nav-link:hover, .nav-link.active { color: #fff; }
-
-        .watermark-container::after {
-            content: "© 2026 RDP STUDIO. Desenvolvido por Marcelo Rodrigues.";
-            font-size: 0.75rem; color: #64748b; opacity: 0.5;
-            display: block; pointer-events: none;
-        }
     </style>
 </head>
-<body class="antialiased selection:bg-brandPrimary selection:text-white">
+<body class="antialiased selection:bg-vibrantCyan selection:text-white">
 
-    <!-- Header (RDP Studio Standard) -->
-    <header class="fixed top-0 w-full z-50 bg-slate-950/80 backdrop-blur-md border-b border-white/5 transition-all duration-300">
-        <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
-            <a href="index.html" class="flex items-center gap-4 group">
-                <div class="w-10 h-10 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center p-1 backdrop-blur-md">
+    <div class="max-w-7xl mx-auto px-6 py-6 min-h-screen flex flex-col relative">
+
+        <!-- Header -->
+        <header class="flex justify-between items-center mb-12 relative z-50">
+            <a href="../index.html" class="flex items-center gap-4 group">
+                <div class="w-10 h-10 rounded-xl glass-card flex items-center justify-center p-1">
                      <img src="../assets/images/branding/logo.png" alt="Logo" class="w-full h-full object-contain group-hover:scale-110 transition-transform">
                 </div>
-                <h1 class="text-xl font-bold tracking-tight text-white">RDP <span class="text-brandPrimary font-light">STUDIO</span></h1>
+                <h1 class="text-xl font-bold tracking-tight text-white">RDP <span class="text-vibrantCyan font-light">STUDIO</span></h1>
             </a>
 
             <!-- Nav (Desktop) -->
             <nav class="hidden md:flex items-center gap-8 text-sm font-medium">
-                <a href="index.html" class="nav-link">Home</a>
-                <a href="projetos.html" class="nav-link active text-brandPrimary">Projetos</a>
-                <a href="index.html#empresa" class="nav-link">A Empresa</a>
+                <a href="../index.html" class="nav-link">Home</a>
+                <a href="projetos.html" class="nav-link active text-vibrantCyan">Projetos</a>
+                <a href="../index.html#empresa" class="nav-link">A Empresa</a>
                 <a href="sobre.html" class="nav-link">Sobre Mim</a>
-                <a href="https://wa.me/5562996780498" target="_blank" class="px-4 py-2 rounded-lg bg-brandPrimary/10 text-brandPrimary hover:bg-brandPrimary hover:text-white transition-all border border-brandPrimary/20">Contato</a>
+                <a href="https://wa.me/5562996780498" target="_blank" class="px-4 py-2 rounded-lg bg-vibrantCyan/10 text-vibrantCyan hover:bg-vibrantCyan hover:text-white transition-all">Contato</a>
             </nav>
 
             <!-- Mobile Menu Button -->
@@ -158,190 +139,169 @@
                 <div class="absolute inset-0 bg-white/5 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity"></div>
                 <i class="fa-solid fa-bars relative z-10"></i>
             </button>
-        </div>
-    </header>
+        </header>
 
-    <!-- Mobile Menu Overlay -->
-    <div id="mobile-menu-overlay" class="fixed inset-0 z-40 bg-slate-950/98 backdrop-blur-xl transform translate-x-full transition-transform duration-300 flex flex-col items-center justify-center space-y-8 md:hidden">
-        <a href="index.html" class="text-2xl font-bold text-white hover:text-brandPrimary transition-colors mobile-link">Home</a>
-        <a href="projetos.html" class="text-2xl font-bold text-brandPrimary hover:text-brandPrimary transition-colors mobile-link">Projetos</a>
-        <a href="index.html#empresa" class="text-2xl font-bold text-white hover:text-brandPrimary transition-colors mobile-link">A Empresa</a>
-        <a href="sobre.html" class="text-2xl font-bold text-white hover:text-brandPrimary transition-colors mobile-link">Sobre Mim</a>
-        <a href="https://wa.me/5562996780498" target="_blank" class="px-8 py-3 rounded-full bg-brandPrimary text-white font-bold text-lg shadow-lg shadow-brandPrimary/20 mobile-link">Contato</a>
-    </div>
-
-    <!-- Main Content -->
-    <main class="max-w-7xl mx-auto px-6 pt-32 pb-24">
-
-        <!-- HERO: Proposta de Valor Clara (Priming) -->
-        <div class="mb-20 animate-reveal">
-            <span class="text-brandPrimary font-mono text-xs uppercase tracking-widest mb-4 block">Engenharia de Impacto</span>
-            <h1 class="text-5xl md:text-7xl font-bold mb-6 tracking-tight gradient-text leading-tight">
-                Não apenas código.<br>
-                <span class="text-white">Soluções de Negócio.</span>
-            </h1>
-            <p class="text-xl text-slate-400 max-w-2xl leading-relaxed">
-                Eu construo sistemas que <span class="text-white font-medium">automatizam o tédio</span>, <span class="text-white font-medium">protegem ativos</span> e <span class="text-white font-medium">geram inteligência</span>.
-                Projetos prontos para produção, focados em ROI.
-            </p>
+        <!-- Mobile Menu Overlay -->
+        <div id="mobile-menu-overlay" class="fixed inset-0 z-40 bg-slate-900/95 backdrop-blur-xl transform translate-x-full transition-transform duration-300 flex flex-col items-center justify-center space-y-8 md:hidden">
+            <a href="../index.html" class="text-2xl font-bold text-white hover:text-vibrantCyan transition-colors mobile-link">Home</a>
+            <a href="projetos.html" class="text-2xl font-bold text-vibrantCyan hover:text-vibrantCyan transition-colors mobile-link">Projetos</a>
+            <a href="../index.html#empresa" class="text-2xl font-bold text-white hover:text-vibrantCyan transition-colors mobile-link">A Empresa</a>
+            <a href="sobre.html" class="text-2xl font-bold text-white hover:text-vibrantCyan transition-colors mobile-link">Sobre Mim</a>
+            <a href="https://wa.me/5562996780498" target="_blank" class="px-8 py-3 rounded-full bg-vibrantCyan text-white font-bold text-lg shadow-lg shadow-vibrantCyan/20 mobile-link">Contato</a>
         </div>
 
-        <!-- GRID DE SOLUÇÕES (Card Container for Focus Effect) -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 card-container animate-reveal" style="animation-delay: 0.1s;">
+        <!-- Main Content -->
+        <main class="flex-grow flex flex-col justify-start space-y-12">
 
-            <!-- CARD 1: RDP Insider (High Value) -->
-            <article class="project-card group cursor-pointer flex flex-col h-full" onclick="window.location='../projects/scanner-game-free/index.html'">
-                <div class="p-8 flex flex-col h-full">
-                    <!-- Header do Card -->
-                    <div class="flex justify-between items-start mb-6">
-                        <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-pink-500/10 to-purple-500/10 border border-pink-500/20 flex items-center justify-center text-pink-400 group-hover:scale-110 transition-transform duration-300">
-                            <i class="fa-solid fa-satellite-dish text-xl"></i>
-                        </div>
-                        <span class="px-2 py-1 bg-white/5 rounded text-[10px] font-mono text-slate-400 border border-white/5 uppercase">Market Intel</span>
-                    </div>
-
-                    <!-- Corpo Persuasivo -->
-                    <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-pink-400 transition-colors">RDP Insider</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-grow">
-                        <strong class="text-slate-200">O Problema:</strong> Falta de visibilidade de preços e leaks em tempo real.<br>
-                        <strong class="text-slate-200">A Solução:</strong> Crawlers distribuídos que monitoram o mercado (Epic/Steam) e geram insights.
-                    </p>
-
-                    <!-- Tech Stack (Prova Social Técnica) -->
-                    <div class="flex gap-2 mb-8 border-t border-white/5 pt-4">
-                        <i class="fa-brands fa-python text-slate-500 hover:text-white transition" title="Python"></i>
-                        <i class="fa-solid fa-database text-slate-500 hover:text-white transition" title="Database"></i>
-                        <i class="fa-solid fa-bolt text-slate-500 hover:text-white transition" title="FastAPI"></i>
-                    </div>
-
-                    <!-- CTA (Ação) -->
-                    <button class="w-full py-3 rounded-lg bg-white/5 border border-white/10 text-white font-semibold text-sm group-hover:bg-pink-600 group-hover:border-pink-600 transition-all flex items-center justify-center gap-2">
-                        Ver Dashboard
-                        <i class="fa-solid fa-arrow-right text-xs transition-transform group-hover:translate-x-1"></i>
-                    </button>
-                </div>
-            </article>
-
-            <!-- CARD 2: Validador Firewall (Security Authority) -->
-            <article class="project-card group cursor-pointer flex flex-col h-full" onclick="window.location='../projects/validador-firewall/index.html'">
-                <div class="p-8 flex flex-col h-full">
-                    <div class="flex justify-between items-start mb-6">
-                        <div class="w-12 h-12 rounded-xl bg-energeticAmber/10 border border-energeticAmber/20 flex items-center justify-center text-energeticAmber group-hover:scale-110 transition-transform duration-300">
-                            <i class="fa-solid fa-shield-cat text-xl"></i>
-                        </div>
-                        <span class="px-2 py-1 bg-white/5 rounded text-[10px] font-mono text-slate-400 border border-white/5 uppercase">SecOps</span>
-                    </div>
-
-                    <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-energeticAmber transition-colors">Validador Fortigate</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-grow">
-                        <strong class="text-slate-200">O Problema:</strong> Erros humanos críticos em migrações de firewall.<br>
-                        <strong class="text-slate-200">A Solução:</strong> Engine de sanitização que garante integridade zero-erro em scripts CLI.
-                    </p>
-
-                    <div class="flex gap-2 mb-8 border-t border-white/5 pt-4">
-                        <i class="fa-brands fa-js text-slate-500 hover:text-white transition"></i>
-                        <i class="fa-solid fa-network-wired text-slate-500 hover:text-white transition"></i>
-                    </div>
-
-                    <button class="w-full py-3 rounded-lg bg-white/5 border border-white/10 text-white font-semibold text-sm group-hover:bg-energeticAmber group-hover:border-energeticAmber transition-all flex items-center justify-center gap-2">
-                        Iniciar Ferramenta
-                        <i class="fa-solid fa-play text-xs"></i>
-                    </button>
-                </div>
-            </article>
-
-            <!-- CARD 3: GLPI Automator (Efficiency) -->
-            <article class="project-card group cursor-pointer flex flex-col h-full" onclick="window.location='../projects/abertura-chamados-glpi/index.html'">
-                <div class="p-8 flex flex-col h-full">
-                    <div class="flex justify-between items-start mb-6">
-                        <div class="w-12 h-12 rounded-xl bg-indigo-500/10 border border-indigo-500/20 flex items-center justify-center text-indigo-500 group-hover:scale-110 transition-transform duration-300">
-                            <i class="fa-solid fa-server text-xl"></i>
-                        </div>
-                        <span class="px-2 py-1 bg-white/5 rounded text-[10px] font-mono text-slate-400 border border-white/5 uppercase">Automation</span>
-                    </div>
-
-                    <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-indigo-500 transition-colors">GLPI Automator</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-grow">
-                        <strong class="text-slate-200">O Problema:</strong> 30% do tempo da equipe gasto abrindo tickets manuais.<br>
-                        <strong class="text-slate-200">A Solução:</strong> Automação Python que gerencia abertura em lote e evidências via API.
-                    </p>
-
-                    <div class="flex gap-2 mb-8 border-t border-white/5 pt-4">
-                        <i class="fa-brands fa-python text-slate-500 hover:text-white transition"></i>
-                        <i class="fa-solid fa-gears text-slate-500 hover:text-white transition"></i>
-                    </div>
-
-                    <button class="w-full py-3 rounded-lg bg-white/5 border border-white/10 text-white font-semibold text-sm group-hover:bg-indigo-600 group-hover:border-indigo-600 transition-all flex items-center justify-center gap-2">
-                        Ler Documentação
-                        <i class="fa-solid fa-file-code text-xs"></i>
-                    </button>
-                </div>
-            </article>
-
-            <!-- CARD 4: Sales AI Agent (Innovation) -->
-            <article class="project-card group cursor-pointer flex flex-col h-full" onclick="window.location='../projects/assistente-vendas-ia/index.html'">
-                <div class="p-8 flex flex-col h-full">
-                    <div class="flex justify-between items-start mb-6">
-                        <div class="w-12 h-12 rounded-xl bg-purple-500/10 border border-purple-500/20 flex items-center justify-center text-purple-500 group-hover:scale-110 transition-transform duration-300">
-                            <i class="fa-solid fa-robot text-xl"></i>
-                        </div>
-                        <span class="px-2 py-1 bg-white/5 rounded text-[10px] font-mono text-slate-400 border border-white/5 uppercase">AI Agent</span>
-                    </div>
-
-                    <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-purple-500 transition-colors">Sales AI Agent</h3>
-                    <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-grow">
-                        <strong class="text-slate-200">O Problema:</strong> Gargalo no atendimento ao cliente e conferência financeira.<br>
-                        <strong class="text-slate-200">A Solução:</strong> Agente autônomo com Visão Computacional (Gemini) para vendas no WhatsApp/Telegram.
-                    </p>
-
-                    <div class="flex gap-2 mb-8 border-t border-white/5 pt-4">
-                        <i class="fa-solid fa-brain text-slate-500 hover:text-white transition"></i>
-                        <i class="fa-brands fa-telegram text-slate-500 hover:text-white transition"></i>
-                    </div>
-
-                    <button class="w-full py-3 rounded-lg bg-white/5 border border-white/10 text-white font-semibold text-sm group-hover:bg-purple-600 group-hover:border-purple-600 transition-all flex items-center justify-center gap-2">
-                        Testar Bot
-                        <i class="fa-brands fa-telegram text-xs"></i>
-                    </button>
-                </div>
-            </article>
-
-            <!-- CARD 5: Futuro (Curiosity Gap) -->
-            <article class="project-card border-dashed border-slate-800 bg-transparent flex flex-col justify-center items-center h-full min-h-[300px] opacity-60 hover:opacity-100 transition-opacity">
-                <div class="w-16 h-16 rounded-full bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-600 mb-4">
-                    <i class="fa-solid fa-plus text-2xl"></i>
-                </div>
-                <h3 class="text-lg font-bold text-slate-500">Próximo Projeto</h3>
-                <p class="text-xs text-slate-600 mt-2 font-mono">Em desenvolvimento...</p>
-            </article>
-
-        </div>
-
-    </main>
-
-    <!-- FOOTER -->
-    <footer class="border-t border-white/5 pt-12 pb-8 bg-surface">
-        <div class="flex flex-col items-center text-center">
-            <div class="flex justify-center gap-8 mb-8">
-                <a href="https://instagram.com/marcelo_rpj" target="_blank" aria-label="Instagram" class="text-slate-400 hover:text-brandPrimary transition-colors text-2xl transform hover:scale-110 duration-200">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/marcelo-rodrigues-088478211/" target="_blank" aria-label="LinkedIn" class="text-slate-400 hover:text-brandPrimary transition-colors text-2xl transform hover:scale-110 duration-200">
-                    <i class="fa-brands fa-linkedin"></i>
-                </a>
-                <a href="mailto:rdpstudio@gmail.com" aria-label="Email" class="text-slate-400 hover:text-brandPrimary transition-colors text-2xl transform hover:scale-110 duration-200">
-                    <i class="fa-regular fa-envelope"></i>
-                </a>
+            <!-- Title Section -->
+            <div class="text-center fade-in-up">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">Portfólio de <span class="text-gradient">Inovação</span></h2>
+                <p class="text-slate-400 max-w-2xl mx-auto">
+                    Explore soluções desenvolvidas com foco em performance, segurança e automação.
+                </p>
             </div>
-            <p class="text-sm text-slate-500 mb-2">
-                © 2026 RDP STUDIO. Todos os direitos reservados.
-            </p>
-            <p class="text-xs text-slate-600 font-mono">
-                Desenvolvido com <i class="fa-solid fa-heart text-red-900 animate-pulse"></i> por Marcelo Rodrigues
-            </p>
-            <div class="watermark-container hidden"></div>
-        </div>
-    </footer>
+
+            <!-- GRID DE SOLUÇÕES (Card Container for Focus Effect) -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 card-container fade-in-up" style="animation-delay: 0.1s;">
+
+                <!-- CARD 1: RDP Insider -->
+                <article class="project-card group cursor-pointer flex flex-col h-full" onclick="window.location='../projects/scanner-game-free/index.html'">
+                    <div class="p-8 flex flex-col h-full">
+                        <div class="flex justify-between items-start mb-6">
+                            <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-pink-500/10 to-purple-500/10 border border-pink-500/20 flex items-center justify-center text-pink-400 group-hover:scale-110 transition-transform duration-300">
+                                <i class="fa-solid fa-satellite-dish text-xl"></i>
+                            </div>
+                            <span class="px-2 py-1 bg-white/5 rounded text-[10px] font-mono text-slate-400 border border-white/5 uppercase">Market Intel</span>
+                        </div>
+                        <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-pink-400 transition-colors">RDP Insider</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-grow">
+                            <strong class="text-slate-200">O Problema:</strong> Falta de visibilidade de preços e leaks em tempo real.<br>
+                            <strong class="text-slate-200">A Solução:</strong> Crawlers distribuídos que monitoram o mercado (Epic/Steam) e geram insights.
+                        </p>
+                        <div class="flex gap-2 mb-8 border-t border-white/5 pt-4">
+                            <i class="fa-brands fa-python text-slate-500 hover:text-white transition" title="Python"></i>
+                            <i class="fa-solid fa-database text-slate-500 hover:text-white transition" title="Database"></i>
+                            <i class="fa-solid fa-bolt text-slate-500 hover:text-white transition" title="FastAPI"></i>
+                        </div>
+                        <button class="w-full py-3 rounded-lg bg-white/5 border border-white/10 text-white font-semibold text-sm group-hover:bg-pink-600 group-hover:border-pink-600 transition-all flex items-center justify-center gap-2">
+                            Ver Dashboard
+                            <i class="fa-solid fa-arrow-right text-xs transition-transform group-hover:translate-x-1"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- CARD 2: Validador Firewall -->
+                <article class="project-card group cursor-pointer flex flex-col h-full" onclick="window.location='../projects/validador-firewall/index.html'">
+                    <div class="p-8 flex flex-col h-full">
+                        <div class="flex justify-between items-start mb-6">
+                            <div class="w-12 h-12 rounded-xl bg-energeticAmber/10 border border-energeticAmber/20 flex items-center justify-center text-energeticAmber group-hover:scale-110 transition-transform duration-300">
+                                <i class="fa-solid fa-shield-cat text-xl"></i>
+                            </div>
+                            <span class="px-2 py-1 bg-white/5 rounded text-[10px] font-mono text-slate-400 border border-white/5 uppercase">SecOps</span>
+                        </div>
+                        <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-energeticAmber transition-colors">Validador Fortigate</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-grow">
+                            <strong class="text-slate-200">O Problema:</strong> Erros humanos críticos em migrações de firewall.<br>
+                            <strong class="text-slate-200">A Solução:</strong> Engine de sanitização que garante integridade zero-erro em scripts CLI.
+                        </p>
+                        <div class="flex gap-2 mb-8 border-t border-white/5 pt-4">
+                            <i class="fa-brands fa-js text-slate-500 hover:text-white transition"></i>
+                            <i class="fa-solid fa-network-wired text-slate-500 hover:text-white transition"></i>
+                        </div>
+                        <button class="w-full py-3 rounded-lg bg-white/5 border border-white/10 text-white font-semibold text-sm group-hover:bg-energeticAmber group-hover:border-energeticAmber transition-all flex items-center justify-center gap-2">
+                            Iniciar Ferramenta
+                            <i class="fa-solid fa-play text-xs"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- CARD 3: GLPI Automator -->
+                <article class="project-card group cursor-pointer flex flex-col h-full" onclick="window.location='../projects/abertura-chamados-glpi/index.html'">
+                    <div class="p-8 flex flex-col h-full">
+                        <div class="flex justify-between items-start mb-6">
+                            <div class="w-12 h-12 rounded-xl bg-indigo-500/10 border border-indigo-500/20 flex items-center justify-center text-indigo-500 group-hover:scale-110 transition-transform duration-300">
+                                <i class="fa-solid fa-server text-xl"></i>
+                            </div>
+                            <span class="px-2 py-1 bg-white/5 rounded text-[10px] font-mono text-slate-400 border border-white/5 uppercase">Automation</span>
+                        </div>
+                        <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-indigo-500 transition-colors">GLPI Automator</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-grow">
+                            <strong class="text-slate-200">O Problema:</strong> 30% do tempo da equipe gasto abrindo tickets manuais.<br>
+                            <strong class="text-slate-200">A Solução:</strong> Automação Python que gerencia abertura em lote e evidências via API.
+                        </p>
+                        <div class="flex gap-2 mb-8 border-t border-white/5 pt-4">
+                            <i class="fa-brands fa-python text-slate-500 hover:text-white transition"></i>
+                            <i class="fa-solid fa-gears text-slate-500 hover:text-white transition"></i>
+                        </div>
+                        <button class="w-full py-3 rounded-lg bg-white/5 border border-white/10 text-white font-semibold text-sm group-hover:bg-indigo-600 group-hover:border-indigo-600 transition-all flex items-center justify-center gap-2">
+                            Ler Documentação
+                            <i class="fa-solid fa-file-code text-xs"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- CARD 4: Sales AI Agent -->
+                <article class="project-card group cursor-pointer flex flex-col h-full" onclick="window.location='../projects/assistente-vendas-ia/index.html'">
+                    <div class="p-8 flex flex-col h-full">
+                        <div class="flex justify-between items-start mb-6">
+                            <div class="w-12 h-12 rounded-xl bg-purple-500/10 border border-purple-500/20 flex items-center justify-center text-purple-500 group-hover:scale-110 transition-transform duration-300">
+                                <i class="fa-solid fa-robot text-xl"></i>
+                            </div>
+                            <span class="px-2 py-1 bg-white/5 rounded text-[10px] font-mono text-slate-400 border border-white/5 uppercase">AI Agent</span>
+                        </div>
+                        <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-purple-500 transition-colors">Sales AI Agent</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-grow">
+                            <strong class="text-slate-200">O Problema:</strong> Gargalo no atendimento ao cliente e conferência financeira.<br>
+                            <strong class="text-slate-200">A Solução:</strong> Agente autônomo com Visão Computacional (Gemini) para vendas no WhatsApp/Telegram.
+                        </p>
+                        <div class="flex gap-2 mb-8 border-t border-white/5 pt-4">
+                            <i class="fa-solid fa-brain text-slate-500 hover:text-white transition"></i>
+                            <i class="fa-brands fa-telegram text-slate-500 hover:text-white transition"></i>
+                        </div>
+                        <button class="w-full py-3 rounded-lg bg-white/5 border border-white/10 text-white font-semibold text-sm group-hover:bg-purple-600 group-hover:border-purple-600 transition-all flex items-center justify-center gap-2">
+                            Testar Bot
+                            <i class="fa-brands fa-telegram text-xs"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- CARD 5: Futuro -->
+                <article class="project-card border-dashed border-slate-800 bg-transparent flex flex-col justify-center items-center h-full min-h-[300px] opacity-60 hover:opacity-100 transition-opacity">
+                    <div class="w-16 h-16 rounded-full bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-600 mb-4">
+                        <i class="fa-solid fa-plus text-2xl"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-500">Próximo Projeto</h3>
+                    <p class="text-xs text-slate-600 mt-2 font-mono">Em desenvolvimento...</p>
+                </article>
+
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="border-t border-slate-800/50 pt-12 pb-8 mt-auto">
+            <div class="flex flex-col items-center text-center">
+                <div class="flex justify-center gap-8 mb-8">
+                    <a href="https://instagram.com/marcelo_rpj" target="_blank" aria-label="Instagram" class="text-slate-400 hover:text-vibrantCyan transition-colors text-2xl transform hover:scale-110 duration-200">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/marcelo-rodrigues-088478211/" target="_blank" aria-label="LinkedIn" class="text-slate-400 hover:text-vibrantCyan transition-colors text-2xl transform hover:scale-110 duration-200">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:rdpstudio@gmail.com" aria-label="Email" class="text-slate-400 hover:text-vibrantCyan transition-colors text-2xl transform hover:scale-110 duration-200">
+                        <i class="fa-regular fa-envelope"></i>
+                    </a>
+                </div>
+                <p class="text-sm text-slate-500 mb-2">
+                    © 2026 RDP STUDIO. Todos os direitos reservados.
+                </p>
+                <p class="text-xs text-slate-600 font-mono">
+                    Desenvolvido com <i class="fa-solid fa-heart text-red-900 animate-pulse"></i> por Marcelo Rodrigues
+                </p>
+                <div class="watermark-container hidden"></div>
+            </div>
+        </footer>
+
+    </div>
 
     <!-- Scripts -->
     <script>
@@ -379,6 +339,24 @@
                 });
             });
         }
+
+        // --- SCROLL TO TOP LOGIC ---
+        const scrollBtn = document.createElement('button');
+        scrollBtn.innerHTML = '<i class="fa-solid fa-arrow-up"></i>';
+        scrollBtn.className = 'fixed bottom-6 right-6 z-30 w-12 h-12 flex items-center justify-center bg-vibrantCyan text-white rounded-full shadow-lg opacity-0 pointer-events-none transition-all duration-300 hover:bg-cyan-600 hover:-translate-y-1';
+        document.body.appendChild(scrollBtn);
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                scrollBtn.classList.remove('opacity-0', 'pointer-events-none');
+            } else {
+                scrollBtn.classList.add('opacity-0', 'pointer-events-none');
+            }
+        });
+
+        scrollBtn.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
     </script>
 </body>
 </html>
