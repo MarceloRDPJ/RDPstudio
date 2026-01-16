@@ -334,14 +334,30 @@ const App = {
             }, options: { maintainAspectRatio: false }
         });
 
-        const topNat = Object.entries(agg.nature).sort((a,b)=>b[1]-a[1]).slice(0, 6);
+        const topNat = Object.entries(agg.nature).sort((a,b)=>b[1]-a[1]).slice(0, 8);
         if(App.charts.pie) App.charts.pie.destroy();
         App.charts.pie = new Chart(document.getElementById('chart-pie'), {
-            type: 'doughnut',
+            type: 'bar',
             data: {
                 labels: topNat.map(x=>x[0]),
-                datasets: [{ data: topNat.map(x=>x[1]), backgroundColor: ['#F97316','#ef4444','#f59e0b','#10b981','#3b82f6','#6366f1'] }]
-            }, options: { maintainAspectRatio: false, cutout: '60%' }
+                datasets: [{
+                    label: 'Valor (R$)',
+                    data: topNat.map(x=>x[1]),
+                    backgroundColor: ['#F97316','#ef4444','#f59e0b','#10b981','#3b82f6','#6366f1','#8b5cf6','#ec4899'],
+                    borderRadius: 4,
+                }]
+            },
+            options: {
+                indexAxis: 'y',
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { display: false }
+                },
+                scales: {
+                    x: { grid: { display: false } },
+                    y: { grid: { display: false } }
+                }
+            }
         });
 
         // Tables
@@ -403,34 +419,99 @@ const App = {
         const imgLine = App.charts.timeline.toBase64Image();
         const imgPie = App.charts.pie.toBase64Image();
 
+        // Ensure shadow charts are rendered before capturing
+        const imgRecCC = App.charts['chart-top-rec-cc'] ? App.charts['chart-top-rec-cc'].toBase64Image() : '';
+        const imgDespCC = App.charts['chart-top-desp-cc'] ? App.charts['chart-top-desp-cc'].toBase64Image() : '';
+
+        // Template HTML do Relatório - Refinado
         document.getElementById('report-paper').innerHTML = `
-            <div class="space-y-8 p-8 bg-white">
-                <div class="flex justify-between border-b-2 border-slate-800 pb-4">
-                    <h1 class="text-3xl font-bold text-slate-900">Relatório Financeiro Analítico</h1>
+            <div class="p-12 bg-white font-sans min-h-[1100px] flex flex-col relative">
+
+                <!-- HEADER -->
+                <div class="flex justify-between items-end border-b-2 border-orange-500 pb-6 mb-8">
+                    <div class="flex items-center">
+                        <img src="assets/tecnoit/logo-full.png" class="h-16 w-auto object-contain">
+                    </div>
                     <div class="text-right">
-                        <div class="text-xl font-bold text-orange-500">TecnoIT</div>
-                        <div class="text-xs text-slate-400">${new Date().toLocaleDateString()}</div>
+                        <h1 class="text-3xl font-bold text-slate-800 tracking-tight">Relatório Financeiro</h1>
+                        <p class="text-sm text-slate-500 mt-1">Gerado em ${new Date().toLocaleDateString('pt-BR')}</p>
                     </div>
                 </div>
-                <div class="grid grid-cols-3 gap-4 text-center">
-                    <div class="p-4 bg-green-50 rounded border border-green-200">
-                        <p class="text-xs font-bold text-green-600 uppercase">Entradas</p>
-                        <p class="text-xl font-bold text-green-800">${fmt.format(rec)}</p>
+
+                <!-- KPIS -->
+                <div class="grid grid-cols-3 gap-6 mb-10">
+                    <div class="bg-emerald-50 rounded-lg p-6 border border-emerald-100 flex flex-col justify-between">
+                        <div class="flex items-center gap-2 mb-2">
+                            <div class="p-2 bg-emerald-100 rounded-full text-emerald-600"><i class="fa-solid fa-arrow-up"></i></div>
+                            <span class="text-xs font-bold text-emerald-700 uppercase tracking-wider">Entradas</span>
+                        </div>
+                        <p class="text-2xl font-bold text-emerald-900 font-mono text-left">${fmt.format(rec)}</p>
                     </div>
-                    <div class="p-4 bg-red-50 rounded border border-red-200">
-                        <p class="text-xs font-bold text-red-600 uppercase">Saídas</p>
-                        <p class="text-xl font-bold text-red-800">${fmt.format(desp * -1)}</p>
+
+                    <div class="bg-red-50 rounded-lg p-6 border border-red-100 flex flex-col justify-between">
+                        <div class="flex items-center gap-2 mb-2">
+                            <div class="p-2 bg-red-100 rounded-full text-red-600"><i class="fa-solid fa-arrow-down"></i></div>
+                            <span class="text-xs font-bold text-red-700 uppercase tracking-wider">Saídas</span>
+                        </div>
+                        <p class="text-2xl font-bold text-red-900 font-mono text-left">${fmt.format(desp * -1)}</p>
                     </div>
-                    <div class="p-4 bg-slate-50 rounded border border-slate-200">
-                        <p class="text-xs font-bold text-slate-600 uppercase">Resultado Líquido</p>
-                        <p class="text-xl font-bold text-slate-800">${fmt.format(rec - desp)}</p>
+
+                    <div class="bg-slate-50 rounded-lg p-6 border border-slate-200 flex flex-col justify-between">
+                        <div class="flex items-center gap-2 mb-2">
+                            <div class="p-2 bg-slate-200 rounded-full text-slate-600"><i class="fa-solid fa-wallet"></i></div>
+                            <span class="text-xs font-bold text-slate-600 uppercase tracking-wider">Resultado</span>
+                        </div>
+                        <p class="text-2xl font-bold text-slate-800 font-mono text-left">${fmt.format(rec - desp)}</p>
                     </div>
                 </div>
-                <div class="grid grid-cols-2 gap-8 mt-6">
-                    <div><h4 class="font-bold mb-2 border-b text-sm">Fluxo de Caixa</h4><img src="${imgLine}" class="w-full border rounded"></div>
-                    <div><h4 class="font-bold mb-2 border-b text-sm">Distribuição de Despesas</h4><img src="${imgPie}" class="w-full border rounded"></div>
+
+                <!-- GRÁFICOS PRINCIPAIS -->
+                <div class="grid grid-cols-2 gap-8 mb-8">
+                    <div class="border border-slate-100 rounded-lg p-4 shadow-sm bg-white">
+                        <div class="mb-4 pb-2 border-b border-slate-50 flex items-center justify-between">
+                            <h4 class="font-bold text-slate-700 text-sm">Fluxo de Caixa</h4>
+                            <span class="text-[10px] text-slate-400 uppercase">Mensal</span>
+                        </div>
+                        <img src="${imgLine}" class="w-full h-auto object-contain">
+                    </div>
+                    <div class="border border-slate-100 rounded-lg p-4 shadow-sm bg-white">
+                         <div class="mb-4 pb-2 border-b border-slate-50 flex items-center justify-between">
+                            <h4 class="font-bold text-slate-700 text-sm">Top Naturezas</h4>
+                            <span class="text-[10px] text-slate-400 uppercase">Despesas</span>
+                        </div>
+                        <img src="${imgPie}" class="w-full h-auto object-contain">
+                    </div>
                 </div>
-                <div class="mt-8 text-xs text-slate-400 text-center border-t pt-4">Gerado automaticamente pelo Sistema Financeiro Inteligente</div>
+
+                <!-- TOP 5 CENTROS DE CUSTO -->
+                <div class="mt-4 flex-grow">
+                    <h4 class="font-bold text-slate-800 text-lg mb-6 pb-2 border-b border-slate-200 flex items-center gap-2">
+                        <i class="fa-solid fa-layer-group text-orange-500"></i> Análise por Centro de Custo
+                    </h4>
+                    <div class="grid grid-cols-2 gap-8">
+                        <div>
+                            <h5 class="text-xs font-bold text-emerald-600 uppercase mb-3 text-center bg-emerald-50 py-1 rounded">Maiores Receitas</h5>
+                            <div class="p-4 border border-emerald-50 rounded-lg">
+                                <img src="${imgRecCC}" class="w-full h-auto object-contain">
+                            </div>
+                        </div>
+                        <div>
+                            <h5 class="text-xs font-bold text-red-600 uppercase mb-3 text-center bg-red-50 py-1 rounded">Maiores Despesas</h5>
+                            <div class="p-4 border border-red-50 rounded-lg">
+                                <img src="${imgDespCC}" class="w-full h-auto object-contain">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FOOTER -->
+                <div class="absolute bottom-8 left-12 right-12 pt-4 border-t border-slate-100 flex justify-between items-center text-[10px] text-slate-400">
+                    <div class="flex items-center gap-2">
+                         <img src="assets/tecnoit/logo-full.png" class="h-4 grayscale opacity-50">
+                         <span>Sistema Financeiro Inteligente</span>
+                    </div>
+                    <span>Página 1 de 1</span>
+                </div>
             </div>
         `;
         document.getElementById('btn-download-pdf').disabled = false;
