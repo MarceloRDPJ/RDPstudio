@@ -1,508 +1,315 @@
 {
-  "last_updated": "2026-01-22T12:51:02",
-  "display_date": "22/01/2026 12:51",
-  "status": "Active",
+  "last_updated": "2026-01-23T12:48:17",
+  "display_date": "23/01/2026 12:48",
+  "status": "Partial Outage",
   "epic_data": {
-    "status": "Online",
-    "latency": "542ms",
-    "current_games": [
-      {
-        "title": "Styx: Master of Shadows",
-        "description": "Styx: Master of Shadows é um jogo de infiltração com elementos de RPG que se passa em um universo sombrio de fantasia, onde você se esgueira, rouba e assassina como Styx, um Goblin de dois séculos de idade.",
-        "image": "https://cdn1.epicgames.com/spt-assets/45709e0bb07e43bd9e652991779d4dfa/styx-master-of-shadows-17of4.jpg",
-        "url": "https://store.epicgames.com/p/0aa23c9aff4045d7b4b9b5ccc06b5c03",
-        "price": "$19.99",
-        "start_date": "2026-01-15T16:00:00.000Z",
-        "end_date": "2026-01-22T16:00:00.000Z"
-      },
-      {
-        "title": "Styx: Shards of Darkness - Deluxe Edition",
-        "description": "Styx retorna em uma nova aventura furtiva! Explore e domine enormes ambientes abertos, passe furtivamente ou assassine novos inimigos e chefes e experimente a nova gama de habilidades e armas letais do arsenal do nosso goblin assassino.",
-        "image": "https://cdn1.epicgames.com/spt-assets/6ccdf6a1518741f0842177137adc00b0/styx-shards-of-darkness-1bh52.jpg",
-        "url": "https://store.epicgames.com/p/81e2a51d2be949b986993cdca25f4d7d",
-        "price": "$19.99",
-        "start_date": "2026-01-15T16:00:00.000Z",
-        "end_date": "2026-01-22T16:00:00.000Z"
-      }
-    ],
-    "upcoming_games": [
-      {
-        "title": "Eternal Threads",
-        "description": "Eternal Threads é um jogo de quebra-cabeça para um jogador, em primeira pessoa, baseado em uma história de manipulação, escolha e consequência do tempo.",
-        "image": "https://cdn1.epicgames.com/spt-assets/08813e055af64315b8a55b2e521f4e04/eternal-threads-1vm6i.jpg",
-        "url": "https://store.epicgames.com/p/a9152a8924cc4e438f0e61106ec02f7d",
-        "price": "$19.99",
-        "start_date": "2026-02-09T16:00:00.000Z",
-        "end_date": "2026-02-23T16:00:00.000Z"
-      },
-      {
-        "title": "Ghostrunner 2",
-        "description": "Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
-        "image": "https://cdn1.epicgames.com/offer/708f57aaa04b42ef885be16c8288f0ac/EGS_Ghostrunner2_OneMoreLevel_S1_2560x1440-15845148fae1d0cfd7f3e98c9b3ba6ba",
-        "url": "https://store.epicgames.com/p/ghostrunner-2",
-        "price": "$39.99",
-        "start_date": "2026-02-09T16:00:00.000Z",
-        "end_date": "2026-02-23T16:00:00.000Z"
-      },
-      {
-        "title": "Castlevania Anniversary Collection",
-        "description": "A Coleção de Aniversário de Castlevania da Konami traça as origens da histórica franquia de vampiros. Está incluído um e-book exclusivo com detalhes fornecidos por desenvolvedores, artistas e outros inspirados no legado de Castlevania, que lança uma nova luz sobre o mundo de Castlevania.",
-        "image": "https://cdn1.epicgames.com/spt-assets/1ff2f74ba0ef4019b6905d8abe268819/castlevania-anniversary-collection-yex6f.jpg",
-        "url": "https://store.epicgames.com/p/32b3e0adbe0c4399be1874958194f97f",
-        "price": "$19.99",
-        "start_date": "2026-02-09T16:00:00.000Z",
-        "end_date": "2026-02-23T16:00:00.000Z"
-      },
-      {
-        "title": "Monument Valley",
-        "description": "Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
-        "image": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
-        "url": "https://store.epicgames.com/p/monument-valley-02",
-        "price": "$7.99",
-        "start_date": "2026-02-09T16:00:00.000Z",
-        "end_date": "2026-02-23T16:00:00.000Z"
-      },
-      {
-        "title": "Monument Valley",
-        "description": "Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
-        "image": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
-        "url": "https://store.epicgames.com/p/monument-valley-02",
-        "price": "$7.99",
-        "start_date": "2026-03-30T15:00:00.000Z",
-        "end_date": "2026-04-13T15:00:00.000Z"
-      },
-      {
-        "title": "Rustler - Grand Theft Horse",
-        "description": "Torne-se um bandido medieval em um jogo de ação maluco de mundo aberto, cheio de referências da cultura pop. Complete missões insanas, mate heróis, roube cavalos, lute contra guardas, roube camponeses, ouça música de bardo e muito mais! Tudo embalado no estilo de jogo da velha escola!",
-        "image": "https://cdn1.epicgames.com/spt-assets/a1324ca83bc543ae8747f8d5a99d777a/rustler--grand-theft-horse-1ukey.jpg",
-        "url": "https://store.epicgames.com/p/rustler-grand-theft-horse",
-        "price": "$24.99",
-        "start_date": "2026-01-22T16:00:00.000Z",
-        "end_date": "2026-01-29T16:00:00.000Z"
-      }
-    ],
-    "mystery_detected": false
+    "status": "Offline",
+    "latency": "0ms",
+    "current_games": [],
+    "upcoming_games": [],
+    "mystery_detected": false,
+    "error": "'NoneType' object has no attribute 'get'"
   },
   "items": [
     {
-      "id": "https://store.epicgames.com/p/0aa23c9aff4045d7b4b9b5ccc06b5c03",
-      "title": "GRÁTIS: Styx: Master of Shadows",
-      "original_title": "Styx: Master of Shadows",
-      "image": "https://cdn1.epicgames.com/spt-assets/45709e0bb07e43bd9e652991779d4dfa/styx-master-of-shadows-17of4.jpg",
+      "id": "https://www.eurogamer.net/gog-reflects-on-devotion-delisting",
+      "title": "“Essa situação continua difícil de refletir” – a decisão do GOG de retirar o jogo de terror taiwanês Devotion ainda atormenta a empresa",
+      "original_title": "\"That situation remains difficult to reflect on\" - GOG's decision to pull Taiwanese horror game Devotion plagues the company still",
+      "image": "https://assetsio.gnwcdn.com/devotion-game-art.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
-      "category": "Free Games",
-      "date": "2026-01-22",
-      "summary": "Styx: Master of Shadows é um jogo de infiltração com elementos de RPG que se passa em um universo sombrio de fantasia, onde você se esgueira, rouba e assassina como Styx, um Goblin de dois séculos de idade.",
+      "category": "News",
+      "date": "2026-01-23",
+      "summary": "A loja digital de jogos online para PC GOG reconheceu que “prejudicou a confiança que nossos usuários depositam em nós” quando removeu abruptamente da venda o aclamado jogo de terror Devotion, há pouco mais de cinco anos. Leia mais...",
       "sources": [
-        "Epic Games Store"
+        "Eurogamer"
       ],
-      "url": "https://store.epicgames.com/p/0aa23c9aff4045d7b4b9b5ccc06b5c03"
+      "url": "https://www.eurogamer.net/gog-reflects-on-devotion-delisting"
     },
     {
-      "id": "https://store.epicgames.com/p/81e2a51d2be949b986993cdca25f4d7d",
-      "title": "GRÁTIS: Styx: Shards of Darkness - Deluxe Edition",
-      "original_title": "Styx: Shards of Darkness - Deluxe Edition",
-      "image": "https://cdn1.epicgames.com/spt-assets/6ccdf6a1518741f0842177137adc00b0/styx-shards-of-darkness-1bh52.jpg",
+      "id": "https://www.eurogamer.net/sophie-turners-lara-croft-is-so-unashamedly-capable-tomb-raider-actor-says",
+      "title": "Lara Croft, de Sophie Turner, é “tão descaradamente capaz”, diz o ator de Tomb Raider",
+      "original_title": "Sophie Turner's Lara Croft is \"so unashamedly capable\", Tomb Raider actor says",
+      "image": "https://assetsio.gnwcdn.com/Screenshot-from-Tomb-Raider-Legacy-of-Atlantis-showing-Lara-climbing-the-side-of-a-large-ancient-contraption-with-an-image-of-classic-Lara-riding-a-motorbike-overlaid-on-top.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
-      "category": "Free Games",
-      "date": "2026-01-22",
-      "summary": "Styx retorna em uma nova aventura furtiva! Explore e domine enormes ambientes abertos, passe furtivamente ou assassine novos inimigos e chefes e experimente a nova gama de habilidades e armas letais do arsenal do nosso goblin assassino.",
+      "category": "News",
+      "date": "2026-01-23",
+      "summary": "Sophie Turner vai estrelar como Lara Croft na próxima série de ação ao vivo Tomb Raider da Amazon, e parece que além da estética do figurino, a heroína itinerante também estará se inclinando para a personalidade mais confiante do personagem dos anos 90.",
       "sources": [
-        "Epic Games Store"
+        "Eurogamer"
       ],
-      "url": "https://store.epicgames.com/p/81e2a51d2be949b986993cdca25f4d7d"
+      "url": "https://www.eurogamer.net/sophie-turners-lara-croft-is-so-unashamedly-capable-tomb-raider-actor-says"
     },
     {
-      "id": "https://store.epicgames.com/p/a9152a8924cc4e438f0e61106ec02f7d",
-      "title": "EM BREVE: Eternal Threads",
-      "original_title": "Eternal Threads",
-      "image": "https://cdn1.epicgames.com/spt-assets/08813e055af64315b8a55b2e521f4e04/eternal-threads-1vm6i.jpg",
+      "id": "https://www.eurogamer.net/uvw-union-fed-trade-commission-letter-petition",
+      "title": "O sindicato United Video Games escreve ao Fed dos EUA em protesto contra a aquisição da EA saudita, anexando petição pública",
+      "original_title": "United Video Games union writes to US Fed in protest of Saudi EA acquisition, attaching public petition",
+      "image": "https://assetsio.gnwcdn.com/mass-effect-shepard-sad.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-01-22",
-      "summary": "Disponível gratuitamente a partir de 09/02. Eternal Threads é um jogo de quebra-cabeça para um jogador, em primeira pessoa, baseado em uma história de manipulação, escolha e consequência do tempo.",
+      "category": "News",
+      "date": "2026-01-23",
+      "summary": "O sindicato United Video Games, apoiado pela CWA, escreveu à Comissão Federal de Comércio dos EUA em oposição à proposta de aquisição da EA por investidores privados, incluindo o Fundo de Investimento Público da Arábia Saudita e várias empresas de investimento. Leia mais...",
       "sources": [
-        "Epic Games Store"
+        "Eurogamer"
       ],
-      "url": "https://store.epicgames.com/p/a9152a8924cc4e438f0e61106ec02f7d"
+      "url": "https://www.eurogamer.net/uvw-union-fed-trade-commission-letter-petition"
     },
     {
-      "id": "https://store.epicgames.com/p/ghostrunner-2",
-      "title": "EM BREVE: Ghostrunner 2",
-      "original_title": "Ghostrunner 2",
-      "image": "https://cdn1.epicgames.com/offer/708f57aaa04b42ef885be16c8288f0ac/EGS_Ghostrunner2_OneMoreLevel_S1_2560x1440-15845148fae1d0cfd7f3e98c9b3ba6ba",
+      "id": "https://www.eurogamer.net/earth-must-dies-a-bawdy-sci-fi-treat-despite-some-fumbles",
+      "title": "O elenco de comédia estelar de Earth Must Die e o romance 'sem toque' de apontar e clicar criam um deleite obsceno de ficção científica, apesar de algumas dificuldades",
+      "original_title": "Earth Must Die's stellar comedy cast and novel 'no touching' point-and-click twist make for a bawdy sci-fi treat, despite some fumbles",
+      "image": "https://assetsio.gnwcdn.com/earth-must-die-header.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-01-22",
-      "summary": "Disponível gratuitamente a partir de 09/02. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
+      "category": "News",
+      "date": "2026-01-23",
+      "summary": "Imagine sentar-se com o EA Sports FC e descobrir que seu pequeno jogador de futebol não quer chutar a bola, ou iniciar seu FPS favorito e descobrir que seu avatar desenvolveu uma aversão a armas. E se Mario de repente dissesse chega de tartaruga...",
       "sources": [
-        "Epic Games Store"
+        "Eurogamer"
       ],
-      "url": "https://store.epicgames.com/p/ghostrunner-2"
+      "url": "https://www.eurogamer.net/earth-must-dies-a-bawdy-sci-fi-treat-despite-some-fumbles"
     },
     {
-      "id": "https://store.epicgames.com/p/32b3e0adbe0c4399be1874958194f97f",
-      "title": "EM BREVE: Castlevania Anniversary Collection",
-      "original_title": "Castlevania Anniversary Collection",
-      "image": "https://cdn1.epicgames.com/spt-assets/1ff2f74ba0ef4019b6905d8abe268819/castlevania-anniversary-collection-yex6f.jpg",
+      "id": "https://www.eurogamer.net/ey-up-this-lad-from-emmerdale-is-playing-norse-god-heimdall-in-amazons-god-of-war-show-thats-norse-not-up-north",
+      "title": "Atenção, esse rapaz de Emmerdale está interpretando o deus nórdico Heimdall no programa God of War da Amazon - isso é 'nórdico', não no \"norte\"",
+      "original_title": "Ey up, this lad from Emmerdale is playing Norse god Heimdall in Amazon's God of War show - that's 'Norse' not up \"north\"",
+      "image": "https://assetsio.gnwcdn.com/Actor-Max-Parker-overlaid-on-an-image-of-Heimdall-from-God-of-War-Ragnarok.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-01-22",
-      "summary": "Disponível gratuitamente a partir de 09/02. A Coleção de Aniversário de Castlevania da Konami traça as origens da histórica franquia de vampiros. Está incluído um e-book exclusivo com detalhes fornecidos por desenvolvedores, artistas e outros inspirados no legado de Castlevania, que lança uma nova luz sobre o mundo de Castlevania.",
+      "category": "News",
+      "date": "2026-01-23",
+      "summary": "Max Parker se juntou ao elenco da próxima série God of War da Amazon. Leia mais...",
       "sources": [
-        "Epic Games Store"
+        "Eurogamer"
       ],
-      "url": "https://store.epicgames.com/p/32b3e0adbe0c4399be1874958194f97f"
+      "url": "https://www.eurogamer.net/ey-up-this-lad-from-emmerdale-is-playing-norse-god-heimdall-in-amazons-god-of-war-show-thats-norse-not-up-north"
     },
     {
-      "id": "https://store.epicgames.com/p/monument-valley-02",
-      "title": "EM BREVE: Monument Valley",
-      "original_title": "Monument Valley",
-      "image": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
+      "id": "https://www.eurogamer.net/valve-major-update-new-characters-patrons",
+      "title": "O Deadlock da Valve ainda é apenas para convidados, mas isso não impediu que seis novos personagens fossem adicionados por meio de uma grande atualização",
+      "original_title": "Valve's Deadlock is still invite-only, but that hasn't stopped six new characters being added via a major update",
+      "image": "https://assetsio.gnwcdn.com/deadlock-hidden-king.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-01-22",
-      "summary": "Disponível gratuitamente a partir de 09/02. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
+      "category": "News",
+      "date": "2026-01-23",
+      "summary": "Uma nova atualização importante para Deadlock caiu repentinamente, trazendo seis novos personagens que se juntarão à lista gradualmente, um novo modo de jogo e vários ajustes de qualidade de vida para o popular MOBA. Leia mais...",
       "sources": [
-        "Epic Games Store"
+        "Eurogamer"
       ],
-      "url": "https://store.epicgames.com/p/monument-valley-02"
+      "url": "https://www.eurogamer.net/valve-major-update-new-characters-patrons"
     },
     {
-      "id": "https://store.epicgames.com/p/monument-valley-02",
-      "title": "EM BREVE: Monument Valley",
-      "original_title": "Monument Valley",
-      "image": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
+      "id": "https://www.techpowerup.com/345540/asus-unveils-expertbook-b3-g2",
+      "title": "(PR) ASUS lança ExpertBook B3 G2",
+      "original_title": "(PR) ASUS Unveils ExpertBook B3 G2",
+      "image": "https://tpucdn.com/img/2J6xDGnQrNZHO1E4_thm.jpg",
       "source_count": 1,
       "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-01-22",
-      "summary": "Disponível gratuitamente a partir de 30/03. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
+      "category": "Hardware",
+      "date": "2026-01-23",
+      "summary": "A ASUS anunciou hoje o ASUS ExpertBook B3 G2, um PC Copilot+ configurável projetado para negócios, disponível em modelos de 14 e 16 polegadas e apresentando um design leve e durável a partir de apenas 1,41 kg, uma dobradiça plana de 180°, recursos avançados de IA...",
       "sources": [
-        "Epic Games Store"
+        "TechPowerUp"
       ],
-      "url": "https://store.epicgames.com/p/monument-valley-02"
+      "url": "https://www.techpowerup.com/345540/asus-unveils-expertbook-b3-g2"
     },
     {
-      "id": "https://store.epicgames.com/p/rustler-grand-theft-horse",
-      "title": "EM BREVE: Rustler - Grand Theft Horse",
-      "original_title": "Rustler - Grand Theft Horse",
-      "image": "https://cdn1.epicgames.com/spt-assets/a1324ca83bc543ae8747f8d5a99d777a/rustler--grand-theft-horse-1ukey.jpg",
+      "id": "https://www.techpowerup.com/345542/qcy-introduces-the-melobuds-n20-premium-hybrid-nc-wireless-earbuds",
+      "title": "(PR) QCY apresenta os MeloBuds N20: fones de ouvido premium híbridos NC sem fio",
+      "original_title": "(PR) QCY Introduces the MeloBuds N20: Premium Hybrid NC Wireless Earbuds",
+      "image": "https://tpucdn.com/img/bxwnq4tfReRTLDoT_thm.jpg",
       "source_count": 1,
       "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-01-22",
-      "summary": "Disponível gratuitamente a partir de 22/01. Torne-se um bandido medieval em um jogo de ação maluco de mundo aberto, cheio de referências da cultura pop. Complete missões insanas, mate heróis, roube cavalos, lute contra guardas, roube camponeses, ouça música de bardo e muito mais! Tudo embalado no estilo de jogo da velha escola!",
+      "category": "Hardware",
+      "date": "2026-01-23",
+      "summary": "À medida que o cenário de áudio continua a ser enriquecido por uma onda de inovações de destaque, a QCY, uma marca líder impulsionada pela inovação contínua de áudio, apresenta orgulhosamente seus fones de ouvido híbridos sem fio com cancelamento de ruído – MeloBuds N20. Combinando desempenho de som excepcional...",
       "sources": [
-        "Epic Games Store"
+        "TechPowerUp"
       ],
-      "url": "https://store.epicgames.com/p/rustler-grand-theft-horse"
+      "url": "https://www.techpowerup.com/345542/qcy-introduces-the-melobuds-n20-premium-hybrid-nc-wireless-earbuds"
     },
     {
-      "id": "https://www.eurogamer.net/highguard-really-is-alive-and-even-has-a-ps5-trophy-list",
-      "title": "Highguard realmente está vivo e tem até lista de troféus do PS5",
-      "original_title": "Highguard really is alive and even has a PS5 trophy list",
-      "image": "https://assetsio.gnwcdn.com/Highguard-character-looks-towards-the-camera.-PS-trophies-are-overlaid-in-the-upper-right-corner.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.techpowerup.com/345538/godeal24-winter-software-super-sale-is-live-great-prices-on-genuine-software",
+      "title": "A super promoção de software de inverno GoDeal24 está no ar! Ótimos preços em software genuíno",
+      "original_title": "GoDeal24 Winter Software Super Sale is Live! Great Prices on Genuine Software",
+      "image": "https://tpucdn.com/img/VJCduJdGhlz6VTfG_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-01-23",
+      "summary": "GoDeal24 está aqui com a Super Promoção de Software de Inverno! Obtenha grandes descontos em software genuíno e globalmente válido que você precisa para configurar seu PC ou TI empresarial, minimizando os custos de software para abrir espaço para hardware mais caro. Obtenha o Office 2021 Professional genuíno ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/345538/godeal24-winter-software-super-sale-is-live-great-prices-on-genuine-software"
+    },
+    {
+      "id": "https://www.techpowerup.com/345541/ai-architecture-evolution-set-to-drive-memory-market-revenue-to-a-new-peak-in-2027-with-annual-growth-exceeding-50",
+      "title": "(PR) Evolução da arquitetura de IA definida para impulsionar a receita do mercado de memória a um novo pico em 2027, com crescimento anual superior a 50%",
+      "original_title": "(PR) AI Architecture Evolution Set to Drive Memory Market Revenue to a New Peak in 2027, with Annual Growth Exceeding 50%",
+      "image": "https://tpucdn.com/img/YrO1QZReQERJArgw_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-01-23",
+      "summary": "A pesquisa mais recente da TrendForce indica que a inovação em IA está causando uma mudança fundamental no mercado de memória. À medida que os volumes de acesso a dados continuam a crescer, os sistemas de IA dependem mais de DRAM de alta largura de banda, alta capacidade e baixa latência para lidar com mo...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/345541/ai-architecture-evolution-set-to-drive-memory-market-revenue-to-a-new-peak-in-2027-with-annual-growth-exceeding-50"
+    },
+    {
+      "id": "https://www.techpowerup.com/345539/intel-core-ultra-series-4-nova-lake-processors-launch-in-late-2026",
+      "title": "Processadores Intel Core Ultra Série 4 “Nova Lake” serão lançados no final de 2026",
+      "original_title": "Intel Core Ultra Series 4 \"Nova Lake\" Processors Launch in Late-2026",
+      "image": "https://tpucdn.com/img/jh5s7q2cVDWWN3Oa_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-01-23",
+      "summary": "A Intel está se preparando para lançar sua geração de processadores Core Ultra Series 4 “Nova Lake” no final de 2026, confirmou o CEO Lip-Bu Tan. Esta geração de processador abrangeria vários formatos, incluindo, principalmente, desktop. A Intel está construindo seu n...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/345539/intel-core-ultra-series-4-nova-lake-processors-launch-in-late-2026"
+    },
+    {
+      "id": "https://www.techpowerup.com/345537/nvidia-ends-open-price-program-pushing-gpus-way-past-msrps",
+      "title": "NVIDIA encerra “programa de preço aberto”, empurrando as GPUs para além dos MSRPs",
+      "original_title": "NVIDIA Ends \"Open Price Program,\" Pushing GPUs Way Past MSRPs",
+      "image": "https://tpucdn.com/img/Jaz46AVQ3CH14hiS_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-01-23",
+      "summary": "De acordo com Roman “der8auer” Hartung e HardwareLuxx, a NVIDIA encerrou efetivamente seu Open Price Program (OPP). Este programa tinha como objetivo ajudar os parceiros de placas complementares da NVIDIA a vender GPUs nos MSRPs sugeridos pela NVIDIA. O programa supostamente terminou alguns...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/345537/nvidia-ends-open-price-program-pushing-gpus-way-past-msrps"
+    },
+    {
+      "id": "https://www.techpowerup.com/345512/techpowerup-x-chieftec-mega-giveaway-the-winners",
+      "title": "Mega Sorteio TechPowerUp x Chieftec: Os Vencedores!",
+      "original_title": "TechPowerUp x Chieftec Mega Giveaway: The Winners!",
+      "image": "https://tpucdn.com/img/Avn0rEyoluw15d4T_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-01-23",
+      "summary": "A TechPowerUp fez parceria com a Chieftec em dezembro de 2025 para oferecer aos nossos leitores da União Europeia a chance de embalar uma das seis peças de hardware Chieftec que abrangem a linha de gabinetes, fontes de alimentação e refrigeração líquida de CPU da empresa. Em disputa estava um...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/345512/techpowerup-x-chieftec-mega-giveaway-the-winners"
+    },
+    {
+      "id": "https://www.techpowerup.com/345536/intel-confirms-14a-wafer-capacity-expansion-only-follows-customer-commitments",
+      "title": "Intel confirma que a expansão da capacidade do wafer 14A segue apenas os compromissos do cliente",
+      "original_title": "Intel Confirms 14A Wafer Capacity Expansion Only Follows Customer Commitments",
+      "image": "https://tpucdn.com/img/hq36zd0eEFZxWCin_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-01-23",
+      "summary": "A Intel concluiu sua teleconferência de resultados do quarto trimestre e do ano de 2025, revelando coisas interessantes sobre suas operações de fundição e seleção de nós. Ao falar sobre o próximo nó 14A, a Intel confirmou que o nó está no caminho certo para 2027, com rendimentos que são...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/345536/intel-confirms-14a-wafer-capacity-expansion-only-follows-customer-commitments"
+    },
+    {
+      "id": "https://www.techpowerup.com/345535/intel-reallocates-pc-production-capacity-to-server-cpus-amid-tight-wafer-supply",
+      "title": "Intel realoca capacidade de produção de PCs para CPUs de servidores em meio a oferta restrita de wafer",
+      "original_title": "Intel Reallocates PC Production Capacity to Server CPUs Amid Tight Wafer Supply",
+      "image": "https://tpucdn.com/img/pdOKF9ZSFEvxOYFT_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-01-23",
+      "summary": "Ontem, após o fechamento do mercado de ações, a Intel anunciou seus lucros do quarto trimestre e do ano de 2025, juntamente com uma orientação mais fraca do que o esperado para o primeiro trimestre de 2026. Como resultado, as ações da Intel deverão abrir 11% mais baixas hoje. Durante a teleconferência de resultados do quarto trimestre, a Intel...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/345535/intel-reallocates-pc-production-capacity-to-server-cpus-amid-tight-wafer-supply"
+    },
+    {
+      "id": "https://www.techpowerup.com/345533/deadlock-old-gods-new-blood-update-adds-slew-of-changes-and-6-new-champions",
+      "title": "A atualização Deadlock Old Gods New Blood adiciona uma série de mudanças e 6 novos campeões",
+      "original_title": "Deadlock Old Gods New Blood Update Adds Slew of Changes and 6 New Champions",
+      "image": "https://tpucdn.com/img/TJcEmzpzHsGLxjgp_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-01-23",
+      "summary": "Deadlock está em testes beta iniciais apenas para convidados há mais de um ano, com atualizações anteriores introduzindo um fluxo constante de novos conteúdos junto com correções substanciais de estabilidade, aprimoramento da interface do usuário e mudanças na qualidade de vida. A última atualização do free-to...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/345533/deadlock-old-gods-new-blood-update-adds-slew-of-changes-and-6-new-champions"
+    },
+    {
+      "id": "https://www.eurogamer.net/psychonauts-studios-pottery-themed-party-brawler-kiln-xbox-playstation-and-pc",
+      "title": "A mais recente estranheza do estúdio Psychonauts é o jogo de luta com tema de cerâmica Kiln, e está chegando ao Xbox, PS5 e PC",
+      "original_title": "Psychonauts studio's latest oddity is pottery themed party brawler Kiln, and it's coming to Xbox, PS5, and PC",
+      "image": "https://assetsio.gnwcdn.com/kiln-pot.jpeg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
       "date": "2026-01-22",
-      "summary": "A lista de troféus do PlayStation 5 para Highguard - The Game Awards 'e uma coisa final' do show do ano passado - já foi divulgada, oferecendo mais uma prova de vida para o jogo de tiro de heróis ao vivo da Wildlight Entertainment. Leia mais...",
+      "summary": "Você sempre pode contar com o estúdio Double Fine da Pyschonauts para fazer algo inesperado, e logo após a aventura mágica do farol do ano passado, Keeper, a equipe revelou sua mais recente estranheza, Kiln: um lutador de festa com tema de cerâmica chegando ao Xbox Ser...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/highguard-really-is-alive-and-even-has-a-ps5-trophy-list"
+      "url": "https://www.eurogamer.net/psychonauts-studios-pottery-themed-party-brawler-kiln-xbox-playstation-and-pc"
     },
     {
-      "id": "https://www.eurogamer.net/witcher-3-online-mulitplayer-mod",
-      "title": "Sempre quis jogar The Witcher 3 com amigos? Chegou um mod multijogador online",
-      "original_title": "Ever wanted to play The Witcher 3 with friends? An online multiplayer mod has arrived",
-      "image": "https://assetsio.gnwcdn.com/witcher-3-online.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/fable-finally-gets-a-release-window-following-xbox-developer-direct-will-launch-in-autumn-2026",
+      "title": "Fable finalmente obtém uma janela de lançamento após o Xbox Developer Direct, será lançado no outono de 2026",
+      "original_title": "Fable finally gets a release window following Xbox Developer Direct, will launch in Autumn 2026",
+      "image": "https://assetsio.gnwcdn.com/Fable-key-art.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
       "date": "2026-01-22",
-      "summary": "Agora podemos finalmente jogar The Witcher 3: Wild Hunt com outras pessoas, cortesia de um novo mod multijogador online. Leia mais...",
+      "summary": "Uma janela de lançamento para Fable acaba de ser anunciada no Xbox Developer Direct. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/witcher-3-online-mulitplayer-mod"
+      "url": "https://www.eurogamer.net/fable-finally-gets-a-release-window-following-xbox-developer-direct-will-launch-in-autumn-2026"
     },
     {
-      "id": "https://www.eurogamer.net/battlefield-6-getting-battlefield-4-map-golmud-railway",
-      "title": "Um dos mapas mais icônicos do Battlefield 4 está sendo totalmente refeito para a segunda temporada do Battlefield 6 e será o maior mapa do novo jogo até agora",
-      "original_title": "One of Battlefield 4's most iconic maps is getting totally remade for Battlefield 6 Season Two, and it'll be the new game's largest map to date",
-      "image": "https://assetsio.gnwcdn.com/goldmund-railway-battlefield-4.jpeg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/forza-horizon-6-shows-off-largest-ever-map-as-microsoft-confirms-a-may-release",
+      "title": "Forza Horizon 6 mostra o “maior” mapa de todos os tempos da série, enquanto a Microsoft confirma o lançamento em maio e o lançamento do PS5 ainda este ano",
+      "original_title": "Forza Horizon 6 shows off the series' \"largest\" ever map as Microsoft confirms a May release and a PS5 launch later this year",
+      "image": "https://assetsio.gnwcdn.com/forza-horizon-6_ksRbVXZ.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
       "date": "2026-01-22",
-      "summary": "A EA revelou que um dos mapas mais icônicos do Battlefield 4 está sendo reconstruído e trazido para o Battlefield 6 como seu maior mapa até o momento. Leia mais...",
+      "summary": "É um grande dia para os fãs do Xbox, com a Microsoft finalmente oferecendo uma visão mais detalhada de alguns de seus títulos mais esperados, cortesia de seu primeiro Developer Direct do ano. E isso começou com uma nova espiada no Forza Horizon 6, trazendo a notícia de 19 de maio...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/battlefield-6-getting-battlefield-4-map-golmud-railway"
+      "url": "https://www.eurogamer.net/forza-horizon-6-shows-off-largest-ever-map-as-microsoft-confirms-a-may-release"
     },
     {
-      "id": "https://www.eurogamer.net/forza-horizon-6-release-date-leak-corroborated",
-      "title": "Vazamento da data de lançamento do Forza Horizon 6 corroborado antes do Xbox Developer Direct de hoje",
-      "original_title": "Forza Horizon 6 release date leak corroborated ahead of today's Xbox Developer Direct",
-      "image": "https://assetsio.gnwcdn.com/Forza-Horizon-6-promo-image-showing-the-game's-name-overlaid-on-a-scenic-view-in-Japan.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Rumor",
-      "date": "2026-01-22",
-      "summary": "Aja surpreso: a data de lançamento do Forza Horizon 6 parece ser 19 de maio – uma data que esperamos ser anunciada durante o Xbox Developer Direct desta noite. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/forza-horizon-6-release-date-leak-corroborated"
-    },
-    {
-      "id": "https://www.eurogamer.net/free-new-mario-kart-world-update-adds-team-races-to-its-knockout-tour-mode",
-      "title": "A nova atualização gratuita do Mario Kart World adiciona corridas de equipe ao modo Knockout Tour",
-      "original_title": "Free new Mario Kart World update adds team races to its Knockout Tour mode",
-      "image": "https://assetsio.gnwcdn.com/Mario-celebrates-in-team-Knockout-Tour-for-Mario-Kart-World.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/beast-of-reincarnation-gets-summer-2026-release-window-and-gameplay-breakdown-at-xbox-developer-direct",
+      "title": "Beast of Reincarnation obtém janela de lançamento no verão de 2026 e detalhamento da jogabilidade no Xbox Developer Direct",
+      "original_title": "Beast of Reincarnation gets Summer 2026 release window and gameplay breakdown at Xbox Developer Direct",
+      "image": "https://assetsio.gnwcdn.com/beast-on-reincarnation-emma.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
       "date": "2026-01-22",
-      "summary": "A Nintendo lançou uma atualização gratuita para Mario Kart World, que adiciona corridas em equipe ao caótico modo Knockout Tour. Leia mais...",
+      "summary": "Beast of Reincarnation recebeu uma nova apresentação de jogo no Xbox Developer Direct, bem como uma janela de lançamento no verão de 2026 Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/free-new-mario-kart-world-update-adds-team-races-to-its-knockout-tour-mode"
-    },
-    {
-      "id": "https://www.eurogamer.net/gears-of-war-e-day-original-series-tone",
-      "title": "Se você deseja que Gears of War retorne ao “tom e vibrações dos jogos originais”, o E-Day parece estar fazendo exatamente isso",
-      "original_title": "If you want Gears of War to return to the \"tone and vibes of the original games\" E-Day sounds like it's doing just that",
-      "image": "https://assetsio.gnwcdn.com/Gears-of-War-E-Day_X2cX2yo.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-01-22",
-      "summary": "Em uma nova entrevista, o diretor criativo de Gears of War E-Day, Matt Searcy, abriu um pouco a cortina sobre a próxima prequela do jogo de tiro em terceira pessoa sangrento favorito de todos. Ou seja, ao retornar ao Emergence Day a vibração da série original...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/gears-of-war-e-day-original-series-tone"
-    },
-    {
-      "id": "https://www.eurogamer.net/sands-of-times-shock-cancellation-does-not-mean-we-are-stepping-away-from-the-franchise-says-remake-team",
-      "title": "O cancelamento chocante de Sands of Time “não significa que estamos nos afastando da franquia”, diz equipe de remake",
-      "original_title": "Sands of Time's shock cancellation \"does not mean we are stepping away from the franchise\", says remake team",
-      "image": "https://assetsio.gnwcdn.com/Image-from-Prince-of-Persia-The-Sands-of-Time-Remake-showing-a-passed-out-male-character-lying-on-the-lap-of-a-lady%2C-who-is-stroking-his-hair.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-01-22",
-      "summary": "O estúdio Prince of Persia: The Sands of Time Remake da Ubisoft compartilhou uma declaração após o cancelamento chocante de seu jogo. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/sands-of-times-shock-cancellation-does-not-mean-we-are-stepping-away-from-the-franchise-says-remake-team"
-    },
-    {
-      "id": "https://www.techpowerup.com/345495/amd-china-and-micro-center-confirm-ryzen-7-9850x3d-launch-on-january-28",
-      "title": "AMD China e Micro Center confirmam lançamento do Ryzen 7 9850X3D em 28 de janeiro",
-      "original_title": "AMD China and Micro Center Confirm Ryzen 7 9850X3D Launch on January 28",
-      "image": "https://tpucdn.com/img/bQqqgOYSYfIRpBPC_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-01-22",
-      "summary": "A AMD China e o Micro Center confirmaram que o próximo CPU para jogos, o AMD Ryzen 7 9850X3D, será lançado em 28 de janeiro. Rumores anteriores sugeriam esta data de lançamento, e agora o Micro Center a confirmou. Na loja JD da AMD China, o Ryzen...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/345495/amd-china-and-micro-center-confirm-ryzen-7-9850x3d-launch-on-january-28"
-    },
-    {
-      "id": "https://www.techpowerup.com/345493/apple-silicon-approaches-amds-laptop-market-share-only-five-years-in",
-      "title": "Apple Silicon se aproxima da participação de mercado de laptops da AMD apenas cinco anos depois",
-      "original_title": "Apple Silicon Approaches AMD's Laptop Market Share Only Five Years In",
-      "image": "https://tpucdn.com/img/P11iuXUey7P8Md1C_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-01-22",
-      "summary": "De acordo com dados recolhidos pela Mercury Research e analisados ​​pela Bernstein Research, a Apple Silicon fez progressos significativos, alcançando uma quota de mercado de portáteis comparável à da AMD, um fornecedor de longa data neste sector. Quando a Apple lançou seu f...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/345493/apple-silicon-approaches-amds-laptop-market-share-only-five-years-in"
-    },
-    {
-      "id": "https://www.techpowerup.com/345491/nvidia-allegedly-pausing-rtx-50-series-supply-for-six-months",
-      "title": "NVIDIA supostamente pausando o fornecimento da série RTX 50 por seis meses",
-      "original_title": "NVIDIA Allegedly Pausing RTX 50-Series Supply For Six Months",
-      "image": "https://tpucdn.com/img/YhoMjn0xqXg4jWU8_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-01-22",
-      "summary": "A atual demanda da indústria de IA por silício e seus efeitos indiretos no mercado de PCs DIY foram exaustivamente documentados, com a consequente escassez de memória resultando em relatórios de cancelamento efetivo do RTX 5060 Ti e 5070 Ti, e até mesmo do aumento...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/345491/nvidia-allegedly-pausing-rtx-50-series-supply-for-six-months"
-    },
-    {
-      "id": "https://www.techpowerup.com/345489/steam-deck-client-update-polishes-controller-compatibility-and-configuration-options",
-      "title": "A atualização do cliente Steam Deck aprimora a compatibilidade do controlador e as opções de configuração",
-      "original_title": "Steam Deck Client Update Polishes Controller Compatibility and Configuration Options",
-      "image": "https://tpucdn.com/img/Z45TIkACc2TzM3kY_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-01-22",
-      "summary": "A Valve publicou uma atualização estável do Steam Deck Client em 21 de janeiro que mescla muitos recursos relacionados ao controlador e à acessibilidade que apareceram em atualizações beta anteriores, como a capacidade de filtrar sua biblioteca por idioma e recursos de acessibilidade...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/345489/steam-deck-client-update-polishes-controller-compatibility-and-configuration-options"
-    },
-    {
-      "id": "https://www.techpowerup.com/345487/lenovo-reveals-expansion-plans-for-magic-bay-accessory-system-in-2026",
-      "title": "Lenovo revela planos de expansão para sistema de acessórios Magic Bay em 2026",
-      "original_title": "Lenovo Reveals Expansion Plans for Magic Bay Accessory System in 2026",
-      "image": "https://tpucdn.com/img/vO7CAl9qobF7Snsa_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-01-22",
-      "summary": "A Lenovo exibiu anteriormente o sistema de acessórios modulares Magic Bay para adicionar recursos como uma webcam 4K com alto-falantes integrados ou um mini HUD modular aos seus laptops ThinkBook, embora não tenha havido muitas novidades sobre esses acessórios desde então.",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/345487/lenovo-reveals-expansion-plans-for-magic-bay-accessory-system-in-2026"
-    },
-    {
-      "id": "https://www.eurogamer.net/ubisofts-troubled-prince-of-persia-sands-of-time-remake-is-dead-as-publisher-kills-multiple-projects-closes-studios-and-orders-staff-back-to-the-office",
-      "title": "O problemático remake de Prince of Persia: Sands of Time da Ubisoft está morto enquanto a editora mata vários projetos, fecha estúdios e ordena que a equipe volte ao escritório",
-      "original_title": "Ubisoft's troubled Prince of Persia: Sands of Time remake is dead as publisher kills multiple projects, closes studios, and orders staff back to the office",
-      "image": "https://assetsio.gnwcdn.com/prince-of-persia-remake-composite.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-01-21",
-      "summary": "A Ubisoft fechou dois estúdios e cancelou seis projetos - incluindo o muito adiado remake de Prince of Persia: The Sands of Time - como parte de um grande esforço de reestruturação que também verá atrasos em sete jogos.\n Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/ubisofts-troubled-prince-of-persia-sands-of-time-remake-is-dead-as-publisher-kills-multiple-projects-closes-studios-and-orders-staff-back-to-the-office"
-    },
-    {
-      "id": "https://www.eurogamer.net/visually-impressive-open-world-fantasy-adventure-crimson-desert-goes-gold-locks-march-launch",
-      "title": "A aventura de fantasia de mundo aberto visualmente impressionante Crimson Desert ganha ouro e tem data de lançamento em março",
-      "original_title": "Visually impressive open-world fantasy adventure Crimson Desert goes gold, locks in a March release date",
-      "image": "https://assetsio.gnwcdn.com/crimson-desert-headline_OxFlDgI.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-01-21",
-      "summary": "Crimson Desert tem feito barulho desde que foi revelado no final de 2019, com 2025 dando-lhe um impulso extra em popularidade após várias prévias e novos trailers. À medida que nos aproximamos da data de lançamento, 19 de março, muitos se perguntam se um atraso poderia ter...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/visually-impressive-open-world-fantasy-adventure-crimson-desert-goes-gold-locks-march-launch"
-    },
-    {
-      "id": "https://www.eurogamer.net/2xko-caitlyn-easter-egg",
-      "title": "Tiremos o chapéu para 2XKO, que incluiu um ovo de páscoa escondido junto com seu último lançamento de personagem",
-      "original_title": "Hats off to 2XKO, which has a included a hidden easter egg alongside its latest character release",
-      "image": "https://assetsio.gnwcdn.com/2xko-caitlyn.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-01-21",
-      "summary": "2XKO foi lançado corretamente para PC e consoles, trazendo consigo uma série de novos recursos e Caitlyn como sua 12ª lutadora. No entanto, jogadores curiosos rapidamente encontraram um divertido ovo de páscoa vinculado a Caitlyn que muda significativamente a aparência do personagem no jogo...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/2xko-caitlyn-easter-egg"
-    },
-    {
-      "id": "https://www.techpowerup.com/345486/camouflaged-mouse-at-vct-sparks-rumors-of-razer-viper-v4-pro",
-      "title": "Mouse camuflado no VCT gera rumores sobre o Razer Viper V4 Pro",
-      "original_title": "Camouflaged Mouse at VCT Sparks Rumors of Razer Viper V4 Pro",
-      "image": "https://tpucdn.com/img/1uYrUx8QX3o2OwMt_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-01-21",
-      "summary": "A Razer atualizou recentemente seu mouse para jogos DeathAdder, lançando o DeathAdder V4 Pro e deixando os fãs da série Viper simétrica se perguntando quando receberão o que merecem. Parece que a espera está chegando ao fim, com o que parece...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/345486/camouflaged-mouse-at-vct-sparks-rumors-of-razer-viper-v4-pro"
-    },
-    {
-      "id": "https://www.techpowerup.com/345485/ayaneo-pocket-s-mini-4-3-retro-handheld-officially-debuts",
-      "title": "(PR) Ayaneo Pocket S Mini 4:3 Retro Handheld estreia oficialmente",
-      "original_title": "(PR) Ayaneo Pocket S Mini 4:3 Retro Handheld Officially Debuts",
-      "image": "https://tpucdn.com/img/4bk3nNsXKLsRcJNu_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-01-21",
-      "summary": "Muitos entusiastas de jogos retrô têm procurado um computador de mão que ofereça uma experiência de jogo 4:3 intransigente. Ayaneo entende essa dedicação e paixão, e responde com a mesma busca pela perfeição, criando um verdadeiro “nível de graduação” 4:3...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/345485/ayaneo-pocket-s-mini-4-3-retro-handheld-officially-debuts"
-    },
-    {
-      "id": "https://www.techpowerup.com/345484/samsung-reportedly-developing-2-nm-custom-hbm-logic-dies",
-      "title": "Samsung supostamente desenvolvendo matrizes lógicas HBM personalizadas de 2 nm",
-      "original_title": "Samsung Reportedly Developing 2 nm Custom HBM Logic Dies",
-      "image": "https://tpucdn.com/img/uAOBI7X8tbT5au4w_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-01-21",
-      "summary": "Esta tarde, um artigo de notícias da ZDNet Coreia do Sul revelou os primeiros detalhes de outro projeto intrigante de 2 nm supostamente em andamento na Samsung Semiconductor. Clientes específicos não são mencionados por especialistas do setor, mas as megacorporações sul-coreanas...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/345484/samsung-reportedly-developing-2-nm-custom-hbm-logic-dies"
-    },
-    {
-      "id": "https://www.techpowerup.com/345481/fatal-frame-ii-crimson-butterfly-remake-devs-discuss-implementation-of-new-mechanics",
-      "title": "(PR) Fatal Frame II: Crimson Butterfly REMAKE Devs discutem a implementação de novas mecânicas",
-      "original_title": "(PR) Fatal Frame II: Crimson Butterfly REMAKE Devs Discuss Implementation of New Mechanics",
-      "image": "https://tpucdn.com/img/RXaaStVJpFi49bzB_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-01-21",
-      "summary": "Remasterizar Fatal Frame: Maiden of Black Water e Fatal Frame: Mask of the Lunar Eclipse foi apenas o começo. Quando a Koei Tecmo e a Team Ninja começaram a criar um remake completo do clássico de terror de sobrevivência Fatal Frame II: Crimson Butterfly, a missão...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/345481/fatal-frame-ii-crimson-butterfly-remake-devs-discuss-implementation-of-new-mechanics"
-    },
-    {
-      "id": "https://www.techpowerup.com/345472/ubisoft-axes-prince-of-persia-sands-of-time-remake-delays-assassins-creed-black-flag-remake-and-more",
-      "title": "Ubisoft Axes Prince of Persia: Sands of Time Remake, atrasa Assassin's Creed Black Flag Remake e muito mais",
-      "original_title": "Ubisoft Axes Prince of Persia: Sands of Time Remake, Delays Assassin's Creed Black Flag Remake, and more",
-      "image": "https://tpucdn.com/img/INI4zOgerwCKWA47_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-01-21",
-      "summary": "Parece que a Ubisoft ainda não está fora de perigo, apesar de uma enorme rodada de demissões no ano passado e de uma nova subsidiária com investimentos substanciais da Tencent. De acordo com um anúncio, a gigante dos jogos cancelou uma série de jogos e institutos...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/345472/ubisoft-axes-prince-of-persia-sands-of-time-remake-delays-assassins-creed-black-flag-remake-and-more"
+      "url": "https://www.eurogamer.net/beast-of-reincarnation-gets-summer-2026-release-window-and-gameplay-breakdown-at-xbox-developer-direct"
     }
   ]
 }
