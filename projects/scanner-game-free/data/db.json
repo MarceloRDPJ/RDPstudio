@@ -1,19 +1,19 @@
 {
-  "last_updated": "2026-01-29T12:58:26",
-  "display_date": "29/01/2026 12:58",
+  "last_updated": "2026-01-30T12:56:31",
+  "display_date": "30/01/2026 12:56",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "463ms",
+    "latency": "332ms",
     "current_games": [
       {
-        "title": "Rustler - Grand Theft Horse",
-        "description": "Torne-se um bandido medieval em um jogo de ação maluco de mundo aberto, cheio de referências da cultura pop. Complete missões insanas, mate heróis, roube cavalos, lute contra guardas, roube camponeses, ouça música de bardo e muito mais! Tudo embalado no estilo de jogo da velha escola!",
-        "image": "https://cdn1.epicgames.com/spt-assets/a1324ca83bc543ae8747f8d5a99d777a/rustler--grand-theft-horse-1ukey.jpg",
-        "url": "https://store.epicgames.com/p/rustler-grand-theft-horse",
+        "title": "Definitely Not Fried Chicken",
+        "description": "Definitivamente Not Fried Chicken é um simulador de gerenciamento de negócios com um toque especial! Aumente o seu comércio de drogas através de frentes legítimas, gerenciando ambos os lados do negócio. Adquira novos “negócios”, conheça nova clientela, desenvolva narcóticos mais potentes, ganhe muito dinheiro e deixe uma cidade em ruínas!",
+        "image": "https://cdn1.epicgames.com/spt-assets/a90fa1ecc6fd41b2b98bc04b40b23c71/definitely-not-fried-chicken-thf6o.png",
+        "url": "https://store.epicgames.com/p/6b5b8432768a423f848fd85a61c97623",
         "price": "$24.99",
-        "start_date": "2026-01-22T16:00:00.000Z",
-        "end_date": "2026-01-29T16:00:00.000Z"
+        "start_date": "2026-01-29T16:00:00.000Z",
+        "end_date": "2026-02-05T16:00:00.000Z"
       }
     ],
     "upcoming_games": [
@@ -63,32 +63,50 @@
         "end_date": "2026-02-23T16:00:00.000Z"
       },
       {
-        "title": "Definitely Not Fried Chicken",
-        "description": "Definitivamente Not Fried Chicken é um simulador de gerenciamento de negócios com um toque especial! Aumente o seu comércio de drogas através de frentes legítimas, gerenciando ambos os lados do negócio. Adquira novos “negócios”, conheça nova clientela, desenvolva narcóticos mais potentes, ganhe muito dinheiro e deixe uma cidade em ruínas!",
-        "image": "https://cdn1.epicgames.com/spt-assets/a90fa1ecc6fd41b2b98bc04b40b23c71/definitely-not-fried-chicken-thf6o.png",
-        "url": "https://store.epicgames.com/p/6b5b8432768a423f848fd85a61c97623",
+        "title": "Botany Manor",
+        "description": "Bem-vindo ao Botany Manor, uma casa senhorial na Inglaterra do século XIX. Você joga como a habitante Arabella Greene, uma botânica aposentada. Explore sua casa e seus jardins, repletos de pesquisas, para descobrir o habitat ideal da flora esquecida.",
+        "image": "https://cdn1.epicgames.com/spt-assets/42d56a88c22d4eaa8977bf5528a2396b/botany-manor-1f7uq.jpg",
+        "url": "https://store.epicgames.com/p/61eca1a9e42243d29e93b02510d88d83",
         "price": "$24.99",
-        "start_date": "2026-01-29T16:00:00.000Z",
-        "end_date": "2026-02-05T16:00:00.000Z"
+        "start_date": "2026-02-08T21:00:00.000Z",
+        "end_date": "2026-02-22T21:00:00.000Z"
+      },
+      {
+        "title": "Botany Manor",
+        "description": "Bem-vindo ao Botany Manor, uma casa senhorial na Inglaterra do século XIX. Você joga como a habitante Arabella Greene, uma botânica aposentada. Explore sua casa e seus jardins, repletos de pesquisas, para descobrir o habitat ideal da flora esquecida.",
+        "image": "https://cdn1.epicgames.com/spt-assets/42d56a88c22d4eaa8977bf5528a2396b/botany-manor-1f7uq.jpg",
+        "url": "https://store.epicgames.com/p/61eca1a9e42243d29e93b02510d88d83",
+        "price": "$24.99",
+        "start_date": "2026-02-05T16:00:00.000Z",
+        "end_date": "2026-02-12T16:00:00.000Z"
+      },
+      {
+        "title": "Poison Retro Set",
+        "description": "Volte no tempo e avance na batalha com o Poison Retro Set, inspirado na eletrizante Temporada Arcade.",
+        "image": "https://cdn1.epicgames.com/spt-assets/65338dc60d204dcb98752745bab52374/pixel-gun-3d-1pp3a.jpg",
+        "url": "https://store.epicgames.com/p/poison-retro-set",
+        "price": "$24.99",
+        "start_date": "2026-02-05T16:00:00.000Z",
+        "end_date": "2026-02-12T16:00:00.000Z"
       }
     ],
     "mystery_detected": false
   },
   "items": [
     {
-      "id": "https://store.epicgames.com/p/rustler-grand-theft-horse",
-      "title": "GRÁTIS: Rustler - Grand Theft Horse",
-      "original_title": "Rustler - Grand Theft Horse",
-      "image": "https://cdn1.epicgames.com/spt-assets/a1324ca83bc543ae8747f8d5a99d777a/rustler--grand-theft-horse-1ukey.jpg",
+      "id": "https://store.epicgames.com/p/6b5b8432768a423f848fd85a61c97623",
+      "title": "GRÁTIS: Definitely Not Fried Chicken",
+      "original_title": "Definitely Not Fried Chicken",
+      "image": "https://cdn1.epicgames.com/spt-assets/a90fa1ecc6fd41b2b98bc04b40b23c71/definitely-not-fried-chicken-thf6o.png",
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-01-29",
-      "summary": "Torne-se um bandido medieval em um jogo de ação maluco de mundo aberto, cheio de referências da cultura pop. Complete missões insanas, mate heróis, roube cavalos, lute contra guardas, roube camponeses, ouça música de bardo e muito mais! Tudo embalado no estilo de jogo da velha escola!",
+      "date": "2026-01-30",
+      "summary": "Definitivamente Not Fried Chicken é um simulador de gerenciamento de negócios com um toque especial! Aumente o seu comércio de drogas através de frentes legítimas, gerenciando ambos os lados do negócio. Adquira novos “negócios”, conheça nova clientela, desenvolva narcóticos mais potentes, ganhe muito dinheiro e deixe uma cidade em ruínas!",
       "sources": [
         "Epic Games Store"
       ],
-      "url": "https://store.epicgames.com/p/rustler-grand-theft-horse"
+      "url": "https://store.epicgames.com/p/6b5b8432768a423f848fd85a61c97623"
     },
     {
       "id": "https://store.epicgames.com/p/a9152a8924cc4e438f0e61106ec02f7d",
@@ -98,7 +116,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-01-29",
+      "date": "2026-01-30",
       "summary": "Disponível gratuitamente a partir de 09/02. Eternal Threads é um jogo de quebra-cabeça para um jogador, em primeira pessoa, baseado em uma história de manipulação, escolha e consequência do tempo.",
       "sources": [
         "Epic Games Store"
@@ -113,7 +131,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-01-29",
+      "date": "2026-01-30",
       "summary": "Disponível gratuitamente a partir de 09/02. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cibernética.",
       "sources": [
         "Epic Games Store"
@@ -128,7 +146,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-01-29",
+      "date": "2026-01-30",
       "summary": "Disponível gratuitamente a partir de 09/02. A Coleção de Aniversário de Castlevania da Konami traça as origens da histórica franquia de vampiros. Está incluído um e-book exclusivo com detalhes fornecidos por desenvolvedores, artistas e outros inspirados no legado de Castlevania, que lança uma nova luz sobre o mundo de Castlevania.",
       "sources": [
         "Epic Games Store"
@@ -143,7 +161,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-01-29",
+      "date": "2026-01-30",
       "summary": "Disponível gratuitamente a partir de 30/03. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
       "sources": [
         "Epic Games Store"
@@ -158,7 +176,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-01-29",
+      "date": "2026-01-30",
       "summary": "Disponível gratuitamente a partir de 09/02. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
       "sources": [
         "Epic Games Store"
@@ -166,319 +184,349 @@
       "url": "https://store.epicgames.com/p/monument-valley-02"
     },
     {
-      "id": "https://store.epicgames.com/p/6b5b8432768a423f848fd85a61c97623",
-      "title": "EM BREVE: Definitely Not Fried Chicken",
-      "original_title": "Definitely Not Fried Chicken",
-      "image": "https://cdn1.epicgames.com/spt-assets/a90fa1ecc6fd41b2b98bc04b40b23c71/definitely-not-fried-chicken-thf6o.png",
+      "id": "https://store.epicgames.com/p/61eca1a9e42243d29e93b02510d88d83",
+      "title": "EM BREVE: Botany Manor",
+      "original_title": "Botany Manor",
+      "image": "https://cdn1.epicgames.com/spt-assets/42d56a88c22d4eaa8977bf5528a2396b/botany-manor-1f7uq.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-01-29",
-      "summary": "Disponível gratuitamente a partir de 29/01. Definitivamente Not Fried Chicken é um simulador de gerenciamento de negócios com um toque especial! Aumente o seu comércio de drogas através de frentes legítimas, gerenciando ambos os lados do negócio. Adquira novos “negócios”, conheça nova clientela, desenvolva narcóticos mais potentes, ganhe muito dinheiro e deixe uma cidade em ruínas!",
+      "date": "2026-01-30",
+      "summary": "Disponível gratuitamente a partir de 08/02. Bem-vindo ao Botany Manor, uma casa senhorial na Inglaterra do século XIX. Você joga como a habitante Arabella Greene, uma botânica aposentada. Explore sua casa e seus jardins, repletos de pesquisas, para descobrir o habitat ideal da flora esquecida.",
       "sources": [
         "Epic Games Store"
       ],
-      "url": "https://store.epicgames.com/p/6b5b8432768a423f848fd85a61c97623"
+      "url": "https://store.epicgames.com/p/61eca1a9e42243d29e93b02510d88d83"
     },
     {
-      "id": "https://www.eurogamer.net/studio-that-developed-the-infamous-mighty-no9-has-shut-down-for-good",
-      "title": "Estúdio que desenvolveu o infame Mighty No.9 foi fechado para sempre",
-      "original_title": "Studio that developed the infamous Mighty No.9 has shut down for good",
-      "image": "https://assetsio.gnwcdn.com/mighty-no-9_I26PqDE.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://store.epicgames.com/p/61eca1a9e42243d29e93b02510d88d83",
+      "title": "EM BREVE: Botany Manor",
+      "original_title": "Botany Manor",
+      "image": "https://cdn1.epicgames.com/spt-assets/42d56a88c22d4eaa8977bf5528a2396b/botany-manor-1f7uq.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-01-30",
+      "summary": "Disponível gratuitamente a partir de 05/02. Bem-vindo ao Botany Manor, uma casa senhorial na Inglaterra do século XIX. Você joga como a habitante Arabella Greene, uma botânica aposentada. Explore sua casa e seus jardins, repletos de pesquisas, para descobrir o habitat ideal da flora esquecida.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/61eca1a9e42243d29e93b02510d88d83"
+    },
+    {
+      "id": "https://store.epicgames.com/p/poison-retro-set",
+      "title": "EM BREVE: Poison Retro Set",
+      "original_title": "Poison Retro Set",
+      "image": "https://cdn1.epicgames.com/spt-assets/65338dc60d204dcb98752745bab52374/pixel-gun-3d-1pp3a.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-01-30",
+      "summary": "Disponível gratuitamente a partir de 05/02. Volte no tempo e avance na batalha com o Poison Retro Set, inspirado na eletrizante Temporada Arcade.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/poison-retro-set"
+    },
+    {
+      "id": "https://www.eurogamer.net/mio-memories-in-orbit-metroidvanias-after-hollow-knight-silksong",
+      "title": "Após as alegrias brutais de Hollow Knight: Silksong, Mio: Memories in Orbit parece um adiamento e uma revelação",
+      "original_title": "After the brutal joys of Hollow Knight: Silksong, Mio: Memories in Orbit feels like a reprieve and a revelation",
+      "image": "https://assetsio.gnwcdn.com/mio-memories-in-orbit-header.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-01-30",
+      "summary": "Alguns jogos chegam como uma explosão de sensação e puro deleite: um punhado de imagens, emoções e ideias que criam um clima sem palavras. Este é Mio: Memórias em Órbita. Este jogo é um cabelo parecido com Mucha esvoaçando em zero G. É um cacho de pérolas e crepúsculo...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/mio-memories-in-orbit-metroidvanias-after-hollow-knight-silksong"
+    },
+    {
+      "id": "https://www.eurogamer.net/metal-gear-solid-series-62m-copies-sold-delta-snake-eater",
+      "title": "A série Metal Gear Solid ultrapassa 62,5 milhões de cópias vendidas após o lançamento de Metal Gear Delta: Snake Eater",
+      "original_title": "Metal Gear Solid series soars past 62.5m copies sold following release of Metal Gear Delta: Snake Eater",
+      "image": "https://assetsio.gnwcdn.com/snakey-snake-metal-gear-solidy.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-01-30",
+      "summary": "A série Metal Gear Solid vendeu mais de 65,5 milhões de cópias em todo o mundo, de acordo com um novo post comercial da Konami. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/metal-gear-solid-series-62m-copies-sold-delta-snake-eater"
+    },
+    {
+      "id": "https://www.eurogamer.net/split-fiction-film-now-has-a-script-and-sydney-sweeney-is-hyped-about-the-adaptation",
+      "title": "Filme Split Fiction agora tem roteiro, e Sydney Sweeney está “empolgada” com a adaptação",
+      "original_title": "Split Fiction film now has a script, and Sydney Sweeney is \"hyped\" about the adaptation",
+      "image": "https://assetsio.gnwcdn.com/split-screen-Split-Fiction-image-showing-Mio-and-Zoe-in-a-sci-fi-world-with-an-image-of-Sydney-Sweeney-overlaid-on-top.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-01-30",
+      "summary": "O primeiro roteiro de uma adaptação cinematográfica de Split Fiction baseada no jogo de mesmo nome de Hazelight foi escrito. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/split-fiction-film-now-has-a-script-and-sydney-sweeney-is-hyped-about-the-adaptation"
+    },
+    {
+      "id": "https://www.eurogamer.net/something-profound-is-going-to-happen-in-fallout-season-twos-finale-teases-walton-the-ghoul-goggins",
+      "title": "Algo “profundo” vai acontecer no final da segunda temporada de Fallout, provoca Walton ‘The Ghoul’ Goggins",
+      "original_title": "Something \"profound\" is going to happen in Fallout season two's finale, teases Walton 'The Ghoul' Goggins",
+      "image": "https://assetsio.gnwcdn.com/Promo-image-of-Fallout's-The-Ghoul-looking-down-a-littered-New-Vegas-street.webp?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-01-30",
+      "summary": "De acordo com Walton Goggins, todos podemos esperar que algo “profundo” aconteça no final da segunda temporada de Fallout na próxima semana. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/something-profound-is-going-to-happen-in-fallout-season-twos-finale-teases-walton-the-ghoul-goggins"
+    },
+    {
+      "id": "https://www.eurogamer.net/nintendo-direct-rumoured-partner-feb-5",
+      "title": "Há rumores de um Nintendo Direct para o início de fevereiro e parece que será uma vitrine de parceiros – estamos prestes a ver mais de The Duskbloods?",
+      "original_title": "A Nintendo Direct for early February is rumoured, and it sounds like it's going to be a partner showcase - are we about to see more of The Duskbloods?",
+      "image": "https://assetsio.gnwcdn.com/duskbloods-2026-game-releases.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Rumor",
+      "date": "2026-01-30",
+      "summary": "O boato na internet é que a Nintendo realizará outra transmissão ao vivo baseada em revelações na próxima semana, e será nada menos que um Partner Showcase. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/nintendo-direct-rumoured-partner-feb-5"
+    },
+    {
+      "id": "https://www.eurogamer.net/one-third-of-surveyed-us-games-industry-workers-were-laid-off-in-the-last-two-years-gdc-reports",
+      "title": "Um terço dos trabalhadores da indústria de jogos dos EUA entrevistados foram demitidos nos últimos dois anos, relata GDC",
+      "original_title": "One third of surveyed US games industry workers were laid off in the last two years, GDC reports",
+      "image": "https://assetsio.gnwcdn.com/layoffs_SwITSw8.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-01-30",
+      "summary": "Um relatório da GDC lançou uma luz bastante preocupante sobre a situação, revelando que um terço dos trabalhadores norte-americanos inquiridos na indústria foram despedidos nos últimos dois anos. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/one-third-of-surveyed-us-games-industry-workers-were-laid-off-in-the-last-two-years-gdc-reports"
+    },
+    {
+      "id": "https://www.eurogamer.net/highguard-update-reduces-crashes-by-90-adds-crouch-toggle-option",
+      "title": "A atualização Highguard reduz travamentos em 90%, adiciona opção de alternância de agachamento",
+      "original_title": "Highguard update reduces crashes by 90%, adds crouch toggle option",
+      "image": "https://assetsio.gnwcdn.com/highguard-headline_GkemxgH.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-01-30",
+      "summary": "A equipe da Wildlight lançou uma atualização para seu jogo de tiro de heróis ao vivo, Highguard. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/highguard-update-reduces-crashes-by-90-adds-crouch-toggle-option"
+    },
+    {
+      "id": "https://www.eurogamer.net/amazons-god-of-war-keeps-casting-characters-from-ragnarok-adds-severance-and-homeland-stars-as-odin-and-thor",
+      "title": "God of War da Amazon continua escalando personagens de Ragnarök, adiciona estrelas de Severance e Homeland como Odin e Thor",
+      "original_title": "Amazon's God of War keeps casting characters from Ragnarök, adds Severance and Homeland stars as Odin and Thor",
+      "image": "https://assetsio.gnwcdn.com/Images-of-Odin-and-Thor-from-God-of-War-Ragnarok-side-by-side.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-01-30",
+      "summary": "Apesar da série God of War de ação ao vivo da Amazon seguir o enredo do épico nórdico de Santa Monica de 2018, o elenco até agora tem uma sensação muito Ragnarök (e roll). Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/amazons-god-of-war-keeps-casting-characters-from-ragnarok-adds-severance-and-homeland-stars-as-odin-and-thor"
+    },
+    {
+      "id": "https://www.techpowerup.com/345829/asthenia-dark-fantasy-adventure-set-in-dying-world-showcased",
+      "title": "(PR) Astenia Dark Fantasy Adventure ambientada em Dying World apresentada",
+      "original_title": "(PR) Asthenia Dark Fantasy Adventure Set in Dying World Showcased",
+      "image": "https://tpucdn.com/img/ZJUuVmdE4KW8hxAa_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-01-30",
+      "summary": "Astenia é uma aventura de fantasia sombria ambientada em um outro mundo decadente, atormentado por uma misteriosa doença corrupta. Os jogadores entram em uma dimensão sombria governada por entidades antigas, moldada pela perda e desmoronando lentamente sob o peso de uma guerra sem fim.\n\nEi...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/345829/asthenia-dark-fantasy-adventure-set-in-dying-world-showcased"
+    },
+    {
+      "id": "https://www.techpowerup.com/345827/retro-games-thequickshot-ii-is-now-available",
+      "title": "(PR) Jogos Retro THEQUICKSHOT II já está disponível",
+      "original_title": "(PR) Retro Games THEQUICKSHOT II Is Now Available",
+      "image": "https://tpucdn.com/img/jpTKWobMvEBZ2N9p_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-01-30",
+      "summary": "A Retro Games Ltd., em parceria com a PLAION REPLAI, confirma hoje que THEQUICKSHOT II já está disponível, trazendo de volta às mãos dos jogadores um dos joysticks mais icônicos dos jogos para computadores domésticos. Este novo joystick foi recriado fielmente e ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/345827/retro-games-thequickshot-ii-is-now-available"
+    },
+    {
+      "id": "https://www.techpowerup.com/345821/gog-takes-flak-for-ai-art-in-sale-banner",
+      "title": "GOG é criticado por arte de IA em banner de venda",
+      "original_title": "GOG Takes Flak for AI Art in Sale Banner",
+      "image": "https://tpucdn.com/img/th9KEQlmeFQseOpz_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-01-30",
+      "summary": "GOG anunciou recentemente sua venda de Ano Novo, e os fãs imediatamente notaram que algo estava errado no banner do site anunciando o evento, com Liam Dawe do GamingOnLinux indo ao Reddit para questionar se o banner foi ou não gerado por IA. A postagem ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/345821/gog-takes-flak-for-ai-art-in-sale-banner"
+    },
+    {
+      "id": "https://www.techpowerup.com/345820/leaked-intel-core-ultra-7-356h-benchmark-scores-reveal-middling-gains",
+      "title": "Pontuações de benchmark vazadas do Intel Core Ultra 7 356H revelam ganhos medianos",
+      "original_title": "Leaked Intel Core Ultra 7 356H Benchmark Scores Reveal Middling Gains",
+      "image": "https://tpucdn.com/img/gHXRBW3aPo3dA4Zn_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Rumor",
+      "date": "2026-01-30",
+      "summary": "O Core Ultra 356H da Intel é uma próxima CPU Panther Lake móvel de 16 núcleos (4 núcleos P, 12 núcleos E). Embora se diga que os embargos oficiais de revisão para o restante das CPUs Panther Lake da Intel estão chegando, supostos benchmarks de desempenho para I...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/345820/leaked-intel-core-ultra-7-356h-benchmark-scores-reveal-middling-gains"
+    },
+    {
+      "id": "https://www.eurogamer.net/tomodachi-life-living-the-dream-big-reveal-nintendo-same-sex-relationship-promise",
+      "title": "Enquanto o peculiar simulador de vida do Switch 2, Tomodachi Life: Living the Dream, recebe sua grande revelação, a Nintendo cumpre a promessa de relacionamento entre pessoas do mesmo sexo de uma década",
+      "original_title": "As quirky Switch 2 life sim Tomodachi Life: Living the Dream gets its big reveal, Nintendo makes good on decade-old same-sex relationship promise",
+      "image": "https://assetsio.gnwcdn.com/tomodachi-life-living-the-dream-sprinkler.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
       "date": "2026-01-29",
-      "summary": "Comcept, o estúdio por trás do Mighty No.9, fechou definitivamente. Esta dissolução corporativa foi anunciada através do Kanpo, o jornal comercial japonês hoje cedo. Leia mais...",
+      "summary": "O deliciosamente peculiar Tomodachi Life: Living the Dream da Nintendo recebeu o tratamento de revelação completo antes do lançamento do Switch e do Switch 2 em 16 de abril. E em meio ao novo dilúvio de informações, a Nintendo confirmou relacionamentos entre pessoas do mesmo sexo...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/studio-that-developed-the-infamous-mighty-no9-has-shut-down-for-good"
+      "url": "https://www.eurogamer.net/tomodachi-life-living-the-dream-big-reveal-nintendo-same-sex-relationship-promise"
     },
     {
-      "id": "https://www.eurogamer.net/former-lara-croft-actress-spotted-on-tomb-raider-set-with-fans-now-speculating-she-will-play-laras-mother-in-amazons-series",
-      "title": "A ex-atriz de Lara Croft vista no set de Tomb Raider, com os fãs agora especulando que ela interpretará a mãe de Lara na série da Amazon",
-      "original_title": "Former Lara Croft actress spotted on Tomb Raider set, with fans now speculating she will play Lara's mother in Amazon's series",
-      "image": "https://assetsio.gnwcdn.com/Lara-Croft-from-Tomb-Raider-Legend-climbing-up-the-side-of-a-waterfall-with-an-image-of-Keeley-Hawes-overlaid-on-top-and-to-the-right.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/fans-excited-for-nintendos-upcoming-tomodachi-life-living-the-dream-left-completely-baffled-by-wacky-image-sharing-restrictions",
+      "title": "Fãs entusiasmados com o próximo Tomodachi Life: Living the Dream da Nintendo ficaram completamente perplexos com as restrições “malucas” de compartilhamento de imagens",
+      "original_title": "Fans excited for Nintendo's upcoming Tomodachi Life: Living the Dream left completely baffled by \"wacky\" image sharing restrictions",
+      "image": "https://assetsio.gnwcdn.com/Tomodachi-Life-Living-the-Dream-screenshot-showing-a-large-blue-eyed-female-mii-staring-down-at-a-small-dark-haired-mii.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
       "date": "2026-01-29",
-      "summary": "Keeley Hawes - conhecido por nomes como Spooks, Bodyguard, Line of Duty, Ashes to Ashes e muitos, muitos mais - foi visto no set da próxima série Tomb Raider da Amazon. Leia mais...",
+      "summary": "A Nintendo está introduzindo restrições de compartilhamento de imagens em Tomodachi Life: Living the Dream para criar experiências que sejam “acolhedoras e agradáveis ​​para todos”. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/former-lara-croft-actress-spotted-on-tomb-raider-set-with-fans-now-speculating-she-will-play-laras-mother-in-amazons-series"
+      "url": "https://www.eurogamer.net/fans-excited-for-nintendos-upcoming-tomodachi-life-living-the-dream-left-completely-baffled-by-wacky-image-sharing-restrictions"
     },
     {
-      "id": "https://www.eurogamer.net/bloober-team-rose-teaser-countdown",
-      "title": "Você consegue descobrir o que a equipe Bloober está provocando, como ninguém mais conseguiu?",
-      "original_title": "Can you work out what Bloober Team is teasing, as no one else has been able to?",
-      "image": "https://assetsio.gnwcdn.com/bloober-team-rose.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-01-29",
-      "summary": "A equipe do Bloober provocou algo misterioso em um site totalmente novo, deixando os entusiastas do terror na internet coçando a cabeça. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/bloober-team-rose-teaser-countdown"
-    },
-    {
-      "id": "https://www.techpowerup.com/345784/thermaltake-unveils-new-mid-tower-tr300-pc-case-with-front-mounted-psu-design-and-interactive-display-options",
-      "title": "(PR) Thermaltake lança novo gabinete para PC torre média TR300 com design de fonte de alimentação frontal e opções de exibição interativa",
-      "original_title": "(PR) Thermaltake Unveils New Mid-Tower TR300 PC Case With Front-Mounted PSU Design and Interactive Display Options",
-      "image": "https://tpucdn.com/img/yEGYXU2JGr4msHoI_thm.jpg",
+      "id": "https://www.techpowerup.com/345819/sandisk-reports-fiscal-second-quarter-2026-financial-results",
+      "title": "(PR) Sandisk divulga resultados financeiros do segundo trimestre fiscal de 2026",
+      "original_title": "(PR) Sandisk Reports Fiscal Second Quarter 2026 Financial Results",
+      "image": "https://tpucdn.com/img/8QM7IkzwPjLEqbv4_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-01-29",
-      "summary": "A Thermaltake, marca líder de PC DIY para soluções de hardware premium, apresenta o chassi torre média série TR300, uma linha ATX versátil projetada para eficiência de espaço, resfriamento de alto desempenho e personalização moderna. A série TR300 inclui...",
+      "summary": "A Sandisk Corporation (Nasdaq: SNDK) divulgou hoje os resultados financeiros do segundo trimestre fiscal.\n\n\"O desempenho deste trimestre ressalta nossa agilidade em capitalizar um melhor mix de produtos, acelerar implantações de SSD empresariais e fortalecer o mercado...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/345784/thermaltake-unveils-new-mid-tower-tr300-pc-case-with-front-mounted-psu-design-and-interactive-display-options"
+      "url": "https://www.techpowerup.com/345819/sandisk-reports-fiscal-second-quarter-2026-financial-results"
     },
     {
-      "id": "https://www.techpowerup.com/345782/samsung-reveals-more-details-about-the-pm9e1-nvme-ssd",
-      "title": "(PR) Samsung revela mais detalhes sobre o SSD PM9E1 NVMe",
-      "original_title": "(PR) Samsung Reveals More Details About the PM9E1 NVMe SSD",
-      "image": "https://tpucdn.com/img/q9DAUh7hPL5ONaSC_thm.jpg",
+      "id": "https://www.techpowerup.com/345818/kioxia-and-sandisk-extend-yokkaichi-joint-venture-agreement-through-2034",
+      "title": "(PR) Kioxia e Sandisk estendem acordo de joint venture Yokkaichi até 2034",
+      "original_title": "(PR) Kioxia and Sandisk Extend Yokkaichi Joint Venture Agreement Through 2034",
+      "image": "https://tpucdn.com/img/MIMeNDUoBXS5mOT3_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-01-29",
-      "summary": "À medida que os recursos de processamento de IA continuam a evoluir em direção a aplicativos de supercomputadores em dispositivos e desktops, a necessidade de armazenamento local ultrarrápido, mas com uso eficiente de espaço, torna-se cada vez mais importante. A recente inovação da Samsung em desenvolvimento de armazenamento otimizado para IA...",
+      "summary": "A Kioxia Corporation, uma subsidiária da Kioxia Holdings Corporation (TÓQUIO: 285A), e a Sandisk Corporation (NASDAQ: SNDK) anunciaram hoje a extensão de seus acordos de joint venture na fábrica de Yokkaichi da Kioxia por mais cinco anos. Originalmente...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/345782/samsung-reveals-more-details-about-the-pm9e1-nvme-ssd"
+      "url": "https://www.techpowerup.com/345818/kioxia-and-sandisk-extend-yokkaichi-joint-venture-agreement-through-2034"
     },
     {
-      "id": "https://www.techpowerup.com/345781/maxsun-introduces-new-ms-terminator-b850m-pro-ii-wifi7-motherboard",
-      "title": "Maxsun apresenta nova placa-mãe MS-Terminator B850M PRO II WIFI7",
-      "original_title": "Maxsun Introduces New MS-Terminator B850M PRO II WIFI7 Motherboard",
-      "image": "https://tpucdn.com/img/d2EM3fg6MtEYe7AJ_thm.jpg",
+      "id": "https://www.techpowerup.com/345813/modder-puts-vbios-from-asus-rog-matrix-rtx-5090-with-200-w-extra-power-onto-astral-rtx-5090",
+      "title": "Modder coloca vBIOS da ASUS ROG Matrix RTX 5090 com +200 W de potência extra no Astral RTX 5090",
+      "original_title": "Modder Puts vBIOS From ASUS ROG Matrix RTX 5090 With +200 W Extra Power Onto Astral RTX 5090",
+      "image": "https://tpucdn.com/img/hNuqf8fR1P352lHX_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-01-29",
-      "summary": "Placa-mãe MS-Terminator B850M PRO II WIFI7 AM5 com suporte para os mais recentes processadores AMD Ryzen. Apesar de ser uma placa-mãe de formato microATX, ela vem com um VRM 12+2+1 com suporte para CPUs de até 300 W, o que significa que pode lidar facilmente com o novo Ry...",
+      "summary": "Atualizar versões alternativas de vBIOS em GPUs é uma prática comum usada por modders para aumentar os limites de energia em GPUs, e só se tornou mais comum desde que a NVIDIA começou a restringir as opções de overclock disponíveis aos usuários por meio de ferramentas de software. ...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/345781/maxsun-introduces-new-ms-terminator-b850m-pro-ii-wifi7-motherboard"
+      "url": "https://www.techpowerup.com/345813/modder-puts-vbios-from-asus-rog-matrix-rtx-5090-with-200-w-extra-power-onto-astral-rtx-5090"
     },
     {
-      "id": "https://www.techpowerup.com/345779/sharkoon-releases-officepal-c50-and-c50m-chairs",
-      "title": "(PR) Sharkoon lança cadeiras OfficePal C50 e C50M",
-      "original_title": "(PR) Sharkoon Releases OfficePal C50 and C50M Chairs",
-      "image": "https://tpucdn.com/img/w3tvexArAgII1AiC_thm.jpg",
+      "id": "https://www.techpowerup.com/345817/apple-announces-financial-results-for-its-fiscal-2026-first-quarter",
+      "title": "(PR) Apple anuncia resultados financeiros do primeiro trimestre fiscal de 2026",
+      "original_title": "(PR) Apple Announces Financial Results for Its Fiscal 2026 First Quarter",
+      "image": "https://tpucdn.com/img/k93PC1aQdbKPi4bc_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-01-29",
-      "summary": "O OfficePal C50 não só possui um design moderno com encosto em malha, mas também oferece uma gama completa de ajustes ergonômicos para uma posição sentada saudável - seja no escritório da empresa ou ao trabalhar em casa. Todos os aspectos da cadeira podem ser ...",
+      "summary": "A Apple anunciou hoje os resultados financeiros do primeiro trimestre fiscal de 2026, encerrado em 27 de dezembro de 2025. A empresa registrou receita trimestral de US$ 143,8 bilhões, um aumento de 16% ano após ano. O lucro diluído por ação foi de US$ 2,84, um aumento de 19% ano após ano...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/345779/sharkoon-releases-officepal-c50-and-c50m-chairs"
+      "url": "https://www.techpowerup.com/345817/apple-announces-financial-results-for-its-fiscal-2026-first-quarter"
     },
     {
-      "id": "https://www.techpowerup.com/345777/open-gaming-collective-forms-to-enhance-linux-gaming",
-      "title": "Formulários coletivos de jogos abertos para aprimorar os jogos no Linux",
-      "original_title": "Open Gaming Collective Forms to Enhance Linux Gaming",
-      "image": "https://tpucdn.com/img/gku9u3an3txV0kl4_thm.jpg",
+      "id": "https://www.techpowerup.com/345816/western-digital-reports-fiscal-second-quarter-2026-financial-results",
+      "title": "(PR) Western Digital informa resultados financeiros do segundo trimestre fiscal de 2026",
+      "original_title": "(PR) Western Digital Reports Fiscal Second Quarter 2026 Financial Results",
+      "image": "https://tpucdn.com/img/RNGUTPErBVKkygY8_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-01-29",
-      "summary": "Os jogadores de Linux podem ter motivos para comemorar. Uma nova iniciativa colaborativa, o Open Gaming Collective (OGC), está sendo lançada para aprimorar o suporte para jogos baseados em Linux. O OGC visa estabelecer um conjunto unificado de componentes de software que se tornará...",
+      "summary": "A Western Digital Corporation (Nasdaq: WDC) divulgou hoje os resultados financeiros do segundo trimestre fiscal de 2026 para o período encerrado em 2 de janeiro de 2026.\n\n\"O forte desempenho da Western Digital neste trimestre reflete nossa execução disciplinada para atender à demanda no A...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/345777/open-gaming-collective-forms-to-enhance-linux-gaming"
+      "url": "https://www.techpowerup.com/345816/western-digital-reports-fiscal-second-quarter-2026-financial-results"
     },
     {
-      "id": "https://www.techpowerup.com/345776/raspberry-pi-showing-new-smart-display-module-at-ise-2026",
-      "title": "(PR) Raspberry Pi mostrando novo módulo de display inteligente na ISE 2026",
-      "original_title": "(PR) Raspberry Pi Showing New Smart Display Module at ISE 2026",
-      "image": "https://tpucdn.com/img/ldHNzwKWmnZEpdro_thm.jpg",
+      "id": "https://www.techpowerup.com/345810/state-of-the-game-industry-survey-game-workers-united-on-unionization-divided-on-gen-ai",
+      "title": "Pesquisa sobre o estado da indústria de jogos: Trabalhadores de jogos unidos pela sindicalização, divididos pela geração AI",
+      "original_title": "State of the Game Industry Survey: Game Workers United on Unionization, Divided on Gen AI",
+      "image": "https://tpucdn.com/img/3YgMumyz4XgLzcp6_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-01-29",
-      "summary": "Para os participantes da Integrated Systems Europe (ISE) 2026 em Barcelona, ​​uma visita ao estande da Sharp pode revelar algo novo, excitante e ainda não lançado. Temos trabalhado com a Sharp Display Solutions Europe para desenvolver o Raspberry Pi Smart Dis...",
+      "summary": "O relatório da pesquisa State of the Game Industry de 2026, conduzido pelo GDC Festival of Gaming, revelou uma série de insights interessantes sobre o estado atual do cenário de desenvolvimento de jogos. O relatório mostrou que os trabalhadores da indústria de jogos dos EUA têm...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/345776/raspberry-pi-showing-new-smart-display-module-at-ise-2026"
-    },
-    {
-      "id": "https://www.techpowerup.com/345775/windows-11-reaches-1-billion-users-in-1-576-days-faster-than-windows-10",
-      "title": "Windows 11 atinge 1 bilhão de usuários em 1.576 dias – mais rápido que o Windows 10",
-      "original_title": "Windows 11 Reaches 1 Billion Users in 1,576 Days — Faster Than Windows 10",
-      "image": "https://tpucdn.com/img/97l8ifZvdXwkzqWC_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-01-29",
-      "summary": "A Microsoft divulgou seus lucros para o quarto trimestre de 2025, encerrado em 31 de dezembro. Durante a teleconferência, a Microsoft destacou que seu sistema operacional Windows 11 está atingindo metas mais rapidamente do que seu antecessor, o Windows 10. A partir de hoje, o Windows ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/345775/windows-11-reaches-1-billion-users-in-1-576-days-faster-than-windows-10"
-    },
-    {
-      "id": "https://www.techpowerup.com/345774/fanatec-introduces-official-stream-deck-integration",
-      "title": "(PR) Fanatec apresenta integração oficial com stream deck",
-      "original_title": "(PR) Fanatec Introduces Official Stream Deck Integration",
-      "image": "https://tpucdn.com/img/GfYdoXDIWsQKEJHe_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-01-29",
-      "summary": "Fanatec, marca da Corsair, lançou um plugin oficial Stream Deck, disponível gratuitamente no Elgato Marketplace. Stream Deck é um acessório bem estabelecido para corridas de simulação, não apenas para streamers, mas também funcionando como um bu...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/345774/fanatec-introduces-official-stream-deck-integration"
-    },
-    {
-      "id": "https://www.techpowerup.com/345770/ubisoft-reshuffle-debacle-continues-as-workers-plan-strike",
-      "title": "O desastre da remodelação da Ubisoft continua enquanto os trabalhadores planejam greve",
-      "original_title": "Ubisoft Reshuffle Debacle Continues as Workers Plan Strike",
-      "image": "https://tpucdn.com/img/l1htJp3wGZ1f1I4n_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-01-29",
-      "summary": "A Ubisoft irritou mais do que algumas penas na semana passada, graças às notícias recentes de que estaria cancelando uma série de jogos, adiando vários outros jogos, obrigando o retorno ao escritório para seus funcionários e potencialmente demitindo cerca de 20...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/345770/ubisoft-reshuffle-debacle-continues-as-workers-plan-strike"
-    },
-    {
-      "id": "https://www.techpowerup.com/345767/samsung-electronics-announces-fourth-quarter-and-fy-2025-results",
-      "title": "(PR) Samsung Electronics anuncia resultados do quarto trimestre e do ano fiscal de 2025",
-      "original_title": "(PR) Samsung Electronics Announces Fourth Quarter and FY 2025 Results",
-      "image": "https://tpucdn.com/img/tKJCAFrTpZzEwORH_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-01-29",
-      "summary": "A Samsung Electronics divulgou hoje os resultados financeiros do quarto trimestre e do ano fiscal de 2025.\n\nNo trimestre encerrado em 31 de dezembro de 2025, a Empresa registrou sua maior receita trimestral consolidada de todos os tempos, de KRW 93,8 trilhões, representando um qua...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/345767/samsung-electronics-announces-fourth-quarter-and-fy-2025-results"
-    },
-    {
-      "id": "https://www.eurogamer.net/here-are-our-ps-plus-monthly-games-for-february",
-      "title": "Aqui estão nossos jogos mensais PS Plus de fevereiro",
-      "original_title": "Here are our PS Plus monthly games for February",
-      "image": "https://assetsio.gnwcdn.com/playstation-plus-ultros.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-01-28",
-      "summary": "Mais um mês significa outro lote de jogos para o PlayStation Plus e, enquanto nos preparamos para o abraço esperançosamente mais caloroso de fevereiro, a Sony revelou o que está por vir para todos os assinantes.\n Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/here-are-our-ps-plus-monthly-games-for-february"
-    },
-    {
-      "id": "https://www.eurogamer.net/dispatch-switch-switch-2-censored-adhoc-comment",
-      "title": "“A narrativa central e a experiência de jogo permanecem idênticas” AdHoc tranquiliza os jogadores do Dispatch no Switch ao confirmar que as versões da plataforma Nintendo são censuradas",
-      "original_title": "\"The core narrative and gameplay experience remains identical\" AdHoc reassures Dispatch players on Switch as it confirms Nintendo platform versions are censored",
-      "image": "https://assetsio.gnwcdn.com/dispatch-censored.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-01-28",
-      "summary": "A brilhante comédia de super-heróis no local de trabalho de AdHoc, Dispatch, está se preparando para sua estreia no Switch ainda hoje, no entanto, haverá algumas diferenças de censura nos consoles da Nintendo. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/dispatch-switch-switch-2-censored-adhoc-comment"
-    },
-    {
-      "id": "https://www.eurogamer.net/scott-pilgrim-ex-release-date-trailer",
-      "title": "Scott Pilgrim EX lança no início de março, revela dois novos personagens jogáveis ​​e recebe um novo trailer de jogo",
-      "original_title": "Scott Pilgrim EX sets early March release, unveils two new playable characters, and gets a brand-new gameplay trailer",
-      "image": "https://assetsio.gnwcdn.com/Scott-Pilgrim-EX-new-key-art.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-01-28",
-      "summary": "Scott Pilgrim vs. The World: The Game é um beat-em-up ao qual voltamos repetidamente ao longo dos anos, sempre desejando que houvesse um pouco mais de carne e fluidez nele. Felizmente, o desenvolvedor (e editor) Tribute Games parece estar entregando exatamente isso...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/scott-pilgrim-ex-release-date-trailer"
-    },
-    {
-      "id": "https://www.eurogamer.net/resident-evil-requiem-leon-s-kennedy-redesign-process",
-      "title": "“Um design que faria o coração de qualquer um palpitar” Como a Capcom transformou Leon S. Kennedy de Resident Evil Requiem em um “tio gostoso”",
-      "original_title": "\"A design that would make anyone's heart throb\" How Capcom turned Resident Evil Requiem's Leon S. Kennedy into a \"hot uncle\"",
-      "image": "https://assetsio.gnwcdn.com/RE-Requiem-Leon_hall.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-01-28",
-      "summary": "Muitos fãs correram para gritar que Leon S. Kennedy envelheceu como um bom vinho quando apareceu no trailer de Resident Evil Requiem de dezembro de 2025. Esse é um sentimento com o qual a maioria de nós concorda, e parece que também temos que agradecer às desenvolvedoras da Capcom por...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/resident-evil-requiem-leon-s-kennedy-redesign-process"
-    },
-    {
-      "id": "https://www.eurogamer.net/arc-raiders-and-the-finals-hit-by-coordinated-ddos-attacks",
-      "title": "Arc Raiders e The Finals atingidos por ataques DDoS “coordenados”",
-      "original_title": "Arc Raiders and The Finals hit by \"coordinated\" DDoS attacks",
-      "image": "https://assetsio.gnwcdn.com/arc-raiders-hockey.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-01-28",
-      "summary": "A Embark Studios confirmou que tanto Arc Raiders quanto as Finais foram atingidos por ataques DDoS, alegando que foram “extensos” e “coordenados”. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/arc-raiders-and-the-finals-hit-by-coordinated-ddos-attacks"
-    },
-    {
-      "id": "https://www.eurogamer.net/ps6-may-not-arrive-in-2028-analyst-predicts",
-      "title": "A PlayStation está incentivando os jogadores do PS4 a atualizar para o PS5, já que o analista prevê que o PS6 não chegará antes de 2028",
-      "original_title": "PlayStation is encouraging PS4 players to upgrade to PS5 as analyst predicts PS6 won't arrive until after 2028",
-      "image": "https://assetsio.gnwcdn.com/PS5_on-blue-background.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-01-28",
-      "summary": "A indústria de jogos está em uma situação muito estranha no momento devido a fatores internos e externos. Talvez o mais urgente seja o aumento do custo dos principais componentes de hardware devido à especulação sobre IA e data centers. Portanto, o hardware da próxima geração atrasa c...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/ps6-may-not-arrive-in-2028-analyst-predicts"
-    },
-    {
-      "id": "https://www.eurogamer.net/grounded-2-massive-new-the-toxic-tangle-update-closer-to-full-release-ladybug-gun-turret",
-      "title": "A enorme nova atualização The Toxic Tangle do Grounded 2 aproxima o jogo da Obsidian do lançamento completo e adiciona uma joaninha com uma torre de arma",
-      "original_title": "Grounded 2's massive new The Toxic Tangle update pushes Obsidian's game closer to full release, adds a ladybug with a gun turret",
-      "image": "https://assetsio.gnwcdn.com/grounded-2-ladybug-buggy.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-01-28",
-      "summary": "Grounded 2 acaba de receber uma nova atualização massiva chamada The Toxic Tangle, que está adicionando um novo bioma Garden, novos inimigos e uma joaninha montável com uma arma montada nela. Obviamente! Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/grounded-2-massive-new-the-toxic-tangle-update-closer-to-full-release-ladybug-gun-turret"
+      "url": "https://www.techpowerup.com/345810/state-of-the-game-industry-survey-game-workers-united-on-unionization-divided-on-gen-ai"
     }
   ]
 }
