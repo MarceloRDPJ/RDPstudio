@@ -1,22 +1,40 @@
 {
-  "last_updated": "2026-02-05T13:03:16",
-  "display_date": "05/02/2026 13:03",
+  "last_updated": "2026-02-06T13:00:10",
+  "display_date": "06/02/2026 13:00",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "486ms",
+    "latency": "190ms",
     "current_games": [
       {
-        "title": "Definitely Not Fried Chicken",
-        "description": "Definitivamente Not Fried Chicken é um simulador de gerenciamento de negócios com um toque especial! Aumente o seu comércio de drogas através de frentes legítimas, gerenciando ambos os lados do negócio. Adquira novos “negócios”, conheça nova clientela, desenvolva narcóticos mais potentes, ganhe muito dinheiro e deixe uma cidade em ruínas!",
-        "image": "https://cdn1.epicgames.com/spt-assets/a90fa1ecc6fd41b2b98bc04b40b23c71/definitely-not-fried-chicken-thf6o.png",
-        "url": "https://store.epicgames.com/p/6b5b8432768a423f848fd85a61c97623",
+        "title": "Botany Manor",
+        "description": "Bem-vindo ao Botany Manor, uma casa senhorial na Inglaterra do século XIX. Você joga como a habitante Arabella Greene, uma botânica aposentada. Explore sua casa e seus jardins, repletos de pesquisas, para descobrir o habitat ideal da flora esquecida.",
+        "image": "https://cdn1.epicgames.com/spt-assets/42d56a88c22d4eaa8977bf5528a2396b/botany-manor-1f7uq.jpg",
+        "url": "https://store.epicgames.com/p/61eca1a9e42243d29e93b02510d88d83",
         "price": "$24.99",
-        "start_date": "2026-01-29T16:00:00.000Z",
-        "end_date": "2026-02-05T16:00:00.000Z"
+        "start_date": "2026-02-05T16:00:00.000Z",
+        "end_date": "2026-02-12T16:00:00.000Z"
+      },
+      {
+        "title": "Poison Retro Set",
+        "description": "Volte no tempo e avance na batalha com o Poison Retro Set, inspirado na eletrizante Temporada Arcade.",
+        "image": "https://cdn1.epicgames.com/spt-assets/65338dc60d204dcb98752745bab52374/pixel-gun-3d-1pp3a.jpg",
+        "url": "https://store.epicgames.com/p/poison-retro-set",
+        "price": "$24.99",
+        "start_date": "2026-02-05T16:00:00.000Z",
+        "end_date": "2026-02-12T16:00:00.000Z"
       }
     ],
     "upcoming_games": [
+      {
+        "title": "The Darkside Detective A Fumble in the Dark",
+        "description": "Junte-se ao Detetive McQueen enquanto ele resolve 6 casos, arriscando a vida e o membro pixelizado para resolver os mistérios macabros que assolam a pobre cidade.",
+        "image": "https://cdn1.epicgames.com/spt-assets/0638bcc62d9f4ba2a53eb9093c54be31/the-darkside-detective-a-fumble-in-the-dark-offer-501mw.jpg",
+        "url": "https://store.epicgames.com/p/b87bb60e2398412e82ba540e50ac6222",
+        "price": "$14.99",
+        "start_date": "2026-02-12T16:00:00.000Z",
+        "end_date": "2026-02-19T16:00:00.000Z"
+      },
       {
         "title": "Eternal Threads",
         "description": "Eternal Threads é um jogo de quebra-cabeça para um jogador, em primeira pessoa, baseado em uma história de manipulação, escolha e consequência do tempo.",
@@ -72,41 +90,62 @@
         "end_date": "2026-02-22T21:00:00.000Z"
       },
       {
-        "title": "Botany Manor",
-        "description": "Bem-vindo ao Botany Manor, uma casa senhorial na Inglaterra do século XIX. Você joga como a habitante Arabella Greene, uma botânica aposentada. Explore sua casa e seus jardins, repletos de pesquisas, para descobrir o habitat ideal da flora esquecida.",
-        "image": "https://cdn1.epicgames.com/spt-assets/42d56a88c22d4eaa8977bf5528a2396b/botany-manor-1f7uq.jpg",
-        "url": "https://store.epicgames.com/p/61eca1a9e42243d29e93b02510d88d83",
+        "title": "Nobody Wants to Die",
+        "description": "Perca-se no mundo distópico de Nova York, 2329. Nesta história noir interativa, lidere a investigação usando tecnologia avançada como o detetive James Karra, que arrisca tudo na perseguição de um serial killer que tem como alvo a elite da cidade.",
+        "image": "https://cdn1.epicgames.com/spt-assets/dece0016082647a6af5759dbbedfc8eb/nobody-wants-to-die-13stz.jpg",
+        "url": "https://store.epicgames.com/p/eea910991d674322b3832f9b7bbefb7b",
         "price": "$24.99",
-        "start_date": "2026-02-05T16:00:00.000Z",
-        "end_date": "2026-02-12T16:00:00.000Z"
-      },
-      {
-        "title": "Poison Retro Set",
-        "description": "Volte no tempo e avance na batalha com o Poison Retro Set, inspirado na eletrizante Temporada Arcade.",
-        "image": "https://cdn1.epicgames.com/spt-assets/65338dc60d204dcb98752745bab52374/pixel-gun-3d-1pp3a.jpg",
-        "url": "https://store.epicgames.com/p/poison-retro-set",
-        "price": "$24.99",
-        "start_date": "2026-02-05T16:00:00.000Z",
-        "end_date": "2026-02-12T16:00:00.000Z"
+        "start_date": "2026-02-12T16:00:00.000Z",
+        "end_date": "2026-02-19T16:00:00.000Z"
       }
     ],
     "mystery_detected": false
   },
   "items": [
     {
-      "id": "https://store.epicgames.com/p/6b5b8432768a423f848fd85a61c97623",
-      "title": "GRÁTIS: Definitely Not Fried Chicken",
-      "original_title": "Definitely Not Fried Chicken",
-      "image": "https://cdn1.epicgames.com/spt-assets/a90fa1ecc6fd41b2b98bc04b40b23c71/definitely-not-fried-chicken-thf6o.png",
+      "id": "https://store.epicgames.com/p/61eca1a9e42243d29e93b02510d88d83",
+      "title": "GRÁTIS: Botany Manor",
+      "original_title": "Botany Manor",
+      "image": "https://cdn1.epicgames.com/spt-assets/42d56a88c22d4eaa8977bf5528a2396b/botany-manor-1f7uq.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-02-05",
-      "summary": "Definitivamente Not Fried Chicken é um simulador de gerenciamento de negócios com um toque especial! Aumente o seu comércio de drogas através de frentes legítimas, gerenciando ambos os lados do negócio. Adquira novos “negócios”, conheça nova clientela, desenvolva narcóticos mais potentes, ganhe muito dinheiro e deixe uma cidade em ruínas!",
+      "date": "2026-02-06",
+      "summary": "Bem-vindo ao Botany Manor, uma casa senhorial na Inglaterra do século XIX. Você joga como a habitante Arabella Greene, uma botânica aposentada. Explore sua casa e seus jardins, repletos de pesquisas, para descobrir o habitat ideal da flora esquecida.",
       "sources": [
         "Epic Games Store"
       ],
-      "url": "https://store.epicgames.com/p/6b5b8432768a423f848fd85a61c97623"
+      "url": "https://store.epicgames.com/p/61eca1a9e42243d29e93b02510d88d83"
+    },
+    {
+      "id": "https://store.epicgames.com/p/poison-retro-set",
+      "title": "GRÁTIS: Poison Retro Set",
+      "original_title": "Poison Retro Set",
+      "image": "https://cdn1.epicgames.com/spt-assets/65338dc60d204dcb98752745bab52374/pixel-gun-3d-1pp3a.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Free Games",
+      "date": "2026-02-06",
+      "summary": "Volte no tempo e avance na batalha com o Poison Retro Set, inspirado na eletrizante Temporada Arcade.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/poison-retro-set"
+    },
+    {
+      "id": "https://store.epicgames.com/p/b87bb60e2398412e82ba540e50ac6222",
+      "title": "EM BREVE: The Darkside Detective A Fumble in the Dark",
+      "original_title": "The Darkside Detective A Fumble in the Dark",
+      "image": "https://cdn1.epicgames.com/spt-assets/0638bcc62d9f4ba2a53eb9093c54be31/the-darkside-detective-a-fumble-in-the-dark-offer-501mw.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-02-06",
+      "summary": "Disponível gratuitamente a partir de 12/02. Junte-se ao Detetive McQueen enquanto ele resolve 6 casos, arriscando a vida e o membro pixelizado para resolver os mistérios macabros que assolam a pobre cidade.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/b87bb60e2398412e82ba540e50ac6222"
     },
     {
       "id": "https://store.epicgames.com/p/a9152a8924cc4e438f0e61106ec02f7d",
@@ -116,7 +155,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-02-05",
+      "date": "2026-02-06",
       "summary": "Disponível gratuitamente a partir de 09/02. Eternal Threads é um jogo de quebra-cabeça para um jogador, em primeira pessoa, baseado em uma história de manipulação, escolha e consequência do tempo.",
       "sources": [
         "Epic Games Store"
@@ -131,7 +170,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-02-05",
+      "date": "2026-02-06",
       "summary": "Disponível gratuitamente a partir de 09/02. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
       "sources": [
         "Epic Games Store"
@@ -146,7 +185,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-02-05",
+      "date": "2026-02-06",
       "summary": "Disponível gratuitamente a partir de 09/02. A Coleção de Aniversário de Castlevania da Konami traça as origens da histórica franquia de vampiros. Está incluído um e-book exclusivo com detalhes fornecidos por desenvolvedores, artistas e outros inspirados no legado de Castlevania, que lança uma nova luz sobre o mundo de Castlevania.",
       "sources": [
         "Epic Games Store"
@@ -161,7 +200,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-02-05",
+      "date": "2026-02-06",
       "summary": "Disponível gratuitamente a partir de 30/03. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
       "sources": [
         "Epic Games Store"
@@ -176,7 +215,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-02-05",
+      "date": "2026-02-06",
       "summary": "Disponível gratuitamente a partir de 09/02. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
       "sources": [
         "Epic Games Store"
@@ -191,7 +230,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-02-05",
+      "date": "2026-02-06",
       "summary": "Disponível gratuitamente a partir de 08/02. Bem-vindo ao Botany Manor, uma casa senhorial na Inglaterra do século XIX. Você joga como a habitante Arabella Greene, uma botânica aposentada. Explore sua casa e seus jardins, repletos de pesquisas, para descobrir o habitat ideal da flora esquecida.",
       "sources": [
         "Epic Games Store"
@@ -199,154 +238,109 @@
       "url": "https://store.epicgames.com/p/61eca1a9e42243d29e93b02510d88d83"
     },
     {
-      "id": "https://store.epicgames.com/p/61eca1a9e42243d29e93b02510d88d83",
-      "title": "EM BREVE: Botany Manor",
-      "original_title": "Botany Manor",
-      "image": "https://cdn1.epicgames.com/spt-assets/42d56a88c22d4eaa8977bf5528a2396b/botany-manor-1f7uq.jpg",
+      "id": "https://store.epicgames.com/p/eea910991d674322b3832f9b7bbefb7b",
+      "title": "EM BREVE: Nobody Wants to Die",
+      "original_title": "Nobody Wants to Die",
+      "image": "https://cdn1.epicgames.com/spt-assets/dece0016082647a6af5759dbbedfc8eb/nobody-wants-to-die-13stz.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-02-05",
-      "summary": "Disponível gratuitamente a partir de 05/02. Bem-vindo ao Botany Manor, uma casa senhorial na Inglaterra do século XIX. Você joga como a habitante Arabella Greene, uma botânica aposentada. Explore sua casa e seus jardins, repletos de pesquisas, para descobrir o habitat ideal da flora esquecida.",
+      "date": "2026-02-06",
+      "summary": "Disponível gratuitamente a partir de 12/02. Perca-se no mundo distópico de Nova York, 2329. Nesta história noir interativa, lidere a investigação usando tecnologia avançada como o detetive James Karra, que arrisca tudo na perseguição de um serial killer que tem como alvo a elite da cidade.",
       "sources": [
         "Epic Games Store"
       ],
-      "url": "https://store.epicgames.com/p/61eca1a9e42243d29e93b02510d88d83"
+      "url": "https://store.epicgames.com/p/eea910991d674322b3832f9b7bbefb7b"
     },
     {
-      "id": "https://store.epicgames.com/p/poison-retro-set",
-      "title": "EM BREVE: Poison Retro Set",
-      "original_title": "Poison Retro Set",
-      "image": "https://cdn1.epicgames.com/spt-assets/65338dc60d204dcb98752745bab52374/pixel-gun-3d-1pp3a.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-02-05",
-      "summary": "Disponível gratuitamente a partir de 05/02. Volte no tempo e avance na batalha com o Poison Retro Set, inspirado na eletrizante Temporada Arcade.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/poison-retro-set"
-    },
-    {
-      "id": "https://www.eurogamer.net/capcoms-switch-2-ports",
-      "title": "As portas Switch 2 da Capcom para Resident Evil 9 e Pragmata funcionam notavelmente bem - e sugerem que a era das portas Nintendo esmagadoramente comprometidas pode estar finalmente desaparecendo",
-      "original_title": "Capcom's Switch 2 ports of Resident Evil 9 and Pragmata run remarkably well - and suggest the age of overwhelmingly compromised Nintendo ports could be finally fading",
-      "image": "https://assetsio.gnwcdn.com/New-Project-(22)_jazwedo.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/cult-japanese-horror-game-exit-8-gets-bloody-new-film-trailer-ahead-of-april-release",
+      "title": "O jogo de terror cult japonês Exit 8 recebe um novo trailer de filme sangrento, antes do lançamento em abril",
+      "original_title": "Cult Japanese horror game Exit 8 gets bloody new film trailer, ahead of April release",
+      "image": "https://assetsio.gnwcdn.com/Exit-8-film-screenshot-showing-a-man-in-a-subway-stepping-away-from-blood-dripping-down-a-sign-pointing-towards-exit-8.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-02-05",
-      "summary": "Há décadas, o ditado tem sido adicionar uma pequena advertência de condenação com elogios fracos a um complemento sobre jogos bonitos, especialmente jogos de terceiros, nas plataformas Nintendo. Parece ótimo, podemos pensar… 'para uma plataforma Nintendo'. Leia mais...",
+      "date": "2026-02-06",
+      "summary": "The Exit 8 é uma das muitas séries de videogame atualmente recebendo adaptação para cinema ou TV e, antes de sua estreia cinematográfica internacional em abril, a equipe lançou um novo trailer do filme de terror que vai para o metrô. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/capcoms-switch-2-ports"
+      "url": "https://www.eurogamer.net/cult-japanese-horror-game-exit-8-gets-bloody-new-film-trailer-ahead-of-april-release"
     },
     {
-      "id": "https://www.eurogamer.net/nintendo-switch-partner-direct-february-2026-live-report",
-      "title": "Relatório ao vivo do Nintendo Partner Direct – que surpresas de terceiros o Switch 2 tem?",
-      "original_title": "Nintendo Partner Direct live report - what third-party surprises has Switch 2 got?",
-      "image": "https://assetsio.gnwcdn.com/nintendo-direct-elden-ring.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/indiana-jones-developer-machinegames-still-plans-to-finish-its-wolfenstein-trilogy",
+      "title": "A desenvolvedora de Indiana Jones, MachineGames, ainda planeja terminar sua trilogia Wolfenstein",
+      "original_title": "Indiana Jones developer MachineGames still plans to finish its Wolfenstein trilogy",
+      "image": "https://assetsio.gnwcdn.com/A-grey-haired-man-in-unifrom-in-Wolfenstein-2-The-New-Colossus.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-02-05",
-      "summary": "Há uma transmissão do Nintendo Direct acontecendo hoje, com foco em jogos não-Nintendo Switch e Switch 2, e estaremos cobrindo tudo o que foi divulgado aqui. Você sabe o que fazer: observe, converse, possivelmente faça um comentário contundente. Ou seja refrescante...",
+      "date": "2026-02-06",
+      "summary": "O lançamento mais recente da MachineGames pode ser o brilhante Indiana Jones and the Great Circle, mas o estúdio também é conhecido por seus jogos Wolfenstein. E, seguindo uma dica anterior de que o estúdio não havia terminado sua série de combate ao nazismo,...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/nintendo-switch-partner-direct-february-2026-live-report"
+      "url": "https://www.eurogamer.net/indiana-jones-developer-machinegames-still-plans-to-finish-its-wolfenstein-trilogy"
     },
     {
-      "id": "https://www.eurogamer.net/hollow-knight-rated-nintendo-switch-2-before-a-nintendo-direct",
-      "title": "Hollow Knight foi classificado para Nintendo Switch 2 – e pouco antes de um Nintendo Direct",
-      "original_title": "Hollow Knight has been rated for Nintendo Switch 2 - and just before a Nintendo Direct",
-      "image": "https://assetsio.gnwcdn.com/hk-s2.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/xbox-is-planning-a-summer-release-for-halo-remake-and-a-late-2026-launch-for-gears-of-war-e-day-according-to-a-new-report",
+      "title": "O Xbox está planejando um lançamento de verão para o remake de Halo e um lançamento no final de 2026 para Gears of War E-Day, de acordo com um novo relatório",
+      "original_title": "Xbox is planning a summer release for Halo remake and a late 2026 launch for Gears of War E-Day according to a new report",
+      "image": "https://assetsio.gnwcdn.com/Gears-of-War-E-Day_bwkbGlD.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-02-05",
-      "summary": "Hollow Knight recebeu uma classificação PEGI para o Switch 2, sugerindo uma versão para o console Nintendo mais recente. Leia mais...",
+      "date": "2026-02-06",
+      "summary": "Um novo relatório afirmou que Gears of War E-Day está planejando uma janela de lançamento no segundo semestre de 2026, com Halo: Combat Evolved visando um lançamento provisório em algum momento deste verão. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/hollow-knight-rated-nintendo-switch-2-before-a-nintendo-direct"
+      "url": "https://www.eurogamer.net/xbox-is-planning-a-summer-release-for-halo-remake-and-a-late-2026-launch-for-gears-of-war-e-day-according-to-a-new-report"
     },
     {
-      "id": "https://www.eurogamer.net/nintendo-ambassador-charles-martinet-hadnt-even-heard-of-the-japanese-company-when-he-auditioned-for-mario",
-      "title": "O embaixador da Nintendo, Charles Martinet, nem tinha ouvido falar da empresa japonesa quando fez o teste para Mario",
-      "original_title": "Nintendo ambassador Charles Martinet hadn't even heard of the Japanese company when he auditioned for Mario",
-      "image": "https://assetsio.gnwcdn.com/Mario-looks-shocked-while-looking-up-from-the-grass-he-is-lying-on.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/baldurs-gate-3-is-getting-tv-treatment-from-hbos-the-last-of-us-showrunner",
+      "title": "Baldur's Gate 3 está recebendo tratamento de TV do showrunner de The Last of Us da HBO, mas Larian não estará diretamente envolvido",
+      "original_title": "Baldur's Gate 3 is getting the TV treatment from HBO's The Last of Us showrunner but Larian won't be directly involved",
+      "image": "https://assetsio.gnwcdn.com/the-last-of-us-bg3.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-02-05",
-      "summary": "O dublador original de Mario, Charles Martinet, compartilhou mais sobre como ele criou a voz do encanador bigodudo da Nintendo. Leia mais...",
+      "date": "2026-02-06",
+      "summary": "Craig Mazin, showrunner da premiada adaptação The Last of Us da HBO, confirmou que dará a Baldur's Gate 3 o próximo tratamento de TV, com o novo programa definido para continuar a história do aclamado RPG de fantasia - embora o desenvolvedor Larian pareça...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/nintendo-ambassador-charles-martinet-hadnt-even-heard-of-the-japanese-company-when-he-auditioned-for-mario"
+      "url": "https://www.eurogamer.net/baldurs-gate-3-is-getting-tv-treatment-from-hbos-the-last-of-us-showrunner"
     },
     {
-      "id": "https://www.eurogamer.net/difficulty-settings-nioh-team-ninja-game-director-interview",
-      "title": "“Nunca consideramos adicionar configurações de dificuldade ao Nioh” O diretor do jogo Team Ninja avalia as opções de dificuldade antes do lançamento do Nioh 3",
-      "original_title": "\"We've never considered adding difficulty settings to Nioh\" Team Ninja game director weighs in on difficulty options ahead of Nioh 3's launch",
-      "image": "https://assetsio.gnwcdn.com/Nioh-3-header_3o6K0WN.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-02-05",
-      "summary": "Você já ouviu a palavra 'masocore' antes? É uma mala de viagem de ‘masoquista’ e ‘hardcore’, e é o que o Team Ninja usou para descrever os primeiros jogos da franquia Nioh. Em uma entrevista há muito tempo, Yosuke Hayashi (produtor geral da Te...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/difficulty-settings-nioh-team-ninja-game-director-interview"
-    },
-    {
-      "id": "https://www.eurogamer.net/valve-admits-its-steam-machine-and-steam-frame-will-be-delayed-due-to-ram-and-storage-price-surges",
-      "title": "Valve admite que sua Steam Machine e Steam Frame serão adiadas devido a aumentos de preços de RAM e armazenamento",
-      "original_title": "Valve admits its Steam Machine and Steam Frame will be delayed due to RAM and storage price surges",
-      "image": "https://assetsio.gnwcdn.com/family_16_9_bluer.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-02-05",
-      "summary": "O tempo da válvula ataca novamente. Três meses depois de anunciar um trio de novos produtos de hardware, incluindo Steam Machine, Steam Frame e Steam Controller, a Valve publicou uma postagem no blog detalhando seu atraso. O novo hardware deveria chegar no...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/valve-admits-its-steam-machine-and-steam-frame-will-be-delayed-due-to-ram-and-storage-price-surges"
-    },
-    {
-      "id": "https://www.techpowerup.com/345999/autofull-introduces-the-new-and-upgraded-m6-ultra-2-0-gaming-chair",
-      "title": "(PR) AutoFull apresenta a nova e atualizada cadeira para jogos M6 Ultra 2.0",
-      "original_title": "(PR) AutoFull Introduces the New and Upgraded M6 Ultra 2.0 Gaming Chair",
-      "image": "https://tpucdn.com/img/m5GXHOoJ41wvEc0q_thm.jpg",
+      "id": "https://www.techpowerup.com/346035/major-pc-oems-reportedly-exploring-chinese-cxmt-memory-amid-shortages",
+      "title": "Principais OEMs de PC supostamente explorando memória CXMT chinesa em meio à escassez",
+      "original_title": "Major PC OEMs Reportedly Exploring Chinese CXMT Memory Amid Shortages",
+      "image": "https://tpucdn.com/img/WPOGBUk6uKaEMLhL_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-02-05",
-      "summary": "AutoFull, uma marca líder na indústria de equipamentos periféricos para esportes, conhecida por seus móveis para jogos de nível profissional e filosofia de design voltada para o jogador, lançou a nova e atualizada cadeira para jogos AutoFull M6 Ultra 2.0, a mais recente evolução de...",
+      "date": "2026-02-06",
+      "summary": "De acordo com o Nikkei Asia, alguns dos maiores fabricantes de PCs, como ASUS, Acer, Dell e HP, estão explorando fornecedores alternativos de memória em meio à escassez de memória em todo o setor, o que está forçando os OEMs de PC a buscar fornecimento até mesmo do fabricante chinês de memória CXMT. Tarde eu...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/345999/autofull-introduces-the-new-and-upgraded-m6-ultra-2-0-gaming-chair"
+      "url": "https://www.techpowerup.com/346035/major-pc-oems-reportedly-exploring-chinese-cxmt-memory-amid-shortages"
     },
     {
-      "id": "https://www.techpowerup.com/345998/asrock-releases-official-statement-regarding-ryzen-9000-series-and-asrock-am5-motherboard-firmware",
-      "title": "(PR) ASRock divulga declaração oficial sobre firmware da placa-mãe Ryzen 9000 Series e ASRock AM5",
-      "original_title": "(PR) ASRock Releases Official Statement Regarding Ryzen 9000 Series and ASRock AM5 Motherboard Firmware",
-      "image": "https://tpucdn.com/img/5X3LqG2P0ge9expv_thm.jpg",
+      "id": "https://www.techpowerup.com/346031/akasa-shows-first-fanless-enclosures-with-lcd-screens",
+      "title": "Akasa mostra os primeiros gabinetes sem ventoinha com telas LCD",
+      "original_title": "Akasa Shows First Fanless Enclosures with LCD Screens",
+      "image": "https://tpucdn.com/img/Egq7xqt9NVkmJ7dp_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-02-05",
-      "summary": "A ASRock está monitorando de perto as discussões recentes sobre o desempenho e comportamento dos processadores AMD Ryzen série 9000 nas plataformas ASRock AMD. Em resposta a esses relatórios, implementamos análises internas abrangentes e verificações rigorosas...",
+      "date": "2026-02-06",
+      "summary": "Na Integrated Systems Europe (ISE) 2026 em Barcelona, ​​a Akasa apresentou suas soluções mais recentes que incorporam telas LCD em caixas resfriadas passivamente. Existem três versões, incluindo \"Kepler\", \"Maxwell Pro Plus\" e \"Euler CMX\", todas com ...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/345998/asrock-releases-official-statement-regarding-ryzen-9000-series-and-asrock-am5-motherboard-firmware"
+      "url": "https://www.techpowerup.com/346031/akasa-shows-first-fanless-enclosures-with-lcd-screens"
     },
     {
       "id": "https://www.techpowerup.com/345995/melgeek-debuts-horus-with-paw3950-sensor-and-true-8000hz-wireless-polling",
@@ -356,7 +350,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-02-05",
+      "date": "2026-02-06",
       "summary": "A MelGeek entrou oficialmente no mercado de mouse para jogos com o Horus Lightweight Esports Gaming Mouse, sinalizando uma expansão tecnicamente focada após as recentes inovações da marca no design de teclado mecânico. \n\nPesando aproximadamente 49 gramas...",
       "sources": [
         "TechPowerUp"
@@ -364,49 +358,139 @@
       "url": "https://www.techpowerup.com/345995/melgeek-debuts-horus-with-paw3950-sensor-and-true-8000hz-wireless-polling"
     },
     {
-      "id": "https://www.techpowerup.com/345997/asus-announces-rog-strix-aiolos-20-gbps-usb-3-2-gen-2x2-ssd-enclosure",
-      "title": "(PR) ASUS anuncia ROG Strix Aiolos, gabinete SSD USB 3.2 Gen 2x2 de 20 Gbps",
-      "original_title": "(PR) ASUS Announces ROG Strix Aiolos, 20 Gbps USB 3.2 Gen 2x2 SSD Enclosure",
-      "image": "https://tpucdn.com/img/etuue1lnKkehETvt_thm.jpg",
+      "id": "https://www.techpowerup.com/346030/asus-iot-introduces-pe1000u-rugged-fanless-din-rail-industrial-pc",
+      "title": "(PR) ASUS IoT apresenta PC industrial robusto sem ventoinha PE1000U com trilho DIN",
+      "original_title": "(PR) ASUS IoT Introduces PE1000U Rugged Fanless DIN-Rail Industrial PC",
+      "image": "https://tpucdn.com/img/cVTqc6c6NSzLDoA6_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-02-05",
-      "summary": "A ASUS Republic of Gamers (ROG) anunciou hoje o ROG Strix Aiolos SSD Enclosure, um gabinete SSD externo premium desenvolvido para jogadores e criadores que exigem desempenho de alto nível e gerenciamento contínuo de dispositivos. Projetado para armazenamento NVMe M.2 de próxima geração...",
+      "date": "2026-02-06",
+      "summary": "A ASUS IoT, líder global em soluções AIoT, anunciou hoje o PE1000U, um computador de borda compacto montável em trilho DIN equipado com um processador Intel Core Ultra Series 2. Medindo apenas 63 x 110 x 160 mm, o PE1000U apresenta ampla conectividade de E/S para endereç...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/345997/asus-announces-rog-strix-aiolos-20-gbps-usb-3-2-gen-2x2-ssd-enclosure"
+      "url": "https://www.techpowerup.com/346030/asus-iot-introduces-pe1000u-rugged-fanless-din-rail-industrial-pc"
     },
     {
-      "id": "https://www.techpowerup.com/345996/zotac-gaming-to-launch-alloy-microatx-pc-case-in-select-apac-regions",
-      "title": "(PR) ZOTAC Gaming lançará case para PC Alloy microATX em regiões selecionadas da APAC",
-      "original_title": "(PR) ZOTAC Gaming to Launch Alloy microATX PC Case in Select APAC Regions",
-      "image": "https://tpucdn.com/img/5uFjh8U1upJhNzLt_thm.jpg",
+      "id": "https://www.techpowerup.com/346029/nvidia-confirms-dynamic-multi-frame-generation-and-6x-mode-arrive-in-april",
+      "title": "NVIDIA confirma geração dinâmica de multiquadros e modo 6x chegando em abril",
+      "original_title": "NVIDIA Confirms Dynamic Multi-Frame Generation and 6x Mode Arrive in April",
+      "image": "https://tpucdn.com/img/ckHM23pYLu6fQq3R_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-02-05",
-      "summary": "A ZOTAC GAMING, líder global em hardware para jogos para PC, está lançando o gabinete de computador microATX ZOTAC GAMING ALLOY em regiões selecionadas da Ásia-Pacífico.\n\nALLOY é o primeiro gabinete de computador da marca voltado para entusiastas de PC DIY que procuram um case relativamente comp...",
+      "date": "2026-02-06",
+      "summary": "De acordo com HardwareLuxx, a NVIDIA confirmou que os modos Dynamic Multi Frame Generation (MFG) e Multi Frame Generation 6x estão programados para lançamento em abril. HardwareLuxx visitou o escritório da NVIDIA em Munique, na Alemanha, e obteve algumas informações exclusivas...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/345996/zotac-gaming-to-launch-alloy-microatx-pc-case-in-select-apac-regions"
+      "url": "https://www.techpowerup.com/346029/nvidia-confirms-dynamic-multi-frame-generation-and-6x-mode-arrive-in-april"
     },
     {
-      "id": "https://www.techpowerup.com/345994/alphacool-announces-apex-thermal-putty-x1",
-      "title": "(PR) Alphacool Anuncia Massa Térmica Apex X1",
-      "original_title": "(PR) Alphacool Announces Apex Thermal Putty X1",
-      "image": "https://tpucdn.com/img/N6yHSyPklgJL5rg9_thm.jpg",
+      "id": "https://www.eurogamer.net/horizon-hunters-gathering-is-a-three-player-tactical-co-op-game-that-looks-a-bit-like-dauntless-with-a-closed-playtest-coming-soon",
+      "title": "Horizon Hunters Gathering é um jogo cooperativo tático para três jogadores que se parece um pouco com Dauntless (com um teste fechado em breve)",
+      "original_title": "Horizon Hunters Gathering is a three-player tactical co-op game that looks a bit like Dauntless (with a closed playtest coming soon)",
+      "image": "https://assetsio.gnwcdn.com/Aloy-puts-a-hand-on-Errand's-shoulder-in-Horizon-Hunters-Gathering-trailer.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-02-05",
+      "summary": "Guerrilla e PlayStation revelaram Horizon Hunters Gathering, um novo jogo cooperativo definido para PC e PS5. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/horizon-hunters-gathering-is-a-three-player-tactical-co-op-game-that-looks-a-bit-like-dauntless-with-a-closed-playtest-coming-soon"
+    },
+    {
+      "id": "https://www.eurogamer.net/gameshare-just-took-me-from-interested-in-switch-2s-beautiful-co-op-space-opera-orbitals-to-overwhelmingly-excited",
+      "title": "O GameShare acabou de me levar do interesse pela bela ópera espacial cooperativa do Switch 2, Orbitals, para o extremamente animado",
+      "original_title": "GameShare just took me from interested in Switch 2's beautiful co-op space opera Orbitals, to overwhelmingly excited",
+      "image": "https://assetsio.gnwcdn.com/orbitals.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-02-05",
+      "summary": "Certo, qualquer jogo que pareça que você deixou os artesãos do Studio Ghibli ou dos criadores do Cowboy Bebop Sunrise fazerem um vídeo do Daft Punk vai imediatamente despertar minha curiosidade. Experimente um jogo cooperativo repleto de quebra-cabeças e aparência divertida e você terá meu...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/gameshare-just-took-me-from-interested-in-switch-2s-beautiful-co-op-space-opera-orbitals-to-overwhelmingly-excited"
+    },
+    {
+      "id": "https://www.eurogamer.net/nintendo-direct-partner-showcase-february-2026-everything-announced",
+      "title": "Nintendo Direct Partner Showcase, fevereiro de 2026: tudo anunciado",
+      "original_title": "Nintendo Direct Partner Showcase February 2026: Everything announced",
+      "image": "https://assetsio.gnwcdn.com/Nintendo-Direct-February-2026-Header.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-02-05",
+      "summary": "O Nintendo Direct Partner Showcase em fevereiro de 2026 pode não ter trazido informações sobre quais jogos originais chegarão ao Nintendo Switch 2, mas nos deu uma ótima visão de quais jogos de terceiros chegarão ao console em 2026. (Espero...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/nintendo-direct-partner-showcase-february-2026-everything-announced"
+    },
+    {
+      "id": "https://www.eurogamer.net/the-elder-scrolls-4-oblivion-remastered-is-coming-to-switch-2",
+      "title": "Terminou Skyrim? Seu antecessor aprimorado, The Elder Scrolls 4: Oblivion Remastered, está chegando ao Switch 2",
+      "original_title": "Done with Skyrim? Its spruced-up predecessor The Elder Scrolls 4: Oblivion Remastered is coming to Switch 2",
+      "image": "https://assetsio.gnwcdn.com/oblivion-remastered-man.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-02-05",
+      "summary": "Já sabíamos - ou pelo menos suspeitávamos fortemente, graças a alguns vazamentos - a Bethesda teria uma grande presença durante o último showcase do Partner Direct da Nintendo, mas acontece que o estúdio tinha um pouco mais na manga do que apenas Fallout e eu...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/the-elder-scrolls-4-oblivion-remastered-is-coming-to-switch-2"
+    },
+    {
+      "id": "https://www.eurogamer.net/grace-and-leon-are-getting-resident-evil-requiem-amiibos",
+      "title": "Grace e Leon estão recebendo Amiibos de Resident Evil Requiem",
+      "original_title": "Grace and Leon are getting Resident Evil Requiem Amiibos",
+      "image": "https://assetsio.gnwcdn.com/image-(19)_4TSRjLp.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-02-05",
+      "summary": "Os jogadores de Resident Evil: Requiem no Nintendo Switch 2 poderão adquirir novos amiibos de Grace e Leon neste verão.\n Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/grace-and-leon-are-getting-resident-evil-requiem-amiibos"
+    },
+    {
+      "id": "https://www.eurogamer.net/stellar-mystery-adventure-paranormasight-is-back-with-a-sequel-and-its-coming-to-switch-2-soon",
+      "title": "A aventura estelar de mistério Paranormasight está de volta com uma sequência e chegará ao Switch 2 em breve",
+      "original_title": "Stellar mystery adventure Paranormasight is back with a sequel and it's coming to Switch 2 soon",
+      "image": "https://assetsio.gnwcdn.com/paranormasight-mermaid-curse.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-02-05",
+      "summary": "É um bom dia para aqueles que estão na intersecção entre 'assustador' e 'dedução' - o aclamado romance visual da Square Enix, Paranormasight, está oficialmente recebendo uma sequência e chegará ao Switch 2 no final deste mês, em 19 de fevereiro.\n Ler...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/stellar-mystery-adventure-paranormasight-is-back-with-a-sequel-and-its-coming-to-switch-2-soon"
+    },
+    {
+      "id": "https://www.techpowerup.com/346021/horizon-hunters-gathering-new-3-player-co-op-game-in-horizon-universe-coming-to-pc-and-ps5",
+      "title": "Horizon Hunters Gathering: novo jogo cooperativo para 3 jogadores no Horizon Universe chegando ao PC e PS5",
+      "original_title": "Horizon Hunters Gathering: New 3-Player Co-Op Game in Horizon Universe Coming to PC and PS5",
+      "image": "https://tpucdn.com/img/6y7oRkUozLOb3wcy_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-02-05",
-      "summary": "Alphacool International GmbH de Braunschweig é pioneira na tecnologia de refrigeração líquida para PCs. Com um dos portfólios de produtos mais abrangentes do setor e mais de 20 anos de experiência, a Alphacool agora expande sua linha com o Apex Thermal ...",
+      "summary": "Houve rumores anteriores de que a Guerrilla Games estava trabalhando em um novo jogo multiplayer no universo Horizon, mas pensava-se que o jogo seria um MMO. Em vez disso - ou talvez além do MMO - a Sony acaba de anunciar Horizon Hunters Gath...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/345994/alphacool-announces-apex-thermal-putty-x1"
+      "url": "https://www.techpowerup.com/346021/horizon-hunters-gathering-new-3-player-co-op-game-in-horizon-universe-coming-to-pc-and-ps5"
     },
     {
       "id": "https://www.techpowerup.com/345912/computers-running-windows-10-arent-safe-but-windows-11-pro-is-only-usd-13-right-now-reg-usd-199",
@@ -424,109 +508,49 @@
       "url": "https://www.techpowerup.com/345912/computers-running-windows-10-arent-safe-but-windows-11-pro-is-only-usd-13-right-now-reg-usd-199"
     },
     {
-      "id": "https://www.techpowerup.com/345989/valve-steam-machine-and-frame-hit-by-memory-crisis",
-      "title": "Valve Steam Machine e Frame atingidos por crise de memória",
-      "original_title": "Valve Steam Machine and Frame Hit by Memory Crisis",
-      "image": "https://tpucdn.com/img/NxcSr4BNSmUL8w0h_thm.jpg",
+      "id": "https://www.techpowerup.com/346018/keychron-readies-low-profile-k3-he-k3-ultra-keyboards",
+      "title": "Keychron prepara teclados K3 HE e K3 Ultra de baixo perfil",
+      "original_title": "Keychron Readies Low-Profile K3 HE & K3 Ultra Keyboards",
+      "image": "https://tpucdn.com/img/gYgohnZiyL5LSMif_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-02-05",
-      "summary": "Quando a Valve anunciou a Steam Machine, Steam Frame e o Steam Controller atualizado no final de 2025, ela não revelou o preço, mas a gigante dos jogos disse que o hardware seria lançado no início de 2026. Essa janela de lançamento ainda está prevista, mas de acordo...",
+      "summary": "Keychron anunciou dois novos teclados sem fio discretos, o K3 HE e K3 Ultra, ambos com lançamento previsto para 12 de fevereiro. O par se baseia nos designs HE e Ultra recentes da empresa, combinando um formato fino com recursos focados em jogos e madeira...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/345989/valve-steam-machine-and-frame-hit-by-memory-crisis"
+      "url": "https://www.techpowerup.com/346018/keychron-readies-low-profile-k3-he-k3-ultra-keyboards"
     },
     {
-      "id": "https://www.eurogamer.net/blizzards-big-plan-to-put-overwatch-back-on-top",
-      "title": "\"O que eu mudaria se pudéssemos voltar?\" Por dentro do grande plano da Blizzard para colocar Overwatch de volta ao topo",
-      "original_title": "\"What would I change if we could go back?\" Inside Blizzard's big plan to put Overwatch back on top",
-      "image": "https://assetsio.gnwcdn.com/overwatch-new-heroes.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-02-04",
-      "summary": "Overwatch 2 teve um problema. É um problema que muitos jogos de serviço ao vivo têm, para ser justo. Não era mais particularmente emocionante. No lançamento, há alguns anos, teve a chance de entusiasmar as pessoas, de criar uma onda de impulso para surfar depois disso, mas flo...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/blizzards-big-plan-to-put-overwatch-back-on-top"
-    },
-    {
-      "id": "https://www.eurogamer.net/mass-effect-shepard-is-overwatch-jetpack-cat",
-      "title": "Miau! A atriz do Comandante Shepard de Mass Effect, Jennifer Hale, é a voz chorosa do ridículo novo herói de Overwatch, Jetpack Cat",
-      "original_title": "Meow! Mass Effect's Commander Shepard actor Jennifer Hale is the mewling voice of Overwatch's ridiculous new hero Jetpack Cat",
-      "image": "https://assetsio.gnwcdn.com/jennifer-hale-jetpack-cat-overwatch.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-02-04",
-      "summary": "Você não saberia ao ouvir isso, mas a condecorada atriz de videogame Jennifer Hale – famosa pela voz do Comandante Shepard de Mass Effect – é a pessoa que fornece os miados do novo herói de Overwatch, Jetpack Cat. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/mass-effect-shepard-is-overwatch-jetpack-cat"
-    },
-    {
-      "id": "https://www.eurogamer.net/overwatch-nearly-had-an-f-bomb-problem",
-      "title": "Overwatch quase teve um problema com bomba F",
-      "original_title": "Overwatch nearly had an f-bomb problem",
-      "image": "https://assetsio.gnwcdn.com/New-Project-(21)_vOdqfbl.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-02-04",
-      "summary": "O atirador de olhos brilhantes e esperançoso da Blizzard, Overwatch, quase teve um problema com a bomba F. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/overwatch-nearly-had-an-f-bomb-problem"
-    },
-    {
-      "id": "https://www.eurogamer.net/blizzard-unveils-major-overwatch-2-revamp-expansion-plan",
-      "title": "A Blizzard revela uma grande reformulação de Overwatch 2, renomeando-o apenas para Overwatch e anunciando um ambicioso e iminente plano de expansão",
-      "original_title": "Blizzard unveils a major Overwatch 2 revamp, renaming it to just Overwatch and announcing ambitious, imminent expansion plan",
-      "image": "https://assetsio.gnwcdn.com/overwatch-hero-line-up.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-02-04",
-      "summary": "Overwatch 2 será doravante conhecido como Overwatch, anunciou a Blizzard, ao traçar um novo plano importante que girará em torno de lançamentos gratuitos, anuais e semelhantes a expansões para o jogo. O primeiro deles – The Reign of Talon – chega na próxima semana, no T...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/blizzard-unveils-major-overwatch-2-revamp-expansion-plan"
-    },
-    {
-      "id": "https://www.techpowerup.com/345985/borderlands-4-officially-steam-deck-verified-fans-disagree",
-      "title": "Borderlands 4 oficialmente verificado no Steam Deck – os fãs discordam",
-      "original_title": "Borderlands 4 Officially Steam Deck Verified—Fans Disagree",
-      "image": "https://tpucdn.com/img/SvzNwx2NUgECNblf_thm.jpg",
+      "id": "https://www.techpowerup.com/346017/emeet-launches-s600l-a-4k-webcam-with-built-in-ring-light-for-creators-and-streamers",
+      "title": "(PR) EMEET lança S600L: uma webcam 4K com Ring Light integrado para criadores e streamers",
+      "original_title": "(PR) EMEET Launches S600L: A 4K Webcam with Built-in Ring Light for Creators and Streamers",
+      "image": "https://tpucdn.com/img/SagoNBFWMFE16AG4_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-02-04",
-      "summary": "Recentemente surgiram notícias de que Borderlands 4 pode nunca ser lançado no Nintendo Switch 2, mas, como 2K anunciou recentemente através da conta oficial de Borderlands no X, o looter shooter foi oficialmente verificado para o Steam Deck. Embora Borderlands 4 tenha sido p...",
+      "date": "2026-02-05",
+      "summary": "A EMEET anunciou hoje o lançamento da EMEET S600L, uma webcam 4K projetada para fornecer vídeo nítido, consistente e de qualidade profissional por meio da integração de tecnologia de imagem inteligente e um anel luminoso integrado. O S600L foi criado para criar...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/345985/borderlands-4-officially-steam-deck-verified-fans-disagree"
+      "url": "https://www.techpowerup.com/346017/emeet-launches-s600l-a-4k-webcam-with-built-in-ring-light-for-creators-and-streamers"
     },
     {
-      "id": "https://www.techpowerup.com/345980/blizzard-rebrands-overwatch-2-to-overwatch-adds-10-new-heroes-and-revamps-game-systems",
-      "title": "Blizzard renomeia Overwatch 2 para “Overwatch”, adiciona 10 novos heróis e renova sistemas de jogo",
-      "original_title": "Blizzard Rebrands Overwatch 2 to \"Overwatch,\" Adds 10 New Heroes, and Revamps Game Systems",
-      "image": "https://tpucdn.com/img/77hCY875AdT3cQBw_thm.jpg",
+      "id": "https://www.techpowerup.com/346013/darmoshark-launches-flagship-tier-m9-gaming-mouse-for-gamers-with-big-hands",
+      "title": "Darmoshark lança mouse para jogos M9 carro-chefe para jogadores com mãos grandes",
+      "original_title": "Darmoshark Launches Flagship-Tier M9 Gaming Mouse for Gamers With Big Hands",
+      "image": "https://tpucdn.com/img/WTJknZYoqAC7QkuJ_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-02-04",
-      "summary": "Apesar do sucesso do primeiro jogo da série, Overwatch 2 passou por momentos difíceis, com análises no Steam classificando o jogo como \"Principalmente Negativo\", com 34% de suas análises sendo de natureza positiva. Parece que a Blizzard está tentando mudar...",
+      "date": "2026-02-05",
+      "summary": "Darmoshark anunciou um novo mouse para jogos sem fio projetado especificamente para usuários com mãos grandes, com o mouse fazendo sua estreia em uma postagem no Bilibili. O Darmoshark M9 tem um formato semelhante ao sempre popular Razer Viper V3 Pro, mas mede ...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/345980/blizzard-rebrands-overwatch-2-to-overwatch-adds-10-new-heroes-and-revamps-game-systems"
+      "url": "https://www.techpowerup.com/346013/darmoshark-launches-flagship-tier-m9-gaming-mouse-for-gamers-with-big-hands"
     }
   ]
 }
