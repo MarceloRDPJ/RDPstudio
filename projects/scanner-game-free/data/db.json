@@ -1,11 +1,20 @@
 {
-  "last_updated": "2026-02-08T12:51:32",
-  "display_date": "08/02/2026 12:51",
+  "last_updated": "2026-02-09T13:09:51",
+  "display_date": "09/02/2026 13:09",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "1933ms",
+    "latency": "435ms",
     "current_games": [
+      {
+        "title": "Botany Manor",
+        "description": "Bem-vindo ao Botany Manor, uma casa senhorial na Inglaterra do século XIX. Você joga como a habitante Arabella Greene, uma botânica aposentada. Explore sua casa e seus jardins, repletos de pesquisas, para descobrir o habitat ideal da flora esquecida.",
+        "image": "https://cdn1.epicgames.com/spt-assets/42d56a88c22d4eaa8977bf5528a2396b/botany-manor-1f7uq.jpg",
+        "url": "https://store.epicgames.com/p/61eca1a9e42243d29e93b02510d88d83",
+        "price": "$24.99",
+        "start_date": "2026-02-05T16:00:00.000Z",
+        "end_date": "2026-02-12T16:00:00.000Z"
+      },
       {
         "title": "Botany Manor",
         "description": "Bem-vindo ao Botany Manor, uma casa senhorial na Inglaterra do século XIX. Você joga como a habitante Arabella Greene, uma botânica aposentada. Explore sua casa e seus jardins, repletos de pesquisas, para descobrir o habitat ideal da flora esquecida.",
@@ -68,8 +77,8 @@
         "image": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
         "url": "https://store.epicgames.com/p/monument-valley-02",
         "price": "$7.99",
-        "start_date": "2026-03-30T15:00:00.000Z",
-        "end_date": "2026-04-13T15:00:00.000Z"
+        "start_date": "2026-02-09T16:00:00.000Z",
+        "end_date": "2026-02-23T16:00:00.000Z"
       },
       {
         "title": "Monument Valley",
@@ -77,17 +86,8 @@
         "image": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
         "url": "https://store.epicgames.com/p/monument-valley-02",
         "price": "$7.99",
-        "start_date": "2026-02-09T16:00:00.000Z",
-        "end_date": "2026-02-23T16:00:00.000Z"
-      },
-      {
-        "title": "Botany Manor",
-        "description": "Bem-vindo ao Botany Manor, uma casa senhorial na Inglaterra do século XIX. Você joga como a habitante Arabella Greene, uma botânica aposentada. Explore sua casa e seus jardins, repletos de pesquisas, para descobrir o habitat ideal da flora esquecida.",
-        "image": "https://cdn1.epicgames.com/spt-assets/42d56a88c22d4eaa8977bf5528a2396b/botany-manor-1f7uq.jpg",
-        "url": "https://store.epicgames.com/p/61eca1a9e42243d29e93b02510d88d83",
-        "price": "$24.99",
-        "start_date": "2026-02-08T21:00:00.000Z",
-        "end_date": "2026-02-22T21:00:00.000Z"
+        "start_date": "2026-03-30T15:00:00.000Z",
+        "end_date": "2026-04-13T15:00:00.000Z"
       },
       {
         "title": "Nobody Wants to Die",
@@ -110,7 +110,22 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-02-08",
+      "date": "2026-02-09",
+      "summary": "Bem-vindo ao Botany Manor, uma casa senhorial na Inglaterra do século XIX. Você joga como a habitante Arabella Greene, uma botânica aposentada. Explore sua casa e seus jardins, repletos de pesquisas, para descobrir o habitat ideal da flora esquecida.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/61eca1a9e42243d29e93b02510d88d83"
+    },
+    {
+      "id": "https://store.epicgames.com/p/61eca1a9e42243d29e93b02510d88d83",
+      "title": "GRÁTIS: Botany Manor",
+      "original_title": "Botany Manor",
+      "image": "https://cdn1.epicgames.com/spt-assets/42d56a88c22d4eaa8977bf5528a2396b/botany-manor-1f7uq.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Free Games",
+      "date": "2026-02-09",
       "summary": "Bem-vindo ao Botany Manor, uma casa senhorial na Inglaterra do século XIX. Você joga como a habitante Arabella Greene, uma botânica aposentada. Explore sua casa e seus jardins, repletos de pesquisas, para descobrir o habitat ideal da flora esquecida.",
       "sources": [
         "Epic Games Store"
@@ -125,7 +140,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-02-08",
+      "date": "2026-02-09",
       "summary": "Volte no tempo e avance na batalha com o Poison Retro Set, inspirado na eletrizante Temporada Arcade.",
       "sources": [
         "Epic Games Store"
@@ -140,7 +155,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-02-08",
+      "date": "2026-02-09",
       "summary": "Disponível gratuitamente a partir de 12/02. Junte-se ao Detetive McQueen enquanto ele resolve 6 casos, arriscando a vida e o membro pixelizado para resolver os mistérios macabros que assolam a pobre cidade.",
       "sources": [
         "Epic Games Store"
@@ -155,7 +170,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-02-08",
+      "date": "2026-02-09",
       "summary": "Disponível gratuitamente a partir de 09/02. Eternal Threads é um jogo de quebra-cabeça para um jogador, em primeira pessoa, baseado em uma história de manipulação, escolha e consequência do tempo.",
       "sources": [
         "Epic Games Store"
@@ -170,7 +185,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-02-08",
+      "date": "2026-02-09",
       "summary": "Disponível gratuitamente a partir de 09/02. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cibernética.",
       "sources": [
         "Epic Games Store"
@@ -185,7 +200,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-02-08",
+      "date": "2026-02-09",
       "summary": "Disponível gratuitamente a partir de 09/02. A Coleção de Aniversário de Castlevania da Konami traça as origens da histórica franquia de vampiros. Está incluído um e-book exclusivo com detalhes fornecidos por desenvolvedores, artistas e outros inspirados no legado de Castlevania, que lança uma nova luz sobre o mundo de Castlevania.",
       "sources": [
         "Epic Games Store"
@@ -200,8 +215,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-02-08",
-      "summary": "Disponível gratuitamente a partir de 30/03. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
+      "date": "2026-02-09",
+      "summary": "Disponível gratuitamente a partir de 09/02. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
       "sources": [
         "Epic Games Store"
       ],
@@ -215,27 +230,12 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-02-08",
-      "summary": "Disponível gratuitamente a partir de 09/02. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
+      "date": "2026-02-09",
+      "summary": "Disponível gratuitamente a partir de 30/03. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/monument-valley-02"
-    },
-    {
-      "id": "https://store.epicgames.com/p/61eca1a9e42243d29e93b02510d88d83",
-      "title": "EM BREVE: Botany Manor",
-      "original_title": "Botany Manor",
-      "image": "https://cdn1.epicgames.com/spt-assets/42d56a88c22d4eaa8977bf5528a2396b/botany-manor-1f7uq.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-02-08",
-      "summary": "Disponível gratuitamente a partir de 08/02. Bem-vindo ao Botany Manor, uma casa senhorial na Inglaterra do século XIX. Você joga como a habitante Arabella Greene, uma botânica aposentada. Explore sua casa e seus jardins, repletos de pesquisas, para descobrir o habitat ideal da flora esquecida.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/61eca1a9e42243d29e93b02510d88d83"
     },
     {
       "id": "https://store.epicgames.com/p/eea910991d674322b3832f9b7bbefb7b",
@@ -245,7 +245,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-02-08",
+      "date": "2026-02-09",
       "summary": "Disponível gratuitamente a partir de 12/02. Perca-se no mundo distópico de Nova York, 2329. Nesta história noir interativa, lidere a investigação usando tecnologia avançada como o detetive James Karra, que arrisca tudo na perseguição de um serial killer que tem como alvo a elite da cidade.",
       "sources": [
         "Epic Games Store"
@@ -253,124 +253,109 @@
       "url": "https://store.epicgames.com/p/eea910991d674322b3832f9b7bbefb7b"
     },
     {
-      "id": "https://www.eurogamer.net/is-a-baldurs-gate-3-tv-show-a-good-idea-and-does-it-matter-that-larian-isnt-involved",
-      "title": "Um programa de TV Baldur's Gate 3 é uma boa ideia e importa que Larian não esteja envolvido?",
-      "original_title": "Is a Baldur's Gate 3 TV show a good idea and does it matter that Larian isn't involved?",
-      "image": "https://assetsio.gnwcdn.com/bg3-astarion-last-of-us-think-header.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/toyota-fluorite-game-engine-reveal",
+      "title": "A Toyota acaba de anunciar um motor de jogo proprietário, mas isso não significa que está visando PC e consoles",
+      "original_title": "Toyota has just announced a proprietary game engine, but that doesn't mean it's targeting PC and consoles",
+      "image": "https://assetsio.gnwcdn.com/Fluorite-game-engine-logo.png?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-02-08",
-      "summary": "Outro dia, outro jogo recebendo tratamento de TV, mas este é importante: a Wizards of the Coast, proprietária de Dungeons & Dragons, revelou esta semana que Craig Mazin, showrunner da divisiva adaptação televisiva de The Last of Us da HBO, está virando a mão para Bald...",
+      "date": "2026-02-09",
+      "summary": "Hoje, notícias que ninguém poderia prever: a Toyota tem trabalhado discretamente em um motor de jogo próprio, mas o objetivo final não é o que você esperaria. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/is-a-baldurs-gate-3-tv-show-a-good-idea-and-does-it-matter-that-larian-isnt-involved"
+      "url": "https://www.eurogamer.net/toyota-fluorite-game-engine-reveal"
     },
     {
-      "id": "https://www.eurogamer.net/superbowl-sunday-nfl-blitz-best-american-football-game",
-      "title": "Uma carta de amor ao NFL Blitz, um dos maiores jogos esportivos de todos os tempos",
-      "original_title": "A love letter to NFL Blitz, one of the greatest sports games of all time",
-      "image": "https://assetsio.gnwcdn.com/nfl-blitz.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/void-war-dmca-shoulder-pads-games-workshop-warhammer-40k",
+      "title": "O desenvolvedor independente afirma que a queda repentina de seu jogo se deveu ao criador de Warhammer, Games Workshop, e a um conjunto de ombreiras de aparência familiar",
+      "original_title": "Indie dev claims the sudden takedown of its game was due to Warhammer creator Games Workshop, and a set of familiar-looking shoulder pads",
+      "image": "https://assetsio.gnwcdn.com/void-war-bloke-with-shoulders.png?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-02-08",
-      "summary": "Quem você tem neste domingo? Você ao menos se importa? Talvez não - afinal, este é o Eurogamer, e ninguém pode ser culpado por não se interessar por um esporte americano neste momento. Mas, mesmo assim, há definitivamente mais fãs de ovo manual na Europa do que...",
+      "date": "2026-02-09",
+      "summary": "Tundra Interactive, o desenvolvedor independente por trás do RPG de estratégia independente Void War, finalmente falou sobre por que o jogo foi temporariamente removido do Steam no início deste ano. A razão? Bem, de acordo com Tundra, tudo tem a ver com um determinado...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/superbowl-sunday-nfl-blitz-best-american-football-game"
+      "url": "https://www.eurogamer.net/void-war-dmca-shoulder-pads-games-workshop-warhammer-40k"
     },
     {
-      "id": "https://www.eurogamer.net/iron-lung-is-a-masterclass-in-the-power-of-suggestion",
-      "title": "O filme Iron Lung de Markiplier pode estar recebendo toda a atenção, mas o jogo de terror em que se baseia é uma aula magistral no poder da sugestão",
-      "original_title": "Markiplier's Iron Lung movie might be getting all the attention, but the horror game it's based on is a masterclass in the power of suggestion",
-      "image": "https://assetsio.gnwcdn.com/iron-lung-header-1-brighter.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/pokemon-30-super-bowl-spot-lady-gaga-and-jigglypuff-performance",
+      "title": "Assista Lady Gaga e Jigglypuff cantando juntas no anúncio do 30º aniversário do Pokémon no Super Bowl",
+      "original_title": "Watch Lady Gaga and Jigglypuff sing together in Pokémon's 30th anniversary Super Bowl spot",
+      "image": "https://assetsio.gnwcdn.com/Lady-Gaga-x-Jigglypuff.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-02-08",
-      "summary": "Talvez você recentemente tenha olhado na internet e visto a agitação em torno do Iron Lung. O filme de terror independente teve um início estrondoso na semana passada, empurrando Melania para o lado para ocupar o segundo lugar nas bilheterias dos EUA, frustrado apenas por Send Hel...",
+      "date": "2026-02-09",
+      "summary": "Pokémon nunca deixou de estar na moda, mas esperamos ainda mais do enorme IP deste ano, já que os “monstros de bolso” farão 30 anos no final deste mês. Isso significa que há anúncios de jogos no horizonte, celebrações acontecendo por toda parte e tudo...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/iron-lung-is-a-masterclass-in-the-power-of-suggestion"
+      "url": "https://www.eurogamer.net/pokemon-30-super-bowl-spot-lady-gaga-and-jigglypuff-performance"
     },
     {
-      "id": "https://www.techpowerup.com/346087/this-week-in-gaming-week-7",
-      "title": "Esta semana em jogos (semana 7)",
-      "original_title": "This Week in Gaming (Week 7)",
-      "image": "https://tpucdn.com/img/XbQ8cXANa9Mm8m4q_thm.jpg",
+      "id": "https://www.eurogamer.net/im-a-brilliant-totally-not-corrupt-ruler-in-the-sims-4s-surprisingly-entertaining-royalty-legacy-expansion",
+      "title": "Abaixo a monarquia! A menos que seja eu, porque sou um governante brilhante e totalmente não corrupto na surpreendentemente divertida expansão Royalty & Legacy do The Sims 4",
+      "original_title": "Down with the monarchy! Unless it's me, because I'm a brilliant, totally not corrupt ruler in The Sims 4's surprisingly entertaining Royalty & Legacy expansion",
+      "image": "https://assetsio.gnwcdn.com/sims-4-royalty-sword-crop.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-02-09",
+      "summary": "Como aquele leão de desenho animado cantou uma vez antes de matar seu tio e transar com seu primo, mal posso esperar para ser rei! Não é um sentimento que eu esperava escrever quando iniciei a mais recente grande expansão do The Sims 4, Royalty & Legacy - ...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/im-a-brilliant-totally-not-corrupt-ruler-in-the-sims-4s-surprisingly-entertaining-royalty-legacy-expansion"
+    },
+    {
+      "id": "https://www.eurogamer.net/nioh-3-reaches-almost-90000-concurrent-players-on-pc-after-launch-over-doubling-series-record",
+      "title": "Nioh 3 atinge quase 90.000 jogadores simultâneos no PC após o lançamento, dobrando o recorde da série",
+      "original_title": "Nioh 3 reaches almost 90,000 concurrent players on PC after launch, over doubling series record",
+      "image": "https://assetsio.gnwcdn.com/nioh-3-steam-promo-image-four.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-02-09",
+      "summary": "Os dados iniciais dos jogadores indicam que Nioh 3 está tendo um bom desempenho após seu lançamento na última sexta-feira, atingindo quase 90.000 jogadores simultâneos no Steam no fim de semana. Atualmente está no topo da lista de jogos em alta do Steam. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/nioh-3-reaches-almost-90000-concurrent-players-on-pc-after-launch-over-doubling-series-record"
+    },
+    {
+      "id": "https://www.eurogamer.net/fallout-76-crossplay-being-explored-but-not-locked",
+      "title": "Fallout 76 ainda pode ter crossplay após anos de pedidos de fãs, mas não espere isso tão cedo",
+      "original_title": "Fallout 76 may still get crossplay following years of fan requests, but don't expect it anytime soon",
+      "image": "https://assetsio.gnwcdn.com/Fallout-76_power-armor_Ohio.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-02-09",
+      "summary": "Fallout 76 está em um lugar muito bom desde a atualização Wastelanders de 2020, que adicionou NPCs e missões inteiramente novas ao outrora árido jogo de sobrevivência online. Desde então, tornou-se mais um RPG multijogador completo com uma forte comunidade obstinada.",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/fallout-76-crossplay-being-explored-but-not-locked"
+    },
+    {
+      "id": "https://www.techpowerup.com/346115/imec-inaugurates-nanoic-pilot-line-accelerating-innovation-in-sub-2nm-systems-on-chip",
+      "title": "(PR) Imec inaugura linha piloto NanoIC, acelerando inovação em sistemas-on-chip sub-2nm",
+      "original_title": "(PR) Imec Inaugurates NanoIC Pilot Line, Accelerating Innovation in Sub-2nm Systems-On-Chip",
+      "image": "https://tpucdn.com/img/U2X9GjJcbZ5kf8gA_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-02-08",
-      "summary": "Bem-vindo à segunda semana de fevereiro e a mais uma semana repleta de novos lançamentos, embora nenhum deles seja título AAA. O grande lançamento desta semana vem dos criadores de Little Nightmares e, sem surpresa, estamos falando de uma aventura de terror cooperativa...",
+      "date": "2026-02-09",
+      "summary": "A Imec – um centro de P&D líder mundial em tecnologias avançadas de semicondutores – inaugurou hoje uma expansão de sala limpa de 2.000 m² em sua sede em Leuven, marcando um marco fundamental na implantação da linha piloto NanoIC da Europa. O evento contou com a presença...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/346087/this-week-in-gaming-week-7"
-    },
-    {
-      "id": "https://www.eurogamer.net/xcom-2-10th-anniversary",
-      "title": "Feliz 10º aniversário, XCOM 2, o jogo mais brilhante e frustrante de seu tempo",
-      "original_title": "Happy 10th birthday, XCOM 2, the most brilliant, frustrating game of its time",
-      "image": "https://assetsio.gnwcdn.com/xcom-2_k7dNINr.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-02-07",
-      "summary": "É esse momento mágico que todos os jogadores de XCOM 2 vivenciam. Um membro do seu esquadrão de elite de defensores planetários de ficção científica aponta sua metralhadora bem na frente de algum inimigo alienígena, provavelmente um Muton, e de alguma forma tem apenas 90% de chance de ...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/xcom-2-10th-anniversary"
-    },
-    {
-      "id": "https://www.eurogamer.net/difficulty-cairn-baby-steps-kinder-more-generous-masocore",
-      "title": "Dificuldade feita de forma diferente: Cairn e Baby Steps proporcionam um masocore mais gentil e generoso",
-      "original_title": "Difficulty done differently: Cairn and Baby Steps deliver kinder, more generous masocore",
-      "image": "https://assetsio.gnwcdn.com/Cairn_20260203152922.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-02-07",
-      "summary": "Na semana passada, em vez de realmente relaxar à noite, subi a montanha retorcida de uma montanha em Cairn. A onerosa jornada deixou os dedos dos pés de sua estrela alpinista Aava ensanguentados; Empurrei os tendões de seus dedos esguios para...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/difficulty-cairn-baby-steps-kinder-more-generous-masocore"
-    },
-    {
-      "id": "https://www.eurogamer.net/what-weve-been-playing-mama-demands-perfection",
-      "title": "O que temos tocado - \"Mamãe exige perfeição\"",
-      "original_title": "What we've been playing - \"Mama demands perfection\"",
-      "image": "https://assetsio.gnwcdn.com/Nintendo-Direct-%E2%80%93-12_09_2025-59-21-screenshot.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-02-07",
-      "summary": "Olá e bem-vindo de volta ao nosso artigo regular, onde escrevemos um pouco sobre os jogos que temos jogado. Esta semana, Bertie descobre os jogos portáteis e fica todo animado; Marie luta para impressionar a mãe; Kelsey experimenta Nioh pela primeira vez, ...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/what-weve-been-playing-mama-demands-perfection"
-    },
-    {
-      "id": "https://www.techpowerup.com/346079/30-000-nvidia-engineers-use-generative-ai-for-3x-higher-code-output",
-      "title": "30.000 engenheiros da NVIDIA usam IA generativa para produção de código 3x maior",
-      "original_title": "30,000 NVIDIA Engineers Use Generative AI for 3x Higher Code Output",
-      "image": "https://tpucdn.com/img/QirbHJm1mTuUmwUU_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-02-07",
-      "summary": "A empresa que iniciou toda a onda de infraestrutura e desenvolvimento de IA está agora colhendo os frutos do seu trabalho. A NVIDIA implantou ferramentas generativas de IA em sua empresa para um número surpreendente de 30.000 engenheiros. Em parceria com São Francisco-b...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/346079/30-000-nvidia-engineers-use-generative-ai-for-3x-higher-code-output"
+      "url": "https://www.techpowerup.com/346115/imec-inaugurates-nanoic-pilot-line-accelerating-innovation-in-sub-2nm-systems-on-chip"
     },
     {
       "id": "https://www.techpowerup.com/345995/melgeek-debuts-horus-with-paw3950-sensor-and-true-8000hz-wireless-polling",
@@ -380,7 +365,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-02-07",
+      "date": "2026-02-09",
       "summary": "A MelGeek entrou oficialmente no mercado de mouse para jogos com o Horus Lightweight Esports Gaming Mouse, sinalizando uma expansão tecnicamente focada após as recentes inovações da marca no design de teclado mecânico. \n\nPesando aproximadamente 49 gramas...",
       "sources": [
         "TechPowerUp"
@@ -388,49 +373,49 @@
       "url": "https://www.techpowerup.com/345995/melgeek-debuts-horus-with-paw3950-sensor-and-true-8000hz-wireless-polling"
     },
     {
-      "id": "https://www.techpowerup.com/346076/intel-targets-lpddr5x-8533-for-core-ultra-g3-panther-lake-handheld-gaming-chips",
-      "title": "Intel visa LPDDR5X-8533 para chips de jogos portáteis Core Ultra G3 “Panther Lake”",
-      "original_title": "Intel Targets LPDDR5X-8533 for Core Ultra G3 \"Panther Lake\" Handheld Gaming Chips",
-      "image": "https://tpucdn.com/img/VLqrpNZo1u98n2ai_thm.jpg",
+      "id": "https://www.techpowerup.com/346114/yunzii-launches-c98-cake-meow-wireless-mechanical-keyboard-with-numpad",
+      "title": "(PR) Yunzii lança teclado mecânico sem fio C98 Cake Meow com teclado numérico",
+      "original_title": "(PR) Yunzii Launches C98 Cake Meow Wireless Mechanical Keyboard with Numpad",
+      "image": "https://tpucdn.com/img/jUgGblyu7RqvwnCE_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-02-07",
-      "summary": "Em um relatório exclusivo para VideoCardz, a Intel está almejando uma velocidade de memória LPDDR5X de 8.533 MT/s para sua próxima série Core Ultra G3 de chips “Panther Lake” que chegará no segundo trimestre para dispositivos de jogos portáteis. Depois que aprendemos isso...",
+      "date": "2026-02-09",
+      "summary": "O momento que você estava esperando chegou! YUNZII tem o prazer de revelar o teclado C98 Cake Meow, a versão do teclado numérico depois do C75! Esta é uma fusão deliciosa de estética doce, desempenho versátil e felicidade de digitação cremosa. Projetado para encantar seu...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/346076/intel-targets-lpddr5x-8533-for-core-ultra-g3-panther-lake-handheld-gaming-chips"
+      "url": "https://www.techpowerup.com/346114/yunzii-launches-c98-cake-meow-wireless-mechanical-keyboard-with-numpad"
     },
     {
-      "id": "https://www.techpowerup.com/346065/noctua-has-shipped-half-a-million-cpu-cooler-mounting-upgrade-kits",
-      "title": "Noctua enviou meio milhão de kits de atualização para montagem de cooler de CPU",
-      "original_title": "Noctua Has Shipped Half a Million CPU Cooler Mounting Upgrade Kits",
-      "image": "https://tpucdn.com/img/AoAxIOBf7V8ZotxY_thm.jpg",
+      "id": "https://www.techpowerup.com/346113/d-link-introduces-dgs-1250-series-gigabit-smart-managed-switches",
+      "title": "(PR) D-Link apresenta switches gerenciados inteligentes Gigabit série DGS-1250",
+      "original_title": "(PR) D-Link Introduces DGS-1250 Series Gigabit Smart Managed Switches",
+      "image": "https://tpucdn.com/img/uxocZR8EYiRyELtg_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-02-07",
-      "summary": "A Noctua ganhou reputação entre os entusiastas não apenas por seus coolers de ar altamente eficientes, mas também por sua política de kit de atualização de montagem gratuita, que permite aos compradores de coolers Noctua solicitar um novo kit de montagem quando uma nova placa-mãe...",
+      "date": "2026-02-09",
+      "summary": "A D-Link Corporation (TWSE: 2332), líder global em soluções de rede, anunciou o lançamento de seus switches gerenciados inteligentes Gigabit série DGS-1250. Desenvolvido para atender à crescente demanda por maior visibilidade e controle de rede sem o custo ...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/346065/noctua-has-shipped-half-a-million-cpu-cooler-mounting-upgrade-kits"
+      "url": "https://www.techpowerup.com/346113/d-link-introduces-dgs-1250-series-gigabit-smart-managed-switches"
     },
     {
-      "id": "https://www.techpowerup.com/346061/intel-arc-b390-panther-lake-igpu-impresses-in-linux-performance-tests",
-      "title": "Intel Arc B390 Panther Lake iGPU impressiona em testes de desempenho do Linux",
-      "original_title": "Intel Arc B390 Panther Lake iGPU Impresses in Linux Performance Tests",
-      "image": "https://tpucdn.com/img/5eGptzLPspc3Q8F6_thm.jpg",
+      "id": "https://www.techpowerup.com/346112/ayaneo-officially-launches-its-next-2-windows-gaming-handheld",
+      "title": "Ayaneo lança oficialmente seus próximos 2 dispositivos portáteis para jogos com Windows",
+      "original_title": "Ayaneo Officially Launches Its Next 2 Windows Gaming Handheld",
+      "image": "https://tpucdn.com/img/AbPtClbQDkxblFvA_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-02-07",
-      "summary": "As soluções gráficas Arc da Intel inicialmente tiveram um começo difícil no lado Linux, mas parece que a maré está mudando. A Phoronix testou recentemente o novo iGPU Panther Lake Intel Arc B390 no Intel Core Ultra X7 358H, comparando ...",
+      "date": "2026-02-09",
+      "summary": "Ayaneo lançou oficialmente o Next 2, seu mais novo portátil para jogos para Windows, após anúncios iniciais e teasers do ano passado. O dispositivo sucede ao Ayaneo Next original, lançado no início de 2022. Possui um chassi redesenhado ...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/346061/intel-arc-b390-panther-lake-igpu-impresses-in-linux-performance-tests"
+      "url": "https://www.techpowerup.com/346112/ayaneo-officially-launches-its-next-2-windows-gaming-handheld"
     },
     {
       "id": "https://www.techpowerup.com/345912/computers-running-windows-10-arent-safe-but-windows-11-pro-is-only-usd-13-right-now-reg-usd-199",
@@ -440,7 +425,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-02-07",
+      "date": "2026-02-09",
       "summary": "A Microsoft encerrou o suporte para Windows 10 no ano passado e, se o seu computador ainda o estiver executando, seus dados estarão em risco. Se você deseja uma maneira fácil de atualizar, agora mesmo, você pode obter o Windows 11 Pro à venda por apenas US$ 12,97 (normalmente US$ 199). O Windows 11 Pro adiciona ...",
       "sources": [
         "TechPowerUp"
@@ -448,109 +433,124 @@
       "url": "https://www.techpowerup.com/345912/computers-running-windows-10-arent-safe-but-windows-11-pro-is-only-usd-13-right-now-reg-usd-199"
     },
     {
-      "id": "https://www.eurogamer.net/nioh-3-wonderful-asynchronous-multiplayer-bloody-grave-benevolent-grave",
-      "title": "Não durma no maravilhoso multijogador assíncrono de Nioh 3, um salva-vidas e um portador de morte inesperado em igual medida",
-      "original_title": "Don't sleep on Nioh 3's wonderful asynchronous multiplayer, a life-saver and unexpected death bringer in equal measure",
-      "image": "https://assetsio.gnwcdn.com/nioh-mp.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.techpowerup.com/346111/intel-900-series-desktop-motherboard-chipset-specs-leak",
+      "title": "Vazamento de especificações do chipset da placa-mãe para desktop Intel série 900",
+      "original_title": "Intel 900-series Desktop Motherboard Chipset Specs Leak",
+      "image": "https://tpucdn.com/img/22pXAimmP0A1gSlV_thm.jpg",
       "source_count": 1,
       "reliability": "High",
-      "category": "News",
-      "date": "2026-02-06",
-      "summary": "O estranho multijogador de Nioh sempre foi uma das peculiaridades mais exclusivas da série Soulslike-cum-masocore. Não estou falando do conjunto desnecessariamente complicado de opções cooperativas que os amigos podem usar para jogar o jogo juntos, estou falando mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/nioh-3-wonderful-asynchronous-multiplayer-bloody-grave-benevolent-grave"
-    },
-    {
-      "id": "https://www.eurogamer.net/segas-the-house-of-the-dead-movie-lands-the-last-of-us-star-for-lead-role",
-      "title": "O filme The House Of The Dead da Sega traz a estrela de The Last of Us para o papel principal",
-      "original_title": "Sega's The House Of The Dead movie lands The Last of Us star for lead role",
-      "image": "https://assetsio.gnwcdn.com/The-House-of-the-Dead-screenshot-showing-a-man-in-a-suit-holding-a-gun-with-an-image-of-Isabela-Merced-in-The-Last-of-Us-season-two-overlaid-to-one-side.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-02-06",
-      "summary": "A Casa dos Mortos está sendo adaptada para filme e hoje temos algumas novidades sobre seu elenco. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/segas-the-house-of-the-dead-movie-lands-the-last-of-us-star-for-lead-role"
-    },
-    {
-      "id": "https://www.eurogamer.net/memory-price-rises-have-not-impacted-the-switch-2-yet-says-nintendo-president",
-      "title": "Aumentos no preço das memórias ainda não impactaram o Switch 2, diz presidente da Nintendo, mas alerta sobre pressão “durante o próximo ano fiscal”",
-      "original_title": "Memory price rises have not impacted the Switch 2 yet, says Nintendo president, but warns about pressure \"through the next fiscal year\"",
-      "image": "https://assetsio.gnwcdn.com/Nintendo-Switch-2-Amazon.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-02-06",
-      "summary": "Uma sessão de perguntas e respostas entre os acionistas e o presidente da Nintendo, Shuntaro Furukawa, foi divulgada juntamente com o relatório financeiro trimestral de fevereiro, no qual foi discutido o tema do aumento dos custos de memória. Embora os aumentos de preços ainda não tenham impactado o Switch 2...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/memory-price-rises-have-not-impacted-the-switch-2-yet-says-nintendo-president"
-    },
-    {
-      "id": "https://www.eurogamer.net/dragon-quest-7-reimagined-vs-original-remake",
-      "title": "Dragon Quest 7 Reimagined lixa cada ponta afiada de um clássico espinhoso – tornando-o deliciosamente acessível, mas não sem custo",
-      "original_title": "Dragon Quest 7 Reimagined sands down every sharp edge of a prickly classic - making it delightfully approachable, but not without cost",
-      "image": "https://assetsio.gnwcdn.com/Dragon-Quest-7-Reimagined-header.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-02-06",
-      "summary": "Refazer qualquer coisa amada é andar na corda bamba. Há sempre um equilíbrio delicado a ser alcançado entre manter intacto o que tornou o original excelente e cumprir a promessa do remake de modernizar, melhorar e fortalecer. É uma tarefa tão difícil...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/dragon-quest-7-reimagined-vs-original-remake"
-    },
-    {
-      "id": "https://www.techpowerup.com/346056/report-intel-cancels-flagship-core-ultra-9-290k-plus-arrow-lake-refresh-but-keeps-other-skus",
-      "title": "Relatório: Intel cancela Flagship Core Ultra 9 290K Plus “Arrow Lake Refresh”, mas mantém outros SKUs",
-      "original_title": "Report: Intel Cancels Flagship Core Ultra 9 290K Plus \"Arrow Lake Refresh,\" But Keeps Other SKUs",
-      "image": "https://tpucdn.com/img/Kg4A1PFNu6ZXPc7Q_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-02-06",
-      "summary": "O “Arrow Lake Refresh” da Intel nem foi lançado, mas a empresa já cancelou seu principal SKU planejado para este ciclo de atualização, de acordo com um relatório da VideoCardz. Duas fontes próximas à mídia observam que o carro-chefe da Intel, Core Ultra...",
+      "category": "Rumor",
+      "date": "2026-02-09",
+      "summary": "No final de 2026, a Intel lançará sua próxima geração de processadores para desktop Core Ultra Series 4 \"Nova Lake-S\", introduzindo um novo IP de núcleo de CPU e um aumento significativo na contagem de núcleos de CPU, além de SKUs especiais com grandes caches L3 para enfrentar a luta.",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/346056/report-intel-cancels-flagship-core-ultra-9-290k-plus-arrow-lake-refresh-but-keeps-other-skus"
+      "url": "https://www.techpowerup.com/346111/intel-900-series-desktop-motherboard-chipset-specs-leak"
     },
     {
-      "id": "https://www.techpowerup.com/346050/amd-ryzen-threadripper-pro-9995wx-oc-draws-1-300-w-under-direct-die-watercooling",
-      "title": "AMD Ryzen Threadripper Pro 9995WX OC consome 1.300 W sob refrigeração líquida direta",
-      "original_title": "AMD Ryzen Threadripper Pro 9995WX OC Draws 1,300 W Under Direct-Die Watercooling",
-      "image": "https://tpucdn.com/img/Mh8qMCBpGynwlODH_thm.jpg",
+      "id": "https://www.techpowerup.com/346109/next-generation-xbox-is-windows-11-pc-console-hybrid-for-gaming-and-productivity",
+      "title": "O Xbox de última geração é um PC/console híbrido com Windows 11 para jogos e produtividade",
+      "original_title": "Next-Generation Xbox is Windows 11 PC/Console Hybrid for Gaming and Productivity",
+      "image": "https://tpucdn.com/img/kuFtmrskzt7xEdj5_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-02-06",
-      "summary": "O processador AMD Ryzen Threadripper Pro 9995WX HEDT com 96 núcleos e 192 threads vem com um TDP padrão de 350 W. No entanto, overclock pesado pode levar a CPU para 1.300 W e requer um dissipador de calor integrado personalizado (IHS) que serve como di...",
+      "date": "2026-02-09",
+      "summary": "O console Xbox de próxima geração da Microsoft está supostamente seguindo um caminho não convencional ao rodar em uma versão personalizada do sistema operacional Windows 11, em vez do sistema operacional de console especializado que normalmente alimenta esses dispositivos. De acordo com o Windows Central, o sistema...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/346050/amd-ryzen-threadripper-pro-9995wx-oc-draws-1-300-w-under-direct-die-watercooling"
+      "url": "https://www.techpowerup.com/346109/next-generation-xbox-is-windows-11-pc-console-hybrid-for-gaming-and-productivity"
     },
     {
-      "id": "https://www.techpowerup.com/346047/msi-geforce-rtx-5090-lightning-z-gpu-listed-at-usd-5-200-in-taiwan",
-      "title": "GPU MSI GeForce RTX 5090 Lightning Z listada por US$ 5.200 em Taiwan",
-      "original_title": "MSI GeForce RTX 5090 Lightning Z GPU Listed at $5,200 in Taiwan",
-      "image": "https://tpucdn.com/img/vHjzPZ5eZMvafl54_thm.jpg",
+      "id": "https://www.techpowerup.com/346110/asrock-announces-bios-update-to-improve-stability-and-address-no-boot-scenarios-on-amd-am5-platforms",
+      "title": "(PR) ASRock Anuncia Atualização de BIOS para Melhorar a Estabilidade e Resolver Cenários Sem Inicialização em Plataformas AMD AM5",
+      "original_title": "(PR) ASRock Announces BIOS Update to Improve Stability and Address No-Boot Scenarios on AMD AM5 Platforms",
+      "image": "https://tpucdn.com/img/jHA8lrwfmVFyWqQA_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-02-06",
-      "summary": "A GPU mais poderosa da MSI – a GeForce RTX 5090 Lightning Z – virá com um preço extremo correspondente, já que a empresa listou sua GPU por NT$ 165.000, o que equivale a cerca de US$ 5.200. A empresa observou esse preço em um sorteio de 24 horas agendado para...",
+      "date": "2026-02-09",
+      "summary": "A ASRock manteve uma colaboração próxima e de longo prazo com a AMD e continua a analisar cuidadosamente os problemas recentemente discutidos relacionados à CPU nas comunidades online, ao mesmo tempo em que otimiza a funcionalidade do BIOS e melhora ainda mais a estabilidade geral do sistema. F...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/346047/msi-geforce-rtx-5090-lightning-z-gpu-listed-at-usd-5-200-in-taiwan"
+      "url": "https://www.techpowerup.com/346110/asrock-announces-bios-update-to-improve-stability-and-address-no-boot-scenarios-on-amd-am5-platforms"
+    },
+    {
+      "id": "https://www.techpowerup.com/346100/intel-kills-pay-to-use-software-defined-silicon-initiative",
+      "title": "Intel elimina iniciativa de \"silício definido por software\" pago para usar",
+      "original_title": "Intel Kills Pay-to-Use \"Software Defined Silicon\" Initiative",
+      "image": "https://tpucdn.com/img/5G0ObOv3q4ytrXFh_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-02-09",
+      "summary": "A Intel descontinua silenciosamente sua iniciativa Software Defined Silicon (SDSi), conhecida como “Intel On Demand”, de acordo com um relatório da Phoronix. A empresa arquivou o repositório oficial do GitHub para SDSi for Xeon, um esforço que visa permitir opções...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/346100/intel-kills-pay-to-use-software-defined-silicon-initiative"
+    },
+    {
+      "id": "https://www.eurogamer.net/horses-dev-disputes-epic-games-store-execs-claim-it-loves-their-studio-saying-they-have-effectively-ghosted-us",
+      "title": "O desenvolvedor da Horses contesta a afirmação do executivo da Epic Games Store de que “ama” seu estúdio, dizendo: “Eles efetivamente nos transformaram em fantasmas”",
+      "original_title": "Horses dev disputes Epic Games Store exec's claim it \"loves\" their studio, saying: \"They have effectively ghosted us\"",
+      "image": "https://assetsio.gnwcdn.com/horses-header-epic.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Epic News",
+      "date": "2026-02-08",
+      "summary": "ATUALIZAÇÃO 18h46: Em declaração à Eurogamer, o gerente sênior de comunicações da Epic Games, Brian Sharon, escreveu: Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/horses-dev-disputes-epic-games-store-execs-claim-it-loves-their-studio-saying-they-have-effectively-ghosted-us"
+    },
+    {
+      "id": "https://www.eurogamer.net/rayman-creator-reveals-more-details-on-what-to-expect-from-the-rayman-remake-that-ubisoft-still-wont-admit-is-real",
+      "title": "O criador de Rayman revela mais detalhes sobre o que esperar do remake de Rayman que a Ubisoft ainda não admite ser real",
+      "original_title": "Rayman creator reveals more details on what to expect from the Rayman remake that Ubisoft still won't admit is real",
+      "image": "https://assetsio.gnwcdn.com/Nintendo-64-%E2%80%93-Nintendo-Classics-%E2%80%93-December-2025-Game-Updates-0-16-screenshot-(1).png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-02-08",
+      "summary": "O criador da série Rayman mais uma vez provocou que um remake do jogo Rayman original está a caminho. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/rayman-creator-reveals-more-details-on-what-to-expect-from-the-rayman-remake-that-ubisoft-still-wont-admit-is-real"
+    },
+    {
+      "id": "https://www.eurogamer.net/arc-raiders-aggressive-approach-to-cheats-sees-tens-of-thousands-of-players-banned-so-far",
+      "title": "A abordagem “agressiva” do Arc Raiders em relação aos cheats faz com que “dezenas de milhares de jogadores sejam banidos até agora”",
+      "original_title": "Arc Raiders' \"aggressive\" approach to cheats sees \"tens of thousands of players banned so far\"",
+      "image": "https://assetsio.gnwcdn.com/ARC-Raiders-_-Release-Date-Reveal-Trailer-1-25-screenshot-(1).png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-02-08",
+      "summary": "Arc Raiders tem reprimido “agressivamente” os trapaceiros e já baniu “dezenas de milhares de jogadores até agora”. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/arc-raiders-aggressive-approach-to-cheats-sees-tens-of-thousands-of-players-banned-so-far"
+    },
+    {
+      "id": "https://www.eurogamer.net/epic-games-store-plans-to-launch-on-the-next-xbox-console-on-day-one",
+      "title": "A Epic Games Store planeja lançar o próximo console Xbox “no primeiro dia”",
+      "original_title": "Epic Games Store plans to launch on the next Xbox console \"on day one\"",
+      "image": "https://assetsio.gnwcdn.com/Screenshot-2026-02-08-at-16.39.18.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Epic News",
+      "date": "2026-02-08",
+      "summary": "A Epic Games Store planeja estar disponível no próximo console Xbox no lançamento. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/epic-games-store-plans-to-launch-on-the-next-xbox-console-on-day-one"
     }
   ]
 }
