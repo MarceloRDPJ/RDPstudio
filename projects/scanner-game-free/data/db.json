@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-02-10T13:14:18",
-  "display_date": "10/02/2026 13:14",
+  "last_updated": "2026-02-11T13:11:20",
+  "display_date": "11/02/2026 13:11",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "411ms",
+    "latency": "537ms",
     "current_games": [
       {
         "title": "Botany Manor",
@@ -12,8 +12,8 @@
         "image": "https://cdn1.epicgames.com/spt-assets/42d56a88c22d4eaa8977bf5528a2396b/botany-manor-1f7uq.jpg",
         "url": "https://store.epicgames.com/p/61eca1a9e42243d29e93b02510d88d83",
         "price": "$24.99",
-        "start_date": "2026-02-05T16:00:00.000Z",
-        "end_date": "2026-02-12T16:00:00.000Z"
+        "start_date": "2026-02-08T21:00:00.000Z",
+        "end_date": "2026-02-22T21:00:00.000Z"
       },
       {
         "title": "Botany Manor",
@@ -21,8 +21,8 @@
         "image": "https://cdn1.epicgames.com/spt-assets/42d56a88c22d4eaa8977bf5528a2396b/botany-manor-1f7uq.jpg",
         "url": "https://store.epicgames.com/p/61eca1a9e42243d29e93b02510d88d83",
         "price": "$24.99",
-        "start_date": "2026-02-05T16:00:00.000Z",
-        "end_date": "2026-02-12T16:00:00.000Z"
+        "start_date": "2026-02-08T21:00:00.000Z",
+        "end_date": "2026-02-22T21:00:00.000Z"
       },
       {
         "title": "Poison Retro Set",
@@ -37,7 +37,7 @@
     "upcoming_games": [
       {
         "title": "The Darkside Detective A Fumble in the Dark",
-        "description": "Junte-se ao Detetive McQueen enquanto ele resolve 6 casos, arriscando a vida e o membro pixelizado para resolver os mistérios macabros que assolam a pobre cidade.",
+        "description": "Junte-se ao detetive McQueen enquanto ele resolve 6 casos, arriscando a vida e o membro pixelizado para resolver os mistérios macabros que assolam a pobre cidade.",
         "image": "https://cdn1.epicgames.com/spt-assets/0638bcc62d9f4ba2a53eb9093c54be31/the-darkside-detective-a-fumble-in-the-dark-offer-501mw.jpg",
         "url": "https://store.epicgames.com/p/b87bb60e2398412e82ba540e50ac6222",
         "price": "$14.99",
@@ -74,7 +74,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-02-10",
+      "date": "2026-02-11",
       "summary": "Bem-vindo ao Botany Manor, uma casa senhorial na Inglaterra do século XIX. Você joga como a habitante Arabella Greene, uma botânica aposentada. Explore sua casa e seus jardins, repletos de pesquisas, para descobrir o habitat ideal da flora esquecida.",
       "sources": [
         "Epic Games Store"
@@ -89,7 +89,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-02-10",
+      "date": "2026-02-11",
       "summary": "Bem-vindo ao Botany Manor, uma casa senhorial na Inglaterra do século XIX. Você joga como a habitante Arabella Greene, uma botânica aposentada. Explore sua casa e seus jardins, repletos de pesquisas, para descobrir o habitat ideal da flora esquecida.",
       "sources": [
         "Epic Games Store"
@@ -104,7 +104,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-02-10",
+      "date": "2026-02-11",
       "summary": "Volte no tempo e avance na batalha com o Poison Retro Set, inspirado na eletrizante Temporada Arcade.",
       "sources": [
         "Epic Games Store"
@@ -119,8 +119,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-02-10",
-      "summary": "Disponível gratuitamente a partir de 12/02. Junte-se ao Detetive McQueen enquanto ele resolve 6 casos, arriscando a vida e o membro pixelizado para resolver os mistérios macabros que assolam a pobre cidade.",
+      "date": "2026-02-11",
+      "summary": "Disponível gratuitamente a partir de 12/02. Junte-se ao detetive McQueen enquanto ele resolve 6 casos, arriscando a vida e o membro pixelizado para resolver os mistérios macabros que assolam a pobre cidade.",
       "sources": [
         "Epic Games Store"
       ],
@@ -134,7 +134,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-02-10",
+      "date": "2026-02-11",
       "summary": "Disponível gratuitamente a partir de 30/03. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
       "sources": [
         "Epic Games Store"
@@ -149,7 +149,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-02-10",
+      "date": "2026-02-11",
       "summary": "Disponível gratuitamente a partir de 12/02. Perca-se no mundo distópico de Nova York, 2329. Nesta história noir interativa, lidere a investigação usando tecnologia avançada como o detetive James Karra, que arrisca tudo na perseguição de um serial killer que tem como alvo a elite da cidade.",
       "sources": [
         "Epic Games Store"
@@ -157,94 +157,184 @@
       "url": "https://store.epicgames.com/p/eea910991d674322b3832f9b7bbefb7b"
     },
     {
-      "id": "https://www.eurogamer.net/black-myth-zhong-kui-gets-chinese-new-year-special-in-engine-video",
-      "title": "Black Myth: Zhong Kui recebe um novo vídeo do motor … mas realmente não tem nada a ver com o jogo real",
-      "original_title": "Black Myth: Zhong Kui gets a new in-engine video... but it doesn't really have anything to do with the actual game",
-      "image": "https://assetsio.gnwcdn.com/bm-zk.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/i-love-the-last-of-us-in-every-form-ashley-johnson-who-played-ellie-in-the-games-weighs-in-on-tlous-divisive-second-season",
+      "title": "“Eu amo The Last of Us em todas as formas” – Ashley Johnson, que interpretou Ellie nos jogos, comenta a divisiva segunda temporada de TLOU",
+      "original_title": "\"I love The Last of Us in every form\" - Ashley Johnson, who played Ellie in the games, weighs in on TLOU's divisive second season",
+      "image": "https://assetsio.gnwcdn.com/ashley-johnson-in-The-Last-of-Us-season-one-with-Bella-Ramsey-as-Ellie-in-The-Last-of-Us-season-two.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-02-10",
-      "summary": "A comida hiper-realista foi um dos pontos fortes de Final Fantasy XV, e muitos RPGs desde então realmente se comprometeram em aperfeiçoar a arte de cozinhar e pratos lindamente renderizados. A seguir, parece que o estúdio Game Science de Black Myth: Wukong está aumentando...",
+      "date": "2026-02-11",
+      "summary": "Ashley Johnson, que interpretou Ellie em The Last of Us da Naughty Dog e sua sequência The Last of Us Part 2, compartilhou seus pensamentos sobre a divisiva segunda temporada da adaptação para TV da HBO. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/black-myth-zhong-kui-gets-chinese-new-year-special-in-engine-video"
+      "url": "https://www.eurogamer.net/i-love-the-last-of-us-in-every-form-ashley-johnson-who-played-ellie-in-the-games-weighs-in-on-tlous-divisive-second-season"
     },
     {
-      "id": "https://www.eurogamer.net/remedy-entertainment-ceo-ea-exec-sports-betting",
-      "title": "A querida artística Remedy Entertainment tem um novo CEO – um ex-executivo da EA e presidente da plataforma de apostas esportivas – que está lá para “acelerar o crescimento”",
-      "original_title": "Artsy darling Remedy Entertainment has a new CEO - a former EA exec and sports betting platform president - who is there to \"accelerate growth\"",
-      "image": "https://assetsio.gnwcdn.com/control-2-main-character-face.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/fallout-showrunner-teases-ron-perlman-role-in-future-seasons",
+      "title": "Você pode esperar ver mais de Ron Perlman na 3ª temporada de Fallout, à medida que os produtores provocam mais conflitos e facções",
+      "original_title": "You can expect to see more of Ron Perlman in Fallout Season 3, as showrunners tease more conflicts and factions",
+      "image": "https://assetsio.gnwcdn.com/Fallout-show-Ron-Perlman-custom-image.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-02-10",
-      "summary": "A Remedy Entertainment, mais conhecida por jogos para um jogador ricos em narrativas, como Control e Alan Wake 2, conseguiu um novo CEO. Seu nome é Jean-Charles Gaudechon, ex-executivo da EA e vice-presidente sênior da plataforma de apostas esportivas de fantasia Sl...",
+      "date": "2026-02-11",
+      "summary": "Um dos maiores choques da 2ª temporada de Fallout foi ter o veterano de Wasteland Ron Perlman (que fez dublagem em toda a série de jogos) aparecendo em uma rápida participação especial como um misterioso super mutante em CGI. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/remedy-entertainment-ceo-ea-exec-sports-betting"
+      "url": "https://www.eurogamer.net/fallout-showrunner-teases-ron-perlman-role-in-future-seasons"
     },
     {
-      "id": "https://www.eurogamer.net/marvel-tokon-fighting-souls-launch-details-leak",
-      "title": "Marvel Tokon: Fighting Souls finalmente descreve seu conteúdo de lançamento: 20 personagens, grandes lobbies online e um modo de história (de certa forma)",
-      "original_title": "Marvel Tokon: Fighting Souls finally outlines its launch content: 20 characters, big online lobbies, and a story mode (of sorts)",
-      "image": "https://assetsio.gnwcdn.com/Marvel-Tokon_teamup.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/crow-country-studio-mermaid-mask-release-window",
+      "title": "\"Nunca antes colocamos tanto amor e carinho em um único projeto\" - a equipe Crow Country prepara o jogo de detetive The Mermaid Mask para o verão",
+      "original_title": "\"Never before have we poured so much love and care into a single project\" - Crow Country team readies detective game The Mermaid Mask for summer",
+      "image": "https://assetsio.gnwcdn.com/mermaid-mask_13gQcdt.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-02-10",
-      "summary": "O próximo lutador 2D da Arc System Works é Marvel Tokon: Fighting Souls. Publicado pela Sony, também está previsto para ser lançado no PC via Steam, por isso não o consideramos um verdadeiro exclusivo do PS5. Dito isto, sem dúvida poderá tornar-se numa das surpresas da PlayStation...",
+      "date": "2026-02-11",
+      "summary": "SFB Games, criadora do aclamado terror retro estilo PS1 Crow Country, tem um novo jogo chegando este ano: The Mermaid Mask. É uma continuação do igualmente aclamado jogo de detetive Tangle Tower e, segundo o SFB, chegará para PC e consoles...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/marvel-tokon-fighting-souls-launch-details-leak"
+      "url": "https://www.eurogamer.net/crow-country-studio-mermaid-mask-release-window"
     },
     {
-      "id": "https://www.eurogamer.net/monster-hunter-wilds-expansion-sets-summer-2026-reveal",
-      "title": "Aquela expansão inevitável de Monster Hunter Wilds? Estamos vendo isso pela primeira vez neste verão",
-      "original_title": "That inevitable Monster Hunter Wilds expansion? We're getting our first look at it this summer",
-      "image": "https://assetsio.gnwcdn.com/MH-Wilds-TU4---Arkveld.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/mewgenics-is-a-breakout-hit-on-steam-it-sold-150000-copies-in-six-hours-and-its-already-made-its-development-costs",
+      "title": "Mewgenics é um grande sucesso no Steam: vendeu 150.000 cópias em seis horas e já pagou seus custos de desenvolvimento",
+      "original_title": "Mewgenics is a breakout hit on Steam: it sold 150,000 copies in six hours, and it's already made its development costs",
+      "image": "https://assetsio.gnwcdn.com/mewgenics_ylkdpyz.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-02-10",
-      "summary": "Apesar de alguns erros ao longo do caminho e problemas de desempenho, mantemos Monster Hunter Wilds é um jogo muito bom. Reclamações sobre dificuldade e conteúdo do jogo final foram abordadas pela Capcom no devido tempo, mas para quem ainda está um pouco desapontado com o...",
+      "date": "2026-02-11",
+      "summary": "Mewgenics, o último lançamento de Edmund McMillen e Tyler Glaiel, lançado ontem. Em seis horas, o jogo vendeu mais de 150 mil cópias, recuperou os custos de desenvolvimento e saltou para o topo da lista dos mais vendidos do Steam. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/monster-hunter-wilds-expansion-sets-summer-2026-reveal"
+      "url": "https://www.eurogamer.net/mewgenics-is-a-breakout-hit-on-steam-it-sold-150000-copies-in-six-hours-and-its-already-made-its-development-costs"
     },
     {
-      "id": "https://www.techpowerup.com/346166/ai-fueled-supercycle-propels-memory-market-revenue-to-more-than-twice-that-of-foundry-industry",
-      "title": "(PR) Superciclo alimentado por IA impulsiona receita do mercado de memória para mais que o dobro da indústria de fundição",
-      "original_title": "(PR) AI-Fueled Supercycle Propels Memory Market Revenue to More Than Twice That of Foundry Industry",
-      "image": "https://tpucdn.com/img/6q5Ps4b8r3qluH66_thm.jpg",
+      "id": "https://www.eurogamer.net/despite-less-than-stellar-reviews-there-is-a-code-violet-sequel-in-the-works",
+      "title": "Apesar das críticas menos que estelares, há uma sequência de Code Violet em andamento",
+      "original_title": "Despite less than stellar reviews, there is a Code Violet sequel in the works",
+      "image": "https://assetsio.gnwcdn.com/screenshot-from-code-violet-showing-the-back-of-a-female-character-looking-over-a-rocky-landscape.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-02-11",
+      "summary": "O mal recebido Code Violet, do tipo Dino Crisis, tem uma sequência em andamento. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/despite-less-than-stellar-reviews-there-is-a-code-violet-sequel-in-the-works"
+    },
+    {
+      "id": "https://www.eurogamer.net/overwatch-expansion-brings-players-surging-back",
+      "title": "Os jogadores voltam para Overwatch com a nova expansão, que ultrapassa Marvel Rivals no Steam e domina Twitch",
+      "original_title": "Players surge back to Overwatch with the new expansion, as it leapfrogs Marvel Rivals on Steam and dominates Twitch",
+      "image": "https://assetsio.gnwcdn.com/overwatch-comeback-venedetta.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-02-11",
+      "summary": "Um Overwatch revitalizado (anteriormente Overwatch 2) está trazendo os jogadores de volta, levando o jogo ao status de mais assistido no serviço de streaming Twitch e a ser um dos jogos mais jogados no Steam - confortavelmente acima do imitador de tiro de heróis Marvel Rival...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/overwatch-expansion-brings-players-surging-back"
+    },
+    {
+      "id": "https://www.eurogamer.net/after-the-runaway-success-of-silent-hill-f-konami-is-finally-ready-to-tell-us-more-about-an-upcoming-game-in-the-series-silent-hill-townfall",
+      "title": "Após o grande sucesso de Silent Hill f, a Konami está finalmente pronta para nos contar mais sobre um próximo jogo da série, Silent Hill: Townfall",
+      "original_title": "After the runaway success of Silent Hill f, Konami is finally ready to tell us more about an upcoming game in the series, Silent Hill: Townfall",
+      "image": "https://assetsio.gnwcdn.com/Konami-image-showing-Silent-Hill-Transmission-in-white-writing.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-02-11",
+      "summary": "A Konami anunciou sua próxima transmissão de Silent Hill Transmission. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/after-the-runaway-success-of-silent-hill-f-konami-is-finally-ready-to-tell-us-more-about-an-upcoming-game-in-the-series-silent-hill-townfall"
+    },
+    {
+      "id": "https://www.eurogamer.net/eidos-montreal-cancelled-lord-of-the-rings-game-images-surface",
+      "title": "As primeiras imagens da superfície do jogo Senhor dos Anéis \"semelhante a Telltale\" cancelada da Eidos-Montréal",
+      "original_title": "Early images of Eidos-Montréal's cancelled \"Telltale-like\" Lord of the Rings game surface",
+      "image": "https://assetsio.gnwcdn.com/shadow-of-mordor-review-141278990517.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-02-11",
+      "summary": "A Eidos-Montréal é um daqueles estúdios de jogos veteranos que aparecem constantemente no ciclo de notícias, mas sempre parecem estar ligados a alguma forma de drama, apesar de seu pedigree. Felizmente, o Embracer Group o manteve funcionando e trabalhando em um punhado de mistérios...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/eidos-montreal-cancelled-lord-of-the-rings-game-images-surface"
+    },
+    {
+      "id": "https://www.eurogamer.net/sorry-but-dont-expect-to-see-wolverine-at-tomorrows-playstation-state-of-play",
+      "title": "Desculpe, mas não espere ver Wolverine no PlayStation State of Play de amanhã",
+      "original_title": "Sorry, but don't expect to see Wolverine at tomorrow's PlayStation State of Play",
+      "image": "https://assetsio.gnwcdn.com/Logan-with-his-claws-out-in-Marvel's-Wolverine.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-02-11",
+      "summary": "Desculpe, fãs da Marvel, vocês podem precisar retrair essas garras, pois parece que o Wolverine da Insomniac não aparecerá durante o PlayStation State of Play desta semana. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/sorry-but-dont-expect-to-see-wolverine-at-tomorrows-playstation-state-of-play"
+    },
+    {
+      "id": "https://www.eurogamer.net/playstation-plus-extra-february-games-leak-ahead-of-tomorrows-state-of-play",
+      "title": "Os jogos extras de fevereiro do PlayStation Plus vazam antes do State of Play de amanhã",
+      "original_title": "PlayStation Plus Extra February games leak ahead of tomorrow's State of Play",
+      "image": "https://assetsio.gnwcdn.com/A-fight-against-Venom-in-Marvel's-Spider-Man-2-with-a-PS-Plus-logo-in-the-lower-left-corner.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Rumor",
+      "date": "2026-02-11",
+      "summary": "Parece que os próximos jogos PS Plus Extra do PlayStation para fevereiro vazaram. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/playstation-plus-extra-february-games-leak-ahead-of-tomorrows-state-of-play"
+    },
+    {
+      "id": "https://www.techpowerup.com/346236/intel-nova-lake-compute-tile-die-sizes-surface",
+      "title": "Superfície de tamanho de matriz de bloco de computação Intel \"Nova Lake\"",
+      "original_title": "Intel \"Nova Lake\" Compute Tile Die-sizes Surface",
+      "image": "https://tpucdn.com/img/1GYULemXXyoafRBk_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-02-10",
-      "summary": "Prevê-se que o atual aumento da IA ​​impulsione os setores de memória e de fundição de wafer para receitas recordes até 2026, com base nos dados recentes da TrendForce. A oferta limitada e o rápido aumento dos preços provavelmente aumentarão o valor total do mercado de memória...",
+      "date": "2026-02-11",
+      "summary": "A Intel está se preparando para lançar sua próxima geração de processadores Core Ultra Series 4 “Nova Lake” no segundo semestre de 2026. Temos algumas dicas sobre o que os tamanhos dos blocos de computação desses chips podem medir. \"Nova Lake\" continua sendo uma desagregação baseada em blocos...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/346166/ai-fueled-supercycle-propels-memory-market-revenue-to-more-than-twice-that-of-foundry-industry"
+      "url": "https://www.techpowerup.com/346236/intel-nova-lake-compute-tile-die-sizes-surface"
     },
     {
-      "id": "https://www.techpowerup.com/346165/top-intel-nova-lake-chip-can-pull-up-to-700-w-at-max-load-with-power-limits-disabled",
-      "title": "O principal chip Intel “Nova Lake” pode extrair até 700 W com carga máxima com limites de energia desativados",
-      "original_title": "Top Intel \"Nova Lake\" Chip Can Pull up to 700 W at Max Load with Power Limits Disabled",
-      "image": "https://tpucdn.com/img/ZMXrUDodXwPKynjx_thm.jpg",
+      "id": "https://www.techpowerup.com/346234/benq-announces-new-ma-series-flagship-monitors-with-glossy-panels",
+      "title": "(PR) BenQ Anuncia Novos Monitores Flagship da Série MA com Painéis Brilhantes",
+      "original_title": "(PR) BenQ Announces New MA Series Flagship Monitors with Glossy Panels",
+      "image": "https://tpucdn.com/img/tGJ2OohdKQqB14r5_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-02-10",
-      "summary": "O modelo de processador de desktop Intel Core Ultra Series 4 \"Nova Lake-S\", que vem com uma contagem total de 52 núcleos e implementa um grande cache de último nível (bLLC), pode extrair surpreendentes 700 W em cargas máximas com limites de energia removidos, kopite7kimi...",
+      "date": "2026-02-11",
+      "summary": "A BenQ, inovadora global em tecnologia de exibição visual e dispositivos de estilo de vida digital, estreou hoje o MA270S e o MA320UG, novos carros-chefe da série MA que redefinem o que um monitor Mac pode ser, trazendo uma sensação de facilidade, clareza e design inteligente ao moderno...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/346165/top-intel-nova-lake-chip-can-pull-up-to-700-w-at-max-load-with-power-limits-disabled"
+      "url": "https://www.techpowerup.com/346234/benq-announces-new-ma-series-flagship-monitors-with-glossy-panels"
     },
     {
       "id": "https://www.techpowerup.com/345995/melgeek-debuts-horus-with-paw3950-sensor-and-true-8000hz-wireless-polling",
@@ -254,7 +344,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-02-10",
+      "date": "2026-02-11",
       "summary": "A MelGeek entrou oficialmente no mercado de mouse para jogos com o Horus Lightweight Esports Gaming Mouse, sinalizando uma expansão tecnicamente focada após as recentes inovações da marca no design de teclado mecânico. \n\nPesando aproximadamente 49 gramas...",
       "sources": [
         "TechPowerUp"
@@ -262,199 +352,109 @@
       "url": "https://www.techpowerup.com/345995/melgeek-debuts-horus-with-paw3950-sensor-and-true-8000hz-wireless-polling"
     },
     {
-      "id": "https://www.techpowerup.com/346164/amd-medusa-halo-apu-to-use-lpddr6-memory",
-      "title": "APU AMD “Medusa Halo” usará memória LPDDR6",
-      "original_title": "AMD \"Medusa Halo\" APU to Use LPDDR6 Memory",
-      "image": "https://tpucdn.com/img/DPvgetbsjWhYalkN_thm.jpg",
+      "id": "https://www.techpowerup.com/346233/memory-price-surge-intensifies-retail-pricing-pressure-putting-global-smartphone-production-at-risk-of-a-sharp-decline-in-2026",
+      "title": "(PR) Aumento dos preços das memórias intensifica a pressão sobre os preços no varejo, colocando a produção global de smartphones em risco de um declínio acentuado em 2026",
+      "original_title": "(PR) Memory Price Surge Intensifies Retail Pricing Pressure, Putting Global Smartphone Production at Risk of a Sharp Decline in 2026",
+      "image": "https://tpucdn.com/img/bv8PV2KIeVxOpU3j_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-02-11",
+      "summary": "A mais recente pesquisa da indústria de smartphones da TrendForce prevê que o aumento dos preços da memória deverá pesar fortemente na produção global de smartphones em 2026. A produção total deverá diminuir 10% em relação ao ano anterior, para aproximadamente 1,135 bilhão de unidades. Com preço de memória...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/346233/memory-price-surge-intensifies-retail-pricing-pressure-putting-global-smartphone-production-at-risk-of-a-sharp-decline-in-2026"
+    },
+    {
+      "id": "https://www.techpowerup.com/346229/gamemax-launches-nex-c51-and-nex-c31-panoramic-pc-cases",
+      "title": "(PR) GAMEMAX lança gabinetes panorâmicos para PC NEX C51 e NEX C31",
+      "original_title": "(PR) GAMEMAX Launches NEX C51 and NEX C31 Panoramic PC Cases",
+      "image": "https://tpucdn.com/img/V8bGqttF1b9GxPlD_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-02-11",
+      "summary": "GAMEMAX, uma inovadora em ascensão em hardware de jogos para PC, anunciou hoje o lançamento do NEX C51 e NEX C31, dois novos gabinetes panorâmicos para PC projetados para combinar estética premium, suporte de resfriamento avançado e conectividade moderna em um preço acessível...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/346229/gamemax-launches-nex-c51-and-nex-c31-panoramic-pc-cases"
+    },
+    {
+      "id": "https://www.techpowerup.com/346227/tsmc-greenlights-record-usd-45-billion-capex-to-boost-semiconductor-capacity",
+      "title": "TSMC Greenlights registra investimento de US$ 45 bilhões para aumentar a capacidade de semicondutores",
+      "original_title": "TSMC Greenlights Record $45 Billion CapEx to Boost Semiconductor Capacity",
+      "image": "https://tpucdn.com/img/UjWHpghamnwUD5ln_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-02-11",
+      "summary": "A TSMC acaba de divulgar seus resultados de receita de janeiro de 2026, com uma receita líquida de NT$ 401,26 bilhões (cerca de US$ 12,763 bilhões), um aumento de 19,8% em relação a dezembro de 2025 e um aumento de 36,8% em relação a janeiro de 2025. Embora esses resultados sejam impressionantes, a TSMC terá...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/346227/tsmc-greenlights-record-usd-45-billion-capex-to-boost-semiconductor-capacity"
+    },
+    {
+      "id": "https://www.techpowerup.com/346222/blizzard-set-to-redesign-newly-announced-overwatch-hero-after-community-backlash",
+      "title": "Blizzard se prepara para redesenhar o recém-anunciado herói de Overwatch após reação da comunidade",
+      "original_title": "Blizzard Set To Redesign Newly Announced Overwatch Hero After Community Backlash",
+      "image": "https://tpucdn.com/img/wyI9R1jWp09bQQND_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-02-11",
+      "summary": "A Blizzard anunciou recentemente um monte de novos heróis junto com uma série de mudanças estruturais e de jogabilidade chegando em uma nova atualização no início da 1ª temporada de 2026. Um dos personagens anunciados para chegar na atualização da 1ª temporada, Anran, recebeu alguns b...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/346222/blizzard-set-to-redesign-newly-announced-overwatch-hero-after-community-backlash"
+    },
+    {
+      "id": "https://www.techpowerup.com/346216/applied-materials-unveils-transistor-and-wiring-innovations-for-faster-chips",
+      "title": "(PR) Applied Materials revela inovações em transistores e fiação para chips mais rápidos",
+      "original_title": "(PR) Applied Materials Unveils Transistor and Wiring Innovations for Faster Chips",
+      "image": "https://tpucdn.com/img/DJhR626uzGBPZIno_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-02-10",
-      "summary": "A próxima grande atualização das APUs Ryzen AI MAX da AMD ainda está longe, mas agora estamos juntando as peças do quebra-cabeça da APU “Medusa Halo”. De acordo com um famoso vazador, @ Olrak29_ no X, a APU \"Medusa Halo\" de próxima geração da AMD será complementada...",
+      "summary": "A Applied Materials, Inc., líder em engenharia de materiais para a indústria de semicondutores, apresentou hoje novos sistemas de deposição, gravação e modificação de materiais que aumentam o desempenho de chips lógicos de ponta em 2 nm e além. A tecnologia...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/346164/amd-medusa-halo-apu-to-use-lpddr6-memory"
+      "url": "https://www.techpowerup.com/346216/applied-materials-unveils-transistor-and-wiring-innovations-for-faster-chips"
     },
     {
-      "id": "https://www.techpowerup.com/346140/antec-unveils-the-vortex-view-360-aio-liquid-cpu-cooler",
-      "title": "(PR) Antec lança cooler líquido para CPU Vortex View 360 AIO",
-      "original_title": "(PR) Antec Unveils the Vortex View 360 AIO Liquid CPU Cooler",
-      "image": "https://tpucdn.com/img/DalYMfHV1sBZzg7H_thm.jpg",
+      "id": "https://www.techpowerup.com/346210/marathon-gameplay-details-emerge-at-early-influencer-event-in-china",
+      "title": "Detalhes da jogabilidade da maratona surgem no primeiro evento de influenciadores na China",
+      "original_title": "Marathon Gameplay Details Emerge at Early Influencer Event in China",
+      "image": "https://tpucdn.com/img/s8KRS6FR8FvQYUdg_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-02-10",
-      "summary": "A Antec Inc., líder global em componentes e acessórios para computadores de alto desempenho, anuncia com orgulho o lançamento do Antec VORTEX VIEW 360, um avançado cooler líquido All-in-One (AIO) projetado para entusiastas de PC que exigem desempenho e p...",
+      "summary": "Marathon está programado para ser lançado em 6 de março de 2026, mas aparentemente alguns influenciadores na China já estão testando o jogo antes do lançamento oficial, de acordo com uma postagem no Reddit e UCG no YouTube. A postagem e os detalhes da revisão do YouTube ...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/346140/antec-unveils-the-vortex-view-360-aio-liquid-cpu-cooler"
+      "url": "https://www.techpowerup.com/346210/marathon-gameplay-details-emerge-at-early-influencer-event-in-china"
     },
     {
-      "id": "https://www.techpowerup.com/346163/amd-hires-ariel-kelman-as-chief-marketing-officer",
-      "title": "(PR) AMD contrata Ariel Kelman como diretor de marketing",
-      "original_title": "(PR) AMD Hires Ariel Kelman as Chief Marketing Officer",
-      "image": "https://tpucdn.com/img/lFhcAJ0213R6ujzb_thm.jpg",
+      "id": "https://www.techpowerup.com/346211/trust-launches-seron-slim-multi-wireless-hyperscroll-mouse",
+      "title": "(PR) Trust lança mouse Hyperscroll Seron Slim Multi-Wireless",
+      "original_title": "(PR) Trust Launches Seron Slim Multi-Wireless Hyperscroll Mouse",
+      "image": "https://tpucdn.com/img/dFx92X1cVSvQMcMO_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-02-10",
-      "summary": "A AMD anunciou que Ariel Kelman foi nomeado vice-presidente sênior e diretor de marketing, com efeito imediato. Kelman liderará a organização de marketing global da AMD, supervisionando marca, comunicações, eventos, relações com desenvolvedores e go-...",
+      "summary": "A Trust anuncia o lançamento do novo mouse Seron Slim Multi-Wireless Hyperscroll - combinando um design portátil com produtividade máxima, este mouse sem fio é o companheiro ideal para profissionais que trabalham em vários dispositivos e locais. \n...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/346163/amd-hires-ariel-kelman-as-chief-marketing-officer"
-    },
-    {
-      "id": "https://www.techpowerup.com/346155/marvel-t-kon-fighting-souls-gameplay-details-leak-ahead-of-launch",
-      "title": "Detalhes da jogabilidade de Marvel Tōkon: Fighting Souls vazam antes do lançamento",
-      "original_title": "Marvel Tōkon: Fighting Souls Gameplay Details Leak Ahead of Launch",
-      "image": "https://tpucdn.com/img/12wREId3AoylFU7p_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Rumor",
-      "date": "2026-02-10",
-      "summary": "Detalhes de jogabilidade de Marvel Tōkon: Fighting Souls é um próximo jogo de luta em equipe 4v4 em desenvolvimento na Arc System Works - um estúdio de jogos conhecido por grandes franquias de jogos de luta como BlazBlue e Guilty Gear - vazaram oficialmente através do jogo...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/346155/marvel-t-kon-fighting-souls-gameplay-details-leak-ahead-of-launch"
-    },
-    {
-      "id": "https://www.techpowerup.com/346149/super-people-shuts-down-after-player-counts-dwindle-again",
-      "title": "Super People desliga depois que a contagem de jogadores diminui - de novo",
-      "original_title": "Super People Shuts Down After Player Counts Dwindle—Again",
-      "image": "https://tpucdn.com/img/lE1aPHJ6TBIkiPnd_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-02-10",
-      "summary": "Super People, um jogo Battle Royale outrora popular que pega a típica jogabilidade de tiro em primeira e terceira pessoa e adiciona superpoderes à mistura, não é estranho a tempos difíceis, com o Battle Royale já tendo sofrido um desligamento uma vez antes.",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/346149/super-people-shuts-down-after-player-counts-dwindle-again"
-    },
-    {
-      "id": "https://www.techpowerup.com/346146/steam-adds-new-ui-to-inform-players-when-early-access-games-will-launch",
-      "title": "Steam adiciona nova interface para informar aos jogadores quando os jogos de acesso antecipado serão lançados",
-      "original_title": "Steam Adds New UI To Inform Players When Early Access Games Will Launch",
-      "image": "https://tpucdn.com/img/AtW2YQzjMLmjV83P_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-02-10",
-      "summary": "O sistema de acesso antecipado do Steam começou como uma forma de os desenvolvedores apresentarem seus jogos à comunidade e ajudarem a financiar o desenvolvimento, ao mesmo tempo em que coletavam feedback da comunidade, mas se tornou uma espécie de piada, dado o tempo que alguns jogos permanecem...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/346146/steam-adds-new-ui-to-inform-players-when-early-access-games-will-launch"
-    },
-    {
-      "id": "https://www.eurogamer.net/why-hearthstone-isnt-on-console-switch-or-steam-deck-but-increasingly-likely-to-happen",
-      "title": "Hearthstone ainda não chegará ao console, Switch ou Steam Deck, mas a Blizzard definitivamente está pensando nisso",
-      "original_title": "Hearthstone isn't coming to console, Switch or Steam Deck just yet, but Blizzard is definitely thinking about it",
-      "image": "https://assetsio.gnwcdn.com/hearthstone-switch-2.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-02-09",
-      "summary": "A Blizzard explicou por que o jogo de cartas colecionáveis ​​baseado em Warcraft, Hearthstone, ainda não está disponível no console, 12 anos após o lançamento. O jogo está disponível em dispositivos portáteis como tablets e celulares, mas nunca chegou a dispositivos como SW...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/why-hearthstone-isnt-on-console-switch-or-steam-deck-but-increasingly-likely-to-happen"
-    },
-    {
-      "id": "https://www.eurogamer.net/blizzard-squashes-hearthstone-2-supicions",
-      "title": "“Não, este não é um Hearthstone 2” – a Blizzard esmaga as suspeitas da sequência de Hearthstone depois de divulgar uma grande revelação da BlizzCon 2026",
-      "original_title": "\"No, this is not a Hearthstone 2\" - Blizzard squashes Hearthstone sequel suspicions after hyping a big BlizzCon 2026 reveal",
-      "image": "https://assetsio.gnwcdn.com/hearthstone-2.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-02-09",
-      "summary": "Não, me disseram que a Blizzard não está preparando um anúncio de Hearthstone 2 para a BlizzCon 2026, mas há algo significativo sendo anunciado ainda este ano. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/blizzard-squashes-hearthstone-2-supicions"
-    },
-    {
-      "id": "https://www.eurogamer.net/amazons-god-of-war-series-atreus-actor",
-      "title": "A série God of War da Amazon finalmente tem seu Atreus: um jovem ator que interpretou Piglet e Jason Voorhees",
-      "original_title": "Amazon's God of War series finally has its Atreus: a young actor who's played both Piglet and Jason Voorhees",
-      "image": "https://assetsio.gnwcdn.com/Atreus-and-Kratos-in-God-of-War-artwork.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-02-09",
-      "summary": "A próxima série God of War finalmente ganhou seu Atreus, já que Callum Vinson foi escalado como ninguém menos que o filho de Kratos. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/amazons-god-of-war-series-atreus-actor"
-    },
-    {
-      "id": "https://www.eurogamer.net/discord-mandatory-age-verification-sensitive-content-teen-by-default",
-      "title": "Discord introduzindo verificação de idade obrigatória para “conteúdo sensível” e outros serviços na atualização global “adolescente por padrão”",
-      "original_title": "Discord introducing mandatory age-verification for \"sensitive content\" and other services in global \"teen-by-default\" update",
-      "image": "https://assetsio.gnwcdn.com/discord-logo-icon-only.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-02-09",
-      "summary": "Discord anunciou uma nova abordagem “adolescente por padrão” para sua plataforma, o que significa que a verificação de idade será um requisito obrigatório para todos os usuários ao redor do mundo, a fim de acessar determinadas configurações, canais e “conteúdo sensível”.\n Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/discord-mandatory-age-verification-sensitive-content-teen-by-default"
-    },
-    {
-      "id": "https://www.eurogamer.net/helldivers-2-game-director-talks-narrative-model-and-plans",
-      "title": "Enquanto Helldivers 2 envia jogadores para destruir a ameaça Cyborg, Arrowhead detalha seus planos para o futuro do jogo",
-      "original_title": "As Helldivers 2 sends players in to destroy the Cyborg menace, Arrowhead details its plans for the future of the game",
-      "image": "https://assetsio.gnwcdn.com/Helldivers-2_Machinery-event.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-02-09",
-      "summary": "Helldivers 2 teve um início tremendo este ano, com um novo lote de armamento pesado e os Autômatos roubando uma não-Estrela da Morte, preparando o cenário para o ataque da Super Terra aos Ciborgues do Ciberstão. O que os jogadores podem esperar deste próximo grande...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/helldivers-2-game-director-talks-narrative-model-and-plans"
-    },
-    {
-      "id": "https://www.eurogamer.net/blizzard-reportedly-partnering-with-nexon-to-revive-starcraft",
-      "title": "A Blizzard supostamente fez parceria com o proprietário do Arc Raiders, Nexon, para reviver StarCraft como um jogo de tiro",
-      "original_title": "Blizzard reportedly partnering with Arc Raiders owner Nexon to revive StarCraft as a shooter",
-      "image": "https://assetsio.gnwcdn.com/media_gallery_4.webp?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-02-09",
-      "summary": "Um novo relatório sugere que a Blizzard fez parceria com a gigante coreana de jogos Nexon - proprietária do Arc Raiders e do estúdio Embark The Finals - para criar algum tipo de jogo de tiro baseado na marca StarCraft. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/blizzard-reportedly-partnering-with-nexon-to-revive-starcraft"
-    },
-    {
-      "id": "https://www.techpowerup.com/346143/riot-games-axes-half-of-2xko-dev-team-after-middling-launch-for-league-of-legends-fighting-game",
-      "title": "Riot Games elimina metade da equipe de desenvolvimento 2XKO após lançamento mediano do jogo de luta League of Legends",
-      "original_title": "Riot Games Axes Half of 2XKO Dev Team After Middling Launch for League of Legends Fighting Game",
-      "image": "https://tpucdn.com/img/vYpMHSnmh5QwnPJM_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-02-09",
-      "summary": "Antes de seu lançamento, 2XKO parecia ter um suporte decente, repleto de eventos competitivos organizados por fãs e aprovados oficialmente, mas conforme revelado em uma nova postagem no blog da Riot Games, desenvolvedora do spin-off de League of Legends, 2XKO ainda não chegou ao...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/346143/riot-games-axes-half-of-2xko-dev-team-after-middling-launch-for-league-of-legends-fighting-game"
+      "url": "https://www.techpowerup.com/346211/trust-launches-seron-slim-multi-wireless-hyperscroll-mouse"
     }
   ]
 }
