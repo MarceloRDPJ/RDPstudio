@@ -1,40 +1,11 @@
 {
-  "last_updated": "2026-02-12T13:08:13",
-  "display_date": "12/02/2026 13:08",
+  "last_updated": "2026-02-13T12:59:57",
+  "display_date": "13/02/2026 12:59",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "199ms",
+    "latency": "1846ms",
     "current_games": [
-      {
-        "title": "Botany Manor",
-        "description": "Bem-vindo ao Botany Manor, uma casa senhorial na Inglaterra do século XIX. Você joga como a habitante Arabella Greene, uma botânica aposentada. Explore sua casa e seus jardins, repletos de pesquisas, para descobrir o habitat ideal da flora esquecida.",
-        "image": "https://cdn1.epicgames.com/spt-assets/42d56a88c22d4eaa8977bf5528a2396b/botany-manor-1f7uq.jpg",
-        "url": "https://store.epicgames.com/p/61eca1a9e42243d29e93b02510d88d83",
-        "price": "$24.99",
-        "start_date": "2026-02-08T21:00:00.000Z",
-        "end_date": "2026-02-22T21:00:00.000Z"
-      },
-      {
-        "title": "Botany Manor",
-        "description": "Bem-vindo ao Botany Manor, uma casa senhorial na Inglaterra do século XIX. Você joga como a habitante Arabella Greene, uma botânica aposentada. Explore sua casa e seus jardins, repletos de pesquisas, para descobrir o habitat ideal da flora esquecida.",
-        "image": "https://cdn1.epicgames.com/spt-assets/42d56a88c22d4eaa8977bf5528a2396b/botany-manor-1f7uq.jpg",
-        "url": "https://store.epicgames.com/p/61eca1a9e42243d29e93b02510d88d83",
-        "price": "$24.99",
-        "start_date": "2026-02-08T21:00:00.000Z",
-        "end_date": "2026-02-22T21:00:00.000Z"
-      },
-      {
-        "title": "Poison Retro Set",
-        "description": "Volte no tempo e avance na batalha com o Poison Retro Set, inspirado na eletrizante Temporada Arcade.",
-        "image": "https://cdn1.epicgames.com/spt-assets/65338dc60d204dcb98752745bab52374/pixel-gun-3d-1pp3a.jpg",
-        "url": "https://store.epicgames.com/p/poison-retro-set",
-        "price": "$24.99",
-        "start_date": "2026-02-05T16:00:00.000Z",
-        "end_date": "2026-02-12T16:00:00.000Z"
-      }
-    ],
-    "upcoming_games": [
       {
         "title": "The Darkside Detective A Fumble in the Dark",
         "description": "Junte-se ao Detetive McQueen enquanto ele resolve 6 casos, arriscando a vida e o membro pixelizado para resolver os mistérios macabros que assolam a pobre cidade.",
@@ -43,15 +14,6 @@
         "price": "$14.99",
         "start_date": "2026-02-12T16:00:00.000Z",
         "end_date": "2026-02-19T16:00:00.000Z"
-      },
-      {
-        "title": "Monument Valley",
-        "description": "Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
-        "image": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
-        "url": "https://store.epicgames.com/p/monument-valley-02",
-        "price": "$7.99",
-        "start_date": "2026-03-30T15:00:00.000Z",
-        "end_date": "2026-04-13T15:00:00.000Z"
       },
       {
         "title": "Nobody Wants to Die",
@@ -63,68 +25,67 @@
         "end_date": "2026-02-19T16:00:00.000Z"
       }
     ],
+    "upcoming_games": [
+      {
+        "title": "Monument Valley",
+        "description": "Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
+        "image": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
+        "url": "https://store.epicgames.com/p/monument-valley-02",
+        "price": "$7.99",
+        "start_date": "2026-03-30T15:00:00.000Z",
+        "end_date": "2026-04-13T15:00:00.000Z"
+      },
+      {
+        "title": "STALCRAFT: X Starter Edition",
+        "description": "STALCRAFT: X é um MMOFPS gratuito com elementos de RPG.\n\nComece a explorar o mundo da Zona com um Starter Pack. Inclui tudo que você precisa para seus ataques iniciais: um Premium de 7 dias, armas, armaduras, artefatos e cosméticos.",
+        "image": "https://cdn1.epicgames.com/spt-assets/bed02187768e44afb05319f40660d9fa/stalcraft-x-1gxje.jpg",
+        "url": "https://store.epicgames.com/p/stalcraft-x-starter-edition",
+        "price": "$24.99",
+        "start_date": "2026-02-19T16:00:00.000Z",
+        "end_date": "2026-02-26T16:00:00.000Z"
+      },
+      {
+        "title": "Return to Ash",
+        "description": "“O hospital estava vazio. Silencioso e mais claro do que o normal... como acordar em um dia de neve. Mas não senti frio. Não senti muita coisa.\"",
+        "image": "https://cdn1.epicgames.com/spt-assets/07c1bf7c44dc4c2e8567923f03c7d307/return-to-ash-qcdax.png",
+        "url": "https://store.epicgames.com/p/return-to-ash",
+        "price": "$5.99",
+        "start_date": "2026-02-19T16:00:00.000Z",
+        "end_date": "2026-02-26T16:00:00.000Z"
+      }
+    ],
     "mystery_detected": false
   },
   "items": [
     {
-      "id": "https://store.epicgames.com/p/61eca1a9e42243d29e93b02510d88d83",
-      "title": "GRÁTIS: Botany Manor",
-      "original_title": "Botany Manor",
-      "image": "https://cdn1.epicgames.com/spt-assets/42d56a88c22d4eaa8977bf5528a2396b/botany-manor-1f7uq.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Free Games",
-      "date": "2026-02-12",
-      "summary": "Bem-vindo ao Botany Manor, uma casa senhorial na Inglaterra do século XIX. Você joga como a habitante Arabella Greene, uma botânica aposentada. Explore sua casa e seus jardins, repletos de pesquisas, para descobrir o habitat ideal da flora esquecida.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/61eca1a9e42243d29e93b02510d88d83"
-    },
-    {
-      "id": "https://store.epicgames.com/p/61eca1a9e42243d29e93b02510d88d83",
-      "title": "GRÁTIS: Botany Manor",
-      "original_title": "Botany Manor",
-      "image": "https://cdn1.epicgames.com/spt-assets/42d56a88c22d4eaa8977bf5528a2396b/botany-manor-1f7uq.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Free Games",
-      "date": "2026-02-12",
-      "summary": "Bem-vindo ao Botany Manor, uma casa senhorial na Inglaterra do século XIX. Você joga como a habitante Arabella Greene, uma botânica aposentada. Explore sua casa e seus jardins, repletos de pesquisas, para descobrir o habitat ideal da flora esquecida.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/61eca1a9e42243d29e93b02510d88d83"
-    },
-    {
-      "id": "https://store.epicgames.com/p/poison-retro-set",
-      "title": "GRÁTIS: Poison Retro Set",
-      "original_title": "Poison Retro Set",
-      "image": "https://cdn1.epicgames.com/spt-assets/65338dc60d204dcb98752745bab52374/pixel-gun-3d-1pp3a.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Free Games",
-      "date": "2026-02-12",
-      "summary": "Volte no tempo e avance na batalha com o Poison Retro Set, inspirado na eletrizante Temporada Arcade.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/poison-retro-set"
-    },
-    {
       "id": "https://store.epicgames.com/p/b87bb60e2398412e82ba540e50ac6222",
-      "title": "EM BREVE: The Darkside Detective A Fumble in the Dark",
+      "title": "GRÁTIS: The Darkside Detective A Fumble in the Dark",
       "original_title": "The Darkside Detective A Fumble in the Dark",
       "image": "https://cdn1.epicgames.com/spt-assets/0638bcc62d9f4ba2a53eb9093c54be31/the-darkside-detective-a-fumble-in-the-dark-offer-501mw.jpg",
       "source_count": 1,
       "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-02-12",
-      "summary": "Disponível gratuitamente a partir de 12/02. Junte-se ao Detetive McQueen enquanto ele resolve 6 casos, arriscando a vida e o membro pixelizado para resolver os mistérios macabros que assolam a pobre cidade.",
+      "category": "Free Games",
+      "date": "2026-02-13",
+      "summary": "Junte-se ao Detetive McQueen enquanto ele resolve 6 casos, arriscando a vida e o membro pixelizado para resolver os mistérios macabros que assolam a pobre cidade.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/b87bb60e2398412e82ba540e50ac6222"
+    },
+    {
+      "id": "https://store.epicgames.com/p/eea910991d674322b3832f9b7bbefb7b",
+      "title": "GRÁTIS: Nobody Wants to Die",
+      "original_title": "Nobody Wants to Die",
+      "image": "https://cdn1.epicgames.com/spt-assets/dece0016082647a6af5759dbbedfc8eb/nobody-wants-to-die-13stz.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Free Games",
+      "date": "2026-02-13",
+      "summary": "Perca-se no mundo distópico de Nova York, 2329. Nesta história noir interativa, lidere a investigação usando tecnologia avançada como o detetive James Karra, que arrisca tudo na perseguição de um serial killer que tem como alvo a elite da cidade.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/eea910991d674322b3832f9b7bbefb7b"
     },
     {
       "id": "https://store.epicgames.com/p/monument-valley-02",
@@ -134,7 +95,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-02-12",
+      "date": "2026-02-13",
       "summary": "Disponível gratuitamente a partir de 30/03. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
       "sources": [
         "Epic Games Store"
@@ -142,124 +103,214 @@
       "url": "https://store.epicgames.com/p/monument-valley-02"
     },
     {
-      "id": "https://store.epicgames.com/p/eea910991d674322b3832f9b7bbefb7b",
-      "title": "EM BREVE: Nobody Wants to Die",
-      "original_title": "Nobody Wants to Die",
-      "image": "https://cdn1.epicgames.com/spt-assets/dece0016082647a6af5759dbbedfc8eb/nobody-wants-to-die-13stz.jpg",
+      "id": "https://store.epicgames.com/p/stalcraft-x-starter-edition",
+      "title": "EM BREVE: STALCRAFT: X Starter Edition",
+      "original_title": "STALCRAFT: X Starter Edition",
+      "image": "https://cdn1.epicgames.com/spt-assets/bed02187768e44afb05319f40660d9fa/stalcraft-x-1gxje.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-02-12",
-      "summary": "Disponível gratuitamente a partir de 12/02. Perca-se no mundo distópico de Nova York, 2329. Nesta história noir interativa, lidere a investigação usando tecnologia avançada como o detetive James Karra, que arrisca tudo na perseguição de um serial killer que tem como alvo a elite da cidade.",
+      "date": "2026-02-13",
+      "summary": "Disponível gratuitamente a partir de 19/02. STALCRAFT: X é um MMOFPS gratuito com elementos de RPG.\n\nComece a explorar o mundo da Zona com um Starter Pack. Inclui tudo que você precisa para seus ataques iniciais: um Premium de 7 dias, armas, armaduras, artefatos e cosméticos.",
       "sources": [
         "Epic Games Store"
       ],
-      "url": "https://store.epicgames.com/p/eea910991d674322b3832f9b7bbefb7b"
+      "url": "https://store.epicgames.com/p/stalcraft-x-starter-edition"
     },
     {
-      "id": "https://www.eurogamer.net/arc-raiders-had-nearly-1000000-concurrent-players-last-month-and-thats-on-pc-alone",
-      "title": "Arc Raiders teve quase 1.000.000 de jogadores simultâneos no mês passado, e isso só no PC",
-      "original_title": "Arc Raiders had nearly 1,000,000 concurrent players last month, and that's on PC alone",
-      "image": "https://assetsio.gnwcdn.com/ARC-Raiders_16-9_13_GiDXO7z.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://store.epicgames.com/p/return-to-ash",
+      "title": "EM BREVE: Return to Ash",
+      "original_title": "Return to Ash",
+      "image": "https://cdn1.epicgames.com/spt-assets/07c1bf7c44dc4c2e8567923f03c7d307/return-to-ash-qcdax.png",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-02-13",
+      "summary": "Disponível gratuitamente a partir de 19/02. “O hospital estava vazio. Silencioso e mais claro do que o normal... como acordar em um dia de neve. Mas não senti frio. Não senti muita coisa.\"",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/return-to-ash"
+    },
+    {
+      "id": "https://www.eurogamer.net/worried-about-project-windless-and-generative-ai-dont-fret-krafton-says-the-game-is-not-using-generative-ai-for-content-creation-or-narrative-elements",
+      "title": "Preocupado com o Projeto Windless e a IA generativa? Não se preocupe, Krafton diz que o jogo não usa “IA generativa para criação de conteúdo ou elementos narrativos”",
+      "original_title": "Worried about Project Windless and generative AI? Don't fret, Krafton says the game is not using \"generative AI for content creation or narrative elements\"",
+      "image": "https://assetsio.gnwcdn.com/Project-Windless-image-showing-a-large-chicken-like-character-holding-a-weapon.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-02-12",
-      "summary": "Arc Raiders alcançou quase um milhão de jogadores simultâneos no PC no mês passado, enquanto o jogo de tiro de extração continua a atrair jogadores em 2026. Isso sem levar em conta os jogadores de console! Leia mais...",
+      "date": "2026-02-13",
+      "summary": "A equipe do Projeto Windless não está usando gen-AI para “criação de conteúdo ou elementos narrativos”, confirmou Krafton. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/arc-raiders-had-nearly-1000000-concurrent-players-last-month-and-thats-on-pc-alone"
+      "url": "https://www.eurogamer.net/worried-about-project-windless-and-generative-ai-dont-fret-krafton-says-the-game-is-not-using-generative-ai-for-content-creation-or-narrative-elements"
     },
     {
-      "id": "https://www.eurogamer.net/what-about-switch-2-versions-of-diablo-2-and-diablo-4",
-      "title": "Será que algum dia veremos versões Switch 2 de Diablo 2 e Diablo 4? Por enquanto, a Blizzard se recusa a responder",
-      "original_title": "Will we ever see Switch 2 versions of Diablo 2 and Diablo 4? For now, Blizzard refuses to answer",
-      "image": "https://assetsio.gnwcdn.com/New-d4-s2-2.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/we-were-turned-into-a-joke-from-minute-one-fired-highguard-developer-reflects-on-games-ill-fated-launch-and-false-assumptions-after-game-awards-reveal",
+      "title": "“Fomos transformados em piada desde o primeiro minuto” – desenvolvedor demitido da Highguard reflete sobre o malfadado lançamento do jogo e “falsas suposições” após a revelação do Game Awards",
+      "original_title": "\"We were turned into a joke from minute one\" - fired Highguard developer reflects on game's ill-fated launch and \"false assumptions\" after Game Awards reveal",
+      "image": "https://assetsio.gnwcdn.com/Screenshot-from-Highguard.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-02-12",
-      "summary": "Houve uma ausência notável durante o 'destaque' do aniversário de Diablo transmitido ontem: nenhuma menção ao lançamento do Switch 2 para Diablo 4 ou para Diablo 2: Resurrected. Leia mais...",
+      "date": "2026-02-13",
+      "summary": "Um ex-desenvolvedor do Wildlight compartilhou seus pensamentos sobre o lançamento de Highguard após seu anúncio no The Game Awards do ano passado, afirmando que devido a “falsas suposições” em torno de seu trailer de estreia, “fomos transformados em uma piada”. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/what-about-switch-2-versions-of-diablo-2-and-diablo-4"
+      "url": "https://www.eurogamer.net/we-were-turned-into-a-joke-from-minute-one-fired-highguard-developer-reflects-on-games-ill-fated-launch-and-false-assumptions-after-game-awards-reveal"
     },
     {
-      "id": "https://www.eurogamer.net/blizzard-may-expand-diablo-2-more-if-warlock-class-goes-well",
-      "title": "“Não queremos bagunçar a Mona Lisa” – a Blizzard pode expandir o Diablo 2 ainda mais se o lançamento surpresa da classe Warlock der certo",
-      "original_title": "\"We don't want to mess up the Mona Lisa\" - Blizzard may expand Diablo 2 even more if the surprise warlock class release goes down well",
-      "image": "https://assetsio.gnwcdn.com/warlock-diablo-2.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/one-of-the-coolest-trailers-yesterday-wasnt-from-the-state-of-play-it-was-a-brand-new-look-at-the-stylish-arcade-racer-screamer",
+      "title": "Um dos trailers mais legais de ontem não foi do State of Play, foi um visual totalmente novo do estiloso jogo de corrida arcade Screamer",
+      "original_title": "One of the coolest trailers yesterday wasn't from the State of Play, it was a brand-new look at the stylish arcade racer Screamer",
+      "image": "https://assetsio.gnwcdn.com/screamer-face.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-02-12",
-      "summary": "A Blizzard trazendo um novo personagem jogável para Diablo 2: Resurrected - o primeiro novo personagem que o jogo teve em 25 anos - pode ser o início de uma era de desenvolvimento ativo para o jogo clássico, potencialmente vendo-o evoluir como um jogo moderno...",
+      "date": "2026-02-13",
+      "summary": "Ontem foi um grande dia para novos trailers de videogame, cortesia do Sony State of Play. Mas um pouco antes, longe dos holofotes, veio outra longa vitrine de um jogo especialmente legal que você pode ter perdido. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/blizzard-may-expand-diablo-2-more-if-warlock-class-goes-well"
+      "url": "https://www.eurogamer.net/one-of-the-coolest-trailers-yesterday-wasnt-from-the-state-of-play-it-was-a-brand-new-look-at-the-stylish-arcade-racer-screamer"
     },
     {
-      "id": "https://www.eurogamer.net/helldivers-movie-lands-minecraft-and-street-fighter-actor-jason-momoa",
-      "title": "Filme Helldivers traz Jason Momoa, ator de Minecraft e Street Fighter",
-      "original_title": "Helldivers movie lands Minecraft and Street Fighter actor Jason Momoa",
-      "image": "https://assetsio.gnwcdn.com/Jason-Momoa's-head-overlaid-on-a-Helldiver-from-Helldivers-2-with-jets-flying-in-the-sky-behind.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/untitled-goose-game-developers-next-game-big-walk-coming-to-ps-plus-essential",
+      "title": "O próximo jogo do desenvolvedor Untitled Goose Game, Big Walk, chegando ao PS Plus Essential",
+      "original_title": "Untitled Goose Game developer's next game, Big Walk, coming to PS Plus Essential",
+      "image": "https://assetsio.gnwcdn.com/Big-Walk-image-showing-round-little-figures-standing-on-a-rocky-pass-with-a-PS-Plus-logo-in-the-upper-right-corner.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-02-12",
-      "summary": "Jason Momoa estrelará a adaptação cinematográfica de Helldivers da Sony Pictures e PlayStation Productions. Leia mais...",
+      "date": "2026-02-13",
+      "summary": "Ontem à noite, recebemos uma enxurrada de anúncios com sabor de PlayStation, graças ao mais recente State of Play. Do gun-fu de Jon Wick e do capanga em Project Windless à paleta de cores serena de Neva: Prologue, foi um belo sta...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/helldivers-movie-lands-minecraft-and-street-fighter-actor-jason-momoa"
+      "url": "https://www.eurogamer.net/untitled-goose-game-developers-next-game-big-walk-coming-to-ps-plus-essential"
     },
     {
-      "id": "https://www.eurogamer.net/highguard-not-shutting-down-following-wildlight-layoffs-with-a-core-group-of-members-left-to-support-game",
-      "title": "Highguard não fecha após demissões da Wildlight, com um “grupo central” de desenvolvedores restantes para apoiar o jogo",
-      "original_title": "Highguard not shutting down following Wildlight layoffs, with a \"core group\" of developers left to support game",
-      "image": "https://assetsio.gnwcdn.com/Highguard-artwork-for-Redmane.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/here-are-our-ps-plus-premium-and-extra-games-for-february",
+      "title": "Aqui estão nossos jogos PS Plus Premium e Extra de fevereiro",
+      "original_title": "Here are our PS Plus Premium and Extra games for February",
+      "image": "https://assetsio.gnwcdn.com/Spider-Man-2's-Miles-and-Peter-in-their-spidey-suits-with-a-PS-Plus-logo-in-the-lower-right-corner.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-02-12",
-      "summary": "Poucas semanas após o lançamento, um número não especificado da equipe de desenvolvimento Highguard da Wildlight foi demitido. Leia mais...",
+      "date": "2026-02-13",
+      "summary": "A Sony revelou suas ofertas de jogos PS Plus Premium e Extra para fevereiro. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/highguard-not-shutting-down-following-wildlight-layoffs-with-a-core-group-of-members-left-to-support-game"
+      "url": "https://www.eurogamer.net/here-are-our-ps-plus-premium-and-extra-games-for-february"
     },
     {
-      "id": "https://www.techpowerup.com/346279/colorful-announces-evol-p15-gaming-laptops-with-nvidia-geforce-rtx-50-series-graphics",
-      "title": "(PR) COLORFUL anuncia laptops para jogos EVOL P15 com gráficos NVIDIA GeForce RTX série 50",
-      "original_title": "(PR) COLORFUL Announces EVOL P15 Gaming Laptops with NVIDIA GeForce RTX 50-Series Graphics",
-      "image": "https://tpucdn.com/img/IKlIJrY4Udm99WlJ_thm.jpg",
+      "id": "https://www.eurogamer.net/castlevania-belmonts-curse-is-the-beginning-of-numerous-new-products-around-castlevania",
+      "title": "Boas notícias para caçadores de vampiros, Castlevania: Belmont’s Curse é “o início de vários novos produtos em torno de Castlevania”",
+      "original_title": "Good news vampire hunters, Castlevania: Belmont's Curse is \"the beginning of numerous new products around Castlevania\"",
+      "image": "https://assetsio.gnwcdn.com/Castlevania-belmonts-curse-art.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-02-13",
+      "summary": "Se você assistiu ao Sony State of Play ontem à noite e ficou especialmente entusiasmado com Castlevania: Belmont's Curse, há algumas notícias realmente boas para você escondidas no site oficial de Castlevania. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/castlevania-belmonts-curse-is-the-beginning-of-numerous-new-products-around-castlevania"
+    },
+    {
+      "id": "https://www.eurogamer.net/open-world-ps5-game-project-windless",
+      "title": "O jogo de mundo aberto para PS5, Project Windless, é parte God of War, parte Dynasty Warriors e tem um diretor veterano de Far Cry como líder",
+      "original_title": "Open world PS5 game Project Windless is part-God of War, part-Dynasty Warriors, and has a veteran Far Cry director as its lead",
+      "image": "https://assetsio.gnwcdn.com/project-windless-header.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-02-13",
+      "summary": "ATUALIZAÇÃO 10h GMT: Há um vídeo do diário do desenvolvedor do Project Windless que oferece uma visão ampliada do jogo e algumas filmagens do making-of do jogo. Não há muito mais informações nele, mas a referência é ao personagem principal ser a Her...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/open-world-ps5-game-project-windless"
+    },
+    {
+      "id": "https://www.eurogamer.net/ghost-of-yoteis-online-co-op-multiplayer-legends-arrives-next-month",
+      "title": "Legends multijogador cooperativo online de Ghost of Yōtei chega no próximo mês",
+      "original_title": "Ghost of Yōtei's online co-op multiplayer Legends arrives next month",
+      "image": "https://assetsio.gnwcdn.com/Ghost-of-Yotei-Legends-trailer-screenshot-showing-an-enemy-with-snakes-coming-from-their-face.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-02-13",
+      "summary": "Preparem suas espadas, pois o multijogador cooperativo online de Ghost of Y & ocrtei – conhecido como Legends – está previsto para chegar em pouco menos de um mês. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/ghost-of-yoteis-online-co-op-multiplayer-legends-arrives-next-month"
+    },
+    {
+      "id": "https://www.eurogamer.net/turns-out-game-freaks-relatively-small-internal-team-is-supported-by-several-dozen-development-partners-for-beast-of-reincarnation",
+      "title": "Acontece que a equipe interna “relativamente pequena” da Game Freak é apoiada por “várias dezenas” de parceiros de desenvolvimento de Beast of Reincarnation",
+      "original_title": "Turns out Game Freak's \"relatively small\" internal team is supported by \"several dozen\" development partners for Beast of Reincarnation",
+      "image": "https://assetsio.gnwcdn.com/Beast-of-Reincarnation-trailer-screenshot-showing-a-dark-haired-female-with-her-hair-falling-over-her-eyes.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-02-13",
+      "summary": "A Game Freak lançou um pouco mais de luz sobre a equipe interna “relativamente pequena” que trabalha em seu próximo lançamento, Beast of Reincarnation. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/turns-out-game-freaks-relatively-small-internal-team-is-supported-by-several-dozen-development-partners-for-beast-of-reincarnation"
+    },
+    {
+      "id": "https://www.eurogamer.net/though-beast-of-reincarnation-is-all-about-loneliness-game-freak-doesnt-want-it-to-be-sad-enter-warmth-reliability-and-your-dog-pal",
+      "title": "Embora Beast of Reincarnation tenha tudo a ver com “solidão”, a Game Freak não quer que isso seja triste: digite “calor”, “confiabilidade” e seu amigo cachorro",
+      "original_title": "Though Beast of Reincarnation is all about \"loneliness\", Game Freak doesn't want it to be sad: enter \"warmth\", \"reliability\" and your dog pal",
+      "image": "https://assetsio.gnwcdn.com/Koo-and-Emma-in-Beast-of-Reincarnation.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-02-13",
+      "summary": "A Game Freak pode ser mais conhecida como a desenvolvedora por trás de muitos jogos Pokémon, mas isso poderá mudar em breve com seu próximo lançamento, Beast of Reincarnation. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/though-beast-of-reincarnation-is-all-about-loneliness-game-freak-doesnt-want-it-to-be-sad-enter-warmth-reliability-and-your-dog-pal"
+    },
+    {
+      "id": "https://www.techpowerup.com/346347/techpowerup-gpu-z-v2-69-0-released",
+      "title": "Lançado TechPowerUp GPU-Z v2.69.0",
+      "original_title": "TechPowerUp GPU-Z v2.69.0 Released",
+      "image": "https://tpucdn.com/img/fLcIuNpvg6jnam6k_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-02-12",
-      "summary": "A Colorful Technology Company Limited, marca líder em componentes para PC para jogos, laptops para jogos e produtos de áudio Hi-fi, anuncia o próximo lançamento de seus novos laptops para jogos COLORFUL EVOL P15, expandindo a linha EVOL com a próxima geração NVIDIA G...",
+      "date": "2026-02-13",
+      "summary": "A TechPowerUp lançou hoje a versão 2.69.0 do GPU-Z, o utilitário leve de informações, monitoramento e diagnóstico do subsistema gráfico. A atualização adiciona suporte para novas GPUs NVIDIA, incluindo GeForce RTX 5090 D V2, RTX 3050 A Mobile e vários ...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/346279/colorful-announces-evol-p15-gaming-laptops-with-nvidia-geforce-rtx-50-series-graphics"
+      "url": "https://www.techpowerup.com/346347/techpowerup-gpu-z-v2-69-0-released"
     },
     {
-      "id": "https://www.techpowerup.com/346278/inwin-launches-w50-panoramic-chassis",
-      "title": "(PR) InWin lança chassi panorâmico W50",
-      "original_title": "(PR) InWin Launches W50 Panoramic Chassis",
-      "image": "https://tpucdn.com/img/pQQspr2NKZySXtZf_thm.jpg",
+      "id": "https://www.techpowerup.com/346346/msi-integrates-penta-tandem-technology-across-2026-qd-oled-monitor-lineup",
+      "title": "(PR) MSI integra tecnologia Penta Tandem em toda a linha de monitores QD-OLED 2026",
+      "original_title": "(PR) MSI Integrates Penta Tandem Technology Across 2026 QD-OLED Monitor Lineup",
+      "image": "https://tpucdn.com/img/V41o4W0hIAl6l1Li_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-02-12",
-      "summary": "(InWin), um inovador premiado em design e engenharia de chassis de PC, anuncia hoje o lançamento do W50, um novo chassi panorâmico de torre média. O W50 combina a estética arquitetônica exclusiva da InWin na forma de um \"...",
+      "date": "2026-02-13",
+      "summary": "A MSI anunciou hoje que está a reforçar a sua parceria estratégica com a Samsung Display. Após a revelação da marca de tecnologia QD-OLED Penta Tandem pela Samsung Display, a MSI confirma que já começou a integrar este exclusivo QD-OL Tandem de 5 camadas...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/346278/inwin-launches-w50-panoramic-chassis"
+      "url": "https://www.techpowerup.com/346346/msi-integrates-penta-tandem-technology-across-2026-qd-oled-monitor-lineup"
     },
     {
       "id": "https://www.techpowerup.com/346247/adlink-unveils-next-generation-server-board-and-2u-4u-edge-ai-servers-powered-by-intel-xeon-600-processors-for-workstations",
@@ -269,7 +320,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-02-12",
+      "date": "2026-02-13",
       "summary": "ADLINK Technology Inc., líder global em computação de IA de ponta, anunciou a expansão de seu portfólio de produtos com quatro sistemas de IA de borda de classe de servidor de alto desempenho - a placa de servidor ISB-W890 e os servidores de GPU AXE-7440GW, AXE-7420GWA e AXE-7220GW...",
       "sources": [
         "TechPowerUp"
@@ -277,184 +328,109 @@
       "url": "https://www.techpowerup.com/346247/adlink-unveils-next-generation-server-board-and-2u-4u-edge-ai-servers-powered-by-intel-xeon-600-processors-for-workstations"
     },
     {
-      "id": "https://www.techpowerup.com/346277/amd-releases-adrenalin-edition-26-2-1-beta-drivers",
-      "title": "AMD lança drivers Adrenalin Edition 26.2.1 Beta",
-      "original_title": "AMD Releases Adrenalin Edition 26.2.1 Beta Drivers",
-      "image": "https://tpucdn.com/img/AP7vhKec5JqxvvCz_thm.jpg",
+      "id": "https://www.techpowerup.com/346345/krafton-reveals-project-windless-open-world-action-rpg-based-on-the-bird-that-drinks-tears-fantasy-novel-series",
+      "title": "(PR) Krafton revela projeto de RPG de ação de mundo aberto Windless baseado na série de romances de fantasia The Bird That Drinks Tears",
+      "original_title": "(PR) Krafton Reveals Project Windless Open-World Action RPG Based on The Bird That Drinks Tears Fantasy Novel Series",
+      "image": "https://tpucdn.com/img/mXmURWctC3sYniqt_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-02-12",
-      "summary": "A AMD lançou drivers AMD Software Adrenalin Edition 26.2.1 Beta adicionando suporte para jogos Yakuza Kiwami 3 e Dark Ties e Nioh 3. A atualização também corrige renderização de nuvem corrompida em Arc Raiders em placas gráficas da série Radeon RX 9000 e endereços...",
+      "date": "2026-02-13",
+      "summary": "KRAFTON revelou hoje Project Windless, um novo RPG de ação de mundo aberto ambientado no universo de fantasia da série de romances The Bird That Drinks Tears, com a estreia de seu primeiro trailer durante o State of Play de hoje do Sony PlayStation. Isso marca o primeiro...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/346277/amd-releases-adrenalin-edition-26-2-1-beta-drivers"
+      "url": "https://www.techpowerup.com/346345/krafton-reveals-project-windless-open-world-action-rpg-based-on-the-bird-that-drinks-tears-fantasy-novel-series"
     },
     {
-      "id": "https://www.techpowerup.com/346274/samsung-ships-industry-first-commercial-hbm4-with-ultimate-performance-for-ai-computing",
-      "title": "(PR) Samsung lança o primeiro HBM4 comercial do setor com desempenho máximo para computação de IA",
-      "original_title": "(PR) Samsung Ships Industry-First Commercial HBM4 With Ultimate Performance for AI Computing",
-      "image": "https://tpucdn.com/img/PM1zBixqEJB2XYPX_thm.jpg",
+      "id": "https://www.techpowerup.com/346343/hbm4-validation-expected-in-2q26-three-major-suppliers-poised-to-shape-nvidia-supply-landscape",
+      "title": "(PR) Validação do HBM4 prevista para 2T26; Três principais fornecedores preparados para moldar o cenário de fornecimento da NVIDIA",
+      "original_title": "(PR) HBM4 Validation Expected in 2Q26; Three Major Suppliers Poised to Shape NVIDIA Supply Landscape",
+      "image": "https://tpucdn.com/img/7jPpiW934ROt8w35_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-02-12",
-      "summary": "A Samsung Electronics Co., Ltd., líder global em tecnologia avançada de memória, anunciou hoje que iniciou a produção em massa de seu HBM4 líder do setor e enviou produtos comerciais aos clientes. Esta conquista marca a primeira vez na indústria...",
+      "date": "2026-02-13",
+      "summary": "A análise mais recente da TrendForce sobre a indústria HBM revela que, à medida que a expansão contínua da infraestrutura de IA continua a alimentar a demanda por GPU, espera-se que a próxima plataforma Rubin da NVIDIA se torne um importante catalisador para a adoção do HBM4 assim que a produção em massa for...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/346274/samsung-ships-industry-first-commercial-hbm4-with-ultimate-performance-for-ai-computing"
+      "url": "https://www.techpowerup.com/346343/hbm4-validation-expected-in-2q26-three-major-suppliers-poised-to-shape-nvidia-supply-landscape"
     },
     {
-      "id": "https://www.techpowerup.com/346273/asus-rog-launches-gaming-monitor-with-built-in-google-tv",
-      "title": "ASUS ROG lança monitor de jogos com Google TV integrado",
-      "original_title": "ASUS ROG Launches Gaming Monitor with Built in Google TV",
-      "image": "https://tpucdn.com/img/m31XxWcD3o8KbDIC_thm.jpg",
+      "id": "https://www.techpowerup.com/346288/fosi-audio-c3-has-everything-pc-gamers-need-in-audio-and-were-giving-10-of-these-away",
+      "title": "Fosi Audio C3 tem tudo que os jogadores de PC precisam em áudio, e estamos oferecendo 10 deles!",
+      "original_title": "Fosi Audio C3 Has Everything PC Gamers Need in Audio, and We're Giving 10 of These Away!",
+      "image": "https://tpucdn.com/img/blZeTOyDKEevqJWp_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-02-12",
-      "summary": "De volta à CES deste ano, a ASUS ROG anunciou o Strix OLED XG34WCDMS com um painel RGB QD-OLED e agora a empresa anunciou uma variante desse mesmo monitor, chamada Strix OLED XG34WCDMTG, que curiosamente parece estar disponível antes do mod...",
+      "date": "2026-02-13",
+      "summary": "A Fosi Audio está mantendo vivas as placas de som discretas, superando as soluções de áudio integradas usando componentes premium e ajuste profissional. A nova Fosi Audio C3 é a sua mais recente placa de som externa (DAC + fones de ouvido AMP) voltada para jogadores de PC, trazendo...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/346273/asus-rog-launches-gaming-monitor-with-built-in-google-tv"
+      "url": "https://www.techpowerup.com/346288/fosi-audio-c3-has-everything-pc-gamers-need-in-audio-and-were-giving-10-of-these-away"
     },
     {
-      "id": "https://www.techpowerup.com/346264/cannonkeys-announces-pricey-customizable-wood-bakeneko65-mechanical-keyboard",
-      "title": "CannonKeys anuncia teclado mecânico Bakeneko65 de madeira caro e personalizável",
-      "original_title": "CannonKeys Announces Pricey, Customizable Wood Bakeneko65 Mechanical Keyboard",
-      "image": "https://tpucdn.com/img/LVQJ7S70utQ8ZeM0_thm.jpg",
+      "id": "https://www.techpowerup.com/346341/playstation-uk-now-offers-ps5-leasing-starting-at-9-95-per-month",
+      "title": "PlayStation UK agora oferece leasing de PS5 a partir de £ 9,95 por mês",
+      "original_title": "PlayStation UK Now Offers PS5 Leasing Starting at £9.95 per Month",
+      "image": "https://tpucdn.com/img/GS0zfXrywXta64nE_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-02-12",
-      "summary": "O cenário de teclados mecânicos personalizados é conhecido por preços altos e materiais exóticos, mas o último anúncio da CannonKeys, um teclado de madeira Bakeneko65, vai um passo além com um preço inicial de US$ 380 para um case de madeira personalizado e kit de PCB. O Assado...",
+      "date": "2026-02-13",
+      "summary": "Os jogadores de console podem não necessariamente se tornar proprietários de console, já que a divisão PlayStation UK da Sony está experimentando o aluguel do PlayStation 5. O aluguel começa em £ 9,95 por mês e varia dependendo da versão do console. Este plano envolve um período de 36 meses...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/346264/cannonkeys-announces-pricey-customizable-wood-bakeneko65-mechanical-keyboard"
+      "url": "https://www.techpowerup.com/346341/playstation-uk-now-offers-ps5-leasing-starting-at-9-95-per-month"
     },
     {
-      "id": "https://www.techpowerup.com/346260/hp-does-an-nzxt-with-usd-49-99-129-99-month-omen-gaming-laptop-subscription",
-      "title": "HP faz um NZXT com assinatura de laptop para jogos Omen de US$ 49,99-129,99/mês",
-      "original_title": "HP Does an NZXT With $49.99-129.99/month Omen Gaming Laptop Subscription",
-      "image": "https://tpucdn.com/img/osEBYEDBaPeZAMju_thm.jpg",
+      "id": "https://www.techpowerup.com/346340/new-gothic-action-adventure-rpg-crimson-moon-coming-in-2026",
+      "title": "(PR) Novo RPG gótico de ação e aventura Crimson Moon chegando em 2026",
+      "original_title": "(PR) New Gothic Action-Adventure RPG Crimson Moon Coming in 2026",
+      "image": "https://tpucdn.com/img/9gNLdkGMuLETCMKb_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-02-12",
-      "summary": "Com o aumento do preço da memória para jogos e do silício em geral, era apenas uma questão de tempo até vermos os fabricantes de laptops para jogos apostarem no aluguel de hardware como modelo de negócios, para melhor ou para pior. A HP parece estar liderando o grupo com um novo...",
+      "date": "2026-02-13",
+      "summary": "Olá pessoal! Acabamos de revelar Crimson Moon ao mundo no State of Play de hoje! Nesta postagem do PS Blog, temos o prazer de compartilhar mais detalhes sobre esta aventura de ação gótica que chegará ao PS5 em 2026. \n\nUm mundo sombrio e gótico \nCrimson Moon é uma ação...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/346260/hp-does-an-nzxt-with-usd-49-99-129-99-month-omen-gaming-laptop-subscription"
+      "url": "https://www.techpowerup.com/346340/new-gothic-action-adventure-rpg-crimson-moon-coming-in-2026"
     },
     {
-      "id": "https://www.techpowerup.com/346261/msi-and-mondu-partner-to-transform-b2b-procurement-with-flexible-buy-now-pay-later-solutions",
-      "title": "(PR) MSI e Mondu fazem parceria para transformar compras B2B com soluções flexíveis \"Compre agora, pague depois\"",
-      "original_title": "(PR) MSI and Mondu Partner to Transform B2B Procurement with Flexible \"Buy Now, Pay Later\" Solutions",
-      "image": "https://tpucdn.com/img/fbCsNoStumnnJ2hR_thm.jpg",
+      "id": "https://www.techpowerup.com/346339/death-stranding-2-on-the-beach-coming-to-pc-on-march-19",
+      "title": "(PR) Death Stranding 2: On the Beach chega ao PC em 19 de março",
+      "original_title": "(PR) Death Stranding 2: On the Beach Coming to PC on March 19",
+      "image": "https://tpucdn.com/img/pvWMY1iGyhh82MU9_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-02-12",
-      "summary": "A MSI, líder global em hardware de PC de alto desempenho e soluções empresariais, anunciou hoje uma parceria estratégica com a Mondu para lançar soluções de pagamento flexíveis Compre Agora, Pague Depois (BNPL) em sua Business E-Shop. Esta colaboração capacita b...",
+      "date": "2026-02-13",
+      "summary": "A KOJIMA PRODUCTIONS, em colaboração com a Nixxes Software, tem o orgulho de anunciar que DEATH STRANDING 2: ON THE BEACH chegará ao PC em 19 de março de 2026, com pré-compra a partir de hoje no Steam e na Epic Games Store. Nesta sequência independente, ...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/346261/msi-and-mondu-partner-to-transform-b2b-procurement-with-flexible-buy-now-pay-later-solutions"
+      "url": "https://www.techpowerup.com/346339/death-stranding-2-on-the-beach-coming-to-pc-on-march-19"
     },
     {
-      "id": "https://www.eurogamer.net/blizzard-announces-diablo-warlocks",
-      "title": "Os rumores do feiticeiro Diablo são verdadeiros, mas a nova classe está chegando a três jogos, incluindo Diablo 2 hoje",
-      "original_title": "The Diablo warlock rumours are true, but the new class is coming to three games, including to Diablo 2 today",
-      "image": "https://assetsio.gnwcdn.com/diablo-warlocks.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Rumor",
-      "date": "2026-02-11",
-      "summary": "Os dataminers estavam certos, há uma classe de feiticeiros chegando ao Diablo 4, como parte da expansão The Lord of Hatred que chega em abril. Joguei na Blizzard há algumas semanas e, embora ainda não possa contar em detalhes, posso dizer...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/blizzard-announces-diablo-warlocks"
-    },
-    {
-      "id": "https://www.eurogamer.net/subnautica-and-below-zero-nintendo-switch-2-upgrades-announced",
-      "title": "Subnautica e Subnautica: Below Zero estão recebendo atualizações gratuitas do Switch 2 este mês, prometendo 60 FPS e mais",
-      "original_title": "Subnautica and Subnautica: Below Zero are getting free Switch 2 upgrades this month, promising 60 FPS and more",
-      "image": "https://assetsio.gnwcdn.com/Subnautica-Below-Zero_main-art-Switch-2.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-02-11",
-      "summary": "O desenvolvimento do Subnautica 2 não foi nada pacífico, mas ainda está previsto para chegar ainda este ano. Enquanto isso, Krafton está planejando manter veteranos e novatos ocupados com as portas Nintendo Switch 2 dos dois jogos anteriores. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/subnautica-and-below-zero-nintendo-switch-2-upgrades-announced"
-    },
-    {
-      "id": "https://www.eurogamer.net/no-one-read-too-much-into-these-new-star-craft-action-figures-ok",
-      "title": "Ninguém leu muito sobre essas novas figuras de ação Star Craft, OK",
-      "original_title": "No one read too much into these new Star Craft action figures, OK",
-      "image": "https://assetsio.gnwcdn.com/starcraft-joytoy-figures-sillouettes.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-02-11",
-      "summary": "Joy Toy, uma popular empresa de produção de estatuetas, anunciou uma linha de modelos Starcraft em pequena escala como parte de uma colaboração com a Activision Blizzard. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/no-one-read-too-much-into-these-new-star-craft-action-figures-ok"
-    },
-    {
-      "id": "https://www.eurogamer.net/reanimal-review",
-      "title": "Revisão reanimal",
-      "original_title": "Reanimal review",
-      "image": "https://assetsio.gnwcdn.com/reanimal-sheep-header.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-02-11",
-      "summary": "É impossível falar de Reanimal sem falar de Little Nightmares. O primeiro jogo do desenvolvedor Tarsier desde que saiu da série que o colocou no mapa (a parte três foi tratada em outro lugar com resultados medianos) é tão Little Nightmares codificado...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/reanimal-review"
-    },
-    {
-      "id": "https://www.eurogamer.net/hellraiser-love-story-trailer",
-      "title": "Hellraiser: Revival ganha um novo trailer de “história de amor” bem a tempo para o Dia dos Namorados",
-      "original_title": "Hellraiser: Revival gets a new \"love story\" trailer just in time for Valentine's Day",
-      "image": "https://assetsio.gnwcdn.com/Hellraiser_Pinhead.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-02-11",
-      "summary": "No verão passado, prometeram-nos que o primeiro videogame Hellraiser, de alguma forma, não era um multiplayer online assimétrico. Em vez disso, a editora e desenvolvedora Sabre Interactive confirmou que era uma aventura de terror em primeira pessoa baseada em uma história. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/hellraiser-love-story-trailer"
-    },
-    {
-      "id": "https://www.techpowerup.com/346258/fortnite-the-latest-to-demand-secure-boot-and-tpm-for-anti-cheat",
-      "title": "Fortnite, o mais recente a exigir inicialização segura e TPM para anti-cheat",
-      "original_title": "Fortnite the Latest To Demand Secure Boot and TPM for Anti-Cheat",
-      "image": "https://tpucdn.com/img/M3L96fVvpZGXSZiq_thm.jpg",
+      "id": "https://www.techpowerup.com/346338/star-wars-galactic-racer-gets-first-gameplay-trailer-at-sonys-state-of-play",
+      "title": "(PR) Star Wars: Galactic Racer ganha primeiro trailer de gameplay no State of Play da Sony",
+      "original_title": "(PR) Star Wars: Galactic Racer Gets First Gameplay Trailer at Sony's State of Play",
+      "image": "https://tpucdn.com/img/aLpIWWlJfOQElv35_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-02-11",
-      "summary": "O movimento mais recente na luta contínua da Epic Games contra trapaceiros em Fortnite vê a gigante dos jogos implementar segurança em nível de hardware na implementação do Easy Anti-Cheat, pelo menos para aqueles jogadores que desejam participar de torneios. A partir de 18 de fevereiro...",
+      "date": "2026-02-13",
+      "summary": "Atenção todos os pilotos! A transmissão State of Play da Sony revelou uma visão exclusiva de Star Wars: Galactic Racer - com um dos pilotos de podracer mais amados da galáxia acelerando seus motores. Dê uma olhada! Resolutos pilotos de repulsorcraft atravessam ...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/346258/fortnite-the-latest-to-demand-secure-boot-and-tpm-for-anti-cheat"
+      "url": "https://www.techpowerup.com/346338/star-wars-galactic-racer-gets-first-gameplay-trailer-at-sonys-state-of-play"
     }
   ]
 }
