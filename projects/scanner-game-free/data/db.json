@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-02-18T13:04:48",
-  "display_date": "18/02/2026 13:04",
+  "last_updated": "2026-02-19T13:06:23",
+  "display_date": "19/02/2026 13:06",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "1409ms",
+    "latency": "210ms",
     "current_games": [
       {
         "title": "The Darkside Detective A Fumble in the Dark",
@@ -36,20 +36,20 @@
         "end_date": "2026-04-13T15:00:00.000Z"
       },
       {
-        "title": "STALCRAFT: X Starter Edition",
-        "description": "STALCRAFT: X é um MMOFPS gratuito com elementos de RPG.\n\nComece a explorar o mundo da Zona com um Starter Pack. Inclui tudo que você precisa para seus ataques iniciais: um Premium de 7 dias, armas, armaduras, artefatos e cosméticos.",
-        "image": "https://cdn1.epicgames.com/spt-assets/bed02187768e44afb05319f40660d9fa/stalcraft-x-1gxje.jpg",
-        "url": "https://store.epicgames.com/p/stalcraft-x-starter-edition",
-        "price": "$24.99",
-        "start_date": "2026-02-19T16:00:00.000Z",
-        "end_date": "2026-02-26T16:00:00.000Z"
-      },
-      {
         "title": "Return to Ash",
         "description": "“O hospital estava vazio. Silencioso e mais claro do que o normal... como acordar em um dia de neve. Mas não senti frio. Não senti muita coisa.\"",
         "image": "https://cdn1.epicgames.com/spt-assets/07c1bf7c44dc4c2e8567923f03c7d307/return-to-ash-qcdax.png",
         "url": "https://store.epicgames.com/p/return-to-ash",
         "price": "$5.99",
+        "start_date": "2026-02-19T16:00:00.000Z",
+        "end_date": "2026-02-26T16:00:00.000Z"
+      },
+      {
+        "title": "STALCRAFT: X Starter Edition",
+        "description": "STALCRAFT: X é um MMOFPS gratuito com elementos de RPG.\n\nComece a explorar o mundo da Zona com um Starter Pack. Inclui tudo que você precisa para seus ataques iniciais: um Premium de 7 dias, armas, armaduras, artefatos e cosméticos.",
+        "image": "https://cdn1.epicgames.com/spt-assets/bed02187768e44afb05319f40660d9fa/stalcraft-x-1gxje.jpg",
+        "url": "https://store.epicgames.com/p/stalcraft-x-starter-edition",
+        "price": "$24.99",
         "start_date": "2026-02-19T16:00:00.000Z",
         "end_date": "2026-02-26T16:00:00.000Z"
       }
@@ -65,7 +65,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-02-18",
+      "date": "2026-02-19",
       "summary": "Junte-se ao Detetive McQueen enquanto ele resolve 6 casos, arriscando a vida e o membro pixelizado para resolver os mistérios macabros que assolam a pobre cidade.",
       "sources": [
         "Epic Games Store"
@@ -80,7 +80,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-02-18",
+      "date": "2026-02-19",
       "summary": "Perca-se no mundo distópico de Nova York, 2329. Nesta história noir interativa, lidere a investigação usando tecnologia avançada como o detetive James Karra, que arrisca tudo na perseguição de um serial killer que tem como alvo a elite da cidade.",
       "sources": [
         "Epic Games Store"
@@ -95,27 +95,12 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-02-18",
+      "date": "2026-02-19",
       "summary": "Disponível gratuitamente a partir de 30/03. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/monument-valley-02"
-    },
-    {
-      "id": "https://store.epicgames.com/p/stalcraft-x-starter-edition",
-      "title": "EM BREVE: STALCRAFT: X Starter Edition",
-      "original_title": "STALCRAFT: X Starter Edition",
-      "image": "https://cdn1.epicgames.com/spt-assets/bed02187768e44afb05319f40660d9fa/stalcraft-x-1gxje.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-02-18",
-      "summary": "Disponível gratuitamente a partir de 19/02. STALCRAFT: X é um MMOFPS gratuito com elementos de RPG.\n\nComece a explorar o mundo da Zona com um Starter Pack. Inclui tudo que você precisa para seus ataques iniciais: um Premium de 7 dias, armas, armaduras, artefatos e cosméticos.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/stalcraft-x-starter-edition"
     },
     {
       "id": "https://store.epicgames.com/p/return-to-ash",
@@ -125,7 +110,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-02-18",
+      "date": "2026-02-19",
       "summary": "Disponível gratuitamente a partir de 19/02. “O hospital estava vazio. Silencioso e mais claro do que o normal... como acordar em um dia de neve. Mas não senti frio. Não senti muita coisa.\"",
       "sources": [
         "Epic Games Store"
@@ -133,139 +118,154 @@
       "url": "https://store.epicgames.com/p/return-to-ash"
     },
     {
-      "id": "https://www.eurogamer.net/souji-souai-love-is-a-free-cleaning-products-idols-visual-novel",
-      "title": "Quer jogar um romance visual de 20 minutos estrelado por ídolos que também são produtos de limpeza? Sim? Então Souji Souai LOVE é para você",
-      "original_title": "Want to play a 20-minute visual novel starring idols who also happen to be cleaning products? Yes? Then Souji Souai LOVE is for you",
-      "image": "https://assetsio.gnwcdn.com/Souji-Souai-LOVE-character.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://store.epicgames.com/p/stalcraft-x-starter-edition",
+      "title": "EM BREVE: STALCRAFT: X Starter Edition",
+      "original_title": "STALCRAFT: X Starter Edition",
+      "image": "https://cdn1.epicgames.com/spt-assets/bed02187768e44afb05319f40660d9fa/stalcraft-x-1gxje.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-02-19",
+      "summary": "Disponível gratuitamente a partir de 19/02. STALCRAFT: X é um MMOFPS gratuito com elementos de RPG.\n\nComece a explorar o mundo da Zona com um Starter Pack. Inclui tudo que você precisa para seus ataques iniciais: um Premium de 7 dias, armas, armaduras, artefatos e cosméticos.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/stalcraft-x-starter-edition"
+    },
+    {
+      "id": "https://www.eurogamer.net/highguard-clings-to-life-with-a-content-patch",
+      "title": "“Danos à reputação já causados” – Highguard se agarra à vida com um patch de conteúdo enquanto os desenvolvedores insistem que o site está sendo considerado um problema de “baixa prioridade”",
+      "original_title": "\"Reputational damage already done\" - Highguard clings to life with a content patch as devs insist website going down a \"low priority\" problem",
+      "image": "https://assetsio.gnwcdn.com/highguard-update.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-02-18",
-      "summary": "Hoje, em Notícias que eu não esperava escrever, trago para vocês Souji Souai LOVE, um jogo gratuito da gigante química e cosmética Kao Corporation que estrela ídolos, apenas os ídolos são produtos de limpeza. Tipo... suas cabeças são garrafas de detergente e outros...",
+      "date": "2026-02-19",
+      "summary": "O atirador PvP em dificuldades Highguard continua vivo, enquanto o desenvolvedor Wildlight lança uma nova atualização de conteúdo e garante aos fãs preocupados que sinais ameaçadores como o site do jogo ficando offline são problemas de “baixa prioridade”. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/souji-souai-love-is-a-free-cleaning-products-idols-visual-novel"
+      "url": "https://www.eurogamer.net/highguard-clings-to-life-with-a-content-patch"
     },
     {
-      "id": "https://www.eurogamer.net/marathon-isnt-just-favouring-playstation-players-with-exclusive-cosmetics-xbox-and-steam-players-promised-bonus-loot-too",
-      "title": "Marathon não está apenas favorecendo os jogadores de PlayStation com cosméticos exclusivos; Os jogadores do Xbox e Steam também prometeram saques bônus",
-      "original_title": "Marathon isn't just favouring PlayStation players with exclusive cosmetics; Xbox and Steam players promised bonus loot, too",
-      "image": "https://assetsio.gnwcdn.com/marathon-bungie_5UWu4c4.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/guy-mowbray-let-ea-create-an-ai-voice-double-to-help-in-ea-sports-fc",
+      "title": "O comentarista de futebol Guy Mowbray permitiu que a EA criasse um dublê de voz de IA para ajudar a ler os 20.000 nomes de jogadores no EA Sports FC",
+      "original_title": "Football commentator Guy Mowbray let EA create an AI voice double to help read out the 20,000 player names in EA Sports FC",
+      "image": "https://assetsio.gnwcdn.com/guy-mowbray-ea-sports-fc.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-02-18",
-      "summary": "Depois de exibir uma seleção de amuletos exclusivos do PlayStation para armas do jogo, a conta de mídia social da Marathon indicou que amuletos semelhantes chegarão a outras plataformas, como PC e Xbox. Leia mais...",
+      "date": "2026-02-19",
+      "summary": "O comentarista de futebol do Jogo do Dia, Guy Mowbray, revelou que deu permissão à EA para criar um clone de voz de IA de si mesmo, a fim de ajudar em alguns dos aspectos mais onerosos da gravação de comentários para o EA Sports FC.\n Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/marathon-isnt-just-favouring-playstation-players-with-exclusive-cosmetics-xbox-and-steam-players-promised-bonus-loot-too"
+      "url": "https://www.eurogamer.net/guy-mowbray-let-ea-create-an-ai-voice-double-to-help-in-ea-sports-fc"
     },
     {
-      "id": "https://www.eurogamer.net/pokemon-pokopia-recruited-dragon-quest-builders-vets-after-strong-initial-pitch",
-      "title": "A arma secreta do Pokémon Pokopia? Criativos do Dragon Quest Builders 2 que decidiram que poderiam “contribuir” para a ideia original da Game Freak",
-      "original_title": "Pokémon Pokopia's secret weapon? Dragon Quest Builders 2 creatives who decided they could \"contribute\" to Game Freak's original idea",
-      "image": "https://assetsio.gnwcdn.com/New-Project-(35).jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/todd-howard-squashes-starfield-update-excitement",
+      "title": "\"Não é Starfield 2.0\" - Todd Howard esmaga a empolgação com a atualização de Starfield, mas insiste que o trabalho no jogo espacial não vai parar \"por um tempo\"",
+      "original_title": "\"It is not Starfield 2.0\" - Todd Howard squashes Starfield update excitement, but insists work on the space game will not stop \"for a while\"",
+      "image": "https://assetsio.gnwcdn.com/todd-howard-starfield.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-02-18",
-      "summary": "Pokémon Pokopia está quase chegando e estamos confiantes de que pode ser um sucesso, especialmente depois de sabermos que servidores persistentes do tipo Minecraft fazem parte do jogo. Agora só esperamos que ele cumpra todas as suas promessas quando for lançado em 5 de março. Quero pegar mais...",
+      "date": "2026-02-19",
+      "summary": "O chefe da Bethesda Game Studios, Todd Howard, destruiu a esperança de uma grande reforma do Starfield ao afirmar que a tão esperada atualização em desenvolvimento “não é o Starfield 2.0”. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/pokemon-pokopia-recruited-dragon-quest-builders-vets-after-strong-initial-pitch"
+      "url": "https://www.eurogamer.net/todd-howard-squashes-starfield-update-excitement"
     },
     {
-      "id": "https://www.eurogamer.net/avowed-was-overlooked-its-a-double-a-blast-of-gaming-sunshine",
-      "title": "Confessado foi esquecido – é uma explosão de sol para jogos duplo A",
-      "original_title": "Avowed was overlooked - it's a double-A blast of gaming sunshine",
-      "image": "https://assetsio.gnwcdn.com/New-Project-(32).jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/those-monster-hunter-wilds-on-switch-2-rumours-refuse-to-go-away-new-datamined-evidence-adds-fuel-to-the-fire",
+      "title": "Esses rumores de Monster Hunter Wilds no Switch 2 se recusam a desaparecer, novas evidências datadas adicionam lenha ao fogo",
+      "original_title": "Those Monster Hunter Wilds on Switch 2 rumours refuse to go away, new datamined evidence adds fuel to the fire",
+      "image": "https://assetsio.gnwcdn.com/mhw-switch-2.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Rumor",
+      "date": "2026-02-19",
+      "summary": "Você tem uma sensação de déjà vu? Porque os dataminers acreditam ter descoberto mais evidências de que Monster Hunter Wilds pode estar chegando ao Nintendo Switch 2 – uma frase que já digitamos aqui na Eurogamer no ano de 2026. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/those-monster-hunter-wilds-on-switch-2-rumours-refuse-to-go-away-new-datamined-evidence-adds-fuel-to-the-fire"
+    },
+    {
+      "id": "https://www.eurogamer.net/get-a-tease-of-marathons-ost-with-four-tracks-that-are-heading-to-streaming-platforms-ahead-of-bungie-games-march-release",
+      "title": "Veja uma amostra da OST de Marathon com quatro faixas que estão indo para plataformas de streaming antes do lançamento do jogo da Bungie em março",
+      "original_title": "Get a tease of Marathon's OST with four tracks that are heading to streaming platforms ahead of Bungie game's March release",
+      "image": "https://assetsio.gnwcdn.com/New-Project-(28).jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-02-18",
-      "summary": "Eu sinto por Confesso. É um pouco como um atleta que vai a uma Olimpíada e chega à final, mas não fica classificado. É uma grande conquista, um sucesso para os padrões de muitas pessoas, mas a história não se importa. Leia mais...",
+      "date": "2026-02-19",
+      "summary": "A Bungie está enviando quatro faixas da trilha sonora oficial da Maratona para as principais plataformas de streaming de música ainda hoje, na preparação para o lançamento do jogo em 5 de março. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/avowed-was-overlooked-its-a-double-a-blast-of-gaming-sunshine"
+      "url": "https://www.eurogamer.net/get-a-tease-of-marathons-ost-with-four-tracks-that-are-heading-to-streaming-platforms-ahead-of-bungie-games-march-release"
     },
     {
-      "id": "https://www.eurogamer.net/crimson-desert-is-fully-voiced-by-actual-human-people",
-      "title": "Em um mundo cada vez mais repleto de IA, é revigorante saber que Crimson Desert é totalmente dublado por pessoas humanas reais",
-      "original_title": "In an increasingly AI-filled world, it's refreshing to learn Crimson Desert is fully voiced by actual, human people",
-      "image": "https://assetsio.gnwcdn.com/Crimson-Desert_Screenshot_07.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/the-majority-of-people-who-made-skyrim-are-still-here-bethesda-boss-on-why-the-elder-scrolls-6-will-be-more-like-skyrim-or-oblivion-than-starfield",
+      "title": "“A maioria das pessoas que fizeram Skyrim ainda estão aqui” Chefe da Bethesda explica por que The Elder Scrolls 6 será mais parecido com Skyrim ou Oblivion do que Starfield",
+      "original_title": "\"The majority of people who made Skyrim are still here\" Bethesda boss on why The Elder Scrolls 6 will be more like Skyrim or Oblivion than Starfield",
+      "image": "https://assetsio.gnwcdn.com/howard-es6.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-02-18",
-      "summary": "Crimson Desert será totalmente dublado por humanos, garantiu o diretor de marketing da Pearl Abyss em uma entrevista recente. Leia mais...",
+      "date": "2026-02-19",
+      "summary": "Parece que ouvimos muito sobre o misterioso e próximo RPG da Bethesda, The Elder Scrolls 6, recentemente. A editora tem sido muito discreta sobre o jogo, do qual começamos a ouvir falar em 2018, nos últimos oito anos. Uma vez tivemos um...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/crimson-desert-is-fully-voiced-by-actual-human-people"
+      "url": "https://www.eurogamer.net/the-majority-of-people-who-made-skyrim-are-still-here-bethesda-boss-on-why-the-elder-scrolls-6-will-be-more-like-skyrim-or-oblivion-than-starfield"
     },
     {
-      "id": "https://www.eurogamer.net/skyrim-switch-2-port-gets-proper-performance-and-quality-modes",
-      "title": "A porta Nintendo Switch 2 do Skyrim obtém modos adequados de desempenho e qualidade, finalmente consertando a bagunça que estava no lançamento",
-      "original_title": "Skyrim's Nintendo Switch 2 port gets proper Performance and Quality modes, finally fixing the mess it was at launch",
-      "image": "https://assetsio.gnwcdn.com/Skyrim-Switch-2-vampire-lord.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/subnautica-one-of-the-best-survival-games-ever-just-got-a-free-switch-2-upgrade",
+      "title": "Subnautica, um dos melhores jogos de sobrevivência de todos os tempos, acaba de receber uma atualização gratuita do Switch 2 e vale a pena retornar",
+      "original_title": "Subnautica, one of the best survival games ever, just got a free Switch 2 upgrade, and it's well worth a return",
+      "image": "https://assetsio.gnwcdn.com/subnautica-switch-2.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-02-18",
-      "summary": "The Elder Scrolls V: Skyrim recebendo uma versão nativa do Nintendo Switch 2 era um daqueles acéfalos que esperávamos ver assim que o console fosse lançado, mas demorou mais do que alguns meses para chegar e, quando finalmente chegou, estava uma bagunça. O que acontece...",
+      "date": "2026-02-19",
+      "summary": "Existe um som mais assustador nos videogames do que o rugido de um Reaper Leviathan ou o gorgolejo irritado de um Crashfish quando ele repentinamente torpedeia em sua direção vindo de sombras invisíveis? Quero dizer, sim, provavelmente - mas esse não é o ponto. Toda vez que eu escorrego...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/skyrim-switch-2-port-gets-proper-performance-and-quality-modes"
+      "url": "https://www.eurogamer.net/subnautica-one-of-the-best-survival-games-ever-just-got-a-free-switch-2-upgrade"
     },
     {
-      "id": "https://www.eurogamer.net/monster-hunter-wilds-patch-1-041-final-update-full",
-      "title": "Monster Hunter Wilds acaba de receber sua atualização final (até o DLC, pelo menos) e é bastante significativo: aqui estão as notas completas do patch",
-      "original_title": "Monster Hunter Wilds just got its final update (until the DLC, at least) and it's pretty significant: here are the full patch notes",
-      "image": "https://assetsio.gnwcdn.com/arkveld-mh-wilds.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-02-18",
-      "summary": "Certo, espero que você esteja pronto para sentar e se concentrar em uma versão do jogo por um tempo, porque Monster Hunter Wilds acabou de receber o patch 1.041 – o último patch até o DLC – e é bastante robusto. Aperte o cinto. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/monster-hunter-wilds-patch-1-041-final-update-full"
-    },
-    {
-      "id": "https://www.eurogamer.net/highguard-developer-wildlight-entertainment-reportedly-funded-by-tencent",
-      "title": "A desenvolvedora Highguard, Wildlight Entertainment, supostamente financiada pela Tencent, embora a escala desse financiamento permaneça um mistério",
-      "original_title": "Highguard developer Wildlight Entertainment reportedly funded by Tencent, though the scale of this funding remains a mystery",
-      "image": "https://assetsio.gnwcdn.com/highguard-headline_GkemxgH.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-02-18",
-      "summary": "Um novo relatório revelou que Wildlight Entertainment, o estúdio por trás do malfadado jogo de tiro em primeira pessoa Highguard, foi financiado pelo grupo de estúdios Tencent TiMi. O âmbito total deste financiamento, a sua ligação, se houver, com despedimentos recentes e a razão para ...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/highguard-developer-wildlight-entertainment-reportedly-funded-by-tencent"
-    },
-    {
-      "id": "https://www.techpowerup.com/346503/nvidia-sells-remaining-usd-140-million-stake-in-arm-keeps-licensing-ties",
-      "title": "NVIDIA vende participação restante de US$ 140 milhões e mantém vínculos de licenciamento",
-      "original_title": "NVIDIA Sells Remaining $140 Million Stake in Arm, Keeps Licensing Ties",
-      "image": "https://tpucdn.com/img/6zNdrLAmZwtvBurG_thm.jpg",
+      "id": "https://www.techpowerup.com/346548/agon-by-aoc-announces-aoc-gaming-q27g4zd-qd-oled-monitor",
+      "title": "(PR) AGON by AOC Anuncia Monitor AOC Gaming Q27G4ZD QD-OLED",
+      "original_title": "(PR) AGON by AOC Announces AOC Gaming Q27G4ZD QD-OLED Monitor",
+      "image": "https://tpucdn.com/img/XdRAwwO4zchHravK_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-02-18",
-      "summary": "Outrora alvo da maior aquisição da indústria que foi interrompida pelos reguladores de mercado, a NVIDIA alienou oficialmente todas as suas participações na Arm Holdings PLC com a venda de 1,1 milhão de ações, avaliadas em cerca de US$ 140 milhões no momento em que este artigo foi escrito. Importante...",
+      "date": "2026-02-19",
+      "summary": "AGON by AOC, marca líder mundial de monitores para jogos, lança AOC GAMING Q27G4ZD, um monitor para jogos QHD de 27 polegadas (68,6 cm) que traz a tecnologia QD-OLED de 3ª geração a um novo e atraente preço. Com taxa de atualização de 280 Hz, resposta GtG de 0,03 ms...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/346503/nvidia-sells-remaining-usd-140-million-stake-in-arm-keeps-licensing-ties"
+      "url": "https://www.techpowerup.com/346548/agon-by-aoc-announces-aoc-gaming-q27g4zd-qd-oled-monitor"
+    },
+    {
+      "id": "https://www.techpowerup.com/346547/alphacool-announces-core-70-tube-reservoir-with-apex-pump",
+      "title": "(PR) Alphacool Anuncia Reservatório de Tubos Core 70 com Bomba Apex",
+      "original_title": "(PR) Alphacool Announces Core 70 Tube Reservoir with Apex Pump",
+      "image": "https://tpucdn.com/img/M49rMEGZCd2BbCPE_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-02-19",
+      "summary": "Alphacool International GmbH de Braunschweig é pioneira na tecnologia de refrigeração líquida para PCs. Com um dos portfólios de produtos mais abrangentes do setor e mais de 20 anos de experiência, a Alphacool está agora expandindo seu portfólio com o Core ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/346547/alphacool-announces-core-70-tube-reservoir-with-apex-pump"
     },
     {
       "id": "https://www.techpowerup.com/346235/from-steam-to-reddit-how-much-personal-data-hardcore-pc-users-leak-without-realizing-it",
@@ -275,162 +275,162 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Rumor",
-      "date": "2026-02-18",
-      "summary": "Os usuários hardcore de PC tendem a pensar no risco à privacidade como algo que acontece com outras pessoas: os descuidados, os que gostam de clicar, aqueles que reutilizam senhas ou caem em golpes óbvios. Os usuários avançados, por outro lado, otimizam. Eles ajustam as configurações do BIOS, benchmark ...",
+      "date": "2026-02-19",
+      "summary": "Os usuários hardcore de PC tendem a pensar no risco de privacidade como algo que acontece com outras pessoas: os descuidados, os que gostam de clicar, aqueles que reutilizam senhas ou caem em golpes óbvios. Os usuários avançados, por outro lado, otimizam. Eles ajustam as configurações do BIOS, benchmark ...",
       "sources": [
         "TechPowerUp"
       ],
       "url": "https://www.techpowerup.com/346235/from-steam-to-reddit-how-much-personal-data-hardcore-pc-users-leak-without-realizing-it"
     },
     {
-      "id": "https://www.techpowerup.com/346502/teamspeak-reports-massive-surge-of-new-users-following-discord-verification-requirement",
-      "title": "TeamSpeak relata grande aumento de novos usuários após o requisito de verificação de discórdia",
-      "original_title": "TeamSpeak Reports Massive Surge of New Users Following Discord Verification Requirement",
-      "image": "https://tpucdn.com/img/vQ9oE0AppgyDgeXx_thm.jpg",
+      "id": "https://www.techpowerup.com/346546/microsoft-shows-ai-integration-in-windows-11-running-in-task-bar-and-file-explorer",
+      "title": "Microsoft mostra integração de IA no Windows 11 em execução na barra de tarefas e no File Explorer",
+      "original_title": "Microsoft Shows AI Integration in Windows 11 Running in Task Bar and File Explorer",
+      "image": "https://tpucdn.com/img/w9QsgmWpBVUDSOrk_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-02-19",
+      "summary": "A Microsoft apresentou seus mais recentes recursos de IA no sistema operacional Windows 11, demonstrando como será essa integração planejada. A nova interface, chamada \"Ask Copilot\", é um recurso opcional que os usuários podem ativar no lugar do s...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/346546/microsoft-shows-ai-integration-in-windows-11-running-in-task-bar-and-file-explorer"
+    },
+    {
+      "id": "https://www.techpowerup.com/346543/xbox-insiders-on-pc-now-preview-postgame-recaps-in-the-xbox-app",
+      "title": "Xbox Insiders no PC agora visualizam recapitulações pós-jogo no aplicativo Xbox",
+      "original_title": "Xbox Insiders on PC Now Preview Postgame Recaps in the Xbox App",
+      "image": "https://tpucdn.com/img/wwTS4Yg5oQw29ydC_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-02-19",
+      "summary": "O programa Xbox Insider da Microsoft permite que os jogadores experimentem as mais novas tecnologias, atualizações de software e melhorias gerais relacionadas ao Xbox. Hoje, os Xbox Insiders estão recebendo uma atualização para seu aplicativo Xbox no Windows 11 que permite aos usuários acessar a memória pós-jogo...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/346543/xbox-insiders-on-pc-now-preview-postgame-recaps-in-the-xbox-app"
+    },
+    {
+      "id": "https://www.techpowerup.com/346541/asus-launches-proart-kd300-65-low-profile-mechanical-keyboard-with-16-months-battery",
+      "title": "ASUS lança teclado mecânico ProArt KD300 65% de baixo perfil com bateria de “16 meses”",
+      "original_title": "ASUS Launches ProArt KD300 65% Low-Profile Mechanical Keyboard With \"16 Months\" Battery",
+      "image": "https://tpucdn.com/img/WshW4EhycHfqa5fS_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-02-19",
+      "summary": "A ASUS conhece bem os teclados para jogos, mas seus esforços anteriores de mecânica e efeito Hall se concentraram principalmente no mundo dos jogos. Com o lançamento do ProArt KD300, a ASUS parece ter como alvo o grupo demográfico de criadores e trabalhadores de escritório que...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/346541/asus-launches-proart-kd300-65-low-profile-mechanical-keyboard-with-16-months-battery"
+    },
+    {
+      "id": "https://www.techpowerup.com/346539/godot-dev-laments-increasing-ai-slop-code",
+      "title": "Godot Dev lamenta aumento do código “AI Slop”",
+      "original_title": "Godot Dev Laments Increasing \"AI Slop\" Code",
+      "image": "https://tpucdn.com/img/ibTCo9dMJHTfELPN_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-02-19",
+      "summary": "Rémi Verschelde, mantenedor do projeto de motor de jogo Godot de código aberto, recentemente recorreu à Bluesky para expressar suas frustrações com a carga adicional colocada sobre os mantenedores e desenvolvedores de projetos de código aberto pela prática cada vez mais comum de su...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/346539/godot-dev-laments-increasing-ai-slop-code"
+    },
+    {
+      "id": "https://www.eurogamer.net/call-of-duty-ad-banned-by-uk-regulator-after-investigation-determined-it-trivialised-sexual-violence",
+      "title": "Anúncio de Call of Duty banido pelo regulador do Reino Unido depois que uma investigação determinou que ele “banalizava a violência sexual”",
+      "original_title": "Call of Duty ad banned by UK regulator after investigation determined it \"trivialised sexual violence\"",
+      "image": "https://assetsio.gnwcdn.com/call-of-duty-black-ops-7-banned-ad.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-02-18",
+      "summary": "Um anúncio lançado para promover Call of Duty: Black Ops 7 foi banido depois que a Autoridade de Padrões de Publicidade do Reino Unido confirmou as queixas de que “banalizava a violência sexual” após uma investigação.\n Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/call-of-duty-ad-banned-by-uk-regulator-after-investigation-determined-it-trivialised-sexual-violence"
+    },
+    {
+      "id": "https://www.eurogamer.net/silent-hill-townfall-looks-to-be-a-ps5-console-launch-exclusive-according-to-official-website",
+      "title": "Silent Hill: Townfall parece ser um lançamento exclusivo do console PS5, de acordo com o site oficial",
+      "original_title": "Silent Hill: Townfall looks to be a PS5 console launch exclusive, according to official website",
+      "image": "https://assetsio.gnwcdn.com/silent-hill-townfall_qk4p7AE.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-02-18",
+      "summary": "Silent Hill: Townfall, a próxima entrada na lendária série de terror da Konami, parece ser um lançamento de console exclusivo no PlayStation 5. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/silent-hill-townfall-looks-to-be-a-ps5-console-launch-exclusive-according-to-official-website"
+    },
+    {
+      "id": "https://www.eurogamer.net/the-witcher-1-lead-story-designer-talks-final-cg-cutscene",
+      "title": "“Não estávamos realmente prestando atenção” O designer-chefe da história de The Witcher revela por que a cena final em CG do primeiro jogo não envolveu a equipe da história",
+      "original_title": "\"We weren't really paying attention\" The Witcher's lead story designer reveals why the first game's final CG cutscene didn't involve the story team",
+      "image": "https://assetsio.gnwcdn.com/Witcher-1_ending-CG-cutscene.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-02-18",
+      "summary": "O tão esperado remake do primeiro jogo Witcher está aparentemente em segundo plano, já que a CD Projekt Red supostamente adicionou o estúdio de suporte Fool's Theory ao enorme esforço de desenvolvimento de The Witcher 4. Além disso, tem havido rumores recorrentes de ...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/the-witcher-1-lead-story-designer-talks-final-cg-cutscene"
+    },
+    {
+      "id": "https://www.techpowerup.com/346535/rocket-league-to-get-linux-compatible-easy-anti-cheat-in-upcoming-update",
+      "title": "Rocket League obterá Easy Anti-Cheat compatível com Linux na próxima atualização",
+      "original_title": "Rocket League To Get Linux-Compatible Easy Anti-Cheat in Upcoming Update",
+      "image": "https://tpucdn.com/img/66prHlrIhhxQxt0P_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-02-18",
-      "summary": "Após a introdução do Discord de identificação digital e requisitos de digitalização facial para alguns servidores online, muitos usuários começaram a explorar plataformas de comunicação alternativas. Como resultado, o conhecido software TeamSpeak passou por um impacto significativo...",
+      "summary": "Rocket League, o popular jogo competitivo de futebol veicular, em breve receberá uma implementação anti-cheat, quase uma década após seu lançamento original. A Psyonix anunciou na conta X oficial do jogo que implementaria o Easy Anti-Che...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/346502/teamspeak-reports-massive-surge-of-new-users-following-discord-verification-requirement"
+      "url": "https://www.techpowerup.com/346535/rocket-league-to-get-linux-compatible-easy-anti-cheat-in-upcoming-update"
     },
     {
-      "id": "https://www.eurogamer.net/unreal-tournament-2004-is-now-free-as-fans-revive-and-release-it-with-epics-blessing",
-      "title": "O jogo de tiro clássico Unreal Tournament 2004 agora é gratuito enquanto os fãs o revivem e lançam com a bênção da Epic",
-      "original_title": "Classic shooter Unreal Tournament 2004 is now free as fans revive and release it with Epic's blessing",
-      "image": "https://assetsio.gnwcdn.com/unreal-tournament-2004-header.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Epic News",
-      "date": "2026-02-17",
-      "summary": "O clássico jogo de tiro em arena Unreal Tournament 2004 ressuscitou do túmulo e agora está disponível para download gratuito, tudo graças a um grupo dedicado de fãs que trabalham com a bênção do desenvolvedor Epic Games. E o resultado de tudo isso é a tão amada arena...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/unreal-tournament-2004-is-now-free-as-fans-revive-and-release-it-with-epics-blessing"
-    },
-    {
-      "id": "https://www.eurogamer.net/soulframe-overhauls-player-progression-in-latest-alpha-test-adds-intuitive-level-up-system",
-      "title": "Soulframe revisa a progressão do jogador no último teste alfa, adiciona sistema de subida de nível “intuitivo”",
-      "original_title": "Soulframe overhauls player progression in latest alpha test, adds \"intuitive\" level up system",
-      "image": "https://assetsio.gnwcdn.com/soulframe-trailer-still.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-02-17",
-      "summary": "Soulframe, o próximo RPG de ação e fantasia da Digital Extremes, reformulou totalmente seu sistema de progressão como parte da última atualização alfa do Preludes. Considerando que antes o progresso do jogador envolvia um sistema de habilidade mais tradicional, um sistema mais intuitivo...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/soulframe-overhauls-player-progression-in-latest-alpha-test-adds-intuitive-level-up-system"
-    },
-    {
-      "id": "https://www.techpowerup.com/346494/blind-testing-shows-gamers-prefer-nvidia-dlss-4-5-over-native-resolution-rendering-and-amd-fsr-4",
-      "title": "Teste cego mostra que os jogadores preferem NVIDIA DLSS 4.5 em vez de renderização de resolução nativa e AMD FSR 4",
-      "original_title": "Blind Testing Shows Gamers Prefer NVIDIA DLSS 4.5 Over Native Resolution Rendering and AMD FSR 4",
-      "image": "https://tpucdn.com/img/DvYMOERj6t2Vhf4a_thm.jpg",
+      "id": "https://www.techpowerup.com/346526/wildlight-says-downed-highguard-site-due-to-increased-focus-on-new-content",
+      "title": "Wildlight afirma que site Highguard foi derrubado devido ao maior foco em novos conteúdos",
+      "original_title": "Wildlight Says Downed Highguard Site Due to Increased Focus on New Content",
+      "image": "https://tpucdn.com/img/IEBpjOsnhsJngbMv_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-02-17",
-      "summary": "A ComputerBase conduziu um enorme teste cego online, permitindo que milhares de jogadores votassem em sua saída de vídeo de jogo preferida. As opções incluíam o mais recente Deep Learning Super Sampling 4.5 da NVIDIA, FSR Upscaling AI da AMD com FSR 4 no Radeon RX 9000 ...",
+      "date": "2026-02-18",
+      "summary": "Os jogadores da Highguard notaram recentemente que o site oficial do jogo estava offline, levando a especulações generalizadas de que o jogo em dificuldades estava sendo encerrado silenciosamente logo após o estúdio demitir \"a maior parte\" de sua equipe de desenvolvimento. Porém, de acordo com...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/346494/blind-testing-shows-gamers-prefer-nvidia-dlss-4-5-over-native-resolution-rendering-and-amd-fsr-4"
+      "url": "https://www.techpowerup.com/346526/wildlight-says-downed-highguard-site-due-to-increased-focus-on-new-content"
     },
     {
-      "id": "https://www.techpowerup.com/346493/meta-partners-with-nvidia-to-deploy-millions-of-blackwell-and-rubin-gpus",
-      "title": "(PR) Meta faz parceria com NVIDIA para implantar milhões de GPUs Blackwell e Rubin",
-      "original_title": "(PR) Meta Partners with NVIDIA to Deploy Millions of Blackwell and Rubin GPUs",
-      "image": "https://tpucdn.com/img/phArhp0hrI7PP6EC_thm.jpg",
+      "id": "https://www.techpowerup.com/346531/dell-launches-pair-of-affordable-27-inch-240-hz-gaming-monitors",
+      "title": "Dell lança par de monitores de jogos acessíveis de 27 polegadas e 240 Hz",
+      "original_title": "Dell Launches Pair of Affordable 27-inch 240 Hz Gaming Monitors",
+      "image": "https://tpucdn.com/img/C5gBCnoQVLG4zFNZ_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-02-17",
-      "summary": "A NVIDIA anunciou hoje uma parceria estratégica plurianual e multigeracional com a Meta, abrangendo infraestrutura local, em nuvem e de IA. A Meta construirá data centers em hiperescala otimizados para treinamento e inferência em apoio à longa...",
+      "date": "2026-02-18",
+      "summary": "Considerando que quase tudo relacionado a PC parece estar subindo de preço este ano, a Dell surpreendeu com um par de monitores de jogos de 240 Hz muito acessíveis. Os dois modelos são o SE2726HG e o SE2726HGS, ambos com painéis IPS de 27 polegadas. O não, então vá...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/346493/meta-partners-with-nvidia-to-deploy-millions-of-blackwell-and-rubin-gpus"
-    },
-    {
-      "id": "https://www.techpowerup.com/346488/latest-intel-gpu-drivers-seem-to-prolong-arc-a770-cards-modern-day-prospects",
-      "title": "Os drivers de GPU Intel mais recentes parecem prolongar as perspectivas modernas da placa Arc A770",
-      "original_title": "Latest Intel GPU Drivers Seem to Prolong Arc A770 Card's Modern-day Prospects",
-      "image": "https://tpucdn.com/img/IWegfYOqzLrk26Yy_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-02-17",
-      "summary": "O lançamento desta semana do pacote de driver Intel Arc 32.0.101.8509 WHQL beneficiou muitas das linhas de produtos gráficos internos da empresa. As gerações atuais e anteriores de hardware estão aproveitando o XeSS 3 com suporte para geração de vários quadros (MFG). Cedo...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/346488/latest-intel-gpu-drivers-seem-to-prolong-arc-a770-cards-modern-day-prospects"
-    },
-    {
-      "id": "https://www.techpowerup.com/346491/blizzard-entertainment-president-hints-about-massive-upcoming-announcements",
-      "title": "(PR) Presidente da Blizzard Entertainment dá dicas sobre os próximos anúncios “massivos”",
-      "original_title": "(PR) Blizzard Entertainment President Hints About \"Massive\" Upcoming Announcements",
-      "image": "https://tpucdn.com/img/lDmT57jkj1QDj7qL_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-02-17",
-      "summary": "Nas últimas semanas, a Blizzard tem crescido muito. O Blizzard Showcase reuniu os quatro principais títulos – Overwatch, Diablo, World of Warcraft e Hearthstone – e deu espaço para trazer suas atualizações, anúncios (e algumas surpresas!) em seu ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/346491/blizzard-entertainment-president-hints-about-massive-upcoming-announcements"
-    },
-    {
-      "id": "https://www.techpowerup.com/346489/amd-releases-ryzen-chipset-software-8-01-20-513",
-      "title": "AMD lança software de chipset Ryzen 8.01.20.513",
-      "original_title": "AMD Releases Ryzen Chipset Software 8.01.20.513",
-      "image": "https://tpucdn.com/img/KugYDFwek1WjfAgJ_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-02-17",
-      "summary": "A AMD lançou seu driver Ryzen Chipset Software versão 8.01.20.513 mais recente, que inclui correções gerais de bugs e melhorias de desempenho. Essas atualizações devem fornecer aos proprietários de CPU Ryzen algumas melhorias de qualidade de vida. No destaque do lançamento...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/346489/amd-releases-ryzen-chipset-software-8-01-20-513"
-    },
-    {
-      "id": "https://www.techpowerup.com/346485/unreal-tournament-2004-patched-to-run-on-modern-pcs-community-project-is-a-free-release",
-      "title": "Unreal Tournament 2004 corrigido para rodar em PCs modernos – Community Project é um lançamento gratuito",
-      "original_title": "Unreal Tournament 2004 Patched to Run on Modern PCs - Community Project is a Free Release",
-      "image": "https://tpucdn.com/img/eXG0ZcyJhBKAtdXp_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-02-17",
-      "summary": "Esta semana, o projeto da comunidade OldUnreal lançou a primeira atualização pública do Unreal Tournament 2004 (UT2004) em duas décadas. Em uma época passada - antes de tudo Fornite - a Epic Games e a Digital Extremes co-produziram vários títulos populares de ficção científica...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/346485/unreal-tournament-2004-patched-to-run-on-modern-pcs-community-project-is-a-free-release"
-    },
-    {
-      "id": "https://www.techpowerup.com/345912/computers-running-windows-10-arent-safe-but-windows-11-pro-is-only-usd-13-right-now-reg-usd-199",
-      "title": "Computadores que executam o Windows 10 não são seguros, mas o Windows 11 Pro custa apenas US$ 13 no momento (normalmente US$ 199)",
-      "original_title": "Computers Running Windows 10 Aren't Safe, But Windows 11 Pro Is Only $13 Right Now (Reg. $199)",
-      "image": "https://tpucdn.com/img/QtyLYNoGCFNal3Ic_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-02-17",
-      "summary": "A Microsoft encerrou o suporte para Windows 10 no ano passado e, se o seu computador ainda o estiver executando, seus dados estarão em risco. Se você deseja uma maneira fácil de atualizar, agora mesmo, você pode obter o Windows 11 Pro à venda por apenas US$ 12,97 (normalmente US$ 199). O Windows 11 Pro adiciona ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/345912/computers-running-windows-10-arent-safe-but-windows-11-pro-is-only-usd-13-right-now-reg-usd-199"
+      "url": "https://www.techpowerup.com/346531/dell-launches-pair-of-affordable-27-inch-240-hz-gaming-monitors"
     }
   ]
 }
