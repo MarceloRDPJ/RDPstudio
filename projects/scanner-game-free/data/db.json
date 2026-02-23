@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-02-22T12:51:00",
-  "display_date": "22/02/2026 12:51",
+  "last_updated": "2026-02-23T13:04:58",
+  "display_date": "23/02/2026 13:04",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "195ms",
+    "latency": "98ms",
     "current_games": [
       {
         "title": "Return to Ash",
@@ -65,7 +65,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-02-22",
+      "date": "2026-02-23",
       "summary": "“O hospital estava vazio. Silencioso e mais claro do que o normal... como acordar em um dia de neve. Mas não senti frio. Não senti muita coisa.\"",
       "sources": [
         "Epic Games Store"
@@ -80,7 +80,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-02-22",
+      "date": "2026-02-23",
       "summary": "STALCRAFT: X é um MMOFPS gratuito com elementos de RPG.\n\nComece a explorar o mundo da Zona com um Starter Pack. Inclui tudo que você precisa para seus ataques iniciais: um Premium de 7 dias, armas, armaduras, artefatos e cosméticos.",
       "sources": [
         "Epic Games Store"
@@ -95,7 +95,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-02-22",
+      "date": "2026-02-23",
       "summary": "Disponível gratuitamente a partir de 26/02. Fuja de uma luxuosa mansão cheia de misteriosas caixas de quebra-cabeças!",
       "sources": [
         "Epic Games Store"
@@ -110,7 +110,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-02-22",
+      "date": "2026-02-23",
       "summary": "Disponível gratuitamente a partir de 26/02. My Night Job envia os jogadores para um prédio abandonado e ataca hordas de monstros. Usando mais de 60 armas para se defender e salvar o maior número possível de sobreviventes. Mas cuidado: se muitas salas forem destruídas, o fim pode estar mais próximo do que você pensava inicialmente.",
       "sources": [
         "Epic Games Store"
@@ -125,7 +125,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-02-22",
+      "date": "2026-02-23",
       "summary": "Disponível gratuitamente a partir de 30/03. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
       "sources": [
         "Epic Games Store"
@@ -133,79 +133,259 @@
       "url": "https://store.epicgames.com/p/monument-valley-02"
     },
     {
-      "id": "https://www.eurogamer.net/as-ai-threatens-to-make-everything-more-expensive-are-you-happy-if-it-takes-longer-for-the-next-console-generation-to-begin",
-      "title": "Como a IA ameaça tornar tudo mais caro, você ficará feliz se demorar mais para a próxima geração de console começar?",
-      "original_title": "As AI threatens to make everything more expensive, are you happy if it takes longer for the next console generation to begin?",
-      "image": "https://assetsio.gnwcdn.com/terminator-hates-consoles.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/january-2026-us-consumer-spending-on-video-games-was-up",
+      "title": "Embora muitos desenvolvedores estejam sendo demitidos, os gastos do consumidor em jogos aumentaram em janeiro de 2026, revela novo relatório",
+      "original_title": "Even though many developers are being laid off, consumer spending in gaming was actually up in January 2026, new report reveals",
+      "image": "https://assetsio.gnwcdn.com/Black-Ops-7_gunfight.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-02-23",
+      "summary": "As vibrações estão péssimas se você trabalha perto de videogames. 2026 é mais um ano que teve um começo terrível quando se trata de demissões, cancelamentos de projetos e fechamentos de estúdios que muitas vezes não fazem o menor sentido. Apesar de tudo isso, você...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/january-2026-us-consumer-spending-on-video-games-was-up"
+    },
+    {
+      "id": "https://www.eurogamer.net/xboxs-new-head-of-gaming-has-no-tolerance-for-bad-ai-following-concerns-about-the-proliferation-of-ai-slop-and-sharmas-tech-background",
+      "title": "O novo chefe de jogos do Xbox “não tolera IA ruim”, após preocupações sobre a proliferação de resíduos de IA e a experiência tecnológica de Sharma",
+      "original_title": "Xbox's new head of gaming has \"no tolerance for bad AI\", following concerns about the proliferation of AI slop, and Sharma's tech background",
+      "image": "https://assetsio.gnwcdn.com/Asha-Sharma-from-Microsoft-Gaming-in-a-green-zip-up-jacket.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-02-23",
+      "summary": "A nova CEO de jogos da Microsoft, Asha Sharma, respondeu às preocupações em torno de sua experiência em IA, bem como à falta de funções anteriores relacionadas a jogos. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/xboxs-new-head-of-gaming-has-no-tolerance-for-bad-ai-following-concerns-about-the-proliferation-of-ai-slop-and-sharmas-tech-background"
+    },
+    {
+      "id": "https://www.eurogamer.net/elon-musks-grok-reportedly-had-an-update-delayed-thanks-to-its-lacklustre-baldurs-gate-3-knowledge",
+      "title": "Grok de Elon Musk supostamente teve uma atualização adiada graças ao seu conhecimento sem brilho do Baldur's Gate 3",
+      "original_title": "Elon Musk's Grok reportedly had an update delayed thanks to its lacklustre Baldur's Gate 3 knowledge",
+      "image": "https://assetsio.gnwcdn.com/baldurs-gate-3--07.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-02-23",
+      "summary": "Grok, o chatbot generativo de IA no X (anteriormente Twitter), supostamente teve um atraso na atualização porque não era um especialista bom o suficiente em Baldur's Gate 3. Isso veio de seu proprietário Elon Musk, que aparentemente estava insatisfeito com sua criação nua não consentida...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/elon-musks-grok-reportedly-had-an-update-delayed-thanks-to-its-lacklustre-baldurs-gate-3-knowledge"
+    },
+    {
+      "id": "https://www.eurogamer.net/bioshock-movie-update-take-two-and-netflix-want-release-alongside-bioshock-4",
+      "title": "A última atualização do filme BioShock afirma que “Netflix e Take-Two estão muito ansiosos” para alinhá-lo com o lançamento do novo jogo",
+      "original_title": "The latest update on the BioShock movie states \"Netflix and Take-Two are very anxious\" to line it up with the new game's release",
+      "image": "https://assetsio.gnwcdn.com/146736695014.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-02-23",
+      "summary": "Já faz um tempo que o filme BioShock foi revivido... apenas fique preso no limbo novamente. No entanto, um progresso lento está sendo feito no roteiro e, como muitos suspeitavam, parece que a agenda lotada do diretor Francis Lawrence tem sido a principal coisa que preveni...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/bioshock-movie-update-take-two-and-netflix-want-release-alongside-bioshock-4"
+    },
+    {
+      "id": "https://www.eurogamer.net/pokemon-fire-red-leaf-green-switch-home-support-mention-deleted",
+      "title": "O relançamento de Pokémon FireRed e LeafGreen Switch já está no topo das paradas do eShop, mesmo com a Nintendo removendo misteriosamente a menção à compatibilidade com o Home",
+      "original_title": "The Pokémon FireRed and LeafGreen Switch re-release is already topping the eShop charts, even as Nintendo mysteriously removes mention of Home compatibility",
+      "image": "https://assetsio.gnwcdn.com/PokemonFRLG_01.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-02-23",
+      "summary": "A semana passada nos deu o anúncio de Pokémon FireRed e LeafGreen chegando aos sistemas Switch. Isso teria sido comemorado em circunstâncias normais, mas a Nintendo e a The Pokémon Company optaram por ignorar o serviço Nintendo Switch Online em favor...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/pokemon-fire-red-leaf-green-switch-home-support-mention-deleted"
+    },
+    {
+      "id": "https://www.techpowerup.com/346662/ddr5-prices-start-falling-in-germany-offering-a-quiet-glimmer-of-hope",
+      "title": "Os preços do DDR5 começam a cair na Alemanha, oferecendo um tranquilo vislumbre de esperança",
+      "original_title": "DDR5 Prices Start Falling in Germany, Offering a Quiet Glimmer of Hope",
+      "image": "https://tpucdn.com/img/lfOYPYZaGzvaQ1JX_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-02-23",
+      "summary": "Os preços de varejo DDR5 na Alemanha finalmente mostraram um pequeno sinal de esfriamento após a forte subida nos últimos meses. O declínio é pequeno e ainda não uniforme entre os modelos, mas é a primeira flexibilização sustentada para muitos entusiastas de PC DIY e pequenos...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/346662/ddr5-prices-start-falling-in-germany-offering-a-quiet-glimmer-of-hope"
+    },
+    {
+      "id": "https://www.techpowerup.com/346660/lenovo-launches-ai-driven-thinkedge-solutions",
+      "title": "(PR) Lenovo lança soluções ThinkEdge baseadas em IA",
+      "original_title": "(PR) Lenovo Launches AI-Driven ThinkEdge Solutions",
+      "image": "https://tpucdn.com/img/2gZazMzuE0ktSrzY_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-02-23",
+      "summary": "A Lenovo expandiu seu portfólio ThinkEdge com uma nova geração de soluções de computação de ponta orientadas por IA, incluindo o compacto e confiável ThinkEdge SE10n Gen 2, o ThinkEdge SE30n Gen 2 pronto para IA, o ThinkEdge SE60n Gen 2 com potência de IA e o f...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/346660/lenovo-launches-ai-driven-thinkedge-solutions"
+    },
+    {
+      "id": "https://www.techpowerup.com/346235/from-steam-to-reddit-how-much-personal-data-hardcore-pc-users-leak-without-realizing-it",
+      "title": "Do Steam ao Reddit: quantos dados pessoais os usuários de PC hardcore vazam sem perceber",
+      "original_title": "From Steam to Reddit: How Much Personal Data Hardcore PC Users Leak Without Realizing It",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Rumor",
+      "date": "2026-02-23",
+      "summary": "Os usuários hardcore de PC tendem a pensar no risco à privacidade como algo que acontece com outras pessoas: os descuidados, os que gostam de clicar, aqueles que reutilizam senhas ou caem em golpes óbvios. Os usuários avançados, por outro lado, otimizam. Eles ajustam as configurações do BIOS, benchmark ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/346235/from-steam-to-reddit-how-much-personal-data-hardcore-pc-users-leak-without-realizing-it"
+    },
+    {
+      "id": "https://www.techpowerup.com/346659/samsung-foundry-utilization-jumps-to-80-this-quarter",
+      "title": "A utilização da Samsung Foundry salta para 80% neste trimestre",
+      "original_title": "Samsung Foundry Utilization Jumps to 80% This Quarter",
+      "image": "https://tpucdn.com/img/mdELwtRVJMZrV97J_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-02-23",
+      "summary": "A Samsung Foundry alcançou o ouro, pois sua taxa de utilização saltou para impressionantes 80% neste trimestre. Isso ocorre depois de muitos anos de luta para alcançar uma boa taxa de utilização, enquanto concorrentes como a TSMC têm liderado consistentemente a adoção de novos...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/346659/samsung-foundry-utilization-jumps-to-80-this-quarter"
+    },
+    {
+      "id": "https://www.techpowerup.com/346645/intel-plans-return-to-unified-core-design-no-more-performance-and-efficiency-core-split",
+      "title": "Intel planeja retornar ao design de núcleo unificado, sem mais divisão de núcleo de desempenho e eficiência",
+      "original_title": "Intel Plans Return to Unified Core Design, No More Performance and Efficiency Core Split",
+      "image": "https://tpucdn.com/img/SMrWFUhqJwu1rmZh_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-02-23",
+      "summary": "De acordo com as últimas listas de empregos, ficamos sabendo que a Intel está planejando o retorno de uma arquitetura de núcleo unificado, algo com o qual não estávamos acostumados nos últimos anos. Começando com os processadores \"Alder Lake\" de 12ª geração, a Intel começou a vender...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/346645/intel-plans-return-to-unified-core-design-no-more-performance-and-efficiency-core-split"
+    },
+    {
+      "id": "https://www.techpowerup.com/346658/asrock-industrial-lists-nucs-powered-by-core-ultra-series-3-panther-lake-processors",
+      "title": "ASRock Industrial lista NUCs equipados com processadores Core Ultra Série 3 “Panther Lake”",
+      "original_title": "ASRock Industrial Lists NUCs Powered by Core Ultra Series 3 \"Panther Lake\" Processors",
+      "image": "https://tpucdn.com/img/T3A4aEb5UfA0a2oq_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-02-23",
+      "summary": "A ASRock listou uma das primeiras plataformas móveis em desktop de marca baseadas nos mais recentes processadores Intel Core Ultra Series 3 “Panther Lake”, apenas dois meses após o lançamento da nova geração de processadores. Os novos NUC Box-358H, NUCS BOX-358H, NUCS B...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/346658/asrock-industrial-lists-nucs-powered-by-core-ultra-series-3-panther-lake-processors"
+    },
+    {
+      "id": "https://www.eurogamer.net/slay-the-spire-2-finally-narrows-down-that-march-release-date-and-confirms-online-co-op",
+      "title": "Slay the Spire 2 finalmente restringe a data de lançamento em março e confirma o modo cooperativo online",
+      "original_title": "Slay the Spire 2 finally narrows down that March release date and confirms online co-op",
+      "image": "https://assetsio.gnwcdn.com/sts2_key_art_16x9_no_logo_logo-(1).png?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
       "date": "2026-02-22",
-      "summary": "Primeiro veio para nossa propriedade intelectual, depois para nossos trabalhadores e agora vem para nossos Steam Decks! Leia mais...",
+      "summary": "Slay the Spire 2 será lançado em acesso antecipado em 5 de março de 2026. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/as-ai-threatens-to-make-everything-more-expensive-are-you-happy-if-it-takes-longer-for-the-next-console-generation-to-begin"
+      "url": "https://www.eurogamer.net/slay-the-spire-2-finally-narrows-down-that-march-release-date-and-confirms-online-co-op"
     },
     {
-      "id": "https://www.eurogamer.net/whatever-happened-to-boxing-games-fight-night-round-3",
-      "title": "O que aconteceu com os jogos de boxe? Fight Night Round 3 desgastou meus polegares e, 20 anos depois, ainda adoro isso",
-      "original_title": "Whatever happened to boxing games? Fight Night Round 3 wore my thumbs out, and 20 years on I still love it for it",
-      "image": "https://assetsio.gnwcdn.com/fight-night-round-3.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/tencent-shutters-yet-another-western-studio-timi-montreal",
+      "title": "Tencent fecha TiMi Montreal",
+      "original_title": "Tencent shutters TiMi Montreal",
+      "image": "https://assetsio.gnwcdn.com/Screenshot-2026-02-22-at-17.51.25.png?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
       "date": "2026-02-22",
-      "summary": "Sinto falta do boxe – não que eu já tenha feito isso. Costumava ser uma espécie de espinha dorsal do esporte de combate que percorria o país. Lembro-me de dormir na casa de um amigo quando Frank Bruno estava lutando contra Mike Tyson em 1989, e nós, crianças, ouvíamos a luta em um...",
+      "summary": "A Tencent fechou outro estúdio ocidental: TiMi Montréal. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/whatever-happened-to-boxing-games-fight-night-round-3"
+      "url": "https://www.eurogamer.net/tencent-shutters-yet-another-western-studio-timi-montreal"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1rbc7nr/information_on_next_tales_of_series_game_could_be/",
-      "title": "Informações sobre o próximo jogo da série Tales of podem estar no horizonte.",
-      "original_title": "Information on next Tales of series game could be on the horizon.",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "id": "https://www.eurogamer.net/olympic-skaters-beat-the-competition-with-this-incredible-mortal-kombat-themed-performance",
+      "title": "Os patinadores olímpicos venceram a competição com esta incrível performance temática de Mortal Kombat",
+      "original_title": "Olympic skaters beat the competition with this incredible Mortal Kombat-themed performance",
+      "image": "https://assetsio.gnwcdn.com/Screenshot-2026-02-22-at-15.56.53.png?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
-      "reliability": "Medium",
+      "reliability": "High",
       "category": "News",
       "date": "2026-02-22",
-      "summary": "O estúdio de anime Ufotable, famoso pelas animações e filmes Demon Slayers e Fate/stay night, anunciou um projeto relacionado aos jogos Tales para o 30º aniversário da série em um vídeo sobre seus próximos produtos. Fonte: Vídeo anúncio T...",
+      "summary": "Os patinadores georgianos Anastasiia Metelkina e Luka Berulava compartilharam uma apresentação com o tema Mortal Kombat nas Olimpíadas no fim de semana. Leia mais...",
       "sources": [
-        "r/GamingLeaksAndRumours"
+        "Eurogamer"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1rbc7nr/information_on_next_tales_of_series_game_could_be/"
+      "url": "https://www.eurogamer.net/olympic-skaters-beat-the-competition-with-this-incredible-mortal-kombat-themed-performance"
     },
     {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1rbg74m/return_to_ash_is_great/",
-      "title": "Voltar para Ash é ótimo!",
-      "original_title": "Return to Ash is great!",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "id": "https://www.eurogamer.net/evo-insists-its-traditions-values-and-identity-will-remain-unchanged-as-saudi-acquisition-completes",
+      "title": "Evo insiste que suas “tradições, valores e identidade permanecerão inalterados” à medida que a aquisição saudita for concluída",
+      "original_title": "Evo insists its \"traditions, values, and identity will remain unchanged\" as Saudi acquisition completes",
+      "image": "https://assetsio.gnwcdn.com/evo-tournament.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
-      "reliability": "Medium",
+      "reliability": "High",
       "category": "News",
       "date": "2026-02-22",
-      "summary": "Acabei de terminar o jogo. É um romance visual muito legal sobre pessoas solitárias presas juntas na vida após a morte. O jogo é bem curto, consegui terminar todos em apenas algumas horas, mas os personagens eram divertidos (Morte provavelmente foi meu favorito...",
+      "summary": "A Qiddiya Investment Company (QIC) concluiu agora a aquisição da Evolution Championship Series – Evo, como é mais conhecida – e insiste que “as tradições, valores e identidade da Evo permanecerão inalterados” sob a sua nova empresa-mãe...",
       "sources": [
-        "r/EpicGamesPC"
+        "Eurogamer"
       ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1rbg74m/return_to_ash_is_great/"
+      "url": "https://www.eurogamer.net/evo-insists-its-traditions-values-and-identity-will-remain-unchanged-as-saudi-acquisition-completes"
     },
     {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1rbgr9q/steam_game_boobs_saga_prepare_to_hentai_edition/",
-      "title": "[Steam] (Jogo) BOOBS SAGA: Prepare-se para a edição Hentai",
-      "original_title": "[Steam] (Game) BOOBS SAGA: Prepare To Hentai Edition",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "id": "https://www.eurogamer.net/nintendo-is-issuing-refunds-for-xenoblade-chronicles-x-definitive-edition-poorly-received-premium-switch-2-edition-upgrade",
+      "title": "A Nintendo está emitindo reembolsos para a atualização premium mal recebida do Switch 2 Edition de Xenoblade Chronicles X: Definitive Edition",
+      "original_title": "Nintendo is issuing refunds for Xenoblade Chronicles X: Definitive Edition's poorly-received premium Switch 2 Edition upgrade",
+      "image": "https://assetsio.gnwcdn.com/xenoblade-x-switch-2.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
+      "reliability": "High",
+      "category": "News",
       "date": "2026-02-22",
-      "summary": "enviado por /u/RegionalPrices [link] [comentários]...",
+      "summary": "A Nintendo está supostamente emitindo reembolsos pela atualização do Switch 2 de Xenoblade Chronicles X. Leia mais...",
       "sources": [
-        "r/FreeGameFindings"
+        "Eurogamer"
       ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1rbgr9q/steam_game_boobs_saga_prepare_to_hentai_edition/"
+      "url": "https://www.eurogamer.net/nintendo-is-issuing-refunds-for-xenoblade-chronicles-x-definitive-edition-poorly-received-premium-switch-2-edition-upgrade"
+    },
+    {
+      "id": "https://www.techpowerup.com/345912/computers-running-windows-10-arent-safe-but-windows-11-pro-is-only-usd-13-right-now-reg-usd-199",
+      "title": "Computadores que executam o Windows 10 não são seguros, mas o Windows 11 Pro custa apenas US$ 13 no momento (normalmente US$ 199)",
+      "original_title": "Computers Running Windows 10 Aren't Safe, But Windows 11 Pro Is Only $13 Right Now (Reg. $199)",
+      "image": "https://tpucdn.com/img/QtyLYNoGCFNal3Ic_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-02-22",
+      "summary": "A Microsoft encerrou o suporte para Windows 10 no ano passado e, se o seu computador ainda o estiver executando, seus dados estarão em risco. Se você deseja uma maneira fácil de atualizar, agora mesmo, você pode obter o Windows 11 Pro à venda por apenas US$ 12,97 (normalmente US$ 199). O Windows 11 Pro adiciona ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/345912/computers-running-windows-10-arent-safe-but-windows-11-pro-is-only-usd-13-right-now-reg-usd-199"
     },
     {
       "id": "https://www.techpowerup.com/346636/this-week-in-gaming-week-9",
@@ -238,171 +418,6 @@
       "url": "https://www.techpowerup.com/346630/stop-killing-games-update-indicates-positive-outlook-in-eu-battle-despite-roadblocks"
     },
     {
-      "id": "https://www.techpowerup.com/346235/from-steam-to-reddit-how-much-personal-data-hardcore-pc-users-leak-without-realizing-it",
-      "title": "Do Steam ao Reddit: quantos dados pessoais os usuários de PC hardcore vazam sem perceber",
-      "original_title": "From Steam to Reddit: How Much Personal Data Hardcore PC Users Leak Without Realizing It",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Rumor",
-      "date": "2026-02-22",
-      "summary": "Os usuários hardcore de PC tendem a pensar no risco à privacidade como algo que acontece com outras pessoas: os descuidados, os que gostam de clicar, aqueles que reutilizam senhas ou caem em golpes óbvios. Os usuários avançados, por outro lado, otimizam. Eles ajustam as configurações do BIOS, benchmark ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/346235/from-steam-to-reddit-how-much-personal-data-hardcore-pc-users-leak-without-realizing-it"
-    },
-    {
-      "id": "https://www.eurogamer.net/nexon-snaps-up-arc-raiders-patrick-soderlund-as-executive-chairman-to-lead-the-next-phase-of-growth-for-the-company",
-      "title": "Nexon contrata Patrick Söderlund, da Arc Raiders, como presidente executivo para “liderar a próxima fase de crescimento” da empresa",
-      "original_title": "Nexon snaps up Arc Raiders' Patrick Söderlund as executive chairman to \"lead the next phase of growth\" for the company",
-      "image": "https://assetsio.gnwcdn.com/arc-raiders-review-header-(1).png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-02-21",
-      "summary": "Patrick Söderlund – fundador e CEO do estúdio Arc Raiders, Embark – foi nomeado presidente executivo da Nexon para “acelerar a estratégia global, transformar a direção criativa e liderar a próxima fase de crescimento” de sua empresa controladora. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/nexon-snaps-up-arc-raiders-patrick-soderlund-as-executive-chairman-to-lead-the-next-phase-of-growth-for-the-company"
-    },
-    {
-      "id": "https://www.eurogamer.net/as-mewgenics-rolls-out-its-latest-patch-the-creators-have-been-mapping-out-dlc-1-and-theyre-getting-a-little-bit-excited-about-it",
-      "title": "À medida que Mewgenics lança seu patch mais recente, os criadores estão “mapeando o DLC 1” e estão “ficando um pouco entusiasmados com isso”",
-      "original_title": "As Mewgenics rolls out its latest patch, the creators have been \"mapping out DLC 1\" and they're \"getting a little bit excited about it\"",
-      "image": "https://assetsio.gnwcdn.com/black-and-white-screenshot-from-Mewgenics-trailer-showing-a-scientist-with-hearts-in-his-eyes.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-02-21",
-      "summary": "Os desenvolvedores de Mewgenics, o sucesso indie de criação de gatos dos criadores de The Binding of Isaac e The End is Nigh, estão “ficando um pouco entusiasmados” com o que vem por aí para o sucesso roguelike. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/as-mewgenics-rolls-out-its-latest-patch-the-creators-have-been-mapping-out-dlc-1-and-theyre-getting-a-little-bit-excited-about-it"
-    },
-    {
-      "id": "https://www.eurogamer.net/balatro-creator-reflects-on-university-and-bad-grades-promising-hes-still-working-on-that-11-update",
-      "title": "O criador do Balatro reflete sobre a universidade e as notas ruins, prometendo que “ainda está trabalhando” na atualização 1.1",
-      "original_title": "Balatro creator reflects on university and bad grades, promising he's \"still working\" on that 1.1 update",
-      "image": "https://assetsio.gnwcdn.com/balatro1080-(1).png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-02-21",
-      "summary": "O desenvolvedor do Balatro, LocalThunk, marcou o segundo aniversário de seu roguelike indie de sucesso com uma postagem sincera no blog que terminava: “Sim, ainda estou trabalhando no 1.1”. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/balatro-creator-reflects-on-university-and-bad-grades-promising-hes-still-working-on-that-11-update"
-    },
-    {
-      "id": "https://www.eurogamer.net/former-xbox-president-sarah-bond-bids-farewell-to-xbox-staff",
-      "title": "A ex-presidente do Xbox, Sarah Bond, se despede da equipe do Xbox",
-      "original_title": "Former Xbox president Sarah Bond bids farewell to Xbox staff",
-      "image": "https://assetsio.gnwcdn.com/Xbox-President-Bond-on-the-Gamer%E2%80%99s-Future-0-48-screenshot.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-02-21",
-      "summary": "A ex-presidente do Xbox, Sarah Bond, agradeceu ao ex-CEO Phil Spencer e parabenizou seu sucessor, Asha Sharma, em uma carta enviada a todos os funcionários quando foi divulgada a notícia de que ela estava saindo após oito anos na empresa. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/former-xbox-president-sarah-bond-bids-farewell-to-xbox-staff"
-    },
-    {
-      "id": "https://www.eurogamer.net/i-think-the-franchise-is-dead-says-saints-row-design-director",
-      "title": "“Acho que a franquia morreu”, diz diretor de design de Saints Row",
-      "original_title": "\"I think the franchise is dead,\" says Saints Row design director",
-      "image": "https://assetsio.gnwcdn.com/Saints-Row-image-showing-four-characters-leaning-against-a-wall-covered-in-graffiti.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-02-21",
-      "summary": "O diretor de design original do Saints Row, Chris Stockman, declarou que a franquia Saints Row está “morta”. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/i-think-the-franchise-is-dead-says-saints-row-design-director"
-    },
-    {
-      "id": "https://www.eurogamer.net/today-marks-an-exciting-new-chapter-xbox-boss-phil-spencer-retiring-amid-major-leadership-shakeup-that-sees-microsofts-coreai-president-taking-over-roll",
-      "title": "“Hoje marca um novo capítulo emocionante” – Phil Spencer, chefe do Xbox, se aposentando em meio a uma grande mudança de liderança que vê o presidente CoreAI da Microsoft assumindo o cargo",
-      "original_title": "\"Today marks an exciting new chapter\" - Xbox boss Phil Spencer retiring amid major leadership shakeup that sees Microsoft's CoreAI president taking over role",
-      "image": "https://assetsio.gnwcdn.com/xbox-spencer-sharma.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-02-21",
-      "summary": "O CEO do Xbox, Phil Spencer, anunciou sua aposentadoria da Microsoft depois de quase 40 anos, em meio a uma grande mudança de liderança para a marca de jogos que verá o atual presidente da CoreAI da Microsoft, Asha Sharma, assumir o cargo. Além disso, o Xbox p...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/today-marks-an-exciting-new-chapter-xbox-boss-phil-spencer-retiring-amid-major-leadership-shakeup-that-sees-microsofts-coreai-president-taking-over-roll"
-    },
-    {
-      "id": "https://www.eurogamer.net/the-pure-and-scattered-beauty-of-modern-zelda",
-      "title": "A beleza pura e dispersa do Zelda moderno",
-      "original_title": "The pure and scattered beauty of modern Zelda",
-      "image": "https://assetsio.gnwcdn.com/zelda-botw-header-artwork.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-02-21",
-      "summary": "Outro dia, eu estava na loja de presentes de uma pequena galeria de arte quando comprei um cartão postal com um molho de chaves diferentes. O cartão postal acabou sendo uma reprodução do dicionário e enciclopédia de seis volumes Larousse du XXe siècle (eu também não...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/the-pure-and-scattered-beauty-of-modern-zelda"
-    },
-    {
-      "id": "https://www.eurogamer.net/what-weve-been-playing-oaty-treats",
-      "title": "O que estamos brincando - \"Nunca mais verei aquelas guloseimas de aveia na bagunça do mesmo jeito\"",
-      "original_title": "What we've been playing - \"I'll never see those oaty treats in the mess the same way again\"",
-      "image": "https://assetsio.gnwcdn.com/far-cry-monkey.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-02-21",
-      "summary": "Olá e bem-vindo de volta ao nosso artigo regular, onde escrevemos um pouco sobre os jogos que temos jogado. Esta semana, Victoria sabe algo que seu marido não sabe; Tom enfrenta o terror perene conhecido como entreter uma criança durante o semestre; Bertie...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/what-weve-been-playing-oaty-treats"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1raepbe/looks_like_the_saints_row_1970s_prequel_is_not/",
-      "title": "Parece que a prequela de Saints Row dos anos 1970 não está acontecendo",
-      "original_title": "Looks like the Saints Row 1970s prequel is not happening",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-02-21",
-      "summary": "https://xcancel.com/papaRPG/status/2024941290492694703 RIP Saints Row. Chris Stockman, o cara que fez a proposta, diz que a Embracer a rejeitou.    enviado por /u/UnlimitedMeatwad [link] [comentários]...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1raepbe/looks_like_the_saints_row_1970s_prequel_is_not/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1rajlvr/indiegala_game_neon_phonk_robots/",
-      "title": "[Indiegala] (Jogo) Robôs Neon Phonk",
-      "original_title": "[Indiegala] (Game) Neon Phonk Robots",
-      "image": "https://external-preview.redd.it/PQ92lRBZtqQJb3cK5Tld-rVMhsdSXGAM7pYqeSU_Uc0.png?width=320&crop=smart&auto=webp&s=26ae9ad446031c492d9724b10fa3de9e9e25a98d",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-02-21",
-      "summary": "enviado por /u/MeguminShiro [link] [comentários] ...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1rajlvr/indiegala_game_neon_phonk_robots/"
-    },
-    {
       "id": "https://www.techpowerup.com/346624/amd-seemingly-stops-driver-updates-for-ryzen-z1-extreme-processor",
       "title": "AMD aparentemente interrompe atualizações de driver para processador Ryzen Z1 Extreme",
       "original_title": "AMD Seemingly Stops Driver Updates for Ryzen Z1 Extreme Processor",
@@ -416,366 +431,6 @@
         "TechPowerUp"
       ],
       "url": "https://www.techpowerup.com/346624/amd-seemingly-stops-driver-updates-for-ryzen-z1-extreme-processor"
-    },
-    {
-      "id": "https://www.techpowerup.com/346614/lenovo-warns-of-pc-price-hikes-coming-in-march-amid-rising-memory-costs",
-      "title": "Lenovo alerta sobre aumentos de preços de PCs em março em meio ao aumento dos custos de memória",
-      "original_title": "Lenovo Warns of PC Price Hikes Coming in March Amid Rising Memory Costs",
-      "image": "https://tpucdn.com/img/1U5GVjvs3xVRMWbj_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-02-21",
-      "summary": "Em uma nova carta aos parceiros de canal, a Lenovo afirmou que a empresa espera aumentos nos preços dos PCs em março em meio à crise de memória que afeta a indústria. A carta, obtida pela CRN, observa que o chefe de canal da Lenovo na América do Norte, Wade McFarland, mencionou...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/346614/lenovo-warns-of-pc-price-hikes-coming-in-march-amid-rising-memory-costs"
-    },
-    {
-      "id": "https://www.techpowerup.com/346613/intel-nova-lake-s-coming-in-2027-ces-launch-alongside-amd-olympic-ridge-likely",
-      "title": "Intel “Nova Lake-S” chegando em 2027, lançamento na CES junto com AMD “Olympic Ridge” provavelmente",
-      "original_title": "Intel \"Nova Lake-S\" Coming in 2027, CES Launch Alongside AMD \"Olympic Ridge\" Likely",
-      "image": "https://tpucdn.com/img/kbL0zEtAiVi2VJLm_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-02-21",
-      "summary": "Foi revelado em um vazamento recente que as CPUs AMD Zen 6 Ryzen de próxima geração seriam adiadas até 2027, e agora surgiu que as próximas CPUs Intel \"Nova Lake-S\" Core Ultra Series 4 podem se juntar à AMD para um lançamento no início de 2027, quando os representantes anteriores...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/346613/intel-nova-lake-s-coming-in-2027-ces-launch-alongside-amd-olympic-ridge-likely"
-    },
-    {
-      "id": "https://www.techpowerup.com/345912/computers-running-windows-10-arent-safe-but-windows-11-pro-is-only-usd-13-right-now-reg-usd-199",
-      "title": "Computadores que executam o Windows 10 não são seguros, mas o Windows 11 Pro custa apenas US$ 13 no momento (normalmente US$ 199)",
-      "original_title": "Computers Running Windows 10 Aren't Safe, But Windows 11 Pro Is Only $13 Right Now (Reg. $199)",
-      "image": "https://tpucdn.com/img/QtyLYNoGCFNal3Ic_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-02-21",
-      "summary": "A Microsoft encerrou o suporte para Windows 10 no ano passado e, se o seu computador ainda o estiver executando, seus dados estarão em risco. Se você deseja uma maneira fácil de atualizar, agora mesmo, você pode obter o Windows 11 Pro à venda por apenas US$ 12,97 (normalmente US$ 199). O Windows 11 Pro adiciona ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/345912/computers-running-windows-10-arent-safe-but-windows-11-pro-is-only-usd-13-right-now-reg-usd-199"
-    },
-    {
-      "id": "https://www.techpowerup.com/346612/microsoft-gamings-new-ceo-wants-to-embrace-ai-without-soulless-ai-slop",
-      "title": "O novo CEO da Microsoft Gaming quer abraçar a IA sem “desleixo de IA sem alma”",
-      "original_title": "Microsoft Gaming's New CEO Wants To Embrace AI Without \"Soulless AI Slop\"",
-      "image": "https://tpucdn.com/img/n2plSadmhJaYU8hD_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-02-21",
-      "summary": "Foi recentemente revelado que o CEO de longa data da Xbox Gaming, Phil Spencer, deixaria a Microsoft depois de quase 40 anos na empresa, com Asha Sharma assumindo o cargo de CEO da Microsoft Gaming após seu papel como chefe da plataforma CoreAI da empresa.",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/346612/microsoft-gamings-new-ceo-wants-to-embrace-ai-without-soulless-ai-slop"
-    },
-    {
-      "id": "https://www.techpowerup.com/346610/asus-rtx-5070-evo-dual-targets-sff-builds-with-short-thinner-design",
-      "title": "ASUS RTX 5070 EVO Dual Targets SFF é construída com design curto e mais fino",
-      "original_title": "ASUS RTX 5070 EVO Dual Targets SFF Builds With Short, Thinner Design",
-      "image": "https://tpucdn.com/img/lZQVIpSehXi2AjOt_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-02-21",
-      "summary": "No final de 2025, a ASUS anunciou as placas gráficas NVIDIA GeForce RTX 5060 e 5060 Ti Dual Evo, que apresentavam um design mais fino e curto para melhor compatibilidade com construções de PC de formato pequeno. Agora, expandiu silenciosamente a linha Dual Evo com o...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/346610/asus-rtx-5070-evo-dual-targets-sff-builds-with-short-thinner-design"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ra6mm8/ign_phil_spencer_retiring_sarah_bond_out_matt/",
-      "title": "IGN: Phil Spencer se aposentando, Sarah Bond Out, Matt Booty promovido como Microsoft AI Exec Asha Sharma nomeado novo chefe do Xbox anteriormente presidente do produto CoreAI da Microsoft",
-      "original_title": "IGN: Phil Spencer Retiring, Sarah Bond Out, Matt Booty Promoted as Microsoft AI Exec Asha Sharma Named New Xbox Boss previously the President of Microsoft's CoreAI product",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-02-20",
-      "summary": "\"O CEO da Microsoft Gaming, Phil Spencer, que está na Microsoft desde que ingressou como estagiário em 1988 e no Xbox desde que a gigante do software lançou seu primeiro console em 2001, está se aposentando, fontes familiarizadas com o assunto que não estão autorizadas a falar...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ra6mm8/ign_phil_spencer_retiring_sarah_bond_out_matt/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ra3yt2/eel_game_studio_website_has_gone_live_revealing/",
-      "title": "O site do Eel Game Studio foi ao ar revelando Kenji Saito (Diretor de Metal Gear Rising: Revengeance) como presidente; Takahisa Taura (Diretor de \"Astral Chain\") como Diretor da empresa e Katsumi Suenami (Gerente de Projeto \"Bayonetta 3\") também como Diretor da empresa",
-      "original_title": "Eel Game Studio website has gone live revealing Kenji Saito (\"Metal Gear Rising: Revengeance\" Director) as President; Takahisa Taura (\"Astral Chain\" Director) as a company Director and Katsumi Suenami (\"Bayonetta 3\" Project Manager) also as company Director",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-02-20",
-      "summary": "Fonte: https://eelgamestudio.com/en/ Rumor anterior: https://old.reddit.com/r/GamingLeaksAndRumours/comments/1i8usic/astral_chain_director_and_nier_automata_designer/ É mais uma equipe muito pequena (23 funcionários) formada por ex-funcionários da PlatinumGames...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ra3yt2/eel_game_studio_website_has_gone_live_revealing/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ra8l1d/londonbased_theatre_chain_everyman_cinema_may/",
-      "title": "A rede de teatros com sede em Londres Everyman Cinema pode ter estragado acidentalmente a aparição de um personagem importante no filme Super Mario Galaxy",
-      "original_title": "London-Based Theatre Chain Everyman Cinema may have accidentally spoiled a major character’s appearance in The Super Mario Galaxy Movie",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-02-20",
-      "summary": "https://nintendowire.com/news/2026/02/20/a-surprise-super-mario-galaxy-movie-character-may-have-been-spoiled-by-london-based-cinema-chain-everyman-cinema/ Aceite com cautela. Eu meio que me recuso a acreditar se Wario realmente está neste filme…",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ra8l1d/londonbased_theatre_chain_everyman_cinema_may/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1r9qgda/post_ragnarok_ending_hidden_dialogue_has_now_been/",
-      "title": "O diálogo oculto do final do pós Ragnarok agora foi encontrado nos arquivos do jogo *POTENCIAIS SPOILERS FUTUROS*",
-      "original_title": "Post Ragnarok ending hidden dialogue has now been found within the game files *POTENTIAL FUTURE SPOILERS*",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-02-20",
-      "summary": "Os créditos vão para “o morse” do sub GoW Ragnarok. Post original: https://www.reddit.com/r/GodofWarRagnarok/s/RZ9bNPWnvM “Há também uma cena oculta de Atreus, em suas viagens a outros panteões, caminhando com um indivíduo chamado \"Mau\". Isso é...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1r9qgda/post_ragnarok_ending_hidden_dialogue_has_now_been/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1r9sp1m/new_info_from_polish_insider_on_upcoming_witcher/",
-      "title": "Novas informações de um insider polonês sobre a próxima localização do DLC de Witcher 3",
-      "original_title": "New info from Polish insider on upcoming Witcher 3 DLC location",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-02-20",
-      "summary": "Link do artigo Wccftech Aqui está a parte importante: ...Comentando sobre abordagens antigas de design de mapas em videogames em uma transmissão ao vivo no início deste mês, UV o grach, um ex-jornalista do Gry-Online com conexões sólidas com a indústria de jogos polonesa, fez isso...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1r9sp1m/new_info_from_polish_insider_on_upcoming_witcher/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1r9nzox/pokemon_fireredleafgreen_coming_to_switch_on_feb/",
-      "title": "Pokémon FireRed/LeafGreen chegará ao Switch em 27 de fevereiro (US$ 19,99 cada). Listado no Switch eShop na seção em breve",
-      "original_title": "Pokemon FireRed/LeafGreen coming to Switch on Feb 27th ($19.99 each). Listed on Switch eShop in coming soon section",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-02-20",
-      "summary": "Pokémon FireRed/LeafGreen chegará ao Switch em 27 de fevereiro (US$ 19,99 cada). Listado no Switch eShop na seção em breve https://xcancel.com/i/status/2024732629321601441 de acordo com a listagem do eShop - \"Porque esta versão replica a maneira como o jogo foi originado...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1r9nzox/pokemon_fireredleafgreen_coming_to_switch_on_feb/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1r9or8u/can_epic_improve_the_epic_games_clientlauncher_it/",
-      "title": "A Epic pode melhorar o cliente/lançador da Epic Games? É tão desajeitado, tão rígido. gerenciar e navegar na sua biblioteca de jogos é muito lento e frustrante. Peço que, pelo menos, adicione uma opção para verificar a página da loja do jogo em outra janela.",
-      "original_title": "Can Epic improve the Epic Games Client/Launcher? It is so clunky, so stiff. managing and browsing your games library is so slow and frustrating. I beg of you to, at least, add an option to check the game's store page in another window.",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Epic News",
-      "date": "2026-02-20",
-      "summary": "enviado por /u/marterikd [link] [comentários]...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1r9or8u/can_epic_improve_the_epic_games_clientlauncher_it/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1r9iivj/epic_client_weirdly_bugged_out/",
-      "title": "Cliente Epic estranhamente bugado",
-      "original_title": "Epic client weirdly bugged out",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Epic News",
-      "date": "2026-02-20",
-      "summary": "Acabei de lançar a coisa, então tive que atualizar a tela da biblioteca cerca de uma dúzia de vezes para que ela mostrasse qualquer coisa, exceto \"você não adicionou nenhum favorito\" (o que está errado), apenas para de repente ser definido para espanhol em vez de inglês. Foram necessárias mais cinco atualizações para...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1r9iivj/epic_client_weirdly_bugged_out/"
-    },
-    {
-      "id": "https://www.techpowerup.com/346608/capcom-acts-on-resident-evil-requiem-gameplay-leaks-asks-community-for-help",
-      "title": "Capcom age sobre vazamentos de jogabilidade de Resident Evil Requiem e pede ajuda à comunidade",
-      "original_title": "Capcom Acts on Resident Evil Requiem Gameplay Leaks, Asks Community for Help",
-      "image": "https://tpucdn.com/img/ghYveBC2rbVlMux6_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Rumor",
-      "date": "2026-02-20",
-      "summary": "Faltando apenas uma semana para o lançamento de Resident Evil Requiem, espera-se que vazamentos de jogabilidade e história comecem a aparecer online e posteriormente sejam compartilhados online. A Capcom, no entanto, recorreu à plataforma de mídia social, X, para criticar o jogo inicial...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/346608/capcom-acts-on-resident-evil-requiem-gameplay-leaks-asks-community-for-help"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1r91wiz/next_week_pc_freebiemy_night_job_boxes_lost/",
-      "title": "Brinde para PC na próxima semana｜Meu trabalho noturno e caixas: fragmentos perdidos",
-      "original_title": "Next Week PC Freebie｜My Night Job & Boxes: Lost Fragments",
-      "image": "https://preview.redd.it/cogzizdkxgkg1.png?width=640&crop=smart&auto=webp&s=3065f38aca9727478770e5b69caeccd5dc1952ab",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-02-19",
-      "summary": "enviado por /u/MeguminShiro [link] [comentários] ...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1r91wiz/next_week_pc_freebiemy_night_job_boxes_lost/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1r91yr2/mobile_freebieresidual/",
-      "title": "Brinde para celular｜Residual",
-      "original_title": "Mobile Freebie｜Residual",
-      "image": "https://preview.redd.it/nfjrvb30ygkg1.png?width=140&height=121&auto=webp&s=f101e3d3b5f8e0156bdff14395adaac64a26f151",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-02-19",
-      "summary": "https://preview.redd.it/nfjrvb30ygkg1.png?width=545&format=png&auto=webp&s=0d4e391cd7739d1bf72f77419fb9ed4c43b26caf 📝 Página de transações (para ver se você reivindicou ou não) ⏩ Checkout instantâneo (faça login na Epic Games primeiro para uso) Check-out instantâneo do item...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1r91yr2/mobile_freebieresidual/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1r964zq/is_there_any_announcement_about_adding_a_library/",
-      "title": "Há algum anúncio sobre a adição de uma biblioteca ao aplicativo móvel?",
-      "original_title": "Is there any announcement about adding a library to the mobile app?",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-02-19",
-      "summary": "Eu adoraria ter uma biblioteca com os jogos que tenho no meu dispositivo móvel e que reivindiquei da Epic, onde posso vê-los e dizer: \"Ah, esqueci que tinha esse jogo!\" Atualmente é uma bagunça abrir e ver tudo bagunçado.  Eles...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1r964zq/is_there_any_announcement_about_adding_a_library/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1r9fh8e/xp/",
-      "title": "XP",
-      "original_title": "XP",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-02-19",
-      "summary": "XP de conquistas... isso vai fazer alguma coisa no futuro, você acha?    enviado por /u/HimitsuUK [link] [comentários]...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1r9fh8e/xp/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1r9300q/epic_games_game_return_to_ash/",
-      "title": "[Jogos Épicos] (Jogo) Retorno a Ash",
-      "original_title": "[Epic Games] (Game) Return to Ash",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-02-19",
-      "summary": "enviado por /u/el9in [link] [comentários]...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1r9300q/epic_games_game_return_to_ash/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1r96bhz/steam_game_brother_save_him_hardcore_platformer/",
-      "title": "[Steam] (Jogo) IRMÃO!!! Salve-o! - Plataforma Hardcore",
-      "original_title": "[Steam] (Game) BROTHER!!! Save him! - Hardcore Platformer",
-      "image": "https://external-preview.redd.it/9U1YtaRVjsjkIcrnxKJX3N0jvT3fiGSYJ7p-pa6OJ5A.jpeg?width=320&crop=smart&auto=webp&s=ba3be7950fdf471eddf0e74146223b6a2478a732",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-02-19",
-      "summary": "enviado por /u/iambaldy [link] [comentários] ...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1r96bhz/steam_game_brother_save_him_hardcore_platformer/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1r930pf/steam_game_paragnosia/",
-      "title": "[Steam] (Jogo) Paragnosia",
-      "original_title": "[Steam] (Game) Paragnosia",
-      "image": "https://external-preview.redd.it/kdNhLJSrkST-WaNcqlsTWPrEfwzr5wuL1ROoG13hWfg.jpeg?width=320&crop=smart&auto=webp&s=4e6e8c0fd3b3bd4badda28d2d4d9b009b462db32",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-02-19",
-      "summary": "enviado por /u/iambaldy [link] [comentários] ...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1r930pf/steam_game_paragnosia/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1r974wf/psa_wargaming_publisher_sale_2026_animated_avatar/",
-      "title": "[PSA] Wargaming Publisher Sale 2026 – Avatar animado + plano de fundo do perfil + plano de fundo do miniperfil e 4 DLCs",
-      "original_title": "[PSA] Wargaming Publisher Sale 2026 - Animated Avatar + Profile Background + Mini-Profile Background & 4 DLCs",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-02-19",
-      "summary": "6 itens Steam gratuitos Assista 5 ~ 15 min Transmissão # 1 ／ # 2 (caso algum deles não funcione) para obter gratuitamente Avatar animado de itens Steam｜ WOWS Avatar Steam-chan Mini perfil de fundo｜ Wargaming Publisher Sale 2026 WOWS: Publisher Sale 2026 Profile Backgro...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1r974wf/psa_wargaming_publisher_sale_2026_animated_avatar/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1r930ga/epic_games_game_stalcraft_x_starter_edition/",
-      "title": "[Jogos Épicos] (Jogo) STALCRAFT: X Starter Edition",
-      "original_title": "[Epic Games] (Game) STALCRAFT: X Starter Edition",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-02-19",
-      "summary": "enviado por /u/MeguminShiro [link] [comentários]...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1r930ga/epic_games_game_stalcraft_x_starter_edition/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1r933tl/epic_games_mobile_game_residual/",
-      "title": "[Epic Games Mobile] (Jogo) Residual",
-      "original_title": "[Epic Games Mobile] (Game) Residual",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-02-19",
-      "summary": "📝 Página de transações (para ver se você reivindicou ou não) ⏩ Check-out instantâneo (faça login primeiro na Epic Games) Check-out instantâneo de itens 🎮 REIVINDICAR TODOS Android e iOS 🎮﻿ Android residual／iOS 🎮 Residual｜Android／iOS ⌛ Classificação／⛔ Lista negra｜Nenhum enviado...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1r933tl/epic_games_mobile_game_residual/"
     }
   ]
 }
