@@ -1,31 +1,11 @@
 {
-  "last_updated": "2026-02-26T13:06:33",
-  "display_date": "26/02/2026 13:06",
+  "last_updated": "2026-02-27T12:59:31",
+  "display_date": "27/02/2026 12:59",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "430ms",
+    "latency": "145ms",
     "current_games": [
-      {
-        "title": "Return to Ash",
-        "description": "“O hospital estava vazio. Silencioso e mais claro do que o normal... como acordar em um dia de neve. Mas não senti frio. Não senti muita coisa.\"",
-        "image": "https://cdn1.epicgames.com/spt-assets/07c1bf7c44dc4c2e8567923f03c7d307/return-to-ash-qcdax.png",
-        "url": "https://store.epicgames.com/p/return-to-ash",
-        "price": "$5.99",
-        "start_date": "2026-02-19T16:00:00.000Z",
-        "end_date": "2026-02-26T16:00:00.000Z"
-      },
-      {
-        "title": "STALCRAFT: X Starter Edition",
-        "description": "STALCRAFT: X é um MMOFPS gratuito com elementos de RPG.\n\nComece a explorar o mundo da Zona com um Starter Pack. Inclui tudo que você precisa para seus ataques iniciais: um Premium de 7 dias, armas, armaduras, artefatos e cosméticos.",
-        "image": "https://cdn1.epicgames.com/spt-assets/bed02187768e44afb05319f40660d9fa/stalcraft-x-1gxje.jpg",
-        "url": "https://store.epicgames.com/p/stalcraft-x-starter-edition",
-        "price": "$24.99",
-        "start_date": "2026-02-19T16:00:00.000Z",
-        "end_date": "2026-02-26T16:00:00.000Z"
-      }
-    ],
-    "upcoming_games": [
       {
         "title": "Boxes: Lost Fragments",
         "description": "Fuja de uma luxuosa mansão cheia de misteriosas caixas de quebra-cabeças!",
@@ -43,6 +23,26 @@
         "price": "$9.99",
         "start_date": "2026-02-26T16:00:00.000Z",
         "end_date": "2026-03-05T16:00:00.000Z"
+      }
+    ],
+    "upcoming_games": [
+      {
+        "title": "Idle Champions of the Forgotten Realms",
+        "description": "Idle Champions of the Forgotten Realms é um jogo de gerenciamento de estratégia de Dungeons & Dragons que une personagens de todo o multiverso de D&D em uma grande aventura.",
+        "image": "https://cdn1.epicgames.com/spt-assets/a53f91e55c6840018cb5de0b204f1ad9/idle-champions-of-the-forgotten-realms-1dw11.jpg",
+        "url": "https://store.epicgames.com/p/banegeneralaudience",
+        "price": "0",
+        "start_date": "2026-03-05T16:00:00.000Z",
+        "end_date": "2026-03-12T15:00:00.000Z"
+      },
+      {
+        "title": "Turnip Boy Robs a Bank",
+        "description": "O Nabo Boy está de volta! Desta vez ele está se unindo à temível Pickled Gang para planejar e executar o assalto mais estranho de todos os tempos.",
+        "image": "https://cdn1.epicgames.com/spt-assets/12f0012342a94c95985afbaa7568b51b/turnip-boy-robs-a-bank-167pk.png",
+        "url": "https://store.epicgames.com/p/000ff62d1877415589bb126e900a88e8",
+        "price": "$14.99",
+        "start_date": "2026-03-05T16:00:00.000Z",
+        "end_date": "2026-03-12T15:00:00.000Z"
       },
       {
         "title": "Monument Valley",
@@ -58,45 +58,15 @@
   },
   "items": [
     {
-      "id": "https://store.epicgames.com/p/return-to-ash",
-      "title": "GRÁTIS: Return to Ash",
-      "original_title": "Return to Ash",
-      "image": "https://cdn1.epicgames.com/spt-assets/07c1bf7c44dc4c2e8567923f03c7d307/return-to-ash-qcdax.png",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Free Games",
-      "date": "2026-02-26",
-      "summary": "“O hospital estava vazio. Silencioso e mais claro do que o normal... como acordar em um dia de neve. Mas não senti frio. Não senti muita coisa.\"",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/return-to-ash"
-    },
-    {
-      "id": "https://store.epicgames.com/p/stalcraft-x-starter-edition",
-      "title": "GRÁTIS: STALCRAFT: X Starter Edition",
-      "original_title": "STALCRAFT: X Starter Edition",
-      "image": "https://cdn1.epicgames.com/spt-assets/bed02187768e44afb05319f40660d9fa/stalcraft-x-1gxje.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Free Games",
-      "date": "2026-02-26",
-      "summary": "STALCRAFT: X é um MMOFPS gratuito com elementos de RPG.\n\nComece a explorar o mundo da Zona com um Starter Pack. Inclui tudo que você precisa para seus ataques iniciais: um Premium de 7 dias, armas, armaduras, artefatos e cosméticos.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/stalcraft-x-starter-edition"
-    },
-    {
       "id": "https://store.epicgames.com/p/a9ef6e969aa249ef936923216909d747",
-      "title": "EM BREVE: Boxes: Lost Fragments",
+      "title": "GRÁTIS: Boxes: Lost Fragments",
       "original_title": "Boxes: Lost Fragments",
       "image": "https://cdn1.epicgames.com/spt-assets/7f8e5cd71ae04eaeb7d782a5946db16f/boxes-lost-fragments-dbecx.png",
       "source_count": 1,
       "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-02-26",
-      "summary": "Disponível gratuitamente a partir de 26/02. Fuja de uma luxuosa mansão cheia de misteriosas caixas de quebra-cabeças!",
+      "category": "Free Games",
+      "date": "2026-02-27",
+      "summary": "Fuja de uma luxuosa mansão cheia de misteriosas caixas de quebra-cabeças!",
       "sources": [
         "Epic Games Store"
       ],
@@ -104,18 +74,48 @@
     },
     {
       "id": "https://store.epicgames.com/p/bce593b9b8754aa595ae4123f36ad4a9",
-      "title": "EM BREVE: My Night Job",
+      "title": "GRÁTIS: My Night Job",
       "original_title": "My Night Job",
       "image": "https://cdn1.epicgames.com/spt-assets/2f10ff8aadbb413a9f5b26bae07977af/my-night-job-1i7ei.jpg",
       "source_count": 1,
       "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-02-26",
-      "summary": "Disponível gratuitamente a partir de 26/02. My Night Job envia os jogadores para um prédio abandonado e ataca hordas de monstros. Usando mais de 60 armas para se defender e salvar o maior número possível de sobreviventes. Mas cuidado: se muitas salas forem destruídas, o fim pode estar mais próximo do que você pensava inicialmente.",
+      "category": "Free Games",
+      "date": "2026-02-27",
+      "summary": "My Night Job envia os jogadores para um prédio abandonado e ataca hordas de monstros. Usando mais de 60 armas para se defender e salvar o maior número possível de sobreviventes. Mas cuidado: se muitas salas forem destruídas, o fim pode estar mais próximo do que você pensava inicialmente.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/bce593b9b8754aa595ae4123f36ad4a9"
+    },
+    {
+      "id": "https://store.epicgames.com/p/banegeneralaudience",
+      "title": "EM BREVE: Idle Champions of the Forgotten Realms",
+      "original_title": "Idle Champions of the Forgotten Realms",
+      "image": "https://cdn1.epicgames.com/spt-assets/a53f91e55c6840018cb5de0b204f1ad9/idle-champions-of-the-forgotten-realms-1dw11.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-02-27",
+      "summary": "Disponível gratuitamente a partir de 05/03. Idle Champions of the Forgotten Realms é um jogo de gerenciamento de estratégia de Dungeons & Dragons que une personagens de todo o multiverso de D&D em uma grande aventura.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/banegeneralaudience"
+    },
+    {
+      "id": "https://store.epicgames.com/p/000ff62d1877415589bb126e900a88e8",
+      "title": "EM BREVE: Turnip Boy Robs a Bank",
+      "original_title": "Turnip Boy Robs a Bank",
+      "image": "https://cdn1.epicgames.com/spt-assets/12f0012342a94c95985afbaa7568b51b/turnip-boy-robs-a-bank-167pk.png",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-02-27",
+      "summary": "Disponível gratuitamente a partir de 05/03. O Nabo Boy está de volta! Desta vez ele está se unindo à temível Pickled Gang para planejar e executar o assalto mais estranho de todos os tempos.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/000ff62d1877415589bb126e900a88e8"
     },
     {
       "id": "https://store.epicgames.com/p/monument-valley-02",
@@ -125,12 +125,237 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-02-26",
+      "date": "2026-02-27",
       "summary": "Disponível gratuitamente a partir de 30/03. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/monument-valley-02"
+    },
+    {
+      "id": "https://www.eurogamer.net/marathon-server-slam-steam-players-concurrent",
+      "title": "Marathon Server Slam agita o Steam com quase 150.000 jogadores simultâneos no primeiro dia, e isso sem contar a participação no console",
+      "original_title": "Marathon Server Slam stirs Steam with nearly 150,000 concurrent players day one, and that's not counting console participation",
+      "image": "https://assetsio.gnwcdn.com/marathon-bungie_5UWu4c4.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-02-27",
+      "summary": "O Server Slam da Marathon começou ontem e atraiu um grande número de jogadores no Steam. Nas últimas 24 horas, o jogo atingiu um pico de 143.621 jogadores simultâneos, apenas na plataforma PC. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/marathon-server-slam-steam-players-concurrent"
+    },
+    {
+      "id": "https://www.techpowerup.com/346836/japannext-introduces-jn-282ips4kp-hsp-28-2-inch-3-2-4k-ips-monitor",
+      "title": "JAPANNEXT apresenta JN-282IPS4KP-HSP, monitor IPS 3:2 4K+ de 28,2 polegadas",
+      "original_title": "JAPANNEXT Introduces JN-282IPS4KP-HSP, 28.2-inch 3:2 4K+ IPS Monitor",
+      "image": "https://tpucdn.com/img/xhrrmroNjHWTKPeG_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-02-27",
+      "summary": "A JAPANNEXT lançou o monitor JN-282IPS4KP-HSP, uma continuação simplificada do seu anterior JN-282IPS4KP-HSP-C90W. O novo modelo mantém o incomum painel IPS de 28,2 polegadas com resolução 3840 × 2560 e proporção de aspecto 3:2, mas descarta vários recursos de conectividade ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/346836/japannext-introduces-jn-282ips4kp-hsp-28-2-inch-3-2-4k-ips-monitor"
+    },
+    {
+      "id": "https://www.techpowerup.com/346835/nvidia-beats-apple-to-become-tsmcs-largest-customer",
+      "title": "NVIDIA vence a Apple e se torna o maior cliente da TSMC",
+      "original_title": "NVIDIA Beats Apple to Become TSMC's Largest Customer",
+      "image": "https://tpucdn.com/img/ZzjPxmeaks8NN0qY_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-02-27",
+      "summary": "De acordo com notícias de Taiwan, a NVIDIA ultrapassou a Apple, tornando-se o maior cliente da TSMC com base na receita. Embora a TSMC nunca mencione clientes específicos em seus relatórios financeiros, ela usa termos como \"cliente A\" e \"cliente B\", NVI...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/346835/nvidia-beats-apple-to-become-tsmcs-largest-customer"
+    },
+    {
+      "id": "https://www.techpowerup.com/346833/nvidia-raises-dgx-spark-pricing-to-usd-4-700",
+      "title": "NVIDIA aumenta preço do DGX Spark para US$ 4.700",
+      "original_title": "NVIDIA Raises DGX Spark Pricing to $4,700",
+      "image": "https://tpucdn.com/img/yNraBRzHGrEnyVij_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-02-27",
+      "summary": "A NVIDIA está aumentando o preço sugerido do desenvolvimento autônomo do DGX Spark AI para US$ 4.700, o que representa um aumento de US$ 700 em relação ao preço de lançamento, ou um aumento de 17,5%. Este aumento nos preços se ajusta à escassez de DRAM e flash NAND em toda a indústria, o que im...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/346833/nvidia-raises-dgx-spark-pricing-to-usd-4-700"
+    },
+    {
+      "id": "https://www.techpowerup.com/346734/acemagic-k1-mini-pc-core-i5-12600h-premium-performance-without-the-premium-price",
+      "title": "Mini PC ACEMAGIC K1 (Core i5-12600H) – desempenho premium sem preço premium",
+      "original_title": "ACEMAGIC K1 Mini PC (Core i5-12600H)—Premium Performance Without the Premium Price",
+      "image": "https://tpucdn.com/img/i4C30dw2Y7s8hSuq_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-02-27",
+      "summary": "O K1 Mini PC da ACEMAGIC, equipado com Intel Core i5-12600H de 12ª geração, está atualmente disponível com um desconto substancial na Amazon dos EUA. Originalmente com preço de US$ 579,99, o sistema agora está listado por US$ 399,99, com um código promocional adicional de 10% de desconto trazendo o primeiro...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/346734/acemagic-k1-mini-pc-core-i5-12600h-premium-performance-without-the-premium-price"
+    },
+    {
+      "id": "https://www.techpowerup.com/346802/nvidia-releases-geforce-595-59-whql-game-ready-drivers",
+      "title": "NVIDIA lança drivers prontos para jogos GeForce 595.59 WHQL",
+      "original_title": "NVIDIA Releases GeForce 595.59 WHQL Game Ready Drivers",
+      "image": "https://tpucdn.com/img/tMzOV4rDZFPi8AJT_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-02-27",
+      "summary": "A NVIDIA lançou hoje seu mais recente driver GeForce 595.59 WHQL Game Ready, adicionando suporte imediato para Resident Evil Requiem e Marathon. A atualização também aborda vários problemas relacionados a jogos, afetando principalmente as GPUs GeForce RTX série 50. Corrige eu...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/346802/nvidia-releases-geforce-595-59-whql-game-ready-drivers"
+    },
+    {
+      "id": "https://www.techpowerup.com/346811/nvidia-pulls-geforce-595-59-whql-game-ready-driver-after-widespread-bug-reports",
+      "title": "NVIDIA puxa driver GeForce 595.59 WHQL Game Ready após relatos de bugs generalizados",
+      "original_title": "NVIDIA Pulls GeForce 595.59 WHQL Game Ready Driver After Widespread Bug Reports",
+      "image": "https://tpucdn.com/img/JLyTyWAV0QwYpDSX_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-02-27",
+      "summary": "A NVIDIA retirou oficialmente seu driver GeForce 595.59 WHQL Game Ready mais recente da página de downloads, à medida que relatos de usuários sobre problemas de estabilidade continuam a se acumular. Alegadamente, os usuários estão enfrentando problemas de detecção de ventiladores em seus coolers de GPU, com apenas um s...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/346811/nvidia-pulls-geforce-595-59-whql-game-ready-driver-after-widespread-bug-reports"
+    },
+    {
+      "id": "https://www.techpowerup.com/345912/computers-running-windows-10-arent-safe-but-windows-11-pro-is-only-usd-13-right-now-reg-usd-199",
+      "title": "Computadores que executam o Windows 10 não são seguros, mas o Windows 11 Pro custa apenas US$ 13 no momento (normalmente US$ 199)",
+      "original_title": "Computers Running Windows 10 Aren't Safe, But Windows 11 Pro Is Only $13 Right Now (Reg. $199)",
+      "image": "https://tpucdn.com/img/QtyLYNoGCFNal3Ic_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-02-27",
+      "summary": "A Microsoft encerrou o suporte para Windows 10 no ano passado e, se o seu computador ainda o estiver executando, seus dados estarão em risco. Se você deseja uma maneira fácil de atualizar, agora mesmo, você pode obter o Windows 11 Pro à venda por apenas US$ 12,97 (normalmente US$ 199). O Windows 11 Pro adiciona ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/345912/computers-running-windows-10-arent-safe-but-windows-11-pro-is-only-usd-13-right-now-reg-usd-199"
+    },
+    {
+      "id": "https://www.techpowerup.com/346832/sony-expected-to-ditch-pc-ports-of-bread-and-butter-single-player-games",
+      "title": "Sony espera abandonar portas para PC de jogos para um jogador básicos",
+      "original_title": "Sony Expected To Ditch PC Ports of Bread-and-Butter Single-Player Games",
+      "image": "https://tpucdn.com/img/WcwY6pNANjJQKZLO_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-02-27",
+      "summary": "Embora o Xbox pareça estar completamente por trás da ideia de lançamentos de jogos multiplataforma no primeiro dia, a Sony teve uma série de jogos single-player de sucesso lançados no PS5 nos últimos anos, apenas para eles chegarem ao PC anos depois. Agora, de acordo com jogos notáveis...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/346832/sony-expected-to-ditch-pc-ports-of-bread-and-butter-single-player-games"
+    },
+    {
+      "id": "https://www.techpowerup.com/346831/highguard-seemingly-lost-tencent-funding-after-disappointing-launch",
+      "title": "Highguard aparentemente perdeu financiamento da Tencent após lançamento decepcionante",
+      "original_title": "Highguard Seemingly Lost Tencent Funding After Disappointing Launch",
+      "image": "https://tpucdn.com/img/nXNm46r8L63Z9sf7_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-02-27",
+      "summary": "O péssimo lançamento de Highguard e o rápido declínio no número de jogadores estão bem documentados neste momento, mas recentemente descobriu-se que Wildlight não era o queridinho indie que retratava ser. De acordo com um relatório da Game File, Wildlight, um...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/346831/highguard-seemingly-lost-tencent-funding-after-disappointing-launch"
+    },
+    {
+      "id": "https://www.techpowerup.com/346823/fixforce-blends-co-op-extraction-shooter-and-platformer-mechanics-coming-soon-to-steam-and-epic",
+      "title": "FixForce combina jogo de tiro cooperativo de extração e mecânica de plataforma – em breve no Steam e Epic",
+      "original_title": "FixForce Blends Co-Op Extraction Shooter and Platformer Mechanics—Coming Soon to Steam and Epic",
+      "image": "https://tpucdn.com/img/be79xGvgynfKRU6N_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-02-27",
+      "summary": "Surgent Studios, o estúdio de jogos por trás do aclamado jogo de plataformas da EA, Tales of Kenzera: Zau, revelou seu último jogo, FixForce, um “jogo de plataforma de extração” 3D. Como sugere a descrição do jogo feita pelo desenvolvedor, FixForce é um jogo cooperativo...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/346823/fixforce-blends-co-op-extraction-shooter-and-platformer-mechanics-coming-soon-to-steam-and-epic"
+    },
+    {
+      "id": "https://www.eurogamer.net/following-fan-backlash-god-of-war-sons-of-spartas-two-player-roguelike-challenge-mode-can-now-be-accessed-from-the-off",
+      "title": "Após a reação dos fãs, o modo de desafio roguelike para dois jogadores de God of War: Sons of Sparta agora pode ser acessado desde o início",
+      "original_title": "Following fan backlash, God of War: Sons of Sparta's two-player roguelike challenge mode can now be accessed from the off",
+      "image": "https://assetsio.gnwcdn.com/Screenshot-from-God-of-War-Son's-of-Sparta-The-Pit-challenge-mode.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-02-26",
+      "summary": "A equipe por trás do side-scroller 2D God of War: Sons of Sparta compartilhou detalhes sobre como acessar o conteúdo cooperativo para dois jogadores do jogo sem terminar a história principal primeiro. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/following-fan-backlash-god-of-war-sons-of-spartas-two-player-roguelike-challenge-mode-can-now-be-accessed-from-the-off"
+    },
+    {
+      "id": "https://www.eurogamer.net/stardew-valley-is-celebrating-birthday-with-a-look-at-its-next-update",
+      "title": "Stardew Valley está comemorando um terço da idade do Pokémon com um vídeo mostrando sua próxima atualização altamente antecipada",
+      "original_title": "Stardew Valley is celebrating being one third the age of Pokémon with a video looking at its highly anticipated next update",
+      "image": "https://assetsio.gnwcdn.com/stardew-chicken.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-02-26",
+      "summary": "Pokémon faz 30 anos esta semana. Stardew Valley tem 10 anos! Coincidência? VOCÊ DECIDE. Nosso foco aqui, porém, é o jogo agrícola de grande sucesso do desenvolvedor Eric \"ConcernedApe\" Barone, que está comemorando seu grande aniversário com um vídeo especial apresentando, entre...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/stardew-valley-is-celebrating-birthday-with-a-look-at-its-next-update"
+    },
+    {
+      "id": "https://www.eurogamer.net/how-one-small-linkedin-message-convinced-a-far-cry-veteran-to-hop-aboard-project-windless",
+      "title": "“O criador do PUBG está querendo fazer o Witcher Coreano” – Como uma pequena mensagem no LinkedIn convenceu um veterano de Far Cry a embarcar no Projeto Windless",
+      "original_title": "\"The creator of PUBG is looking to do the Korean Witcher\" -  How one small LinkedIn message convinced a Far Cry veteran to hop aboard Project Windless",
+      "image": "https://assetsio.gnwcdn.com/project-windless-header2.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-02-26",
+      "summary": "Se você não conhece a cultura pop sul-coreana, há uma boa chance de você ter ficado um pouco surpreso ao ver uma galinha bípede musculosa ocupar o centro das atenções quando a editora Krafton revelou o Projeto Windless no início deste ano. Mas se você estiver...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/how-one-small-linkedin-message-convinced-a-far-cry-veteran-to-hop-aboard-project-windless"
+    },
+    {
+      "id": "https://www.eurogamer.net/highguard-barely-has-several-hundred-people-playing-together",
+      "title": "Highguard mal tem centenas de pessoas jogando juntas todos os dias - um modo de ação total pode reverter seu destino?",
+      "original_title": "Highguard barely has several hundred people playing together each day - can an incoming all-out action mode reverse its fate?",
+      "image": "https://assetsio.gnwcdn.com/highguard-raid-rush.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-02-26",
+      "summary": "Mudanças mais drásticas estão sendo feitas em Highguard enquanto o desenvolvedor Wildlight tenta desesperadamente manter uma base de jogadores vazando por entre seus dedos como água. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/highguard-barely-has-several-hundred-people-playing-together"
     },
     {
       "id": "https://www.eurogamer.net/skate-developer-full-circle-confirms-layoffs-claims-commitment-to-the-games-future-remains-strong",
@@ -193,156 +418,6 @@
       "url": "https://www.eurogamer.net/move-over-indy-weve-just-got-our-first-information-about-wolfenstein-3"
     },
     {
-      "id": "https://www.techpowerup.com/346787/intel-arc-gpu-graphics-drivers-101-8531-beta-released",
-      "title": "Drivers gráficos Intel Arc GPU 101.8531 Beta lançados",
-      "original_title": "Intel Arc GPU Graphics Drivers 101.8531 Beta Released",
-      "image": "https://tpucdn.com/img/7mm14G6NhOdSzkXR_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-02-26",
-      "summary": "A Intel lançou seus mais recentes drivers gráficos 101.8531 Non-WHQL Arc GPU, oferecendo suporte de jogo desde o primeiro dia para títulos como Marathon, Resident Evil Requiem e o pacote de expansão DLC World of Warcraft: Midnight. A Intel observa que com esta versão do driver...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/346787/intel-arc-gpu-graphics-drivers-101-8531-beta-released"
-    },
-    {
-      "id": "https://www.techpowerup.com/346793/dram-market-grows-29-in-4q25-samsung-regains-top-spot",
-      "title": "(PR) Mercado DRAM cresce 29% no 4T25, Samsung recupera posição de destaque",
-      "original_title": "(PR) DRAM Market Grows 29% in 4Q25, Samsung Regains Top Spot",
-      "image": "https://tpucdn.com/img/CRHoaws0ubzCb0VC_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-02-26",
-      "summary": "As últimas descobertas da TrendForce revelam que a expansão das aplicações de IA, desde o treinamento LLM até a inferência, levou os CSPs a ampliar a construção de data centers além dos servidores de IA para incluir servidores de uso geral. Essa mudança estendeu a aquisição de memória...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/346793/dram-market-grows-29-in-4q25-samsung-regains-top-spot"
-    },
-    {
-      "id": "https://www.techpowerup.com/346792/highpoint-launches-industry-first-pcie-5-0-external-fabric-powered-by-pci-sig-copprlink-technology",
-      "title": "(PR) HighPoint lança a primeira malha externa PCIe 5.0 do setor com tecnologia PCI-SIG CopprLink",
-      "original_title": "(PR) HighPoint Launches Industry First PCIe 5.0 External Fabric Powered by PCI-SIG CopprLink Technology",
-      "image": "https://tpucdn.com/img/pjK6DycBzxVN1qWG_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-02-26",
-      "summary": "A HighPoint Technologies, Inc., fornecedora líder de soluções de comutação e expansão de armazenamento PCI Express (PCIe) de alto desempenho, tem o orgulho de anunciar o lançamento da arquitetura externa CopprLink PCIe da HighPoint. Ancorado pelo PCI-SIG CopprLi...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/346792/highpoint-launches-industry-first-pcie-5-0-external-fabric-powered-by-pci-sig-copprlink-technology"
-    },
-    {
-      "id": "https://www.techpowerup.com/346734/acemagic-k1-mini-pc-core-i5-12600h-premium-performance-without-the-premium-price",
-      "title": "Mini PC ACEMAGIC K1 (Core i5-12600H) – desempenho premium sem preço premium",
-      "original_title": "ACEMAGIC K1 Mini PC (Core i5-12600H)—Premium Performance Without the Premium Price",
-      "image": "https://tpucdn.com/img/i4C30dw2Y7s8hSuq_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-02-26",
-      "summary": "O K1 Mini PC da ACEMAGIC, equipado com Intel Core i5-12600H de 12ª geração, está atualmente disponível com um desconto substancial na Amazon dos EUA. Originalmente com preço de US$ 579,99, o sistema agora está listado por US$ 399,99, com um código promocional adicional de 10% de desconto trazendo o primeiro...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/346734/acemagic-k1-mini-pc-core-i5-12600h-premium-performance-without-the-premium-price"
-    },
-    {
-      "id": "https://www.techpowerup.com/346788/samsung-unveils-the-galaxy-buds4-series-earbuds",
-      "title": "(PR) Samsung revela os fones de ouvido da série Galaxy Buds4",
-      "original_title": "(PR) Samsung Unveils the Galaxy Buds4 Series Earbuds",
-      "image": "https://tpucdn.com/img/wbDCo5Jt4LenANzl_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-02-26",
-      "summary": "apresentou hoje seus mais recentes Galaxy Buds4 Pro e Galaxy Buds4, redefinindo o que os fones de ouvido premium podem oferecer em áudio Hi-fi superior e uso diário. Construídos para soar tão bem quanto parecem, a série Galaxy Buds4...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/346788/samsung-unveils-the-galaxy-buds4-series-earbuds"
-    },
-    {
-      "id": "https://www.techpowerup.com/346786/nvidia-ships-first-vera-rubin-vr200-samples-to-customers",
-      "title": "NVIDIA envia as primeiras amostras de VR200 “Vera Rubin” aos clientes",
-      "original_title": "NVIDIA Ships First \"Vera Rubin\" VR200 Samples to Customers",
-      "image": "https://tpucdn.com/img/X33KqqKQCbwLaYsu_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-02-26",
-      "summary": "A NVIDIA relatou seus resultados para o ano inteiro de 2025 com uma receita enorme de US$ 215,9 bilhões, com US$ 68,1 bilhões chegando no quarto trimestre. A teleconferência de resultados da empresa após a publicação dos resultados continha algumas informações interessantes e confirmou que...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/346786/nvidia-ships-first-vera-rubin-vr200-samples-to-customers"
-    },
-    {
-      "id": "https://www.techpowerup.com/345912/computers-running-windows-10-arent-safe-but-windows-11-pro-is-only-usd-13-right-now-reg-usd-199",
-      "title": "Computadores que executam o Windows 10 não são seguros, mas o Windows 11 Pro custa apenas US$ 13 no momento (normalmente US$ 199)",
-      "original_title": "Computers Running Windows 10 Aren't Safe, But Windows 11 Pro Is Only $13 Right Now (Reg. $199)",
-      "image": "https://tpucdn.com/img/QtyLYNoGCFNal3Ic_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-02-26",
-      "summary": "A Microsoft encerrou o suporte para Windows 10 no ano passado e, se o seu computador ainda o estiver executando, seus dados estarão em risco. Se você deseja uma maneira fácil de atualizar, agora mesmo, você pode obter o Windows 11 Pro à venda por apenas US$ 12,97 (normalmente US$ 199). O Windows 11 Pro adiciona ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/345912/computers-running-windows-10-arent-safe-but-windows-11-pro-is-only-usd-13-right-now-reg-usd-199"
-    },
-    {
-      "id": "https://www.techpowerup.com/346785/february-xbox-update-brings-1440p-streaming-rog-xbox-ally-updates-controller-responsiveness-on-pc-and-more",
-      "title": "(PR) A atualização do Xbox de fevereiro traz streaming de 1440p, atualizações do ROG Xbox Ally, capacidade de resposta do controlador no PC e muito mais",
-      "original_title": "(PR) February Xbox Update Brings 1440p Streaming, ROG Xbox Ally Updates, Controller Responsiveness on PC and More",
-      "image": "https://tpucdn.com/img/9DqHFVjIIxap9lYh_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-02-26",
-      "summary": "Fevereiro foi um grande mês, pois lançamos vários novos recursos e atualizações, tudo com um único pensamento em mente: melhorar sua experiência de jogo no Xbox. Os membros do Xbox Game Pass Ultimate agora podem transmitir seus jogos favoritos com resolução de até 1440p no Xbox Seri...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/346785/february-xbox-update-brings-1440p-streaming-rog-xbox-ally-updates-controller-responsiveness-on-pc-and-more"
-    },
-    {
-      "id": "https://www.techpowerup.com/346784/amd-and-nutanix-announce-strategic-partnership-to-advance-an-open-and-scalable-platform-for-enterprise-ai",
-      "title": "(PR) AMD e Nutanix anunciam parceria estratégica para desenvolver uma plataforma aberta e escalável para IA empresarial",
-      "original_title": "(PR) AMD and Nutanix Announce Strategic Partnership to Advance an Open and Scalable Platform for Enterprise AI",
-      "image": "https://tpucdn.com/img/cT3Zzc9vmx275sn6_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-02-26",
-      "summary": "A AMD e a Nutanix anunciaram hoje uma parceria estratégica plurianual para desenvolver em conjunto uma plataforma de infraestrutura de IA aberta e full-stack projetada para potencializar aplicações de IA de agentes em todos os lugares. Este acordo está alinhado ao compromisso de ambas as empresas com um ambiente aberto ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/346784/amd-and-nutanix-announce-strategic-partnership-to-advance-an-open-and-scalable-platform-for-enterprise-ai"
-    },
-    {
-      "id": "https://www.techpowerup.com/346783/team-group-showcases-industrial-ssd-and-memory-solutions-at-embedded-world-2026",
-      "title": "(PR) Team Group apresenta soluções industriais de SSD e memória na Embedded World 2026",
-      "original_title": "(PR) Team Group Showcases Industrial SSD and Memory Solutions at Embedded World 2026",
-      "image": "https://tpucdn.com/img/LdtuXCTNfEYpy4Jn_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-02-26",
-      "summary": "anunciou hoje seu forte retorno ao Embedded World 2026, um dos principais eventos mundiais para tecnologias embarcadas, após sua presença vencedora do Embedded Award na exposição do ano passado. Com base neste impulso, o Team Group irá...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/346783/team-group-showcases-industrial-ssd-and-memory-solutions-at-embedded-world-2026"
-    },
-    {
       "id": "https://www.eurogamer.net/discord-delays-controversial-age-verification-rollout-saying-it-missed-the-mark-following-community-outcry",
       "title": "Discord atrasa implementação controversa de verificação de idade, dizendo que “errou o alvo” após protestos da comunidade",
       "original_title": "Discord delays controversial age verification rollout, saying it \"missed the mark\" following community outcry",
@@ -356,81 +431,6 @@
         "Eurogamer"
       ],
       "url": "https://www.eurogamer.net/discord-delays-controversial-age-verification-rollout-saying-it-missed-the-mark-following-community-outcry"
-    },
-    {
-      "id": "https://www.eurogamer.net/genshin-impacts-privacy-policy-indicated-players-voice-comms-data-may-be-used-to-train-ai-models",
-      "title": "A Política de Privacidade do Genshin Impact indicou que os dados de comunicação de voz dos jogadores podem ser usados ​​para treinar modelos de IA",
-      "original_title": "Genshin Impact's Privacy Policy indicated players' voice comms data may be used to train AI models",
-      "image": "https://assetsio.gnwcdn.com/Genshin-Impact-5.8-Livesteam-Codes-Header.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-02-25",
-      "summary": "A política de privacidade do Genshin Impact apresentava um aviso indicando que as vozes dos usuários estavam sendo usadas para treinar IA. Esta política de privacidade, publicada pela última vez em janeiro, foi discretamente atualizada para remover esta cláusula. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/genshin-impacts-privacy-policy-indicated-players-voice-comms-data-may-be-used-to-train-ai-models"
-    },
-    {
-      "id": "https://www.eurogamer.net/mewgenics-to-get-modding-support-and-launcher-eventually",
-      "title": "Mewgenics está “eventualmente” obtendo suporte para mod através do Steam Workshop e de um lançador oficial, Tyler Glaiel confirmou",
-      "original_title": "Mewgenics is \"eventually\" getting mod support through Steam Workshop and an official launcher, Tyler Glaiel has confirmed",
-      "image": "https://assetsio.gnwcdn.com/ss_129c23d40964c3f0a7e766182179333a19f422b9.1920x1080.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-02-25",
-      "summary": "À medida que os lançamentos AAA começam a nos invadir, Mewgenics continua a brilhar como um dos lançamentos independentes mais populares de 2026 até agora. Após seu enorme sucesso, já recebemos a confirmação de que um primeiro DLC está em andamento, mas e os consoles feitos pelo usuário...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/mewgenics-to-get-modding-support-and-launcher-eventually"
-    },
-    {
-      "id": "https://www.eurogamer.net/final-fantasy-7-new-steam-version-met-with-mostly-negative-reviews",
-      "title": "Por que a nova versão do antigo Final Fantasy 7 da Square teve uma reação “principalmente negativa”? - As análises do Steam têm a resposta",
-      "original_title": "Why has Square's new version of old Final Fantasy 7 been met with a \"mostly negative\" reaction? - Steam reviews have the answer",
-      "image": "https://assetsio.gnwcdn.com/FF7-Omnislash-new-Steam-version.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-02-25",
-      "summary": "Todos os olhos estão voltados para a terceira entrada de Final Fantasy 7 Remake agora, mas com fantásticas portas Xbox e Switch 2 do primeiro jogo, além de um novo relançamento no Steam do original de 1997, os fãs não foram negligenciados recentemente. Essa nova versão OG FF7 não chegou tão...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/final-fantasy-7-new-steam-version-met-with-mostly-negative-reviews"
-    },
-    {
-      "id": "https://www.eurogamer.net/resident-evil-requiem-review",
-      "title": "Crítica de Resident Evil Requiem",
-      "original_title": "Resident Evil Requiem review",
-      "image": "https://assetsio.gnwcdn.com/resident-evil-requiem-header-6.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-02-25",
-      "summary": "Aqui fica uma pergunta: o que é Resident Evil? Para alguns, desmamados nas primeiras entradas da série, é um terror de sobrevivência exagerado - tiroteios em staccato pontuando sustos sufocantes; para outros, que entraram na série com Resident Evil 4 e além, talvez seja...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/resident-evil-requiem-review"
-    },
-    {
-      "id": "https://www.eurogamer.net/tomb-raider-catalyst-actress-alix-wilton-regan-promises-no-laras-left-behind-as-she-steps-into-her-new-role",
-      "title": "A atriz de Tomb Raider Catalyst, Alix Wilton Regan, promete “nenhum Laras deixado para trás” ao assumir seu novo papel",
-      "original_title": "Tomb Raider Catalyst actress Alix Wilton Regan promises \"no Laras left behind\" as she steps into her new role",
-      "image": "https://assetsio.gnwcdn.com/Image-of-Alix-Wilton-Regan-overlaid-on-an-image-of-Lara-Croft-in-Tomb-Raider-Catalyst.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-02-25",
-      "summary": "A mais nova atriz de Lara Croft, Alix Wilton Regan, prometeu que honrará todas as Lara que já existiram com sua interpretação do lendário invasor de tumbas. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/tomb-raider-catalyst-actress-alix-wilton-regan-promises-no-laras-left-behind-as-she-steps-into-her-new-role"
     }
   ]
 }
