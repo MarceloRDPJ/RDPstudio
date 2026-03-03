@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-03-02T12:59:29",
-  "display_date": "02/03/2026 12:59",
+  "last_updated": "2026-03-03T12:58:29",
+  "display_date": "03/03/2026 12:58",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "630ms",
+    "latency": "262ms",
     "current_games": [
       {
         "title": "Boxes: Lost Fragments",
@@ -65,7 +65,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-03-02",
+      "date": "2026-03-03",
       "summary": "Fuja de uma luxuosa mansão cheia de misteriosas caixas de quebra-cabeças!",
       "sources": [
         "Epic Games Store"
@@ -80,7 +80,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-03-02",
+      "date": "2026-03-03",
       "summary": "My Night Job envia os jogadores para um prédio abandonado e ataca hordas de monstros. Usando mais de 60 armas para se defender e salvar o maior número possível de sobreviventes. Mas cuidado: se muitas salas forem destruídas, o fim pode estar mais próximo do que você pensava inicialmente.",
       "sources": [
         "Epic Games Store"
@@ -95,7 +95,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-03-02",
+      "date": "2026-03-03",
       "summary": "Disponível gratuitamente a partir de 05/03. Idle Champions of the Forgotten Realms é um jogo de gerenciamento de estratégia de Dungeons & Dragons que une personagens de todo o multiverso de D&D em uma grande aventura.",
       "sources": [
         "Epic Games Store"
@@ -110,7 +110,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-03-02",
+      "date": "2026-03-03",
       "summary": "Disponível gratuitamente a partir de 05/03. O Nabo Boy está de volta! Desta vez ele está se unindo à temível Pickled Gang para planejar e executar o assalto mais estranho de todos os tempos.",
       "sources": [
         "Epic Games Store"
@@ -125,7 +125,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-03-02",
+      "date": "2026-03-03",
       "summary": "Disponível gratuitamente a partir de 30/03. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
       "sources": [
         "Epic Games Store"
@@ -133,109 +133,154 @@
       "url": "https://store.epicgames.com/p/monument-valley-02"
     },
     {
-      "id": "https://www.eurogamer.net/the-current-steam-next-fest-is-about-halfway-through-and-the-10-most-played-demos-so-far-might-surprise-you",
-      "title": "À medida que o atual Steam Next Fest termina, as 10 demos mais jogadas podem surpreendê-lo",
-      "original_title": "As the current Steam Next Fest wraps up, the 10 most-played demos might surprise you",
-      "image": "https://assetsio.gnwcdn.com/steam-next-fest_myGmpAu.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/cities-skylines-1-is-getting-its-first-new-expansion-in-two-years",
+      "title": "Cities Skylines 1 está recebendo sua primeira expansão em dois anos, à medida que os esforços de ressurreição aparentemente continuam em meio às lutas da sequência",
+      "original_title": "Cities Skylines 1 is getting its first new expansion in two years as resurrection efforts seemingly continue amid sequel's struggles",
+      "image": "https://assetsio.gnwcdn.com/cities-skylines-race-day-montage.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-03-02",
-      "summary": "Portanto, há muita coisa acontecendo no Steam em 2026. No início deste ano, informamos que a Valve organizou 22 festivais temáticos de dar água nos olhos ao longo de 2026. Isso significa que há algum tipo de promoção ou festival a cada 2,4 semanas, em média, até...",
+      "date": "2026-03-03",
+      "summary": "Em meio aos esforços contínuos de Cities Skylines 2 para endireitar a situação cerca de dois anos após seu lançamento conturbado (e com o desenvolvedor original Colossal Order não mais vinculado à série), a editora Paradox Interactive anunciou a primeira expansão para...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/the-current-steam-next-fest-is-about-halfway-through-and-the-10-most-played-demos-so-far-might-surprise-you"
+      "url": "https://www.eurogamer.net/cities-skylines-1-is-getting-its-first-new-expansion-in-two-years"
     },
     {
-      "id": "https://www.eurogamer.net/marathon-players-puzzle-over-mystery-lobster",
-      "title": "Considere a lagosta? O primeiro mistério inesperado da Maratona pode estar acontecendo enquanto os jogadores quebram a cabeça com mariscos multicoloridos",
-      "original_title": "Consider the lobster? Marathon's first unexpected mystery could be afoot as players puzzle over multi-coloured shellfish",
-      "image": "https://assetsio.gnwcdn.com/lobster-Marathon-hed-image.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/metacritics-highest-rated-pokemon-game-is-now-the-animal-crossing-like-spin-off-pokopia",
+      "title": "O jogo Pokémon com maior classificação do Metacritic é agora o spin-off do tipo Animal Crossing, Pokopia",
+      "original_title": "Metacritic's highest-rated Pokémon game is now the Animal Crossing-like spin-off, Pokopia",
+      "image": "https://assetsio.gnwcdn.com/Pokemon-Pokopia-trailer-screenshot-showing-Ditto-dancing-with-confetti-falling-around-and-fairy-lights-strung-across-the-room.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-03-02",
-      "summary": "O fim de semana do Sever Slam da Marathon acabou, e com o jogo pronto para ser lançado no final desta semana, os jogadores estão agora mais convencidos de que vão jogar muito ou pular, já que não está realmente reescrevendo o gênero de tiro de extração. Em um...",
+      "date": "2026-03-03",
+      "summary": "Pokémon Pokopia se tornou o jogo Pokémon com melhor classificação de todos os tempos no Metacritic. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/marathon-players-puzzle-over-mystery-lobster"
+      "url": "https://www.eurogamer.net/metacritics-highest-rated-pokemon-game-is-now-the-animal-crossing-like-spin-off-pokopia"
     },
     {
-      "id": "https://www.eurogamer.net/warhammer-40k-space-marine-2-voice-pack-dlc-sparks-backlash",
-      "title": "Backlash atinge Warhammer 40K: Space Marine 2 sobre as linhas ausentes (e alteradas) do DLC do pacote de voz",
-      "original_title": "Backlash hits Warhammer 40K: Space Marine 2 over voice pack DLC's missing (and changing) lines",
-      "image": "https://assetsio.gnwcdn.com/Space-Marine-2-voice-pack-1.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/fallout-new-vegas-remaster-iron-galaxy-tease",
+      "title": "Em um clima sedento por uma remasterização de Fallout: New Vegas, o estúdio por trás de Tony Hawk’s Pro Skater 3 + 4 parece provocar exatamente isso",
+      "original_title": "In a climate thirsty for a Fallout: New Vegas remaster, the studio behind Tony Hawk's Pro Skater 3 + 4 seems to tease exactly that",
+      "image": "https://assetsio.gnwcdn.com/fallout-new-vegas_06roh2J.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-03-02",
-      "summary": "Bem no segundo ano de conteúdo pós-lançamento de WH40K: Space Marine 2 (gratuito e pago), a editora Focus Entertainment e a desenvolvedora Sabre Interactive podem ter se deparado com o primeiro grande obstáculo do jogo: seu DLC de pacote de voz não está indo bem com v...",
+      "date": "2026-03-03",
+      "summary": "Iron Galaxy, um estúdio celebrado por remasterizar de forma soberba o Pro Skater 3 + 4 de Tony Hawk, deu uma dica flagrante de que pode ser a próxima remasterização de Fallout: New Vegas. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/warhammer-40k-space-marine-2-voice-pack-dlc-sparks-backlash"
+      "url": "https://www.eurogamer.net/fallout-new-vegas-remaster-iron-galaxy-tease"
     },
     {
-      "id": "https://www.eurogamer.net/marathon-duo-queue-requests-heard-by-bungie-as-server-slam-concludes-with-a-bang",
-      "title": "Solicitações de fila da dupla da Maratona “ouvidas” pela Bungie, enquanto Server Slam termina com um estrondo",
-      "original_title": "Marathon duo queue requests \"heard\" by Bungie, as Server Slam concludes with a bang",
-      "image": "https://assetsio.gnwcdn.com/marathon-concept-stealth.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/for-better-or-worse-pokemon-firered-and-leafgreens-switch-ports-arent-exactly-as-we-remember-them-but-is-that-a-problem",
+      "title": "Para o bem ou para o mal, as portas Switch do Pokémon FireRed e LeafGreen não são exatamente como as lembramos - mas isso é um problema?",
+      "original_title": "For better or worse, Pokemon FireRed and LeafGreen's Switch ports aren't exactly as we remember them - but is that a problem?",
+      "image": "https://assetsio.gnwcdn.com/brock-hard.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-03-02",
-      "summary": "Com o Marathon Server Slam concluído, os desenvolvedores da Bungie lançaram uma última postagem de recapitulação do fim de semana abordando preocupações, provocando ajustes futuros e confirmando que “ouviram” pedidos para uma fila dupla dedicada. Leia mais...",
+      "date": "2026-03-03",
+      "summary": "No fim de semana, a névoa em torno do inesperado (e, de certa forma, controverso) relançamento de Pokémon FireRed/LeafGreen pela Nintendo se dissipou e tudo isso me deixou com uma sensação bastante peculiar. Quando a Nintendo anunciou pela primeira vez essas portas, lançadas através do Ni...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/marathon-duo-queue-requests-heard-by-bungie-as-server-slam-concludes-with-a-bang"
+      "url": "https://www.eurogamer.net/for-better-or-worse-pokemon-firered-and-leafgreens-switch-ports-arent-exactly-as-we-remember-them-but-is-that-a-problem"
     },
     {
-      "id": "https://www.techpowerup.com/346931/tcl-enables-accessible-5g-connectivity-for-everyone-and-every-home",
-      "title": "(PR) TCL permite conectividade 5G acessível para todos e todas as casas",
-      "original_title": "(PR) TCL Enables Accessible 5G Connectivity for Everyone and Every Home",
-      "image": "https://tpucdn.com/img/21MaCehM7LWuYCiL_thm.jpg",
+      "id": "https://www.eurogamer.net/next-god-of-war-game-stars-faye-rather-than-kratos",
+      "title": "O próximo jogo God of War é estrelado por um novo protagonista em vez de Kratos, afirma uma fonte, e será revelado este ano",
+      "original_title": "The next God of War game stars a new protagonist rather than Kratos, insider claims, and will be revealed this year",
+      "image": "https://assetsio.gnwcdn.com/god-of-war-faye-kratos.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-03-03",
+      "summary": "O próximo jogo God of War contará com Faye como personagem principal, que conhecemos como esposa de Kratos e mãe de Atreus nos recentes jogos God of War. E o jogo aparentemente será revelado neste ano e lançado no próximo, durante o...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/next-god-of-war-game-stars-faye-rather-than-kratos"
+    },
+    {
+      "id": "https://www.eurogamer.net/capcom-spotlight-announced-for-this-week-with-pragmata-and-more-to-feature",
+      "title": "Capcom Spotlight anunciado para esta semana, com Pragmata e muito mais para apresentar",
+      "original_title": "Capcom Spotlight announced for this week, with Pragmata and more to feature",
+      "image": "https://assetsio.gnwcdn.com/Diana-in-Pragmata.webp?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-03-03",
+      "summary": "A Capcom anunciou um novo showcase, agendado para o final desta semana. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/capcom-spotlight-announced-for-this-week-with-pragmata-and-more-to-feature"
+    },
+    {
+      "id": "https://www.eurogamer.net/amazons-god-of-war-casting-adds-several-of-thors-children-as-well-as-odins-fanatical-valkyrie-commander",
+      "title": "O elenco de God of War da Amazon adiciona vários filhos de Thor, bem como o comandante Valquíria “fanático” de Odin",
+      "original_title": "Amazon's God of War casting adds several of Thor's children, as well as Odin's \"fanatical\" Valkyrie commander",
+      "image": "https://assetsio.gnwcdn.com/Thrud-and-Atreus-in-God-of-War-Ragnarok.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-03-03",
+      "summary": "Mais quatro nomes foram adicionados ao elenco da próxima série de ação ao vivo God of War da Amazon, com a linhagem de Thor bem representada. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/amazons-god-of-war-casting-adds-several-of-thors-children-as-well-as-odins-fanatical-valkyrie-commander"
+    },
+    {
+      "id": "https://www.techpowerup.com/346982/mediatek-and-fibocom-launch-flagship-wi-fi-8-cpe-solution-at-mwc-2026",
+      "title": "(PR) MediaTek e Fibocom lançam solução carro-chefe Wi-Fi 8 CPE no MWC 2026",
+      "original_title": "(PR) MediaTek and Fibocom Launch Flagship Wi-Fi 8 CPE Solution at MWC 2026",
+      "image": "https://tpucdn.com/img/G03zccblU5wUhfwu_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-03-02",
-      "summary": "À medida que a adoção do 5G continua a acelerar, a conectividade de alta velocidade está a remodelar as experiências digitais – mas muitos utilizadores em todo o mundo ainda não têm acesso ao 5G. Para colmatar esta lacuna e acelerar a transição do 4G para o 5G, a TCL está a introduzir um nível de entrada...",
+      "date": "2026-03-03",
+      "summary": "No MWC 2026, Fibocom (300638.SZ, 0638.HK) e MediaTek revelaram uma solução CPE carro-chefe alimentada pelo módulo FG390 5G e chipset Filogic 8800 Wi-Fi 8. O novo design combina a conectividade de alta velocidade do 5G-A com o desempenho sem fio aprimorado do Wi-Fi 8...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/346931/tcl-enables-accessible-5g-connectivity-for-everyone-and-every-home"
+      "url": "https://www.techpowerup.com/346982/mediatek-and-fibocom-launch-flagship-wi-fi-8-cpe-solution-at-mwc-2026"
     },
     {
-      "id": "https://www.techpowerup.com/346930/tcl-introduces-brand-new-crystalclip-earbuds",
-      "title": "(PR) TCL apresenta novos fones de ouvido CrystalClip",
-      "original_title": "(PR) TCL Introduces Brand-New CrystalClip Earbuds",
-      "image": "https://tpucdn.com/img/7UU9Z57q4VO92ySb_thm.jpg",
+      "id": "https://www.techpowerup.com/346983/nvidia-lowers-hbm4-specs-for-vera-rubin-vr200-as-memory-suppliers-miss-22-tb-s-target",
+      "title": "NVIDIA reduz especificações HBM4 para “Vera Rubin” VR200, pois fornecedores de memória perdem a meta de 22 TB/s",
+      "original_title": "NVIDIA Lowers HBM4 Specs for \"Vera Rubin\" VR200 as Memory Suppliers Miss 22 TB/s Target",
+      "image": "https://tpucdn.com/img/Mj4yJA5VsoFeFNk1_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-03-02",
-      "summary": "A TCL apresenta seus novos fones de ouvido TCL CrystalClip no MWC 2026, estabelecendo um novo padrão para áudio aberto com uma mistura perfeita de desempenho de som envolvente, conforto sem esforço durante todo o dia, estética de design refinada, funcionalidade intuitiva alimentada por IA...",
+      "date": "2026-03-03",
+      "summary": "A NVIDIA supostamente reduziu seus requisitos de desempenho para a memória HBM4 usada nas GPUs “Rubin”, já que a SK hynix e a Samsung estão lutando para cumprir as ambiciosas metas de desempenho estabelecidas pela NVIDIA. De acordo com uma nova nota da SemiAnalysis,...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/346930/tcl-introduces-brand-new-crystalclip-earbuds"
+      "url": "https://www.techpowerup.com/346983/nvidia-lowers-hbm4-specs-for-vera-rubin-vr200-as-memory-suppliers-miss-22-tb-s-target"
     },
     {
-      "id": "https://www.techpowerup.com/346929/rayneo-unveils-rayneo-air-4-pro-with-batman-edition-at-mwc-2026",
-      "title": "(PR) RayNeo revela RayNeo Air 4 Pro com edição Batman no MWC 2026",
-      "original_title": "(PR) RayNeo Unveils RayNeo Air 4 Pro with Batman Edition at MWC 2026",
-      "image": "https://tpucdn.com/img/sNf2bn4WKurRAOKk_thm.jpg",
+      "id": "https://www.techpowerup.com/346979/samsung-redesigns-hbm4e-power-delivery-to-cut-defects-and-explore-hbm-gpu-separation",
+      "title": "Samsung redesenha o fornecimento de energia HBM4E para eliminar defeitos e explorar a separação HBM-GPU",
+      "original_title": "Samsung Redesigns HBM4E Power Delivery to Cut Defects and Explore HBM-GPU Separation",
+      "image": "https://tpucdn.com/img/KD4isijpLhXEsbyq_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-03-02",
-      "summary": "RayNeo, inovador líder em tecnologia wearable de realidade aumentada (AR), revelou hoje a Batman Edition de seus mais recentes óculos inteligentes, o RayNeo Air 4 Pro, no MWC 2026. Disponível para compra desde 27 de fevereiro de 2026, RayNeo Air 4 Pro vem em bot...",
+      "date": "2026-03-03",
+      "summary": "A Samsung está reformulando a rede de fornecimento de energia em sua memória HBM4E para enfrentar o que está se tornando uma das maiores dores de cabeça de engenharia em chips de IA de próxima geração. Isso ocorre apenas duas semanas depois que a empresa lançou seu primeiro HBM4 comercial, já empurrando...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/346929/rayneo-unveils-rayneo-air-4-pro-with-batman-edition-at-mwc-2026"
+      "url": "https://www.techpowerup.com/346979/samsung-redesigns-hbm4e-power-delivery-to-cut-defects-and-explore-hbm-gpu-separation"
     },
     {
       "id": "https://www.techpowerup.com/346734/acemagic-k1-mini-pc-core-i5-12600h-premium-performance-without-the-premium-price",
@@ -245,7 +290,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-03-02",
+      "date": "2026-03-03",
       "summary": "O K1 Mini PC da ACEMAGIC, equipado com Intel Core i5-12600H de 12ª geração, está atualmente disponível com um desconto substancial na Amazon dos EUA. Originalmente com preço de US$ 579,99, o sistema agora está listado por US$ 399,99, com um código promocional adicional de 10% de desconto trazendo o primeiro...",
       "sources": [
         "TechPowerUp"
@@ -253,184 +298,139 @@
       "url": "https://www.techpowerup.com/346734/acemagic-k1-mini-pc-core-i5-12600h-premium-performance-without-the-premium-price"
     },
     {
-      "id": "https://www.techpowerup.com/346928/tcl-unveils-next-generation-nxtpaper-technology-on-amoled",
-      "title": "(PR) TCL revela tecnologia NXTPAPER de última geração em AMOLED",
-      "original_title": "(PR) TCL Unveils Next-Generation NXTPAPER Technology on AMOLED",
-      "image": "https://tpucdn.com/img/dwkzcs6NOHLJKZ3j_thm.jpg",
+      "id": "https://www.techpowerup.com/346977/nvidia-geforce-v595-71-drivers-reportedly-restricts-voltage-on-rtx-50-series-gpus",
+      "title": "Drivers NVIDIA GeForce v595.71 supostamente restringem a tensão em GPUs da série RTX 50",
+      "original_title": "NVIDIA GeForce v595.71 Drivers Reportedly Restricts Voltage on RTX 50 Series GPUs",
+      "image": "https://tpucdn.com/img/kUqdmkMPnxSobSe2_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-03-02",
-      "summary": "No Mobile World Congress (MWC) de 2026, a TCL anunciou um avanço inovador em sua tecnologia proprietária de cuidados oftalmológicos NXTPAPER. Pela primeira vez, a tecnologia de display eletrônico colorido exclusiva da NXTPAPER será integrada ao display AMOLED...",
+      "date": "2026-03-03",
+      "summary": "A NVIDIA lançou ontem seus drivers GeForce 595.71 WHQL Game Ready para solucionar problemas com a versão anterior 595.59 WHQL. No entanto, os problemas parecem não ter acabado ainda, pois os relatórios vêm de vários usuários executando o driver mais recente que o novo...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/346928/tcl-unveils-next-generation-nxtpaper-technology-on-amoled"
+      "url": "https://www.techpowerup.com/346977/nvidia-geforce-v595-71-drivers-reportedly-restricts-voltage-on-rtx-50-series-gpus"
     },
     {
-      "id": "https://www.techpowerup.com/346927/purelifi-debuts-10-gbps-connectivity-dna-and-bridges-the-5g-gap-with-global-fwa-partners-at-mwc",
-      "title": "(PR) pureLiFi estreia \"DNA de conectividade\" de 10 Gbps e preenche a lacuna 5G com parceiros globais de FWA no MWC",
-      "original_title": "(PR) pureLiFi Debuts 10 Gbps \"Connectivity DNA\" and Bridges the 5G Gap With Global FWA Partners at MWC",
-      "image": "https://tpucdn.com/img/KgIsLwPrhhv7MlRl_thm.jpg",
+      "id": "https://www.techpowerup.com/346976/asrock-industrial-launches-the-iepf-11000s-series-platform-with-intel-xeon-600-cpus",
+      "title": "(PR) ASRock Industrial lança plataforma da série iEPF-11000S com CPUs Intel Xeon 600",
+      "original_title": "(PR) ASRock Industrial Launches the iEPF-11000S Series Platform with Intel Xeon 600 CPUs",
+      "image": "https://tpucdn.com/img/lMOvyPVpCSCi4AAP_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-03-02",
-      "summary": "pureLiFi, líder global em comunicações baseadas em luz, está preparada para desafiar as expectativas no Mobile World Congress (MWC) 2026, quebrando barreiras de velocidade e resolvendo o desafio mais difícil da indústria de acesso fixo sem fio (FWA), entregando alta qualidade...",
+      "date": "2026-03-03",
+      "summary": "ASRock Industrial anuncia o lançamento da série iEPF-11000S, uma poderosa plataforma AIoT de borda expansível projetada para aplicações de IA de borda de próxima geração. Equipada com processadores Intel Xeon 600 com chipset W890, a série iEPF-11000S oferece pr...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/346927/purelifi-debuts-10-gbps-connectivity-dna-and-bridges-the-5g-gap-with-global-fwa-partners-at-mwc"
+      "url": "https://www.techpowerup.com/346976/asrock-industrial-launches-the-iepf-11000s-series-platform-with-intel-xeon-600-cpus"
     },
     {
-      "id": "https://www.techpowerup.com/346924/qualcomm-debuts-ai-native-wi-fi-8-portfolio-unifying-client-and-network-connectivity",
-      "title": "(PR) Qualcomm lança portfólio AI-Native Wi-Fi 8 unificando conectividade de cliente e rede",
-      "original_title": "(PR) Qualcomm Debuts AI-Native Wi‑Fi 8 Portfolio Unifying Client and Network Connectivity",
-      "image": "https://tpucdn.com/img/uSlsu8eJriLRzPvv_thm.jpg",
+      "id": "https://www.techpowerup.com/346953/intuit-quickbooks-now-offers-a-lifetime-license-and-its-on-sale",
+      "title": "Intuit QuickBooks agora oferece uma licença vitalícia e está à venda",
+      "original_title": "Intuit QuickBooks Now Offers a Lifetime License, and It's on Sale",
+      "image": "https://tpucdn.com/img/A3N2CYVLBueZRE0a_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-03-02",
-      "summary": "anunciou hoje seu portfólio Wi-Fi 8 líder do setor, um passo fundamental para construir a base de conectividade para a era da IA. O portfólio abrangente apresenta o sistema de conectividade móvel Qualcomm FastConnect 8800 e...",
+      "date": "2026-03-03",
+      "summary": "Gerencie as finanças da sua empresa como um profissional com uma licença vitalícia do Intuit QuickBooks Desktop Pro Plus, agora por apenas US$ 200 (normalmente US$ 699). Muitos proprietários de pequenas empresas começam a gerenciar suas finanças com planilhas e portais bancários, apenas para perceberem que precisam...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/346924/qualcomm-debuts-ai-native-wi-fi-8-portfolio-unifying-client-and-network-connectivity"
+      "url": "https://www.techpowerup.com/346953/intuit-quickbooks-now-offers-a-lifetime-license-and-its-on-sale"
     },
     {
-      "id": "https://www.techpowerup.com/346921/microsoft-shader-execution-reordering-brings-90-performance-increase-on-intel-arc-b-series-80-on-nvidia-blackwell-gpus",
-      "title": "A reordenação de execução do Microsoft Shader traz aumento de desempenho de 90% nas GPUs Intel Arc B-Series e 80% nas GPUs NVIDIA “Blackwell”",
-      "original_title": "Microsoft Shader Execution Reordering Brings 90% Performance Increase on Intel Arc B-Series, 80% on NVIDIA \"Blackwell\" GPUs",
-      "image": "https://tpucdn.com/img/exlpWA1iVfelkuAj_thm.jpg",
+      "id": "https://www.techpowerup.com/346975/club-3d-announces-new-connectivity-solutions-for-march-2026",
+      "title": "(PR) Club 3D anuncia novas soluções de conectividade para março de 2026",
+      "original_title": "(PR) Club 3D Announces New Connectivity Solutions for March 2026",
+      "image": "https://tpucdn.com/img/wPdJbxG3BJ4oGYrq_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-03-02",
-      "summary": "A Microsoft atualizou recentemente seu Agility SDK para a versão 1.619, trazendo DirectX Shader Model 6.9 junto com algumas novas melhorias do DirectX 12. No entanto, a mais recente demonstração de produto da Microsoft sobre Shader Execution Reordering (SER) agora confirma um desempenho massivo...",
+      "date": "2026-03-03",
+      "summary": "Club 3D, um inovador tecnológico holandês especializado em soluções avançadas de conectividade de computadores desde 1997, anunciou suas mais novas soluções de conectividade para março. Isso inclui 2 novos adaptadores, um adaptador Ethernet USB-C para RJ45 10G e um adaptador USB-C para HDMI 2...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/346921/microsoft-shader-execution-reordering-brings-90-performance-increase-on-intel-arc-b-series-80-on-nvidia-blackwell-gpus"
+      "url": "https://www.techpowerup.com/346975/club-3d-announces-new-connectivity-solutions-for-march-2026"
     },
     {
-      "id": "https://www.techpowerup.com/346922/lenovo-unveils-new-business-notebooks-and-more-at-mwc-2026",
-      "title": "(PR) Lenovo revela novos notebooks empresariais e muito mais no MWC 2026",
-      "original_title": "(PR) Lenovo Unveils New Business Notebooks and More at MWC 2026",
-      "image": "https://tpucdn.com/img/n9wJOq4sZTSHhS4m_thm.jpg",
+      "id": "https://www.techpowerup.com/346972/huion-sets-new-22-inch-industry-benchmark-with-launch-of-kamvas-22-gen-3",
+      "title": "(PR) Huion estabelece nova referência na indústria de 22 polegadas com lançamento do Kamvas 22 (3ª geração)",
+      "original_title": "(PR) Huion Sets New 22-Inch Industry Benchmark with Launch of Kamvas 22 (Gen 3)",
+      "image": "https://tpucdn.com/img/d3WiJdavI6Fdu1g8_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-03-02",
-      "summary": "No MWC 2026, a Lenovo aproveita o impulso da CES e da Tech World para destacar seu mais recente portfólio de dispositivos empresariais alimentados por IA, formatos inteligentes e plataformas prontas para empresas, projetados para ajudar as organizações a escalar a IA com confiança. Padre...",
+      "date": "2026-03-03",
+      "summary": "A Huion, um nome confiável no design e fabricação de tablets de desenho digital, lançou hoje oficialmente seu monitor com caneta de 21,5 polegadas de próxima geração, o Kamvas 22 (Gen 3). Este desenvolvimento emocionante chega no momento perfeito para os artistas digitais, como sabemos...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/346922/lenovo-unveils-new-business-notebooks-and-more-at-mwc-2026"
+      "url": "https://www.techpowerup.com/346972/huion-sets-new-22-inch-industry-benchmark-with-launch-of-kamvas-22-gen-3"
     },
     {
-      "id": "https://www.techpowerup.com/346920/msi-unveils-scalable-ai-ran-with-nvidia-ai-aerial-solutions-to-accelerate-5g-and-beyond-at-mwc-2026",
-      "title": "(PR) MSI revela AI-RAN escalável com soluções aéreas de IA da NVIDIA para acelerar 5G e além no MWC 2026",
-      "original_title": "(PR) MSI Unveils Scalable AI-RAN with NVIDIA AI Aerial Solutions to Accelerate 5G and Beyond at MWC 2026",
-      "image": "https://tpucdn.com/img/5wgb6W4BwtMNZ0e1_thm.jpg",
+      "id": "https://www.techpowerup.com/346971/msi-and-blizzard-unveil-limited-edition-geforce-rtx-5070-world-of-warcraft-midnight-graphics-cards",
+      "title": "(PR) MSI e Blizzard lançam placas gráficas GeForce RTX 5070 World of Warcraft: Midnight de edição limitada",
+      "original_title": "(PR) MSI and Blizzard Unveil Limited Edition GeForce RTX 5070 World of Warcraft: Midnight Graphics Cards",
+      "image": "https://tpucdn.com/img/gKfzSkvueRB4zzD9_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-03-02",
-      "summary": "A MSI, fornecedora líder global de soluções de servidores de alto desempenho, está apresentando suas mais recentes soluções AI-vRAN no MWC 2026 (estande #5A61) para atender aos crescentes requisitos das redes de telecomunicações da próxima geração. A pilha AI-vRAN da MSI, integrada com G...",
+      "date": "2026-03-03",
+      "summary": "A MSI, fornecedora líder mundial de hardware para jogos de alto desempenho, orgulhosamente anuncia sua mais recente colaboração com a Blizzard Entertainment para comemorar o lançamento de World of Warcraft: Midnight. Juntas, MSI e Blizzard apresentam a edição limitada...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/346920/msi-unveils-scalable-ai-ran-with-nvidia-ai-aerial-solutions-to-accelerate-5g-and-beyond-at-mwc-2026"
+      "url": "https://www.techpowerup.com/346971/msi-and-blizzard-unveil-limited-edition-geforce-rtx-5070-world-of-warcraft-midnight-graphics-cards"
     },
     {
-      "id": "https://www.eurogamer.net/god-of-war-developer-is-working-on-a-new-franchise-within-the-god-of-war-universe",
-      "title": "Desenvolvedor de God of War está trabalhando em “uma nova franquia dentro do universo de God of War”",
-      "original_title": "God of War developer is working on \"a new franchise within the God of War universe\"",
-      "image": "https://assetsio.gnwcdn.com/godofwar-kratos.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/warframes-long-awaited-switch-2-upgrade-finally-has-a-release-date",
+      "title": "A tão esperada atualização do Switch 2 do Warframe finalmente tem uma data de lançamento, e há um modo estilo Dead by Daylight chegando também",
+      "original_title": "Warframe's long-awaited Switch 2 upgrade finally has a release date, and there's a Dead by Daylight-style mode coming too",
+      "image": "https://assetsio.gnwcdn.com/switch-2-warframe-header.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-03-01",
-      "summary": "Um ex-escritor sênior da Sony Santa Monica revelou que o estúdio está trabalhando em “uma nova franquia dentro do universo God of War”. Leia mais...",
+      "date": "2026-03-02",
+      "summary": "No dia tranquilo de julho passado, o CEO da Digital Extremes, Steve Sinclair, me disse que a equipe estava “animada” em trazer o Warframe para o Switch 2 e ansiosa para “realmente levar [a máquina] ao seu limite, ver o que ela pode fazer”. O único problema? O estúdio...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/god-of-war-developer-is-working-on-a-new-franchise-within-the-god-of-war-universe"
+      "url": "https://www.eurogamer.net/warframes-long-awaited-switch-2-upgrade-finally-has-a-release-date"
     },
     {
-      "id": "https://www.eurogamer.net/resident-evil-requiems-steam-concurrent-peak-is-the-biggest-in-franchise-history",
-      "title": "O pico simultâneo do Steam de Resident Evil Requiem é o maior da história da franquia",
-      "original_title": "Resident Evil Requiem's Steam concurrent peak is the biggest in franchise history",
-      "image": "https://assetsio.gnwcdn.com/Resident-Evil-Requiem-Basement---Header.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/playstation-studios-ramp-up-hiring-following-closures-and-cancellations",
+      "title": "Apesar do fechamento de estúdios e cancelamentos de projetos, o PlayStation Studios ainda está contratando para novas funções",
+      "original_title": "Despite studio closures and project cancellations, PlayStation Studios is still hiring for new roles",
+      "image": "https://assetsio.gnwcdn.com/PlayStation-Studios-logo.png?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-03-01",
-      "summary": "Resident Evil Requiem é provavelmente agora o maior jogo Resident Evil na história da franquia, apresentando uma contagem de jogadores simultâneos no Steam alta o suficiente para rivalizar até mesmo com jogos multijogador. Leia mais...",
+      "date": "2026-03-02",
+      "summary": "Apesar de lançar um punhado de vencedores inquestionáveis ​​​​nesta geração, como Marvel's Spider-Man 2, Helldivers 2 ou Ghost of Y & omacrtei, o PlayStation Studios tem lutado para tornar o mandato do PS5 super emocionante. Claro, ciclos de desenvolvimento...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/resident-evil-requiems-steam-concurrent-peak-is-the-biggest-in-franchise-history"
+      "url": "https://www.eurogamer.net/playstation-studios-ramp-up-hiring-following-closures-and-cancellations"
     },
     {
-      "id": "https://www.eurogamer.net/marathon-dev-bungie-responds-to-server-slam-feedback-particularly-around-ui-pc-performance-and-more",
-      "title": "Marathon dev Bungie responde ao feedback do Server Slam, especialmente em relação à interface do usuário, desempenho do PC e muito mais",
-      "original_title": "Marathon dev Bungie responds to Server Slam feedback, particularly around UI, PC performance, and more",
-      "image": "https://assetsio.gnwcdn.com/marathon-trailer-crop.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/nintendo-indie-world-showcase-march-2026-announced",
+      "title": "A Nintendo estabeleceu uma nova vitrine do Indie World de jogos que chegarão ao Nintendo Switch 1 e 2, e isso acontecerá muito em breve",
+      "original_title": "Nintendo has set a new Indie World showcase of games coming to both Nintendo Switch 1 and 2, and it's happening very soon",
+      "image": "https://assetsio.gnwcdn.com/Nintendo-Indie-World-logo.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-03-01",
-      "summary": "A Bungie continua respondendo aos seus comentários durante o evento Server Slam da Marathon, prestando atenção especial às suas idéias sobre a interface do usuário, o desempenho do PC e aqueles incômodos códigos de erro doninha. Leia mais...",
+      "date": "2026-03-02",
+      "summary": "A Nintendo teve um início forte este ano, e Pokémon Pokopia, que será lançado no final desta semana, parece ser o grande sucesso que muitos suspeitavam. Longe de desacelerar antes de entrarmos na primavera, a empresa acaba de anunciar...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/marathon-dev-bungie-responds-to-server-slam-feedback-particularly-around-ui-pc-performance-and-more"
-    },
-    {
-      "id": "https://www.eurogamer.net/princess-zelda-actor-taught-herself-the-beautiful-twilight-princess-hylian-language-over-coffee",
-      "title": "A atriz da Princesa Zelda aprendeu sozinha a “linda” linguagem da Princesa Hylian do Crepúsculo “durante o café”",
-      "original_title": "Princess Zelda actor taught herself the \"beautiful\" Twilight Princess Hylian language \"over coffee\"",
-      "image": "https://assetsio.gnwcdn.com/Close-up-of-Princess-Zelda-in-Breath-of-the-Wild.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-03-01",
-      "summary": "Patricia Summersett, a voz da Princesa Zelda em quatro jogos Legend of Zelda - Breath of the Wild, Tears of the Kingdom e os spin-offs de Hyrule Warriors, Age of Calamity e Age of Imprisonment - pode \"escrever em Twilight Princess Hylian\". Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/princess-zelda-actor-taught-herself-the-beautiful-twilight-princess-hylian-language-over-coffee"
-    },
-    {
-      "id": "https://www.eurogamer.net/the-older-pokemon-and-i-get-the-more-i-appreciate-its-greatest-asset-inter-generational-brilliance",
-      "title": "Quanto mais velhos os Pokémon (e eu) ficamos, mais aprecio seu maior trunfo - o brilho intergeracional",
-      "original_title": "The older Pokémon (and I) get, the more I appreciate its greatest asset - inter-generational brilliance",
-      "image": "https://assetsio.gnwcdn.com/pokemon-30-alex-header.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-03-01",
-      "summary": "Sentado à minha mesa e quebrando a cabeça em busca de algo, qualquer coisa a dizer sobre Pokémon em seu trigésimo aniversário, me vi lutando inexplicavelmente. O que você diz sobre uma série como essa? Com Zelda, há linhas fáceis de traçar sobre isso como...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/the-older-pokemon-and-i-get-the-more-i-appreciate-its-greatest-asset-inter-generational-brilliance"
-    },
-    {
-      "id": "https://www.eurogamer.net/former-highguard-level-designer-suggests-sweaty-competitive-3v3-play-was-the-biggest-thing-that-turned-a-lot-of-players-off",
-      "title": "O ex-designer de nível Highguard sugere que o jogo 3v3 competitivo “suado” “foi a maior coisa que desanimou muitos jogadores”",
-      "original_title": "Former Highguard level designer suggests \"sweaty\" competitive 3v3 play \"was the biggest thing that turned a lot of players off\"",
-      "image": "https://assetsio.gnwcdn.com/highguard-update.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-02-28",
-      "summary": "Um designer de níveis demitido da Wildlight, desenvolvedora de Highguard, acredita que as dificuldades do jogo de tiro gratuito decorrem de ter \"se inclinado demais para o cenário competitivo\". Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/former-highguard-level-designer-suggests-sweaty-competitive-3v3-play-was-the-biggest-thing-that-turned-a-lot-of-players-off"
+      "url": "https://www.eurogamer.net/nintendo-indie-world-showcase-march-2026-announced"
     }
   ]
 }
