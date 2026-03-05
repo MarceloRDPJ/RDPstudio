@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-03-04T12:57:24",
-  "display_date": "04/03/2026 12:57",
+  "last_updated": "2026-03-05T13:01:16",
+  "display_date": "05/03/2026 13:01",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "491ms",
+    "latency": "271ms",
     "current_games": [
       {
         "title": "Boxes: Lost Fragments",
@@ -45,6 +45,15 @@
         "end_date": "2026-03-12T15:00:00.000Z"
       },
       {
+        "title": "Castlevania Anniversary Collection",
+        "description": "A Coleção de Aniversário de Castlevania da Konami traça as origens da histórica franquia de vampiros. Está incluído um e-book exclusivo com detalhes fornecidos por desenvolvedores, artistas e outros inspirados no legado de Castlevania, que lança uma nova luz sobre o mundo de Castlevania.",
+        "image": "https://cdn1.epicgames.com/spt-assets/1ff2f74ba0ef4019b6905d8abe268819/castlevania-anniversary-collection-yex6f.jpg",
+        "url": "https://store.epicgames.com/p/32b3e0adbe0c4399be1874958194f97f",
+        "price": "$19.99",
+        "start_date": "2026-03-30T15:00:00.000Z",
+        "end_date": "2026-04-13T15:00:00.000Z"
+      },
+      {
         "title": "Monument Valley",
         "description": "Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
         "image": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
@@ -65,7 +74,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-03-04",
+      "date": "2026-03-05",
       "summary": "Fuja de uma luxuosa mansão cheia de misteriosas caixas de quebra-cabeças!",
       "sources": [
         "Epic Games Store"
@@ -80,7 +89,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-03-04",
+      "date": "2026-03-05",
       "summary": "My Night Job envia os jogadores para um prédio abandonado e ataca hordas de monstros. Usando mais de 60 armas para se defender e salvar o maior número possível de sobreviventes. Mas cuidado: se muitas salas forem destruídas, o fim pode estar mais próximo do que você pensava inicialmente.",
       "sources": [
         "Epic Games Store"
@@ -95,7 +104,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-03-04",
+      "date": "2026-03-05",
       "summary": "Disponível gratuitamente a partir de 05/03. Idle Champions of the Forgotten Realms é um jogo de gerenciamento de estratégia de Dungeons & Dragons que une personagens de todo o multiverso de D&D em uma grande aventura.",
       "sources": [
         "Epic Games Store"
@@ -110,12 +119,27 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-03-04",
+      "date": "2026-03-05",
       "summary": "Disponível gratuitamente a partir de 05/03. O Nabo Boy está de volta! Desta vez ele está se unindo à temível Pickled Gang para planejar e executar o assalto mais estranho de todos os tempos.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/000ff62d1877415589bb126e900a88e8"
+    },
+    {
+      "id": "https://store.epicgames.com/p/32b3e0adbe0c4399be1874958194f97f",
+      "title": "EM BREVE: Castlevania Anniversary Collection",
+      "original_title": "Castlevania Anniversary Collection",
+      "image": "https://cdn1.epicgames.com/spt-assets/1ff2f74ba0ef4019b6905d8abe268819/castlevania-anniversary-collection-yex6f.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-03-05",
+      "summary": "Disponível gratuitamente a partir de 30/03. A Coleção de Aniversário de Castlevania da Konami traça as origens da histórica franquia de vampiros. Está incluído um e-book exclusivo com detalhes fornecidos por desenvolvedores, artistas e outros inspirados no legado de Castlevania, que lança uma nova luz sobre o mundo de Castlevania.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/32b3e0adbe0c4399be1874958194f97f"
     },
     {
       "id": "https://store.epicgames.com/p/monument-valley-02",
@@ -125,7 +149,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-03-04",
+      "date": "2026-03-05",
       "summary": "Disponível gratuitamente a partir de 30/03. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
       "sources": [
         "Epic Games Store"
@@ -133,199 +157,124 @@
       "url": "https://store.epicgames.com/p/monument-valley-02"
     },
     {
-      "id": "https://www.eurogamer.net/trump-administration-debates-getting-chinese-tencent-money-out-of-us-gaming",
-      "title": "Administração Trump debate tirar dinheiro da Tencent chinesa dos jogos nos EUA por temidos riscos de segurança",
-      "original_title": "Trump administration debates getting Chinese Tencent money out of US gaming over feared security risks",
-      "image": "https://assetsio.gnwcdn.com/Arcane-season-two.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/pokemon-pokopia-sets-first-limited-time-event-with-hoppip-skiploom-jumpluff",
+      "title": "Pokémon Pokopia foi lançado hoje, mas já tem seu primeiro evento por tempo limitado, com três Pokémon fofos disponíveis apenas por um período de duas semanas este mês",
+      "original_title": "Pokémon Pokopia is out today, but it already has its first limited-time event, with three cute Pokémon only available for a two-week window this month",
+      "image": "https://assetsio.gnwcdn.com/Pokopia_first-event.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-03-04",
-      "summary": "A administração de Donald Trump está aparentemente debatendo se permitirá que a Tencent, uma empresa de tecnologia chinesa, mantenha seus investimentos em empresas de videogame sediadas nos EUA, como a fabricante de Fortnite, Epic Games, e a fabricante de League of Legends, Riot Games. Leia mais...",
+      "date": "2026-03-05",
+      "summary": "Pokémon Pokopia já foi lançado e é muito legal se você nos perguntar. Agora, sem perder tempo, a Nintendo, a The Pokémon Company e os estúdios de desenvolvimento Game Freak e Omega Force anunciaram o primeiro evento por tempo limitado adicionando novos Pokémon. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/trump-administration-debates-getting-chinese-tencent-money-out-of-us-gaming"
+      "url": "https://www.eurogamer.net/pokemon-pokopia-sets-first-limited-time-event-with-hoppip-skiploom-jumpluff"
     },
     {
-      "id": "https://www.eurogamer.net/marathon-global-release-times-confirmed-cinematic-music-video-released",
-      "title": "Marathon confirma horários de lançamento global, lança videoclipe cinematográfico e redobra sua direção de arte única e estranha",
-      "original_title": "Marathon confirms global release times, launches cinematic music video, doubles down on its unique, weird art direction",
-      "image": "https://assetsio.gnwcdn.com/Marathon---In-Death-MV.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/marathon-gets-ps4-and-xbox-one-rating-from-esrb",
+      "title": "Marathon surpreende a classificação etária do PS4 e Xbox One antes do lançamento, mas será que os jogadores da última geração realmente devem ter muitas esperanças?",
+      "original_title": "Marathon lands surprise PS4 and Xbox One age rating ahead of launch, but should last-gen players really get their hopes up?",
+      "image": "https://assetsio.gnwcdn.com/Marathon_PS4_XboxOne.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-03-04",
-      "summary": "O momento da verdade de Marathon está quase aqui e, após um teste convincente de Server Slam, a conversa sobre o último jogo da Bungie aparentemente virou uma esquina. Algo que certamente não decepcionará quem entrar é o audiovisual único do jogo...",
+      "date": "2026-03-05",
+      "summary": "Marathon é lançado hoje, 5 de março, e após um teste Server Slam bem-sucedido no fim de semana passado e a revelação de planos pós-lançamento promissores, a desenvolvedora Bungie parece ter finalmente construído algum sentimento positivo. Apenas jogadores em consoles da geração atual ou...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/marathon-global-release-times-confirmed-cinematic-music-video-released"
+      "url": "https://www.eurogamer.net/marathon-gets-ps4-and-xbox-one-rating-from-esrb"
     },
     {
-      "id": "https://www.eurogamer.net/amazons-life-is-strange-tv-series-has-found-its-max-and-chloe-with-nashville-star-in-lead-role",
-      "title": "A série de TV Life is Strange da Amazon encontrou Max e Chloe, com a estrela de Nashville no papel principal",
-      "original_title": "Amazon's Life is Strange TV series has found its Max and Chloe, with Nashville star in lead role",
-      "image": "https://assetsio.gnwcdn.com/Chloe-and-Max-in-artwork-for-Life-is-Strange-Remastered-collection.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/highguards-final-update-which-wildlights-skeleton-crew-crunched-to-finish-goes-live-just-days-before-the-game-disappears-forever",
+      "title": "A atualização final de Highguard – que a “equipe de esqueleto” de Wildlight trabalhou para terminar – vai ao ar, poucos dias antes de o jogo desaparecer para sempre",
+      "original_title": "Highguard's final update - which Wildlight's \"skeleton crew\" crunched to finish - goes live, just days before the game disappears forever",
+      "image": "https://assetsio.gnwcdn.com/Highguard-image-showing-a-female-riding-a-large-panther-like-creature.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-03-04",
-      "summary": "A próxima série de TV Life is Strange da Amazon lançou seus dois protagonistas. Leia mais...",
+      "date": "2026-03-05",
+      "summary": "Wildlight lançou seu último patch para Highguard, com o diretor criativo Jason McCord reconhecendo a “equipe de esqueleto” que “mastigou” para que isso acontecesse. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/amazons-life-is-strange-tv-series-has-found-its-max-and-chloe-with-nashville-star-in-lead-role"
+      "url": "https://www.eurogamer.net/highguards-final-update-which-wildlights-skeleton-crew-crunched-to-finish-goes-live-just-days-before-the-game-disappears-forever"
     },
     {
-      "id": "https://www.eurogamer.net/koei-tecmo-partners-with-spiral-ai-for-chatbot-like-model",
-      "title": "Koei Tecmo faz parceria com SpiralAI porque demonstra interesse em criar “experiências que combinem entretenimento e IA” por meio de LLMs do tipo chatbot",
-      "original_title": "Koei Tecmo is partnering with SpiralAI as it shows interest in creating \"experiences that combine entertainment and AI\" via chatbot-like LLMs",
-      "image": "https://assetsio.gnwcdn.com/Koei-Tecmo-x-SpiralAI.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-03-04",
-      "summary": "Mais um dia, mais uma empresa de tecnologia e/ou entretenimento apostando em IA. Agora é a vez da Koei Tecmo, já que a gigante japonesa anunciou em conjunto uma parceria com a SpiralAI juntamente com o lançamento do modelo de linguagem grande de \"próxima geração\" Geppetto2...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/koei-tecmo-partners-with-spiral-ai-for-chatbot-like-model"
-    },
-    {
-      "id": "https://www.eurogamer.net/nintendo-switch-online-plus-expansion-pack-adds-three-mario-games-in-march-2026",
-      "title": "A atualização de março do Nintendo Switch Online para a biblioteca de clássicos é toda sobre Mario, e um novo jogo é particularmente surpreendente",
-      "original_title": "Nintendo Switch Online's March update to the Classics library is all about Mario, and one new game is particularly surprising",
-      "image": "https://assetsio.gnwcdn.com/Mario-vs-DK---robot-Mario.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-03-04",
-      "summary": "A Nintendo está lançando notícias e atualizações sobre nós sem parar desde o início do ano, e agora demos uma primeira olhada no que está por vir para as subofertas do Nintendo Switch Online + Pacote de Expansão em março. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/nintendo-switch-online-plus-expansion-pack-adds-three-mario-games-in-march-2026"
-    },
-    {
-      "id": "https://www.eurogamer.net/resident-evil-requiem-has-surpassed-5m-copies-sold-in-less-than-a-week",
-      "title": "Resident Evil Requiem ultrapassou 5 milhões de cópias vendidas em menos de uma semana",
-      "original_title": "Resident Evil Requiem has surpassed 5m copies sold in less than a week",
-      "image": "https://assetsio.gnwcdn.com/Grace-looks-nervous-in-Resident-Evil-Requiem.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-03-04",
-      "summary": "Parece que mesmo quando entramos na estação mais quente da primavera, cheia de pétalas, tudo o que realmente queremos é algum terror zumbi em nossas vidas. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/resident-evil-requiem-has-surpassed-5m-copies-sold-in-less-than-a-week"
-    },
-    {
-      "id": "https://www.eurogamer.net/highguard-will-shut-down-permanently-next-week-because-it-doesnt-have-enough-revenue-to-keep-anyone-employed-to-work-on-it",
-      "title": "A Highguard fechará permanentemente na próxima semana porque a Wildlight não gera “receita suficiente para manter alguém empregado para trabalhar nela”",
-      "original_title": "Highguard will shut down permanently next week because Wildlight doesn't make \"enough revenue to keep anyone employed to work on it\"",
-      "image": "https://assetsio.gnwcdn.com/Highguard-image-showing-a-character-holding-a-small-bear-like-creature's-paw-as-they-look-towards-the-distance.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-03-04",
-      "summary": "Depois de menos de seis semanas, o desenvolvedor Wildlight anunciou que está encerrando seu jogo de tiro de heróis gratuito, Highguard. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/highguard-will-shut-down-permanently-next-week-because-it-doesnt-have-enough-revenue-to-keep-anyone-employed-to-work-on-it"
-    },
-    {
-      "id": "https://www.techpowerup.com/347034/memory-makers-shift-to-hourly-contracts-as-ai-demand-continues-to-climb",
-      "title": "Os fabricantes de memória mudam para contratos por hora à medida que a demanda por IA continua a aumentar",
-      "original_title": "Memory Makers Shift to Hourly Contracts as AI Demand Continues to Climb",
-      "image": "https://tpucdn.com/img/uao4bNL2x2BUlq6H_thm.jpg",
+      "id": "https://www.techpowerup.com/347063/apple-macbook-neo-capped-at-8-gb-ram-by-a18-pro-info-pop-packaging",
+      "title": "Apple MacBook Neo limitado a 8 GB de RAM pela embalagem A18 Pro InFO-PoP",
+      "original_title": "Apple MacBook Neo Capped at 8 GB RAM by A18 Pro InFO-PoP Packaging",
+      "image": "https://tpucdn.com/img/3ZNY4C1icvy3lF5T_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-03-04",
-      "summary": "O mercado de aquisição de memória adotou um novo modelo de negócios com contratos por hora, onde os preços cotados são válidos por apenas uma hora, necessitando de uma nova cotação de preços a cada alteração. Fabricantes de memória como SK hynix, Samsung e Micron são responsáveis...",
+      "date": "2026-03-05",
+      "summary": "Ontem, a Apple anunciou seu mais novo MacBook Neo de baixo custo, a partir de US$ 599 nos Estados Unidos, ou cerca de US$ 499 para educação e estudantes. Surgiram algumas críticas online em relação à decisão da Apple de oferecer um laptop com apenas 8 GB de RAM em 2026, com...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/347034/memory-makers-shift-to-hourly-contracts-as-ai-demand-continues-to-climb"
+      "url": "https://www.techpowerup.com/347063/apple-macbook-neo-capped-at-8-gb-ram-by-a18-pro-info-pop-packaging"
     },
     {
-      "id": "https://www.techpowerup.com/347031/asus-raises-geforce-rtx-50-series-blackwell-pricing-in-china-radeon-pricing-unchanged",
-      "title": "ASUS aumenta preço da GeForce RTX série 50 “Blackwell” na China, preço da Radeon inalterado",
-      "original_title": "ASUS Raises GeForce RTX 50 Series \"Blackwell\" Pricing in China, Radeon Pricing Unchanged",
-      "image": "https://tpucdn.com/img/dM9BstLvTMR3qS0C_thm.jpg",
+      "id": "https://www.techpowerup.com/347062/fibocom-launches-5g-soc-dongle-solution",
+      "title": "(PR) Fibocom lança solução Dongle 5G SoC",
+      "original_title": "(PR) Fibocom Launches 5G SoC Dongle Solution",
+      "image": "https://tpucdn.com/img/SfvJ1xe9QMQOFqc7_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-03-04",
-      "summary": "A ASUS supostamente atualizou os preços de seus produtos no mercado chinês para refletir a escassez de componentes de memória na indústria de semicondutores. De acordo com Board Channels, a ASUS está ajustando o preço da GPU GeForce RTX 50 Series \"Blackwell\"...",
+      "date": "2026-03-05",
+      "summary": "No MWC 2026, a Fibocom revelou sua nova série de soluções 5G SoC Dongle, projetada com uma arquitetura SoC tudo-em-um que integra comunicação 5G de alto desempenho, um sistema operacional inteligente e serviços flexíveis de eSIM/vSIM. Esta solução visa...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/347031/asus-raises-geforce-rtx-50-series-blackwell-pricing-in-china-radeon-pricing-unchanged"
+      "url": "https://www.techpowerup.com/347062/fibocom-launches-5g-soc-dongle-solution"
     },
     {
-      "id": "https://www.techpowerup.com/347030/tcl-csot-shapes-a-beyond-limits-future-for-displays-at-mwc-2026",
-      "title": "(PR) TCL CSOT molda um futuro “além dos limites” para monitores no MWC 2026",
-      "original_title": "(PR) TCL CSOT Shapes a \"Beyond Limits\" Future for Displays at MWC 2026",
-      "image": "https://tpucdn.com/img/MD8xOqHe9awnMie4_thm.jpg",
+      "id": "https://www.techpowerup.com/347061/capcoms-resident-evil-requiem-surpasses-5-million-units",
+      "title": "(PR) Resident Evil Requiem da Capcom ultrapassa 5 milhões de unidades",
+      "original_title": "(PR) Capcom's Resident Evil Requiem Surpasses 5 Million Units",
+      "image": "https://tpucdn.com/img/FlPOqbNeCbRSjrMN_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-03-04",
-      "summary": "TCL CSOT, líder global em tecnologias de exibição avançadas e subsidiária da TCL Technology, estreia sua inovação de exibição de próxima geração no Mobile World Congress (MWC) 2026. Sob o tema \"Super Pixel Beyond Limits\", a empresa estreia seu Super Pix...",
+      "date": "2026-03-05",
+      "summary": "anunciou hoje que as vendas mundiais de Resident Evil Requiem, lançado em 27 de fevereiro de 2026, ultrapassaram 5 milhões de unidades.\n\nResident Evil Requiem é o último capítulo da série Resident Evil, que comemora seu 30º aniversário...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/347030/tcl-csot-shapes-a-beyond-limits-future-for-displays-at-mwc-2026"
+      "url": "https://www.techpowerup.com/347061/capcoms-resident-evil-requiem-surpasses-5-million-units"
     },
     {
-      "id": "https://www.techpowerup.com/346734/acemagic-k1-mini-pc-core-i5-12600h-premium-performance-without-the-premium-price",
-      "title": "Mini PC ACEMAGIC K1 (Core i5-12600H) – desempenho premium sem preço premium",
-      "original_title": "ACEMAGIC K1 Mini PC (Core i5-12600H)—Premium Performance Without the Premium Price",
-      "image": "https://tpucdn.com/img/i4C30dw2Y7s8hSuq_thm.jpg",
+      "id": "https://www.techpowerup.com/347060/memory-price-surge-disrupts-supply-chain-global-smartphone-panel-shipments-forecast-to-fall-7-3-in-2026",
+      "title": "(PR) Aumento do preço da memória perturba cadeia de suprimentos; As remessas globais de painéis de smartphones devem cair 7,3% em 2026",
+      "original_title": "(PR) Memory Price Surge Disrupts Supply Chain; Global Smartphone Panel Shipments Forecast to Fall 7.3% in 2026",
+      "image": "https://tpucdn.com/img/JA5nXE9wQyetKAsk_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-03-04",
-      "summary": "O K1 Mini PC da ACEMAGIC, equipado com Intel Core i5-12600H de 12ª geração, está atualmente disponível com um desconto substancial na Amazon dos EUA. Originalmente com preço de US$ 579,99, o sistema agora está listado por US$ 399,99, com um código promocional adicional de 10% de desconto trazendo o primeiro...",
+      "date": "2026-03-05",
+      "summary": "A pesquisa mais recente da TrendForce sobre painéis de smartphones revela que a escassez e o aumento dos preços da memória – um dos componentes mais caros dos smartphones – estão remodelando as estratégias de envio das marcas para 2026 e enfraquecendo a demanda de painéis. \n\nPainel global de smartphones ...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/346734/acemagic-k1-mini-pc-core-i5-12600h-premium-performance-without-the-premium-price"
+      "url": "https://www.techpowerup.com/347060/memory-price-surge-disrupts-supply-chain-global-smartphone-panel-shipments-forecast-to-fall-7-3-in-2026"
     },
     {
-      "id": "https://www.techpowerup.com/347027/chieftec-unveils-bw-01b-op-workstation-chassis",
-      "title": "(PR) Chieftec lança chassi para estação de trabalho BW-01B-OP",
-      "original_title": "(PR) Chieftec Unveils BW-01B-OP Workstation Chassis",
-      "image": "https://tpucdn.com/img/6vcpLp1Y0iRG5hyF_thm.jpg",
+      "id": "https://www.techpowerup.com/347059/nvidia-geforce-rtx-3060-could-return-mid-march",
+      "title": "NVIDIA GeForce RTX 3060 pode retornar em meados de março",
+      "original_title": "NVIDIA GeForce RTX 3060 Could Return Mid-March",
+      "image": "https://tpucdn.com/img/uuJ1XBu4iOho7BW3_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-03-04",
-      "summary": "A Chieftec tem o prazer de apresentar nosso novo chassi para estação de trabalho ATX de alto desempenho, BW-01B-OP. Concebido com um painel frontal elegante e intemporal e um conceito de porta moderno, combina estética profissional com funcionalidade prática. É essencial frente...",
+      "date": "2026-03-05",
+      "summary": "A NVIDIA GeForce RTX 3060, uma GPU de gama média com duas gerações de idade, está retornando ao fornecimento da NVIDIA este mês. De acordo com Chinese Board Channels, a NVIDIA está planejando um reabastecimento da GPU “Ampere” em meados de março, alinhando-se com rumores anteriores...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/347027/chieftec-unveils-bw-01b-op-workstation-chassis"
-    },
-    {
-      "id": "https://www.techpowerup.com/347026/ea-working-on-javelin-anticheat-port-for-windows-on-arm",
-      "title": "EA trabalhando na porta Javelin Anticheat para Windows-on-Arm",
-      "original_title": "EA Working on Javelin Anticheat Port for Windows-on-Arm",
-      "image": "https://tpucdn.com/img/U5wkAsajSVoFmYMD_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-03-04",
-      "summary": "A EA publicou uma lista de empregos procurando um engenheiro para portar seu Javelin Anticheat, uma solução anticheat em nível de kernel, para a plataforma Windows-on-Arm (WoA). Este é um indicador significativo do rumo que a indústria está tomando, confirmando que o maior desenvolvimento de jogos...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/347026/ea-working-on-javelin-anticheat-port-for-windows-on-arm"
+      "url": "https://www.techpowerup.com/347059/nvidia-geforce-rtx-3060-could-return-mid-march"
     },
     {
       "id": "https://www.techpowerup.com/346953/intuit-quickbooks-now-offers-a-lifetime-license-and-its-on-sale",
@@ -335,7 +284,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-03-04",
+      "date": "2026-03-05",
       "summary": "Gerencie as finanças da sua empresa como um profissional com uma licença vitalícia do Intuit QuickBooks Desktop Pro Plus, agora por apenas US$ 200 (normalmente US$ 699). Muitos proprietários de pequenas empresas começam a gerenciar suas finanças com planilhas e portais bancários, apenas para perceberem que precisam...",
       "sources": [
         "TechPowerUp"
@@ -343,94 +292,169 @@
       "url": "https://www.techpowerup.com/346953/intuit-quickbooks-now-offers-a-lifetime-license-and-its-on-sale"
     },
     {
-      "id": "https://www.techpowerup.com/347024/aaeon-launches-intelli-twl01-edge-an-industrial-multimedia-pc-with-dual-4k-display-support",
-      "title": "(PR) AAEON lança Intelli TWL01 Edge, um PC multimídia industrial com suporte para display duplo 4K",
-      "original_title": "(PR) AAEON Launches Intelli TWL01 Edge, an Industrial Multimedia PC with Dual 4K Display Support",
-      "image": "https://tpucdn.com/img/Ns9lM4hBNNTBj8SG_thm.jpg",
+      "id": "https://www.techpowerup.com/347054/antec-introduces-the-new-900-a-full-tower-chassis-for-edge-ai-workstations-and-8k-gaming",
+      "title": "(PR) Antec apresenta o novo 900 – um chassi de torre completa para Edge AI, estações de trabalho e jogos em 8K",
+      "original_title": "(PR) Antec Introduces the New 900—A Full-Tower Chassis for Edge AI, Workstations, and 8K Gaming",
+      "image": "https://tpucdn.com/img/fyJtXfm9kv6nw7Ur_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-03-05",
+      "summary": "A Antec Inc., líder global em componentes e acessórios de computador de alto desempenho, anuncia com orgulho o lançamento do Antec 900, um chassi de torre completa de próxima geração projetado para cargas de trabalho Edge AI, estações de trabalho profissionais e jogos de última geração.",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/347054/antec-introduces-the-new-900-a-full-tower-chassis-for-edge-ai-workstations-and-8k-gaming"
+    },
+    {
+      "id": "https://www.eurogamer.net/assassins-creed-black-flag-resynced-official-as-artwork-revealed",
+      "title": "O segredo mais mal guardado da Ubisoft é finalmente oficial quando a arte ressincronizada de Assassin's Creed Black Flag é revelada",
+      "original_title": "Ubisoft's worst-kept secret is finally official as Assassin's Creed Black Flag Resynced artwork is revealed",
+      "image": "https://assetsio.gnwcdn.com/AC4-Black-Flag_Edward-Kenway_ship-background.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-03-04",
+      "summary": "Três anos após os primeiros relatos de um remake de Assassin's Creed Black Flag terem surgido - e em meio a uma pilha crescente de evidências apontando para sua chegada iminente - a Ubisoft finalmente oficializou seu segredo mais mal guardado. \n Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/assassins-creed-black-flag-resynced-official-as-artwork-revealed"
+    },
+    {
+      "id": "https://www.eurogamer.net/guilty-gear-studio-is-making-a-card-based-survival-game-with-gorillas",
+      "title": "O estúdio Guilty Gear está fazendo um jogo de sobrevivência baseado em cartas com gorilas e, claro, se chama Goritaire",
+      "original_title": "Guilty Gear studio is making a card-based survival game with gorillas, and of course it's called Goritaire",
+      "image": "https://assetsio.gnwcdn.com/goritaire-header.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-03-04",
+      "summary": "Arc System Works, o estúdio mais conhecido por seus jogos de luta estelares, incluindo as séries Guilty Gear e BlazBlue, revelou seu mais recente empreendimento: um jogo de cartas com tema símio brilhantemente intitulado Goritaire. Também será lançado em breve, chegando...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/guilty-gear-studio-is-making-a-card-based-survival-game-with-gorillas"
+    },
+    {
+      "id": "https://www.eurogamer.net/playstation-is-reportedly-ditching-its-pc-release-strategy-and-most-first-party-games-will-now-be-console-exclusive",
+      "title": "PlayStation supostamente abandonando sua estratégia de lançamento para PC, a maioria dos jogos originais agora serão exclusivos do console",
+      "original_title": "PlayStation reportedly ditching its PC release strategy, most first-party games will now be console exclusive",
+      "image": "https://assetsio.gnwcdn.com/ghost-of-notei.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-03-04",
+      "summary": "A Sony está abandonando sua estratégia de trazer seus jogos originais do PlayStation para o PC, com a empresa agora pronta para retornar aos lançamentos apenas para console para todos, exceto um seleto número de títulos online.\n Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/playstation-is-reportedly-ditching-its-pc-release-strategy-and-most-first-party-games-will-now-be-console-exclusive"
+    },
+    {
+      "id": "https://www.eurogamer.net/marvel-rivals-sets-path-to-avengers-doomsday-content-roadmap",
+      "title": "Não querendo ser ofuscado por Overwatch, Marvel Rivals define o roteiro de ‘Path to Doomsday’, homenageando todos os filmes dos Vingadores com conteúdo totalmente novo",
+      "original_title": "Not wanting to be overshadowed by Overwatch, Marvel Rivals sets 'Path to Doomsday' roadmap, honouring all Avengers movies with brand-new content",
+      "image": "https://assetsio.gnwcdn.com/Marvel-Rivals---Loki-from-The-Avengers.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-03-04",
+      "summary": "Overwatch está de volta, pelo menos por enquanto, mas isso não significa que o jogo de tiro de heróis online que chutou o traseiro por um tempo vai a lugar nenhum. Marvel Rivals continua avançando, adicionando regularmente novos personagens, mapas, modos, cosméticos e ...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/marvel-rivals-sets-path-to-avengers-doomsday-content-roadmap"
+    },
+    {
+      "id": "https://www.eurogamer.net/final-fantasy-11-locks-down-another-server-due-to-overpopulation",
+      "title": "Final Fantasy 11 bloqueia mais um servidor enquanto a superpopulação continua atingindo o antecessor de Final Fantasy 14, mais de duas décadas após seu lançamento original",
+      "original_title": "Final Fantasy 11 locks down yet another server as overpopulation continues to hit Final Fantasy 14's predecessor, over two decades after its original launch",
+      "image": "https://assetsio.gnwcdn.com/FF11-casting-magic.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-03-04",
+      "summary": "Enquanto inúmeros jogos de serviço ao vivo e MMORPGs lutam para estabelecer bases de jogadores saudáveis, Final Fantasy 11, que completa 24 anos este ano, está tendo exatamente o problema oposto. Depois de um fluxo considerável de novos players iniciado em meados de 2025, mais uma se...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/final-fantasy-11-locks-down-another-server-due-to-overpopulation"
+    },
+    {
+      "id": "https://www.eurogamer.net/the-division-2-gets-realism-mode-during-anniversary-season",
+      "title": "The Division 2 está recebendo um modo de realismo por tempo limitado – tornando-o mais fundamentado e brutal – mas há um problema",
+      "original_title": "The Division 2 is getting a limited-time Realism Mode - making it more grounded and brutal - but there's a catch",
+      "image": "https://assetsio.gnwcdn.com/TD2-Anniversary.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-03-04",
+      "summary": "The Division 2 de Tom Clancy provavelmente não irá a lugar nenhum tão cedo, especialmente com o próximo jogo ainda em desenvolvimento e a Massive Studios enfrentando demissões e saídas de funcionários importantes. Silenciosamente, mas de forma constante, o segundo jogo da franquia...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/the-division-2-gets-realism-mode-during-anniversary-season"
+    },
+    {
+      "id": "https://www.eurogamer.net/im-sick-of-having-to-repeat-myself-crimson-desert-pr-shuts-down-accusations-its-hiding-console-footage-ahead-of-immanent-launch",
+      "title": "“Estou farto de ter que me repetir” – Crimson Desert PR encerra as acusações de que está “ocultando” imagens do console antes do lançamento iminente",
+      "original_title": "\"I'm sick of having to repeat myself\" - Crimson Desert PR shuts down accusations it's \"hiding\" console footage ahead of imminent launch",
+      "image": "https://assetsio.gnwcdn.com/Crimson-Desert-screenshot-showing-a-male-human-and-large-deer-like-creature-battling-it-out.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-03-04",
+      "summary": "O diretor de marketing de Crimson Desert está “cansado de ter que repetir”, já que alguns expressam preocupação que Pearl Abyss esteja “escondendo” imagens do console do jogo de ação e aventura em mundo aberto. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/im-sick-of-having-to-repeat-myself-crimson-desert-pr-shuts-down-accusations-its-hiding-console-footage-ahead-of-immanent-launch"
+    },
+    {
+      "id": "https://www.techpowerup.com/347051/rambus-announces-its-new-hbm4e-memory-controller-ip-up-to-16-gbps-per-pin",
+      "title": "(PR) Rambus Anuncia Seu Novo Controlador de Memória IP HBM4E, Até 16 Gbps por Pin",
+      "original_title": "(PR) Rambus Announces Its New HBM4E Memory Controller IP, Up to 16 Gbps per Pin",
+      "image": "https://tpucdn.com/img/moEVu5ulHoj5iiWZ_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-03-04",
-      "summary": "A marca UP da AAEON anunciou o lançamento do Intelli TWL01 Edge, um PC multimídia industrial com monitores duplos 4K, múltiplas opções de montagem e uma linha de CPUs com processador Intel Core série N (anteriormente Twin Lake). Construído para proporcionar um custo-benefício...",
+      "summary": "(NASDAQ: RMBS), fornecedora líder de chip e IP de silício que torna os dados mais rápidos e seguros, anunciou hoje o controlador de memória IP HBM4E líder do setor, ampliando sua liderança de mercado em IP HBM. Esta nova solução oferece avanço por...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/347024/aaeon-launches-intelli-twl01-edge-an-industrial-multimedia-pc-with-dual-4k-display-support"
+      "url": "https://www.techpowerup.com/347051/rambus-announces-its-new-hbm4e-memory-controller-ip-up-to-16-gbps-per-pin"
     },
     {
-      "id": "https://www.techpowerup.com/347023/asus-republic-of-gamers-announces-20th-anniversary-celebration-campaign",
-      "title": "(PR) ASUS Republic of Gamers anuncia campanha de comemoração do 20º aniversário",
-      "original_title": "(PR) ASUS Republic of Gamers Announces 20th Anniversary Celebration Campaign",
-      "image": "https://tpucdn.com/img/gCOQJTzLM83gOkAP_thm.jpg",
+      "id": "https://www.techpowerup.com/347050/nvidia-releases-geforce-595-76-hotfix-driver-addressing-voltage-cap-and-game-crashes",
+      "title": "NVIDIA lança driver GeForce 595.76 Hotfix abordando limite de tensão e travamentos de jogos",
+      "original_title": "NVIDIA Releases GeForce 595.76 Hotfix Driver Addressing Voltage Cap and Game Crashes",
+      "image": "https://tpucdn.com/img/DT6MlD5qmkRgToGY_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-03-04",
-      "summary": "A ASUS Republic of Gamers (ROG) anunciou hoje uma campanha global para iniciar as comemorações do seu 20º aniversário. De 2 de março a 13 de abril, a ROG convida fãs de todo o mundo a comemorar compartilhando conteúdo nas redes sociais e enviando suas histórias Dare-to-ROG...",
+      "summary": "A NVIDIA lançou o GeForce Hotfix Display Driver versão 595.76, baseado no driver 595.71 WHQL Game Ready lançado recentemente. A atualização visa especificamente um problema de limite de tensão da GPU que afeta placas gráficas com overclock, o que as impediu de ...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/347023/asus-republic-of-gamers-announces-20th-anniversary-celebration-campaign"
+      "url": "https://www.techpowerup.com/347050/nvidia-releases-geforce-595-76-hotfix-driver-addressing-voltage-cap-and-game-crashes"
     },
     {
-      "id": "https://www.techpowerup.com/347019/steam-machine-may-be-to-blame-for-playstation-pc-port-abandonment",
-      "title": "Steam Machine pode ser a culpada pelo abandono da porta do PlayStation PC",
-      "original_title": "Steam Machine May Be To Blame for PlayStation PC Port Abandonment",
-      "image": "https://tpucdn.com/img/QlK0nafDLb6xEvw3_thm.jpg",
+      "id": "https://www.techpowerup.com/347048/ubisoft-confirms-long-rumored-assassins-creed-black-flag-remake-and-more",
+      "title": "Ubisoft confirma remake de Assassin’s Creed Black Flag e muito mais",
+      "original_title": "Ubisoft Confirms Long-Rumored Assassin's Creed Black Flag Remake and More",
+      "image": "https://tpucdn.com/img/rruwtj4Ve1MRiXZw_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-03-04",
-      "summary": "Rumores surgiram recentemente alegando que a Sony estaria se afastando das versões para PC de seus principais lançamentos de jogos originais em 2026, especialmente jogos para um jogador. Embora esses rumores ainda não tenham sido confirmados pela própria Sony, Mike Ybarra, o ex-presidente...",
+      "summary": "Há rumores de um remake de Assassin's Creed Black Flag há anos, com os rumores mais recentes afirmando uma data de lançamento em 2026, mas agora, o novo chefe de conteúdo de Assassin's Creed, Jean Guedon, confirmou em uma postagem recente no blog de atualização da marca ...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/347019/steam-machine-may-be-to-blame-for-playstation-pc-port-abandonment"
-    },
-    {
-      "id": "https://www.eurogamer.net/just-like-playstation-microsoft-has-filed-a-patent-for-an-ai-helper-thatll-play-games-for-you",
-      "title": "Assim como o PlayStation, a Microsoft registrou uma patente para um auxiliar de IA que jogará para você",
-      "original_title": "Just like PlayStation, Microsoft has filed a patent for an AI helper that'll play games for you",
-      "image": "https://assetsio.gnwcdn.com/Untitled-2_Zy1Ynf6.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-03-03",
-      "summary": "Após a descoberta de um pedido de patente da Sony para um assistente de jogo AI PlayStation no início deste ano, um pedido de patente com tema semelhante foi identificado pela Microsoft, desta vez relacionado a um auxiliar de IA que pode assumir temporariamente o controle de um Xbox ...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/just-like-playstation-microsoft-has-filed-a-patent-for-an-ai-helper-thatll-play-games-for-you"
-    },
-    {
-      "id": "https://www.eurogamer.net/marathon-seasons-how-long-season-2-nightfall-info",
-      "title": "A Bungie apresenta o plano para as temporadas da maratona: as atualizações serão gratuitas para todos e o jogo parecerá “significativamente diferente” à medida que as temporadas avançam",
-      "original_title": "Bungie lays out the plan for Marathon seasons: updates will be free for everyone, and the game will feel \"meaningfully different\" as seasons progress",
-      "image": "https://assetsio.gnwcdn.com/marathon-concept-runner-thief.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-03-03",
-      "summary": "A Bungie divulgou novas informações sobre o formato sazonal da Maratona, à medida que se aproxima a data de lançamento em 5 de março. Essas temporadas, gratuitas para todos os jogadores e com aproximadamente três meses de duração, farão com que o jogo pareça \"significativamente diferente\", de acordo com ...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/marathon-seasons-how-long-season-2-nightfall-info"
-    },
-    {
-      "id": "https://www.eurogamer.net/crimson-desert-passes-3-million-wishlists-as-excitement-around-the-single-player-rpg-builds",
-      "title": "Crimson Desert ultrapassa 3 milhões de listas de desejos à medida que a empolgação em torno do RPG para um jogador aumenta",
-      "original_title": "Crimson Desert passes 3 million wishlists as excitement around the single-player RPG builds",
-      "image": "https://assetsio.gnwcdn.com/Crimson-Desert_Screenshot_10.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-03-03",
-      "summary": "Crimson Desert, o RPG para um jogador derivado do MMO coreano Black Desert, ultrapassou 3 milhões de listas de desejos antes de seu lançamento no final deste mês. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/crimson-desert-passes-3-million-wishlists-as-excitement-around-the-single-player-rpg-builds"
+      "url": "https://www.techpowerup.com/347048/ubisoft-confirms-long-rumored-assassins-creed-black-flag-remake-and-more"
     }
   ]
 }
