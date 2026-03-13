@@ -1,31 +1,11 @@
 {
-  "last_updated": "2026-03-12T13:01:03",
-  "display_date": "12/03/2026 13:01",
+  "last_updated": "2026-03-13T12:59:07",
+  "display_date": "13/03/2026 12:59",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "678ms",
+    "latency": "570ms",
     "current_games": [
-      {
-        "title": "Idle Champions of the Forgotten Realms",
-        "description": "Idle Champions of the Forgotten Realms é um jogo de gerenciamento de estratégia de Dungeons & Dragons que une personagens de todo o multiverso de D&D em uma grande aventura.",
-        "image": "https://cdn1.epicgames.com/spt-assets/a53f91e55c6840018cb5de0b204f1ad9/idle-champions-of-the-forgotten-realms-1n34h.jpg",
-        "url": "https://store.epicgames.com/p/banegeneralaudience",
-        "price": "0",
-        "start_date": "2026-03-05T16:00:00.000Z",
-        "end_date": "2026-03-12T15:00:00.000Z"
-      },
-      {
-        "title": "Turnip Boy Robs a Bank",
-        "description": "O Nabo Boy está de volta! Desta vez ele está se unindo à temível Pickled Gang para planejar e executar o assalto mais estranho de todos os tempos.",
-        "image": "https://cdn1.epicgames.com/spt-assets/12f0012342a94c95985afbaa7568b51b/turnip-boy-robs-a-bank-167pk.png",
-        "url": "https://store.epicgames.com/p/000ff62d1877415589bb126e900a88e8",
-        "price": "$14.99",
-        "start_date": "2026-03-05T16:00:00.000Z",
-        "end_date": "2026-03-12T15:00:00.000Z"
-      }
-    ],
-    "upcoming_games": [
       {
         "title": "Cozy Grove",
         "description": "Bem-vindo ao Cosy Grove, um jogo de simulação de vida sobre acampar em uma ilha assombrada e em constante mudança. Como Spirit Scout, você passeará pela floresta da ilha todos os dias, descobrindo novos segredos escondidos e ajudando a acalmar os fantasmas locais.",
@@ -43,6 +23,17 @@
         "price": "$29.99",
         "start_date": "2026-03-12T15:00:00.000Z",
         "end_date": "2026-03-19T15:00:00.000Z"
+      }
+    ],
+    "upcoming_games": [
+      {
+        "title": "Electrician Simulator",
+        "description": "Assuma o papel de eletricista e aprenda os fundamentos da profissão! Instale tomadas, conserte equipamentos desgastados, monte eletrodomésticos quebrados, substitua lâmpadas e instale fios nas casas de seus clientes. Não se esqueça de verificar tudo duas vezes, com eletricidade não há brincadeira!",
+        "image": "https://cdn1.epicgames.com/spt-assets/d0be4faac92a49ebae039c0e0d386e42/electrician-simulator-1j17y.jpg",
+        "url": "https://store.epicgames.com/p/d4645b0dc574438e95d20c6a31d3a0f7",
+        "price": "$17.99",
+        "start_date": "2026-03-19T15:00:00.000Z",
+        "end_date": "2026-03-26T15:00:00.000Z"
       },
       {
         "title": "Castlevania Anniversary Collection",
@@ -61,51 +52,30 @@
         "price": "$7.99",
         "start_date": "2026-03-30T15:00:00.000Z",
         "end_date": "2026-04-13T15:00:00.000Z"
+      },
+      {
+        "title": "World of Warships — Epic Anniversary Tachibana Pack",
+        "description": "Obtenha um contratorpedeiro japonês Premium e algumas camuflagens permanentes da Epic para comemorar nosso 5º ano na Epic Games Store.",
+        "image": "https://cdn1.epicgames.com/spt-assets/4eb4296fe40e4130a61adbf2d6b34586/world-of-warships-1ahdf.png",
+        "url": "https://store.epicgames.com/p/world-of-warships-tachibana-lima-pack",
+        "price": "$25.00",
+        "start_date": "2026-03-19T15:00:00.000Z",
+        "end_date": "2026-03-26T15:00:00.000Z"
       }
     ],
     "mystery_detected": false
   },
   "items": [
     {
-      "id": "https://store.epicgames.com/p/banegeneralaudience",
-      "title": "GRÁTIS: Idle Champions of the Forgotten Realms",
-      "original_title": "Idle Champions of the Forgotten Realms",
-      "image": "https://cdn1.epicgames.com/spt-assets/a53f91e55c6840018cb5de0b204f1ad9/idle-champions-of-the-forgotten-realms-1n34h.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Free Games",
-      "date": "2026-03-12",
-      "summary": "Idle Champions of the Forgotten Realms é um jogo de gerenciamento de estratégia de Dungeons & Dragons que une personagens de todo o multiverso de D&D em uma grande aventura.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/banegeneralaudience"
-    },
-    {
-      "id": "https://store.epicgames.com/p/000ff62d1877415589bb126e900a88e8",
-      "title": "GRÁTIS: Turnip Boy Robs a Bank",
-      "original_title": "Turnip Boy Robs a Bank",
-      "image": "https://cdn1.epicgames.com/spt-assets/12f0012342a94c95985afbaa7568b51b/turnip-boy-robs-a-bank-167pk.png",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Free Games",
-      "date": "2026-03-12",
-      "summary": "O Nabo Boy está de volta! Desta vez ele está se unindo à temível Pickled Gang para planejar e executar o assalto mais estranho de todos os tempos.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/000ff62d1877415589bb126e900a88e8"
-    },
-    {
       "id": "https://store.epicgames.com/p/cozy-grove",
-      "title": "EM BREVE: Cozy Grove",
+      "title": "GRÁTIS: Cozy Grove",
       "original_title": "Cozy Grove",
       "image": "https://cdn1.epicgames.com/768ec2d3b5114ac4a800631b12ee3f31/offer/CG-2560x1440-570add3e55ecf729bd4f3a221ca7927a.jpg",
       "source_count": 1,
       "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-03-12",
-      "summary": "Disponível gratuitamente a partir de 12/03. Bem-vindo ao Cosy Grove, um jogo de simulação de vida sobre acampar em uma ilha assombrada e em constante mudança. Como Spirit Scout, você passeará pela floresta da ilha todos os dias, descobrindo novos segredos escondidos e ajudando a acalmar os fantasmas locais.",
+      "category": "Free Games",
+      "date": "2026-03-13",
+      "summary": "Bem-vindo ao Cosy Grove, um jogo de simulação de vida sobre acampar em uma ilha assombrada e em constante mudança. Como Spirit Scout, você passeará pela floresta da ilha todos os dias, descobrindo novos segredos escondidos e ajudando a acalmar os fantasmas locais.",
       "sources": [
         "Epic Games Store"
       ],
@@ -113,18 +83,33 @@
     },
     {
       "id": "https://store.epicgames.com/p/isonzo-2",
-      "title": "EM BREVE: Isonzo",
+      "title": "GRÁTIS: Isonzo",
       "original_title": "Isonzo",
       "image": "https://cdn1.epicgames.com/offer/30de69013f3b41b0ba594a8ef3b693ba/EGS_Isonzo_BlackMillGames_S1_2560x1440-c45b9d495ea324c69ad872aeccc9fb7d",
       "source_count": 1,
       "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-03-12",
-      "summary": "Disponível gratuitamente a partir de 12/03. A feroz guerra alpina testará suas habilidades táticas neste autêntico FPS da 1ª Guerra Mundial. Lute entre os picos pitorescos, vales escarpados e cidades idílicas do norte da Itália. A Grande Guerra na Frente Italiana ganha vida e é elevada a alturas inesperadas!",
+      "category": "Free Games",
+      "date": "2026-03-13",
+      "summary": "A feroz guerra alpina testará suas habilidades táticas neste autêntico FPS da 1ª Guerra Mundial. Lute entre os picos pitorescos, vales escarpados e cidades idílicas do norte da Itália. A Grande Guerra na Frente Italiana ganha vida e é elevada a alturas inesperadas!",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/isonzo-2"
+    },
+    {
+      "id": "https://store.epicgames.com/p/d4645b0dc574438e95d20c6a31d3a0f7",
+      "title": "EM BREVE: Electrician Simulator",
+      "original_title": "Electrician Simulator",
+      "image": "https://cdn1.epicgames.com/spt-assets/d0be4faac92a49ebae039c0e0d386e42/electrician-simulator-1j17y.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-03-13",
+      "summary": "Disponível gratuitamente a partir de 19/03. Assuma o papel de eletricista e aprenda os fundamentos da profissão! Instale tomadas, conserte equipamentos desgastados, monte eletrodomésticos quebrados, substitua lâmpadas e instale fios nas casas de seus clientes. Não se esqueça de verificar tudo duas vezes, com eletricidade não há brincadeira!",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/d4645b0dc574438e95d20c6a31d3a0f7"
     },
     {
       "id": "https://store.epicgames.com/p/32b3e0adbe0c4399be1874958194f97f",
@@ -134,7 +119,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-03-12",
+      "date": "2026-03-13",
       "summary": "Disponível gratuitamente a partir de 30/03. A Coleção de Aniversário de Castlevania da Konami traça as origens da histórica franquia de vampiros. Está incluído um e-book exclusivo com detalhes fornecidos por desenvolvedores, artistas e outros inspirados no legado de Castlevania, que lança uma nova luz sobre o mundo de Castlevania.",
       "sources": [
         "Epic Games Store"
@@ -149,7 +134,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-03-12",
+      "date": "2026-03-13",
       "summary": "Disponível gratuitamente a partir de 30/03. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
       "sources": [
         "Epic Games Store"
@@ -157,229 +142,124 @@
       "url": "https://store.epicgames.com/p/monument-valley-02"
     },
     {
-      "id": "https://www.eurogamer.net/after-a-successful-launch-weekend-pokopia-has-become-one-of-the-best-selling-pokemon-spin-offs-ever",
-      "title": "Após um fim de semana de lançamento bem-sucedido, Pokopia se tornou um dos spin-offs de Pokémon mais vendidos de todos os tempos",
-      "original_title": "After a successful launch weekend, Pokopia has become one of the best-selling Pokémon spin-offs ever",
-      "image": "https://assetsio.gnwcdn.com/Pokemon-Pokopia-screenshot-showing-Ditto-and-three-Pokemon-cheering-around-a-small-camp-fire.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://store.epicgames.com/p/world-of-warships-tachibana-lima-pack",
+      "title": "EM BREVE: World of Warships — Epic Anniversary Tachibana Pack",
+      "original_title": "World of Warships — Epic Anniversary Tachibana Pack",
+      "image": "https://cdn1.epicgames.com/spt-assets/4eb4296fe40e4130a61adbf2d6b34586/world-of-warships-1ahdf.png",
       "source_count": 1,
       "reliability": "High",
-      "category": "News",
-      "date": "2026-03-12",
-      "summary": "É justo dizer que o novo Pokémon Pokopia, do tipo Animal Crossing, da Nintendo, teve um lançamento bastante bem-sucedido. Leia mais...",
+      "category": "Release Date",
+      "date": "2026-03-13",
+      "summary": "Disponível gratuitamente a partir de 19/03. Obtenha um contratorpedeiro japonês Premium e algumas camuflagens permanentes da Epic para comemorar nosso 5º ano na Epic Games Store.",
       "sources": [
-        "Eurogamer"
+        "Epic Games Store"
       ],
-      "url": "https://www.eurogamer.net/after-a-successful-launch-weekend-pokopia-has-become-one-of-the-best-selling-pokemon-spin-offs-ever"
+      "url": "https://store.epicgames.com/p/world-of-warships-tachibana-lima-pack"
     },
     {
-      "id": "https://www.eurogamer.net/marathon-pve-nerfed-good-or-bad",
-      "title": "“UESC ainda é uma ameaça, não se preocupe” – comunidade Marathon debate enfraquecimentos em PvE após a primeira grande atualização de equilíbrio do jogo",
-      "original_title": "\"UESC is still a menace, don't worry\" - Marathon community debates PvE nerfs following game's first major balance patch",
-      "image": "https://assetsio.gnwcdn.com/Marathon_robot-enemies.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/cyberpunk-2077-wont-be-getting-any-more-secret-content",
+      "title": "Enquanto circulam os rumores de DLC de Witcher 3, o CD Projekt Red quer que você saiba que Cyberpunk 2077 não receberá mais conteúdo ‘secreto’",
+      "original_title": "As Witcher 3 DLC rumours swirl, CD Projekt Red wants you to know that Cyberpunk 2077 won't be getting any more 'secret' content",
+      "image": "https://assetsio.gnwcdn.com/cp-2077-dlc.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
-      "category": "News",
-      "date": "2026-03-12",
-      "summary": "Os jogadores da Maratona estão debatendo os méritos de uma recente atualização de equilíbrio que, entre outras coisas, tornou os inimigos da UESC mais fáceis de matar. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/marathon-pve-nerfed-good-or-bad"
-    },
-    {
-      "id": "https://www.eurogamer.net/ex-naughty-dog-artist-who-helped-design-characters-for-highguard-promises-to-keep-fighting-the-good-fight-just-not-in-the-live-service-sphere-anymore",
-      "title": "O ex-artista da Naughty Dog que ajudou a criar personagens para Highguard promete continuar lutando o bom combate – mas não mais na esfera do serviço ao vivo",
-      "original_title": "Ex-Naughty Dog artist who helped design characters for Highguard promises to keep fighting the good fight - just not in the live-service sphere, anymore",
-      "image": "https://assetsio.gnwcdn.com/Close-of-Condor's-chin-artwork-for-Highguard.jfif?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-03-12",
-      "summary": "Um ex-artista da Naughty Dog continuará trabalhando em jogos, mas está se afastando definitivamente do serviço ao vivo após o encerramento do Highguard. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/ex-naughty-dog-artist-who-helped-design-characters-for-highguard-promises-to-keep-fighting-the-good-fight-just-not-in-the-live-service-sphere-anymore"
-    },
-    {
-      "id": "https://www.eurogamer.net/monster-hunter-stories-3-has-me-hooked",
-      "title": "Mesmo sendo um grande fã de Monster Hunter, nunca gostei dos spin-offs – mas Monster Hunter Stories 3 me fisgou",
-      "original_title": "Even as a massive Monster Hunter fan, I've never gelled with the spin-offs - but Monster Hunter Stories 3 has me hooked",
-      "image": "https://assetsio.gnwcdn.com/monster-hunter-stories-header-2.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-03-12",
-      "summary": "Eu adoro um pouco de Monster Hunter; com isso quero dizer muito Monster Hunter - temo imaginar o número total de horas que passei com a série ao longo dos anos. Adoro a pompa da caça, adoro as espadas grandes e estúpidas e os trajes ridículos...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/monster-hunter-stories-3-has-me-hooked"
-    },
-    {
-      "id": "https://www.eurogamer.net/former-overwatch-lead-claims-he-was-given-a-horrid-ultimatum-meet-revenue-goals-or-1000-developers-would-lose-jobs",
-      "title": "O ex-líder da Overwatch afirma que recebeu um ultimato horrível: atingir as metas de receita ou 1.000 desenvolvedores perderiam empregos",
-      "original_title": "Former Overwatch Lead claims he was given a horrid ultimatum: meet revenue goals or 1,000 developers would lose jobs",
-      "image": "https://assetsio.gnwcdn.com/overwatch-director-jeff-kaplan-announces-departure-from-blizzard-after-19-years-1618943680401.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-03-12",
-      "summary": "O ex-líder da Overwatch, Jeff Kaplan, afirmou que, devido às pressões financeiras provocadas pela Liga Overwatch, ele recebeu um ultimato do então CFO da Blizzard, Dennis Durkin. Esse ultimato era, essencialmente, ‘garantir que Overwatch atenda a certas rev...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/former-overwatch-lead-claims-he-was-given-a-horrid-ultimatum-meet-revenue-goals-or-1000-developers-would-lose-jobs"
-    },
-    {
-      "id": "https://www.eurogamer.net/pegi-video-game-age-rating-changes-europe",
-      "title": "As classificações etárias dos videogames PEGI estão mudando na Europa e provavelmente não são boas notícias para a EA Sports FC",
-      "original_title": "Video game PEGI age-ratings are changing in Europe and it's probably not good news for EA Sports FC",
-      "image": "https://assetsio.gnwcdn.com/PEGI18.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-03-12",
-      "summary": "As classificações etárias dos videojogos estão prestes a mudar na Europa. O órgão pan-europeu de classificação etária de informações sobre jogos, mais conhecido como PEGI, que determina as classificações etárias para jogos em toda a Europa, exceto na Alemanha, está prestes a fazer, sem dúvida, o mais si...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/pegi-video-game-age-rating-changes-europe"
-    },
-    {
-      "id": "https://www.eurogamer.net/project-helix-dev-kits-not-going-out-until-2027-and-other-new-details-on-xboxs-next-gen-console",
-      "title": "Os kits de desenvolvimento do Project Helix não serão lançados até 2027 e outros novos detalhes sobre o console de próxima geração do Xbox",
-      "original_title": "Project Helix dev kits not going out until 2027, and other new details on Xbox's next-gen console",
-      "image": "https://assetsio.gnwcdn.com/green-background-with-Project-Helix-logo-and-name-written-in-white-on-top.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-03-12",
-      "summary": "A Microsoft compartilhou mais detalhes sobre sua próxima geração de console Xbox, codinome Project Helix. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/project-helix-dev-kits-not-going-out-until-2027-and-other-new-details-on-xboxs-next-gen-console"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1rrom6j/nate_the_hate_microsoft_wants_your_xbox_and_xbox/",
-      "title": "[Nate The Hate] Microsoft quer que sua biblioteca do Xbox e do Xbox 360 possa ser reproduzida no PC",
-      "original_title": "[Nate The Hate] Microsoft Wants Your Xbox And Xbox 360 Library Playable on PC",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-03-12",
-      "summary": "Esse tem sido o objetivo deles há mais de um ano. Acho que já fiz um comentário sobre isso antes; mas a equipe de retrocompatibilidade da MS queria trazer e tornar sua biblioteca digital OG Xbox e Xbox 360 jogável no PC.  Fonte: https://www.resetera.com/threads/jason-ronald-t...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1rrom6j/nate_the_hate_microsoft_wants_your_xbox_and_xbox/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1rro8lo/i_have_no_idea_what_this_means_but_an_easter_egg/",
-      "title": "Não tenho ideia do que isso significa, mas um ovo de Páscoa em RE Requiem redireciona para o site de um vazador russo",
-      "original_title": "I have no idea what this means, but an Easter egg in RE Requiem redirects to a Russian leaker’s website",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
       "category": "Rumor",
-      "date": "2026-03-12",
-      "summary": "As pessoas ampliaram os cadernos da BSAA no RE9 para descobrir que eles têm um endereço da web escrito: NEWDAWN-capcom.com O site redireciona para uma página com as informações de contato de Gabe Follower (ele é um vazador russo conhecido por vazar Half L...",
+      "date": "2026-03-13",
+      "summary": "A menos que você esteja vivendo sob um roc (trocadilho intencional), você saberá que há um boato bastante forte sobre The Witcher 3 e algum potencial novo DLC para o jogo, que será lançado cerca de 11 anos após o lançamento inicial do jogo. Leia m...",
       "sources": [
-        "r/GamingLeaksAndRumours"
+        "Eurogamer"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1rro8lo/i_have_no_idea_what_this_means_but_an_easter_egg/"
+      "url": "https://www.eurogamer.net/cyberpunk-2077-wont-be-getting-any-more-secret-content"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1rrhq1y/leak_about_the_next_sony_santa_monica_game_about/",
-      "title": "Vazamento sobre o próximo jogo da Sony Santa Monica sobre Faye",
-      "original_title": "Leak about the next Sony Santa Monica Game about Faye",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "id": "https://www.eurogamer.net/speculative-agency-returns-microsoft-xbox-funding-boycott",
+      "title": "“Não somos impotentes, cada ação é importante” – o estúdio independente Speculative Agency devolve o financiamento do Microsoft Xbox e insta outros a boicotar",
+      "original_title": "\"We are not powerless, every action matters\" - Indie studio Speculative Agency returns Microsoft Xbox funding and urges others to boycott",
+      "image": "https://assetsio.gnwcdn.com/all-will-rise_ImqDmBj.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
-      "reliability": "Medium",
-      "category": "Rumor",
-      "date": "2026-03-12",
-      "summary": "Você pode aceitar isso com cautela. Tenho um amigo que conhece alguém que trabalha na Sony Santa Monica, ele até me mostrou fotos dele. Perguntei a ele sobre o próximo jogo de Faye e ele me contou algumas coisas. Será anunciado como um f...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1rrhq1y/leak_about_the_next_sony_santa_monica_game_about/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1rronp9/natedrake_this_has_been_their_goal_for_over_a/",
-      "title": "[NateDrake] \"Esse tem sido o objetivo deles há mais de um ano. Acho que já fiz um comentário sobre isso antes; mas a equipe de retrocompatibilidade da MS queria trazer e tornar sua biblioteca digital OG Xbox e Xbox 360 jogável no PC.\"",
-      "original_title": "[NateDrake] “This has been their goal for over a year. I think I made a comment about it before; but MS back-compat team has wanted to bring & make your OG Xbox and Xbox 360 digital library playable on PC.”",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
+      "reliability": "High",
       "category": "News",
-      "date": "2026-03-12",
-      "summary": "Nate respondendo ao tweet de Tom Warren. Este tem sido o objetivo deles há mais de um ano. Acho que já fiz um comentário sobre isso antes; mas a equipe de retrocompatibilidade da MS queria trazer e tornar sua biblioteca digital OG Xbox e Xbox 360 jogável no PC.  Fonte Anterior R...",
+      "date": "2026-03-13",
+      "summary": "O estúdio independente Speculative Agency - que atualmente está fazendo \"um construtor narrativo de tribunal sobre pessoas comuns que fazem os poderosos pagarem pela destruição de nosso futuro\", chamado All Will Rise (citação do Kickstarter) - tomou a corajosa decisão de...",
       "sources": [
-        "r/GamingLeaksAndRumours"
+        "Eurogamer"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1rronp9/natedrake_this_has_been_their_goal_for_over_a/"
+      "url": "https://www.eurogamer.net/speculative-agency-returns-microsoft-xbox-funding-boycott"
     },
     {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1rrktyg/i_feel_like_epic_games_login_flow_is_better_than/",
-      "title": "Eu sinto que o fluxo de login de jogos épicos é melhor que o Steam",
-      "original_title": "I feel like epic games login flow is better than steam",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "id": "https://www.eurogamer.net/pokemon-pokopia-first-patch-switch-2-progress-bugs",
+      "title": "Anunciado o primeiro patch do Pokémon Pokopia, aborda bugs que interrompem o progresso e torna a progressão um pouco mais fácil de descobrir",
+      "original_title": "Pokémon Pokopia's first patch announced, tackles progress-halting bugs and makes progression a bit easier to figure out",
+      "image": "https://assetsio.gnwcdn.com/pokopia-patch.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
-      "reliability": "Medium",
-      "category": "Epic News",
-      "date": "2026-03-12",
-      "summary": "Apenas minha opinião, mas sinto que o Steam não oferece opções de login suficientes. Como no Steam, você só pode fazer login com o aplicativo ou nome de usuário (deve ser nome de usuário ou e-mail), mas com o Epic você pode fazer login com Google Apple Microsoft e e-mail e ter vários ...",
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-03-13",
+      "summary": "Pokémon Pokopia é bom, não é? Apesar de ter vendido mais de 2,2 milhões de cópias em uma semana após o lançamento, e de ser tão impressionante que está até fazendo o estoque da Nintendo subir, existem alguns problemas com o jogo que estão impedindo todos de se divertirem...",
       "sources": [
-        "r/EpicGamesPC"
+        "Eurogamer"
       ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1rrktyg/i_feel_like_epic_games_login_flow_is_better_than/"
+      "url": "https://www.eurogamer.net/pokemon-pokopia-first-patch-switch-2-progress-bugs"
     },
     {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1rrlb53/steam_game_alien_grounds/",
-      "title": "[Steam] (Jogo) Alien Grounds",
-      "original_title": "[Steam] (Game) Alien Grounds",
-      "image": "https://external-preview.redd.it/KorDEDfpenEMdWzD2vT7bPoLy23LghKdBnqHHB_zVyI.jpeg?width=320&crop=smart&auto=webp&s=6e33903cd5368c662c393d26ed7f458d5a533e50",
+      "id": "https://www.eurogamer.net/slay-the-spire-2-fan-drew-badly-every-day-art-book",
+      "title": "O fã de Slay the Spire 2 desenhava mal todos os dias até seu lançamento, agora eles criaram um livro de arte para comemorar",
+      "original_title": "Slay the Spire 2 fan drew badly every day until its release, now they've created an art book to celebrate",
+      "image": "https://assetsio.gnwcdn.com/sts2.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-03-12",
-      "summary": "Em 9 de abril, o jogo passará para o lançamento completo e passará de gratuito para pago. Isso ajudará a apoiar o desenvolvimento a longo prazo, novos conteúdos e atualizações contínuas. Se você já possui o jogo – ou o adquiriu antes de 9 de abril – você o manterá permanentemente...",
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-03-13",
+      "summary": "Um fã de Slay the Spire que decidiu “desenhar mal” até o lançamento de Slay the Spire 2 criou um livro de arte catalogando seus trabalhos. Com o jogo agora lançado, eles revelaram esta adorável criação ao mundo. Leia mais...",
       "sources": [
-        "r/FreeGameFindings"
+        "Eurogamer"
       ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1rrlb53/steam_game_alien_grounds/"
+      "url": "https://www.eurogamer.net/slay-the-spire-2-fan-drew-badly-every-day-art-book"
     },
     {
-      "id": "https://www.techpowerup.com/347318/we-wish-tweaktowns-anthony-garreffa-a-speedy-recovery",
-      "title": "Desejamos a Anthony Garreffa do TweakTown uma rápida recuperação",
-      "original_title": "We Wish TweakTown's Anthony Garreffa a Speedy Recovery",
-      "image": "https://tpucdn.com/img/EcRtTLD2F5X0wgMX_thm.jpg",
+      "id": "https://www.eurogamer.net/pegi-director-general-age-ratings-teenage-son-gta-6",
+      "title": "A pergunta impossível: será que o diretor-geral do órgão europeu de classificação etária PEGI permitirá que seu filho adolescente jogue Grand Theft Auto 6?",
+      "original_title": "The impossible question: will the director general of European age-ratings body PEGI allow his teenage son to play Grand Theft Auto 6?",
+      "image": "https://assetsio.gnwcdn.com/pegi-gta.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-03-13",
+      "summary": "Desde que existem classificações etárias nos jogos, uma série, mais do que qualquer outra, tem sido usada para representar os perigos dos jogos para menores de idade em nossa sociedade: a série de gângsteres Grand Theft Auto. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/pegi-director-general-age-ratings-teenage-son-gta-6"
+    },
+    {
+      "id": "https://www.techpowerup.com/347352/frore-systems-introduces-liquidjet-nexus-defining-the-ai-thermal-stack-for-next-generation-1-2-u-ai-server-systems-like-nvidia-kyber",
+      "title": "(PR) Frore Systems apresenta LiquidJet Nexus - Definindo a pilha térmica de IA para sistemas de servidor de IA de ½ U de próxima geração, como NVIDIA Kyber",
+      "original_title": "(PR) Frore Systems Introduces LiquidJet Nexus - Defining the AI Thermal Stack for Next-Generation ½ U AI Server Systems like NVIDIA Kyber",
+      "image": "https://tpucdn.com/img/YK6BPGaeVMAFzFDV_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-03-12",
-      "summary": "O editor sênior e repórter de tecnologia Anthony Garreffa, do TweakTown, sofreu um grave derrame no final de fevereiro e está se recuperando no hospital, aprendemos em um relatório do TweakTown. Ele está recebendo cuidados na enfermaria de AVC do hospital e lutando contra certificados...",
+      "date": "2026-03-13",
+      "summary": "Para superar as barreiras térmicas que limitam o desempenho da IA, a Frore Systems revelou hoje o LiquidJet Nexus, um novo sistema integrado de refrigeração líquida projetado para a era da IA. À medida que as densidades computacionais da IA ​​aumentam, o calor surge como uma restrição primária, elevando...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/347318/we-wish-tweaktowns-anthony-garreffa-a-speedy-recovery"
+      "url": "https://www.techpowerup.com/347352/frore-systems-introduces-liquidjet-nexus-defining-the-ai-thermal-stack-for-next-generation-1-2-u-ai-server-systems-like-nvidia-kyber"
     },
     {
-      "id": "https://www.techpowerup.com/347317/3-2-1-1-0-is-the-new-3-2-1-maximizing-data-security-on-asustor",
-      "title": "(PR) 3-2-1-1-0 é o novo 3-2-1 - Maximizando a segurança de dados na Asustor",
-      "original_title": "(PR) 3-2-1-1-0 Is the New 3-2-1 - Maximizing Data Security on Asustor",
-      "image": "https://tpucdn.com/img/ElAWWntyZYx8dJwU_thm.jpg",
+      "id": "https://www.techpowerup.com/347351/turtle-beach-corporation-announces-fourth-quarter-and-full-year-2025-results",
+      "title": "(PR) Turtle Beach Corporation anuncia resultados do quarto trimestre e do ano de 2025",
+      "original_title": "(PR) Turtle Beach Corporation Announces Fourth Quarter and Full Year 2025 Results",
+      "image": "https://tpucdn.com/img/E0WfMAEanW7UCAkR_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-03-12",
-      "summary": "À medida que os métodos de ataque de ransomware se tornam cada vez mais sofisticados, a tradicional regra de backup 3-2-1 enfrenta novos desafios. Com isto em mente, nós aqui na ASUSTOR estamos mudando nossas mensagens para promover ativamente o novo princípio de backup 3-2-1-1-0 para aumentar...",
+      "date": "2026-03-13",
+      "summary": "Turtle Beach Corporation (Nasdaq: TBCH), uma marca líder em acessórios para jogos, divulgou hoje os resultados financeiros do quarto trimestre e do ano encerrado em 31 de dezembro de 2025 e forneceu orientação para o ano de 2026 para receita líquida e EBITDA ajustado.\n\n\"Nosso...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/347317/3-2-1-1-0-is-the-new-3-2-1-maximizing-data-security-on-asustor"
+      "url": "https://www.techpowerup.com/347351/turtle-beach-corporation-announces-fourth-quarter-and-full-year-2025-results"
     },
     {
       "id": "https://www.techpowerup.com/347296/stop-paying-for-microsoft-365-the-newest-office-is-usd-140",
@@ -389,7 +269,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-03-12",
+      "date": "2026-03-13",
       "summary": "O Microsoft Office 2024 Home & Business custa US$ 139,97 (normalmente US$ 249,99) para uma licença vitalícia para Mac ou PC. O cansaço das assinaturas é real, especialmente quando se trata de software que você usa todos os dias. O Microsoft 365 custa de US$ 69,99 a US$ 99,99 anualmente, o que significa...",
       "sources": [
         "TechPowerUp"
@@ -397,379 +277,184 @@
       "url": "https://www.techpowerup.com/347296/stop-paying-for-microsoft-365-the-newest-office-is-usd-140"
     },
     {
-      "id": "https://www.techpowerup.com/347316/v-color-launches-1-1-ddr5-memory-and-rgb-filler-kit-for-amd-ryzen-gaming-builds",
-      "title": "(PR) V-COLOR lança memória 1+1 DDR5 e kit de preenchimento RGB para versões de jogos AMD Ryzen",
-      "original_title": "(PR) V-COLOR Launches 1+1 DDR5 Memory and RGB Filler Kit for AMD Ryzen Gaming Builds",
-      "image": "https://tpucdn.com/img/pnbDO5ihfsJFDD97_thm.jpg",
+      "id": "https://www.techpowerup.com/347350/supermassives-directive-8020-gets-new-live-action-couch-co-op-trailer",
+      "title": "(PR) Diretiva 8020 da Supermassive ganha novo trailer cooperativo de sofá de ação ao vivo",
+      "original_title": "(PR) Supermassive's Directive 8020 Gets New Live-Action Couch Co-Op Trailer",
+      "image": "https://tpucdn.com/img/GcMtogHCVtkpNmfw_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-03-12",
-      "summary": "À medida que mais jogadores migram para as plataformas da série AMD Ryzen para construções de jogos DDR5 modernas, a v-color Technology Inc. está introduzindo uma opção de atualização mais inteligente e flexível com sua nova memória 1+1 DDR5 e solução RGB Filler NON-DRAM. Projetado para jogadores ...",
+      "date": "2026-03-13",
+      "summary": "A Supermassive Games revelou um novo trailer cooperativo de sofá de ação ao vivo para sua próxima aventura de ficção científica e terror de sobrevivência, Diretiva 8020, durante o Future Games Show de hoje. O trailer mostrou um grupo de amigos jogando o modo noturno de cinema cooperativo no sofá, em...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/347316/v-color-launches-1-1-ddr5-memory-and-rgb-filler-kit-for-amd-ryzen-gaming-builds"
+      "url": "https://www.techpowerup.com/347350/supermassives-directive-8020-gets-new-live-action-couch-co-op-trailer"
     },
     {
-      "id": "https://www.techpowerup.com/347315/ai-demand-drives-4q25-global-top-10-foundries-revenue-up-2-6-qoq-samsung-gains-share-and-tower-moves-up-in-rankings",
-      "title": "(PR) Demanda de IA impulsiona receita global das 10 principais fundições do 4T25 com aumento de 2,6% no trimestre; Samsung ganha participação e Tower sobe no ranking",
-      "original_title": "(PR) AI Demand Drives 4Q25 Global Top 10 Foundries Revenue Up 2.6% QoQ; Samsung Gains Share and Tower Moves Up in Rankings",
-      "image": "https://tpucdn.com/img/nyf8p5UE3MUrXZx4_thm.jpg",
+      "id": "https://www.techpowerup.com/347349/global-top-five-enterprise-ssd-vendors-post-over-50-qoq-revenue-growth-in-4q25-with-sk-group-leading-growth",
+      "title": "(PR) Os cinco principais fornecedores globais de SSD empresariais registram crescimento de receita superior a 50% no trimestre no 4T25, com o Grupo SK liderando o crescimento",
+      "original_title": "(PR) Global Top Five Enterprise SSD Vendors Post Over 50% QoQ Revenue Growth in 4Q25, with SK Group Leading Growth",
+      "image": "https://tpucdn.com/img/rsUq1Gtklc308Y1E_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-03-12",
-      "summary": "A pesquisa mais recente da TrendForce sobre a indústria de fundição de semicondutores revela que a demanda por nós avançados permaneceu forte no 4T25, impulsionada pela oferta restrita de GPUs de servidores de IA e Google TPUs. Além disso, o lançamento de novos smartphones impulsionou a encomenda de wafers...",
+      "date": "2026-03-13",
+      "summary": "A adoção generalizada de cargas de trabalho de inferência de IA no 4T25 aumentou significativamente os requisitos para sistemas de armazenamento de dados, de acordo com as últimas descobertas da TrendForce sobre o mercado de SSD corporativo. Enquanto isso, as empresas aceleraram as atualizações de seus...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/347315/ai-demand-drives-4q25-global-top-10-foundries-revenue-up-2-6-qoq-samsung-gains-share-and-tower-moves-up-in-rankings"
+      "url": "https://www.techpowerup.com/347349/global-top-five-enterprise-ssd-vendors-post-over-50-qoq-revenue-growth-in-4q25-with-sk-group-leading-growth"
     },
     {
-      "id": "https://www.techpowerup.com/347314/alphacool-introduces-apex-stealth-metal-140-mm-fans",
-      "title": "(PR) Alphacool apresenta ventoinhas Apex Stealth Metal de 140 mm",
-      "original_title": "(PR) Alphacool Introduces Apex Stealth Metal 140 mm Fans",
-      "image": "https://tpucdn.com/img/yBhtUhBHC66SEfFV_thm.jpg",
+      "id": "https://www.techpowerup.com/347348/colorful-launches-the-igame-geforce-rtx-50-ultra-series",
+      "title": "(PR) Colorful lança a série iGame GeForce RTX 50 Ultra",
+      "original_title": "(PR) Colorful Launches the iGame GeForce RTX 50 Ultra Series",
+      "image": "https://tpucdn.com/img/ds4saE88Xhy91YOW_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-03-12",
-      "summary": "Alphacool International GmbH de Braunschweig é pioneira na tecnologia de refrigeração líquida para PCs. Com um dos portfólios de produtos mais completos do setor e mais de 20 anos de experiência, a Alphacool continua expandindo seu portfólio. Com o n...",
+      "date": "2026-03-13",
+      "summary": "A Colorful Technology Company Limited, marca líder em componentes para PC para jogos, laptops para jogos e produtos de áudio Hi-fi, apresenta com orgulho as novas placas gráficas iGame GeForce RTX 50 Ultra Series. A Série Ultra dá continuidade à assinatura moderna da marca...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/347314/alphacool-introduces-apex-stealth-metal-140-mm-fans"
+      "url": "https://www.techpowerup.com/347348/colorful-launches-the-igame-geforce-rtx-50-ultra-series"
     },
     {
-      "id": "https://www.techpowerup.com/347312/asus-rog-announces-new-strix-oled-xg27aqdmg-gen2-xg27acdms-and-xg27aqdmes-monitors",
-      "title": "(PR) ASUS ROG anuncia novos monitores Strix OLED XG27AQDMG Gen2, XG27ACDMS e XG27AQDMES",
-      "original_title": "(PR) ASUS ROG Announces New Strix OLED XG27AQDMG Gen2, XG27ACDMS, and XG27AQDMES Monitors",
-      "image": "https://tpucdn.com/img/ZuhdXO3dzJR1NWrh_thm.jpg",
+      "id": "https://www.techpowerup.com/347346/glorious-revives-original-69-g-model-o-gaming-mouse-with-19k-optical-sensor-honeycomb-shell",
+      "title": "Glorious Revives Mouse para jogos modelo O original de 69 g com sensor óptico de 19K, concha de favo de mel",
+      "original_title": "Glorious Revives Original 69 g Model O Gaming Mouse With 19K Optical Sensor, Honeycomb Shell",
+      "image": "https://tpucdn.com/img/gLojRQUbxeQKs5iQ_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-03-12",
-      "summary": "A ASUS Republic of Gamers (ROG) anunciou hoje os monitores ROG Strix OLED XG27AQDMG Gen2 (XG27AQDMGR), XG27ACDMS e XG27AQDMES, as mais recentes adições à linha Strix OLED. Como marca indiscutível de monitores OLED nº 1, a ROG continua a liderar o mercado ao...",
+      "date": "2026-03-13",
+      "summary": "O Glorious Model O já foi tido em alta conta no mundo dos periféricos de jogos, mas esse design foi superado por designs mais modernos com carcaças mais leves e sensores mais precisos e responsivos. Aparentemente ainda há mercado para o ou...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/347312/asus-rog-announces-new-strix-oled-xg27aqdmg-gen2-xg27acdms-and-xg27aqdmes-monitors"
+      "url": "https://www.techpowerup.com/347346/glorious-revives-original-69-g-model-o-gaming-mouse-with-19k-optical-sensor-honeycomb-shell"
     },
     {
-      "id": "https://www.techpowerup.com/347142/godeal24-womens-day-software-sale-get-the-software-you-need-at-jaw-dropping-prices",
-      "title": "Promoção de software do Dia da Mulher GoDeal24: Obtenha o software que você precisa a preços de cair o queixo!",
-      "original_title": "GoDeal24 Women's Day Software Sale: Get the Software You Need at Jaw-Dropping Prices!",
-      "image": "https://tpucdn.com/img/1ramoLU9Xgdfm4Hq_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-03-12",
-      "summary": "GoDeal24 está comemorando o Dia Internacional da Mulher com uma venda especial de software genuíno e válido globalmente. Obtenha o Windows 11 Pro original por apenas US$ 12,25 e economize muito ao montar seu próprio PC ou optar por um laptop sem sistema operacional pré-instalado...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/347142/godeal24-womens-day-software-sale-get-the-software-you-need-at-jaw-dropping-prices"
-    },
-    {
-      "id": "https://www.techpowerup.com/347311/msi-bundles-carpenters-toxic-commando-with-select-power-supplies",
-      "title": "(PR) MSI agrupa Carpenter's Toxic Commando com fontes de alimentação selecionadas",
-      "original_title": "(PR) MSI Bundles Carpenter's Toxic Commando with Select Power Supplies",
-      "image": "https://tpucdn.com/img/4bF0HNbfhWYtsLaR_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-03-12",
-      "summary": "Atreva-se a enfrentar o caos no Toxic Commando de John Carpenter! De 12 de março a 12 de abril de 2026, compre fontes de alimentação MSI selecionadas e receba uma chave de jogo John Carpenter's Toxic Commando GRATUITA, enquanto durarem os estoques! Explodir hordas de zumbis implacáveis...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/347311/msi-bundles-carpenters-toxic-commando-with-select-power-supplies"
-    },
-    {
-      "id": "https://www.techpowerup.com/347310/synopsys-introduces-software-defined-hardware-assisted-verification-to-enable-ai-proliferation",
-      "title": "(PR) Synopsys apresenta verificação assistida por hardware definida por software para permitir a proliferação de IA",
-      "original_title": "(PR) Synopsys Introduces Software-Defined Hardware-Assisted Verification to Enable AI Proliferation",
-      "image": "https://tpucdn.com/img/EvUnZSoJEneuJJJb_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-03-12",
-      "summary": "anunciou hoje avanços em seu portfólio líder de verificação assistida por hardware (HAV), incluindo novas plataformas e recursos de hardware para suportar a demanda cada vez maior por verificação de chip de IA do data center ao...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/347310/synopsys-introduces-software-defined-hardware-assisted-verification-to-enable-ai-proliferation"
-    },
-    {
-      "id": "https://www.eurogamer.net/valve-expresses-disappointment-over-new-york-state-loot-box-lawsuit",
-      "title": "Valve argumenta que as loot boxes são “amplamente utilizadas, não apenas em videogames, mas no mundo tangível”, ao expressar ‘decepção’ com o processo do estado de Nova York",
-      "original_title": "Valve argues loot boxes \"widely used, not just in video games but in the tangible world\" as it expresses 'disappointment' over New York state lawsuit",
-      "image": "https://assetsio.gnwcdn.com/steam_share_image.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/tomb-raider-1-3-remastered-gets-free-challenge-mode-alongside-mobile-and-switch-2-release",
+      "title": "Tomb Raider 1-3 Remastered recebe modo de desafio gratuito junto com o lançamento para dispositivos móveis e Switch 2",
+      "original_title": "Tomb Raider 1-3 Remastered gets free challenge mode alongside mobile and Switch 2 release",
+      "image": "https://assetsio.gnwcdn.com/tomb-raider-1-3-remastered's-lara-croft-holding-a-lit-flare.-She-is-wearing-adventure-gear.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-03-11",
-      "summary": "Após notícias recentes de que o estado de Nova York está processando a Valve pela implementação de loot boxes - que a procuradora-geral de Nova York, Letitia James, descreveu como \"jogo ilegal\" - o proprietário do Steam compartilhou uma longa declaração pública, dizendo que ...",
+      "date": "2026-03-12",
+      "summary": "A equipe da Aspyr lançou uma nova atualização gratuita do modo de desafio para Tomb Raider 1-3 Remastered para coincidir com sua estreia no Google Play, iOS e Switch 2. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/valve-expresses-disappointment-over-new-york-state-loot-box-lawsuit"
+      "url": "https://www.eurogamer.net/tomb-raider-1-3-remastered-gets-free-challenge-mode-alongside-mobile-and-switch-2-release"
     },
     {
-      "id": "https://www.eurogamer.net/the-next-entry-in-the-harvest-moon-series-includes-wild-wolves-and-tigers-that-will-make-you-lose-your-items",
-      "title": "A próxima entrada da série Harvest Moon inclui lobos selvagens e tigres que farão você perder seus itens",
-      "original_title": "The next entry in the Harvest Moon series includes wild wolves and tigers that will make you lose your items",
-      "image": "https://assetsio.gnwcdn.com/a-wolf-in-Harvest-Moon-Echoes-of-Teradea.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/silent-hill-2-remake-passes-5m-copies-sold-sale",
+      "title": "Silent Hill 2 Remake ultrapassa 5 milhões de cópias vendidas, então a Konami está realizando uma grande venda na PlayStation Store",
+      "original_title": "Silent Hill 2 Remake passes 5m copies sold, so Konami's hosting a big ol' sale on the PlayStation store",
+      "image": "https://assetsio.gnwcdn.com/Silent-Hill-2-Remake-header-showing-a-female-character-with-dark-hair-lying-on-her-side-with-a-knife-in-her-hand-as-James-stands-behind.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-03-11",
-      "summary": "Natsume anunciou a próxima entrada na série Harvest Moon. Leia mais...",
+      "date": "2026-03-12",
+      "summary": "O Silent Hill 2 Remake, criado pela Bloober Team em parceria com a Konami, acaba de ultrapassar cinco milhões de vendas em todo o mundo. Um grande feito, para a franquia de terror que já foi (relativamente) de nicho. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/the-next-entry-in-the-harvest-moon-series-includes-wild-wolves-and-tigers-that-will-make-you-lose-your-items"
+      "url": "https://www.eurogamer.net/silent-hill-2-remake-passes-5m-copies-sold-sale"
     },
     {
-      "id": "https://www.eurogamer.net/pokemon-pokopia-boosts-nintendo-share-price-after-first-weekend-out",
-      "title": "Pokémon Pokopia é um “sucesso viral” tão grande que está fazendo o preço das ações da Nintendo subir (após meses de queda)",
-      "original_title": "Pokémon Pokopia is such a \"viral hit\" that it's making Nintendo's share price surge (after months of going down)",
-      "image": "https://assetsio.gnwcdn.com/stonks-Pokopia.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/resident-evil-requiem-dlc-grace-best-thing-to-happen-to-resi-in-years",
+      "title": "Espero que o DLC de Resident Evil Requiem seja sobre Grace, a melhor coisa que aconteceu com Resi em anos",
+      "original_title": "I sure hope the Resident Evil Requiem DLC is all about Grace, the best thing to happen to Resi in years",
+      "image": "https://assetsio.gnwcdn.com/grace-resi.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-03-11",
-      "summary": "Esse jogo Pokémon Pokopia é muito bom, né? Bem, o mercado parece pensar o mesmo com base na recepção inicial e no fato de o lançamento físico do cartão-chave do jogo estar esgotado na maioria dos varejistas. Leia mais...",
+      "date": "2026-03-12",
+      "summary": "Eu adorei Resident Evil 7. Depois que a identidade da série lentamente ganhou água ao longo das entradas e spin-offs da linha principal da última década, Resident Evil 7: Biohazard (para usar seu nome completo) nos lembrou por que a Capcom é o rei do mod...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/pokemon-pokopia-boosts-nintendo-share-price-after-first-weekend-out"
+      "url": "https://www.eurogamer.net/resident-evil-requiem-dlc-grace-best-thing-to-happen-to-resi-in-years"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1rrallz/potential_crimson_desert_early_review/",
-      "title": "Potencial vazamento/impressões de revisão antecipada do Crimson Desert.",
-      "original_title": "Potential Crimson Desert early review leak/impressions.",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "id": "https://www.eurogamer.net/mega-crit-slay-the-spire-2-plushies",
+      "title": "Mega Crit revela pelúcias Slay the Spire 2 e, ah, querido, comprei dois deles",
+      "original_title": "Mega Crit unveils Slay the Spire 2 plushies and oh dear I've bought two of them",
+      "image": "https://assetsio.gnwcdn.com/slay-spire-2-plushies.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
-      "reliability": "Medium",
-      "category": "Rumor",
-      "date": "2026-03-11",
-      "summary": "O criador de conteúdo espanhol Revenant (700 mil inscritos no YouTube) supostamente compartilhou impressões de uma cópia de revisão do Crimson Desert antes do vídeo ser excluído: Não é realmente um RPG ou focado em uma história. A narrativa é melhor que Black Desert, mas nem perto de Witcher 3...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1rrallz/potential_crimson_desert_early_review/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1rr9jch/microsoft_canceling_this_is_an_xbox_marketing/",
-      "title": "Microsoft cancelando campanha de marketing “This Is An Xbox”?",
-      "original_title": "Microsoft canceling \"This Is An Xbox\" marketing campaign?",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
+      "reliability": "High",
       "category": "News",
-      "date": "2026-03-11",
-      "summary": "\"Lembra-se: 'Isto é um Xbox'? A Microsoft fez dessas quatro palavras a pedra angular de uma campanha de marketing que acreditava que iria enfatizar um ponto-chave: o Xbox é uma plataforma, não apenas um console.\" \"Ao pesquisar a postagem do blog que deu início ao marketing...",
+      "date": "2026-03-12",
+      "summary": "Mega Crit revelou três novos peluches Slay the Spire 2 e, meu Deus, encomendei dois deles. Leia mais...",
       "sources": [
-        "r/GamingLeaksAndRumours"
+        "Eurogamer"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1rr9jch/microsoft_canceling_this_is_an_xbox_marketing/"
+      "url": "https://www.eurogamer.net/mega-crit-slay-the-spire-2-plushies"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1rr38o0/sony_is_ab_testing_targeted_price_increases_for/",
-      "title": "Sony está testando aumentos de preços direcionados para usuários selecionados nos EUA",
-      "original_title": "Sony is AB testing targeted price increases for select users in the US",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "id": "https://www.eurogamer.net/time-to-pay-your-last-respects-to-microsofts-this-is-an-xbox-campaign-as-it-appears-to-have-been-killed-off",
+      "title": "É hora de prestar suas últimas homenagens à campanha “Este é um Xbox” da Microsoft, pois ela parece ter sido eliminada",
+      "original_title": "Time to pay your last respects to Microsoft's \"This is an Xbox\" campaign, as it appears to have been killed off",
+      "image": "https://assetsio.gnwcdn.com/xbox-(1)_PG3QyDU.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
-      "reliability": "Medium",
+      "reliability": "High",
       "category": "News",
-      "date": "2026-03-11",
-      "summary": "PSPrices analisou um novo programa chamado IPT_LTM para aumentos de preços direcionados nos EUA, que está atualmente sendo testado pela AB. O primeiro título é GTA V, que custa US$ 29,99 em vez dos US$ 26,99 normais para usuários selecionados.  Leia o artigo completo aqui Sony h...",
+      "date": "2026-03-12",
+      "summary": "Este é um Xbox! Espere, isso é um Xbox? Bem, talvez não mais, já que a Microsoft parece ter removido discretamente sua campanha de marketing que proclamava que o Xbox era menos um console e mais uma plataforma que poderia ser acessada basicamente em qualquer lugar...",
       "sources": [
-        "r/GamingLeaksAndRumours"
+        "Eurogamer"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1rr38o0/sony_is_ab_testing_targeted_price_increases_for/"
+      "url": "https://www.eurogamer.net/time-to-pay-your-last-respects-to-microsofts-this-is-an-xbox-campaign-as-it-appears-to-have-been-killed-off"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1rr5wv6/keplerl2_both_xbox_and_ps6_are_still_in_track_for/",
-      "title": "KeplerL2: “Tanto o Xbox quanto o PS6 ainda estão no caminho certo para o feriado de 2027”",
-      "original_title": "KeplerL2: \"Both Xbox and PS6 are still in track for Holiday 2027\"",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "id": "https://www.techpowerup.com/347340/pegi-updates-game-ratings-to-address-loot-boxes-and-potentially-addictive-gameplay-mechanics",
+      "title": "PEGI atualiza classificações de jogos para lidar com caixas de saque e mecânica de jogo potencialmente viciante",
+      "original_title": "PEGI Updates Game Ratings To Address Loot Boxes and Potentially Addictive Gameplay Mechanics",
+      "image": "https://tpucdn.com/img/OT1y3TK1rI4u9pMH_thm.jpg",
       "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-03-11",
-      "summary": "Fonte: https://www.neogaf.com/threads/asha-sharma-next-xbox-project-name-helix-will-lead-in-performance-and-play-your-xbox-and-pc-games.1694284/post-271363454 EDIT: Ele também diz que o portátil PS também está no caminho certo.  Fonte: https://www.neogaf.com/thread...",
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-03-12",
+      "summary": "Logo após a resposta pública crítica da Valve ao processo do procurador-geral do Estado de Nova York contra a gigante dos jogos por causa de sua monetização e caixas de saque no jogo, o órgão de classificação Pan European Game Information (PEGI) atualizou sua classificação ...",
       "sources": [
-        "r/GamingLeaksAndRumours"
+        "TechPowerUp"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1rr5wv6/keplerl2_both_xbox_and_ps6_are_still_in_track_for/"
+      "url": "https://www.techpowerup.com/347340/pegi-updates-game-ratings-to-address-loot-boxes-and-potentially-addictive-gameplay-mechanics"
     },
     {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1rray8j/how_sunderfolk_got_rebuilt_for_pc_ahead_of_its/",
-      "title": "Como o Sunderfolk foi reconstruído para PC antes do lançamento da Epic Games Store",
-      "original_title": "How Sunderfolk got rebuilt for PC ahead of its Epic Games Store launch",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "id": "https://www.techpowerup.com/347338/crimson-desert-gets-denuvo-drm-ahead-of-launch-dev-confirms-day-one-patch-and-no-cross-save",
+      "title": "Crimson Desert obtém Denuvo DRM antes do lançamento, desenvolvedor confirma patch do primeiro dia e sem salvamento cruzado",
+      "original_title": "Crimson Desert Gets Denuvo DRM Ahead of Launch, Dev Confirms Day-One Patch and No Cross-Save",
+      "image": "https://tpucdn.com/img/pcdh2dMyLPgiHB9J_thm.jpg",
       "source_count": 1,
-      "reliability": "Medium",
-      "category": "Epic News",
-      "date": "2026-03-11",
-      "summary": "enviado por /u/ImAnthlon [link] [comentários]...",
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-03-12",
+      "summary": "Falta pouco mais de uma semana para o lançamento de Pearl Abyss's Crimson Desert em 20 de março e, em uma postagem recente no Steam News, o estúdio por trás do jogo forneceu informações adicionais sobre o lançamento, enquanto a página da Steam Store agora reflete que o jogo...",
       "sources": [
-        "r/EpicGamesPC"
+        "TechPowerUp"
       ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1rray8j/how_sunderfolk_got_rebuilt_for_pc_ahead_of_its/"
+      "url": "https://www.techpowerup.com/347338/crimson-desert-gets-denuvo-drm-ahead-of-launch-dev-confirms-day-one-patch-and-no-cross-save"
     },
     {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1rqyqsy/mobile_freebiewonder_boy_the_dragons_trap/",
-      "title": "Brinde para celular｜Garoto Maravilha: A Armadilha do Dragão",
-      "original_title": "Mobile Freebie｜Wonder Boy: The Dragon's Trap",
-      "image": "https://preview.redd.it/jsrq8r5l1gog1.png?width=140&height=103&auto=webp&s=3ab480bfa7eb90285d8a5ea8a68c0c4cf9c34ed8",
+      "id": "https://www.techpowerup.com/347336/chinese-laptop-maker-chuwi-advertised-amd-ryzen-5-7430u-soc-but-shipped-the-older-ryzen-5-5500u",
+      "title": "A fabricante chinesa de laptops Chuwi anunciou o SoC AMD Ryzen 5 7430U, mas vendeu o Ryzen 5 5500U mais antigo",
+      "original_title": "Chinese Laptop Maker Chuwi Advertised AMD Ryzen 5 7430U SoC, but Shipped the Older Ryzen 5 5500U",
+      "image": "https://tpucdn.com/img/dxB8DoLWGcoJKINq_thm.jpg",
       "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-03-11",
-      "summary": "https://preview.redd.it/jsrq8r5l1gog1.png?width=1503&format=png&auto=webp&s=7a6ff9d1b0aa75bb489b637de77a1988195d1368 Como falta apenas 1 dia para começar, atualizarei mais tarde.    enviado por /u/MeguminShiro [link] [comentários] ...",
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-03-12",
+      "summary": "Imagine comprar um laptop e pensar que você está adquirindo um modelo com as especificações de CPU desejadas, apenas para encontrar um modelo completamente diferente dentro, habilmente escondido para que você não perceba sem uma investigação mais aprofundada. De acordo com uma investigação de...",
       "sources": [
-        "r/EpicGamesPC"
+        "TechPowerUp"
       ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1rqyqsy/mobile_freebiewonder_boy_the_dragons_trap/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1rqx5z8/steam_game_beyond_two_souls/",
-      "title": "[Steam] (jogo) Beyond: Two Souls",
-      "original_title": "[Steam] (game) Beyond: Two Souls",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-03-11",
-      "summary": "enviado por /u/niktos_obycajny [link] [comentários]...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1rqx5z8/steam_game_beyond_two_souls/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1rqquc8/steambeta_jkrobots/",
-      "title": "[Steam](Beta) JKRobots",
-      "original_title": "[Steam](Beta) JKRobots",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-03-11",
-      "summary": "Eu sou o desenvolvedor, tenho chaves beta. É um jogo completo, 16 mapas com mais de 25 horas, de um jogo de estratégia em tempo real. Use o link ou [keys@jkrobots.com](mailto:keys@jkrobots.com) https://store.steampowered.com/app/4424780/JKRobots/ https://www.youtube.com/@JKRo...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1rqquc8/steambeta_jkrobots/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1rq7unl/discussion_news_and_request_thread_week_beginning/",
-      "title": "Tópico de discussão, notícias e solicitações - semana que começa em 09/03/26",
-      "original_title": "Discussion, News, and Request Thread - Week Beginning 03/09/26",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-03-10",
-      "summary": "Eu o odiei primeiro, mas agora ele é meu chefe favorito no DS1... Os tópicos de discussão são o seu centro semanal para todas as solicitações, notícias de jogos e quaisquer outros tópicos de jogos sobre os quais você queira conversar. Por favor, mantenha todo o conteúdo que não precisa de postagem própria para ...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1rq7unl/discussion_news_and_request_thread_week_beginning/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1rq6ty6/beware_of_this_impersonator_of_epic_games/",
-      "title": "Cuidado com esse imitador da Epic Games!",
-      "original_title": "Beware of this impersonator of Epic Games!",
-      "image": "https://preview.redd.it/9cl7efmqr9og1.jpg?width=140&height=140&crop=1:1,smart&auto=webp&s=1c11b7f80d2d79d9089972e902c21e86c0d89b44",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Epic News",
-      "date": "2026-03-10",
-      "summary": "Ele usa anúncios pagos para redirecionar para seu site de phishing, se passando pela Epic Games.     enviado por /u/gwkgsjgsjgeykeyduf [link] [comentários] ...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1rq6ty6/beware_of_this_impersonator_of_epic_games/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1rq0itr/steam_game_planet_coaster/",
-      "title": "[Steam] (Jogo) Planet Coaster",
-      "original_title": "[Steam] (Game) Planet Coaster",
-      "image": "https://external-preview.redd.it/sVXAY8tIY5QcgqkRX1QbYmTQYmOfpktGpsaWuNcWE6g.png?width=640&crop=smart&auto=webp&s=793fc2d8061cebdcb5f9c7dd6f6805e901a8bd2f",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-03-10",
-      "summary": "enviado por /u/MeguminShiro [link] [comentários] ...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1rq0itr/steam_game_planet_coaster/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1rp401k/nekome_nazi_hunter_now_available_to_wishlist/",
-      "title": "Nekome: Caçador de nazistas | agora disponível para lista de desejos",
-      "original_title": "Nekome: Nazi Hunter | now available to Wishlist",
-      "image": "https://preview.redd.it/1vb34g8fk1og1.jpg?width=140&height=78&auto=webp&s=5ead2ba0072540dc4c6c65e8de0172a455987cbd",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-03-09",
-      "summary": "Nekome: Nazi Hunter em breve - Epic Games Store enviado por /u/Madukes96 [link] [comentários] ...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1rp401k/nekome_nazi_hunter_now_available_to_wishlist/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1rpe7yl/fgf_giveaway_aknes_controllers_switch_accessory/",
-      "title": "Sorteio FGF: AKNES – Pacote de controladores e acessórios de switch!",
-      "original_title": "FGF Giveaway: AKNES - Controllers & Switch Accessory Bundle!",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-03-09",
-      "summary": "Certifique-se de verificar as regiões suportadas antes de entrar - https://aknes.com/pages/delivery-time Observação sobre alfândega em algumas regiões: Depende do país. Por exemplo, países como México, Brasil, Índia, Sérvia e Turquia exigem que o destinatário ...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1rpe7yl/fgf_giveaway_aknes_controllers_switch_accessory/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1rp5ted/exiled_giveaways_and_itchio_mega_threads/",
-      "title": "Brindes exilados e mega threads do Itch.io",
-      "original_title": "Exiled Giveaways and Itch.io Mega Threads",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-03-09",
-      "summary": "Para aumentar a visibilidade, os megatópicos são postados semanalmente. Isso está sendo feito seguindo a discussão geral dos Mega Threads via FGF Update - https://redd.it/jkxyzw Por favor, use os tópicos abaixo para suas postagens. :) Mega Brindes Exilados...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1rp5ted/exiled_giveaways_and_itchio_mega_threads/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1rp5tbb/steam_game_deponia/",
-      "title": "[Steam] (Jogo) Deponia",
-      "original_title": "[Steam] (Game) Deponia",
-      "image": "https://external-preview.redd.it/gmWNeTJCH8JgOBoIlDD3ZgxYjdImcM8-Bq6DT9ip1uc.jpeg?width=320&crop=smart&auto=webp&s=62ee7911c6b9c2805303c7f739946b3928458f97",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-03-09",
-      "summary": "enviado por /u/iambaldy [link] [comentários] ...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1rp5tbb/steam_game_deponia/"
+      "url": "https://www.techpowerup.com/347336/chinese-laptop-maker-chuwi-advertised-amd-ryzen-5-7430u-soc-but-shipped-the-older-ryzen-5-5500u"
     }
   ]
 }
