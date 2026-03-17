@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-03-16T13:13:10",
-  "display_date": "16/03/2026 13:13",
+  "last_updated": "2026-03-17T13:12:50",
+  "display_date": "17/03/2026 13:12",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "358ms",
+    "latency": "130ms",
     "current_games": [
       {
         "title": "Cozy Grove",
@@ -34,6 +34,24 @@
         "price": "$17.99",
         "start_date": "2026-03-19T15:00:00.000Z",
         "end_date": "2026-03-26T15:00:00.000Z"
+      },
+      {
+        "title": "Eternal Threads",
+        "description": "Eternal Threads é um jogo de quebra-cabeça para um jogador, em primeira pessoa, baseado em uma história de manipulação, escolha e consequência do tempo.",
+        "image": "https://cdn1.epicgames.com/spt-assets/08813e055af64315b8a55b2e521f4e04/eternal-threads-1vm6i.jpg",
+        "url": "https://store.epicgames.com/p/a9152a8924cc4e438f0e61106ec02f7d",
+        "price": "$19.99",
+        "start_date": "2026-03-30T15:00:00.000Z",
+        "end_date": "2026-04-13T15:00:00.000Z"
+      },
+      {
+        "title": "Ghostrunner 2",
+        "description": "Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cibernética.",
+        "image": "https://cdn1.epicgames.com/offer/708f57aaa04b42ef885be16c8288f0ac/EGS_Ghostrunner2_OneMoreLevel_S1_2560x1440-15845148fae1d0cfd7f3e98c9b3ba6ba",
+        "url": "https://store.epicgames.com/p/ghostrunner-2",
+        "price": "$39.99",
+        "start_date": "2026-03-30T15:00:00.000Z",
+        "end_date": "2026-04-13T15:00:00.000Z"
       },
       {
         "title": "Castlevania Anniversary Collection",
@@ -74,7 +92,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-03-16",
+      "date": "2026-03-17",
       "summary": "Bem-vindo ao Cosy Grove, um jogo de simulação de vida sobre acampar em uma ilha assombrada e em constante mudança. Como Spirit Scout, você passeará pela floresta da ilha todos os dias, descobrindo novos segredos escondidos e ajudando a acalmar os fantasmas locais.",
       "sources": [
         "Epic Games Store"
@@ -89,7 +107,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-03-16",
+      "date": "2026-03-17",
       "summary": "A feroz guerra alpina testará suas habilidades táticas neste autêntico FPS da 1ª Guerra Mundial. Lute entre os picos pitorescos, vales escarpados e cidades idílicas do norte da Itália. A Grande Guerra na Frente Italiana ganha vida e é elevada a alturas inesperadas!",
       "sources": [
         "Epic Games Store"
@@ -104,12 +122,42 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-03-16",
+      "date": "2026-03-17",
       "summary": "Disponível gratuitamente a partir de 19/03. Assuma o papel de eletricista e aprenda os fundamentos da profissão! Instale tomadas, conserte equipamentos desgastados, monte eletrodomésticos quebrados, substitua lâmpadas e instale fios nas casas de seus clientes. Não se esqueça de verificar tudo duas vezes, com eletricidade não há brincadeira!",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/d4645b0dc574438e95d20c6a31d3a0f7"
+    },
+    {
+      "id": "https://store.epicgames.com/p/a9152a8924cc4e438f0e61106ec02f7d",
+      "title": "EM BREVE: Eternal Threads",
+      "original_title": "Eternal Threads",
+      "image": "https://cdn1.epicgames.com/spt-assets/08813e055af64315b8a55b2e521f4e04/eternal-threads-1vm6i.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-03-17",
+      "summary": "Disponível gratuitamente a partir de 30/03. Eternal Threads é um jogo de quebra-cabeça para um jogador, em primeira pessoa, baseado em uma história de manipulação, escolha e consequência do tempo.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/a9152a8924cc4e438f0e61106ec02f7d"
+    },
+    {
+      "id": "https://store.epicgames.com/p/ghostrunner-2",
+      "title": "EM BREVE: Ghostrunner 2",
+      "original_title": "Ghostrunner 2",
+      "image": "https://cdn1.epicgames.com/offer/708f57aaa04b42ef885be16c8288f0ac/EGS_Ghostrunner2_OneMoreLevel_S1_2560x1440-15845148fae1d0cfd7f3e98c9b3ba6ba",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-03-17",
+      "summary": "Disponível gratuitamente a partir de 30/03. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cibernética.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/ghostrunner-2"
     },
     {
       "id": "https://store.epicgames.com/p/32b3e0adbe0c4399be1874958194f97f",
@@ -119,7 +167,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-03-16",
+      "date": "2026-03-17",
       "summary": "Disponível gratuitamente a partir de 30/03. A Coleção de Aniversário de Castlevania da Konami traça as origens da histórica franquia de vampiros. Está incluído um e-book exclusivo com detalhes fornecidos por desenvolvedores, artistas e outros inspirados no legado de Castlevania, que lança uma nova luz sobre o mundo de Castlevania.",
       "sources": [
         "Epic Games Store"
@@ -134,7 +182,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-03-16",
+      "date": "2026-03-17",
       "summary": "Disponível gratuitamente a partir de 30/03. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
       "sources": [
         "Epic Games Store"
@@ -149,7 +197,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-03-16",
+      "date": "2026-03-17",
       "summary": "Disponível gratuitamente a partir de 19/03. Obtenha um contratorpedeiro japonês Premium e algumas camuflagens permanentes da Epic para comemorar nosso 5º ano na Epic Games Store.",
       "sources": [
         "Epic Games Store"
@@ -157,109 +205,184 @@
       "url": "https://store.epicgames.com/p/world-of-warships-tachibana-lima-pack"
     },
     {
-      "id": "https://www.eurogamer.net/zelda-voice-actor-patricia-summersett-on-her-future-as-the-princess",
-      "title": "“Já existem muitas tochas, muitas versões de Zelda” – a dubladora de Breath of the Wild, Patricia Summersett, ainda não está pronta para deixar a Princesa Zelda",
-      "original_title": "\"There are already many torches, many versions of Zelda\" - Breath of the Wild voice actor Patricia Summersett isn't ready to let go of Princess Zelda just yet",
-      "image": "https://assetsio.gnwcdn.com/Age-of-Imprisonment-Zelda-attack.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/helldivers-2-uncover-the-truth-update-announced",
+      "title": "Helldivers 2 detalha a atualização ‘Uncover the Truth’, tornando o Illuminate mais assustador e dando início a um novo mistério que abala a galáxia",
+      "original_title": "Helldivers 2 details 'Uncover the Truth' update, making the Illuminate scarier and kickstarting a new galaxy-shaking mystery",
+      "image": "https://assetsio.gnwcdn.com/hd2-uncover-the-truth.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-03-16",
-      "summary": "Entre os muitos pontos fortes de The Legend of Zelda: Breath of the Wild e Tears of the Kingdom, destaca-se a atuação de Patricia Summersett como princesa titular. Ela caracterizou bem a heroína orelhuda e - para muitos fãs - tornou-se a personagem definitiva...",
+      "date": "2026-03-17",
+      "summary": "Pode haver outros jogos de tiro online tirando os holofotes de Helldivers 2 (aqui estamos olhando para vocês, Arc Raiders e Marathon), mas isso não significa que o grande sucesso de Arrowhead Game Stuidos chegou a algum lugar - especialmente com um filme de ação ao vivo chegando...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/zelda-voice-actor-patricia-summersett-on-her-future-as-the-princess"
+      "url": "https://www.eurogamer.net/helldivers-2-uncover-the-truth-update-announced"
     },
     {
-      "id": "https://www.eurogamer.net/doom-the-dark-ages-denuvo-has-been-cracked",
-      "title": "Doom: The Dark Ages teve seu polêmico software Denuvo DRM comprometido por piratas, tornando-o o primeiro lançamento de 2025 a ser ‘crackeado’",
-      "original_title": "Doom: The Dark Ages has had its controversial Denuvo DRM software compromised by pirates, making it the first 2025 release to be 'cracked'",
-      "image": "https://assetsio.gnwcdn.com/doom-the-dark-ages-flying-monster.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/marathon-duo-queue-test-coming",
+      "title": "Ainda não está concluído, mas a Marathon está lançando uma “fila de dupla experimental” ainda esta semana – e há mais experimentos por vir",
+      "original_title": "It's not quite finished yet, but Marathon is rolling out an \"experimental duo queue\" later this week - and there are more experiments to come",
+      "image": "https://assetsio.gnwcdn.com/marathon-shells-1.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-03-16",
-      "summary": "O jogo de tiro publicado para Xbox, Doom: The Dark Ages, foi hackeado por piratas anti-DRM, foi revelado, com um usuário do Reddit que usa vozes38 anunciando o desvio de seu impopular software Denuvo em 13 de março (via TheGamer). Leia mais...",
+      "date": "2026-03-17",
+      "summary": "Marathon implementará uma fila de duplas limitada no final desta semana, enquanto a Bungie experimenta uma alternativa ao jogo solo solitário e equipes agitadas de três pessoas em seu novo jogo de tiro de extração. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/doom-the-dark-ages-denuvo-has-been-cracked"
+      "url": "https://www.eurogamer.net/marathon-duo-queue-test-coming"
     },
     {
-      "id": "https://www.eurogamer.net/atlus-raising-employee-salaries-and-reducing-overtime-hours-april-2026",
-      "title": "Numa indústria assolada por demissões e crises, a editora japonesa Atlus está aumentando os salários e trabalhando para reduzir as horas extras fixas",
-      "original_title": "In an industry beset by layoffs and crunch, Japanese publisher Atlus is raising salaries and working to reduce fixed overtime",
-      "image": "https://assetsio.gnwcdn.com/ss_a3258aba84ae2f2ff13a02a160f7495bfc152adb.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/netflix-assassins-creed-series-casts-girl-with-a-dragon-tattoo-star-as-well-as-actors-from-mission-impossible-and-indiana-jones",
+      "title": "A série Assassin's Creed da Netflix traz a estrela de Girl With a Dragon Tattoo, bem como atores de Missão Impossível e Indiana Jones",
+      "original_title": "Netflix Assassin's Creed series casts Girl With a Dragon Tattoo star, as well as actors from Mission Impossible and Indiana Jones",
+      "image": "https://assetsio.gnwcdn.com/assassins-creed-odyssey.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-03-16",
-      "summary": "Ontem, soubemos de demissões na Warner Bros. Montreal, as últimas de uma lista insuportavelmente longa de notícias ruins da indústria de jogos nos últimos meses. Hoje, para variar, temos notícias positivas do setor, desta vez vindas da editora japonesa Atlus...",
+      "date": "2026-03-17",
+      "summary": "Depois do que pareceram muitos anos de silêncio, as coisas estão finalmente melhorando para a adaptação de Assassin's Creed da Netflix, com mais quatro atores de destaque anunciados para ingressar na série. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/atlus-raising-employee-salaries-and-reducing-overtime-hours-april-2026"
+      "url": "https://www.eurogamer.net/netflix-assassins-creed-series-casts-girl-with-a-dragon-tattoo-star-as-well-as-actors-from-mission-impossible-and-indiana-jones"
     },
     {
-      "id": "https://www.eurogamer.net/marathon-update-cryo-archives-added-locked",
-      "title": "A última atualização do Marathon adiciona um quarto mapa bloqueado, indicando que o desafio mais difícil do atirador de extração será revelado em breve",
-      "original_title": "Marathon's latest update adds a locked-off fourth map, indicating the extraction shooter's hardest challenge will soon be revealed",
-      "image": "https://assetsio.gnwcdn.com/marathon-rook.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/bethesda-promises-nvidias-controversial-dlss-5-ai-filters-will-be-totally-optional-for-players",
+      "title": "Bethesda promete que os polêmicos filtros DLSS 5 AI da Nvidia serão “totalmente opcionais” para os jogadores",
+      "original_title": "Bethesda promises Nvidia's controversial DLSS 5 AI filters will be \"totally optional\" for players",
+      "image": "https://assetsio.gnwcdn.com/Screenshot-of-a-female-character-from-Starfield-with-DLSS-5-on.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-03-16",
-      "summary": "Se você inicializou o Marathon hoje antes do trabalho (ou para os mais travessos, enquanto estava no trabalho), você deve ter notado uma grande mudança. Não apenas um e-mail misterioso chegou à sua caixa de entrada, mas um quarto mapa bloqueado apareceu no menu. EU...",
+      "date": "2026-03-17",
+      "summary": "A Bethesda irá “ajustar ainda mais a iluminação e o efeito final” dos visuais DLSS 5 da Nvidia em Starfield, após a polêmica revelação da tecnologia de IA. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/marathon-update-cryo-archives-added-locked"
+      "url": "https://www.eurogamer.net/bethesda-promises-nvidias-controversial-dlss-5-ai-filters-will-be-totally-optional-for-players"
     },
     {
-      "id": "https://www.eurogamer.net/resident-evil-requiem-sells-six-million-copies-march-2026",
-      "title": "Resident Evil Requiem ultrapassa 6 milhões de cópias vendidas, tornando-se o jogo mais vendido na história da série de terror de sobrevivência",
-      "original_title": "Resident Evil Requiem crosses 6 million copies sold, becoming the fastest-selling game in the survival horror series' history",
-      "image": "https://assetsio.gnwcdn.com/3878ff92261c1fda7ce03772ac149514ce6f6bf5c715e64b.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/crimson-desert-confusing-ps5-trophies-revealed",
+      "title": "Os troféus PS5 do Crimson Desert foram revelados e parecem enigmas (o que é emocionante e assustador)",
+      "original_title": "Crimson Desert's PS5 trophies have been revealed, and they read like riddles (which is both exciting and scary)",
+      "image": "https://assetsio.gnwcdn.com/Crimson-Desert-launch-trailer-screen.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-03-16",
-      "summary": "Março foi um mês super agitado quando se trata de grandes lançamentos de videogames, mas os jogadores não pararam de falar sobre Resident Evil Requiem do final de fevereiro, que até subiu para o segundo lugar no ranking de pontuação de usuários do Metacritic. Agora, Capco...",
+      "date": "2026-03-17",
+      "summary": "Crimson Desert chegará em apenas dois dias, e todos que acompanham sua jornada estão super entusiasmados ou rezando para que não seja uma grande decepção. Antes do lançamento, agora damos uma primeira olhada no tro do jogo de mundo aberto...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/resident-evil-requiem-sells-six-million-copies-march-2026"
+      "url": "https://www.eurogamer.net/crimson-desert-confusing-ps5-trophies-revealed"
     },
     {
-      "id": "https://www.techpowerup.com/347402/eurohpc-ju-signs-contract-to-deploy-ai-supercomputer-hammerhai",
-      "title": "(PR) EuroHPC JU assina contrato para implantação de supercomputador de IA HammerHAI",
-      "original_title": "(PR) EuroHPC JU Signs Contract to Deploy AI Supercomputer HammerHAI",
-      "image": "https://tpucdn.com/img/14H6oZuYwqKVD8Pu_thm.jpg",
+      "id": "https://www.eurogamer.net/nvidia-dlss-5-reveal-reactions-are-mostly-negative-and-funny",
+      "title": "Nvidia revela filtro gráfico aprimorado de IA do DLSS e é ridicularizado por quase todo mundo na Internet",
+      "original_title": "Nvidia reveals DLSS's AI upscaled graphics filter, gets roundly mocked by pretty much everyone on the Internet",
+      "image": "https://assetsio.gnwcdn.com/Image-of-Grace-from-Resident-Evil-Requiem-with-DLSS-5.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-03-17",
+      "summary": "À medida que as preocupações com uma crescente “bolha de IA” continuam a acumular-se enquanto metade do mundo está em chamas, os gigantes da tecnologia e dos jogos estão a esforçar-se ao máximo para promover “inovações” possibilitadas pela IA. A Nvidia é a mais recente empresa a tentar justificar seu enorme investimento em...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/nvidia-dlss-5-reveal-reactions-are-mostly-negative-and-funny"
+    },
+    {
+      "id": "https://www.eurogamer.net/base-ps5-footage-of-crimson-desert",
+      "title": "A filmagem básica do PS5 do Deserto Carmesim finalmente surge, e parece OK?",
+      "original_title": "Base PS5 footage of Crimson Desert finally emerges, and it looks OK?",
+      "image": "https://assetsio.gnwcdn.com/crimson-desert-header.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-03-17",
+      "summary": "A habilidade técnica do novo RPG de mundo aberto Crimson Desert é emocionante, mas para cada vídeo impressionante que vimos do jogo, existe uma preocupação de fundo: ainda não o vimos rodando em hardware de console padrão - em um ba...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/base-ps5-footage-of-crimson-desert"
+    },
+    {
+      "id": "https://www.eurogamer.net/krafton-responds-to-subnautica-2-legal-ruling-we-are-evaluating-our-options-as-we-determine-our-path-forward",
+      "title": "Krafton responde à decisão legal do Subnautica 2: “estamos avaliando nossas opções à medida que determinamos nosso caminho a seguir”",
+      "original_title": "Krafton responds to Subnautica 2 legal ruling:  \"we are evaluating our options as we determine our path forward\"",
+      "image": "https://assetsio.gnwcdn.com/subnautica-2_zv86SQE.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-03-17",
+      "summary": "Krafton forneceu uma declaração à Eurogamer sobre a decisão judicial de ontem sobre Unknown Worlds e Subnautica 2. Esta decisão afirmou que o CEO deve ser trazido de volta ao seu papel, ele deve ter controle sobre a página Steam e o lançamento de acesso antecipado do Sub...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/krafton-responds-to-subnautica-2-legal-ruling-we-are-evaluating-our-options-as-we-determine-our-path-forward"
+    },
+    {
+      "id": "https://www.eurogamer.net/tunic-4-year-anniversary-switch-2",
+      "title": "Quatro anos atrás, Tunic teve um efeito transformador em mim – agora está recebendo uma atualização para o Switch 2, você realmente precisa jogá-lo",
+      "original_title": "Four years ago, Tunic had a transformative effect on me - now it's getting a Switch 2 upgrade, you really must play it",
+      "image": "https://assetsio.gnwcdn.com/tunic-s2-(1).jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-03-17",
+      "summary": "Em outra vida, escrevi extensivamente sobre Tunic em nosso site irmão, VG247. Foi meu jogo favorito de 2022. Fiquei obcecado. Além de mergulhar profundamente no intrincado (e muitas vezes musical) design do quebra-cabeça, as mensagens ocultas que as pessoas levaram anos para descobrir...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/tunic-4-year-anniversary-switch-2"
+    },
+    {
+      "id": "https://www.eurogamer.net/the-last-of-us-season-three-reportedly-casts-abbys-father",
+      "title": "Terceira temporada de The Last of Us escala o pai de Abby",
+      "original_title": "The Last of Us season three casts Abby's father",
+      "image": "https://assetsio.gnwcdn.com/Jerry-Anderson-in-The-Last-of-Us-Part-2-with-an-image-of-Patrick-Wilson-overlaid-on-top.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-03-17",
+      "summary": "Mais dois membros do elenco foram confirmados para se juntarem ao elenco da adaptação de The Last of Us da HBO. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/the-last-of-us-season-three-reportedly-casts-abbys-father"
+    },
+    {
+      "id": "https://www.techpowerup.com/347452/antec-and-noctua-introduce-antec-flux-pro-noctua-edition-pc-case",
+      "title": "(PR) Antec e Noctua apresentam gabinete para PC Antec Flux Pro Noctua Edition",
+      "original_title": "(PR) Antec and Noctua introduce Antec Flux Pro Noctua Edition PC case",
+      "image": "https://tpucdn.com/img/YcptMYCt1hapT93C_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-03-16",
-      "summary": "A Empresa Comum Europeia de Computação de Alto Desempenho (EuroHPC JU) assinou um contrato com a HPE para implantar o HammerHAI – o primeiro novo supercomputador independente sob sua iniciativa AI Factories. Uma vez instalado no Centro de Computação de Alto Desempenho...",
+      "date": "2026-03-17",
+      "summary": "O especialista taiwanês em gabinetes de PC, Antec, e o especialista austríaco em resfriamento silencioso, Noctua, se uniram para criar uma edição Noctua personalizada e ainda mais refinada do premiado chassi Flux Pro da Antec. Atualizando o Flux Pro com os mais recentes NF-A14x25 G2 e NF-A da Noctua...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/347402/eurohpc-ju-signs-contract-to-deploy-ai-supercomputer-hammerhai"
+      "url": "https://www.techpowerup.com/347452/antec-and-noctua-introduce-antec-flux-pro-noctua-edition-pc-case"
     },
     {
-      "id": "https://www.techpowerup.com/347401/micron-completes-acquisition-of-psmcs-tongluo-p5-site-in-taiwan",
-      "title": "(PR) Micron conclui aquisição da unidade Tongluo P5 da PSMC em Taiwan",
-      "original_title": "(PR) Micron Completes Acquisition of PSMC's Tongluo P5 Site in Taiwan",
-      "image": "https://tpucdn.com/img/uxpNVthA3IOkmWGA_thm.jpg",
+      "id": "https://www.techpowerup.com/347454/teledyne-e2v-begins-production-of-its-16gb-ddr4-x1-flight-models-for-space-applications",
+      "title": "(PR) Teledyne e2v inicia produção de seus modelos de voo DDR4-X1 de 16GB para aplicações espaciais",
+      "original_title": "(PR) Teledyne e2v Begins Production of its 16GB DDR4-X1 Flight Models for Space Applications",
+      "image": "https://tpucdn.com/img/1tMIvTqtbamXLo9s_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-03-16",
-      "summary": "(Nasdaq: MU) anunciou hoje que concluiu a aquisição e assumiu a propriedade da unidade P5 da Powerchip Semiconductor Manufacturing Corporation (PSMC) em Tongluo, condado de Miaoli, Taiwan, sob o acordo de aquisição anterior...",
+      "date": "2026-03-17",
+      "summary": "A Teledyne e2v tem o prazer de anunciar o início da produção completa de seu modelo de voo (FM) DDR4-X1 de 16 GB, expandindo seu portfólio de soluções de memória de alta densidade e tolerantes à radiação para aplicações espaciais. O novo dispositivo foi projetado para suportar o grande...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/347401/micron-completes-acquisition-of-psmcs-tongluo-p5-site-in-taiwan"
+      "url": "https://www.techpowerup.com/347454/teledyne-e2v-begins-production-of-its-16gb-ddr4-x1-flight-models-for-space-applications"
     },
     {
       "id": "https://www.techpowerup.com/347296/stop-paying-for-microsoft-365-the-newest-office-is-usd-140",
@@ -269,7 +392,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-03-16",
+      "date": "2026-03-17",
       "summary": "O Microsoft Office 2024 Home & Business custa US$ 139,97 (normalmente US$ 249,99) para uma licença vitalícia para Mac ou PC. O cansaço das assinaturas é real, especialmente quando se trata de software que você usa todos os dias. O Microsoft 365 custa de US$ 69,99 a US$ 99,99 anualmente, o que significa...",
       "sources": [
         "TechPowerUp"
@@ -277,184 +400,109 @@
       "url": "https://www.techpowerup.com/347296/stop-paying-for-microsoft-365-the-newest-office-is-usd-140"
     },
     {
-      "id": "https://www.techpowerup.com/347397/gigabyte-brix-adds-intel-panther-lake-core-ultra-9-and-up-to-128-gb-ddr5-memory",
-      "title": "GIGABYTE BRIX adiciona Intel “Panther Lake” Core Ultra 9 e até 128 GB de memória DDR5",
-      "original_title": "GIGABYTE BRIX Adds Intel \"Panther Lake\" Core Ultra 9 and Up to 128 GB DDR5 Memory",
-      "image": "https://tpucdn.com/img/mLFFEufCfR5hc7ae_thm.jpg",
+      "id": "https://www.techpowerup.com/347453/aaeon-announces-atx-q870a-socket-lga1851-motherboard-with-vpro-support",
+      "title": "(PR) AAEON anuncia placa-mãe soquete ATX-Q870A LGA1851 com suporte vPro",
+      "original_title": "(PR) AAEON Announces ATX-Q870A Socket LGA1851 Motherboard with vPro Support",
+      "image": "https://tpucdn.com/img/SrwwEFG63Cxdb9DV_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-03-16",
-      "summary": "A GIGABYTE está se preparando para lançar uma nova versão de seus mini PCs de formato pequeno chamados BRIX, agora apresentando o “Panther Lake” da Intel e até 128 GB de memória CSO-DIMM DDR5-6400. O novo BRIX GB-BRU9-386H é equipado com o SoC Intel Core Ultra 9 386H ...",
+      "date": "2026-03-17",
+      "summary": "O fornecedor líder de soluções embarcadas AAEON (código de estoque: 6579) anunciou o lançamento da ATX-Q870A, uma placa-mãe industrial ATX com suporte para processadores Intel Core Ultra Series 2 (anteriormente Arrow Lake-S) e até 256 GB de dual-channel D...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/347397/gigabyte-brix-adds-intel-panther-lake-core-ultra-9-and-up-to-128-gb-ddr5-memory"
+      "url": "https://www.techpowerup.com/347453/aaeon-announces-atx-q870a-socket-lga1851-motherboard-with-vpro-support"
     },
     {
-      "id": "https://www.techpowerup.com/347396/memory-makers-expect-shortages-to-end-in-late-2028-could-pause-expansion-plans",
-      "title": "Fabricantes de memória esperam que a escassez termine no final de 2028, podendo interromper planos de expansão",
-      "original_title": "Memory Makers Expect Shortages to End in Late 2028, Could Pause Expansion Plans",
-      "image": "https://tpucdn.com/img/7kGSqMZqlJJLyDcS_thm.jpg",
+      "id": "https://www.techpowerup.com/347451/asus-republic-of-gamers-strix-laptop-lineup-returns-with-the-latest-intel-core-ultra-9-290hx-plus-processors",
+      "title": "(PR) A linha de laptops Strix da ASUS Republic of Gamers retorna com os mais recentes processadores Intel Core Ultra 9 290HX Plus",
+      "original_title": "(PR) ASUS Republic of Gamers Strix Laptop Lineup Returns With the Latest Intel Core Ultra 9 290HX Plus Processors",
+      "image": "https://tpucdn.com/img/VSYUsa7XClVACoVx_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-03-16",
-      "summary": "Os fabricantes de memória prevêem que a escassez de memória persistirá até ao final de 2028, altura em que se espera que o equilíbrio da cadeia de abastecimento seja restaurado e a memória volte a atingir o seu estatuto de mercadoria. No entanto, de acordo com o sul-coreano Chos...",
+      "date": "2026-03-17",
+      "summary": "A ASUS Republic of Gamers (ROG) tem o orgulho de lançar os 2026 ROG Strix G16 e Strix G18, dois incríveis portáteis para jogos com o mais recente hardware e tecnologia para oferecer um desempenho incrível aos jogadores em todo o mundo. Apresentando o novo Intel Core ...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/347396/memory-makers-expect-shortages-to-end-in-late-2028-could-pause-expansion-plans"
+      "url": "https://www.techpowerup.com/347451/asus-republic-of-gamers-strix-laptop-lineup-returns-with-the-latest-intel-core-ultra-9-290hx-plus-processors"
     },
     {
-      "id": "https://www.techpowerup.com/347393/windows-11-march-update-blocks-c-drive-access-for-some-users",
-      "title": "A atualização de março do Windows 11 bloqueia o acesso à unidade C:\\ para alguns usuários",
-      "original_title": "Windows 11 March Update Blocks C:\\ Drive Access for Some Users",
-      "image": "https://tpucdn.com/img/1xmb8sBouu1skWtn_thm.jpg",
+      "id": "https://www.techpowerup.com/347450/intel-launches-new-core-ultra-200hx-plus-series-mobile-processors",
+      "title": "(PR) Intel lança novos processadores móveis Core Ultra 200HX Plus Series",
+      "original_title": "(PR) Intel Launches New Core Ultra 200HX Plus Series Mobile Processors",
+      "image": "https://tpucdn.com/img/qzSeq0bv11WkGqmM_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-03-16",
-      "summary": "A Microsoft passou por alguns meses de atualizações relativamente tranquilas do Windows 11, mas a atualização de março supostamente causou unidades C: inacessíveis, BSODs de sistema generalizados e congelamento. De acordo com vários relatórios do Reddit e outras comunicações online...",
+      "date": "2026-03-17",
+      "summary": "A Intel anunciou hoje o lançamento de seus novos processadores móveis da série Intel Core Ultra 200HX Plus, oferecendo aos jogadores e profissionais novas opções de alto desempenho na família da série Core Ultra 200. Otimizado para jogos avançados, streaming, criação de conteúdo...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/347393/windows-11-march-update-blocks-c-drive-access-for-some-users"
+      "url": "https://www.techpowerup.com/347450/intel-launches-new-core-ultra-200hx-plus-series-mobile-processors"
     },
     {
-      "id": "https://www.techpowerup.com/347389/amd-rdna-5-to-heavily-boost-shader-performance-in-games-with-new-dual-issue-pipeline",
-      "title": "AMD “RDNA 5” aumentará fortemente o desempenho do shader em jogos com novo pipeline de edição dupla",
-      "original_title": "AMD \"RDNA 5\" to Heavily Boost Shader Performance in Games with New Dual-Issue Pipeline",
-      "image": "https://tpucdn.com/img/uxkGR81sinx0BvQ4_thm.jpg",
+      "id": "https://www.techpowerup.com/347449/silicon-motion-showcases-enterprise-ssd-controllers-and-pcie-nvme-boot-drive-solutions-at-gtc-2026",
+      "title": "(PR) Silicon Motion apresenta controladores SSD corporativos e soluções de unidade de inicialização PCIe NVMe no GTC 2026",
+      "original_title": "(PR) Silicon Motion Showcases Enterprise SSD Controllers and PCIe NVMe Boot Drive Solutions at GTC 2026",
+      "image": "https://tpucdn.com/img/Dhp5e3pLuiUkvo5C_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-03-16",
-      "summary": "A AMD está refinando sua arquitetura RDNA 5, que provavelmente está em estágio final de design. Graças a um envio ao compilador LLVM, aprendemos que a próxima arquitetura RDNA 5/UDNA da AMD apresenta mudanças arquiteturais que irão aprimorar a computação...",
+      "date": "2026-03-17",
+      "summary": "Silicon Motion Technology Corporation, líder global em design e marketing de controladores flash NAND para dispositivos de armazenamento de estado sólido, anunciou hoje que apresentará um rico portfólio de controladores SSD corporativos diferenciados e PCIe NVM...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/347389/amd-rdna-5-to-heavily-boost-shader-performance-in-games-with-new-dual-issue-pipeline"
+      "url": "https://www.techpowerup.com/347449/silicon-motion-showcases-enterprise-ssd-controllers-and-pcie-nvme-boot-drive-solutions-at-gtc-2026"
     },
     {
-      "id": "https://www.eurogamer.net/warner-bros-montreal-devs-report-layoffs",
-      "title": "Desenvolvedores da Warner Bros. Montreal relatam demissões",
-      "original_title": "Warner Bros. Montréal devs report layoffs",
-      "image": "https://assetsio.gnwcdn.com/batman-arkham-spin-offs-gotham-knights.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-03-15",
-      "summary": "Vários desenvolvedores da Warner Bros. Montreal estão relatando que foram demitidos. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/warner-bros-montreal-devs-report-layoffs"
-    },
-    {
-      "id": "https://www.eurogamer.net/bethesda-drops-unusual-tease-that-itll-have-starfield-news-for-us-next-week",
-      "title": "Bethesda lança uma provocação incomum de que terá notícias de Starfield para nós na “próxima semana”",
-      "original_title": "Bethesda drops unusual tease that it'll have Starfield news for us \"next week\"",
-      "image": "https://assetsio.gnwcdn.com/Starfield-screenshot-of-a-man-in-a-space-ship-with-a-PlayStation-logo-overlayed-to-one-side.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-03-15",
-      "summary": "A Bethesda disse que podemos esperar novas informações sobre Starfield na “próxima semana”. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/bethesda-drops-unusual-tease-that-itll-have-starfield-news-for-us-next-week"
-    },
-    {
-      "id": "https://www.eurogamer.net/the-simpsons-hit-run-writer-and-series-showrunner-says-never-say-never-to-a-possible-revival",
-      "title": "O escritor e showrunner da série The Simpsons: Hit & Run diz “nunca diga nunca” para um possível renascimento",
-      "original_title": "The Simpsons: Hit & Run writer and series showrunner says \"never say never\" to a possible revival",
-      "image": "https://assetsio.gnwcdn.com/the-simpsons-hit-and-run_lTRBhON.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-03-15",
-      "summary": "O showrunner dos Simpsons e escritor de The Simpsons: Hit & Run, Matt Selman, avalia que devemos “nunca dizer nunca” para um possível remake ou renascimento. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/the-simpsons-hit-run-writer-and-series-showrunner-says-never-say-never-to-a-possible-revival"
-    },
-    {
-      "id": "https://www.eurogamer.net/arc-raiders-ceo-says-studio-has-re-recorded-ai-lines-a-real-professional-actor-is-better-than-ai-thats-just-how-it-is",
-      "title": "O CEO da Arc Raiders diz que o estúdio “regravou” falas de IA: “Um verdadeiro ator profissional é melhor que IA; é assim que as coisas são”",
-      "original_title": "Arc Raiders CEO says studio has \"re-recorded\" AI lines: \"A real professional actor is better than AI; that's just how it is\"",
-      "image": "https://assetsio.gnwcdn.com/screenshot-from-arc-raiders-showing-a-chap-hiding-behind-a-car-overlaid-on-an-image-of-the-Hollywood-sign_w0CaAhN.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-03-15",
-      "summary": "O desenvolvedor do Arc Raiders, Embark Studios, regravou algumas de suas falas geradas por IA, reconhecendo que “há uma diferença de qualidade” entre as falas gravadas por atores humanos e aquelas geradas pela IA. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/arc-raiders-ceo-says-studio-has-re-recorded-ai-lines-a-real-professional-actor-is-better-than-ai-thats-just-how-it-is"
-    },
-    {
-      "id": "https://www.eurogamer.net/silent-hill-gravity-rush-creator-keiichi-toyama-is-recruiting-for-a-new-large-scale-project",
-      "title": "Silent Hill, o criador de Gravity Rush, Keiichi Toyama, está recrutando para um “novo projeto de grande escala”",
-      "original_title": "Silent Hill, Gravity Rush creator Keiichi Toyama is recruiting for a \"new large-scale project\"",
-      "image": "https://assetsio.gnwcdn.com/Slit_2.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-03-15",
-      "summary": "O criador de Silent Hill, Siren e Gravity Rush, Keiichi Toyama, está recrutando para um “novo projeto em grande escala”. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/silent-hill-gravity-rush-creator-keiichi-toyama-is-recruiting-for-a-new-large-scale-project"
-    },
-    {
-      "id": "https://www.techpowerup.com/347382/this-week-in-gaming-week-12",
-      "title": "Esta semana em jogos (semana 12)",
-      "original_title": "This Week in Gaming (Week 12)",
-      "image": "https://tpucdn.com/img/tI2hp8cKQuJ1T12O_thm.jpg",
+      "id": "https://www.techpowerup.com/347448/logitech-g-introduces-new-7-r-rs-h-shifter-with-hall-effect-sensors",
+      "title": "(PR) Logitech G apresenta novo 7+R RS H-Shifter com sensores de efeito Hall",
+      "original_title": "(PR) Logitech G Introduces New 7+R RS H-Shifter With Hall Effect Sensors",
+      "image": "https://tpucdn.com/img/q5EOKQHV3oLOMaCQ_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-03-15",
-      "summary": "Bem-vindo à semana 12 e a uma semana repleta de grandes lançamentos. Começamos esta semana com um lançamento AAA, que é uma ação e aventura de mundo aberto que supostamente acontece em um deserto, mas aparentemente não acontece. Isto é seguido por um muito ...",
+      "date": "2026-03-17",
+      "summary": "A Logitech G anunciou hoje o tão aguardado RS H-Shifter, a mais recente adição ao renomado ecossistema Racing Series. Projetado para oferecer realismo incomparável, controle tátil e durabilidade revolucionária, este avançado câmbio manual 7+R é feito sob medida...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/347382/this-week-in-gaming-week-12"
+      "url": "https://www.techpowerup.com/347448/logitech-g-introduces-new-7-r-rs-h-shifter-with-hall-effect-sensors"
     },
     {
-      "id": "https://www.techpowerup.com/347373/keychron-launches-usd-59-99-c0-he-8k-one-handed-gaming-keyboard",
-      "title": "Keychron lança teclado para jogos de uma mão C0 HE 8K por US$ 59,99",
-      "original_title": "Keychron Launches $59.99 C0 HE 8K One-Handed Gaming Keyboard",
-      "image": "https://tpucdn.com/img/KQIxZ1wJog4pxZhT_thm.jpg",
+      "id": "https://www.techpowerup.com/347447/nvidias-dlss-5-keeps-image-quality-consistent-with-artistic-intent",
+      "title": "O DLSS 5 da NVIDIA mantém a qualidade da imagem consistente com a intenção artística",
+      "original_title": "NVIDIA's DLSS 5 Keeps Image Quality Consistent with Artistic Intent",
+      "image": "https://tpucdn.com/img/4NyjKXZAeoTJ1m8S_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-03-14",
-      "summary": "A recente mudança da Keychron para a linha HE 8K de teclados analógicos fez com que ela lançasse uma série de novos teclados para jogos de alto desempenho com os novos switches Ultra-Fast Lime e conectividade somente com fio. Agora, a fabricante de teclados anunciou o C0 HE 8K como...",
+      "date": "2026-03-17",
+      "summary": "Ontem, a NVIDIA revelou sua mais recente tecnologia DLSS 5, oferecendo aos jogadores a primeira renderização neural em tempo real. Porém, mesmo após o anúncio, surgiram muitas dúvidas sobre o que o DLSS 5 é capaz e como funcionará com os jogos. NVIDIA lançou...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/347373/keychron-launches-usd-59-99-c0-he-8k-one-handed-gaming-keyboard"
+      "url": "https://www.techpowerup.com/347447/nvidias-dlss-5-keeps-image-quality-consistent-with-artistic-intent"
     },
     {
-      "id": "https://www.techpowerup.com/347372/microsoft-will-add-gaming-copilot-to-xbox-series-consoles-in-2026",
-      "title": "A Microsoft adicionará o Gaming Copilot aos consoles da série Xbox em 2026",
-      "original_title": "Microsoft Will Add Gaming Copilot To Xbox Series Consoles in 2026",
-      "image": "https://tpucdn.com/img/KIP6GmUV4yLGpEWL_thm.jpg",
+      "id": "https://www.techpowerup.com/347446/acer-refreshes-predator-helios-neo-gaming-laptops-with-intel-core-ultra-200hx-plus-and-nvidia-geforce-rtx-5080-laptop-gpus",
+      "title": "(PR) Acer atualiza laptops para jogos Predator Helios Neo com GPUs para laptop Intel Core Ultra 200HX Plus e NVIDIA GeForce RTX 5080",
+      "original_title": "(PR) Acer Refreshes Predator Helios Neo Gaming Laptops With Intel Core Ultra 200HX Plus and NVIDIA GeForce RTX 5080 Laptop GPUs",
+      "image": "https://tpucdn.com/img/5fUuaQRAGVZRW1qm_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-03-14",
-      "summary": "O Microsoft Gaming Copilot foi lançado abertamente e está disponível como beta para PC, dispositivos móveis e ROG Xbox Ally desde outubro de 2025, mas em uma recente conferência GDC, Sonali Yadav, gerente de projeto do grupo de parceiros Xbox Gaming AI, comentou que Gaming Copi...",
+      "date": "2026-03-17",
+      "summary": "A Acer anunciou hoje os laptops para jogos da série Predator Helios Neo atualizados, equipados com os mais recentes processadores da série Intel Core Ultra 200HX Plus e até uma GPU para laptop NVIDIA GeForce RTX 5080, trazendo os mais recentes recursos de desempenho para jogos.",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/347372/microsoft-will-add-gaming-copilot-to-xbox-series-consoles-in-2026"
+      "url": "https://www.techpowerup.com/347446/acer-refreshes-predator-helios-neo-gaming-laptops-with-intel-core-ultra-200hx-plus-and-nvidia-geforce-rtx-5080-laptop-gpus"
     }
   ]
 }
