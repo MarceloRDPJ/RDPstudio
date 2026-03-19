@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-03-18T13:13:02",
-  "display_date": "18/03/2026 13:13",
+  "last_updated": "2026-03-19T13:05:19",
+  "display_date": "19/03/2026 13:05",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "320ms",
+    "latency": "670ms",
     "current_games": [
       {
         "title": "Cozy Grove",
@@ -72,6 +72,15 @@
         "end_date": "2026-04-13T15:00:00.000Z"
       },
       {
+        "title": "Havendock",
+        "description": "Respire com calma e prospere neste aconchegante simulador de colônia. Construa um refúgio para náufragos, gerencie recursos, viva sua melhor vida no oceano. Leve seu humilde assentamento para uma sociedade de alta tecnologia.",
+        "image": "https://cdn1.epicgames.com/spt-assets/180018125def4cbabef241f199a79f35/havendock-r2ivl.png",
+        "url": "https://store.epicgames.com/p/454bc0b5893f46a885bd86a6589ee67a",
+        "price": "$19.99",
+        "start_date": "2026-03-26T15:00:00.000Z",
+        "end_date": "2026-04-02T15:00:00.000Z"
+      },
+      {
         "title": "World of Warships — Epic Anniversary Tachibana Pack",
         "description": "Obtenha um contratorpedeiro japonês Premium e algumas camuflagens permanentes da Epic para comemorar nosso 5º ano na Epic Games Store.",
         "image": "https://cdn1.epicgames.com/spt-assets/4eb4296fe40e4130a61adbf2d6b34586/world-of-warships-1ahdf.png",
@@ -92,7 +101,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-03-18",
+      "date": "2026-03-19",
       "summary": "Bem-vindo ao Cosy Grove, um jogo de simulação de vida sobre acampar em uma ilha assombrada e em constante mudança. Como Spirit Scout, você passeará pela floresta da ilha todos os dias, descobrindo novos segredos escondidos e ajudando a acalmar os fantasmas locais.",
       "sources": [
         "Epic Games Store"
@@ -107,7 +116,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-03-18",
+      "date": "2026-03-19",
       "summary": "A feroz guerra alpina testará suas habilidades táticas neste autêntico FPS da 1ª Guerra Mundial. Lute entre os picos pitorescos, vales escarpados e cidades idílicas do norte da Itália. A Grande Guerra na Frente Italiana ganha vida e é elevada a alturas inesperadas!",
       "sources": [
         "Epic Games Store"
@@ -122,7 +131,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-03-18",
+      "date": "2026-03-19",
       "summary": "Disponível gratuitamente a partir de 19/03. Assuma o papel de eletricista e aprenda os fundamentos da profissão! Instale tomadas, conserte equipamentos desgastados, monte eletrodomésticos quebrados, substitua lâmpadas e instale fios nas casas de seus clientes. Não se esqueça de verificar tudo duas vezes, com eletricidade não há brincadeira!",
       "sources": [
         "Epic Games Store"
@@ -137,7 +146,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-03-18",
+      "date": "2026-03-19",
       "summary": "Disponível gratuitamente a partir de 30/03. Eternal Threads é um jogo de quebra-cabeça para um jogador, em primeira pessoa, baseado em uma história de manipulação, escolha e consequência do tempo.",
       "sources": [
         "Epic Games Store"
@@ -152,7 +161,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-03-18",
+      "date": "2026-03-19",
       "summary": "Disponível gratuitamente a partir de 30/03. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cibernética.",
       "sources": [
         "Epic Games Store"
@@ -167,7 +176,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-03-18",
+      "date": "2026-03-19",
       "summary": "Disponível gratuitamente a partir de 30/03. A Coleção de Aniversário de Castlevania da Konami traça as origens da histórica franquia de vampiros. Está incluído um e-book exclusivo com detalhes fornecidos por desenvolvedores, artistas e outros inspirados no legado de Castlevania, que lança uma nova luz sobre o mundo de Castlevania.",
       "sources": [
         "Epic Games Store"
@@ -182,12 +191,27 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-03-18",
+      "date": "2026-03-19",
       "summary": "Disponível gratuitamente a partir de 30/03. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/monument-valley-02"
+    },
+    {
+      "id": "https://store.epicgames.com/p/454bc0b5893f46a885bd86a6589ee67a",
+      "title": "EM BREVE: Havendock",
+      "original_title": "Havendock",
+      "image": "https://cdn1.epicgames.com/spt-assets/180018125def4cbabef241f199a79f35/havendock-r2ivl.png",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-03-19",
+      "summary": "Disponível gratuitamente a partir de 26/03. Respire com calma e prospere neste aconchegante simulador de colônia. Construa um refúgio para náufragos, gerencie recursos, viva sua melhor vida no oceano. Leve seu humilde assentamento para uma sociedade de alta tecnologia.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/454bc0b5893f46a885bd86a6589ee67a"
     },
     {
       "id": "https://store.epicgames.com/p/world-of-warships-tachibana-lima-pack",
@@ -197,7 +221,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-03-18",
+      "date": "2026-03-19",
       "summary": "Disponível gratuitamente a partir de 19/03. Obtenha um contratorpedeiro japonês Premium e algumas camuflagens permanentes da Epic para comemorar nosso 5º ano na Epic Games Store.",
       "sources": [
         "Epic Games Store"
@@ -205,304 +229,304 @@
       "url": "https://store.epicgames.com/p/world-of-warships-tachibana-lima-pack"
     },
     {
-      "id": "https://www.eurogamer.net/super-mario-galaxy-movie-reveals-yet-another-nintendo-crossover-before-release",
-      "title": "O Super Mario Galaxy Movie continua sua campanha de marketing repleta de referências com uma aparição surpresa de outro IP da Nintendo",
-      "original_title": "The Super Mario Galaxy Movie continues its reference-heavy marketing campaign with a surprise cameo from another Nintendo IP",
-      "image": "https://assetsio.gnwcdn.com/Toads-in-Super-Mario-Galaxy-Movie.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/life-is-strange-tv-series-lands-yellowjackets-and-jennifers-body-director-for-first-episodes",
+      "title": "A série de TV Life is Strange traz o diretor de Yellowjackets e Jennifer's Body para os primeiros episódios",
+      "original_title": "Life is Strange TV series lands Yellowjackets and Jennifer's Body director for first episodes",
+      "image": "https://assetsio.gnwcdn.com/Max-in-Life-is-Strange-with-an-image-of-Megan-Fox-in-Jennifer's-Body-to-one-side.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-03-19",
+      "summary": "Karyn Kusama está programada para dirigir os dois primeiros episódios da série de TV Life is Strange da Amazon. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/life-is-strange-tv-series-lands-yellowjackets-and-jennifers-body-director-for-first-episodes"
+    },
+    {
+      "id": "https://www.eurogamer.net/counter-strike-2-valve-reloading-change-forcing-players-to-shake-off-old-habits",
+      "title": "A Valve lançou uma bola curva no Counter Strike 2 com uma grande mudança de recarga, forçando os jogadores a se livrarem de velhos hábitos",
+      "original_title": "Valve has thrown a curveball at Counter Strike 2 with a massive reloading change, forcing players to shake off old habits",
+      "image": "https://assetsio.gnwcdn.com/counter-strike-2-reloading-update-key-art.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-03-19",
+      "summary": "A Valve atualizou a mecânica de recarga do Counter Strike 2. Embora isso não pareça particularmente emocionante à primeira vista, essa mudança pode ter um impacto enorme na maneira como os jogadores se envolvem em tiroteios prolongados. Esses veteranos do Counter Strike irão...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/counter-strike-2-valve-reloading-change-forcing-players-to-shake-off-old-habits"
+    },
+    {
+      "id": "https://www.eurogamer.net/tomb-raider-remastered-studio-denies-using-generative-ai-after-new-challenge-mode-gets-panned-by-players",
+      "title": "O estúdio Tomb Raider Remastered nega o uso de IA generativa depois que o novo modo Desafio é criticado pelos jogadores",
+      "original_title": "Tomb Raider Remastered studio denies using generative AI after new Challenge Mode gets panned by players",
+      "image": "https://assetsio.gnwcdn.com/Lara-Croft-in-Tomb-Raider-1---3-Remastered-promo-artwork.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-03-19",
+      "summary": "O estúdio Aspyr de Tomb Raider 1-3 Remastered disse que nenhuma IA foi usada para o conteúdo recém-lançado do jogo. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/tomb-raider-remastered-studio-denies-using-generative-ai-after-new-challenge-mode-gets-panned-by-players"
+    },
+    {
+      "id": "https://www.eurogamer.net/tomb-raider-studio-hit-with-fourth-round-of-layoffs-in-12-months-but-remake-and-catalyst-development-continues",
+      "title": "O estúdio Tomb Raider atingiu a quarta rodada de demissões em 12 meses, mas o desenvolvimento do remake e do Catalyst continua",
+      "original_title": "Tomb Raider studio hit with fourth round of layoffs in 12 months, but remake and Catalyst development continues",
+      "image": "https://assetsio.gnwcdn.com/Tomb-Raider-Legacy-of-Atlantis-image-showing-Lara-Croft-looking-out-over-a-vast-lush-landscape.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-03-19",
+      "summary": "A Crystal Dynamics anunciou outra onda de demissões. Esta é a quarta rodada de demissões em 12 meses para o estúdio Tomb Raider. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/tomb-raider-studio-hit-with-fourth-round-of-layoffs-in-12-months-but-remake-and-catalyst-development-continues"
+    },
+    {
+      "id": "https://www.eurogamer.net/remembering-pokemon-uranium-fan-game-lives-on-10-years-later",
+      "title": "“Estranhamente, tornou-se a primeira entrada de algumas pessoas na franquia” Relembrando Pokémon Uranium: o polêmico fan game que continua vivo, 10 anos depois",
+      "original_title": "\"Strangely, it became some people's first entry to the franchise\" Remembering Pokémon Uranium: the controversial fan game that lives on, 10 years later",
+      "image": "https://assetsio.gnwcdn.com/uranium.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-03-19",
+      "summary": "No mês passado, Pokémon comemorou seu 30º aniversário. A franquia, um rolo compressor dos videogames e da cultura pop, perdura há gerações graças aos seus jogos que celebram a conexão, o companheirismo e a competição. Mas ao longo da vida da série, ...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/remembering-pokemon-uranium-fan-game-lives-on-10-years-later"
+    },
+    {
+      "id": "https://www.eurogamer.net/marathons-ranked-system-explained-math-test",
+      "title": "O sistema de classificação do Marathon está se mostrando um pouco complicado para alguns, então a Bungie lançou... um teste de matemática?",
+      "original_title": "Marathon's ranked system is proving a bit complicated for some, so Bungie released... a maths test?",
+      "image": "https://assetsio.gnwcdn.com/maths.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-03-19",
+      "summary": "Com a Bungie divulgando detalhes sobre o próximo modo classificado do Marathon, que será adicionado em questão de dias, alguns responderam confusos sobre como ele realmente funciona. Para ajudar, a Bungie lançou um recurso realmente terrível para ajudar: um teste de matemática. Rea...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/marathons-ranked-system-explained-math-test"
+    },
+    {
+      "id": "https://www.eurogamer.net/pearl-abyss-shares-tumble-after-crimson-desert-fails-to-meet-expectations",
+      "title": "As ações da Pearl Abyss caem depois que Crimson Desert não atende às expectativas",
+      "original_title": "Pearl Abyss shares tumble after Crimson Desert fails to meet expectations",
+      "image": "https://assetsio.gnwcdn.com/Kliff-from-Crimson-Desert-during-a-sword-fight.webp?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-03-19",
+      "summary": "As ações da Pearl Abyss caíram quase 30 por cento logo depois que as análises do Crimson Desert foram ao ar na noite passada. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/pearl-abyss-shares-tumble-after-crimson-desert-fails-to-meet-expectations"
+    },
+    {
+      "id": "https://www.techpowerup.com/347538/ek-by-lm-tek-launches-ek-pro-gpu-water-block-for-nvidia-h200-nvl",
+      "title": "(PR) EK by LM TEK lança bloco de água de GPU EK-Pro para NVIDIA H200 NVL",
+      "original_title": "(PR) EK by LM TEK Launches EK-Pro GPU Water Block for NVIDIA H200 NVL",
+      "image": "https://tpucdn.com/img/Aii5SVjtoWg0fLRZ_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-03-19",
+      "summary": "EK by LM TEK tem o orgulho de anunciar o EK-Pro GPU WB H200 NVL, um water block de GPU de cobertura total de alto desempenho projetado para NVIDIA H200 NVL. Projetado para implantações de servidores de IA de alta densidade e ambientes de data center, o bloco apresenta um único...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/347538/ek-by-lm-tek-launches-ek-pro-gpu-water-block-for-nvidia-h200-nvl"
+    },
+    {
+      "id": "https://www.techpowerup.com/347537/sharkoon-releases-s100-argb-all-in-one-cpu-cooler",
+      "title": "(PR) Sharkoon lança cooler para CPU multifuncional S100 ARGB",
+      "original_title": "(PR) Sharkoon Releases S100 ARGB All-in-One CPU Cooler",
+      "image": "https://tpucdn.com/img/bzFqpEkA98cJBof3_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-03-19",
+      "summary": "O S100 ARGB da Sharkoon é um sistema de refrigeração líquida completo com radiador de 360 ​​mm e combina aparência impressionante com forte desempenho de refrigeração. A unidade de bomba extra grande com efeito de espelho infinito cria um jogo de luz único, enquanto ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/347537/sharkoon-releases-s100-argb-all-in-one-cpu-cooler"
+    },
+    {
+      "id": "https://www.techpowerup.com/347536/silicon-power-launches-enterprise-grade-ddr5-rdimm-for-ai-workloads",
+      "title": "(PR) Silicon Power lança RDIMM DDR5 de nível empresarial para cargas de trabalho de IA",
+      "original_title": "(PR) Silicon Power Launches Enterprise-Grade DDR5 RDIMM for AI Workloads",
+      "image": "https://tpucdn.com/img/qrNSxKJFzLX48oUf_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-03-19",
+      "summary": "Silicon Power (SP) anuncia o lançamento de seu mais recente módulo DDR5 RDIMM, desenvolvido especificamente para atender às crescentes demandas de data centers corporativos e ambientes de computação orientados por IA. Projetado com chips DRAM originais de alta qualidade, o novo módulo oferece...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/347536/silicon-power-launches-enterprise-grade-ddr5-rdimm-for-ai-workloads"
+    },
+    {
+      "id": "https://www.techpowerup.com/347535/the-kiiboom-phantom98-lite-blends-style-and-function",
+      "title": "(PR) O KiiBOOM Phantom98 Lite combina estilo e função",
+      "original_title": "(PR) The KiiBOOM Phantom98 Lite Blends Style and Function",
+      "image": "https://tpucdn.com/img/cNFyTKBhMhMvnioG_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-03-19",
+      "summary": "Mais do que apenas uma forma de digitar, o KiiBOOM Phantom98 Lite é uma atualização para toda a experiência de desktop dos usuários. Com seu layout cuidadoso, design de teclas, sensação de digitação premium e fluxo contínuo de vários dispositivos, este teclado transforma a entrada diária em ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/347535/the-kiiboom-phantom98-lite-blends-style-and-function"
+    },
+    {
+      "id": "https://www.techpowerup.com/347534/opera-gx-gaming-browser-lands-on-linux-after-community-demand",
+      "title": "(PR) Navegador de jogos Opera GX chega ao Linux após demanda da comunidade",
+      "original_title": "(PR) Opera GX Gaming Browser Lands on Linux After Community Demand",
+      "image": "https://tpucdn.com/img/q9c3RZ0eb8msaPqN_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-03-19",
+      "summary": "Opera GX agora está no Linux. O navegador de jogos da empresa norueguesa Opera agora traz controles de desempenho exclusivos, integrações de jogos e opções incomparáveis ​​de personalização para a plataforma. A demanda por uma versão Linux do Opera GX atingiu um...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/347534/opera-gx-gaming-browser-lands-on-linux-after-community-demand"
+    },
+    {
+      "id": "https://www.techpowerup.com/347533/strong-ai-momentum-to-drive-24-8-growth-in-foundry-revenue-in-2026",
+      "title": "(PR) Forte impulso de IA para impulsionar crescimento de 24,8% na receita de fundição em 2026",
+      "original_title": "(PR) Strong AI Momentum to Drive 24.8% Growth in Foundry Revenue in 2026",
+      "image": "https://tpucdn.com/img/Ey2rXx5oF0yf7CN3_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-03-19",
+      "summary": "A pesquisa mais recente da TrendForce sobre a indústria de fundição revela que o investimento contínuo na corrida armamentista de IA por parte de CSPs e startups de IA norte-americanos manterá forte a demanda por processadores de IA e ICs de suporte em 2026. A receita global de fundição é projetada...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/347533/strong-ai-momentum-to-drive-24-8-growth-in-foundry-revenue-in-2026"
+    },
+    {
+      "id": "https://www.techpowerup.com/347532/counter-strike-2-changes-decades-old-magazine-reloading-rule",
+      "title": "Counter-Strike 2 muda regra de recarga de revistas de décadas atrás",
+      "original_title": "Counter-Strike 2 Changes Decades-Old Magazine Reloading Rule",
+      "image": "https://tpucdn.com/img/iXEHzMapoNoBX4lJ_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-03-19",
+      "summary": "Se você é um jogador de Counter-Strike de longa data, sabe como funciona o recarregamento de revistas. Sempre que você recarregasse em um jogo de Counter-Strike, qualquer munição restante de seu carregador seria devolvida ao seu estoque de reserva. No entanto, a Valve agora está mudando...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/347532/counter-strike-2-changes-decades-old-magazine-reloading-rule"
+    },
+    {
+      "id": "https://www.techpowerup.com/347530/intel-supplies-core-ultra-200hx-plus-in-limited-quantities-to-laptop-makers",
+      "title": "Intel fornece Core Ultra 200HX Plus em quantidades limitadas para fabricantes de laptops",
+      "original_title": "Intel Supplies Core Ultra 200HX Plus in Limited Quantities to Laptop Makers",
+      "image": "https://tpucdn.com/img/CpToGJLKtQrD5Xv8_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-03-19",
+      "summary": "Os laptops equipados com os mais recentes processadores móveis Core Ultra 200HX Plus da Intel não chegarão todos de uma vez, mas serão lançados em etapas, de acordo com a PC World. A Intel está fornecendo esses chips a seus parceiros OEM em ondas. Alguns OEMs estão recebendo t...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/347530/intel-supplies-core-ultra-200hx-plus-in-limited-quantities-to-laptop-makers"
+    },
+    {
+      "id": "https://www.techpowerup.com/347525/sony-to-rebrand-playstation-network-in-late-2026",
+      "title": "Sony mudará a marca da PlayStation Network no final de 2026",
+      "original_title": "Sony To Rebrand PlayStation Network in Late 2026",
+      "image": "https://tpucdn.com/img/55fhCXInEvlcPV9N_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-03-19",
+      "summary": "De acordo com o Insider Gaming, a Sony em breve mudará a marca da marca PlayStation Network, incluindo \"PSN\", até setembro de 2026. Esta notícia chega por meio de um e-mail enviado aos desenvolvedores em preparação para a mudança de marca - provavelmente como uma forma de garantir que...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/347525/sony-to-rebrand-playstation-network-in-late-2026"
+    },
+    {
+      "id": "https://www.techpowerup.com/347524/gnome-50-ditches-x11-but-launches-with-improved-color-management-native-fractional-scaling-and-vrr-support",
+      "title": "GNOME 50 abandona o X11, mas é lançado com gerenciamento de cores aprimorado, escala fracionária nativa e suporte VRR",
+      "original_title": "GNOME 50 Ditches X11 but Launches With Improved Color Management, Native Fractional Scaling, and VRR Support",
+      "image": "https://tpucdn.com/img/hS88wbR3AWVLxyUO_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-03-19",
+      "summary": "Antes do lançamento oficial, o Gnome 50 foi visualizado em beta por meio de distribuições como o Fedora 44 beta, mas a versão atualizada do ambiente de desktop, apelidada de Tóquio, foi lançada oficialmente em formato estável, trazendo consigo uma série de...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/347524/gnome-50-ditches-x11-but-launches-with-improved-color-management-native-fractional-scaling-and-vrr-support"
+    },
+    {
+      "id": "https://www.eurogamer.net/crimson-desert-review",
+      "title": "Crítica do Deserto Carmesim",
+      "original_title": "Crimson Desert review",
+      "image": "https://assetsio.gnwcdn.com/Crimson-Desert-review-1.png?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
       "date": "2026-03-18",
-      "summary": "A estratégia de marketing do Super Mario Galaxy Movie até agora tem sido afogar os fãs em referências de videogame e dar aos espectadores casuais batidas cômicas mais fofas para acompanhá-los até o lançamento final do filme. Provavelmente vai pagar...",
+      "summary": "O Deserto Carmesim é grande. Acontece que é tão grande que este jogo de mundo aberto requer não uma, mas três telas de carregamento. A primeira é uma barra simples de carregamento de shaders e similares; o segundo leva você para um reino em blocos com uma estrela cintilante sentada em ...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/super-mario-galaxy-movie-reveals-yet-another-nintendo-crossover-before-release"
+      "url": "https://www.eurogamer.net/crimson-desert-review"
     },
     {
-      "id": "https://www.eurogamer.net/john-carpenters-toxic-commando-review",
-      "title": "Crítica do Comando Tóxico de John Carpenter",
-      "original_title": "John Carpenter's Toxic Commando review",
-      "image": "https://assetsio.gnwcdn.com/john-carpenters-toxic-commando-review-header.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/tower-defence-game-tangy-td-goes-viral",
+      "title": "O jogo de defesa de torre Tangy TD faturou mais de US$ 250 mil desde o lançamento no início de março no Steam, fazendo com que seu desenvolvedor solo já chorasse duas vezes",
+      "original_title": "Tower defence game Tangy TD has made over $250k since an early March launch on Steam, prompting its solo dev to burst into tears twice already",
+      "image": "https://assetsio.gnwcdn.com/Tangy-TD-gameplay.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
       "date": "2026-03-18",
-      "summary": "Correndo o risco de pular para a conclusão, Toxic Commando de John Carpenter está bem com F maiúsculo. Se você está procurando um jogo de tiro cooperativo para preencher um fim de semana para você e até três amigos, o mais recente blaster de zumbis da Saber Interactive oferece...",
+      "summary": "O mundo é um lugar bastante miserável agora, mas pelo menos os videogames são legais. Diante de demissões intermináveis ​​e desperdícios de IA, muitos estúdios e pequenos desenvolvedores continuam a ter sucesso, e às vezes até nos deparamos com algo particularmente saudável...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/john-carpenters-toxic-commando-review"
+      "url": "https://www.eurogamer.net/tower-defence-game-tangy-td-goes-viral"
     },
     {
-      "id": "https://www.eurogamer.net/hollow-knight-silksong-gets-final-significant-patch-before-sea-of-sorrow-expansion",
-      "title": "Hollow Knight: Silksong recebe patch final “significativo” antes da expansão Sea of ​​​​Sorrow",
-      "original_title": "Hollow Knight: Silksong gets final \"significant\" patch before Sea of Sorrow expansion",
-      "image": "https://assetsio.gnwcdn.com/Silksong-screenshot-showing-Hornet-fighting.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/final-fantasy-9-animated-series-back-in-production",
+      "title": "A série animada Final Fantasy 9, há muito em desenvolvimento, está de volta à produção e parece estar se concentrando em magos negros",
+      "original_title": "The long-in-the-works Final Fantasy 9 animated series is back in production, and it seems to be focusing on black mages",
+      "image": "https://assetsio.gnwcdn.com/Vivi-Magic-the-Gathering.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
       "date": "2026-03-18",
-      "summary": "A Team Cherry detalhou o que pretende ser a última atualização “significativa” para Hollow Knight: Silksong antes da expansão Sea of ​​Sorrow do jogo. Leia mais...",
+      "summary": "Rumores e notícias oficiais de uma série animada de Final Fantasy 9 já existem há anos, mas o projeto simplesmente desapareceu em algum momento, com rumores apontando para que ele fosse totalmente descartado. No final de 2025, novas informações sugeriram que estava de volta...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/hollow-knight-silksong-gets-final-significant-patch-before-sea-of-sorrow-expansion"
-    },
-    {
-      "id": "https://www.eurogamer.net/death-stranding-2-pc-launch-trailer-arrives-alongside-features-details-while-the-steam-release-leaks",
-      "title": "Death Stranding 2 detalha novos recursos para PC e PS5 com um trailer de lançamento impressionante enquanto a versão do Steam vaza antes do lançamento",
-      "original_title": "Death Stranding 2 details new PC and PS5 features with stunning launch trailer as Steam build leaks ahead of launch",
-      "image": "https://assetsio.gnwcdn.com/Death-Stranding-2_skull-squad.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Rumor",
-      "date": "2026-03-18",
-      "summary": "Em um mês cheio de novos lançamentos, é fácil esquecer as portas tão esperadas, mas o lançamento do Death Stranding 2 para PC acontecerá amanhã, 19 de março, e seu trailer mais recente é impressionante e destaca uma série de recursos exclusivos. Além disso, o ou...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/death-stranding-2-pc-launch-trailer-arrives-alongside-features-details-while-the-steam-release-leaks"
-    },
-    {
-      "id": "https://www.eurogamer.net/the-answer-will-become-clear-some-day-we-asked-the-resident-evil-requiem-director-who-leon-is-married-to-but-capcom-is-still-playing-coy",
-      "title": "“A resposta ficará clara algum dia” – Perguntamos ao diretor de Resident Evil Requiem com quem Leon é casado, mas a Capcom ainda está fingindo ser tímida",
-      "original_title": "\"The answer will become clear some day\" - We asked the Resident Evil Requiem director who Leon is married to, but Capcom is still playing coy",
-      "image": "https://assetsio.gnwcdn.com/Close-up-of-Leon-Kennedy-in-Resident-Evil-Requiem_4uMmW3k.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-03-18",
-      "summary": "Desde que Resident Evil Requiem fez sua estreia cheia de terror em fevereiro, tem havido uma pergunta surpreendentemente doce (ou talvez um pouco sedenta) na boca de todos. Com quem Leon se estabeleceu? Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/the-answer-will-become-clear-some-day-we-asked-the-resident-evil-requiem-director-who-leon-is-married-to-but-capcom-is-still-playing-coy"
-    },
-    {
-      "id": "https://www.eurogamer.net/inkle-tr-49-nintendo-switch",
-      "title": "Mude para obter o aclamado jogo de decifração de código TR-49 muito em breve e por um bom preço",
-      "original_title": "Switch to get acclaimed eerie codebreaking game TR-49 very soon, and at a nice price",
-      "image": "https://assetsio.gnwcdn.com/inkle-tr-49.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-03-18",
-      "summary": "TR-49 – o misterioso jogo de dedução narrativa de decifração de códigos do renomado estúdio britânico Inkle (Heaven’s Vault, A Highland Song, 80 Days) – será lançado no Switch em algumas semanas, anunciou Inkle. TR-49 chegará em 7 de abril com preço de US$ 7 (ou algo assim...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/inkle-tr-49-nintendo-switch"
-    },
-    {
-      "id": "https://www.eurogamer.net/mindseye-developer-build-a-rocket-boy-and-publisher-ioi-partners-complete-separation",
-      "title": "O desenvolvedor da MindsEye, Build A Rocket Boy e IOI Partners, anunciam a “transição” dos direitos de publicação do jogo, crossover de Hitman agora morto",
-      "original_title": "MindsEye developer Build A Rocket Boy and IOI Partners announce \"transition\" of the game's publishing rights, Hitman crossover now dead",
-      "image": "https://assetsio.gnwcdn.com/mindseye-build-a-rocket-boy-(4).jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-03-18",
-      "summary": "MindsEye teve uma grande jornada desde que foi lançado no verão passado, e a maior parte não foi positiva. Desde o desenvolvedor Build A Rocket Boy lutando para colocar as coisas de volta nos trilhos após um lançamento catastrófico até o co-CEO do estúdio Mark Gerhard culpando muitos de...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/mindseye-developer-build-a-rocket-boy-and-publisher-ioi-partners-complete-separation"
-    },
-    {
-      "id": "https://www.eurogamer.net/marathon-prepares-ranked-mode-with-latest-patch",
-      "title": "Marathon prepara modo classificado com seu patch mais recente, um saque caro com uma pegadinha",
-      "original_title": "Marathon prepares ranked mode with its latest patch, a pricey loot-a-thon with a catch",
-      "image": "https://assetsio.gnwcdn.com/marathon-shells-6.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-03-18",
-      "summary": "Com o último patch Marathon da Bungie, o modo classificado do atirador de extração foi finalmente adicionado ao jogo. Embora não estejam disponíveis até o fim de semana, detalhes preciosos sobre como os jogadores irão subir na hierarquia foram revelados. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/marathon-prepares-ranked-mode-with-latest-patch"
-    },
-    {
-      "id": "https://www.eurogamer.net/nvidia-responds-to-widespread-criticism-of-dlss-5-by-telling-us-were-all-completely-wrong",
-      "title": "A Nvidia responde às críticas generalizadas ao DLSS 5 dizendo-nos que estamos todos “completamente errados”",
-      "original_title": "Nvidia responds to widespread criticism of DLSS 5 by telling us we're all \"completely wrong\"",
-      "image": "https://assetsio.gnwcdn.com/Leon-in-Resident-Evil-Requiem-with-DLSS-5-on.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-03-18",
-      "summary": "A Nvidia respondeu às críticas generalizadas à sua nova tecnologia conhecida como DLSS 5, que segundo ela irá \"[preencher] a divisão entre renderização e realidade\", mas pelo que vimos até agora parece principalmente colocar um filtro de IA espalhafatoso sobre a origem de um jogo...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/nvidia-responds-to-widespread-criticism-of-dlss-5-by-telling-us-were-all-completely-wrong"
-    },
-    {
-      "id": "https://www.techpowerup.com/347501/amd-readies-ryzen-7-9750x-and-ryzen-5-9650x-desktop-processors-with-increased-tdp",
-      "title": "AMD prepara processadores para desktop Ryzen 7 9750X e Ryzen 5 9650X com TDP aumentado",
-      "original_title": "AMD Readies Ryzen 7 9750X and Ryzen 5 9650X Desktop Processors with Increased TDP",
-      "image": "https://tpucdn.com/img/nWz83mc3VccAw0Vs_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-03-18",
-      "summary": "A AMD está preparando uma atualização para sua linha de processadores para desktop da série Ryzen 9000 com o lançamento de dois novos modelos, o Ryzen 7 9750X e o Ryzen 5 9650X. Ambos os chips não são X3D (sem 3D V-Cache) e implementam o CCD \"Zen 5\" regular com ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/347501/amd-readies-ryzen-7-9750x-and-ryzen-5-9650x-desktop-processors-with-increased-tdp"
-    },
-    {
-      "id": "https://www.techpowerup.com/347500/asus-announces-expertcenter-pn55-mini-pc-with-amd-ryzen-ai-400-series",
-      "title": "(PR) ASUS Anuncia Mini PC ExpertCenter PN55 com AMD Ryzen AI Série 400",
-      "original_title": "(PR) ASUS Announces ExpertCenter PN55 Mini PC with AMD Ryzen AI 400 Series",
-      "image": "https://tpucdn.com/img/428FJBU0BohzTWab_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-03-18",
-      "summary": "A ASUS anunciou hoje o ExpertCenter PN55 Mini PC, um PC Copilot+ compacto equipado com os mais recentes processadores AMD Ryzen AI 400 Series com desempenho multithreaded líder de classe e NPU XDNA 2 avançado que oferece até 55 AI TOPS. AMD Radeon integrada...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/347500/asus-announces-expertcenter-pn55-mini-pc-with-amd-ryzen-ai-400-series"
-    },
-    {
-      "id": "https://www.techpowerup.com/347296/stop-paying-for-microsoft-365-the-newest-office-is-usd-140",
-      "title": "Pare de pagar pelo Microsoft 365 – o mais novo Office custa US$ 140",
-      "original_title": "Stop Paying for Microsoft 365—The Newest Office is $140",
-      "image": "https://tpucdn.com/img/H6OUqzc5rUH0QANx_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-03-18",
-      "summary": "O Microsoft Office 2024 Home & Business custa US$ 139,97 (normalmente US$ 249,99) para uma licença vitalícia para Mac ou PC. O cansaço das assinaturas é real, especialmente quando se trata de software que você usa todos os dias. O Microsoft 365 custa de US$ 69,99 a US$ 99,99 anualmente, o que significa...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/347296/stop-paying-for-microsoft-365-the-newest-office-is-usd-140"
-    },
-    {
-      "id": "https://www.techpowerup.com/347499/amd-releases-statement-on-chuwis-ryzen-processor-mislabeling-scandal",
-      "title": "AMD divulga declaração sobre escândalo de rotulagem incorreta do processador Ryzen de Chuwi",
-      "original_title": "AMD Releases Statement on Chuwi's Ryzen Processor Mislabeling Scandal",
-      "image": "https://tpucdn.com/img/X35Mx7sThXAcLhv8_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-03-18",
-      "summary": "A AMD divulgou hoje uma declaração na China sobre o escândalo envolvendo o OEM chinês de notebooks Chuwi rotulando erroneamente os modelos de processadores móveis da série Ryzen 5000 como série Ryzen 7000. Você pode ler tudo sobre o escândalo em nosso artigo mais antigo, mas, para resumir, o com...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/347499/amd-releases-statement-on-chuwis-ryzen-processor-mislabeling-scandal"
-    },
-    {
-      "id": "https://www.techpowerup.com/347498/thermaltake-tr200-series-delivers-mid-tower-performance-in-a-compact-design",
-      "title": "(PR) A série Thermaltake TR200 oferece desempenho de torre média em um design compacto",
-      "original_title": "(PR) Thermaltake TR200 Series Delivers Mid-Tower Performance in a Compact Design",
-      "image": "https://tpucdn.com/img/egsf6gzM4QpDsFsv_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-03-18",
-      "summary": "Thermaltake, marca líder de PC DIY para soluções de hardware premium, apresenta a série TR200, uma linha microATX compacta projetada para oferecer compatibilidade de hardware de ponta, suporte de resfriamento avançado e personalização visual moderna em um mínimo...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/347498/thermaltake-tr200-series-delivers-mid-tower-performance-in-a-compact-design"
-    },
-    {
-      "id": "https://www.techpowerup.com/347497/death-stranding-2-on-the-beach-gets-new-trailer-ahead-of-pc-launch-and-confirms-ray-tracing-ambient-occlusion-and-upscaling-support",
-      "title": "Death Stranding 2: On the Beach recebe novo trailer antes do lançamento para PC e confirma Ray Tracing, Oclusão de ambiente e suporte para upscaling",
-      "original_title": "Death Stranding 2: On the Beach Gets New Trailer Ahead of PC Launch and Confirms Ray Tracing, Ambient Occlusion, and Upscaling Support",
-      "image": "https://tpucdn.com/img/c19389dPNBttl51a_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-03-18",
-      "summary": "Ahead of Death Stranding 2: On the Beach PC lançamento agendado para 19 de março, a Sony lançou um novo trailer de lançamento da versão para PC chamado \"No Rain, No Rainbow\", bem como confirmou que o jogo receberá suporte para NVIDIA DLSS, AMD FSR e Inte...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/347497/death-stranding-2-on-the-beach-gets-new-trailer-ahead-of-pc-launch-and-confirms-ray-tracing-ambient-occlusion-and-upscaling-support"
-    },
-    {
-      "id": "https://www.techpowerup.com/347496/intel-enables-precompiled-shader-delivery-for-up-to-3x-faster-game-loading-times",
-      "title": "Intel permite entrega de shaders pré-compilados para tempos de carregamento de jogos até 3x mais rápidos",
-      "original_title": "Intel Enables Precompiled Shader Delivery for Up to 3x Faster Game Loading Times",
-      "image": "https://tpucdn.com/img/IPCxWnkhrcsKEmoU_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-03-18",
-      "summary": "Com o mais recente driver gráfico Arc 101.8626 WHQL, a Intel estendeu seu serviço de entrega de shader pré-compilado para GPUs Intel Arc série B e SoCs Intel Core Ultra Série 3 e Série 2 com GPUs Intel Arc integradas. Esta melhoria visa significar...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/347496/intel-enables-precompiled-shader-delivery-for-up-to-3x-faster-game-loading-times"
-    },
-    {
-      "id": "https://www.techpowerup.com/347495/biostar-introduces-the-bitwl-iht-mini-industrial-motherboard",
-      "title": "(PR) Biostar apresenta a mini placa-mãe industrial BITWL-IHT",
-      "original_title": "(PR) Biostar Introduces the BITWL-IHT Mini Industrial Motherboard",
-      "image": "https://tpucdn.com/img/C3LisZANpIpPDO90_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-03-18",
-      "summary": "BIOSTAR, fabricante líder de soluções de computação de ponta, placas-mãe industriais, placas gráficas e dispositivos de armazenamento, tem o orgulho de apresentar a nova BITWL-IHT, uma placa-mãe industrial Thin Mini-ITX projetada para oferecer desempenho estável e escalonável.",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/347495/biostar-introduces-the-bitwl-iht-mini-industrial-motherboard"
-    },
-    {
-      "id": "https://www.techpowerup.com/347491/microsoft-reveals-next-gen-directx-ray-tracing-clustered-geometry-partitioned-tlas-and-gpu-driven-acceleration-ops",
-      "title": "Microsoft revela DirectX Ray Tracing de última geração: geometria em cluster, TLAS particionado e operações de aceleração orientadas por GPU",
-      "original_title": "Microsoft Reveals Next-Gen DirectX Ray Tracing: Clustered Geometry, Partitioned TLAS, and GPU-Driven Acceleration Ops",
-      "image": "https://tpucdn.com/img/VlegeHzOg28crsLA_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-03-18",
-      "summary": "A Microsoft finalmente lançou um segundo arquivo de especificação funcional DirectX Ray Tracing (DXR) que descreve a aparência esperada de seu pipeline de ray tracing, os objetivos que a empresa está perseguindo e o que a tecnologia faz nos bastidores. EU...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/347491/microsoft-reveals-next-gen-directx-ray-tracing-clustered-geometry-partitioned-tlas-and-gpu-driven-acceleration-ops"
-    },
-    {
-      "id": "https://www.techpowerup.com/347494/intel-arc-gpu-graphics-drivers-101-8626-whql-released",
-      "title": "Drivers gráficos Intel Arc GPU 101.8626 WHQL lançados",
-      "original_title": "Intel Arc GPU Graphics Drivers 101.8626 WHQL Released",
-      "image": "https://tpucdn.com/img/ULy6G39xI0bxip6z_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-03-18",
-      "summary": "A Intel lançou seus mais recentes drivers gráficos 101.8626 WHQL Arc GPU, adicionando suporte de primeiro dia para jogos Death Stranding 2: On the Beach e Everwind, além de apresentar o novo Intel Graphics Shader Distribution Service, que deve melhorar primeiro...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/347494/intel-arc-gpu-graphics-drivers-101-8626-whql-released"
-    },
-    {
-      "id": "https://www.eurogamer.net/bethesda-boss-todd-howard-offers-more-elder-scrolls-6-info-more-efficient-development",
-      "title": "O chefe da Bethesda, Todd Howard, oferece mais pequenas migalhas de informações de The Elder Scrolls 6, dicas para um desenvolvimento mais eficiente",
-      "original_title": "Bethesda boss Todd Howard offers more tiny crumbs of The Elder Scrolls 6 info, hints at more efficient development",
-      "image": "https://assetsio.gnwcdn.com/Todd-Howard-overlaid-on-an-image-from-The-Elder-Scrolls-6-reveal-which-shows-a-fortress-surrounded-by-moutains_KwBrlRf.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-03-17",
-      "summary": "Soem os alarmes, o chefe da Bethesda, Todd Howard, falou um pouco sobre The Elder Scrolls 6 em uma entrevista recente. Embora ele mantenha tudo em segredo, foram revelados alguns detalhes sobre o longo desenvolvimento do jogo que devem acalmar os ansiosos ...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/bethesda-boss-todd-howard-offers-more-elder-scrolls-6-info-more-efficient-development"
+      "url": "https://www.eurogamer.net/final-fantasy-9-animated-series-back-in-production"
     }
   ]
 }
