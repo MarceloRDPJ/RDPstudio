@@ -1,31 +1,11 @@
 {
-  "last_updated": "2026-03-19T13:05:19",
-  "display_date": "19/03/2026 13:05",
+  "last_updated": "2026-03-20T13:00:04",
+  "display_date": "20/03/2026 13:00",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "670ms",
+    "latency": "167ms",
     "current_games": [
-      {
-        "title": "Cozy Grove",
-        "description": "Bem-vindo ao Cosy Grove, um jogo de simulação de vida sobre acampar em uma ilha assombrada e em constante mudança. Como Spirit Scout, você passeará pela floresta da ilha todos os dias, descobrindo novos segredos escondidos e ajudando a acalmar os fantasmas locais.",
-        "image": "https://cdn1.epicgames.com/768ec2d3b5114ac4a800631b12ee3f31/offer/CG-2560x1440-570add3e55ecf729bd4f3a221ca7927a.jpg",
-        "url": "https://store.epicgames.com/p/cozy-grove",
-        "price": "$14.99",
-        "start_date": "2026-03-12T15:00:00.000Z",
-        "end_date": "2026-03-19T15:00:00.000Z"
-      },
-      {
-        "title": "Isonzo",
-        "description": "A feroz guerra alpina testará suas habilidades táticas neste autêntico FPS da 1ª Guerra Mundial. Lute entre os picos pitorescos, vales escarpados e cidades idílicas do norte da Itália. A Grande Guerra na Frente Italiana ganha vida e é elevada a alturas inesperadas!",
-        "image": "https://cdn1.epicgames.com/offer/30de69013f3b41b0ba594a8ef3b693ba/EGS_Isonzo_BlackMillGames_S1_2560x1440-c45b9d495ea324c69ad872aeccc9fb7d",
-        "url": "https://store.epicgames.com/p/isonzo-2",
-        "price": "$29.99",
-        "start_date": "2026-03-12T15:00:00.000Z",
-        "end_date": "2026-03-19T15:00:00.000Z"
-      }
-    ],
-    "upcoming_games": [
       {
         "title": "Electrician Simulator",
         "description": "Assuma o papel de eletricista e aprenda os fundamentos da profissão! Instale tomadas, conserte equipamentos desgastados, monte eletrodomésticos quebrados, substitua lâmpadas e instale fios nas casas de seus clientes. Não se esqueça de verificar tudo duas vezes, com eletricidade não há brincadeira!",
@@ -35,6 +15,17 @@
         "start_date": "2026-03-19T15:00:00.000Z",
         "end_date": "2026-03-26T15:00:00.000Z"
       },
+      {
+        "title": "World of Warships — Epic Anniversary Tachibana Pack",
+        "description": "Obtenha um contratorpedeiro japonês Premium e algumas camuflagens permanentes da Epic para comemorar nosso 5º ano na Epic Games Store.",
+        "image": "https://cdn1.epicgames.com/spt-assets/4eb4296fe40e4130a61adbf2d6b34586/world-of-warships-1ahdf.png",
+        "url": "https://store.epicgames.com/p/world-of-warships-tachibana-lima-pack",
+        "price": "$25.00",
+        "start_date": "2026-03-19T15:00:00.000Z",
+        "end_date": "2026-03-26T15:00:00.000Z"
+      }
+    ],
+    "upcoming_games": [
       {
         "title": "Eternal Threads",
         "description": "Eternal Threads é um jogo de quebra-cabeça para um jogador, em primeira pessoa, baseado em uma história de manipulação, escolha e consequência do tempo.",
@@ -46,7 +37,7 @@
       },
       {
         "title": "Ghostrunner 2",
-        "description": "Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cibernética.",
+        "description": "Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
         "image": "https://cdn1.epicgames.com/offer/708f57aaa04b42ef885be16c8288f0ac/EGS_Ghostrunner2_OneMoreLevel_S1_2560x1440-15845148fae1d0cfd7f3e98c9b3ba6ba",
         "url": "https://store.epicgames.com/p/ghostrunner-2",
         "price": "$39.99",
@@ -72,6 +63,15 @@
         "end_date": "2026-04-13T15:00:00.000Z"
       },
       {
+        "title": "Hyper Echelon",
+        "description": "A Galáxia Ciana está em perigo! Seu confiável pequeno lutador estelar e seu esquadrão de alas são a única esperança contra o malvado EXODON! Suba de nível de atirador de ervilhas a uma potência ofensiva enquanto se envolve em combates frenéticos em muitos locais maravilhosos.",
+        "image": "https://cdn1.epicgames.com/spt-assets/866f5f0834324794a87759b5f4854636/hyper-echelon-13b9q.png",
+        "url": "https://store.epicgames.com/p/39e8285c09224707ab83d5c256e9b41b",
+        "price": "$12.99",
+        "start_date": "2026-03-26T15:00:00.000Z",
+        "end_date": "2026-04-02T15:00:00.000Z"
+      },
+      {
         "title": "Havendock",
         "description": "Respire com calma e prospere neste aconchegante simulador de colônia. Construa um refúgio para náufragos, gerencie recursos, viva sua melhor vida no oceano. Leve seu humilde assentamento para uma sociedade de alta tecnologia.",
         "image": "https://cdn1.epicgames.com/spt-assets/180018125def4cbabef241f199a79f35/havendock-r2ivl.png",
@@ -79,64 +79,40 @@
         "price": "$19.99",
         "start_date": "2026-03-26T15:00:00.000Z",
         "end_date": "2026-04-02T15:00:00.000Z"
-      },
-      {
-        "title": "World of Warships — Epic Anniversary Tachibana Pack",
-        "description": "Obtenha um contratorpedeiro japonês Premium e algumas camuflagens permanentes da Epic para comemorar nosso 5º ano na Epic Games Store.",
-        "image": "https://cdn1.epicgames.com/spt-assets/4eb4296fe40e4130a61adbf2d6b34586/world-of-warships-1ahdf.png",
-        "url": "https://store.epicgames.com/p/world-of-warships-tachibana-lima-pack",
-        "price": "$25.00",
-        "start_date": "2026-03-19T15:00:00.000Z",
-        "end_date": "2026-03-26T15:00:00.000Z"
       }
     ],
     "mystery_detected": false
   },
   "items": [
     {
-      "id": "https://store.epicgames.com/p/cozy-grove",
-      "title": "GRÁTIS: Cozy Grove",
-      "original_title": "Cozy Grove",
-      "image": "https://cdn1.epicgames.com/768ec2d3b5114ac4a800631b12ee3f31/offer/CG-2560x1440-570add3e55ecf729bd4f3a221ca7927a.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Free Games",
-      "date": "2026-03-19",
-      "summary": "Bem-vindo ao Cosy Grove, um jogo de simulação de vida sobre acampar em uma ilha assombrada e em constante mudança. Como Spirit Scout, você passeará pela floresta da ilha todos os dias, descobrindo novos segredos escondidos e ajudando a acalmar os fantasmas locais.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/cozy-grove"
-    },
-    {
-      "id": "https://store.epicgames.com/p/isonzo-2",
-      "title": "GRÁTIS: Isonzo",
-      "original_title": "Isonzo",
-      "image": "https://cdn1.epicgames.com/offer/30de69013f3b41b0ba594a8ef3b693ba/EGS_Isonzo_BlackMillGames_S1_2560x1440-c45b9d495ea324c69ad872aeccc9fb7d",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Free Games",
-      "date": "2026-03-19",
-      "summary": "A feroz guerra alpina testará suas habilidades táticas neste autêntico FPS da 1ª Guerra Mundial. Lute entre os picos pitorescos, vales escarpados e cidades idílicas do norte da Itália. A Grande Guerra na Frente Italiana ganha vida e é elevada a alturas inesperadas!",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/isonzo-2"
-    },
-    {
       "id": "https://store.epicgames.com/p/d4645b0dc574438e95d20c6a31d3a0f7",
-      "title": "EM BREVE: Electrician Simulator",
+      "title": "GRÁTIS: Electrician Simulator",
       "original_title": "Electrician Simulator",
       "image": "https://cdn1.epicgames.com/spt-assets/d0be4faac92a49ebae039c0e0d386e42/electrician-simulator-1j17y.jpg",
       "source_count": 1,
       "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-03-19",
-      "summary": "Disponível gratuitamente a partir de 19/03. Assuma o papel de eletricista e aprenda os fundamentos da profissão! Instale tomadas, conserte equipamentos desgastados, monte eletrodomésticos quebrados, substitua lâmpadas e instale fios nas casas de seus clientes. Não se esqueça de verificar tudo duas vezes, com eletricidade não há brincadeira!",
+      "category": "Free Games",
+      "date": "2026-03-20",
+      "summary": "Assuma o papel de eletricista e aprenda os fundamentos da profissão! Instale tomadas, conserte equipamentos desgastados, monte eletrodomésticos quebrados, substitua lâmpadas e instale fios nas casas de seus clientes. Não se esqueça de verificar tudo duas vezes, com eletricidade não há brincadeira!",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/d4645b0dc574438e95d20c6a31d3a0f7"
+    },
+    {
+      "id": "https://store.epicgames.com/p/world-of-warships-tachibana-lima-pack",
+      "title": "GRÁTIS: World of Warships — Epic Anniversary Tachibana Pack",
+      "original_title": "World of Warships — Epic Anniversary Tachibana Pack",
+      "image": "https://cdn1.epicgames.com/spt-assets/4eb4296fe40e4130a61adbf2d6b34586/world-of-warships-1ahdf.png",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Free Games",
+      "date": "2026-03-20",
+      "summary": "Obtenha um contratorpedeiro japonês Premium e algumas camuflagens permanentes da Epic para comemorar nosso 5º ano na Epic Games Store.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/world-of-warships-tachibana-lima-pack"
     },
     {
       "id": "https://store.epicgames.com/p/a9152a8924cc4e438f0e61106ec02f7d",
@@ -146,7 +122,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-03-19",
+      "date": "2026-03-20",
       "summary": "Disponível gratuitamente a partir de 30/03. Eternal Threads é um jogo de quebra-cabeça para um jogador, em primeira pessoa, baseado em uma história de manipulação, escolha e consequência do tempo.",
       "sources": [
         "Epic Games Store"
@@ -161,8 +137,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-03-19",
-      "summary": "Disponível gratuitamente a partir de 30/03. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cibernética.",
+      "date": "2026-03-20",
+      "summary": "Disponível gratuitamente a partir de 30/03. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
       "sources": [
         "Epic Games Store"
       ],
@@ -176,7 +152,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-03-19",
+      "date": "2026-03-20",
       "summary": "Disponível gratuitamente a partir de 30/03. A Coleção de Aniversário de Castlevania da Konami traça as origens da histórica franquia de vampiros. Está incluído um e-book exclusivo com detalhes fornecidos por desenvolvedores, artistas e outros inspirados no legado de Castlevania, que lança uma nova luz sobre o mundo de Castlevania.",
       "sources": [
         "Epic Games Store"
@@ -191,12 +167,27 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-03-19",
+      "date": "2026-03-20",
       "summary": "Disponível gratuitamente a partir de 30/03. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/monument-valley-02"
+    },
+    {
+      "id": "https://store.epicgames.com/p/39e8285c09224707ab83d5c256e9b41b",
+      "title": "EM BREVE: Hyper Echelon",
+      "original_title": "Hyper Echelon",
+      "image": "https://cdn1.epicgames.com/spt-assets/866f5f0834324794a87759b5f4854636/hyper-echelon-13b9q.png",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-03-20",
+      "summary": "Disponível gratuitamente a partir de 26/03. A Galáxia Ciana está em perigo! Seu confiável pequeno lutador estelar e seu esquadrão de alas são a única esperança contra o malvado EXODON! Suba de nível de atirador de ervilhas a uma potência ofensiva enquanto se envolve em combates frenéticos em muitos locais maravilhosos.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/39e8285c09224707ab83d5c256e9b41b"
     },
     {
       "id": "https://store.epicgames.com/p/454bc0b5893f46a885bd86a6589ee67a",
@@ -206,7 +197,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-03-19",
+      "date": "2026-03-20",
       "summary": "Disponível gratuitamente a partir de 26/03. Respire com calma e prospere neste aconchegante simulador de colônia. Construa um refúgio para náufragos, gerencie recursos, viva sua melhor vida no oceano. Leve seu humilde assentamento para uma sociedade de alta tecnologia.",
       "sources": [
         "Epic Games Store"
@@ -214,19 +205,229 @@
       "url": "https://store.epicgames.com/p/454bc0b5893f46a885bd86a6589ee67a"
     },
     {
-      "id": "https://store.epicgames.com/p/world-of-warships-tachibana-lima-pack",
-      "title": "EM BREVE: World of Warships — Epic Anniversary Tachibana Pack",
-      "original_title": "World of Warships — Epic Anniversary Tachibana Pack",
-      "image": "https://cdn1.epicgames.com/spt-assets/4eb4296fe40e4130a61adbf2d6b34586/world-of-warships-1ahdf.png",
+      "id": "https://www.eurogamer.net/crimson-desert-hype-mixed-steam-reviews-high-player-counts-disjointed-graphics",
+      "title": "Depois de semanas de hype, Crimson Desert estreia com grande número de jogadores, mas com análises \"mistas\" do Steam, citando \"gráficos desconexos\", gatos adoráveis, interface de usuário \"horrível\" e muito mais",
+      "original_title": "After weeks of hype, Crimson Desert debuts to high player counts but \"Mixed\" Steam reviews, citing \"disjointed graphics\", lovable cats, \"awful\" UI and more",
+      "image": "https://assetsio.gnwcdn.com/Kliff-in-Crimson-Desert.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-03-19",
-      "summary": "Disponível gratuitamente a partir de 19/03. Obtenha um contratorpedeiro japonês Premium e algumas camuflagens permanentes da Epic para comemorar nosso 5º ano na Epic Games Store.",
+      "category": "News",
+      "date": "2026-03-20",
+      "summary": "O grande spin-off de RPG para um jogador de Pearl Abyss, Crimson Desert, foi lançado ontem à noite e teve uma estreia um tanto instável após semanas de antecipação.  Leia mais...",
       "sources": [
-        "Epic Games Store"
+        "Eurogamer"
       ],
-      "url": "https://store.epicgames.com/p/world-of-warships-tachibana-lima-pack"
+      "url": "https://www.eurogamer.net/crimson-desert-hype-mixed-steam-reviews-high-player-counts-disjointed-graphics"
+    },
+    {
+      "id": "https://www.eurogamer.net/crimson-desert-players-annoyed-clunky-controls-asking-for-launch-day-refunds",
+      "title": "“Eu realmente pensei que meu controle não estava funcionando” – os jogadores do Crimson Desert estão ficando tão irritados com seus controles desajeitados que estão pedindo reembolso no dia do lançamento",
+      "original_title": "\"I genuinely thought my controller wasn't working\" - Crimson Desert players are getting so annoyed with its clunky controls they're asking for launch day refunds",
+      "image": "https://assetsio.gnwcdn.com/Crimson-Desert-launch-trailer-screen.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-03-20",
+      "summary": "Com o lançamento de Crimson Desert finalmente chegando ontem à noite, uma enorme onda de jogadores se lançou ao RPG de mundo aberto. No entanto, embora certamente haja muitos por aí se divertindo, outros estão enfrentando um grande problema com Pearl...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/crimson-desert-players-annoyed-clunky-controls-asking-for-launch-day-refunds"
+    },
+    {
+      "id": "https://www.techpowerup.com/347573/asrock-launches-pg27ffs2e-pg27ffs2e-w-pg27ffs1a-gaming-monitors",
+      "title": "(PR) ASRock lança monitores de jogos PG27FFS2E / PG27FFS2E-W / PG27FFS1A",
+      "original_title": "(PR) ASRock Launches PG27FFS2E / PG27FFS2E-W / PG27FFS1A Gaming Monitors",
+      "image": "https://tpucdn.com/img/3EjlUaj3RoJYZjKq_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-03-20",
+      "summary": "ASRock, fabricante líder global de placas-mãe, placas gráficas, mini PCs, monitores de jogos, fontes de alimentação e AIOs, anunciou hoje o lançamento de seus mais recentes monitores Phantom Gaming: PG27FFS2E, PG27FFS2E-W e PG27FFS1A. Estes FH de 27 polegadas...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/347573/asrock-launches-pg27ffs2e-pg27ffs2e-w-pg27ffs1a-gaming-monitors"
+    },
+    {
+      "id": "https://www.techpowerup.com/347572/asus-republic-of-gamers-announces-rog-cetra-open-wireless-earbuds",
+      "title": "(PR) ASUS Republic of Gamers anuncia fones de ouvido sem fio ROG Cetra Open",
+      "original_title": "(PR) ASUS Republic of Gamers Announces ROG Cetra Open Wireless Earbuds",
+      "image": "https://tpucdn.com/img/eltmsWgYBYkwr68W_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-03-20",
+      "summary": "A ASUS Republic of Gamers anunciou hoje os fones de ouvido ROG Cetra Open Wireless. Projetados para fornecer áudio envolvente com consciência situacional do mundo real, os fones de ouvido Cetra Open Wireless são ideais para jogos, música e estilos de vida ativos. O modo duplo ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/347572/asus-republic-of-gamers-announces-rog-cetra-open-wireless-earbuds"
+    },
+    {
+      "id": "https://www.techpowerup.com/347569/gigabyte-intros-z890-d-plus-motherboard-leanest-feature-set-for-a-z890-based-board",
+      "title": "GIGABYTE apresenta placa-mãe Z890 D Plus – conjunto de recursos mais simples para uma placa baseada em Z890",
+      "original_title": "GIGABYTE Intros Z890 D Plus Motherboard—Leanest Feature-set for a Z890-based Board",
+      "image": "https://tpucdn.com/img/JgriYUifR6we9d4I_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-03-20",
+      "summary": "Pouco depois de anunciar as placas-mãe Z890 AORUS Elite WIFI7 Plus e Z890 Eagle WIFI7 Plus sincronizadas com a atualização Core Ultra 200S Plus da Intel, a GIGABYTE apresentou o que poderia muito bem ser a placa-mãe baseada no chipset Intel Z890 com o design enxuto...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/347569/gigabyte-intros-z890-d-plus-motherboard-leanest-feature-set-for-a-z890-based-board"
+    },
+    {
+      "id": "https://www.techpowerup.com/347568/heroad-unleashes-a-new-era-of-gaming-professional-grade-gear-meets-unbeatable-value",
+      "title": "(PR) Heroad desencadeia uma nova era de jogos: equipamentos de nível profissional atendem a um valor imbatível",
+      "original_title": "(PR) Heroad Unleashes a New Era of Gaming: Professional-Grade Gear Meets Unbeatable Value",
+      "image": "https://tpucdn.com/img/EEbWAohlZMbLnvQt_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-03-20",
+      "summary": "A QCY tem o orgulho de anunciar o lançamento oficial da HEROAD, uma nova marca disruptiva de e-sports dedicada a redefinir o cenário competitivo. Construído com base na filosofia central de \"Para Gamers. Para Vencedores\", o HEROAD chega para preencher a lacuna de longa data entre...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/347568/heroad-unleashes-a-new-era-of-gaming-professional-grade-gear-meets-unbeatable-value"
+    },
+    {
+      "id": "https://www.techpowerup.com/347565/amd-fsr-4-1-update-brings-sharper-details-smoother-camera-motion-and-better-perfomance",
+      "title": "A atualização AMD FSR 4.1 traz detalhes mais nítidos, movimento de câmera mais suave e melhor desempenho",
+      "original_title": "AMD FSR 4.1 Update Brings Sharper Details, Smoother Camera Motion, and Better Perfomance",
+      "image": "https://tpucdn.com/img/rUJJ0QF93IIaZf4u_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-03-20",
+      "summary": "Com o mais recente Adrenalin Edition 26.3.1 WHQL, a AMD introduziu uma versão atualizada de sua tecnologia de upscaling FSR 4.1 para as placas gráficas da série Radeon RX 9000. A atualização mais recente se concentra em várias melhorias importantes de qualidade que os jogadores da AMD há muito tempo...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/347565/amd-fsr-4-1-update-brings-sharper-details-smoother-camera-motion-and-better-perfomance"
+    },
+    {
+      "id": "https://www.techpowerup.com/347564/supermicro-ceo-charged-with-breach-of-nvidia-ai-gpu-export-controls-to-china",
+      "title": "CEO da Supermicro acusado de violação dos controles de exportação de GPU NVIDIA AI para a China",
+      "original_title": "Supermicro CEO Charged with Breach of NVIDIA AI GPU Export Controls to China",
+      "image": "https://tpucdn.com/img/yJ0uHd2Ab0o0ksXu_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-03-20",
+      "summary": "A Supermicro é uma marca bem conhecida nos setores de servidores e datacenters como fornecedora de hardware de servidor, como placas-mãe, chassis para montagem em rack e até mesmo servidores totalmente construídos. A CNN relata que seu cofundador e CEO, Yih-Shyan \"Wally\" Liaw, junto com...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/347564/supermicro-ceo-charged-with-breach-of-nvidia-ai-gpu-export-controls-to-china"
+    },
+    {
+      "id": "https://www.techpowerup.com/347553/early-crimson-desert-reviews-cast-doubt-on-hyped-open-world-adventure-game",
+      "title": "As primeiras críticas do Crimson Desert lançam dúvidas sobre o sensacional jogo de aventura em mundo aberto",
+      "original_title": "Early Crimson Desert Reviews Cast Doubt on Hyped Open-World Adventure Game",
+      "image": "https://tpucdn.com/img/NTaB3o1IAGcFxo2C_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-03-20",
+      "summary": "Crimson Desert acaba de ser lançado nos consoles PC, PlayStation e Xbox, após anos de espera e meses de expectativa até o lançamento. Infelizmente, o lançamento do jogo parece ter sido mais polêmico do que Pearl Abyss previu. O primeiro ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/347553/early-crimson-desert-reviews-cast-doubt-on-hyped-open-world-adventure-game"
+    },
+    {
+      "id": "https://www.techpowerup.com/347554/amd-releases-adrenalin-edition-26-3-1-whql-drivers",
+      "title": "AMD lança drivers Adrenalin Edition 26.3.1 WHQL",
+      "original_title": "AMD Releases Adrenalin Edition 26.3.1 WHQL Drivers",
+      "image": "https://tpucdn.com/img/p8QXUu5R8T6djweq_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-03-20",
+      "summary": "A AMD lançou Adrenalin Edition 26.3.1 WHQL, adicionando suporte de jogo para Crimson Desert e Death Stranding 2: On the Beach, junto com suporte FSR Upscaling 4.1 para placas da série Radeon RX 9000. No lado da correção de bugs, quatro problemas foram resolvidos: um Cyberpu...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/347554/amd-releases-adrenalin-edition-26-3-1-whql-drivers"
+    },
+    {
+      "id": "https://www.eurogamer.net/esrb-pegi-age-rating-changes",
+      "title": "“Pode ser confuso” – as classificações etárias dos jogos nos EUA não mudarão como na Europa, diz ESRB",
+      "original_title": "\"It could be confusing\" - US game age ratings won't change like they will in Europe, ESRB says",
+      "image": "https://assetsio.gnwcdn.com/esrb-ratings.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-03-19",
+      "summary": "O órgão de classificação etária dos EUA, ESRB, disse que não seguirá o exemplo do PEGI na Europa e começará a levar em consideração elementos como itens aleatórios pagos ao determinar a classificação etária de um jogo. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/esrb-pegi-age-rating-changes"
+    },
+    {
+      "id": "https://www.eurogamer.net/ubisoft-reportedly-shrinks-tom-clancy-studio-red-storm-entertainment-laying-off-105-staff",
+      "title": "Ubisoft supostamente encolhe o estúdio de Tom Clancy, Red Storm Entertainment, demitindo 105 funcionários",
+      "original_title": "Ubisoft reportedly shrinks Tom Clancy studio Red Storm Entertainment, laying off 105 staff",
+      "image": "https://assetsio.gnwcdn.com/61166bd10d253c389c2e3020-1.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-03-19",
+      "summary": "Red Storm Entertainment – ​​o famoso estúdio de desenvolvimento de jogos por trás da série de jogos Ghost Recon – foi supostamente transferido para uma função de suporte técnico pela Ubisoft. Como resultado, 105 desenvolvedores perderam seus empregos. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/ubisoft-reportedly-shrinks-tom-clancy-studio-red-storm-entertainment-laying-off-105-staff"
+    },
+    {
+      "id": "https://www.eurogamer.net/kena-bridge-of-spirits-gets-a-switch-2-release-and-its-coming-very-very-soon",
+      "title": "O atordoador visual Kena: Bridge of Spirits recebe uma data de lançamento do Switch 2 e está chegando muito, muito em breve",
+      "original_title": "Visual stunner Kena: Bridge of Spirits gets a Switch 2 release date, and it's coming very, very soon",
+      "image": "https://assetsio.gnwcdn.com/Kena-and-her-cute-rot-pals-in-Bridge-of-Spirits.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-03-19",
+      "summary": "O premiado jogo indie Kena: Bridge of Spirits fará sua estreia no Switch 2 ainda este mês. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/kena-bridge-of-spirits-gets-a-switch-2-release-and-its-coming-very-very-soon"
+    },
+    {
+      "id": "https://www.eurogamer.net/vampire-survivors-deck-building-spin-off-vampire-crawlers-arrives-next-month",
+      "title": "O spin-off de construção de deck de Vampire Survivors, Vampire Crawlers, chega no próximo mês",
+      "original_title": "Vampire Survivors' deck-building spin-off Vampire Crawlers arrives next month",
+      "image": "https://assetsio.gnwcdn.com/Vampire-Crawlers.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-03-19",
+      "summary": "O tão aguardado spin-off de construção de deck de Vampire Survivors, Vampire Crawlers, ganhou uma data de lançamento. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/vampire-survivors-deck-building-spin-off-vampire-crawlers-arrives-next-month"
+    },
+    {
+      "id": "https://www.eurogamer.net/marathon-500-million-uesc-cryo-archive-map",
+      "title": "Os jogadores da maratona devem destruir 500 milhões de robôs UESC para desbloquear o mapa Cryo Archive, e isso pode não demorar tanto quanto você imagina",
+      "original_title": "Marathon players must blast through 500 million UESC robots to unlock the Cryo Archive map, and it may not take as long as you'd think",
+      "image": "https://assetsio.gnwcdn.com/marathon-shells-4.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-03-19",
+      "summary": "A saga Cryo Archive da Marathon atingiu seu estágio final, sendo necessária mais uma etapa até que os jogadores possam mergulhar no quarto e último mapa do jogo. Embora esta última tarefa não seja um quebra-cabeça selvagem que exija que muitas mentes sejam decifradas, como vimos no ARG, eu...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/marathon-500-million-uesc-cryo-archive-map"
     },
     {
       "id": "https://www.eurogamer.net/life-is-strange-tv-series-lands-yellowjackets-and-jennifers-body-director-for-first-episodes",
@@ -274,259 +475,34 @@
       "url": "https://www.eurogamer.net/tomb-raider-remastered-studio-denies-using-generative-ai-after-new-challenge-mode-gets-panned-by-players"
     },
     {
-      "id": "https://www.eurogamer.net/tomb-raider-studio-hit-with-fourth-round-of-layoffs-in-12-months-but-remake-and-catalyst-development-continues",
-      "title": "O estúdio Tomb Raider atingiu a quarta rodada de demissões em 12 meses, mas o desenvolvimento do remake e do Catalyst continua",
-      "original_title": "Tomb Raider studio hit with fourth round of layoffs in 12 months, but remake and Catalyst development continues",
-      "image": "https://assetsio.gnwcdn.com/Tomb-Raider-Legacy-of-Atlantis-image-showing-Lara-Croft-looking-out-over-a-vast-lush-landscape.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.techpowerup.com/347551/reinstated-unknown-worlds-ceo-bashes-leaked-subnautica-2-may-early-access-launch-memo",
+      "title": "CEO reintegrado do Unknown Worlds Bashes Leaked Subnautica 2 de maio Memo de lançamento de acesso antecipado",
+      "original_title": "Reinstated Unknown Worlds CEO Bashes Leaked Subnautica 2 May Early Access Launch Memo",
+      "image": "https://tpucdn.com/img/wEG23Q9KV7lQhieU_thm.jpg",
       "source_count": 1,
       "reliability": "High",
-      "category": "News",
+      "category": "Rumor",
       "date": "2026-03-19",
-      "summary": "A Crystal Dynamics anunciou outra onda de demissões. Esta é a quarta rodada de demissões em 12 meses para o estúdio Tomb Raider. Leia mais...",
+      "summary": "Foi recentemente revelado que Krafton foi forçado a reintegrar Ted Gill, o ex-CEO deposto da Unknown Worlds, depois que uma decisão judicial concluiu que ele foi demitido sem justa causa e assumiu indevidamente o controle operacional da Unknown Worlds. Ao redor do...",
       "sources": [
-        "Eurogamer"
+        "TechPowerUp"
       ],
-      "url": "https://www.eurogamer.net/tomb-raider-studio-hit-with-fourth-round-of-layoffs-in-12-months-but-remake-and-catalyst-development-continues"
+      "url": "https://www.techpowerup.com/347551/reinstated-unknown-worlds-ceo-bashes-leaked-subnautica-2-may-early-access-launch-memo"
     },
     {
-      "id": "https://www.eurogamer.net/remembering-pokemon-uranium-fan-game-lives-on-10-years-later",
-      "title": "“Estranhamente, tornou-se a primeira entrada de algumas pessoas na franquia” Relembrando Pokémon Uranium: o polêmico fan game que continua vivo, 10 anos depois",
-      "original_title": "\"Strangely, it became some people's first entry to the franchise\" Remembering Pokémon Uranium: the controversial fan game that lives on, 10 years later",
-      "image": "https://assetsio.gnwcdn.com/uranium.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-03-19",
-      "summary": "No mês passado, Pokémon comemorou seu 30º aniversário. A franquia, um rolo compressor dos videogames e da cultura pop, perdura há gerações graças aos seus jogos que celebram a conexão, o companheirismo e a competição. Mas ao longo da vida da série, ...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/remembering-pokemon-uranium-fan-game-lives-on-10-years-later"
-    },
-    {
-      "id": "https://www.eurogamer.net/marathons-ranked-system-explained-math-test",
-      "title": "O sistema de classificação do Marathon está se mostrando um pouco complicado para alguns, então a Bungie lançou... um teste de matemática?",
-      "original_title": "Marathon's ranked system is proving a bit complicated for some, so Bungie released... a maths test?",
-      "image": "https://assetsio.gnwcdn.com/maths.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-03-19",
-      "summary": "Com a Bungie divulgando detalhes sobre o próximo modo classificado do Marathon, que será adicionado em questão de dias, alguns responderam confusos sobre como ele realmente funciona. Para ajudar, a Bungie lançou um recurso realmente terrível para ajudar: um teste de matemática. Rea...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/marathons-ranked-system-explained-math-test"
-    },
-    {
-      "id": "https://www.eurogamer.net/pearl-abyss-shares-tumble-after-crimson-desert-fails-to-meet-expectations",
-      "title": "As ações da Pearl Abyss caem depois que Crimson Desert não atende às expectativas",
-      "original_title": "Pearl Abyss shares tumble after Crimson Desert fails to meet expectations",
-      "image": "https://assetsio.gnwcdn.com/Kliff-from-Crimson-Desert-during-a-sword-fight.webp?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-03-19",
-      "summary": "As ações da Pearl Abyss caíram quase 30 por cento logo depois que as análises do Crimson Desert foram ao ar na noite passada. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/pearl-abyss-shares-tumble-after-crimson-desert-fails-to-meet-expectations"
-    },
-    {
-      "id": "https://www.techpowerup.com/347538/ek-by-lm-tek-launches-ek-pro-gpu-water-block-for-nvidia-h200-nvl",
-      "title": "(PR) EK by LM TEK lança bloco de água de GPU EK-Pro para NVIDIA H200 NVL",
-      "original_title": "(PR) EK by LM TEK Launches EK-Pro GPU Water Block for NVIDIA H200 NVL",
-      "image": "https://tpucdn.com/img/Aii5SVjtoWg0fLRZ_thm.jpg",
+      "id": "https://www.techpowerup.com/347550/intel-arc-pro-b70-b65-battlemage-gpus-to-launch-march-25-with-32-gb-ecc-vram",
+      "title": "GPUs Intel Arc Pro B70 e B65 Battlemage serão lançadas em 25 de março com 32 GB ECC VRAM",
+      "original_title": "Intel Arc Pro B70, B65 Battlemage GPUs To Launch March 25 With 32 GB ECC VRAM",
+      "image": "https://tpucdn.com/img/Ipq7mqnfR9TPNoJE_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-03-19",
-      "summary": "EK by LM TEK tem o orgulho de anunciar o EK-Pro GPU WB H200 NVL, um water block de GPU de cobertura total de alto desempenho projetado para NVIDIA H200 NVL. Projetado para implantações de servidores de IA de alta densidade e ambientes de data center, o bloco apresenta um único...",
+      "summary": "As GPUs Battlemage BGM-G31 da Intel já apareceram em vazamentos e rumores antes, embora a data exata de lançamento fosse desconhecida. Agora, porém, de acordo com VideoCardz, a Intel lançará o Arc B70 Pro e B65 Pro já em 25 de março.",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/347538/ek-by-lm-tek-launches-ek-pro-gpu-water-block-for-nvidia-h200-nvl"
-    },
-    {
-      "id": "https://www.techpowerup.com/347537/sharkoon-releases-s100-argb-all-in-one-cpu-cooler",
-      "title": "(PR) Sharkoon lança cooler para CPU multifuncional S100 ARGB",
-      "original_title": "(PR) Sharkoon Releases S100 ARGB All-in-One CPU Cooler",
-      "image": "https://tpucdn.com/img/bzFqpEkA98cJBof3_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-03-19",
-      "summary": "O S100 ARGB da Sharkoon é um sistema de refrigeração líquida completo com radiador de 360 ​​mm e combina aparência impressionante com forte desempenho de refrigeração. A unidade de bomba extra grande com efeito de espelho infinito cria um jogo de luz único, enquanto ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/347537/sharkoon-releases-s100-argb-all-in-one-cpu-cooler"
-    },
-    {
-      "id": "https://www.techpowerup.com/347536/silicon-power-launches-enterprise-grade-ddr5-rdimm-for-ai-workloads",
-      "title": "(PR) Silicon Power lança RDIMM DDR5 de nível empresarial para cargas de trabalho de IA",
-      "original_title": "(PR) Silicon Power Launches Enterprise-Grade DDR5 RDIMM for AI Workloads",
-      "image": "https://tpucdn.com/img/qrNSxKJFzLX48oUf_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-03-19",
-      "summary": "Silicon Power (SP) anuncia o lançamento de seu mais recente módulo DDR5 RDIMM, desenvolvido especificamente para atender às crescentes demandas de data centers corporativos e ambientes de computação orientados por IA. Projetado com chips DRAM originais de alta qualidade, o novo módulo oferece...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/347536/silicon-power-launches-enterprise-grade-ddr5-rdimm-for-ai-workloads"
-    },
-    {
-      "id": "https://www.techpowerup.com/347535/the-kiiboom-phantom98-lite-blends-style-and-function",
-      "title": "(PR) O KiiBOOM Phantom98 Lite combina estilo e função",
-      "original_title": "(PR) The KiiBOOM Phantom98 Lite Blends Style and Function",
-      "image": "https://tpucdn.com/img/cNFyTKBhMhMvnioG_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-03-19",
-      "summary": "Mais do que apenas uma forma de digitar, o KiiBOOM Phantom98 Lite é uma atualização para toda a experiência de desktop dos usuários. Com seu layout cuidadoso, design de teclas, sensação de digitação premium e fluxo contínuo de vários dispositivos, este teclado transforma a entrada diária em ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/347535/the-kiiboom-phantom98-lite-blends-style-and-function"
-    },
-    {
-      "id": "https://www.techpowerup.com/347534/opera-gx-gaming-browser-lands-on-linux-after-community-demand",
-      "title": "(PR) Navegador de jogos Opera GX chega ao Linux após demanda da comunidade",
-      "original_title": "(PR) Opera GX Gaming Browser Lands on Linux After Community Demand",
-      "image": "https://tpucdn.com/img/q9c3RZ0eb8msaPqN_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-03-19",
-      "summary": "Opera GX agora está no Linux. O navegador de jogos da empresa norueguesa Opera agora traz controles de desempenho exclusivos, integrações de jogos e opções incomparáveis ​​de personalização para a plataforma. A demanda por uma versão Linux do Opera GX atingiu um...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/347534/opera-gx-gaming-browser-lands-on-linux-after-community-demand"
-    },
-    {
-      "id": "https://www.techpowerup.com/347533/strong-ai-momentum-to-drive-24-8-growth-in-foundry-revenue-in-2026",
-      "title": "(PR) Forte impulso de IA para impulsionar crescimento de 24,8% na receita de fundição em 2026",
-      "original_title": "(PR) Strong AI Momentum to Drive 24.8% Growth in Foundry Revenue in 2026",
-      "image": "https://tpucdn.com/img/Ey2rXx5oF0yf7CN3_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-03-19",
-      "summary": "A pesquisa mais recente da TrendForce sobre a indústria de fundição revela que o investimento contínuo na corrida armamentista de IA por parte de CSPs e startups de IA norte-americanos manterá forte a demanda por processadores de IA e ICs de suporte em 2026. A receita global de fundição é projetada...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/347533/strong-ai-momentum-to-drive-24-8-growth-in-foundry-revenue-in-2026"
-    },
-    {
-      "id": "https://www.techpowerup.com/347532/counter-strike-2-changes-decades-old-magazine-reloading-rule",
-      "title": "Counter-Strike 2 muda regra de recarga de revistas de décadas atrás",
-      "original_title": "Counter-Strike 2 Changes Decades-Old Magazine Reloading Rule",
-      "image": "https://tpucdn.com/img/iXEHzMapoNoBX4lJ_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-03-19",
-      "summary": "Se você é um jogador de Counter-Strike de longa data, sabe como funciona o recarregamento de revistas. Sempre que você recarregasse em um jogo de Counter-Strike, qualquer munição restante de seu carregador seria devolvida ao seu estoque de reserva. No entanto, a Valve agora está mudando...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/347532/counter-strike-2-changes-decades-old-magazine-reloading-rule"
-    },
-    {
-      "id": "https://www.techpowerup.com/347530/intel-supplies-core-ultra-200hx-plus-in-limited-quantities-to-laptop-makers",
-      "title": "Intel fornece Core Ultra 200HX Plus em quantidades limitadas para fabricantes de laptops",
-      "original_title": "Intel Supplies Core Ultra 200HX Plus in Limited Quantities to Laptop Makers",
-      "image": "https://tpucdn.com/img/CpToGJLKtQrD5Xv8_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-03-19",
-      "summary": "Os laptops equipados com os mais recentes processadores móveis Core Ultra 200HX Plus da Intel não chegarão todos de uma vez, mas serão lançados em etapas, de acordo com a PC World. A Intel está fornecendo esses chips a seus parceiros OEM em ondas. Alguns OEMs estão recebendo t...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/347530/intel-supplies-core-ultra-200hx-plus-in-limited-quantities-to-laptop-makers"
-    },
-    {
-      "id": "https://www.techpowerup.com/347525/sony-to-rebrand-playstation-network-in-late-2026",
-      "title": "Sony mudará a marca da PlayStation Network no final de 2026",
-      "original_title": "Sony To Rebrand PlayStation Network in Late 2026",
-      "image": "https://tpucdn.com/img/55fhCXInEvlcPV9N_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-03-19",
-      "summary": "De acordo com o Insider Gaming, a Sony em breve mudará a marca da marca PlayStation Network, incluindo \"PSN\", até setembro de 2026. Esta notícia chega por meio de um e-mail enviado aos desenvolvedores em preparação para a mudança de marca - provavelmente como uma forma de garantir que...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/347525/sony-to-rebrand-playstation-network-in-late-2026"
-    },
-    {
-      "id": "https://www.techpowerup.com/347524/gnome-50-ditches-x11-but-launches-with-improved-color-management-native-fractional-scaling-and-vrr-support",
-      "title": "GNOME 50 abandona o X11, mas é lançado com gerenciamento de cores aprimorado, escala fracionária nativa e suporte VRR",
-      "original_title": "GNOME 50 Ditches X11 but Launches With Improved Color Management, Native Fractional Scaling, and VRR Support",
-      "image": "https://tpucdn.com/img/hS88wbR3AWVLxyUO_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-03-19",
-      "summary": "Antes do lançamento oficial, o Gnome 50 foi visualizado em beta por meio de distribuições como o Fedora 44 beta, mas a versão atualizada do ambiente de desktop, apelidada de Tóquio, foi lançada oficialmente em formato estável, trazendo consigo uma série de...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/347524/gnome-50-ditches-x11-but-launches-with-improved-color-management-native-fractional-scaling-and-vrr-support"
-    },
-    {
-      "id": "https://www.eurogamer.net/crimson-desert-review",
-      "title": "Crítica do Deserto Carmesim",
-      "original_title": "Crimson Desert review",
-      "image": "https://assetsio.gnwcdn.com/Crimson-Desert-review-1.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-03-18",
-      "summary": "O Deserto Carmesim é grande. Acontece que é tão grande que este jogo de mundo aberto requer não uma, mas três telas de carregamento. A primeira é uma barra simples de carregamento de shaders e similares; o segundo leva você para um reino em blocos com uma estrela cintilante sentada em ...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/crimson-desert-review"
-    },
-    {
-      "id": "https://www.eurogamer.net/tower-defence-game-tangy-td-goes-viral",
-      "title": "O jogo de defesa de torre Tangy TD faturou mais de US$ 250 mil desde o lançamento no início de março no Steam, fazendo com que seu desenvolvedor solo já chorasse duas vezes",
-      "original_title": "Tower defence game Tangy TD has made over $250k since an early March launch on Steam, prompting its solo dev to burst into tears twice already",
-      "image": "https://assetsio.gnwcdn.com/Tangy-TD-gameplay.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-03-18",
-      "summary": "O mundo é um lugar bastante miserável agora, mas pelo menos os videogames são legais. Diante de demissões intermináveis ​​e desperdícios de IA, muitos estúdios e pequenos desenvolvedores continuam a ter sucesso, e às vezes até nos deparamos com algo particularmente saudável...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/tower-defence-game-tangy-td-goes-viral"
-    },
-    {
-      "id": "https://www.eurogamer.net/final-fantasy-9-animated-series-back-in-production",
-      "title": "A série animada Final Fantasy 9, há muito em desenvolvimento, está de volta à produção e parece estar se concentrando em magos negros",
-      "original_title": "The long-in-the-works Final Fantasy 9 animated series is back in production, and it seems to be focusing on black mages",
-      "image": "https://assetsio.gnwcdn.com/Vivi-Magic-the-Gathering.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-03-18",
-      "summary": "Rumores e notícias oficiais de uma série animada de Final Fantasy 9 já existem há anos, mas o projeto simplesmente desapareceu em algum momento, com rumores apontando para que ele fosse totalmente descartado. No final de 2025, novas informações sugeriram que estava de volta...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/final-fantasy-9-animated-series-back-in-production"
+      "url": "https://www.techpowerup.com/347550/intel-arc-pro-b70-b65-battlemage-gpus-to-launch-march-25-with-32-gb-ecc-vram"
     }
   ]
 }
