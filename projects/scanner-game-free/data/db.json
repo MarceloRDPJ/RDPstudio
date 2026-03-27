@@ -1,28 +1,28 @@
 {
-  "last_updated": "2026-03-26T13:16:51",
-  "display_date": "26/03/2026 13:16",
+  "last_updated": "2026-03-27T13:07:20",
+  "display_date": "27/03/2026 13:07",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "202ms",
+    "latency": "145ms",
     "current_games": [
       {
-        "title": "Electrician Simulator",
-        "description": "Assuma o papel de eletricista e aprenda os fundamentos da profissão! Instale tomadas, conserte equipamentos desgastados, monte eletrodomésticos quebrados, substitua lâmpadas e instale fios nas casas de seus clientes. Não se esqueça de verificar tudo duas vezes, com eletricidade não há brincadeira!",
-        "image": "https://cdn1.epicgames.com/spt-assets/d0be4faac92a49ebae039c0e0d386e42/electrician-simulator-1j17y.jpg",
-        "url": "https://store.epicgames.com/p/d4645b0dc574438e95d20c6a31d3a0f7",
-        "price": "$17.99",
-        "start_date": "2026-03-19T15:00:00.000Z",
-        "end_date": "2026-03-26T15:00:00.000Z"
+        "title": "Hyper Echelon",
+        "description": "A Galáxia Ciana está em perigo! Seu confiável pequeno lutador estelar e seu esquadrão de alas são a única esperança contra o malvado EXODON! Suba de nível de atirador de ervilhas a uma potência ofensiva enquanto se envolve em combates frenéticos em muitos locais maravilhosos.",
+        "image": "https://cdn1.epicgames.com/spt-assets/866f5f0834324794a87759b5f4854636/hyper-echelon-13b9q.png",
+        "url": "https://store.epicgames.com/p/39e8285c09224707ab83d5c256e9b41b",
+        "price": "$12.99",
+        "start_date": "2026-03-26T15:00:00.000Z",
+        "end_date": "2026-04-02T15:00:00.000Z"
       },
       {
-        "title": "World of Warships — Epic Anniversary Tachibana Pack",
-        "description": "Obtenha um contratorpedeiro japonês Premium e algumas camuflagens permanentes da Epic para comemorar nosso 5º ano na Epic Games Store.",
-        "image": "https://cdn1.epicgames.com/spt-assets/4eb4296fe40e4130a61adbf2d6b34586/world-of-warships-1ahdf.png",
-        "url": "https://store.epicgames.com/p/world-of-warships-tachibana-lima-pack",
-        "price": "$25.00",
-        "start_date": "2026-03-19T15:00:00.000Z",
-        "end_date": "2026-03-26T15:00:00.000Z"
+        "title": "Havendock",
+        "description": "Respire com calma e prospere neste aconchegante simulador de colônia. Construa um refúgio para náufragos, gerencie recursos, viva sua melhor vida no oceano. Leve seu humilde assentamento para uma sociedade de alta tecnologia.",
+        "image": "https://cdn1.epicgames.com/spt-assets/180018125def4cbabef241f199a79f35/havendock-r2ivl.png",
+        "url": "https://store.epicgames.com/p/454bc0b5893f46a885bd86a6589ee67a",
+        "price": "$19.99",
+        "start_date": "2026-03-26T15:00:00.000Z",
+        "end_date": "2026-04-02T15:00:00.000Z"
       }
     ],
     "upcoming_games": [
@@ -59,8 +59,8 @@
         "image": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
         "url": "https://store.epicgames.com/p/monument-valley-02",
         "price": "$7.99",
-        "start_date": "2026-05-14T15:00:00.000Z",
-        "end_date": "2026-06-11T15:00:00.000Z"
+        "start_date": "2026-03-30T15:00:00.000Z",
+        "end_date": "2026-04-13T15:00:00.000Z"
       },
       {
         "title": "Monument Valley",
@@ -68,60 +68,51 @@
         "image": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
         "url": "https://store.epicgames.com/p/monument-valley-02",
         "price": "$7.99",
-        "start_date": "2026-03-30T15:00:00.000Z",
-        "end_date": "2026-04-13T15:00:00.000Z"
+        "start_date": "2026-05-14T15:00:00.000Z",
+        "end_date": "2026-06-11T15:00:00.000Z"
       },
       {
-        "title": "Hyper Echelon",
-        "description": "A Galáxia Ciana está em perigo! Seu confiável pequeno lutador estelar e seu esquadrão de alas são a única esperança contra o malvado EXODON! Suba de nível de atirador de ervilhas a uma potência ofensiva enquanto se envolve em combates frenéticos em muitos locais maravilhosos.",
-        "image": "https://cdn1.epicgames.com/spt-assets/866f5f0834324794a87759b5f4854636/hyper-echelon-13b9q.png",
-        "url": "https://store.epicgames.com/p/39e8285c09224707ab83d5c256e9b41b",
-        "price": "$12.99",
-        "start_date": "2026-03-26T15:00:00.000Z",
-        "end_date": "2026-04-02T15:00:00.000Z"
-      },
-      {
-        "title": "Havendock",
-        "description": "Respire com calma e prospere neste aconchegante simulador de colônia. Construa um refúgio para náufragos, gerencie recursos, viva sua melhor vida no oceano. Leve seu humilde assentamento para uma sociedade de alta tecnologia.",
-        "image": "https://cdn1.epicgames.com/spt-assets/180018125def4cbabef241f199a79f35/havendock-r2ivl.png",
-        "url": "https://store.epicgames.com/p/454bc0b5893f46a885bd86a6589ee67a",
+        "title": "Clone Drone in the Danger Zone",
+        "description": "Clone Drone in the Danger Zone é um robô voxel slice-em-up onde qualquer parte do seu corpo pode ser cortada. Com sua mente transferida para um robô gladiador, você deve sobreviver às provações sinistras da arena.",
+        "image": "https://cdn1.epicgames.com/spt-assets/2300be8843b24d9a8abaa663a2b544f8/clone-drone-in-the-danger-zone-1cmlu.png",
+        "url": "https://store.epicgames.com/p/4d7e959581394dc4aee2039844753beb",
         "price": "$19.99",
-        "start_date": "2026-03-26T15:00:00.000Z",
-        "end_date": "2026-04-02T15:00:00.000Z"
+        "start_date": "2026-04-02T15:00:00.000Z",
+        "end_date": "2026-04-09T15:00:00.000Z"
       }
     ],
     "mystery_detected": false
   },
   "items": [
     {
-      "id": "https://store.epicgames.com/p/d4645b0dc574438e95d20c6a31d3a0f7",
-      "title": "GRÁTIS: Electrician Simulator",
-      "original_title": "Electrician Simulator",
-      "image": "https://cdn1.epicgames.com/spt-assets/d0be4faac92a49ebae039c0e0d386e42/electrician-simulator-1j17y.jpg",
+      "id": "https://store.epicgames.com/p/39e8285c09224707ab83d5c256e9b41b",
+      "title": "GRÁTIS: Hyper Echelon",
+      "original_title": "Hyper Echelon",
+      "image": "https://cdn1.epicgames.com/spt-assets/866f5f0834324794a87759b5f4854636/hyper-echelon-13b9q.png",
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-03-26",
-      "summary": "Assuma o papel de eletricista e aprenda os fundamentos da profissão! Instale tomadas, conserte equipamentos desgastados, monte eletrodomésticos quebrados, substitua lâmpadas e instale fios nas casas de seus clientes. Não se esqueça de verificar tudo duas vezes, com eletricidade não há brincadeira!",
+      "date": "2026-03-27",
+      "summary": "A Galáxia Ciana está em perigo! Seu confiável pequeno lutador estelar e seu esquadrão de alas são a única esperança contra o malvado EXODON! Suba de nível de atirador de ervilhas a uma potência ofensiva enquanto se envolve em combates frenéticos em muitos locais maravilhosos.",
       "sources": [
         "Epic Games Store"
       ],
-      "url": "https://store.epicgames.com/p/d4645b0dc574438e95d20c6a31d3a0f7"
+      "url": "https://store.epicgames.com/p/39e8285c09224707ab83d5c256e9b41b"
     },
     {
-      "id": "https://store.epicgames.com/p/world-of-warships-tachibana-lima-pack",
-      "title": "GRÁTIS: World of Warships — Epic Anniversary Tachibana Pack",
-      "original_title": "World of Warships — Epic Anniversary Tachibana Pack",
-      "image": "https://cdn1.epicgames.com/spt-assets/4eb4296fe40e4130a61adbf2d6b34586/world-of-warships-1ahdf.png",
+      "id": "https://store.epicgames.com/p/454bc0b5893f46a885bd86a6589ee67a",
+      "title": "GRÁTIS: Havendock",
+      "original_title": "Havendock",
+      "image": "https://cdn1.epicgames.com/spt-assets/180018125def4cbabef241f199a79f35/havendock-r2ivl.png",
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-03-26",
-      "summary": "Obtenha um contratorpedeiro japonês Premium e algumas camuflagens permanentes da Epic para comemorar nosso 5º ano na Epic Games Store.",
+      "date": "2026-03-27",
+      "summary": "Respire com calma e prospere neste aconchegante simulador de colônia. Construa um refúgio para náufragos, gerencie recursos, viva sua melhor vida no oceano. Leve seu humilde assentamento para uma sociedade de alta tecnologia.",
       "sources": [
         "Epic Games Store"
       ],
-      "url": "https://store.epicgames.com/p/world-of-warships-tachibana-lima-pack"
+      "url": "https://store.epicgames.com/p/454bc0b5893f46a885bd86a6589ee67a"
     },
     {
       "id": "https://store.epicgames.com/p/a9152a8924cc4e438f0e61106ec02f7d",
@@ -131,7 +122,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-03-26",
+      "date": "2026-03-27",
       "summary": "Disponível gratuitamente a partir de 30/03. Eternal Threads é um jogo de quebra-cabeça para um jogador, em primeira pessoa, baseado em uma história de manipulação, escolha e consequência do tempo.",
       "sources": [
         "Epic Games Store"
@@ -146,7 +137,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-03-26",
+      "date": "2026-03-27",
       "summary": "Disponível gratuitamente a partir de 30/03. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
       "sources": [
         "Epic Games Store"
@@ -161,7 +152,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-03-26",
+      "date": "2026-03-27",
       "summary": "Disponível gratuitamente a partir de 30/03. A Coleção de Aniversário de Castlevania da Konami traça as origens da histórica franquia de vampiros. Está incluído um e-book exclusivo com detalhes fornecidos por desenvolvedores, artistas e outros inspirados no legado de Castlevania, que lança uma nova luz sobre o mundo de Castlevania.",
       "sources": [
         "Epic Games Store"
@@ -176,8 +167,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-03-26",
-      "summary": "Disponível gratuitamente a partir de 14/05. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
+      "date": "2026-03-27",
+      "summary": "Disponível gratuitamente a partir de 30/03. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
       "sources": [
         "Epic Games Store"
       ],
@@ -191,342 +182,327 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-03-26",
-      "summary": "Disponível gratuitamente a partir de 30/03. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
+      "date": "2026-03-27",
+      "summary": "Disponível gratuitamente a partir de 14/05. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/monument-valley-02"
     },
     {
-      "id": "https://store.epicgames.com/p/39e8285c09224707ab83d5c256e9b41b",
-      "title": "EM BREVE: Hyper Echelon",
-      "original_title": "Hyper Echelon",
-      "image": "https://cdn1.epicgames.com/spt-assets/866f5f0834324794a87759b5f4854636/hyper-echelon-13b9q.png",
+      "id": "https://store.epicgames.com/p/4d7e959581394dc4aee2039844753beb",
+      "title": "EM BREVE: Clone Drone in the Danger Zone",
+      "original_title": "Clone Drone in the Danger Zone",
+      "image": "https://cdn1.epicgames.com/spt-assets/2300be8843b24d9a8abaa663a2b544f8/clone-drone-in-the-danger-zone-1cmlu.png",
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-03-26",
-      "summary": "Disponível gratuitamente a partir de 26/03. A Galáxia Ciana está em perigo! Seu confiável pequeno lutador estelar e seu esquadrão de alas são a única esperança contra o malvado EXODON! Suba de nível de atirador de ervilhas a uma potência ofensiva enquanto se envolve em combates frenéticos em muitos locais maravilhosos.",
+      "date": "2026-03-27",
+      "summary": "Disponível gratuitamente a partir de 02/04. Clone Drone in the Danger Zone é um robô voxel slice-em-up onde qualquer parte do seu corpo pode ser cortada. Com sua mente transferida para um robô gladiador, você deve sobreviver às provações sinistras da arena.",
       "sources": [
         "Epic Games Store"
       ],
-      "url": "https://store.epicgames.com/p/39e8285c09224707ab83d5c256e9b41b"
+      "url": "https://store.epicgames.com/p/4d7e959581394dc4aee2039844753beb"
     },
     {
-      "id": "https://store.epicgames.com/p/454bc0b5893f46a885bd86a6589ee67a",
-      "title": "EM BREVE: Havendock",
-      "original_title": "Havendock",
-      "image": "https://cdn1.epicgames.com/spt-assets/180018125def4cbabef241f199a79f35/havendock-r2ivl.png",
+      "id": "https://www.eurogamer.net/sony-announces-major-price-hikes-for-ps5-ps5-pro-and-portal",
+      "title": "Sony anuncia grandes aumentos de preços para PS5, PS5 Pro e Portal, culpando as “pressões contínuas no cenário econômico global”",
+      "original_title": "Sony announces major price hikes for PS5, PS5 Pro, and Portal as it blames \"continued pressures in the global economic landscape\"",
+      "image": "https://assetsio.gnwcdn.com/ps-price-rise.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-03-26",
-      "summary": "Disponível gratuitamente a partir de 26/03. Respire com calma e prospere neste aconchegante simulador de colônia. Construa um refúgio para náufragos, gerencie recursos, viva sua melhor vida no oceano. Leve seu humilde assentamento para uma sociedade de alta tecnologia.",
+      "category": "News",
+      "date": "2026-03-27",
+      "summary": "A Sony anunciou aumentos de preços significativos para sua linha PlayStation, a partir de 2 de abril, o que verá o custo de um PS5 básico subir cerca de £ 90 no Reino Unido. A empresa está culpando o aumento de preços - que diz estar fazendo \"após uma avaliação cuidadosa...",
       "sources": [
-        "Epic Games Store"
+        "Eurogamer"
       ],
-      "url": "https://store.epicgames.com/p/454bc0b5893f46a885bd86a6589ee67a"
+      "url": "https://www.eurogamer.net/sony-announces-major-price-hikes-for-ps5-ps5-pro-and-portal"
     },
     {
-      "id": "https://www.eurogamer.net/jak-and-daxter-remaster-was-pitched-by-sanzaru-games-years-ago",
-      "title": "O desenvolvedor de Sly Cooper: Thieves in Time, Sanzaru Games, lançou uma remasterização de Jak & Daxter anos atrás, e um pequeno clipe da proposta acaba de ser descoberto",
-      "original_title": "Sly Cooper: Thieves in Time developer Sanzaru Games pitched a Jak & Daxter remaster years ago, and a short clip of the proposal has just been unearthed",
-      "image": "https://assetsio.gnwcdn.com/Jak-%26-Daxter-remaster-test.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/the-super-mario-galaxy-movie-actors-charlie-day-and-chris-pratt-appear-to-confirm-earlier-film-leak",
+      "title": "Os atores do filme Super Mario Galaxy, Charlie Day e Chris Pratt, parecem confirmar o vazamento anterior do filme",
+      "original_title": "The Super Mario Galaxy Movie actors Charlie Day and Chris Pratt appear to confirm earlier film leak",
+      "image": "https://assetsio.gnwcdn.com/Actors-Chris-Pratt-and-Charlie-Day-dressed-up-as-Mario-and-Luigi-on-a-golf-course.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Rumor",
+      "date": "2026-03-27",
+      "summary": "Os atores Chris Pratt e Charlie Day parecem ter confirmado um vazamento anterior do Super Mario Galaxy Movie, ao mesmo tempo que compartilham como pronunciar Mario (é Maaa-rio, aparentemente, não Ma-rio). Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/the-super-mario-galaxy-movie-actors-charlie-day-and-chris-pratt-appear-to-confirm-earlier-film-leak"
+    },
+    {
+      "id": "https://www.eurogamer.net/actor-neil-newbon-avoids-astarion-typecasting",
+      "title": "O ator de Baldur's Gate 3, Neil Newbon, diz que evitou papéis por causa de preocupações com a classificação de Astarion",
+      "original_title": "Baldur's Gate 3 actor Neil Newbon says he's avoided roles over Astarion typecasting concerns",
+      "image": "https://assetsio.gnwcdn.com/astarion_vampires_bg3_baldursgate3.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-03-27",
+      "summary": "Neil Newbon, o premiado ator conhecido por interpretar o vampiro Astarion em Baldur's Gate 3, disse que evitou papéis recentemente porque queria uma repetição da mesma coisa - ou algo parecido. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/actor-neil-newbon-avoids-astarion-typecasting"
+    },
+    {
+      "id": "https://www.eurogamer.net/tomodachi-life-is-exactly-the-kind-of-weird-i-was-hoping-for",
+      "title": "Depois de lançar sua demo gratuita do Switch, a mistura bizarra de The Sims e Animal Crossing de Tomodachi Life é exatamente o tipo de estranheza que eu esperava",
+      "original_title": "After blasting through its free Switch demo, Tomodachi Life's bizarro blend of The Sims and Animal Crossing is exactly the kind of weird I was hoping for",
+      "image": "https://assetsio.gnwcdn.com/tomodachi-life-header-2.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-03-27",
+      "summary": "Tenho certeza de que é apenas uma coincidência, mas a decisão da Nintendo de lançar uma demo do Switch para seu próximo Tomodachi Life: Living the Dream no 15º aniversário do 3DS parece totalmente adequada. Tomodachi Life é provavelmente o jogo 3DS em que mais penso; não...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/tomodachi-life-is-exactly-the-kind-of-weird-i-was-hoping-for"
+    },
+    {
+      "id": "https://www.eurogamer.net/saros-made-easier-than-returnal-creative-director-claims-still-a-very-challenging-game",
+      "title": "Saros ficou mais fácil do que Returnal devido ao feedback dos jogadores, embora o diretor criativo afirme que ainda é “um jogo muito desafiador”.",
+      "original_title": "Saros has been made easier than Returnal due to player feedback, though creative director claims its still \"a very challenging game\"",
+      "image": "https://assetsio.gnwcdn.com/Saros---Pre-Order-Trailer-_-PS5-Games-0-41-screenshot.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-03-27",
+      "summary": "O próximo jogo de tiro roguelike de ficção científica da Housemarque, Saros, aparentemente se tornou substancialmente mais fácil do que o lançamento anterior do desenvolvedor, Returnal, graças à inclusão de salvamentos automáticos desde o salto, bem como vários slots de salvamento. Isso, ao que parece, foi...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/saros-made-easier-than-returnal-creative-director-claims-still-a-very-challenging-game"
+    },
+    {
+      "id": "https://www.eurogamer.net/pearl-abyss-is-approaching-the-idea-of-a-crimson-desert-switch-2-port-with-interest",
+      "title": "Pearl Abyss está abordando a ideia de uma porta Crimson Desert Switch 2 “com interesse”",
+      "original_title": "Pearl Abyss is approaching the idea of a Crimson Desert Switch 2 port \"with interest\"",
+      "image": "https://assetsio.gnwcdn.com/A-person-playing-a-Switch-2-with-an-image-of-Crimson-Desert-overlaid-onto-the-screen.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-03-27",
+      "summary": "A ideia de portar Crimson Desert para o Switch 2 está atualmente sendo discutida por Pearl Abyss, que embora eu não seja um especialista em tecnologia, parece bastante ambicioso para mim. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/pearl-abyss-is-approaching-the-idea-of-a-crimson-desert-switch-2-port-with-interest"
+    },
+    {
+      "id": "https://www.eurogamer.net/amazons-god-of-war-series-finds-its-queen-of-the-valkyries-freya-in-lost-and-for-all-mankind-actress",
+      "title": "A série God of War da Amazon encontra sua Rainha das Valquírias Freya na atriz de Lost and For All Mankind",
+      "original_title": "Amazon's God of War series finds its Queen of the Valkyries Freya in Lost and For All Mankind actress",
+      "image": "https://assetsio.gnwcdn.com/Freya-in-God-of-War-Ragnarok-with-an-image-of-Sonya-Walger-as-Penny-from-Lost-overlaid-on-top.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-03-27",
+      "summary": "A série God of War de ação ao vivo da Amazon encontrou sua Freya. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/amazons-god-of-war-series-finds-its-queen-of-the-valkyries-freya-in-lost-and-for-all-mankind-actress"
+    },
+    {
+      "id": "https://www.eurogamer.net/new-resident-evil-requiem-patch-adds-highly-anticipated-photo-mode-feature",
+      "title": "Novo patch de Resident Evil Requiem adiciona recurso de modo de foto altamente antecipado",
+      "original_title": "New Resident Evil Requiem patch adds highly-anticipated photo mode feature",
+      "image": "https://assetsio.gnwcdn.com/Leon-and-Grace-keyart-for-Resident-Evil-Requiem.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-03-27",
+      "summary": "Como prometido, os poderes da Capcom lançaram uma atualização para Resident Evil Requiem, que junto com outras correções e outros também adiciona o tão solicitado modo de foto, para que você possa realmente capturar todos aqueles nojentos em sua glória sangrenta (ou, você co...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/new-resident-evil-requiem-patch-adds-highly-anticipated-photo-mode-feature"
+    },
+    {
+      "id": "https://www.techpowerup.com/347791/elevate-your-performance-with-gigabytes-latest-bios-for-amd-ryzen-9-9950x3d2-processor",
+      "title": "(PR) Eleve o seu desempenho com o BIOS mais recente da GIGABYTE para processador AMD Ryzen 9 9950X3D2",
+      "original_title": "(PR) Elevate Your Performance with GIGABYTE's Latest BIOS for AMD Ryzen 9 9950X3D2 Processor",
+      "image": "https://tpucdn.com/img/eqkuNLjvyQZUeG1C_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-03-27",
+      "summary": "A GIGABYTE Technology, um dos principais fabricantes globais de placas-mãe, placas gráficas e soluções de hardware, anunciou hoje o lançamento de seu novo BIOS AMD AGESA 1.3.0.0a, trazendo suporte total e otimização de desempenho para o AMD Ryzen 9 9...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/347791/elevate-your-performance-with-gigabytes-latest-bios-for-amd-ryzen-9-9950x3d2-processor"
+    },
+    {
+      "id": "https://www.techpowerup.com/347790/asrock-am5-motherboards-fully-support-amd-ryzen-9-9950x3d2-dual-edition-desktop-processor",
+      "title": "(PR) Placas-mãe ASRock AM5 suportam totalmente o processador AMD Ryzen 9 9950X3D2 Dual Edition para desktop",
+      "original_title": "(PR) ASRock AM5 Motherboards Fully support AMD Ryzen 9 9950X3D2 Dual Edition Desktop Processor",
+      "image": "https://tpucdn.com/img/s6YrRVDXSQhUDe2P_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-03-27",
+      "summary": "ASRock, líder global em placas-mãe, placas gráficas, monitores de jogos, PCs de fator de forma pequeno e unidades de fonte de alimentação, anunciou hoje que suas placas-mãe AM5 suportam totalmente o recém-lançado processador AMD Ryzen 9 9950X3D2 Dual Edition. O recém...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/347790/asrock-am5-motherboards-fully-support-amd-ryzen-9-9950x3d2-dual-edition-desktop-processor"
+    },
+    {
+      "id": "https://www.techpowerup.com/347735/urcdkeys-march-sale-windows-11-pro-from-usd-24-office-from-usd-30",
+      "title": "Promoção de março da URCDKeys: Windows 11 Pro a partir de US$ 24, Office a partir de US$ 30",
+      "original_title": "URCDKeys March Sale: Windows 11 Pro from $24, Office from $30",
+      "image": "https://tpucdn.com/img/EUDhjk3lxdfsqt54_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-03-27",
+      "summary": "URCDKeys traz para você sua maior venda sazonal de software genuíno e válido globalmente de que você precisa para limpar sua configuração de TI. Software genuíno com desconto permite que você gaste mais em hardware economizando muito em software. Obtenha o Windows 11 Pro original por apenas ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/347735/urcdkeys-march-sale-windows-11-pro-from-usd-24-office-from-usd-30"
+    },
+    {
+      "id": "https://www.techpowerup.com/347789/philips-launches-evnia-32m2n8900x-32-inch-4k-qd-oled-monitor",
+      "title": "Philips lança monitor Evnia 32M2N8900X 32 polegadas 4K QD-OLED",
+      "original_title": "Philips Launches Evnia 32M2N8900X 32-inch 4K QD-OLED Monitor",
+      "image": "https://tpucdn.com/img/2ACuM4bmEeHJk3eq_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-03-27",
+      "summary": "A Philips apresentou hoje o Envia 32M2N8900X, um monitor de jogos de formato plano de última geração. O monitor de 31,5 polegadas usa um painel QD-OLED de alta taxa de atualização. Você obtém resolução 4K Ultra HD (3840 x 2160 pixels) com taxa de atualização de 240 Hz e tempo de resposta de 0,03 ms...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/347789/philips-launches-evnia-32m2n8900x-32-inch-4k-qd-oled-monitor"
+    },
+    {
+      "id": "https://www.techpowerup.com/347783/playstation-5-price-increase-imminent-despite-incoming-ps6",
+      "title": "Aumento de preço do PlayStation 5 iminente, apesar da chegada do PS6",
+      "original_title": "PlayStation 5 Price Increase Imminent Despite Incoming PS6",
+      "image": "https://tpucdn.com/img/l1ASIsMe3wU7fpy5_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-03-27",
+      "summary": "Se você esteve perto da indústria de jogos para PC recentemente, já ouviu falar repetidas vezes sobre empresas aumentando preços ou atrasando produtos devido à falta de memória e aumentos de preços. Embora esses aumentos de preços tenham afetado a corrente...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/347783/playstation-5-price-increase-imminent-despite-incoming-ps6"
+    },
+    {
+      "id": "https://www.techpowerup.com/347781/v-rising-dev-announces-most-ambitious-project-yet-following-hit-indie-survival-game",
+      "title": "V Rising Dev anuncia “projeto mais ambicioso até agora” após jogo de sobrevivência indie de sucesso",
+      "original_title": "V Rising Dev Announces \"Most Ambitious Project Yet\" Following Hit Indie Survival Game",
+      "image": "https://tpucdn.com/img/y8yiY60ZCUBNX8Oo_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-03-27",
+      "summary": "V Rising é um daqueles jogos indie que encontrou um nicho e se destacou em entregar o que sua base de jogadores exigia, ganhando uma pontuação de avaliação de usuário muito positiva do Steam de 89%. Sendo esse o caso, os jogadores têm clamado por uma sequência ou seu sucesso...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/347781/v-rising-dev-announces-most-ambitious-project-yet-following-hit-indie-survival-game"
+    },
+    {
+      "id": "https://www.techpowerup.com/347776/khadas-mind-panther-lake-mini-pc-gets-usd-300-price-increase-two-models-delayed-due-to-rampocalypse",
+      "title": "Khadas Mind Panther Lake Mini PC obtém aumento de preço de US $ 300, dois modelos adiados devido ao RAMpocalypse",
+      "original_title": "Khadas Mind Panther Lake Mini PC Gets $300 Price Increase, Two Models Delayed Due To RAMpocalypse",
+      "image": "https://tpucdn.com/img/KfZEB2shE3kc9f9i_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-03-27",
+      "summary": "Khadas revelou recentemente seu mini PC Mind Pro, equipado com CPUs Panther Lake da Intel, junto com sua solução modular eGPU, que é alimentada pela NVIDIA GeForce RTX 5060 Ti, mas a marca anunciou recentemente que a contínua escassez de hardware causa...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/347776/khadas-mind-panther-lake-mini-pc-gets-usd-300-price-increase-two-models-delayed-due-to-rampocalypse"
+    },
+    {
+      "id": "https://www.eurogamer.net/annapurna-interactive-unveils-heartfelt-road-trip-adventure-forever-ago",
+      "title": "O compositor de Slay the Spire 2 se dirige para o deserto enquanto Annapurna Interactive revela a aventura de viagem \"sincera\" Forever Ago",
+      "original_title": "Slay the Spire 2 composer heads for the wilderness as Annapurna Interactive unveils \"heartfelt\" road trip adventure Forever Ago",
+      "image": "https://assetsio.gnwcdn.com/forever-ago.png?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
       "date": "2026-03-26",
-      "summary": "O Jak & Daxter original (e suas duas sequências desenvolvidas pela Naughty Dog) são frequentemente apresentados como jogos magistrais que misturam plataformas 3D clássicas com uma sensibilidade de ação e aventura mais moderna. Com Crash Bandicoot e Spyro the Dragon conseguindo...",
+      "summary": "Annapurna Interactive - a editora por trás de títulos aclamados pela crítica como Stray, Outer Wilds e Sayonara Wild Hearts - revelou o mais recente jogo de sua lista: a aventura \"sincera\" de viagem Forever Ago, que é o título de estreia de Nar...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/jak-and-daxter-remaster-was-pitched-by-sanzaru-games-years-ago"
+      "url": "https://www.eurogamer.net/annapurna-interactive-unveils-heartfelt-road-trip-adventure-forever-ago"
     },
     {
-      "id": "https://www.eurogamer.net/slay-the-spire-2-sells-more-than-silksong-hades-2",
-      "title": "Slay the Spire 2 já ganhou mais que Hollow Knight: Silksong e Hades 2 no Steam, aparentemente",
-      "original_title": "Slay the Spire 2 has already earned more than Hollow Knight: Silksong and Hades 2 on Steam, apparently",
-      "image": "https://assetsio.gnwcdn.com/slay-the-spire-2-regent.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/yakuza-studios-new-rpg-stranger-than-heaven-will-span-five-distinct-time-periods-and-five-japanese-cities",
+      "title": "O novo RPG do estúdio Yakuza, Stranger than Heaven, abrangerá cinco períodos distintos e cinco cidades japonesas",
+      "original_title": "Yakuza studio's new RPG, Stranger than Heaven, will span five distinct time periods and five Japanese cities",
+      "image": "https://assetsio.gnwcdn.com/Stranger-than-Heaven-image-showing-a-busy-Japanese-city-street.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
       "date": "2026-03-26",
-      "summary": "Estima-se que Slay the Spire 2 tenha ganhado mais dinheiro do que Hollow Knight: Silksong no Steam, e mais dinheiro do que Hades 2, e depois de apenas duas semanas à venda. Quando você considera que Hollow Knight: Silksong travou o Steam (e Xbox, PlayStation e SW...",
+      "summary": "No Xbox Partner Preview desta noite, demos uma nova olhada em Stranger Than Heaven de Ryu Ga Gotoku, bem como notícias de que uma transmissão dedicada irá ao ar em maio deste ano. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/slay-the-spire-2-sells-more-than-silksong-hades-2"
+      "url": "https://www.eurogamer.net/yakuza-studios-new-rpg-stranger-than-heaven-will-span-five-distinct-time-periods-and-five-japanese-cities"
     },
     {
-      "id": "https://www.eurogamer.net/cancelled-ps5-project-from-call-of-duty-vet-and-dark-outlaw-games-wasnt-going-to-be-a-live-service-release",
-      "title": "O projeto PS5 cancelado do veterinário de Call of Duty e Dark Outlaw Games não seria um lançamento de serviço ao vivo",
-      "original_title": "Cancelled PS5 project from Call of Duty vet and Dark Outlaw Games wasn't going to be a live-service release",
-      "image": "https://assetsio.gnwcdn.com/Dark-Outlaw-Games-company-logo-showing-the-silhouette-of-person-wearing-a-trench-coat-and-fedora-hat-against-a-yellow-background.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-03-26",
-      "summary": "Apesar do que muitos presumiam, o jogo PlayStation recentemente cancelado da Dark Outlaw Games não era um jogo ao vivo. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/cancelled-ps5-project-from-call-of-duty-vet-and-dark-outlaw-games-wasnt-going-to-be-a-live-service-release"
-    },
-    {
-      "id": "https://www.eurogamer.net/mewgenics-seemingly-confirmed-for-nintendo-switch-2-and-ps5-by-developers",
-      "title": "Portas Mewgenics Switch 2 e PS5 aparentemente confirmadas pelos desenvolvedores, atualmente em desenvolvimento",
-      "original_title": "Mewgenics Switch 2 and PS5 ports seemingly confirmed by developers, currently in development",
-      "image": "https://assetsio.gnwcdn.com/Four-cats-from-Mewgenics-with-a-speech-bubble-above-saying-Let's-go!!!.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-03-26",
-      "summary": "Com um mês e meio de ciclo de vida, Mewgenics é uma sensação indie, e os jogadores estão se perguntando sobre as chances de ele saltar para outras plataformas, após seu brilhante lançamento no PC via Steam. Bem, parece que você não terá...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/mewgenics-seemingly-confirmed-for-nintendo-switch-2-and-ps5-by-developers"
-    },
-    {
-      "id": "https://www.eurogamer.net/nintendo-first-party-games-digital-versions-will-be-cheaper-than-physical-moving-forward",
-      "title": "O custo dos jogos físicos da Nintendo não está subindo, mas vamos começar a pagar menos pelas versões digitais de seus títulos originais",
-      "original_title": "The cost of physical Nintendo games is not going up, but we are going to start paying less for digital versions of its first-party titles",
-      "image": "https://assetsio.gnwcdn.com/YoshiAndTheMysteriousBook_scrn_05.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-03-26",
-      "summary": "Às vezes, você recebe um bom lembrete de que a Nintendo não é infalível. Lembra-se da confusão de compartilhamento de jogos de 2025, agravada por algumas comunicações ruins do braço corporativo da Nintendo? Parece pouco claro que a comunicação oficial atacou novamente, e desta vez está no primeiro...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/nintendo-first-party-games-digital-versions-will-be-cheaper-than-physical-moving-forward"
-    },
-    {
-      "id": "https://www.eurogamer.net/street-fighter-6-alex-dlc-incest-patch",
-      "title": "Após protestos dos fãs, a Capcom está corrigindo a história do incesto de Alex em Street Fighter 6 (sim, você leu certo)",
-      "original_title": "After fan outcry, Capcom is patching Alex's incest storyline in Street Fighter 6 (yes, you read that right)",
-      "image": "https://assetsio.gnwcdn.com/street-fighter-6-alex.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-03-26",
-      "summary": "A Capcom anunciou um patch futuro para Street Fighter 6, revisando algumas das passagens de texto adicionadas com o personagem DLC mais recente, Alex. Isso aconteceu depois que jogadores nas redes sociais zombaram do lutador de Nova York por se casar e engravidar seu primo de segundo grau ...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/street-fighter-6-alex-dlc-incest-patch"
-    },
-    {
-      "id": "https://www.eurogamer.net/sony-takes-its-cancelling-spree-to-another-level-by-canning-its-playstation-remote-play-enabled-car-afeela-1",
-      "title": "A Sony leva sua onda de cancelamentos a outro nível ao encerrar seu carro habilitado para PlayStation Remote Play, Afeela 1",
-      "original_title": "Sony takes its cancelling spree to another level by canning its PlayStation Remote Play-enabled car, Afeela 1",
-      "image": "https://assetsio.gnwcdn.com/photo-take-from-Sony-Honda's-Afeela-car-presentation-which-promised-a-custom-Astro-Bot-in-car-wallpaper.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-03-26",
-      "summary": "Acontece que não são apenas os estúdios e projetos de serviço ao vivo que participam da onda de cancelamentos da Sony, já que ontem à noite foi anunciado que o carro habilitado para PlayStation Remote Play conhecido como Afeela 1 também foi rejeitado. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/sony-takes-its-cancelling-spree-to-another-level-by-canning-its-playstation-remote-play-enabled-car-afeela-1"
-    },
-    {
-      "id": "https://www.techpowerup.com/347747/samsung-announces-the-samsung-browser-for-windows",
-      "title": "(PR) Samsung anuncia o navegador Samsung para Windows",
-      "original_title": "(PR) Samsung Announces the Samsung Browser for Windows",
-      "image": "https://tpucdn.com/img/QKu5R26OgxlYnmLf_thm.jpg",
+      "id": "https://www.techpowerup.com/347778/elecom-brings-back-the-m-a-p-p-mouse-24-years-later-as-a-limited-reissue",
+      "title": "Elecom traz de volta o M.A.P.P. Mouse 24 anos depois como uma reedição limitada",
+      "original_title": "Elecom Brings Back the M.A.P.P. Mouse 24 Years Later as a Limited Reissue",
+      "image": "https://tpucdn.com/img/sVpPai3rXPMGCKwt_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-03-26",
-      "summary": "A Samsung Electronics anunciou hoje o lançamento oficial do Samsung Browser para Windows, estendendo sua popular experiência de navegador móvel para PC com continuidade contínua entre dispositivos e novos recursos de IA de agência projetados para tornar a experiência de navegação...",
+      "summary": "A empresa japonesa Elecom está trazendo de volta um dos designs de mouse mais incomuns da história dos periféricos de PC: o M.A.P.P. Mouse (Mechanical Designers Accelerate Peripheral Products), criado pelo artista de mangá Ghost in the Shell Masamune Shirow em 2002...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/347747/samsung-announces-the-samsung-browser-for-windows"
+      "url": "https://www.techpowerup.com/347778/elecom-brings-back-the-m-a-p-p-mouse-24-years-later-as-a-limited-reissue"
     },
     {
-      "id": "https://www.techpowerup.com/347745/durabook-launches-the-z14i-hg-fully-rugged-mobile-ai-workstation",
-      "title": "(PR) Durabook lança estação de trabalho móvel de IA totalmente robusta Z14I-HG",
-      "original_title": "(PR) Durabook Launches the Z14I-HG Fully Rugged Mobile AI Workstation",
-      "image": "https://tpucdn.com/img/Am4qVnncANLub5XV_thm.jpg",
+      "id": "https://www.techpowerup.com/347777/apple-discontinues-mac-pro-no-future-hardware-updates-planned",
+      "title": "Apple descontinua Mac Pro, sem futuras atualizações de hardware planejadas",
+      "original_title": "Apple Discontinues Mac Pro, No Future Hardware Updates Planned",
+      "image": "https://tpucdn.com/img/HgOmcAxOmcmMFted_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-03-26",
-      "summary": "Durabook, marca global de soluções móveis robustas de propriedade da Twinhead International Corporation, anunciou hoje o lançamento de sua nova estação de trabalho móvel totalmente robusta Z14I-HG. Equipado com processadores Intel Core Ultra com AI Boost NPU e NVI integrados...",
+      "summary": "A Apple descontinuou oficialmente seu computador desktop Mac Pro de última geração, sem planos de atualizar o modelo no futuro. Segundo a empresa, que confirmou a decisão ao 9to5Mac, a Apple vinha vendendo o Mac Pro junto com outras opções de Mac...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/347745/durabook-launches-the-z14i-hg-fully-rugged-mobile-ai-workstation"
+      "url": "https://www.techpowerup.com/347777/apple-discontinues-mac-pro-no-future-hardware-updates-planned"
     },
     {
-      "id": "https://www.techpowerup.com/347744/cincoze-launches-dx-1300-high-performance-compact-industrial-computer",
-      "title": "(PR) Cincoze lança computador industrial compacto de alto desempenho DX-1300",
-      "original_title": "(PR) Cincoze Launches DX-1300 High-Performance Compact Industrial Computer",
-      "image": "https://tpucdn.com/img/UOFgTJlPvi3MtQoI_thm.jpg",
+      "id": "https://www.techpowerup.com/347774/hades-2-gets-xbox-and-playstation-5-console-launch-date",
+      "title": "Hades 2 ganha data de lançamento do console Xbox e PlayStation 5",
+      "original_title": "Hades 2 Gets Xbox and PlayStation 5 Console Launch Date",
+      "image": "https://tpucdn.com/img/bFjI9Nkh5N3I7IiH_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-03-26",
-      "summary": "Cincoze anunciou a mais recente adição à sua linha de produtos Rugged Computing - DIAMOND: o computador industrial compacto de alto desempenho DX-1300. A série DX, já utilizada em numerosos projetos de grande escala, conquistou uma forte reputação por isso...",
+      "summary": "Não é nenhum segredo que Hades tem sido uma franquia indie de sucesso, com Hades 2 conquistando 112.947 jogadores simultâneos no Steam quando foi lançado no Early Access. Agora, a partir de 14 de abril de 2026, quase exatamente dois anos após o lançamento do Early Access, Hades 2 irá...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/347744/cincoze-launches-dx-1300-high-performance-compact-industrial-computer"
-    },
-    {
-      "id": "https://www.techpowerup.com/347743/sharkoon-announces-s40-s50-argb-and-s60-argb-cpu-coolers",
-      "title": "(PR) Sharkoon anuncia coolers para CPU S40, S50 ARGB e S60 ARGB",
-      "original_title": "(PR) Sharkoon Announces S40, S50 ARGB, and S60 ARGB CPU Coolers",
-      "image": "https://tpucdn.com/img/YZL1mvHHTVcbjY0Y_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-03-26",
-      "summary": "Com o S60 ARGB, S50 ARGB e S40, a Sharkoon expande seu portfólio de refrigeradores líquidos multifuncionais com três soluções poderosas para diferentes sistemas. Desde a variante de 360 ​​mm para máximo desempenho até a versão compacta de 240 mm, os modelos oferecem eficiência...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/347743/sharkoon-announces-s40-s50-argb-and-s60-argb-cpu-coolers"
-    },
-    {
-      "id": "https://www.techpowerup.com/347742/global-shipments-of-oled-monitors-surge-92-in-2025-asus-secures-market-leadership",
-      "title": "(PR) As remessas globais de monitores OLED aumentam 92% em 2025; ASUS assegura liderança de mercado",
-      "original_title": "(PR) Global Shipments of OLED Monitors Surge 92% in 2025; ASUS Secures Market Leadership",
-      "image": "https://tpucdn.com/img/TVRNQJ3KdPa0c5g3_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-03-26",
-      "summary": "As últimas descobertas da TrendForce mostram que as remessas globais de monitores OLED atingiram 2,735 milhões de unidades em 2025, um aumento de 92% em relação ao ano anterior. Este crescimento impressionante foi impulsionado principalmente por esforços promocionais agressivos por parte das marcas no quarto trimestre. Além disso, 27 polegadas...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/347742/global-shipments-of-oled-monitors-surge-92-in-2025-asus-secures-market-leadership"
-    },
-    {
-      "id": "https://www.techpowerup.com/347739/gigabyte-z890-aorus-elite-duo-x-now-available-featuring-cqdimm",
-      "title": "(PR) Gigabyte Z890 AORUS ELITE DUO X agora disponível com CQDIMM",
-      "original_title": "(PR) Gigabyte Z890 AORUS ELITE DUO X Now Available Featuring CQDIMM",
-      "image": "https://tpucdn.com/img/EN7VdkpFm05U004A_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-03-26",
-      "summary": "Gigabyte, marca líder mundial em computadores, anuncia a disponibilidade de suas placas-mãe da série Z890 Plus que suportam os novos processadores da série Intel Core Ultra 200S Plus. Liderada pelo Z890 AORUS ELITE DUO X, a série Z890 Plus traz a próxima geração...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/347739/gigabyte-z890-aorus-elite-duo-x-now-available-featuring-cqdimm"
-    },
-    {
-      "id": "https://www.techpowerup.com/347738/asrock-unveils-intel-arc-pro-b70-graphics-cards",
-      "title": "(PR) ASRock lança placas gráficas Intel Arc Pro B70",
-      "original_title": "(PR) ASRock Unveils Intel Arc Pro B70 Graphics Cards",
-      "image": "https://tpucdn.com/img/ye9URr5zAv9fb7y7_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-03-26",
-      "summary": "ASRock Inc., líder global em placas-mãe, placas gráficas, mini PCs, monitores de jogos e fontes de alimentação, lançou hoje oficialmente os novos gráficos Intel Arc Pro B70, expandindo ainda mais sua linha de placas gráficas profissionais. A empresa apresentou...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/347738/asrock-unveils-intel-arc-pro-b70-graphics-cards"
-    },
-    {
-      "id": "https://www.techpowerup.com/347737/thermaltake-launches-swafan-ex-infinity-and-ct-ex-infinity-argb-sync-fans",
-      "title": "(PR) Thermaltake lança ventiladores de sincronização SWAFAN EX INFINITY e CT EX INFINITY ARGB",
-      "original_title": "(PR) Thermaltake Launches SWAFAN EX INFINITY and CT EX INFINITY ARGB Sync Fans",
-      "image": "https://tpucdn.com/img/LQbTJgmLcF7QpIoL_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-03-26",
-      "summary": "Thermaltake, uma marca líder de PC DIY para soluções de hardware premium, orgulhosamente apresenta o ventilador de resfriamento SWAFAN EX INFINITY ARGB Sync PC e o ventilador de resfriamento CT EX INFINITY ARGB Sync PC, duas novas adições à sua linha de ventiladores ARGB projetadas para elevar ambos os sistemas.",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/347737/thermaltake-launches-swafan-ex-infinity-and-ct-ex-infinity-argb-sync-fans"
-    },
-    {
-      "id": "https://www.techpowerup.com/347734/team-group-introduces-t-create-classic-h514-m-2-nvme-gen-5-ssd",
-      "title": "(PR) Team Group apresenta SSD T-Create Classic H514 M.2 NVMe Gen 5",
-      "original_title": "(PR) Team Group Introduces T-Create Classic H514 M.2 NVMe Gen 5 SSD",
-      "image": "https://tpucdn.com/img/ml0RfdACbVJEg8EV_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-03-26",
-      "summary": "Team Group Inc., líder global em soluções de memória, anunciou hoje o lançamento do SSD T-Create Classic H514 M.2 PCIe 5.0, projetado para atender à crescente demanda por armazenamento de dados de alto desempenho na era da IA ​​generativa. Construído no PCIe Gen 5 x4...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/347734/team-group-introduces-t-create-classic-h514-m-2-nvme-gen-5-ssd"
-    },
-    {
-      "id": "https://www.techpowerup.com/347732/valve-prepares-for-steam-frame-launch-with-android-upload-options-in-steamworks",
-      "title": "Valve se prepara para lançamento do Steam Frame com opções de upload do Android no Steamworks",
-      "original_title": "Valve Prepares for Steam Frame Launch with Android Upload Options in Steamworks",
-      "image": "https://tpucdn.com/img/2cXjHJzBF27D5nBM_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-03-26",
-      "summary": "A Valve vem preparando sua pilha de software há muito tempo para a chegada do Steam Machine e do próximo Steam Frame, e a atualização mais recente mostra a gigante dos jogos adicionando uma longa lista de correções, melhorias de qualidade de vida e recursos ao SteamVR, bem como mudanças...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/347732/valve-prepares-for-steam-frame-launch-with-android-upload-options-in-steamworks"
-    },
-    {
-      "id": "https://www.eurogamer.net/nutmeg-football-card-game-impressions",
-      "title": "Finalmente, um jogo de cartas de futebol que não custa a alma",
-      "original_title": "Finally, a football card game that doesn't cost your soul",
-      "image": "https://assetsio.gnwcdn.com/nutmeg-key-art.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-03-25",
-      "summary": "Nunca joguei um jogo de cartas de futebol como este antes. Acho que nunca joguei um jogo de cartas como este. E como é revigorante que um jogo de cartas de futebol possa ser lançado e não ficar atolado em um atoleiro de microtransações sujas,...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/nutmeg-football-card-game-impressions"
-    },
-    {
-      "id": "https://www.eurogamer.net/fortnite-producer-comments-on-mass-layoffs-march-2026",
-      "title": "Os desenvolvedores do Fortnite dizem que haverá um enorme impacto no desenvolvimento “durante o resto do ano e provavelmente depois” após demissões em massa",
-      "original_title": "Fortnite developers say there will be a huge impact on development \"for the rest of the year and likely beyond\" following mass layoffs",
-      "image": "https://assetsio.gnwcdn.com/Fortnite-Chapter-7-Season-2-trailer.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-03-25",
-      "summary": "Fortnite é um dos maiores jogos do mundo, por isso não é muito surpreendente ver a Epic Games fazer ajustes na forma como o título é executado à medida que o jogo se aproxima do seu décimo aniversário. Manter uma operação massiva multiplataforma repleta de grandes colaborações IP...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/fortnite-producer-comments-on-mass-layoffs-march-2026"
-    },
-    {
-      "id": "https://www.eurogamer.net/tomodachi-life-living-the-dream-demo-released-save-data-transfer-to-full-game-confirmed",
-      "title": "A demo “Welcome Version” de Tomodachi Life: Living the Dream já está disponível e você pode transferir seus salvamentos para o jogo completo",
-      "original_title": "Tomodachi Life: Living the Dream's \"Welcome Version\" demo is available now, and you can transfer your saves to the full game",
-      "image": "https://assetsio.gnwcdn.com/Tomodachi-Life-Switch-demo-trio.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-03-25",
-      "summary": "Não fiquem muito confortáveis ​​com Pokémon Pokopia, fãs da Nintendo. Tomodachi Life: Living the Dream está chegando com um sabor diferente de vida, diversão e vibrações nostálgicas. Na verdade, agora você pode baixar sua demonstração. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/tomodachi-life-living-the-dream-demo-released-save-data-transfer-to-full-game-confirmed"
+      "url": "https://www.techpowerup.com/347774/hades-2-gets-xbox-and-playstation-5-console-launch-date"
     }
   ]
 }
