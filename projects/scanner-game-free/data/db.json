@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-04-07T13:20:46",
-  "display_date": "07/04/2026 13:20",
+  "last_updated": "2026-04-08T13:20:46",
+  "display_date": "08/04/2026 13:20",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "237ms",
+    "latency": "460ms",
     "current_games": [
       {
         "title": "Clone Drone in the Danger Zone",
@@ -56,7 +56,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-04-07",
+      "date": "2026-04-08",
       "summary": "Clone Drone in the Danger Zone é um robô voxel slice-em-up onde qualquer parte do seu corpo pode ser cortada. Com sua mente transferida para um robô gladiador, você deve sobreviver às provações sinistras da arena.",
       "sources": [
         "Epic Games Store"
@@ -71,7 +71,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-04-07",
+      "date": "2026-04-08",
       "summary": "O lendário sucesso cult \"Tomak: Save the Earth\" chega à Epic Games Store!\nCuide de Evian, a Deusa do Amor — presa em um vaso de flores — e salve a humanidade da destruição. Da ascensão divina à aniquilação total, cada escolha que você faz leva a um destino diferente.",
       "sources": [
         "Epic Games Store"
@@ -86,7 +86,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-04-07",
+      "date": "2026-04-08",
       "summary": "Disponível gratuitamente a partir de 14/05. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
       "sources": [
         "Epic Games Store"
@@ -101,7 +101,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-04-07",
+      "date": "2026-04-08",
       "summary": "Disponível gratuitamente a partir de 09/04. Prop Sumo é um jogo de luta em grupo que reúne adereços comuns em batalhas extraordinárias!\n\nDerrote seus amigos e domine o placar!",
       "sources": [
         "Epic Games Store"
@@ -109,94 +109,379 @@
       "url": "https://store.epicgames.com/p/67a9bcbc6b8e411e9265afb380fea91f"
     },
     {
-      "id": "https://www.eurogamer.net/marathon-thermal-sights-nerfs-changes",
-      "title": "Os jogadores da Maratona estão debatendo ferozmente a melhor forma de mudar um dos acessórios de arma mais “presentes e dominantes” do jogo",
-      "original_title": "Marathon players are fiercely debating how to best change one of the game's most \"present and dominant\" weapon attachments",
-      "image": "https://assetsio.gnwcdn.com/marathon-bungie_5UWu4c4.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/forza-horizon-6-preview-hands-on-nissan-silvia-ridge-racer",
+      "title": "Estou apaixonado pelo Nissan Silvia do Forza Horizon 6",
+      "original_title": "I am in love with Forza Horizon 6's Nissan Silvia",
+      "image": "https://assetsio.gnwcdn.com/forza-horizon-6-6.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-08",
+      "summary": "Forza Horizon 6 aprendeu pelo menos um truque interessante com Ridge Racer. Aprendemos que para um certo tipo de jogo de corrida, algo que é sonhador, mas exatamente arcade, é muito bom fantasma em uma esquina de vez em quando e encontrar...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/forza-horizon-6-preview-hands-on-nissan-silvia-ridge-racer"
+    },
+    {
+      "id": "https://www.eurogamer.net/no-mans-sky-goes-pokemon-in-new-xeno-arena-update",
+      "title": "No Man's Sky se torna Pokémon completo em uma nova atualização de batalha contra criaturas – “Este é um jogo multijogador completo”",
+      "original_title": "No Man's Sky goes full-on Pokémon in new creature-battling update - \"This is an entire multiplayer game all of its own\"",
+      "image": "https://assetsio.gnwcdn.com/no-mans-sky-xeno-arena.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-08",
+      "summary": "Com o 10º aniversário de No Man’s Sky cada vez mais próximo, a desenvolvedora Hello Games voltou com outra atualização para seu amplo simulador espacial exploratório, e a grande adição desta vez é, bem, é basicamente Pokémon.\n Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/no-mans-sky-goes-pokemon-in-new-xeno-arena-update"
+    },
+    {
+      "id": "https://www.eurogamer.net/star-fox-switch-2-announcement-april",
+      "title": "O suposto jogo Switch 2 Star Fox pode ser anunciado este mês, diz um vazador confiável",
+      "original_title": "The rumoured Switch 2 Star Fox game could be announced this month, trusted leaker says",
+      "image": "https://assetsio.gnwcdn.com/Star-Fox-Zero-group-shot.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Rumor",
+      "date": "2026-04-08",
+      "summary": "Um dos rumores de jogos mais quentes de 2026 surgiu no final de março, quando o confiável vazador Nate the Hate revelou que um novo jogo Star Fox e um remake de The Legend of Zelda: Ocarina of Time chegarão este ano no Nintendo Switch 2. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/star-fox-switch-2-announcement-april"
+    },
+    {
+      "id": "https://www.eurogamer.net/call-of-the-elder-gods-release-date",
+      "title": "A sequência de Call of the Sea, Call of the Elder Gods, tem uma data de lançamento próxima",
+      "original_title": "Call of the Sea sequel Call of the Elder Gods gets a close-at-hand release date",
+      "image": "https://assetsio.gnwcdn.com/call-of-the-elder-gods_jYBsuPh.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-08",
+      "summary": "A editora Kwalee e a desenvolvedora Out of the Blue anunciaram uma data de lançamento em 12 de maio para Call of the Elder Gods, a sequência da aventura estelar de quebra-cabeças narrativos de 2020, Call of the Sea. Está chegando ao Nintendo Switch 2, PC (Steam), PlayStation 5 e...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/call-of-the-elder-gods-release-date"
+    },
+    {
+      "id": "https://www.eurogamer.net/mirrors-edges-prototype-monologue",
+      "title": "O protótipo de pré-lançamento de Mirror's Edge agora pode ser jogado e apresenta uma quebra de braço brutal e um monólogo de abertura horrível",
+      "original_title": "Mirror's Edge's pre-release prototype is now playable, and features a brutal arm break and horrible opening monologue",
+      "image": "https://assetsio.gnwcdn.com/mirrors-edge-faith_g2rofjN.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-08",
+      "summary": "Um protótipo do Mirror's Edge original agora pode ser jogado, graças ao trabalho árduo dos entusiastas da série. Em um playthrough enviado ao YouTube, uma prévia do amado jogo de parkour pode ser vista em toda a sua glória sem iluminação, incluindo um verdadeiro...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/mirrors-edges-prototype-monologue"
+    },
+    {
+      "id": "https://www.eurogamer.net/just-cause-developer-avalanche-cancelled-game-aionguard",
+      "title": "A desenvolvedora de Just Cause, Avalanche Studios, tinha um jogo parecido com Crimson Desert em desenvolvimento, mas “cada editora simplesmente fechou a porta”",
+      "original_title": "Just Cause developer Avalanche Studios had a Crimson Desert-like game in the works but \"every publisher just shut the door\"",
+      "image": "https://assetsio.gnwcdn.com/Crimson-Desert-dragon-riding.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-08",
+      "summary": "Crimson Desert pode não ser tudo o que esperávamos, mas inegavelmente encontrou um público e lembrou a todos que ainda há um interesse significativo em jogos de mundo aberto. Um estúdio que sabe uma coisa ou duas sobre esses projetos é Ava...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/just-cause-developer-avalanche-cancelled-game-aionguard"
+    },
+    {
+      "id": "https://www.eurogamer.net/cyberpunk-2077-ps5-pro-upgrade-arrives",
+      "title": "Cyberpunk 2077 recebe hoje uma atualização gratuita do PS5 Pro que traz PSSR e melhores opções de ray tracing",
+      "original_title": "Cyberpunk 2077 gets a free PS5 Pro upgrade today that brings PSSR and better ray tracing options",
+      "image": "https://assetsio.gnwcdn.com/Cyberpunk-2077-PS5-Pro-reflections.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-08",
+      "summary": "O lançamento confuso de Cyberpunk 2077 é uma memória distante e, embora a opinião pública sobre ele tenha mudado em grande parte, o CD Projekt Red ainda não está pronto para deixar o jogo. Caso em questão: atualização gratuita do PS5 Pro de hoje. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/cyberpunk-2077-ps5-pro-upgrade-arrives"
+    },
+    {
+      "id": "https://www.eurogamer.net/marathon-cheaters-statement-anti-cheat-reporting",
+      "title": "“Temos uma política de tolerância zero em relação à trapaça” – a Bungie tem como alvo os trapaceiros da Maratona ao revelar novos planos para combatê-los",
+      "original_title": "\"We have a zero-tolerance policy around cheating\" - Bungie targets Marathon cheaters as it unveils new plans to combat them",
+      "image": "https://assetsio.gnwcdn.com/Marathon---In-Death-MV.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-08",
+      "summary": "A equipe de desenvolvimento do Marathon emitiu um comunicado sobre trapaça no jogo, prometendo melhorar a detecção e adicionar melhores ferramentas de relatório de jogadores ao jogo. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/marathon-cheaters-statement-anti-cheat-reporting"
+    },
+    {
+      "id": "https://www.eurogamer.net/remembering-double-dragon-arcade-classic",
+      "title": "Quando eu tinha onze anos, Double Dragon era o único jogo no mundo que importava",
+      "original_title": "When I was eleven, Double Dragon was the only game in the world that mattered",
+      "image": "https://assetsio.gnwcdn.com/double-dragon.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-08",
+      "summary": "Se há algo que eu tivesse a dizer sobre as expectativas que eu tinha para a vida adulta quando tinha onze anos, provavelmente poderia resumir em uma única palavra: capangas. \n Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/remembering-double-dragon-arcade-classic"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sfqj9j/tom_henderson_ac_black_flag_remake_announcement/",
+      "title": "Tom Henderson: Anúncio do remake do AC Black Flag marcado para 16 de abril.",
+      "original_title": "Tom Henderson: AC Black Flag remake announcement set for April 16th.",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-04-08",
+      "summary": "https://insider-gaming.com/black-flag-remake-reveal-date-revealed/ enviado por /u/Solid-Entertainer-39 [link] [comentários]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sfqj9j/tom_henderson_ac_black_flag_remake_announcement/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sfqkws/graczdari_claims_the_switch_2_version_of_007/",
+      "title": "Graczdari afirma que a versão Switch 2 de 007 First Light foi adiada indefinidamente",
+      "original_title": "Graczdari claims the Switch 2 version of 007 First Light has been delayed indefinitely",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-04-08",
+      "summary": "https://insider-gaming.com/007-first-light-nintendo-switch-2-delayed/ de acordo com o artigo, Graczdari vazou datas de lançamento de jogos como Starfield e Microsoft Flight Simulator 2024 enviados por /u/Howerev [link] [comentários]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sfqkws/graczdari_claims_the_switch_2_version_of_007/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sfnnjr/halo_campaign_evolved_will_come_out_on_july_28th/",
+      "title": "Halo: Campaign Evolved será lançado em 28 de julho, com acesso antecipado em 23 de julho",
+      "original_title": "Halo: Campaign Evolved will come out on July 28th with Early Access on July 23rd",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-04-08",
+      "summary": "De acordo com a conta grunt.api X. https://xcancel.com/gruntdotapi/status/2041681342509842908 enviado por /u/markusfenix75 [link] [comentários]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sfnnjr/halo_campaign_evolved_will_come_out_on_july_28th/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sfpz8c/natethehate_on_the_next_state_of_play_should_be/",
+      "title": "NateTheHate sobre o próximo State of Play: “Deve ser bem antes disso (antes de junho) com base no que ouvi”",
+      "original_title": "NateTheHate on the next State of Play: “Should be well before that (before June) based on what I've heard”",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-04-08",
+      "summary": "https://xcancel.com/natethehate2/status/2041714256748413156?s=46 Parece que a Sony está evitando o tempo SGF, a menos que este seja o Wolverine SoP enviado por /u/Solid-Entertainer-39 [link] [comentários]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sfpz8c/natethehate_on_the_next_state_of_play_should_be/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sfp0c2/forza_horizon_6_is_rumoured_to_be_getting_limited/",
+      "title": "Há rumores de que Forza Horizon 6 receberá controlador e fone de ouvido de edição limitada do Xbox",
+      "original_title": "Forza Horizon 6 is rumoured to be getting limited edition Xbox controller and headset",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Rumor",
+      "date": "2026-04-08",
+      "summary": "De acordo com o insider billbil-kun, o Forza Horizon 6 receberá seu próprio controle sem fio e fone de ouvido Xbox de edição limitada. Ambos devem ser lançados em 19 de maio, junto com o jogo. O controlador deverá custar US$ 89,99, enquanto o aquec...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sfp0c2/forza_horizon_6_is_rumoured_to_be_getting_limited/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sfga5n/shpeshal_nick_nintendo_is_looking_to_pitching_a/",
+      "title": "Shpeshal Nick: Nintendo quer lançar um filme da Mansão de Luigi",
+      "original_title": "Shpeshal Nick: Nintendo is looking to pitching a Luigi’s Mansion movie",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-04-08",
+      "summary": "Fonte enviada por /u/andree1234 [link] [comentários]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sfga5n/shpeshal_nick_nintendo_is_looking_to_pitching_a/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sfkowb/user_at_resetera_claims_ac_black_flag_resynced_to/",
+      "title": "Usuário da Resetera afirma que AC Black Flag ressincronizou “para ir ao ar no dia 16 e também há um evento acontecendo no final deste mês”",
+      "original_title": "User At Resetera Claims AC Black Flag Resynced \"to go live on the 16th and there is also an event taking place later this month\"",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-04-08",
+      "summary": "Anúncios planejados para ir ao ar no dia 16 e também há um evento acontecendo no final deste mês. Lançamento não tão longe https://www.resetera.com/threads/assassins-creed-black-flag-resynced-has-been-rated-by-pegi.1377115/post-153527365 su...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sfkowb/user_at_resetera_claims_ac_black_flag_resynced_to/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1sfo98i/steam_game_eworlds/",
+      "title": "[Steam] (Jogo) eWorlds",
+      "original_title": "[Steam] (Game) eWorlds",
+      "image": "https://external-preview.redd.it/HoFJuVS2KN8bbRhbRqfw8mevSiS6dZB3qp-YC5646fk.jpeg?width=320&crop=smart&auto=webp&s=c2b9dd8b5d4587a72843bf305f44fbdb598e17ad",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-04-08",
+      "summary": "enviado por /u/MeguminShiro [link] [comentários] ...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1sfo98i/steam_game_eworlds/"
+    },
+    {
+      "id": "https://www.techpowerup.com/348083/arctic-announces-xtender-black-clear-glass-case",
+      "title": "Arctic anuncia caixa de vidro transparente preta Xtender",
+      "original_title": "Arctic Announces Xtender Black Clear Glass Case",
+      "image": "https://tpucdn.com/img/iX0PCS39YE2t1FDz_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-04-08",
+      "summary": "A Arctic lançou hoje o Xtender Black (vidro transparente), um espaçoso gabinete torre média ATX e uma nova variante da série Xtender que a empresa lançou em agosto de 2025. O gabinete apresenta um canto frontal esquerdo sem pilares e vidro temperado transparente painéis ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348083/arctic-announces-xtender-black-clear-glass-case"
+    },
+    {
+      "id": "https://www.techpowerup.com/348082/windows-11-to-eventually-lose-win32-control-panel-fully-transition-to-settings-app",
+      "title": "Windows 11 eventualmente perderá o painel de controle Win32, transição completa para o aplicativo Configurações",
+      "original_title": "Windows 11 to Eventually Lose Win32 Control Panel, Fully Transition to Settings App",
+      "image": "https://tpucdn.com/img/VJYtBFnJlqs2wdV9_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-04-08",
+      "summary": "A Microsoft está trabalhando para eliminar os últimos vestígios da interface de usuário clássica do Win32 no Windows 11, e a empresa pode remover completamente o painel de controle clássico do Win32 em uma atualização futura. March Rogers, sócio-diretor de design da Microso...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348082/windows-11-to-eventually-lose-win32-control-panel-fully-transition-to-settings-app"
+    },
+    {
+      "id": "https://www.techpowerup.com/348080/msi-reveals-the-mag-infinite-s-ai-2nd-gaming-pc",
+      "title": "(PR) MSI revela o segundo PC para jogos MAG Infinite S AI",
+      "original_title": "(PR) MSI Reveals The MAG Infinite S AI 2nd Gaming PC",
+      "image": "https://tpucdn.com/img/R1DDBTKjBNtGCcnJ_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-04-08",
+      "summary": "A MSI, líder mundial em hardware para jogos, revelou hoje o MAG Infinite S AI 2nd, um desktop para jogos desenvolvido para jogadores que desejam desempenho confiável, resfriamento inteligente e caminhos de atualização claros. Apresentando processadores até Intel Core Ultra 7 265 e gráficos...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348080/msi-reveals-the-mag-infinite-s-ai-2nd-gaming-pc"
+    },
+    {
+      "id": "https://www.techpowerup.com/348078/intel-arc-gpu-graphics-drivers-101-8629-whql-released",
+      "title": "Drivers gráficos Intel Arc GPU 101.8629 WHQL lançados",
+      "original_title": "Intel Arc GPU Graphics Drivers 101.8629 WHQL Released",
+      "image": "https://tpucdn.com/img/pR8fkv6RacfZNMyj_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-04-08",
+      "summary": "A Intel lançou seus mais recentes drivers gráficos Arc GPU, versão 101.8629 WHQL, apresentando ao mundo dos jogos suas mais novas GPUs discretas Arc Pro B70 e Arc Pro B65. Esses novos drivers WHQL se concentram principalmente em fornecer suporte de jogos para esses profissionais...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348078/intel-arc-gpu-graphics-drivers-101-8629-whql-released"
+    },
+    {
+      "id": "https://www.techpowerup.com/348077/asus-raises-laptop-prices-by-usd-100-350-just-one-day-after-launch",
+      "title": "ASUS aumenta os preços dos laptops em US$ 100-350 apenas um dia após o lançamento",
+      "original_title": "ASUS Raises Laptop Prices by $100-350 Just One Day After Launch",
+      "image": "https://tpucdn.com/img/nuYvq0Az6P2DeaFa_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-04-08",
+      "summary": "Ontem, a Qualcomm apresentou sua série de chips Snapdragon X2 Elite aos consumidores em parceria com grandes OEMs como ASUS e HP. No mesmo dia, a ASUS lançou modelos adicionais de laptops baseados em SoCs Intel e AMD. No entanto, apenas um dia depois de alguns m...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348077/asus-raises-laptop-prices-by-usd-100-350-just-one-day-after-launch"
+    },
+    {
+      "id": "https://www.techpowerup.com/348071/morbid-metal-dev-confirms-no-third-party-launcher-for-hack-and-slash-game-ahead-of-launch",
+      "title": "Morbid Metal Dev confirma que não há lançador de terceiros para jogo Hack and Slash antes do lançamento",
+      "original_title": "Morbid Metal Dev Confirms No Third-Party Launcher for Hack and Slash Game Ahead of Launch",
+      "image": "https://tpucdn.com/img/haiWA66OfkJu2IoZ_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-04-08",
+      "summary": "Com o lançamento de acesso antecipado de Morbid Metal, um roguelite hack-n-slash desenvolvido indie, chegando, o principal desenvolvedor do jogo, Felix Schade, acessou o X para confirmar que os jogadores não precisarão de uma conta Ubisoft+ ou do inicializador Ubisoft...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348071/morbid-metal-dev-confirms-no-third-party-launcher-for-hack-and-slash-game-ahead-of-launch"
+    },
+    {
+      "id": "https://www.eurogamer.net/playstation-hunting-for-biggest-fans-so-it-can-put-them-in-games",
+      "title": "PlayStation procura “maiores fãs” para poder escanear seus rostos e colocá-los em jogos, começando com Gran Turismo 7",
+      "original_title": "PlayStation hunting for \"biggest fans\" so it can scan their faces and put them in games, starting with Gran Turismo 7",
+      "image": "https://assetsio.gnwcdn.com/playstation-face-scan-header.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
       "date": "2026-04-07",
-      "summary": "Os jogadores da Maratona estão ocupados sugerindo ajustes e mudanças na ótica da pistola térmica do jogo, que continua sendo uma ferramenta poderosa nas mãos de bons jogadores investidos no atirador de extração. Leia mais...",
+      "summary": "Se você já imaginou que sua caneca sorridente fosse escaneada para uma aparição oficial em um dos títulos de grande sucesso do PlayStation Studios, seu sonho está agora um passo mais perto de se tornar realidade: a Sony revelou sua nova iniciativa Playerbase, projetada...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/marathon-thermal-sights-nerfs-changes"
+      "url": "https://www.eurogamer.net/playstation-hunting-for-biggest-fans-so-it-can-put-them-in-games"
     },
     {
-      "id": "https://www.eurogamer.net/blizzard-reveals-overwatch-hero-anran-reworked-look",
-      "title": "A Blizzard revela o novo visual “ardente e feroz” do herói de Overwatch, Anran, após a reação dos jogadores sobre a ‘síndrome da mesma cara’",
-      "original_title": "Blizzard reveals Overwatch hero Anran's new \"fiery and fierce\" look, following player backlash over 'same-face syndrome'",
-      "image": "https://assetsio.gnwcdn.com/Anran-animated-cutscene---Overwatch.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-07",
-      "summary": "A grande reformulação de Overwatch para 2026 foi amplamente vista como um sucesso, mas muitos jogadores não ficaram satisfeitos com o design do rosto do novo herói Anran. Eles pensaram que ela parecia diferente de como apareceu em um trailer cinematográfico, mais com cara de bebê, e que ela ex...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/blizzard-reveals-overwatch-hero-anran-reworked-look"
-    },
-    {
-      "id": "https://www.eurogamer.net/obsidian-turn-based-update-pillars-of-eternity",
-      "title": "11 anos depois, Pillars of Eternity de Obsidian ganha um modo de combate baseado em turnos, tornando-o um pouco mais parecido com Baldur's Gate 3",
-      "original_title": "11 years later, Obsidian's Pillars of Eternity gets a turn-based combat mode, making it a little bit more like Baldur's Gate 3",
-      "image": "https://assetsio.gnwcdn.com/PoE_party-attack.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-07",
-      "summary": "Mais de 11 anos depois, o RPG da velha escola da Obsidian, Pillars of Eternity, adicionou um modo de combate baseado em turnos no PC. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/obsidian-turn-based-update-pillars-of-eternity"
-    },
-    {
-      "id": "https://www.eurogamer.net/star-wars-eclipse-development-worries-quantic-dream",
-      "title": "O jogo cinematográfico Star Wars da Quantic Dream, Eclipse, ainda está “a anos de ser concluído”",
-      "original_title": "Quantic Dream's cinematic Star Wars game Eclipse is reportedly still \"years off from completion\"",
-      "image": "https://assetsio.gnwcdn.com/Star-Wars-Eclipse-trailer-screens-1.jpeg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-07",
-      "summary": "Já se passaram mais de quatro anos desde que Star Wars Eclipse da Quantic Dream foi anunciado com um impressionante trailer CGI, que nos disse muito pouco além de que foi ambientado na era da Alta República da galáxia de George Lucas, muito, muito distante. Mas seguindo alguns de vocês...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/star-wars-eclipse-development-worries-quantic-dream"
-    },
-    {
-      "id": "https://www.eurogamer.net/state-of-decay-3-reveal-trailer-wasnt-reflective-of-actual-game-says-studio-head",
-      "title": "O trailer de revelação de State of Decay 3 não refletia o jogo real, diz o chefe do estúdio",
-      "original_title": "State of Decay 3 reveal trailer wasn't reflective of the actual game, says studio head",
-      "image": "https://assetsio.gnwcdn.com/state-of-decay-3-report-details-troubled-development-1648811289149.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-07",
-      "summary": "O chefe do estúdio do desenvolvedor de State of Decay 3, Philip Holt, confirmou que o trailer de revelação de 2020 foi baseado inteiramente em “um conceito” para o jogo, e uma grande inclusão no referido trailer não entrará no jogo: animais zumbis. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/state-of-decay-3-reveal-trailer-wasnt-reflective-of-actual-game-says-studio-head"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1seihsx/imdb_is_listing_john_paesano_as_the_composer_for/",
-      "title": "IMDB está listando John Paesano como compositor do filme The Legend of Zelda",
-      "original_title": "IMDB is listing John Paesano as the composer for The Legend of Zelda film",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sf9rph/nate_the_hate_says_that_the_next_starfox_game/",
+      "title": "Nate The Hate diz que o próximo jogo StarFox será 100% anunciado este mês através do Nintendo Today/Twitter",
+      "original_title": "Nate The Hate says that the next StarFox game will 100% be announced this month through Nintendo Today/Twitter",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
       "category": "News",
       "date": "2026-04-07",
-      "summary": "Ele está listado entre todos os https://www.imdb.com/title/tt29873948/fullcredits/?ref_=tt_cst_sm Embora haja duas coisas para se ter em mente, para ambos os lados do boato.  O IMDB pode ser editado por qualquer pessoa, então considere isso um grande grão de sal. Mas está listando cada na...",
+      "summary": "https://xcancel.com/NateTheHate2/status/2041619916923494594#m enviado por /u/hanayashishipper [link] [comentários]...",
       "sources": [
         "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1seihsx/imdb_is_listing_john_paesano_as_the_composer_for/"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sf9rph/nate_the_hate_says_that_the_next_starfox_game/"
     },
     {
       "id": "https://www.reddit.com/r/FreeGameFindings/comments/1seh77w/steam_game_moon_castle/",
@@ -229,184 +514,79 @@
       "url": "https://www.reddit.com/r/FreeGameFindings/comments/1seg6kn/steam_dlc_deadswitch_combat_soldier_bundle/"
     },
     {
-      "id": "https://www.techpowerup.com/348043/lg-kicks-off-pre-orders-for-ultragear-evo-gx9-and-gm9-gaming-monitors",
-      "title": "(PR) LG inicia pré-encomendas de monitores de jogos UltraGear EVO GX9 e GM9",
-      "original_title": "(PR) LG Kicks Off Pre-Orders for UltraGear EVO GX9 and GM9 Gaming Monitors",
-      "image": "https://tpucdn.com/img/IrnidvYMeWhOHELu_thm.jpg",
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1sfccx9/steam_game_lawnmower_runner/",
+      "title": "[Steam] (Jogo) Corredor de cortador de grama",
+      "original_title": "[Steam] (Game) Lawnmower Runner",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-04-07",
+      "summary": "enviado por /u/EinHaDe [link] [comentários]...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1sfccx9/steam_game_lawnmower_runner/"
+    },
+    {
+      "id": "https://www.techpowerup.com/348069/bungie-addresses-marathon-anti-cheat-discussions",
+      "title": "Bungie aborda discussões anti-cheat da maratona",
+      "original_title": "Bungie Addresses Marathon Anti-Cheat Discussions",
+      "image": "https://tpucdn.com/img/i884cKVmX0ExXBSK_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-04-07",
-      "summary": "LG Electronics, a marca número 1 de monitores de jogos OLED nos EUA, anunciou hoje o preço e a disponibilidade de duas novas adições à sua linha de monitores de jogos UltraGear evo 2026: o LG UltraGear evo GX9 (modelo: 39GX950B-B), o primeiro 5K2K de 39 polegadas do mundo.",
+      "summary": "Desde o lançamento do Marathon, tem havido uma série de relatos e reclamações sobre trapaça no jogo de tiro de extração PvPvE da Bungie e, em resposta a essas reclamações, a Bungie recorreu ao site de mídia social X para detalhar seus sistemas anti-cheat e ex...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/348043/lg-kicks-off-pre-orders-for-ultragear-evo-gx9-and-gm9-gaming-monitors"
+      "url": "https://www.techpowerup.com/348069/bungie-addresses-marathon-anti-cheat-discussions"
     },
     {
-      "id": "https://www.techpowerup.com/348042/zyxel-networks-launches-rugged-wifi-7-access-point-for-harsh-industrial-environments",
-      "title": "(PR) Zyxel Networks lança ponto de acesso WiFi 7 robusto para ambientes industriais adversos",
-      "original_title": "(PR) Zyxel Networks Launches Rugged WiFi 7 Access Point for Harsh Industrial Environments",
-      "image": "https://tpucdn.com/img/1GSvAjd0pvriHDMz_thm.jpg",
+      "id": "https://www.techpowerup.com/348067/rumor-tips-a19-pro-soc-and-12-gb-ram-for-apple-macbook-neo",
+      "title": "Rumor Tips A19 Pro SoC e 12 GB de RAM para Apple MacBook Neo",
+      "original_title": "Rumor Tips A19 Pro SoC and 12 GB RAM for Apple MacBook Neo",
+      "image": "https://tpucdn.com/img/X834dJ80CwmUO1Y7_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-04-07",
-      "summary": "A Zyxel Networks, líder no fornecimento de soluções de rede em nuvem seguras e baseadas em IA, anunciou hoje o lançamento do ponto de acesso robusto WBE665S BE22000 de 12 fluxos Wi-Fi 7 Triple-Radio NebulaFlex Pro. A nova solução apresenta MSPs e inst...",
+      "summary": "O Apple MacBook Neo foi um choque para o sistema no mundo dos laptops, graças à sua baixa barreira de entrada e desempenho surpreendentemente sólido para as tarefas diárias. No entanto, uma das maiores críticas dirigidas ao MacBook Neo é o seu mo...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/348042/zyxel-networks-launches-rugged-wifi-7-access-point-for-harsh-industrial-environments"
+      "url": "https://www.techpowerup.com/348067/rumor-tips-a19-pro-soc-and-12-gb-ram-for-apple-macbook-neo"
     },
     {
-      "id": "https://www.techpowerup.com/348039/sonnet-releases-echo-20-and-echo-21-thunderbolt-5-docking-stations-with-10-gbe",
-      "title": "Sonnet lança estações de acoplamento Echo 20 e Echo 21 Thunderbolt 5 com 10 GbE",
-      "original_title": "Sonnet Releases Echo 20 and Echo 21 Thunderbolt 5 Docking Stations with 10 GbE",
-      "image": "https://tpucdn.com/img/uIb7PNZVUxtQ2Og0_thm.jpg",
+      "id": "https://www.techpowerup.com/348066/asus-amd-radeon-rx-9070-xt-prices-jump-by-17-in-us-stores",
+      "title": "Os preços da ASUS AMD Radeon RX 9070 XT aumentam 17% nas lojas dos EUA",
+      "original_title": "ASUS AMD Radeon RX 9070 XT Prices Jump by 17% in US Stores",
+      "image": "https://tpucdn.com/img/UbuZle5xWXUWCOiZ_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-04-07",
-      "summary": "Sonnet Technologies, fornecedora de longa data de soluções de conectividade com sede nos EUA para sistemas Mac, Windows e Linux, lançou duas novas estações de acoplamento Thunderbolt 5: o Echo 20 SecureDock e o Echo 21 SuperDock. Ambos têm como alvo usuários profissionais que procuram...",
+      "summary": "Não é nenhum segredo que os preços dos eletrônicos estão disparando e, pouco depois, parecia que havia alguma esperança no horizonte, foi revelado pela VideoCardz que as GPUs ASUS AMD Radeon RX 9070 XT tiveram um impacto significativo...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/348039/sonnet-releases-echo-20-and-echo-21-thunderbolt-5-docking-stations-with-10-gbe"
+      "url": "https://www.techpowerup.com/348066/asus-amd-radeon-rx-9070-xt-prices-jump-by-17-in-us-stores"
     },
     {
-      "id": "https://www.techpowerup.com/348038/ibase-introduces-mbb1002-ai-ready-eatx-motherboard",
-      "title": "(PR) IBASE apresenta placa-mãe MBB1002 AI-Ready eATX",
-      "original_title": "(PR) IBASE Introduces MBB1002 AI-Ready eATX Motherboard",
-      "image": "https://tpucdn.com/img/kgLRzJVkLXnBje6Z_thm.jpg",
+      "id": "https://www.techpowerup.com/348064/overwatchs-anran-redesign-officially-launches-in-season-2",
+      "title": "Anran Redesign de Overwatch é lançado oficialmente na 2ª temporada",
+      "original_title": "Overwatch's Anran Redesign Officially Launches in Season 2",
+      "image": "https://tpucdn.com/img/9mWhNjrwQhAmvUIB_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-04-07",
-      "summary": "A IBASE Technology Inc., fabricante líder de soluções de computação integrada e de ponta, lança a MBB1002, uma poderosa placa-mãe eATX pronta para IA, projetada para acelerar IA de ponta de próxima geração e aplicações com uso intensivo de dados. Desenvolvido por AMD EPYC E...",
+      "summary": "Quando a Blizzard mudou o nome de Overwatch 2 para apenas Overwatch, ela também anunciou uma série de novos personagens chegando em 2026. Um desses designs de personagem, Anran, provocou revolta na comunidade porque seu design era genérico e um desvio total do ch...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/348038/ibase-introduces-mbb1002-ai-ready-eatx-motherboard"
-    },
-    {
-      "id": "https://www.techpowerup.com/348037/asus-announces-proart-router-prt-be5000-and-proart-switch-pqg-u1080",
-      "title": "(PR) ASUS Anuncia Roteador ProArt PRT-BE5000 e Switch ProArt PQG-U1080",
-      "original_title": "(PR) ASUS Announces ProArt Router PRT-BE5000 and ProArt Switch PQG-U1080",
-      "image": "https://tpucdn.com/img/BV9nUXgh5RzMpr1G_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-04-07",
-      "summary": "A ASUS anunciou hoje o ProArt Router PRT-BE5000 e o ProArt Switch PQG-U1080, introduzindo soluções de rede na família ProArt de dispositivos Creator-First projetados para estúdios modernos. Juntando-se à linha ProArt existente de laptops, monitores, gra...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348037/asus-announces-proart-router-prt-be5000-and-proart-switch-pqg-u1080"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sedf2h/world_of_reel_nick_offerman_has_joined_the_cast/",
-      "title": "World of Reel: Nick Offerman se juntou ao elenco do filme ‘Elden Ring’ de Alex Garland",
-      "original_title": "World of Reel: Nick Offerman has joined the cast of Alex Garland’s ‘Elden Ring’ movie",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-04-06",
-      "summary": "https://www.worldofreel.com/blog/2026/4/6/nick-offerman-joins-alex-garlands-elden-ring Uma atualização sobre “Elden Ring” de Alex Garland, que abordei no fim de semana e está programado para iniciar a produção esta semana: Nick Offerman se juntou ao elenco na Escócia...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sedf2h/world_of_reel_nick_offerman_has_joined_the_cast/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1se5es7/star_wars_eclipse_development_is_making_very/",
-      "title": "O desenvolvimento do Star Wars Eclipse está progredindo muito pouco (Insider Gaming)",
-      "original_title": "Star Wars Eclipse development is making very little progress (Insider Gaming)",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-04-06",
-      "summary": "Artigo Muito pouco progresso ao longo de meses O jogo não será concluído por vários anos Se Spellcasters Chronicles falhar comercialmente, a NetEase provavelmente reavaliará seu compromisso com Quantic Dream (desenvolvedores de Eclipse) enviado por /u/ShiinaBR ...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1se5es7/star_wars_eclipse_development_is_making_very/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1seaett/official_persona_30th_anniversary_merch_might_be/",
-      "title": "O produto oficial do 30º aniversário do Persona pode sugerir relançamentos do Persona 1 e 2",
-      "original_title": "Official Persona 30th anniversary merch might be hinting at Persona 1 and 2 re-releases",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-04-06",
-      "summary": "https://www.amazon.com/stores/Atlus/page/B493B977-4C22-4A36-BDA9-B3B6BE4AB1CA?content_source=fb&fb_content_id=Q9-wBQFJFU4sk0sa q0d7_pLYvvfyjf2_YsApDfKnWOiENdPeqWUwoyeQ_BuE448WMQ&channel_type=fb&dplnkId=5db1f50b-6c74-488d-9f8c-c6390d74aa3e&ref=d6k_univ...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1seaett/official_persona_30th_anniversary_merch_might_be/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1se6s1m/insider_gaming_naughty_dog_were_planning_for_some/",
-      "title": "Insider Gaming: Naughty Dog estava planejando algum tipo de Uncharted 5 antes do COVID-19",
-      "original_title": "Insider Gaming: Naughty Dog were planning for some sort of Uncharted 5 before COVID-19",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-04-06",
-      "summary": "https://www.youtube.com/live/VZQxeVBBMSA 48:35 Você está me dizendo que o covid nos roubou um jogo desconhecido??    enviado por /u/Connect_Base_217 [link] [comentários]...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1se6s1m/insider_gaming_naughty_dog_were_planning_for_some/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1se4w8k/unused_victor_gideon_models_discovered_in/",
-      "title": "Modelos não utilizados de Victor Gideon descobertos em ‘Resident Evil Requiem’, incluindo uma transformação com um corpo feito de cobras",
-      "original_title": "Unused Victor Gideon models discovered in ‘Resident Evil Requiem’, including a transformation with a body made of snakes",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-04-06",
-      "summary": "Modelos não utilizados de Victor Gideon descobertos em ‘Resident Evil Requiem’, incluindo uma transformação com um corpo feito de cobras Descoberto pelo Youtuber japonês de Resident Evil: https://xcancel.com/umesooooo/status/2040769774377214268?s=46&t=hc5NrTRIWu5hhJBvuu...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1se4w8k/unused_victor_gideon_models_discovered_in/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1se3cv7/society_of_raiders_tomb_raider_legacy_of_atlantis/",
-      "title": "Society of Raiders: Tomb Raider: Legacy of Atlantis será lançado em fevereiro de 2027",
-      "original_title": "Society of Raiders: Tomb Raider: Legacy of Atlantis releasing in February 2027",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-04-06",
-      "summary": "https://xcancel.com/RaidersSociety/status/2041125891640582257 Isso significaria que o jogo está atrasado, já que o ano de lançamento original era 2026. Isso é da mesma fonte de Tomb Raider que vazou o remake sendo anunciado na TGA, então eles são bastante credíveis...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1se3cv7/society_of_raiders_tomb_raider_legacy_of_atlantis/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sdz69y/rumor_halo_campaign_evolved_reportedly_content/",
-      "title": "Rumor: Halo Campaign Evolved supostamente “conteúdo completo” e jogável do início ao fim",
-      "original_title": "Rumor: Halo Campaign Evolved reportedly “content complete” and playable start to finish",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-04-06",
-      "summary": "Um novo boato do insider RebsGaming afirma que Halo Campaign Evolved agora está “praticamente com conteúdo completo” e totalmente jogável do início ao fim, incluindo suas missões prequela. A mesma fonte também sugere que o jogo contará com uma skin/personalização...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sdz69y/rumor_halo_campaign_evolved_reportedly_content/"
+      "url": "https://www.techpowerup.com/348064/overwatchs-anran-redesign-officially-launches-in-season-2"
     },
     {
       "id": "https://www.reddit.com/r/EpicGamesPC/comments/1sebevh/heres_the_link_you_can_bookmark_to_always_see_the/",
@@ -425,7 +605,7 @@
     },
     {
       "id": "https://www.reddit.com/r/FreeGameFindings/comments/1se4n86/exiled_giveaways_and_itchio_mega_threads/",
-      "title": "Brindes exilados e Mega Threads do Itch.io",
+      "title": "Brindes exilados e mega threads do Itch.io",
       "original_title": "Exiled Giveaways and Itch.io Mega Threads",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
@@ -454,156 +634,6 @@
       "url": "https://www.reddit.com/r/FreeGameFindings/comments/1se4nts/steam_game_chamber_survival/"
     },
     {
-      "id": "https://www.techpowerup.com/348029/leaker-claims-ps6-wont-be-delayed-because-amd-wont-waste-resources-on-validation",
-      "title": "Leaker afirma que o PS6 não será adiado porque a AMD não “desperdiçará recursos” na validação",
-      "original_title": "Leaker Claims PS6 Won't Be Delayed Because AMD Won't \"Waste Resources\" on Validation",
-      "image": "https://tpucdn.com/img/o5Vi3NHj5RFSb75g_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Rumor",
-      "date": "2026-04-06",
-      "summary": "À medida que se aproxima a data de lançamento do próximo PlayStation 6 da Sony, vazamentos e rumores abundam, com muitos afirmando que o próximo console de jogos será lançado mais tarde do que o inicialmente esperado. Agora, o respeitável vazador, KeplerL2, foi ao...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348029/leaker-claims-ps6-wont-be-delayed-because-amd-wont-waste-resources-on-validation"
-    },
-    {
-      "id": "https://www.techpowerup.com/348031/microsoft-piles-up-80-copilot-products-apps-and-services",
-      "title": "Microsoft acumula 80 produtos, aplicativos e serviços “copilot”",
-      "original_title": "Microsoft Piles Up 80 \"Copilot\" Products, Apps, and Services",
-      "image": "https://tpucdn.com/img/h8ldVZ2uBARZClZo_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-04-06",
-      "summary": "A Microsoft tem abordado a recente onda de críticas ao “Microslop” que surgiu online em resposta à integração forçada da IA ​​nos seus produtos. Especificamente, a Microsoft tem promovido seus aplicativos, produtos Copilot e até mesmo Copi...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348031/microsoft-piles-up-80-copilot-products-apps-and-services"
-    },
-    {
-      "id": "https://www.techpowerup.com/348027/intel-nova-lake-to-use-xe3-graphics-and-xe3p-display-media-engine",
-      "title": "Intel “Nova Lake” usará gráficos Xe3 e display/mecanismo de mídia Xe3P",
-      "original_title": "Intel \"Nova Lake\" to Use Xe3 Graphics and Xe3P Display/Media Engine",
-      "image": "https://tpucdn.com/img/LkH6lLtuOcqXkYES_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-04-06",
-      "summary": "A próxima geração de CPU “Nova Lake” da Intel, parte da série Core Ultra 400, será uma grande atualização do design híbrido P e E-core da empresa. Embora muitas especificações tenham vazado em grande parte, a configuração exata da GPU integrada permaneceu...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348027/intel-nova-lake-to-use-xe3-graphics-and-xe3p-display-media-engine"
-    },
-    {
-      "id": "https://www.techpowerup.com/348024/intel-launches-core-ultra-7-251hx-arrow-lake-processors-with-18-cpu-cores-and-3-xe-gpu-cores",
-      "title": "Intel lança processadores Core Ultra 7 251HX Arrow Lake com 18 núcleos de CPU e 3 núcleos de GPU Xe",
-      "original_title": "Intel Launches Core Ultra 7 251HX Arrow Lake Processors with 18 CPU Cores and 3 Xe GPU Cores",
-      "image": "https://tpucdn.com/img/TGigEns2dP0YF6SI_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-04-06",
-      "summary": "A Intel adicionou discretamente o Core Ultra 7 251HX à sua linha Arrow Lake HX, ignorando qualquer anúncio formal. O chip simplesmente apareceu no site da Intel algumas semanas depois de aparecer nas listagens do Lenovo Legion 5i 2026 e MSI Raider 16 HX. O 251H...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348024/intel-launches-core-ultra-7-251hx-arrow-lake-processors-with-18-cpu-cores-and-3-xe-gpu-cores"
-    },
-    {
-      "id": "https://www.techpowerup.com/348023/steam-will-estimate-game-fps-before-purchase-to-show-expected-pc-performance",
-      "title": "O Steam estimará o FPS do jogo antes da compra para mostrar o desempenho esperado do PC",
-      "original_title": "Steam Will Estimate Game FPS Before Purchase to Show Expected PC Performance",
-      "image": "https://tpucdn.com/img/9ZMTULJqJffdtOQm_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-04-06",
-      "summary": "O Steam está supostamente no processo de adicionar uma ferramenta “Frame Estimator” que pode estimar o desempenho do seu PC antes de você comprar um jogo. Como você sabe, a plataforma Steam da Valve é a maior plataforma de jogos do mundo, com acesso a milhões de PCs....",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348023/steam-will-estimate-game-fps-before-purchase-to-show-expected-pc-performance"
-    },
-    {
-      "id": "https://www.eurogamer.net/arc-raiders-improves-crafting-says-new-streamlined-system-is-just-the-start",
-      "title": "Arc Raiders melhora a elaboração, diz que o novo “sistema simplificado” é “apenas o começo”",
-      "original_title": "Arc Raiders improves crafting, says new \"streamlined system\" is \"just the start\"",
-      "image": "https://assetsio.gnwcdn.com/arc-raiders-headline.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-05",
-      "summary": "Arc Raiders está reformulando seu sistema de criação depois de reconhecer que “um feedback [que] continuava aparecendo” dos jogadores era o “ponto problemático” de coletar materiais perdidos. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/arc-raiders-improves-crafting-says-new-streamlined-system-is-just-the-start"
-    },
-    {
-      "id": "https://www.eurogamer.net/sonys-battle-against-shovelware-publishers-persists-as-it-purges-another-load-of-crap-games-from-the-playstation-store",
-      "title": "A batalha da Sony contra os editores de shovelware persiste enquanto ela elimina outro monte de jogos ruins da PlayStation Store",
-      "original_title": "Sony's battle against shovelware publishers persists as it purges another load of crap games from the PlayStation Store",
-      "image": "https://assetsio.gnwcdn.com/Screenshot-2026-04-05-at-19.06.38.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-05",
-      "summary": "A Sony mais uma vez retirou vários jogos de suas lojas, incluindo os catálogos de supostos editores de shovelware como GoGame Console Publisher, VRCForge Studios e Welding Byte. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/sonys-battle-against-shovelware-publishers-persists-as-it-purges-another-load-of-crap-games-from-the-playstation-store"
-    },
-    {
-      "id": "https://www.eurogamer.net/mcdonalds-new-archie-device-stops-you-going-afk-while-you-eat-a-big-mac",
-      "title": "O novo dispositivo 'Archie' do McDonald's impede que você fique AFK enquanto come um Big Mac",
-      "original_title": "McDonald's new 'Archie' device stops you going AFK while you eat a Big Mac",
-      "image": "https://assetsio.gnwcdn.com/Screenshot-2026-04-05-at-18.21.15.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-05",
-      "summary": "Os jogadores em Türkiye serão os primeiros no mundo a adquirir um dispositivo 'Archie' do McDonald's – um controlador periférico que mantém seu controlador ativo enquanto você se afasta, provavelmente para comer uma refeição do McDonald's. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/mcdonalds-new-archie-device-stops-you-going-afk-while-you-eat-a-big-mac"
-    },
-    {
-      "id": "https://www.eurogamer.net/slay-the-spire-2-beats-crimson-desert-and-resident-evil-requiem-as-marchs-biggest-selling-game-on-steam",
-      "title": "Slay the Spire 2 vence Crimson Desert e Resident Evil Requiem como o jogo mais vendido de março no Steam",
-      "original_title": "Slay the Spire 2 beats Crimson Desert and Resident Evil Requiem as March's biggest-selling game on Steam",
-      "image": "https://assetsio.gnwcdn.com/slay-the-spire-2-key-art.webp?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-05",
-      "summary": "Slay the Spire 2 foi supostamente o jogo mais vendido de março no Steam, vendendo mais unidades do que outros novos lançamentos como Crimson Desert e Resident Evil Requiem, trazendo uma receita estimada de cerca de US$ 108 milhões (£ 81,7 milhões). Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/slay-the-spire-2-beats-crimson-desert-and-resident-evil-requiem-as-marchs-biggest-selling-game-on-steam"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1sd0024/pc_dev_freebieevergreen_valley_the_parkour_game/",
-      "title": "Brinde para desenvolvedores de PC｜Evergreen Valley: o jogo Parkour",
-      "original_title": "PC Dev Freebie｜Evergreen Valley: The Parkour Game",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-04-05",
-      "summary": "https://preview.redd.it/4sh8ygjbkctg1.png?width=774&format=png&auto=webp&s=3dbb34b57bb7e7bc002966904c8c8a2e70fcf45e ⚠️ Não faz parte do programa habitual de brindes da Epic Games ⚠️ ❗VERIFIQUE O JOGO E O DEV PRIMEIRO ANTES DE REIVINDICAR❗ 📝 Página de transações (para...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1sd0024/pc_dev_freebieevergreen_valley_the_parkour_game/"
-    },
-    {
       "id": "https://www.reddit.com/r/EpicGamesPC/comments/1sdfbef/epic_games_reward/",
       "title": "Recompensa de jogos épicos",
       "original_title": "Epic games reward",
@@ -617,51 +647,6 @@
         "r/EpicGamesPC"
       ],
       "url": "https://www.reddit.com/r/EpicGamesPC/comments/1sdfbef/epic_games_reward/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1sczw2v/epic_games_game_evergreen_valley_the_parkour_game/",
-      "title": "[Jogos Épicos] (Jogo) Evergreen Valley: O Jogo Parkour",
-      "original_title": "[Epic Games] (Game) Evergreen Valley: The Parkour Game",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-04-05",
-      "summary": "enviado por /u/MeguminShiro [link] [comentários]...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1sczw2v/epic_games_game_evergreen_valley_the_parkour_game/"
-    },
-    {
-      "id": "https://www.eurogamer.net/crimson-desert-patch-now-available-heres-whats-new",
-      "title": "Patch Crimson Desert agora disponível – aqui estão as novidades",
-      "original_title": "Crimson Desert patch now available – here's what's new",
-      "image": "https://assetsio.gnwcdn.com/Crimson-Desert_Screenshot_07.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-04",
-      "summary": "Pearl Abyss lançou outro patch para Crimson Desert, adicionando a opção Headgear Visibility para dar a você uma visão melhor de Kliff, expansão da capacidade de armazenamento privado de até 1000 slots (dependendo do nível de expansão do acampamento Greymane) e ...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/crimson-desert-patch-now-available-heres-whats-new"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1scc9uc/speechtotext_and_texttospeech_accessibility/",
-      "title": "Os recursos de acessibilidade de fala para texto e texto para fala agora estão disponíveis no Epic Text Chat em todo o ecossistema Epic (incluindo EGS PC, EGS Mobile)",
-      "original_title": "Speech-to-Text and Text-to-Speech accessibility features are now available in Epic Text Chat across the Epic ecosystem ( Including EGS PC , EGS Mobile )",
-      "image": "https://preview.redd.it/s6bsu75oz6tg1.jpeg?width=640&crop=smart&auto=webp&s=32b2b92dac50d078158342eb00cd5f1586169a13",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Epic News",
-      "date": "2026-04-04",
-      "summary": "https://x.com/EpicGames/status/2040112125067010174 enviado por /u/AlleyOfRage [link] [comentários] ...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1scc9uc/speechtotext_and_texttospeech_accessibility/"
     }
   ]
 }
