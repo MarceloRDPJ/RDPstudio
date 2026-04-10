@@ -1,39 +1,19 @@
 {
-  "last_updated": "2026-04-09T13:28:08",
-  "display_date": "09/04/2026 13:28",
+  "last_updated": "2026-04-10T13:11:06",
+  "display_date": "10/04/2026 13:11",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "155ms",
+    "latency": "131ms",
     "current_games": [
-      {
-        "title": "Clone Drone in the Danger Zone",
-        "description": "Clone Drone in the Danger Zone é um robô voxel slice-em-up onde qualquer parte do seu corpo pode ser cortada. Com sua mente transferida para um robô gladiador, você deve sobreviver às provações sinistras da arena.",
-        "image": "https://cdn1.epicgames.com/spt-assets/2300be8843b24d9a8abaa663a2b544f8/clone-drone-in-the-danger-zone-1cmlu.png",
-        "url": "https://store.epicgames.com/p/4d7e959581394dc4aee2039844753beb",
-        "price": "$19.99",
-        "start_date": "2026-04-02T15:00:00.000Z",
-        "end_date": "2026-04-09T15:00:00.000Z"
-      },
       {
         "title": "TOMAK: Save the Earth Regeneration",
         "description": "O lendário sucesso cult \"Tomak: Save the Earth\" chega à Epic Games Store!\nCuide de Evian, a Deusa do Amor — presa em um vaso de flores — e salve a humanidade da destruição. Da ascensão divina à aniquilação total, cada escolha que você faz leva a um destino diferente.",
-        "image": "https://cdn1.epicgames.com/spt-assets/603c0097f96047c38bc199331b5cf95b/tomak--save-the-earth-regeneration-10jsb.png",
+        "image": "https://cdn1.epicgames.com/spt-assets/603c0097f96047c38bc199331b5cf95b/tomak--save-the-earth-regeneration-1dr6j.png",
         "url": "https://store.epicgames.com/p/798328bff911452783523d61986170c0",
         "price": "$8.99",
         "start_date": "2026-04-02T00:00:00.000Z",
         "end_date": "2026-04-16T15:00:00.000Z"
-      }
-    ],
-    "upcoming_games": [
-      {
-        "title": "Monument Valley",
-        "description": "Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
-        "image": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
-        "url": "https://store.epicgames.com/p/monument-valley-02",
-        "price": "$7.99",
-        "start_date": "2026-05-14T15:00:00.000Z",
-        "end_date": "2026-06-11T15:00:00.000Z"
       },
       {
         "title": "Prop Sumo",
@@ -45,38 +25,73 @@
         "end_date": "2026-04-16T15:00:00.000Z"
       }
     ],
+    "upcoming_games": [
+      {
+        "title": "The Stone of Madness",
+        "description": "The Stone of Madness é um jogo tático furtivo em tempo real ambientado em um mosteiro espanhol do século XVIII. Cinco prisioneiros reúnem suas habilidades e recursos para enfrentar suas fobias, evitar a insanidade, descobrir os mistérios do Monastério e encontrar uma maneira de escapar.",
+        "image": "https://cdn1.epicgames.com/spt-assets/8de621e8d91b473f892472024035dc22/the-stone-of-madness-hvdla.jpg",
+        "url": "https://store.epicgames.com/p/the-stone-of-madness",
+        "price": "$29.99",
+        "start_date": "2026-04-16T15:00:00.000Z",
+        "end_date": "2026-04-23T15:00:00.000Z"
+      },
+      {
+        "title": "Monument Valley",
+        "description": "Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
+        "image": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
+        "url": "https://store.epicgames.com/p/monument-valley-02",
+        "price": "$7.99",
+        "start_date": "2026-05-14T15:00:00.000Z",
+        "end_date": "2026-06-11T15:00:00.000Z"
+      }
+    ],
     "mystery_detected": false
   },
   "items": [
     {
-      "id": "https://store.epicgames.com/p/4d7e959581394dc4aee2039844753beb",
-      "title": "GRÁTIS: Clone Drone in the Danger Zone",
-      "original_title": "Clone Drone in the Danger Zone",
-      "image": "https://cdn1.epicgames.com/spt-assets/2300be8843b24d9a8abaa663a2b544f8/clone-drone-in-the-danger-zone-1cmlu.png",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Free Games",
-      "date": "2026-04-09",
-      "summary": "Clone Drone in the Danger Zone é um robô voxel slice-em-up onde qualquer parte do seu corpo pode ser cortada. Com sua mente transferida para um robô gladiador, você deve sobreviver às provações sinistras da arena.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/4d7e959581394dc4aee2039844753beb"
-    },
-    {
       "id": "https://store.epicgames.com/p/798328bff911452783523d61986170c0",
       "title": "GRÁTIS: TOMAK: Save the Earth Regeneration",
       "original_title": "TOMAK: Save the Earth Regeneration",
-      "image": "https://cdn1.epicgames.com/spt-assets/603c0097f96047c38bc199331b5cf95b/tomak--save-the-earth-regeneration-10jsb.png",
+      "image": "https://cdn1.epicgames.com/spt-assets/603c0097f96047c38bc199331b5cf95b/tomak--save-the-earth-regeneration-1dr6j.png",
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-04-09",
+      "date": "2026-04-10",
       "summary": "O lendário sucesso cult \"Tomak: Save the Earth\" chega à Epic Games Store!\nCuide de Evian, a Deusa do Amor — presa em um vaso de flores — e salve a humanidade da destruição. Da ascensão divina à aniquilação total, cada escolha que você faz leva a um destino diferente.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/798328bff911452783523d61986170c0"
+    },
+    {
+      "id": "https://store.epicgames.com/p/67a9bcbc6b8e411e9265afb380fea91f",
+      "title": "GRÁTIS: Prop Sumo",
+      "original_title": "Prop Sumo",
+      "image": "https://cdn1.epicgames.com/spt-assets/a965174568cb492ca3ebbe7a95886261/propsumo-1inog.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Free Games",
+      "date": "2026-04-10",
+      "summary": "Prop Sumo é um jogo de luta em grupo que reúne adereços comuns em batalhas extraordinárias!\n\nDerrote seus amigos e domine o placar!",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/67a9bcbc6b8e411e9265afb380fea91f"
+    },
+    {
+      "id": "https://store.epicgames.com/p/the-stone-of-madness",
+      "title": "EM BREVE: The Stone of Madness",
+      "original_title": "The Stone of Madness",
+      "image": "https://cdn1.epicgames.com/spt-assets/8de621e8d91b473f892472024035dc22/the-stone-of-madness-hvdla.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-04-10",
+      "summary": "Disponível gratuitamente a partir de 16/04. The Stone of Madness é um jogo tático furtivo em tempo real ambientado em um mosteiro espanhol do século XVIII. Cinco prisioneiros reúnem suas habilidades e recursos para enfrentar suas fobias, evitar a insanidade, descobrir os mistérios do Monastério e encontrar uma maneira de escapar.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/the-stone-of-madness"
     },
     {
       "id": "https://store.epicgames.com/p/monument-valley-02",
@@ -86,7 +101,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-04-09",
+      "date": "2026-04-10",
       "summary": "Disponível gratuitamente a partir de 14/05. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
       "sources": [
         "Epic Games Store"
@@ -94,124 +109,109 @@
       "url": "https://store.epicgames.com/p/monument-valley-02"
     },
     {
-      "id": "https://store.epicgames.com/p/67a9bcbc6b8e411e9265afb380fea91f",
-      "title": "EM BREVE: Prop Sumo",
-      "original_title": "Prop Sumo",
-      "image": "https://cdn1.epicgames.com/spt-assets/a965174568cb492ca3ebbe7a95886261/propsumo-1inog.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-04-09",
-      "summary": "Disponível gratuitamente a partir de 09/04. Prop Sumo é um jogo de luta em grupo que reúne adereços comuns em batalhas extraordinárias!\n\nDerrote seus amigos e domine o placar!",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/67a9bcbc6b8e411e9265afb380fea91f"
-    },
-    {
-      "id": "https://www.eurogamer.net/007-first-light-ps5-controller-design",
-      "title": "\"Pare de interpretar Bond errado!\" - O design do controlador 007: First Light PS5 parece para você?",
-      "original_title": "\"Stop getting Bond wrong!\" - Does the design of the 007: First Light PS5 controller look off to you?",
-      "image": "https://assetsio.gnwcdn.com/james-bond-007-first-light-controller.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/phantom-blade-zero-studio-rejects-generative-ai",
+      "title": "O desenvolvedor do Phantom Blade Zero rejeita a geração de IA e promete que “cada parte do conteúdo do nosso jogo foi criada pelas mãos de artistas reais”",
+      "original_title": "Phantom Blade Zero developer rejects gen-AI and promises \"every single piece of content in our game has been crafted by the hands of real artists\"",
+      "image": "https://assetsio.gnwcdn.com/Phantom-Blade-Zero_fire-boss-fight.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-04-09",
-      "summary": "É uma coisa estranha de escrever, mas o design da edição limitada do controlador 007: First Light DualSense PS5 parece para você? Tipo, errado? Não errado no sentido de que alguém cometeu um erro, mas errado no sentido de que o design não capt...",
+      "date": "2026-04-10",
+      "summary": "O jogo de ação inspirado em Wuxia, Phantom Blade Zero, está agora nos estágios finais de desenvolvimento antes de seu lançamento ainda este ano, e o desenvolvedor S-Game divulgou uma declaração sobre sua posição em relação ao uso de IA generativa no desenvolvimento. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/007-first-light-ps5-controller-design"
+      "url": "https://www.eurogamer.net/phantom-blade-zero-studio-rejects-generative-ai"
     },
     {
-      "id": "https://www.eurogamer.net/horror-home-safety-hotline-being-turned-into-a-movie",
-      "title": "'Severance Meets Stranger Things' - brilhante terror analógico em call center Home Safety Hotline está sendo transformado em filme",
-      "original_title": "'Severance meets Stranger Things' - brilliant analogue call centre horror Home Safety Hotline is being turned into a movie",
-      "image": "https://assetsio.gnwcdn.com/home-centre-hotline.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/dune-awakening-ditching-pvp-endgame-experience-80-players",
+      "title": "Dune: Awakening está abandonando o PvP como uma experiência obrigatória de final de jogo, já que mais de 80% dos jogadores ao longo da vida não se envolveram com ele",
+      "original_title": "Dune: Awakening is ditching PvP as a mandatory endgame experience, as over 80% of lifetime players didn't engage with it at all",
+      "image": "https://assetsio.gnwcdn.com/dune-awakening-desert.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-04-09",
-      "summary": "Home Safety Hotline, o maravilhoso terror de call center analógico da desenvolvedora Night Signal Entertainment, está recebendo tratamento de adaptação cinematográfica do diretor de Love and Monsters, Michael Matthews.\n Leia mais...",
+      "date": "2026-04-10",
+      "summary": "Dune: Awakening está se afastando de seu final de jogo PvP, seguindo as principais mudanças feitas em sua recente atualização do capítulo três. Além disso, a hospedagem de servidores privados está chegando, o que deve fornecer longevidade adicional e centros comunitários para o jogo...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/horror-home-safety-hotline-being-turned-into-a-movie"
+      "url": "https://www.eurogamer.net/dune-awakening-ditching-pvp-endgame-experience-80-players"
     },
     {
-      "id": "https://www.eurogamer.net/xbox-is-overhauling-achievements-hide-embarrassing-games",
-      "title": "As conquistas do Xbox estão passando por algumas mudanças importantes, incluindo a opção de ocultar jogos embaraçosos que você não deseja exibir",
-      "original_title": "Xbox Achievements are getting some major changes, including the option to hide embarrassing games that you don't want to show off",
-      "image": "https://assetsio.gnwcdn.com/image-(22)_BLbhAEH.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/crimson-desert-major-content-update",
+      "title": "Crimson Desert está recebendo revanche de chefes, níveis de dificuldade e habilidades extras nas próximas atualizações",
+      "original_title": "Crimson Desert is getting boss rematches, difficulty settings, and extra skills in upcoming updates",
+      "image": "https://assetsio.gnwcdn.com/Crimson-Desert_Greymane-attack.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-04-09",
-      "summary": "O Xbox está fazendo algumas mudanças importantes em suas conquistas, para que os Xbox Insiders testem antes de um lançamento mais amplo. Isso inclui opções de personalização para pop-ups de Conquistas, a capacidade de destacar certas conclusões de 100 por cento que você está especialmente pr...",
+      "date": "2026-04-10",
+      "summary": "Crimson Desert receberá atualizações significativas em breve, trazendo alguns recursos importantes para o jogo, como a capacidade de repetir lutas contra chefes, novos níveis de dificuldade, reaparecimento de postos avançados inimigos e novos trajes. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/xbox-is-overhauling-achievements-hide-embarrassing-games"
+      "url": "https://www.eurogamer.net/crimson-desert-major-content-update"
     },
     {
-      "id": "https://www.eurogamer.net/overwatch-hero-sierra-revealed",
-      "title": "A próxima nova heroína de Overwatch é Sierra, e demos uma breve olhada no que ela pode fazer",
-      "original_title": "The next new Overwatch hero is Sierra, and we've been given a brief look at what she can do",
-      "image": "https://assetsio.gnwcdn.com/overwatch-sierra.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/marathon-budget-over-200-million-dollars-likely-250-million",
+      "title": "“Este não é um jogo que está prestes a enfrentar algum tipo de paralisação iminente” – Marathon teria um orçamento de US$ 200 milhões e, embora o número de jogadores esteja caindo, o moral da equipe permanece bom",
+      "original_title": "\"This is not a game that is about to face some sort of imminent shutdown\" - Marathon reportedly had a budget of $200m, and while player numbers are dipping, team morale remains good",
+      "image": "https://assetsio.gnwcdn.com/bungie-marathon-wwbp.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-04-09",
-      "summary": "A Blizzard anunciou o 51º herói de Overwatch, Sierra, um personagem com função de dano, que será adicionado ao jogo quando a 2ª temporada de Reign of Talon for lançada na próxima terça-feira, 14 de abril. Ela é a primeira de cinco novos heróis que ainda chegarão ao jogo de tiro competitivo...",
+      "date": "2026-04-10",
+      "summary": "A Marathon teria um orçamento de desenvolvimento de mais de US$ 200 milhões, e provavelmente mais de US$ 250 milhões, sem incluir os custos contínuos de desenvolvimento pós-lançamento para manutenção do jogo e novas atualizações. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/overwatch-hero-sierra-revealed"
+      "url": "https://www.eurogamer.net/marathon-budget-over-200-million-dollars-likely-250-million"
     },
     {
-      "id": "https://www.eurogamer.net/pokemon-champions-bug-fixes-announced",
-      "title": "\"O gênero de alguns Pokémon no tutorial está incorreto\" - Correções de bugs do Pokémon Champions para resolver problemas de mega evolução e muito mais",
-      "original_title": "\"The gender of some Pokémon in the tutorial is incorrect\" - Pokémon Champions bug fixes to tackle mega evolution issues and more",
-      "image": "https://assetsio.gnwcdn.com/pokemon-champions-tyranitar.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/final-destination-bloodlines-directors-metal-gear-solid-movie",
+      "title": "A adaptação cinematográfica de Metal Gear Solid da Sony Pictures é ressuscitada, com os diretores de Final Destination: Bloodlines do ano passado no comando",
+      "original_title": "Sony Pictures' Metal Gear Solid movie adaptation is resurrected, with the directors of last year's Final Destination: Bloodlines at the helm",
+      "image": "https://assetsio.gnwcdn.com/metal-gear-snake-delta.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-04-09",
-      "summary": "Pokémon Champions receberá algumas correções de bugs substanciais nos próximos patches, anunciou o desenvolvedor The Pokémon Works. Leia mais...",
+      "date": "2026-04-10",
+      "summary": "Conversas sérias sobre uma adaptação cinematográfica de Metal Gear Solid já existem há mais de uma década, com o diretor de Kong: Skull Island, Jordan Vogt-Roberts, contratado desde 2014. Mas essa iteração aparentemente não deu em nada, já que a Sony Pictures acaba de fechar um projeto.",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/pokemon-champions-bug-fixes-announced"
+      "url": "https://www.eurogamer.net/final-destination-bloodlines-directors-metal-gear-solid-movie"
     },
     {
-      "id": "https://www.techpowerup.com/348113/intel-and-google-partner-on-ai-infrastructure-with-xeon-cpus-and-custom-ipus",
-      "title": "(PR) Intel e Google fazem parceria em infraestrutura de IA com CPUs Xeon e IPUs personalizadas",
-      "original_title": "(PR) Intel and Google Partner on AI Infrastructure with Xeon CPUs and Custom IPUs",
-      "image": "https://tpucdn.com/img/J7t2GRS7veqxY9VQ_thm.jpg",
+      "id": "https://www.techpowerup.com/348135/microsoft-starts-removing-copilot-from-notepad-snipping-tool-and-more-in-windows-11",
+      "title": "Microsoft começa a remover o Copilot do bloco de notas, ferramenta de recorte e muito mais no Windows 11",
+      "original_title": "Microsoft Starts Removing Copilot from Notepad, Snipping Tool, and More in Windows 11",
+      "image": "https://tpucdn.com/img/FnlCyH64P8E8Dhwr_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-04-09",
-      "summary": "A Intel Corporation (NASDAQ: INTC) e o Google anunciaram hoje uma colaboração plurianual para avançar a próxima geração de IA e infraestrutura em nuvem, reforçando o papel crítico das CPUs e unidades de processamento de infraestrutura personalizadas (IPUs) no dimensionamento mais...",
+      "date": "2026-04-10",
+      "summary": "O Copilot AI da Microsoft gerou um sentimento negativo significativo entre os usuários do Windows 11, a tal ponto que até a Microsoft reconheceu a necessidade de reduzir algumas das funcionalidades do Copilot que há muito promove. De acordo com o Windows Latest, M...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/348113/intel-and-google-partner-on-ai-infrastructure-with-xeon-cpus-and-custom-ipus"
+      "url": "https://www.techpowerup.com/348135/microsoft-starts-removing-copilot-from-notepad-snipping-tool-and-more-in-windows-11"
     },
     {
-      "id": "https://www.techpowerup.com/348111/global-pc-shipments-grew-3-in-1q26-as-supply-chain-impacts-emerged",
-      "title": "(PR) As remessas globais de PCs cresceram 3% no 1T26 à medida que surgiram os impactos na cadeia de suprimentos",
-      "original_title": "(PR) Global PC Shipments Grew 3% in 1Q26 as Supply Chain Impacts Emerged",
-      "image": "https://tpucdn.com/img/PnjDIL85jSy9n9rS_thm.jpg",
+      "id": "https://www.techpowerup.com/348134/yunzii-adds-choco-blue-variant-to-c75-cake-mechanical-keyboard-series",
+      "title": "(PR) Yunzii adiciona variante Choco Blue à série de teclados mecânicos C75 Cake",
+      "original_title": "(PR) Yunzii Adds Choco Blue Variant to C75 Cake Mechanical Keyboard Series",
+      "image": "https://tpucdn.com/img/5UF0dY39TQYZ5W1x_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-04-09",
-      "summary": "De acordo com a última pesquisa da Omdia, as remessas totais de desktops, notebooks e estações de trabalho no 1T26 aumentaram 3,2% ano a ano, para 64,8 milhões de unidades. Os notebooks (incluindo estações de trabalho móveis) tiveram um aumento modesto de 2 em relação ao ano anterior.",
+      "date": "2026-04-10",
+      "summary": "Um teclado de bolo não está completo sem sabor de chocolate. Conheça o novo YUNZII C75 Cake Keyboard em sua cor Choco – combinando ricos tons de chocolate com refrescantes detalhes em azul para trazer energia e doçura à configuração do seu desktop.\n\nChave de bolo fofa...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/348111/global-pc-shipments-grew-3-in-1q26-as-supply-chain-impacts-emerged"
+      "url": "https://www.techpowerup.com/348134/yunzii-adds-choco-blue-variant-to-c75-cake-mechanical-keyboard-series"
     },
     {
       "id": "https://www.techpowerup.com/348104/block-ads-trackers-across-9-devices-for-just-usd-16",
@@ -221,7 +221,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-04-09",
+      "date": "2026-04-10",
       "summary": "As ferramentas de bloqueio de anúncios tornaram-se cada vez mais comuns à medida que a publicidade online, os scripts de rastreamento e os pop-ups continuam a se expandir em sites e aplicativos. O Plano Familiar AdGuard é uma dessas opções, oferecendo uma combinação de bloqueio de anúncios, proteção de privacidade,...",
       "sources": [
         "TechPowerUp"
@@ -229,184 +229,184 @@
       "url": "https://www.techpowerup.com/348104/block-ads-trackers-across-9-devices-for-just-usd-16"
     },
     {
-      "id": "https://www.techpowerup.com/348109/eizo-releases-coloredge-cs3200x-31-5-inch-4k-monitor-for-creative-workflows",
-      "title": "(PR) EIZO lança monitor 4K ColorEdge CS3200X de 31,5 polegadas para fluxos de trabalho criativos",
-      "original_title": "(PR) EIZO Releases ColorEdge CS3200X 31.5-inch 4K Monitor for Creative Workflows",
-      "image": "https://tpucdn.com/img/Wgvquy070o3bQ7YQ_thm.jpg",
+      "id": "https://www.techpowerup.com/348133/asus-announces-zenmouse-md202",
+      "title": "(PR) ASUS Anuncia ZenMouse MD202",
+      "original_title": "(PR) ASUS Announces ZenMouse MD202",
+      "image": "https://tpucdn.com/img/WTdXmygCJYMDnZhu_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-04-09",
-      "summary": "A EIZO Corporation (TSE: 6737) apresentou hoje o ColorEdge CS3200X – um monitor de gerenciamento de cores 4K UHD (3840 x 2160) de 31,5 polegadas que se junta à linha ColorEdge Série CS. O CS3200X combina as principais tecnologias ColorEdge com valor agregado para diversos trabalhos...",
+      "date": "2026-04-10",
+      "summary": "A ASUS anunciou hoje o ZenMouse MD202, um mouse sem fio refinado que possui uma tampa superior em Ceraluminum que fornece uma superfície tátil única, oferecendo estética e durabilidade excepcionais.\n\nBluetooth de modo duplo e conectividade sem fio de 2,4 GHz permitem f...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/348109/eizo-releases-coloredge-cs3200x-31-5-inch-4k-monitor-for-creative-workflows"
+      "url": "https://www.techpowerup.com/348133/asus-announces-zenmouse-md202"
     },
     {
-      "id": "https://www.techpowerup.com/348108/cherry-xtrfy-launches-k5-pro-tmr-compact-magnetic-switch-keyboard",
-      "title": "(PR) Cherry Xtrfy lança teclado magnético compacto K5 Pro TMR",
-      "original_title": "(PR) Cherry Xtrfy Launches K5 Pro TMR Compact Magnetic Switch Keyboard",
-      "image": "https://tpucdn.com/img/YTlCYykCrRglCh6N_thm.jpg",
+      "id": "https://www.techpowerup.com/348131/razer-unveils-hammerhead-v3-hyperspeed-gaming-earbuds",
+      "title": "(PR) Razer lança fones de ouvido para jogos Hammerhead V3 HyperSpeed",
+      "original_title": "(PR) Razer Unveils Hammerhead V3 HyperSpeed Gaming Earbuds",
+      "image": "https://tpucdn.com/img/3RoacKCW2uFzpVbn_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-04-09",
-      "summary": "O K5 Pro TMR Compact leva o popular teclado K5 da CHERRY XTRFY a um novo nível. Este teclado para jogos, com interruptores magnéticos CHERRY MK Crystal e tecnologia de detecção TMR, combina entrada precisa e tempos de resposta ultrarrápidos com um teclado compacto e elegante.",
+      "date": "2026-04-10",
+      "summary": "A Razer, marca líder global em estilo de vida para gamers, anunciou hoje os Razer Hammerhead V3 HyperSpeed, fones de ouvido para jogos projetados para jogadores que se movimentam entre dispositivos e exigem desempenho de áudio intransigente onde quer que joguem. Projetado para o modo...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/348108/cherry-xtrfy-launches-k5-pro-tmr-compact-magnetic-switch-keyboard"
+      "url": "https://www.techpowerup.com/348131/razer-unveils-hammerhead-v3-hyperspeed-gaming-earbuds"
     },
     {
-      "id": "https://www.techpowerup.com/348107/intel-nova-lake-s-uses-2l-ilm-socket-for-better-cpu-cooler-contact",
-      "title": "Intel “Nova Lake-S” usa soquete 2L-ILM para melhor contato com o cooler da CPU",
-      "original_title": "Intel \"Nova Lake-S\" Uses 2L-ILM Socket for Better CPU Cooler Contact",
-      "image": "https://tpucdn.com/img/AExwRro36QaGDoZE_thm.jpg",
+      "id": "https://www.techpowerup.com/348130/msi-launches-cubi-nuc-twg-series-ultra-compact-mini-pc",
+      "title": "(PR) MSI lança mini PC ultracompacto Cubi NUC TWG Series",
+      "original_title": "(PR) MSI Launches Cubi NUC TWG Series Ultra-Compact Mini PC",
+      "image": "https://tpucdn.com/img/VlQ9rnhpczDgFglr_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-04-09",
-      "summary": "Na última série de vazamentos sobre os próximos chips “Nova Lake” da Intel, aprendemos que os designs de desktop “Nova Lake-S” apresentarão uma nova montagem de soquete e mecanismo de carregamento independente (ILM). De acordo com informações exclusivas do VideoCardz, o...",
+      "date": "2026-04-10",
+      "summary": "A MSI anunciou oficialmente a série Cubi NUC TWG, um mini PC compacto projetado para oferecer desempenho confiável e conectividade versátil para locais de trabalho modernos. Com chassi de 0,55 litros e espessura de apenas 40,1 mm, o Cubi NUC TWG oferece es...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/348107/intel-nova-lake-s-uses-2l-ilm-socket-for-better-cpu-cooler-contact"
+      "url": "https://www.techpowerup.com/348130/msi-launches-cubi-nuc-twg-series-ultra-compact-mini-pc"
     },
     {
-      "id": "https://www.techpowerup.com/348106/chieftec-intros-dt-10b-300-sff-micro-atx-case",
-      "title": "Chieftec apresenta gabinete micro-ATX DT-10B-300 SFF",
-      "original_title": "Chieftec Intros DT-10B-300 SFF Micro-ATX Case",
-      "image": "https://tpucdn.com/img/blEv5EPO8sHAm2jr_thm.jpg",
+      "id": "https://www.techpowerup.com/348129/keychron-launches-k3-max-se-qmk-low-profile-mechanical-keyboard-to-match-ultra-8k-variant",
+      "title": "Keychron lança teclado mecânico de baixo perfil K3 Max SE QMK para combinar com a variante Ultra 8K",
+      "original_title": "Keychron Launches K3 Max SE QMK Low Profile Mechanical Keyboard To Match Ultra 8K Variant",
+      "image": "https://tpucdn.com/img/quQhjH69DV9lOvPm_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-04-09",
-      "summary": "A Chieftec apresentou hoje o DT-10B-300, um case microATX fino, com volume de 8 litros. O gabinete oferece espaço para placas-mãe microATX (ou menores) e ainda vem com um compartimento fino para unidade de disco óptico. O case inclui uma pré-instalação ...",
+      "date": "2026-04-10",
+      "summary": "A Keychron lançou recentemente os teclados mecânicos e TMR sem fio K3 Ultra e K3 HE no Kickstarter, ambos com a mesma construção em plástico, metal e madeira e com lançamento completo previsto para junho. No entanto, se você está procurando...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/348106/chieftec-intros-dt-10b-300-sff-micro-atx-case"
+      "url": "https://www.techpowerup.com/348129/keychron-launches-k3-max-se-qmk-low-profile-mechanical-keyboard-to-match-ultra-8k-variant"
     },
     {
-      "id": "https://www.techpowerup.com/348105/apple-macbooks-lose-network-connectivity-after-49-7-days-due-to-macos-time-bomb-bug",
-      "title": "Apple MacBooks perdem conectividade de rede após 49,7 dias devido ao bug “bomba-relógio” do macOS",
-      "original_title": "Apple MacBooks Lose Network Connectivity After 49.7 Days Due to macOS \"Time Bomb\" Bug",
-      "image": "https://tpucdn.com/img/cOM0sYJKO2RC3bI1_thm.jpg",
+      "id": "https://www.techpowerup.com/348128/death-stranding-2-on-the-beach-gets-steam-deck-verified-with-patch-1-3",
+      "title": "Death Stranding 2: On the Beach obtém Steam Deck verificado com patch 1.3",
+      "original_title": "Death Stranding 2: On the Beach Gets Steam Deck Verified With Patch 1.3",
+      "image": "https://tpucdn.com/img/4KMxyLJ8jpymaBtD_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-04-09",
-      "summary": "O MacBook Neo da Apple, o MacBook Air e a mais recente série de laptops MacBook Neo estão agora suscetíveis a uma queda significativa de desempenho se permanecerem ligados por 49,7 dias sem reinicialização. Especificamente, após exatamente 49 dias, 17 horas, 2 minutos, um...",
+      "date": "2026-04-10",
+      "summary": "Como muitos jogos single-player, Death Stranding 2: On the Beach pode ser jogado no Steam Deck desde que foi lançado no PC, ganhando uma classificação Ouro no ProtonDB, no entanto, tem havido reclamações de usuários no ProtonDB sobre baixa legibilidade de texto, interface do usuário.",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/348105/apple-macbooks-lose-network-connectivity-after-49-7-days-due-to-macos-time-bomb-bug"
+      "url": "https://www.techpowerup.com/348128/death-stranding-2-on-the-beach-gets-steam-deck-verified-with-patch-1-3"
     },
     {
-      "id": "https://www.techpowerup.com/348103/amd-ryzen-9-9950x3d2-dual-edition-msrp-is-usd-899",
-      "title": "O preço sugerido do AMD Ryzen 9 9950X3D2 Dual Edition custa US$ 899",
-      "original_title": "AMD Ryzen 9 9950X3D2 Dual Edition MSRP is $899",
-      "image": "https://tpucdn.com/img/uQjBBWe6zJdOh1uZ_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-04-09",
-      "summary": "Antes de sua disponibilidade no varejo em 22 de abril, a AMD confirmou o preço MSRP (antes de impostos) dos EUA de seu próximo processador carro-chefe para desktop, o Ryzen 9 9950X3D2 Dual Edition. O chip vem com um MSRP AMD de US$ 899, ou US$ 200 a mais que o MSRP de lançamento do...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348103/amd-ryzen-9-9950x3d2-dual-edition-msrp-is-usd-899"
-    },
-    {
-      "id": "https://www.techpowerup.com/348100/the-first-berserker-khazan-loses-support-development-team-over-poor-commercial-performance",
-      "title": "O primeiro Berserker: Khazan perde equipe de desenvolvimento de suporte devido ao fraco desempenho comercial",
-      "original_title": "The First Berserker: Khazan Loses Support Development Team Over Poor Commercial Performance",
-      "image": "https://tpucdn.com/img/lRHbteTEYcvln4fW_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-04-09",
-      "summary": "A subsidiária da Nexon, Neople, lançou The First Berserker: Khazan em 27 de março de 2025 e, apesar da impressionante recepção crítica do jogo, parece que o ARPG nunca conseguiu atingir os patamares comerciais esperados pela Nexon. De acordo com um ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348100/the-first-berserker-khazan-loses-support-development-team-over-poor-commercial-performance"
-    },
-    {
-      "id": "https://www.eurogamer.net/split-fiction-developer-hazelight-celebrates-50-million-units-sold",
-      "title": "A desenvolvedora de Split Fiction, Hazelight, comemora 50 milhões de vendas de jogos, mas não é seu jogo mais novo que domina o gráfico de pizza",
-      "original_title": "Split Fiction developer Hazelight celebrates 50 million games sales, but it's not its newest game that dominates the pie chart",
-      "image": "https://assetsio.gnwcdn.com/split-fiction-mio-and-zoe-and-dragons.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/dont-starve-is-back-for-more-darkly-whimsical-co-op-survival-in-dont-starve-elsewhere-and-this-time-theres-hills",
+      "title": "Don't Starve está de volta para uma sobrevivência cooperativa mais sombria e caprichosa em Don't Starve Elsewhere, e desta vez há colinas!",
+      "original_title": "Don't Starve is back for more darkly whimsical co-op survival in Don't Starve Elsewhere, and this time there's hills!",
+      "image": "https://assetsio.gnwcdn.com/dont-starve-elsewhere.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-04-08",
-      "summary": "Hazelight Studios – o desenvolvedor por trás das delícias cooperativas locais A Way Out, It Takes Two e Split Fiction – anunciou que ultrapassou um marco de vendas surpreendentemente grande: mais de 50 milhões de vendas. Leia mais...",
+      "date": "2026-04-09",
+      "summary": "A Klei Entertainment revelou uma nova parcela multijogador de sua série de sobrevivência sombria e divertida, Don't Starve. Conforme revelado durante o último Triple-i Initiative Showcase, chama-se Don't Starve Elsewhere e promete aventura em um ...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/split-fiction-developer-hazelight-celebrates-50-million-units-sold"
+      "url": "https://www.eurogamer.net/dont-starve-is-back-for-more-darkly-whimsical-co-op-survival-in-dont-starve-elsewhere-and-this-time-theres-hills"
     },
     {
-      "id": "https://www.eurogamer.net/early-tomb-raider-legend-gameplay-footage-unearthed",
-      "title": "Imagens de jogo inéditas de Tomb Raider: Legend mostram áreas invisíveis e visuais diferentes quando o jogo completa 20 anos",
-      "original_title": "Previously unseen early Tomb Raider: Legend gameplay footage shows unseen areas and different visuals as the game turns 20 years old",
-      "image": "https://assetsio.gnwcdn.com/Tomb-Raider-Legend_Lara-Croft-standing.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/palworld-temtem-survival-creature-collector-spin-off-temtem-pioneers",
+      "title": "Palworld está recebendo alguma competição enquanto Temtem, semelhante ao Pokémon, revela o spin-off de sobrevivência Temtem: Pioneers",
+      "original_title": "Palworld is getting some competition as Pokémon-like Temtem unveils survival spin-off Temtem: Pioneers",
+      "image": "https://assetsio.gnwcdn.com/TemtemPioneers_mount-crop.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-04-08",
-      "summary": "Depois de anos de relativo silêncio, o futuro imediato de Tomb Raider parece ocupado com Legacy of Atlantis – um remake do jogo original – chegando em 2026, e Catalyst seguindo em 2027. Hoje, no entanto, estamos revisitando brevemente seu passado. Leia mais...",
+      "date": "2026-04-09",
+      "summary": "É a batalha dos Pokémon-likes! Mais ou menos. O desenvolvedor Crema revelou Temtem: Pioneers, um novo spin-off de sua aventura de coleta de criaturas Temtem de 2022 que - com base nas informações limitadas reveladas até agora, pelo menos - parece que está mirando...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/early-tomb-raider-legend-gameplay-footage-unearthed"
+      "url": "https://www.eurogamer.net/palworld-temtem-survival-creature-collector-spin-off-temtem-pioneers"
     },
     {
-      "id": "https://www.eurogamer.net/pokemon-champions-reception-performance-woes-competitive-changes",
-      "title": "Pokémon Champions é lançado com recepção mista, à medida que problemas de desempenho e mudanças competitivas afastam alguns",
-      "original_title": "Pokémon Champions launches to mixed reception, as performance woes and competitive changes turn some away",
-      "image": "https://assetsio.gnwcdn.com/Pok%C3%A9mon-Champions-%E2%80%93-Overview-Trailer-%E2%80%93-Nintendo-Switch-0-19-screenshot.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/over-the-hill-alpha-playtest-new-trailer",
+      "title": "Over the Hill, do estúdio Art of Rally, recebe um teste alfa este mês e um novo trailer sofisticado com algumas novas revelações",
+      "original_title": "Art of Rally studio's Over the Hill gets an alpha playtest this month, and a fancy new trailer with some fresh reveals",
+      "image": "https://assetsio.gnwcdn.com/over-the-hill-header.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-04-08",
-      "summary": "Foi lançado Pokémon Champions, um jogo competitivo focado em batalhas que espera conquistar os corações dos jogadores dedicados da série. No entanto, algumas limitações de desempenho e escolhas de jogo deixaram uma parte da comunidade decepcionada. Ré...",
+      "date": "2026-04-09",
+      "summary": "Over the Hill, o jogo de exploração off-road do estúdio por trás de Art of Rally, recebeu um novo trailer durante o mais recente showcase da Triple-i Initiative, focado no indie. Não só revela uma nova área encantadora para explorar, como também traz novas...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/pokemon-champions-reception-performance-woes-competitive-changes"
+      "url": "https://www.eurogamer.net/over-the-hill-alpha-playtest-new-trailer"
     },
     {
-      "id": "https://www.eurogamer.net/007-first-light-delayed-nintendo-switch-2",
-      "title": "Jogo 007 de James Bond: First Light atrasou um pouco no Nintendo Switch 2",
-      "original_title": "James Bond game 007: First Light delayed a bit on Nintendo Switch 2",
-      "image": "https://assetsio.gnwcdn.com/007-First-Light---James-Bond-close-up.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/pirate-survival-game-windrose-lands-a-release-date",
+      "title": "O tão aguardado jogo de sobrevivência pirata Windrose tem uma data de lançamento e está zarpando muito, muito em breve",
+      "original_title": "Highly anticipated pirate survival game Windrose lands a release date, and it's setting sail very, very soon",
+      "image": "https://assetsio.gnwcdn.com/windrose-header.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-04-08",
-      "summary": "007: First Light é um lançamento de maio ao qual estamos prestando muita atenção há muito tempo, mas agora não teremos todas as versões de uma vez: a versão Nintendo Switch 2 foi adiada. Leia mais...",
+      "date": "2026-04-09",
+      "summary": "O jogo de sobrevivência pirata extremamente promissor, Windrose, finalmente tem uma data de lançamento e - conforme anunciado durante o último Triple-i Initiative Showcase - está levantando âncora e navegando para o acesso antecipado do Steam na próxima terça-feira, 14 de abril. \n Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/007-first-light-delayed-nintendo-switch-2"
+      "url": "https://www.eurogamer.net/pirate-survival-game-windrose-lands-a-release-date"
     },
     {
-      "id": "https://www.eurogamer.net/no-mans-sky-goes-pokemon-in-new-xeno-arena-update",
-      "title": "No Man's Sky se torna Pokémon completo em uma nova atualização de batalha contra criaturas – “Este é um jogo multijogador completo”",
-      "original_title": "No Man's Sky goes full-on Pokémon in new creature-battling update - \"This is an entire multiplayer game all of its own\"",
-      "image": "https://assetsio.gnwcdn.com/no-mans-sky-xeno-arena.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/11-bit-studios-cursed-farming-game-crop",
+      "title": "O estúdio Frostpunk revela o thriller agrícola sombrio e distorcido Crop, que mistura Stardew Valley com a estranheza e o mistério de Twin Peaks",
+      "original_title": "Frostpunk studio reveals dark and twisted farming thriller Crop, which blends Stardew Valley with the eeriness and mystery of Twin Peaks",
+      "image": "https://assetsio.gnwcdn.com/crop-11-bit-farming.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-04-08",
-      "summary": "Com o 10º aniversário de No Man’s Sky cada vez mais próximo, a desenvolvedora Hello Games voltou com outra atualização para seu amplo simulador espacial exploratório, e a grande adição desta vez é, bem, é basicamente Pokémon.\n Leia mais...",
+      "date": "2026-04-09",
+      "summary": "O braço editorial do desenvolvedor Frostpunk 11 Bit Studios, que construiu uma reputação de lançar jogos interessantes - como Indika, Thaumaturge e Death Howl - revelou um novo thriller de narrativa sim-slash agrícola chamado Crop. Está sendo ma...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/no-mans-sky-goes-pokemon-in-new-xeno-arena-update"
+      "url": "https://www.eurogamer.net/11-bit-studios-cursed-farming-game-crop"
+    },
+    {
+      "id": "https://www.techpowerup.com/348126/northgard-devs-online-co-op-space-exploration-sim-spacecraft-gets-may-20-release-date",
+      "title": "Sim “SpaceCraft” de exploração espacial cooperativa on-line da Northgard Dev chega em 20 de maio",
+      "original_title": "Northgard Dev's Online Co-Op Space Exploration Sim \"SpaceCraft\" Gets May 20 Release Date",
+      "image": "https://tpucdn.com/img/DUPwoTF9k6RW3yGg_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-04-09",
+      "summary": "A Iniciativa Triple-I deste ano já viu o anúncio da data de lançamento do Acesso Antecipado de Windrose, um ambicioso jogo cooperativo de sobrevivência pirata, mas agora, juntando-se a Windrose está SpaceCraft, um simulador de exploração espacial independente de mundo aberto em desenvolvimento em Shir...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348126/northgard-devs-online-co-op-space-exploration-sim-spacecraft-gets-may-20-release-date"
+    },
+    {
+      "id": "https://www.techpowerup.com/348125/elden-ring-tarnished-edition-for-nintendo-switch-2-shows-up-with-hefty-price-tag-in-pre-order-listing",
+      "title": "Elden Ring Tarnished Edition para Nintendo Switch 2 aparece com etiqueta de preço elevada na lista de pré-encomenda",
+      "original_title": "Elden Ring Tarnished Edition for Nintendo Switch 2 Shows Up With Hefty Price Tag in Pre-Order Listing",
+      "image": "https://tpucdn.com/img/MLe38y4TXWdZc1xZ_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-04-09",
+      "summary": "Recentemente, informamos sobre as mudanças de preços da Nintendo para mídias de jogos físicas e digitais no Switch 2, com Yoshi e o Livro Misterioso chegando a US$ 59,99 na versão digital e US$ 69,99 na edição física. Embora essa diferença de preço tenha sido um pouco ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348125/elden-ring-tarnished-edition-for-nintendo-switch-2-shows-up-with-hefty-price-tag-in-pre-order-listing"
     }
   ]
 }
