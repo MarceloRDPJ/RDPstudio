@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-04-11T12:58:39",
-  "display_date": "11/04/2026 12:58",
+  "last_updated": "2026-04-12T13:02:04",
+  "display_date": "12/04/2026 13:02",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "183ms",
+    "latency": "625ms",
     "current_games": [
       {
         "title": "TOMAK: Save the Earth Regeneration",
@@ -56,7 +56,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-04-11",
+      "date": "2026-04-12",
       "summary": "O lendário sucesso cult \"Tomak: Save the Earth\" chega à Epic Games Store!\nCuide de Evian, a Deusa do Amor — presa em um vaso de flores — e salve a humanidade da destruição. Da ascensão divina à aniquilação total, cada escolha que você faz leva a um destino diferente.",
       "sources": [
         "Epic Games Store"
@@ -71,7 +71,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-04-11",
+      "date": "2026-04-12",
       "summary": "Prop Sumo é um jogo de luta em grupo que reúne adereços comuns em batalhas extraordinárias!\n\nDerrote seus amigos e domine o placar!",
       "sources": [
         "Epic Games Store"
@@ -86,7 +86,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-04-11",
+      "date": "2026-04-12",
       "summary": "Disponível gratuitamente a partir de 16/04. The Stone of Madness é um jogo tático furtivo em tempo real ambientado em um mosteiro espanhol do século XVIII. Cinco prisioneiros reúnem suas habilidades e recursos para enfrentar suas fobias, evitar a insanidade, descobrir os mistérios do Monastério e encontrar uma maneira de escapar.",
       "sources": [
         "Epic Games Store"
@@ -101,12 +101,102 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-04-11",
+      "date": "2026-04-12",
       "summary": "Disponível gratuitamente a partir de 14/05. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/monument-valley-02"
+    },
+    {
+      "id": "https://www.eurogamer.net/black-and-white-lionhead-peter-moylneux-retrospective-google-deepmind-gemini-ai",
+      "title": "Preto e branco aos 25 anos: como o design de jogo estúpido e drogado de Lionhead se tornou o prenúncio da IA ​​moderna",
+      "original_title": "Black & White at 25: how Lionhead's hairbrained, stoner-powered game design became the harbinger of modern AI",
+      "image": "https://assetsio.gnwcdn.com/black-and-white-2-header-smaller.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-12",
+      "summary": "Sua mão desencarnada treme com força bruta. Pode arrasar florestas, convocar tempestades e dedicar os aldeões a tarefas únicas durante toda a sua vida humilde: pescar, por exemplo, ou o ato mais profundo de todos - a procriação (bem, transar)....",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/black-and-white-lionhead-peter-moylneux-retrospective-google-deepmind-gemini-ai"
+    },
+    {
+      "id": "https://www.techpowerup.com/348171/this-week-in-gaming-week-16",
+      "title": "Esta semana em jogos (semana 16)",
+      "original_title": "This Week in Gaming (Week 16)",
+      "image": "https://tpucdn.com/img/gj8g1KW6sVUB3gHr_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-04-12",
+      "summary": "Bem-vindo ao meio de abril e nesta semana, realmente temos muitos jogos potencialmente populares sendo lançados, com um título AAA no mix também. O lançamento AAA desta semana envolve um andróide montado em seu ombro enquanto você abre caminho através de um espaço lunar ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348171/this-week-in-gaming-week-16"
+    },
+    {
+      "id": "https://www.eurogamer.net/gta-6-developer-rockstar-games-hacked-once-again-but-insists-only-a-limited-amount-of-non-material-company-information-was-compromised",
+      "title": "A desenvolvedora de GTA 6, Rockstar Games, hackeou mais uma vez, mas insiste que desta vez apenas uma “quantidade limitada de informações não materiais da empresa” foi comprometida",
+      "original_title": "GTA 6 developer Rockstar Games hacked once again but insists this time only a \"limited amount of non-material company information\" was compromised",
+      "image": "https://assetsio.gnwcdn.com/gta-6-art-lucia-and-jason.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-11",
+      "summary": "A desenvolvedora de GTA 6, Rockstar, confirmou que foi hackeada por terceiros depois que um grupo de hackers emitiu um pedido de resgate. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/gta-6-developer-rockstar-games-hacked-once-again-but-insists-only-a-limited-amount-of-non-material-company-information-was-compromised"
+    },
+    {
+      "id": "https://www.eurogamer.net/epic-set-to-release-arc-raiders-like-extraction-shooter-with-disney-characters-by-the-end-of-the-year",
+      "title": "Epic preparada para lançar jogo de tiro de extração tipo Arc Raiders com personagens da Disney até o final do ano",
+      "original_title": "Epic set to release Arc Raiders-like extraction shooter with Disney characters by the end of the year",
+      "image": "https://assetsio.gnwcdn.com/FvG7O-fWYAATIuu.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Epic News",
+      "date": "2026-04-11",
+      "summary": "A Epic Games supostamente lançará um jogo de tiro do tipo Arc Raiders ainda este ano. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/epic-set-to-release-arc-raiders-like-extraction-shooter-with-disney-characters-by-the-end-of-the-year"
+    },
+    {
+      "id": "https://www.eurogamer.net/federal-aviation-administration-targets-gamers-in-this-bespoke-and-not-at-all-cringeworthy-recruitment-ad",
+      "title": "A Administração Federal de Aviação tem como alvo os jogadores neste anúncio de recrutamento personalizado e nada digno de nota",
+      "original_title": "Federal Aviation Administration targets gamers in this bespoke and not at all cringeworthy recruitment ad",
+      "image": "https://assetsio.gnwcdn.com/Screenshot-2026-04-11-at-16.34.20.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-11",
+      "summary": "A Administração Federal de Aviação dos EUA está recorrendo aos jogadores para preencher uma lacuna na escassez nacional de controladores de tráfego aéreo. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/federal-aviation-administration-targets-gamers-in-this-bespoke-and-not-at-all-cringeworthy-recruitment-ad"
+    },
+    {
+      "id": "https://www.eurogamer.net/amazon-shakes-up-luna-streaming-service-removing-access-to-individual-games-third-party-subscriptions-and-its-bring-your-own-library-feature",
+      "title": "Amazon sacode o serviço de streaming Luna, removendo o acesso a jogos individuais, assinaturas de terceiros e seu recurso “Traga sua própria biblioteca”",
+      "original_title": "Amazon shakes up Luna streaming service, removing access to individual games, third-party subscriptions, and its \"Bring Your Own Library\" feature",
+      "image": "https://assetsio.gnwcdn.com/Luna-(2).png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-11",
+      "summary": "A Amazon anunciou mudanças no atacado em seu serviço de streaming em nuvem Luna, avisando com apenas dois meses de antecedência que os jogos e assinaturas de terceiros adquiridos antes de 10 de abril serão removidos das bibliotecas dos jogadores até 10 de junho de 2026. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/amazon-shakes-up-luna-streaming-service-removing-access-to-individual-games-third-party-subscriptions-and-its-bring-your-own-library-feature"
     },
     {
       "id": "https://www.eurogamer.net/what-weve-been-playing-three-thumbs-nintendo",
@@ -117,86 +207,41 @@
       "reliability": "High",
       "category": "News",
       "date": "2026-04-11",
-      "summary": "Olá e bem-vindo de volta ao nosso artigo regular, onde escrevemos um pouco sobre os jogos que temos jogado. Esta semana, Kelsey luta contra um inimigo terrível em agentes de arrendamento na vida real; Marie quebra seu melhor Jack e Daxter pessoal - bravo !; e Bertie d...",
+      "summary": "Olá e bem-vindo de volta ao nosso artigo regular, onde escrevemos um pouco sobre os jogos que temos jogado. Esta semana, Kelsey enfrenta um inimigo terrível em agentes de locação na vida real; Marie quebra seu melhor Jack e Daxter pessoal - bravo !; e Bertie d...",
       "sources": [
         "Eurogamer"
       ],
       "url": "https://www.eurogamer.net/what-weve-been-playing-three-thumbs-nintendo"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sig99w/splatoon_raiders_has_been_rated_by_european/",
-      "title": "Splatoon Raiders foi classificado pelo conselho de classificação europeu PEGI!",
-      "original_title": "Splatoon Raiders has been rated by European ratings board PEGI!",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "id": "https://www.techpowerup.com/348160/microsoft-apologizes-for-battery-less-xbox-controllers-sends-rechargeable-kits-to-correct",
+      "title": "Microsoft pede desculpas pelos controladores de Xbox sem bateria e envia kits recarregáveis ​​para correção",
+      "original_title": "Microsoft Apologizes for Battery-Less Xbox Controllers, Sends Rechargeable Kits To Correct",
+      "image": "https://tpucdn.com/img/OMaCttI8yx1eE8dZ_thm.jpg",
       "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
+      "reliability": "High",
+      "category": "Hardware",
       "date": "2026-04-11",
-      "summary": "https://mynintendonews.com/2026/04/11/splatoon-raiders-rated-by-pegi-suggests-imminent-release/ enviado por /u/kakaka454 [link] [comentários]...",
+      "summary": "Tradicionalmente, a Microsoft inclui baterias AA em seus controladores de jogos Xbox como uma forma de ajudar os usuários a entrar no jogo o mais rápido possível. No entanto, aparentemente desde pelo menos dezembro, a Microsoft vem embalando e enviando acidentalmente...",
       "sources": [
-        "r/GamingLeaksAndRumours"
+        "TechPowerUp"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sig99w/splatoon_raiders_has_been_rated_by_european/"
+      "url": "https://www.techpowerup.com/348160/microsoft-apologizes-for-battery-less-xbox-controllers-sends-rechargeable-kits-to-correct"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1siaxmp/shinyhunters_claims_to_have_stolen_rockstar_games/",
-      "title": "ShinyHunters afirma ter roubado dados da Rockstar Games através do Anodot",
-      "original_title": "ShinyHunters claims to have stolen Rockstar Games data through Anodot",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "id": "https://www.techpowerup.com/348140/godeal24-spring-software-sale-get-windows-11-and-office-at-deep-discounts",
+      "title": "Promoção de software GoDeal24 Spring: Obtenha o Windows 11 e o Office com grandes descontos!",
+      "original_title": "GoDeal24 Spring Software Sale: Get Windows 11 and Office at Deep Discounts!",
+      "image": "https://tpucdn.com/img/QVLI1z5lp3PeyJJA_thm.jpg",
       "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
+      "reliability": "High",
+      "category": "Hardware",
       "date": "2026-04-11",
-      "summary": "https://thecybersecguru.com/news/rockstar-games-snowflake-breach/ enviado por /u/Plenty-Body6685 [link] [comentários]...",
+      "summary": "GoDeal24 é um comerciante internacional de software genuíno e válido globalmente, aqui com a Venda de Software da Primavera de 2026. Obtenha o software que você precisa, como o Windows 11 Pro original, a preços atraentes a partir de US$ 13,55. Combine-o com o Office 2021 Professio...",
       "sources": [
-        "r/GamingLeaksAndRumours"
+        "TechPowerUp"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1siaxmp/shinyhunters_claims_to_have_stolen_rockstar_games/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sii6kc/jez_corden_on_the_next_metros_name_metro_2039/",
-      "title": "Jez Corden sobre o nome do próximo Metro: “Metro 2039”",
-      "original_title": "Jez Corden on the next Metro’s name: “Metro 2039”",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-04-11",
-      "summary": "https://xcancel.com/jezcorden/status/2042936862524768487?s=46 enviado por /u/Solid-Entertainer-39 [link] [comentários]...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sii6kc/jez_corden_on_the_next_metros_name_metro_2039/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1si4vc9/psa_amazon_luna_removing_access_to_purchased_and/",
-      "title": "[PSA] Amazon Luna removendo acesso a jogos comprados (e reivindicados)",
-      "original_title": "[PSA] Amazon Luna Removing Access to Purchased (and Claimed) Games",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-04-11",
-      "summary": "\"O serviço de streaming de jogos da Amazon remove o acesso aos jogos adquiridos e não oferece reembolso... Você tem até 10 de junho para aproveitar os jogos que [reivindicado] no serviço de streaming em nuvem [, Luna] ...\" 😥💔 \"... Esta última mudança para Luna se concentra ainda mais...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1si4vc9/psa_amazon_luna_removing_access_to_purchased_and/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1sidtq4/pcconsole_other_control_resonant_communications/",
-      "title": "[PC/Console] (Outro) CONTROL Resonant - Fone de ouvido do Departamento de Comunicações e óculos de filtragem óptica",
-      "original_title": "[PC/Console] (Other) CONTROL Resonant - Communications Department Headset & Optical Filtering Goggles",
-      "image": "https://external-preview.redd.it/1bhoc03MCTxHhup08pQPTxmpZkpB9SZV70Q5s1pBQyQ.jpeg?width=640&crop=smart&auto=webp&s=218b8a5d7557b6426a7de814aa7f00e3fb2ccc41",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-04-11",
-      "summary": "enviado por /u/MeguminShiro [link] [comentários] ...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1sidtq4/pcconsole_other_control_resonant_communications/"
+      "url": "https://www.techpowerup.com/348140/godeal24-spring-software-sale-get-windows-11-and-office-at-deep-discounts"
     },
     {
       "id": "https://www.eurogamer.net/professor-layton-and-the-new-world-of-steam-pc-ps5-release-window",
@@ -259,186 +304,6 @@
       "url": "https://www.eurogamer.net/esoteric-ebb-review"
     },
     {
-      "id": "https://www.eurogamer.net/phantom-blade-zero-studio-rejects-generative-ai",
-      "title": "O desenvolvedor do Phantom Blade Zero rejeita a geração de IA e promete que “cada parte do conteúdo do nosso jogo foi criada pelas mãos de artistas reais”",
-      "original_title": "Phantom Blade Zero developer rejects gen-AI and promises \"every single piece of content in our game has been crafted by the hands of real artists\"",
-      "image": "https://assetsio.gnwcdn.com/Phantom-Blade-Zero_fire-boss-fight.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-10",
-      "summary": "O jogo de ação inspirado em Wuxia, Phantom Blade Zero, está agora nos estágios finais de desenvolvimento antes de seu lançamento ainda este ano, e o desenvolvedor S-Game divulgou uma declaração sobre sua posição em relação ao uso de IA generativa no desenvolvimento. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/phantom-blade-zero-studio-rejects-generative-ai"
-    },
-    {
-      "id": "https://www.eurogamer.net/dune-awakening-ditching-pvp-endgame-experience-80-players",
-      "title": "Dune: Awakening está abandonando o PvP como uma experiência obrigatória de final de jogo, já que mais de 80% dos jogadores ao longo da vida não se envolveram com ele",
-      "original_title": "Dune: Awakening is ditching PvP as a mandatory endgame experience, as over 80% of lifetime players didn't engage with it at all",
-      "image": "https://assetsio.gnwcdn.com/dune-awakening-desert.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-10",
-      "summary": "Dune: Awakening está se afastando de seu final de jogo PvP, seguindo as principais mudanças feitas em sua recente atualização do capítulo três. Além disso, a hospedagem de servidores privados está chegando, o que deve fornecer longevidade adicional e centros comunitários para o jogo...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/dune-awakening-ditching-pvp-endgame-experience-80-players"
-    },
-    {
-      "id": "https://www.eurogamer.net/crimson-desert-major-content-update",
-      "title": "Crimson Desert está recebendo revanche de chefes, níveis de dificuldade e habilidades extras nas próximas atualizações",
-      "original_title": "Crimson Desert is getting boss rematches, difficulty settings, and extra skills in upcoming updates",
-      "image": "https://assetsio.gnwcdn.com/Crimson-Desert_Greymane-attack.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-10",
-      "summary": "Crimson Desert receberá atualizações significativas em breve, trazendo alguns recursos importantes para o jogo, como a capacidade de repetir lutas contra chefes, novos níveis de dificuldade, reaparecimento de postos avançados inimigos e novos trajes. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/crimson-desert-major-content-update"
-    },
-    {
-      "id": "https://www.eurogamer.net/marathon-budget-over-200-million-dollars-likely-250-million",
-      "title": "“Este não é um jogo que está prestes a enfrentar algum tipo de paralisação iminente” – Marathon teria um orçamento de US$ 200 milhões e, embora o número de jogadores esteja caindo, o moral da equipe permanece bom",
-      "original_title": "\"This is not a game that is about to face some sort of imminent shutdown\" - Marathon reportedly had a budget of $200m, and while player numbers are dipping, team morale remains good",
-      "image": "https://assetsio.gnwcdn.com/bungie-marathon-wwbp.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-10",
-      "summary": "A Marathon teria um orçamento de desenvolvimento de mais de US$ 200 milhões, e provavelmente mais de US$ 250 milhões, sem incluir os custos contínuos de desenvolvimento pós-lançamento para manutenção do jogo e novas atualizações. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/marathon-budget-over-200-million-dollars-likely-250-million"
-    },
-    {
-      "id": "https://www.eurogamer.net/final-destination-bloodlines-directors-metal-gear-solid-movie",
-      "title": "A adaptação cinematográfica de Metal Gear Solid da Sony Pictures é ressuscitada, com os diretores de Final Destination: Bloodlines do ano passado no comando",
-      "original_title": "Sony Pictures' Metal Gear Solid movie adaptation is resurrected, with the directors of last year's Final Destination: Bloodlines at the helm",
-      "image": "https://assetsio.gnwcdn.com/metal-gear-snake-delta.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-10",
-      "summary": "Conversas sérias sobre uma adaptação cinematográfica de Metal Gear Solid já existem há mais de uma década, com o diretor de Kong: Skull Island, Jordan Vogt-Roberts, contratado desde 2014. Mas essa iteração aparentemente não deu em nada, já que a Sony Pictures acaba de fechar um projeto.",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/final-destination-bloodlines-directors-metal-gear-solid-movie"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1shwa2h/bloomberg_epic_games_is_working_on_multiple/",
-      "title": "Bloomberg: A Epic Games está trabalhando em vários jogos da Disney, incluindo um jogo de tiro de extração semelhante ao Arc Raiders com personagens da Disney com lançamento previsto para novembro",
-      "original_title": "Bloomberg: Epic Games is working on multiple Disney games, including an extraction shooter similar to Arc Raiders with Disney characters set to launch in November",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Epic News",
-      "date": "2026-04-10",
-      "summary": "De um artigo da Bloomberg publicado hoje sobre a parceria da Epic com a Disney: https://www.bloomberg.com/news/articles/2026-04-10/epic-games-pins-fortnite-comeback-on-disney-partnership?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1shwa2h/bloomberg_epic_games_is_working_on_multiple/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1shxrbw/lily_gao_ada_wong_actress_recently_posted_two/",
-      "title": "Lily Gao (atriz de Ada Wong) postou recentemente duas fotos com Nick Apostolides (ator de Leon Kennedy). Além disso, ela também postou outra foto onde marcou dois membros da equipe de produção de Resident Evil 4 Remake / Separate Ways da Capcom (Steve Kniebihly e Hiro Masuda)",
-      "original_title": "Lily Gao (Ada Wong actress) recently posted two pictures with Nick Apostolides (Leon Kennedy actor). Alongside those, she also posted another photo where she tagged two members of Capcom’s Resident Evil 4 Remake / Separate Ways production team (Steve Kniebihly and Hiro Masuda)",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-04-10",
-      "summary": "https://www.instagram.com/p/DW5H1hdmgMm/ Essas fotos ainda estão no ar e foram postadas há 2 dias. A 2ª e a 3ª fotos são Lily Gao (atriz de Ada Wong) e Nick Apostolides (ator de Leon Kennedy). A 4ª foto é onde ela marcou os dois produtores da Capcom...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1shxrbw/lily_gao_ada_wong_actress_recently_posted_two/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1shs10t/metro_4_canceled_2022_ver_build_has_been_leaked/",
-      "title": "A versão 2022 cancelada do Metro 4 vazou por meio de um canal Discord",
-      "original_title": "Metro 4 canceled 2022 ver build has been leaked through a Discord Channel",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Rumor",
-      "date": "2026-04-10",
-      "summary": "- Construção ZIP de 120 GB - O jogo era sobre caçador e aconteceu de janeiro de 2033 a dezembro de 2034. - Era um mundo totalmente aberto, tinha um sistema de criação completo com tipos alternativos de munição e muito mais. - Você tinha um traje atualizável da NBC, Khan e Bourbon também eram personagens principais....",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1shs10t/metro_4_canceled_2022_ver_build_has_been_leaked/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1shthvw/new_insider_alir_claimed_a_couple_weeks_back_that/",
-      "title": "O novo insider Alir afirmou há algumas semanas que o segundo jogo da Naughty Dog é de fato um jogo Uncharted",
-      "original_title": "New insider Alir claimed a couple weeks back that Naughty Dog's second game is indeed an Uncharted game",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-04-10",
-      "summary": "Fonte: https://xcancel.com/AlexandreNGamR/status/2037940069760151703 Sim, é realmente um jogo Uncharted.     enviado por /u/Dandelion172 [link] [comentários]...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1shthvw/new_insider_alir_claimed_a_couple_weeks_back_that/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1shritx/natethehate_corroborates_new_metro_game/",
-      "title": "NateTheHate corrobora anúncio do novo jogo Metro na próxima semana",
-      "original_title": "NateTheHate corroborates new Metro game announcement next week",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-04-10",
-      "summary": "Fonte: https://www.resetera.com/threads/playstation-studios-ot49-hunters-gathering-on-tau-ceti.1433161/post-153623392 Acho que esse novo insider é legítimo então. Seu boato anterior afirmava que outro State of Play (além daquele que havia rumores de ...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1shritx/natethehate_corroborates_new_metro_game/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1shz4iu/epic_is_reportedly_making_a_disneythemed/",
-      "title": "A Epic está supostamente fazendo um jogo de tiro com tema Disney",
-      "original_title": "Epic Is Reportedly Making A Disney-Themed Extraction Shooter",
-      "image": "https://external-preview.redd.it/_CSdha4JOfoa0mNr53dAOQ9ucRv7nK8iXZRPY-m5bvg.jpeg?width=640&crop=smart&auto=webp&s=4a554a25340b56f9da4597ff7c702cba6dc93bdb",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Epic News",
-      "date": "2026-04-10",
-      "summary": "enviado por /u/ImAnthlon [link] [comentários] ...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1shz4iu/epic_is_reportedly_making_a_disneythemed/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1shsi1i/steam_game_livingforest/",
-      "title": "[Steam] (Jogo) LivingForest",
-      "original_title": "[Steam] (Game) LivingForest",
-      "image": "https://external-preview.redd.it/3e0ThymL4vufMVoRJdLY1Qo3c7HsSwHsdZA3iSZQp_k.jpeg?width=320&crop=smart&auto=webp&s=d8c17827acfe623e7bc13722c2329720f72fea50",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-04-10",
-      "summary": "enviado por /u/iambaldy [link] [comentários] ...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1shsi1i/steam_game_livingforest/"
-    },
-    {
       "id": "https://www.techpowerup.com/348152/onexstation-launches-as-usd-2-999-ryzen-ai-max-395-mini-pc-for-gaming-ai-and-remote-server-workloads",
       "title": "ONEXStation é lançado como Ryzen AI Max + 395 Mini PC de US$ 2.999 para jogos, IA e cargas de trabalho de servidor remoto",
       "original_title": "ONEXStation Launches as $2,999 Ryzen AI Max+ 395 Mini PC for Gaming, AI, and Remote Server Workloads",
@@ -469,21 +334,6 @@
       "url": "https://www.techpowerup.com/348151/epic-games-plans-standalone-disney-themed-extraction-shooter-similar-to-arc-raiders"
     },
     {
-      "id": "https://www.techpowerup.com/348140/godeal24-spring-software-sale-get-windows-11-and-office-at-deep-discounts",
-      "title": "Promoção de software GoDeal24 Spring: Obtenha o Windows 11 e o Office com grandes descontos!",
-      "original_title": "GoDeal24 Spring Software Sale: Get Windows 11 and Office at Deep Discounts!",
-      "image": "https://tpucdn.com/img/QVLI1z5lp3PeyJJA_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-04-10",
-      "summary": "GoDeal24 é um comerciante internacional de software genuíno e válido globalmente, aqui com a Venda de Software da Primavera de 2026. Obtenha o software que você precisa, como o Windows 11 Pro original, a preços atraentes a partir de US$ 13,55. Combine-o com o Office 2021 Professio...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348140/godeal24-spring-software-sale-get-windows-11-and-office-at-deep-discounts"
-    },
-    {
       "id": "https://www.techpowerup.com/348150/hyte-introduces-sakura-miko-hololive-y70-case-keycap-and-desk-pad-bundle",
       "title": "(PR) HYTE apresenta pacote de estojo, tampa e teclado de mesa Sakura Miko hololive Y70",
       "original_title": "(PR) HYTE Introduces Sakura Miko hololive Y70 Case, Keycap, and Desk Pad Bundle",
@@ -497,6 +347,21 @@
         "TechPowerUp"
       ],
       "url": "https://www.techpowerup.com/348150/hyte-introduces-sakura-miko-hololive-y70-case-keycap-and-desk-pad-bundle"
+    },
+    {
+      "id": "https://www.techpowerup.com/348104/block-ads-trackers-across-9-devices-for-just-usd-16",
+      "title": "Bloqueie anúncios e rastreadores em 9 dispositivos por apenas US$ 16",
+      "original_title": "Block Ads & Trackers Across 9 Devices for Just $16",
+      "image": "https://tpucdn.com/img/9XHqPfbiirDxuAO6_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-04-10",
+      "summary": "As ferramentas de bloqueio de anúncios tornaram-se cada vez mais comuns à medida que a publicidade online, os scripts de rastreamento e os pop-ups continuam a se expandir em sites e aplicativos. O Plano Familiar AdGuard é uma dessas opções, oferecendo uma combinação de bloqueio de anúncios, proteção de privacidade,...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348104/block-ads-trackers-across-9-devices-for-just-usd-16"
     },
     {
       "id": "https://www.techpowerup.com/348149/philips-launches-evnia-27m2g5800-27-inch-5k-dual-mode-gaming-monitor",
@@ -529,21 +394,6 @@
       "url": "https://www.techpowerup.com/348146/open-world-survivalcraft-game-soulmask-launches-to-1-0-alongside-sizeable-egypt-dlc"
     },
     {
-      "id": "https://www.techpowerup.com/348104/block-ads-trackers-across-9-devices-for-just-usd-16",
-      "title": "Bloqueie anúncios e rastreadores em 9 dispositivos por apenas US$ 16",
-      "original_title": "Block Ads & Trackers Across 9 Devices for Just $16",
-      "image": "https://tpucdn.com/img/9XHqPfbiirDxuAO6_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-04-10",
-      "summary": "As ferramentas de bloqueio de anúncios tornaram-se cada vez mais comuns à medida que a publicidade online, os scripts de rastreamento e os pop-ups continuam a se expandir em sites e aplicativos. O Plano Familiar AdGuard é uma dessas opções, oferecendo uma combinação de bloqueio de anúncios, proteção de privacidade,...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348104/block-ads-trackers-across-9-devices-for-just-usd-16"
-    },
-    {
       "id": "https://www.techpowerup.com/348147/microproses-legendary-pilots-flight-sim-launches-april-21-with-retro-visuals",
       "title": "(PR) Legendary Pilots Flight Sim da MicroProse é lançado em 21 de abril com recursos visuais retrô",
       "original_title": "(PR) MicroProse's Legendary Pilots Flight Sim Launches April 21 with Retro Visuals",
@@ -557,246 +407,6 @@
         "TechPowerUp"
       ],
       "url": "https://www.techpowerup.com/348147/microproses-legendary-pilots-flight-sim-launches-april-21-with-retro-visuals"
-    },
-    {
-      "id": "https://www.techpowerup.com/348145/ddr4-prices-finally-cool-with-5-drop-after-2-200-surge",
-      "title": "Preços DDR4 finalmente esfriaram com queda de 5% após aumento de 2.200%",
-      "original_title": "DDR4 Prices Finally Cool With 5% Drop After 2,200% Surge",
-      "image": "https://tpucdn.com/img/Dvyuvq4ZOPZCkzxy_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-04-10",
-      "summary": "Os preços da DDR4 estão finalmente mostrando sinais de redução, já que os preços à vista da DDR4 de 16 Gb sofreram uma correção de 5% em março, após um aumento de mais de 2.200% no ano passado. A enorme demanda por expansão de data center de IA absorveu toda a produção DDR disponível...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348145/ddr4-prices-finally-cool-with-5-drop-after-2-200-surge"
-    },
-    {
-      "id": "https://www.techpowerup.com/348142/gateron-launches-magnetic-jade-attraction-he-switch-with-identical-start-and-bottom-out-force",
-      "title": "Gateron lança switch HE de atração magnética de Jade com força de início e de fundo idênticas",
-      "original_title": "Gateron Launches Magnetic Jade Attraction HE Switch With Identical Start and Bottom-Out Force",
-      "image": "https://tpucdn.com/img/WcCiuFWky3gcpHWL_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-04-10",
-      "summary": "Gateron, agora onipresente no mundo dos teclados mecânicos, de efeito Hall e TMR para jogos, anunciou oficialmente um novo switch magnético que promete uma sensação de switch única com um peso de switch perfeitamente linear. Com uma mecânica tradicional...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348142/gateron-launches-magnetic-jade-attraction-he-switch-with-identical-start-and-bottom-out-force"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1sguhdn/mobile_freebiedumb_ways_to_draw/",
-      "title": "Brinde para celular ｜ Maneiras idiotas de desenhar",
-      "original_title": "Mobile Freebie｜Dumb Ways to Draw",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-04-09",
-      "summary": "📝 Página de transações (para ver se você reivindicou ou não) ⏩ Check-out instantâneo (faça login primeiro na Epic Games) Check-out instantâneo de itens 🎮 REIVINDICAR TODOS Android e iOS 🎮﻿ Maneiras idiotas de desenhar Android／iOS 🎮 Maneiras idiotas de desenhar｜Android／iOS ⌛ Classificação／⛔ Lista negra｜N...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1sguhdn/mobile_freebiedumb_ways_to_draw/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1sgrm1z/the_stone_of_madness_looks_to_be_next_weeks_pc/",
-      "title": "The Stone of Madness parece ser um brinde para PC da próxima semana",
-      "original_title": "The Stone of Madness looks to be next weeks PC freebie",
-      "image": "https://preview.redd.it/22hua1asf6ug1.png?width=640&crop=smart&auto=webp&s=7c8403431da95a3a70b04858378e5868966b0a3e",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-04-09",
-      "summary": "Notei aqui https://epicdb.org/offer/3d11f228c8a442318bc17abf13f7db3b/history Jogo muito divertido me lembrou Shadow Tactics enviado por /u/ImAnthlon [link] [comentários] ...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1sgrm1z/the_stone_of_madness_looks_to_be_next_weeks_pc/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1sguurx/rayman_30th_anniversary_edition_is_now_live_on/",
-      "title": "Rayman: 30th Anniversary Edition já está disponível na Epic",
-      "original_title": "Rayman: 30th Anniversary Edition is now live on Epic",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Epic News",
-      "date": "2026-04-09",
-      "summary": "enviado por /u/PCMachinima [link] [comentários]...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1sguurx/rayman_30th_anniversary_edition_is_now_live_on/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1sgsi1t/free_game_prop_sumo/",
-      "title": "[Jogo grátis] Sumo de adereços",
-      "original_title": "[Free Game] Prop Sumo",
-      "image": "https://external-preview.redd.it/g8UJZ-v-Z9uPPHOrVNNftxpZYhuUzGyI2kVy1w55TDs.jpeg?width=640&crop=smart&auto=webp&s=24f8cd374393041a4aa6fc1efda41ee3b6a0dedf",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-04-09",
-      "summary": "enviado por /u/etanlg [link] [comentários] ...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1sgsi1t/free_game_prop_sumo/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1sgu8b4/fgf_giveaway_1000xresist_promoting_prove_youre/",
-      "title": "Sorteio FGF: 1000xRESIST - Promovendo Prove que você é humano!",
-      "original_title": "FGF Giveaway: 1000xRESIST - Promoting Prove You're Human!",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-04-09",
-      "summary": "Este é um sorteio direto do desenvolvedor/pub/loja para o FGF. Semelhante aos que fizemos antes. Muito obrigado ao visitante do pôr do sol por fazer isso e parabéns pelo anúncio de Prove You're Human!  INTRO Olha quem voltou! Ano passado aconteceu um Sorteio da FGF...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1sgu8b4/fgf_giveaway_1000xresist_promoting_prove_youre/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1sguq0b/steam_ps4_xbox_game_graveyard_keeper/",
-      "title": "[Steam, PS4, Xbox] (Jogo) Graveyard Keeper",
-      "original_title": "[Steam, PS4, Xbox] (Game) Graveyard Keeper",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-04-09",
-      "summary": "Steam PlayStation EU Xbox enviado por /u/iambaldy [link] [comentários]...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1sguq0b/steam_ps4_xbox_game_graveyard_keeper/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1sgup05/steam_game_burning_skies_arcade/",
-      "title": "[Steam] (jogo) Burning Skies Arcade",
-      "original_title": "[Steam] (game) Burning Skies Arcade",
-      "image": "https://external-preview.redd.it/9o9XvdO_BfiAEm_lBWQhpOg4Gk29UNT8xr6Mqs9tPMo.jpeg?width=320&crop=smart&auto=webp&s=8d42360ecb91e43c267b6bece8c08791f354c4a4",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-04-09",
-      "summary": "enviado por /u/thalesulisses_29 [link] [comentários] ...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1sgup05/steam_game_burning_skies_arcade/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1sgs4no/epic_games_game_prop_sumo/",
-      "title": "[Jogos Épicos] (Jogo) Sumo de Adereços",
-      "original_title": "[Epic Games] (Game) Prop Sumo",
-      "image": "https://external-preview.redd.it/g8UJZ-v-Z9uPPHOrVNNftxpZYhuUzGyI2kVy1w55TDs.jpeg?width=640&crop=smart&auto=webp&s=24f8cd374393041a4aa6fc1efda41ee3b6a0dedf",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-04-09",
-      "summary": "enviado por /u/LighteningOneIN [link] [comentários] ...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1sgs4no/epic_games_game_prop_sumo/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1sguh6c/epic_games_mobile_game_dumb_ways_to_draw/",
-      "title": "[Epic Games Mobile] (Jogo) Maneiras idiotas de desenhar",
-      "original_title": "[Epic Games Mobile] (Game) Dumb Ways to Draw",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-04-09",
-      "summary": "📝 Página de transações (para ver se você reivindicou ou não) ⏩ Check-out instantâneo (faça login primeiro na Epic Games) Check-out instantâneo de itens 🎮 REIVINDICAR TODOS Android e iOS 🎮﻿ Maneiras idiotas de desenhar Android／iOS 🎮 Maneiras idiotas de desenhar｜Android／iOS ⌛ Classificação／⛔ Lista negra｜N...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1sguh6c/epic_games_mobile_game_dumb_ways_to_draw/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1sgvfz3/psa_a_rats_quest_the_way_back_home_egs_king_of/",
-      "title": "[PSA] A Rat's Quest: The Way Back Home (EGS), King of Retail (GOG) são gratuitos com Amazon Prime",
-      "original_title": "[PSA] A Rat's Quest: The Way Back Home (EGS), King of Retail (GOG) are complimentary with Amazon Prime",
-      "image": "https://external-preview.redd.it/_fBjABdCsDDIR7bJn-cgpkXoTMJ2MnAEY3PCdXPaAoY.png?width=640&crop=smart&auto=webp&s=bef23da95c6aa8211ed8845602ada6c6644977cf",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-04-09",
-      "summary": "enviado por /u/LighteningOneIN [link] [comentários] ...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1sgvfz3/psa_a_rats_quest_the_way_back_home_egs_king_of/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sg5gwp/discussion_news_and_request_thread_week_beginning/",
-      "title": "🌖🚀 Tópico de discussão, notícias e solicitações - Semana que começa em 06/04/26🌖🚀",
-      "original_title": "🌖🚀Discussion, News, and Request Thread - Week Beginning 04/06/26🌖🚀",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-04-08",
-      "summary": "Os tópicos de discussão To The Moon And Back são o seu centro central semanal para todas as solicitações, notícias de jogos e quaisquer outros tópicos de jogos sobre os quais você queira falar. Por favor, mantenha todo o conteúdo que não precisa de postagem própria neste tópico para organizar o sub para p...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sg5gwp/discussion_news_and_request_thread_week_beginning/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1sfu0mh/upcoming_mobile_freebiedumb_ways_to_draw/",
-      "title": "Próximo brinde para celular ｜ Maneiras idiotas de desenhar",
-      "original_title": "Upcoming Mobile Freebie｜Dumb Ways to Draw",
-      "image": "https://preview.redd.it/krmdcqta5ztg1.png?width=640&crop=smart&auto=webp&s=ad8523af1d12af69fee1dc8d3354c5c58f04efc4",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-04-08",
-      "summary": "enviado por /u/MeguminShiro [link] [comentários] ...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1sfu0mh/upcoming_mobile_freebiedumb_ways_to_draw/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1sfwxbr/one_of_the_best_support/",
-      "title": "Um dos melhores suporte",
-      "original_title": "One of the best support",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-04-08",
-      "summary": "Então, minha conta foi banida sem motivo e depois cancelada épica depois que eu apelei, depois de quatro meses, levantei um ticket, eles recuperaram minha conta em apenas 30 minutos. Antes dessa recuperação, sempre que eu tentar fazer login, ocorrerá um erro dizendo que minha conta...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1sfwxbr/one_of_the_best_support/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1sfvjrs/i_wonder_why_its_unavailable_now/",
-      "title": "Eu me pergunto por que não está disponível agora",
-      "original_title": "I wonder why its unavailable now",
-      "image": "https://preview.redd.it/n69qay28fztg1.png?width=140&height=78&auto=webp&s=70d25b7474a5dacd03e5d5b80dbb45ba275e0df6",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-04-08",
-      "summary": "https://preview.redd.it/n69qay28fztg1.png?width=1554&format=png&auto=webp&s=21c55500ec0cae621cebda0148cd730152c12a64 Eu me pergunto por que está indisponível agora enviado por /u/RandomHuman58 [link] [comentários] ...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1sfvjrs/i_wonder_why_its_unavailable_now/"
     }
   ]
 }
