@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-04-12T13:02:04",
-  "display_date": "12/04/2026 13:02",
+  "last_updated": "2026-04-13T13:27:15",
+  "display_date": "13/04/2026 13:27",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "625ms",
+    "latency": "195ms",
     "current_games": [
       {
         "title": "TOMAK: Save the Earth Regeneration",
@@ -56,7 +56,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-04-12",
+      "date": "2026-04-13",
       "summary": "O lendário sucesso cult \"Tomak: Save the Earth\" chega à Epic Games Store!\nCuide de Evian, a Deusa do Amor — presa em um vaso de flores — e salve a humanidade da destruição. Da ascensão divina à aniquilação total, cada escolha que você faz leva a um destino diferente.",
       "sources": [
         "Epic Games Store"
@@ -71,7 +71,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-04-12",
+      "date": "2026-04-13",
       "summary": "Prop Sumo é um jogo de luta em grupo que reúne adereços comuns em batalhas extraordinárias!\n\nDerrote seus amigos e domine o placar!",
       "sources": [
         "Epic Games Store"
@@ -86,7 +86,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-04-12",
+      "date": "2026-04-13",
       "summary": "Disponível gratuitamente a partir de 16/04. The Stone of Madness é um jogo tático furtivo em tempo real ambientado em um mosteiro espanhol do século XVIII. Cinco prisioneiros reúnem suas habilidades e recursos para enfrentar suas fobias, evitar a insanidade, descobrir os mistérios do Monastério e encontrar uma maneira de escapar.",
       "sources": [
         "Epic Games Store"
@@ -101,7 +101,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-04-12",
+      "date": "2026-04-13",
       "summary": "Disponível gratuitamente a partir de 14/05. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
       "sources": [
         "Epic Games Store"
@@ -109,19 +109,439 @@
       "url": "https://store.epicgames.com/p/monument-valley-02"
     },
     {
-      "id": "https://www.eurogamer.net/black-and-white-lionhead-peter-moylneux-retrospective-google-deepmind-gemini-ai",
-      "title": "Preto e branco aos 25 anos: como o design de jogo estúpido e drogado de Lionhead se tornou o prenúncio da IA ​​moderna",
-      "original_title": "Black & White at 25: how Lionhead's hairbrained, stoner-powered game design became the harbinger of modern AI",
-      "image": "https://assetsio.gnwcdn.com/black-and-white-2-header-smaller.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/pokemon-palworld-lookalike-pickmon-renamed",
+      "title": "\"Você acha que somos estúpidos?\" - Os jogadores reagem ao fato de Pickmon, parecido com Pokémon e Palworld, ser renomeado para \"alinhar-se melhor com a identidade e tradição de nossa marca\"",
+      "original_title": "\"You think we're stupid?\" - Players react to Pokémon and Palworld lookalike Pickmon being renamed to \"better align with our brand identity and lore\"",
+      "image": "https://assetsio.gnwcdn.com/Pickmos_capturing-bear-Pickmon.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-13",
+      "summary": "O assustador jogo de ação de coleta de criaturas de mundo aberto, semelhante a Pokémon, Pickmon, mudou de nome, ostensivamente para “alinhar-se melhor com a identidade e tradição de nossa marca”, mas provavelmente também para sair do caminho dos advogados da Nintendo. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/pokemon-palworld-lookalike-pickmon-renamed"
+    },
+    {
+      "id": "https://www.eurogamer.net/lego-pokemon-kanto-region-badge-collection-official-instructions",
+      "title": "A requisitada coleção de emblemas da região Lego Pokémon Kanto agora pode ser construída usando peças que você possui com instruções oficiais recém-lançadas",
+      "original_title": "The in-demand Lego Pokémon Kanto Region Badge Collection can now be built using bricks you own with newly released official instructions",
+      "image": "https://assetsio.gnwcdn.com/Pokemon-Kanto-Badge-Collection-image-from-the-intruction-manual.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-13",
+      "summary": "Agora existem instruções oficiais sobre como construir sua própria coleção de emblemas da região Lego Pokémon Kanto, para que você não precise pagar centenas de libras para adquiri-la. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/lego-pokemon-kanto-region-badge-collection-official-instructions"
+    },
+    {
+      "id": "https://www.eurogamer.net/new-hideo-kojima-game-physint-casting-details",
+      "title": "\"Mads Mikkelsen em Hannibal, mas com talento\" - Chamadas de elenco para o novo jogo de espionagem de Hideo Kojima, Physint, publicado para PlayStation, dão novas pistas sobre o que esperar",
+      "original_title": "\"Mads Mikkelsen in Hannibal but with flair\" - Casting calls for Hideo Kojima's new PlayStation-published spy game Physint give new clues about what to expect",
+      "image": "https://assetsio.gnwcdn.com/Physint-art.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-13",
+      "summary": "Com Death Stranding 2 agora para trás, o futuro da Kojima Productions inclui o jogo de terror OD e o novo jogo de espionagem Physint, que será publicado no PlayStation pela Sony. Ainda está muito longe, mas os detalhes recentes do elenco estão fornecendo uma clareza...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/new-hideo-kojima-game-physint-casting-details"
+    },
+    {
+      "id": "https://www.eurogamer.net/switch-2-splatoon-raiders-and-fire-emblem-fortunes-weave-pegi-age-ratings",
+      "title": "Novos jogos Switch 2, Splatoon Raiders e Fire Emblem: Fortune's Weave, classificados por idade na Europa",
+      "original_title": "New Switch 2 games Splatoon Raiders and Fire Emblem: Fortune's Weave age-rated in Europe",
+      "image": "https://assetsio.gnwcdn.com/Splatoon-Raiders_group.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-13",
+      "summary": "Assim que Tomodachi Life: Living the Dream e Yoshi and the Mysterious Book forem lançados no final desta semana e no próximo mês, o roteiro inicial da Nintendo será um pouco misterioso. Mas agora duas classificações etárias PEGI para a Europa oferecem uma pista sobre o que pode estar por vir...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/switch-2-splatoon-raiders-and-fire-emblem-fortunes-weave-pegi-age-ratings"
+    },
+    {
+      "id": "https://www.eurogamer.net/super-mario-galaxy-movie-highest-grossing-film-of-2026",
+      "title": "O filme Super Mario Galaxy supera o Projeto Hail Mary e se torna o filme de maior bilheteria de 2026 até agora",
+      "original_title": "The Super Mario Galaxy Movie beats Project Hail Mary to become the highest grossing film of 2026 so far",
+      "image": "https://assetsio.gnwcdn.com/Still-from-The-Super-Mario-Galaxy-Movie-showing-Peach-using-her-umbrella-as-a-sheild-to-defend-herself-from-projectile-eggs.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-13",
+      "summary": "O filme Super Mario Galaxy - como se suspeitava após um excelente fim de semana de estreia - se tornou o filme de maior sucesso lançado este ano até agora. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/super-mario-galaxy-movie-highest-grossing-film-of-2026"
+    },
+    {
+      "id": "https://www.eurogamer.net/inside-bungies-big-marathon-arg",
+      "title": "“Os jogadores sempre passam por eles mais rápido do que pensamos” – dentro da grande Maratona ARG da Bungie",
+      "original_title": "\"Players always get through them faster than we think\" - inside Bungie's big Marathon ARG",
+      "image": "https://assetsio.gnwcdn.com/marathon-shells-1.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-13",
+      "summary": "Havia uma energia maravilhosa em Maratona há algumas semanas. Não é incomum para um lançamento totalmente novo, com certeza, mas totalmente diferente das habituais primeiras impressões carregadas de hype. Não, isso tinha a sensação inconfundível de uma caça ao tesouro, de uma comunidade...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/inside-bungies-big-marathon-arg"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sk8cz4/bbc_hacker_group_shinyhunters_plans_to_leak/",
+      "title": "BBC: O grupo de hackers ShinyHunters planeja vazar dados da Rockstar Games assim que “as demandas não forem atendidas”",
+      "original_title": "BBC: Hacker group ShinyHunters plans to leak Rockstar Games data soon as “demands were not met”",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Rumor",
+      "date": "2026-04-13",
+      "summary": "fonte enviada por /u/KekanKok [link] [comentários]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sk8cz4/bbc_hacker_group_shinyhunters_plans_to_leak/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sk7tu6/official_fable_account_reconfirms_that_they_plan/",
+      "title": "A conta oficial do Fable reconfirma que planeja lançar no outono de 2026 após reivindicações recentes",
+      "original_title": "Official Fable account reconfirms that they plan to release in autumn of 2026 following recent claims",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-04-13",
+      "summary": "https://xcancel.com/fable/status/2043603482897215649?s=46 Título. O texto diz: “Estou entusiasmado em recebê-lo de volta a Albion no outono de 2026!”     enviado por /u/Sirca_Curvive [link] [comentários]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sk7tu6/official_fable_account_reconfirms_that_they_plan/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sk2laq/igrs_just_accidentally_leaked_1000_dev_emails_and/",
+      "title": "IGRS vazou acidentalmente mais de 1.000 e-mails de desenvolvedores e imagens de jogo AAA inéditas.",
+      "original_title": "IGRS just accidentally leaked 1000+ dev emails and unreleased AAA gameplay footage.",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Rumor",
+      "date": "2026-04-13",
+      "summary": "Enquanto alguém estava construindo uma interface alternativa para o IGRS (a plataforma oficial do governo da Indonésia para classificar e regular jogos), eles descobriram sérios problemas de segurança. O site aparentemente deixou entradas de jogos ocultas/não lançadas acessíveis v...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sk2laq/igrs_just_accidentally_leaked_1000_dev_emails_and/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1skaaza/metro_2039_officially_announced_with_gameplay/",
+      "title": "Metro 2039 anunciado oficialmente com revelação de gameplay no dia 16",
+      "original_title": "Metro 2039 officially announced with gameplay reveal on the 16th",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-04-13",
+      "summary": "https://news.xbox.com/en-us/2026/04/13/metro-2039-xbox-first-look-how-to-watch/ Rumor anterior: https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sii6kc/jez_corden_on_the_next_metros_name_metro_2039/ enviado por /u/MrEpicFerret [link...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1skaaza/metro_2039_officially_announced_with_gameplay/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sk07qp/switch_2_game_card_analysis_suggests_nintendo_may/",
+      "title": "A análise do cartão de jogo do Switch 2 sugere que a Nintendo pode estar absorvendo o aumento dos custos de memória",
+      "original_title": "Switch 2 game card analysis suggests Nintendo may be absorbing rising memory costs",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-04-13",
+      "summary": "Uma nova análise do cartão de jogo Switch 2 MIO (via Spawn Wave) pode oferecer novas pistas sobre os custos de fabricação dos cartuchos da Nintendo. De acordo com as marcações do IC de memória: • “R20R” parece indicar Rohm como o fabricante • “G4” sugere uma capaci...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sk07qp/switch_2_game_card_analysis_suggests_nintendo_may/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1sk9trs/steamconsole_dlc_fatal_frame_project_zero_maiden/",
+      "title": "[Steam/Console] (DLC) FATAL FRAME / PROJECT ZERO: Maiden of Black Water - 2 DLCs Traje Exclusivo + FATAL FRAME / PROJECT ZERO: Máscara do Eclipse Lunar - 1 Acessório Exclusivo DLC",
+      "original_title": "[Steam/Console] (DLC) FATAL FRAME / PROJECT ZERO: Maiden of Black Water - 2 DLCs Exclusive Costume + FATAL FRAME / PROJECT ZERO: Mask of the Lunar Eclipse - 1 DLC Exclusive Accessory",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-04-13",
+      "summary": "Anúncio.  Trajes e acessórios adicionais gratuitos para FATAL FRAME: Maiden of Black Water e FATAL FRAME: Mask of the Lunar Eclipse estão disponíveis até 22 de abril!  Se você ainda não adquiriu esses itens especiais, não perca essa oportunidade!  S...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1sk9trs/steamconsole_dlc_fatal_frame_project_zero_maiden/"
+    },
+    {
+      "id": "https://www.techpowerup.com/348186/emeet-launches-the-c960-ultra-a-4k-webcam-built-on-the-million-selling-series",
+      "title": "(PR) Emeet lança a C960 Ultra: uma webcam 4K construída na série que vende milhões",
+      "original_title": "(PR) Emeet Launches the C960 Ultra: A 4K Webcam Built on the Million-Selling Series",
+      "image": "https://tpucdn.com/img/AAC8Id3YbpsSZt5J_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-04-13",
+      "summary": "A Emeet anunciou hoje o lançamento do Emeet C960 Ultra, a mais recente adição à sua linha C960, uma série que alcançou mais de 2 milhões de unidades vendidas em todo o mundo. Projetado para profissionais, streamers e criadores de conteúdo, o C960 Ultra se baseia no...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348186/emeet-launches-the-c960-ultra-a-4k-webcam-built-on-the-million-selling-series"
+    },
+    {
+      "id": "https://www.techpowerup.com/348184/piodata-unveils-the-securex-flash-drive",
+      "title": "(PR) Piodata revela o pen drive SecureX",
+      "original_title": "(PR) Piodata Unveils the SecureX Flash Drive",
+      "image": "https://tpucdn.com/img/Epq9yFb13FOysiWt_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-04-13",
+      "summary": "A PIODATA anunciou hoje o lançamento do SecureX Security Flash Drive, uma solução de armazenamento USB de última geração projetada para profissionais que exigem proteção de dados e backup intransigentes com acessibilidade off-line imediata. Projetado para alta...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348184/piodata-unveils-the-securex-flash-drive"
+    },
+    {
+      "id": "https://www.techpowerup.com/348140/godeal24-spring-software-sale-get-windows-11-and-office-at-deep-discounts",
+      "title": "Promoção de software GoDeal24 Spring: Obtenha o Windows 11 e o Office com grandes descontos!",
+      "original_title": "GoDeal24 Spring Software Sale: Get Windows 11 and Office at Deep Discounts!",
+      "image": "https://tpucdn.com/img/QVLI1z5lp3PeyJJA_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-04-13",
+      "summary": "GoDeal24 é um comerciante internacional de software genuíno e válido globalmente, aqui com a Venda de Software da Primavera de 2026. Obtenha o software que você precisa, como o Windows 11 Pro original, a preços atraentes a partir de US$ 13,55. Combine-o com o Office 2021 Professio...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348140/godeal24-spring-software-sale-get-windows-11-and-office-at-deep-discounts"
+    },
+    {
+      "id": "https://www.techpowerup.com/348185/nanya-reports-q1-2026-revenue-up-63-bit-shipments-decline-slightly",
+      "title": "(PR) Nanya informa receita do primeiro trimestre de 2026 com aumento de 63%, remessas de bits diminuem ligeiramente",
+      "original_title": "(PR) Nanya Reports Q1 2026 Revenue Up 63%, Bit Shipments Decline Slightly",
+      "image": "https://tpucdn.com/img/cb5anZihQwoge5fs_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-04-13",
+      "summary": "A Nanya Technology Corporation (\"NTC\", TWSE: 2408), anunciou hoje seus resultados operacionais para o primeiro trimestre, encerrado em 31 de março de 2026. A receita de vendas trimestral da Nanya foi de NT$ 49.087 milhões, um aumento de 63,1% em comparação com a do quarto trimestre...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348185/nanya-reports-q1-2026-revenue-up-63-bit-shipments-decline-slightly"
+    },
+    {
+      "id": "https://www.techpowerup.com/348181/intel-core-ultra-nova-lake-s-desktop-core-configurations-surface",
+      "title": "Superfície de configurações de núcleo de desktop Intel Core Ultra \"Nova Lake-S\"",
+      "original_title": "Intel Core Ultra \"Nova Lake-S\" Desktop Core Configurations Surface",
+      "image": "https://tpucdn.com/img/bwflyh1gjq1dFaZ7_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-04-13",
+      "summary": "As configurações principais da CPU dos processadores de desktop Core Ultra Series 4 “Nova Lake-S” de próxima geração da Intel foram vazadas na web por VideoCardz. Esses processadores permanecerão chips desagregados baseados em blocos, bem como os atuais Core Ultra Series 2 \"Arrow L...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348181/intel-core-ultra-nova-lake-s-desktop-core-configurations-surface"
+    },
+    {
+      "id": "https://www.techpowerup.com/348178/valve-engineer-improves-linux-memory-management-for-gpus-with-8-gb-vram-or-less",
+      "title": "Valve Engineer melhora o gerenciamento de memória Linux para GPUs com 8 GB VRAM ou menos",
+      "original_title": "Valve Engineer Improves Linux Memory Management for GPUs with 8 GB VRAM or Less",
+      "image": "https://tpucdn.com/img/c6kFiSQbTaolrQKs_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-04-13",
+      "summary": "A desenvolvedora Linux da Valve, Natalie Vock, introduziu um novo método para lidar com o gerenciamento de memória em GPUs com 8 GB ou menos VRAM. Como grande parte da comunidade gamer utiliza sistemas com recursos limitados, melhorando o desempenho e a alocação de VRAM...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348178/valve-engineer-improves-linux-memory-management-for-gpus-with-8-gb-vram-or-less"
+    },
+    {
+      "id": "https://www.techpowerup.com/348104/block-ads-trackers-across-9-devices-for-just-usd-16",
+      "title": "Bloqueie anúncios e rastreadores em 9 dispositivos por apenas US$ 16",
+      "original_title": "Block Ads & Trackers Across 9 Devices for Just $16",
+      "image": "https://tpucdn.com/img/9XHqPfbiirDxuAO6_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-04-13",
+      "summary": "As ferramentas de bloqueio de anúncios tornaram-se cada vez mais comuns à medida que a publicidade online, os scripts de rastreamento e os pop-ups continuam a se expandir em sites e aplicativos. O Plano Familiar AdGuard é uma dessas opções, oferecendo uma combinação de bloqueio de anúncios, proteção de privacidade,...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348104/block-ads-trackers-across-9-devices-for-just-usd-16"
+    },
+    {
+      "id": "https://www.techpowerup.com/348177/attack-shark-launches-x11-ultra-carbon-fiber-gaming-mouse",
+      "title": "(PR) Attack Shark lança mouse para jogos X11 Ultra Carbon Fiber",
+      "original_title": "(PR) Attack Shark Launches X11 Ultra Carbon Fiber Gaming Mouse",
+      "image": "https://tpucdn.com/img/JKrXoCgHGLxGI79e_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-04-13",
+      "summary": "Attack Shark, uma marca de periféricos para jogos especializada em teclados mecânicos, mouses para jogos e acessórios acessíveis e de alto desempenho, destacou seu recém-lançado mouse para jogos de fibra de carbono X11 ULTRA, juntamente com detalhes dele...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348177/attack-shark-launches-x11-ultra-carbon-fiber-gaming-mouse"
+    },
+    {
+      "id": "https://www.eurogamer.net/cult-horror-game-doki-doki-literature-club-pulled-from-google-play-store-for-its-depiction-of-sensitive-themes-and-content-that-violates-its-tos",
+      "title": "O jogo de terror cult Doki Doki Literature Club foi retirado da Google Play Store por sua “representação de temas delicados” e conteúdo que “viola” seus Termos de Serviço",
+      "original_title": "Cult horror game Doki Doki Literature Club pulled from Google Play Store for its \"depiction of sensitive themes\" and content that \"violates\" its TOS",
+      "image": "https://assetsio.gnwcdn.com/doki-doki-literature-club-plus.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Epic News",
+      "date": "2026-04-12",
+      "summary": "O visual novel de terror Doki Doki Literature Club foi retirado da Google Play Store por violar os Termos de Serviço e sua “representação de temas delicados”. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/cult-horror-game-doki-doki-literature-club-pulled-from-google-play-store-for-its-depiction-of-sensitive-themes-and-content-that-violates-its-tos"
+    },
+    {
+      "id": "https://www.eurogamer.net/starfield-ps5-players-demand-refunds-reporting-widespread-bugs-and-glitches-that-leave-the-game-unplayable",
+      "title": "Os jogadores do Starfield PS5 exigem reembolso, relatando bugs e falhas generalizadas que deixam o jogo “impossível de jogar”",
+      "original_title": "Starfield PS5 players demand refunds, reporting widespread bugs and glitches that leave the game \"unplayable\"",
+      "image": "https://assetsio.gnwcdn.com/Starfield-screenshot-of-a-man-in-a-space-ship-with-a-PlayStation-logo-overlayed-to-one-side.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
       "date": "2026-04-12",
-      "summary": "Sua mão desencarnada treme com força bruta. Pode arrasar florestas, convocar tempestades e dedicar os aldeões a tarefas únicas durante toda a sua vida humilde: pescar, por exemplo, ou o ato mais profundo de todos - a procriação (bem, transar)....",
+      "summary": "Poucos dias após o tão aguardado lançamento de Starfield no PS5, os fãs estão reclamando de travamentos, congelamentos e problemas de salvamento “totalmente nada surpreendentes”, com alguns chamando o jogo de “impossível de jogar” em seu estado atual. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/black-and-white-lionhead-peter-moylneux-retrospective-google-deepmind-gemini-ai"
+      "url": "https://www.eurogamer.net/starfield-ps5-players-demand-refunds-reporting-widespread-bugs-and-glitches-that-leave-the-game-unplayable"
+    },
+    {
+      "id": "https://www.eurogamer.net/arc-raiders-launches-map-conditions-tracker-heres-what-the-tracker-tells-us",
+      "title": "Arc Raiders lança rastreador de condições de mapa – aqui está o que o rastreador nos diz",
+      "original_title": "Arc Raiders Launches Map Conditions tracker - here's what the tracker tells us",
+      "image": "https://assetsio.gnwcdn.com/arc-raiders-review-header-(1).png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-12",
+      "summary": "A Embark Studios lançou um novo rastreador para ajudar os jogadores a monitorar as condições do mapa em Arc Raiders. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/arc-raiders-launches-map-conditions-tracker-heres-what-the-tracker-tells-us"
+    },
+    {
+      "id": "https://www.eurogamer.net/new-report-claims-microsoft-is-considering-changing-day-one-access-to-call-of-duty-on-game-pass",
+      "title": "Novo relatório afirma que a Microsoft está considerando mudar o acesso do primeiro dia ao Call of Duty no Game Pass",
+      "original_title": "New report claims Microsoft is considering changing Day One access to Call of Duty on Game Pass",
+      "image": "https://assetsio.gnwcdn.com/Black-Ops-7-Camos---Header.jpeg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-12",
+      "summary": "A Microsoft está considerando retirar Call of Duty de sua oferta do primeiro dia do Game Pass. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/new-report-claims-microsoft-is-considering-changing-day-one-access-to-call-of-duty-on-game-pass"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sjhrc3/jeff_grubb_fable_release_date_has_been_pushed/",
+      "title": "Jeff Grubb: A data de lançamento de ‘Fable’ foi ‘adiada’ internamente, mas eles ainda estão tentando lançá-lo este ano. Eles estão preocupados com o lançamento próximo ao GTA6, então, se for adiado além disso, o lançamento poderá ser adiado para dezembro, o que pode torná-lo um principal candidato a ser adiado para 2027.",
+      "original_title": "Jeff Grubb: ‘Fable’ release date has been ’pushed’ internally, but they still are trying to release it this year. They are worried about launching near GTA6, so if it’s delayed beyond that it could push the release to December, which may make it a prime candidate to get delayed into 2027.",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-04-12",
+      "summary": "https://xcancel.com/idlesloth84\\_/status/2043342695469404434?s=46&t=hc5NrTRIWu5hhJBvuuWS9g “Direi que ouvi dizer que Fable foi empurrado internamente. Isso não significa que será lançado no próximo ano. Aparentemente, eles ainda estão tentando divulgá-lo...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sjhrc3/jeff_grubb_fable_release_date_has_been_pushed/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sjqzoy/tomodachi_life_living_the_dream_has_been_leaked/",
+      "title": "Vida de Tomodachi: Vivendo o sonho vazou.",
+      "original_title": "Tomodachi Life: Living The Dream Has Been Leaked.",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Rumor",
+      "date": "2026-04-12",
+      "summary": "Créditos para OP: https://www.reddit.com/r/yuzuRoms/s/NPQG5vSZUb RECOMENDO ALTAMENTE QUE VOCÊ USE UM ADBLOCKER SE VOCÊ PODE ENCONTRAR O JOGO, NENHUM LINK SERÁ FORNECIDO.    enviado por /u/UpsetPack6898 [link] [comentários]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sjqzoy/tomodachi_life_living_the_dream_has_been_leaked/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sjmmni/tom_henderson_heard_that_the_next_mainline_god_of/",
+      "title": "Tom Henderson soube que o próximo jogo principal de God of War seria anunciado em abril",
+      "original_title": "Tom Henderson heard that the next mainline God of War game was due to be announced in April",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-04-12",
+      "summary": "Fonte por volta das 25:00: https://www.youtube.com/live/2tP01nZoaVQ?si=Iw9fE2MqFLg79mJ0 enviado por /u/Loose_Society9485 [link] [comentários]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sjmmni/tom_henderson_heard_that_the_next_mainline_god_of/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1sj8omp/boxes_of_fragment/",
+      "title": "Caixas de fragmento",
+      "original_title": "Boxes of fragment",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-04-12",
+      "summary": "Como encontrar as joias escondidas Revele a conquista do token, diga-me que fiz todas as conquistas, mas esta foi enviada por /u/GlumDragonfruit4184 [link] [comentários]...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1sj8omp/boxes_of_fragment/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1sjurii/steam_game_cool_thief_guy/",
+      "title": "[Steam] (Jogo) Ladrão Legal",
+      "original_title": "[Steam] (Game) Cool Thief Guy",
+      "image": "https://external-preview.redd.it/1RXIWKaulC4DG3tZ23HIO4qSVa7xp3SA9LK_KcoGG70.jpeg?width=320&crop=smart&auto=webp&s=b59e123d51788c56392f943606708baffb145008",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-04-12",
+      "summary": "enviado por /u/EinHaDe [link] [comentários] ...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1sjurii/steam_game_cool_thief_guy/"
     },
     {
       "id": "https://www.techpowerup.com/348171/this-week-in-gaming-week-16",
@@ -139,79 +559,49 @@
       "url": "https://www.techpowerup.com/348171/this-week-in-gaming-week-16"
     },
     {
-      "id": "https://www.eurogamer.net/gta-6-developer-rockstar-games-hacked-once-again-but-insists-only-a-limited-amount-of-non-material-company-information-was-compromised",
-      "title": "A desenvolvedora de GTA 6, Rockstar Games, hackeou mais uma vez, mas insiste que desta vez apenas uma “quantidade limitada de informações não materiais da empresa” foi comprometida",
-      "original_title": "GTA 6 developer Rockstar Games hacked once again but insists this time only a \"limited amount of non-material company information\" was compromised",
-      "image": "https://assetsio.gnwcdn.com/gta-6-art-lucia-and-jason.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1silp7o/does_unity_on_epic_include_the_secrets_of_the/",
+      "title": "O Unity on Epic inclui o DLC Secrets of the Revolution?",
+      "original_title": "Does Unity on Epic include the Secrets of the Revolution DLC?",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-11",
-      "summary": "A desenvolvedora de GTA 6, Rockstar, confirmou que foi hackeada por terceiros depois que um grupo de hackers emitiu um pedido de resgate. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/gta-6-developer-rockstar-games-hacked-once-again-but-insists-only-a-limited-amount-of-non-material-company-information-was-compromised"
-    },
-    {
-      "id": "https://www.eurogamer.net/epic-set-to-release-arc-raiders-like-extraction-shooter-with-disney-characters-by-the-end-of-the-year",
-      "title": "Epic preparada para lançar jogo de tiro de extração tipo Arc Raiders com personagens da Disney até o final do ano",
-      "original_title": "Epic set to release Arc Raiders-like extraction shooter with Disney characters by the end of the year",
-      "image": "https://assetsio.gnwcdn.com/FvG7O-fWYAATIuu.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
       "category": "Epic News",
       "date": "2026-04-11",
-      "summary": "A Epic Games supostamente lançará um jogo de tiro do tipo Arc Raiders ainda este ano. Leia mais...",
+      "summary": "Assassin’s Creed Unity está em boa promoção na Epic no momento, mas há apenas uma versão do jogo disponível na plataforma – a versão padrão. Agora, enquanto o DLC Dead Kings geralmente vem com o jogo base, 2 outros DLCs não vêm e são separados...",
       "sources": [
-        "Eurogamer"
+        "r/EpicGamesPC"
       ],
-      "url": "https://www.eurogamer.net/epic-set-to-release-arc-raiders-like-extraction-shooter-with-disney-characters-by-the-end-of-the-year"
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1silp7o/does_unity_on_epic_include_the_secrets_of_the/"
     },
     {
-      "id": "https://www.eurogamer.net/federal-aviation-administration-targets-gamers-in-this-bespoke-and-not-at-all-cringeworthy-recruitment-ad",
-      "title": "A Administração Federal de Aviação tem como alvo os jogadores neste anúncio de recrutamento personalizado e nada digno de nota",
-      "original_title": "Federal Aviation Administration targets gamers in this bespoke and not at all cringeworthy recruitment ad",
-      "image": "https://assetsio.gnwcdn.com/Screenshot-2026-04-11-at-16.34.20.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1sic8em/mobile_games_in_app/",
+      "title": "Jogos para celular no aplicativo",
+      "original_title": "Mobile games in app",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
       "category": "News",
       "date": "2026-04-11",
-      "summary": "A Administração Federal de Aviação dos EUA está recorrendo aos jogadores para preencher uma lacuna na escassez nacional de controladores de tráfego aéreo. Leia mais...",
+      "summary": "Não sei se é verdade que o EPIC não adicionou uma página no aplicativo móvel mostrando todos os jogos para celular que você possui? Existe uma maneira de ver uma página listando todos os jogos para dispositivos móveis que comprei no aplicativo para dispositivos móveis da Epic Games? Tenho muitos e às vezes esqueço um ou...",
       "sources": [
-        "Eurogamer"
+        "r/EpicGamesPC"
       ],
-      "url": "https://www.eurogamer.net/federal-aviation-administration-targets-gamers-in-this-bespoke-and-not-at-all-cringeworthy-recruitment-ad"
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1sic8em/mobile_games_in_app/"
     },
     {
-      "id": "https://www.eurogamer.net/amazon-shakes-up-luna-streaming-service-removing-access-to-individual-games-third-party-subscriptions-and-its-bring-your-own-library-feature",
-      "title": "Amazon sacode o serviço de streaming Luna, removendo o acesso a jogos individuais, assinaturas de terceiros e seu recurso “Traga sua própria biblioteca”",
-      "original_title": "Amazon shakes up Luna streaming service, removing access to individual games, third-party subscriptions, and its \"Bring Your Own Library\" feature",
-      "image": "https://assetsio.gnwcdn.com/Luna-(2).png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1sidtq4/pcconsole_other_control_resonant_communications/",
+      "title": "[PC/Console] (Outro) CONTROL Resonant - Fone de ouvido do Departamento de Comunicações e óculos de filtragem óptica",
+      "original_title": "[PC/Console] (Other) CONTROL Resonant - Communications Department Headset & Optical Filtering Goggles",
+      "image": "https://external-preview.redd.it/1bhoc03MCTxHhup08pQPTxmpZkpB9SZV70Q5s1pBQyQ.jpeg?width=640&crop=smart&auto=webp&s=218b8a5d7557b6426a7de814aa7f00e3fb2ccc41",
       "source_count": 1,
-      "reliability": "High",
-      "category": "News",
+      "reliability": "Medium",
+      "category": "Free Games",
       "date": "2026-04-11",
-      "summary": "A Amazon anunciou mudanças no atacado em seu serviço de streaming em nuvem Luna, avisando com apenas dois meses de antecedência que os jogos e assinaturas de terceiros adquiridos antes de 10 de abril serão removidos das bibliotecas dos jogadores até 10 de junho de 2026. Leia mais...",
+      "summary": "enviado por /u/MeguminShiro [link] [comentários] ...",
       "sources": [
-        "Eurogamer"
+        "r/FreeGameFindings"
       ],
-      "url": "https://www.eurogamer.net/amazon-shakes-up-luna-streaming-service-removing-access-to-individual-games-third-party-subscriptions-and-its-bring-your-own-library-feature"
-    },
-    {
-      "id": "https://www.eurogamer.net/what-weve-been-playing-three-thumbs-nintendo",
-      "title": "O que temos jogado – “Não tenho três polegares, Nintendo”",
-      "original_title": "What we've been playing - \"I do not have three thumbs, Nintendo\"",
-      "image": "https://assetsio.gnwcdn.com/thumbs-wwbp.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-11",
-      "summary": "Olá e bem-vindo de volta ao nosso artigo regular, onde escrevemos um pouco sobre os jogos que temos jogado. Esta semana, Kelsey enfrenta um inimigo terrível em agentes de locação na vida real; Marie quebra seu melhor Jack e Daxter pessoal - bravo !; e Bertie d...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/what-weve-been-playing-three-thumbs-nintendo"
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1sidtq4/pcconsole_other_control_resonant_communications/"
     },
     {
       "id": "https://www.techpowerup.com/348160/microsoft-apologizes-for-battery-less-xbox-controllers-sends-rechargeable-kits-to-correct",
@@ -229,184 +619,34 @@
       "url": "https://www.techpowerup.com/348160/microsoft-apologizes-for-battery-less-xbox-controllers-sends-rechargeable-kits-to-correct"
     },
     {
-      "id": "https://www.techpowerup.com/348140/godeal24-spring-software-sale-get-windows-11-and-office-at-deep-discounts",
-      "title": "Promoção de software GoDeal24 Spring: Obtenha o Windows 11 e o Office com grandes descontos!",
-      "original_title": "GoDeal24 Spring Software Sale: Get Windows 11 and Office at Deep Discounts!",
-      "image": "https://tpucdn.com/img/QVLI1z5lp3PeyJJA_thm.jpg",
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1shz4iu/epic_is_reportedly_making_a_disneythemed/",
+      "title": "A Epic está supostamente fazendo um jogo de tiro com tema Disney",
+      "original_title": "Epic Is Reportedly Making A Disney-Themed Extraction Shooter",
+      "image": "https://external-preview.redd.it/_CSdha4JOfoa0mNr53dAOQ9ucRv7nK8iXZRPY-m5bvg.jpeg?width=640&crop=smart&auto=webp&s=4a554a25340b56f9da4597ff7c702cba6dc93bdb",
       "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-04-11",
-      "summary": "GoDeal24 é um comerciante internacional de software genuíno e válido globalmente, aqui com a Venda de Software da Primavera de 2026. Obtenha o software que você precisa, como o Windows 11 Pro original, a preços atraentes a partir de US$ 13,55. Combine-o com o Office 2021 Professio...",
+      "reliability": "Medium",
+      "category": "Epic News",
+      "date": "2026-04-10",
+      "summary": "enviado por /u/ImAnthlon [link] [comentários] ...",
       "sources": [
-        "TechPowerUp"
+        "r/EpicGamesPC"
       ],
-      "url": "https://www.techpowerup.com/348140/godeal24-spring-software-sale-get-windows-11-and-office-at-deep-discounts"
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1shz4iu/epic_is_reportedly_making_a_disneythemed/"
     },
     {
-      "id": "https://www.eurogamer.net/professor-layton-and-the-new-world-of-steam-pc-ps5-release-window",
-      "title": "Professor Layton e o Novo Mundo do Steam ganham janela de lançamento e adicionam versões para PS5 e PC",
-      "original_title": "Professor Layton and the New World of Steam gets a release window and adds PS5 and PC versions",
-      "image": "https://assetsio.gnwcdn.com/Professor-Layton-and-the-New-World-of-Steam_reveal-cutscene.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1shsi1i/steam_game_livingforest/",
+      "title": "[Steam] (Jogo) LivingForest",
+      "original_title": "[Steam] (Game) LivingForest",
+      "image": "https://external-preview.redd.it/3e0ThymL4vufMVoRJdLY1Qo3c7HsSwHsdZA3iSZQp_k.jpeg?width=320&crop=smart&auto=webp&s=d8c17827acfe623e7bc13722c2329720f72fea50",
       "source_count": 1,
-      "reliability": "High",
-      "category": "News",
+      "reliability": "Medium",
+      "category": "Free Games",
       "date": "2026-04-10",
-      "summary": "Após uma revelação no início de 2023, Professor Layton e o Novo Mundo do Steam – a próxima entrada na longa série de aventuras de quebra-cabeças – não tem feito muito barulho. O evento de demonstração da Level-5 de hoje mudou isso com uma nova visão aprofundada do jogo...",
+      "summary": "enviado por /u/iambaldy [link] [comentários] ...",
       "sources": [
-        "Eurogamer"
+        "r/FreeGameFindings"
       ],
-      "url": "https://www.eurogamer.net/professor-layton-and-the-new-world-of-steam-pc-ps5-release-window"
-    },
-    {
-      "id": "https://www.eurogamer.net/steam-code-references-steamgpt",
-      "title": "O código datado mostra que a Valve faz referência a uma ferramenta AI \"SteamGPT\", presumivelmente para ajudar o Steam a lidar melhor com trapaceiros e suporte ao cliente",
-      "original_title": "Datamined code shows Valve referencing an AI \"SteamGPT\" tool presumably to help Steam better cope with cheaters and customer support",
-      "image": "https://assetsio.gnwcdn.com/counter-strike-2-in-game-screenshot-4.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-10",
-      "summary": "Até agora, houve apenas indícios de que a criadora de jogos e proprietária do Steam, Valve, está se interessando pelo uso generativo de IA. Mas, se acreditarmos nas descobertas recentes, pode estar trabalhando em um recurso de IA “SteamGPT” para ajudar a combater trapaças no Steam e gerenciar contas...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/steam-code-references-steamgpt"
-    },
-    {
-      "id": "https://www.eurogamer.net/fantasy-life-i-is-coming-to-mobile-with-cross-save",
-      "title": "Depois de vender mais de 1,5 milhão de cópias e roubar a maior parte do meu verão, Fantasy Life i está chegando ao celular com salvamento cruzado",
-      "original_title": "After selling over 1.5m copies and stealing most of my summer, Fantasy Life i is coming to mobile with cross-save",
-      "image": "https://assetsio.gnwcdn.com/fantasy-life-i-header.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-10",
-      "summary": "Fantasy Life i: The Girl Who Steals Time foi uma das surpresas mais agradáveis ​​​​do ano passado, conseguindo absorver a maior parte do meu verão com sua brilhante mistura de simulação de vida no estilo Animal Crossing e aventura de RPG de capa e espada. E agora está chegando...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/fantasy-life-i-is-coming-to-mobile-with-cross-save"
-    },
-    {
-      "id": "https://www.eurogamer.net/esoteric-ebb-review",
-      "title": "Revisão esotérica do Ebb",
-      "original_title": "Esoteric Ebb review",
-      "image": "https://assetsio.gnwcdn.com/esoteric-ebb-review.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-10",
-      "summary": "Quando conto às pessoas sobre o Esoteric Ebb, digo principalmente que me faço de idiota, porque há algo profundamente reconfortante em ser um idiota do governo assaltado. Claro, prometi lealdade à hierarquia e à burocracia, mas sempre há a possibilidade...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/esoteric-ebb-review"
-    },
-    {
-      "id": "https://www.techpowerup.com/348152/onexstation-launches-as-usd-2-999-ryzen-ai-max-395-mini-pc-for-gaming-ai-and-remote-server-workloads",
-      "title": "ONEXStation é lançado como Ryzen AI Max + 395 Mini PC de US$ 2.999 para jogos, IA e cargas de trabalho de servidor remoto",
-      "original_title": "ONEXStation Launches as $2,999 Ryzen AI Max+ 395 Mini PC for Gaming, AI, and Remote Server Workloads",
-      "image": "https://tpucdn.com/img/eVlDRvIuwakAQcEy_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-04-10",
-      "summary": "O mais recente de uma enxurrada recente de mini PCs AMD Ryzen AI Max + 395 é o ONEXStation da OneXPlayer – um novo mini PC com IA que deve ser igualmente capaz em tudo, desde jogos até estações de trabalho e fluxos de trabalho criativos. Além dos benefícios já conhecidos do ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348152/onexstation-launches-as-usd-2-999-ryzen-ai-max-395-mini-pc-for-gaming-ai-and-remote-server-workloads"
-    },
-    {
-      "id": "https://www.techpowerup.com/348151/epic-games-plans-standalone-disney-themed-extraction-shooter-similar-to-arc-raiders",
-      "title": "Epic Games planeja jogo de tiro autônomo com tema Disney, semelhante a Arc Raiders",
-      "original_title": "Epic Games Plans Standalone Disney-Themed Extraction Shooter Similar to Arc Raiders",
-      "image": "https://tpucdn.com/img/A6F40nUe7ue1la2G_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-04-10",
-      "summary": "Recentemente, vazou-se que a Epic Games estava planejando uma série de novos modos de jogo para Fortnite, após uma rodada brutal de demissões que fez com que cerca de 1.000 trabalhadores perdessem seus empregos. No entanto, se um relatório recente da Bloomberg servir de referência, um dos g...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348151/epic-games-plans-standalone-disney-themed-extraction-shooter-similar-to-arc-raiders"
-    },
-    {
-      "id": "https://www.techpowerup.com/348150/hyte-introduces-sakura-miko-hololive-y70-case-keycap-and-desk-pad-bundle",
-      "title": "(PR) HYTE apresenta pacote de estojo, tampa e teclado de mesa Sakura Miko hololive Y70",
-      "original_title": "(PR) HYTE Introduces Sakura Miko hololive Y70 Case, Keycap, and Desk Pad Bundle",
-      "image": "https://tpucdn.com/img/cOZb3QqW5tEedPds_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-04-10",
-      "summary": "A HYTE, fabricante líder de componentes de PC de última geração, tem o orgulho de compartilhar sua mais recente colaboração com a hololive, representada pela COVER Corporation do Japão, estrelada por Sakura Miko - um dos talentos VTuber mais antigos da hololive com o...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348150/hyte-introduces-sakura-miko-hololive-y70-case-keycap-and-desk-pad-bundle"
-    },
-    {
-      "id": "https://www.techpowerup.com/348104/block-ads-trackers-across-9-devices-for-just-usd-16",
-      "title": "Bloqueie anúncios e rastreadores em 9 dispositivos por apenas US$ 16",
-      "original_title": "Block Ads & Trackers Across 9 Devices for Just $16",
-      "image": "https://tpucdn.com/img/9XHqPfbiirDxuAO6_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-04-10",
-      "summary": "As ferramentas de bloqueio de anúncios tornaram-se cada vez mais comuns à medida que a publicidade online, os scripts de rastreamento e os pop-ups continuam a se expandir em sites e aplicativos. O Plano Familiar AdGuard é uma dessas opções, oferecendo uma combinação de bloqueio de anúncios, proteção de privacidade,...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348104/block-ads-trackers-across-9-devices-for-just-usd-16"
-    },
-    {
-      "id": "https://www.techpowerup.com/348149/philips-launches-evnia-27m2g5800-27-inch-5k-dual-mode-gaming-monitor",
-      "title": "Philips lança monitor de jogos de modo duplo 5K de 27 polegadas Evnia 27M2G5800",
-      "original_title": "Philips Launches Evnia 27M2G5800 27-inch 5K Dual-Mode Gaming Monitor",
-      "image": "https://tpucdn.com/img/tbGxxULFtkWLgETF_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-04-10",
-      "summary": "A Philips lançou o Evnia 27M2G5800, um monitor de jogos de 27 polegadas construído em torno de um painel Fast IPS de modo duplo que pode alternar entre resolução de 5K e operação QHD de alta atualização. O painel funciona em 5120 x 2880 nativos (5K UHD) com densidade de pixels de...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348149/philips-launches-evnia-27m2g5800-27-inch-5k-dual-mode-gaming-monitor"
-    },
-    {
-      "id": "https://www.techpowerup.com/348146/open-world-survivalcraft-game-soulmask-launches-to-1-0-alongside-sizeable-egypt-dlc",
-      "title": "O jogo de sobrevivência de mundo aberto \"Soulmask\" é lançado para 1.0 junto com o considerável DLC do Egito",
-      "original_title": "Open-World Survivalcraft Game \"Soulmask\" Launches to 1.0 Alongside Sizeable Egypt DLC",
-      "image": "https://tpucdn.com/img/hE0u8gf4wBnyHFGq_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-04-10",
-      "summary": "Soulmask, um jogo de mundo aberto, construção de bases e sobrevivência, lançado no Steam Early Access há quase dois anos e, depois de muitas iterações, CampFire Studios e Qooland Games lançaram oficialmente a versão 1.0 do jogo, chamando-o de \"completo...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348146/open-world-survivalcraft-game-soulmask-launches-to-1-0-alongside-sizeable-egypt-dlc"
-    },
-    {
-      "id": "https://www.techpowerup.com/348147/microproses-legendary-pilots-flight-sim-launches-april-21-with-retro-visuals",
-      "title": "(PR) Legendary Pilots Flight Sim da MicroProse é lançado em 21 de abril com recursos visuais retrô",
-      "original_title": "(PR) MicroProse's Legendary Pilots Flight Sim Launches April 21 with Retro Visuals",
-      "image": "https://tpucdn.com/img/ZILPAyClQ3ukTle2_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-04-10",
-      "summary": "Combinando mecânica de vôo acessível com sistemas de gerenciamento mais profundos, Legendary Pilots convida os jogadores a entrar em um mundo vibrante da aviação, onde cada voo é apenas uma parte de uma jornada maior. Desde o planejamento de rotas e transporte de passageiros até m...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348147/microproses-legendary-pilots-flight-sim-launches-april-21-with-retro-visuals"
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1shsi1i/steam_game_livingforest/"
     }
   ]
 }
