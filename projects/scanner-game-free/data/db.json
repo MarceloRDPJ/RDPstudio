@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-04-14T13:26:36",
-  "display_date": "14/04/2026 13:26",
+  "last_updated": "2026-04-15T13:25:00",
+  "display_date": "15/04/2026 13:25",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "135ms",
+    "latency": "317ms",
     "current_games": [
       {
         "title": "TOMAK: Save the Earth Regeneration",
@@ -56,7 +56,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-04-14",
+      "date": "2026-04-15",
       "summary": "O lendário sucesso cult \"Tomak: Save the Earth\" chega à Epic Games Store!\nCuide de Evian, a Deusa do Amor — presa em um vaso de flores — e salve a humanidade da destruição. Da ascensão divina à aniquilação total, cada escolha que você faz leva a um destino diferente.",
       "sources": [
         "Epic Games Store"
@@ -71,7 +71,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-04-14",
+      "date": "2026-04-15",
       "summary": "Prop Sumo é um jogo de luta em grupo que reúne adereços comuns em batalhas extraordinárias!\n\nDerrote seus amigos e domine o placar!",
       "sources": [
         "Epic Games Store"
@@ -86,7 +86,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-04-14",
+      "date": "2026-04-15",
       "summary": "Disponível gratuitamente a partir de 16/04. The Stone of Madness é um jogo tático furtivo em tempo real ambientado em um mosteiro espanhol do século XVIII. Cinco prisioneiros reúnem suas habilidades e recursos para enfrentar suas fobias, evitar a insanidade, descobrir os mistérios do Monastério e encontrar uma maneira de escapar.",
       "sources": [
         "Epic Games Store"
@@ -101,7 +101,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-04-14",
+      "date": "2026-04-15",
       "summary": "Disponível gratuitamente a partir de 14/05. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
       "sources": [
         "Epic Games Store"
@@ -109,169 +109,259 @@
       "url": "https://store.epicgames.com/p/monument-valley-02"
     },
     {
-      "id": "https://www.eurogamer.net/subnautica-2-could-be-self-published-by-developer-unknown-worlds-following-legal-battle",
-      "title": "A mudança do Subnautica 2 Steam sugere que Krafton pode deixar de ser seu editor após uma longa batalha legal e a reintegração do líder do estúdio",
-      "original_title": "Subnautica 2 Steam change suggests Krafton might be out as its publisher following long legal battle and reinstatement of studio leader",
-      "image": "https://assetsio.gnwcdn.com/Subnatica-2.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-14",
-      "summary": "Subnautica 2 está finalmente se aproximando de um lançamento de acesso antecipado, mas é a batalha legal e o drama contínuo entre a editora Krafton e o estúdio Unknown Worlds que tem recebido a maior atenção desde que o fundador Charlie Cleveland e o CEO Ted Gill foram...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/subnautica-2-could-be-self-published-by-developer-unknown-worlds-following-legal-battle"
-    },
-    {
-      "id": "https://www.eurogamer.net/starfield-ps5-crashes-bethesda-responds",
-      "title": "Bethesda reconhece problemas de travamento do PS5 de Starfield e promete hotfix em breve",
-      "original_title": "Bethesda acknowledges Starfield's PS5 crashing issues, promises hotfix soon",
-      "image": "https://assetsio.gnwcdn.com/A-Starfield-pet-which-looks-a-bit-like-a-rabbit-but-with-several-eyes-and-leaf-shaped-ears.-A-PS-logo-is-overlaid-to-one-side.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-14",
-      "summary": "A Bethesda respondeu aos vários problemas de travamento que muitos jogadores de Starfield no PlayStation 5 têm enfrentado desde que o jogo chegou ao console da Sony no início deste mês. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/starfield-ps5-crashes-bethesda-responds"
-    },
-    {
-      "id": "https://www.eurogamer.net/wuchang-fallen-feathers-development-team-disbanded",
-      "title": "Wuchang: desenvolvedor de Fallen Feathers supostamente dissolve a equipe principal após a saída do diretor",
-      "original_title": "Wuchang: Fallen Feathers developer reportedly dissolves core team after director's exit",
-      "image": "https://assetsio.gnwcdn.com/wuchang-trailer.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-14",
-      "summary": "O RPG de ação soulslike Wuchang: Fallen Feathers não foi um sucesso entre os críticos no ano passado, mas encantou um público grande o suficiente e foi um sucesso financeiro, pelo que sabemos. A continuidade do IP pode estar com sérios problemas. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/wuchang-fallen-feathers-development-team-disbanded"
-    },
-    {
-      "id": "https://www.eurogamer.net/marathon-sponsored-kit-queue-experiment",
-      "title": "Marathon testará um novo modo de jogo experimental que força os jogadores a usar kits patrocinados gratuitamente",
-      "original_title": "Marathon will test out a new experimental game mode which forces players to use free sponsored kits",
-      "image": "https://assetsio.gnwcdn.com/marathon-gameplay-screen-5.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-14",
-      "summary": "Se você está jogando Maratona e foi atacado por jogadores equipados, com armas totalmente atualizadas e escudos roxos, um novo modo de jogo experimental que chega esta semana pode ser exatamente o que você estava esperando. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/marathon-sponsored-kit-queue-experiment"
-    },
-    {
-      "id": "https://www.eurogamer.net/animal-crossing-new-horizons-update-25th-anniversary",
-      "title": "Nintendo comemora Animal Crossing completando 25 anos com um charmoso item comemorativo para exibir em sua ilha New Horizons",
-      "original_title": "Nintendo celebrates Animal Crossing turning 25 with a charming commemorative item to display on your New Horizons island",
-      "image": "https://assetsio.gnwcdn.com/Cartoon-showing-Animal-Crossing-characters-such-as-KK-Slider-and-Tom-Nook-smiling-around-the-series'-iconic-leaf-motif.-Thank-You-25th-is-written-to-one-side.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-14",
-      "summary": "Animal Crossing acaba de completar 25 anos e, para marcar seu quarto de século, a Nintendo lançou uma nova atualização para New Horizons que, junto com várias correções, também adiciona um item comemorativo. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/animal-crossing-new-horizons-update-25th-anniversary"
-    },
-    {
-      "id": "https://www.eurogamer.net/peter-parker-face-model-might-be-teasing-spider-man-3-development",
-      "title": "O modelo facial de Peter Parker, Ben Jordan, aparentemente provoca um novo trabalho de captura, iniciando especulações em torno do Homem-Aranha 3 da Insomniac",
-      "original_title": "Peter Parker face model Ben Jordan seemingly teases new capture work, starting speculation around Insomniac's Spider-Man 3",
-      "image": "https://assetsio.gnwcdn.com/Spidere-Man-2_traversal.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-14",
-      "summary": "O Wolverine da Marvel comprometeu-se recentemente com um lançamento em setembro de 2026, por isso é lógico esperar que a desenvolvedora Insomniac Games acelere o trabalho em seu próximo projeto em breve. A suposição comum era que o Homem-Aranha 3 viria a seguir, e uma posição aparentemente inocente...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/peter-parker-face-model-might-be-teasing-spider-man-3-development"
-    },
-    {
-      "id": "https://www.eurogamer.net/warhammer-classic-collection-games-fire-warrior",
-      "title": "Alguns jogos clássicos de culto Warhammer retrô já estão à venda no Steam, incluindo um clássico cult que pode ser ótimo para o Steam Deck",
-      "original_title": "Some cult classic retro Warhammer games are now on sale for Steam, including one cult classic that may be great for the Steam Deck",
-      "image": "https://assetsio.gnwcdn.com/warhammer-40k-fire-warrior.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-14",
-      "summary": "A Warhammer Classics Collection, um evento da Steam Store atualmente em andamento, cortesia de Warhammer e SNEG, trouxe consigo uma coleção de jogos retrô adorados para a loja de PC pela primeira vez. Isso inclui um clássico de culto específico que foi d...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/warhammer-classic-collection-games-fire-warrior"
-    },
-    {
-      "id": "https://www.eurogamer.net/bloodborne-animated-feature-adaptation-announced-jacksepticeye",
-      "title": "Bloodborne está recebendo uma adaptação para filme de animação censurada, coproduzida pelo YouTuber JackSepticEye",
-      "original_title": "Bloodborne is getting an R-rated animated film adaptation, co-produced by YouTuber JackSepticEye",
-      "image": "https://assetsio.gnwcdn.com/Bloodborne-artwork-showing-a-cloaked-male-known-as-a-Hunter-skulking-in-a-moonlit-gothic-city.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-14",
-      "summary": "Finalmente, algumas novidades com sabor de Bloodborne, embora, infelizmente, não sejam notícias de que ele está chegando ao PC. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/bloodborne-animated-feature-adaptation-announced-jacksepticeye"
-    },
-    {
-      "id": "https://www.eurogamer.net/xbox-game-pass-too-expensive-asha-sharma",
-      "title": "O novo CEO do Xbox admite que o Game Pass “se tornou muito caro para os jogadores” em um memorando que vazou",
-      "original_title": "New Xbox CEO reportedly admits Game Pass \"has become too expensive for players\" in leaked memo",
-      "image": "https://assetsio.gnwcdn.com/Xbox-Game-Pass-logo-overlaid-on-Call-of-Duty-Black-Ops-7-artwork.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/leaked-gta-online-revenue-data-boosts-take-two-stock",
+      "title": "Dados vazados de receita do GTA Online aumentam o estoque da editora Take-Two",
+      "original_title": "Leaked GTA Online revenue data boosts publisher Take-Two's stock",
+      "image": "https://assetsio.gnwcdn.com/GTA-6_street-party.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "Rumor",
-      "date": "2026-04-14",
-      "summary": "O novo CEO do Xbox, Asha Sharma, admitiu que o modelo de assinatura do Game Pass da empresa se tornou “muito caro para os jogadores” e que a Microsoft precisa de uma “equação de valor melhor”. Leia mais...",
+      "date": "2026-04-15",
+      "summary": "Embora o grupo de hackers ShinyHunters tenha conseguido romper (parte da) segurança da Rockstar Games e extrair dados internos, o desenvolvedor e seu grande editor, Take-Two, não se importaram muito com o infeliz acontecimento. Na verdade, parece que eles estão...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/xbox-game-pass-too-expensive-asha-sharma"
+      "url": "https://www.eurogamer.net/leaked-gta-online-revenue-data-boosts-take-two-stock"
     },
     {
-      "id": "https://www.techpowerup.com/348210/nvidia-says-it-is-not-in-talks-to-acquire-a-pc-maker",
-      "title": "NVIDIA afirma que não está em negociações para adquirir fabricante de PC",
-      "original_title": "NVIDIA Says It Is Not in Talks to Acquire a PC Maker",
-      "image": "https://tpucdn.com/img/Rv53Qmlv386YPofe_thm.jpg",
+      "id": "https://www.eurogamer.net/bloodborne-animated-feature-adaptation-jacksepticeye-north-star",
+      "title": "“Vou lutar com unhas e dentes para tornar esta coisa o melhor possível” – o recém-anunciado filme de animação de Bloodborne com certeza parece estar em boas mãos",
+      "original_title": "\"I will fight tooth and nail to make this thing the best it possibly can be\" - Bloodborne's newly-announced animated feature sure sounds like it is in safe hands",
+      "image": "https://assetsio.gnwcdn.com/Eileen-the-Crow-in-Bloodborne.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-15",
+      "summary": "Ontem recebemos a notícia de que Bloodborne estava sendo transformado em um longa-metragem de animação, com o popular YouTuber JackSepticEye assumindo o papel de produtor. Agora, a personalidade irlandesa enviou um vídeo sobre seu envolvimento no projeto, e...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/bloodborne-animated-feature-adaptation-jacksepticeye-north-star"
+    },
+    {
+      "id": "https://www.eurogamer.net/starfield-ps5-port-sales-estimates-first-week",
+      "title": "A porta PS5 de Starfield gerencia cerca de 140 mil vendas em uma semana, estima empresa de analistas",
+      "original_title": "Starfield's PS5 port manages roughly 140K sales in a week, estimates analyst firm",
+      "image": "https://assetsio.gnwcdn.com/Starfield_Terran-Armada_commander.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-15",
+      "summary": "A atualização Free Lanes de Starfield e o DLC Terran Armada são muito divertidos... contanto que você queira mais Starfield. A tão esperada versão do jogo para PS5 enfrentou uma série de grandes problemas desde que foi lançado em 7 de abril, e as correções virão em breve. Como ...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/starfield-ps5-port-sales-estimates-first-week"
+    },
+    {
+      "id": "https://www.eurogamer.net/april-playstation-plus-extra-premium-leak",
+      "title": "Vários títulos PlayStation Plus Extra e Premium de abril vazaram",
+      "original_title": "Multiple PlayStation Plus Extra and Premium titles for April have leaked",
+      "image": "https://assetsio.gnwcdn.com/Aloy-rides-on-the-back-of-a-mechanical-beast-across-a-snowy-landscape-in-Horizon-Zero-Dawn-Remastered.-A-PS-Plus-logo-is-overlaid-in-the-top-right-corner.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Rumor",
+      "date": "2026-04-15",
+      "summary": "Parece que aqueles nos níveis Extra e Premium do PlayStation Plus podem esperar que mais jogos de grande sucesso ingressem no serviço na próxima semana. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/april-playstation-plus-extra-premium-leak"
+    },
+    {
+      "id": "https://www.eurogamer.net/ps5-sales-spike-people-rush-to-beat-ai-driven-price-hikes",
+      "title": "O PlayStation 5 registra um grande aumento nas vendas nos EUA, batendo recordes de 2026, na medida em que os consumidores ansiosos correm para vencer os aumentos de preços da crise de RAM",
+      "original_title": "PlayStation 5 sees massive sales spike in the US, beating 2026 records so far as eager consumers rush to beat RAM crisis price hikes",
+      "image": "https://assetsio.gnwcdn.com/PS5_on-blue-background.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-15",
+      "summary": "O PlayStation 5 registrou um aumento nas vendas nos EUA após os aumentos de preços anunciados, de acordo com o serviço de rastreamento de varejo da Circana. Na verdade, aumentou tanto que as vendas da semana que terminou em 4 de abril superaram o resto do ano até agora. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/ps5-sales-spike-people-rush-to-beat-ai-driven-price-hikes"
+    },
+    {
+      "id": "https://www.eurogamer.net/overwatch-switch-2-port-launches-without-advertised-60-fps",
+      "title": "A versão Switch 2 de Overwatch está faltando o aumento prometido de 60 FPS, mas uma correção estará disponível em breve",
+      "original_title": "Overwatch's Switch 2 version is currently missing the promised 60 FPS boost, but a fix is coming soon",
+      "image": "https://assetsio.gnwcdn.com/Overwatch_Switch-2_Ana.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-15",
+      "summary": "O relançamento de Overwatch, que apagou totalmente ‘2’ de seu título e trouxe de volta um pouco da vibração mais solta da iteração original, tem sido bastante convincente até agora. Agora, a 2ª temporada acaba de chegar ao lado do novo herói DPS Sierra, mas o Switch que a acompanha...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/overwatch-switch-2-port-launches-without-advertised-60-fps"
+    },
+    {
+      "id": "https://www.eurogamer.net/marathon-carri-community-reaction-season-1-update",
+      "title": "“O máximo que me diverti jogando na última semana” – os jogadores do Marathon reagem à atualização do meio da temporada e aos novos recursos do amistoso",
+      "original_title": "\"The most fun I've had in the last week playing\" - Marathon players react to the mid-season update, and its new friendly-first features",
+      "image": "https://assetsio.gnwcdn.com/Marathon-encounter.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-15",
+      "summary": "Marathon recebeu uma grande atualização no meio da temporada, trazendo consigo uma série de mudanças de equilíbrio, grandes ajustes em ferramentas poderosas e novos cosméticos. Mas uma das adições mais interessantes foi o recurso C.A.R.R.I – que promove algo verdadeiro...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/marathon-carri-community-reaction-season-1-update"
+    },
+    {
+      "id": "https://www.eurogamer.net/god-of-war-mythologies-rumour",
+      "title": "Próximo jogo God of War irá explorar múltiplas mitologias, sugere relatório",
+      "original_title": "Next God of War game will explore multiple mythologies, report suggests",
+      "image": "https://assetsio.gnwcdn.com/Kratos-cuts-a-rope-imprisonining-Tyr-in-God-of-War-Ragnarok.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-15",
+      "summary": "Um novo relatório compartilhou mais supostos detalhes sobre o próximo jogo God of War, incluindo quais mitologias ele poderia explorar. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/god-of-war-mythologies-rumour"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sm4gab/steam_to_add_a_30day_price_history_feature_for/",
+      "title": "Steam adicionará um recurso de histórico de preços de 30 dias para jogos",
+      "original_title": "Steam to add a 30-day price history feature for games",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-04-15",
+      "summary": "https://xcancel.com/lambdagen/status/2044241927613169724?s=46 (Encontrado no SteamDB) enviado por /u/Solid-Entertainer-39 [link] [comentários]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sm4gab/steam_to_add_a_30day_price_history_feature_for/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sm4gdg/red_dead_redemption_1_ps5_physical_version_of/",
+      "title": "Red Dead Redemption (1) Versão física do PS5 em 7 de maio",
+      "original_title": "Red Dead Redemption (1) PS5 Physical version of coming May 7",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-04-15",
+      "summary": "https://viciados.net/red-dead-redemption-fisica-ps5-data-lancamento-preco/ A loja espanhola Wakkap se antecipou aos anúncios oficiais da Rockstar Games e já abriu a pré-venda da edição física nativa de Red Dead Redemption para PS5....",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sm4gdg/red_dead_redemption_1_ps5_physical_version_of/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sm0mb9/billbilkun_horizon_zero_dawn_remastered_leaked/",
+      "title": "Billbil-kun: Horizon Zero Dawn Remastered vazou na programação Ps Plus Extra e Premium de abril",
+      "original_title": "Billbil-kun: Horizon Zero Dawn Remastered leaked into April’s Ps Plus Extra and Premium lineup",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Rumor",
+      "date": "2026-04-15",
+      "summary": "Os outros dois jogos revelados: - The Crew Motorfest - Football Manager 26 Console Fonte: https://www.dealabs.com/magazine/ps-plus-extra-on-vous-devoile-les-titres-phares-de-la-selection-davril-2026-61243 enviado por /u/edo_mauto [link] [comm...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sm0mb9/billbilkun_horizon_zero_dawn_remastered_leaked/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1slub5d/dragons_dogma_2s_steamdb_received_a_77gb_update/",
+      "title": "SteamDB de Dragon’s Dogma 2 recebeu uma atualização de 77 GB",
+      "original_title": "Dragon’s Dogma 2’s SteamDB received a 77GB update",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-04-15",
+      "summary": "https://www.reddit.com/r/DragonsDogma/s/rHJRqdPa0o enviado por /u/Minimum_Cow9254 [link] [comentários]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1slub5d/dragons_dogma_2s_steamdb_received_a_77gb_update/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1slzw3z/gothic_3_is_coming_to_switch_2/",
+      "title": "Gothic 3 está chegando ao Switch 2",
+      "original_title": "Gothic 3 is coming to Switch 2",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-04-15",
+      "summary": "https://bsky.app/profile/wario64.bsky.social/post/3mjigx7njrx2g enviado por /u/Victor4156 [link] [comentários]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1slzw3z/gothic_3_is_coming_to_switch_2/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1slulv2/hotline_miami_2_unused_animated_trailer_leaked/",
+      "title": "Vazou o trailer animado não utilizado de Hotline Miami 2",
+      "original_title": "Hotline Miami 2 unused animated trailer leaked",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Rumor",
+      "date": "2026-04-15",
+      "summary": "Aqui está: https://www.reddit.com/r/HotlineMiami/s/t1J2GTiLcL enviado por /u/DistrictDry2852 [link] [comentários]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1slulv2/hotline_miami_2_unused_animated_trailer_leaked/"
+    },
+    {
+      "id": "https://www.techpowerup.com/348215/schenker-announces-connect-15-office-laptop",
+      "title": "(PR) Schenker Anuncia Laptop de Escritório Connect 15",
+      "original_title": "(PR) Schenker Announces Connect 15 Office Laptop",
+      "image": "https://tpucdn.com/img/MNtI83FrvKzOgiVX_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-04-14",
-      "summary": "Ontem, SemiAccurate postou um boato de que a NVIDIA estava planejando adquirir um grande fabricante de PCs, o que teria remodelado sua posição no espaço de PCs. No entanto, acontece que o boato não é verdade. A NVIDIA emitiu um comunicado à CNBC dizendo: “A mídia...",
+      "date": "2026-04-15",
+      "summary": "O Schenker CONNECT 15 destaca-se no segmento de portáteis de escritório graças à sua conectividade de rede avançada e uma variedade de portas externas. Recursos notáveis ​​​​incluem um leitor de cartão inteligente integrado, uma bateria facilmente trocável e um mod LTE opcional...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/348210/nvidia-says-it-is-not-in-talks-to-acquire-a-pc-maker"
+      "url": "https://www.techpowerup.com/348215/schenker-announces-connect-15-office-laptop"
     },
     {
-      "id": "https://www.techpowerup.com/348209/intel-prepares-nova-lake-desktop-apu-with-12-xe3p-cores",
-      "title": "Intel prepara APU para desktop “Nova Lake” com 12 núcleos Xe3P",
-      "original_title": "Intel Prepares \"Nova Lake\" Desktop APU with 12 Xe3P Cores",
-      "image": "https://tpucdn.com/img/PzU9TMSXGUSJBFZk_thm.jpg",
+      "id": "https://www.techpowerup.com/348246/thermal-grizzly-introduces-new-deltamate-gpu-block-for-rog-astral-5080",
+      "title": "(PR) Thermal Grizzly apresenta novo bloco de GPU DeltaMate para ROG Astral 5080",
+      "original_title": "(PR) Thermal Grizzly Introduces New DeltaMate GPU Block for ROG Astral 5080",
+      "image": "https://tpucdn.com/img/dvQjoD2utaop5pnE_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-04-14",
-      "summary": "Os próximos processadores de desktop Core Ultra 400 Series “Nova Lake-S” da Intel estão programados para serem lançados no segundo semestre deste ano, marcando o que parece ser a linha mais ambiciosa da empresa até agora. Recentemente, novos rumores surgiram sugerindo que a Intel também está...",
+      "date": "2026-04-15",
+      "summary": "Com o DeltaMate GPU Block Astral - ROG 5080, Thermal Grizzly apresenta um bloco de água GPU com uma janela de visualização feita de vidro Schott BOROFLOAT. O vidro borossilicato refrata a luz da iluminação RGB integrada de maneira diferente do vidro acrílico, ma...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/348209/intel-prepares-nova-lake-desktop-apu-with-12-xe3p-cores"
+      "url": "https://www.techpowerup.com/348246/thermal-grizzly-introduces-new-deltamate-gpu-block-for-rog-astral-5080"
+    },
+    {
+      "id": "https://www.techpowerup.com/348245/thermaltake-expands-its-sim-racing-ecosystem-with-xrw-g1-gt-steering-wheel-and-xrp-l1-loadcell-pedal-set",
+      "title": "(PR) Thermaltake expande seu ecossistema Sim Racing com volante XRW-G1 GT e conjunto de pedais Loadcell XRP-L1",
+      "original_title": "(PR) Thermaltake Expands Its Sim Racing Ecosystem with XRW-G1 GT Steering Wheel and XRP-L1 Loadcell Pedal Set",
+      "image": "https://tpucdn.com/img/DfFoegBTegvPIoPS_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-04-15",
+      "summary": "A Thermaltake, marca líder de PC DIY para soluções de hardware premium, continua a promover experiências imersivas de simulação de corrida com o lançamento do volante XRW-G1 GT e do conjunto de pedais Loadcell XRP-L1. Projetado para pilotos de simulação competitivos que exigem...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348245/thermaltake-expands-its-sim-racing-ecosystem-with-xrw-g1-gt-steering-wheel-and-xrp-l1-loadcell-pedal-set"
     },
     {
       "id": "https://www.techpowerup.com/348140/godeal24-spring-software-sale-get-windows-11-and-office-at-deep-discounts",
@@ -281,7 +371,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-04-14",
+      "date": "2026-04-15",
       "summary": "GoDeal24 é um comerciante internacional de software genuíno e válido globalmente, aqui com a Venda de Software da Primavera de 2026. Obtenha o software que você precisa, como o Windows 11 Pro original, a preços atraentes a partir de US$ 13,55. Combine-o com o Office 2021 Professio...",
       "sources": [
         "TechPowerUp"
@@ -289,64 +379,49 @@
       "url": "https://www.techpowerup.com/348140/godeal24-spring-software-sale-get-windows-11-and-office-at-deep-discounts"
     },
     {
-      "id": "https://www.techpowerup.com/348206/microsoft-surface-laptops-get-usd-200-300-price-hike-due-to-rampocalypse",
-      "title": "Laptops Microsoft Surface recebem aumento de preço de US$ 200-300 devido ao RAMpocalypse",
-      "original_title": "Microsoft Surface Laptops Get $200-300 Price Hike Due To RAMpocalypse",
-      "image": "https://tpucdn.com/img/jxSpBFgMDIHKdGnE_thm.jpg",
+      "id": "https://www.techpowerup.com/348244/msi-unveils-new-raider-and-crosshair-gaming-laptops-with-up-to-300w-combined-power",
+      "title": "(PR) MSI lança novos laptops para jogos Raider e Crosshair com potência combinada de até 300W",
+      "original_title": "(PR) MSI Unveils New Raider and Crosshair Gaming Laptops with Up to 300W Combined Power",
+      "image": "https://tpucdn.com/img/QTV4arapmoMAH5MM_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-04-14",
-      "summary": "Já vimos grandes áreas do mercado de hardware para PC serem drasticamente afetadas pela DRAM em curso e pela crise geral de hardware, desde a próxima Steam Machine da Valve até PCs desktop pré-construídos. Agora, parece que chegou a vez da Microsoft com seu...",
+      "date": "2026-04-15",
+      "summary": "A MSI, líder global em jogos, criação de conteúdo e laptops empresariais e de produtividade, orgulhosamente apresentou a série redesenhada de laptops para jogos Raider e Crosshair, desenvolvida para jogadores que buscam laptops de 16 polegadas de alto desempenho com o mais recente Intel Core U...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/348206/microsoft-surface-laptops-get-usd-200-300-price-hike-due-to-rampocalypse"
+      "url": "https://www.techpowerup.com/348244/msi-unveils-new-raider-and-crosshair-gaming-laptops-with-up-to-300w-combined-power"
     },
     {
-      "id": "https://www.eurogamer.net/007-first-light-spoilers-leak",
-      "title": "Cuidado, grandes spoilers foram lançados para o jogo 007: First Light de James Bond, após um vazamento de classificação do jogo na Indonésia",
-      "original_title": "Careful, huge spoilers are out for James Bond game 007: First Light, following an Indonesian Game Rating leak",
-      "image": "https://assetsio.gnwcdn.com/007-First-Light---Lenny-Kravitz.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Rumor",
-      "date": "2026-04-13",
-      "summary": "007: First Light está programado para finalmente ser lançado no final de maio, mas a próxima aventura de James Bond já está enfrentando um vazamento total de spoilers da última história. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/007-first-light-spoilers-leak"
-    },
-    {
-      "id": "https://www.techpowerup.com/348204/xbox-ceo-fuels-fire-of-cheaper-game-pass-tier-says-it-has-become-too-expensive",
-      "title": "O CEO do Xbox alimenta o nível de passe de jogo mais barato e diz que “ficou muito caro”",
-      "original_title": "Xbox CEO Fuels Fire of Cheaper Game Pass Tier, Says it \"Has Become Too Expensive\"",
-      "image": "https://tpucdn.com/img/PH9NpMGS8VjS9qJs_thm.jpg",
+      "id": "https://www.techpowerup.com/348243/msi-introduces-cubi-nuc-ai-3mg-an-ultra-compact-copilot-pc-for-ai-driven-workloads",
+      "title": "(PR) MSI apresenta Cubi NUC AI+ 3MG, um PC Copilot+ ultracompacto para cargas de trabalho orientadas por IA",
+      "original_title": "(PR) MSI Introduces Cubi NUC AI+ 3MG, an Ultra-Compact Copilot+ PC for AI-Driven Workloads",
+      "image": "https://tpucdn.com/img/lAQ9baXgQpcIuODC_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-04-13",
-      "summary": "Desde que a nova CEO do Xbox, Asha Sharma, assumiu seu novo cargo, ela sinalizou uma série de mudanças na divisão de jogos da Microsoft, incluindo o abandono da campanha difamada \"This Is an Xbox\" e, embora ela não tenha dito isso em tantas palavras, é...",
+      "date": "2026-04-15",
+      "summary": "A MSI anunciou o lançamento do Cubi NUC AI+ 3MG, um PC Copilot+ poderoso e ultracompacto de 0,51 litros projetado para oferecer recursos avançados de IA e conectividade corporativa para ambientes de negócios modernos. Este dispositivo é alimentado pelo l...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/348204/xbox-ceo-fuels-fire-of-cheaper-game-pass-tier-says-it-has-become-too-expensive"
+      "url": "https://www.techpowerup.com/348243/msi-introduces-cubi-nuc-ai-3mg-an-ultra-compact-copilot-pc-for-ai-driven-workloads"
     },
     {
-      "id": "https://www.techpowerup.com/348203/next-gen-honor-win-h9-gaming-laptop-debuts-with-6-fan-cooling-setup",
-      "title": "Laptop para jogos Honor Win H9 de última geração é lançado com configuração de resfriamento de 6 ventiladores",
-      "original_title": "Next-Gen Honor Win H9 Gaming Laptop Debuts With 6-Fan Cooling Setup",
-      "image": "https://tpucdn.com/img/nZAYf6PnYDSd6KBY_thm.jpg",
+      "id": "https://www.techpowerup.com/348242/valve-could-add-a-30-day-price-history-to-steam-games",
+      "title": "Valve pode adicionar um histórico de preços de 30 dias aos jogos Steam",
+      "original_title": "Valve Could Add a 30-Day Price History to Steam Games",
+      "image": "https://tpucdn.com/img/jk8l42nYj88uCANr_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-04-13",
-      "summary": "Honor pode não ser um nome familiar no espaço de laptops para jogos, mas a empresa aparentemente está tentando inovar no design de laptops para jogos com o novo laptop para jogos Honor Win H9, que a marca afirmou em uma postagem recente no Weibo apresentaria um NVIDIA.",
+      "date": "2026-04-15",
+      "summary": "A Valve está implementando uma série de novas mudanças em sua plataforma Steam, todas destinadas a melhorar a qualidade da experiência do usuário para os jogadores. Uma das atualizações mais recentes envolve a adição de um histórico de preços de 30 dias a todos os jogos listados. Este recurso permitirá b...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/348203/next-gen-honor-win-h9-gaming-laptop-debuts-with-6-fan-cooling-setup"
+      "url": "https://www.techpowerup.com/348242/valve-could-add-a-30-day-price-history-to-steam-games"
     },
     {
       "id": "https://www.techpowerup.com/348104/block-ads-trackers-across-9-devices-for-just-usd-16",
@@ -356,7 +431,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-04-13",
+      "date": "2026-04-15",
       "summary": "As ferramentas de bloqueio de anúncios tornaram-se cada vez mais comuns à medida que a publicidade online, os scripts de rastreamento e os pop-ups continuam a se expandir em sites e aplicativos. O Plano Familiar AdGuard é uma dessas opções, oferecendo uma combinação de bloqueio de anúncios, proteção de privacidade,...",
       "sources": [
         "TechPowerUp"
@@ -364,49 +439,244 @@
       "url": "https://www.techpowerup.com/348104/block-ads-trackers-across-9-devices-for-just-usd-16"
     },
     {
-      "id": "https://www.techpowerup.com/348200/assassins-creed-black-flag-resynced-will-add-new-characters-and-stories",
-      "title": "Assassin's Creed Black Flag ressincronizado adicionará novos personagens e histórias",
-      "original_title": "Assassin's Creed Black Flag Resynced Will Add New Characters and Stories",
-      "image": "https://tpucdn.com/img/foVSD8rQugOLfQoB_thm.jpg",
+      "id": "https://www.techpowerup.com/348241/tesla-tapes-out-ai5-chip-in-partnership-with-tsmc-and-samsung",
+      "title": "Tesla lança chip AI5 em parceria com TSMC e Samsung",
+      "original_title": "Tesla Tapes Out AI5 Chip in Partnership With TSMC and Samsung",
+      "image": "https://tpucdn.com/img/BVSdWmGN66WLnuau_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-04-13",
-      "summary": "Há muito que há rumores de um remake de Assassin's Creed Black Flag, com notícias recentes do boato indicando um lançamento em abril para o que aparentemente será chamado de Assassin's Creed Black Flag Resynced. Mais recentemente, foi revelado por uma descrição do jogo...",
+      "date": "2026-04-15",
+      "summary": "Elon Musk anunciou hoje no X que a Tesla concluiu o design de uma nova geração de seus chips de IA para Full Self-Driving (FSD). O CEO também mencionou anteriormente que o chip AI5 oferecerá desempenho comparável à arquitetura \"Hopper\" da NVIDIA, ...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/348200/assassins-creed-black-flag-resynced-will-add-new-characters-and-stories"
+      "url": "https://www.techpowerup.com/348241/tesla-tapes-out-ai5-chip-in-partnership-with-tsmc-and-samsung"
     },
     {
-      "id": "https://www.techpowerup.com/348201/asus-introduces-tuf-gaming-b850i-wifi-neo-mini-itx-am5-motherboard",
-      "title": "ASUS apresenta placa-mãe TUF Gaming B850I WiFi Neo Mini-ITX AM5",
-      "original_title": "ASUS Introduces TUF Gaming B850I WiFi Neo Mini-ITX AM5 Motherboard",
-      "image": "https://tpucdn.com/img/Nb95wtRlw7uuvgZY_thm.jpg",
+      "id": "https://www.techpowerup.com/348239/asml-targets-60-euv-shipments-in-2026-as-memory-demand-surges",
+      "title": "ASML visa mais de 60 remessas de EUV em 2026 à medida que a demanda por memória aumenta",
+      "original_title": "ASML Targets 60+ EUV Shipments in 2026 as Memory Demand Surges",
+      "image": "https://tpucdn.com/img/cEdEkOu265t51tVm_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-04-13",
-      "summary": "A ASUS lançou as placas-mãe TUF Gaming B850I WiFi Neo, marcando a primeira vez que a marca TUF Gaming apareceu em um formato Mini-ITX 17 x 17 cm. A placa é uma plataforma AMD AM5 construída em torno do chipset B850 e suporta Ryzen 7000, 800...",
+      "date": "2026-04-15",
+      "summary": "Nos últimos números trimestrais do primeiro trimestre de 2026, a ASML anunciou planos para enviar mais de 60 unidades EUV este ano, incluindo scanners de litografia EUV de alto NA e baixo NA. Este é um aumento significativo em relação às 48 unidades vendidas em 2025, mas não quebra nenhum...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/348201/asus-introduces-tuf-gaming-b850i-wifi-neo-mini-itx-am5-motherboard"
+      "url": "https://www.techpowerup.com/348239/asml-targets-60-euv-shipments-in-2026-as-memory-demand-surges"
     },
     {
-      "id": "https://www.techpowerup.com/348196/shipment-manifest-tips-steam-controller-launch-soon",
-      "title": "Dicas para manifesto de remessa: Controlador Steam será lançado em breve",
-      "original_title": "Shipment Manifest Tips Steam Controller Launch Soon",
-      "image": "https://tpucdn.com/img/XRkIQMv9LNzdYncc_thm.jpg",
+      "id": "https://www.eurogamer.net/graveyard-keeper-free-giveaway-boosted-dlc-sales-and-sequel-wishlists",
+      "title": "A oferta gratuita do Graveyard Keeper rendeu à editora pelo menos US$ 250.000 em vendas de DLC",
+      "original_title": "Graveyard Keeper's free giveaway made the publisher at least $250,000 in DLC sales",
+      "image": "https://assetsio.gnwcdn.com/Graveyard-Keeper-key-art.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-04-13",
-      "summary": "Desde que a Valve anunciou a Steam Machine, o Steam Frame e o novo Steam Controller, os jogadores têm clamado pelo lançamento do hardware atualizado – especialmente o Steam Controller. Embora a Valve ainda não tenha anunciado a data de lançamento ou mesmo o preço, ela...",
+      "category": "News",
+      "date": "2026-04-14",
+      "summary": "A recepção crítica de Graveyard Keeper em 2018 não foi das melhores, mas é um exemplo perfeito de um jogo que resiste ao dobrar suas peculiaridades e aspectos mais exclusivos, encantando uma comunidade dedicada ao longo do tempo. Na semana passada foi realizado um sorteio...",
       "sources": [
-        "TechPowerUp"
+        "Eurogamer"
       ],
-      "url": "https://www.techpowerup.com/348196/shipment-manifest-tips-steam-controller-launch-soon"
+      "url": "https://www.eurogamer.net/graveyard-keeper-free-giveaway-boosted-dlc-sales-and-sequel-wishlists"
+    },
+    {
+      "id": "https://www.eurogamer.net/marathon-mid-season-update-claymore-thermal-scopes-mercy",
+      "title": "A atualização do meio da temporada da maratona enfraquece drones claymore, escopos térmicos e buffs sendo gentil com estranhos",
+      "original_title": "Marathon mid-season update nerfs claymore drones, thermal scopes, and buffs being kind to strangers",
+      "image": "https://assetsio.gnwcdn.com/marathon-arachne.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-14",
+      "summary": "A atualização do meio da primeira temporada de Marathon está aqui e trouxe consigo algumas mudanças surpreendentes no estado do jogo de tiro de extração da Bungie. Isso inclui a remoção de uma das estratégias mais engraçadas do jogo, um nerf para sua arma mais poderosa em...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/marathon-mid-season-update-claymore-thermal-scopes-mercy"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sll1qj/compiled_every_single_still_rumored_game_that_is/",
+      "title": "Compilado: todos os jogos ainda comentados que estão chegando ao Nintendo Switch/Nintendo Switch 2.",
+      "original_title": "Compiled: Every single still rumored game that is coming to Nintendo Switch/Nintendo Switch 2.",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-04-14",
+      "summary": "Nos últimos dois meses, vimos muitos jogos vazando para Nintendo Switch/Nintendo Switch 2. Então decidi fazer um compilado de todos os jogos que vazaram nas lojas; Conteúdo dentro dos jogos e rumores de NateTheHate. Mas antes de eu...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sll1qj/compiled_every_single_still_rumored_game_that_is/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sld5vp/mp1st_the_new_god_of_war_spinoff_will_feature/",
+      "title": "[MP1st] O novo spinoff de God of War contará com Faye, Tyr e várias mitologias.",
+      "original_title": "[MP1st] The new God of War spinoff will feature Faye, Tyr and multiple mythologies.",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-04-14",
+      "summary": "https://mp1st.com/news/god-of-war-faye-spin-off-feature-tyr-multiple-mythologies - Apresentará elementos das mitologias chinesa e japonesa. - o jogador terá um acompanhante, eles o descreveram como um “cubo gelatinoso”. - Merlin está no jogo como uma conversa...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sld5vp/mp1st_the_new_god_of_war_spinoff_will_feature/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1sl5q3n/epic_games_store_employees_people_only_came_for/",
+      "title": "Funcionários da Epic Games Store: as pessoas só vinham para jogos grátis e depois voltavam ao Steam",
+      "original_title": "Epic Games Store Employees: People Only Came for Free Games, Then Returned to Steam",
+      "image": "https://external-preview.redd.it/slz5WJcxZIMPbFmnh8gMFcI3scNZQEDE1kQmyNZwJZE.jpeg?width=640&crop=smart&auto=webp&s=9f24ab9b8d5db93c65ac2090d31e2e6dae0f4a67",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Epic News",
+      "date": "2026-04-14",
+      "summary": "A Epic Games lançou sua Epic Games Store em 2018 para desafiar o domínio da plataforma Steam da Valve no espaço de jogos para PC. Conhecida por suas promoções e jogos gratuitos, a vitrine atraiu uma grande base de jogadores que rapidamente adotaram o pla...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1sl5q3n/epic_games_store_employees_people_only_came_for/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1slgbfq/itchiogame_lihiman/",
+      "title": "[Itch.io](Jogo) Lihiman",
+      "original_title": "[Itch.io](Game) Lihiman",
+      "image": "https://external-preview.redd.it/Vzjn3kJ8aHLAT5AgX_veHsZdDCy0NgO8EneLqGBvuEQ.png?width=640&crop=smart&auto=webp&s=1a5128dae318005f5c5f3c6cdc470e18c1346e87",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-04-14",
+      "summary": "enviado por /u/Fhczvyd474374846 [link] [comentários] ...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1slgbfq/itchiogame_lihiman/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1sl7qkm/indiegala_game_game_club_wakawaka/",
+      "title": "[Indiegala] (Jogo) Clube de jogo \"Waka-Waka\"",
+      "original_title": "[Indiegala] (Game) Game club \"Waka-Waka\"",
+      "image": "https://external-preview.redd.it/UHsdnuCp5wU_EGOpwmD5TK8NIXg1tqlnN5WFu5Fr0_I.png?width=320&crop=smart&auto=webp&s=4877efb693ba0776178e5d25b7af27ee24c5130c",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-04-14",
+      "summary": "enviado por /u/MeguminShiro [link] [comentários] ...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1sl7qkm/indiegala_game_game_club_wakawaka/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1skhl9r/director_of_portfolio_for_the_store_is_answering/",
+      "title": "Diretor de Portfólio da loja está respondendo dúvidas no discord",
+      "original_title": "Director of Portfolio for the store is answering questions on the discord",
+      "image": "https://preview.redd.it/spspwtehozug1.png?width=140&height=140&crop=1:1,smart&auto=webp&s=435a9ceb3d9069d200e86201e83774b28fc904db",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-04-13",
+      "summary": "O diretor de portfólio da loja está respondendo perguntas no discord, algumas perguntas muito boas com algumas respostas interessantes.  Os objetivos e recursos que serão entregues serão destacados no Unreal Fest Launch deste ano...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1skhl9r/director_of_portfolio_for_the_store_is_answering/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1skczii/metro_2039_announcement_april_16/",
+      "title": "METRO 2039 - Anúncio 16 de abril",
+      "original_title": "METRO 2039 - Announcement April 16",
+      "image": "https://external-preview.redd.it/S8kX__ywI797so21vn2uOTZm8ud4J1YECP9fL6SzJ5I.jpeg?width=320&crop=smart&auto=webp&s=2ef132faf725d6f42be35bbbf33f16881513af61",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-04-13",
+      "summary": "Você está esperando pela nova parte? 16 de abril de 2026, 10h PDT | 19h CEST | 20h EET https://youtu.be/2GLi240fXzA?si=2HjkMTbFzsTjXO_z enviado por /u/eightlost [link] [comentários] ...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1skczii/metro_2039_announcement_april_16/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1sjvtoz/genuine_question_what_keeps_you_on_epic_instead/",
+      "title": "Pergunta genuína: o que mantém você na Epic em vez de concorrentes como o Steam?",
+      "original_title": "Genuine question, what keeps you on Epic instead of competitors like Steam?",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Epic News",
+      "date": "2026-04-13",
+      "summary": "Quero dizer isso da maneira mais gentil possível, mas por quê?    enviado por /u/Azalathor [link] [comentários]...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1sjvtoz/genuine_question_what_keeps_you_on_epic_instead/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1skgwaf/exiled_giveaways_and_itchio_mega_threads/",
+      "title": "Brindes exilados e mega threads do Itch.io",
+      "original_title": "Exiled Giveaways and Itch.io Mega Threads",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-04-13",
+      "summary": "Para aumentar a visibilidade, os megatópicos são postados semanalmente. Isso está sendo feito seguindo a discussão geral dos Mega Threads via FGF Update - https://redd.it/jkxyzw Por favor, use os tópicos abaixo para suas postagens. :) Mega Brindes Exilados...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1skgwaf/exiled_giveaways_and_itchio_mega_threads/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1skcmn3/steamconsole_dlc_powerwash_simulator_midgar/",
+      "title": "[Steam/Console] (DLC) Simulador PowerWash – Pacote Especial Midgar e Pacote Especial Tomb Raider",
+      "original_title": "[Steam/Console] (DLC) PowerWash Simulator – Midgar Special Pack & Tomb Raider Special Pack",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-04-13",
+      "summary": "Anúncio.  Olá, lavadoras! É a última chance de conseguir luvas nos pacotes especiais gratuitos de Tomb Raider e Midgar. Às 15h BST do dia 19 de maio de 2026, esses pacotes especiais não estarão mais disponíveis para resgate em todas as lojas.  Jogadores que t...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1skcmn3/steamconsole_dlc_powerwash_simulator_midgar/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1sk9trs/steamconsole_dlc_fatal_frame_project_zero_maiden/",
+      "title": "[Steam/Console] (DLC) FATAL FRAME / PROJECT ZERO: Maiden of Black Water - 2 DLCs Traje Exclusivo + FATAL FRAME / PROJECT ZERO: Máscara do Eclipse Lunar - 1 Acessório Exclusivo DLC",
+      "original_title": "[Steam/Console] (DLC) FATAL FRAME / PROJECT ZERO: Maiden of Black Water - 2 DLCs Exclusive Costume + FATAL FRAME / PROJECT ZERO: Mask of the Lunar Eclipse - 1 DLC Exclusive Accessory",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-04-13",
+      "summary": "Anúncio.  Trajes e acessórios adicionais gratuitos para FATAL FRAME: Maiden of Black Water e FATAL FRAME: Mask of the Lunar Eclipse estão disponíveis até 22 de abril!  Se você ainda não adquiriu esses itens especiais, não perca essa oportunidade!  S...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1sk9trs/steamconsole_dlc_fatal_frame_project_zero_maiden/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1sjurii/steam_game_cool_thief_guy/",
+      "title": "[Steam] (Jogo) Ladrão Legal",
+      "original_title": "[Steam] (Game) Cool Thief Guy",
+      "image": "https://external-preview.redd.it/1RXIWKaulC4DG3tZ23HIO4qSVa7xp3SA9LK_KcoGG70.jpeg?width=320&crop=smart&auto=webp&s=b59e123d51788c56392f943606708baffb145008",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-04-12",
+      "summary": "enviado por /u/EinHaDe [link] [comentários] ...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1sjurii/steam_game_cool_thief_guy/"
     }
   ]
 }
