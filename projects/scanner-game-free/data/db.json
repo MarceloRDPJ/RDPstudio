@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-04-17T13:20:29",
-  "display_date": "17/04/2026 13:20",
+  "last_updated": "2026-04-18T13:02:35",
+  "display_date": "18/04/2026 13:02",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "323ms",
+    "latency": "608ms",
     "current_games": [
       {
         "title": "The Stone of Madness",
@@ -25,6 +25,15 @@
         "price": "$14.99",
         "start_date": "2026-04-23T15:00:00.000Z",
         "end_date": "2026-04-30T15:00:00.000Z"
+      },
+      {
+        "title": "Ghostrunner 2",
+        "description": "Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
+        "image": "https://cdn1.epicgames.com/offer/708f57aaa04b42ef885be16c8288f0ac/EGS_Ghostrunner2_OneMoreLevel_S1_2560x1440-15845148fae1d0cfd7f3e98c9b3ba6ba",
+        "url": "https://store.epicgames.com/p/ghostrunner-2",
+        "price": "$39.99",
+        "start_date": "2026-05-14T15:00:00.000Z",
+        "end_date": "2026-06-11T15:00:00.000Z"
       },
       {
         "title": "Castlevania Anniversary Collection",
@@ -56,7 +65,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-04-17",
+      "date": "2026-04-18",
       "summary": "The Stone of Madness é um jogo tático furtivo em tempo real ambientado em um mosteiro espanhol do século XVIII. Cinco prisioneiros reúnem suas habilidades e recursos para enfrentar suas fobias, evitar a insanidade, descobrir os mistérios do Monastério e encontrar uma maneira de escapar.",
       "sources": [
         "Epic Games Store"
@@ -71,12 +80,27 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-04-17",
+      "date": "2026-04-18",
       "summary": "Disponível gratuitamente a partir de 23/04. Nas profundezas do subsolo, Gloom Girl descobre DOOMBLADE, uma arma senciente determinada a escapar depois de eras acorrentadas. Juntos, “Doom and Gloom” embarcam em uma busca vingativa para desbloquear habilidades poderosas e destruir os Dread Lords de uma vez por todas neste Metroidvania de ação 2D.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/ed9fee5cea29495394853e134f27a291"
+    },
+    {
+      "id": "https://store.epicgames.com/p/ghostrunner-2",
+      "title": "EM BREVE: Ghostrunner 2",
+      "original_title": "Ghostrunner 2",
+      "image": "https://cdn1.epicgames.com/offer/708f57aaa04b42ef885be16c8288f0ac/EGS_Ghostrunner2_OneMoreLevel_S1_2560x1440-15845148fae1d0cfd7f3e98c9b3ba6ba",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-04-18",
+      "summary": "Disponível gratuitamente a partir de 14/05. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/ghostrunner-2"
     },
     {
       "id": "https://store.epicgames.com/p/32b3e0adbe0c4399be1874958194f97f",
@@ -86,7 +110,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-04-17",
+      "date": "2026-04-18",
       "summary": "Disponível gratuitamente a partir de 14/05. A Coleção de Aniversário de Castlevania da Konami traça as origens da histórica franquia de vampiros. Está incluído um e-book exclusivo com detalhes fornecidos por desenvolvedores, artistas e outros inspirados no legado de Castlevania, que lança uma nova luz sobre o mundo de Castlevania.",
       "sources": [
         "Epic Games Store"
@@ -101,12 +125,147 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-04-17",
+      "date": "2026-04-18",
       "summary": "Disponível gratuitamente a partir de 14/05. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/monument-valley-02"
+    },
+    {
+      "id": "https://www.eurogamer.net/what-weve-been-playing-maple-trees",
+      "title": "O que estamos jogando - \"Comecei com árvores de bordo atrás da margem\"",
+      "original_title": "What we've been playing - \"I started with maple trees behind the bank\"",
+      "image": "https://assetsio.gnwcdn.com/AdobeStock_270426348-maple-tree.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-18",
+      "summary": "Olá e bem-vindo de volta ao nosso artigo regular, onde escrevemos um pouco sobre os jogos que temos jogado. Esta semana, Connor perde o controle da realidade e a encontra no cabo do machado; Victoria sente a dor de fazer um presente pouco apreciado...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/what-weve-been-playing-maple-trees"
+    },
+    {
+      "id": "https://www.techpowerup.com/348330/iron-galaxy-studios-lays-off-staff-blames-current-market-conditions",
+      "title": "Iron Galaxy Studios demite funcionários e culpa as “condições atuais do mercado”",
+      "original_title": "Iron Galaxy Studios Lays Off Staff, Blames \"Current Market Conditions\"",
+      "image": "https://tpucdn.com/img/95fzBqazBhayupz7_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-04-18",
+      "summary": "Em 17 de abril, a Iron Galaxy Studios publicou uma postagem no LinkedIn anunciando sua segunda rodada de demissões em dois anos. O número de trabalhadores demitidos não foi especificado, mas o estúdio explica que as demissões são necessárias para se adaptar...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348330/iron-galaxy-studios-lays-off-staff-blames-current-market-conditions"
+    },
+    {
+      "id": "https://www.techpowerup.com/348329/microsoft-expands-xbox-mode-to-windows-laptops-pcs-and-tablets",
+      "title": "Microsoft expande o modo Xbox para laptops, PCs e tablets com Windows",
+      "original_title": "Microsoft Expands Xbox Mode to Windows Laptops, PCs, and Tablets",
+      "image": "https://tpucdn.com/img/24YDWaRRflXCv1OG_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-04-18",
+      "summary": "Recentemente, informamos que a Microsoft renomeou a experiência de tela inteira do Xbox para modo Xbox e, posteriormente, atualizou a interface do jogo com novas opções de exibição para dispositivos portáteis de jogos. Mais recentemente, porém, a Microsoft anunciou que trará isso...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348329/microsoft-expands-xbox-mode-to-windows-laptops-pcs-and-tablets"
+    },
+    {
+      "id": "https://www.eurogamer.net/despite-a-few-rough-edges-replaced-developer-sad-cat-studios-is-celebrating-the-sci-fi-platformers-strong-debut-success",
+      "title": "Apesar de algumas “arestas”, o desenvolvedor de Replaced, Sad Cat Studios, está comemorando o “forte sucesso de estreia” do jogo de plataforma de ficção científica",
+      "original_title": "Despite a few \"rough edges\", Replaced developer Sad Cat Studios is celebrating the sci-fi platformer's \"strong debut success\"",
+      "image": "https://assetsio.gnwcdn.com/Pixel-image-from-Replaced-showing-a-male-character-standing-in-a-grim-environment-lit-by-a-large-projector.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-17",
+      "summary": "Sad Cat Studios comemorou o lançamento de seu jogo de plataforma com infusão de cyberpunk, Replaced, elogiando-o como um “forte sucesso de estreia” para a equipe de desenvolvimento, apesar das poucas “arestas”. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/despite-a-few-rough-edges-replaced-developer-sad-cat-studios-is-celebrating-the-sci-fi-platformers-strong-debut-success"
+    },
+    {
+      "id": "https://www.eurogamer.net/invincible-vs-devs-rage-quitting-such-a-problem",
+      "title": "“A maioria deles é por nossa conta” – Os desenvolvedores do Invincible Vs revelam por que o abandono da raiva foi um problema durante o beta aberto e como eles vão consertar isso",
+      "original_title": "\"Most of these are on us\" - Invincible Vs devs reveal why rage quitting was such a problem during the open beta, and how they'll fix it",
+      "image": "https://assetsio.gnwcdn.com/invincible-vs.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-17",
+      "summary": "Após um beta aberto bem-sucedido do próximo jogo de luta sangrento, Invincible Vs, os desenvolvedores da Quarter Up abordaram o problema de abandono da raiva que assolava a recente presença pública do jogo. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/invincible-vs-devs-rage-quitting-such-a-problem"
+    },
+    {
+      "id": "https://www.eurogamer.net/zoltan-chivay-witcher-3-actor-dies",
+      "title": "O ator que interpretou Zoltan Chivay na série de jogos The Witcher morreu",
+      "original_title": "The actor who portrayed Zoltan Chivay in The Witcher series of games has died",
+      "image": "https://assetsio.gnwcdn.com/zoltan-chivay.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-17",
+      "summary": "Alexander Morton, o ator escocês provavelmente mais conhecido por estrelar a comédia dramática britânica Monarch of the Glen - mas conhecido por ser o anão hilariante e desbocado Zoltan Chivay em The Witcher 2 e The Witcher 3 - morreu aos 81 anos.",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/zoltan-chivay-witcher-3-actor-dies"
+    },
+    {
+      "id": "https://www.eurogamer.net/clair-obscur-expedition-33-voice-actor-charlie-cox-played-game-best-performance-nomination",
+      "title": "Clair Obscur: O dublador da Expedição 33, Charlie Cox, finalmente jogou “um pouco” do jogo que lhe rendeu uma indicação de Melhor Desempenho, embora ele diga que não é muito bom nisso",
+      "original_title": "Clair Obscur: Expedition 33 voice actor Charlie Cox has finally played \"a bit\" of the game that landed him a Best Performance nomination, though he says he isn't very good at it",
+      "image": "https://assetsio.gnwcdn.com/screenshot-from-Clair-Obscur-showing-a-well-dressed-man-addressing-three-young-children-in-a-friendly-way.-A-young-woman-in-a-red-har-stands-beside-him.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-17",
+      "summary": "O ator Charlie Cox finalmente conseguiu interpretar pelo menos parte de Clair Obscur: Expedition 33, o jogo ao qual ele emprestou seus talentos vocais e que lhe rendeu uma indicação ao Game Awards de Melhor Performance. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/clair-obscur-expedition-33-voice-actor-charlie-cox-played-game-best-performance-nomination"
+    },
+    {
+      "id": "https://www.eurogamer.net/the-division-originally-world-of-warcraft-style-mmorpg",
+      "title": "The Division era originalmente um MMO estilo World of Warcraft, mas \"esse componente de habilidade não estava lá\", diz Massive Entertainment",
+      "original_title": "The Division was originally a World of Warcraft style MMO, but \"that skill component wasn't there\",  says Massive Entertainment",
+      "image": "https://assetsio.gnwcdn.com/the-division-has-9-5m-registered-users-exceeding-ubisofts-expectations-146307940243.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-17",
+      "summary": "A Massive Entertainment revelou que em um ponto do desenvolvimento, The Division era um MMORPG estilo World of Warcraft com um hotbar e um cachorro companheiro, antes de se transformar no jogo que conhecemos hoje. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/the-division-originally-world-of-warcraft-style-mmorpg"
+    },
+    {
+      "id": "https://www.eurogamer.net/assassins-creed-black-flag-resynced-remake-release-date-leak",
+      "title": "A data de lançamento do remake de Assassin's Creed: Black Flag da Ubisoft, Resynced, parece ter vazado e, segundo consta, não está muito longe",
+      "original_title": "The release date for Ubisoft's Assassin's Creed: Black Flag remake, Resynced, seems to have leaked, and it's reportedly not very far away",
+      "image": "https://assetsio.gnwcdn.com/Assassin's-Creed-Black-Flag-trailer-screenshot-showing-a-hooded-male-standing-on-a-ship-looking-out-to-sea.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Rumor",
+      "date": "2026-04-17",
+      "summary": "A data de lançamento do próximo remake de Assassin's Creed: Black Flag parece ter vazado, e o jogo está supostamente zarpando neste verão. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/assassins-creed-black-flag-resynced-remake-release-date-leak"
     },
     {
       "id": "https://www.eurogamer.net/stop-killing-games-european-parliament",
@@ -154,259 +313,124 @@
       "url": "https://www.eurogamer.net/call-of-duty-movie-release-date-writer-director"
     },
     {
-      "id": "https://www.techpowerup.com/348312/zhitai-launches-tiplus-9100-pcie-5-0-m-2-nvme-ssd-series",
-      "title": "Zhitai lança série de SSDs TiPlus 9100 PCIe 5.0 M.2 NVMe",
-      "original_title": "Zhitai Launches TiPlus 9100 PCIe 5.0 M.2 NVMe SSD Series",
-      "image": "https://tpucdn.com/img/MQkVSeg0hJ9wrR8u_thm.jpg",
+      "id": "https://www.techpowerup.com/348326/xbox-first-party-game-pass-tier-could-have-other-limitations",
+      "title": "O nível de passe de jogo original do Xbox pode ter outras limitações",
+      "original_title": "Xbox First-Party Game Pass Tier Could Have Other Limitations",
+      "image": "https://tpucdn.com/img/tMw4XKZERlXrRQ75_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-04-17",
-      "summary": "Zhitai, a marca YMTC voltada para o consumidor, lançou o TiPlus 9100, sua primeira entrada PCIe 5.0 na linha TiPlus. A unidade é construída com a tecnologia YMTC Xtacking 4.0 NAND e é voltada para laptops para jogos, portáteis finos e desktops. Atualmente,...",
+      "summary": "Em março, houve rumores de que a Microsoft estava testando um novo nível de assinatura do Game Pass que apresentava exclusivamente jogos originais do Xbox Game Studios por um preço mais baixo do que os níveis disponíveis atualmente. Triton, que é o codinome do jogo Xbox...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/348312/zhitai-launches-tiplus-9100-pcie-5-0-m-2-nvme-ssd-series"
+      "url": "https://www.techpowerup.com/348326/xbox-first-party-game-pass-tier-could-have-other-limitations"
     },
     {
-      "id": "https://www.techpowerup.com/348308/nvidia-geforce-rtx-3060-12-gb-returns-in-june-rtx-5050-9-gb-edition-on-pause",
-      "title": "NVIDIA GeForce RTX 3060 12 GB retorna em junho, RTX 5050 9 GB Edition em pausa",
-      "original_title": "NVIDIA GeForce RTX 3060 12 GB Returns in June, RTX 5050 9 GB Edition on Pause",
-      "image": "https://tpucdn.com/img/RyTFDk1oskBgDnua_thm.jpg",
+      "id": "https://www.techpowerup.com/348321/pragmata-launch-glowing-reviews-and-chart-topping-sales-but-mediocre-player-counts",
+      "title": "Lançamento do Pragmata: críticas brilhantes e vendas no topo das paradas, mas contagens medíocres de jogadores",
+      "original_title": "Pragmata Launch: Glowing Reviews and Chart-Topping Sales but Mediocre Player Counts",
+      "image": "https://tpucdn.com/img/SuFbbv2k9GsFW7Ml_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-04-17",
-      "summary": "A GPU GeForce RTX 3060 12 GB “Ampere” da NVIDIA, que tem duas gerações, deve retornar em junho deste ano. Enquanto isso, a suposta edição RTX 5050 de 9 GB está supostamente em espera. De acordo com o conhecido vazador de hardware MEGAsizeGPU no X...",
+      "summary": "Pragmata foi lançado oficialmente nos consoles Steam, PlayStation 5, Nintendo Switch 2 e Xbox Series depois de receber muito entusiasmo antes de seu lançamento. Deixando de lado o tão aguardado lançamento, parece que a recepção real do Pragmata ...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/348308/nvidia-geforce-rtx-3060-12-gb-returns-in-june-rtx-5050-9-gb-edition-on-pause"
+      "url": "https://www.techpowerup.com/348321/pragmata-launch-glowing-reviews-and-chart-topping-sales-but-mediocre-player-counts"
     },
     {
-      "id": "https://www.techpowerup.com/348306/asrock-unveils-new-pro-series-full-modular-psus",
-      "title": "(PR) ASRock lança novas fontes de alimentação totalmente modulares da série PRO",
-      "original_title": "(PR) ASRock Unveils New PRO Series Full Modular PSUs",
-      "image": "https://tpucdn.com/img/M5BPsOcQAUfk18tL_thm.jpg",
+      "id": "https://www.techpowerup.com/348324/playmaji-overhauls-polymega-base-unit-and-unveils-remix-for-pc-based-retro-gaming",
+      "title": "Playmaji revisa unidade base Polymega e revela remix para jogos retrô baseados em PC",
+      "original_title": "Playmaji Overhauls Polymega Base Unit and Unveils Remix for PC-Based Retro Gaming",
+      "image": "https://tpucdn.com/img/qhicrUONbYjbGM8T_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-04-17",
-      "summary": "ASRock, fabricante líder global de placas-mãe, placas gráficas, mini PCs, monitores de jogos, unidades de fonte de alimentação e AIOs, anuncia as novas PSUs Full Modulares da Série PRO. Impulsionada pelo slogan \"LIKE A PRO\", esta série foi criada para usuários antes...",
+      "summary": "Playmaji, a empresa responsável pelo console de jogos retrô Polymega, compartilhou uma atualização significativa na frente do Polymega, cobrindo uma revisão de hardware da Unidade Base e o lançamento iminente do novo periférico Polymega Remix. A Unidade Base...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/348306/asrock-unveils-new-pro-series-full-modular-psus"
+      "url": "https://www.techpowerup.com/348324/playmaji-overhauls-polymega-base-unit-and-unveils-remix-for-pc-based-retro-gaming"
     },
     {
-      "id": "https://www.techpowerup.com/348305/intel-hires-senior-samsung-executive-to-lead-new-foundry-deals",
-      "title": "Intel contrata executivo sênior da Samsung para liderar novos negócios de fundição",
-      "original_title": "Intel Hires Senior Samsung Executive to Lead New Foundry Deals",
-      "image": "https://tpucdn.com/img/BkUoh48tmD0Wr6bq_thm.jpg",
+      "id": "https://www.techpowerup.com/348323/asrock-develops-hudimm-memory-standard-ddr5-with-just-one-sub-channel",
+      "title": "ASRock desenvolve padrão de memória HUDIMM: DDR5 com apenas um subcanal",
+      "original_title": "ASRock Develops HUDIMM Memory Standard: DDR5 with Just One Sub-channel",
+      "image": "https://tpucdn.com/img/IrejhVdJWeBL457T_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-04-17",
-      "summary": "Um dos executivos seniores da Samsung Foundry, Shawn Han, juntou-se oficialmente à Intel Foundry para ajudar a garantir novos negócios com clientes. Com mais de 30 anos de experiência na indústria de semicondutores, Shawn Han trabalhou em muitos projetos de nós, trans...",
+      "summary": "Você sabe que chegamos ao fundo do poço em termos de acessibilidade de memória quando a ASRock inova um novo padrão de memória para reduzir os preços. O novo “HUDIMM”, ou DIMM meio sem buffer, é um padrão inovador da ASRock. Ele exige UDIMMs com meia classificação de memória, popul...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/348305/intel-hires-senior-samsung-executive-to-lead-new-foundry-deals"
+      "url": "https://www.techpowerup.com/348323/asrock-develops-hudimm-memory-standard-ddr5-with-just-one-sub-channel"
     },
     {
-      "id": "https://www.techpowerup.com/348304/intel-arc-gpu-graphics-drivers-101-8724-whql-released",
-      "title": "Drivers gráficos Intel Arc GPU 101.8724 WHQL lançados",
-      "original_title": "Intel Arc GPU Graphics Drivers 101.8724 WHQL Released",
-      "image": "https://tpucdn.com/img/UFFeLzuvO03OdxJ8_thm.jpg",
+      "id": "https://www.techpowerup.com/348320/xppen-launches-artist-16-3rd-with-the-x-dial-shortcut-and-upgraded-x4-smart-chip-stylus",
+      "title": "(PR) XPPen lança Artist 16 3rd com o atalho X-Dial e caneta X4 Smart Chip atualizada",
+      "original_title": "(PR) XPPen Launches Artist 16 3rd with the X-Dial Shortcut and Upgraded X4 Smart Chip Stylus",
+      "image": "https://tpucdn.com/img/DjE6gzlWcJRA8XHW_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-04-17",
-      "summary": "A Intel lançou hoje seus mais recentes drivers gráficos Arc GPU com a versão 101.8724 WHQL trazendo suporte para novo hardware e novos jogos. Ontem, a empresa lançou seus processadores Core Series 3 \"Wildcat Lake\" com até seis núcleos de CPU e dois Xe3...",
+      "summary": "XPPen apresentou hoje o Artist 16 3rd, um novo display portátil de desenho com atalho de discagem para criadores iniciantes. Apresentando uma tela de 15,4 polegadas com X-Dial duplo e teclas de atalho, uma caneta Smart Chip Stylus X4 de nova geração e níveis de pressão de 16K, o dispositivo oferece...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/348304/intel-arc-gpu-graphics-drivers-101-8724-whql-released"
+      "url": "https://www.techpowerup.com/348320/xppen-launches-artist-16-3rd-with-the-x-dial-shortcut-and-upgraded-x4-smart-chip-stylus"
     },
     {
-      "id": "https://www.techpowerup.com/348303/assassins-creed-black-flag-resynced-leak-tips-delayed-reveal-and-early-july-launch",
-      "title": "Assassin's Creed: Black Flag Resynced Leak Tips, revelação atrasada e lançamento no início de julho",
-      "original_title": "Assassin's Creed: Black Flag Resynced Leak Tips Delayed Reveal and Early July Launch",
-      "image": "https://tpucdn.com/img/orruiDvDFURMCCSf_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Rumor",
-      "date": "2026-04-17",
-      "summary": "Cobrimos o próximo remake de Assassin's Creed: Black Flag várias vezes, e a última vez que os rumores circularam, parecia que o jogo e sua data de lançamento seriam revelados em 16 de abril - uma data que obviamente veio e se foi sem...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348303/assassins-creed-black-flag-resynced-leak-tips-delayed-reveal-and-early-july-launch"
-    },
-    {
-      "id": "https://www.techpowerup.com/348299/game-industry-workers-ai-hurts-creativity",
-      "title": "Trabalhadores da indústria de jogos: IA prejudica a criatividade",
-      "original_title": "Game Industry Workers: AI Hurts Creativity",
-      "image": "https://tpucdn.com/img/PxNavHPzPGtNOsVo_thm.jpg",
+      "id": "https://www.techpowerup.com/348317/the-blood-of-dawnwalker-nearing-completion-ahead-of-launch-ceo-confirms-ai-art-placeholders",
+      "title": "The Blood of Dawnwalker está quase concluído antes do lançamento, CEO confirma espaços reservados para arte de IA",
+      "original_title": "The Blood of Dawnwalker Nearing Completion Ahead of Launch, CEO Confirms AI Art Placeholders",
+      "image": "https://tpucdn.com/img/oYE0eOY7f5QVFDBV_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-04-17",
-      "summary": "O relatório Skillsearch 2026 Games & Immersive Salary foi publicado, com os resultados da pesquisa revelando descobertas relacionadas à IA, contratação e tendências da indústria de jogos. Embora os dados sejam impressionantemente coesos, existem algumas conclusões principais de ...",
+      "summary": "The Blood of Dawnwalker, o novo ARPG de fantasia sombria desenvolvido pela Rebel Wolves e publicado pela Bandai Namco, deve ser lançado em 2026 nos consoles PC, PlayStation e Xbox Series, e de acordo com uma nova entrevista da Game Business com Rebel Wolve...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/348299/game-industry-workers-ai-hurts-creativity"
+      "url": "https://www.techpowerup.com/348317/the-blood-of-dawnwalker-nearing-completion-ahead-of-launch-ceo-confirms-ai-art-placeholders"
     },
     {
-      "id": "https://www.techpowerup.com/348300/lexar-to-showcase-high-capacity-storage-solutions-built-for-professionals-and-creators-at-nab",
-      "title": "(PR) Lexar apresentará soluções de armazenamento de alta capacidade desenvolvidas para profissionais e criadores na NAB",
-      "original_title": "(PR) Lexar to Showcase High-Capacity Storage Solutions Built for Professionals and Creators at NAB",
-      "image": "https://tpucdn.com/img/MdJZUsADSMX2hLUB_thm.jpg",
+      "id": "https://www.techpowerup.com/348319/thermaltake-intros-retro-260-tg-micro-tower-and-retro-360-tg-mid-tower-chassis",
+      "title": "(PR) Thermaltake apresenta chassi Retro 260 TG Micro Tower e Retro 360 TG Mid-Tower",
+      "original_title": "(PR) Thermaltake Intros Retro 260 TG Micro Tower and Retro 360 TG Mid-Tower Chassis",
+      "image": "https://tpucdn.com/img/NarP52jAhnT9A2tb_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-04-17",
-      "summary": "Lexar, marca líder global em soluções de memória flash, estará na NAB, apresentando sua linha de soluções de armazenamento de vídeo e criadores, incluindo o novo SSD portátil Lexar ARMOR 700 de 8 TB e o cartão microSDXC SILVER PLUS de 2 TB. Ambas as soluções entregam...",
+      "summary": "Thermaltake, marca líder de PC DIY para soluções de hardware premium, lança a linha Retro Series, uma coleção voltada para o design que reinterpreta a estética clássica do PC para os construtores de hoje. Apresentando o chassi Retro 260 TG Micro Tower e Retro 36...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/348300/lexar-to-showcase-high-capacity-storage-solutions-built-for-professionals-and-creators-at-nab"
+      "url": "https://www.techpowerup.com/348319/thermaltake-intros-retro-260-tg-micro-tower-and-retro-360-tg-mid-tower-chassis"
     },
     {
-      "id": "https://www.eurogamer.net/metro-2039-much-darker-out-this-winter",
-      "title": "Metro 2039, lançado neste inverno, explora o “custo do silêncio, os horrores da tirania e o preço da liberdade” em meio à invasão da Ucrânia pela Rússia",
-      "original_title": "Metro 2039, out this winter, explores the \"cost of silence, the horrors of tyranny, and the price of freedom\" amid Russia's invasion of Ukraine",
-      "image": "https://assetsio.gnwcdn.com/metro-2039-header.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-16",
-      "summary": "A desenvolvedora 4A Games compartilhou os primeiros detalhes de Metro 2039, a última entrada em sua corajosa série de tiro de terror pós-apocalíptico, que está programada para ser lançada neste “inverno” no PlayStation 5, Xbox Series X/S e PC.\n Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/metro-2039-much-darker-out-this-winter"
-    },
-    {
-      "id": "https://www.eurogamer.net/mouse-pi-for-hire-review",
-      "title": "Rato: P.I. para revisão de aluguel",
-      "original_title": "Mouse: P.I. for Hire review",
-      "image": "https://assetsio.gnwcdn.com/mouse-pi-header_09CeBGA.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-16",
-      "summary": "Parte atirador retro caótico, parte estilo cartoon noir, Mouse P.I. for Hire vai além de sua arte estelar para oferecer uma brincadeira revigorante e imaginativa. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/mouse-pi-for-hire-review"
-    },
-    {
-      "id": "https://www.eurogamer.net/007-first-light-title-song-lana-del-rey-david-arnold",
-      "title": "A música título de 007 First Light será interpretada por Lana Del Rey, enquanto o compositor do filme Bond, David Arnold, retorna à franquia depois de quase duas décadas",
-      "original_title": "007 First Light title song will be performed by Lana Del Rey, while Bond film composer David Arnold returns to franchise after almost two decades",
-      "image": "https://assetsio.gnwcdn.com/Lana-Del-Rey-in-a-white-shirt-overlaid-on-an-image-of-James-Bond-in-007-First-Light.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-16",
-      "summary": "Todo filme de Bond precisa de uma música-título para realmente definir o tom, e os jogos não são exceção. Hoje cedo, a desenvolvedora IO Interactive anunciou que a música-título do próximo jogo de origem de Bond do estúdio, 007 First Light, será cantada por Lana Del Re...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/007-first-light-title-song-lana-del-rey-david-arnold"
-    },
-    {
-      "id": "https://www.eurogamer.net/new-starfield-hotfix-ps5-crashes-enhanced-settings",
-      "title": "O novo hotfix do Starfield visa as falhas do PS5 que aconteciam quando os jogadores usavam configurações aprimoradas",
-      "original_title": "New Starfield hotfix takes aim at those PS5 crashes that happened when players were using Enhanced settings",
-      "image": "https://assetsio.gnwcdn.com/Two-astronauts-jump-on-a-sandy-planet-in-Starfield.-A-PS5-console-is-overlaid-on-the-sand.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-16",
-      "summary": "A Bethesda lançou um hotfix prometido para Starfield no PS5, que resolverá alguns dos problemas de travamento do jogo. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/new-starfield-hotfix-ps5-crashes-enhanced-settings"
-    },
-    {
-      "id": "https://www.eurogamer.net/dead-space-creator-glen-schofield-ai",
-      "title": "\"Gostaria que os artistas percebessem que este é um ótimo momento para aprender alguma forma de IA\" - o criador de Dead Space, Glen Schofield, não acha que a tecnologia controversa substituirá o talento humano, mas ainda acredita que ela tem o seu lugar",
-      "original_title": "\"I wish artists would take notice that this is a great time to learn some form of AI\" - Dead Space creator Glen Schofield doesn't think controversial tech will replace human talent, but still believes it has its place",
-      "image": "https://assetsio.gnwcdn.com/Glen-Schofield-image-overlaid-on-a-screenshot-from-Dead-Space.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-16",
-      "summary": "O desenvolvedor de jogos e fundador do estúdio, Glen Schofield, compartilhou seus pensamentos sobre IA e, embora não acredite que ela substituirá o trabalho humano tão cedo, ele acha que os artistas deveriam dedicar um tempo para aprender alguma forma de tecnologia agora, antes que seja...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/dead-space-creator-glen-schofield-ai"
-    },
-    {
-      "id": "https://www.eurogamer.net/street-fighter-film-new-trailer",
-      "title": "O filme Street Fighter ganha novo trailer cheio de roundhouses e explosões, além de um karaokê triste",
-      "original_title": "Street Fighter film gets new trailer full of roundhouses and explosions, plus a spot of mournful karaoke",
-      "image": "https://assetsio.gnwcdn.com/Noah-Centineo-as-Ken-in-the-Street-Fighter-film.-He-is-screaming-and-has-his-blonde-hair-pulled-back-in-a-half-bun.-He-has-a-choker-around-his-neck.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-16",
-      "summary": "Estamos em uma idade madura de adaptações de videogame para telas grandes (e pequenas), e agora temos outra olhada no próximo filme de Street Fighter, estrelado por nomes como Jason Momoa e o lutador Roman Reigns. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/street-fighter-film-new-trailer"
-    },
-    {
-      "id": "https://www.eurogamer.net/blizzard-fable-cinematics-sea-of-thieves-pottery-brawler-kiln-matt-booty-xbox",
-      "title": "A Blizzard está ajudando nas cinemáticas de Fable, enquanto a equipe de Sea of ​​Thieves está emprestando sua experiência ao peculiar lutador de cerâmica Kiln",
-      "original_title": "Blizzard is assisting with Fable's cinematics, while the Sea of Thieves team is lending its expertise to quirky pottery brawler Kiln",
-      "image": "https://assetsio.gnwcdn.com/A-bespectacled-giant-in-Fable-looks-over-three-Overwatch-characters.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-16",
-      "summary": "O Xbox tem vários estúdios sob seu guarda-chuva, desde aqueles talvez mais conhecidos por jogos de tiro bombásticos como a Activision até equipes mais peculiares como a Double Fine, que muitas vezes nos apresenta viagens surreais e muitas vezes psicodélicas guiadas por histórias (olhando para ...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/blizzard-fable-cinematics-sea-of-thieves-pottery-brawler-kiln-matt-booty-xbox"
-    },
-    {
-      "id": "https://www.techpowerup.com/348297/steams-proton-gets-wine-11-gaming-performance-improvements-valve-launches-arm64-compatibility-layer",
-      "title": "Proton do Steam obtém melhorias de desempenho em jogos do Wine 11, Valve lança camada de compatibilidade Arm64",
-      "original_title": "Steam's Proton Gets Wine 11 Gaming Performance Improvements, Valve Launches Arm64 Compatibility Layer",
-      "image": "https://tpucdn.com/img/T9Uw3k7xKrxu2bfH_thm.jpg",
+      "id": "https://www.techpowerup.com/348318/amd-ryzen-7-5800x3d-am4-10th-anniversary-edition-box-pictured",
+      "title": "Caixa da edição do 10º aniversário do AMD Ryzen 7 5800X3D AM4 na foto",
+      "original_title": "AMD Ryzen 7 5800X3D AM4 10th Anniversary Edition Box Pictured",
+      "image": "https://tpucdn.com/img/UG9PT4aYmZDNFAqq_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-04-16",
-      "summary": "Parece que o Proton 11 da Valve está sendo lançado em uma nova atualização Beta e, junto com ela, todas as melhorias provenientes das atualizações recentes introduzidas no Wine 11, conforme apontado por Brad Lynch no X. O changelog do Proton mostra a inclusão...",
+      "date": "2026-04-17",
+      "summary": "Aqui está a primeira foto do pacote de varejo do processador de desktop AMD Ryzen 7 5800X3D AM4 10th Anniversary Edition. Esta é essencialmente uma nova produção do Ryzen 7 5800X3D que foi originalmente lançado em 2022 em resposta aos 12...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/348297/steams-proton-gets-wine-11-gaming-performance-improvements-valve-launches-arm64-compatibility-layer"
-    },
-    {
-      "id": "https://www.techpowerup.com/348298/capcoms-pragmata-joins-nvidia-geforce-now-on-launch-day",
-      "title": "(PR) 'PRAGMATA' da Capcom junta-se à NVIDIA GeForce AGORA no dia do lançamento",
-      "original_title": "(PR) Capcom's 'PRAGMATA' Joins NVIDIA GeForce NOW on Launch Day",
-      "image": "https://tpucdn.com/img/mb3O5sSlePyP3hSx_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-04-16",
-      "summary": "PRAGMATA, a tão esperada aventura de ação e ficção científica da Capcom, chega ao GeForce NOW no mesmo dia em que é lançado mundialmente. A viagem futurista através de uma estação lunar fria num futuro próximo pode ser transmitida instantaneamente da nuvem para quase qualquer dispositivo.",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348298/capcoms-pragmata-joins-nvidia-geforce-now-on-launch-day"
+      "url": "https://www.techpowerup.com/348318/amd-ryzen-7-5800x3d-am4-10th-anniversary-edition-box-pictured"
     }
   ]
 }
