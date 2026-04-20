@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RDP Studio | Projetos</title>
-    <meta name="description" content="Catalogo tecnico dos projetos da RDP Studio com arquitetura, stack, automacoes, front, back e status de entrega.">
+    <meta name="description" content="Catalogo de projetos da RDP Studio com foco no problema resolvido, forma de uso e estrutura tecnica de cada entrega.">
     <link rel="apple-touch-icon" sizes="180x180" href="../assets/site/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/site/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/site/favicon-16x16.png">
@@ -18,7 +18,6 @@
                 extend: {
                     colors: {
                         deepBlue: '#1E3A5F',
-                        techGray: '#2D3748',
                         vibrantCyan: '#00B4D8',
                         energeticAmber: '#F59E0B',
                         trustGreen: '#10B981',
@@ -28,18 +27,6 @@
                         sans: ['Inter', 'sans-serif'],
                         mono: ['JetBrains Mono', 'monospace'],
                     },
-                    boxShadow: {
-                        glow: '0 20px 45px -25px rgba(0, 180, 216, 0.45)',
-                    },
-                    animation: {
-                        'fade-in-up': 'fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards',
-                    },
-                    keyframes: {
-                        fadeInUp: {
-                            from: { opacity: '0', transform: 'translateY(18px)' },
-                            to: { opacity: '1', transform: 'translateY(0)' }
-                        }
-                    }
                 }
             }
         }
@@ -47,31 +34,24 @@
     <style>
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #020617;
-            background-image:
-                radial-gradient(circle at 15% 18%, rgba(0, 180, 216, 0.10), transparent 20%),
-                radial-gradient(circle at 85% 20%, rgba(245, 158, 11, 0.08), transparent 22%),
-                radial-gradient(circle at 50% 90%, rgba(30, 58, 95, 0.18), transparent 28%);
+            background: #020617;
+            color: #f8fafc;
+        }
+
+        .page-shell {
+            background-image: radial-gradient(circle at top left, rgba(0, 180, 216, 0.08), transparent 24%), radial-gradient(circle at bottom right, rgba(30, 58, 95, 0.16), transparent 28%);
             background-attachment: fixed;
-            color: #F8FAFC;
         }
 
-        .glass-card {
-            background: rgba(15, 23, 42, 0.72);
-            backdrop-filter: blur(16px);
+        .surface {
+            background: rgba(15, 23, 42, 0.82);
             border: 1px solid rgba(255, 255, 255, 0.06);
-        }
-
-        .text-gradient {
-            background-clip: text;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-image: linear-gradient(to right, #00B4D8, #38bdf8, #10B981);
+            backdrop-filter: blur(14px);
         }
 
         .nav-link {
             color: #94a3b8;
-            transition: color 0.25s ease;
+            transition: color 0.2s ease;
         }
 
         .nav-link:hover,
@@ -79,34 +59,40 @@
             color: #fff;
         }
 
+        .text-gradient {
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-image: linear-gradient(to right, #ffffff, #38bdf8, #10B981);
+        }
+
         .filter-chip {
+            background: rgba(255, 255, 255, 0.03);
             border: 1px solid rgba(255, 255, 255, 0.08);
-            background: rgba(255, 255, 255, 0.04);
             color: #94a3b8;
             transition: all 0.2s ease;
         }
 
         .filter-chip:hover {
             color: #fff;
-            border-color: rgba(255, 255, 255, 0.22);
+            border-color: rgba(255, 255, 255, 0.16);
         }
 
         .filter-chip.is-active {
-            background: rgba(0, 180, 216, 0.12);
             color: #fff;
-            border-color: rgba(0, 180, 216, 0.55);
-            box-shadow: 0 0 0 1px rgba(0, 180, 216, 0.12) inset;
+            background: rgba(0, 180, 216, 0.10);
+            border-color: rgba(0, 180, 216, 0.42);
         }
 
         .project-card {
-            transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+            transition: border-color 0.2s ease, transform 0.2s ease, background 0.2s ease;
         }
 
         .project-card:hover,
         .project-card.is-selected {
-            transform: translateY(-4px);
-            border-color: rgba(0, 180, 216, 0.32);
-            box-shadow: 0 24px 50px -30px rgba(0, 180, 216, 0.45);
+            transform: translateY(-2px);
+            border-color: rgba(0, 180, 216, 0.25);
+            background: rgba(15, 23, 42, 0.9);
         }
 
         @keyframes fadeInUp {
@@ -123,7 +109,7 @@
 
         .fade-in-up {
             opacity: 0;
-            animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+            animation: fadeInUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
         }
 
         .watermark-container::after {
@@ -132,36 +118,13 @@
             color: #64748b;
             opacity: 0.45;
         }
-
-        .custom-scrollbar {
-            scrollbar-width: thin;
-            scrollbar-color: rgba(30, 58, 95, 0.8) rgba(2, 6, 23, 0.5);
-        }
-
-        .custom-scrollbar::-webkit-scrollbar {
-            width: 6px;
-        }
-
-        .custom-scrollbar::-webkit-scrollbar-track {
-            background: rgba(2, 6, 23, 0.3);
-            border-radius: 999px;
-        }
-
-        .custom-scrollbar::-webkit-scrollbar-thumb {
-            background-color: rgba(30, 58, 95, 0.7);
-            border-radius: 999px;
-        }
-
-        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-            background-color: #00B4D8;
-        }
     </style>
 </head>
-<body class="antialiased selection:bg-vibrantCyan selection:text-white">
-    <div class="max-w-7xl mx-auto px-6 py-6 min-h-screen flex flex-col relative">
+<body class="page-shell antialiased selection:bg-vibrantCyan selection:text-white">
+    <div class="max-w-7xl mx-auto px-6 py-6 min-h-screen flex flex-col">
         <header class="flex justify-between items-center mb-10 relative z-50">
             <a href="../index.html" class="flex items-center gap-4 group">
-                <div class="w-10 h-10 rounded-xl glass-card flex items-center justify-center p-1">
+                <div class="w-10 h-10 rounded-xl surface flex items-center justify-center p-1">
                     <img src="../assets/images/branding/logo.png" alt="Logo" class="w-full h-full object-contain group-hover:scale-110 transition-transform">
                 </div>
                 <h1 class="text-xl font-bold tracking-tight text-white">RDP <span class="text-vibrantCyan font-light">STUDIO</span></h1>
@@ -183,160 +146,63 @@
 
         <div id="mobile-menu-overlay" class="fixed inset-0 z-40 bg-slate-900/95 backdrop-blur-xl transform translate-x-full transition-transform duration-300 flex flex-col items-center justify-center space-y-8 md:hidden">
             <a href="../index.html" class="text-2xl font-bold text-white hover:text-vibrantCyan transition-colors mobile-link">Home</a>
-            <a href="projetos.html" class="text-2xl font-bold text-vibrantCyan hover:text-vibrantCyan transition-colors mobile-link">Projetos</a>
+            <a href="projetos.html" class="text-2xl font-bold text-vibrantCyan transition-colors mobile-link">Projetos</a>
             <a href="../index.html#empresa" class="text-2xl font-bold text-white hover:text-vibrantCyan transition-colors mobile-link">A Empresa</a>
             <a href="sobre.html" class="text-2xl font-bold text-white hover:text-vibrantCyan transition-colors mobile-link">Sobre Mim</a>
             <a href="https://wa.me/5562996780498" target="_blank" rel="noopener noreferrer" class="px-8 py-3 rounded-full bg-vibrantCyan text-white font-bold text-lg shadow-lg shadow-vibrantCyan/20 mobile-link">Contato</a>
         </div>
 
-        <main class="flex-grow flex flex-col gap-8 md:gap-10">
-            <section class="grid lg:grid-cols-[1.4fr_0.9fr] gap-6 lg:gap-8 items-stretch fade-in-up">
-                <div class="glass-card rounded-3xl p-8 md:p-10 border border-white/5 shadow-glow overflow-hidden relative">
-                    <div class="absolute top-0 right-0 w-56 h-56 bg-vibrantCyan/10 blur-3xl rounded-full -translate-y-1/3 translate-x-1/3 pointer-events-none"></div>
-                    <div class="relative z-10">
-                        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-xs uppercase tracking-[0.25em] text-slate-400 font-mono mb-6">
-                            Catalogo Tecnico
-                        </div>
-                        <h2 class="text-4xl md:text-5xl font-bold leading-tight mb-5">
-                            Projetos organizados por <span class="text-gradient">intencao, arquitetura e entrega</span>
-                        </h2>
-                        <p class="text-slate-300 text-base md:text-lg max-w-3xl leading-relaxed mb-8">
-                            Esta pagina deixa de ser apenas uma vitrine. Agora cada projeto explica o que resolve, como foi estruturado, qual parte roda no front, o que existe de back, quais automacoes sustentam a entrega e o que continua 100% compativel com GitHub Pages e Cloudflare Pages.
-                        </p>
-                        <div class="grid sm:grid-cols-3 gap-3">
-                            <div class="rounded-2xl border border-white/5 bg-white/5 p-4">
-                                <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Estrutura</div>
-                                <p class="text-sm text-slate-300">Catalogo orientado por metadados com filtros, sem romper os caminhos atuais.</p>
-                            </div>
-                            <div class="rounded-2xl border border-white/5 bg-white/5 p-4">
-                                <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Arquitetura</div>
-                                <p class="text-sm text-slate-300">Separacao clara entre produtos estaticos, ferramentas client-side e cases com backend privado.</p>
-                            </div>
-                            <div class="rounded-2xl border border-white/5 bg-white/5 p-4">
-                                <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Hospedagem</div>
-                                <p class="text-sm text-slate-300">Modelo pronto para manter no Pages atual e evoluir para Cloudflare sem reescrever a base.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="glass-card rounded-3xl p-6 md:p-8 border border-white/5 flex flex-col justify-between fade-in-up" style="animation-delay:0.1s;">
-                    <div>
-                        <div class="flex items-center justify-between gap-4 mb-6">
-                            <h3 class="text-lg font-bold text-white">Leitura da Plataforma</h3>
-                            <span class="px-3 py-1 rounded-full bg-trustGreen/10 text-trustGreen border border-trustGreen/20 text-xs font-bold uppercase tracking-wider">Static First</span>
-                        </div>
-                        <div class="space-y-4 text-sm text-slate-300 leading-relaxed">
-                            <div class="rounded-2xl bg-white/5 border border-white/5 p-4">
-                                <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Hoje</div>
-                                GitHub Pages atende bem porque o portfolio e composto por paginas estaticas, demos client-side e dados gerados offline.
-                            </div>
-                            <div class="rounded-2xl bg-white/5 border border-white/5 p-4">
-                                <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Proximo passo</div>
-                                Cloudflare Pages faz sentido como evolucao de distribuicao, preview e regras de edge, nao como exigencia tecnica imediata.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="grid grid-cols-2 gap-3 mt-6">
-                        <div class="rounded-2xl border border-white/5 bg-slate-950/50 p-4">
-                            <div class="text-2xl font-extrabold text-white" id="metric-total-projects">0</div>
-                            <div class="text-xs uppercase tracking-[0.2em] text-slate-500 mt-2">Projetos</div>
-                        </div>
-                        <div class="rounded-2xl border border-white/5 bg-slate-950/50 p-4">
-                            <div class="text-2xl font-extrabold text-white" id="metric-live-projects">0</div>
-                            <div class="text-xs uppercase tracking-[0.2em] text-slate-500 mt-2">Com entrega navegavel</div>
-                        </div>
-                    </div>
+        <main class="flex-grow space-y-8 md:space-y-10">
+            <section class="fade-in-up">
+                <div class="max-w-3xl">
+                    <div class="text-xs font-mono uppercase tracking-[0.28em] text-slate-500 mb-4">Projetos</div>
+                    <h2 class="text-4xl md:text-5xl font-bold leading-tight mb-4">
+                        Um catalogo claro para mostrar <span class="text-gradient">o que cada projeto resolve</span>
+                    </h2>
+                    <p class="text-base md:text-lg text-slate-400 leading-relaxed">
+                        Aqui o foco e simples: apresentar seus projetos, o problema que cada um corrige, como usar e a estrutura tecnica por tras da entrega. Menos cenografia, mais clareza.
+                    </p>
                 </div>
             </section>
 
-            <section class="grid xl:grid-cols-[1.2fr_0.8fr] gap-6 fade-in-up" style="animation-delay:0.15s;">
-                <div class="glass-card rounded-3xl p-6 md:p-8 border border-white/5">
-                    <div class="flex items-start justify-between gap-4 mb-6 flex-wrap">
-                        <div>
-                            <h3 class="text-2xl font-bold text-white">Mapa de Arquitetura</h3>
-                            <p class="text-sm text-slate-400 mt-2">Como os projetos se distribuem entre front, back e automacao sem exigir uma plataforma fullstack.</p>
-                        </div>
-                        <span class="px-3 py-1 rounded-full bg-vibrantCyan/10 text-vibrantCyan border border-vibrantCyan/20 text-xs font-bold uppercase tracking-wider">Compativel com Pages</span>
-                    </div>
-                    <div class="grid md:grid-cols-3 gap-4">
-                        <article class="rounded-2xl border border-white/5 bg-white/5 p-5">
-                            <div class="w-11 h-11 rounded-xl bg-vibrantCyan/10 text-vibrantCyan flex items-center justify-center mb-4">
-                                <i class="fa-solid fa-window-maximize"></i>
-                            </div>
-                            <h4 class="font-bold text-white mb-2">Front estatico forte</h4>
-                            <p class="text-sm text-slate-400">Hub, dashboards e landings rodam direto no navegador com foco em apresentacao, usabilidade e entrega visual.</p>
-                        </article>
-                        <article class="rounded-2xl border border-white/5 bg-white/5 p-5">
-                            <div class="w-11 h-11 rounded-xl bg-energeticAmber/10 text-energeticAmber flex items-center justify-center mb-4">
-                                <i class="fa-solid fa-database"></i>
-                            </div>
-                            <h4 class="font-bold text-white mb-2">Back desacoplado</h4>
-                            <p class="text-sm text-slate-400">Quando existe backend real, ele opera fora da hospedagem estatica ou fica documentado como case privado.</p>
-                        </article>
-                        <article class="rounded-2xl border border-white/5 bg-white/5 p-5">
-                            <div class="w-11 h-11 rounded-xl bg-trustGreen/10 text-trustGreen flex items-center justify-center mb-4">
-                                <i class="fa-solid fa-gears"></i>
-                            </div>
-                            <h4 class="font-bold text-white mb-2">Automacao como camada</h4>
-                            <p class="text-sm text-slate-400">GitHub Actions, crawlers e geradores locais sustentam atualizacao, ingestao e processamento sem acoplar um servidor publico.</p>
-                        </article>
-                    </div>
-                </div>
-
-                <div class="glass-card rounded-3xl p-6 md:p-8 border border-white/5">
-                    <h3 class="text-2xl font-bold text-white mb-5">GitHub Pages vs Cloudflare Pages</h3>
-                    <div class="space-y-4 text-sm text-slate-300 leading-relaxed">
-                        <div class="rounded-2xl border border-white/5 bg-trustGreen/5 p-4">
-                            <div class="text-xs uppercase tracking-[0.2em] text-trustGreen font-mono mb-2">Recomendacao atual</div>
-                            Manter arquitetura static-first. A migracao para Cloudflare Pages pode acontecer sem reescrever o portfolio, pois a estrutura continua orientada a HTML, assets e JSON.
-                        </div>
-                        <div class="rounded-2xl border border-white/5 bg-white/5 p-4">
-                            <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Quando vale migrar</div>
-                            Quando previews por branch, regras de cache, edge functions ou analytics mais fortes passarem a ser prioridade operacional.
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="glass-card rounded-3xl p-6 md:p-8 border border-white/5 fade-in-up custom-scrollbar" style="animation-delay:0.2s;">
-                <div class="flex flex-col gap-6">
+            <section class="surface rounded-3xl p-5 md:p-6 fade-in-up" style="animation-delay:0.08s;">
+                <div class="flex flex-col gap-5">
                     <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-4">
                         <div>
-                            <h3 class="text-2xl font-bold text-white">Catalogo de Projetos</h3>
-                            <p class="text-sm text-slate-400 mt-2">Selecione um projeto para abrir a leitura detalhada. Os filtros ajudam a comparar tipo de entrega, linguagem e presenca de backend.</p>
+                            <h3 class="text-xl font-bold text-white">Filtrar projetos</h3>
+                            <p class="text-sm text-slate-400 mt-1">Escolha por tipo, linguagem ou modelo de backend.</p>
                         </div>
                         <div class="text-sm text-slate-500 font-mono" id="results-count">Carregando projetos...</div>
                     </div>
 
-                    <div class="grid gap-4">
+                    <div class="space-y-4">
                         <div>
-                            <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Tipo</div>
+                            <div class="text-xs uppercase tracking-[0.22em] text-slate-500 font-mono mb-2">Tipo</div>
                             <div id="type-filters" class="flex flex-wrap gap-2"></div>
                         </div>
                         <div>
-                            <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Linguagem</div>
+                            <div class="text-xs uppercase tracking-[0.22em] text-slate-500 font-mono mb-2">Linguagem</div>
                             <div id="language-filters" class="flex flex-wrap gap-2"></div>
                         </div>
                         <div>
-                            <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Backend</div>
+                            <div class="text-xs uppercase tracking-[0.22em] text-slate-500 font-mono mb-2">Backend</div>
                             <div id="backend-filters" class="flex flex-wrap gap-2"></div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section class="grid xl:grid-cols-[1.1fr_0.9fr] gap-6 items-start fade-in-up" style="animation-delay:0.25s;">
+            <section class="grid xl:grid-cols-[1.08fr_0.92fr] gap-6 items-start fade-in-up" style="animation-delay:0.14s;">
                 <div>
                     <div id="project-grid" class="grid md:grid-cols-2 gap-5"></div>
-                    <div id="empty-state" class="hidden glass-card rounded-3xl p-10 border border-dashed border-slate-800 text-center text-slate-500">
+                    <div id="empty-state" class="hidden surface rounded-3xl p-10 border border-dashed border-slate-800 text-center text-slate-500 mt-5">
                         <i class="fa-solid fa-magnifying-glass text-3xl mb-4"></i>
                         <p>Nenhum projeto corresponde aos filtros atuais.</p>
                     </div>
                 </div>
 
                 <aside class="xl:sticky xl:top-24">
-                    <div id="project-detail" class="glass-card rounded-3xl p-6 md:p-8 border border-white/5 min-h-[520px]">
+                    <div id="project-detail" class="surface rounded-3xl p-6 md:p-7 min-h-[520px]">
                         <div class="flex items-center gap-3 text-slate-500 text-sm">
                             <i class="fa-solid fa-circle-notch animate-spin"></i>
                             Carregando detalhe do projeto...
@@ -428,37 +294,12 @@
             selectedSlug: null
         };
 
-        const colorThemes = {
-            pink: {
-                badge: 'bg-pink-500/10 text-pink-400 border-pink-500/20',
-                icon: 'bg-pink-500/10 text-pink-400 border-pink-500/20',
-                button: 'bg-pink-500 hover:bg-pink-400 text-white',
-                accent: 'text-pink-400'
-            },
-            amber: {
-                badge: 'bg-amber-500/10 text-amber-400 border-amber-500/20',
-                icon: 'bg-amber-500/10 text-amber-400 border-amber-500/20',
-                button: 'bg-amber-500 hover:bg-amber-400 text-slate-950',
-                accent: 'text-amber-400'
-            },
-            indigo: {
-                badge: 'bg-indigo-500/10 text-indigo-400 border-indigo-500/20',
-                icon: 'bg-indigo-500/10 text-indigo-400 border-indigo-500/20',
-                button: 'bg-indigo-500 hover:bg-indigo-400 text-white',
-                accent: 'text-indigo-400'
-            },
-            purple: {
-                badge: 'bg-purple-500/10 text-purple-400 border-purple-500/20',
-                icon: 'bg-purple-500/10 text-purple-400 border-purple-500/20',
-                button: 'bg-purple-500 hover:bg-purple-400 text-white',
-                accent: 'text-purple-400'
-            },
-            cyan: {
-                badge: 'bg-vibrantCyan/10 text-vibrantCyan border-vibrantCyan/20',
-                icon: 'bg-vibrantCyan/10 text-vibrantCyan border-vibrantCyan/20',
-                button: 'bg-vibrantCyan hover:bg-cyan-400 text-slate-950',
-                accent: 'text-vibrantCyan'
-            }
+        const accents = {
+            pink: 'border-pink-500/30 text-pink-400 bg-pink-500/10',
+            amber: 'border-amber-500/30 text-amber-400 bg-amber-500/10',
+            indigo: 'border-indigo-500/30 text-indigo-400 bg-indigo-500/10',
+            purple: 'border-purple-500/30 text-purple-400 bg-purple-500/10',
+            cyan: 'border-vibrantCyan/30 text-vibrantCyan bg-vibrantCyan/10'
         };
 
         const els = {
@@ -468,13 +309,15 @@
             grid: document.getElementById('project-grid'),
             detail: document.getElementById('project-detail'),
             empty: document.getElementById('empty-state'),
-            count: document.getElementById('results-count'),
-            metricTotal: document.getElementById('metric-total-projects'),
-            metricLive: document.getElementById('metric-live-projects')
+            count: document.getElementById('results-count')
         };
 
-        function uniqueValues(values) {
+        function uniq(values) {
             return Array.from(new Set(values)).sort((a, b) => a.localeCompare(b, 'pt-BR'));
+        }
+
+        function accent(project) {
+            return accents[project.primaryColor] || accents.cyan;
         }
 
         function renderFilterGroup(container, options, active, key) {
@@ -485,17 +328,13 @@
             `).join('');
         }
 
-        function getFilteredProjects() {
+        function filteredProjects() {
             return state.projects.filter(project => {
                 const typeOk = state.filters.type === 'Todos' || project.type === state.filters.type;
                 const languageOk = state.filters.language === 'Todas' || project.languages.includes(state.filters.language);
                 const backendOk = state.filters.backend === 'Todos' || project.backendMode === state.filters.backend;
                 return typeOk && languageOk && backendOk;
             });
-        }
-
-        function projectTheme(project) {
-            return colorThemes[project.primaryColor] || colorThemes.cyan;
         }
 
         function selectProject(slug) {
@@ -505,51 +344,55 @@
         }
 
         function renderProjects() {
-            const filtered = getFilteredProjects();
-            els.count.textContent = `${filtered.length} projeto(s) visiveis`;
-            els.empty.classList.toggle('hidden', filtered.length > 0);
-            els.grid.innerHTML = filtered.map(project => {
-                const theme = projectTheme(project);
-                const selected = project.slug === state.selectedSlug;
+            const projects = filteredProjects();
+            els.count.textContent = `${projects.length} projeto(s) visiveis`;
+            els.empty.classList.toggle('hidden', projects.length > 0);
+
+            els.grid.innerHTML = projects.map(project => {
+                const active = project.slug === state.selectedSlug;
                 return `
-                    <article class="project-card glass-card rounded-3xl p-6 border ${selected ? 'is-selected' : ''}">
+                    <article class="project-card surface rounded-3xl p-6 ${active ? 'is-selected' : ''}">
                         <div class="flex items-start justify-between gap-4 mb-5">
-                            <div class="w-12 h-12 rounded-2xl border flex items-center justify-center ${theme.icon}">
-                                <i class="fa-solid ${project.icon}"></i>
+                            <div>
+                                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-[0.2em] border ${accent(project)} mb-3">
+                                    ${project.category}
+                                </div>
+                                <div class="text-xs uppercase tracking-[0.24em] text-slate-500 font-mono mb-2">${project.type}</div>
+                                <h3 class="text-2xl font-bold text-white">${project.name}</h3>
                             </div>
-                            <div class="flex flex-wrap gap-2 justify-end">
-                                <span class="px-2.5 py-1 rounded-full border text-[10px] font-bold uppercase tracking-widest ${theme.badge}">${project.category}</span>
-                                <span class="px-2.5 py-1 rounded-full border border-white/10 bg-white/5 text-[10px] font-bold uppercase tracking-widest text-slate-300">${project.status}</span>
-                            </div>
-                        </div>
-
-                        <div class="mb-5">
-                            <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">${project.type}</div>
-                            <h3 class="text-2xl font-bold text-white mb-3">${project.name}</h3>
-                            <p class="text-sm text-slate-300 leading-relaxed mb-3">${project.headline}</p>
-                            <p class="text-sm text-slate-400 leading-relaxed">${project.summary}</p>
-                        </div>
-
-                        <div class="grid grid-cols-2 gap-3 text-xs font-mono text-slate-400 mb-5">
-                            <div class="rounded-2xl bg-white/5 border border-white/5 p-3">
-                                <div class="uppercase tracking-[0.18em] text-slate-600 mb-2">Front</div>
-                                <div class="text-slate-300">${project.frontend[0]}</div>
-                            </div>
-                            <div class="rounded-2xl bg-white/5 border border-white/5 p-3">
-                                <div class="uppercase tracking-[0.18em] text-slate-600 mb-2">Back</div>
-                                <div class="text-slate-300">${project.backendMode}</div>
+                            <div class="text-right">
+                                <div class="text-xs uppercase tracking-[0.18em] text-slate-500 font-mono mb-2">Status</div>
+                                <div class="text-sm font-semibold text-slate-200">${project.status}</div>
                             </div>
                         </div>
 
-                        <div class="flex flex-wrap gap-2 mb-6">
-                            ${project.languages.map(language => `<span class="px-2.5 py-1 rounded-full bg-slate-900/80 border border-white/5 text-[11px] text-slate-300">${language}</span>`).join('')}
+                        <p class="text-sm text-slate-300 leading-relaxed mb-4">${project.summary}</p>
+
+                        <div class="rounded-2xl bg-white/4 border border-white/5 p-4 mb-5">
+                            <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Problema que resolve</div>
+                            <p class="text-sm text-slate-300 leading-relaxed">${project.problem}</p>
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-3 mb-5">
+                            <div class="rounded-2xl bg-slate-950/60 border border-white/5 p-3">
+                                <div class="text-[10px] uppercase tracking-[0.18em] text-slate-500 font-mono mb-2">Front</div>
+                                <div class="text-sm text-slate-200">${project.frontend[0]}</div>
+                            </div>
+                            <div class="rounded-2xl bg-slate-950/60 border border-white/5 p-3">
+                                <div class="text-[10px] uppercase tracking-[0.18em] text-slate-500 font-mono mb-2">Back</div>
+                                <div class="text-sm text-slate-200">${project.backendMode}</div>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-wrap gap-2 mb-5">
+                            ${project.languages.map(item => `<span class="px-2.5 py-1 rounded-full bg-white/4 border border-white/5 text-xs text-slate-300">${item}</span>`).join('')}
                         </div>
 
                         <div class="flex flex-col sm:flex-row gap-3">
-                            <button class="flex-1 px-4 py-3 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 text-sm font-bold text-white transition-colors" data-select-project="${project.slug}">
-                                Ver leitura tecnica
+                            <button class="flex-1 px-4 py-3 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 text-sm font-semibold text-white transition-colors" data-select-project="${project.slug}">
+                                Ver detalhes
                             </button>
-                            <a href="${project.projectUrl}" class="flex-1 px-4 py-3 rounded-xl text-sm font-bold transition-colors text-center ${theme.button}">
+                            <a href="${project.projectUrl}" class="flex-1 px-4 py-3 rounded-xl bg-vibrantCyan text-slate-950 hover:bg-cyan-400 text-sm font-bold text-center transition-colors">
                                 ${project.ctaLabel}
                             </a>
                         </div>
@@ -563,115 +406,106 @@
         }
 
         function renderDetail() {
-            const filtered = getFilteredProjects();
-            const selected = filtered.find(project => project.slug === state.selectedSlug) || filtered[0] || state.projects[0];
+            const projects = filteredProjects();
+            const project = projects.find(item => item.slug === state.selectedSlug) || projects[0] || state.projects[0];
 
-            if (!selected) {
-                els.detail.innerHTML = `
-                    <div class="text-center text-slate-500 py-12">
-                        <i class="fa-solid fa-box-open text-3xl mb-4"></i>
-                        <p>Nenhum projeto carregado.</p>
-                    </div>
-                `;
+            if (!project) {
+                els.detail.innerHTML = '<p class="text-slate-500">Nenhum projeto encontrado.</p>';
                 return;
             }
 
-            state.selectedSlug = selected.slug;
-            const theme = projectTheme(selected);
+            state.selectedSlug = project.slug;
 
             els.detail.innerHTML = `
-                <div class="flex flex-wrap items-start justify-between gap-4 mb-6">
+                <div class="flex items-start justify-between gap-4 mb-6">
                     <div>
-                        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border ${theme.badge} text-xs font-bold uppercase tracking-widest mb-3">${selected.type}</div>
-                        <h3 class="text-3xl font-bold text-white mb-2">${selected.name}</h3>
-                        <p class="text-slate-400 text-sm leading-relaxed max-w-2xl">${selected.intent}</p>
+                        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-[0.2em] border ${accent(project)} mb-3">
+                            ${project.type}
+                        </div>
+                        <h3 class="text-3xl font-bold text-white mb-2">${project.name}</h3>
+                        <p class="text-sm text-slate-400 leading-relaxed">${project.headline}</p>
                     </div>
-                    <div class="w-14 h-14 rounded-2xl border flex items-center justify-center ${theme.icon}">
-                        <i class="fa-solid ${selected.icon} text-xl"></i>
-                    </div>
+                    <a href="${project.projectUrl}" class="hidden md:inline-flex px-4 py-2 rounded-xl bg-vibrantCyan text-slate-950 hover:bg-cyan-400 text-sm font-bold transition-colors">
+                        Abrir projeto
+                    </a>
                 </div>
 
                 <div class="space-y-4 mb-6">
-                    <div class="rounded-2xl border border-white/5 bg-white/5 p-5">
-                        <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Problema</div>
-                        <p class="text-sm text-slate-300 leading-relaxed">${selected.problem}</p>
-                    </div>
-                    <div class="rounded-2xl border border-white/5 bg-white/5 p-5">
-                        <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Solucao</div>
-                        <p class="text-sm text-slate-300 leading-relaxed">${selected.solution}</p>
-                    </div>
+                    <section class="rounded-2xl bg-white/4 border border-white/5 p-5">
+                        <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">O que esse projeto corrige</div>
+                        <p class="text-sm text-slate-300 leading-relaxed">${project.problem}</p>
+                    </section>
+
+                    <section class="rounded-2xl bg-white/4 border border-white/5 p-5">
+                        <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Como resolve</div>
+                        <p class="text-sm text-slate-300 leading-relaxed">${project.solution}</p>
+                    </section>
+
+                    <section class="rounded-2xl bg-white/4 border border-white/5 p-5">
+                        <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Resultado</div>
+                        <p class="text-sm text-slate-300 leading-relaxed">${project.outcome || project.intent}</p>
+                    </section>
                 </div>
 
-                <div class="grid md:grid-cols-2 gap-4 mb-6">
-                    <div class="rounded-2xl border border-white/5 bg-slate-950/60 p-5">
+                <section class="rounded-2xl bg-slate-950/60 border border-white/5 p-5 mb-6">
+                    <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-4">Como usar</div>
+                    <ol class="space-y-3 text-sm text-slate-300 leading-relaxed">
+                        ${(project.useSteps || []).map((step, index) => `
+                            <li class="flex gap-3">
+                                <span class="w-7 h-7 rounded-full bg-vibrantCyan/10 text-vibrantCyan border border-vibrantCyan/20 flex items-center justify-center text-xs font-bold flex-shrink-0">${index + 1}</span>
+                                <span>${step}</span>
+                            </li>
+                        `).join('')}
+                    </ol>
+                </section>
+
+                <div class="grid sm:grid-cols-2 gap-4 mb-6">
+                    <section class="rounded-2xl bg-white/4 border border-white/5 p-5">
                         <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-3">Front</div>
                         <ul class="space-y-2 text-sm text-slate-300">
-                            ${selected.frontend.map(item => `<li class="flex gap-2"><i class="fa-solid fa-angle-right text-vibrantCyan mt-1"></i><span>${item}</span></li>`).join('')}
+                            ${project.frontend.map(item => `<li>${item}</li>`).join('')}
                         </ul>
-                    </div>
-                    <div class="rounded-2xl border border-white/5 bg-slate-950/60 p-5">
+                    </section>
+
+                    <section class="rounded-2xl bg-white/4 border border-white/5 p-5">
                         <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-3">Back</div>
                         <ul class="space-y-2 text-sm text-slate-300">
-                            ${selected.backend.map(item => `<li class="flex gap-2"><i class="fa-solid fa-angle-right text-vibrantCyan mt-1"></i><span>${item}</span></li>`).join('')}
+                            ${project.backend.map(item => `<li>${item}</li>`).join('')}
                         </ul>
-                    </div>
+                    </section>
                 </div>
 
                 <div class="grid sm:grid-cols-2 gap-4 mb-6">
-                    <div class="rounded-2xl border border-white/5 bg-white/5 p-5">
+                    <section class="rounded-2xl bg-white/4 border border-white/5 p-5">
                         <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-3">Linguagens</div>
                         <div class="flex flex-wrap gap-2">
-                            ${selected.languages.map(item => `<span class="px-2.5 py-1 rounded-full bg-slate-900 border border-white/5 text-xs text-slate-300">${item}</span>`).join('')}
+                            ${project.languages.map(item => `<span class="px-2.5 py-1 rounded-full bg-slate-950/70 border border-white/5 text-xs text-slate-300">${item}</span>`).join('')}
                         </div>
-                    </div>
-                    <div class="rounded-2xl border border-white/5 bg-white/5 p-5">
-                        <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-3">Hospedagem</div>
-                        <div class="flex flex-wrap gap-2">
-                            ${selected.hosting.map(item => `<span class="px-2.5 py-1 rounded-full bg-slate-900 border border-white/5 text-xs text-slate-300">${item}</span>`).join('')}
-                        </div>
-                    </div>
-                </div>
+                    </section>
 
-                <div class="rounded-2xl border border-white/5 bg-white/5 p-5 mb-6">
-                    <div class="flex flex-wrap items-center justify-between gap-3 mb-4">
-                        <div>
-                            <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono">Automacoes</div>
-                            <p class="text-sm text-slate-400 mt-1">Camadas que sustentam o projeto sem exigir um servidor sempre ligado no host estatico.</p>
-                        </div>
-                        <span class="px-3 py-1 rounded-full border border-white/10 bg-slate-950/70 text-xs font-bold uppercase tracking-wider text-slate-300">${selected.backendMode}</span>
-                    </div>
-                    <ul class="space-y-2 text-sm text-slate-300">
-                        ${selected.automation.map(item => `<li class="flex gap-2"><i class="fa-solid fa-bolt text-vibrantCyan mt-1"></i><span>${item}</span></li>`).join('')}
-                    </ul>
-                </div>
-
-                <div class="grid grid-cols-2 gap-4 mb-6">
-                    <div class="rounded-2xl border border-white/5 bg-slate-950/60 p-4">
-                        <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Responsivo</div>
-                        <div class="text-sm font-semibold ${selected.responsive ? 'text-trustGreen' : 'text-amber-400'}">${selected.responsive ? 'Sim, com navegacao mobile' : 'Nao informado'}</div>
-                    </div>
-                    <div class="rounded-2xl border border-white/5 bg-slate-950/60 p-4">
-                        <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Codigo</div>
-                        <div class="text-sm font-semibold text-white">${selected.codeVisibility}</div>
-                    </div>
+                    <section class="rounded-2xl bg-white/4 border border-white/5 p-5">
+                        <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-3">Automacoes</div>
+                        <ul class="space-y-2 text-sm text-slate-300">
+                            ${project.automation.map(item => `<li>${item}</li>`).join('')}
+                        </ul>
+                    </section>
                 </div>
 
                 <div class="flex flex-col sm:flex-row gap-3">
-                    <a href="${selected.projectUrl}" class="flex-1 px-5 py-3 rounded-xl text-sm font-bold text-center transition-colors ${theme.button}">${selected.ctaLabel}</a>
-                    <a href="${selected.readmeUrl}" class="flex-1 px-5 py-3 rounded-xl text-sm font-bold text-center border border-white/10 bg-white/5 hover:bg-white/10 text-white transition-colors">Ver README</a>
-                    ${selected.architectureUrl ? `<a href="${selected.architectureUrl}" class="flex-1 px-5 py-3 rounded-xl text-sm font-bold text-center border border-white/10 bg-white/5 hover:bg-white/10 text-white transition-colors">Arquitetura</a>` : ''}
+                    <a href="${project.projectUrl}" class="flex-1 px-5 py-3 rounded-xl bg-vibrantCyan text-slate-950 hover:bg-cyan-400 text-sm font-bold text-center transition-colors">
+                        ${project.ctaLabel}
+                    </a>
+                    <a href="${project.readmeUrl}" class="flex-1 px-5 py-3 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 text-sm font-semibold text-white text-center transition-colors">
+                        Ver README
+                    </a>
                 </div>
             `;
         }
 
         function renderFilters() {
-            const types = ['Todos', ...uniqueValues(state.projects.map(project => project.type))];
-            const languages = ['Todas', ...uniqueValues(state.projects.flatMap(project => project.languages))];
-            const backends = ['Todos', ...uniqueValues(state.projects.map(project => project.backendMode))];
-
-            renderFilterGroup(els.typeFilters, types, state.filters.type, 'type');
-            renderFilterGroup(els.languageFilters, languages, state.filters.language, 'language');
-            renderFilterGroup(els.backendFilters, backends, state.filters.backend, 'backend');
+            renderFilterGroup(els.typeFilters, ['Todos', ...uniq(state.projects.map(item => item.type))], state.filters.type, 'type');
+            renderFilterGroup(els.languageFilters, ['Todas', ...uniq(state.projects.flatMap(item => item.languages))], state.filters.language, 'language');
+            renderFilterGroup(els.backendFilters, ['Todos', ...uniq(state.projects.map(item => item.backendMode))], state.filters.backend, 'backend');
 
             document.querySelectorAll('[data-filter-key]').forEach(button => {
                 button.addEventListener('click', () => {
@@ -683,25 +517,18 @@
             });
         }
 
-        function updateMetrics() {
-            els.metricTotal.textContent = state.projects.length;
-            els.metricLive.textContent = state.projects.filter(project => project.projectUrl).length;
-        }
-
         async function loadProjects() {
             try {
                 const response = await fetch('./data/projects.json');
-                if (!response.ok) throw new Error('Falha ao carregar catalogo');
+                if (!response.ok) throw new Error('Falha ao carregar projetos');
                 state.projects = await response.json();
                 state.selectedSlug = state.projects[0]?.slug || null;
-                updateMetrics();
                 renderFilters();
                 renderProjects();
                 renderDetail();
             } catch (error) {
                 console.error(error);
                 els.count.textContent = 'Falha ao carregar projetos';
-                els.grid.innerHTML = '';
                 els.detail.innerHTML = `
                     <div class="rounded-2xl border border-red-500/20 bg-red-500/5 p-5 text-sm text-slate-300">
                         <div class="flex items-center gap-3 text-red-400 font-bold mb-3">
@@ -711,7 +538,6 @@
                         <p>Verifique se a pagina esta sendo servida por HTTP. Em GitHub Pages e Cloudflare Pages isso funciona normalmente.</p>
                     </div>
                 `;
-                els.empty.classList.remove('hidden');
             }
         }
 

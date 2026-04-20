@@ -6,6 +6,7 @@
     "summary": "Portal de monitoramento para jogos gratis, noticias de hardware e sinais do ecossistema Epic, com crawler Python e frontend React sem build.",
     "problem": "Falta de visibilidade rapida sobre jogos gratis, rumores e noticias relevantes em um unico painel.",
     "solution": "Crawler automatizado coleta dados, atualiza JSON diariamente e o frontend filtra as leituras por categoria em tempo real.",
+    "outcome": "Centraliza leitura de mercado e reduz o tempo necessario para descobrir oportunidades e sinais relevantes.",
     "type": "Produto",
     "category": "Market Intelligence",
     "status": "Producao",
@@ -21,6 +22,11 @@
     "backendMode": "Backend real no repositorio",
     "codeVisibility": "Publico",
     "intent": "Demonstrar um fluxo completo de coleta, tratamento e publicacao de dados sem depender de backend hospedado junto ao site.",
+    "useSteps": [
+      "Abra o dashboard e escolha uma categoria do feed.",
+      "Use o filtro Epic Dashboard para acompanhar jogos gratis atuais e proximos.",
+      "Verifique o status dos dados e a ultima atualizacao antes de tomar decisoes rapidas."
+    ],
     "projectUrl": "../projects/scanner-game-free/index.html",
     "readmeUrl": "../projects/scanner-game-free/README.md",
     "architectureUrl": "../projects/scanner-game-free/ARCHITECTURE.md",
@@ -33,6 +39,7 @@
     "summary": "Utilitario client-side para tratar entradas sujas, validar MAC addresses, detectar duplicidades e gerar scripts prontos para Fortigate.",
     "problem": "Configuracoes manuais de firewall geram retrabalho, erros de digitacao e risco operacional em massa.",
     "solution": "A ferramenta recebe planilhas ou texto bruto, padroniza os dados e produz scripts CLI consistentes com feedback visual.",
+    "outcome": "Acelera a preparacao de scripts e reduz erro humano em atividades repetitivas de rede.",
     "type": "Ferramenta",
     "category": "SecOps",
     "status": "Estavel",
@@ -48,6 +55,11 @@
     "backendMode": "Sem backend",
     "codeVisibility": "Publico",
     "intent": "Reduzir erro humano em configuracoes de rede e provar que uma ferramenta util pode ser entregue como web app estatico sem comprometer privacidade.",
+    "useSteps": [
+      "Cole os dados ou carregue um arquivo CSV/TXT com nome e MAC address.",
+      "Clique em Validar & Converter para processar as entradas.",
+      "Revise os scripts gerados e baixe os arquivos prontos para uso no Fortigate."
+    ],
     "projectUrl": "../projects/validador-firewall/index.html",
     "readmeUrl": "../projects/validador-firewall/README.md",
     "architectureUrl": null,
@@ -60,6 +72,7 @@
     "summary": "Landing page de um fluxo Python que percorre diretorios, identifica evidencias e cria tickets no GLPI via API com log de auditoria.",
     "problem": "Abertura manual de chamados para preventivas consome horas da equipe e piora a conformidade de evidencias.",
     "solution": "Um script Python faz o scanning das pastas, autentica na API do GLPI, abre tickets e envia anexos automaticamente.",
+    "outcome": "Padroniza a operacao e transforma uma tarefa manual longa em um fluxo automatizado e auditavel.",
     "type": "Case",
     "category": "Automation",
     "status": "Case de sucesso",
@@ -75,6 +88,11 @@
     "backendMode": "Backend privado/documentado",
     "codeVisibility": "Privado",
     "intent": "Comunicar impacto operacional de uma automacao enterprise sem expor codigo proprietario do cliente.",
+    "useSteps": [
+      "Organize as fotos na estrutura de pastas esperada pelo fluxo.",
+      "Execute o script no ambiente autorizado com acesso ao GLPI.",
+      "Deixe a automacao abrir os tickets e anexar as evidencias automaticamente."
+    ],
     "projectUrl": "../projects/abertura-chamados-glpi/index.html",
     "readmeUrl": "../projects/abertura-chamados-glpi/README.md",
     "architectureUrl": null,
@@ -87,6 +105,7 @@
     "summary": "Pagina demonstrativa de um agente de vendas orientado por IA para Telegram, integrando Gemini, Supabase e automacao de atendimento.",
     "problem": "Operacoes comerciais perdem vendas quando atendimento, estoque e validacao financeira dependem de fluxo manual.",
     "solution": "O agente recebe mensagens, interpreta intencao, consulta estoque, negocia dentro de regras e valida comprovantes visualmente.",
+    "outcome": "Escala o atendimento comercial sem abrir mao de contexto, rastreabilidade e integracao com dados do negocio.",
     "type": "Case",
     "category": "AI Agent",
     "status": "Ativo",
@@ -102,6 +121,11 @@
     "backendMode": "Backend privado/documentado",
     "codeVisibility": "Misto",
     "intent": "Mostrar capacidade de integrar IA generativa em um fluxo comercial real sem reduzir o projeto a um chatbot cenografico.",
+    "useSteps": [
+      "Acesse a apresentacao para entender o fluxo conversacional e a arquitetura.",
+      "Use a demo quando disponivel para visualizar a experiencia do cliente final.",
+      "Avalie a integracao entre IA, estoque, pagamentos e canal de mensageria."
+    ],
     "projectUrl": "../projects/assistente-vendas-ia/index.html",
     "readmeUrl": "../projects/assistente-vendas-ia/README.md",
     "architectureUrl": null,
@@ -114,6 +138,7 @@
     "summary": "Dashboard estatico que importa Excel/CSV, higieniza dados, gera KPIs, conferencias e relatorios sem depender de backend.",
     "problem": "Analises financeiras em planilhas brutas custam tempo e dificultam conferencias e entrega executiva.",
     "solution": "O app roda no navegador, processa os arquivos localmente, gera visualizacoes e exporta relatorios prontos.",
+    "outcome": "Acelera leitura financeira, reduz preparacao manual e preserva privacidade por operar localmente.",
     "type": "Dashboard",
     "category": "BI Tools",
     "status": "Ativo",
@@ -129,6 +154,11 @@
     "backendMode": "Sem backend",
     "codeVisibility": "Publico",
     "intent": "Entregar uma ferramenta de analise financeira util, privada e pronta para uso mesmo em ambientes onde nao ha backend disponivel.",
+    "useSteps": [
+      "Carregue uma planilha XLSX/CSV ou use a entrada manual.",
+      "Processe os dados para gerar dashboard, conferencia e relatorios.",
+      "Aplique filtros e exporte o resultado em PDF quando necessario."
+    ],
     "projectUrl": "../projects/relatorio-interativo/index.html",
     "readmeUrl": "../projects/relatorio-interativo/README.md",
     "architectureUrl": null,
