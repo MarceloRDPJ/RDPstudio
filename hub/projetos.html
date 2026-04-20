@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RDP Studio | Projetos</title>
-    <meta name="description" content="Catalogo de projetos da RDP Studio com foco no problema resolvido, forma de uso e estrutura tecnica de cada entrega.">
+    <meta name="description" content="Catalogo de projetos da RDP Studio com cards claros, foco no problema resolvido e guia de uso por projeto.">
     <link rel="apple-touch-icon" sizes="180x180" href="../assets/site/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/site/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/site/favicon-16x16.png">
@@ -26,7 +26,7 @@
                     fontFamily: {
                         sans: ['Inter', 'sans-serif'],
                         mono: ['JetBrains Mono', 'monospace'],
-                    },
+                    }
                 }
             }
         }
@@ -34,19 +34,16 @@
     <style>
         body {
             font-family: 'Inter', sans-serif;
-            background: #020617;
+            background-color: #020617;
+            background-image: radial-gradient(circle at 15% 18%, rgba(0, 180, 216, 0.08), transparent 22%), radial-gradient(circle at 82% 24%, rgba(30, 58, 95, 0.14), transparent 26%);
+            background-attachment: fixed;
             color: #f8fafc;
         }
 
-        .page-shell {
-            background-image: radial-gradient(circle at top left, rgba(0, 180, 216, 0.08), transparent 24%), radial-gradient(circle at bottom right, rgba(30, 58, 95, 0.16), transparent 28%);
-            background-attachment: fixed;
-        }
-
         .surface {
-            background: rgba(15, 23, 42, 0.82);
-            border: 1px solid rgba(255, 255, 255, 0.06);
+            background: rgba(15, 23, 42, 0.78);
             backdrop-filter: blur(14px);
+            border: 1px solid rgba(255, 255, 255, 0.06);
         }
 
         .nav-link {
@@ -63,7 +60,7 @@
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            background-image: linear-gradient(to right, #ffffff, #38bdf8, #10B981);
+            background-image: linear-gradient(to right, #ffffff, #38bdf8, #10b981);
         }
 
         .filter-chip {
@@ -75,24 +72,24 @@
 
         .filter-chip:hover {
             color: #fff;
-            border-color: rgba(255, 255, 255, 0.16);
+            border-color: rgba(255, 255, 255, 0.18);
         }
 
         .filter-chip.is-active {
-            color: #fff;
             background: rgba(0, 180, 216, 0.10);
             border-color: rgba(0, 180, 216, 0.42);
+            color: #fff;
         }
 
         .project-card {
-            transition: border-color 0.2s ease, transform 0.2s ease, background 0.2s ease;
+            transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
         }
 
         .project-card:hover,
         .project-card.is-selected {
-            transform: translateY(-2px);
-            border-color: rgba(0, 180, 216, 0.25);
-            background: rgba(15, 23, 42, 0.9);
+            transform: translateY(-3px);
+            border-color: rgba(0, 180, 216, 0.24);
+            box-shadow: 0 20px 40px -30px rgba(0, 180, 216, 0.35);
         }
 
         @keyframes fadeInUp {
@@ -120,7 +117,7 @@
         }
     </style>
 </head>
-<body class="page-shell antialiased selection:bg-vibrantCyan selection:text-white">
+<body class="antialiased selection:bg-vibrantCyan selection:text-white">
     <div class="max-w-7xl mx-auto px-6 py-6 min-h-screen flex flex-col">
         <header class="flex justify-between items-center mb-10 relative z-50">
             <a href="../index.html" class="flex items-center gap-4 group">
@@ -155,12 +152,12 @@
         <main class="flex-grow space-y-8 md:space-y-10">
             <section class="fade-in-up">
                 <div class="max-w-3xl">
-                    <div class="text-xs font-mono uppercase tracking-[0.28em] text-slate-500 mb-4">Projetos</div>
+                    <div class="text-xs font-mono uppercase tracking-[0.26em] text-slate-500 mb-4">Projetos</div>
                     <h2 class="text-4xl md:text-5xl font-bold leading-tight mb-4">
-                        Um catalogo claro para mostrar <span class="text-gradient">o que cada projeto resolve</span>
+                        Projetos com <span class="text-gradient">cards fortes</span> e leitura clara do valor entregue
                     </h2>
                     <p class="text-base md:text-lg text-slate-400 leading-relaxed">
-                        Aqui o foco e simples: apresentar seus projetos, o problema que cada um corrige, como usar e a estrutura tecnica por tras da entrega. Menos cenografia, mais clareza.
+                        Cada projeto mostra o problema que resolve, a proposta da ferramenta e um caminho claro para abrir ou entender melhor a solucao.
                     </p>
                 </div>
             </section>
@@ -170,7 +167,7 @@
                     <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-4">
                         <div>
                             <h3 class="text-xl font-bold text-white">Filtrar projetos</h3>
-                            <p class="text-sm text-slate-400 mt-1">Escolha por tipo, linguagem ou modelo de backend.</p>
+                            <p class="text-sm text-slate-400 mt-1">Use os filtros para navegar por tipo, linguagem e modelo de backend.</p>
                         </div>
                         <div class="text-sm text-slate-500 font-mono" id="results-count">Carregando projetos...</div>
                     </div>
@@ -192,23 +189,21 @@
                 </div>
             </section>
 
-            <section class="grid xl:grid-cols-[1.08fr_0.92fr] gap-6 items-start fade-in-up" style="animation-delay:0.14s;">
-                <div>
-                    <div id="project-grid" class="grid md:grid-cols-2 gap-5"></div>
-                    <div id="empty-state" class="hidden surface rounded-3xl p-10 border border-dashed border-slate-800 text-center text-slate-500 mt-5">
-                        <i class="fa-solid fa-magnifying-glass text-3xl mb-4"></i>
-                        <p>Nenhum projeto corresponde aos filtros atuais.</p>
+            <section class="fade-in-up" style="animation-delay:0.14s;">
+                <div id="project-grid" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5"></div>
+                <div id="empty-state" class="hidden surface rounded-3xl p-10 border border-dashed border-slate-800 text-center text-slate-500 mt-5">
+                    <i class="fa-solid fa-magnifying-glass text-3xl mb-4"></i>
+                    <p>Nenhum projeto corresponde aos filtros atuais.</p>
+                </div>
+            </section>
+
+            <section class="surface rounded-3xl p-6 md:p-8 fade-in-up" style="animation-delay:0.18s;">
+                <div id="project-detail">
+                    <div class="flex items-center gap-3 text-slate-500 text-sm">
+                        <i class="fa-solid fa-circle-notch animate-spin"></i>
+                        Carregando detalhe do projeto...
                     </div>
                 </div>
-
-                <aside class="xl:sticky xl:top-24">
-                    <div id="project-detail" class="surface rounded-3xl p-6 md:p-7 min-h-[520px]">
-                        <div class="flex items-center gap-3 text-slate-500 text-sm">
-                            <i class="fa-solid fa-circle-notch animate-spin"></i>
-                            Carregando detalhe do projeto...
-                        </div>
-                    </div>
-                </aside>
             </section>
         </main>
 
@@ -295,11 +290,26 @@
         };
 
         const accents = {
-            pink: 'border-pink-500/30 text-pink-400 bg-pink-500/10',
-            amber: 'border-amber-500/30 text-amber-400 bg-amber-500/10',
-            indigo: 'border-indigo-500/30 text-indigo-400 bg-indigo-500/10',
-            purple: 'border-purple-500/30 text-purple-400 bg-purple-500/10',
-            cyan: 'border-vibrantCyan/30 text-vibrantCyan bg-vibrantCyan/10'
+            pink: {
+                icon: 'text-pink-400 bg-pink-500/10 border-pink-500/20',
+                badge: 'text-pink-300 bg-pink-500/10 border-pink-500/20'
+            },
+            amber: {
+                icon: 'text-amber-400 bg-amber-500/10 border-amber-500/20',
+                badge: 'text-amber-300 bg-amber-500/10 border-amber-500/20'
+            },
+            indigo: {
+                icon: 'text-indigo-400 bg-indigo-500/10 border-indigo-500/20',
+                badge: 'text-indigo-300 bg-indigo-500/10 border-indigo-500/20'
+            },
+            purple: {
+                icon: 'text-purple-400 bg-purple-500/10 border-purple-500/20',
+                badge: 'text-purple-300 bg-purple-500/10 border-purple-500/20'
+            },
+            cyan: {
+                icon: 'text-vibrantCyan bg-vibrantCyan/10 border-vibrantCyan/20',
+                badge: 'text-cyan-200 bg-vibrantCyan/10 border-vibrantCyan/20'
+            }
         };
 
         const els = {
@@ -316,7 +326,7 @@
             return Array.from(new Set(values)).sort((a, b) => a.localeCompare(b, 'pt-BR'));
         }
 
-        function accent(project) {
+        function theme(project) {
             return accents[project.primaryColor] || accents.cyan;
         }
 
@@ -328,7 +338,7 @@
             `).join('');
         }
 
-        function filteredProjects() {
+        function getProjects() {
             return state.projects.filter(project => {
                 const typeOk = state.filters.type === 'Todos' || project.type === state.filters.type;
                 const languageOk = state.filters.language === 'Todas' || project.languages.includes(state.filters.language);
@@ -344,48 +354,49 @@
         }
 
         function renderProjects() {
-            const projects = filteredProjects();
+            const projects = getProjects();
             els.count.textContent = `${projects.length} projeto(s) visiveis`;
             els.empty.classList.toggle('hidden', projects.length > 0);
 
             els.grid.innerHTML = projects.map(project => {
-                const active = project.slug === state.selectedSlug;
+                const active = state.selectedSlug === project.slug;
+                const currentTheme = theme(project);
                 return `
                     <article class="project-card surface rounded-3xl p-6 ${active ? 'is-selected' : ''}">
-                        <div class="flex items-start justify-between gap-4 mb-5">
-                            <div>
-                                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-[0.2em] border ${accent(project)} mb-3">
-                                    ${project.category}
-                                </div>
-                                <div class="text-xs uppercase tracking-[0.24em] text-slate-500 font-mono mb-2">${project.type}</div>
-                                <h3 class="text-2xl font-bold text-white">${project.name}</h3>
+                        <div class="flex justify-between items-start gap-4 mb-6">
+                            <div class="w-12 h-12 rounded-2xl border flex items-center justify-center ${currentTheme.icon}">
+                                <i class="fa-solid ${project.icon}"></i>
                             </div>
-                            <div class="text-right">
-                                <div class="text-xs uppercase tracking-[0.18em] text-slate-500 font-mono mb-2">Status</div>
-                                <div class="text-sm font-semibold text-slate-200">${project.status}</div>
+                            <div class="flex flex-wrap justify-end gap-2">
+                                <span class="px-2.5 py-1 rounded-full border text-[10px] font-bold uppercase tracking-[0.18em] ${currentTheme.badge}">${project.category}</span>
+                                <span class="px-2.5 py-1 rounded-full border border-white/10 bg-white/5 text-[10px] font-bold uppercase tracking-[0.18em] text-slate-300">${project.status}</span>
                             </div>
                         </div>
 
-                        <p class="text-sm text-slate-300 leading-relaxed mb-4">${project.summary}</p>
+                        <div class="mb-4">
+                            <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">${project.type}</div>
+                            <h3 class="text-2xl font-bold text-white mb-3">${project.name}</h3>
+                            <p class="text-sm text-slate-300 leading-relaxed mb-4">${project.headline}</p>
+                        </div>
 
                         <div class="rounded-2xl bg-white/4 border border-white/5 p-4 mb-5">
-                            <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Problema que resolve</div>
+                            <div class="text-[10px] uppercase tracking-[0.18em] text-slate-500 font-mono mb-2">Problema</div>
                             <p class="text-sm text-slate-300 leading-relaxed">${project.problem}</p>
                         </div>
 
-                        <div class="grid grid-cols-2 gap-3 mb-5">
+                        <div class="flex flex-wrap gap-2 mb-5">
+                            ${project.languages.slice(0, 4).map(item => `<span class="px-2.5 py-1 rounded-full bg-white/4 border border-white/5 text-xs text-slate-300">${item}</span>`).join('')}
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-3 mb-5 text-sm">
                             <div class="rounded-2xl bg-slate-950/60 border border-white/5 p-3">
                                 <div class="text-[10px] uppercase tracking-[0.18em] text-slate-500 font-mono mb-2">Front</div>
-                                <div class="text-sm text-slate-200">${project.frontend[0]}</div>
+                                <div class="text-slate-200">${project.frontend[0]}</div>
                             </div>
                             <div class="rounded-2xl bg-slate-950/60 border border-white/5 p-3">
                                 <div class="text-[10px] uppercase tracking-[0.18em] text-slate-500 font-mono mb-2">Back</div>
-                                <div class="text-sm text-slate-200">${project.backendMode}</div>
+                                <div class="text-slate-200">${project.backendMode}</div>
                             </div>
-                        </div>
-
-                        <div class="flex flex-wrap gap-2 mb-5">
-                            ${project.languages.map(item => `<span class="px-2.5 py-1 rounded-full bg-white/4 border border-white/5 text-xs text-slate-300">${item}</span>`).join('')}
                         </div>
 
                         <div class="flex flex-col sm:flex-row gap-3">
@@ -406,7 +417,7 @@
         }
 
         function renderDetail() {
-            const projects = filteredProjects();
+            const projects = getProjects();
             const project = projects.find(item => item.slug === state.selectedSlug) || projects[0] || state.projects[0];
 
             if (!project) {
@@ -415,89 +426,83 @@
             }
 
             state.selectedSlug = project.slug;
+            const currentTheme = theme(project);
 
             els.detail.innerHTML = `
-                <div class="flex items-start justify-between gap-4 mb-6">
-                    <div>
-                        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-[0.2em] border ${accent(project)} mb-3">
-                            ${project.type}
+                <div class="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6 mb-8">
+                    <div class="max-w-3xl">
+                        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border text-[10px] font-bold uppercase tracking-[0.18em] ${currentTheme.badge} mb-4">
+                            ${project.type} · ${project.category}
                         </div>
-                        <h3 class="text-3xl font-bold text-white mb-2">${project.name}</h3>
-                        <p class="text-sm text-slate-400 leading-relaxed">${project.headline}</p>
+                        <h3 class="text-3xl md:text-4xl font-bold text-white mb-3">${project.name}</h3>
+                        <p class="text-base text-slate-400 leading-relaxed">${project.summary}</p>
                     </div>
-                    <a href="${project.projectUrl}" class="hidden md:inline-flex px-4 py-2 rounded-xl bg-vibrantCyan text-slate-950 hover:bg-cyan-400 text-sm font-bold transition-colors">
-                        Abrir projeto
-                    </a>
+                    <div class="flex gap-3">
+                        <a href="${project.projectUrl}" class="px-5 py-3 rounded-xl bg-vibrantCyan text-slate-950 hover:bg-cyan-400 text-sm font-bold text-center transition-colors">
+                            ${project.ctaLabel}
+                        </a>
+                        <a href="${project.readmeUrl}" class="px-5 py-3 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 text-sm font-semibold text-white text-center transition-colors">
+                            Ver README
+                        </a>
+                    </div>
                 </div>
 
-                <div class="space-y-4 mb-6">
-                    <section class="rounded-2xl bg-white/4 border border-white/5 p-5">
-                        <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">O que esse projeto corrige</div>
-                        <p class="text-sm text-slate-300 leading-relaxed">${project.problem}</p>
-                    </section>
+                <div class="grid lg:grid-cols-[1.1fr_0.9fr] gap-6 mb-6">
+                    <div class="space-y-4">
+                        <section class="rounded-2xl bg-white/4 border border-white/5 p-5">
+                            <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Problema que resolve</div>
+                            <p class="text-sm text-slate-300 leading-relaxed">${project.problem}</p>
+                        </section>
 
-                    <section class="rounded-2xl bg-white/4 border border-white/5 p-5">
-                        <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Como resolve</div>
-                        <p class="text-sm text-slate-300 leading-relaxed">${project.solution}</p>
-                    </section>
+                        <section class="rounded-2xl bg-white/4 border border-white/5 p-5">
+                            <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Como resolve</div>
+                            <p class="text-sm text-slate-300 leading-relaxed">${project.solution}</p>
+                        </section>
 
-                    <section class="rounded-2xl bg-white/4 border border-white/5 p-5">
-                        <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Resultado</div>
-                        <p class="text-sm text-slate-300 leading-relaxed">${project.outcome || project.intent}</p>
+                        <section class="rounded-2xl bg-white/4 border border-white/5 p-5">
+                            <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Resultado</div>
+                            <p class="text-sm text-slate-300 leading-relaxed">${project.outcome || project.intent}</p>
+                        </section>
+                    </div>
+
+                    <section class="rounded-2xl bg-slate-950/60 border border-white/5 p-5">
+                        <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-4">Como usar</div>
+                        <ol class="space-y-3 text-sm text-slate-300 leading-relaxed">
+                            ${(project.useSteps || []).map((step, index) => `
+                                <li class="flex gap-3">
+                                    <span class="w-7 h-7 rounded-full bg-vibrantCyan/10 text-vibrantCyan border border-vibrantCyan/20 flex items-center justify-center text-xs font-bold flex-shrink-0">${index + 1}</span>
+                                    <span>${step}</span>
+                                </li>
+                            `).join('')}
+                        </ol>
                     </section>
                 </div>
 
-                <section class="rounded-2xl bg-slate-950/60 border border-white/5 p-5 mb-6">
-                    <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-4">Como usar</div>
-                    <ol class="space-y-3 text-sm text-slate-300 leading-relaxed">
-                        ${(project.useSteps || []).map((step, index) => `
-                            <li class="flex gap-3">
-                                <span class="w-7 h-7 rounded-full bg-vibrantCyan/10 text-vibrantCyan border border-vibrantCyan/20 flex items-center justify-center text-xs font-bold flex-shrink-0">${index + 1}</span>
-                                <span>${step}</span>
-                            </li>
-                        `).join('')}
-                    </ol>
-                </section>
-
-                <div class="grid sm:grid-cols-2 gap-4 mb-6">
+                <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-4">
                     <section class="rounded-2xl bg-white/4 border border-white/5 p-5">
                         <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-3">Front</div>
                         <ul class="space-y-2 text-sm text-slate-300">
                             ${project.frontend.map(item => `<li>${item}</li>`).join('')}
                         </ul>
                     </section>
-
                     <section class="rounded-2xl bg-white/4 border border-white/5 p-5">
                         <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-3">Back</div>
                         <ul class="space-y-2 text-sm text-slate-300">
                             ${project.backend.map(item => `<li>${item}</li>`).join('')}
                         </ul>
                     </section>
-                </div>
-
-                <div class="grid sm:grid-cols-2 gap-4 mb-6">
                     <section class="rounded-2xl bg-white/4 border border-white/5 p-5">
                         <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-3">Linguagens</div>
                         <div class="flex flex-wrap gap-2">
                             ${project.languages.map(item => `<span class="px-2.5 py-1 rounded-full bg-slate-950/70 border border-white/5 text-xs text-slate-300">${item}</span>`).join('')}
                         </div>
                     </section>
-
                     <section class="rounded-2xl bg-white/4 border border-white/5 p-5">
                         <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-3">Automacoes</div>
                         <ul class="space-y-2 text-sm text-slate-300">
                             ${project.automation.map(item => `<li>${item}</li>`).join('')}
                         </ul>
                     </section>
-                </div>
-
-                <div class="flex flex-col sm:flex-row gap-3">
-                    <a href="${project.projectUrl}" class="flex-1 px-5 py-3 rounded-xl bg-vibrantCyan text-slate-950 hover:bg-cyan-400 text-sm font-bold text-center transition-colors">
-                        ${project.ctaLabel}
-                    </a>
-                    <a href="${project.readmeUrl}" class="flex-1 px-5 py-3 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 text-sm font-semibold text-white text-center transition-colors">
-                        Ver README
-                    </a>
                 </div>
             `;
         }
