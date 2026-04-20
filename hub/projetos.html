@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RDP Studio | Projetos</title>
-    <meta name="description" content="Catalogo premium dos projetos da RDP Studio com destaque para problema resolvido, valor entregue e acesso rapido a cada solucao.">
+    <meta name="description" content="Catalogo de projetos da RDP Studio com cards claros, foco no problema resolvido e guia de uso por projeto.">
     <link rel="apple-touch-icon" sizes="180x180" href="../assets/site/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/site/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/site/favicon-16x16.png">
@@ -17,14 +17,15 @@
             theme: {
                 extend: {
                     colors: {
+                        deepBlue: '#1E3A5F',
                         vibrantCyan: '#00B4D8',
-                        trustGreen: '#10B981',
                         energeticAmber: '#F59E0B',
-                        darkSlate: '#020617'
+                        trustGreen: '#10B981',
+                        darkSlate: '#020617',
                     },
                     fontFamily: {
                         sans: ['Inter', 'sans-serif'],
-                        mono: ['JetBrains Mono', 'monospace']
+                        mono: ['JetBrains Mono', 'monospace'],
                     }
                 }
             }
@@ -34,23 +35,14 @@
         body {
             font-family: 'Inter', sans-serif;
             background-color: #020617;
-            background-image:
-                radial-gradient(circle at 12% 16%, rgba(0, 180, 216, 0.10), transparent 22%),
-                radial-gradient(circle at 85% 18%, rgba(59, 130, 246, 0.08), transparent 24%),
-                linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0));
+            background-image: radial-gradient(circle at 15% 18%, rgba(0, 180, 216, 0.08), transparent 22%), radial-gradient(circle at 82% 24%, rgba(30, 58, 95, 0.14), transparent 26%);
             background-attachment: fixed;
             color: #f8fafc;
         }
 
         .surface {
-            background: rgba(15, 23, 42, 0.72);
-            backdrop-filter: blur(18px);
-            border: 1px solid rgba(255, 255, 255, 0.06);
-            box-shadow: 0 24px 80px -48px rgba(2, 6, 23, 0.95);
-        }
-
-        .surface-soft {
-            background: rgba(15, 23, 42, 0.48);
+            background: rgba(15, 23, 42, 0.78);
+            backdrop-filter: blur(14px);
             border: 1px solid rgba(255, 255, 255, 0.06);
         }
 
@@ -68,7 +60,7 @@
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            background-image: linear-gradient(to right, #ffffff, #7dd3fc, #10B981);
+            background-image: linear-gradient(to right, #ffffff, #38bdf8, #10b981);
         }
 
         .filter-chip {
@@ -85,34 +77,19 @@
 
         .filter-chip.is-active {
             background: rgba(0, 180, 216, 0.10);
-            border-color: rgba(0, 180, 216, 0.40);
+            border-color: rgba(0, 180, 216, 0.42);
             color: #fff;
         }
 
         .project-card {
-            transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+            transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
         }
 
         .project-card:hover,
         .project-card.is-selected {
-            transform: translateY(-4px);
-            border-color: rgba(0, 180, 216, 0.22);
-            box-shadow: 0 28px 60px -36px rgba(0, 180, 216, 0.28);
-        }
-
-        .line-clamp-2,
-        .line-clamp-3 {
-            display: -webkit-box;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
-
-        .line-clamp-2 {
-            -webkit-line-clamp: 2;
-        }
-
-        .line-clamp-3 {
-            -webkit-line-clamp: 3;
+            transform: translateY(-3px);
+            border-color: rgba(0, 180, 216, 0.24);
+            box-shadow: 0 20px 40px -30px rgba(0, 180, 216, 0.35);
         }
 
         @keyframes fadeInUp {
@@ -174,23 +151,23 @@
 
         <main class="flex-grow space-y-8 md:space-y-10">
             <section class="fade-in-up">
-                <div class="max-w-4xl">
+                <div class="max-w-3xl">
                     <div class="text-xs font-mono uppercase tracking-[0.26em] text-slate-500 mb-4">Projetos</div>
-                    <h2 class="text-4xl md:text-6xl font-semibold leading-[1.02] tracking-tight mb-5">
-                        Solucoes pensadas para <span class="text-gradient">corrigir gargalos reais</span> e virar resultado.
+                    <h2 class="text-4xl md:text-5xl font-bold leading-tight mb-4">
+                        Projetos com <span class="text-gradient">cards fortes</span> e leitura clara do valor entregue
                     </h2>
-                    <p class="text-lg md:text-xl text-slate-400 leading-relaxed max-w-3xl">
-                        Um catalogo mais seletivo, com visual executivo e acesso imediato aos projetos. Menos ruido, mais clareza sobre o valor entregue.
+                    <p class="text-base md:text-lg text-slate-400 leading-relaxed">
+                        Cada projeto mostra o problema que resolve, a proposta da ferramenta e um caminho claro para abrir ou entender melhor a solucao.
                     </p>
                 </div>
             </section>
 
-            <section class="surface rounded-[28px] p-5 md:p-6 fade-in-up" style="animation-delay:0.06s;">
+            <section class="surface rounded-3xl p-5 md:p-6 fade-in-up" style="animation-delay:0.08s;">
                 <div class="flex flex-col gap-5">
                     <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-4">
                         <div>
-                            <h3 class="text-xl font-semibold text-white">Filtrar projetos</h3>
-                            <p class="text-sm text-slate-400 mt-1">Encontre a solucao por tipo, linguagem ou estrutura de backend.</p>
+                            <h3 class="text-xl font-bold text-white">Filtrar projetos</h3>
+                            <p class="text-sm text-slate-400 mt-1">Use os filtros para navegar por tipo, linguagem e modelo de backend.</p>
                         </div>
                         <div class="text-sm text-slate-500 font-mono" id="results-count">Carregando projetos...</div>
                     </div>
@@ -212,20 +189,20 @@
                 </div>
             </section>
 
-            <section class="surface rounded-[32px] p-6 md:p-8 fade-in-up" style="animation-delay:0.1s;">
-                <div id="project-featured">
-                    <div class="flex items-center gap-3 text-slate-500 text-sm">
-                        <i class="fa-solid fa-circle-notch animate-spin"></i>
-                        Carregando projeto em destaque...
-                    </div>
-                </div>
-            </section>
-
             <section class="fade-in-up" style="animation-delay:0.14s;">
-                <div id="project-grid" class="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-6xl"></div>
+                <div id="project-grid" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5"></div>
                 <div id="empty-state" class="hidden surface rounded-3xl p-10 border border-dashed border-slate-800 text-center text-slate-500 mt-5">
                     <i class="fa-solid fa-magnifying-glass text-3xl mb-4"></i>
                     <p>Nenhum projeto corresponde aos filtros atuais.</p>
+                </div>
+            </section>
+
+            <section class="surface rounded-3xl p-6 md:p-8 fade-in-up" style="animation-delay:0.18s;">
+                <div id="project-detail">
+                    <div class="flex items-center gap-3 text-slate-500 text-sm">
+                        <i class="fa-solid fa-circle-notch animate-spin"></i>
+                        Carregando detalhe do projeto...
+                    </div>
                 </div>
             </section>
         </main>
@@ -315,23 +292,23 @@
         const accents = {
             pink: {
                 icon: 'text-pink-400 bg-pink-500/10 border-pink-500/20',
-                pill: 'text-pink-300 bg-pink-500/10 border-pink-500/20'
+                badge: 'text-pink-300 bg-pink-500/10 border-pink-500/20'
             },
             amber: {
                 icon: 'text-amber-400 bg-amber-500/10 border-amber-500/20',
-                pill: 'text-amber-300 bg-amber-500/10 border-amber-500/20'
+                badge: 'text-amber-300 bg-amber-500/10 border-amber-500/20'
             },
             indigo: {
                 icon: 'text-indigo-400 bg-indigo-500/10 border-indigo-500/20',
-                pill: 'text-indigo-300 bg-indigo-500/10 border-indigo-500/20'
+                badge: 'text-indigo-300 bg-indigo-500/10 border-indigo-500/20'
             },
             purple: {
                 icon: 'text-purple-400 bg-purple-500/10 border-purple-500/20',
-                pill: 'text-purple-300 bg-purple-500/10 border-purple-500/20'
+                badge: 'text-purple-300 bg-purple-500/10 border-purple-500/20'
             },
             cyan: {
                 icon: 'text-vibrantCyan bg-vibrantCyan/10 border-vibrantCyan/20',
-                pill: 'text-cyan-200 bg-vibrantCyan/10 border-vibrantCyan/20'
+                badge: 'text-cyan-200 bg-vibrantCyan/10 border-vibrantCyan/20'
             }
         };
 
@@ -340,7 +317,7 @@
             languageFilters: document.getElementById('language-filters'),
             backendFilters: document.getElementById('backend-filters'),
             grid: document.getElementById('project-grid'),
-            featured: document.getElementById('project-featured'),
+            detail: document.getElementById('project-detail'),
             empty: document.getElementById('empty-state'),
             count: document.getElementById('results-count')
         };
@@ -373,7 +350,7 @@
         function selectProject(slug) {
             state.selectedSlug = slug;
             renderProjects();
-            renderFeatured();
+            renderDetail();
         }
 
         function renderProjects() {
@@ -382,33 +359,47 @@
             els.empty.classList.toggle('hidden', projects.length > 0);
 
             els.grid.innerHTML = projects.map(project => {
-                const currentTheme = theme(project);
                 const active = state.selectedSlug === project.slug;
-
+                const currentTheme = theme(project);
                 return `
-                    <article class="project-card surface rounded-[28px] p-6 flex flex-col ${active ? 'is-selected' : ''}">
-                        <div class="flex items-start justify-between gap-4 mb-6">
+                    <article class="project-card surface rounded-3xl p-6 ${active ? 'is-selected' : ''}">
+                        <div class="flex justify-between items-start gap-4 mb-6">
                             <div class="w-12 h-12 rounded-2xl border flex items-center justify-center ${currentTheme.icon}">
                                 <i class="fa-solid ${project.icon}"></i>
                             </div>
-                            <div class="flex flex-wrap gap-2 justify-end">
-                                <span class="px-2.5 py-1 rounded-full border text-[10px] font-bold uppercase tracking-[0.18em] ${currentTheme.pill}">${project.category}</span>
+                            <div class="flex flex-wrap justify-end gap-2">
+                                <span class="px-2.5 py-1 rounded-full border text-[10px] font-bold uppercase tracking-[0.18em] ${currentTheme.badge}">${project.category}</span>
                                 <span class="px-2.5 py-1 rounded-full border border-white/10 bg-white/5 text-[10px] font-bold uppercase tracking-[0.18em] text-slate-300">${project.status}</span>
                             </div>
                         </div>
 
                         <div class="mb-4">
-                            <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-3">${project.type}</div>
-                            <h3 class="text-2xl font-semibold text-white mb-3">${project.name}</h3>
-                            <p class="text-base text-slate-300 leading-relaxed line-clamp-2 mb-4">${project.headline}</p>
+                            <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">${project.type}</div>
+                            <h3 class="text-2xl font-bold text-white mb-3">${project.name}</h3>
+                            <p class="text-sm text-slate-300 leading-relaxed mb-4">${project.headline}</p>
                         </div>
 
                         <div class="rounded-2xl bg-white/4 border border-white/5 p-4 mb-5">
                             <div class="text-[10px] uppercase tracking-[0.18em] text-slate-500 font-mono mb-2">Problema</div>
-                            <p class="text-sm text-slate-300 leading-relaxed line-clamp-3">${project.problem}</p>
+                            <p class="text-sm text-slate-300 leading-relaxed">${project.problem}</p>
                         </div>
 
-                        <div class="mt-auto flex flex-col sm:flex-row gap-3">
+                        <div class="flex flex-wrap gap-2 mb-5">
+                            ${project.languages.slice(0, 4).map(item => `<span class="px-2.5 py-1 rounded-full bg-white/4 border border-white/5 text-xs text-slate-300">${item}</span>`).join('')}
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-3 mb-5 text-sm">
+                            <div class="rounded-2xl bg-slate-950/60 border border-white/5 p-3">
+                                <div class="text-[10px] uppercase tracking-[0.18em] text-slate-500 font-mono mb-2">Front</div>
+                                <div class="text-slate-200">${project.frontend[0]}</div>
+                            </div>
+                            <div class="rounded-2xl bg-slate-950/60 border border-white/5 p-3">
+                                <div class="text-[10px] uppercase tracking-[0.18em] text-slate-500 font-mono mb-2">Back</div>
+                                <div class="text-slate-200">${project.backendMode}</div>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col sm:flex-row gap-3">
                             <button class="flex-1 px-4 py-3 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 text-sm font-semibold text-white transition-colors" data-select-project="${project.slug}">
                                 Ver detalhes
                             </button>
@@ -425,85 +416,93 @@
             });
         }
 
-        function renderFeatured() {
+        function renderDetail() {
             const projects = getProjects();
             const project = projects.find(item => item.slug === state.selectedSlug) || projects[0] || state.projects[0];
 
             if (!project) {
-                els.featured.innerHTML = '<p class="text-slate-500">Nenhum projeto encontrado.</p>';
+                els.detail.innerHTML = '<p class="text-slate-500">Nenhum projeto encontrado.</p>';
                 return;
             }
 
             state.selectedSlug = project.slug;
             const currentTheme = theme(project);
 
-            els.featured.innerHTML = `
-                <div class="grid lg:grid-cols-[1.1fr_0.9fr] gap-8 items-start">
-                    <div>
-                        <div class="flex items-center gap-3 mb-5">
-                            <div class="w-12 h-12 rounded-2xl border flex items-center justify-center ${currentTheme.icon}">
-                                <i class="fa-solid ${project.icon}"></i>
-                            </div>
-                            <div class="flex flex-wrap gap-2">
-                                <span class="px-2.5 py-1 rounded-full border text-[10px] font-bold uppercase tracking-[0.18em] ${currentTheme.pill}">${project.type}</span>
-                                <span class="px-2.5 py-1 rounded-full border border-white/10 bg-white/5 text-[10px] font-bold uppercase tracking-[0.18em] text-slate-300">${project.status}</span>
-                            </div>
+            els.detail.innerHTML = `
+                <div class="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6 mb-8">
+                    <div class="max-w-3xl">
+                        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border text-[10px] font-bold uppercase tracking-[0.18em] ${currentTheme.badge} mb-4">
+                            ${project.type} · ${project.category}
                         </div>
-
-                        <h3 class="text-3xl md:text-5xl font-semibold tracking-tight text-white mb-4">${project.name}</h3>
-                        <p class="text-lg text-slate-300 leading-relaxed max-w-2xl mb-6">${project.summary}</p>
-
-                        <div class="grid sm:grid-cols-2 gap-4 mb-6">
-                            <section class="surface-soft rounded-2xl p-5">
-                                <div class="text-[10px] uppercase tracking-[0.18em] text-slate-500 font-mono mb-2">Problema que resolve</div>
-                                <p class="text-sm text-slate-300 leading-relaxed">${project.problem}</p>
-                            </section>
-                            <section class="surface-soft rounded-2xl p-5">
-                                <div class="text-[10px] uppercase tracking-[0.18em] text-slate-500 font-mono mb-2">Resultado</div>
-                                <p class="text-sm text-slate-300 leading-relaxed">${project.outcome || project.intent}</p>
-                            </section>
-                        </div>
-
-                        <div class="flex flex-col sm:flex-row gap-3">
-                            <a href="${project.projectUrl}" class="px-6 py-3 rounded-xl bg-vibrantCyan text-slate-950 hover:bg-cyan-400 text-sm font-bold text-center transition-colors">
-                                ${project.ctaLabel}
-                            </a>
-                            <a href="${project.readmeUrl}" class="px-6 py-3 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 text-sm font-semibold text-white text-center transition-colors">
-                                Ver README
-                            </a>
-                        </div>
+                        <h3 class="text-3xl md:text-4xl font-bold text-white mb-3">${project.name}</h3>
+                        <p class="text-base text-slate-400 leading-relaxed">${project.summary}</p>
                     </div>
+                    <div class="flex gap-3">
+                        <a href="${project.projectUrl}" class="px-5 py-3 rounded-xl bg-vibrantCyan text-slate-950 hover:bg-cyan-400 text-sm font-bold text-center transition-colors">
+                            ${project.ctaLabel}
+                        </a>
+                        <a href="${project.readmeUrl}" class="px-5 py-3 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 text-sm font-semibold text-white text-center transition-colors">
+                            Ver README
+                        </a>
+                    </div>
+                </div>
 
+                <div class="grid lg:grid-cols-[1.1fr_0.9fr] gap-6 mb-6">
                     <div class="space-y-4">
-                        <section class="surface-soft rounded-2xl p-5">
-                            <div class="text-[10px] uppercase tracking-[0.18em] text-slate-500 font-mono mb-3">Como usar</div>
-                            <ol class="space-y-3 text-sm text-slate-300 leading-relaxed">
-                                ${(project.useSteps || []).map((step, index) => `
-                                    <li class="flex gap-3">
-                                        <span class="w-7 h-7 rounded-full bg-vibrantCyan/10 text-vibrantCyan border border-vibrantCyan/20 flex items-center justify-center text-xs font-bold flex-shrink-0">${index + 1}</span>
-                                        <span>${step}</span>
-                                    </li>
-                                `).join('')}
-                            </ol>
+                        <section class="rounded-2xl bg-white/4 border border-white/5 p-5">
+                            <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Problema que resolve</div>
+                            <p class="text-sm text-slate-300 leading-relaxed">${project.problem}</p>
                         </section>
 
-                        <section class="surface-soft rounded-2xl p-5">
-                            <div class="text-[10px] uppercase tracking-[0.18em] text-slate-500 font-mono mb-3">Snapshot tecnico</div>
-                            <div class="grid grid-cols-2 gap-4 text-sm">
-                                <div>
-                                    <div class="text-slate-500 font-mono text-[10px] uppercase tracking-[0.18em] mb-2">Front</div>
-                                    <div class="text-slate-200">${project.frontend[0]}</div>
-                                </div>
-                                <div>
-                                    <div class="text-slate-500 font-mono text-[10px] uppercase tracking-[0.18em] mb-2">Back</div>
-                                    <div class="text-slate-200">${project.backendMode}</div>
-                                </div>
-                            </div>
-                            <div class="flex flex-wrap gap-2 mt-4">
-                                ${project.languages.map(item => `<span class="px-2.5 py-1 rounded-full bg-slate-950/70 border border-white/5 text-xs text-slate-300">${item}</span>`).join('')}
-                            </div>
+                        <section class="rounded-2xl bg-white/4 border border-white/5 p-5">
+                            <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Como resolve</div>
+                            <p class="text-sm text-slate-300 leading-relaxed">${project.solution}</p>
+                        </section>
+
+                        <section class="rounded-2xl bg-white/4 border border-white/5 p-5">
+                            <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Resultado</div>
+                            <p class="text-sm text-slate-300 leading-relaxed">${project.outcome || project.intent}</p>
                         </section>
                     </div>
+
+                    <section class="rounded-2xl bg-slate-950/60 border border-white/5 p-5">
+                        <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-4">Como usar</div>
+                        <ol class="space-y-3 text-sm text-slate-300 leading-relaxed">
+                            ${(project.useSteps || []).map((step, index) => `
+                                <li class="flex gap-3">
+                                    <span class="w-7 h-7 rounded-full bg-vibrantCyan/10 text-vibrantCyan border border-vibrantCyan/20 flex items-center justify-center text-xs font-bold flex-shrink-0">${index + 1}</span>
+                                    <span>${step}</span>
+                                </li>
+                            `).join('')}
+                        </ol>
+                    </section>
+                </div>
+
+                <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-4">
+                    <section class="rounded-2xl bg-white/4 border border-white/5 p-5">
+                        <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-3">Front</div>
+                        <ul class="space-y-2 text-sm text-slate-300">
+                            ${project.frontend.map(item => `<li>${item}</li>`).join('')}
+                        </ul>
+                    </section>
+                    <section class="rounded-2xl bg-white/4 border border-white/5 p-5">
+                        <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-3">Back</div>
+                        <ul class="space-y-2 text-sm text-slate-300">
+                            ${project.backend.map(item => `<li>${item}</li>`).join('')}
+                        </ul>
+                    </section>
+                    <section class="rounded-2xl bg-white/4 border border-white/5 p-5">
+                        <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-3">Linguagens</div>
+                        <div class="flex flex-wrap gap-2">
+                            ${project.languages.map(item => `<span class="px-2.5 py-1 rounded-full bg-slate-950/70 border border-white/5 text-xs text-slate-300">${item}</span>`).join('')}
+                        </div>
+                    </section>
+                    <section class="rounded-2xl bg-white/4 border border-white/5 p-5">
+                        <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-3">Automacoes</div>
+                        <ul class="space-y-2 text-sm text-slate-300">
+                            ${project.automation.map(item => `<li>${item}</li>`).join('')}
+                        </ul>
+                    </section>
                 </div>
             `;
         }
@@ -518,7 +517,7 @@
                     state.filters[button.dataset.filterKey] = button.dataset.filterValue;
                     renderFilters();
                     renderProjects();
-                    renderFeatured();
+                    renderDetail();
                 });
             });
         }
@@ -531,11 +530,11 @@
                 state.selectedSlug = state.projects[0]?.slug || null;
                 renderFilters();
                 renderProjects();
-                renderFeatured();
+                renderDetail();
             } catch (error) {
                 console.error(error);
                 els.count.textContent = 'Falha ao carregar projetos';
-                els.featured.innerHTML = `
+                els.detail.innerHTML = `
                     <div class="rounded-2xl border border-red-500/20 bg-red-500/5 p-5 text-sm text-slate-300">
                         <div class="flex items-center gap-3 text-red-400 font-bold mb-3">
                             <i class="fa-solid fa-triangle-exclamation"></i>
