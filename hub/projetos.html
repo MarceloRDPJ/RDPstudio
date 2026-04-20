@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RDP Studio | Projetos</title>
-    <meta name="description" content="Portfólio de projetos da RDP Studio: Automação, Segurança e Inteligência Artificial.">
+    <meta name="description" content="Catalogo tecnico dos projetos da RDP Studio com arquitetura, stack, automacoes, front, back e status de entrega.">
     <link rel="apple-touch-icon" sizes="180x180" href="../assets/site/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/site/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/site/favicon-16x16.png">
@@ -28,8 +28,17 @@
                         sans: ['Inter', 'sans-serif'],
                         mono: ['JetBrains Mono', 'monospace'],
                     },
+                    boxShadow: {
+                        glow: '0 20px 45px -25px rgba(0, 180, 216, 0.45)',
+                    },
                     animation: {
                         'fade-in-up': 'fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards',
+                    },
+                    keyframes: {
+                        fadeInUp: {
+                            from: { opacity: '0', transform: 'translateY(18px)' },
+                            to: { opacity: '1', transform: 'translateY(0)' }
+                        }
                     }
                 }
             }
@@ -39,299 +48,313 @@
         body {
             font-family: 'Inter', sans-serif;
             background-color: #020617;
-            background-image: radial-gradient(circle at 15% 50%, rgba(30, 58, 95, 0.15), transparent 25%), radial-gradient(circle at 85% 30%, rgba(0, 180, 216, 0.1), transparent 25%);
+            background-image:
+                radial-gradient(circle at 15% 18%, rgba(0, 180, 216, 0.10), transparent 20%),
+                radial-gradient(circle at 85% 20%, rgba(245, 158, 11, 0.08), transparent 22%),
+                radial-gradient(circle at 50% 90%, rgba(30, 58, 95, 0.18), transparent 28%);
             background-attachment: fixed;
             color: #F8FAFC;
         }
+
         .glass-card {
-            background: rgba(30, 41, 59, 0.4);
-            backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.05);
-            transition: all 0.3s ease;
+            background: rgba(15, 23, 42, 0.72);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.06);
         }
+
         .text-gradient {
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-image: linear-gradient(to right, #00B4D8, #38bdf8, #10B981);
         }
-        .nav-link { color: #94a3b8; transition: color 0.3s; }
-        .nav-link:hover, .nav-link.active { color: #fff; }
 
-        @keyframes fadeInUp { to { opacity: 1; transform: translateY(0); } }
-        .fade-in-up { opacity: 0; transform: translateY(20px); animation: fadeInUp 0.8s forwards; }
+        .nav-link {
+            color: #94a3b8;
+            transition: color 0.25s ease;
+        }
+
+        .nav-link:hover,
+        .nav-link.active {
+            color: #fff;
+        }
+
+        .filter-chip {
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            background: rgba(255, 255, 255, 0.04);
+            color: #94a3b8;
+            transition: all 0.2s ease;
+        }
+
+        .filter-chip:hover {
+            color: #fff;
+            border-color: rgba(255, 255, 255, 0.22);
+        }
+
+        .filter-chip.is-active {
+            background: rgba(0, 180, 216, 0.12);
+            color: #fff;
+            border-color: rgba(0, 180, 216, 0.55);
+            box-shadow: 0 0 0 1px rgba(0, 180, 216, 0.12) inset;
+        }
+
+        .project-card {
+            transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+        }
+
+        .project-card:hover,
+        .project-card.is-selected {
+            transform: translateY(-4px);
+            border-color: rgba(0, 180, 216, 0.32);
+            box-shadow: 0 24px 50px -30px rgba(0, 180, 216, 0.45);
+        }
+
+        .fade-in-up {
+            opacity: 0;
+            animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+
+        .watermark-container::after {
+            content: "© 2026 RDP STUDIO. Desenvolvido por Marcelo Rodrigues.";
+            font-size: 0.75rem;
+            color: #64748b;
+            opacity: 0.45;
+        }
 
         .custom-scrollbar {
             scrollbar-width: thin;
             scrollbar-color: rgba(30, 58, 95, 0.8) rgba(2, 6, 23, 0.5);
         }
-        .custom-scrollbar::-webkit-scrollbar { width: 6px; }
-        .custom-scrollbar::-webkit-scrollbar-track { background: rgba(2, 6, 23, 0.3); border-radius: 4px; }
-        .custom-scrollbar::-webkit-scrollbar-thumb { background-color: rgba(30, 58, 95, 0.6); border-radius: 4px; border: 1px solid rgba(255, 255, 255, 0.05); }
-        .custom-scrollbar::-webkit-scrollbar-thumb:hover { background-color: #00B4D8; }
 
-        /* --- FOCUS CARDS (Efeito Túnel) --- */
-        .card-container:hover .project-card {
-            opacity: 0.4;
-            filter: blur(2px);
-            transform: scale(0.98);
-        }
-        .card-container:hover .project-card:hover {
-            opacity: 1;
-            filter: blur(0);
-            transform: scale(1.02);
-            z-index: 10;
-            box-shadow: 0 25px 50px -12px rgba(0, 180, 216, 0.25);
-            border-color: rgba(0, 180, 216, 0.5);
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
         }
 
-        /* Card Design */
-        .project-card {
-            background: rgba(11, 15, 23, 0.6);
-            backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.05);
-            border-radius: 16px;
-            transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
-            position: relative;
-            overflow: hidden;
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: rgba(2, 6, 23, 0.3);
+            border-radius: 999px;
         }
 
-        /* Shine Effect */
-        .project-card::before {
-            content: '';
-            position: absolute;
-            top: 0; left: -100%; width: 50%; height: 100%;
-            background: linear-gradient(to right, transparent, rgba(255,255,255,0.05), transparent);
-            transform: skewX(-25deg);
-            transition: 0.5s;
-            pointer-events: none;
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: rgba(30, 58, 95, 0.7);
+            border-radius: 999px;
         }
-        .project-card:hover::before {
-            left: 150%;
-            transition: 0.7s ease-in-out;
+
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background-color: #00B4D8;
         }
     </style>
 </head>
 <body class="antialiased selection:bg-vibrantCyan selection:text-white">
-
     <div class="max-w-7xl mx-auto px-6 py-6 min-h-screen flex flex-col relative">
-
-        <!-- Header -->
-        <header class="flex justify-between items-center mb-12 relative z-50">
+        <header class="flex justify-between items-center mb-10 relative z-50">
             <a href="../index.html" class="flex items-center gap-4 group">
                 <div class="w-10 h-10 rounded-xl glass-card flex items-center justify-center p-1">
-                     <img src="../assets/images/branding/logo.png" alt="Logo" class="w-full h-full object-contain group-hover:scale-110 transition-transform">
+                    <img src="../assets/images/branding/logo.png" alt="Logo" class="w-full h-full object-contain group-hover:scale-110 transition-transform">
                 </div>
                 <h1 class="text-xl font-bold tracking-tight text-white">RDP <span class="text-vibrantCyan font-light">STUDIO</span></h1>
             </a>
 
-            <!-- Nav (Desktop) -->
             <nav class="hidden md:flex items-center gap-8 text-sm font-medium">
                 <a href="../index.html" class="nav-link">Home</a>
                 <a href="projetos.html" class="nav-link active text-vibrantCyan">Projetos</a>
                 <a href="../index.html#empresa" class="nav-link">A Empresa</a>
                 <a href="sobre.html" class="nav-link">Sobre Mim</a>
-                <a href="https://wa.me/5562996780498" target="_blank" class="px-4 py-2 rounded-lg bg-vibrantCyan/10 text-vibrantCyan hover:bg-vibrantCyan hover:text-white transition-all">Contato</a>
+                <a href="https://wa.me/5562996780498" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-lg bg-vibrantCyan/10 text-vibrantCyan hover:bg-vibrantCyan hover:text-white transition-all">Contato</a>
             </nav>
 
-            <!-- Mobile Menu Button -->
-            <button id="mobile-menu-btn" class="md:hidden text-white text-2xl p-2 z-50 relative group">
+            <button id="mobile-menu-btn" class="md:hidden text-white text-2xl p-2 z-50 relative group" aria-label="Abrir menu">
                 <div class="absolute inset-0 bg-white/5 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity"></div>
                 <i class="fa-solid fa-bars relative z-10"></i>
             </button>
         </header>
 
-        <!-- Mobile Menu Overlay -->
         <div id="mobile-menu-overlay" class="fixed inset-0 z-40 bg-slate-900/95 backdrop-blur-xl transform translate-x-full transition-transform duration-300 flex flex-col items-center justify-center space-y-8 md:hidden">
             <a href="../index.html" class="text-2xl font-bold text-white hover:text-vibrantCyan transition-colors mobile-link">Home</a>
             <a href="projetos.html" class="text-2xl font-bold text-vibrantCyan hover:text-vibrantCyan transition-colors mobile-link">Projetos</a>
             <a href="../index.html#empresa" class="text-2xl font-bold text-white hover:text-vibrantCyan transition-colors mobile-link">A Empresa</a>
             <a href="sobre.html" class="text-2xl font-bold text-white hover:text-vibrantCyan transition-colors mobile-link">Sobre Mim</a>
-            <a href="https://wa.me/5562996780498" target="_blank" class="px-8 py-3 rounded-full bg-vibrantCyan text-white font-bold text-lg shadow-lg shadow-vibrantCyan/20 mobile-link">Contato</a>
+            <a href="https://wa.me/5562996780498" target="_blank" rel="noopener noreferrer" class="px-8 py-3 rounded-full bg-vibrantCyan text-white font-bold text-lg shadow-lg shadow-vibrantCyan/20 mobile-link">Contato</a>
         </div>
 
-        <!-- Main Content -->
-        <main class="flex-grow flex flex-col justify-start space-y-12">
-
-            <!-- Title Section -->
-            <div class="text-center fade-in-up">
-                <h2 class="text-4xl md:text-5xl font-bold mb-4">Portfólio de <span class="text-gradient">Inovação</span></h2>
-                <p class="text-slate-400 max-w-2xl mx-auto">
-                    Explore soluções desenvolvidas com foco em performance, segurança e automação.
-                </p>
-            </div>
-
-            <!-- GRID DE SOLUÇÕES (Card Container for Focus Effect) -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 card-container fade-in-up" style="animation-delay: 0.1s;">
-
-                <!-- CARD 1: RDP Insider -->
-                <article class="project-card group cursor-pointer flex flex-col h-full" onclick="window.location='../projects/scanner-game-free/index.html'">
-                    <div class="p-8 flex flex-col h-full">
-                        <div class="flex justify-between items-start mb-6">
-                            <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-pink-500/10 to-purple-500/10 border border-pink-500/20 flex items-center justify-center text-pink-400 group-hover:scale-110 transition-transform duration-300">
-                                <i class="fa-solid fa-satellite-dish text-xl"></i>
-                            </div>
-                            <span class="px-2 py-1 bg-white/5 rounded text-[10px] font-mono text-slate-400 border border-white/5 uppercase">Market Intel</span>
+        <main class="flex-grow flex flex-col gap-8 md:gap-10">
+            <section class="grid lg:grid-cols-[1.4fr_0.9fr] gap-6 lg:gap-8 items-stretch fade-in-up">
+                <div class="glass-card rounded-3xl p-8 md:p-10 border border-white/5 shadow-glow overflow-hidden relative">
+                    <div class="absolute top-0 right-0 w-56 h-56 bg-vibrantCyan/10 blur-3xl rounded-full -translate-y-1/3 translate-x-1/3 pointer-events-none"></div>
+                    <div class="relative z-10">
+                        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-xs uppercase tracking-[0.25em] text-slate-400 font-mono mb-6">
+                            Catalogo Tecnico
                         </div>
-                        <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-pink-400 transition-colors">RDP Insider</h3>
-                        <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-grow">
-                            <strong class="text-slate-200">O Problema:</strong> Falta de visibilidade de preços e leaks em tempo real.<br>
-                            <strong class="text-slate-200">A Solução:</strong> Crawlers distribuídos que monitoram o mercado (Epic/Steam) e geram insights.
+                        <h2 class="text-4xl md:text-5xl font-bold leading-tight mb-5">
+                            Projetos organizados por <span class="text-gradient">intencao, arquitetura e entrega</span>
+                        </h2>
+                        <p class="text-slate-300 text-base md:text-lg max-w-3xl leading-relaxed mb-8">
+                            Esta pagina deixa de ser apenas uma vitrine. Agora cada projeto explica o que resolve, como foi estruturado, qual parte roda no front, o que existe de back, quais automacoes sustentam a entrega e o que continua 100% compativel com GitHub Pages e Cloudflare Pages.
                         </p>
-                        <div class="flex gap-2 mb-8 border-t border-white/5 pt-4">
-                            <i class="fa-brands fa-python text-slate-500 hover:text-white transition" title="Python"></i>
-                            <i class="fa-solid fa-database text-slate-500 hover:text-white transition" title="Database"></i>
-                            <i class="fa-solid fa-bolt text-slate-500 hover:text-white transition" title="FastAPI"></i>
-                        </div>
-                        <button class="w-full py-3 rounded-lg bg-white/5 border border-white/10 text-white font-semibold text-sm group-hover:bg-pink-600 group-hover:border-pink-600 transition-all flex items-center justify-center gap-2">
-                            Ver Dashboard
-                            <i class="fa-solid fa-arrow-right text-xs transition-transform group-hover:translate-x-1"></i>
-                        </button>
-                    </div>
-                </article>
-
-                <!-- CARD 2: Validador Firewall -->
-                <article class="project-card group cursor-pointer flex flex-col h-full" onclick="window.location='../projects/validador-firewall/index.html'">
-                    <div class="p-8 flex flex-col h-full">
-                        <div class="flex justify-between items-start mb-6">
-                            <div class="w-12 h-12 rounded-xl bg-energeticAmber/10 border border-energeticAmber/20 flex items-center justify-center text-energeticAmber group-hover:scale-110 transition-transform duration-300">
-                                <i class="fa-solid fa-shield-cat text-xl"></i>
+                        <div class="grid sm:grid-cols-3 gap-3">
+                            <div class="rounded-2xl border border-white/5 bg-white/5 p-4">
+                                <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Estrutura</div>
+                                <p class="text-sm text-slate-300">Catalogo orientado por metadados com filtros, sem romper os caminhos atuais.</p>
                             </div>
-                            <span class="px-2 py-1 bg-white/5 rounded text-[10px] font-mono text-slate-400 border border-white/5 uppercase">SecOps</span>
-                        </div>
-                        <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-energeticAmber transition-colors">Validador Fortigate</h3>
-                        <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-grow">
-                            <strong class="text-slate-200">O Problema:</strong> Erros humanos críticos em migrações de firewall.<br>
-                            <strong class="text-slate-200">A Solução:</strong> Engine de sanitização que garante integridade zero-erro em scripts CLI.
-                        </p>
-                        <div class="flex gap-2 mb-8 border-t border-white/5 pt-4">
-                            <i class="fa-brands fa-js text-slate-500 hover:text-white transition"></i>
-                            <i class="fa-solid fa-network-wired text-slate-500 hover:text-white transition"></i>
-                        </div>
-                        <button class="w-full py-3 rounded-lg bg-white/5 border border-white/10 text-white font-semibold text-sm group-hover:bg-energeticAmber group-hover:border-energeticAmber transition-all flex items-center justify-center gap-2">
-                            Iniciar Ferramenta
-                            <i class="fa-solid fa-play text-xs"></i>
-                        </button>
-                    </div>
-                </article>
-
-                <!-- CARD 3: GLPI Automator -->
-                <article class="project-card group cursor-pointer flex flex-col h-full" onclick="window.location='../projects/abertura-chamados-glpi/index.html'">
-                    <div class="p-8 flex flex-col h-full">
-                        <div class="flex justify-between items-start mb-6">
-                            <div class="w-12 h-12 rounded-xl bg-indigo-500/10 border border-indigo-500/20 flex items-center justify-center text-indigo-500 group-hover:scale-110 transition-transform duration-300">
-                                <i class="fa-solid fa-server text-xl"></i>
+                            <div class="rounded-2xl border border-white/5 bg-white/5 p-4">
+                                <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Arquitetura</div>
+                                <p class="text-sm text-slate-300">Separacao clara entre produtos estaticos, ferramentas client-side e cases com backend privado.</p>
                             </div>
-                            <span class="px-2 py-1 bg-white/5 rounded text-[10px] font-mono text-slate-400 border border-white/5 uppercase">Automation</span>
-                        </div>
-                        <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-indigo-500 transition-colors">GLPI Automator</h3>
-                        <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-grow">
-                            <strong class="text-slate-200">O Problema:</strong> 30% do tempo da equipe gasto abrindo tickets manuais.<br>
-                            <strong class="text-slate-200">A Solução:</strong> Automação Python que gerencia abertura em lote e evidências via API.
-                        </p>
-                        <div class="flex gap-2 mb-8 border-t border-white/5 pt-4">
-                            <i class="fa-brands fa-python text-slate-500 hover:text-white transition"></i>
-                            <i class="fa-solid fa-gears text-slate-500 hover:text-white transition"></i>
-                        </div>
-                        <button class="w-full py-3 rounded-lg bg-white/5 border border-white/10 text-white font-semibold text-sm group-hover:bg-indigo-600 group-hover:border-indigo-600 transition-all flex items-center justify-center gap-2">
-                            Ler Documentação
-                            <i class="fa-solid fa-file-code text-xs"></i>
-                        </button>
-                    </div>
-                </article>
-
-                <!-- CARD 4: Sales AI Agent -->
-                <article class="project-card group cursor-pointer flex flex-col h-full" onclick="window.location='../projects/assistente-vendas-ia/index.html'">
-                    <div class="p-8 flex flex-col h-full">
-                        <div class="flex justify-between items-start mb-6">
-                            <div class="w-12 h-12 rounded-xl bg-purple-500/10 border border-purple-500/20 flex items-center justify-center text-purple-500 group-hover:scale-110 transition-transform duration-300">
-                                <i class="fa-solid fa-robot text-xl"></i>
+                            <div class="rounded-2xl border border-white/5 bg-white/5 p-4">
+                                <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Hospedagem</div>
+                                <p class="text-sm text-slate-300">Modelo pronto para manter no Pages atual e evoluir para Cloudflare sem reescrever a base.</p>
                             </div>
-                            <span class="px-2 py-1 bg-white/5 rounded text-[10px] font-mono text-slate-400 border border-white/5 uppercase">AI Agent</span>
                         </div>
-                        <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-purple-500 transition-colors">Sales AI Agent</h3>
-                        <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-grow">
-                            <strong class="text-slate-200">O Problema:</strong> Gargalo no atendimento ao cliente e conferência financeira.<br>
-                            <strong class="text-slate-200">A Solução:</strong> Agente autônomo com Visão Computacional (Gemini) para vendas no WhatsApp/Telegram.
-                        </p>
-                        <div class="flex gap-2 mb-8 border-t border-white/5 pt-4">
-                            <i class="fa-solid fa-brain text-slate-500 hover:text-white transition"></i>
-                            <i class="fa-brands fa-telegram text-slate-500 hover:text-white transition"></i>
-                        </div>
-                        <button class="w-full py-3 rounded-lg bg-white/5 border border-white/10 text-white font-semibold text-sm group-hover:bg-purple-600 group-hover:border-purple-600 transition-all flex items-center justify-center gap-2">
-                            Testar Bot
-                            <i class="fa-brands fa-telegram text-xs"></i>
-                        </button>
                     </div>
-                </article>
+                </div>
 
-                <!-- CARD 5: Relatório Interativo -->
-                <article class="project-card group cursor-pointer flex flex-col h-full" onclick="window.location='../projects/relatorio-interativo/index.html'">
-                    <div class="p-8 flex flex-col h-full">
-                        <div class="flex justify-between items-start mb-6">
-                            <div class="w-12 h-12 rounded-xl bg-vibrantCyan/10 border border-vibrantCyan/20 flex items-center justify-center text-vibrantCyan group-hover:scale-110 transition-transform duration-300">
-                                <i class="fa-solid fa-chart-pie text-xl"></i>
+                <div class="glass-card rounded-3xl p-6 md:p-8 border border-white/5 flex flex-col justify-between fade-in-up" style="animation-delay:0.1s;">
+                    <div>
+                        <div class="flex items-center justify-between gap-4 mb-6">
+                            <h3 class="text-lg font-bold text-white">Leitura da Plataforma</h3>
+                            <span class="px-3 py-1 rounded-full bg-trustGreen/10 text-trustGreen border border-trustGreen/20 text-xs font-bold uppercase tracking-wider">Static First</span>
+                        </div>
+                        <div class="space-y-4 text-sm text-slate-300 leading-relaxed">
+                            <div class="rounded-2xl bg-white/5 border border-white/5 p-4">
+                                <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Hoje</div>
+                                GitHub Pages atende bem porque o portfolio e composto por paginas estaticas, demos client-side e dados gerados offline.
                             </div>
-                            <span class="px-2 py-1 bg-white/5 rounded text-[10px] font-mono text-slate-400 border border-white/5 uppercase">BI Tools</span>
+                            <div class="rounded-2xl bg-white/5 border border-white/5 p-4">
+                                <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Proximo passo</div>
+                                Cloudflare Pages faz sentido como evolucao de distribuicao, preview e regras de edge, nao como exigencia tecnica imediata.
+                            </div>
                         </div>
-                        <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-vibrantCyan transition-colors">Relatório Interativo</h3>
-                        <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-grow">
-                            <strong class="text-slate-200">O Problema:</strong> Tempo excessivo montando formulários e relatórios financeiros manuais.<br>
-                            <strong class="text-slate-200">A Solução:</strong> Dashboard interativo que processa Excel/CSV instantaneamente e emite PDF.
-                        </p>
-                        <div class="flex gap-2 mb-8 border-t border-white/5 pt-4">
-                            <i class="fa-brands fa-js text-slate-500 hover:text-white transition" title="JavaScript"></i>
-                            <i class="fa-solid fa-chart-column text-slate-500 hover:text-white transition" title="Chart.js"></i>
-                            <i class="fa-solid fa-file-excel text-slate-500 hover:text-white transition" title="SheetJS"></i>
+                    </div>
+                    <div class="grid grid-cols-2 gap-3 mt-6">
+                        <div class="rounded-2xl border border-white/5 bg-slate-950/50 p-4">
+                            <div class="text-2xl font-extrabold text-white" id="metric-total-projects">0</div>
+                            <div class="text-xs uppercase tracking-[0.2em] text-slate-500 mt-2">Projetos</div>
                         </div>
-                        <button class="w-full py-3 rounded-lg bg-white/5 border border-white/10 text-white font-semibold text-sm group-hover:bg-vibrantCyan group-hover:border-vibrantCyan transition-all flex items-center justify-center gap-2">
-                            Abrir Dashboard
-                            <i class="fa-solid fa-arrow-right text-xs transition-transform group-hover:translate-x-1"></i>
-                        </button>
+                        <div class="rounded-2xl border border-white/5 bg-slate-950/50 p-4">
+                            <div class="text-2xl font-extrabold text-white" id="metric-live-projects">0</div>
+                            <div class="text-xs uppercase tracking-[0.2em] text-slate-500 mt-2">Com entrega navegavel</div>
+                        </div>
                     </div>
-                </article>
+                </div>
+            </section>
 
-                <!-- CARD 6: Futuro -->
-                <article class="project-card border-dashed border-slate-800 bg-transparent flex flex-col justify-center items-center h-full min-h-[300px] opacity-60 hover:opacity-100 transition-opacity">
-                    <div class="w-16 h-16 rounded-full bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-600 mb-4">
-                        <i class="fa-solid fa-plus text-2xl"></i>
+            <section class="grid xl:grid-cols-[1.2fr_0.8fr] gap-6 fade-in-up" style="animation-delay:0.15s;">
+                <div class="glass-card rounded-3xl p-6 md:p-8 border border-white/5">
+                    <div class="flex items-start justify-between gap-4 mb-6 flex-wrap">
+                        <div>
+                            <h3 class="text-2xl font-bold text-white">Mapa de Arquitetura</h3>
+                            <p class="text-sm text-slate-400 mt-2">Como os projetos se distribuem entre front, back e automacao sem exigir uma plataforma fullstack.</p>
+                        </div>
+                        <span class="px-3 py-1 rounded-full bg-vibrantCyan/10 text-vibrantCyan border border-vibrantCyan/20 text-xs font-bold uppercase tracking-wider">Compativel com Pages</span>
                     </div>
-                    <h3 class="text-lg font-bold text-slate-500">Próximo Projeto</h3>
-                    <p class="text-xs text-slate-600 mt-2 font-mono">Em desenvolvimento...</p>
-                </article>
+                    <div class="grid md:grid-cols-3 gap-4">
+                        <article class="rounded-2xl border border-white/5 bg-white/5 p-5">
+                            <div class="w-11 h-11 rounded-xl bg-vibrantCyan/10 text-vibrantCyan flex items-center justify-center mb-4">
+                                <i class="fa-solid fa-window-maximize"></i>
+                            </div>
+                            <h4 class="font-bold text-white mb-2">Front estatico forte</h4>
+                            <p class="text-sm text-slate-400">Hub, dashboards e landings rodam direto no navegador com foco em apresentacao, usabilidade e entrega visual.</p>
+                        </article>
+                        <article class="rounded-2xl border border-white/5 bg-white/5 p-5">
+                            <div class="w-11 h-11 rounded-xl bg-energeticAmber/10 text-energeticAmber flex items-center justify-center mb-4">
+                                <i class="fa-solid fa-database"></i>
+                            </div>
+                            <h4 class="font-bold text-white mb-2">Back desacoplado</h4>
+                            <p class="text-sm text-slate-400">Quando existe backend real, ele opera fora da hospedagem estatica ou fica documentado como case privado.</p>
+                        </article>
+                        <article class="rounded-2xl border border-white/5 bg-white/5 p-5">
+                            <div class="w-11 h-11 rounded-xl bg-trustGreen/10 text-trustGreen flex items-center justify-center mb-4">
+                                <i class="fa-solid fa-gears"></i>
+                            </div>
+                            <h4 class="font-bold text-white mb-2">Automacao como camada</h4>
+                            <p class="text-sm text-slate-400">GitHub Actions, crawlers e geradores locais sustentam atualizacao, ingestao e processamento sem acoplar um servidor publico.</p>
+                        </article>
+                    </div>
+                </div>
 
-            </div>
+                <div class="glass-card rounded-3xl p-6 md:p-8 border border-white/5">
+                    <h3 class="text-2xl font-bold text-white mb-5">GitHub Pages vs Cloudflare Pages</h3>
+                    <div class="space-y-4 text-sm text-slate-300 leading-relaxed">
+                        <div class="rounded-2xl border border-white/5 bg-trustGreen/5 p-4">
+                            <div class="text-xs uppercase tracking-[0.2em] text-trustGreen font-mono mb-2">Recomendacao atual</div>
+                            Manter arquitetura static-first. A migracao para Cloudflare Pages pode acontecer sem reescrever o portfolio, pois a estrutura continua orientada a HTML, assets e JSON.
+                        </div>
+                        <div class="rounded-2xl border border-white/5 bg-white/5 p-4">
+                            <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Quando vale migrar</div>
+                            Quando previews por branch, regras de cache, edge functions ou analytics mais fortes passarem a ser prioridade operacional.
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="glass-card rounded-3xl p-6 md:p-8 border border-white/5 fade-in-up custom-scrollbar" style="animation-delay:0.2s;">
+                <div class="flex flex-col gap-6">
+                    <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-4">
+                        <div>
+                            <h3 class="text-2xl font-bold text-white">Catalogo de Projetos</h3>
+                            <p class="text-sm text-slate-400 mt-2">Selecione um projeto para abrir a leitura detalhada. Os filtros ajudam a comparar tipo de entrega, linguagem e presenca de backend.</p>
+                        </div>
+                        <div class="text-sm text-slate-500 font-mono" id="results-count">Carregando projetos...</div>
+                    </div>
+
+                    <div class="grid gap-4">
+                        <div>
+                            <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Tipo</div>
+                            <div id="type-filters" class="flex flex-wrap gap-2"></div>
+                        </div>
+                        <div>
+                            <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Linguagem</div>
+                            <div id="language-filters" class="flex flex-wrap gap-2"></div>
+                        </div>
+                        <div>
+                            <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Backend</div>
+                            <div id="backend-filters" class="flex flex-wrap gap-2"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="grid xl:grid-cols-[1.1fr_0.9fr] gap-6 items-start fade-in-up" style="animation-delay:0.25s;">
+                <div>
+                    <div id="project-grid" class="grid md:grid-cols-2 gap-5"></div>
+                    <div id="empty-state" class="hidden glass-card rounded-3xl p-10 border border-dashed border-slate-800 text-center text-slate-500">
+                        <i class="fa-solid fa-magnifying-glass text-3xl mb-4"></i>
+                        <p>Nenhum projeto corresponde aos filtros atuais.</p>
+                    </div>
+                </div>
+
+                <aside class="xl:sticky xl:top-24">
+                    <div id="project-detail" class="glass-card rounded-3xl p-6 md:p-8 border border-white/5 min-h-[520px]">
+                        <div class="flex items-center gap-3 text-slate-500 text-sm">
+                            <i class="fa-solid fa-circle-notch animate-spin"></i>
+                            Carregando detalhe do projeto...
+                        </div>
+                    </div>
+                </aside>
+            </section>
         </main>
 
-        <!-- Footer -->
-        <footer class="border-t border-slate-800/50 pt-12 pb-8 mt-auto">
+        <footer class="border-t border-slate-800/50 pt-12 pb-8 mt-16">
             <div class="flex flex-col items-center text-center">
                 <div class="flex justify-center gap-8 mb-8">
-                    <a href="https://instagram.com/marcelo_rpj" target="_blank" aria-label="Instagram" class="text-slate-400 hover:text-vibrantCyan transition-colors text-2xl transform hover:scale-110 duration-200">
+                    <a href="https://instagram.com/marcelo_rpj" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="text-slate-400 hover:text-vibrantCyan transition-colors text-2xl transform hover:scale-110 duration-200">
                         <i class="fa-brands fa-instagram"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/marcelo-rodrigues-088478211/" target="_blank" aria-label="LinkedIn" class="text-slate-400 hover:text-vibrantCyan transition-colors text-2xl transform hover:scale-110 duration-200">
+                    <a href="https://www.linkedin.com/in/marcelo-rodrigues-088478211/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="text-slate-400 hover:text-vibrantCyan transition-colors text-2xl transform hover:scale-110 duration-200">
                         <i class="fa-brands fa-linkedin"></i>
                     </a>
                     <a href="mailto:rdpstudio@gmail.com" aria-label="Email" class="text-slate-400 hover:text-vibrantCyan transition-colors text-2xl transform hover:scale-110 duration-200">
                         <i class="fa-regular fa-envelope"></i>
                     </a>
                 </div>
-                <p class="text-sm text-slate-500 mb-2">
-                    © 2026 RDP STUDIO. Todos os direitos reservados.
-                </p>
-                <p class="text-xs text-slate-600 font-mono">
-                    Desenvolvido com <i class="fa-solid fa-heart text-red-900 animate-pulse"></i> por Marcelo Rodrigues
-                </p>
+                <p class="text-sm text-slate-500 mb-2">© 2026 RDP STUDIO. Todos os direitos reservados.</p>
+                <p class="text-xs text-slate-600 font-mono">Desenvolvido com <i class="fa-solid fa-heart text-red-900 animate-pulse"></i> por Marcelo Rodrigues</p>
                 <div class="watermark-container hidden"></div>
             </div>
         </footer>
-
     </div>
 
-    <!-- Scripts -->
     <script>
-        // --- MOBILE MENU LOGIC ---
         const menuBtn = document.getElementById('mobile-menu-btn');
         const menuOverlay = document.getElementById('mobile-menu-overlay');
         const mobileLinks = document.querySelectorAll('.mobile-link');
@@ -366,7 +389,6 @@
             });
         }
 
-        // --- SCROLL TO TOP LOGIC ---
         const scrollBtn = document.createElement('button');
         scrollBtn.innerHTML = '<i class="fa-solid fa-arrow-up"></i>';
         scrollBtn.className = 'fixed bottom-6 right-6 z-30 w-12 h-12 flex items-center justify-center bg-vibrantCyan text-white rounded-full shadow-lg opacity-0 pointer-events-none transition-all duration-300 hover:bg-cyan-600 hover:-translate-y-1';
@@ -383,6 +405,305 @@
         scrollBtn.addEventListener('click', () => {
             window.scrollTo({ top: 0, behavior: 'smooth' });
         });
+
+        const state = {
+            projects: [],
+            filters: {
+                type: 'Todos',
+                language: 'Todas',
+                backend: 'Todos'
+            },
+            selectedSlug: null
+        };
+
+        const colorThemes = {
+            pink: {
+                badge: 'bg-pink-500/10 text-pink-400 border-pink-500/20',
+                icon: 'bg-pink-500/10 text-pink-400 border-pink-500/20',
+                button: 'bg-pink-500 hover:bg-pink-400 text-white',
+                accent: 'text-pink-400'
+            },
+            amber: {
+                badge: 'bg-amber-500/10 text-amber-400 border-amber-500/20',
+                icon: 'bg-amber-500/10 text-amber-400 border-amber-500/20',
+                button: 'bg-amber-500 hover:bg-amber-400 text-slate-950',
+                accent: 'text-amber-400'
+            },
+            indigo: {
+                badge: 'bg-indigo-500/10 text-indigo-400 border-indigo-500/20',
+                icon: 'bg-indigo-500/10 text-indigo-400 border-indigo-500/20',
+                button: 'bg-indigo-500 hover:bg-indigo-400 text-white',
+                accent: 'text-indigo-400'
+            },
+            purple: {
+                badge: 'bg-purple-500/10 text-purple-400 border-purple-500/20',
+                icon: 'bg-purple-500/10 text-purple-400 border-purple-500/20',
+                button: 'bg-purple-500 hover:bg-purple-400 text-white',
+                accent: 'text-purple-400'
+            },
+            cyan: {
+                badge: 'bg-vibrantCyan/10 text-vibrantCyan border-vibrantCyan/20',
+                icon: 'bg-vibrantCyan/10 text-vibrantCyan border-vibrantCyan/20',
+                button: 'bg-vibrantCyan hover:bg-cyan-400 text-slate-950',
+                accent: 'text-vibrantCyan'
+            }
+        };
+
+        const els = {
+            typeFilters: document.getElementById('type-filters'),
+            languageFilters: document.getElementById('language-filters'),
+            backendFilters: document.getElementById('backend-filters'),
+            grid: document.getElementById('project-grid'),
+            detail: document.getElementById('project-detail'),
+            empty: document.getElementById('empty-state'),
+            count: document.getElementById('results-count'),
+            metricTotal: document.getElementById('metric-total-projects'),
+            metricLive: document.getElementById('metric-live-projects')
+        };
+
+        function uniqueValues(values) {
+            return Array.from(new Set(values)).sort((a, b) => a.localeCompare(b, 'pt-BR'));
+        }
+
+        function renderFilterGroup(container, options, active, key) {
+            container.innerHTML = options.map(option => `
+                <button class="filter-chip ${option === active ? 'is-active' : ''} px-3 py-2 rounded-full text-xs font-bold uppercase tracking-wider" data-filter-key="${key}" data-filter-value="${option}">
+                    ${option}
+                </button>
+            `).join('');
+        }
+
+        function getFilteredProjects() {
+            return state.projects.filter(project => {
+                const typeOk = state.filters.type === 'Todos' || project.type === state.filters.type;
+                const languageOk = state.filters.language === 'Todas' || project.languages.includes(state.filters.language);
+                const backendOk = state.filters.backend === 'Todos' || project.backendMode === state.filters.backend;
+                return typeOk && languageOk && backendOk;
+            });
+        }
+
+        function projectTheme(project) {
+            return colorThemes[project.primaryColor] || colorThemes.cyan;
+        }
+
+        function selectProject(slug) {
+            state.selectedSlug = slug;
+            renderProjects();
+            renderDetail();
+        }
+
+        function renderProjects() {
+            const filtered = getFilteredProjects();
+            els.count.textContent = `${filtered.length} projeto(s) visiveis`;
+            els.empty.classList.toggle('hidden', filtered.length > 0);
+            els.grid.innerHTML = filtered.map(project => {
+                const theme = projectTheme(project);
+                const selected = project.slug === state.selectedSlug;
+                return `
+                    <article class="project-card glass-card rounded-3xl p-6 border ${selected ? 'is-selected' : ''}">
+                        <div class="flex items-start justify-between gap-4 mb-5">
+                            <div class="w-12 h-12 rounded-2xl border flex items-center justify-center ${theme.icon}">
+                                <i class="fa-solid ${project.icon}"></i>
+                            </div>
+                            <div class="flex flex-wrap gap-2 justify-end">
+                                <span class="px-2.5 py-1 rounded-full border text-[10px] font-bold uppercase tracking-widest ${theme.badge}">${project.category}</span>
+                                <span class="px-2.5 py-1 rounded-full border border-white/10 bg-white/5 text-[10px] font-bold uppercase tracking-widest text-slate-300">${project.status}</span>
+                            </div>
+                        </div>
+
+                        <div class="mb-5">
+                            <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">${project.type}</div>
+                            <h3 class="text-2xl font-bold text-white mb-3">${project.name}</h3>
+                            <p class="text-sm text-slate-300 leading-relaxed mb-3">${project.headline}</p>
+                            <p class="text-sm text-slate-400 leading-relaxed">${project.summary}</p>
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-3 text-xs font-mono text-slate-400 mb-5">
+                            <div class="rounded-2xl bg-white/5 border border-white/5 p-3">
+                                <div class="uppercase tracking-[0.18em] text-slate-600 mb-2">Front</div>
+                                <div class="text-slate-300">${project.frontend[0]}</div>
+                            </div>
+                            <div class="rounded-2xl bg-white/5 border border-white/5 p-3">
+                                <div class="uppercase tracking-[0.18em] text-slate-600 mb-2">Back</div>
+                                <div class="text-slate-300">${project.backendMode}</div>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            ${project.languages.map(language => `<span class="px-2.5 py-1 rounded-full bg-slate-900/80 border border-white/5 text-[11px] text-slate-300">${language}</span>`).join('')}
+                        </div>
+
+                        <div class="flex flex-col sm:flex-row gap-3">
+                            <button class="flex-1 px-4 py-3 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 text-sm font-bold text-white transition-colors" data-select-project="${project.slug}">
+                                Ver leitura tecnica
+                            </button>
+                            <a href="${project.projectUrl}" class="flex-1 px-4 py-3 rounded-xl text-sm font-bold transition-colors text-center ${theme.button}">
+                                ${project.ctaLabel}
+                            </a>
+                        </div>
+                    </article>
+                `;
+            }).join('');
+
+            els.grid.querySelectorAll('[data-select-project]').forEach(button => {
+                button.addEventListener('click', () => selectProject(button.dataset.selectProject));
+            });
+        }
+
+        function renderDetail() {
+            const filtered = getFilteredProjects();
+            const selected = filtered.find(project => project.slug === state.selectedSlug) || filtered[0] || state.projects[0];
+
+            if (!selected) {
+                els.detail.innerHTML = `
+                    <div class="text-center text-slate-500 py-12">
+                        <i class="fa-solid fa-box-open text-3xl mb-4"></i>
+                        <p>Nenhum projeto carregado.</p>
+                    </div>
+                `;
+                return;
+            }
+
+            state.selectedSlug = selected.slug;
+            const theme = projectTheme(selected);
+
+            els.detail.innerHTML = `
+                <div class="flex flex-wrap items-start justify-between gap-4 mb-6">
+                    <div>
+                        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border ${theme.badge} text-xs font-bold uppercase tracking-widest mb-3">${selected.type}</div>
+                        <h3 class="text-3xl font-bold text-white mb-2">${selected.name}</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed max-w-2xl">${selected.intent}</p>
+                    </div>
+                    <div class="w-14 h-14 rounded-2xl border flex items-center justify-center ${theme.icon}">
+                        <i class="fa-solid ${selected.icon} text-xl"></i>
+                    </div>
+                </div>
+
+                <div class="space-y-4 mb-6">
+                    <div class="rounded-2xl border border-white/5 bg-white/5 p-5">
+                        <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Problema</div>
+                        <p class="text-sm text-slate-300 leading-relaxed">${selected.problem}</p>
+                    </div>
+                    <div class="rounded-2xl border border-white/5 bg-white/5 p-5">
+                        <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Solucao</div>
+                        <p class="text-sm text-slate-300 leading-relaxed">${selected.solution}</p>
+                    </div>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-4 mb-6">
+                    <div class="rounded-2xl border border-white/5 bg-slate-950/60 p-5">
+                        <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-3">Front</div>
+                        <ul class="space-y-2 text-sm text-slate-300">
+                            ${selected.frontend.map(item => `<li class="flex gap-2"><i class="fa-solid fa-angle-right text-vibrantCyan mt-1"></i><span>${item}</span></li>`).join('')}
+                        </ul>
+                    </div>
+                    <div class="rounded-2xl border border-white/5 bg-slate-950/60 p-5">
+                        <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-3">Back</div>
+                        <ul class="space-y-2 text-sm text-slate-300">
+                            ${selected.backend.map(item => `<li class="flex gap-2"><i class="fa-solid fa-angle-right text-vibrantCyan mt-1"></i><span>${item}</span></li>`).join('')}
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="grid sm:grid-cols-2 gap-4 mb-6">
+                    <div class="rounded-2xl border border-white/5 bg-white/5 p-5">
+                        <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-3">Linguagens</div>
+                        <div class="flex flex-wrap gap-2">
+                            ${selected.languages.map(item => `<span class="px-2.5 py-1 rounded-full bg-slate-900 border border-white/5 text-xs text-slate-300">${item}</span>`).join('')}
+                        </div>
+                    </div>
+                    <div class="rounded-2xl border border-white/5 bg-white/5 p-5">
+                        <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-3">Hospedagem</div>
+                        <div class="flex flex-wrap gap-2">
+                            ${selected.hosting.map(item => `<span class="px-2.5 py-1 rounded-full bg-slate-900 border border-white/5 text-xs text-slate-300">${item}</span>`).join('')}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rounded-2xl border border-white/5 bg-white/5 p-5 mb-6">
+                    <div class="flex flex-wrap items-center justify-between gap-3 mb-4">
+                        <div>
+                            <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono">Automacoes</div>
+                            <p class="text-sm text-slate-400 mt-1">Camadas que sustentam o projeto sem exigir um servidor sempre ligado no host estatico.</p>
+                        </div>
+                        <span class="px-3 py-1 rounded-full border border-white/10 bg-slate-950/70 text-xs font-bold uppercase tracking-wider text-slate-300">${selected.backendMode}</span>
+                    </div>
+                    <ul class="space-y-2 text-sm text-slate-300">
+                        ${selected.automation.map(item => `<li class="flex gap-2"><i class="fa-solid fa-bolt text-vibrantCyan mt-1"></i><span>${item}</span></li>`).join('')}
+                    </ul>
+                </div>
+
+                <div class="grid grid-cols-2 gap-4 mb-6">
+                    <div class="rounded-2xl border border-white/5 bg-slate-950/60 p-4">
+                        <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Responsivo</div>
+                        <div class="text-sm font-semibold ${selected.responsive ? 'text-trustGreen' : 'text-amber-400'}">${selected.responsive ? 'Sim, com navegacao mobile' : 'Nao informado'}</div>
+                    </div>
+                    <div class="rounded-2xl border border-white/5 bg-slate-950/60 p-4">
+                        <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Codigo</div>
+                        <div class="text-sm font-semibold text-white">${selected.codeVisibility}</div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col sm:flex-row gap-3">
+                    <a href="${selected.projectUrl}" class="flex-1 px-5 py-3 rounded-xl text-sm font-bold text-center transition-colors ${theme.button}">${selected.ctaLabel}</a>
+                    <a href="${selected.readmeUrl}" class="flex-1 px-5 py-3 rounded-xl text-sm font-bold text-center border border-white/10 bg-white/5 hover:bg-white/10 text-white transition-colors">Ver README</a>
+                    ${selected.architectureUrl ? `<a href="${selected.architectureUrl}" class="flex-1 px-5 py-3 rounded-xl text-sm font-bold text-center border border-white/10 bg-white/5 hover:bg-white/10 text-white transition-colors">Arquitetura</a>` : ''}
+                </div>
+            `;
+        }
+
+        function renderFilters() {
+            const types = ['Todos', ...uniqueValues(state.projects.map(project => project.type))];
+            const languages = ['Todas', ...uniqueValues(state.projects.flatMap(project => project.languages))];
+            const backends = ['Todos', ...uniqueValues(state.projects.map(project => project.backendMode))];
+
+            renderFilterGroup(els.typeFilters, types, state.filters.type, 'type');
+            renderFilterGroup(els.languageFilters, languages, state.filters.language, 'language');
+            renderFilterGroup(els.backendFilters, backends, state.filters.backend, 'backend');
+
+            document.querySelectorAll('[data-filter-key]').forEach(button => {
+                button.addEventListener('click', () => {
+                    state.filters[button.dataset.filterKey] = button.dataset.filterValue;
+                    renderFilters();
+                    renderProjects();
+                    renderDetail();
+                });
+            });
+        }
+
+        function updateMetrics() {
+            els.metricTotal.textContent = state.projects.length;
+            els.metricLive.textContent = state.projects.filter(project => project.projectUrl).length;
+        }
+
+        async function loadProjects() {
+            try {
+                const response = await fetch('./data/projects.json');
+                if (!response.ok) throw new Error('Falha ao carregar catalogo');
+                state.projects = await response.json();
+                state.selectedSlug = state.projects[0]?.slug || null;
+                updateMetrics();
+                renderFilters();
+                renderProjects();
+                renderDetail();
+            } catch (error) {
+                console.error(error);
+                els.count.textContent = 'Falha ao carregar projetos';
+                els.grid.innerHTML = '';
+                els.detail.innerHTML = `
+                    <div class="rounded-2xl border border-red-500/20 bg-red-500/5 p-5 text-sm text-slate-300">
+                        <div class="flex items-center gap-3 text-red-400 font-bold mb-3">
+                            <i class="fa-solid fa-triangle-exclamation"></i>
+                            Nao foi possivel carregar o catalogo.
+                        </div>
+                        <p>Verifique se a pagina esta sendo servida por HTTP. Em GitHub Pages e Cloudflare Pages isso funciona normalmente.</p>
+                    </div>
+                `;
+                els.empty.classList.remove('hidden');
+            }
+        }
+
+        loadProjects();
     </script>
 </body>
 </html>
