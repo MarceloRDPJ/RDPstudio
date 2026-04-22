@@ -30,6 +30,24 @@ function createElement(tag, className, html) {
   return el
 }
 
+function bullets(items = [], max = 3) {
+  return items.slice(0, max).map(item => `- ${item}`).join('\n')
+}
+
+function dedupeParagraphs(paragraphs = []) {
+  const seen = new Set()
+  return paragraphs.filter(paragraph => {
+    const key = normalizeText(paragraph)
+    if (!key || seen.has(key)) return false
+    seen.add(key)
+    return true
+  })
+}
+
+function compact(text = '') {
+  return text.replace(/\n{3,}/g, '\n\n').trim()
+}
+
 class RodKnowledgeEngine {
   constructor(knowledge) {
     this.knowledge = knowledge
@@ -82,18 +100,20 @@ class RodKnowledgeEngine {
     return this.faqFuse.search(query).slice(0, 2).map(result => result.item)
   }
 
-  answer(query, context = {}) {
+  answer(query) {
     const normalized = normalizeText(query)
     const projects = this.findProjects(query)
     const faq = this.findFaq(query)
     const intent = this.findIntent(query)
     const responses = []
     const suggestions = []
+    const actions = []
 
     if (!normalized) {
       return {
         text: pickOne(this.knowledge.assistant.welcome),
         suggestions: this.knowledge.assistant.starterQuestions,
+        actions: [],
       }
     }
 
@@ -101,16 +121,14 @@ class RodKnowledgeEngine {
       responses.push(intent.response)
     }
 
-    if (intent?.id === 'about-studio') {
-      responses.push(intent.response)
-      responses.push(`Em uma frase: ${this.knowledge.studio.summary}`)
+    if (intent?.id === 'about-studio' || /rdp studio|empresa|estudio|studio|consultoria/.test(normalized)) {
+      responses.push(`${this.knowledge.studio.summary}\n\nPilares:\n${bullets(this.knowledge.studio.pillars, 3)}`)
       suggestions.push('Quais projetos mostram mais automação?', 'Qual projeto tem IA?', 'Me fale sobre Marcelo')
     }
 
-    if (intent?.id === 'about-profile') {
-      responses.push(intent.response)
-      responses.push(this.knowledge.profile.summary)
-      suggestions.push('Quais areas ele domina?', 'Me fale da RDP Studio', 'Como entrar em contato?')
+    if (intent?.id === 'about-profile' || /sobre mim|sobre voce|curriculo|curriculo|formacao|formacao|certificacao|certificacao|marcelo/.test(normalized)) {
+      responses.push(`${this.knowledge.profile.summary}\n\nDestaques:\n${bullets(this.knowledge.profile.highlights, 3)}`)
+      suggestions.push('Quais áreas ele domina?', 'Me fale da RDP Studio', 'Como entrar em contato?')
     }
 
     if (intent?.id === 'contact') {
@@ -119,15 +137,6 @@ class RodKnowledgeEngine {
 
     if (intent?.id === 'project-recommendation') {
       responses.push(intent.response)
-    }
-
-    if (/sobre mim|sobre voce|curriculo|currículo|formacao|formação|certificacao|certificação/.test(normalized)) {
-      responses.push(`${this.knowledge.profile.summary}\n\nFormacao em destaque:\n- ${this.knowledge.profile.education.join('\n- ')}`)
-      suggestions.push('Quais projetos mostram segurança?', 'Me fale da RDP Studio')
-    }
-
-    if (/rdp studio|empresa|estudio|studio|consultoria/.test(normalized)) {
-      responses.push(`${this.knowledge.studio.summary}\n\nPilares da RDP Studio:\n- ${this.knowledge.studio.pillars.join('\n- ')}`)
     }
 
     if (/hospedagem|github pages|cloudflare|statico|estatico|deploy/.test(normalized)) {
@@ -140,10 +149,19 @@ class RodKnowledgeEngine {
       if (backendFaq) responses.push(backendFaq.answer)
     }
 
+    if (/cada projeto|todos os projetos|todos projetos|me fale dos projetos|me fale um pouco de cada projeto|resuma os projetos/.test(normalized)) {
+      const catalogSummary = this.knowledge.projects
+        .slice(0, 5)
+        .map(project => `- ${project.name}: ${project.problem}`)
+        .join('\n')
+      responses.push(`Resumo rapido do portfolio:\n${catalogSummary}`)
+      suggestions.push('Qual projeto tem IA?', 'Qual projeto mostra automação?', 'Como usar o Validador de MACs?')
+    }
+
     const targetedProject = projects[0]
     if (targetedProject) {
-      const wantsUsage = /como usa|como usar|usar|funciona|abrir|mexer|operar/.test(normalized)
-      const wantsTechnical = /stack|tecnologia|linguagem|backend|frontend|automacao|automação/.test(normalized)
+      const wantsUsage = /como usa|como usar|usar|funciona|abrir|mexer|operar|me guia|me guie|mostra como/.test(normalized)
+      const wantsTechnical = /stack|tecnologia|linguagem|backend|frontend|automacao|automacao/.test(normalized)
       const wantsSummary = /explica|resuma|resume|fale sobre|me fala|me explique|o que e|oque e/.test(normalized) || isQuestion(normalized)
 
       if (wantsSummary || !responses.length) {
@@ -151,11 +169,15 @@ class RodKnowledgeEngine {
       }
 
       if (wantsUsage) {
-        responses.push(`Como usar ${targetedProject.name}:\n- ${targetedProject.howToUse.join('\n- ')}`)
+        responses.push(`Como usar ${targetedProject.name}:\n${bullets(targetedProject.howToUse, 3)}`)
+        if (targetedProject.guidedTourUrl) {
+          actions.push({ label: 'Abrir e me guiar', href: targetedProject.guidedTourUrl, primary: true })
+        }
+        actions.push({ label: 'Abrir projeto', href: targetedProject.projectUrl, primary: false })
       }
 
       if (wantsTechnical) {
-        responses.push(`Snapshot tecnico de ${targetedProject.name}:\n- Stack: ${targetedProject.stack.join(', ')}\n- Estrutura: ${targetedProject.backendMode}\n- Abrir: ${targetedProject.projectUrl}`)
+        responses.push(`Snapshot tecnico:\n- Stack: ${targetedProject.stack.join(', ')}\n- Estrutura: ${targetedProject.backendMode}`)
       }
 
       suggestions.push(
@@ -167,20 +189,18 @@ class RodKnowledgeEngine {
 
     if (!responses.length && faq.length) {
       responses.push(faq[0].answer)
-      suggestions.push('Me fale dos projetos', 'Quem e Marcelo?', 'Qual projeto tem IA?')
+      suggestions.push('Me fale dos projetos', 'Quem é Marcelo?', 'Qual projeto tem IA?')
     }
 
     if (!responses.length) {
-      responses.push(
-        `Entendi a direcao da sua pergunta, mas quero te responder de forma util. Posso te explicar a RDP Studio, falar do Marcelo, resumir os projetos ou mostrar como usar cada ferramenta. Se quiser, tente citar o nome do projeto ou o assunto principal.`
-      )
+      responses.push('Posso te explicar a RDP Studio, falar do Marcelo, resumir projetos ou te guiar para uma ferramenta específica. Se quiser, cita o nome do projeto ou a dúvida principal.')
       suggestions.push(...this.knowledge.assistant.starterQuestions.slice(0, 4))
     }
 
-    const dedupedSuggestions = Array.from(new Set(suggestions)).slice(0, 5)
     return {
-      text: responses.join('\n\n'),
-      suggestions: dedupedSuggestions.length ? dedupedSuggestions : this.knowledge.assistant.starterQuestions.slice(0, 4),
+      text: compact(dedupeParagraphs(responses).join('\n\n')),
+      suggestions: Array.from(new Set(suggestions)).slice(0, 5),
+      actions: actions.slice(0, 2),
       project: targetedProject || null,
     }
   }
@@ -233,12 +253,13 @@ class RodAssistant {
       <div class="rod-body">
         <div class="rod-status"><span class="rod-status-dot"></span> Linguagem natural local com busca fuzzy e base de conhecimento do portfolio.</div>
         <div class="rod-messages custom-scrollbar" data-rod-messages></div>
+        <div class="rod-actions" data-rod-actions></div>
         <div class="rod-suggestions" data-rod-suggestions></div>
         <div class="rod-input-row">
           <textarea class="rod-input custom-scrollbar" rows="1" placeholder="Pergunte sobre voce, RDP Studio, ferramentas, stack ou como usar um projeto..." data-rod-input></textarea>
           <button type="button" class="rod-send" data-rod-send><i class="fa-solid fa-arrow-up"></i></button>
         </div>
-        <div class="rod-footer-note">Dica: o ROD entende erros comuns de digitacao, nomes de projetos, perguntas abertas e duvidas de uso.</div>
+        <div class="rod-footer-note">Dica: o ROD entende erros de digitacao, nomes de projetos e perguntas abertas. Se eu puder te guiar, eu mostro um botao de tour.</div>
       </div>
     `
 
@@ -251,6 +272,7 @@ class RodAssistant {
       panel,
       toggle,
       messages: panel.querySelector('[data-rod-messages]'),
+      actions: panel.querySelector('[data-rod-actions]'),
       suggestions: panel.querySelector('[data-rod-suggestions]'),
       input: panel.querySelector('[data-rod-input]'),
       send: panel.querySelector('[data-rod-send]'),
@@ -266,6 +288,7 @@ class RodAssistant {
     close.addEventListener('click', () => panel.classList.remove('is-open'))
     clear.addEventListener('click', () => {
       this.elements.messages.innerHTML = ''
+      this.elements.actions.innerHTML = ''
       this.elements.suggestions.innerHTML = ''
       this.addBotMessage(pickOne(this.engine.knowledge.assistant.welcome), this.engine.knowledge.assistant.starterQuestions)
     })
@@ -286,9 +309,20 @@ class RodAssistant {
     this.elements.messages.scrollTop = this.elements.messages.scrollHeight
   }
 
-  addBotMessage(text, suggestions = []) {
+  addBotMessage(text, suggestions = [], actions = []) {
     this.addMessage(text, 'bot')
+    this.renderActions(actions)
     this.renderSuggestions(suggestions)
+  }
+
+  renderActions(actions) {
+    this.elements.actions.innerHTML = ''
+    actions.forEach(action => {
+      const link = createElement('a', `rod-action ${action.primary ? '' : 'secondary'}`, action.label)
+      link.href = action.href
+      link.target = '_self'
+      this.elements.actions.appendChild(link)
+    })
   }
 
   renderSuggestions(suggestions) {
@@ -311,7 +345,7 @@ class RodAssistant {
     this.addMessage(question, 'user')
     const answer = this.engine.answer(question)
     this.elements.input.value = ''
-    this.addBotMessage(answer.text, answer.suggestions)
+    this.addBotMessage(answer.text, answer.suggestions, answer.actions || [])
   }
 }
 

@@ -42,6 +42,7 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../../assets/css/rod-tour.css">
 </head>
 <body class="antialiased selection:bg-vibrantCyan selection:text-white">
 
@@ -421,5 +422,48 @@ Notebook Diretoria 12:34:56:78:90:AB"></textarea>
 
     <!-- Logic -->
     <script src="js/script.js"></script>
+    <script>
+        window.ROD_TOUR_DEFINITIONS = {
+            quickstart: [
+                {
+                    selector: '#dataInput',
+                    text: 'Primeiro passo: cole os dados aqui. Agora a ferramenta entende tanto NOME;MAC quanto MAC;NOME, alem de linhas com espaco ou tabulacao.'
+                },
+                {
+                    selector: '#dataInput',
+                    before: async () => {
+                        const field = document.getElementById('dataInput');
+                        if (!field.value.trim()) {
+                            field.value = 'PC-FINANCEIRO; 00-11-22-33-44-55\nAA:BB:CC:DD:EE:FF; IMPRESSORA-RH';
+                        }
+                    },
+                    text: 'Eu preenchi um exemplo para voce ver o comportamento inteligente da leitura.'
+                },
+                {
+                    selector: '#processButton',
+                    text: 'Agora clique em Validar & Converter. Aqui a ferramenta interpreta, valida, detecta duplicidade e prepara os scripts.'
+                },
+                {
+                    selector: '#processButton',
+                    before: async () => {
+                        const button = document.getElementById('processButton');
+                        button.click();
+                        await new Promise(resolve => setTimeout(resolve, 900));
+                    },
+                    text: 'Perfeito. O processamento foi disparado e os scripts foram gerados a partir do exemplo.'
+                },
+                {
+                    selector: '#resultsArea',
+                    text: 'Aqui ficam os resultados: script de objetos, script de grupo e relatorio de erros, quando houver. A ideia e sair daqui com o material pronto para uso.'
+                }
+            ]
+        };
+    </script>
+    <script src="../../assets/js/rod-tour.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            if (window.initRODTour) window.initRODTour();
+        });
+    </script>
 </body>
 </html>

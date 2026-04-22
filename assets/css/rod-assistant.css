@@ -188,6 +188,28 @@
     gap: 0.55rem;
 }
 
+.rod-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+}
+
+.rod-action {
+    padding: 0.7rem 0.95rem;
+    border-radius: 0.95rem;
+    border: 1px solid rgba(0, 180, 216, 0.14);
+    background: linear-gradient(135deg, rgba(0, 180, 216, 0.92), rgba(14, 165, 233, 0.88));
+    color: #020617;
+    font-size: 0.8rem;
+    font-weight: 800;
+}
+
+.rod-action.secondary {
+    background: rgba(255, 255, 255, 0.03);
+    color: #f8fafc;
+    border-color: rgba(255, 255, 255, 0.08);
+}
+
 .rod-suggestion {
     padding: 0.6rem 0.85rem;
     border-radius: 999px;

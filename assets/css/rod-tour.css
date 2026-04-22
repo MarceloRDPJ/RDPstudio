@@ -1,0 +1,123 @@
+.rod-tour-highlight {
+  position: relative;
+  z-index: 151;
+  outline: 2px solid rgba(0, 180, 216, 0.9);
+  outline-offset: 6px;
+  border-radius: 1rem;
+  box-shadow: 0 0 0 9999px rgba(2, 6, 23, 0.58), 0 0 32px rgba(0, 180, 216, 0.25);
+}
+
+.rod-tour-shell {
+  position: fixed;
+  inset: auto 1rem 1rem auto;
+  width: min(26rem, calc(100vw - 2rem));
+  z-index: 160;
+  border-radius: 1.25rem;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(7, 12, 24, 0.96);
+  backdrop-filter: blur(18px);
+  box-shadow: 0 28px 80px -30px rgba(2, 6, 23, 0.95);
+  color: #f8fafc;
+  overflow: hidden;
+  font-family: 'Inter', sans-serif;
+}
+
+.rod-tour-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1rem 0.85rem;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+
+.rod-tour-title {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.rod-tour-title-badge {
+  width: 2.3rem;
+  height: 2.3rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  color: #22d3ee;
+  background: rgba(0, 180, 216, 0.12);
+  border: 1px solid rgba(0, 180, 216, 0.22);
+}
+
+.rod-tour-title-copy h4 {
+  margin: 0;
+  font-size: 0.98rem;
+  font-weight: 800;
+}
+
+.rod-tour-title-copy p {
+  margin: 0.16rem 0 0;
+  font-size: 0.76rem;
+  color: #94a3b8;
+}
+
+.rod-tour-close {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.03);
+  color: #cbd5e1;
+}
+
+.rod-tour-body {
+  padding: 1rem;
+}
+
+.rod-tour-step {
+  font-size: 0.74rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #64748b;
+  margin-bottom: 0.55rem;
+}
+
+.rod-tour-copy {
+  min-height: 5rem;
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: #e2e8f0;
+  white-space: pre-wrap;
+}
+
+.rod-tour-actions {
+  display: flex;
+  gap: 0.65rem;
+  margin-top: 1rem;
+}
+
+.rod-tour-actions button {
+  flex: 1;
+  min-height: 2.9rem;
+  border-radius: 0.95rem;
+  border: 1px solid rgba(255,255,255,0.1);
+  font-weight: 700;
+}
+
+.rod-tour-next {
+  background: linear-gradient(135deg, rgba(0,180,216,0.95), rgba(14,165,233,0.88));
+  color: #020617;
+}
+
+.rod-tour-secondary {
+  background: rgba(255,255,255,0.03);
+  color: #f8fafc;
+}
+
+@media (max-width: 640px) {
+  .rod-tour-shell {
+    left: 0.9rem;
+    right: 0.9rem;
+    width: auto;
+  }
+}

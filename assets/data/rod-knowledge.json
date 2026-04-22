@@ -88,6 +88,7 @@
       "stack": ["Python", "JavaScript", "React 18 UMD", "Tailwind CDN", "GitHub Actions"],
       "backendMode": "Backend real no repositorio",
       "projectUrl": "../projects/scanner-game-free/index.html",
+      "guidedTourUrl": "../projects/scanner-game-free/index.html?rodTour=overview",
       "keywords": ["jogos gratis", "epic games", "crawler", "json", "dashboard gamer", "hardware"]
     },
     {
@@ -106,6 +107,7 @@
       "stack": ["HTML", "CSS", "JavaScript Vanilla", "Tailwind CDN"],
       "backendMode": "Sem backend",
       "projectUrl": "../projects/validador-firewall/index.html",
+      "guidedTourUrl": "../projects/validador-firewall/index.html?rodTour=quickstart",
       "keywords": ["mac", "fortigate", "firewall", "acl", "script cli", "addrgrp", "dhcp"]
     },
     {
@@ -160,6 +162,7 @@
       "stack": ["HTML", "JavaScript", "Chart.js", "SheetJS", "jsPDF"],
       "backendMode": "Sem backend",
       "projectUrl": "../projects/relatorio-interativo/index.html",
+      "guidedTourUrl": "../projects/relatorio-interativo/index.html?rodTour=quickstart",
       "keywords": ["bi", "dashboard", "financeiro", "csv", "xlsx", "pdf", "kpi"]
     }
   ],
