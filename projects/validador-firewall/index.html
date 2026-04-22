@@ -90,8 +90,14 @@
                 Validador <span class="text-gradient">de MACs</span>
             </h1>
             <p class="text-sm md:text-base text-slate-400 max-w-lg mx-auto font-light leading-relaxed mb-8">
-                Automação de segurança para Firewall Fortigate.
+                Automacao de seguranca para Firewall Fortigate, agora com leitura mais inteligente de dados brutos.
             </p>
+
+            <div class="flex flex-wrap justify-center gap-2 mb-8 text-[11px] font-mono uppercase tracking-[0.18em]">
+                <span class="px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-slate-300">Nome e MAC em qualquer ordem</span>
+                <span class="px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-slate-300">CSV, TXT ou texto colado</span>
+                <span class="px-3 py-1.5 rounded-full bg-vibrantCyan/10 border border-vibrantCyan/20 text-vibrantCyan">Deteccao automatica</span>
+            </div>
 
             <div class="flex justify-center gap-4">
                 <button id="startDemoBtn" class="flex items-center gap-2 px-6 py-2.5 rounded-full bg-vibrantCyan text-slate-900 text-xs font-bold tracking-wide transition-all hover:scale-105 hover:shadow-[0_0_20px_rgba(0,180,216,0.5)]">
@@ -235,11 +241,19 @@
                     <input type="file" id="fileInput" class="hidden" accept=".csv,.txt" />
                 </label>
 
+                <div class="rounded-xl border border-vibrantCyan/10 bg-vibrantCyan/5 p-4 text-xs text-slate-300 leading-relaxed">
+                    <div class="flex items-center gap-2 text-vibrantCyan font-bold uppercase tracking-[0.16em] mb-2">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i> Entrada inteligente
+                    </div>
+                    A ferramenta detecta automaticamente qual coluna e o MAC e qual coluna e o nome do objeto. Exemplos validos: <span class="text-white font-mono">EQUIPAMENTO;MAC</span>, <span class="text-white font-mono">MAC;EQUIPAMENTO</span> e tambem linhas separadas por tabulacao, virgula ou espaco.
+                </div>
+
                 <div class="relative">
                     <textarea id="dataInput" class="block w-full p-6 bg-slate-900/50 border border-slate-700/50 rounded-xl text-sm font-mono text-slate-300 focus:ring-1 focus:ring-vibrantCyan focus:border-vibrantCyan outline-none transition-all resize-y min-h-[300px] placeholder-slate-600 custom-scrollbar shadow-inner" placeholder="Cole seus dados aqui...
 Exemplo:
 PC-FINANCEIRO; 00-11-22-33-44-55
-IMPRESSORA-RH; AA:BB:CC:DD:EE:FF"></textarea>
+AA:BB:CC:DD:EE:FF; IMPRESSORA-RH
+Notebook Diretoria 12:34:56:78:90:AB"></textarea>
                     <div class="absolute bottom-4 right-4 text-[10px] text-slate-600 font-mono bg-slate-800 px-2 py-1 rounded">INPUT_STREAM</div>
                 </div>
 

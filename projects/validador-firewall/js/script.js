@@ -278,7 +278,8 @@ if (downloadTemplateButton) {
         const csvTemplateContent = [
             "Equipamento;ENDEREÇO MAC",
             "RDPSTUDIO-Server-01;AA-BB-CC-11-22-33",
-            "RDPSTUDIO-Wifi-Guest;00:11:22:AA:BB:CC"
+            "00:11:22:AA:BB:CC;RDPSTUDIO-Wifi-Guest",
+            "Switch Core 12:34:56:78:90:AB"
         ].join('\n');
         const blob = new Blob(["\uFEFF" + csvTemplateContent], { type: 'text/csv;charset=utf-8;' });
         const link = document.createElement('a');
@@ -288,6 +289,65 @@ if (downloadTemplateButton) {
         link.click();
         document.body.removeChild(link);
     });
+}
+
+function normalizeMac(value) {
+    if (!value) return null;
+    const cleaned = String(value).trim().replace(/[^0-9A-Fa-f]/g, '');
+    if (cleaned.length !== 12) return null;
+    return cleaned.match(/.{1,2}/g).join(':').toUpperCase();
+}
+
+function isHeaderLine(tokens, lineText) {
+    const normalizedLine = lineText.toLowerCase();
+    const firstToken = tokens[0]?.toLowerCase() || '';
+    return firstToken === 'equipamento'
+        || firstToken === 'name'
+        || firstToken === 'nome'
+        || ((normalizedLine.includes('mac') || normalizedLine.includes('endereço mac') || normalizedLine.includes('endereco mac'))
+            && (normalizedLine.includes('equipamento') || normalizedLine.includes('nome') || normalizedLine.includes('name')));
+}
+
+function extractLineData(tokens, rawLine, lineNumber) {
+    if (tokens.length < 2) {
+        return { error: `Linha ${lineNumber}: Menos de 2 colunas detectadas`, equipamento: 'Linha Incompleta', macOriginal: rawLine };
+    }
+
+    const macCandidates = tokens
+        .map((token, index) => ({ index, original: token, formatted: normalizeMac(token) }))
+        .filter(candidate => candidate.formatted);
+
+    if (macCandidates.length > 1) {
+        return { error: `Linha ${lineNumber}: Mais de um MAC detectado`, equipamento: 'Ambíguo', macOriginal: rawLine };
+    }
+
+    if (macCandidates.length === 1) {
+        const macData = macCandidates[0];
+        const equipamento = tokens
+            .filter((_, index) => index !== macData.index)
+            .join(' ')
+            .trim();
+
+        if (!equipamento) {
+            return { error: `Linha ${lineNumber}: Nome do equipamento não detectado`, equipamento: 'Sem Nome', macOriginal: macData.original };
+        }
+
+        return {
+            equipamento,
+            macOriginal: macData.original,
+            macFormatado: macData.formatted,
+        };
+    }
+
+    const equipamento = tokens[0];
+    const macOriginal = tokens.slice(1).join(' ').trim();
+    const macFormatado = normalizeMac(macOriginal);
+
+    if (!macFormatado) {
+        return { error: `Linha ${lineNumber}: MAC não identificado`, equipamento, macOriginal };
+    }
+
+    return { equipamento, macOriginal, macFormatado };
 }
 
 function processData(content) {
@@ -313,30 +373,19 @@ function processData(content) {
         else tokens = linhaOriginal.trim().split(/\s+/);
 
         tokens = tokens.map(t => t.trim()).filter(t => t !== "");
-        if (tokens.length > 0) {
-            const firstTokenLower = tokens[0].toLowerCase();
-            if (firstTokenLower === "equipamento" || firstTokenLower === "name" || firstTokenLower === "nome") continue;
-        }
+        if (tokens.length > 0 && isHeaderLine(tokens, linhaOriginal)) continue;
 
         linhasProcessadas++;
-        let equipamento = "";
-        let macOriginal = "";
+        const parsedLine = extractLineData(tokens, linhaOriginal, linhaNumero);
 
-        if (tokens.length >= 2) {
-            equipamento = tokens[0];
-            macOriginal = tokens[1];
-        } else {
-             linhasComErro.push(['Linha Incompleta', linhaOriginal, `Linha ${linhaNumero}: Menos de 2 colunas detectadas`]);
-             continue;
+        if (parsedLine.error) {
+            linhasComErro.push([parsedLine.equipamento || 'Linha Incompleta', parsedLine.macOriginal || linhaOriginal, parsedLine.error]);
+            continue;
         }
 
-        const macLimpo = macOriginal.replace(/[\s."\-]/g, '');
-        let macFormatado = '';
-        if (macLimpo.length === 12) {
-             macFormatado = macLimpo.match(/.{1,2}/g).join(':').toUpperCase();
-        } else {
-             macFormatado = macOriginal.replace(/-/g, ':').toUpperCase();
-        }
+        const equipamento = parsedLine.equipamento;
+        const macOriginal = parsedLine.macOriginal;
+        const macFormatado = parsedLine.macFormatado;
 
         if (!macRegex.test(macFormatado)) {
             linhasComErro.push([equipamento, macOriginal, `Linha ${linhaNumero}: Formato inválido (${macFormatado})`]);

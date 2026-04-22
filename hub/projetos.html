@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RDP Studio | Projetos</title>
-    <meta name="description" content="Portfólio de projetos da RDP Studio: Automação, Segurança e Inteligência Artificial.">
+    <meta name="description" content="Catalogo de projetos da RDP Studio com cards claros, foco no problema resolvido e guia de uso por projeto.">
     <link rel="apple-touch-icon" sizes="180x180" href="../assets/site/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/site/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/site/favicon-16x16.png">
@@ -18,7 +18,6 @@
                 extend: {
                     colors: {
                         deepBlue: '#1E3A5F',
-                        techGray: '#2D3748',
                         vibrantCyan: '#00B4D8',
                         energeticAmber: '#F59E0B',
                         trustGreen: '#10B981',
@@ -27,9 +26,6 @@
                     fontFamily: {
                         sans: ['Inter', 'sans-serif'],
                         mono: ['JetBrains Mono', 'monospace'],
-                    },
-                    animation: {
-                        'fade-in-up': 'fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards',
                     }
                 }
             }
@@ -39,299 +35,234 @@
         body {
             font-family: 'Inter', sans-serif;
             background-color: #020617;
-            background-image: radial-gradient(circle at 15% 50%, rgba(30, 58, 95, 0.15), transparent 25%), radial-gradient(circle at 85% 30%, rgba(0, 180, 216, 0.1), transparent 25%);
+            background-image: radial-gradient(circle at 15% 18%, rgba(0, 180, 216, 0.08), transparent 22%), radial-gradient(circle at 82% 24%, rgba(30, 58, 95, 0.14), transparent 26%);
             background-attachment: fixed;
-            color: #F8FAFC;
+            color: #f8fafc;
+            overflow-x: hidden;
         }
-        .glass-card {
-            background: rgba(30, 41, 59, 0.4);
-            backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.05);
-            transition: all 0.3s ease;
+
+        .surface {
+            background: rgba(15, 23, 42, 0.78);
+            backdrop-filter: blur(14px);
+            border: 1px solid rgba(255, 255, 255, 0.06);
         }
+
+        .nav-link {
+            color: #94a3b8;
+            transition: color 0.2s ease;
+        }
+
+        .nav-link:hover,
+        .nav-link.active {
+            color: #fff;
+        }
+
         .text-gradient {
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            background-image: linear-gradient(to right, #00B4D8, #38bdf8, #10B981);
-        }
-        .nav-link { color: #94a3b8; transition: color 0.3s; }
-        .nav-link:hover, .nav-link.active { color: #fff; }
-
-        @keyframes fadeInUp { to { opacity: 1; transform: translateY(0); } }
-        .fade-in-up { opacity: 0; transform: translateY(20px); animation: fadeInUp 0.8s forwards; }
-
-        .custom-scrollbar {
-            scrollbar-width: thin;
-            scrollbar-color: rgba(30, 58, 95, 0.8) rgba(2, 6, 23, 0.5);
-        }
-        .custom-scrollbar::-webkit-scrollbar { width: 6px; }
-        .custom-scrollbar::-webkit-scrollbar-track { background: rgba(2, 6, 23, 0.3); border-radius: 4px; }
-        .custom-scrollbar::-webkit-scrollbar-thumb { background-color: rgba(30, 58, 95, 0.6); border-radius: 4px; border: 1px solid rgba(255, 255, 255, 0.05); }
-        .custom-scrollbar::-webkit-scrollbar-thumb:hover { background-color: #00B4D8; }
-
-        /* --- FOCUS CARDS (Efeito Túnel) --- */
-        .card-container:hover .project-card {
-            opacity: 0.4;
-            filter: blur(2px);
-            transform: scale(0.98);
-        }
-        .card-container:hover .project-card:hover {
-            opacity: 1;
-            filter: blur(0);
-            transform: scale(1.02);
-            z-index: 10;
-            box-shadow: 0 25px 50px -12px rgba(0, 180, 216, 0.25);
-            border-color: rgba(0, 180, 216, 0.5);
+            background-image: linear-gradient(to right, #ffffff, #38bdf8, #10b981);
         }
 
-        /* Card Design */
+        .filter-chip {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            color: #94a3b8;
+            transition: all 0.2s ease;
+        }
+
+        .filter-chip:hover {
+            color: #fff;
+            border-color: rgba(255, 255, 255, 0.18);
+        }
+
+        .filter-chip.is-active {
+            background: rgba(0, 180, 216, 0.10);
+            border-color: rgba(0, 180, 216, 0.42);
+            color: #fff;
+        }
+
         .project-card {
-            background: rgba(11, 15, 23, 0.6);
-            backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.05);
-            border-radius: 16px;
-            transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
-            position: relative;
-            overflow: hidden;
+            transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
         }
 
-        /* Shine Effect */
-        .project-card::before {
-            content: '';
-            position: absolute;
-            top: 0; left: -100%; width: 50%; height: 100%;
-            background: linear-gradient(to right, transparent, rgba(255,255,255,0.05), transparent);
-            transform: skewX(-25deg);
-            transition: 0.5s;
-            pointer-events: none;
+        .project-card:hover,
+        .project-card.is-selected {
+            transform: translateY(-3px);
+            border-color: rgba(0, 180, 216, 0.24);
+            box-shadow: 0 20px 40px -30px rgba(0, 180, 216, 0.35);
         }
-        .project-card:hover::before {
-            left: 150%;
-            transition: 0.7s ease-in-out;
+
+        .catalog-grid {
+            align-items: stretch;
+        }
+
+        .catalog-grid > * {
+            height: 100%;
+        }
+
+        main,
+        section,
+        #project-grid,
+        #project-detail-section,
+        .surface {
+            min-width: 0;
+        }
+
+        .detail-panel {
+            transition: opacity 0.2s ease, transform 0.2s ease;
+        }
+
+        .detail-panel.is-hidden {
+            display: none;
+        }
+
+        .filters-panel.is-collapsed .filters-body {
+            display: none;
+        }
+
+        @media (min-width: 768px) {
+            .filters-panel.is-collapsed .filters-body {
+                display: block;
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(18px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .fade-in-up {
+            opacity: 0;
+            animation: fadeInUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+
+        .watermark-container::after {
+            content: "© 2026 RDP STUDIO. Desenvolvido por Marcelo Rodrigues.";
+            font-size: 0.75rem;
+            color: #64748b;
+            opacity: 0.45;
         }
     </style>
 </head>
 <body class="antialiased selection:bg-vibrantCyan selection:text-white">
-
-    <div class="max-w-7xl mx-auto px-6 py-6 min-h-screen flex flex-col relative">
-
-        <!-- Header -->
-        <header class="flex justify-between items-center mb-12 relative z-50">
+    <div class="max-w-7xl w-full mx-auto px-4 sm:px-6 py-6 min-h-screen flex flex-col">
+        <header class="flex justify-between items-center mb-10 relative z-50">
             <a href="../index.html" class="flex items-center gap-4 group">
-                <div class="w-10 h-10 rounded-xl glass-card flex items-center justify-center p-1">
-                     <img src="../assets/images/branding/logo.png" alt="Logo" class="w-full h-full object-contain group-hover:scale-110 transition-transform">
+                <div class="w-10 h-10 rounded-xl surface flex items-center justify-center p-1">
+                    <img src="../assets/images/branding/logo.png" alt="Logo" class="w-full h-full object-contain group-hover:scale-110 transition-transform">
                 </div>
                 <h1 class="text-xl font-bold tracking-tight text-white">RDP <span class="text-vibrantCyan font-light">STUDIO</span></h1>
             </a>
 
-            <!-- Nav (Desktop) -->
             <nav class="hidden md:flex items-center gap-8 text-sm font-medium">
                 <a href="../index.html" class="nav-link">Home</a>
                 <a href="projetos.html" class="nav-link active text-vibrantCyan">Projetos</a>
                 <a href="../index.html#empresa" class="nav-link">A Empresa</a>
                 <a href="sobre.html" class="nav-link">Sobre Mim</a>
-                <a href="https://wa.me/5562996780498" target="_blank" class="px-4 py-2 rounded-lg bg-vibrantCyan/10 text-vibrantCyan hover:bg-vibrantCyan hover:text-white transition-all">Contato</a>
+                <a href="https://wa.me/5562996780498" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded-lg bg-vibrantCyan/10 text-vibrantCyan hover:bg-vibrantCyan hover:text-white transition-all">Contato</a>
             </nav>
 
-            <!-- Mobile Menu Button -->
-            <button id="mobile-menu-btn" class="md:hidden text-white text-2xl p-2 z-50 relative group">
+            <button id="mobile-menu-btn" class="md:hidden text-white text-2xl p-2 z-50 relative group" aria-label="Abrir menu">
                 <div class="absolute inset-0 bg-white/5 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity"></div>
                 <i class="fa-solid fa-bars relative z-10"></i>
             </button>
         </header>
 
-        <!-- Mobile Menu Overlay -->
         <div id="mobile-menu-overlay" class="fixed inset-0 z-40 bg-slate-900/95 backdrop-blur-xl transform translate-x-full transition-transform duration-300 flex flex-col items-center justify-center space-y-8 md:hidden">
             <a href="../index.html" class="text-2xl font-bold text-white hover:text-vibrantCyan transition-colors mobile-link">Home</a>
-            <a href="projetos.html" class="text-2xl font-bold text-vibrantCyan hover:text-vibrantCyan transition-colors mobile-link">Projetos</a>
+            <a href="projetos.html" class="text-2xl font-bold text-vibrantCyan transition-colors mobile-link">Projetos</a>
             <a href="../index.html#empresa" class="text-2xl font-bold text-white hover:text-vibrantCyan transition-colors mobile-link">A Empresa</a>
             <a href="sobre.html" class="text-2xl font-bold text-white hover:text-vibrantCyan transition-colors mobile-link">Sobre Mim</a>
-            <a href="https://wa.me/5562996780498" target="_blank" class="px-8 py-3 rounded-full bg-vibrantCyan text-white font-bold text-lg shadow-lg shadow-vibrantCyan/20 mobile-link">Contato</a>
+            <a href="https://wa.me/5562996780498" target="_blank" rel="noopener noreferrer" class="px-8 py-3 rounded-full bg-vibrantCyan text-white font-bold text-lg shadow-lg shadow-vibrantCyan/20 mobile-link">Contato</a>
         </div>
 
-        <!-- Main Content -->
-        <main class="flex-grow flex flex-col justify-start space-y-12">
+        <main class="flex-grow space-y-8 md:space-y-10">
+            <section class="fade-in-up">
+                <div class="max-w-[18rem] sm:max-w-4xl lg:max-w-5xl">
+                    <div class="text-xs font-mono uppercase tracking-[0.26em] text-slate-500 mb-4">Projetos</div>
+                    <h2 class="text-[1.55rem] sm:text-4xl lg:text-5xl font-bold leading-[1.02] mb-4 max-w-4xl break-words text-balance">
+                        Projetos com <span class="text-gradient">clareza</span>, valor e acesso rapido.
+                    </h2>
+                    <p class="text-base md:text-lg text-slate-400 leading-relaxed max-w-2xl">
+                        Explore as solucoes, entenda o problema que cada uma resolve e abra o projeto certo em poucos segundos.
+                    </p>
+                </div>
+            </section>
 
-            <!-- Title Section -->
-            <div class="text-center fade-in-up">
-                <h2 class="text-4xl md:text-5xl font-bold mb-4">Portfólio de <span class="text-gradient">Inovação</span></h2>
-                <p class="text-slate-400 max-w-2xl mx-auto">
-                    Explore soluções desenvolvidas com foco em performance, segurança e automação.
-                </p>
-            </div>
-
-            <!-- GRID DE SOLUÇÕES (Card Container for Focus Effect) -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 card-container fade-in-up" style="animation-delay: 0.1s;">
-
-                <!-- CARD 1: RDP Insider -->
-                <article class="project-card group cursor-pointer flex flex-col h-full" onclick="window.location='../projects/scanner-game-free/index.html'">
-                    <div class="p-8 flex flex-col h-full">
-                        <div class="flex justify-between items-start mb-6">
-                            <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-pink-500/10 to-purple-500/10 border border-pink-500/20 flex items-center justify-center text-pink-400 group-hover:scale-110 transition-transform duration-300">
-                                <i class="fa-solid fa-satellite-dish text-xl"></i>
-                            </div>
-                            <span class="px-2 py-1 bg-white/5 rounded text-[10px] font-mono text-slate-400 border border-white/5 uppercase">Market Intel</span>
+            <section id="filters-panel" class="filters-panel is-collapsed surface rounded-3xl p-4 sm:p-5 md:p-6 fade-in-up max-w-6xl w-full" style="animation-delay:0.08s;">
+                <div class="flex flex-col gap-5">
+                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-white">Filtrar projetos</h3>
+                            <p class="text-sm text-slate-400 mt-1">Refine o catalogo por tipo, linguagem e backend.</p>
                         </div>
-                        <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-pink-400 transition-colors">RDP Insider</h3>
-                        <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-grow">
-                            <strong class="text-slate-200">O Problema:</strong> Falta de visibilidade de preços e leaks em tempo real.<br>
-                            <strong class="text-slate-200">A Solução:</strong> Crawlers distribuídos que monitoram o mercado (Epic/Steam) e geram insights.
-                        </p>
-                        <div class="flex gap-2 mb-8 border-t border-white/5 pt-4">
-                            <i class="fa-brands fa-python text-slate-500 hover:text-white transition" title="Python"></i>
-                            <i class="fa-solid fa-database text-slate-500 hover:text-white transition" title="Database"></i>
-                            <i class="fa-solid fa-bolt text-slate-500 hover:text-white transition" title="FastAPI"></i>
+                        <div class="flex items-center justify-between gap-3 md:justify-end">
+                            <div class="text-sm text-slate-500 font-mono md:text-right" id="results-count">Carregando projetos...</div>
+                            <button id="filters-toggle" class="md:hidden px-3 py-2 rounded-full border border-white/10 bg-white/5 text-xs font-semibold text-white">Abrir filtros</button>
                         </div>
-                        <button class="w-full py-3 rounded-lg bg-white/5 border border-white/10 text-white font-semibold text-sm group-hover:bg-pink-600 group-hover:border-pink-600 transition-all flex items-center justify-center gap-2">
-                            Ver Dashboard
-                            <i class="fa-solid fa-arrow-right text-xs transition-transform group-hover:translate-x-1"></i>
-                        </button>
                     </div>
-                </article>
 
-                <!-- CARD 2: Validador Firewall -->
-                <article class="project-card group cursor-pointer flex flex-col h-full" onclick="window.location='../projects/validador-firewall/index.html'">
-                    <div class="p-8 flex flex-col h-full">
-                        <div class="flex justify-between items-start mb-6">
-                            <div class="w-12 h-12 rounded-xl bg-energeticAmber/10 border border-energeticAmber/20 flex items-center justify-center text-energeticAmber group-hover:scale-110 transition-transform duration-300">
-                                <i class="fa-solid fa-shield-cat text-xl"></i>
-                            </div>
-                            <span class="px-2 py-1 bg-white/5 rounded text-[10px] font-mono text-slate-400 border border-white/5 uppercase">SecOps</span>
+                    <div class="filters-body space-y-4">
+                        <div>
+                            <div class="text-xs uppercase tracking-[0.22em] text-slate-500 font-mono mb-2">Tipo</div>
+                            <div id="type-filters" class="flex flex-wrap gap-2 w-full"></div>
                         </div>
-                        <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-energeticAmber transition-colors">Validador Fortigate</h3>
-                        <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-grow">
-                            <strong class="text-slate-200">O Problema:</strong> Erros humanos críticos em migrações de firewall.<br>
-                            <strong class="text-slate-200">A Solução:</strong> Engine de sanitização que garante integridade zero-erro em scripts CLI.
-                        </p>
-                        <div class="flex gap-2 mb-8 border-t border-white/5 pt-4">
-                            <i class="fa-brands fa-js text-slate-500 hover:text-white transition"></i>
-                            <i class="fa-solid fa-network-wired text-slate-500 hover:text-white transition"></i>
+                        <div>
+                            <div class="text-xs uppercase tracking-[0.22em] text-slate-500 font-mono mb-2">Linguagem</div>
+                            <div id="language-filters" class="flex flex-wrap gap-2 w-full"></div>
                         </div>
-                        <button class="w-full py-3 rounded-lg bg-white/5 border border-white/10 text-white font-semibold text-sm group-hover:bg-energeticAmber group-hover:border-energeticAmber transition-all flex items-center justify-center gap-2">
-                            Iniciar Ferramenta
-                            <i class="fa-solid fa-play text-xs"></i>
-                        </button>
+                        <div>
+                            <div class="text-xs uppercase tracking-[0.22em] text-slate-500 font-mono mb-2">Backend</div>
+                            <div id="backend-filters" class="flex flex-wrap gap-2 w-full"></div>
+                        </div>
                     </div>
-                </article>
+                </div>
+            </section>
 
-                <!-- CARD 3: GLPI Automator -->
-                <article class="project-card group cursor-pointer flex flex-col h-full" onclick="window.location='../projects/abertura-chamados-glpi/index.html'">
-                    <div class="p-8 flex flex-col h-full">
-                        <div class="flex justify-between items-start mb-6">
-                            <div class="w-12 h-12 rounded-xl bg-indigo-500/10 border border-indigo-500/20 flex items-center justify-center text-indigo-500 group-hover:scale-110 transition-transform duration-300">
-                                <i class="fa-solid fa-server text-xl"></i>
-                            </div>
-                            <span class="px-2 py-1 bg-white/5 rounded text-[10px] font-mono text-slate-400 border border-white/5 uppercase">Automation</span>
-                        </div>
-                        <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-indigo-500 transition-colors">GLPI Automator</h3>
-                        <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-grow">
-                            <strong class="text-slate-200">O Problema:</strong> 30% do tempo da equipe gasto abrindo tickets manuais.<br>
-                            <strong class="text-slate-200">A Solução:</strong> Automação Python que gerencia abertura em lote e evidências via API.
-                        </p>
-                        <div class="flex gap-2 mb-8 border-t border-white/5 pt-4">
-                            <i class="fa-brands fa-python text-slate-500 hover:text-white transition"></i>
-                            <i class="fa-solid fa-gears text-slate-500 hover:text-white transition"></i>
-                        </div>
-                        <button class="w-full py-3 rounded-lg bg-white/5 border border-white/10 text-white font-semibold text-sm group-hover:bg-indigo-600 group-hover:border-indigo-600 transition-all flex items-center justify-center gap-2">
-                            Ler Documentação
-                            <i class="fa-solid fa-file-code text-xs"></i>
-                        </button>
-                    </div>
-                </article>
+            <section class="fade-in-up" style="animation-delay:0.14s;">
+                <div id="project-grid" class="catalog-grid grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 max-w-6xl w-full"></div>
+                <div id="empty-state" class="hidden surface rounded-3xl p-10 border border-dashed border-slate-800 text-center text-slate-500 mt-5">
+                    <i class="fa-solid fa-magnifying-glass text-3xl mb-4"></i>
+                    <p>Nenhum projeto corresponde aos filtros atuais.</p>
+                </div>
+            </section>
 
-                <!-- CARD 4: Sales AI Agent -->
-                <article class="project-card group cursor-pointer flex flex-col h-full" onclick="window.location='../projects/assistente-vendas-ia/index.html'">
-                    <div class="p-8 flex flex-col h-full">
-                        <div class="flex justify-between items-start mb-6">
-                            <div class="w-12 h-12 rounded-xl bg-purple-500/10 border border-purple-500/20 flex items-center justify-center text-purple-500 group-hover:scale-110 transition-transform duration-300">
-                                <i class="fa-solid fa-robot text-xl"></i>
-                            </div>
-                            <span class="px-2 py-1 bg-white/5 rounded text-[10px] font-mono text-slate-400 border border-white/5 uppercase">AI Agent</span>
-                        </div>
-                        <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-purple-500 transition-colors">Sales AI Agent</h3>
-                        <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-grow">
-                            <strong class="text-slate-200">O Problema:</strong> Gargalo no atendimento ao cliente e conferência financeira.<br>
-                            <strong class="text-slate-200">A Solução:</strong> Agente autônomo com Visão Computacional (Gemini) para vendas no WhatsApp/Telegram.
-                        </p>
-                        <div class="flex gap-2 mb-8 border-t border-white/5 pt-4">
-                            <i class="fa-solid fa-brain text-slate-500 hover:text-white transition"></i>
-                            <i class="fa-brands fa-telegram text-slate-500 hover:text-white transition"></i>
-                        </div>
-                        <button class="w-full py-3 rounded-lg bg-white/5 border border-white/10 text-white font-semibold text-sm group-hover:bg-purple-600 group-hover:border-purple-600 transition-all flex items-center justify-center gap-2">
-                            Testar Bot
-                            <i class="fa-brands fa-telegram text-xs"></i>
-                        </button>
-                    </div>
-                </article>
-
-                <!-- CARD 5: Relatório Interativo -->
-                <article class="project-card group cursor-pointer flex flex-col h-full" onclick="window.location='../projects/relatorio-interativo/index.html'">
-                    <div class="p-8 flex flex-col h-full">
-                        <div class="flex justify-between items-start mb-6">
-                            <div class="w-12 h-12 rounded-xl bg-vibrantCyan/10 border border-vibrantCyan/20 flex items-center justify-center text-vibrantCyan group-hover:scale-110 transition-transform duration-300">
-                                <i class="fa-solid fa-chart-pie text-xl"></i>
-                            </div>
-                            <span class="px-2 py-1 bg-white/5 rounded text-[10px] font-mono text-slate-400 border border-white/5 uppercase">BI Tools</span>
-                        </div>
-                        <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-vibrantCyan transition-colors">Relatório Interativo</h3>
-                        <p class="text-slate-400 text-sm leading-relaxed mb-6 flex-grow">
-                            <strong class="text-slate-200">O Problema:</strong> Tempo excessivo montando formulários e relatórios financeiros manuais.<br>
-                            <strong class="text-slate-200">A Solução:</strong> Dashboard interativo que processa Excel/CSV instantaneamente e emite PDF.
-                        </p>
-                        <div class="flex gap-2 mb-8 border-t border-white/5 pt-4">
-                            <i class="fa-brands fa-js text-slate-500 hover:text-white transition" title="JavaScript"></i>
-                            <i class="fa-solid fa-chart-column text-slate-500 hover:text-white transition" title="Chart.js"></i>
-                            <i class="fa-solid fa-file-excel text-slate-500 hover:text-white transition" title="SheetJS"></i>
-                        </div>
-                        <button class="w-full py-3 rounded-lg bg-white/5 border border-white/10 text-white font-semibold text-sm group-hover:bg-vibrantCyan group-hover:border-vibrantCyan transition-all flex items-center justify-center gap-2">
-                            Abrir Dashboard
-                            <i class="fa-solid fa-arrow-right text-xs transition-transform group-hover:translate-x-1"></i>
-                        </button>
-                    </div>
-                </article>
-
-                <!-- CARD 6: Futuro -->
-                <article class="project-card border-dashed border-slate-800 bg-transparent flex flex-col justify-center items-center h-full min-h-[300px] opacity-60 hover:opacity-100 transition-opacity">
-                    <div class="w-16 h-16 rounded-full bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-600 mb-4">
-                        <i class="fa-solid fa-plus text-2xl"></i>
-                    </div>
-                    <h3 class="text-lg font-bold text-slate-500">Próximo Projeto</h3>
-                    <p class="text-xs text-slate-600 mt-2 font-mono">Em desenvolvimento...</p>
-                </article>
-
-            </div>
+            <section id="project-detail-section" class="surface rounded-3xl p-6 md:p-8 fade-in-up detail-panel is-hidden max-w-6xl w-full" style="animation-delay:0.18s;">
+                <div id="project-detail">
+                    <div class="text-slate-500 text-sm">Selecione um projeto para ver os detalhes.</div>
+                </div>
+            </section>
         </main>
 
-        <!-- Footer -->
-        <footer class="border-t border-slate-800/50 pt-12 pb-8 mt-auto">
+        <footer class="border-t border-slate-800/50 pt-12 pb-8 mt-16">
             <div class="flex flex-col items-center text-center">
                 <div class="flex justify-center gap-8 mb-8">
-                    <a href="https://instagram.com/marcelo_rpj" target="_blank" aria-label="Instagram" class="text-slate-400 hover:text-vibrantCyan transition-colors text-2xl transform hover:scale-110 duration-200">
+                    <a href="https://instagram.com/marcelo_rpj" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="text-slate-400 hover:text-vibrantCyan transition-colors text-2xl transform hover:scale-110 duration-200">
                         <i class="fa-brands fa-instagram"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/marcelo-rodrigues-088478211/" target="_blank" aria-label="LinkedIn" class="text-slate-400 hover:text-vibrantCyan transition-colors text-2xl transform hover:scale-110 duration-200">
+                    <a href="https://www.linkedin.com/in/marcelo-rodrigues-088478211/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="text-slate-400 hover:text-vibrantCyan transition-colors text-2xl transform hover:scale-110 duration-200">
                         <i class="fa-brands fa-linkedin"></i>
                     </a>
                     <a href="mailto:rdpstudio@gmail.com" aria-label="Email" class="text-slate-400 hover:text-vibrantCyan transition-colors text-2xl transform hover:scale-110 duration-200">
                         <i class="fa-regular fa-envelope"></i>
                     </a>
                 </div>
-                <p class="text-sm text-slate-500 mb-2">
-                    © 2026 RDP STUDIO. Todos os direitos reservados.
-                </p>
-                <p class="text-xs text-slate-600 font-mono">
-                    Desenvolvido com <i class="fa-solid fa-heart text-red-900 animate-pulse"></i> por Marcelo Rodrigues
-                </p>
+                <p class="text-sm text-slate-500 mb-2">© 2026 RDP STUDIO. Todos os direitos reservados.</p>
+                <p class="text-xs text-slate-600 font-mono">Desenvolvido com <i class="fa-solid fa-heart text-red-900 animate-pulse"></i> por Marcelo Rodrigues</p>
                 <div class="watermark-container hidden"></div>
             </div>
         </footer>
-
     </div>
 
-    <!-- Scripts -->
     <script>
-        // --- MOBILE MENU LOGIC ---
         const menuBtn = document.getElementById('mobile-menu-btn');
         const menuOverlay = document.getElementById('mobile-menu-overlay');
         const mobileLinks = document.querySelectorAll('.mobile-link');
@@ -366,7 +297,6 @@
             });
         }
 
-        // --- SCROLL TO TOP LOGIC ---
         const scrollBtn = document.createElement('button');
         scrollBtn.innerHTML = '<i class="fa-solid fa-arrow-up"></i>';
         scrollBtn.className = 'fixed bottom-6 right-6 z-30 w-12 h-12 flex items-center justify-center bg-vibrantCyan text-white rounded-full shadow-lg opacity-0 pointer-events-none transition-all duration-300 hover:bg-cyan-600 hover:-translate-y-1';
@@ -383,6 +313,321 @@
         scrollBtn.addEventListener('click', () => {
             window.scrollTo({ top: 0, behavior: 'smooth' });
         });
+
+        const state = {
+            projects: [],
+            filters: {
+                type: 'Todos',
+                language: 'Todas',
+                backend: 'Todos'
+            },
+            selectedSlug: null
+        };
+
+        const accents = {
+            pink: {
+                icon: 'text-pink-400 bg-pink-500/10 border-pink-500/20',
+                badge: 'text-pink-300 bg-pink-500/10 border-pink-500/20'
+            },
+            amber: {
+                icon: 'text-amber-400 bg-amber-500/10 border-amber-500/20',
+                badge: 'text-amber-300 bg-amber-500/10 border-amber-500/20'
+            },
+            indigo: {
+                icon: 'text-indigo-400 bg-indigo-500/10 border-indigo-500/20',
+                badge: 'text-indigo-300 bg-indigo-500/10 border-indigo-500/20'
+            },
+            purple: {
+                icon: 'text-purple-400 bg-purple-500/10 border-purple-500/20',
+                badge: 'text-purple-300 bg-purple-500/10 border-purple-500/20'
+            },
+            cyan: {
+                icon: 'text-vibrantCyan bg-vibrantCyan/10 border-vibrantCyan/20',
+                badge: 'text-cyan-200 bg-vibrantCyan/10 border-vibrantCyan/20'
+            }
+        };
+
+        const els = {
+            typeFilters: document.getElementById('type-filters'),
+            languageFilters: document.getElementById('language-filters'),
+            backendFilters: document.getElementById('backend-filters'),
+            filtersPanel: document.getElementById('filters-panel'),
+            filtersToggle: document.getElementById('filters-toggle'),
+            grid: document.getElementById('project-grid'),
+            detail: document.getElementById('project-detail'),
+            detailSection: document.getElementById('project-detail-section'),
+            empty: document.getElementById('empty-state'),
+            count: document.getElementById('results-count')
+        };
+
+        function syncFiltersPanel() {
+            const isDesktop = window.matchMedia('(min-width: 768px)').matches;
+            if (isDesktop) {
+                els.filtersPanel.classList.remove('is-collapsed');
+            } else if (!els.filtersPanel.dataset.userToggled) {
+                els.filtersPanel.classList.add('is-collapsed');
+            }
+
+            if (els.filtersToggle) {
+                const collapsed = els.filtersPanel.classList.contains('is-collapsed');
+                els.filtersToggle.textContent = collapsed ? 'Abrir filtros' : 'Ocultar filtros';
+            }
+        }
+
+        function uniq(values) {
+            return Array.from(new Set(values)).sort((a, b) => a.localeCompare(b, 'pt-BR'));
+        }
+
+        function theme(project) {
+            return accents[project.primaryColor] || accents.cyan;
+        }
+
+        function getFilterLabel(key, option) {
+            if (key !== 'backend') return option;
+
+            const map = {
+                'Backend privado/documentado': 'Privado/doc',
+                'Backend real no repositorio': 'Back no repo',
+                'Sem backend': 'Sem backend',
+                'Todos': 'Todos'
+            };
+
+            return map[option] || option;
+        }
+
+        function renderFilterGroup(container, options, active, key) {
+            container.innerHTML = options.map(option => `
+                <button class="filter-chip ${option === active ? 'is-active' : ''} px-3 py-2 rounded-full text-xs font-bold uppercase tracking-wider" data-filter-key="${key}" data-filter-value="${option}">
+                    ${getFilterLabel(key, option)}
+                </button>
+            `).join('');
+        }
+
+        function getProjects() {
+            return state.projects.filter(project => {
+                const typeOk = state.filters.type === 'Todos' || project.type === state.filters.type;
+                const languageOk = state.filters.language === 'Todas' || project.languages.includes(state.filters.language);
+                const backendOk = state.filters.backend === 'Todos' || project.backendMode === state.filters.backend;
+                return typeOk && languageOk && backendOk;
+            });
+        }
+
+        function selectProject(slug) {
+            state.selectedSlug = slug;
+            renderProjects();
+            renderDetail();
+            if (els.detailSection.classList.contains('is-hidden')) {
+                els.detailSection.classList.remove('is-hidden');
+            }
+            els.detailSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+
+        function renderProjects() {
+            const projects = getProjects();
+            els.count.textContent = `${projects.length} projeto(s) visiveis`;
+            els.empty.classList.toggle('hidden', projects.length > 0);
+
+            els.grid.innerHTML = projects.map(project => {
+                const active = state.selectedSlug === project.slug;
+                const currentTheme = theme(project);
+                return `
+                    <article class="project-card surface rounded-3xl p-5 md:p-6 flex flex-col min-h-[360px] ${active ? 'is-selected' : ''}">
+                        <div class="flex justify-between items-start gap-4 mb-6">
+                            <div class="w-12 h-12 rounded-2xl border flex items-center justify-center ${currentTheme.icon}">
+                                <i class="fa-solid ${project.icon}"></i>
+                            </div>
+                            <div class="flex flex-wrap justify-end gap-2">
+                                <span class="px-2.5 py-1 rounded-full border text-[10px] font-bold uppercase tracking-[0.18em] ${currentTheme.badge}">${project.category}</span>
+                                <span class="px-2.5 py-1 rounded-full border border-white/10 bg-white/5 text-[10px] font-bold uppercase tracking-[0.18em] text-slate-300">${project.status}</span>
+                            </div>
+                        </div>
+
+                        <div class="mb-4">
+                            <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">${project.type}</div>
+                            <h3 class="text-[1.85rem] leading-[1.05] font-bold text-white mb-3">${project.name}</h3>
+                            <p class="text-[15px] text-slate-300 leading-relaxed mb-4 line-clamp-2">${project.headline}</p>
+                        </div>
+
+                        <div class="rounded-2xl bg-white/4 border border-white/5 p-4 mb-5 min-h-[104px]">
+                            <div class="text-[10px] uppercase tracking-[0.18em] text-slate-500 font-mono mb-2">Corrige</div>
+                            <p class="text-sm text-slate-300 leading-relaxed line-clamp-2">${project.problem}</p>
+                        </div>
+
+                        <div class="mt-auto">
+                            <div class="flex items-center justify-between gap-4 text-sm text-slate-400 mb-5">
+                                <div class="font-mono text-[11px] uppercase tracking-[0.18em] text-slate-500 pr-2">${project.backendMode}</div>
+                                <div class="flex flex-wrap justify-end gap-2">
+                                ${project.languages.slice(0, 1).map(item => `<span class="px-2.5 py-1 rounded-full bg-white/4 border border-white/5 text-[11px] text-slate-300">${item}</span>`).join('')}
+                                </div>
+                            </div>
+
+                            <div class="flex flex-col sm:flex-row gap-3">
+                                <button class="flex-1 px-4 py-3 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 text-sm font-semibold text-white transition-colors" data-select-project="${project.slug}">
+                                    Ver detalhes
+                                </button>
+                                <a href="${project.projectUrl}" class="flex-1 px-4 py-3 rounded-xl bg-vibrantCyan text-slate-950 hover:bg-cyan-400 text-sm font-bold text-center transition-colors">
+                                    ${project.ctaLabel}
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                `;
+            }).join('');
+
+            els.grid.querySelectorAll('[data-select-project]').forEach(button => {
+                button.addEventListener('click', () => selectProject(button.dataset.selectProject));
+            });
+        }
+
+        function renderDetail() {
+            const projects = getProjects();
+            const project = projects.find(item => item.slug === state.selectedSlug) || projects[0] || state.projects[0];
+
+            if (!project) {
+                els.detailSection.classList.add('is-hidden');
+                els.detail.innerHTML = '<p class="text-slate-500">Nenhum projeto encontrado.</p>';
+                return;
+            }
+
+            state.selectedSlug = project.slug;
+            els.detailSection.classList.remove('is-hidden');
+            const currentTheme = theme(project);
+
+            els.detail.innerHTML = `
+                <div class="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6 mb-8">
+                    <div class="max-w-3xl">
+                        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border text-[10px] font-bold uppercase tracking-[0.18em] ${currentTheme.badge} mb-4">
+                            ${project.type} · ${project.category}
+                        </div>
+                        <h3 class="text-3xl md:text-4xl font-bold text-white mb-3">${project.name}</h3>
+                        <p class="text-base text-slate-400 leading-relaxed">${project.summary}</p>
+                    </div>
+                    <div class="flex gap-3">
+                        <a href="${project.projectUrl}" class="px-5 py-3 rounded-xl bg-vibrantCyan text-slate-950 hover:bg-cyan-400 text-sm font-bold text-center transition-colors">
+                            ${project.ctaLabel}
+                        </a>
+                        <a href="${project.readmeUrl}" class="px-5 py-3 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 text-sm font-semibold text-white text-center transition-colors">
+                            Ver README
+                        </a>
+                    </div>
+                </div>
+
+                <div class="grid lg:grid-cols-[1.1fr_0.9fr] gap-6 mb-6">
+                    <div class="space-y-4">
+                        <section class="rounded-2xl bg-white/4 border border-white/5 p-5">
+                            <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Problema que resolve</div>
+                            <p class="text-sm text-slate-300 leading-relaxed">${project.problem}</p>
+                        </section>
+
+                        <section class="rounded-2xl bg-white/4 border border-white/5 p-5">
+                            <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Como resolve</div>
+                            <p class="text-sm text-slate-300 leading-relaxed">${project.solution}</p>
+                        </section>
+
+                        <section class="rounded-2xl bg-white/4 border border-white/5 p-5">
+                            <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">Resultado</div>
+                            <p class="text-sm text-slate-300 leading-relaxed">${project.outcome || project.intent}</p>
+                        </section>
+                    </div>
+
+                    <section class="rounded-2xl bg-slate-950/60 border border-white/5 p-5">
+                        <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-4">Como usar</div>
+                        <ol class="space-y-3 text-sm text-slate-300 leading-relaxed">
+                            ${(project.useSteps || []).map((step, index) => `
+                                <li class="flex gap-3">
+                                    <span class="w-7 h-7 rounded-full bg-vibrantCyan/10 text-vibrantCyan border border-vibrantCyan/20 flex items-center justify-center text-xs font-bold flex-shrink-0">${index + 1}</span>
+                                    <span>${step}</span>
+                                </li>
+                            `).join('')}
+                        </ol>
+                    </section>
+                </div>
+
+                <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-4">
+                    <section class="rounded-2xl bg-white/4 border border-white/5 p-5">
+                        <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-3">Front</div>
+                        <ul class="space-y-2 text-sm text-slate-300">
+                            ${project.frontend.map(item => `<li>${item}</li>`).join('')}
+                        </ul>
+                    </section>
+                    <section class="rounded-2xl bg-white/4 border border-white/5 p-5">
+                        <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-3">Back</div>
+                        <ul class="space-y-2 text-sm text-slate-300">
+                            ${project.backend.map(item => `<li>${item}</li>`).join('')}
+                        </ul>
+                    </section>
+                    <section class="rounded-2xl bg-white/4 border border-white/5 p-5">
+                        <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-3">Linguagens</div>
+                        <div class="flex flex-wrap gap-2">
+                            ${project.languages.map(item => `<span class="px-2.5 py-1 rounded-full bg-slate-950/70 border border-white/5 text-xs text-slate-300">${item}</span>`).join('')}
+                        </div>
+                    </section>
+                    <section class="rounded-2xl bg-white/4 border border-white/5 p-5">
+                        <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-3">Automacoes</div>
+                        <ul class="space-y-2 text-sm text-slate-300">
+                            ${project.automation.map(item => `<li>${item}</li>`).join('')}
+                        </ul>
+                    </section>
+                </div>
+            `;
+        }
+
+        function renderFilters() {
+            renderFilterGroup(els.typeFilters, ['Todos', ...uniq(state.projects.map(item => item.type))], state.filters.type, 'type');
+            renderFilterGroup(els.languageFilters, ['Todas', ...uniq(state.projects.flatMap(item => item.languages))], state.filters.language, 'language');
+            renderFilterGroup(els.backendFilters, ['Todos', ...uniq(state.projects.map(item => item.backendMode))], state.filters.backend, 'backend');
+
+            document.querySelectorAll('[data-filter-key]').forEach(button => {
+                button.addEventListener('click', () => {
+                    state.filters[button.dataset.filterKey] = button.dataset.filterValue;
+                    state.selectedSlug = null;
+                    renderFilters();
+                    renderProjects();
+                    els.detailSection.classList.add('is-hidden');
+                    if (!window.matchMedia('(min-width: 768px)').matches) {
+                        els.filtersPanel.classList.add('is-collapsed');
+                        syncFiltersPanel();
+                    }
+                });
+            });
+        }
+
+        async function loadProjects() {
+            try {
+                const response = await fetch('./data/projects.json');
+                if (!response.ok) throw new Error('Falha ao carregar projetos');
+                state.projects = await response.json();
+                state.selectedSlug = null;
+                renderFilters();
+                renderProjects();
+            } catch (error) {
+                console.error(error);
+                els.count.textContent = 'Falha ao carregar projetos';
+                els.detailSection.classList.remove('is-hidden');
+                els.detail.innerHTML = `
+                    <div class="rounded-2xl border border-red-500/20 bg-red-500/5 p-5 text-sm text-slate-300">
+                        <div class="flex items-center gap-3 text-red-400 font-bold mb-3">
+                            <i class="fa-solid fa-triangle-exclamation"></i>
+                            Nao foi possivel carregar o catalogo.
+                        </div>
+                        <p>Verifique se a pagina esta sendo servida por HTTP. Em GitHub Pages e Cloudflare Pages isso funciona normalmente.</p>
+                    </div>
+                `;
+            }
+        }
+
+        if (els.filtersToggle) {
+            els.filtersToggle.addEventListener('click', () => {
+                els.filtersPanel.dataset.userToggled = 'true';
+                els.filtersPanel.classList.toggle('is-collapsed');
+                syncFiltersPanel();
+            });
+        }
+
+        window.addEventListener('resize', syncFiltersPanel);
+
+        loadProjects();
+        syncFiltersPanel();
     </script>
 </body>
 </html>
