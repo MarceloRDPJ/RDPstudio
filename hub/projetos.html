@@ -92,6 +92,14 @@
             box-shadow: 0 20px 40px -30px rgba(0, 180, 216, 0.35);
         }
 
+        .detail-panel {
+            transition: opacity 0.2s ease, transform 0.2s ease;
+        }
+
+        .detail-panel.is-hidden {
+            display: none;
+        }
+
         @keyframes fadeInUp {
             from {
                 opacity: 0;
@@ -190,19 +198,16 @@
             </section>
 
             <section class="fade-in-up" style="animation-delay:0.14s;">
-                <div id="project-grid" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5"></div>
+                <div id="project-grid" class="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-6xl"></div>
                 <div id="empty-state" class="hidden surface rounded-3xl p-10 border border-dashed border-slate-800 text-center text-slate-500 mt-5">
                     <i class="fa-solid fa-magnifying-glass text-3xl mb-4"></i>
                     <p>Nenhum projeto corresponde aos filtros atuais.</p>
                 </div>
             </section>
 
-            <section class="surface rounded-3xl p-6 md:p-8 fade-in-up" style="animation-delay:0.18s;">
+            <section id="project-detail-section" class="surface rounded-3xl p-6 md:p-8 fade-in-up detail-panel is-hidden" style="animation-delay:0.18s;">
                 <div id="project-detail">
-                    <div class="flex items-center gap-3 text-slate-500 text-sm">
-                        <i class="fa-solid fa-circle-notch animate-spin"></i>
-                        Carregando detalhe do projeto...
-                    </div>
+                    <div class="text-slate-500 text-sm">Selecione um projeto para ver os detalhes.</div>
                 </div>
             </section>
         </main>
@@ -318,6 +323,7 @@
             backendFilters: document.getElementById('backend-filters'),
             grid: document.getElementById('project-grid'),
             detail: document.getElementById('project-detail'),
+            detailSection: document.getElementById('project-detail-section'),
             empty: document.getElementById('empty-state'),
             count: document.getElementById('results-count')
         };
@@ -351,6 +357,10 @@
             state.selectedSlug = slug;
             renderProjects();
             renderDetail();
+            if (els.detailSection.classList.contains('is-hidden')) {
+                els.detailSection.classList.remove('is-hidden');
+            }
+            els.detailSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
 
         function renderProjects() {
@@ -376,26 +386,18 @@
                         <div class="mb-4">
                             <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">${project.type}</div>
                             <h3 class="text-2xl font-bold text-white mb-3">${project.name}</h3>
-                            <p class="text-sm text-slate-300 leading-relaxed mb-4">${project.headline}</p>
+                            <p class="text-base text-slate-300 leading-relaxed mb-4 line-clamp-2">${project.headline}</p>
                         </div>
 
                         <div class="rounded-2xl bg-white/4 border border-white/5 p-4 mb-5">
                             <div class="text-[10px] uppercase tracking-[0.18em] text-slate-500 font-mono mb-2">Problema</div>
-                            <p class="text-sm text-slate-300 leading-relaxed">${project.problem}</p>
+                            <p class="text-sm text-slate-300 leading-relaxed line-clamp-3">${project.problem}</p>
                         </div>
 
-                        <div class="flex flex-wrap gap-2 mb-5">
-                            ${project.languages.slice(0, 4).map(item => `<span class="px-2.5 py-1 rounded-full bg-white/4 border border-white/5 text-xs text-slate-300">${item}</span>`).join('')}
-                        </div>
-
-                        <div class="grid grid-cols-2 gap-3 mb-5 text-sm">
-                            <div class="rounded-2xl bg-slate-950/60 border border-white/5 p-3">
-                                <div class="text-[10px] uppercase tracking-[0.18em] text-slate-500 font-mono mb-2">Front</div>
-                                <div class="text-slate-200">${project.frontend[0]}</div>
-                            </div>
-                            <div class="rounded-2xl bg-slate-950/60 border border-white/5 p-3">
-                                <div class="text-[10px] uppercase tracking-[0.18em] text-slate-500 font-mono mb-2">Back</div>
-                                <div class="text-slate-200">${project.backendMode}</div>
+                        <div class="flex items-center justify-between gap-4 text-sm text-slate-400 mb-6">
+                            <div class="font-mono text-[11px] uppercase tracking-[0.18em] text-slate-500">${project.backendMode}</div>
+                            <div class="flex flex-wrap justify-end gap-2">
+                                ${project.languages.slice(0, 2).map(item => `<span class="px-2.5 py-1 rounded-full bg-white/4 border border-white/5 text-[11px] text-slate-300">${item}</span>`).join('')}
                             </div>
                         </div>
 
@@ -421,11 +423,13 @@
             const project = projects.find(item => item.slug === state.selectedSlug) || projects[0] || state.projects[0];
 
             if (!project) {
+                els.detailSection.classList.add('is-hidden');
                 els.detail.innerHTML = '<p class="text-slate-500">Nenhum projeto encontrado.</p>';
                 return;
             }
 
             state.selectedSlug = project.slug;
+            els.detailSection.classList.remove('is-hidden');
             const currentTheme = theme(project);
 
             els.detail.innerHTML = `
@@ -515,9 +519,10 @@
             document.querySelectorAll('[data-filter-key]').forEach(button => {
                 button.addEventListener('click', () => {
                     state.filters[button.dataset.filterKey] = button.dataset.filterValue;
+                    state.selectedSlug = null;
                     renderFilters();
                     renderProjects();
-                    renderDetail();
+                    els.detailSection.classList.add('is-hidden');
                 });
             });
         }
@@ -527,13 +532,13 @@
                 const response = await fetch('./data/projects.json');
                 if (!response.ok) throw new Error('Falha ao carregar projetos');
                 state.projects = await response.json();
-                state.selectedSlug = state.projects[0]?.slug || null;
+                state.selectedSlug = null;
                 renderFilters();
                 renderProjects();
-                renderDetail();
             } catch (error) {
                 console.error(error);
                 els.count.textContent = 'Falha ao carregar projetos';
+                els.detailSection.classList.remove('is-hidden');
                 els.detail.innerHTML = `
                     <div class="rounded-2xl border border-red-500/20 bg-red-500/5 p-5 text-sm text-slate-300">
                         <div class="flex items-center gap-3 text-red-400 font-bold mb-3">
