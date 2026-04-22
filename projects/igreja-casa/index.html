@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Igreja Casa Hub | RDP Studio</title>
+    <meta name="description" content="Plataforma de gestão da Igreja Casa com CRM, formulários, Wi-Fi, notificações, DOMUM, escala e backend serverless com Supabase.">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/site/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/site/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/site/favicon-16x16.png">
+    <link rel="manifest" href="../../assets/site/site.webmanifest">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../../assets/css/rod-tour.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        vibrantCyan: '#00B4D8',
+                        energeticAmber: '#F59E0B',
+                        trustGreen: '#10B981',
+                        darkSlate: '#020617',
+                        warmStone: '#d6c3a0',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #020617;
+            background-image: radial-gradient(circle at 15% 20%, rgba(0, 180, 216, 0.08), transparent 22%), radial-gradient(circle at 80% 24%, rgba(214, 195, 160, 0.10), transparent 24%);
+            background-attachment: fixed;
+            color: #f8fafc;
+        }
+
+        .surface {
+            background: rgba(15, 23, 42, 0.78);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .text-gradient {
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-image: linear-gradient(to right, #ffffff, #7dd3fc, #d6c3a0);
+        }
+
+        .nav-link { color: #94a3b8; transition: color 0.2s ease; }
+        .nav-link:hover, .nav-link.active { color: #fff; }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(18px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .fade-in-up {
+            opacity: 0;
+            animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+
+        .wire-card {
+            border: 1px solid rgba(255,255,255,0.08);
+            background: rgba(255,255,255,0.03);
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-vibrantCyan selection:text-white">
+    <div class="max-w-7xl mx-auto px-6 py-6 min-h-screen flex flex-col">
+        <header class="flex flex-wrap justify-between items-center mb-12 gap-4 relative z-50">
+            <a href="../../hub/projetos.html" class="flex items-center gap-2 text-slate-400 hover:text-white transition-colors group">
+                <div class="p-2 rounded-lg bg-white/5 border border-white/10 group-hover:border-vibrantCyan/50 transition-colors">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </div>
+                <span class="text-sm font-semibold tracking-wide uppercase">Voltar ao Hub</span>
+            </a>
+
+            <div class="flex items-center gap-3">
+                <span class="px-3 py-1 rounded-full bg-warmStone/10 border border-warmStone/20 text-warmStone text-xs font-bold uppercase tracking-wider">
+                    Plataforma Operacional
+                </span>
+            </div>
+        </header>
+
+        <main class="flex-grow space-y-10 md:space-y-14">
+            <section class="grid lg:grid-cols-[1.05fr_0.95fr] gap-8 items-center fade-in-up">
+                <div class="space-y-8">
+                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-xs font-mono uppercase tracking-[0.22em] text-slate-400">
+                        Cloudflare Pages + Supabase
+                    </div>
+                    <div class="space-y-6">
+                        <h1 class="text-4xl md:text-6xl font-bold leading-[1.02] tracking-tight">
+                            <span class="text-gradient">Igreja Casa Hub</span><br>
+                            gestão pastoral, administrativa e operacional em uma só plataforma.
+                        </h1>
+                        <p class="text-lg text-slate-300 leading-relaxed max-w-2xl">
+                            Este projeto organiza formulários públicos, CRM pastoral, analytics, escala, DOMUM, notificações e portal Wi-Fi em um ecossistema único. A entrega foi pensada para operação real, custo controlado e crescimento com arquitetura serverless.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-3">
+                        <a href="#arquitetura" class="px-6 py-3 rounded-xl bg-vibrantCyan text-slate-950 font-bold hover:bg-cyan-400 transition-colors">Ver Arquitetura</a>
+                        <a href="#modulos" class="px-6 py-3 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 text-white font-semibold transition-colors">Explorar Módulos</a>
+                    </div>
+                </div>
+
+                <div class="surface rounded-[32px] p-8 md:p-10 overflow-hidden relative">
+                    <div class="absolute inset-0 bg-gradient-to-br from-warmStone/8 via-transparent to-vibrantCyan/10 pointer-events-none"></div>
+                    <div class="relative z-10 flex flex-col items-center text-center gap-8">
+                        <img src="assets/logo-big.webp" alt="Logo Igreja Casa Hub" class="w-44 max-w-full drop-shadow-[0_0_30px_rgba(255,255,255,0.06)]">
+                        <div class="grid grid-cols-2 gap-4 w-full">
+                            <div class="wire-card rounded-2xl p-4 text-left">
+                                <div class="text-xs font-mono uppercase tracking-[0.18em] text-slate-500 mb-2">Hospedagem</div>
+                                <div class="text-white font-semibold">Cloudflare Pages</div>
+                            </div>
+                            <div class="wire-card rounded-2xl p-4 text-left">
+                                <div class="text-xs font-mono uppercase tracking-[0.18em] text-slate-500 mb-2">Backend</div>
+                                <div class="text-white font-semibold">Supabase serverless</div>
+                            </div>
+                            <div class="wire-card rounded-2xl p-4 text-left">
+                                <div class="text-xs font-mono uppercase tracking-[0.18em] text-slate-500 mb-2">Stack</div>
+                                <div class="text-white font-semibold">HTML, CSS, JS vanilla</div>
+                            </div>
+                            <div class="wire-card rounded-2xl p-4 text-left">
+                                <div class="text-xs font-mono uppercase tracking-[0.18em] text-slate-500 mb-2">Escopo</div>
+                                <div class="text-white font-semibold">Admin, CRM, Wi-Fi, DOMUM</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="grid md:grid-cols-3 gap-5 fade-in-up" style="animation-delay:0.08s;">
+                <article class="surface rounded-3xl p-6">
+                    <div class="text-xs font-mono uppercase tracking-[0.2em] text-vibrantCyan mb-3">Problema</div>
+                    <p class="text-slate-300 leading-relaxed">Operações pastorais e administrativas tendem a se fragmentar entre formulários isolados, planilhas, comunicação manual e baixa rastreabilidade de jornada.</p>
+                </article>
+                <article class="surface rounded-3xl p-6">
+                    <div class="text-xs font-mono uppercase tracking-[0.2em] text-vibrantCyan mb-3">Solução</div>
+                    <p class="text-slate-300 leading-relaxed">Uma plataforma única, estática no frontend e serverless no backend, que unifica captação, CRM, analytics, operação de ministérios e integrações.</p>
+                </article>
+                <article class="surface rounded-3xl p-6">
+                    <div class="text-xs font-mono uppercase tracking-[0.2em] text-vibrantCyan mb-3">Resultado</div>
+                    <p class="text-slate-300 leading-relaxed">Mais previsibilidade operacional, menos retrabalho e uma base de dados viva para tomada de decisão pastoral e administrativa.</p>
+                </article>
+            </section>
+
+            <section id="arquitetura" class="surface rounded-3xl p-8 fade-in-up" style="animation-delay:0.12s;">
+                <div class="max-w-4xl">
+                    <div class="text-xs font-mono uppercase tracking-[0.22em] text-slate-500 mb-4">Arquitetura</div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Static-first no frontend, serverless no backend</h2>
+                    <p class="text-slate-400 leading-relaxed mb-8">O projeto foi desenhado sem backend tradicional próprio. A camada operacional está distribuída entre Cloudflare Pages, Supabase Auth, PostgreSQL, RPCs SQL, Realtime e Edge Functions.</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-5">
+                    <div class="wire-card rounded-2xl p-6">
+                        <div class="w-12 h-12 rounded-2xl bg-vibrantCyan/10 border border-vibrantCyan/20 text-vibrantCyan flex items-center justify-center mb-4"><i class="fa-solid fa-window-maximize"></i></div>
+                        <h3 class="text-xl font-bold text-white mb-3">Frontend</h3>
+                        <p class="text-sm text-slate-400 leading-relaxed">Admin SPA, formulários públicos, portal Wi-Fi e ferramentas auxiliares organizadas por domínio em JavaScript vanilla.</p>
+                    </div>
+                    <div class="wire-card rounded-2xl p-6">
+                        <div class="w-12 h-12 rounded-2xl bg-warmStone/10 border border-warmStone/20 text-warmStone flex items-center justify-center mb-4"><i class="fa-solid fa-database"></i></div>
+                        <h3 class="text-xl font-bold text-white mb-3">Supabase</h3>
+                        <p class="text-sm text-slate-400 leading-relaxed">Auth, banco relacional, RPCs SQL, realtime e edge functions concentrando a maior parte da lógica operacional.</p>
+                    </div>
+                    <div class="wire-card rounded-2xl p-6">
+                        <div class="w-12 h-12 rounded-2xl bg-trustGreen/10 border border-trustGreen/20 text-trustGreen flex items-center justify-center mb-4"><i class="fa-solid fa-cloud"></i></div>
+                        <h3 class="text-xl font-bold text-white mb-3">Deploy</h3>
+                        <p class="text-sm text-slate-400 leading-relaxed">Fluxo simples e determinístico: `src/` para fonte, `dist/` para artefato final e publicação via Cloudflare Pages.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="modulos" class="fade-in-up" style="animation-delay:0.16s;">
+                <div class="max-w-4xl mb-8">
+                    <div class="text-xs font-mono uppercase tracking-[0.22em] text-slate-500 mb-4">Módulos</div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Uma plataforma, múltiplos domínios operacionais</h2>
+                </div>
+                <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-5">
+                    <article class="surface rounded-3xl p-6">
+                        <div class="text-xs font-mono uppercase tracking-[0.2em] text-vibrantCyan mb-3">Admin</div>
+                        <p class="text-slate-300 leading-relaxed">Painel administrativo com gestão diária, cadastros, formulários, analytics, notificações, e-mail, DOMUM, escala e monitoramento.</p>
+                    </article>
+                    <article class="surface rounded-3xl p-6">
+                        <div class="text-xs font-mono uppercase tracking-[0.2em] text-vibrantCyan mb-3">CRM</div>
+                        <p class="text-slate-300 leading-relaxed">Leitura de pessoas, respostas, jornada, tags, perfis e relacionamento com dados vindos dos formulários públicos.</p>
+                    </article>
+                    <article class="surface rounded-3xl p-6">
+                        <div class="text-xs font-mono uppercase tracking-[0.2em] text-vibrantCyan mb-3">Formulários</div>
+                        <p class="text-slate-300 leading-relaxed">Builder e engine pública com deduplicação progressiva, tracking de sessão, autosave e submissão final conectada ao banco.</p>
+                    </article>
+                    <article class="surface rounded-3xl p-6">
+                        <div class="text-xs font-mono uppercase tracking-[0.2em] text-vibrantCyan mb-3">Analytics</div>
+                        <p class="text-slate-300 leading-relaxed">Relatórios de sessão, abandono, fontes de tráfego e consolidação de jornada para leitura estratégica.</p>
+                    </article>
+                    <article class="surface rounded-3xl p-6">
+                        <div class="text-xs font-mono uppercase tracking-[0.2em] text-vibrantCyan mb-3">Wi-Fi</div>
+                        <p class="text-slate-300 leading-relaxed">Portal captive com identificação por MAC, lookup de pessoa, operações integradas com MikroTik e observabilidade de sessão.</p>
+                    </article>
+                    <article class="surface rounded-3xl p-6">
+                        <div class="text-xs font-mono uppercase tracking-[0.2em] text-vibrantCyan mb-3">DOMUM e Escala</div>
+                        <p class="text-slate-300 leading-relaxed">Organização de equipes, programações, servos, departamentos, edições e comunicação com foco em rotina real de ministério.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="surface rounded-3xl p-8 fade-in-up" style="animation-delay:0.2s;">
+                <div class="grid lg:grid-cols-[1fr_0.9fr] gap-8 items-start">
+                    <div>
+                        <div class="text-xs font-mono uppercase tracking-[0.22em] text-slate-500 mb-4">Por que importa</div>
+                        <h2 class="text-3xl font-bold text-white mb-4">Prova de que o portfólio também sabe sustentar operação complexa</h2>
+                        <p class="text-slate-400 leading-relaxed mb-6">O Igreja Casa Hub adiciona uma camada importante ao portfólio: mostra capacidade de desenhar um sistema institucional completo, com múltiplos módulos, dados críticos, automação e arquitetura estável sem cair em um backend monolítico tradicional.</p>
+                        <ul class="space-y-3 text-slate-300">
+                            <li class="flex gap-3"><i class="fa-solid fa-check text-trustGreen mt-1"></i><span>Fluxo estático + serverless com foco em custo, manutenção e agilidade de deploy.</span></li>
+                            <li class="flex gap-3"><i class="fa-solid fa-check text-trustGreen mt-1"></i><span>Regras críticas distribuídas entre frontend, SQL, RPCs e edge functions com intenção clara de negócio.</span></li>
+                            <li class="flex gap-3"><i class="fa-solid fa-check text-trustGreen mt-1"></i><span>Valor operacional entregue em CRM, captação, analytics, Wi-Fi, escala, DOMUM e comunicação.</span></li>
+                        </ul>
+                    </div>
+                    <div class="wire-card rounded-2xl p-6">
+                        <div class="text-xs font-mono uppercase tracking-[0.22em] text-slate-500 mb-4">Leitura executiva</div>
+                        <div class="space-y-4 text-sm text-slate-300 leading-relaxed">
+                            <p><strong class="text-white">Hospedagem:</strong> Cloudflare Pages</p>
+                            <p><strong class="text-white">Autenticação:</strong> Supabase Auth</p>
+                            <p><strong class="text-white">Dados:</strong> PostgreSQL + Realtime</p>
+                            <p><strong class="text-white">Backend operacional:</strong> RPCs SQL + Edge Functions</p>
+                            <p><strong class="text-white">Frontend:</strong> HTML + CSS + JavaScript vanilla</p>
+                            <p><strong class="text-white">Demonstração pública:</strong> indisponível, porque a página no portfólio é explicativa e o sistema é operacional.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="border-t border-slate-800/50 pt-12 pb-8 mt-16">
+            <div class="flex flex-col items-center text-center">
+                <div class="flex justify-center gap-8 mb-8">
+                    <a href="https://instagram.com/marcelo_rpj" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="text-slate-400 hover:text-vibrantCyan transition-colors text-2xl transform hover:scale-110 duration-200"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/marcelo-rodrigues-088478211/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="text-slate-400 hover:text-vibrantCyan transition-colors text-2xl transform hover:scale-110 duration-200"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="mailto:rdpstudio@gmail.com" aria-label="Email" class="text-slate-400 hover:text-vibrantCyan transition-colors text-2xl transform hover:scale-110 duration-200"><i class="fa-regular fa-envelope"></i></a>
+                </div>
+                <p class="text-sm text-slate-500 mb-2">© 2026 RDP STUDIO. Todos os direitos reservados.</p>
+                <p class="text-xs text-slate-600 font-mono">Desenvolvido com <i class="fa-solid fa-heart text-red-900 animate-pulse"></i> por Marcelo Rodrigues</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        window.ROD_TOUR_DEFINITIONS = {
+            overview: [
+                {
+                    selector: 'main > section:first-child',
+                    text: 'Aqui está o enquadramento executivo do case. A ideia é apresentar rapidamente a plataforma, o contexto e a proposta de valor.'
+                },
+                {
+                    selector: '#arquitetura',
+                    text: 'Este bloco explica a arquitetura. O projeto combina frontend estático com backend operacional serverless usando Supabase e Cloudflare Pages.'
+                },
+                {
+                    selector: '#modulos',
+                    text: 'Nesta parte você entende os domínios principais da plataforma: admin, CRM, formulários, analytics, Wi-Fi, DOMUM e escala.'
+                }
+            ]
+        };
+    </script>
+    <script src="../../assets/js/rod-tour.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            if (window.initRODTour) window.initRODTour();
+        });
+    </script>
+</body>
+</html>

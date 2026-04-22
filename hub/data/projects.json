@@ -1,5 +1,38 @@
 [
   {
+    "slug": "igreja-casa",
+    "name": "Igreja Casa Hub",
+    "headline": "Plataforma operacional para gestão pastoral, administrativa e jornada de pessoas.",
+    "summary": "Sistema de gestão com painel administrativo, CRM pastoral, formulários públicos, analytics, portal Wi-Fi, escala, DOMUM, notificações e automações.",
+    "problem": "Operações pastorais e administrativas costumam ficar espalhadas entre planilhas, formulários isolados, comunicação manual e pouca rastreabilidade.",
+    "solution": "A plataforma unifica captação, CRM, analytics, módulos operacionais e backend serverless em uma arquitetura simples de publicar e evoluir.",
+    "outcome": "Entrega controle operacional, leitura de jornada e automação institucional em um ecossistema único.",
+    "type": "Case",
+    "category": "Operations Platform",
+    "status": "Em operação",
+    "maturity": "Sistema real",
+    "primaryColor": "cyan",
+    "icon": "fa-church",
+    "frontend": ["HTML", "CSS", "JavaScript Vanilla", "Cloudflare Pages"],
+    "backend": ["Supabase Auth", "Postgres", "RPCs SQL", "Edge Functions", "Realtime"],
+    "languages": ["JavaScript", "HTML", "CSS", "SQL", "TypeScript"],
+    "automation": ["Deduplicação progressiva", "Analytics de jornada", "Integração com Wi-Fi", "Notificações e e-mail"],
+    "hosting": ["Cloudflare Pages", "Supabase"],
+    "responsive": true,
+    "backendMode": "Serverless operacional",
+    "codeVisibility": "Privado/parcial",
+    "intent": "Demonstrar capacidade de desenhar uma plataforma institucional completa, com frontend estático e backend serverless bem distribuído.",
+    "useSteps": [
+      "Acesse a página explicativa para entender o contexto e a arquitetura da solução.",
+      "Explore os módulos principais para visualizar o alcance operacional do sistema.",
+      "Use a leitura executiva para entender o valor técnico e de negócio entregue."
+    ],
+    "projectUrl": "../projects/igreja-casa/index.html",
+    "readmeUrl": "../projects/igreja-casa/README.md",
+    "architectureUrl": null,
+    "ctaLabel": "Ver Plataforma"
+  },
+  {
     "slug": "scanner-game-free",
     "name": "RDP Insider",
     "headline": "Inteligencia de mercado gamer com dados atualizados diariamente.",

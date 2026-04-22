@@ -28,6 +28,11 @@ Este repositório consolida projetos que demonstram expertise em Python, React, 
 >
 > Ferramenta web para validação e formatação de endereços MAC para configurações de Firewall e DHCP. Interface moderna com geração instantânea de scripts.
 
+### 5. [Igreja Casa Hub](./projects/igreja-casa/)
+> **Status:** Em operação | **Tech:** Cloudflare Pages, Supabase, JavaScript Vanilla
+>
+> Plataforma de gestão pastoral e administrativa com painel admin, CRM, formulários públicos, analytics, portal Wi-Fi, notificações, DOMUM e escala em uma arquitetura static-first com backend serverless.
+
 ---
 
 ## 🛠️ Tecnologias e Padrões
@@ -45,7 +50,8 @@ Este repositório consolida projetos que demonstram expertise em Python, React, 
 │   ├── assistente-vendas-ia/  # Agente de Vendas Telegram
 │   ├── abertura-chamados-glpi/# Automação GLPI
 │   ├── scanner-game-free/     # RDP Insider Portal
-│   └── validador-firewall/    # Tool de Validação MAC
+│   ├── validador-firewall/    # Tool de Validação MAC
+│   └── igreja-casa/           # Plataforma Igreja Casa Hub
 ├── scripts/                   # Scripts utilitários e de verificação
 ├── templates/                 # Modelos de projetos
 └── assets/                    # Recursos globais

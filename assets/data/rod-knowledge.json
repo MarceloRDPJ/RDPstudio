@@ -73,6 +73,25 @@
   ],
   "projects": [
     {
+      "slug": "igreja-casa",
+      "name": "Igreja Casa Hub",
+      "aliases": ["igreja casa", "igreja casa hub", "hub igreja casa", "crm pastoral", "domum"],
+      "category": "Operations Platform",
+      "summary": "Plataforma de gestão pastoral e administrativa com CRM, formulários, analytics, escala, DOMUM, notificações e Wi-Fi.",
+      "problem": "Operações de captação, CRM, relatórios e rotina ministerial costumam ficar fragmentadas e difíceis de rastrear.",
+      "solution": "O sistema unifica módulos institucionais em uma arquitetura static-first com backend serverless em Supabase.",
+      "howToUse": [
+        "Use a página do portfólio para entender o problema, a arquitetura e os módulos do sistema.",
+        "Navegue pelos blocos de frontend, backend e domínios operacionais para enxergar a solução completa.",
+        "Quando eu te guiar, vou destacar arquitetura, módulos e valor operacional do projeto."
+      ],
+      "stack": ["HTML", "CSS", "JavaScript Vanilla", "Cloudflare Pages", "Supabase", "SQL", "TypeScript"],
+      "backendMode": "Serverless operacional",
+      "projectUrl": "../projects/igreja-casa/index.html",
+      "guidedTourUrl": "../projects/igreja-casa/index.html?rodTour=overview",
+      "keywords": ["igreja", "crm pastoral", "domum", "escala", "wifi", "supabase", "cloudflare", "formularios"]
+    },
+    {
       "slug": "scanner-game-free",
       "name": "RDP Insider",
       "aliases": ["rdp insider", "scanner game free", "epic", "insider"],
