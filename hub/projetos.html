@@ -38,6 +38,7 @@
             background-image: radial-gradient(circle at 15% 18%, rgba(0, 180, 216, 0.08), transparent 22%), radial-gradient(circle at 82% 24%, rgba(30, 58, 95, 0.14), transparent 26%);
             background-attachment: fixed;
             color: #f8fafc;
+            overflow-x: hidden;
         }
 
         .surface {
@@ -92,6 +93,14 @@
             box-shadow: 0 20px 40px -30px rgba(0, 180, 216, 0.35);
         }
 
+        .catalog-grid {
+            align-items: stretch;
+        }
+
+        .catalog-grid > * {
+            height: 100%;
+        }
+
         .detail-panel {
             transition: opacity 0.2s ease, transform 0.2s ease;
         }
@@ -126,7 +135,7 @@
     </style>
 </head>
 <body class="antialiased selection:bg-vibrantCyan selection:text-white">
-    <div class="max-w-7xl mx-auto px-6 py-6 min-h-screen flex flex-col">
+    <div class="max-w-7xl w-full mx-auto px-4 sm:px-6 py-6 min-h-screen flex flex-col">
         <header class="flex justify-between items-center mb-10 relative z-50">
             <a href="../index.html" class="flex items-center gap-4 group">
                 <div class="w-10 h-10 rounded-xl surface flex items-center justify-center p-1">
@@ -161,51 +170,51 @@
             <section class="fade-in-up">
                 <div class="max-w-3xl">
                     <div class="text-xs font-mono uppercase tracking-[0.26em] text-slate-500 mb-4">Projetos</div>
-                    <h2 class="text-4xl md:text-5xl font-bold leading-tight mb-4">
+                    <h2 class="text-[1.9rem] sm:text-4xl lg:text-5xl font-bold leading-[1.02] mb-4 max-w-4xl break-words">
                         Projetos com <span class="text-gradient">cards fortes</span> e leitura clara do valor entregue
                     </h2>
-                    <p class="text-base md:text-lg text-slate-400 leading-relaxed">
+                    <p class="text-base md:text-lg text-slate-400 leading-relaxed max-w-2xl">
                         Cada projeto mostra o problema que resolve, a proposta da ferramenta e um caminho claro para abrir ou entender melhor a solucao.
                     </p>
                 </div>
             </section>
 
-            <section class="surface rounded-3xl p-5 md:p-6 fade-in-up" style="animation-delay:0.08s;">
+            <section class="surface rounded-3xl p-4 sm:p-5 md:p-6 fade-in-up max-w-6xl w-full" style="animation-delay:0.08s;">
                 <div class="flex flex-col gap-5">
-                    <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-4">
+                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
                         <div>
                             <h3 class="text-xl font-bold text-white">Filtrar projetos</h3>
                             <p class="text-sm text-slate-400 mt-1">Use os filtros para navegar por tipo, linguagem e modelo de backend.</p>
                         </div>
-                        <div class="text-sm text-slate-500 font-mono" id="results-count">Carregando projetos...</div>
+                        <div class="text-sm text-slate-500 font-mono md:text-right" id="results-count">Carregando projetos...</div>
                     </div>
 
                     <div class="space-y-4">
                         <div>
                             <div class="text-xs uppercase tracking-[0.22em] text-slate-500 font-mono mb-2">Tipo</div>
-                            <div id="type-filters" class="flex flex-wrap gap-2"></div>
+                            <div id="type-filters" class="flex flex-wrap gap-2 overflow-x-auto pb-1"></div>
                         </div>
                         <div>
                             <div class="text-xs uppercase tracking-[0.22em] text-slate-500 font-mono mb-2">Linguagem</div>
-                            <div id="language-filters" class="flex flex-wrap gap-2"></div>
+                            <div id="language-filters" class="flex flex-wrap gap-2 overflow-x-auto pb-1"></div>
                         </div>
                         <div>
                             <div class="text-xs uppercase tracking-[0.22em] text-slate-500 font-mono mb-2">Backend</div>
-                            <div id="backend-filters" class="flex flex-wrap gap-2"></div>
+                            <div id="backend-filters" class="flex flex-wrap gap-2 overflow-x-auto pb-1"></div>
                         </div>
                     </div>
                 </div>
             </section>
 
             <section class="fade-in-up" style="animation-delay:0.14s;">
-                <div id="project-grid" class="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-6xl"></div>
+                <div id="project-grid" class="catalog-grid grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 max-w-6xl w-full"></div>
                 <div id="empty-state" class="hidden surface rounded-3xl p-10 border border-dashed border-slate-800 text-center text-slate-500 mt-5">
                     <i class="fa-solid fa-magnifying-glass text-3xl mb-4"></i>
                     <p>Nenhum projeto corresponde aos filtros atuais.</p>
                 </div>
             </section>
 
-            <section id="project-detail-section" class="surface rounded-3xl p-6 md:p-8 fade-in-up detail-panel is-hidden" style="animation-delay:0.18s;">
+            <section id="project-detail-section" class="surface rounded-3xl p-6 md:p-8 fade-in-up detail-panel is-hidden max-w-6xl w-full" style="animation-delay:0.18s;">
                 <div id="project-detail">
                     <div class="text-slate-500 text-sm">Selecione um projeto para ver os detalhes.</div>
                 </div>
@@ -372,7 +381,7 @@
                 const active = state.selectedSlug === project.slug;
                 const currentTheme = theme(project);
                 return `
-                    <article class="project-card surface rounded-3xl p-6 ${active ? 'is-selected' : ''}">
+                    <article class="project-card surface rounded-3xl p-5 md:p-6 flex flex-col ${active ? 'is-selected' : ''}">
                         <div class="flex justify-between items-start gap-4 mb-6">
                             <div class="w-12 h-12 rounded-2xl border flex items-center justify-center ${currentTheme.icon}">
                                 <i class="fa-solid ${project.icon}"></i>
@@ -385,29 +394,31 @@
 
                         <div class="mb-4">
                             <div class="text-xs uppercase tracking-[0.2em] text-slate-500 font-mono mb-2">${project.type}</div>
-                            <h3 class="text-2xl font-bold text-white mb-3">${project.name}</h3>
-                            <p class="text-base text-slate-300 leading-relaxed mb-4 line-clamp-2">${project.headline}</p>
+                            <h3 class="text-[1.9rem] leading-[1.05] font-bold text-white mb-3">${project.name}</h3>
+                            <p class="text-[15px] text-slate-300 leading-relaxed mb-4 line-clamp-2">${project.headline}</p>
                         </div>
 
-                        <div class="rounded-2xl bg-white/4 border border-white/5 p-4 mb-5">
+                        <div class="rounded-2xl bg-white/4 border border-white/5 p-4 mb-5 min-h-[116px]">
                             <div class="text-[10px] uppercase tracking-[0.18em] text-slate-500 font-mono mb-2">Problema</div>
                             <p class="text-sm text-slate-300 leading-relaxed line-clamp-3">${project.problem}</p>
                         </div>
 
-                        <div class="flex items-center justify-between gap-4 text-sm text-slate-400 mb-6">
-                            <div class="font-mono text-[11px] uppercase tracking-[0.18em] text-slate-500">${project.backendMode}</div>
-                            <div class="flex flex-wrap justify-end gap-2">
+                        <div class="mt-auto">
+                            <div class="flex items-center justify-between gap-4 text-sm text-slate-400 mb-5">
+                                <div class="font-mono text-[11px] uppercase tracking-[0.18em] text-slate-500 line-clamp-2 pr-2">${project.backendMode}</div>
+                                <div class="flex flex-wrap justify-end gap-2">
                                 ${project.languages.slice(0, 2).map(item => `<span class="px-2.5 py-1 rounded-full bg-white/4 border border-white/5 text-[11px] text-slate-300">${item}</span>`).join('')}
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="flex flex-col sm:flex-row gap-3">
-                            <button class="flex-1 px-4 py-3 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 text-sm font-semibold text-white transition-colors" data-select-project="${project.slug}">
-                                Ver detalhes
-                            </button>
-                            <a href="${project.projectUrl}" class="flex-1 px-4 py-3 rounded-xl bg-vibrantCyan text-slate-950 hover:bg-cyan-400 text-sm font-bold text-center transition-colors">
-                                ${project.ctaLabel}
-                            </a>
+                            <div class="flex flex-col sm:flex-row gap-3">
+                                <button class="flex-1 px-4 py-3 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 text-sm font-semibold text-white transition-colors" data-select-project="${project.slug}">
+                                    Ver detalhes
+                                </button>
+                                <a href="${project.projectUrl}" class="flex-1 px-4 py-3 rounded-xl bg-vibrantCyan text-slate-950 hover:bg-cyan-400 text-sm font-bold text-center transition-colors">
+                                    ${project.ctaLabel}
+                                </a>
+                            </div>
                         </div>
                     </article>
                 `;
