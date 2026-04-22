@@ -48,6 +48,66 @@ function compact(text = '') {
   return text.replace(/\n{3,}/g, '\n\n').trim()
 }
 
+function humanizePtBr(text = '') {
+  const replacements = [
+    [/\bautomacao\b/gi, 'automação'],
+    [/\bseguranca\b/gi, 'segurança'],
+    [/\btecnica\b/gi, 'técnica'],
+    [/\btecnico\b/gi, 'técnico'],
+    [/\binteligencia\b/gi, 'inteligência'],
+    [/\boperacao\b/gi, 'operação'],
+    [/\boperacional\b/gi, 'operacional'],
+    [/\binformacao\b/gi, 'informação'],
+    [/\bexplicacao\b/gi, 'explicação'],
+    [/\bdemonstracao\b/gi, 'demonstração'],
+    [/\baplicacao\b/gi, 'aplicação'],
+    [/\bsolucao\b/gi, 'solução'],
+    [/\bsolucoes\b/gi, 'soluções'],
+    [/\bgestao\b/gi, 'gestão'],
+    [/\bvalidacao\b/gi, 'validação'],
+    [/\bduplicidades\b/gi, 'duplicidades'],
+    [/\bnegocio\b/gi, 'negócio'],
+    [/\bnegocios\b/gi, 'negócios'],
+    [/\bconversacional\b/gi, 'conversacional'],
+    [/\bexplica\b/gi, 'explica'],
+    [/\bvoce\b/gi, 'você'],
+    [/\bvoce\s+\b/gi, 'você '],
+    [/\bnao\b/gi, 'não'],
+    [/\bsera\b/gi, 'será'],
+    [/\bacao\b/gi, 'ação'],
+    [/\bacoes\b/gi, 'ações'],
+    [/\bduvida\b/gi, 'dúvida'],
+    [/\bduvidas\b/gi, 'dúvidas'],
+    [/\bpagina\b/gi, 'página'],
+    [/\bpaginas\b/gi, 'páginas'],
+    [/\bexpansao\b/gi, 'expansão'],
+    [/\batraves\b/gi, 'através'],
+    [/\bpre visualizacao\b/gi, 'pré-visualização'],
+    [/\bguia\b/gi, 'guia'],
+    [/\bconteudo\b/gi, 'conteúdo'],
+    [/\bconteudos\b/gi, 'conteúdos'],
+    [/\btecnologias\b/gi, 'tecnologias'],
+    [/\bmais rapidos\b/gi, 'mais rápidos'],
+    [/\bmais rapidas\b/gi, 'mais rápidas'],
+    [/\bpratico\b/gi, 'prático'],
+    [/\bpratica\b/gi, 'prática'],
+    [/\bpublico\b/gi, 'público'],
+    [/\bambig[uú]o\b/gi, 'ambíguo'],
+    [/\bportifolio\b/gi, 'portfólio'],
+    [/\bportfolio\b/gi, 'portfólio'],
+    [/\bexperiencia\b/gi, 'experiência'],
+    [/\bareas\b/gi, 'áreas'],
+    [/\bqual e\b/gi, 'qual é'],
+    [/\bquem e\b/gi, 'quem é'],
+    [/\bo que e\b/gi, 'o que é'],
+    [/\bvoce pode\b/gi, 'você pode'],
+    [/\bme fale\b/gi, 'me fale'],
+    [/\bate\b/gi, 'até']
+  ]
+
+  return replacements.reduce((acc, [pattern, value]) => acc.replace(pattern, value), text)
+}
+
 class RodKnowledgeEngine {
   constructor(knowledge) {
     this.knowledge = knowledge
@@ -100,7 +160,7 @@ class RodKnowledgeEngine {
     return this.faqFuse.search(query).slice(0, 2).map(result => result.item)
   }
 
-  answer(query) {
+  answer(query, context = {}) {
     const normalized = normalizeText(query)
     const projects = this.findProjects(query)
     const faq = this.findFaq(query)
@@ -111,10 +171,26 @@ class RodKnowledgeEngine {
 
     if (!normalized) {
       return {
-        text: pickOne(this.knowledge.assistant.welcome),
+        text: humanizePtBr(pickOne(this.knowledge.assistant.welcome)),
         suggestions: this.knowledge.assistant.starterQuestions,
         actions: [],
+        context,
       }
+    }
+
+    const projectByContext = this.knowledge.projects.find(project => project.slug === context.lastProjectSlug)
+    const recommendationByContext = (context.lastRecommendationSlugs || [])
+      .map(slug => this.knowledge.projects.find(project => project.slug === slug))
+      .filter(Boolean)
+
+    let contextualProject = projects[0] || null
+
+    if (!contextualProject && /^(me mostra|mostra|abrir|abre|abre ele|esse|esse ai|essa ferramenta|essa)$/.test(normalized)) {
+      contextualProject = recommendationByContext[0] || projectByContext || null
+    }
+
+    if (!contextualProject && /(como usar|como usa|me guie|me guia|guie|guia|mostra como)/.test(normalized)) {
+      contextualProject = projectByContext || recommendationByContext[0] || null
     }
 
     if (intent?.id === 'greeting') {
@@ -137,6 +213,8 @@ class RodKnowledgeEngine {
 
     if (intent?.id === 'project-recommendation') {
       responses.push(intent.response)
+      context.lastRecommendationSlugs = ['abertura-chamados-glpi', 'validador-firewall', 'assistente-vendas-ia', 'scanner-game-free']
+      suggestions.push('Me mostra', 'Como usar o GLPI Automator?', 'Como usar o Validador de MACs?')
     }
 
     if (/hospedagem|github pages|cloudflare|statico|estatico|deploy/.test(normalized)) {
@@ -158,7 +236,7 @@ class RodKnowledgeEngine {
       suggestions.push('Qual projeto tem IA?', 'Qual projeto mostra automação?', 'Como usar o Validador de MACs?')
     }
 
-    const targetedProject = projects[0]
+    const targetedProject = contextualProject
     if (targetedProject) {
       const wantsUsage = /como usa|como usar|usar|funciona|abrir|mexer|operar|me guia|me guie|mostra como/.test(normalized)
       const wantsTechnical = /stack|tecnologia|linguagem|backend|frontend|automacao|automacao/.test(normalized)
@@ -174,6 +252,23 @@ class RodKnowledgeEngine {
           actions.push({ label: 'Abrir e me guiar', href: targetedProject.guidedTourUrl, primary: true })
         }
         actions.push({ label: 'Abrir projeto', href: targetedProject.projectUrl, primary: false })
+      }
+
+      if (/^(me mostra|mostra|abrir|abre|abre ele|esse|essa ferramenta)$/.test(normalized)) {
+        responses.push(`Claro. Vou te mostrar ${targetedProject.name}, que faz sentido nesse contexto.`)
+        if (targetedProject.guidedTourUrl) {
+          actions.push({ label: 'Abrir e me guiar', href: targetedProject.guidedTourUrl, primary: true })
+        }
+        actions.push({ label: 'Abrir projeto', href: targetedProject.projectUrl, primary: false })
+      }
+
+      if (/^(me guie|me guia|guia|me leva|me leve)$/.test(normalized)) {
+        responses.push(`Posso te guiar por ${targetedProject.name}. Vou abrir a página certa e destacar os pontos principais.`)
+        if (targetedProject.guidedTourUrl) {
+          actions.push({ label: 'Abrir e me guiar', href: targetedProject.guidedTourUrl, primary: true })
+        } else {
+          actions.push({ label: 'Abrir projeto', href: targetedProject.projectUrl, primary: true })
+        }
       }
 
       if (wantsTechnical) {
@@ -197,11 +292,14 @@ class RodKnowledgeEngine {
       suggestions.push(...this.knowledge.assistant.starterQuestions.slice(0, 4))
     }
 
+    context.lastProjectSlug = targetedProject?.slug || context.lastProjectSlug || null
+
     return {
-      text: compact(dedupeParagraphs(responses).join('\n\n')),
+      text: humanizePtBr(compact(dedupeParagraphs(responses).join('\n\n'))),
       suggestions: Array.from(new Set(suggestions)).slice(0, 5),
       actions: actions.slice(0, 2),
       project: targetedProject || null,
+      context,
     }
   }
 }
@@ -211,6 +309,10 @@ class RodAssistant {
     this.knowledgePath = knowledgePath
     this.engine = null
     this.elements = {}
+    this.context = {
+      lastProjectSlug: null,
+      lastRecommendationSlugs: []
+    }
   }
 
   async init() {
@@ -290,7 +392,7 @@ class RodAssistant {
       this.elements.messages.innerHTML = ''
       this.elements.actions.innerHTML = ''
       this.elements.suggestions.innerHTML = ''
-      this.addBotMessage(pickOne(this.engine.knowledge.assistant.welcome), this.engine.knowledge.assistant.starterQuestions)
+      this.addBotMessage(humanizePtBr(pickOne(this.engine.knowledge.assistant.welcome)), this.engine.knowledge.assistant.starterQuestions)
     })
 
     send.addEventListener('click', () => this.handleSubmit())
@@ -307,10 +409,24 @@ class RodAssistant {
     bubble.textContent = text
     this.elements.messages.appendChild(bubble)
     this.elements.messages.scrollTop = this.elements.messages.scrollHeight
+    return bubble
   }
 
-  addBotMessage(text, suggestions = [], actions = []) {
-    this.addMessage(text, 'bot')
+  async addBotMessage(text, suggestions = [], actions = []) {
+    const typing = createElement('div', 'rod-bubble bot typing', '<span class="rod-typing-dot"></span><span class="rod-typing-dot"></span><span class="rod-typing-dot"></span>')
+    this.elements.messages.appendChild(typing)
+    this.elements.messages.scrollTop = this.elements.messages.scrollHeight
+
+    await new Promise(resolve => setTimeout(resolve, 420))
+
+    typing.remove()
+    const bubble = this.addMessage('', 'bot')
+    for (const char of text) {
+      bubble.textContent += char
+      this.elements.messages.scrollTop = this.elements.messages.scrollHeight
+      await new Promise(resolve => setTimeout(resolve, char === '\n' ? 4 : 7))
+    }
+
     this.renderActions(actions)
     this.renderSuggestions(suggestions)
   }
@@ -338,14 +454,15 @@ class RodAssistant {
     })
   }
 
-  handleSubmit() {
+  async handleSubmit() {
     const question = this.elements.input.value.trim()
     if (!question) return
 
     this.addMessage(question, 'user')
-    const answer = this.engine.answer(question)
+    const answer = this.engine.answer(question, { ...this.context })
+    this.context = answer.context || this.context
     this.elements.input.value = ''
-    this.addBotMessage(answer.text, answer.suggestions, answer.actions || [])
+    await this.addBotMessage(answer.text, answer.suggestions, answer.actions || [])
   }
 }
 

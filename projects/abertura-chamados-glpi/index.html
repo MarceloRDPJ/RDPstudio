@@ -147,6 +147,7 @@
             transition: color 0.3s ease;
         }
     </style>
+    <link rel="stylesheet" href="../../assets/css/rod-tour.css">
 </head>
 <body class="antialiased selection:bg-vibrantCyan selection:text-white">
 
@@ -413,6 +414,24 @@
 
     <!-- Scripts -->
     <script>
+        window.ROD_TOUR_DEFINITIONS = {
+            quickstart: [
+                {
+                    selector: '.grid.lg\\:grid-cols-2',
+                    text: 'Esse projeto mostra um case de automação enterprise. Primeiro, aqui no topo, você entende o problema e a promessa da solução.'
+                },
+                {
+                    selector: '.mb-24.fade-in-up.delay-300',
+                    text: 'Depois, este bloco resume o fluxo de trabalho em três passos: organizar as evidências, executar o script e receber os chamados já criados.'
+                },
+                {
+                    selector: '.grid.lg\\:grid-cols-2.gap-12.items-start.mb-24',
+                    text: 'Por fim, a página explica a estrutura de pastas esperada. É isso que torna a automação confiável e repetível em ambiente real.'
+                }
+            ]
+        };
+    </script>
+    <script>
         // --- MOBILE MENU LOGIC ---
         const menuBtn = document.getElementById('mobile-menu-btn');
         const menuOverlay = document.getElementById('mobile-menu-overlay');
@@ -447,6 +466,12 @@
                 });
             });
         }
+    </script>
+    <script src="../../assets/js/rod-tour.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            if (window.initRODTour) window.initRODTour();
+        });
     </script>
 </body>
 </html>
