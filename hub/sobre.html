@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="../assets/css/rod-assistant.css">
+    <link rel="stylesheet" href="../assets/css/rod-tour.css">
     <script>
         tailwind.config = {
             theme: {
@@ -330,6 +331,30 @@
         import '../assets/js/rod-assistant.js'
         window.addEventListener('DOMContentLoaded', () => {
             window.initROD({ knowledgePath: '../assets/data/rod-knowledge.json' })
+        })
+    </script>
+    <script>
+        window.ROD_TOUR_DEFINITIONS = {
+            overview: [
+                {
+                    selector: 'main > section:first-child',
+                    text: 'Esta página concentra a leitura pessoal e profissional do Marcelo. É onde o visitante entende quem está por trás da RDP Studio.'
+                },
+                {
+                    selector: 'main section:nth-child(2)',
+                    text: 'Aqui entra a formação acadêmica, que ajuda a dar contexto de base e evolução técnica.'
+                },
+                {
+                    selector: 'main section:nth-child(3)',
+                    text: 'Já esta área mostra certificações e repertório técnico, reforçando profundidade e variedade de competências.'
+                }
+            ]
+        };
+    </script>
+    <script src="../assets/js/rod-tour.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            if (window.initRODTour) window.initRODTour();
         })
     </script>
 </body>

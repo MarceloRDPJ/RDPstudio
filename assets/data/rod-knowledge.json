@@ -145,6 +145,7 @@
       "stack": ["Python 3.11", "Gemini", "Supabase", "Telegram API"],
       "backendMode": "Backend privado/documentado",
       "projectUrl": "../projects/assistente-vendas-ia/index.html",
+      "guidedTourUrl": "../projects/assistente-vendas-ia/index.html?rodTour=quickstart",
       "keywords": ["ia", "vendas", "telegram", "gemini", "estoque", "pix", "ocr"]
     },
     {

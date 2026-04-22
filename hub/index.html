@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="../assets/css/rod-assistant.css">
+    <link rel="stylesheet" href="../assets/css/rod-tour.css">
     <script>
         tailwind.config = {
             theme: {
@@ -557,6 +558,30 @@
         import '../assets/js/rod-assistant.js'
         window.addEventListener('DOMContentLoaded', () => {
             window.initROD({ knowledgePath: '../assets/data/rod-knowledge.json' })
+        })
+    </script>
+    <script>
+        window.ROD_TOUR_DEFINITIONS = {
+            overview: [
+                {
+                    selector: 'main section',
+                    text: 'Esta é a entrada principal do portfólio. Aqui a ideia é posicionar a RDP Studio com clareza: engenharia, automação, segurança e IA aplicada.'
+                },
+                {
+                    selector: '.border-y.border-white\/5',
+                    text: 'Esta faixa sintetiza prova social e capacidade de entrega. É onde o visitante consegue entender escala e consistência rapidamente.'
+                },
+                {
+                    selector: '#empresa',
+                    text: 'Mais abaixo, o portfólio mostra os pilares da RDP Studio e o porquê da empresa existir. É a parte mais institucional da narrativa.'
+                }
+            ]
+        };
+    </script>
+    <script src="../assets/js/rod-tour.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            if (window.initRODTour) window.initRODTour();
         })
     </script>
 </body>
