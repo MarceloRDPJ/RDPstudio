@@ -305,12 +305,15 @@ class RodKnowledgeEngine {
 }
 
 class RodAssistant {
-  constructor({ knowledgePath = DEFAULT_KNOWLEDGE_PATH } = {}) {
+  constructor({ knowledgePath = DEFAULT_KNOWLEDGE_PATH, currentProjectSlug = null, subtlePrompt = false } = {}) {
     this.knowledgePath = knowledgePath
     this.engine = null
     this.elements = {}
+    this.currentProjectSlug = currentProjectSlug
+    this.subtlePrompt = subtlePrompt
+    this.nudgeTimeout = null
     this.context = {
-      lastProjectSlug: null,
+      lastProjectSlug: currentProjectSlug,
       lastRecommendationSlugs: []
     }
   }
@@ -327,6 +330,7 @@ class RodAssistant {
   render(knowledge) {
     const shell = createElement('div', 'rod-shell')
     const panel = createElement('section', 'rod-panel')
+    const nudge = createElement('div', 'rod-nudge')
     const toggle = createElement('button', 'rod-toggle')
     toggle.type = 'button'
     toggle.innerHTML = `
@@ -365,12 +369,25 @@ class RodAssistant {
       </div>
     `
 
+    nudge.innerHTML = `
+      <div>Se você quiser, eu posso te explicar esta página e te guiar pelos pontos principais.</div>
+      <button type="button">Quero ajuda</button>
+    `
+
+    nudge.querySelector('button').addEventListener('click', () => {
+      nudge.classList.remove('is-visible')
+      panel.classList.add('is-open')
+      this.handlePrompt(`Me explique ${this.currentProjectSlug || 'este projeto'} e me guie`)
+    })
+
+    shell.appendChild(nudge)
     shell.appendChild(panel)
     shell.appendChild(toggle)
     document.body.appendChild(shell)
 
     this.elements = {
       shell,
+      nudge,
       panel,
       toggle,
       messages: panel.querySelector('[data-rod-messages]'),
@@ -387,6 +404,7 @@ class RodAssistant {
     const { toggle, panel, input, send, close, clear } = this.elements
 
     toggle.addEventListener('click', () => panel.classList.toggle('is-open'))
+    toggle.addEventListener('click', () => this.elements.nudge.classList.remove('is-visible'))
     close.addEventListener('click', () => panel.classList.remove('is-open'))
     clear.addEventListener('click', () => {
       this.elements.messages.innerHTML = ''
@@ -402,6 +420,16 @@ class RodAssistant {
         this.handleSubmit()
       }
     })
+  }
+
+  scheduleNudge() {
+    if (!this.subtlePrompt || !this.currentProjectSlug) return
+    if (this.nudgeTimeout) clearTimeout(this.nudgeTimeout)
+    this.nudgeTimeout = window.setTimeout(() => {
+      if (!this.elements.panel.classList.contains('is-open')) {
+        this.elements.nudge.classList.add('is-visible')
+      }
+    }, 3600)
   }
 
   addMessage(text, role = 'bot') {
@@ -464,10 +492,17 @@ class RodAssistant {
     this.elements.input.value = ''
     await this.addBotMessage(answer.text, answer.suggestions, answer.actions || [])
   }
+
+  async handlePrompt(question) {
+    const answer = this.engine.answer(question, { ...this.context })
+    this.context = answer.context || this.context
+    await this.addBotMessage(answer.text, answer.suggestions, answer.actions || [])
+  }
 }
 
 window.initROD = async function initROD(options = {}) {
   const assistant = new RodAssistant(options)
   await assistant.init()
+  assistant.scheduleNudge()
   return assistant
 }

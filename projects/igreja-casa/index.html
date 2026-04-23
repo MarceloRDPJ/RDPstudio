@@ -12,6 +12,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../../assets/css/rod-assistant.css">
     <link rel="stylesheet" href="../../assets/css/rod-tour.css">
     <script>
         tailwind.config = {
@@ -140,20 +141,32 @@
 </head>
 <body class="antialiased selection:bg-vibrantCyan selection:text-white">
     <div class="max-w-7xl mx-auto px-6 py-6 min-h-screen flex flex-col">
-        <header class="flex flex-wrap justify-between items-center mb-12 gap-4 relative z-50">
+        <header class="flex flex-wrap justify-between items-center mb-12 gap-4 fade-in-up relative z-50">
             <a href="../../hub/projetos.html" class="flex items-center gap-2 text-slate-400 hover:text-white transition-colors group">
                 <div class="p-2 rounded-lg bg-white/5 border border-white/10 group-hover:border-vibrantCyan/50 transition-colors">
                     <i class="fa-solid fa-arrow-left"></i>
                 </div>
                 <span class="text-sm font-semibold tracking-wide uppercase">Voltar ao Hub</span>
             </a>
-
             <div class="flex items-center gap-3">
-                <span class="px-3 py-1 rounded-full bg-warmStone/10 border border-warmStone/20 text-warmStone text-xs font-bold uppercase tracking-wider">
+                <span class="px-3 py-1 rounded-full bg-warmStone/10 border border-warmStone/20 text-warmStone text-xs font-bold uppercase tracking-wider whitespace-nowrap">
                     Plataforma Operacional
                 </span>
+                <img src="../../assets/images/branding/logo.png" alt="RDP Studio" class="h-8 w-8 opacity-80" onerror="this.style.display='none'">
             </div>
+            <button id="mobile-menu-btn" class="md:hidden text-white text-2xl p-2 z-50 relative group ml-auto" aria-label="Abrir menu">
+                <div class="absolute inset-0 bg-white/5 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                <i class="fa-solid fa-bars relative z-10"></i>
+            </button>
         </header>
+
+        <div id="mobile-menu-overlay" class="fixed inset-0 z-[60] bg-slate-900/95 backdrop-blur-xl transform translate-x-full transition-transform duration-300 flex flex-col items-center justify-center space-y-8 md:hidden">
+            <a href="../../hub/index.html" class="text-2xl font-bold text-white hover:text-vibrantCyan transition-colors mobile-link">Home</a>
+            <a href="../../hub/projetos.html" class="text-2xl font-bold text-white hover:text-vibrantCyan transition-colors mobile-link">Projetos</a>
+            <a href="../../hub/index.html#empresa" class="text-2xl font-bold text-white hover:text-vibrantCyan transition-colors mobile-link">A Empresa</a>
+            <a href="../../hub/sobre.html" class="text-2xl font-bold text-white hover:text-vibrantCyan transition-colors mobile-link">Sobre Mim</a>
+            <a href="https://wa.me/5562996780498" target="_blank" rel="noopener noreferrer" class="px-8 py-3 rounded-full bg-vibrantCyan text-white font-bold text-lg shadow-lg shadow-vibrantCyan/20 mobile-link">Contato</a>
+        </div>
 
         <main class="flex-grow space-y-10 md:space-y-14">
             <section class="grid lg:grid-cols-[1.05fr_0.95fr] gap-8 items-center fade-in-up">
@@ -362,10 +375,56 @@
                 </div>
                 <p class="text-sm text-slate-500 mb-2">© 2026 RDP STUDIO. Todos os direitos reservados.</p>
                 <p class="text-xs text-slate-600 font-mono">Desenvolvido com <i class="fa-solid fa-heart text-red-900 animate-pulse"></i> por Marcelo Rodrigues</p>
+                <div class="watermark-container hidden"></div>
             </div>
         </footer>
     </div>
 
+    <script type="module">
+        import '../../assets/js/rod-assistant.js'
+        window.addEventListener('DOMContentLoaded', () => {
+            window.initROD({
+                knowledgePath: '../../assets/data/rod-knowledge.json',
+                currentProjectSlug: 'igreja-casa',
+                subtlePrompt: true,
+            })
+        })
+    </script>
+    <script>
+        const menuBtn = document.getElementById('mobile-menu-btn');
+        const menuOverlay = document.getElementById('mobile-menu-overlay');
+        const mobileLinks = document.querySelectorAll('.mobile-link');
+        let isMenuOpen = false;
+
+        if (menuBtn && menuOverlay) {
+            menuBtn.addEventListener('click', () => {
+                isMenuOpen = !isMenuOpen;
+                const icon = menuBtn.querySelector('i');
+                if (isMenuOpen) {
+                    menuOverlay.classList.remove('translate-x-full');
+                    icon.classList.remove('fa-bars');
+                    icon.classList.add('fa-xmark');
+                    document.body.style.overflow = 'hidden';
+                } else {
+                    menuOverlay.classList.add('translate-x-full');
+                    icon.classList.remove('fa-xmark');
+                    icon.classList.add('fa-bars');
+                    document.body.style.overflow = 'auto';
+                }
+            });
+
+            mobileLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    isMenuOpen = false;
+                    menuOverlay.classList.add('translate-x-full');
+                    const icon = menuBtn.querySelector('i');
+                    icon.classList.remove('fa-xmark');
+                    icon.classList.add('fa-bars');
+                    document.body.style.overflow = 'auto';
+                });
+            });
+        }
+    </script>
     <script>
         window.ROD_TOUR_DEFINITIONS = {
             overview: [

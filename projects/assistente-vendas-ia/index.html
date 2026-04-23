@@ -60,6 +60,7 @@
 
     <!-- Mermaid JS (Deferido) -->
     <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js" defer></script>
+    <link rel="stylesheet" href="../../assets/css/rod-assistant.css">
     <link rel="stylesheet" href="../../assets/css/rod-tour.css">
 
     <style>
@@ -618,6 +619,16 @@
         // Start the loop
         playConversation();
 
+    </script>
+    <script type="module">
+        import '../../assets/js/rod-assistant.js'
+        window.addEventListener('DOMContentLoaded', () => {
+            window.initROD({
+                knowledgePath: '../../assets/data/rod-knowledge.json',
+                currentProjectSlug: 'assistente-vendas-ia',
+                subtlePrompt: true,
+            })
+        })
     </script>
     <script>
         window.ROD_TOUR_DEFINITIONS = {
