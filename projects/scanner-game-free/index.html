@@ -15,6 +15,7 @@
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../../assets/css/rod-tour.css">
     
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -105,5 +106,25 @@
 
     <!-- Main Entry Point -->
     <script type="text/babel" src="js/App.js"></script>
+    <script>
+        window.ROD_TOUR_DEFINITIONS = {
+            overview: [
+                {
+                    selector: 'nav',
+                    text: 'Esse projeto funciona como um painel de inteligencia. O topo mostra status do sistema e o acesso de volta ao hub.'
+                },
+                {
+                    selector: 'main .border-b',
+                    text: 'Use os filtros para trocar entre feed geral e Epic Dashboard. A mudanca de visao e a forma mais rapida de entender o produto.'
+                }
+            ]
+        };
+    </script>
+    <script src="../../assets/js/rod-tour.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            if (window.initRODTour) window.initRODTour();
+        });
+    </script>
 </body>
 </html>

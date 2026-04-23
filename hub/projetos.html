@@ -12,6 +12,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/rod-assistant.css">
+    <link rel="stylesheet" href="../assets/css/rod-tour.css">
     <script>
         tailwind.config = {
             theme: {
@@ -628,6 +630,36 @@
 
         loadProjects();
         syncFiltersPanel();
+    </script>
+    <script type="module">
+        import '../assets/js/rod-assistant.js'
+        window.addEventListener('DOMContentLoaded', () => {
+            window.initROD({ knowledgePath: '../assets/data/rod-knowledge.json' })
+        })
+    </script>
+    <script>
+        window.ROD_TOUR_DEFINITIONS = {
+            overview: [
+                {
+                    selector: 'main > section:first-child',
+                    text: 'Esta página é a vitrine do catálogo. O topo faz o enquadramento: o visitante entende rápido o que vai encontrar aqui.'
+                },
+                {
+                    selector: '#filters-panel',
+                    text: 'Os filtros ajudam a recortar o portfólio por tipo, linguagem e backend. A ideia é acelerar descoberta, não criar atrito.'
+                },
+                {
+                    selector: '#project-grid',
+                    text: 'Aqui estão os cards principais do catálogo. Cada card resume o problema resolvido e dá acesso ao projeto ou aos detalhes.'
+                }
+            ]
+        };
+    </script>
+    <script src="../assets/js/rod-tour.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            if (window.initRODTour) window.initRODTour();
+        })
     </script>
 </body>
 </html>

@@ -60,6 +60,7 @@
 
     <!-- Mermaid JS (Deferido) -->
     <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js" defer></script>
+    <link rel="stylesheet" href="../../assets/css/rod-tour.css">
 
     <style>
         /* CSS Otimizado e Organizado */
@@ -213,6 +214,7 @@
         #chat-viewport::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.1); border-radius: 10px; }
         #chat-viewport::-webkit-scrollbar-thumb:hover { background: rgba(255, 255, 255, 0.2); }
     </style>
+    <link rel="stylesheet" href="../../assets/css/rod-tour.css">
 </head>
 <body class="antialiased selection:bg-vibrantCyan selection:text-white">
 
@@ -616,6 +618,54 @@
         // Start the loop
         playConversation();
 
+    </script>
+    <script>
+        window.ROD_TOUR_DEFINITIONS = {
+            quickstart: [
+                {
+                    selector: 'main .space-y-10',
+                    text: 'Aqui o foco é mostrar o problema comercial e como o assistente atua como camada inteligente de atendimento e operação.'
+                },
+                {
+                    selector: '.mermaid',
+                    text: 'Este bloco mostra a arquitetura: canal de mensageria, núcleo Python, LLM e base de dados trabalhando juntos.'
+                },
+                {
+                    selector: '#chat-viewport',
+                    text: 'Nesta área, a interface simula a experiência final do usuário. É aqui que o valor do projeto fica mais tangível para quem está avaliando a solução.'
+                }
+            ]
+        };
+    </script>
+    <script src="../../assets/js/rod-tour.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            if (window.initRODTour) window.initRODTour();
+        });
+    </script>
+    <script>
+        window.ROD_TOUR_DEFINITIONS = {
+            quickstart: [
+                {
+                    selector: 'main .space-y-10',
+                    text: 'Aqui o foco é mostrar o problema comercial e como o assistente atua como camada inteligente de atendimento e operação.'
+                },
+                {
+                    selector: '.mermaid',
+                    text: 'Este bloco mostra a arquitetura: canal de mensageria, núcleo Python, LLM e base de dados trabalhando juntos.'
+                },
+                {
+                    selector: '#chat-viewport',
+                    text: 'Nesta área, a interface simula a experiência final do usuário. É aqui que o valor do projeto fica mais tangível para quem está avaliando a solução.'
+                }
+            ]
+        };
+    </script>
+    <script src="../../assets/js/rod-tour.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            if (window.initRODTour) window.initRODTour();
+        });
     </script>
 </body>
 </html>

@@ -1,0 +1,217 @@
+{
+  "assistant": {
+    "name": "ROD",
+    "title": "RDP Operational Director",
+    "persona": "Assistente estrategico da RDP Studio. Fala de forma natural, clara e objetiva, sem soar robotico. Sempre tenta orientar o visitante para o projeto, contexto ou acao mais relevante.",
+    "welcome": [
+      "Sou o ROD, o assistente da RDP Studio. Posso explicar quem e o Marcelo, o que a RDP Studio faz, como funcionam os projetos e qual ferramenta faz mais sentido para cada cenario.",
+      "Posso te ajudar a navegar pelo portfolio, entender as ferramentas e descobrir rapido qual solucao resolve o seu problema.",
+      "Se quiser, posso resumir a RDP Studio, explicar um projeto especifico, comparar ferramentas ou mostrar como usar cada solucao."
+    ],
+    "starterQuestions": [
+      "Quem e Marcelo Rodrigues?",
+      "O que e a RDP Studio?",
+      "Qual projeto mostra mais automacao?",
+      "Como usar o Validador de MACs?",
+      "Qual projeto tem backend real?",
+      "Me explique o RDP Insider"
+    ]
+  },
+  "profile": {
+    "name": "Marcelo Rodrigues",
+    "role": "Founder & Lead Engineer da RDP Studio",
+    "summary": "Marcelo Rodrigues e um profissional focado em unir infraestrutura, seguranca, automacao e software em entregas praticas. O portfolio mostra exatamente essa combinacao: ferramentas operacionais, dashboards, automacoes e projetos com IA aplicada.",
+    "highlights": [
+      "Atua com automacao, seguranca, cloud, engenharia de software e IA aplicada.",
+      "Tem foco forte em transformar trabalho operacional repetitivo em sistemas mais seguros e mais rapidos.",
+      "Combina linguagem tecnica com apresentacao executiva, o que ajuda tanto na implementacao quanto na venda da solucao."
+    ],
+    "education": [
+      "Tecnologo em Gestao da Tecnologia da Informacao pela Faculdade da Policia Militar.",
+      "Pos-graduacao em Computacao Forense e Seguranca em andamento no IPOG."
+    ],
+    "contact": {
+      "email": "rdpstudio@gmail.com",
+      "whatsapp": "https://wa.me/5562996780498",
+      "linkedin": "https://www.linkedin.com/in/marcelo-rodrigues-088478211/"
+    }
+  },
+  "studio": {
+    "name": "RDP Studio",
+    "summary": "A RDP Studio e uma vitrine e plataforma de demonstracao de capacidade tecnica em automacao, seguranca, BI e IA aplicada. O foco nao e apenas mostrar interface bonita, mas provar pensamento de engenharia e utilidade real.",
+    "pillars": [
+      "Automacao operacional",
+      "Seguranca e infraestrutura",
+      "Dashboards e ferramentas client-side",
+      "IA aplicada a fluxos de negocio"
+    ],
+    "positioning": [
+      "Portfolio com cara de produto, nao apenas de apresentacao.",
+      "Projetos pensados para demonstrar valor tecnico, impacto operacional e clareza de uso.",
+      "Arquitetura static-first quando faz sentido, com possibilidade de evolucao para camadas mais avancadas."
+    ]
+  },
+  "faq": [
+    {
+      "id": "hosting",
+      "question": "Como o portfolio e hospedado?",
+      "answer": "Hoje o portfolio foi pensado para hospedagem estatica, o que simplifica deploy, custo e manutencao. Isso funciona muito bem para hub, paginas institucionais, dashboards client-side e ferramentas que processam dados localmente no navegador.",
+      "keywords": ["hospedagem", "hosting", "github pages", "cloudflare", "deploy", "estatico"]
+    },
+    {
+      "id": "backend",
+      "question": "Todo projeto aqui tem backend?",
+      "answer": "Nao. Alguns projetos sao 100% client-side, como o Validador de MACs e o Relatorio Interativo. Outros tem backend real ou documentado, como o RDP Insider com crawler em Python e os cases mais enterprise, como GLPI e Assistente de Vendas IA.",
+      "keywords": ["backend", "servidor", "api", "tem back", "sem backend"]
+    },
+    {
+      "id": "best-project",
+      "question": "Qual projeto representa melhor a capacidade tecnica da RDP Studio?",
+      "answer": "Depende do recorte. Para automacao e dados, o RDP Insider mostra coleta, atualizacao e leitura de informacao. Para ferramenta operacional pratica, o Validador de MACs e forte. Para fluxo de negocio com IA, o Assistente de Vendas IA e a melhor vitrine.",
+      "keywords": ["melhor projeto", "mais forte", "principal", "capacidade tecnica", "representa melhor"]
+    }
+  ],
+  "projects": [
+    {
+      "slug": "igreja-casa",
+      "name": "Igreja Casa Hub",
+      "aliases": ["igreja casa", "igreja casa hub", "hub igreja casa", "crm pastoral", "domum"],
+      "category": "Operations Platform",
+      "summary": "Plataforma de gestão pastoral e administrativa com CRM, formulários, analytics, escala, DOMUM, notificações e Wi-Fi.",
+      "problem": "Operações de captação, CRM, relatórios e rotina ministerial costumam ficar fragmentadas e difíceis de rastrear.",
+      "solution": "O sistema unifica módulos institucionais em uma arquitetura static-first com backend serverless em Supabase.",
+      "howToUse": [
+        "Use a página do portfólio para entender o problema, a arquitetura e os módulos do sistema.",
+        "Navegue pelos blocos de frontend, backend e domínios operacionais para enxergar a solução completa.",
+        "Quando eu te guiar, vou destacar arquitetura, módulos e valor operacional do projeto."
+      ],
+      "stack": ["HTML", "CSS", "JavaScript Vanilla", "Cloudflare Pages", "Supabase", "SQL", "TypeScript"],
+      "backendMode": "Serverless operacional",
+      "projectUrl": "../projects/igreja-casa/index.html",
+      "guidedTourUrl": "../projects/igreja-casa/index.html?rodTour=overview",
+      "keywords": ["igreja", "crm pastoral", "domum", "escala", "wifi", "supabase", "cloudflare", "formularios"]
+    },
+    {
+      "slug": "scanner-game-free",
+      "name": "RDP Insider",
+      "aliases": ["rdp insider", "scanner game free", "epic", "insider"],
+      "category": "Market Intelligence",
+      "summary": "Portal de inteligencia gamer com foco em jogos gratis, noticias de hardware e sinais do ecossistema Epic.",
+      "problem": "Falta de visibilidade rapida sobre jogos gratis, rumores e noticias relevantes em um unico painel.",
+      "solution": "Um crawler Python coleta dados, atualiza uma base JSON e o frontend organiza tudo em filtros claros para leitura rapida.",
+      "howToUse": [
+        "Abra o dashboard do projeto.",
+        "Use os filtros de categoria para navegar entre visoes diferentes.",
+        "No modo Epic Dashboard, voce consegue ver jogos atuais, proximos e sinais do ecossistema."
+      ],
+      "stack": ["Python", "JavaScript", "React 18 UMD", "Tailwind CDN", "GitHub Actions"],
+      "backendMode": "Backend real no repositorio",
+      "projectUrl": "../projects/scanner-game-free/index.html",
+      "guidedTourUrl": "../projects/scanner-game-free/index.html?rodTour=overview",
+      "keywords": ["jogos gratis", "epic games", "crawler", "json", "dashboard gamer", "hardware"]
+    },
+    {
+      "slug": "validador-firewall",
+      "name": "Validador de MACs",
+      "aliases": ["validador fortigate", "validador de macs", "validador mac", "firewall", "fortigate"],
+      "category": "SecOps",
+      "summary": "Ferramenta operacional para validar entradas de MAC address e gerar scripts prontos para Fortigate.",
+      "problem": "Configuracoes manuais de firewall geram retrabalho, erros de digitacao e risco operacional em massa.",
+      "solution": "A ferramenta interpreta dados brutos, valida MACs, detecta duplicidades e gera scripts CLI com rapidez.",
+      "howToUse": [
+        "Cole os dados ou carregue um arquivo CSV ou TXT.",
+        "Agora tanto NOME;MAC quanto MAC;NOME sao aceitos.",
+        "Clique em Validar & Converter para gerar os scripts e ver eventuais erros."
+      ],
+      "stack": ["HTML", "CSS", "JavaScript Vanilla", "Tailwind CDN"],
+      "backendMode": "Sem backend",
+      "projectUrl": "../projects/validador-firewall/index.html",
+      "guidedTourUrl": "../projects/validador-firewall/index.html?rodTour=quickstart",
+      "keywords": ["mac", "fortigate", "firewall", "acl", "script cli", "addrgrp", "dhcp"]
+    },
+    {
+      "slug": "abertura-chamados-glpi",
+      "name": "GLPI Automator",
+      "aliases": ["glpi", "automacao glpi", "ticket", "chamado glpi", "preventiva"],
+      "category": "Automation",
+      "summary": "Case de automacao enterprise para abertura de chamados e upload de evidencias no GLPI.",
+      "problem": "Abrir chamados manualmente para preventivas consome horas da equipe e piora a conformidade de evidencias.",
+      "solution": "O fluxo Python varre diretorios, encontra evidencias e automatiza a criacao de tickets no GLPI via API.",
+      "howToUse": [
+        "A pagina serve como explicacao e vitrine do case.",
+        "O codigo operacional e privado, porque o projeto nasceu em contexto de cliente.",
+        "O valor aqui esta em mostrar o desenho da automacao e o impacto operacional."
+      ],
+      "stack": ["Python", "GLPI API", "HTML", "JavaScript"],
+      "backendMode": "Backend privado/documentado",
+      "projectUrl": "../projects/abertura-chamados-glpi/index.html",
+      "guidedTourUrl": "../projects/abertura-chamados-glpi/index.html?rodTour=quickstart",
+      "keywords": ["glpi", "ticket", "ticketing", "upload", "evidencia", "rpa", "automacao"]
+    },
+    {
+      "slug": "assistente-vendas-ia",
+      "name": "Assistente de Vendas IA",
+      "aliases": ["assistente ia", "bot de vendas", "telegram", "gemini", "supabase", "vendas ia"],
+      "category": "AI Agent",
+      "summary": "Agente comercial autonomo para vendas, estoque e validacao de comprovantes em canais de mensageria.",
+      "problem": "Operacoes comerciais perdem vendas quando atendimento, estoque e validacao financeira dependem de fluxo manual.",
+      "solution": "O assistente interpreta linguagem natural, consulta contexto, integra dados do negocio e automatiza o atendimento.",
+      "howToUse": [
+        "A pagina apresenta o fluxo e a arquitetura do assistente.",
+        "Quando a demo estiver disponivel, ela mostra a experiencia conversacional final.",
+        "O principal valor e demonstrar IA aplicada a processo comercial, nao so um chatbot superficial."
+      ],
+      "stack": ["Python 3.11", "Gemini", "Supabase", "Telegram API"],
+      "backendMode": "Backend privado/documentado",
+      "projectUrl": "../projects/assistente-vendas-ia/index.html",
+      "guidedTourUrl": "../projects/assistente-vendas-ia/index.html?rodTour=quickstart",
+      "keywords": ["ia", "vendas", "telegram", "gemini", "estoque", "pix", "ocr"]
+    },
+    {
+      "slug": "relatorio-interativo",
+      "name": "Relatorio Interativo",
+      "aliases": ["relatorio", "dashboard financeiro", "bi", "planilha", "pdf"],
+      "category": "BI Tools",
+      "summary": "Dashboard client-side para leitura de planilhas financeiras com filtros e exportacao em PDF.",
+      "problem": "Analises financeiras em planilhas brutas custam tempo e dificultam conferencia e entrega executiva.",
+      "solution": "A ferramenta processa arquivos localmente e transforma dados brutos em indicadores e relatorios navegaveis.",
+      "howToUse": [
+        "Envie uma planilha XLSX ou CSV.",
+        "Processe os dados para gerar dashboard e conferencia.",
+        "Aplique filtros e exporte o resultado quando necessario."
+      ],
+      "stack": ["HTML", "JavaScript", "Chart.js", "SheetJS", "jsPDF"],
+      "backendMode": "Sem backend",
+      "projectUrl": "../projects/relatorio-interativo/index.html",
+      "guidedTourUrl": "../projects/relatorio-interativo/index.html?rodTour=quickstart",
+      "keywords": ["bi", "dashboard", "financeiro", "csv", "xlsx", "pdf", "kpi"]
+    }
+  ],
+  "intents": [
+    {
+      "id": "greeting",
+      "keywords": ["oi", "ola", "olá", "e ai", "fala", "bom dia", "boa tarde", "boa noite"],
+      "response": "Oi. Eu sou o ROD, o assistente da RDP Studio. Se quiser, posso te apresentar a RDP Studio, falar do Marcelo, resumir os projetos ou te guiar para a ferramenta certa."
+    },
+    {
+      "id": "about-studio",
+      "keywords": ["rdp studio", "empresa", "estudio", "studio", "consultoria", "o que voces fazem", "o que vc faz"],
+      "response": "A RDP Studio e um portfolio orientado a prova de capacidade tecnica. O foco principal e mostrar automacao, seguranca, BI e IA aplicada com exemplos que resolvem problemas concretos, nao apenas mockups bonitos."
+    },
+    {
+      "id": "about-profile",
+      "keywords": ["marcelo", "quem e voce", "quem e ele", "fundador", "sobre voce", "sobre ele"],
+      "response": "Marcelo Rodrigues e o fundador da RDP Studio. O perfil dele combina automacao, infraestrutura, seguranca e engenharia de software, com uma pegada forte de resolver trabalho repetitivo com sistemas mais inteligentes e mais apresentaveis."
+    },
+    {
+      "id": "contact",
+      "keywords": ["contato", "falar com voce", "whatsapp", "email", "linkedin", "como falo"],
+      "response": "Voce pode falar com a RDP Studio pelo WhatsApp em https://wa.me/5562996780498, pelo email rdpstudio@gmail.com ou pelo LinkedIn do Marcelo em https://www.linkedin.com/in/marcelo-rodrigues-088478211/."
+    },
+    {
+      "id": "project-recommendation",
+      "keywords": ["qual projeto", "qual ferramenta", "me indica", "recomenda", "por onde comeco", "por onde começo"],
+      "response": "Se voce quer automacao operacional, eu mostraria primeiro o GLPI Automator ou o Validador de MACs. Se quer IA aplicada a negocio, eu iria para o Assistente de Vendas IA. Se o objetivo e dados e atualizacao automatica, o RDP Insider e a melhor vitrine."
+    }
+  ]
+}

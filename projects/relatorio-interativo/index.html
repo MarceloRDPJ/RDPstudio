@@ -24,6 +24,7 @@
     <!-- Fonts & Icons -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../../assets/css/rod-tour.css">
 
     <script>
         tailwind.config = {
@@ -379,6 +380,38 @@
 
     <script src="js/dashboard_rdp.js"></script>
     <script>
+        window.ROD_TOUR_DEFINITIONS = {
+            quickstart: [
+                {
+                    selector: '#dropZone',
+                    text: 'Comece por aqui: arraste sua planilha ou clique para selecionar um arquivo XLSX ou CSV.'
+                },
+                {
+                    selector: '#dropZone',
+                    text: 'Se voce tiver o arquivo pronto, esse e o caminho mais direto. A ferramenta foi pensada para transformar planilhas em leitura executiva.'
+                },
+                {
+                    selector: '#screen-upload div[onclick="App.openPasteWizard()"]',
+                    text: 'Se nao tiver o arquivo em maos, voce pode usar a entrada manual e colar os dados diretamente.'
+                },
+                {
+                    selector: '#mobile-menu-overlay, nav',
+                    text: 'Depois do processamento, voce navega entre dashboard, conferencia e relatorios. A logica e sair da coleta bruta e chegar a uma visualizacao clara.'
+                }
+            ],
+            overview: [
+                {
+                    selector: '#screen-upload',
+                    text: 'Esta ferramenta transforma planilhas financeiras em dashboard, conferencia e relatorio. O fluxo inteiro acontece no navegador, sem depender de backend.'
+                },
+                {
+                    selector: '#dropZone',
+                    text: 'Se quiser usar agora, envie um arquivo. Se ainda estiver conhecendo a ferramenta, a entrada manual ajuda a entender a experiencia.'
+                }
+            ]
+        };
+    </script>
+    <script>
         // --- MOBILE MENU LOGIC ---
         const menuBtn = document.getElementById('mobile-menu-btn');
         const menuOverlay = document.getElementById('mobile-menu-overlay');
@@ -408,6 +441,12 @@
                 }
             });
         }
+    </script>
+    <script src="../../assets/js/rod-tour.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            if (window.initRODTour) window.initRODTour();
+        });
     </script>
 </body>
 </html>
