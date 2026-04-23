@@ -138,6 +138,80 @@
             text-transform: uppercase;
         }
 
+        .preview-stage {
+            display: grid;
+            gap: 1.5rem;
+        }
+
+        .preview-switcher {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .preview-trigger {
+            width: 100%;
+            text-align: left;
+            padding: 1.1rem 1.15rem;
+            border-radius: 1.25rem;
+            border: 1px solid rgba(255,255,255,0.08);
+            background: rgba(255,255,255,0.03);
+            color: #f8fafc;
+            transition: border-color 0.2s ease, background 0.2s ease, transform 0.2s ease;
+        }
+
+        .preview-trigger:hover,
+        .preview-trigger.is-active {
+            border-color: rgba(0, 180, 216, 0.26);
+            background: rgba(0, 180, 216, 0.08);
+            transform: translateY(-1px);
+        }
+
+        .preview-trigger-title {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            font-size: 0.82rem;
+            font-weight: 800;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            margin-bottom: 0.55rem;
+        }
+
+        .preview-trigger-desc {
+            font-size: 0.92rem;
+            line-height: 1.6;
+            color: #cbd5e1;
+        }
+
+        .preview-view {
+            display: none;
+        }
+
+        .preview-view.is-active {
+            display: block;
+        }
+
+        .preview-main-caption {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+            padding: 1rem 0 0;
+        }
+
+        .preview-main-copy h3 {
+            font-size: 1.1rem;
+            font-weight: 800;
+            color: #fff;
+            margin-bottom: 0.3rem;
+        }
+
+        .preview-main-copy p {
+            font-size: 0.95rem;
+            color: #94a3b8;
+            line-height: 1.6;
+        }
+
         .preview-grid {
             display: grid;
             gap: 1.5rem;
@@ -303,9 +377,9 @@
                     <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Uma visão rápida do ecossistema em operação</h2>
                     <p class="text-slate-400 leading-relaxed">Em vez de só explicar, esta página também mostra a cara do sistema: login administrativo, captação pública e experiência de acesso Wi‑Fi.</p>
                 </div>
-                <div class="preview-grid lg:grid-cols-[1.2fr_0.8fr] lg:items-start lg:grid">
-                    <div class="preview-card">
-                        <div class="browser-frame preview-frame-desktop">
+                <div class="preview-stage lg:grid lg:grid-cols-[1.18fr_0.82fr] lg:items-start">
+                    <div>
+                        <div class="browser-frame preview-frame-desktop preview-view is-active" data-preview-view="admin">
                             <div class="browser-top">
                                 <div class="browser-dots"><span></span><span></span><span></span></div>
                                 <div class="browser-url">app.igrejacasa.com/admin</div>
@@ -314,48 +388,54 @@
                                 <img src="assets/preview-admin.png" alt="Preview do painel administrativo do Igreja Casa Hub" class="preview-shot">
                             </div>
                         </div>
-                        <div class="grid md:grid-cols-2 gap-6">
-                            <div class="wire-card rounded-2xl p-5">
-                                <div class="preview-label mb-4"><i class="fa-solid fa-shield"></i> Painel Admin</div>
-                                <p class="text-sm text-slate-300 leading-relaxed">Login administrativo com identidade própria, navegação modular e base para operação diária.</p>
+                        <div class="browser-frame preview-frame-desktop preview-view" data-preview-view="client">
+                            <div class="browser-top">
+                                <div class="browser-dots"><span></span><span></span><span></span></div>
+                                <div class="browser-url">igrejacasa.com/client</div>
                             </div>
-                            <div class="wire-card rounded-2xl p-5">
-                                <div class="preview-label mb-4"><i class="fa-solid fa-users"></i> CRM e Jornada</div>
-                                <p class="text-sm text-slate-300 leading-relaxed">O sistema organiza formulários, pessoas, respostas e relatórios em um fluxo mais rastreável.</p>
+                            <div class="preview-viewport-desktop">
+                                <img src="assets/preview-client.png" alt="Preview do formulário público do Igreja Casa Hub" class="preview-shot">
+                            </div>
+                        </div>
+                        <div class="browser-frame preview-frame-desktop preview-view" data-preview-view="wifi">
+                            <div class="browser-top">
+                                <div class="browser-dots"><span></span><span></span><span></span></div>
+                                <div class="browser-url">app.igrejacasa.com/wifi</div>
+                            </div>
+                            <div class="preview-viewport-desktop">
+                                <img src="assets/preview-wifi.png" alt="Preview do portal Wi-Fi do Igreja Casa Hub" class="preview-shot">
+                            </div>
+                        </div>
+
+                        <div class="preview-main-caption">
+                            <div class="preview-main-copy preview-view is-active" data-preview-copy="admin">
+                                <h3>Painel administrativo com visão central da operação</h3>
+                                <p>Base para gestão diária, módulos internos, navegação administrativa e leitura consolidada do sistema.</p>
+                            </div>
+                            <div class="preview-main-copy preview-view" data-preview-copy="client">
+                                <h3>Formulário público com foco em captação</h3>
+                                <p>Experiência orientada à conversão, conectada ao CRM pastoral e pensada para reduzir atrito no preenchimento.</p>
+                            </div>
+                            <div class="preview-main-copy preview-view" data-preview-copy="wifi">
+                                <h3>Portal Wi‑Fi com continuidade da jornada</h3>
+                                <p>O visitante pode seguir da captação para autenticação e relacionamento, sem quebrar a lógica da plataforma.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:pt-3 items-start">
-                        <div class="space-y-4">
-                            <div class="browser-frame">
-                                <div class="browser-top">
-                                    <div class="browser-dots"><span></span><span></span><span></span></div>
-                                    <div class="browser-url">igrejacasa.com/client</div>
-                                </div>
-                                <div class="preview-viewport-mobile">
-                                    <img src="assets/preview-client.png" alt="Preview do formulário público do Igreja Casa Hub" class="preview-shot">
-                                </div>
-                            </div>
-                            <div class="wire-card rounded-2xl p-5">
-                                <div class="preview-label mb-4"><i class="fa-solid fa-users"></i> Formulário Público</div>
-                                <p class="text-sm text-slate-300 leading-relaxed">Captação de novos membros com formulário público, integrado ao CRM pastoral.</p>
-                            </div>
-                        </div>
-                        <div class="space-y-4">
-                            <div class="browser-frame">
-                                <div class="browser-top">
-                                    <div class="browser-dots"><span></span><span></span><span></span></div>
-                                    <div class="browser-url">app.igrejacasa.com/wifi</div>
-                                </div>
-                                <div class="preview-viewport-mobile">
-                                    <img src="assets/preview-wifi.png" alt="Preview do portal Wi-Fi do Igreja Casa Hub" class="preview-shot">
-                                </div>
-                            </div>
-                            <div class="wire-card rounded-2xl p-5">
-                                <div class="preview-label mb-4"><i class="fa-solid fa-wifi"></i> Wi‑Fi + Captação</div>
-                                <p class="text-sm text-slate-300 leading-relaxed">A experiência pública não para no formulário: ela pode seguir para Wi‑Fi, autenticação e relacionamento com a base.</p>
-                            </div>
-                        </div>
+
+                    <div class="preview-switcher">
+                        <button type="button" class="preview-trigger is-active" data-preview-target="admin">
+                            <div class="preview-trigger-title"><i class="fa-solid fa-shield"></i> Painel Admin</div>
+                            <div class="preview-trigger-desc">Login administrativo, navegação modular e base para operação diária.</div>
+                        </button>
+                        <button type="button" class="preview-trigger" data-preview-target="client">
+                            <div class="preview-trigger-title"><i class="fa-solid fa-users"></i> Formulário Público</div>
+                            <div class="preview-trigger-desc">Captação de novos membros com formulário público integrado ao CRM pastoral.</div>
+                        </button>
+                        <button type="button" class="preview-trigger" data-preview-target="wifi">
+                            <div class="preview-trigger-title"><i class="fa-solid fa-wifi"></i> Wi‑Fi + Captação</div>
+                            <div class="preview-trigger-desc">Continuação da experiência pública com acesso Wi‑Fi e vínculo com a base.</div>
+                        </button>
                     </div>
                 </div>
             </section>
@@ -526,6 +606,28 @@
     <script>
         window.addEventListener('DOMContentLoaded', () => {
             if (window.initRODTour) window.initRODTour();
+        });
+
+        const previewTriggers = document.querySelectorAll('[data-preview-target]');
+        const previewViews = document.querySelectorAll('[data-preview-view]');
+        const previewCopies = document.querySelectorAll('[data-preview-copy]');
+
+        function setPreview(target) {
+            previewTriggers.forEach(button => {
+                button.classList.toggle('is-active', button.dataset.previewTarget === target);
+            });
+
+            previewViews.forEach(view => {
+                view.classList.toggle('is-active', view.dataset.previewView === target);
+            });
+
+            previewCopies.forEach(copy => {
+                copy.classList.toggle('is-active', copy.dataset.previewCopy === target);
+            });
+        }
+
+        previewTriggers.forEach(button => {
+            button.addEventListener('click', () => setPreview(button.dataset.previewTarget));
         });
     </script>
 </body>
