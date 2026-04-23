@@ -137,6 +137,178 @@
             letter-spacing: 0.08em;
             text-transform: uppercase;
         }
+
+        .preview-stage {
+            display: grid;
+            gap: 1.5rem;
+        }
+
+        .preview-switcher {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .preview-trigger {
+            width: 100%;
+            text-align: left;
+            padding: 1.1rem 1.15rem;
+            border-radius: 1.25rem;
+            border: 1px solid rgba(255,255,255,0.08);
+            background: rgba(255,255,255,0.03);
+            color: #f8fafc;
+            transition: border-color 0.2s ease, background 0.2s ease, transform 0.2s ease;
+        }
+
+        .preview-trigger:hover,
+        .preview-trigger.is-active {
+            border-color: rgba(0, 180, 216, 0.26);
+            background: rgba(0, 180, 216, 0.08);
+            transform: translateY(-1px);
+        }
+
+        .preview-trigger-title {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            font-size: 0.82rem;
+            font-weight: 800;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            margin-bottom: 0.55rem;
+        }
+
+        .preview-trigger-desc {
+            font-size: 0.92rem;
+            line-height: 1.6;
+            color: #cbd5e1;
+        }
+
+        .preview-view {
+            display: none;
+        }
+
+        .preview-view.is-active {
+            display: block;
+        }
+
+        .preview-main-caption {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+            padding: 1rem 0 0;
+        }
+
+        .preview-main-copy h3 {
+            font-size: 1.1rem;
+            font-weight: 800;
+            color: #fff;
+            margin-bottom: 0.3rem;
+        }
+
+        .preview-main-copy p {
+            font-size: 0.95rem;
+            color: #94a3b8;
+            line-height: 1.6;
+        }
+
+        .preview-grid {
+            display: grid;
+            gap: 1.5rem;
+        }
+
+        .preview-card {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .preview-frame-desktop {
+            min-height: 28rem;
+        }
+
+        .preview-frame-mobile {
+            max-width: 21rem;
+            width: 100%;
+            margin-inline: auto;
+        }
+
+        .preview-viewport-desktop {
+            height: 28rem;
+            overflow: hidden;
+            background: #0b1220;
+        }
+
+        .preview-viewport-desktop .preview-shot {
+            height: 100%;
+            object-fit: cover;
+            object-position: top center;
+            transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), filter 0.6s ease;
+        }
+
+        .preview-viewport-desktop:hover .preview-shot {
+            transform: scale(1.03);
+            filter: brightness(1.03) contrast(1.01);
+        }
+
+        /* Efeito de gradiente animado no título */
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        /* Efeito de partículas flutuantes */
+        .particle {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background: rgba(0, 180, 216, 0.6);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        /* Melhoria na transição do browser-frame */
+        .browser-frame {
+            transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease;
+        }
+
+        .browser-frame:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 25px 60px -25px rgba(0, 180, 216, 0.3);
+        }
+
+        .preview-viewport-mobile {
+            height: 36rem;
+            overflow: hidden;
+            background: #0b1220;
+        }
+
+        .preview-viewport-mobile .preview-shot {
+            height: 100%;
+            object-fit: cover;
+            object-position: top center;
+        }
+
+        @media (max-width: 1024px) {
+            .preview-viewport-desktop {
+                height: 22rem;
+            }
+
+            .preview-viewport-mobile {
+                height: 28rem;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .preview-viewport-desktop {
+                height: 16rem;
+            }
+
+            .preview-viewport-mobile {
+                height: 24rem;
+            }
+        }
     </style>
 </head>
 <body class="antialiased selection:bg-vibrantCyan selection:text-white">
@@ -234,48 +406,78 @@
 
             <section class="fade-in-up" style="animation-delay:0.1s;">
                 <div class="max-w-4xl mb-8">
-                    <div class="text-xs font-mono uppercase tracking-[0.22em] text-slate-500 mb-4">Preview do Sistema</div>
-                    <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Uma visão rápida do ecossistema em operação</h2>
-                    <p class="text-slate-400 leading-relaxed">Em vez de só explicar, esta página também mostra a cara do sistema: login administrativo, captação pública e experiência de acesso Wi‑Fi.</p>
+                    <div class="text-xs font-mono uppercase tracking-[0.22em] text-slate-500 mb-4 flex items-center gap-2">
+                        <span class="w-2 h-2 rounded-full bg-vibrantCyan animate-pulse"></span>
+                        Preview do Sistema
+                    </div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-white mb-4 bg-gradient-to-r from-white via-cyan-200 to-white bg-clip-text text-transparent bg-[length:200%_auto] animate-[gradientShift_4s_linear_infinite]">
+                        Uma visão rápida do ecossistema em operação
+                    </h2>
+                    <p class="text-slate-400 leading-relaxed relative">
+                        <span class="absolute -left-4 top-1/2 -translate-y-1/2 w-1 h-8 bg-gradient-to-b from-vibrantCyan to-transparent rounded-full"></span>
+                        Em vez de só explicar, esta página também mostra a cara do sistema: login administrativo, captação pública e experiência de acesso Wi‑Fi.
+                    </p>
                 </div>
-                <div class="grid lg:grid-cols-[1.2fr_0.8fr] gap-6 items-start">
-                    <div class="space-y-6">
-                        <div class="browser-frame">
-                            <div class="browser-top">
-                                <div class="browser-dots"><span></span><span></span><span></span></div>
-                                <div class="browser-url">app.igrejacasa.com/admin</div>
+                <div class="preview-stage space-y-6">
+                    <!-- Browser Frame com Imagem do Login -->
+                    <div class="flex justify-center">
+                        <div class="w-full max-w-2xl">
+                            <div class="browser-frame preview-frame-desktop">
+                                <div class="browser-top">
+                                    <div class="browser-dots"><span></span><span></span><span></span></div>
+                                    <div class="browser-url">app.igrejacasa.com/admin</div>
+                                </div>
+                                <div class="preview-viewport-desktop">
+                                    <img src="assets/preview-admin.png" alt="Preview do painel administrativo do Igreja Casa Hub" class="preview-shot">
+                                </div>
                             </div>
-                            <img src="assets/preview-admin.png" alt="Preview do painel administrativo do Igreja Casa Hub" class="preview-shot">
-                        </div>
-                        <div class="grid md:grid-cols-2 gap-6">
-                            <div class="wire-card rounded-2xl p-5">
-                                <div class="preview-label mb-4"><i class="fa-solid fa-shield"></i> Painel Admin</div>
-                                <p class="text-sm text-slate-300 leading-relaxed">Login administrativo com identidade própria, navegação modular e base para operação diária.</p>
-                            </div>
-                            <div class="wire-card rounded-2xl p-5">
-                                <div class="preview-label mb-4"><i class="fa-solid fa-users"></i> CRM e Jornada</div>
-                                <p class="text-sm text-slate-300 leading-relaxed">O sistema organiza formulários, pessoas, respostas e relatórios em um fluxo mais rastreável.</p>
+                            <div class="text-center mt-4">
+                                <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-vibrantCyan/10 border border-vibrantCyan/20">
+                                    <i class="fa-solid fa-shield text-vibrantCyan text-sm"></i>
+                                    <span class="text-sm font-semibold text-vibrantCyan">Painel Administrativo</span>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="grid gap-6">
-                        <div class="browser-frame max-w-[22rem] mx-auto w-full">
-                            <div class="browser-top">
-                                <div class="browser-dots"><span></span><span></span><span></span></div>
-                                <div class="browser-url">igrejacasa.com/client</div>
+
+                    <!-- Cards de Explicação lado a lado -->
+                    <div class="flex flex-col md:flex-row gap-4 justify-center max-w-3xl mx-auto">
+                        <!-- Card Formulário Público -->
+                        <div class="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-slate-800/70 to-slate-900/70 border border-slate-700/50 p-5 transition-all duration-400 hover:scale-[1.02] hover:border-vibrantCyan/30 hover:shadow-[0_0_30px_rgba(0,180,216,0.15)] flex-1 min-w-0">
+                            <div class="absolute inset-0 bg-gradient-to-r from-vibrantCyan/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                            
+                            <div class="relative flex items-center gap-3 mb-3">
+                                <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-vibrantCyan/20 to-vibrantCyan/10 border border-vibrantCyan/30 flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-all duration-300 shadow-lg shadow-vibrantCyan/10 flex-shrink-0">
+                                    <i class="fa-solid fa-users text-vibrantCyan text-sm group-hover:animate-pulse"></i>
+                                </div>
+                                <div class="min-w-0">
+                                    <h4 class="text-base font-bold text-white group-hover:text-vibrantCyan transition-colors duration-300 truncate">Formulário Público</h4>
+                                    <div class="h-0.5 w-0 group-hover:w-10 bg-vibrantCyan transition-all duration-500"></div>
+                                </div>
                             </div>
-                            <img src="assets/preview-client.png" alt="Preview do formulário público do Igreja Casa Hub" class="preview-shot">
+                            
+                            <p class="text-slate-400 text-xs leading-relaxed relative z-10">
+                                <span class="text-vibrantCyan font-semibold">Experiência orientada à conversão:</span> formulário público integrado ao CRM pastoral, pensado para reduzir atrito no preenchimento e captar novos membros de forma eficiente.
+                            </p>
                         </div>
-                        <div class="browser-frame max-w-[22rem] mx-auto w-full">
-                            <div class="browser-top">
-                                <div class="browser-dots"><span></span><span></span><span></span></div>
-                                <div class="browser-url">app.igrejacasa.com/wifi</div>
+
+                        <!-- Card Wi-Fi + Captação -->
+                        <div class="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-slate-800/70 to-slate-900/70 border border-slate-700/50 p-5 transition-all duration-400 hover:scale-[1.02] hover:border-vibrantCyan/30 hover:shadow-[0_0_30px_rgba(0,180,216,0.15)] flex-1 min-w-0">
+                            <div class="absolute inset-0 bg-gradient-to-r from-vibrantCyan/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                            
+                            <div class="relative flex items-center gap-3 mb-3">
+                                <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-vibrantCyan/20 to-vibrantCyan/10 border border-vibrantCyan/30 flex items-center justify-center group-hover:scale-110 group-hover:rotate-3 transition-all duration-300 shadow-lg shadow-vibrantCyan/10 flex-shrink-0">
+                                    <i class="fa-solid fa-wifi text-vibrantCyan text-sm group-hover:animate-pulse"></i>
+                                </div>
+                                <div class="min-w-0">
+                                    <h4 class="text-base font-bold text-white group-hover:text-vibrantCyan transition-colors duration-300 truncate">Wi‑Fi + Captação</h4>
+                                    <div class="h-0.5 w-0 group-hover:w-10 bg-vibrantCyan transition-all duration-500"></div>
+                                </div>
                             </div>
-                            <img src="assets/preview-wifi.png" alt="Preview do portal Wi-Fi do Igreja Casa Hub" class="preview-shot">
-                        </div>
-                        <div class="wire-card rounded-2xl p-5 max-w-[22rem] mx-auto w-full">
-                            <div class="preview-label mb-4"><i class="fa-solid fa-wifi"></i> Wi‑Fi + Captação</div>
-                            <p class="text-sm text-slate-300 leading-relaxed">A experiência pública não para no formulário: ela pode seguir para Wi‑Fi, autenticação e relacionamento com a base.</p>
+                            
+                            <p class="text-slate-400 text-xs leading-relaxed relative z-10">
+                                <span class="text-vibrantCyan font-semibold">Portal Wi‑Fi:</span> continuidade da jornada com autenticação integrada ao CRM e vinculação de dispositivos.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -448,6 +650,48 @@
         window.addEventListener('DOMContentLoaded', () => {
             if (window.initRODTour) window.initRODTour();
         });
+
+        // Preview estático - apenas o painel administrativo é exibido
+        // Formulário público e Wi‑Fi são explicados textualmente
+
+        // Partículas flutuantes para dar vida à página
+        function createParticles() {
+            const container = document.querySelector('.preview-stage');
+            if (!container) return;
+
+            for (let i = 0; i < 6; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.top = Math.random() * 100 + '%';
+                particle.style.animationDuration = (3 + Math.random() * 4) + 's';
+                particle.style.animationDelay = Math.random() * 2 + 's';
+                particle.style.width = (2 + Math.random() * 3) + 'px';
+                particle.style.height = particle.style.width;
+                container.appendChild(particle);
+            }
+        }
+
+        // Animação de entrada dos cards
+        function animateCards() {
+            const cards = document.querySelectorAll('.group');
+            cards.forEach((card, index) => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(20px) scale(0.98)';
+                
+                setTimeout(() => {
+                    card.style.transition = 'all 0.5s cubic-bezier(0.16, 1, 0.3, 1)';
+                    card.style.opacity = '1';
+                    card.style.transform = 'translateY(0) scale(1)';
+                }, 150 + (index * 100));
+            });
+        }
+
+        // Inicializar animações quando a página carregar
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(createParticles, 500);
+            animateCards();
+        }); abaixo
     </script>
 </body>
 </html>
