@@ -71,6 +71,71 @@
             border: 1px solid rgba(255,255,255,0.08);
             background: rgba(255,255,255,0.03);
         }
+
+        .browser-frame {
+            background: rgba(10, 16, 30, 0.84);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 1.5rem;
+            overflow: hidden;
+            box-shadow: 0 24px 80px -38px rgba(2, 6, 23, 0.9);
+        }
+
+        .browser-top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+            padding: 0.9rem 1rem;
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+            background: rgba(255,255,255,0.02);
+        }
+
+        .browser-dots {
+            display: flex;
+            gap: 0.4rem;
+        }
+
+        .browser-dots span {
+            width: 0.65rem;
+            height: 0.65rem;
+            border-radius: 999px;
+            background: rgba(255,255,255,0.18);
+        }
+
+        .browser-url {
+            flex: 1;
+            min-width: 0;
+            padding: 0.5rem 0.75rem;
+            border-radius: 999px;
+            background: rgba(255,255,255,0.04);
+            color: #94a3b8;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.72rem;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .preview-shot {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .preview-label {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.4rem 0.75rem;
+            border-radius: 999px;
+            border: 1px solid rgba(255,255,255,0.08);
+            background: rgba(255,255,255,0.03);
+            color: #cbd5e1;
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
     </style>
 </head>
 <body class="antialiased selection:bg-vibrantCyan selection:text-white">
@@ -106,7 +171,9 @@
                         </p>
                     </div>
                     <div class="flex flex-wrap gap-3">
-                        <a href="#arquitetura" class="px-6 py-3 rounded-xl bg-vibrantCyan text-slate-950 font-bold hover:bg-cyan-400 transition-colors">Ver Arquitetura</a>
+                        <a href="https://igrejacasa.com" target="_blank" rel="noopener noreferrer" class="px-6 py-3 rounded-xl bg-vibrantCyan text-slate-950 font-bold hover:bg-cyan-400 transition-colors">igrejacasa.com</a>
+                        <a href="https://app.igrejacasa.com" target="_blank" rel="noopener noreferrer" class="px-6 py-3 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 text-white font-semibold transition-colors">app.igrejacasa.com</a>
+                        <a href="#arquitetura" class="px-6 py-3 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 text-white font-semibold transition-colors">Ver Arquitetura</a>
                         <a href="#modulos" class="px-6 py-3 rounded-xl border border-white/10 bg-white/5 hover:bg-white/10 text-white font-semibold transition-colors">Explorar Módulos</a>
                     </div>
                 </div>
@@ -152,6 +219,39 @@
                 </article>
             </section>
 
+            <section class="fade-in-up" style="animation-delay:0.1s;">
+                <div class="max-w-4xl mb-8">
+                    <div class="text-xs font-mono uppercase tracking-[0.22em] text-slate-500 mb-4">Preview do Sistema</div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Uma visão rápida do ecossistema em operação</h2>
+                    <p class="text-slate-400 leading-relaxed">Em vez de só explicar, esta página também mostra a cara do sistema: login administrativo, captação pública e experiência de acesso Wi‑Fi.</p>
+                </div>
+                <div class="grid lg:grid-cols-[1.15fr_0.85fr] gap-6 items-start">
+                    <div class="browser-frame">
+                        <div class="browser-top">
+                            <div class="browser-dots"><span></span><span></span><span></span></div>
+                            <div class="browser-url">app.igrejacasa.com/admin</div>
+                        </div>
+                        <img src="assets/preview-admin.png" alt="Preview do painel administrativo do Igreja Casa Hub" class="preview-shot">
+                    </div>
+                    <div class="space-y-6">
+                        <div class="browser-frame">
+                            <div class="browser-top">
+                                <div class="browser-dots"><span></span><span></span><span></span></div>
+                                <div class="browser-url">igrejacasa.com/client</div>
+                            </div>
+                            <img src="assets/preview-client.png" alt="Preview do formulário público do Igreja Casa Hub" class="preview-shot">
+                        </div>
+                        <div class="browser-frame">
+                            <div class="browser-top">
+                                <div class="browser-dots"><span></span><span></span><span></span></div>
+                                <div class="browser-url">app.igrejacasa.com/wifi</div>
+                            </div>
+                            <img src="assets/preview-wifi.png" alt="Preview do portal Wi-Fi do Igreja Casa Hub" class="preview-shot">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section id="arquitetura" class="surface rounded-3xl p-8 fade-in-up" style="animation-delay:0.12s;">
                 <div class="max-w-4xl">
                     <div class="text-xs font-mono uppercase tracking-[0.22em] text-slate-500 mb-4">Arquitetura</div>
@@ -184,27 +284,27 @@
                 </div>
                 <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-5">
                     <article class="surface rounded-3xl p-6">
-                        <div class="text-xs font-mono uppercase tracking-[0.2em] text-vibrantCyan mb-3">Admin</div>
+                        <div class="preview-label mb-4"><i class="fa-solid fa-shield"></i> Admin</div>
                         <p class="text-slate-300 leading-relaxed">Painel administrativo com gestão diária, cadastros, formulários, analytics, notificações, e-mail, DOMUM, escala e monitoramento.</p>
                     </article>
                     <article class="surface rounded-3xl p-6">
-                        <div class="text-xs font-mono uppercase tracking-[0.2em] text-vibrantCyan mb-3">CRM</div>
+                        <div class="preview-label mb-4"><i class="fa-solid fa-users"></i> CRM</div>
                         <p class="text-slate-300 leading-relaxed">Leitura de pessoas, respostas, jornada, tags, perfis e relacionamento com dados vindos dos formulários públicos.</p>
                     </article>
                     <article class="surface rounded-3xl p-6">
-                        <div class="text-xs font-mono uppercase tracking-[0.2em] text-vibrantCyan mb-3">Formulários</div>
+                        <div class="preview-label mb-4"><i class="fa-solid fa-file-lines"></i> Formulários</div>
                         <p class="text-slate-300 leading-relaxed">Builder e engine pública com deduplicação progressiva, tracking de sessão, autosave e submissão final conectada ao banco.</p>
                     </article>
                     <article class="surface rounded-3xl p-6">
-                        <div class="text-xs font-mono uppercase tracking-[0.2em] text-vibrantCyan mb-3">Analytics</div>
+                        <div class="preview-label mb-4"><i class="fa-solid fa-chart-line"></i> Analytics</div>
                         <p class="text-slate-300 leading-relaxed">Relatórios de sessão, abandono, fontes de tráfego e consolidação de jornada para leitura estratégica.</p>
                     </article>
                     <article class="surface rounded-3xl p-6">
-                        <div class="text-xs font-mono uppercase tracking-[0.2em] text-vibrantCyan mb-3">Wi-Fi</div>
+                        <div class="preview-label mb-4"><i class="fa-solid fa-wifi"></i> Wi‑Fi</div>
                         <p class="text-slate-300 leading-relaxed">Portal captive com identificação por MAC, lookup de pessoa, operações integradas com MikroTik e observabilidade de sessão.</p>
                     </article>
                     <article class="surface rounded-3xl p-6">
-                        <div class="text-xs font-mono uppercase tracking-[0.2em] text-vibrantCyan mb-3">DOMUM e Escala</div>
+                        <div class="preview-label mb-4"><i class="fa-solid fa-calendar-check"></i> DOMUM e Escala</div>
                         <p class="text-slate-300 leading-relaxed">Organização de equipes, programações, servos, departamentos, edições e comunicação com foco em rotina real de ministério.</p>
                     </article>
                 </div>
