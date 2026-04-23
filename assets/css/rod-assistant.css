@@ -6,6 +6,37 @@
     font-family: 'Inter', sans-serif;
 }
 
+.rod-nudge {
+    position: absolute;
+    right: 0;
+    bottom: calc(100% + 0.85rem);
+    max-width: min(18rem, calc(100vw - 2rem));
+    padding: 0.85rem 0.95rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(7, 12, 24, 0.94);
+    color: #e2e8f0;
+    font-size: 0.82rem;
+    line-height: 1.5;
+    box-shadow: 0 20px 50px -30px rgba(2, 6, 23, 0.96);
+    display: none;
+}
+
+.rod-nudge.is-visible {
+    display: block;
+}
+
+.rod-nudge button {
+    margin-top: 0.65rem;
+    padding: 0.45rem 0.75rem;
+    border-radius: 999px;
+    border: 1px solid rgba(0, 180, 216, 0.18);
+    background: rgba(0, 180, 216, 0.12);
+    color: #67e8f9;
+    font-size: 0.72rem;
+    font-weight: 700;
+}
+
 .rod-toggle {
     display: inline-flex;
     align-items: center;
@@ -311,6 +342,12 @@
         right: 0;
         left: auto;
         bottom: calc(100% + 0.75rem);
+    }
+
+    .rod-nudge {
+        left: 0;
+        right: 0;
+        max-width: none;
     }
 
     .rod-toggle-text {

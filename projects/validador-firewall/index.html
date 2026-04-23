@@ -42,6 +42,7 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../../assets/css/rod-assistant.css">
     <link rel="stylesheet" href="../../assets/css/rod-tour.css">
 </head>
 <body class="antialiased selection:bg-vibrantCyan selection:text-white">
@@ -422,6 +423,16 @@ Notebook Diretoria 12:34:56:78:90:AB"></textarea>
 
     <!-- Logic -->
     <script src="js/script.js"></script>
+    <script type="module">
+        import '../../assets/js/rod-assistant.js'
+        window.addEventListener('DOMContentLoaded', () => {
+            window.initROD({
+                knowledgePath: '../../assets/data/rod-knowledge.json',
+                currentProjectSlug: 'validador-firewall',
+                subtlePrompt: true,
+            })
+        })
+    </script>
     <script>
         window.ROD_TOUR_DEFINITIONS = {
             quickstart: [
