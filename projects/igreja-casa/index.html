@@ -243,6 +243,12 @@
             height: 100%;
             object-fit: cover;
             object-position: top center;
+            transition: transform 0.4s ease, filter 0.4s ease;
+        }
+
+        .preview-viewport-desktop:hover .preview-shot {
+            transform: scale(1.05);
+            filter: brightness(1.02);
         }
 
         .preview-viewport-mobile {
@@ -379,7 +385,7 @@
                 </div>
                 <div class="preview-stage lg:grid lg:grid-cols-[1.18fr_0.82fr] lg:items-start">
                     <div>
-                        <div class="browser-frame preview-frame-desktop preview-view is-active" data-preview-view="admin">
+                        <div class="browser-frame preview-frame-desktop">
                             <div class="browser-top">
                                 <div class="browser-dots"><span></span><span></span><span></span></div>
                                 <div class="browser-url">app.igrejacasa.com/admin</div>
@@ -388,54 +394,47 @@
                                 <img src="assets/preview-admin.png" alt="Preview do painel administrativo do Igreja Casa Hub" class="preview-shot">
                             </div>
                         </div>
-                        <div class="browser-frame preview-frame-desktop preview-view" data-preview-view="client">
-                            <div class="browser-top">
-                                <div class="browser-dots"><span></span><span></span><span></span></div>
-                                <div class="browser-url">igrejacasa.com/client</div>
-                            </div>
-                            <div class="preview-viewport-desktop">
-                                <img src="assets/preview-client.png" alt="Preview do formulário público do Igreja Casa Hub" class="preview-shot">
-                            </div>
-                        </div>
-                        <div class="browser-frame preview-frame-desktop preview-view" data-preview-view="wifi">
-                            <div class="browser-top">
-                                <div class="browser-dots"><span></span><span></span><span></span></div>
-                                <div class="browser-url">app.igrejacasa.com/wifi</div>
-                            </div>
-                            <div class="preview-viewport-desktop">
-                                <img src="assets/preview-wifi.png" alt="Preview do portal Wi-Fi do Igreja Casa Hub" class="preview-shot">
-                            </div>
-                        </div>
 
                         <div class="preview-main-caption">
-                            <div class="preview-main-copy preview-view is-active" data-preview-copy="admin">
+                            <div class="preview-main-copy">
                                 <h3>Painel administrativo com visão central da operação</h3>
                                 <p>Base para gestão diária, módulos internos, navegação administrativa e leitura consolidada do sistema.</p>
-                            </div>
-                            <div class="preview-main-copy preview-view" data-preview-copy="client">
-                                <h3>Formulário público com foco em captação</h3>
-                                <p>Experiência orientada à conversão, conectada ao CRM pastoral e pensada para reduzir atrito no preenchimento.</p>
-                            </div>
-                            <div class="preview-main-copy preview-view" data-preview-copy="wifi">
-                                <h3>Portal Wi‑Fi com continuidade da jornada</h3>
-                                <p>O visitante pode seguir da captação para autenticação e relacionamento, sem quebrar a lógica da plataforma.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="preview-switcher">
-                        <button type="button" class="preview-trigger is-active" data-preview-target="admin">
+                        <button type="button" class="preview-trigger is-active" disabled>
                             <div class="preview-trigger-title"><i class="fa-solid fa-shield"></i> Painel Admin</div>
                             <div class="preview-trigger-desc">Login administrativo, navegação modular e base para operação diária.</div>
                         </button>
-                        <button type="button" class="preview-trigger" data-preview-target="client">
-                            <div class="preview-trigger-title"><i class="fa-solid fa-users"></i> Formulário Público</div>
-                            <div class="preview-trigger-desc">Captação de novos membros com formulário público integrado ao CRM pastoral.</div>
-                        </button>
-                        <button type="button" class="preview-trigger" data-preview-target="wifi">
-                            <div class="preview-trigger-title"><i class="fa-solid fa-wifi"></i> Wi‑Fi + Captação</div>
-                            <div class="preview-trigger-desc">Continuação da experiência pública com acesso Wi‑Fi e vínculo com a base.</div>
-                        </button>
+                    </div>
+
+                    <!-- Explanations for removed sections -->
+                    <div class="mt-8 space-y-6">
+                        <div class="bg-slate-800/50 rounded-xl p-6 border border-slate-700/50">
+                            <div class="flex items-center gap-3 mb-3">
+                                <i class="fa-solid fa-users text-vibrantCyan text-xl"></i>
+                                <h4 class="text-lg font-bold text-white">Formulário Público</h4>
+                            </div>
+                            <p class="text-slate-400 text-sm leading-relaxed">
+                                <strong>Experiência orientada à conversão:</strong> formulário público integrado ao CRM pastoral, 
+                                pensado para reduzir atrito no preenchimento e captar novos membros de forma eficiente. 
+                                Os dados são sincronizados em tempo real com a base de dados central.
+                            </p>
+                        </div>
+
+                        <div class="bg-slate-800/50 rounded-xl p-6 border border-slate-700/50">
+                            <div class="flex items-center gap-3 mb-3">
+                                <i class="fa-solid fa-wifi text-vibrantCyan text-xl"></i>
+                                <h4 class="text-lg font-bold text-white">Wi‑Fi + Captação</h4>
+                            </div>
+                            <p class="text-slate-400 text-sm leading-relaxed">
+                                <strong>Portal Wi‑Fi com continuidade da jornada:</strong> o visitante pode seguir da captação 
+                                para autenticação e relacionamento, sem quebrar a lógica da plataforma. O acesso Wi‑Fi está 
+                                integrado ao CRM e permite vincular dispositivos a membros registrados.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -608,27 +607,8 @@
             if (window.initRODTour) window.initRODTour();
         });
 
-        const previewTriggers = document.querySelectorAll('[data-preview-target]');
-        const previewViews = document.querySelectorAll('[data-preview-view]');
-        const previewCopies = document.querySelectorAll('[data-preview-copy]');
-
-        function setPreview(target) {
-            previewTriggers.forEach(button => {
-                button.classList.toggle('is-active', button.dataset.previewTarget === target);
-            });
-
-            previewViews.forEach(view => {
-                view.classList.toggle('is-active', view.dataset.previewView === target);
-            });
-
-            previewCopies.forEach(copy => {
-                copy.classList.toggle('is-active', copy.dataset.previewCopy === target);
-            });
-        }
-
-        previewTriggers.forEach(button => {
-            button.addEventListener('click', () => setPreview(button.dataset.previewTarget));
-        });
+        // Preview estático - apenas o painel administrativo é exibido
+        // Formulário público e Wi‑Fi são explicados textualmente abaixo
     </script>
 </body>
 </html>
