@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.20.0/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-webgl@4.20.0/dist/tf-backend-webgl.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
     <style>
         body {
@@ -81,6 +82,17 @@
             border-radius: 1rem;
         }
 
+        .target-chip.is-active {
+            border-color: rgba(34, 211, 238, 0.55);
+            background: rgba(34, 211, 238, 0.14);
+            color: #cffafe;
+            box-shadow: 0 0 0 1px rgba(34, 211, 238, 0.16) inset;
+        }
+
+        .custom-range {
+            accent-color: #22d3ee;
+        }
+
         .watermark-container::after {
             content: "© 2026 RDP STUDIO. Desenvolvido por Marcelo Rodrigues.";
             font-size: 0.75rem;
@@ -136,6 +148,7 @@
                         <div class="flex flex-wrap gap-3">
                             <a href="#previa" class="px-5 py-3 rounded-full bg-cyan-400 text-slate-950 font-bold text-sm hover:bg-cyan-300 transition-colors">Ver previa ao vivo</a>
                             <a href="#documentacao" class="px-5 py-3 rounded-full border border-white/10 bg-white/5 text-white font-semibold text-sm hover:bg-white/10 transition-colors">Ler documentacao</a>
+                            <a href="https://rbmc.org.br/rbmc/article/view/175" target="_blank" rel="noopener noreferrer" class="px-5 py-3 rounded-full border border-cyan-400/20 bg-cyan-400/10 text-cyan-200 font-semibold text-sm hover:bg-cyan-400/15 transition-colors">Abrir artigo RBMC</a>
                         </div>
                     </div>
 
@@ -178,10 +191,32 @@
                         <div>
                             <div class="text-xs uppercase tracking-[0.2em] text-cyan-300 font-mono mb-2">Previa interativa</div>
                             <h2 class="text-2xl font-bold text-white">Reconhecimento de objetos com a camera do usuario</h2>
-                            <p class="text-slate-400 mt-2 max-w-2xl">A demo abaixo roda 100% no navegador. Ela usa a webcam do visitante para detectar objetos em tempo real e servir como prova visual de capacidade em visao computacional.</p>
+                            <p class="text-slate-400 mt-2 max-w-2xl">A demo abaixo roda 100% no navegador. Ela usa a webcam do visitante para detectar objetos em tempo real com backend acelerado, filtragem de confianca e leitura estabilizada entre frames.</p>
                         </div>
                         <div id="modelBadge" class="px-4 py-2 rounded-full border border-white/10 bg-white/5 text-slate-300 text-xs font-bold uppercase tracking-[0.16em]">
                             Carregando modelo...
+                        </div>
+                    </div>
+
+                    <div class="grid lg:grid-cols-3 gap-3 mb-5">
+                        <label class="rounded-2xl border border-white/10 bg-white/5 p-4 block">
+                            <div class="text-slate-400 text-[11px] uppercase tracking-[0.16em] mb-2">Confianca minima</div>
+                            <div class="flex items-center gap-3">
+                                <input id="confidenceRange" type="range" min="25" max="90" step="5" value="45" class="custom-range w-full">
+                                <span id="confidenceValue" class="text-white font-bold text-sm min-w-[3rem] text-right">45%</span>
+                            </div>
+                        </label>
+                        <label class="rounded-2xl border border-white/10 bg-white/5 p-4 block">
+                            <div class="text-slate-400 text-[11px] uppercase tracking-[0.16em] mb-2">Camera preferida</div>
+                            <select id="cameraMode" class="w-full rounded-xl border border-white/10 bg-slate-950/80 px-3 py-2 text-sm text-white outline-none">
+                                <option value="user">Frontal</option>
+                                <option value="environment">Traseira</option>
+                            </select>
+                        </label>
+                        <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+                            <div class="text-slate-400 text-[11px] uppercase tracking-[0.16em] mb-2">Modo de leitura</div>
+                            <div class="text-white font-bold text-sm">Deteccao estabilizada</div>
+                            <div class="text-slate-400 text-xs mt-2">Consolida objetos vistos em janelas curtas para reduzir ruido visual.</div>
                         </div>
                     </div>
 
@@ -205,6 +240,24 @@
                             <i class="fa-solid fa-stop mr-2"></i>Parar camera
                         </button>
                     </div>
+
+                    <div class="mt-5 rounded-2xl border border-white/10 bg-white/5 p-4">
+                        <div class="flex items-center justify-between gap-3 mb-3">
+                            <div class="text-xs uppercase tracking-[0.18em] text-slate-400 font-mono">Foco operacional</div>
+                            <div class="text-[11px] text-slate-500">Classes com melhor aderencia ao modelo atual</div>
+                        </div>
+                        <div id="targetChips" class="flex flex-wrap gap-2 text-xs">
+                            <span data-target="person" class="target-chip px-3 py-2 rounded-full border border-white/10 bg-slate-950/70 text-slate-300">Pessoa</span>
+                            <span data-target="cell phone" class="target-chip px-3 py-2 rounded-full border border-white/10 bg-slate-950/70 text-slate-300">Celular</span>
+                            <span data-target="backpack" class="target-chip px-3 py-2 rounded-full border border-white/10 bg-slate-950/70 text-slate-300">Mochila</span>
+                            <span data-target="handbag" class="target-chip px-3 py-2 rounded-full border border-white/10 bg-slate-950/70 text-slate-300">Bolsa</span>
+                            <span data-target="tie" class="target-chip px-3 py-2 rounded-full border border-white/10 bg-slate-950/70 text-slate-300">Roupa/acessorio</span>
+                            <span data-target="spoon" class="target-chip px-3 py-2 rounded-full border border-white/10 bg-slate-950/70 text-slate-300">Colher</span>
+                            <span data-target="bottle" class="target-chip px-3 py-2 rounded-full border border-white/10 bg-slate-950/70 text-slate-300">Garrafa</span>
+                            <span data-target="book" class="target-chip px-3 py-2 rounded-full border border-white/10 bg-slate-950/70 text-slate-300">Livro</span>
+                            <span data-target="laptop" class="target-chip px-3 py-2 rounded-full border border-white/10 bg-slate-950/70 text-slate-300">Laptop</span>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="space-y-6">
@@ -227,6 +280,24 @@
                                 <div class="text-slate-400 text-xs uppercase tracking-[0.16em] mb-2">Confianca</div>
                                 <div id="topScore" class="text-white font-bold">0%</div>
                             </div>
+                            <div class="rounded-2xl border border-white/10 bg-white/5 p-4 col-span-2">
+                                <div class="text-slate-400 text-xs uppercase tracking-[0.16em] mb-2">Objetos estabilizados</div>
+                                <div id="stableObjects" class="text-white font-bold">Nenhum</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="surface rounded-[2rem] p-5 md:p-6">
+                        <div class="text-xs uppercase tracking-[0.18em] text-slate-500 font-mono mb-4">Leitura especializada</div>
+                        <div id="specialFindings" class="space-y-3 text-sm text-slate-300 leading-relaxed">
+                            <div class="rounded-2xl border border-white/10 bg-white/5 p-4">Nenhum destaque operacional ainda.</div>
+                        </div>
+                    </div>
+
+                    <div class="surface rounded-[2rem] p-5 md:p-6">
+                        <div class="text-xs uppercase tracking-[0.18em] text-slate-500 font-mono mb-4">Classes recentes</div>
+                        <div id="recentClasses" class="flex flex-wrap gap-2 text-xs text-slate-300">
+                            <span class="px-3 py-2 rounded-full border border-white/10 bg-white/5">Sem deteccoes</span>
                         </div>
                     </div>
 
@@ -236,6 +307,8 @@
                             <li class="flex gap-3"><i class="fa-solid fa-circle-info text-cyan-300 mt-1"></i><span>Esta previa usa reconhecimento de objetos, nao autenticacao facial completa.</span></li>
                             <li class="flex gap-3"><i class="fa-solid fa-shield text-emerald-300 mt-1"></i><span>O processamento acontece no cliente. O video nao precisa ser enviado para servidor.</span></li>
                             <li class="flex gap-3"><i class="fa-solid fa-lightbulb text-amber-300 mt-1"></i><span>A demo foi incluida para materializar o tema de visao computacional do TCC no portfolio atual.</span></li>
+                            <li class="flex gap-3"><i class="fa-solid fa-magnifying-glass text-violet-300 mt-1"></i><span>Itens muito pequenos ou fora do vocabulario base do modelo, como chave, cabo e oculos, podem nao ser reconhecidos com consistencia nesta versao client-side.</span></li>
+                            <li class="flex gap-3"><i class="fa-solid fa-user-shield text-rose-300 mt-1"></i><span>Sexo e idade aproximada nao sao inferidos nesta pagina por envolverem biometria sensivel. Mantive a demo focada em objetos e presenca de pessoas.</span></li>
                         </ul>
                         <div id="eventLog" class="mt-5 rounded-2xl border border-white/10 bg-slate-950/70 p-4 text-xs font-mono text-slate-400 min-h-[130px] overflow-auto">
                             Sistema pronto. Nenhum evento ainda.
@@ -307,6 +380,9 @@
                             <div class="flex items-center justify-between gap-3"><span>Tela TFT 1.8in</span><span class="text-slate-500">US$ 14.84</span></div>
                             <div class="pt-3 mt-3 border-t border-white/10 flex items-center justify-between text-white font-bold"><span>Total estimado</span><span>US$ 82.94</span></div>
                         </div>
+                        <div class="mt-4 rounded-2xl border border-amber-400/20 bg-amber-400/10 p-4 text-xs text-amber-100 leading-relaxed">
+                            O artigo informa que os custos sao estimativas de mercado e podem variar por fornecedor e localizacao geografica. A publicacao nao explicita a data exata da cotacao; nesta pagina os valores sao apresentados conforme a Tabela 1 do artigo publicado em <strong>18/08/2024</strong>.
+                        </div>
                     </div>
 
                     <div class="surface rounded-[2rem] p-6">
@@ -334,6 +410,10 @@
                     <div class="surface rounded-[2rem] p-6 border border-cyan-400/20">
                         <div class="text-xs uppercase tracking-[0.18em] text-cyan-300 font-mono mb-3">Referencia</div>
                         <p class="text-sm text-slate-300 leading-relaxed">Lemos RP, Azevedo CH, Passos Junior MR, Kunzler JA. Sistema de controle de acesso atraves de reconhecimento facial com monitoramento remoto. Revista Brasileira Militar de Ciencias. 2024;10(24):e175.</p>
+                        <a href="https://rbmc.org.br/rbmc/article/view/175" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 mt-4 text-cyan-300 hover:text-cyan-200 transition-colors text-sm font-semibold">
+                            <i class="fa-solid fa-book-open-reader"></i>
+                            Abrir pagina do artigo na RBMC
+                        </a>
                         <a href="https://doi.org/10.36414/rbmc.v10i24.175" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 mt-4 text-cyan-300 hover:text-cyan-200 transition-colors text-sm font-semibold">
                             <i class="fa-solid fa-arrow-up-right-from-square"></i>
                             Abrir DOI do artigo
@@ -370,12 +450,38 @@
         const topObject = document.getElementById('topObject');
         const topScore = document.getElementById('topScore');
         const eventLog = document.getElementById('eventLog');
+        const stableObjects = document.getElementById('stableObjects');
+        const recentClasses = document.getElementById('recentClasses');
+        const specialFindings = document.getElementById('specialFindings');
+        const confidenceRange = document.getElementById('confidenceRange');
+        const confidenceValue = document.getElementById('confidenceValue');
+        const cameraMode = document.getElementById('cameraMode');
+        const targetChips = Array.from(document.querySelectorAll('.target-chip'));
 
         let model = null;
         let stream = null;
         let animationFrameId = null;
         let running = false;
         let detectCooldown = false;
+        let confidenceThreshold = Number(confidenceRange.value) / 100;
+        let detectionHistory = [];
+
+        const highlightClasses = new Set(['person', 'cell phone', 'backpack', 'handbag', 'tie', 'spoon', 'bottle', 'book', 'laptop']);
+        const classLabels = {
+            person: 'Pessoa',
+            'cell phone': 'Celular',
+            backpack: 'Mochila',
+            handbag: 'Bolsa',
+            tie: 'Roupa/acessorio',
+            spoon: 'Colher',
+            bottle: 'Garrafa',
+            book: 'Livro',
+            laptop: 'Laptop',
+            cup: 'Copo',
+            chair: 'Cadeira',
+            keyboard: 'Teclado',
+            mouse: 'Mouse'
+        };
 
         function logEvent(message) {
             const timestamp = new Date().toLocaleTimeString('pt-BR');
@@ -389,10 +495,12 @@
 
         async function ensureModel() {
             if (model) return model;
+            await tf.setBackend('webgl');
+            await tf.ready();
             modelBadge.textContent = 'Carregando COCO-SSD...';
-            logEvent('Carregando modelo COCO-SSD no navegador.');
+            logEvent('Backend WebGL ativo. Carregando modelo COCO-SSD no navegador.');
             model = await cocoSsd.load();
-            modelBadge.textContent = 'Modelo pronto';
+            modelBadge.textContent = 'Modelo pronto em WebGL';
             logEvent('Modelo carregado com sucesso.');
             return model;
         }
@@ -406,24 +514,100 @@
 
         function drawDetections(predictions) {
             ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.font = 'bold 14px Inter';
 
             predictions.forEach(prediction => {
                 const [x, y, width, height] = prediction.bbox;
                 const score = Math.round(prediction.score * 100);
+                const color = highlightClasses.has(prediction.class) ? '#22d3ee' : '#a78bfa';
+                const labelText = classLabels[prediction.class] || prediction.class;
 
-                ctx.strokeStyle = '#22d3ee';
+                ctx.strokeStyle = color;
                 ctx.lineWidth = 3;
                 ctx.strokeRect(x, y, width, height);
 
-                ctx.fillStyle = '#22d3ee';
-                const label = `${prediction.class} ${score}%`;
+                ctx.fillStyle = color;
+                const label = `${labelText} ${score}%`;
                 const textWidth = ctx.measureText(label).width + 16;
                 ctx.fillRect(x, Math.max(0, y - 28), textWidth, 24);
 
                 ctx.fillStyle = '#020617';
-                ctx.font = 'bold 14px Inter';
                 ctx.fillText(label, x + 8, Math.max(16, y - 10));
             });
+        }
+
+        function updateHistory(predictions) {
+            const labels = predictions.map(prediction => prediction.class);
+            detectionHistory.unshift(labels);
+            detectionHistory = detectionHistory.slice(0, 8);
+        }
+
+        function getStableClasses() {
+            const counts = new Map();
+            detectionHistory.forEach(frame => {
+                frame.forEach(label => {
+                    counts.set(label, (counts.get(label) || 0) + 1);
+                });
+            });
+
+            return Array.from(counts.entries())
+                .filter(([, count]) => count >= 2)
+                .sort((a, b) => b[1] - a[1]);
+        }
+
+        function renderStableObjects(stable) {
+            if (!stable.length) {
+                stableObjects.textContent = 'Nenhum';
+                recentClasses.innerHTML = '<span class="px-3 py-2 rounded-full border border-white/10 bg-white/5">Sem deteccoes</span>';
+                targetChips.forEach(chip => chip.classList.remove('is-active'));
+                return;
+            }
+
+            stableObjects.textContent = stable.map(([label]) => classLabels[label] || label).slice(0, 4).join(', ');
+            recentClasses.innerHTML = stable
+                .slice(0, 8)
+                .map(([label, count]) => `<span class="px-3 py-2 rounded-full border border-white/10 bg-white/5">${classLabels[label] || label} · ${count}x</span>`)
+                .join('');
+
+            targetChips.forEach(chip => {
+                const target = chip.dataset.target;
+                const active = stable.some(([label]) => label === target);
+                chip.classList.toggle('is-active', active);
+            });
+        }
+
+        function renderSpecialFindings(predictions, stable) {
+            const classes = new Set(predictions.map(prediction => prediction.class));
+            const stableSet = new Set(stable.map(([label]) => label));
+            const findings = [];
+
+            if (classes.has('person') || stableSet.has('person')) {
+                findings.push('Pessoa presente no enquadramento.');
+            }
+            if (classes.has('cell phone') || stableSet.has('cell phone')) {
+                findings.push('Celular visivel na cena.');
+            }
+            if (classes.has('spoon') || stableSet.has('spoon')) {
+                findings.push('Colher detectada pelo modelo.');
+            }
+            if (classes.has('tie') || stableSet.has('tie')) {
+                findings.push('Acessorio de vestimenta detectado.');
+            }
+            if (classes.has('backpack') || classes.has('handbag') || stableSet.has('backpack') || stableSet.has('handbag')) {
+                findings.push('Item de transporte pessoal encontrado, util para leitura de contexto.');
+            }
+            if (classes.has('laptop') || classes.has('book') || classes.has('keyboard')) {
+                findings.push('Objeto de uso de escritorio/estudo identificado.');
+            }
+
+            if (!findings.length) {
+                specialFindings.innerHTML = '<div class="rounded-2xl border border-white/10 bg-white/5 p-4">Nenhum destaque operacional ainda.</div>';
+                return;
+            }
+
+            specialFindings.innerHTML = findings
+                .map(finding => `<div class="rounded-2xl border border-cyan-400/15 bg-cyan-400/10 p-4">${finding}</div>`)
+                .join('');
         }
 
         async function detectFrame() {
@@ -431,14 +615,19 @@
 
             if (!detectCooldown && model && video.readyState >= 2) {
                 detectCooldown = true;
-                const predictions = await model.detect(video);
+                const predictions = (await model.detect(video)).filter(prediction => prediction.score >= confidenceThreshold);
                 resizeCanvas();
                 drawDetections(predictions);
+                updateHistory(predictions);
+
+                const stable = getStableClasses();
+                renderStableObjects(stable);
+                renderSpecialFindings(predictions, stable);
 
                 detectionCount.textContent = String(predictions.length);
                 if (predictions.length > 0) {
                     const best = [...predictions].sort((a, b) => b.score - a.score)[0];
-                    topObject.textContent = best.class;
+                    topObject.textContent = classLabels[best.class] || best.class;
                     topScore.textContent = `${Math.round(best.score * 100)}%`;
                 } else {
                     topObject.textContent = 'Nenhum';
@@ -459,7 +648,11 @@
                 await ensureModel();
 
                 stream = await navigator.mediaDevices.getUserMedia({
-                    video: { facingMode: 'user' },
+                    video: {
+                        facingMode: cameraMode.value,
+                        width: { ideal: 1280 },
+                        height: { ideal: 720 }
+                    },
                     audio: false
                 });
 
@@ -470,7 +663,7 @@
                 placeholder.classList.add('hidden');
                 stopButton.disabled = false;
                 cameraStatus.textContent = 'Executando';
-                logEvent('Camera iniciada e deteccao em tempo real ativa.');
+                logEvent(`Camera iniciada em modo ${cameraMode.value === 'user' ? 'frontal' : 'traseiro'} com confianca minima de ${Math.round(confidenceThreshold * 100)}%.`);
                 detectFrame();
             } catch (error) {
                 console.error(error);
@@ -497,8 +690,18 @@
             detectionCount.textContent = '0';
             topObject.textContent = 'Nenhum';
             topScore.textContent = '0%';
+            stableObjects.textContent = 'Nenhum';
+            recentClasses.innerHTML = '<span class="px-3 py-2 rounded-full border border-white/10 bg-white/5">Sem deteccoes</span>';
+            specialFindings.innerHTML = '<div class="rounded-2xl border border-white/10 bg-white/5 p-4">Nenhum destaque operacional ainda.</div>';
+            detectionHistory = [];
+            targetChips.forEach(chip => chip.classList.remove('is-active'));
             logEvent('Camera encerrada pelo usuario.');
         }
+
+        confidenceRange.addEventListener('input', () => {
+            confidenceThreshold = Number(confidenceRange.value) / 100;
+            confidenceValue.textContent = `${confidenceRange.value}%`;
+        });
 
         startButton.addEventListener('click', startCamera);
         stopButton.addEventListener('click', stopCamera);

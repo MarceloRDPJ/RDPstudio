@@ -4,6 +4,8 @@
 > **Base:** Artigo cientifico publicado na RBMC (2024)
 > **Tecnologia da pagina:** HTML, Tailwind CDN, JavaScript, TensorFlow.js, COCO-SSD
 
+**Artigo:** `https://rbmc.org.br/rbmc/article/view/175`
+
 ## Visao Geral
 
 Este projeto documenta e apresenta uma reconstrucao visual do TCC publicado como:
@@ -62,12 +64,21 @@ O artigo cientifico continua sendo a fonte primaria das informacoes tecnicas e h
 - `TensorFlow.js`
 - `COCO-SSD`
 - `MediaDevices.getUserMedia`
+- `WebGL backend`
+
+## Nota sobre custos
+
+Os valores de materiais apresentados nesta reconstrucao seguem a Tabela 1 do artigo.
+
+O texto da publicacao informa que os precos sao estimativas de mercado e podem variar conforme fornecedor e localizacao geografica, mas **nao informa explicitamente a data exata da cotacao**. Nesta documentacao, os valores foram mantidos como referencia da publicacao disponibilizada em `18/08/2024`.
 
 ## Referencia
 
 Lemos RP, Azevedo CH, Passos Junior MR, Kunzler JA. *Sistema de controle de acesso atraves de reconhecimento facial com monitoramento remoto*. Revista Brasileira Militar de Ciencias. 2024;10(24):e175.
 
 DOI: `https://doi.org/10.36414/rbmc.v10i24.175`
+
+Pagina do artigo: `https://rbmc.org.br/rbmc/article/view/175`
 
 ---
 **Desenvolvido por Marcelo Rodrigues (RDP Studio)**
