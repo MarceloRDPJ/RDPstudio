@@ -2,17 +2,17 @@
   "assistant": {
     "name": "ROD",
     "title": "RDP Operational Director",
-    "persona": "Assistente estrategico da RDP Studio. Fala de forma natural, clara e objetiva, sem soar robotico. Sempre tenta orientar o visitante para o projeto, contexto ou acao mais relevante.",
+    "persona": "Assistente estratégico da RDP Studio. Fala de forma natural, clara e objetiva, sem soar robótico. Sempre tenta orientar o visitante para o projeto, contexto ou ação mais relevante.",
     "welcome": [
-      "Sou o ROD, o assistente da RDP Studio. Posso explicar quem e o Marcelo, o que a RDP Studio faz, como funcionam os projetos e qual ferramenta faz mais sentido para cada cenario.",
-      "Posso te ajudar a navegar pelo portfolio, entender as ferramentas e descobrir rapido qual solucao resolve o seu problema.",
-      "Se quiser, posso resumir a RDP Studio, explicar um projeto especifico, comparar ferramentas ou mostrar como usar cada solucao."
+      "Sou o ROD, o assistente da RDP Studio. Posso explicar quem é o Marcelo, o que a RDP Studio faz, como funcionam os projetos e qual ferramenta faz mais sentido para cada cenário.",
+      "Posso te ajudar a navegar pelo portfólio, entender as ferramentas e descobrir rápido qual solução resolve o seu problema.",
+      "Se quiser, posso resumir a RDP Studio, explicar um projeto específico, comparar ferramentas ou mostrar como usar cada solução."
     ],
     "starterQuestions": [
-      "Quem e Marcelo Rodrigues?",
-      "O que e a RDP Studio?",
+      "Quem é Marcelo Rodrigues?",
+      "O que é a RDP Studio?",
       "Me explique o case de controle de acesso vision",
-      "Qual projeto mostra mais automacao?",
+      "Qual projeto mostra mais automação?",
       "Como usar o Validador de MACs?",
       "Qual projeto tem backend real?"
     ]
@@ -20,15 +20,15 @@
   "profile": {
     "name": "Marcelo Rodrigues",
     "role": "Founder & Lead Engineer da RDP Studio",
-    "summary": "Marcelo Rodrigues e um profissional focado em unir infraestrutura, seguranca, automacao e software em entregas praticas. O portfolio mostra exatamente essa combinacao: ferramentas operacionais, dashboards, automacoes e projetos com IA aplicada.",
+    "summary": "Marcelo Rodrigues é um profissional focado em unir infraestrutura, segurança, automação e software em entregas práticas. O portfólio mostra exatamente essa combinação: ferramentas operacionais, dashboards, automações e projetos com IA aplicada.",
     "highlights": [
-      "Atua com automacao, seguranca, cloud, engenharia de software e IA aplicada.",
-      "Tem foco forte em transformar trabalho operacional repetitivo em sistemas mais seguros e mais rapidos.",
-      "Combina linguagem tecnica com apresentacao executiva, o que ajuda tanto na implementacao quanto na venda da solucao."
+      "Atua com automação, segurança, cloud, engenharia de software e IA aplicada.",
+      "Tem foco forte em transformar trabalho operacional repetitivo em sistemas mais seguros e mais rápidos.",
+      "Combina linguagem técnica com apresentação executiva, o que ajuda tanto na implementação quanto na venda da solução."
     ],
     "education": [
-      "Tecnologo em Gestao da Tecnologia da Informacao pela Faculdade da Policia Militar.",
-      "Pos-graduacao em Computacao Forense e Seguranca em andamento no IPOG."
+      "Tecnólogo em Gestão da Tecnologia da Informação pela Faculdade da Polícia Militar.",
+      "Pós-graduação em Computação Forense e Segurança em andamento no IPOG."
     ],
     "contact": {
       "email": "rdpstudio@gmail.com",
@@ -38,36 +38,36 @@
   },
   "studio": {
     "name": "RDP Studio",
-    "summary": "A RDP Studio e uma vitrine e plataforma de demonstracao de capacidade tecnica em automacao, seguranca, BI e IA aplicada. O foco nao e apenas mostrar interface bonita, mas provar pensamento de engenharia e utilidade real.",
+    "summary": "A RDP Studio é uma vitrine e plataforma de demonstração de capacidade técnica em automação, segurança, BI e IA aplicada. O foco não é apenas mostrar interface bonita, mas provar pensamento de engenharia e utilidade real.",
     "pillars": [
-      "Automacao operacional",
-      "Seguranca e infraestrutura",
+      "Automação operacional",
+      "Segurança e infraestrutura",
       "Dashboards e ferramentas client-side",
-      "IA aplicada a fluxos de negocio"
+      "IA aplicada a fluxos de negócio"
     ],
     "positioning": [
-      "Portfolio com cara de produto, nao apenas de apresentacao.",
-      "Projetos pensados para demonstrar valor tecnico, impacto operacional e clareza de uso.",
-      "Arquitetura static-first quando faz sentido, com possibilidade de evolucao para camadas mais avancadas."
+      "Portfólio com cara de produto, não apenas de apresentação.",
+      "Projetos pensados para demonstrar valor técnico, impacto operacional e clareza de uso.",
+      "Arquitetura static-first quando faz sentido, com possibilidade de evolução para camadas mais avançadas."
     ]
   },
   "faq": [
     {
       "id": "hosting",
-      "question": "Como o portfolio e hospedado?",
-      "answer": "Hoje o portfolio foi pensado para hospedagem estatica, o que simplifica deploy, custo e manutencao. Isso funciona muito bem para hub, paginas institucionais, dashboards client-side e ferramentas que processam dados localmente no navegador.",
+      "question": "Como o portfólio é hospedado?",
+      "answer": "Hoje o portfólio foi pensado para hospedagem estática, o que simplifica deploy, custo e manutenção. Isso funciona muito bem para hub, páginas institucionais, dashboards client-side e ferramentas que processam dados localmente no navegador.",
       "keywords": ["hospedagem", "hosting", "github pages", "cloudflare", "deploy", "estatico"]
     },
     {
       "id": "backend",
       "question": "Todo projeto aqui tem backend?",
-      "answer": "Nao. Alguns projetos sao 100% client-side, como o Validador de MACs e o Relatorio Interativo. Outros tem backend real ou documentado, como o RDP Insider com crawler em Python e os cases mais enterprise, como GLPI e Assistente de Vendas IA.",
+      "answer": "Não. Alguns projetos são 100% client-side, como o Validador de MACs e o Relatório Interativo. Outros têm backend real ou documentado, como o RDP Insider com crawler em Python e os cases mais enterprise, como GLPI e Assistente de Vendas IA.",
       "keywords": ["backend", "servidor", "api", "tem back", "sem backend"]
     },
     {
       "id": "best-project",
-      "question": "Qual projeto representa melhor a capacidade tecnica da RDP Studio?",
-      "answer": "Depende do recorte. Para automacao e dados, o RDP Insider mostra coleta, atualizacao e leitura de informacao. Para ferramenta operacional pratica, o Validador de MACs e forte. Para fluxo de negocio com IA, o Assistente de Vendas IA e a melhor vitrine.",
+      "question": "Qual projeto representa melhor a capacidade técnica da RDP Studio?",
+      "answer": "Depende do recorte. Para automação e dados, o RDP Insider mostra coleta, atualização e leitura de informação. Para ferramenta operacional prática, o Validador de MACs é forte. Para fluxo de negócio com IA, o Assistente de Vendas IA é a melhor vitrine.",
       "keywords": ["melhor projeto", "mais forte", "principal", "capacidade tecnica", "representa melhor"]
     }
   ],
@@ -77,13 +77,13 @@
       "name": "Controle de Acesso Vision",
       "aliases": ["controle de acesso", "tcc reconhecimento facial", "esp32 cam", "esp32cam", "reconhecimento facial", "computer vision", "visao computacional"],
       "category": "Computer Vision",
-      "summary": "Case editorial que reconstrui um TCC sobre controle de acesso facial com ESP32 e monitoramento remoto, com uma demo viva de visao computacional no navegador.",
-      "problem": "O trabalho existia como artigo academico, mas sem o codigo original ficava dificil apresentar o projeto com peso tecnico e visual dentro do portfolio.",
-      "solution": "A pagina reorganiza o caso com narrativa mais clara, arquitetura bem distribuida, referencias honestas e uma demonstracao local de camera para tornar a experiencia concreta.",
+      "summary": "Case editorial que reconstrói um TCC sobre controle de acesso facial com ESP32 e monitoramento remoto, com uma demo viva de visão computacional no navegador.",
+      "problem": "O trabalho existia como artigo acadêmico, mas sem o código original ficava difícil apresentar o projeto com peso técnico e visual dentro do portfólio.",
+      "solution": "A página reorganiza o caso com narrativa mais clara, arquitetura bem distribuída, referências honestas e uma demonstração local de câmera para tornar a experiência concreta.",
       "howToUse": [
-        "Comece pela abertura da pagina para entender o recorte e o motivo da reconstrucao.",
-        "Passe pela secao de arquitetura para ver como o sistema foi dividido entre captura, atuacao e camada desktop.",
-        "Depois abra a demo com camera para experimentar a parte viva de visao computacional."
+        "Comece pela abertura da página para entender o recorte e o motivo da reconstrução.",
+        "Passe pela seção de arquitetura para ver como o sistema foi dividido entre captura, atuação e camada desktop.",
+        "Depois abra a demo com câmera para experimentar a parte viva de visão computacional."
       ],
       "stack": ["HTML", "JavaScript", "Tailwind CDN", "TensorFlow.js", "COCO-SSD", "ESP32-CAM", "Python"],
       "backendMode": "Sem backend",
@@ -215,27 +215,27 @@
     {
       "id": "about-studio",
       "keywords": ["rdp studio", "empresa", "estudio", "studio", "consultoria", "o que voces fazem", "o que vc faz"],
-      "response": "A RDP Studio e um portfolio orientado a prova de capacidade tecnica. O foco principal e mostrar automacao, seguranca, BI e IA aplicada com exemplos que resolvem problemas concretos, nao apenas mockups bonitos."
+      "response": "A RDP Studio é um portfólio orientado à prova de capacidade técnica. O foco principal é mostrar automação, segurança, BI e IA aplicada com exemplos que resolvem problemas concretos, não apenas mockups bonitos."
     },
     {
       "id": "about-profile",
       "keywords": ["marcelo", "quem e voce", "quem e ele", "fundador", "sobre voce", "sobre ele"],
-      "response": "Marcelo Rodrigues e o fundador da RDP Studio. O perfil dele combina automacao, infraestrutura, seguranca e engenharia de software, com uma pegada forte de resolver trabalho repetitivo com sistemas mais inteligentes e mais apresentaveis."
+      "response": "Marcelo Rodrigues é o fundador da RDP Studio. O perfil dele combina automação, infraestrutura, segurança e engenharia de software, com uma pegada forte de resolver trabalho repetitivo com sistemas mais inteligentes e mais apresentáveis."
     },
     {
       "id": "contact",
       "keywords": ["contato", "falar com voce", "whatsapp", "email", "linkedin", "como falo"],
-      "response": "Voce pode falar com a RDP Studio pelo WhatsApp em https://wa.me/5562996780498, pelo email rdpstudio@gmail.com ou pelo LinkedIn do Marcelo em https://www.linkedin.com/in/marcelo-rodrigues-088478211/."
+      "response": "Você pode falar com a RDP Studio pelo WhatsApp em https://wa.me/5562996780498, pelo email rdpstudio@gmail.com ou pelo LinkedIn do Marcelo em https://www.linkedin.com/in/marcelo-rodrigues-088478211/."
     },
     {
       "id": "project-recommendation",
       "keywords": ["qual projeto", "qual ferramenta", "me indica", "recomenda", "por onde comeco", "por onde começo"],
-      "response": "Se voce quer automacao operacional, eu mostraria primeiro o GLPI Automator ou o Validador de MACs. Se quer IA aplicada a negocio, eu iria para o Assistente de Vendas IA. Se o objetivo e dados e atualizacao automatica, o RDP Insider e a melhor vitrine."
+      "response": "Se você quer automação operacional, eu mostraria primeiro o GLPI Automator ou o Validador de MACs. Se quer IA aplicada a negócio, eu iria para o Assistente de Vendas IA. Se o objetivo é dados e atualização automática, o RDP Insider é a melhor vitrine."
     },
     {
       "id": "project-vision-case",
       "keywords": ["tcc", "artigo", "rbmc", "reconhecimento facial", "controle de acesso", "esp32 cam", "computer vision"],
-      "response": "Se voce quer um case com mais cara de engenharia aplicada, eu te mostraria o Controle de Acesso Vision. Ele pega um TCC publicado, reorganiza o raciocinio tecnico e ainda adiciona uma demo viva de visao computacional no navegador."
+      "response": "Se você quer um case com mais cara de engenharia aplicada, eu te mostraria o Controle de Acesso Vision. Ele pega um TCC publicado, reorganiza o raciocínio técnico e ainda adiciona uma demo viva de visão computacional no navegador."
     }
   ]
 }
