@@ -294,6 +294,31 @@
                         </div>
                     </div>
 
+                    <div class="surface rounded-[2rem] p-5 md:p-6 border border-rose-400/15">
+                        <div class="flex items-center justify-between gap-3 mb-4">
+                            <div>
+                                <div class="text-xs uppercase tracking-[0.18em] text-rose-300 font-mono mb-2">Sinais de atencao</div>
+                                <div class="text-white font-bold">Analise contextual de atividade suspeita</div>
+                            </div>
+                            <div id="riskBadge" class="px-3 py-2 rounded-full border border-white/10 bg-white/5 text-slate-300 text-xs font-bold uppercase tracking-[0.16em]">
+                                Sem alerta
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-3 mb-4">
+                            <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+                                <div class="text-slate-400 text-xs uppercase tracking-[0.16em] mb-2">Nivel</div>
+                                <div id="riskLevel" class="text-white font-bold">Baixo</div>
+                            </div>
+                            <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+                                <div class="text-slate-400 text-xs uppercase tracking-[0.16em] mb-2">Objetos sensiveis</div>
+                                <div id="sensitiveObjects" class="text-white font-bold">Nenhum</div>
+                            </div>
+                        </div>
+                        <div id="riskFindings" class="space-y-3 text-sm text-slate-300 leading-relaxed">
+                            <div class="rounded-2xl border border-white/10 bg-white/5 p-4">Nenhum padrao de atencao identificado.</div>
+                        </div>
+                    </div>
+
                     <div class="surface rounded-[2rem] p-5 md:p-6">
                         <div class="text-xs uppercase tracking-[0.18em] text-slate-500 font-mono mb-4">Classes recentes</div>
                         <div id="recentClasses" class="flex flex-wrap gap-2 text-xs text-slate-300">
@@ -307,6 +332,7 @@
                             <li class="flex gap-3"><i class="fa-solid fa-circle-info text-cyan-300 mt-1"></i><span>Esta previa usa reconhecimento de objetos, nao autenticacao facial completa.</span></li>
                             <li class="flex gap-3"><i class="fa-solid fa-shield text-emerald-300 mt-1"></i><span>O processamento acontece no cliente. O video nao precisa ser enviado para servidor.</span></li>
                             <li class="flex gap-3"><i class="fa-solid fa-lightbulb text-amber-300 mt-1"></i><span>A demo foi incluida para materializar o tema de visao computacional do TCC no portfolio atual.</span></li>
+                            <li class="flex gap-3"><i class="fa-solid fa-triangle-exclamation text-amber-300 mt-1"></i><span>Os alertas de suspeita sao heuristicas visuais conservadoras para triagem e nao substituem validacao humana ou politica formal de seguranca.</span></li>
                             <li class="flex gap-3"><i class="fa-solid fa-magnifying-glass text-violet-300 mt-1"></i><span>Itens muito pequenos ou fora do vocabulario base do modelo, como chave, cabo e oculos, podem nao ser reconhecidos com consistencia nesta versao client-side.</span></li>
                             <li class="flex gap-3"><i class="fa-solid fa-user-shield text-rose-300 mt-1"></i><span>Sexo e idade aproximada nao sao inferidos nesta pagina por envolverem biometria sensivel. Mantive a demo focada em objetos e presenca de pessoas.</span></li>
                         </ul>
@@ -457,6 +483,10 @@
         const confidenceValue = document.getElementById('confidenceValue');
         const cameraMode = document.getElementById('cameraMode');
         const targetChips = Array.from(document.querySelectorAll('.target-chip'));
+        const riskBadge = document.getElementById('riskBadge');
+        const riskLevel = document.getElementById('riskLevel');
+        const sensitiveObjects = document.getElementById('sensitiveObjects');
+        const riskFindings = document.getElementById('riskFindings');
 
         let model = null;
         let stream = null;
@@ -466,7 +496,8 @@
         let confidenceThreshold = Number(confidenceRange.value) / 100;
         let detectionHistory = [];
 
-        const highlightClasses = new Set(['person', 'cell phone', 'backpack', 'handbag', 'tie', 'spoon', 'bottle', 'book', 'laptop']);
+        const highlightClasses = new Set(['person', 'cell phone', 'backpack', 'handbag', 'tie', 'spoon', 'bottle', 'book', 'laptop', 'knife', 'scissors']);
+        const sensitiveClasses = new Set(['knife', 'scissors']);
         const classLabels = {
             person: 'Pessoa',
             'cell phone': 'Celular',
@@ -480,7 +511,9 @@
             cup: 'Copo',
             chair: 'Cadeira',
             keyboard: 'Teclado',
-            mouse: 'Mouse'
+            mouse: 'Mouse',
+            knife: 'Faca',
+            scissors: 'Tesoura'
         };
 
         function logEvent(message) {
@@ -610,6 +643,82 @@
                 .join('');
         }
 
+        function setRiskVisual(level, sensitiveList, findings) {
+            const visuals = {
+                baixo: {
+                    badge: 'Sem alerta',
+                    badgeClass: 'px-3 py-2 rounded-full border border-white/10 bg-white/5 text-slate-300 text-xs font-bold uppercase tracking-[0.16em]',
+                    levelLabel: 'Baixo'
+                },
+                medio: {
+                    badge: 'Atencao moderada',
+                    badgeClass: 'px-3 py-2 rounded-full border border-amber-400/25 bg-amber-400/10 text-amber-200 text-xs font-bold uppercase tracking-[0.16em]',
+                    levelLabel: 'Medio'
+                },
+                alto: {
+                    badge: 'Alerta elevado',
+                    badgeClass: 'px-3 py-2 rounded-full border border-rose-400/25 bg-rose-400/10 text-rose-200 text-xs font-bold uppercase tracking-[0.16em]',
+                    levelLabel: 'Alto'
+                }
+            };
+
+            const selected = visuals[level] || visuals.baixo;
+            riskBadge.className = selected.badgeClass;
+            riskBadge.textContent = selected.badge;
+            riskLevel.textContent = selected.levelLabel;
+            sensitiveObjects.textContent = sensitiveList.length ? sensitiveList.map(label => classLabels[label] || label).join(', ') : 'Nenhum';
+
+            if (!findings.length) {
+                riskFindings.innerHTML = '<div class="rounded-2xl border border-white/10 bg-white/5 p-4">Nenhum padrao de atencao identificado.</div>';
+                return;
+            }
+
+            riskFindings.innerHTML = findings
+                .map(finding => {
+                    const tone = level === 'alto'
+                        ? 'border border-rose-400/20 bg-rose-400/10'
+                        : 'border border-amber-400/20 bg-amber-400/10';
+                    return `<div class="rounded-2xl ${tone} p-4">${finding}</div>`;
+                })
+                .join('');
+        }
+
+        function assessSceneRisk(predictions, stable) {
+            const classes = new Set(predictions.map(prediction => prediction.class));
+            const stableSet = new Set(stable.map(([label]) => label));
+            const sensitiveList = Array.from(new Set([...classes, ...stableSet].filter(label => sensitiveClasses.has(label))));
+            const findings = [];
+            let level = 'baixo';
+
+            const personPresent = classes.has('person') || stableSet.has('person');
+            const bagPresent = classes.has('backpack') || classes.has('handbag') || stableSet.has('backpack') || stableSet.has('handbag');
+            const phonePresent = classes.has('cell phone') || stableSet.has('cell phone');
+            const multiPerson = predictions.filter(prediction => prediction.class === 'person').length >= 2;
+            const persistentPerson = stable.some(([label, count]) => label === 'person' && count >= 4);
+
+            if (sensitiveList.length) {
+                findings.push(`Objeto potencialmente perigoso detectado pelo modelo: ${sensitiveList.map(label => classLabels[label] || label).join(', ')}.`);
+                level = 'alto';
+            }
+
+            if (multiPerson && (bagPresent || phonePresent)) {
+                findings.push('Cena com mais de uma pessoa e objetos portateis relevantes, recomendando observacao adicional.');
+                if (level !== 'alto') level = 'medio';
+            }
+
+            if (persistentPerson && !sensitiveList.length) {
+                findings.push('Pessoa persistente no enquadramento por varios ciclos, util para triagem de permanencia em area monitorada.');
+                if (level === 'baixo') level = 'medio';
+            }
+
+            if (personPresent && bagPresent && phonePresent) {
+                findings.push('Pessoa com combinacao de bolsa/mochila e celular visiveis; pode ser um sinal util de contextualizacao operacional.');
+                if (level === 'baixo') level = 'medio';
+            }
+
+            setRiskVisual(level, sensitiveList, findings);
+        }
+
         async function detectFrame() {
             if (!running) return;
 
@@ -623,6 +732,7 @@
                 const stable = getStableClasses();
                 renderStableObjects(stable);
                 renderSpecialFindings(predictions, stable);
+                assessSceneRisk(predictions, stable);
 
                 detectionCount.textContent = String(predictions.length);
                 if (predictions.length > 0) {
@@ -695,6 +805,7 @@
             specialFindings.innerHTML = '<div class="rounded-2xl border border-white/10 bg-white/5 p-4">Nenhum destaque operacional ainda.</div>';
             detectionHistory = [];
             targetChips.forEach(chip => chip.classList.remove('is-active'));
+            setRiskVisual('baixo', [], []);
             logEvent('Camera encerrada pelo usuario.');
         }
 
