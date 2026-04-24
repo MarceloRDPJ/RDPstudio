@@ -1,31 +1,11 @@
 {
-  "last_updated": "2026-04-23T13:43:52",
-  "display_date": "23/04/2026 13:43",
+  "last_updated": "2026-04-24T13:24:24",
+  "display_date": "24/04/2026 13:24",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "572ms",
+    "latency": "76ms",
     "current_games": [
-      {
-        "title": "The Stone of Madness",
-        "description": "The Stone of Madness é um jogo tático furtivo em tempo real ambientado em um mosteiro espanhol do século XVIII. Cinco prisioneiros reúnem suas habilidades e recursos para enfrentar suas fobias, evitar a insanidade, descobrir os mistérios do Monastério e encontrar uma maneira de escapar.",
-        "image": "https://cdn1.epicgames.com/spt-assets/8de621e8d91b473f892472024035dc22/the-stone-of-madness-hvdla.jpg",
-        "url": "https://store.epicgames.com/p/the-stone-of-madness",
-        "price": "$29.99",
-        "start_date": "2026-04-16T15:00:00.000Z",
-        "end_date": "2026-04-23T15:00:00.000Z"
-      }
-    ],
-    "upcoming_games": [
-      {
-        "title": "Firestone Online Idle RPG",
-        "description": "Firestone: Online Idle RPG é um jogo de fantasia multijogador com mecânica de RPG ocioso. Colete heróis🧙‍♂️, atualize seus equipamentos e habilidades e envie-os para batalhas AFK ou entre em um frenesi incremental de clicker para derrotar chefes monstruosos! Converse com amigos da guilda ou participe de PVP⚔️.",
-        "image": "https://cdn1.epicgames.com/spt-assets/69576a28f7154fe9a0dce97508da5163/firestone-online-idle-rpg-101lx.png",
-        "url": "https://store.epicgames.com/p/1185abfe7c554a1e8c528aba37bf3d0f",
-        "price": "0",
-        "start_date": "2026-04-30T15:00:00.000Z",
-        "end_date": "2026-05-07T15:00:00.000Z"
-      },
       {
         "title": "DOOMBLADE",
         "description": "Nas profundezas do subsolo, Gloom Girl descobre DOOMBLADE, uma arma senciente determinada a escapar depois de eras acorrentadas. Juntos, “Doom and Gloom” embarcam em uma busca vingativa para desbloquear habilidades poderosas e destruir os Dread Lords de uma vez por todas neste Metroidvania de ação 2D.",
@@ -34,15 +14,35 @@
         "price": "$14.99",
         "start_date": "2026-04-23T15:00:00.000Z",
         "end_date": "2026-04-30T15:00:00.000Z"
+      }
+    ],
+    "upcoming_games": [
+      {
+        "title": "Firestone Online Idle RPG",
+        "description": "Firestone: Online Idle RPG é um jogo de fantasia multijogador com mecânica de RPG ocioso. Colete heróis🧙‍♂️, atualize seus equipamentos e habilidades e envie-os para batalhas AFK ou entre em um frenesi incremental de clicker para derrotar chefes monstruosos! Converse com amigos da guilda ou participe de PVP⚔️.",
+        "image": "https://cdn1.epicgames.com/spt-assets/69576a28f7154fe9a0dce97508da5163/firestone-online-idle-rpg-1vv9i.png",
+        "url": "https://store.epicgames.com/p/1185abfe7c554a1e8c528aba37bf3d0f",
+        "price": "0",
+        "start_date": "2026-04-30T15:00:00.000Z",
+        "end_date": "2026-05-07T15:00:00.000Z"
       },
       {
         "title": "Ghostrunner 2",
-        "description": "Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
+        "description": "Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cibernética.",
         "image": "https://cdn1.epicgames.com/offer/708f57aaa04b42ef885be16c8288f0ac/EGS_Ghostrunner2_OneMoreLevel_S1_2560x1440-15845148fae1d0cfd7f3e98c9b3ba6ba",
         "url": "https://store.epicgames.com/p/ghostrunner-2",
         "price": "$39.99",
         "start_date": "2026-05-14T15:00:00.000Z",
         "end_date": "2026-06-11T15:00:00.000Z"
+      },
+      {
+        "title": "Oddsparks: An Automation Adventure",
+        "description": "Projete oficinas automatizadas para que seus estranhos e adoráveis ​​Sparks carreguem e criem tudo, inclusive mais deles mesmos. Lidere seu esquadrão de Sparks para o combate. Explore um estranho mundo de fantasia, no modo single player ou no modo cooperativo online. Desvende o antigo mistério das Centelhas!",
+        "image": "https://cdn1.epicgames.com/spt-assets/f09aaab3f10e4c18a2948a5b829bd84d/oddsparks-an-automation-adventure-117zi.png",
+        "url": "https://store.epicgames.com/p/e16c97c0da0b4e5aa507e930befb1a25",
+        "price": "$29.99",
+        "start_date": "2026-04-30T15:00:00.000Z",
+        "end_date": "2026-05-07T15:00:00.000Z"
       },
       {
         "title": "LISA: The Definitive Edition",
@@ -85,49 +85,34 @@
   },
   "items": [
     {
-      "id": "https://store.epicgames.com/p/the-stone-of-madness",
-      "title": "GRÁTIS: The Stone of Madness",
-      "original_title": "The Stone of Madness",
-      "image": "https://cdn1.epicgames.com/spt-assets/8de621e8d91b473f892472024035dc22/the-stone-of-madness-hvdla.jpg",
+      "id": "https://store.epicgames.com/p/ed9fee5cea29495394853e134f27a291",
+      "title": "GRÁTIS: DOOMBLADE",
+      "original_title": "DOOMBLADE",
+      "image": "https://cdn1.epicgames.com/spt-assets/df87b66c9f3042ac83311bdc9b442884/doomblade-120wd.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-04-23",
-      "summary": "The Stone of Madness é um jogo tático furtivo em tempo real ambientado em um mosteiro espanhol do século XVIII. Cinco prisioneiros reúnem suas habilidades e recursos para enfrentar suas fobias, evitar a insanidade, descobrir os mistérios do Monastério e encontrar uma maneira de escapar.",
+      "date": "2026-04-24",
+      "summary": "Nas profundezas do subsolo, Gloom Girl descobre DOOMBLADE, uma arma senciente determinada a escapar depois de eras acorrentadas. Juntos, “Doom and Gloom” embarcam em uma busca vingativa para desbloquear habilidades poderosas e destruir os Dread Lords de uma vez por todas neste Metroidvania de ação 2D.",
       "sources": [
         "Epic Games Store"
       ],
-      "url": "https://store.epicgames.com/p/the-stone-of-madness"
+      "url": "https://store.epicgames.com/p/ed9fee5cea29495394853e134f27a291"
     },
     {
       "id": "https://store.epicgames.com/p/1185abfe7c554a1e8c528aba37bf3d0f",
       "title": "EM BREVE: Firestone Online Idle RPG",
       "original_title": "Firestone Online Idle RPG",
-      "image": "https://cdn1.epicgames.com/spt-assets/69576a28f7154fe9a0dce97508da5163/firestone-online-idle-rpg-101lx.png",
+      "image": "https://cdn1.epicgames.com/spt-assets/69576a28f7154fe9a0dce97508da5163/firestone-online-idle-rpg-1vv9i.png",
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-04-23",
+      "date": "2026-04-24",
       "summary": "Disponível gratuitamente a partir de 30/04. Firestone: Online Idle RPG é um jogo de fantasia multijogador com mecânica de RPG ocioso. Colete heróis🧙‍♂️, atualize seus equipamentos e habilidades e envie-os para batalhas AFK ou entre em um frenesi incremental de clicker para derrotar chefes monstruosos! Converse com amigos da guilda ou participe de PVP⚔️.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/1185abfe7c554a1e8c528aba37bf3d0f"
-    },
-    {
-      "id": "https://store.epicgames.com/p/ed9fee5cea29495394853e134f27a291",
-      "title": "EM BREVE: DOOMBLADE",
-      "original_title": "DOOMBLADE",
-      "image": "https://cdn1.epicgames.com/spt-assets/df87b66c9f3042ac83311bdc9b442884/doomblade-120wd.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-04-23",
-      "summary": "Disponível gratuitamente a partir de 23/04. Nas profundezas do subsolo, Gloom Girl descobre DOOMBLADE, uma arma senciente determinada a escapar depois de eras acorrentadas. Juntos, “Doom and Gloom” embarcam em uma busca vingativa para desbloquear habilidades poderosas e destruir os Dread Lords de uma vez por todas neste Metroidvania de ação 2D.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/ed9fee5cea29495394853e134f27a291"
     },
     {
       "id": "https://store.epicgames.com/p/ghostrunner-2",
@@ -137,12 +122,27 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-04-23",
-      "summary": "Disponível gratuitamente a partir de 14/05. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
+      "date": "2026-04-24",
+      "summary": "Disponível gratuitamente a partir de 14/05. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cibernética.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/ghostrunner-2"
+    },
+    {
+      "id": "https://store.epicgames.com/p/e16c97c0da0b4e5aa507e930befb1a25",
+      "title": "EM BREVE: Oddsparks: An Automation Adventure",
+      "original_title": "Oddsparks: An Automation Adventure",
+      "image": "https://cdn1.epicgames.com/spt-assets/f09aaab3f10e4c18a2948a5b829bd84d/oddsparks-an-automation-adventure-117zi.png",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-04-24",
+      "summary": "Disponível gratuitamente a partir de 30/04. Projete oficinas automatizadas para que seus estranhos e adoráveis ​​Sparks carreguem e criem tudo, inclusive mais deles mesmos. Lidere seu esquadrão de Sparks para o combate. Explore um estranho mundo de fantasia, no modo single player ou no modo cooperativo online. Desvende o antigo mistério das Centelhas!",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/e16c97c0da0b4e5aa507e930befb1a25"
     },
     {
       "id": "https://store.epicgames.com/p/lisa-the-definitive-edition",
@@ -152,7 +152,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-04-23",
+      "date": "2026-04-24",
       "summary": "Disponível gratuitamente a partir de 16/09. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
@@ -167,7 +167,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-04-23",
+      "date": "2026-04-24",
       "summary": "Disponível gratuitamente a partir de 14/05. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
@@ -182,7 +182,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-04-23",
+      "date": "2026-04-24",
       "summary": "Disponível gratuitamente a partir de 14/05. A Coleção de Aniversário de Castlevania da Konami traça as origens da histórica franquia de vampiros. Está incluído um e-book exclusivo com detalhes fornecidos por desenvolvedores, artistas e outros inspirados no legado de Castlevania, que lança uma nova luz sobre o mundo de Castlevania.",
       "sources": [
         "Epic Games Store"
@@ -197,7 +197,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-04-23",
+      "date": "2026-04-24",
       "summary": "Disponível gratuitamente a partir de 14/05. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
       "sources": [
         "Epic Games Store"
@@ -205,214 +205,109 @@
       "url": "https://store.epicgames.com/p/monument-valley-02"
     },
     {
-      "id": "https://www.eurogamer.net/orbitals-80s-anime-legendary-gundam-director-it-takes-two-co-op-preview",
-      "title": "Com Orbitals, anime dos anos 80, um lendário diretor de Gundam e talentos de It Takes Two se combinam para um potencial sucesso cooperativo",
-      "original_title": "With Orbitals, 80s anime, a legendary Gundam director and It Takes Two talent combine for a potential co-op smash hit",
-      "image": "https://assetsio.gnwcdn.com/orbitals-key-art-cropped.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/xbox-unveils-new-logo",
+      "title": "À medida que a campanha ‘podemos mudar’ continua, o Xbox revela um novo logotipo, e é uma explosão intencional do passado",
+      "original_title": "As its 'we can change' campaign continues, Xbox unveils new logo, and it's an intentional blast from the past",
+      "image": "https://assetsio.gnwcdn.com/xbox-logo-header.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-04-23",
-      "summary": "De Akira Toriyama emprestando seus designs de cabelos espetados a Chrono Trigger, à influência duradoura de Hayao Miyazaki nas aeronaves de Final Fantasy, anime e videogame sempre estiveram intrinsecamente ligados. No entanto, se formos honestos, poucos jogos já ...",
+      "date": "2026-04-24",
+      "summary": "Ainda há mudanças no Xbox. Após a saída de Phil Spencer em fevereiro, o novo CEO, Asha Sharma, tomou algumas medidas importantes para reenergizar a marca Xbox, frequentemente invocando o espírito dos dias de glória do console em uma tentativa de reconquistar...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/orbitals-80s-anime-legendary-gundam-director-it-takes-two-co-op-preview"
+      "url": "https://www.eurogamer.net/xbox-unveils-new-logo"
     },
     {
-      "id": "https://www.eurogamer.net/street-fighter-6-ingrid-gameplay-trailer-release-date",
-      "title": "A próxima personagem DLC de Street Fighter 6, Ingrid, finalmente tem um trailer de jogo e data de lançamento",
-      "original_title": "Street Fighter 6's next DLC character Ingrid finally has a gameplay trailer and release date",
-      "image": "https://assetsio.gnwcdn.com/ingrid-street-fighter-6.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/xbox-game-pass-starter-edition-discord",
+      "title": "Recém-saído da notícia de que o Xbox está cortando os preços do Game Pass, surgem relatos de um novo nível “Starter Edition” que vem com um sub Discord",
+      "original_title": "Fresh off the news that Xbox is cutting Game Pass pricing, reports emerge of a new \"Starter Edition\" tier that bundles in a Discord sub",
+      "image": "https://assetsio.gnwcdn.com/xbox-game-pass_SEot71j.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-04-23",
-      "summary": "Um novo trailer de jogo de Street Fighter 6 foi lançado, mostrando a lista de movimentos da próxima personagem DLC, Ingrid. Leia mais...",
+      "date": "2026-04-24",
+      "summary": "O Xbox de Asha Sharma parece estar preparando novos níveis de seu serviço de assinatura Game Pass. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/street-fighter-6-ingrid-gameplay-trailer-release-date"
+      "url": "https://www.eurogamer.net/xbox-game-pass-starter-edition-discord"
     },
     {
-      "id": "https://www.eurogamer.net/xbox-quick-resume-fix-disable-april-update-series-x-s",
-      "title": "A melhor adição à atualização mais recente do Xbox? Agora você pode desativar o Quick Resume na Série X/S e impedir que seus jogos travem",
-      "original_title": "The best addition to Xbox's most recent update? You can now disable Quick Resume on Series X/S and stop it from crashing your games",
-      "image": "https://assetsio.gnwcdn.com/quick-resume.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/sega-universe-retro-anniveraries-2026",
+      "title": "Outrun, Streets of Rage, NiGHTS e SGGG são apenas quatro das muitas séries que a Sega promete revisitar em 2026",
+      "original_title": "Outrun, Streets of Rage, NiGHTS, and SGGG are just four of many series Sega promises to revisit in 2026",
+      "image": "https://assetsio.gnwcdn.com/sega-retro.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-04-23",
-      "summary": "Hoje, a Microsoft lançou uma nova atualização para todas as máquinas Xbox Series X/S, e é algo que os usuários frequentes da máquina vêm pedindo desde 2020: a opção de desabilitar o Quick Resume para alguns jogos específicos. Leia mais...",
+      "date": "2026-04-24",
+      "summary": "A Sega está planejando lembrar a todos nós que ainda tem muitas franquias de sucesso sob seu enorme guarda-chuva, mesmo que não tenhamos ouvido falar delas há muitos anos. A editora revelou um programa de eventos para celebrar seus jogos antigos em...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/xbox-quick-resume-fix-disable-april-update-series-x-s"
+      "url": "https://www.eurogamer.net/sega-universe-retro-anniveraries-2026"
     },
     {
-      "id": "https://www.eurogamer.net/crimson-desert-major-update-difficulty-options-controller-presets-new-cats",
-      "title": "Outra grande atualização do Crimson Desert traz mudanças de chefes, opções de dificuldade, mais armazenamento, ajustes de controle e gatos para garantir",
-      "original_title": "Another big Crimson Desert update brings boss changes, difficulty options, more storage, control tweaks and cats for good measure",
-      "image": "https://assetsio.gnwcdn.com/Crimson-Desert-dragon-riding.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/shuhei-yoshida-playstation-pc-strategy-keynote",
+      "title": "O ex-executivo da Sony fala sobre a ideia de os jogos PS5 chegarem ao PC no primeiro dia: “Não acho que seja uma boa estratégia para um detentor de plataforma como o PlayStation”",
+      "original_title": "Former Sony exec opens up about the idea of PS5 games coming to PC on day one: \"I don't think that's a good strategy for a platform holder like PlayStation\"",
+      "image": "https://assetsio.gnwcdn.com/shuhei-yoshida-ps-pc.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-04-23",
-      "summary": "A série de melhorias significativas na qualidade de vida do Crimson Desert continua, já que a última atualização trouxe opções de dificuldade fácil e difícil, alguns novos animais de estimação para rastrear, algumas mudanças interessantes de chefe e muito mais. Leia mais...",
+      "date": "2026-04-24",
+      "summary": "Você se lembra de Shuhei ‘yosp’ Yoshida, ex-chefe do PlayStation e chefe do PlayStation Indies de 2019 até sua aposentadoria da empresa em 2025? O simpático executivo bem-humorado revelou-se recentemente e afirmou que não precisa...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/crimson-desert-major-update-difficulty-options-controller-presets-new-cats"
+      "url": "https://www.eurogamer.net/shuhei-yoshida-playstation-pc-strategy-keynote"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1stbl16/megathread_assassins_creed_black_flag_resynced/",
-      "title": "[MEGATHREAD] Assassin's Creed Black Flag: Resynced - Worldwide Reveal Showcase + ID@Xbox Showcase",
-      "original_title": "[MEGATHREAD] Assassin's Creed Black Flag: Resynced - Worldwide Reveal Showcase + ID@Xbox Showcase",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "id": "https://www.eurogamer.net/xbox-bosses-open-letter",
+      "title": "'Temos que ser honestos sobre onde estamos; somos um desafiante' - os chefes do Xbox compartilham uma carta aberta sobre o futuro",
+      "original_title": "'We have to be honest about where we are; we're a challenger' - Xbox bosses share open letter about the future",
+      "image": "https://assetsio.gnwcdn.com/asha-sharma-and-matt-booty-this-is-an-xbox.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
-      "reliability": "Medium",
+      "reliability": "High",
       "category": "News",
-      "date": "2026-04-23",
-      "summary": "Hoje temos dois showcases acontecendo consecutivamente - imaginei que você pode usar este tópico para discutir ambos. O Black Flag acontece primeiro (exatamente uma hora antes).   Assassin's Creed Black Flag ressincronizado: Showcase de revelação mundial Data/hora: 9h P.T....",
+      "date": "2026-04-24",
+      "summary": "O chefe da Microsoft Gaming, Ashsa Sharma, e o chefe de conteúdo do Xbox, Matt Booty, compartilharam uma carta aberta com o mundo sobre o que eles veem como o futuro do Xbox. A principal conclusão é que \"Microsoft Gaming\" agora será conhecido simplesmente como \"Xbox\", graças a Deus,...",
       "sources": [
-        "r/GamingLeaksAndRumours"
+        "Eurogamer"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1stbl16/megathread_assassins_creed_black_flag_resynced/"
+      "url": "https://www.eurogamer.net/xbox-bosses-open-letter"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1stcax1/billbilkun_assassins_creed_black_flag_resynced_to/",
-      "title": "billbil-kun: Assassin's Creed Black Flag ressincronizado para custar US$ 60",
-      "original_title": "billbil-kun: Assassin's Creed Black Flag Resynced to cost $60",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "id": "https://www.eurogamer.net/saros-review",
+      "title": "Revisão de Saros",
+      "original_title": "Saros review",
+      "image": "https://assetsio.gnwcdn.com/1_NSDDo7c.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
-      "reliability": "Medium",
+      "reliability": "High",
       "category": "News",
-      "date": "2026-04-23",
-      "summary": "Edição de lançamento: $ 59,99 / 59,99 € / 49,99 £ Edição de colecionador: $ 199,99 / 199,99 € / 174,99 £ Lançado em 9 de julho de 2026 Fonte: https://xcancel.com/billbil_kun/status/2047220344046363036#m enviado por /u/ZamnBoii [link] [comentários]...",
+      "date": "2026-04-24",
+      "summary": "Você sabe que um jogo de ação tem magia quando você sai de uma sequência pensando \"Como diabos eu sobrevivi a isso?\" Suas mãos tremendo de adrenalina, o controle escorregadio de suor. Sekiro tinha isso. Doom Eternal tinha, e Returnal também, com ...",
       "sources": [
-        "r/GamingLeaksAndRumours"
+        "Eurogamer"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1stcax1/billbilkun_assassins_creed_black_flag_resynced_to/"
+      "url": "https://www.eurogamer.net/saros-review"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1stfmaj/billbilkun_official_keyart_of_ac_black_flag/",
-      "title": "billbil-kun: Keyart oficial do AC Black Flag Resynced revelada",
-      "original_title": "billbil-kun: Official keyart of AC Black Flag Resynced revealed",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-04-23",
-      "summary": "Imagem: https://ibb.co/GfG0KkpJ Fonte: https://xcancel.com/billbil_kun/status/2047269265883922657#m enviado por /u/ZamnBoii [link] [comentários]...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1stfmaj/billbilkun_official_keyart_of_ac_black_flag/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1stfulp/billbilkun_says_that_they_saw_nothing_in_terms_of/",
-      "title": "Billbil-kun diz que não viu nada em termos de lançamento do Switch 2 para Assassin's Creed Black Flag Resynced",
-      "original_title": "Billbil-kun Says that they saw nothing in terms of a Switch 2 release for Assassin's Creed Black Flag Resynced",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-04-23",
-      "summary": "https://xcancel.com/billbil\\_kun/status/2047269694969647537?s=20 Obrigado a quem apontou que nem coloquei o nome do jogo. Eu nem percebi o lmao enviado por /u/Howerev [link] [comentários]...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1stfulp/billbilkun_says_that_they_saw_nothing_in_terms_of/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1stairy/assassins_creed_black_flag_resynced_collectors/",
-      "title": "A aparência antecipada e a pré-encomenda da edição de colecionador ressincronizada de Assassin's Creed Black Flag vão ao ar na Amazon França",
-      "original_title": "Assassin's Creed Black Flag Resynced collector's edition early look and preorder goes live on Amazon France",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-04-23",
-      "summary": "​ Confirmando os rumores anteriores sobre o que esta edição inclui, além de bônus no jogo. Custa 200€. Fonte: https://xcancel.com/i/status/2047085703314493566 Link Amazon: https://www.amazon.fr/dp/B0GXKVXS1P enviado por /u/Conquistador9725 [link...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1stairy/assassins_creed_black_flag_resynced_collectors/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1st9ep2/exgaijin_cm_13_years_former_employees_retained/",
-      "title": "Ex-Gaijin CM (13 anos): ex-funcionários mantiveram acesso aos dados dos jogadores, possível pressão sobre a equipe",
-      "original_title": "Ex-Gaijin CM (13 years): former employees retained access to player data, possible pressure on staff",
-      "image": "https://preview.redd.it/mkg6pbni3lug1.png?width=140&height=67&auto=webp&s=4497263525d29841b65ff2601be56fc801b9a7d8",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-04-23",
-      "summary": "enviado por /u/Maleficent_Fix8977 [link] [comentários] ...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1st9ep2/exgaijin_cm_13_years_former_employees_retained/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1sthfik/next_week_pc_freebiefirestone_online_idle_rpg/",
-      "title": "Próxima Semana PC Freebie｜Firestone Online Idle RPG",
-      "original_title": "Next Week PC Freebie｜Firestone Online Idle RPG",
-      "image": "https://preview.redd.it/k46yjz9dpxwg1.png?width=640&crop=smart&auto=webp&s=1e721fe1eb20ab3f9cfb3e78fd6c4fb6b7575a79",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-04-23",
-      "summary": "enviado por /u/MeguminShiro [link] [comentários] ...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1sthfik/next_week_pc_freebiefirestone_online_idle_rpg/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1stbozv/stove_game_ashanti_protocolunmanned_peacekeepers/",
-      "title": "[STOVE] (Jogo) Soldados da paz não tripulados do Protocolo Ashanti em meio a conflitos 🔁 & (DLC) Tasty Love If - Hangout com Meeyoung 🔁 + Kingdom's Return - Skin de personagem crossover \"Azure Striker Gunvolt\"",
-      "original_title": "[STOVE] (Game) Ashanti Protocol-Unmanned peacekeepers amidst conflict 🔁 & (DLC) Tasty Love If - Hangout with Meeyoung 🔁 + Kingdom's Return - \"Azure Striker Gunvolt\" Crossover Character Skin",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-04-23",
-      "summary": "🎮 Protocolo Ashanti - Soldados da paz não tripulados em meio ao conflito 🔁 ⏰ 23 de abril de 2026 07:00 ~ 08 de maio 14:59 UTC 🧧 Tasty Love If - Hangout com Meeyoung 🔁 ⏰ 23 de abril de 2026 07:00 ~ 08 de maio 14:59 UTC 🧧 Kingdom's Return - Skin de personagem crossover \"Azure Striker Gunvolt\"...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1stbozv/stove_game_ashanti_protocolunmanned_peacekeepers/"
-    },
-    {
-      "id": "https://www.techpowerup.com/348462/kioxia-introduces-new-mainstream-kioxia-bg8-series-ssds-for-pc-oems",
-      "title": "(PR) Kioxia apresenta novos SSDs convencionais da série KIOXIA BG8 para OEMs de PC",
-      "original_title": "(PR) Kioxia Introduces New Mainstream KIOXIA BG8 Series SSDs for PC OEMs",
-      "image": "https://tpucdn.com/img/blJqETnN0vpCoB82_thm.jpg",
+      "id": "https://www.techpowerup.com/348502/yunzii-launches-wood-68-and-wood-84-wireless-mechanical-keyboards",
+      "title": "Yunzii lança teclados mecânicos sem fio Wood 68 e Wood 84",
+      "original_title": "Yunzii Launches Wood 68 and Wood 84 Wireless Mechanical Keyboards",
+      "image": "https://tpucdn.com/img/1aDuwRZGdfGq7YVc_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-04-23",
-      "summary": "A Kioxia Corporation anunciou hoje as unidades de estado sólido (SSDs) da série KIOXIA BG8, a próxima evolução de sua linha de SSDs cliente projetada para clientes OEM de PC. Oferecendo velocidade PCIe 5.0 ao segmento mainstream, a série KIOXIA BG8 combina a próxima geração...",
+      "date": "2026-04-24",
+      "summary": "Yunzii adicionou dois teclados com corpo de madeira à sua linha, o Wood 68 e o Wood 84, ambos construídos em torno de uma estrutura de madeira de nogueira com conectividade sem fio de três modos.\nO Wood 68 é um tabuleiro de 65% com 68 teclas, enquanto o Wood 84 chega a um layout de 75% com 84 teclas.",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/348462/kioxia-introduces-new-mainstream-kioxia-bg8-series-ssds-for-pc-oems"
-    },
-    {
-      "id": "https://www.techpowerup.com/348460/axiomtek-launches-pico570-ultra-compact-pico-itx-sbc-with-intel-core-ultra",
-      "title": "(PR) Axiomtek lança SBC Pico-ITX ultracompacto PICO570 com Intel Core Ultra",
-      "original_title": "(PR) Axiomtek Launches PICO570 Ultra-Compact Pico-ITX SBC with Intel Core Ultra",
-      "image": "https://tpucdn.com/img/KyO0VCmJaqEFfN31_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-04-23",
-      "summary": "Axiomtek, líder de renome mundial incansavelmente dedicado à pesquisa, desenvolvimento e fabricação de produtos de informática industrial inovadores, altamente eficientes e confiáveis, orgulhosamente apresenta seu mais recente computador de placa única Pico-ITX, o PICO570...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348460/axiomtek-launches-pico570-ultra-compact-pico-itx-sbc-with-intel-core-ultra"
+      "url": "https://www.techpowerup.com/348502/yunzii-launches-wood-68-and-wood-84-wireless-mechanical-keyboards"
     },
     {
       "id": "https://www.techpowerup.com/348420/why-updf-is-one-of-the-most-practical-adobe-alternatives-right-now",
@@ -422,7 +317,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-04-23",
+      "date": "2026-04-24",
       "summary": "O software PDF não precisa ser excessivamente complexo para ser capaz. Adobe Acrobat ainda é o nome mais reconhecido no espaço. Muitas pessoas também acham que as demandas diárias de trabalho documental são mais caras e complicadas do que realmente são. Na prática, c...",
       "sources": [
         "TechPowerUp"
@@ -430,424 +325,184 @@
       "url": "https://www.techpowerup.com/348420/why-updf-is-one-of-the-most-practical-adobe-alternatives-right-now"
     },
     {
-      "id": "https://www.techpowerup.com/348457/turtle-beach-unveils-the-command-series-an-all-new-ecosystem-of-pc-gaming-keyboards-and-mice",
-      "title": "(PR) Turtle Beach revela a série Command, um novo ecossistema de teclados e mouses para jogos de PC",
-      "original_title": "(PR) Turtle Beach Unveils the Command Series, an All-New Ecosystem of PC Gaming Keyboards and Mice",
-      "image": "https://tpucdn.com/img/SSAJ4fGjB5s5A0pv_thm.jpg",
+      "id": "https://www.techpowerup.com/348501/amd-launches-expo-1-2-for-cudimm-and-low-latency-ddr5-memory",
+      "title": "AMD lança EXPO 1.2 para CUDIMM e memória DDR5 de baixa latência",
+      "original_title": "AMD Launches EXPO 1.2 for CUDIMM and Low-Latency DDR5 Memory",
+      "image": "https://tpucdn.com/img/kkbK8a6y9qfkx9ii_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-04-23",
-      "summary": "Hoje, a Turtle Beach Corporation, uma marca líder em acessórios para jogos, anunciou sua expansão de periféricos para PC com o lançamento da nova série de teclados e mouses Turtle Beach Command. Projetado em uma variedade de faixas de preço, o Command Seri...",
+      "date": "2026-04-24",
+      "summary": "A AMD lançou oficialmente sua versão 1.2 de Extended Profiles for Overclocking (EXPO), que expande o suporte para mais perfis de memória, CUDIMM e recursos adicionais. Com este lançamento, a AMD pretende introduzir perfis de ajuste de memória mais avançados para...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/348457/turtle-beach-unveils-the-command-series-an-all-new-ecosystem-of-pc-gaming-keyboards-and-mice"
+      "url": "https://www.techpowerup.com/348501/amd-launches-expo-1-2-for-cudimm-and-low-latency-ddr5-memory"
     },
     {
-      "id": "https://www.techpowerup.com/348455/aaeon-releases-the-boxer-6407-twl-ultra-slim-pc-powered-by-twin-lake",
-      "title": "(PR) AAEON lança o PC ultrafino BOXER-6407-TWL com tecnologia \"Twin Lake\"",
-      "original_title": "(PR) AAEON Releases the BOXER-6407-TWL Ultra-Slim PC Powered by \"Twin Lake\"",
-      "image": "https://tpucdn.com/img/sUaVSGWwf3pvkvhM_thm.jpg",
+      "id": "https://www.techpowerup.com/348500/asrock-x870e-taichi-ocf-achieves-multiple-overclocking-records-with-amd-ryzen-9-9950x3d2-dual-edition-processor",
+      "title": "(PR) ASRock X870E Taichi OCF alcança múltiplos recordes de overclock com processador AMD Ryzen 9 9950X3D2 Dual Edition",
+      "original_title": "(PR) ASRock X870E Taichi OCF Achieves Multiple Overclocking Records with AMD Ryzen 9 9950X3D2 Dual Edition Processor",
+      "image": "https://tpucdn.com/img/AQLwiVL2UV44onX0_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-04-23",
-      "summary": "Fornecedor líder de soluções de PC industrial AAEON (código de estoque: 6579) anunciou hoje o BOXER-6407-TWL, um PC incorporado compacto ultrafino disponível com o processador Intel N250 ou N150 CPU SKU do processador Intel série N (anteriormente Twin...",
+      "date": "2026-04-24",
+      "summary": "ASRock, fabricante líder global de placas-mãe, placas gráficas, mini PCs, monitores de jogos, unidades de fonte de alimentação e AIOs, orgulhosamente anuncia excelentes conquistas de overclocking com sua principal placa-mãe ASRock X870E Taichi OCF, emparelhada com...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/348455/aaeon-releases-the-boxer-6407-twl-ultra-slim-pc-powered-by-twin-lake"
+      "url": "https://www.techpowerup.com/348500/asrock-x870e-taichi-ocf-achieves-multiple-overclocking-records-with-amd-ryzen-9-9950x3d2-dual-edition-processor"
     },
     {
-      "id": "https://www.techpowerup.com/348454/amd-stock-hits-record-high-above-usd-300-as-ai-optimism-fuels-rally",
-      "title": "Ações da AMD atingem recorde acima de US$ 300 enquanto o otimismo da IA ​​alimenta o rali",
-      "original_title": "AMD Stock Hits Record High Above $300 as AI Optimism Fuels Rally",
-      "image": "https://tpucdn.com/img/omAi97NjmUIFW28y_thm.jpg",
+      "id": "https://www.techpowerup.com/348498/intel-z970-chipset-for-nova-lake-s-to-cover-much-of-the-b860-motherboard-segment",
+      "title": "Chipset Intel Z970 para “Nova Lake-S” cobrirá grande parte do segmento de placas-mãe B860",
+      "original_title": "Intel Z970 Chipset for \"Nova Lake-S\" to Cover Much of the B860 Motherboard Segment",
+      "image": "https://tpucdn.com/img/uY3qKolEpRK3Ctw2_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-04-23",
-      "summary": "As ações da AMD têm experimentado um aumento significativo nos últimos meses, com o preço das ações da empresa atingindo um recorde de US$ 303,46 no momento em que este artigo foi escrito e uma capitalização de mercado de quase meio trilhão de dólares, precisamente US$ 494,74 bilhões. História...",
+      "date": "2026-04-24",
+      "summary": "Os próximos processadores da série “Nova Lake” Core Ultra 400 da Intel apresentarão não apenas uma nova plataforma e soquete de CPU, mas também uma nova segmentação de chipset de placa-mãe, diferente de tudo que vimos no Team Blue. De acordo com um conhecido vazador, Jaykih...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/348454/amd-stock-hits-record-high-above-usd-300-as-ai-optimism-fuels-rally"
+      "url": "https://www.techpowerup.com/348498/intel-z970-chipset-for-nova-lake-s-to-cover-much-of-the-b860-motherboard-segment"
     },
     {
-      "id": "https://www.techpowerup.com/348452/tsmc-says-low-na-euv-will-carry-it-further-delaying-high-na-adoption",
-      "title": "TSMC afirma que EUV de baixo NA irá levá-lo adiante, atrasando a adoção de alto NA",
-      "original_title": "TSMC Says Low-NA EUV Will Carry It Further, Delaying High-NA Adoption",
-      "image": "https://tpucdn.com/img/WzHKihmCKLUEZkMj_thm.jpg",
+      "id": "https://www.techpowerup.com/348491/microsofts-visual-studio-pro-2026-dropped-to-usd-35",
+      "title": "Visual Studio Pro 2026 da Microsoft caiu para US$ 35",
+      "original_title": "Microsoft's Visual Studio Pro 2026 Dropped to $35",
+      "image": "https://tpucdn.com/img/Z7f51X8cNLUEVzBB_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-04-23",
-      "summary": "Ontem, a TSMC revelou sua última prévia do nó A13 no Simpósio de Tecnologia da América do Norte, destacando os desenvolvimentos contínuos da empresa. No entanto, a notícia mais significativa não é sobre um novo nó, mas sobre a tecnologia por trás dele. A TSMC anunciou...",
+      "date": "2026-04-24",
+      "summary": "O Microsoft Visual Studio Professional 2026 está atualmente disponível por US$ 34,97 (MSRP US$ 499,99), mas apenas até 17 de maio. O lançamento dá continuidade ao foco da Microsoft em melhorar o desempenho, a colaboração e o desenvolvimento assistido por IA dentro de seu carro-chefe...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/348452/tsmc-says-low-na-euv-will-carry-it-further-delaying-high-na-adoption"
+      "url": "https://www.techpowerup.com/348491/microsofts-visual-studio-pro-2026-dropped-to-usd-35"
     },
     {
-      "id": "https://www.techpowerup.com/348451/alphacool-announces-new-apex-manifold-360",
-      "title": "(PR) Alphacool Anuncia Novo Apex Manifold 360",
-      "original_title": "(PR) Alphacool Announces New Apex Manifold 360",
-      "image": "https://tpucdn.com/img/6Gk865Ba2XKFh3xz_thm.jpg",
+      "id": "https://www.techpowerup.com/348497/intel-foundry-improves-yields-across-intel-4-intel-3-and-18a-nodes",
+      "title": "Intel Foundry melhora o rendimento dos nós Intel 4, Intel 3 e 18A",
+      "original_title": "Intel Foundry Improves Yields Across Intel 4, Intel 3, and 18A Nodes",
+      "image": "https://tpucdn.com/img/uvTTNMUjoivFhGnC_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-04-23",
-      "summary": "Alphacool International GmbH de Braunschweig é pioneira na tecnologia de refrigeração líquida para PCs. Com um dos portfólios de produtos mais completos do setor e mais de 20 anos de experiência, a Alphacool está mais uma vez ampliando seu portfólio com...",
+      "date": "2026-04-24",
+      "summary": "A Intel divulgou fortes resultados de lucros no primeiro trimestre de 2026, indicando melhorias em vários setores verticais, desde produtos Intel até divisões Intel Foundry. Ambos os grupos experimentaram melhorias operacionais, mas a Intel Foundry alcançou um marco significativo: yie...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/348451/alphacool-announces-new-apex-manifold-360"
+      "url": "https://www.techpowerup.com/348497/intel-foundry-improves-yields-across-intel-4-intel-3-and-18a-nodes"
     },
     {
-      "id": "https://www.techpowerup.com/348447/former-playstation-head-defends-pc-ports-pushes-back-against-strategy-shift-rumors",
-      "title": "Ex-chefe do PlayStation defende portas para PC e resiste a rumores de mudança de estratégia",
-      "original_title": "Former PlayStation Head Defends PC Ports, Pushes Back Against Strategy Shift Rumors",
-      "image": "https://tpucdn.com/img/dbSYLoxYhJcN08qf_thm.jpg",
+      "id": "https://www.techpowerup.com/348494/ubuntu-26-04-resolute-raccoon-launches-with-gnome-50-and-linux-7-0",
+      "title": "Ubuntu 26.04 “Resolute Raccoon” é lançado com Gnome 50 e Linux 7.0",
+      "original_title": "Ubuntu 26.04 \"Resolute Raccoon\" Launches With Gnome 50 and Linux 7.0",
+      "image": "https://tpucdn.com/img/HWAsgFl0MIJWddlf_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-04-23",
-      "summary": "Recentemente, houve rumores de que o PlayStation deixaria de publicar versões para PC de seus jogos single-player originais, o que implicava que a Sony não portaria o próximo jogo Wolverine da Marvel para PC. Falando em um...",
+      "date": "2026-04-24",
+      "summary": "A Canonical lançou hoje o Ubuntu 26.04 LTS como a atualização mais recente da empresa para a distribuição Linux convencional. Como informamos anteriormente, a Canonical atualizou os requisitos mínimos do sistema para 6 GB de RAM, mas essa mudança vem junto com uma série de...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/348447/former-playstation-head-defends-pc-ports-pushes-back-against-strategy-shift-rumors"
+      "url": "https://www.techpowerup.com/348494/ubuntu-26-04-resolute-raccoon-launches-with-gnome-50-and-linux-7-0"
     },
     {
-      "id": "https://www.eurogamer.net/masters-of-albion-early-access-review",
-      "title": "Revisão de acesso antecipado de Masters of Albion",
-      "original_title": "Masters of Albion early access review",
-      "image": "https://assetsio.gnwcdn.com/masters-of-albion-header.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.techpowerup.com/348490/embrace-the-world-of-eorzea-with-all-new-final-fantasy-xiv-online-pc-case-collaboration-from-hyte",
+      "title": "(PR) Abrace o mundo de Eorzea com a nova colaboração online de gabinetes para PC de Final Fantasy XIV da Hyte",
+      "original_title": "(PR) Embrace the World of Eorzea With All New Final Fantasy XIV Online PC Case Collaboration From Hyte",
+      "image": "https://tpucdn.com/img/GzpohdlfBSwpXVLI_thm.jpg",
       "source_count": 1,
       "reliability": "High",
-      "category": "News",
-      "date": "2026-04-22",
-      "summary": "Peter Molyneux faz seus maiores sucessos, misturando simulação de deus, simulação de negócios e aventura em terceira pessoa em um todo encantador e atraentemente tátil - embora um pouco estranho. Leia mais...",
+      "category": "Hardware",
+      "date": "2026-04-24",
+      "summary": "Anunciado durante o FINAL FANTASY XIV Fan Festival deste ano, a HYTE, fabricante líder de componentes premium para PC, está se unindo à SQUARE ENIX para produzir um case de colaboração para PC Y70 de edição limitada baseado no amado MMORPG FINAL FANTASY XIV On...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348490/embrace-the-world-of-eorzea-with-all-new-final-fantasy-xiv-online-pc-case-collaboration-from-hyte"
+    },
+    {
+      "id": "https://www.techpowerup.com/348488/forza-horizon-5-ps5-sales-nearly-matched-pc-numbers-proving-cross-platform-viability",
+      "title": "As vendas do Forza Horizon 5 PS5 quase correspondem aos números do PC, provando a viabilidade entre plataformas",
+      "original_title": "Forza Horizon 5 PS5 Sales Nearly Matched PC Numbers, Proving Cross-Platform Viability",
+      "image": "https://tpucdn.com/img/l6s0II1xRcpzER5b_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-04-24",
+      "summary": "Tem havido muita conversa ultimamente sobre o estado das exclusividades de plataforma na indústria de consoles de videogame, desde rumores controversos sobre a Sony potencialmente deixando para trás grande parte de seu negócio de portas de PC até o recente anúncio da Microsoft de que iria...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348488/forza-horizon-5-ps5-sales-nearly-matched-pc-numbers-proving-cross-platform-viability"
+    },
+    {
+      "id": "https://www.eurogamer.net/elden-ring-movie-leak-infamous-character",
+      "title": "Enquanto as filmagens do filme Elden Ring continuam, aqui está um vazamento no set de um pouco de alface sendo atirada em um dos personagens mais infames do jogo",
+      "original_title": "As filming of the Elden Ring movie continues, here's an on-set leak of some lettuce being hurled at one of the game's most infamous characters",
+      "image": "https://assetsio.gnwcdn.com/elden-ring-malika.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Rumor",
+      "date": "2026-04-23",
+      "summary": "As filmagens do filme Elden Ring, apoiado por A24 e dirigido por Alex-Garland (uma série de palavras que ainda me parecem absurdas) estão agora em pleno andamento. E isso significa vazamentos, que desta vez incluem alface em alta velocidade e um momento de abertura icônico envolvendo...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/masters-of-albion-early-access-review"
+      "url": "https://www.eurogamer.net/elden-ring-movie-leak-infamous-character"
     },
     {
-      "id": "https://www.eurogamer.net/ecco-the-dolphin-complete-announced",
-      "title": "Ecco the Dolphin: Complete anunciado, inclui remasterizações das duas primeiras entradas e um jogo totalmente novo",
-      "original_title": "Ecco the Dolphin: Complete announced, includes remasters of the first two entries and brand-new game",
-      "image": "https://assetsio.gnwcdn.com/Ecco-the-Dolphin.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/fake-pragmata-website-wesker",
+      "title": "Fã da Capcom pega o domínio do site Pragmata e o preenche com memes de Resident Evil",
+      "original_title": "Capcom fan snatches up Pragmata website domain and fills it with Resident Evil memes",
+      "image": "https://assetsio.gnwcdn.com/-1598534576108.jpeg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-04-22",
-      "summary": "Como um millennial, sempre tive uma queda pelos jogos Ecco the Dolphin originais (nem tanto pelos jogos posteriores), então foi ótimo saber há algum tempo que um novo projeto está em desenvolvimento. Agora a espera está quase acabando e já...",
+      "date": "2026-04-23",
+      "summary": "Um jogador do Pragmata com um olhar atento para domínios de sites pegou um site falso e não reclamado de dentro do jogo e o tornou seu com referências humorísticas ao travesso Albert Wesker de Resident Evil. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/ecco-the-dolphin-complete-announced"
+      "url": "https://www.eurogamer.net/fake-pragmata-website-wesker"
     },
     {
-      "id": "https://www.eurogamer.net/assassins-creed-actor-abubakar-salim-warns-troy-baker-about-creating-game-studio",
-      "title": "O ator de Assassin's Creed, Abubakar Salim, alerta Troy Baker sobre a criação de seu próprio estúdio de jogos: \"Não faça isso\"",
-      "original_title": "Assassin's Creed actor Abubakar Salim jokingly warns Troy Baker about creating his own game studio: \"Don't do it\"",
-      "image": "https://assetsio.gnwcdn.com/ToKZAU1-(1).png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/assassins-creed-black-flag-resynced-preview",
+      "title": "Após três anos de rumores, vimos oficialmente o “remake do zero” de Assassin’s Creed Black Flag Resynced em ação, mas o que está acontecendo com suas partes modernas?",
+      "original_title": "After three years of rumours, we've officially seen \"ground-up remake\" Assassin's Creed Black Flag Resynced in action, but what's going on with its modern-day bits?",
+      "image": "https://assetsio.gnwcdn.com/black-flag-resynced-header.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
-      "category": "News",
-      "date": "2026-04-22",
-      "summary": "Com mouse: P.I. para aluguel agora e a versão Nintendo Switch 2 de Indiana Jones e o Great Circle chegando no próximo mês, Troy Baker é o assunto da cidade novamente, e seus comentários sobre a potencial criação de um estúdio e videogame de sua autoria...",
+      "category": "Rumor",
+      "date": "2026-04-23",
+      "summary": "Sim, finalmente aconteceu. Depois de três longos anos de rumores, relatórios, vazamentos, algumas provocações oficiais e, no mês passado, a confirmação de que tudo era real, o remake de Assassin's Creed Black Flag da Ubisoft foi revelado. Chama-se Assa...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/assassins-creed-actor-abubakar-salim-warns-troy-baker-about-creating-game-studio"
+      "url": "https://www.eurogamer.net/assassins-creed-black-flag-resynced-preview"
     },
     {
-      "id": "https://www.eurogamer.net/vampire-survivors-poncle-15-new-games-italy-japan",
-      "title": "O desenvolvedor de Vampire Survivors, Poncle, está acelerando as coisas, trabalhando em 15 projetos e abrindo estúdios na Itália e no Japão",
-      "original_title": "Vampire Survivors developer Poncle is ramping things up, working on 15 projects and opening studios in Italy and Japan",
-      "image": "https://assetsio.gnwcdn.com/vampire-survivors-castlevania.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/the-7th-guest-remake-out-in-june",
+      "title": "A aventura clássica em CD-ROM de culto, The 7th Guest, está recebendo uma espécie de remake e será lançada em junho",
+      "original_title": "Cult-classic CD-ROM adventure The 7th Guest is getting a remake of sorts, and it's out in June",
+      "image": "https://assetsio.gnwcdn.com/the-7th-guest-remake_6lVJ5yr.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-04-22",
-      "summary": "O desenvolvedor de Vampire Survivors, Poncle, está se expandindo significativamente, abrindo dois novos escritórios no Japão e na Itália. Além disso, está trabalhando em 15 projetos, alguns deles originais e outros são colaborações IP. Leia mais...",
+      "date": "2026-04-23",
+      "summary": "Bem-vindos, irmãos de idade avançada, a esta antiga casa de reminiscências. A aventura seminal em CD-ROM do desenvolvedor Trilobytes, The 7th Guest, está sendo revivida mais uma vez; O malvado fabricante de brinquedos Henry Stauf abre suas portas para uma nova geração de v...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/vampire-survivors-poncle-15-new-games-italy-japan"
-    },
-    {
-      "id": "https://www.eurogamer.net/the-expanse-osiris-reborn-plays-like-a-mass-effect-like-sci-fi-adventure-in-fine-form-but-its-developers-use-of-ai-raises-some-difficult-questions",
-      "title": "The Expanse: Osiris Reborn joga como uma aventura de ficção científica semelhante a Mass Effect em ótima forma, mas o uso da IA ​​por seu desenvolvedor levanta algumas questões difíceis",
-      "original_title": "The Expanse: Osiris Reborn plays like a Mass Effect-like sci-fi adventure in fine form, but its developer's use of AI raises some difficult questions",
-      "image": "https://assetsio.gnwcdn.com/The-Expanse-Osiris-Reborn-article-header.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-22",
-      "summary": "The Expanse: Osiris Reborn causou comoção quando foi anunciado. Em parte, isso se deve ao fato de parecer um Mass Effect moderno, que sempre tende a ser considerado uma coisa boa, e porque é uma adaptação de um filme de ficção científica bem conhecido e apreciado...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/the-expanse-osiris-reborn-plays-like-a-mass-effect-like-sci-fi-adventure-in-fine-form-but-its-developers-use-of-ai-raises-some-difficult-questions"
-    },
-    {
-      "id": "https://www.eurogamer.net/nintendo-miyamoto-peach-backstory-super-mario-galaxy-movie-canon",
-      "title": "Shigeru Miyamoto quer que a história de Peach em The Super Mario Galaxy Movie permaneça canônica em futuros jogos da Nintendo",
-      "original_title": "Shigeru Miyamoto wants Peach's backstory in The Super Mario Galaxy Movie to remain canon in future Nintendo games",
-      "image": "https://assetsio.gnwcdn.com/Peach-and-Toad-fly-through-the-cosmos-in-The-Super-Mario-Galaxy-Movie.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-22",
-      "summary": "O recém-lançado e recorde Super Mario Galaxy Movie investiga mais a história da Princesa Peach, e Shigeru Miyamoto deseja que a Nintendo siga isso em jogos futuros. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/nintendo-miyamoto-peach-backstory-super-mario-galaxy-movie-canon"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ssr167/first_look_at_the_dung_eater_execution_on_the_set/",
-      "title": "Primeiro, dê uma olhada na execução de Dung Eater no set do filme \"Elden Ring\" de Alex Garland",
-      "original_title": "First look at the Dung Eater execution on the set of Alex Garland's \"Elden Ring\" Movie",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-04-22",
-      "summary": "https://pbs.twimg.com/media/HGhgZn4XoAAoTZY?format=jpg&name=4096x4096 ELES ESTÃO JOGANDO TOMATES Nele - https://www.youtube.com/watch?v=ptG55MO-4y8 TAMBÉM: Emma Laird confirmada como Marika na foto, e Kit Connor no set - https://youtu.be/M64n9ax...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ssr167/first_look_at_the_dung_eater_execution_on_the_set/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sst4te/gamesradar_gta_vi_o_clock_podcast_stated_they_had/",
-      "title": "GamesRadar (GTA VI' O Clock Podcast) afirmou ter ouvido de suas fontes que a data de lançamento em 19 de novembro é definitiva, sem mais atrasos.",
-      "original_title": "GamesRadar (GTA VI' O Clock Podcast) stated they had heard from their sources that the Nov 19 release date is final with no more delays.",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-04-22",
-      "summary": "GamesRadar (GTA VI O'clock Podcast) afirmou ter ouvido de suas fontes que a data de lançamento em 19 de novembro é definitiva, sem mais atrasos e GTA 6 O'clock agora está extremamente confiante de que será lançado nesta data https://youtu.be/HQ4bCJBKEqg?si=a1E3bXhV...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sst4te/gamesradar_gta_vi_o_clock_podcast_stated_they_had/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ssnd7e/ubisoft_confirms_that_2_screenshots_of_black_flag/",
-      "title": "Ubisoft confirma que 2 capturas de tela do Black Flag Resynced são de uma versão interna antiga e não se destinam a marketing",
-      "original_title": "Ubisoft confirms that 2 screenshots of Black Flag Resynced are from an old internal build and not meant for marketing",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-04-22",
-      "summary": "Mencionou especificamente os vazamentos de Havana e Caroline Captura de tela do jogo de Havana: https://ibb.co/xtx76Xb9 Cena de Caroline: https://ibb.co/FLF1krhw Todos os outros vazamentos de captura de tela vieram do recente trailer de apresentação à imprensa, é por isso que parecem...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ssnd7e/ubisoft_confirms_that_2_screenshots_of_black_flag/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1ssqc9x/pc_dev_freebietypers_combat/",
-      "title": "Brinde para desenvolvedores de PC｜Combate de Typers",
-      "original_title": "PC Dev Freebie｜Typers Combat",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-04-22",
-      "summary": "https://preview.redd.it/5yiiazvbprwg1.png?width=534&format=png&auto=webp&s=9d29a2fd1a1c68a8d208fc01a53ce231bf0dbaef ⚠️ Não faz parte do programa habitual de brindes da Epic Games ⚠️ ❗VERIFIQUE O JOGO E O DEV PRIMEIRO ANTES DE REIVINDICAR❗ 📝 Página de transações (para...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1ssqc9x/pc_dev_freebietypers_combat/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1ssz0rj/steam_game_aeonic/",
-      "title": "[Steam] (Jogo) Aeonic",
-      "original_title": "[Steam] (Game) Aeonic",
-      "image": "https://external-preview.redd.it/ZxirlrgS-QFLoWZpVJRHcFJRZ7bIrf5yGZ0kaQwFa5A.jpeg?width=320&crop=smart&auto=webp&s=aa01bee263390f2a4ffd67ae2c4ce7014db1fad4",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-04-22",
-      "summary": "enviado por /u/Fit-Cardiologist-124 [link] [comentários] ...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1ssz0rj/steam_game_aeonic/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1ssreax/steam_game_surroundead_poly_construction/",
-      "title": "[Steam] (Jogo) SurrounDead Poly Construction",
-      "original_title": "[Steam] (Game) SurrounDead Poly Construction",
-      "image": "https://external-preview.redd.it/BXdH1YetMFsYdea2iKx77yRs0eC7jOHdldW5yP4TUBs.jpeg?width=320&crop=smart&auto=webp&s=bf667fe157e2a3d303f318db2319e8644aa6690f",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-04-22",
-      "summary": "enviado por /u/iambaldy [link] [comentários] ...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1ssreax/steam_game_surroundead_poly_construction/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1ssq20b/epic_games_game_typers_combat/",
-      "title": "[Jogos Épicos] (Jogo) Typers Combat",
-      "original_title": "[Epic Games] (Game) Typers Combat",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-04-22",
-      "summary": "enviado por /u/MeguminShiro [link] [comentários]...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1ssq20b/epic_games_game_typers_combat/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1sss5qj/itchiogame_flowerdrops/",
-      "title": "[Itch.io](Jogo) Gotas de flores",
-      "original_title": "[Itch.io](Game) Flowerdrops",
-      "image": "https://external-preview.redd.it/zy1XcwGRB7DepyqNEOzj_tL08GaKha4EG9PR6aZa5GI.jpeg?width=320&crop=smart&auto=webp&s=2ee4ea058041797b0aebed68ce252ccfcd3d2739",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-04-22",
-      "summary": "enviado por /u/Fhczvyd474374846 [link] [comentários] ...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1sss5qj/itchiogame_flowerdrops/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1ssh7vd/steam_game_shipped/",
-      "title": "[Steam] (Jogo) Enviado",
-      "original_title": "[Steam] (Game) Shipped",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-04-22",
-      "summary": "enviado por /u/WeAreFanatical [link] [comentários]...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1ssh7vd/steam_game_shipped/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1ssmebm/steam_other_marvel_rivals_thor_midgard_umber/",
-      "title": "[Steam] (Outros) Marvel Rivals - Fantasia de Thor Midgard Umber",
-      "original_title": "[Steam] (Other) Marvel Rivals - Thor Midgard Umber costume",
-      "image": "https://external-preview.redd.it/72yFJ9Nnx-0--fW6h4VJ9kpeuI7Lp-cnr-xJbdOLy5o.jpeg?width=640&crop=smart&auto=webp&s=82276e4292575c5d7a01e1cb6012150ee299de2d",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-04-22",
-      "summary": "enviado por /u/tomardo [link] [comentários] ...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1ssmebm/steam_other_marvel_rivals_thor_midgard_umber/"
-    },
-    {
-      "id": "https://www.techpowerup.com/348449/rambus-unveils-socamm2-server-module-chipset",
-      "title": "(PR) Rambus lança chipset de módulo de servidor SOCAMM2",
-      "original_title": "(PR) Rambus Unveils SOCAMM2 Server Module Chipset",
-      "image": "https://tpucdn.com/img/C52AOvYk5TVbAa8i_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-04-22",
-      "summary": "(NASDAQ: RMBS), fornecedora líder de chips e IP de silício que torna os dados mais rápidos e seguros, anunciou hoje um chipset SOCAMM2 (Small Outline Compression Attached Memory Module) projetado para permitir memória baseada em LPDDR5X de baixo consumo de energia e alto desempenho.",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348449/rambus-unveils-socamm2-server-module-chipset"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1srxn8q/epic_games_customer_service_is_one_of_the_best/",
-      "title": "O atendimento ao cliente da Epic Games é um dos melhores serviços que recebi",
-      "original_title": "Epic games customer service is one of the best service which I received",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Epic News",
-      "date": "2026-04-21",
-      "summary": "Este é o melhor suporte ao cliente que recebi, queria mudar meu e-mail e país, pois perdi o acesso ao e-mail e mudei de país, eles fizeram isso em 2 dias... Achei que demoraria uma semana, mas acontece que foi o contrário, não o que eu esperava...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1srxn8q/epic_games_customer_service_is_one_of_the_best/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1srqh7o/vampire_crawlers_the_turbo_wildcard_from_vampire/",
-      "title": "Vampire Crawlers: The Turbo Wildcard de Vampire Survivors foi lançado na Epic com 161 conquistas épicas (1000 XP)",
-      "original_title": "Vampire Crawlers: The Turbo Wildcard from Vampire Survivors has launched on Epic with 161 Epic Achievements (1000 XP)",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Epic News",
-      "date": "2026-04-21",
-      "summary": "Também parece que atualmente é mais barato em algumas regiões do que o Steam (£ 7,99 em vez de £ 9,99), então, se você estiver interessado, pode valer a pena comprá-lo antes de atualizarem os preços regionais.    enviado por /u/PCMachinima [link] [comentários]...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1srqh7o/vampire_crawlers_the_turbo_wildcard_from_vampire/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1srn08e/gog_game_the_whispering_valley/",
-      "title": "[GOG] (Jogo) O Vale dos Sussurros",
-      "original_title": "[GOG] (Game) The Whispering Valley",
-      "image": "https://external-preview.redd.it/gUegq7q4wTXqA-dkd1NhhjpiUMuxLgB16w_Of-tzRgM.jpeg?width=640&crop=smart&auto=webp&s=041c2636504dab982bd102fb6285b196429c42d7",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-04-21",
-      "summary": "enviado por /u/iambaldy [link] [comentários] ...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1srn08e/gog_game_the_whispering_valley/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sr2f3q/discussion_news_and_request_thread_week_beginning/",
-      "title": "Tópico de discussão, notícias e solicitação - semana que começa em 20/04/26",
-      "original_title": "Discussion, News, and Request Thread - Week Beginning 04/20/26",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-04-20",
-      "summary": "ITS TIME Os tópicos de discussão são o seu centro central semanal para todas as solicitações, notícias de jogos e quaisquer outros tópicos de jogos sobre os quais você queira falar. Por favor, mantenha todo o conteúdo que não precisa de postagem própria neste tópico para desorganizar o sub para vazamentos adequados ...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sr2f3q/discussion_news_and_request_thread_week_beginning/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1sqva9p/exiled_giveaways_and_itchio_mega_threads/",
-      "title": "Brindes exilados e mega threads do Itch.io",
-      "original_title": "Exiled Giveaways and Itch.io Mega Threads",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-04-20",
-      "summary": "Para aumentar a visibilidade, os megatópicos são postados semanalmente. Isso está sendo feito seguindo a discussão geral dos Mega Threads via FGF Update - https://redd.it/jkxyzw Por favor, use os tópicos abaixo para suas postagens. :) Mega Brindes Exilados...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1sqva9p/exiled_giveaways_and_itchio_mega_threads/"
+      "url": "https://www.eurogamer.net/the-7th-guest-remake-out-in-june"
     }
   ]
 }
