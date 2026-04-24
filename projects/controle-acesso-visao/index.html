@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Acesso Vision | RDP Studio</title>
+    <meta name="description" content="Case editorial sobre um TCC de controle de acesso com reconhecimento facial, ESP32 e monitoramento remoto, reconstruído com uma demo viva de visão computacional no navegador.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Controle de Acesso Vision | RDP Studio">
+    <meta property="og:description" content="Um case vivo sobre visão computacional, AIoT e controle de acesso.">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/site/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/site/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/site/favicon-16x16.png">
+    <link rel="manifest" href="../../assets/site/site.webmanifest">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../../assets/css/rod-assistant.css">
+    <link rel="stylesheet" href="../../assets/css/rod-tour.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.20.0/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-webgl@4.20.0/dist/tf-backend-webgl.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        deepBlue: '#1E3A5F',
+                        vibrantCyan: '#00B4D8',
+                        trustGreen: '#10B981',
+                        darkSlate: '#020617',
+                        softRose: '#fb7185',
+                        softAmber: '#f59e0b',
+                        softViolet: '#a78bfa',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    },
+                    animation: {
+                        'fade-in-up': 'fadeInUp .9s cubic-bezier(0.16, 1, 0.3, 1) forwards',
+                        'pulse-soft': 'pulseSoft 3.2s ease-in-out infinite',
+                        'float-soft': 'floatSoft 8s ease-in-out infinite',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        :root {
+            --bg: #020617;
+            --panel: rgba(15, 23, 42, 0.74);
+            --panel-strong: rgba(15, 23, 42, 0.88);
+            --line: rgba(255, 255, 255, 0.08);
+            --text: #f8fafc;
+            --muted: #94a3b8;
+            --accent: #22d3ee;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background:
+                radial-gradient(circle at 14% 18%, rgba(34, 211, 238, 0.18), transparent 22%),
+                radial-gradient(circle at 88% 12%, rgba(59, 130, 246, 0.16), transparent 24%),
+                radial-gradient(circle at 52% 100%, rgba(167, 139, 250, 0.10), transparent 30%),
+                var(--bg);
+            background-attachment: fixed;
+            color: var(--text);
+            overflow-x: hidden;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            z-index: -1;
+            pointer-events: none;
+            opacity: 0.032;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+        }
+
+        .glass-card {
+            background: var(--panel);
+            backdrop-filter: blur(18px);
+            -webkit-backdrop-filter: blur(18px);
+            border: 1px solid var(--line);
+            box-shadow: 0 20px 70px -45px rgba(0, 0, 0, 0.85);
+        }
+
+        .glass-strong {
+            background: var(--panel-strong);
+        }
+
+        .section-kicker {
+            font-family: 'JetBrains Mono', monospace;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            color: #7dd3fc;
+            font-size: 0.70rem;
+        }
+
+        .text-gradient {
+            background-image: linear-gradient(90deg, #ffffff, #67e8f9 45%, #60a5fa 75%, #a78bfa 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .story-nav {
+            scrollbar-width: none;
+        }
+
+        .story-nav::-webkit-scrollbar {
+            display: none;
+        }
+
+        .story-link {
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            background: rgba(255, 255, 255, 0.03);
+            color: #94a3b8;
+            transition: all .25s ease;
+        }
+
+        .story-link:hover,
+        .story-link.is-active {
+            color: #fff;
+            border-color: rgba(34, 211, 238, 0.35);
+            background: rgba(34, 211, 238, 0.12);
+        }
+
+        .hero-grid {
+            background-image:
+                linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px);
+            background-size: 28px 28px;
+            mask-image: linear-gradient(to bottom, black, rgba(0,0,0,0));
+        }
+
+        .scan-line {
+            position: absolute;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, rgba(34, 211, 238, 0.9), transparent);
+            box-shadow: 0 0 20px rgba(34, 211, 238, 0.45);
+            animation: sweep 3.8s linear infinite;
+        }
+
+        .video-shell {
+            position: relative;
+            aspect-ratio: 16 / 10;
+            border-radius: 1.6rem;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            background:
+                radial-gradient(circle at center, rgba(34, 211, 238, 0.08), transparent 50%),
+                #020617;
+        }
+
+        #cameraVideo,
+        #overlayCanvas {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .soft-card {
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            background: rgba(255, 255, 255, 0.03);
+        }
+
+        .target-chip.is-active {
+            border-color: rgba(34, 211, 238, 0.55);
+            background: rgba(34, 211, 238, 0.14);
+            color: #cffafe;
+            box-shadow: 0 0 0 1px rgba(34, 211, 238, 0.16) inset;
+        }
+
+        .custom-range {
+            accent-color: #22d3ee;
+        }
+
+        .progress-line {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 2px;
+            width: 0;
+            background: linear-gradient(90deg, #22d3ee, #60a5fa, #a78bfa);
+            z-index: 80;
+            box-shadow: 0 0 14px rgba(34, 211, 238, 0.55);
+        }
+
+        .tab-button {
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            background: rgba(255, 255, 255, 0.03);
+            color: #94a3b8;
+            transition: all .2s ease;
+        }
+
+        .tab-button.is-active {
+            color: #fff;
+            border-color: rgba(34, 211, 238, 0.35);
+            background: rgba(34, 211, 238, 0.12);
+        }
+
+        .tab-panel {
+            display: none;
+        }
+
+        .tab-panel.is-active {
+            display: block;
+        }
+
+        .watermark-container::after {
+            content: "© 2026 RDP STUDIO. Desenvolvido por Marcelo Rodrigues.";
+            font-size: 0.72rem;
+            color: #64748b;
+            opacity: 0.42;
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(18px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes pulseSoft {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(34, 211, 238, 0.18); }
+            50% { box-shadow: 0 0 0 10px rgba(34, 211, 238, 0); }
+        }
+
+        @keyframes floatSoft {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-8px); }
+        }
+
+        @keyframes sweep {
+            0% { top: 10%; opacity: .2; }
+            50% { top: 84%; opacity: 1; }
+            100% { top: 10%; opacity: .2; }
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-cyan-400 selection:text-slate-950">
+    <div class="progress-line" id="progressLine"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-6 min-h-screen flex flex-col">
+        <header class="flex flex-wrap justify-between items-center gap-4 mb-8 md:mb-10 relative z-50 fade-in-up">
+            <a href="../../hub/projetos.html" class="flex items-center gap-3 text-slate-400 hover:text-white transition-colors group">
+                <div class="w-10 h-10 rounded-xl glass-card flex items-center justify-center group-hover:border-cyan-400/30 transition-colors">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </div>
+                <span class="text-sm font-semibold uppercase tracking-[0.18em]">Voltar ao Hub</span>
+            </a>
+
+            <div class="flex items-center gap-3 text-xs uppercase tracking-[0.18em]">
+                <span class="px-4 py-2 rounded-full glass-card text-cyan-200 border-cyan-400/20">Case reconstruido</span>
+                <span class="px-4 py-2 rounded-full glass-card text-slate-300">RBMC 2024</span>
+            </div>
+        </header>
+
+        <main class="flex-grow space-y-8 md:space-y-10">
+            <section id="hero" class="glass-card glass-strong rounded-[2rem] overflow-hidden relative fade-in-up">
+                <div class="absolute inset-0 hero-grid opacity-30"></div>
+                <div class="grid xl:grid-cols-[1.08fr_0.92fr] gap-8 p-6 md:p-8 lg:p-10 relative">
+                    <div class="space-y-7">
+                        <div class="section-kicker">AIoT . segurança física . visão computacional</div>
+                        <div class="space-y-4 max-w-3xl">
+                            <h1 class="text-4xl md:text-6xl font-extrabold leading-[0.95] tracking-tight text-balance">
+                                Um TCC que virou <span class="text-gradient">case vivo</span>.
+                            </h1>
+                            <p class="text-lg md:text-xl text-slate-300 leading-relaxed max-w-2xl">
+                                Este projeto recompõe com cuidado um sistema de controle de acesso por reconhecimento facial com monitoramento remoto. Em vez de tentar imitar um código que se perdeu, a página assume o papel certo: documentar bem, mostrar critério técnico e transformar a ideia em experiência.
+                            </p>
+                        </div>
+
+                        <div class="grid sm:grid-cols-3 gap-3 text-sm">
+                            <div class="soft-card rounded-2xl p-4">
+                                <div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-2">Hardware</div>
+                                <div class="font-semibold text-white">ESP32-CAM + ESP32 WROOM</div>
+                            </div>
+                            <div class="soft-card rounded-2xl p-4">
+                                <div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-2">Desktop</div>
+                                <div class="font-semibold text-white">Python + OpenCV + MySQL</div>
+                            </div>
+                            <div class="soft-card rounded-2xl p-4">
+                                <div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-2">Agora</div>
+                                <div class="font-semibold text-white">Demo local com câmera</div>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-wrap gap-3">
+                            <a href="#demo" class="px-6 py-3 rounded-full bg-cyan-400 text-slate-950 font-bold text-sm hover:bg-cyan-300 transition-colors">Abrir experiência</a>
+                            <a href="https://rbmc.org.br/rbmc/article/view/175" target="_blank" rel="noopener noreferrer" class="px-6 py-3 rounded-full glass-card text-white font-semibold text-sm hover:border-cyan-400/25 transition-colors">Ler artigo original</a>
+                            <a href="#arquitetura" class="px-6 py-3 rounded-full glass-card text-slate-300 font-semibold text-sm hover:text-white transition-colors">Ver arquitetura</a>
+                        </div>
+                    </div>
+
+                    <div class="relative min-h-[440px] rounded-[1.8rem] overflow-hidden border border-white/10 bg-slate-950/75">
+                        <div class="absolute inset-0 bg-gradient-to-br from-cyan-400/10 via-blue-500/10 to-violet-500/10"></div>
+                        <div class="scan-line"></div>
+                        <div class="relative h-full p-5 md:p-6 flex flex-col gap-4">
+                            <div class="flex items-center justify-between text-[11px] uppercase tracking-[0.18em] text-slate-500 font-mono">
+                                <span>Pulse do projeto</span>
+                                <span class="text-cyan-300">live case</span>
+                            </div>
+
+                            <div class="grid grid-cols-2 gap-3">
+                                <div class="soft-card rounded-2xl p-4">
+                                    <div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-2">Papel da página</div>
+                                    <div class="text-white font-semibold">Documentar sem cenografia</div>
+                                </div>
+                                <div class="soft-card rounded-2xl p-4">
+                                    <div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-2">Entrega visual</div>
+                                    <div class="text-white font-semibold">Narrativa + demo + referência</div>
+                                </div>
+                            </div>
+
+                            <div class="soft-card rounded-2xl p-5 flex-grow">
+                                <div class="flex items-start justify-between gap-3 mb-4">
+                                    <div>
+                                        <div class="text-[11px] uppercase tracking-[0.16em] text-cyan-300 font-mono mb-2">Leitura executiva</div>
+                                        <div class="text-2xl font-bold text-white leading-tight">O valor aqui não é fingir que o código existe.</div>
+                                    </div>
+                                    <div class="w-11 h-11 rounded-2xl bg-cyan-400/10 text-cyan-300 flex items-center justify-center animate-pulse-soft">
+                                        <i class="fa-solid fa-microchip"></i>
+                                    </div>
+                                </div>
+
+                                <div class="space-y-3 text-sm text-slate-300 leading-relaxed">
+                                    <p>O artigo já provava a base teórica e o protótipo. Esta página faz outra parte do trabalho: organiza o raciocínio, expande a leitura técnica e oferece uma demonstração atual de visão computacional no navegador.</p>
+                                    <p>Assim, o case deixa de ser apenas uma referência acadêmica e passa a funcionar como portfólio técnico de verdade.</p>
+                                </div>
+
+                                <div class="grid sm:grid-cols-3 gap-3 mt-5 text-sm">
+                                    <div class="rounded-2xl bg-slate-950/55 border border-white/5 p-4">
+                                        <div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-1">Camada 1</div>
+                                        <div class="text-white font-semibold">Captura</div>
+                                    </div>
+                                    <div class="rounded-2xl bg-slate-950/55 border border-white/5 p-4">
+                                        <div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-1">Camada 2</div>
+                                        <div class="text-white font-semibold">Acionamento</div>
+                                    </div>
+                                    <div class="rounded-2xl bg-slate-950/55 border border-white/5 p-4">
+                                        <div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-1">Camada 3</div>
+                                        <div class="text-white font-semibold">Supervisão</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="soft-card rounded-2xl p-4 text-xs text-slate-400 leading-relaxed">
+                                Custos mantidos conforme a Tabela 1 do artigo. A publicação não informa a data exata da cotação; a referência usada aqui é a versão publicada em <span class="text-white font-semibold">18/08/2024</span>.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="story-nav overflow-x-auto fade-in-up" style="animation-delay:.06s">
+                <div class="flex gap-3 min-w-max">
+                    <a href="#visao" class="story-link px-4 py-3 rounded-full text-sm font-semibold" data-story-link>Visão geral</a>
+                    <a href="#arquitetura" class="story-link px-4 py-3 rounded-full text-sm font-semibold" data-story-link>Arquitetura</a>
+                    <a href="#demo" class="story-link px-4 py-3 rounded-full text-sm font-semibold" data-story-link>Demo</a>
+                    <a href="#desafios" class="story-link px-4 py-3 rounded-full text-sm font-semibold" data-story-link>Desafios</a>
+                    <a href="#materiais" class="story-link px-4 py-3 rounded-full text-sm font-semibold" data-story-link>Materiais</a>
+                    <a href="#referencias" class="story-link px-4 py-3 rounded-full text-sm font-semibold" data-story-link>Referência</a>
+                </div>
+            </section>
+
+            <section id="visao" data-story-section class="grid xl:grid-cols-[0.88fr_1.12fr] gap-6 items-start fade-in-up" style="animation-delay:.12s">
+                <div class="glass-card rounded-[2rem] p-6 md:p-7 space-y-4">
+                    <div class="section-kicker">Leitura rápida</div>
+                    <h2 class="text-3xl font-bold text-white leading-tight">O ponto central do projeto nunca foi só abrir uma porta.</h2>
+                    <p class="text-slate-300 leading-relaxed">O que ele buscava era uma operação mais segura, com resposta local, baixo custo e possibilidade de supervisão remota. Essa ambição continua viva aqui, só que agora apresentada de forma mais clara e navegável.</p>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-4">
+                    <article class="glass-card rounded-[1.8rem] p-5 md:p-6">
+                        <div class="w-11 h-11 rounded-2xl bg-cyan-400/10 text-cyan-300 flex items-center justify-center mb-4"><i class="fa-solid fa-door-open"></i></div>
+                        <h3 class="text-white font-bold text-lg mb-3">Problema real</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">Acesso físico ainda depende muito de chave, controle isolado e pouca rastreabilidade. O projeto nasceu para simplificar isso sem inflar custo.</p>
+                    </article>
+                    <article class="glass-card rounded-[1.8rem] p-5 md:p-6">
+                        <div class="w-11 h-11 rounded-2xl bg-violet-400/10 text-violet-300 flex items-center justify-center mb-4"><i class="fa-solid fa-diagram-project"></i></div>
+                        <h3 class="text-white font-bold text-lg mb-3">Resposta técnica</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">Uma arquitetura distribuída: captura com ESP32-CAM, acionamento com ESP32 WROOM e uma versão desktop em Python para cadastro e verificação.</p>
+                    </article>
+                    <article class="glass-card rounded-[1.8rem] p-5 md:p-6">
+                        <div class="w-11 h-11 rounded-2xl bg-emerald-400/10 text-emerald-300 flex items-center justify-center mb-4"><i class="fa-solid fa-eye"></i></div>
+                        <h3 class="text-white font-bold text-lg mb-3">Valor agora</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">A página atual transforma o artigo em case técnico. Menos texto solto, mais hierarquia, demonstração e critério de engenharia.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section id="arquitetura" data-story-section class="glass-card rounded-[2rem] p-6 md:p-8 fade-in-up" style="animation-delay:.18s">
+                <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-5 mb-8">
+                    <div>
+                        <div class="section-kicker">Arquitetura reconstruída</div>
+                        <h2 class="text-3xl md:text-4xl font-bold text-white mt-3">Quatro blocos, cada um com um papel claro.</h2>
+                    </div>
+                    <p class="text-slate-400 max-w-2xl leading-relaxed">Em vez de despejar um diagrama frio, a leitura abaixo separa o sistema por responsabilidade. Isso ajuda a entender como o protótipo operava e por que a composição fazia sentido.</p>
+                </div>
+
+                <div class="flex flex-wrap gap-3 mb-6">
+                    <button class="tab-button is-active px-4 py-3 rounded-full text-sm font-semibold" data-tab-trigger="tab-captura">Captura</button>
+                    <button class="tab-button px-4 py-3 rounded-full text-sm font-semibold" data-tab-trigger="tab-atuacao">Atuação</button>
+                    <button class="tab-button px-4 py-3 rounded-full text-sm font-semibold" data-tab-trigger="tab-desktop">Desktop</button>
+                    <button class="tab-button px-4 py-3 rounded-full text-sm font-semibold" data-tab-trigger="tab-operacao">Operação</button>
+                </div>
+
+                <div class="grid xl:grid-cols-[1.1fr_0.9fr] gap-6 items-start">
+                    <div class="space-y-4">
+                        <div id="tab-captura" class="tab-panel is-active soft-card rounded-[1.7rem] p-5 md:p-6">
+                            <div class="text-white font-bold text-xl mb-3">ESP32-CAM como cabeça de captura</div>
+                            <p class="text-slate-300 leading-relaxed mb-5">A ESP32-CAM concentrava aquisição de imagem, resposta visual em TFT e a comunicação do sistema com clientes remotos. Era a camada que enxergava, respondia e iniciava a decisão.</p>
+                            <div class="grid sm:grid-cols-3 gap-3 text-sm">
+                                <div class="rounded-2xl bg-slate-950/55 border border-white/5 p-4"><div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-1">Câmera</div><div class="text-white font-semibold">OV2640 2MP</div></div>
+                                <div class="rounded-2xl bg-slate-950/55 border border-white/5 p-4"><div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-1">Comunicação</div><div class="text-white font-semibold">HTTP + WebSocket</div></div>
+                                <div class="rounded-2xl bg-slate-950/55 border border-white/5 p-4"><div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-1">Memória</div><div class="text-white font-semibold">Face IDs na flash</div></div>
+                            </div>
+                        </div>
+
+                        <div id="tab-atuacao" class="tab-panel soft-card rounded-[1.7rem] p-5 md:p-6">
+                            <div class="text-white font-bold text-xl mb-3">ESP32 WROOM como camada de atuação</div>
+                            <p class="text-slate-300 leading-relaxed mb-5">O segundo microcontrolador assumia a parte física da resposta: relé, buzzer, sensor magnético e fecho eletromagnético. Separar captura e atuação deixava o protótipo mais organizado e previsível.</p>
+                            <div class="space-y-3 text-sm text-slate-300">
+                                <div class="soft-card rounded-2xl p-4">Recebe o sinal de abertura e libera a fechadura.</div>
+                                <div class="soft-card rounded-2xl p-4">Monitora o estado da porta via sensor magnético.</div>
+                                <div class="soft-card rounded-2xl p-4">Aciona buzzer quando a operação foge do fluxo esperado.</div>
+                            </div>
+                        </div>
+
+                        <div id="tab-desktop" class="tab-panel soft-card rounded-[1.7rem] p-5 md:p-6">
+                            <div class="text-white font-bold text-xl mb-3">Aplicação Python como trilha complementar</div>
+                            <p class="text-slate-300 leading-relaxed mb-5">Em paralelo ao protótipo embarcado, o projeto tinha uma versão desktop para cadastro e reconhecimento em ambientes de propósito geral. Aqui entram `face_recognition`, `OpenCV`, `tkinter` e `MySQL`.</p>
+                            <div class="grid sm:grid-cols-2 gap-3 text-sm">
+                                <div class="soft-card rounded-2xl p-4">Cadastro com nome, e-mail e encoding facial.</div>
+                                <div class="soft-card rounded-2xl p-4">Verificação em tempo real por webcam.</div>
+                                <div class="soft-card rounded-2xl p-4">Recuperação de registros salvos no banco.</div>
+                                <div class="soft-card rounded-2xl p-4">Interface gráfica pensada para uso prático.</div>
+                            </div>
+                        </div>
+
+                        <div id="tab-operacao" class="tab-panel soft-card rounded-[1.7rem] p-5 md:p-6">
+                            <div class="text-white font-bold text-xl mb-3">Como o fluxo se fecha</div>
+                            <div class="space-y-3 text-sm text-slate-300 leading-relaxed">
+                                <div class="soft-card rounded-2xl p-4"><strong class="text-white">1.</strong> A câmera captura a imagem e compara com os registros locais.</div>
+                                <div class="soft-card rounded-2xl p-4"><strong class="text-white">2.</strong> Em caso de autenticação válida, o sinal segue para a camada de atuação.</div>
+                                <div class="soft-card rounded-2xl p-4"><strong class="text-white">3.</strong> O fecho libera a porta e o sensor acompanha se ela foi fechada novamente.</div>
+                                <div class="soft-card rounded-2xl p-4"><strong class="text-white">4.</strong> O monitoramento remoto complementa a supervisão do sistema.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <aside class="space-y-4 xl:sticky xl:top-24">
+                        <div class="soft-card rounded-[1.7rem] p-5 md:p-6">
+                            <div class="section-kicker mb-3">Por que isso funciona bem na página</div>
+                            <h3 class="text-xl font-bold text-white mb-3">Leitura por responsabilidade, não por excesso.</h3>
+                            <p class="text-slate-400 leading-relaxed text-sm">A página evita o erro comum de enterrar tudo em um bloco técnico. Aqui cada camada aparece quando faz sentido, com contexto suficiente para quem quer entender rápido e profundidade suficiente para quem quer ler com calma.</p>
+                        </div>
+                        <div class="soft-card rounded-[1.7rem] p-5 md:p-6">
+                            <div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-3">Stack citada no artigo</div>
+                            <div class="flex flex-wrap gap-2 text-xs">
+                                <span class="px-3 py-2 rounded-full bg-slate-950/60 border border-white/5 text-slate-200">ESP32-CAM</span>
+                                <span class="px-3 py-2 rounded-full bg-slate-950/60 border border-white/5 text-slate-200">ESP32 WROOM</span>
+                                <span class="px-3 py-2 rounded-full bg-slate-950/60 border border-white/5 text-slate-200">OpenCV</span>
+                                <span class="px-3 py-2 rounded-full bg-slate-950/60 border border-white/5 text-slate-200">face_recognition</span>
+                                <span class="px-3 py-2 rounded-full bg-slate-950/60 border border-white/5 text-slate-200">MySQL</span>
+                                <span class="px-3 py-2 rounded-full bg-slate-950/60 border border-white/5 text-slate-200">tkinter</span>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+
+            <section id="demo" data-story-section class="grid xl:grid-cols-[1.14fr_0.86fr] gap-6 items-start fade-in-up" style="animation-delay:.24s">
+                <div class="glass-card rounded-[2rem] p-5 md:p-6">
+                    <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-4 mb-5">
+                        <div>
+                            <div class="section-kicker">Experiência viva</div>
+                            <h2 class="text-3xl font-bold text-white mt-3">A ideia sai do papel quando a câmera entra em cena.</h2>
+                            <p class="text-slate-400 mt-3 max-w-2xl leading-relaxed">Não é o reconhecimento facial original do TCC. É melhor do que isso para este contexto: uma prova viva, local e honesta de visão computacional aplicada, integrada a uma narrativa que explica o projeto sem teatralizar.</p>
+                        </div>
+                        <div id="modelBadge" class="px-4 py-2 rounded-full soft-card text-slate-300 text-xs font-bold uppercase tracking-[0.16em]">
+                            Carregando modelo...
+                        </div>
+                    </div>
+
+                    <div class="grid lg:grid-cols-3 gap-3 mb-5">
+                        <label class="soft-card rounded-2xl p-4 block">
+                            <div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-2">Confiança mínima</div>
+                            <div class="flex items-center gap-3">
+                                <input id="confidenceRange" type="range" min="25" max="90" step="5" value="45" class="custom-range w-full">
+                                <span id="confidenceValue" class="text-white font-bold text-sm min-w-[3rem] text-right">45%</span>
+                            </div>
+                        </label>
+                        <label class="soft-card rounded-2xl p-4 block">
+                            <div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-2">Câmera</div>
+                            <select id="cameraMode" class="w-full rounded-xl border border-white/10 bg-slate-950/80 px-3 py-2 text-sm text-white outline-none">
+                                <option value="user">Frontal</option>
+                                <option value="environment">Traseira</option>
+                            </select>
+                        </label>
+                        <div class="soft-card rounded-2xl p-4">
+                            <div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-2">Modo</div>
+                            <div class="text-white font-bold text-sm">Leitura estabilizada</div>
+                            <div class="text-slate-400 text-xs mt-2">Agrupa sinais entre frames para reduzir ruído.</div>
+                        </div>
+                    </div>
+
+                    <div class="video-shell">
+                        <video id="cameraVideo" autoplay playsinline muted></video>
+                        <canvas id="overlayCanvas"></canvas>
+                        <div id="cameraPlaceholder" class="absolute inset-0 flex flex-col items-center justify-center text-center p-8 bg-slate-950/90">
+                            <div class="w-20 h-20 rounded-full border border-cyan-400/25 bg-cyan-400/10 flex items-center justify-center text-cyan-300 text-3xl mb-4 animate-float-soft">
+                                <i class="fa-solid fa-camera"></i>
+                            </div>
+                            <div class="text-white font-bold text-lg mb-2">Pronto para observar a cena</div>
+                            <p class="text-slate-400 max-w-md leading-relaxed">Clique em iniciar para carregar o modelo, pedir permissão da câmera e ativar a leitura local da imagem no navegador.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-wrap gap-3 mt-5">
+                        <button id="startCameraBtn" class="px-5 py-3 rounded-full bg-cyan-400 text-slate-950 font-bold text-sm hover:bg-cyan-300 transition-colors">
+                            <i class="fa-solid fa-play mr-2"></i>Iniciar câmera
+                        </button>
+                        <button id="stopCameraBtn" class="px-5 py-3 rounded-full soft-card text-white font-semibold text-sm hover:border-cyan-400/25 transition-colors" disabled>
+                            <i class="fa-solid fa-stop mr-2"></i>Parar câmera
+                        </button>
+                    </div>
+
+                    <div class="mt-5 soft-card rounded-[1.7rem] p-4">
+                        <div class="flex items-center justify-between gap-3 mb-3">
+                            <div class="text-xs uppercase tracking-[0.18em] text-slate-400 font-mono">Foco operacional</div>
+                            <div class="text-[11px] text-slate-500">Classes com boa aderência no modelo base</div>
+                        </div>
+                        <div id="targetChips" class="flex flex-wrap gap-2 text-xs">
+                            <span data-target="person" class="target-chip px-3 py-2 rounded-full border border-white/10 bg-slate-950/70 text-slate-300">Pessoa</span>
+                            <span data-target="cell phone" class="target-chip px-3 py-2 rounded-full border border-white/10 bg-slate-950/70 text-slate-300">Celular</span>
+                            <span data-target="backpack" class="target-chip px-3 py-2 rounded-full border border-white/10 bg-slate-950/70 text-slate-300">Mochila</span>
+                            <span data-target="handbag" class="target-chip px-3 py-2 rounded-full border border-white/10 bg-slate-950/70 text-slate-300">Bolsa</span>
+                            <span data-target="tie" class="target-chip px-3 py-2 rounded-full border border-white/10 bg-slate-950/70 text-slate-300">Acessório</span>
+                            <span data-target="spoon" class="target-chip px-3 py-2 rounded-full border border-white/10 bg-slate-950/70 text-slate-300">Colher</span>
+                            <span data-target="knife" class="target-chip px-3 py-2 rounded-full border border-white/10 bg-slate-950/70 text-slate-300">Faca</span>
+                            <span data-target="scissors" class="target-chip px-3 py-2 rounded-full border border-white/10 bg-slate-950/70 text-slate-300">Tesoura</span>
+                            <span data-target="laptop" class="target-chip px-3 py-2 rounded-full border border-white/10 bg-slate-950/70 text-slate-300">Laptop</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="space-y-5 xl:sticky xl:top-24">
+                    <div class="glass-card rounded-[2rem] p-5 md:p-6">
+                        <div class="section-kicker mb-4">Telemetria</div>
+                        <div class="grid grid-cols-2 gap-3">
+                            <div class="soft-card rounded-2xl p-4"><div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-2">Status</div><div id="cameraStatus" class="text-white font-bold">Ocioso</div></div>
+                            <div class="soft-card rounded-2xl p-4"><div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-2">Detecções</div><div id="detectionCount" class="text-white font-bold">0</div></div>
+                            <div class="soft-card rounded-2xl p-4"><div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-2">Objeto principal</div><div id="topObject" class="text-white font-bold">Nenhum</div></div>
+                            <div class="soft-card rounded-2xl p-4"><div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-2">Confiança</div><div id="topScore" class="text-white font-bold">0%</div></div>
+                            <div class="soft-card rounded-2xl p-4 col-span-2"><div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-2">Objetos estabilizados</div><div id="stableObjects" class="text-white font-bold">Nenhum</div></div>
+                        </div>
+                    </div>
+
+                    <div class="glass-card rounded-[2rem] p-5 md:p-6 border border-rose-400/15">
+                        <div class="flex items-center justify-between gap-3 mb-4">
+                            <div>
+                                <div class="section-kicker text-rose-300 mb-2">Sinais de atenção</div>
+                                <div class="text-white font-bold">Triagem contextual da cena</div>
+                            </div>
+                            <div id="riskBadge" class="px-3 py-2 rounded-full soft-card text-slate-300 text-xs font-bold uppercase tracking-[0.16em]">Sem alerta</div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-3 mb-4">
+                            <div class="soft-card rounded-2xl p-4"><div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-2">Nível</div><div id="riskLevel" class="text-white font-bold">Baixo</div></div>
+                            <div class="soft-card rounded-2xl p-4"><div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-2">Objetos sensíveis</div><div id="sensitiveObjects" class="text-white font-bold">Nenhum</div></div>
+                        </div>
+                        <div id="riskFindings" class="space-y-3 text-sm text-slate-300 leading-relaxed">
+                            <div class="soft-card rounded-2xl p-4">Nenhum padrão de atenção identificado.</div>
+                        </div>
+                    </div>
+
+                    <div class="glass-card rounded-[2rem] p-5 md:p-6">
+                        <div class="section-kicker mb-4">Leitura especializada</div>
+                        <div id="specialFindings" class="space-y-3 text-sm text-slate-300 leading-relaxed">
+                            <div class="soft-card rounded-2xl p-4">Nenhum destaque operacional ainda.</div>
+                        </div>
+                    </div>
+
+                    <div class="glass-card rounded-[2rem] p-5 md:p-6">
+                        <div class="section-kicker mb-4">Classes recentes</div>
+                        <div id="recentClasses" class="flex flex-wrap gap-2 text-xs text-slate-300">
+                            <span class="px-3 py-2 rounded-full border border-white/10 bg-white/5">Sem deteccoes</span>
+                        </div>
+                    </div>
+
+                    <div class="glass-card rounded-[2rem] p-5 md:p-6">
+                        <div class="section-kicker mb-4">Notas da demo</div>
+                        <ul class="space-y-3 text-sm text-slate-300 leading-relaxed">
+                            <li class="flex gap-3"><i class="fa-solid fa-circle-info text-cyan-300 mt-1"></i><span>Ela não tenta substituir o sistema do TCC. O papel aqui é demonstrar visão computacional de forma viva e honesta.</span></li>
+                            <li class="flex gap-3"><i class="fa-solid fa-shield text-emerald-300 mt-1"></i><span>O processamento acontece no cliente. O vídeo não precisa sair do navegador.</span></li>
+                            <li class="flex gap-3"><i class="fa-solid fa-triangle-exclamation text-amber-300 mt-1"></i><span>Os alertas de suspeita são heurísticas de triagem. Eles ajudam a chamar atenção, mas não substituem critério humano.</span></li>
+                            <li class="flex gap-3"><i class="fa-solid fa-magnifying-glass text-violet-300 mt-1"></i><span>Itens muito pequenos ou fora do vocabulário base, como chave, cabo e óculos, podem não aparecer com consistência nessa versão web.</span></li>
+                        </ul>
+                        <div id="eventLog" class="mt-5 rounded-2xl border border-white/10 bg-slate-950/70 p-4 text-xs font-mono text-slate-400 min-h-[140px] overflow-auto">Sistema pronto. Nenhum evento ainda.</div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="desafios" data-story-section class="grid lg:grid-cols-[1.05fr_0.95fr] gap-6 items-start fade-in-up" style="animation-delay:.30s">
+                <div class="glass-card rounded-[2rem] p-6 md:p-8">
+                    <div class="section-kicker">Desafios de execução</div>
+                    <h2 class="text-3xl font-bold text-white mt-3 mb-4">O artigo fica mais forte quando ele mostra onde doeu.</h2>
+                    <p class="text-slate-400 leading-relaxed mb-6">Uma das partes mais humanas desse trabalho é justamente não esconder atrito. O protótipo exigiu paciência em logística, cuidado com versões e bastante insistência em bancada.</p>
+                    <div class="grid md:grid-cols-3 gap-4">
+                        <div class="soft-card rounded-[1.5rem] p-5">
+                            <div class="text-white font-bold mb-2">Logística</div>
+                            <p class="text-slate-400 text-sm leading-relaxed">Compatibilizar componentes e esperar entrega de fornecedores internacionais atrasou o ritmo, mas amadureceu o critério de seleção.</p>
+                        </div>
+                        <div class="soft-card rounded-[1.5rem] p-5">
+                            <div class="text-white font-bold mb-2">Versionamento</div>
+                            <p class="text-slate-400 text-sm leading-relaxed">Bibliotecas e firmwares em ecossistemas que mudam rápido pediram reconfiguração constante e muita verificação de compatibilidade.</p>
+                        </div>
+                        <div class="soft-card rounded-[1.5rem] p-5">
+                            <div class="text-white font-bold mb-2">Hardware</div>
+                            <p class="text-slate-400 text-sm leading-relaxed">Conexão física ruim derruba qualquer protótipo. Soldagem, organização interna e escolha de conectores fizeram diferença real.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card rounded-[2rem] p-6 md:p-8">
+                    <div class="section-kicker">Resultado prático</div>
+                    <h3 class="text-2xl font-bold text-white mt-3 mb-5">O sistema não nasce perfeito, mas nasce coerente.</h3>
+                    <div class="space-y-4">
+                        <div class="soft-card rounded-[1.5rem] p-5">
+                            <div class="text-white font-bold mb-2">Efetivo para prototipagem</div>
+                            <p class="text-slate-400 text-sm leading-relaxed">O trabalho entrega uma base funcional e econômica para controle de acesso, com chance real de evolução em campo.</p>
+                        </div>
+                        <div class="soft-card rounded-[1.5rem] p-5">
+                            <div class="text-white font-bold mb-2">Bom recorte de TCC</div>
+                            <p class="text-slate-400 text-sm leading-relaxed">Ele não tenta resolver tudo de uma vez. Em vez disso, fecha um ciclo completo com hardware, software e interface.</p>
+                        </div>
+                        <div class="soft-card rounded-[1.5rem] p-5">
+                            <div class="text-white font-bold mb-2">Futuro bem definido</div>
+                            <p class="text-slate-400 text-sm leading-relaxed">Reconhecimento 3D, base unificada e validação em ambiente real aparecem como continuação natural, não como promessas vazias.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="materiais" data-story-section class="grid lg:grid-cols-[0.96fr_1.04fr] gap-6 items-start fade-in-up" style="animation-delay:.36s">
+                <div class="glass-card rounded-[2rem] p-6 md:p-8">
+                    <div class="section-kicker">Materiais e custos</div>
+                    <h2 class="text-3xl font-bold text-white mt-3 mb-5">Baixo custo, mas sem narrativa de brinquedo.</h2>
+                    <div class="space-y-3 text-sm text-slate-300">
+                        <div class="flex items-center justify-between gap-3 soft-card rounded-2xl p-4"><span>ESP32 ESP-WROOM-32</span><span class="text-slate-500">US$ 14.69</span></div>
+                        <div class="flex items-center justify-between gap-3 soft-card rounded-2xl p-4"><span>ESP32-CAM</span><span class="text-slate-500">US$ 14.09</span></div>
+                        <div class="flex items-center justify-between gap-3 soft-card rounded-2xl p-4"><span>Sensor magnetico MC-38</span><span class="text-slate-500">US$ 3.79</span></div>
+                        <div class="flex items-center justify-between gap-3 soft-card rounded-2xl p-4"><span>Mini porta com macaneta</span><span class="text-slate-500">US$ 4.00</span></div>
+                        <div class="flex items-center justify-between gap-3 soft-card rounded-2xl p-4"><span>Fecho eletrico 12V</span><span class="text-slate-500">US$ 15.13</span></div>
+                        <div class="flex items-center justify-between gap-3 soft-card rounded-2xl p-4"><span>Tela TFT 1.8in</span><span class="text-slate-500">US$ 14.84</span></div>
+                        <div class="flex items-center justify-between gap-3 rounded-2xl border border-cyan-400/20 bg-cyan-400/10 p-4 text-white font-bold"><span>Total estimado</span><span>US$ 82.94</span></div>
+                    </div>
+                    <div class="mt-4 rounded-[1.5rem] border border-amber-400/20 bg-amber-400/10 p-4 text-xs text-amber-100 leading-relaxed">
+                        O artigo informa que os valores são estimativas de mercado e podem variar por fornecedor e localização geográfica. A data exata da cotação não foi publicada; nesta página os custos seguem a Tabela 1 da versão divulgada em <strong>18/08/2024</strong>.
+                    </div>
+                </div>
+
+                <div class="space-y-6">
+                    <div class="glass-card rounded-[2rem] p-6 md:p-8">
+                        <div class="section-kicker">Ferramentas citadas</div>
+                        <div class="flex flex-wrap gap-2 mt-4 text-xs">
+                            <span class="px-3 py-2 rounded-full bg-slate-950/60 border border-white/5 text-slate-200">Python</span>
+                            <span class="px-3 py-2 rounded-full bg-slate-950/60 border border-white/5 text-slate-200">OpenCV</span>
+                            <span class="px-3 py-2 rounded-full bg-slate-950/60 border border-white/5 text-slate-200">face_recognition</span>
+                            <span class="px-3 py-2 rounded-full bg-slate-950/60 border border-white/5 text-slate-200">MySQL</span>
+                            <span class="px-3 py-2 rounded-full bg-slate-950/60 border border-white/5 text-slate-200">tkinter</span>
+                            <span class="px-3 py-2 rounded-full bg-slate-950/60 border border-white/5 text-slate-200">TensorFlow</span>
+                            <span class="px-3 py-2 rounded-full bg-slate-950/60 border border-white/5 text-slate-200">ESP32</span>
+                        </div>
+                    </div>
+
+                    <div class="glass-card rounded-[2rem] p-6 md:p-8">
+                        <div class="section-kicker">Trabalhos futuros</div>
+                        <div class="grid md:grid-cols-3 gap-4 mt-4 text-sm text-slate-300">
+                            <div class="soft-card rounded-[1.5rem] p-5">Reconhecimento 3D com mais ângulos e mais variação de iluminação.</div>
+                            <div class="soft-card rounded-[1.5rem] p-5">Base comum para integrar melhor o dispositivo embarcado e a versão desktop.</div>
+                            <div class="soft-card rounded-[1.5rem] p-5">Instalação em ambiente real para medir uso, ajustes e confiabilidade operacional.</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="referencias" data-story-section class="glass-card rounded-[2rem] p-6 md:p-8 fade-in-up" style="animation-delay:.42s">
+                <div class="grid lg:grid-cols-[1.1fr_0.9fr] gap-6 items-start">
+                    <div>
+                        <div class="section-kicker">Referência primária</div>
+                        <h2 class="text-3xl font-bold text-white mt-3 mb-4">A página assume uma postura simples: o artigo continua sendo a fonte de verdade.</h2>
+                        <p class="text-slate-400 leading-relaxed max-w-3xl">Tudo aqui parte dele. O que a página faz é melhorar a experiência de leitura, condensar a arquitetura, destacar os aprendizados e adicionar uma demonstração contemporânea de visão computacional para o portfólio.</p>
+                    </div>
+                    <div class="soft-card rounded-[1.7rem] p-5 md:p-6">
+                        <p class="text-sm text-slate-300 leading-relaxed">Lemos RP, Azevedo CH, Passos Junior MR, Kunzler JA. <em>Sistema de controle de acesso através de reconhecimento facial com monitoramento remoto</em>. Revista Brasileira Militar de Ciências. 2024;10(24):e175.</p>
+                        <div class="flex flex-wrap gap-3 mt-5">
+                            <a href="https://rbmc.org.br/rbmc/article/view/175" target="_blank" rel="noopener noreferrer" class="px-4 py-3 rounded-full bg-cyan-400 text-slate-950 font-bold text-sm hover:bg-cyan-300 transition-colors">Abrir artigo na RBMC</a>
+                            <a href="https://doi.org/10.36414/rbmc.v10i24.175" target="_blank" rel="noopener noreferrer" class="px-4 py-3 rounded-full soft-card text-white font-semibold text-sm hover:border-cyan-400/25 transition-colors">Abrir DOI</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="border-t border-slate-800/50 pt-12 pb-8 mt-14">
+            <div class="flex flex-col items-center text-center">
+                <div class="flex justify-center gap-8 mb-8">
+                    <a href="https://instagram.com/marcelo_rpj" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="text-slate-400 hover:text-cyan-300 transition-colors text-2xl"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/marcelo-rodrigues-088478211/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="text-slate-400 hover:text-cyan-300 transition-colors text-2xl"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="mailto:rdpstudio@gmail.com" aria-label="Email" class="text-slate-400 hover:text-cyan-300 transition-colors text-2xl"><i class="fa-regular fa-envelope"></i></a>
+                </div>
+                <p class="text-sm text-slate-500 mb-2">© 2026 RDP STUDIO. Todos os direitos reservados.</p>
+                <p class="text-xs text-slate-600 font-mono">Documentação técnica tratada como experiência de produto</p>
+                <div class="watermark-container hidden"></div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        const video = document.getElementById('cameraVideo');
+        const canvas = document.getElementById('overlayCanvas');
+        const ctx = canvas.getContext('2d');
+        const startButton = document.getElementById('startCameraBtn');
+        const stopButton = document.getElementById('stopCameraBtn');
+        const placeholder = document.getElementById('cameraPlaceholder');
+        const modelBadge = document.getElementById('modelBadge');
+        const cameraStatus = document.getElementById('cameraStatus');
+        const detectionCount = document.getElementById('detectionCount');
+        const topObject = document.getElementById('topObject');
+        const topScore = document.getElementById('topScore');
+        const eventLog = document.getElementById('eventLog');
+        const stableObjects = document.getElementById('stableObjects');
+        const recentClasses = document.getElementById('recentClasses');
+        const specialFindings = document.getElementById('specialFindings');
+        const confidenceRange = document.getElementById('confidenceRange');
+        const confidenceValue = document.getElementById('confidenceValue');
+        const cameraMode = document.getElementById('cameraMode');
+        const targetChips = Array.from(document.querySelectorAll('.target-chip'));
+        const riskBadge = document.getElementById('riskBadge');
+        const riskLevel = document.getElementById('riskLevel');
+        const sensitiveObjects = document.getElementById('sensitiveObjects');
+        const riskFindings = document.getElementById('riskFindings');
+        const progressLine = document.getElementById('progressLine');
+        const storyLinks = Array.from(document.querySelectorAll('[data-story-link]'));
+        const storySections = Array.from(document.querySelectorAll('[data-story-section]'));
+        const tabButtons = Array.from(document.querySelectorAll('[data-tab-trigger]'));
+        const tabPanels = Array.from(document.querySelectorAll('.tab-panel'));
+
+        let model = null;
+        let stream = null;
+        let animationFrameId = null;
+        let running = false;
+        let detectCooldown = false;
+        let confidenceThreshold = Number(confidenceRange.value) / 100;
+        let detectionHistory = [];
+
+        const highlightClasses = new Set(['person', 'cell phone', 'backpack', 'handbag', 'tie', 'spoon', 'bottle', 'book', 'laptop', 'knife', 'scissors']);
+        const sensitiveClasses = new Set(['knife', 'scissors']);
+        const classLabels = {
+            person: 'Pessoa',
+            'cell phone': 'Celular',
+            backpack: 'Mochila',
+            handbag: 'Bolsa',
+            tie: 'Acessorio',
+            spoon: 'Colher',
+            bottle: 'Garrafa',
+            book: 'Livro',
+            laptop: 'Laptop',
+            cup: 'Copo',
+            chair: 'Cadeira',
+            keyboard: 'Teclado',
+            mouse: 'Mouse',
+            knife: 'Faca',
+            scissors: 'Tesoura'
+        };
+
+        function logEvent(message) {
+            const timestamp = new Date().toLocaleTimeString('pt-BR');
+            const entry = `[${timestamp}] ${message}`;
+            eventLog.textContent = eventLog.textContent.includes('Nenhum evento ainda')
+                ? entry
+                : `${entry}\n${eventLog.textContent}`;
+        }
+
+        function setActiveStoryLink(id) {
+            storyLinks.forEach(link => {
+                const active = link.getAttribute('href') === `#${id}`;
+                link.classList.toggle('is-active', active);
+            });
+        }
+
+        function bindStoryNavigation() {
+            const observer = new IntersectionObserver(entries => {
+                const visible = entries.filter(entry => entry.isIntersecting).sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+                if (visible) setActiveStoryLink(visible.target.id);
+            }, { threshold: 0.35 });
+
+            storySections.forEach(section => observer.observe(section));
+            if (storySections[0]) setActiveStoryLink(storySections[0].id);
+        }
+
+        function bindTabs() {
+            tabButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const target = button.dataset.tabTrigger;
+                    tabButtons.forEach(btn => btn.classList.toggle('is-active', btn === button));
+                    tabPanels.forEach(panel => panel.classList.toggle('is-active', panel.id === target));
+                });
+            });
+        }
+
+        function updateScrollProgress() {
+            const total = document.documentElement.scrollHeight - window.innerHeight;
+            const progress = total > 0 ? (window.scrollY / total) * 100 : 0;
+            progressLine.style.width = `${Math.min(progress, 100)}%`;
+        }
+
+        async function ensureModel() {
+            if (model) return model;
+            await tf.setBackend('webgl');
+            await tf.ready();
+            modelBadge.textContent = 'Carregando COCO-SSD...';
+            logEvent('Backend WebGL ativo. Carregando modelo COCO-SSD no navegador.');
+            model = await cocoSsd.load();
+            modelBadge.textContent = 'Modelo pronto em WebGL';
+            logEvent('Modelo carregado com sucesso.');
+            return model;
+        }
+
+        function resizeCanvas() {
+            const width = video.videoWidth || 640;
+            const height = video.videoHeight || 480;
+            canvas.width = width;
+            canvas.height = height;
+        }
+
+        function drawDetections(predictions) {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.font = 'bold 14px Inter';
+
+            predictions.forEach(prediction => {
+                const [x, y, width, height] = prediction.bbox;
+                const score = Math.round(prediction.score * 100);
+                const color = highlightClasses.has(prediction.class) ? '#22d3ee' : '#a78bfa';
+                const labelText = classLabels[prediction.class] || prediction.class;
+                ctx.strokeStyle = color;
+                ctx.lineWidth = 3;
+                ctx.strokeRect(x, y, width, height);
+                ctx.fillStyle = color;
+                const label = `${labelText} ${score}%`;
+                const textWidth = ctx.measureText(label).width + 16;
+                ctx.fillRect(x, Math.max(0, y - 28), textWidth, 24);
+                ctx.fillStyle = '#020617';
+                ctx.fillText(label, x + 8, Math.max(16, y - 10));
+            });
+        }
+
+        function updateHistory(predictions) {
+            detectionHistory.unshift(predictions.map(prediction => prediction.class));
+            detectionHistory = detectionHistory.slice(0, 8);
+        }
+
+        function getStableClasses() {
+            const counts = new Map();
+            detectionHistory.forEach(frame => frame.forEach(label => counts.set(label, (counts.get(label) || 0) + 1)));
+            return Array.from(counts.entries())
+                .filter(([, count]) => count >= 2)
+                .sort((a, b) => b[1] - a[1]);
+        }
+
+        function renderStableObjects(stable) {
+            if (!stable.length) {
+                stableObjects.textContent = 'Nenhum';
+                recentClasses.innerHTML = '<span class="px-3 py-2 rounded-full border border-white/10 bg-white/5">Sem deteccoes</span>';
+                targetChips.forEach(chip => chip.classList.remove('is-active'));
+                return;
+            }
+
+            stableObjects.textContent = stable.map(([label]) => classLabels[label] || label).slice(0, 4).join(', ');
+            recentClasses.innerHTML = stable
+                .slice(0, 8)
+                .map(([label, count]) => `<span class="px-3 py-2 rounded-full border border-white/10 bg-white/5">${classLabels[label] || label} · ${count}x</span>`)
+                .join('');
+
+            targetChips.forEach(chip => {
+                chip.classList.toggle('is-active', stable.some(([label]) => label === chip.dataset.target));
+            });
+        }
+
+        function renderSpecialFindings(predictions, stable) {
+            const classes = new Set(predictions.map(prediction => prediction.class));
+            const stableSet = new Set(stable.map(([label]) => label));
+            const findings = [];
+
+            if (classes.has('person') || stableSet.has('person')) findings.push('Pessoa presente no enquadramento.');
+            if (classes.has('cell phone') || stableSet.has('cell phone')) findings.push('Celular visivel na cena.');
+            if (classes.has('spoon') || stableSet.has('spoon')) findings.push('Colher detectada pelo modelo.');
+            if (classes.has('tie') || stableSet.has('tie')) findings.push('Acessorio de vestimenta detectado.');
+            if (classes.has('backpack') || classes.has('handbag') || stableSet.has('backpack') || stableSet.has('handbag')) findings.push('Item de transporte pessoal encontrado, util para contextualizacao operacional.');
+            if (classes.has('laptop') || classes.has('book') || classes.has('keyboard')) findings.push('Objeto de estudo ou trabalho identificado na cena.');
+
+            specialFindings.innerHTML = findings.length
+                ? findings.map(finding => `<div class="rounded-2xl border border-cyan-400/15 bg-cyan-400/10 p-4">${finding}</div>`).join('')
+                : '<div class="soft-card rounded-2xl p-4">Nenhum destaque operacional ainda.</div>';
+        }
+
+        function setRiskVisual(level, sensitiveList, findings) {
+            const presets = {
+                baixo: {
+                    badge: 'Sem alerta',
+                    badgeClass: 'px-3 py-2 rounded-full soft-card text-slate-300 text-xs font-bold uppercase tracking-[0.16em]',
+                    label: 'Baixo'
+                },
+                medio: {
+                    badge: 'Atencao moderada',
+                    badgeClass: 'px-3 py-2 rounded-full border border-amber-400/25 bg-amber-400/10 text-amber-200 text-xs font-bold uppercase tracking-[0.16em]',
+                    label: 'Medio'
+                },
+                alto: {
+                    badge: 'Alerta elevado',
+                    badgeClass: 'px-3 py-2 rounded-full border border-rose-400/25 bg-rose-400/10 text-rose-200 text-xs font-bold uppercase tracking-[0.16em]',
+                    label: 'Alto'
+                }
+            };
+
+            const selected = presets[level] || presets.baixo;
+            riskBadge.className = selected.badgeClass;
+            riskBadge.textContent = selected.badge;
+            riskLevel.textContent = selected.label;
+            sensitiveObjects.textContent = sensitiveList.length ? sensitiveList.map(label => classLabels[label] || label).join(', ') : 'Nenhum';
+            riskFindings.innerHTML = findings.length
+                ? findings.map(finding => {
+                    const tone = level === 'alto' ? 'border border-rose-400/20 bg-rose-400/10' : 'border border-amber-400/20 bg-amber-400/10';
+                    return `<div class="rounded-2xl ${tone} p-4">${finding}</div>`;
+                }).join('')
+                : '<div class="soft-card rounded-2xl p-4">Nenhum padrão de atenção identificado.</div>';
+        }
+
+        function assessSceneRisk(predictions, stable) {
+            const classes = new Set(predictions.map(prediction => prediction.class));
+            const stableSet = new Set(stable.map(([label]) => label));
+            const sensitiveList = Array.from(new Set([...classes, ...stableSet].filter(label => sensitiveClasses.has(label))));
+            const findings = [];
+            let level = 'baixo';
+
+            const bagPresent = classes.has('backpack') || classes.has('handbag') || stableSet.has('backpack') || stableSet.has('handbag');
+            const phonePresent = classes.has('cell phone') || stableSet.has('cell phone');
+            const multiPerson = predictions.filter(prediction => prediction.class === 'person').length >= 2;
+            const persistentPerson = stable.some(([label, count]) => label === 'person' && count >= 4);
+
+            if (sensitiveList.length) {
+                findings.push(`Objeto potencialmente perigoso detectado pelo modelo: ${sensitiveList.map(label => classLabels[label] || label).join(', ')}.`);
+                level = 'alto';
+            }
+
+            if (multiPerson && (bagPresent || phonePresent)) {
+                findings.push('Mais de uma pessoa com objetos portáteis visíveis. Vale acompanhar a cena com mais atenção.');
+                if (level !== 'alto') level = 'medio';
+            }
+
+            if (persistentPerson && !sensitiveList.length) {
+                findings.push('Pessoa persistente no enquadramento por vários ciclos. Esse tipo de leitura pode ser útil em áreas monitoradas.');
+                if (level === 'baixo') level = 'medio';
+            }
+
+            if ((classes.has('person') || stableSet.has('person')) && bagPresent && phonePresent) {
+                findings.push('Pessoa com bolsa ou mochila e celular visíveis. Não é um alerta por si só, mas ajuda a enriquecer a triagem da cena.');
+                if (level === 'baixo') level = 'medio';
+            }
+
+            setRiskVisual(level, sensitiveList, findings);
+        }
+
+        async function detectFrame() {
+            if (!running) return;
+
+            if (!detectCooldown && model && video.readyState >= 2) {
+                detectCooldown = true;
+                const predictions = (await model.detect(video)).filter(prediction => prediction.score >= confidenceThreshold);
+                resizeCanvas();
+                drawDetections(predictions);
+                updateHistory(predictions);
+
+                const stable = getStableClasses();
+                renderStableObjects(stable);
+                renderSpecialFindings(predictions, stable);
+                assessSceneRisk(predictions, stable);
+
+                detectionCount.textContent = String(predictions.length);
+                if (predictions.length > 0) {
+                    const best = [...predictions].sort((a, b) => b.score - a.score)[0];
+                    topObject.textContent = classLabels[best.class] || best.class;
+                    topScore.textContent = `${Math.round(best.score * 100)}%`;
+                } else {
+                    topObject.textContent = 'Nenhum';
+                    topScore.textContent = '0%';
+                }
+
+                detectCooldown = false;
+            }
+
+            animationFrameId = requestAnimationFrame(detectFrame);
+        }
+
+        async function startCamera() {
+            startButton.disabled = true;
+            cameraStatus.textContent = 'Inicializando';
+            try {
+                await ensureModel();
+                stream = await navigator.mediaDevices.getUserMedia({
+                    video: {
+                        facingMode: cameraMode.value,
+                        width: { ideal: 1280 },
+                        height: { ideal: 720 }
+                    },
+                    audio: false
+                });
+
+                video.srcObject = stream;
+                await video.play();
+                resizeCanvas();
+                running = true;
+                placeholder.classList.add('hidden');
+                stopButton.disabled = false;
+                cameraStatus.textContent = 'Executando';
+                logEvent(`Câmera iniciada em modo ${cameraMode.value === 'user' ? 'frontal' : 'traseiro'} com confiança mínima de ${Math.round(confidenceThreshold * 100)}%.`);
+                detectFrame();
+            } catch (error) {
+                console.error(error);
+                cameraStatus.textContent = 'Falha';
+                placeholder.classList.remove('hidden');
+                logEvent(`Falha ao iniciar camera: ${error.message}`);
+                startButton.disabled = false;
+            }
+        }
+
+        function stopCamera() {
+            running = false;
+            if (animationFrameId) cancelAnimationFrame(animationFrameId);
+            if (stream) {
+                stream.getTracks().forEach(track => track.stop());
+                stream = null;
+            }
+            video.srcObject = null;
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            placeholder.classList.remove('hidden');
+            startButton.disabled = false;
+            stopButton.disabled = true;
+            cameraStatus.textContent = 'Ocioso';
+            detectionCount.textContent = '0';
+            topObject.textContent = 'Nenhum';
+            topScore.textContent = '0%';
+            stableObjects.textContent = 'Nenhum';
+            recentClasses.innerHTML = '<span class="px-3 py-2 rounded-full border border-white/10 bg-white/5">Sem detecções</span>';
+            specialFindings.innerHTML = '<div class="soft-card rounded-2xl p-4">Nenhum destaque operacional ainda.</div>';
+            detectionHistory = [];
+            targetChips.forEach(chip => chip.classList.remove('is-active'));
+            setRiskVisual('baixo', [], []);
+            logEvent('Câmera encerrada pelo usuário.');
+        }
+
+        confidenceRange.addEventListener('input', () => {
+            confidenceThreshold = Number(confidenceRange.value) / 100;
+            confidenceValue.textContent = `${confidenceRange.value}%`;
+        });
+
+        startButton.addEventListener('click', startCamera);
+        stopButton.addEventListener('click', stopCamera);
+        window.addEventListener('beforeunload', stopCamera);
+        window.addEventListener('scroll', updateScrollProgress, { passive: true });
+        window.addEventListener('DOMContentLoaded', () => {
+            bindStoryNavigation();
+            bindTabs();
+            updateScrollProgress();
+        });
+    </script>
+
+    <script type="module">
+        import '../../assets/js/rod-assistant.js'
+        window.addEventListener('DOMContentLoaded', () => {
+            window.initROD({
+                knowledgePath: '../../assets/data/rod-knowledge.json',
+                currentProjectSlug: 'controle-acesso-visao',
+                subtlePrompt: true,
+            })
+        })
+    </script>
+    <script>
+        window.ROD_TOUR_DEFINITIONS = {
+            overview: [
+                {
+                    selector: '#hero',
+                    text: 'Esta abertura posiciona o projeto como case técnico. Não é só uma página bonita: ela explica o recorte, o valor e o papel da reconstrução.'
+                },
+                {
+                    selector: '#arquitetura',
+                    text: 'Aqui a leitura foi organizada por responsabilidade. Isso deixa a arquitetura mais clara e muito mais fácil de absorver.'
+                },
+                {
+                    selector: '#demo',
+                    text: 'A demo torna o case vivo. Ela não tenta fingir o sistema original, mas prova competência real em visão computacional no navegador.'
+                }
+            ]
+        };
+    </script>
+    <script src="../../assets/js/rod-tour.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            if (window.initRODTour) window.initRODTour();
+        });
+    </script>
+</body>
+</html>

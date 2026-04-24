@@ -213,7 +213,7 @@ class RodKnowledgeEngine {
 
     if (intent?.id === 'project-recommendation') {
       responses.push(intent.response)
-      context.lastRecommendationSlugs = ['abertura-chamados-glpi', 'validador-firewall', 'assistente-vendas-ia', 'scanner-game-free']
+      context.lastRecommendationSlugs = ['controle-acesso-visao', 'abertura-chamados-glpi', 'validador-firewall', 'assistente-vendas-ia', 'scanner-game-free']
       suggestions.push('Me mostra', 'Como usar o GLPI Automator?', 'Como usar o Validador de MACs?')
     }
 

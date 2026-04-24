@@ -8,27 +8,32 @@ Este repositório consolida projetos que demonstram expertise em Python, React, 
 
 ## 🚀 Projetos em Destaque
 
-### 1. [Assistente de Vendas IA](./projects/assistente-vendas-ia/)
+### 1. [Controle de Acesso Vision](./projects/controle-acesso-visao/)
+> **Status:** Reconstrução documental | **Tech:** HTML, JavaScript, TensorFlow.js, COCO-SSD
+>
+> Recriação técnica de um TCC publicado sobre controle de acesso com reconhecimento facial e monitoramento remoto. A página documenta a arquitetura com ESP32 e inclui uma demo client-side de reconhecimento de objetos usando a webcam.
+
+### 2. [Assistente de Vendas IA](./projects/assistente-vendas-ia/)
 > **Status:** Ativo | **Tech:** Python 3.11, Gemini Pro, Supabase
 >
 > Um agente autônomo de vendas que opera no Telegram. Capaz de gerenciar estoque, responder dúvidas contextuais e validar pagamentos via visão computacional em tempo real.
 
-### 2. [Automação GLPI](./projects/abertura-chamados-glpi/)
+### 3. [Automação GLPI](./projects/abertura-chamados-glpi/)
 > **Status:** Case de Sucesso | **Tech:** Python, GLPI API
 >
 > Script robusto para gestão de manutenção preventiva. Escaneia diretórios de fotos, identifica equipamentos e abre chamados automaticamente no sistema GLPI, eliminando trabalho manual.
 
-### 3. [RDP Insider (Scanner Game Free)](./projects/scanner-game-free/)
+### 4. [RDP Insider (Scanner Game Free)](./projects/scanner-game-free/)
 > **Status:** Produção | **Tech:** React, Python Crawler, GitHub Actions
 >
 > Portal de inteligência gamer que monitora e agrega jogos gratuitos da Epic Games Store e notícias de hardware. Conta com um crawler diário automatizado e frontend modular em React.
 
-### 4. [Validador de Firewall](./projects/validador-firewall/)
+### 5. [Validador de Firewall](./projects/validador-firewall/)
 > **Status:** Utility Tool | **Tech:** HTML5, JS (Regex Engine)
 >
 > Ferramenta web para validação e formatação de endereços MAC para configurações de Firewall e DHCP. Interface moderna com geração instantânea de scripts.
 
-### 5. [Igreja Casa Hub](./projects/igreja-casa/)
+### 6. [Igreja Casa Hub](./projects/igreja-casa/)
 > **Status:** Em operação | **Tech:** Cloudflare Pages, Supabase, JavaScript Vanilla
 >
 > Plataforma de gestão pastoral e administrativa com painel admin, CRM, formulários públicos, analytics, portal Wi-Fi, notificações, DOMUM e escala em uma arquitetura static-first com backend serverless.
@@ -49,6 +54,7 @@ Este repositório consolida projetos que demonstram expertise em Python, React, 
 ├── projects/                  # Código-fonte dos projetos
 │   ├── assistente-vendas-ia/  # Agente de Vendas Telegram
 │   ├── abertura-chamados-glpi/# Automação GLPI
+│   ├── controle-acesso-visao/ # TCC reconstruido com demo de camera
 │   ├── scanner-game-free/     # RDP Insider Portal
 │   ├── validador-firewall/    # Tool de Validação MAC
 │   └── igreja-casa/           # Plataforma Igreja Casa Hub
