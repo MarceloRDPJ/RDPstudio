@@ -2,11 +2,11 @@
   {
     "slug": "controle-acesso-visao",
     "name": "Controle de Acesso Vision",
-    "headline": "Reconstrucao documental de TCC com demo de visao computacional no navegador.",
-    "summary": "Pagina de portfolio baseada em artigo cientifico sobre controle de acesso facial com ESP32, acrescida de previa interativa de reconhecimento de objetos via webcam.",
-    "problem": "O projeto original nao tinha mais codigo disponivel, o que dificultava apresentar o trabalho de forma concreta dentro do portfolio atual.",
-    "solution": "A entrega reconstrui a arquitetura, resultados e contexto do TCC e adiciona uma demo client-side com camera para materializar o tema de visao computacional.",
-    "outcome": "Transforma um artigo academico em um case navegavel, visual e util para apresentacao profissional.",
+    "headline": "Case editorial que transforma um TCC em experiencia tecnica viva.",
+    "summary": "Reconstrucao de um projeto de controle de acesso com ESP32 e reconhecimento facial, apresentada com narrativa mais clara e demo local de visao computacional no navegador.",
+    "problem": "O trabalho existia como artigo academico, mas sem o codigo original ficava dificil apresenta-lo com profundidade e impacto dentro do portfolio.",
+    "solution": "A pagina reorganiza arquitetura, materiais, desafios e resultados do TCC e adiciona uma demo de camera para tornar o case mais tangivel e atual.",
+    "outcome": "Converte uma referencia academica em um case profissional com boa leitura, criterio visual e demonstracao viva.",
     "type": "Case",
     "category": "Computer Vision",
     "status": "Reconstrucao publicada",
@@ -21,11 +21,11 @@
     "responsive": true,
     "backendMode": "Sem backend",
     "codeVisibility": "Publico",
-    "intent": "Apresentar um TCC sem codigo-fonte original como case tecnico navegavel, mantendo rigor documental e uma demonstracao viva de visao computacional.",
+    "intent": "Mostrar como um trabalho academico pode ser reempacotado com rigor, boa narrativa e demonstracao pratica sem perder honestidade tecnica.",
     "useSteps": [
-      "Abra a pagina do projeto e leia o contexto do artigo e da reconstrucao.",
-      "Role ate a previa interativa e inicie a camera para testar a deteccao de objetos.",
-      "Use os blocos de arquitetura, materiais e desafios para entender o escopo tecnico original."
+      "Comece pela abertura da pagina para entender o contexto e o recorte da reconstrucao.",
+      "Passe pela secao de arquitetura para ver como o sistema foi dividido entre captura, atuacao e camada desktop.",
+      "Abra a experiencia com camera para testar a leitura local da cena no navegador."
     ],
     "projectUrl": "../projects/controle-acesso-visao/index.html",
     "readmeUrl": "../projects/controle-acesso-visao/README.md",

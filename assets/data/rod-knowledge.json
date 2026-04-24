@@ -11,10 +11,10 @@
     "starterQuestions": [
       "Quem e Marcelo Rodrigues?",
       "O que e a RDP Studio?",
+      "Me explique o case de controle de acesso vision",
       "Qual projeto mostra mais automacao?",
       "Como usar o Validador de MACs?",
-      "Qual projeto tem backend real?",
-      "Me explique o RDP Insider"
+      "Qual projeto tem backend real?"
     ]
   },
   "profile": {
@@ -77,13 +77,13 @@
       "name": "Controle de Acesso Vision",
       "aliases": ["controle de acesso", "tcc reconhecimento facial", "esp32 cam", "esp32cam", "reconhecimento facial", "computer vision", "visao computacional"],
       "category": "Computer Vision",
-      "summary": "Reconstrucao documental de um TCC sobre controle de acesso facial com ESP32, com demo atual de reconhecimento de objetos via webcam.",
-      "problem": "O case original existia como artigo academico, mas sem o codigo disponivel ficava dificil mostra-lo de forma tangivel no portfolio.",
-      "solution": "A pagina recompõe arquitetura, materiais, desafios e resultados do trabalho e adiciona uma demo de visao computacional no browser.",
+      "summary": "Case editorial que reconstrui um TCC sobre controle de acesso facial com ESP32 e monitoramento remoto, com uma demo viva de visao computacional no navegador.",
+      "problem": "O trabalho existia como artigo academico, mas sem o codigo original ficava dificil apresentar o projeto com peso tecnico e visual dentro do portfolio.",
+      "solution": "A pagina reorganiza o caso com narrativa mais clara, arquitetura bem distribuida, referencias honestas e uma demonstracao local de camera para tornar a experiencia concreta.",
       "howToUse": [
-        "Abra a pagina para entender o contexto tecnico do TCC.",
-        "Inicie a camera na secao de previa para testar a deteccao de objetos em tempo real.",
-        "Use os blocos de arquitetura e materiais para ler o projeto como case tecnico reconstruido."
+        "Comece pela abertura da pagina para entender o recorte e o motivo da reconstrucao.",
+        "Passe pela secao de arquitetura para ver como o sistema foi dividido entre captura, atuacao e camada desktop.",
+        "Depois abra a demo com camera para experimentar a parte viva de visao computacional."
       ],
       "stack": ["HTML", "JavaScript", "Tailwind CDN", "TensorFlow.js", "COCO-SSD", "ESP32-CAM", "Python"],
       "backendMode": "Sem backend",
@@ -231,6 +231,11 @@
       "id": "project-recommendation",
       "keywords": ["qual projeto", "qual ferramenta", "me indica", "recomenda", "por onde comeco", "por onde começo"],
       "response": "Se voce quer automacao operacional, eu mostraria primeiro o GLPI Automator ou o Validador de MACs. Se quer IA aplicada a negocio, eu iria para o Assistente de Vendas IA. Se o objetivo e dados e atualizacao automatica, o RDP Insider e a melhor vitrine."
+    },
+    {
+      "id": "project-vision-case",
+      "keywords": ["tcc", "artigo", "rbmc", "reconhecimento facial", "controle de acesso", "esp32 cam", "computer vision"],
+      "response": "Se voce quer um case com mais cara de engenharia aplicada, eu te mostraria o Controle de Acesso Vision. Ele pega um TCC publicado, reorganiza o raciocinio tecnico e ainda adiciona uma demo viva de visao computacional no navegador."
     }
   ]
 }

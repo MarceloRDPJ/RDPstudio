@@ -1,40 +1,131 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Controle de Acesso Vision | RDP Studio</title>
-    <meta name="description" content="Reconstrucao documental de um TCC sobre controle de acesso com reconhecimento facial, com demo interativa de reconhecimento de objetos pela camera.">
+    <meta name="description" content="Case editorial sobre um TCC de controle de acesso com reconhecimento facial, ESP32 e monitoramento remoto, reconstruido com uma demo viva de visao computacional no navegador.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Controle de Acesso Vision | RDP Studio">
+    <meta property="og:description" content="Um case vivo sobre visao computacional, AIoT e controle de acesso.">
     <link rel="apple-touch-icon" sizes="180x180" href="../../assets/site/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../../assets/site/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../../assets/site/favicon-16x16.png">
     <link rel="manifest" href="../../assets/site/site.webmanifest">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../../assets/css/rod-assistant.css">
+    <link rel="stylesheet" href="../../assets/css/rod-tour.css">
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.20.0/dist/tf.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-webgl@4.20.0/dist/tf-backend-webgl.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        deepBlue: '#1E3A5F',
+                        vibrantCyan: '#00B4D8',
+                        trustGreen: '#10B981',
+                        darkSlate: '#020617',
+                        softRose: '#fb7185',
+                        softAmber: '#f59e0b',
+                        softViolet: '#a78bfa',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    },
+                    animation: {
+                        'fade-in-up': 'fadeInUp .9s cubic-bezier(0.16, 1, 0.3, 1) forwards',
+                        'pulse-soft': 'pulseSoft 3.2s ease-in-out infinite',
+                        'float-soft': 'floatSoft 8s ease-in-out infinite',
+                    }
+                }
+            }
+        }
+    </script>
     <style>
+        :root {
+            --bg: #020617;
+            --panel: rgba(15, 23, 42, 0.74);
+            --panel-strong: rgba(15, 23, 42, 0.88);
+            --line: rgba(255, 255, 255, 0.08);
+            --text: #f8fafc;
+            --muted: #94a3b8;
+            --accent: #22d3ee;
+        }
+
         body {
             font-family: 'Inter', sans-serif;
             background:
-                radial-gradient(circle at top left, rgba(8, 145, 178, 0.18), transparent 30%),
-                radial-gradient(circle at bottom right, rgba(37, 99, 235, 0.18), transparent 28%),
-                #020617;
-            color: #f8fafc;
+                radial-gradient(circle at 14% 18%, rgba(34, 211, 238, 0.18), transparent 22%),
+                radial-gradient(circle at 88% 12%, rgba(59, 130, 246, 0.16), transparent 24%),
+                radial-gradient(circle at 52% 100%, rgba(167, 139, 250, 0.10), transparent 30%),
+                var(--bg);
+            background-attachment: fixed;
+            color: var(--text);
+            overflow-x: hidden;
         }
 
-        .font-mono {
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            z-index: -1;
+            pointer-events: none;
+            opacity: 0.032;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+        }
+
+        .glass-card {
+            background: var(--panel);
+            backdrop-filter: blur(18px);
+            -webkit-backdrop-filter: blur(18px);
+            border: 1px solid var(--line);
+            box-shadow: 0 20px 70px -45px rgba(0, 0, 0, 0.85);
+        }
+
+        .glass-strong {
+            background: var(--panel-strong);
+        }
+
+        .section-kicker {
             font-family: 'JetBrains Mono', monospace;
+            letter-spacing: 0.22em;
+            text-transform: uppercase;
+            color: #7dd3fc;
+            font-size: 0.70rem;
         }
 
-        .surface {
-            background: rgba(15, 23, 42, 0.78);
-            backdrop-filter: blur(16px);
-            -webkit-backdrop-filter: blur(16px);
+        .text-gradient {
+            background-image: linear-gradient(90deg, #ffffff, #67e8f9 45%, #60a5fa 75%, #a78bfa 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .story-nav {
+            scrollbar-width: none;
+        }
+
+        .story-nav::-webkit-scrollbar {
+            display: none;
+        }
+
+        .story-link {
             border: 1px solid rgba(255, 255, 255, 0.08);
-            box-shadow: 0 30px 80px -40px rgba(0, 0, 0, 0.85);
+            background: rgba(255, 255, 255, 0.03);
+            color: #94a3b8;
+            transition: all .25s ease;
+        }
+
+        .story-link:hover,
+        .story-link.is-active {
+            color: #fff;
+            border-color: rgba(34, 211, 238, 0.35);
+            background: rgba(34, 211, 238, 0.12);
         }
 
         .hero-grid {
@@ -42,13 +133,7 @@
                 linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px),
                 linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px);
             background-size: 28px 28px;
-        }
-
-        .text-gradient {
-            background-image: linear-gradient(90deg, #67e8f9, #60a5fa, #a78bfa);
-            background-clip: text;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            mask-image: linear-gradient(to bottom, black, rgba(0,0,0,0));
         }
 
         .scan-line {
@@ -57,29 +142,33 @@
             right: 0;
             height: 2px;
             background: linear-gradient(90deg, transparent, rgba(34, 211, 238, 0.9), transparent);
-            box-shadow: 0 0 18px rgba(34, 211, 238, 0.65);
-            animation: sweep 3.2s linear infinite;
-        }
-
-        @keyframes sweep {
-            0% { top: 8%; opacity: 0.2; }
-            50% { top: 88%; opacity: 1; }
-            100% { top: 8%; opacity: 0.2; }
+            box-shadow: 0 0 20px rgba(34, 211, 238, 0.45);
+            animation: sweep 3.8s linear infinite;
         }
 
         .video-shell {
-            aspect-ratio: 4 / 3;
+            position: relative;
+            aspect-ratio: 16 / 10;
+            border-radius: 1.6rem;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.08);
             background:
-                radial-gradient(circle at center, rgba(14, 165, 233, 0.12), transparent 45%),
+                radial-gradient(circle at center, rgba(34, 211, 238, 0.08), transparent 50%),
                 #020617;
         }
 
         #cameraVideo,
         #overlayCanvas {
+            position: absolute;
+            inset: 0;
             width: 100%;
             height: 100%;
             object-fit: cover;
-            border-radius: 1rem;
+        }
+
+        .soft-card {
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            background: rgba(255, 255, 255, 0.03);
         }
 
         .target-chip.is-active {
@@ -93,142 +182,344 @@
             accent-color: #22d3ee;
         }
 
+        .progress-line {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 2px;
+            width: 0;
+            background: linear-gradient(90deg, #22d3ee, #60a5fa, #a78bfa);
+            z-index: 80;
+            box-shadow: 0 0 14px rgba(34, 211, 238, 0.55);
+        }
+
+        .tab-button {
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            background: rgba(255, 255, 255, 0.03);
+            color: #94a3b8;
+            transition: all .2s ease;
+        }
+
+        .tab-button.is-active {
+            color: #fff;
+            border-color: rgba(34, 211, 238, 0.35);
+            background: rgba(34, 211, 238, 0.12);
+        }
+
+        .tab-panel {
+            display: none;
+        }
+
+        .tab-panel.is-active {
+            display: block;
+        }
+
         .watermark-container::after {
             content: "© 2026 RDP STUDIO. Desenvolvido por Marcelo Rodrigues.";
-            font-size: 0.75rem;
+            font-size: 0.72rem;
             color: #64748b;
-            opacity: 0.45;
+            opacity: 0.42;
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(18px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes pulseSoft {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(34, 211, 238, 0.18); }
+            50% { box-shadow: 0 0 0 10px rgba(34, 211, 238, 0); }
+        }
+
+        @keyframes floatSoft {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-8px); }
+        }
+
+        @keyframes sweep {
+            0% { top: 10%; opacity: .2; }
+            50% { top: 84%; opacity: 1; }
+            100% { top: 10%; opacity: .2; }
         }
     </style>
 </head>
 <body class="antialiased selection:bg-cyan-400 selection:text-slate-950">
+    <div class="progress-line" id="progressLine"></div>
+
     <div class="max-w-7xl mx-auto px-4 sm:px-6 py-6 min-h-screen flex flex-col">
-        <header class="flex justify-between items-center gap-4 mb-8">
+        <header class="flex flex-wrap justify-between items-center gap-4 mb-8 md:mb-10 relative z-50 fade-in-up">
             <a href="../../hub/projetos.html" class="flex items-center gap-3 text-slate-400 hover:text-white transition-colors group">
-                <div class="w-10 h-10 rounded-xl surface flex items-center justify-center border border-white/5 group-hover:border-cyan-400/30 transition-colors">
+                <div class="w-10 h-10 rounded-xl glass-card flex items-center justify-center group-hover:border-cyan-400/30 transition-colors">
                     <i class="fa-solid fa-arrow-left"></i>
                 </div>
                 <span class="text-sm font-semibold uppercase tracking-[0.18em]">Voltar ao Hub</span>
             </a>
-            <div class="px-4 py-2 rounded-full border border-cyan-400/20 bg-cyan-400/10 text-cyan-300 text-xs font-bold uppercase tracking-[0.18em]">
-                Reconstrucao de TCC
+
+            <div class="flex items-center gap-3 text-xs uppercase tracking-[0.18em]">
+                <span class="px-4 py-2 rounded-full glass-card text-cyan-200 border-cyan-400/20">Case reconstruido</span>
+                <span class="px-4 py-2 rounded-full glass-card text-slate-300">RBMC 2024</span>
             </div>
         </header>
 
         <main class="flex-grow space-y-8 md:space-y-10">
-            <section class="surface rounded-[2rem] overflow-hidden relative">
+            <section id="hero" class="glass-card glass-strong rounded-[2rem] overflow-hidden relative fade-in-up">
                 <div class="absolute inset-0 hero-grid opacity-30"></div>
-                <div class="grid lg:grid-cols-2 gap-8 p-6 md:p-8 lg:p-10 relative">
-                    <div class="space-y-6">
-                        <div class="text-xs font-mono uppercase tracking-[0.24em] text-slate-400">AIoT . Seguranca fisica . Visao computacional</div>
-                        <div>
-                            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight">
-                                Controle de acesso com <span class="text-gradient">reconhecimento facial</span> e monitoramento remoto
+                <div class="grid xl:grid-cols-[1.08fr_0.92fr] gap-8 p-6 md:p-8 lg:p-10 relative">
+                    <div class="space-y-7">
+                        <div class="section-kicker">AIoT . seguranca fisica . visao computacional</div>
+                        <div class="space-y-4 max-w-3xl">
+                            <h1 class="text-4xl md:text-6xl font-extrabold leading-[0.95] tracking-tight text-balance">
+                                Um TCC que virou <span class="text-gradient">case vivo</span>.
                             </h1>
-                            <p class="mt-4 text-slate-300 text-base md:text-lg leading-relaxed max-w-2xl">
-                                Esta pagina reconstrui seu projeto de TCC com base no artigo publicado na RBMC e adiciona uma previa interativa de visao computacional usando a camera do visitante direto no navegador.
+                            <p class="text-lg md:text-xl text-slate-300 leading-relaxed max-w-2xl">
+                                Este projeto recompõe com cuidado um sistema de controle de acesso por reconhecimento facial com monitoramento remoto. Em vez de tentar imitar um codigo que se perdeu, a pagina assume o papel certo: documentar bem, mostrar criterio tecnico e transformar a ideia em experiencia.
                             </p>
                         </div>
 
                         <div class="grid sm:grid-cols-3 gap-3 text-sm">
-                            <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
-                                <div class="text-slate-400 uppercase text-[11px] tracking-[0.16em] mb-2">Hardware</div>
+                            <div class="soft-card rounded-2xl p-4">
+                                <div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-2">Hardware</div>
                                 <div class="font-semibold text-white">ESP32-CAM + ESP32 WROOM</div>
                             </div>
-                            <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
-                                <div class="text-slate-400 uppercase text-[11px] tracking-[0.16em] mb-2">Desktop</div>
+                            <div class="soft-card rounded-2xl p-4">
+                                <div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-2">Desktop</div>
                                 <div class="font-semibold text-white">Python + OpenCV + MySQL</div>
                             </div>
-                            <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
-                                <div class="text-slate-400 uppercase text-[11px] tracking-[0.16em] mb-2">Demo atual</div>
-                                <div class="font-semibold text-white">Object detection na webcam</div>
+                            <div class="soft-card rounded-2xl p-4">
+                                <div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-2">Agora</div>
+                                <div class="font-semibold text-white">Demo local com camera</div>
                             </div>
                         </div>
 
                         <div class="flex flex-wrap gap-3">
-                            <a href="#previa" class="px-5 py-3 rounded-full bg-cyan-400 text-slate-950 font-bold text-sm hover:bg-cyan-300 transition-colors">Ver previa ao vivo</a>
-                            <a href="#documentacao" class="px-5 py-3 rounded-full border border-white/10 bg-white/5 text-white font-semibold text-sm hover:bg-white/10 transition-colors">Ler documentacao</a>
-                            <a href="https://rbmc.org.br/rbmc/article/view/175" target="_blank" rel="noopener noreferrer" class="px-5 py-3 rounded-full border border-cyan-400/20 bg-cyan-400/10 text-cyan-200 font-semibold text-sm hover:bg-cyan-400/15 transition-colors">Abrir artigo RBMC</a>
+                            <a href="#demo" class="px-6 py-3 rounded-full bg-cyan-400 text-slate-950 font-bold text-sm hover:bg-cyan-300 transition-colors">Abrir experiencia</a>
+                            <a href="https://rbmc.org.br/rbmc/article/view/175" target="_blank" rel="noopener noreferrer" class="px-6 py-3 rounded-full glass-card text-white font-semibold text-sm hover:border-cyan-400/25 transition-colors">Ler artigo original</a>
+                            <a href="#arquitetura" class="px-6 py-3 rounded-full glass-card text-slate-300 font-semibold text-sm hover:text-white transition-colors">Ver arquitetura</a>
                         </div>
                     </div>
 
-                    <div class="relative min-h-[320px] lg:min-h-full rounded-[1.75rem] border border-cyan-400/20 bg-slate-950/70 overflow-hidden">
+                    <div class="relative min-h-[440px] rounded-[1.8rem] overflow-hidden border border-white/10 bg-slate-950/75">
                         <div class="absolute inset-0 bg-gradient-to-br from-cyan-400/10 via-blue-500/10 to-violet-500/10"></div>
                         <div class="scan-line"></div>
-                        <div class="relative h-full p-6 flex flex-col justify-between">
-                            <div class="flex items-center justify-between text-xs uppercase tracking-[0.18em] text-slate-400 font-mono">
-                                <span>Arquitetura distribuida</span>
-                                <span>RBMC 2024</span>
+                        <div class="relative h-full p-5 md:p-6 flex flex-col gap-4">
+                            <div class="flex items-center justify-between text-[11px] uppercase tracking-[0.18em] text-slate-500 font-mono">
+                                <span>Pulse do projeto</span>
+                                <span class="text-cyan-300">live case</span>
                             </div>
-                            <div class="space-y-4">
-                                <div class="rounded-2xl border border-cyan-400/20 bg-cyan-400/10 p-4">
-                                    <div class="text-cyan-300 text-xs uppercase tracking-[0.16em] mb-2">Camada 1</div>
-                                    <div class="text-white font-bold">ESP32-CAM</div>
-                                    <div class="text-slate-300 text-sm mt-2">Captura de imagem, servidor HTTP, WebSocket e processamento facial local.</div>
+
+                            <div class="grid grid-cols-2 gap-3">
+                                <div class="soft-card rounded-2xl p-4">
+                                    <div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-2">Papel da pagina</div>
+                                    <div class="text-white font-semibold">Documentar sem cenografia</div>
                                 </div>
-                                <div class="rounded-2xl border border-amber-400/20 bg-amber-400/10 p-4">
-                                    <div class="text-amber-300 text-xs uppercase tracking-[0.16em] mb-2">Camada 2</div>
-                                    <div class="text-white font-bold">ESP32 WROOM</div>
-                                    <div class="text-slate-300 text-sm mt-2">Controle de buzzer, sensor magnetico, rele e fecho eletromagnetico.</div>
-                                </div>
-                                <div class="rounded-2xl border border-violet-400/20 bg-violet-400/10 p-4">
-                                    <div class="text-violet-300 text-xs uppercase tracking-[0.16em] mb-2">Camada 3</div>
-                                    <div class="text-white font-bold">Aplicacao Python</div>
-                                    <div class="text-slate-300 text-sm mt-2">Cadastro e reconhecimento em desktop com interface grafica e banco MySQL.</div>
+                                <div class="soft-card rounded-2xl p-4">
+                                    <div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-2">Entrega visual</div>
+                                    <div class="text-white font-semibold">Narrativa + demo + referencia</div>
                                 </div>
                             </div>
-                            <div class="text-xs text-slate-500 leading-relaxed">
-                                Reconstrucao documental baseada no artigo cientifico, com demo moderna no browser para tornar o case visivel dentro do portfolio.
+
+                            <div class="soft-card rounded-2xl p-5 flex-grow">
+                                <div class="flex items-start justify-between gap-3 mb-4">
+                                    <div>
+                                        <div class="text-[11px] uppercase tracking-[0.16em] text-cyan-300 font-mono mb-2">Leitura executiva</div>
+                                        <div class="text-2xl font-bold text-white leading-tight">O valor aqui nao e fingir que o codigo existe.</div>
+                                    </div>
+                                    <div class="w-11 h-11 rounded-2xl bg-cyan-400/10 text-cyan-300 flex items-center justify-center animate-pulse-soft">
+                                        <i class="fa-solid fa-microchip"></i>
+                                    </div>
+                                </div>
+
+                                <div class="space-y-3 text-sm text-slate-300 leading-relaxed">
+                                    <p>O artigo ja provava a base teorica e o prototipo. Esta pagina faz outra parte do trabalho: organiza o raciocinio, expande a leitura tecnica e oferece uma demonstracao atual de visao computacional no navegador.</p>
+                                    <p>Assim, o case deixa de ser apenas uma referencia academica e passa a funcionar como portfolio tecnico de verdade.</p>
+                                </div>
+
+                                <div class="grid sm:grid-cols-3 gap-3 mt-5 text-sm">
+                                    <div class="rounded-2xl bg-slate-950/55 border border-white/5 p-4">
+                                        <div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-1">Camada 1</div>
+                                        <div class="text-white font-semibold">Captura</div>
+                                    </div>
+                                    <div class="rounded-2xl bg-slate-950/55 border border-white/5 p-4">
+                                        <div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-1">Camada 2</div>
+                                        <div class="text-white font-semibold">Acionamento</div>
+                                    </div>
+                                    <div class="rounded-2xl bg-slate-950/55 border border-white/5 p-4">
+                                        <div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-1">Camada 3</div>
+                                        <div class="text-white font-semibold">Supervisao</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="soft-card rounded-2xl p-4 text-xs text-slate-400 leading-relaxed">
+                                Custos mantidos conforme a Tabela 1 do artigo. A publicacao nao informa a data exata da cotacao; a referencia usada aqui e a versao publicada em <span class="text-white font-semibold">18/08/2024</span>.
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section id="previa" class="grid xl:grid-cols-[1.2fr_0.8fr] gap-6 items-start">
-                <div class="surface rounded-[2rem] p-5 md:p-6">
-                    <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-5">
-                        <div>
-                            <div class="text-xs uppercase tracking-[0.2em] text-cyan-300 font-mono mb-2">Previa interativa</div>
-                            <h2 class="text-2xl font-bold text-white">Reconhecimento de objetos com a camera do usuario</h2>
-                            <p class="text-slate-400 mt-2 max-w-2xl">A demo abaixo roda 100% no navegador. Ela usa a webcam do visitante para detectar objetos em tempo real com backend acelerado, filtragem de confianca e leitura estabilizada entre frames.</p>
+            <section class="story-nav overflow-x-auto fade-in-up" style="animation-delay:.06s">
+                <div class="flex gap-3 min-w-max">
+                    <a href="#visao" class="story-link px-4 py-3 rounded-full text-sm font-semibold" data-story-link>Visao geral</a>
+                    <a href="#arquitetura" class="story-link px-4 py-3 rounded-full text-sm font-semibold" data-story-link>Arquitetura</a>
+                    <a href="#demo" class="story-link px-4 py-3 rounded-full text-sm font-semibold" data-story-link>Demo</a>
+                    <a href="#desafios" class="story-link px-4 py-3 rounded-full text-sm font-semibold" data-story-link>Desafios</a>
+                    <a href="#materiais" class="story-link px-4 py-3 rounded-full text-sm font-semibold" data-story-link>Materiais</a>
+                    <a href="#referencias" class="story-link px-4 py-3 rounded-full text-sm font-semibold" data-story-link>Referencia</a>
+                </div>
+            </section>
+
+            <section id="visao" data-story-section class="grid xl:grid-cols-[0.88fr_1.12fr] gap-6 items-start fade-in-up" style="animation-delay:.12s">
+                <div class="glass-card rounded-[2rem] p-6 md:p-7 space-y-4">
+                    <div class="section-kicker">Leitura rapida</div>
+                    <h2 class="text-3xl font-bold text-white leading-tight">O ponto central do projeto nunca foi so abrir uma porta.</h2>
+                    <p class="text-slate-300 leading-relaxed">O que ele buscava era uma operacao mais segura, com resposta local, baixo custo e possibilidade de supervisao remota. Essa ambicao continua viva aqui, so que agora apresentada de forma mais clara e navegavel.</p>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-4">
+                    <article class="glass-card rounded-[1.8rem] p-5 md:p-6">
+                        <div class="w-11 h-11 rounded-2xl bg-cyan-400/10 text-cyan-300 flex items-center justify-center mb-4"><i class="fa-solid fa-door-open"></i></div>
+                        <h3 class="text-white font-bold text-lg mb-3">Problema real</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">Acesso fisico ainda depende muito de chave, controle isolado e pouca rastreabilidade. O projeto nasceu para simplificar isso sem inflar custo.</p>
+                    </article>
+                    <article class="glass-card rounded-[1.8rem] p-5 md:p-6">
+                        <div class="w-11 h-11 rounded-2xl bg-violet-400/10 text-violet-300 flex items-center justify-center mb-4"><i class="fa-solid fa-diagram-project"></i></div>
+                        <h3 class="text-white font-bold text-lg mb-3">Resposta tecnica</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">Uma arquitetura distribuida: captura com ESP32-CAM, acionamento com ESP32 WROOM e uma versao desktop em Python para cadastro e verificacao.</p>
+                    </article>
+                    <article class="glass-card rounded-[1.8rem] p-5 md:p-6">
+                        <div class="w-11 h-11 rounded-2xl bg-emerald-400/10 text-emerald-300 flex items-center justify-center mb-4"><i class="fa-solid fa-eye"></i></div>
+                        <h3 class="text-white font-bold text-lg mb-3">Valor agora</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">A pagina atual transforma o artigo em case tecnico. Menos texto solto, mais hierarquia, demonstracao e criterio de engenharia.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section id="arquitetura" data-story-section class="glass-card rounded-[2rem] p-6 md:p-8 fade-in-up" style="animation-delay:.18s">
+                <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-5 mb-8">
+                    <div>
+                        <div class="section-kicker">Arquitetura reconstruida</div>
+                        <h2 class="text-3xl md:text-4xl font-bold text-white mt-3">Quatro blocos, cada um com um papel claro.</h2>
+                    </div>
+                    <p class="text-slate-400 max-w-2xl leading-relaxed">Em vez de despejar um diagrama frio, a leitura abaixo separa o sistema por responsabilidade. Isso ajuda a entender como o prototipo operava e por que a composicao fazia sentido.</p>
+                </div>
+
+                <div class="flex flex-wrap gap-3 mb-6">
+                    <button class="tab-button is-active px-4 py-3 rounded-full text-sm font-semibold" data-tab-trigger="tab-captura">Captura</button>
+                    <button class="tab-button px-4 py-3 rounded-full text-sm font-semibold" data-tab-trigger="tab-atuacao">Atuacao</button>
+                    <button class="tab-button px-4 py-3 rounded-full text-sm font-semibold" data-tab-trigger="tab-desktop">Desktop</button>
+                    <button class="tab-button px-4 py-3 rounded-full text-sm font-semibold" data-tab-trigger="tab-operacao">Operacao</button>
+                </div>
+
+                <div class="grid xl:grid-cols-[1.1fr_0.9fr] gap-6 items-start">
+                    <div class="space-y-4">
+                        <div id="tab-captura" class="tab-panel is-active soft-card rounded-[1.7rem] p-5 md:p-6">
+                            <div class="text-white font-bold text-xl mb-3">ESP32-CAM como cabeca de captura</div>
+                            <p class="text-slate-300 leading-relaxed mb-5">A ESP32-CAM concentrava aquisicao de imagem, resposta visual em TFT e a comunicacao do sistema com clientes remotos. Era a camada que enxergava, respondia e iniciava a decisao.</p>
+                            <div class="grid sm:grid-cols-3 gap-3 text-sm">
+                                <div class="rounded-2xl bg-slate-950/55 border border-white/5 p-4"><div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-1">Camera</div><div class="text-white font-semibold">OV2640 2MP</div></div>
+                                <div class="rounded-2xl bg-slate-950/55 border border-white/5 p-4"><div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-1">Comunicacao</div><div class="text-white font-semibold">HTTP + WebSocket</div></div>
+                                <div class="rounded-2xl bg-slate-950/55 border border-white/5 p-4"><div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-1">Memoria</div><div class="text-white font-semibold">Face IDs na flash</div></div>
+                            </div>
                         </div>
-                        <div id="modelBadge" class="px-4 py-2 rounded-full border border-white/10 bg-white/5 text-slate-300 text-xs font-bold uppercase tracking-[0.16em]">
+
+                        <div id="tab-atuacao" class="tab-panel soft-card rounded-[1.7rem] p-5 md:p-6">
+                            <div class="text-white font-bold text-xl mb-3">ESP32 WROOM como camada de atuacao</div>
+                            <p class="text-slate-300 leading-relaxed mb-5">O segundo microcontrolador assumia a parte fisica da resposta: rele, buzzer, sensor magnetico e fecho eletromagnetico. Separar captura e atuacao deixava o prototipo mais organizado e previsivel.</p>
+                            <div class="space-y-3 text-sm text-slate-300">
+                                <div class="soft-card rounded-2xl p-4">Recebe o sinal de abertura e libera a fechadura.</div>
+                                <div class="soft-card rounded-2xl p-4">Monitora o estado da porta via sensor magnetico.</div>
+                                <div class="soft-card rounded-2xl p-4">Aciona buzzer quando a operacao foge do fluxo esperado.</div>
+                            </div>
+                        </div>
+
+                        <div id="tab-desktop" class="tab-panel soft-card rounded-[1.7rem] p-5 md:p-6">
+                            <div class="text-white font-bold text-xl mb-3">Aplicacao Python como trilha complementar</div>
+                            <p class="text-slate-300 leading-relaxed mb-5">Em paralelo ao prototipo embarcado, o projeto tinha uma versao desktop para cadastro e reconhecimento em ambientes de proposito geral. Aqui entram `face_recognition`, `OpenCV`, `tkinter` e `MySQL`.</p>
+                            <div class="grid sm:grid-cols-2 gap-3 text-sm">
+                                <div class="soft-card rounded-2xl p-4">Cadastro com nome, e-mail e encoding facial.</div>
+                                <div class="soft-card rounded-2xl p-4">Verificacao em tempo real por webcam.</div>
+                                <div class="soft-card rounded-2xl p-4">Recuperacao de registros salvos no banco.</div>
+                                <div class="soft-card rounded-2xl p-4">Interface grafica pensada para uso pratico.</div>
+                            </div>
+                        </div>
+
+                        <div id="tab-operacao" class="tab-panel soft-card rounded-[1.7rem] p-5 md:p-6">
+                            <div class="text-white font-bold text-xl mb-3">Como o fluxo se fecha</div>
+                            <div class="space-y-3 text-sm text-slate-300 leading-relaxed">
+                                <div class="soft-card rounded-2xl p-4"><strong class="text-white">1.</strong> A camera captura a imagem e compara com os registros locais.</div>
+                                <div class="soft-card rounded-2xl p-4"><strong class="text-white">2.</strong> Em caso de autenticacao valida, o sinal segue para a camada de atuacao.</div>
+                                <div class="soft-card rounded-2xl p-4"><strong class="text-white">3.</strong> O fecho libera a porta e o sensor acompanha se ela foi fechada novamente.</div>
+                                <div class="soft-card rounded-2xl p-4"><strong class="text-white">4.</strong> O monitoramento remoto complementa a supervisao do sistema.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <aside class="space-y-4 xl:sticky xl:top-24">
+                        <div class="soft-card rounded-[1.7rem] p-5 md:p-6">
+                            <div class="section-kicker mb-3">Porque isso funciona bem na pagina</div>
+                            <h3 class="text-xl font-bold text-white mb-3">Leitura por responsabilidade, nao por excesso.</h3>
+                            <p class="text-slate-400 leading-relaxed text-sm">A pagina evita o erro comum de enterrar tudo em um bloco tecnico. Aqui cada camada aparece quando faz sentido, com contexto suficiente para quem quer entender rapido e profundidade suficiente para quem quer ler com calma.</p>
+                        </div>
+                        <div class="soft-card rounded-[1.7rem] p-5 md:p-6">
+                            <div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-3">Stack citada no artigo</div>
+                            <div class="flex flex-wrap gap-2 text-xs">
+                                <span class="px-3 py-2 rounded-full bg-slate-950/60 border border-white/5 text-slate-200">ESP32-CAM</span>
+                                <span class="px-3 py-2 rounded-full bg-slate-950/60 border border-white/5 text-slate-200">ESP32 WROOM</span>
+                                <span class="px-3 py-2 rounded-full bg-slate-950/60 border border-white/5 text-slate-200">OpenCV</span>
+                                <span class="px-3 py-2 rounded-full bg-slate-950/60 border border-white/5 text-slate-200">face_recognition</span>
+                                <span class="px-3 py-2 rounded-full bg-slate-950/60 border border-white/5 text-slate-200">MySQL</span>
+                                <span class="px-3 py-2 rounded-full bg-slate-950/60 border border-white/5 text-slate-200">tkinter</span>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+
+            <section id="demo" data-story-section class="grid xl:grid-cols-[1.14fr_0.86fr] gap-6 items-start fade-in-up" style="animation-delay:.24s">
+                <div class="glass-card rounded-[2rem] p-5 md:p-6">
+                    <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-4 mb-5">
+                        <div>
+                            <div class="section-kicker">Experiencia viva</div>
+                            <h2 class="text-3xl font-bold text-white mt-3">A ideia sai do papel quando a camera entra em cena.</h2>
+                            <p class="text-slate-400 mt-3 max-w-2xl leading-relaxed">Nao e o reconhecimento facial original do TCC. E melhor do que isso para este contexto: uma prova viva, local e honesta de visao computacional aplicada, integrada a uma narrativa que explica o projeto sem teatralizar.</p>
+                        </div>
+                        <div id="modelBadge" class="px-4 py-2 rounded-full soft-card text-slate-300 text-xs font-bold uppercase tracking-[0.16em]">
                             Carregando modelo...
                         </div>
                     </div>
 
                     <div class="grid lg:grid-cols-3 gap-3 mb-5">
-                        <label class="rounded-2xl border border-white/10 bg-white/5 p-4 block">
-                            <div class="text-slate-400 text-[11px] uppercase tracking-[0.16em] mb-2">Confianca minima</div>
+                        <label class="soft-card rounded-2xl p-4 block">
+                            <div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-2">Confianca minima</div>
                             <div class="flex items-center gap-3">
                                 <input id="confidenceRange" type="range" min="25" max="90" step="5" value="45" class="custom-range w-full">
                                 <span id="confidenceValue" class="text-white font-bold text-sm min-w-[3rem] text-right">45%</span>
                             </div>
                         </label>
-                        <label class="rounded-2xl border border-white/10 bg-white/5 p-4 block">
-                            <div class="text-slate-400 text-[11px] uppercase tracking-[0.16em] mb-2">Camera preferida</div>
+                        <label class="soft-card rounded-2xl p-4 block">
+                            <div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-2">Camera</div>
                             <select id="cameraMode" class="w-full rounded-xl border border-white/10 bg-slate-950/80 px-3 py-2 text-sm text-white outline-none">
                                 <option value="user">Frontal</option>
                                 <option value="environment">Traseira</option>
                             </select>
                         </label>
-                        <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
-                            <div class="text-slate-400 text-[11px] uppercase tracking-[0.16em] mb-2">Modo de leitura</div>
-                            <div class="text-white font-bold text-sm">Deteccao estabilizada</div>
-                            <div class="text-slate-400 text-xs mt-2">Consolida objetos vistos em janelas curtas para reduzir ruido visual.</div>
+                        <div class="soft-card rounded-2xl p-4">
+                            <div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-2">Modo</div>
+                            <div class="text-white font-bold text-sm">Leitura estabilizada</div>
+                            <div class="text-slate-400 text-xs mt-2">Agrupa sinais entre frames para reduzir ruido.</div>
                         </div>
                     </div>
 
-                    <div class="video-shell relative rounded-2xl overflow-hidden border border-white/10">
-                        <video id="cameraVideo" autoplay playsinline muted class="absolute inset-0"></video>
-                        <canvas id="overlayCanvas" class="absolute inset-0"></canvas>
-                        <div id="cameraPlaceholder" class="absolute inset-0 flex flex-col items-center justify-center text-center p-8 bg-slate-950/85">
-                            <div class="w-20 h-20 rounded-full border border-cyan-400/25 bg-cyan-400/10 flex items-center justify-center text-cyan-300 text-3xl mb-4">
+                    <div class="video-shell">
+                        <video id="cameraVideo" autoplay playsinline muted></video>
+                        <canvas id="overlayCanvas"></canvas>
+                        <div id="cameraPlaceholder" class="absolute inset-0 flex flex-col items-center justify-center text-center p-8 bg-slate-950/90">
+                            <div class="w-20 h-20 rounded-full border border-cyan-400/25 bg-cyan-400/10 flex items-center justify-center text-cyan-300 text-3xl mb-4 animate-float-soft">
                                 <i class="fa-solid fa-camera"></i>
                             </div>
-                            <div class="text-white font-bold text-lg mb-2">Aguardando acesso a camera</div>
-                            <p class="text-slate-400 max-w-md">Clique em iniciar para carregar o modelo e pedir permissao da webcam. Em ambientes locais, a camera costuma exigir `localhost` ou `https`.</p>
+                            <div class="text-white font-bold text-lg mb-2">Pronto para observar a cena</div>
+                            <p class="text-slate-400 max-w-md leading-relaxed">Clique em iniciar para carregar o modelo, pedir permissao da camera e ativar a leitura local da imagem no navegador.</p>
                         </div>
                     </div>
 
@@ -236,214 +527,183 @@
                         <button id="startCameraBtn" class="px-5 py-3 rounded-full bg-cyan-400 text-slate-950 font-bold text-sm hover:bg-cyan-300 transition-colors">
                             <i class="fa-solid fa-play mr-2"></i>Iniciar camera
                         </button>
-                        <button id="stopCameraBtn" class="px-5 py-3 rounded-full border border-white/10 bg-white/5 text-white font-semibold text-sm hover:bg-white/10 transition-colors" disabled>
+                        <button id="stopCameraBtn" class="px-5 py-3 rounded-full soft-card text-white font-semibold text-sm hover:border-cyan-400/25 transition-colors" disabled>
                             <i class="fa-solid fa-stop mr-2"></i>Parar camera
                         </button>
                     </div>
 
-                    <div class="mt-5 rounded-2xl border border-white/10 bg-white/5 p-4">
+                    <div class="mt-5 soft-card rounded-[1.7rem] p-4">
                         <div class="flex items-center justify-between gap-3 mb-3">
                             <div class="text-xs uppercase tracking-[0.18em] text-slate-400 font-mono">Foco operacional</div>
-                            <div class="text-[11px] text-slate-500">Classes com melhor aderencia ao modelo atual</div>
+                            <div class="text-[11px] text-slate-500">Classes com boa aderencia no modelo base</div>
                         </div>
                         <div id="targetChips" class="flex flex-wrap gap-2 text-xs">
                             <span data-target="person" class="target-chip px-3 py-2 rounded-full border border-white/10 bg-slate-950/70 text-slate-300">Pessoa</span>
                             <span data-target="cell phone" class="target-chip px-3 py-2 rounded-full border border-white/10 bg-slate-950/70 text-slate-300">Celular</span>
                             <span data-target="backpack" class="target-chip px-3 py-2 rounded-full border border-white/10 bg-slate-950/70 text-slate-300">Mochila</span>
                             <span data-target="handbag" class="target-chip px-3 py-2 rounded-full border border-white/10 bg-slate-950/70 text-slate-300">Bolsa</span>
-                            <span data-target="tie" class="target-chip px-3 py-2 rounded-full border border-white/10 bg-slate-950/70 text-slate-300">Roupa/acessorio</span>
+                            <span data-target="tie" class="target-chip px-3 py-2 rounded-full border border-white/10 bg-slate-950/70 text-slate-300">Acessorio</span>
                             <span data-target="spoon" class="target-chip px-3 py-2 rounded-full border border-white/10 bg-slate-950/70 text-slate-300">Colher</span>
-                            <span data-target="bottle" class="target-chip px-3 py-2 rounded-full border border-white/10 bg-slate-950/70 text-slate-300">Garrafa</span>
-                            <span data-target="book" class="target-chip px-3 py-2 rounded-full border border-white/10 bg-slate-950/70 text-slate-300">Livro</span>
+                            <span data-target="knife" class="target-chip px-3 py-2 rounded-full border border-white/10 bg-slate-950/70 text-slate-300">Faca</span>
+                            <span data-target="scissors" class="target-chip px-3 py-2 rounded-full border border-white/10 bg-slate-950/70 text-slate-300">Tesoura</span>
                             <span data-target="laptop" class="target-chip px-3 py-2 rounded-full border border-white/10 bg-slate-950/70 text-slate-300">Laptop</span>
                         </div>
                     </div>
                 </div>
 
-                <div class="space-y-6">
-                    <div class="surface rounded-[2rem] p-5 md:p-6">
-                        <div class="text-xs uppercase tracking-[0.18em] text-slate-500 font-mono mb-4">Telemetria da demo</div>
+                <div class="space-y-5 xl:sticky xl:top-24">
+                    <div class="glass-card rounded-[2rem] p-5 md:p-6">
+                        <div class="section-kicker mb-4">Telemetria</div>
                         <div class="grid grid-cols-2 gap-3">
-                            <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
-                                <div class="text-slate-400 text-xs uppercase tracking-[0.16em] mb-2">Status</div>
-                                <div id="cameraStatus" class="text-white font-bold">Ocioso</div>
-                            </div>
-                            <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
-                                <div class="text-slate-400 text-xs uppercase tracking-[0.16em] mb-2">Deteccoes</div>
-                                <div id="detectionCount" class="text-white font-bold">0</div>
-                            </div>
-                            <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
-                                <div class="text-slate-400 text-xs uppercase tracking-[0.16em] mb-2">Objeto principal</div>
-                                <div id="topObject" class="text-white font-bold">Nenhum</div>
-                            </div>
-                            <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
-                                <div class="text-slate-400 text-xs uppercase tracking-[0.16em] mb-2">Confianca</div>
-                                <div id="topScore" class="text-white font-bold">0%</div>
-                            </div>
-                            <div class="rounded-2xl border border-white/10 bg-white/5 p-4 col-span-2">
-                                <div class="text-slate-400 text-xs uppercase tracking-[0.16em] mb-2">Objetos estabilizados</div>
-                                <div id="stableObjects" class="text-white font-bold">Nenhum</div>
-                            </div>
+                            <div class="soft-card rounded-2xl p-4"><div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-2">Status</div><div id="cameraStatus" class="text-white font-bold">Ocioso</div></div>
+                            <div class="soft-card rounded-2xl p-4"><div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-2">Deteccoes</div><div id="detectionCount" class="text-white font-bold">0</div></div>
+                            <div class="soft-card rounded-2xl p-4"><div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-2">Objeto principal</div><div id="topObject" class="text-white font-bold">Nenhum</div></div>
+                            <div class="soft-card rounded-2xl p-4"><div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-2">Confianca</div><div id="topScore" class="text-white font-bold">0%</div></div>
+                            <div class="soft-card rounded-2xl p-4 col-span-2"><div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-2">Objetos estabilizados</div><div id="stableObjects" class="text-white font-bold">Nenhum</div></div>
                         </div>
                     </div>
 
-                    <div class="surface rounded-[2rem] p-5 md:p-6">
-                        <div class="text-xs uppercase tracking-[0.18em] text-slate-500 font-mono mb-4">Leitura especializada</div>
-                        <div id="specialFindings" class="space-y-3 text-sm text-slate-300 leading-relaxed">
-                            <div class="rounded-2xl border border-white/10 bg-white/5 p-4">Nenhum destaque operacional ainda.</div>
-                        </div>
-                    </div>
-
-                    <div class="surface rounded-[2rem] p-5 md:p-6 border border-rose-400/15">
+                    <div class="glass-card rounded-[2rem] p-5 md:p-6 border border-rose-400/15">
                         <div class="flex items-center justify-between gap-3 mb-4">
                             <div>
-                                <div class="text-xs uppercase tracking-[0.18em] text-rose-300 font-mono mb-2">Sinais de atencao</div>
-                                <div class="text-white font-bold">Analise contextual de atividade suspeita</div>
+                                <div class="section-kicker text-rose-300 mb-2">Sinais de atencao</div>
+                                <div class="text-white font-bold">Triagem contextual da cena</div>
                             </div>
-                            <div id="riskBadge" class="px-3 py-2 rounded-full border border-white/10 bg-white/5 text-slate-300 text-xs font-bold uppercase tracking-[0.16em]">
-                                Sem alerta
-                            </div>
+                            <div id="riskBadge" class="px-3 py-2 rounded-full soft-card text-slate-300 text-xs font-bold uppercase tracking-[0.16em]">Sem alerta</div>
                         </div>
                         <div class="grid grid-cols-2 gap-3 mb-4">
-                            <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
-                                <div class="text-slate-400 text-xs uppercase tracking-[0.16em] mb-2">Nivel</div>
-                                <div id="riskLevel" class="text-white font-bold">Baixo</div>
-                            </div>
-                            <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
-                                <div class="text-slate-400 text-xs uppercase tracking-[0.16em] mb-2">Objetos sensiveis</div>
-                                <div id="sensitiveObjects" class="text-white font-bold">Nenhum</div>
-                            </div>
+                            <div class="soft-card rounded-2xl p-4"><div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-2">Nivel</div><div id="riskLevel" class="text-white font-bold">Baixo</div></div>
+                            <div class="soft-card rounded-2xl p-4"><div class="text-slate-500 text-[11px] uppercase tracking-[0.16em] mb-2">Objetos sensiveis</div><div id="sensitiveObjects" class="text-white font-bold">Nenhum</div></div>
                         </div>
                         <div id="riskFindings" class="space-y-3 text-sm text-slate-300 leading-relaxed">
-                            <div class="rounded-2xl border border-white/10 bg-white/5 p-4">Nenhum padrao de atencao identificado.</div>
+                            <div class="soft-card rounded-2xl p-4">Nenhum padrao de atencao identificado.</div>
                         </div>
                     </div>
 
-                    <div class="surface rounded-[2rem] p-5 md:p-6">
-                        <div class="text-xs uppercase tracking-[0.18em] text-slate-500 font-mono mb-4">Classes recentes</div>
+                    <div class="glass-card rounded-[2rem] p-5 md:p-6">
+                        <div class="section-kicker mb-4">Leitura especializada</div>
+                        <div id="specialFindings" class="space-y-3 text-sm text-slate-300 leading-relaxed">
+                            <div class="soft-card rounded-2xl p-4">Nenhum destaque operacional ainda.</div>
+                        </div>
+                    </div>
+
+                    <div class="glass-card rounded-[2rem] p-5 md:p-6">
+                        <div class="section-kicker mb-4">Classes recentes</div>
                         <div id="recentClasses" class="flex flex-wrap gap-2 text-xs text-slate-300">
                             <span class="px-3 py-2 rounded-full border border-white/10 bg-white/5">Sem deteccoes</span>
                         </div>
                     </div>
 
-                    <div class="surface rounded-[2rem] p-5 md:p-6">
-                        <div class="text-xs uppercase tracking-[0.18em] text-slate-500 font-mono mb-4">Observacoes</div>
+                    <div class="glass-card rounded-[2rem] p-5 md:p-6">
+                        <div class="section-kicker mb-4">Notas da demo</div>
                         <ul class="space-y-3 text-sm text-slate-300 leading-relaxed">
-                            <li class="flex gap-3"><i class="fa-solid fa-circle-info text-cyan-300 mt-1"></i><span>Esta previa usa reconhecimento de objetos, nao autenticacao facial completa.</span></li>
-                            <li class="flex gap-3"><i class="fa-solid fa-shield text-emerald-300 mt-1"></i><span>O processamento acontece no cliente. O video nao precisa ser enviado para servidor.</span></li>
-                            <li class="flex gap-3"><i class="fa-solid fa-lightbulb text-amber-300 mt-1"></i><span>A demo foi incluida para materializar o tema de visao computacional do TCC no portfolio atual.</span></li>
-                            <li class="flex gap-3"><i class="fa-solid fa-triangle-exclamation text-amber-300 mt-1"></i><span>Os alertas de suspeita sao heuristicas visuais conservadoras para triagem e nao substituem validacao humana ou politica formal de seguranca.</span></li>
-                            <li class="flex gap-3"><i class="fa-solid fa-magnifying-glass text-violet-300 mt-1"></i><span>Itens muito pequenos ou fora do vocabulario base do modelo, como chave, cabo e oculos, podem nao ser reconhecidos com consistencia nesta versao client-side.</span></li>
-                            <li class="flex gap-3"><i class="fa-solid fa-user-shield text-rose-300 mt-1"></i><span>Sexo e idade aproximada nao sao inferidos nesta pagina por envolverem biometria sensivel. Mantive a demo focada em objetos e presenca de pessoas.</span></li>
+                            <li class="flex gap-3"><i class="fa-solid fa-circle-info text-cyan-300 mt-1"></i><span>Ela nao tenta substituir o sistema do TCC. O papel aqui e demonstrar visao computacional de forma viva e honesta.</span></li>
+                            <li class="flex gap-3"><i class="fa-solid fa-shield text-emerald-300 mt-1"></i><span>O processamento acontece no cliente. O video nao precisa sair do navegador.</span></li>
+                            <li class="flex gap-3"><i class="fa-solid fa-triangle-exclamation text-amber-300 mt-1"></i><span>Os alertas de suspeita sao heuristicas de triagem. Eles ajudam a chamar atencao, mas nao substituem criterio humano.</span></li>
+                            <li class="flex gap-3"><i class="fa-solid fa-magnifying-glass text-violet-300 mt-1"></i><span>Itens muito pequenos ou fora do vocabulario base, como chave, cabo e oculos, podem nao aparecer com consistencia nessa versao web.</span></li>
                         </ul>
-                        <div id="eventLog" class="mt-5 rounded-2xl border border-white/10 bg-slate-950/70 p-4 text-xs font-mono text-slate-400 min-h-[130px] overflow-auto">
-                            Sistema pronto. Nenhum evento ainda.
+                        <div id="eventLog" class="mt-5 rounded-2xl border border-white/10 bg-slate-950/70 p-4 text-xs font-mono text-slate-400 min-h-[140px] overflow-auto">Sistema pronto. Nenhum evento ainda.</div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="desafios" data-story-section class="grid lg:grid-cols-[1.05fr_0.95fr] gap-6 items-start fade-in-up" style="animation-delay:.30s">
+                <div class="glass-card rounded-[2rem] p-6 md:p-8">
+                    <div class="section-kicker">Desafios de execucao</div>
+                    <h2 class="text-3xl font-bold text-white mt-3 mb-4">O artigo fica mais forte quando ele mostra onde doeu.</h2>
+                    <p class="text-slate-400 leading-relaxed mb-6">Uma das partes mais humanas desse trabalho e justamente nao esconder atrito. O prototipo exigiu paciencia em logistica, cuidado com versoes e bastante insistencia em bancada.</p>
+                    <div class="grid md:grid-cols-3 gap-4">
+                        <div class="soft-card rounded-[1.5rem] p-5">
+                            <div class="text-white font-bold mb-2">Logistica</div>
+                            <p class="text-slate-400 text-sm leading-relaxed">Compatibilizar componentes e esperar entrega de fornecedores internacionais atrasou o ritmo, mas amadureceu o criterio de selecao.</p>
+                        </div>
+                        <div class="soft-card rounded-[1.5rem] p-5">
+                            <div class="text-white font-bold mb-2">Versionamento</div>
+                            <p class="text-slate-400 text-sm leading-relaxed">Bibliotecas e firmwares em ecosistemas que mudam rapido pediram reconfiguracao constante e muita verificacao de compatibilidade.</p>
+                        </div>
+                        <div class="soft-card rounded-[1.5rem] p-5">
+                            <div class="text-white font-bold mb-2">Hardware</div>
+                            <p class="text-slate-400 text-sm leading-relaxed">Conexao fisica ruim derruba qualquer prototipo. Soldagem, organizacao interna e escolha de conectores fizeram diferenca real.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card rounded-[2rem] p-6 md:p-8">
+                    <div class="section-kicker">Resultado pratico</div>
+                    <h3 class="text-2xl font-bold text-white mt-3 mb-5">O sistema nao nasce perfeito, mas nasce coerente.</h3>
+                    <div class="space-y-4">
+                        <div class="soft-card rounded-[1.5rem] p-5">
+                            <div class="text-white font-bold mb-2">Efetivo para prototipagem</div>
+                            <p class="text-slate-400 text-sm leading-relaxed">O trabalho entrega uma base funcional e economica para controle de acesso, com chance real de evolucao em campo.</p>
+                        </div>
+                        <div class="soft-card rounded-[1.5rem] p-5">
+                            <div class="text-white font-bold mb-2">Bom recorte de TCC</div>
+                            <p class="text-slate-400 text-sm leading-relaxed">Ele nao tenta resolver tudo de uma vez. Em vez disso, fecha um ciclo completo com hardware, software e interface.</p>
+                        </div>
+                        <div class="soft-card rounded-[1.5rem] p-5">
+                            <div class="text-white font-bold mb-2">Futuro bem definido</div>
+                            <p class="text-slate-400 text-sm leading-relaxed">Reconhecimento 3D, base unificada e validacao em ambiente real aparecem como continuacao natural, nao como promessas vazias.</p>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section id="documentacao" class="grid lg:grid-cols-3 gap-6 items-start">
-                <div class="lg:col-span-2 space-y-6">
-                    <div class="surface rounded-[2rem] p-6 md:p-7">
-                        <div class="text-xs uppercase tracking-[0.2em] text-cyan-300 font-mono mb-3">Contexto</div>
-                        <h2 class="text-2xl font-bold text-white mb-4">O que o projeto original fazia</h2>
-                        <p class="text-slate-300 leading-relaxed mb-4">O trabalho descreve um sistema de controle de acesso por reconhecimento facial com monitoramento remoto, combinando dispositivos embarcados com uma aplicacao desktop. A proposta era modernizar a autenticacao fisica com uma solucao de baixo custo e boa capacidade de expansao.</p>
-                        <p class="text-slate-300 leading-relaxed">Segundo o artigo, o sistema usava `ESP32-CAM` para captura e processamento de imagem, `ESP32 WROOM` como atuador, tela TFT de `1.8in`, sensor magnetico, buzzer, rele e fecho eletromagnetico para abrir ou restringir a porta conforme o resultado da autenticacao.</p>
+            <section id="materiais" data-story-section class="grid lg:grid-cols-[0.96fr_1.04fr] gap-6 items-start fade-in-up" style="animation-delay:.36s">
+                <div class="glass-card rounded-[2rem] p-6 md:p-8">
+                    <div class="section-kicker">Materiais e custos</div>
+                    <h2 class="text-3xl font-bold text-white mt-3 mb-5">Baixo custo, mas sem narrativa de brinquedo.</h2>
+                    <div class="space-y-3 text-sm text-slate-300">
+                        <div class="flex items-center justify-between gap-3 soft-card rounded-2xl p-4"><span>ESP32 ESP-WROOM-32</span><span class="text-slate-500">US$ 14.69</span></div>
+                        <div class="flex items-center justify-between gap-3 soft-card rounded-2xl p-4"><span>ESP32-CAM</span><span class="text-slate-500">US$ 14.09</span></div>
+                        <div class="flex items-center justify-between gap-3 soft-card rounded-2xl p-4"><span>Sensor magnetico MC-38</span><span class="text-slate-500">US$ 3.79</span></div>
+                        <div class="flex items-center justify-between gap-3 soft-card rounded-2xl p-4"><span>Mini porta com macaneta</span><span class="text-slate-500">US$ 4.00</span></div>
+                        <div class="flex items-center justify-between gap-3 soft-card rounded-2xl p-4"><span>Fecho eletrico 12V</span><span class="text-slate-500">US$ 15.13</span></div>
+                        <div class="flex items-center justify-between gap-3 soft-card rounded-2xl p-4"><span>Tela TFT 1.8in</span><span class="text-slate-500">US$ 14.84</span></div>
+                        <div class="flex items-center justify-between gap-3 rounded-2xl border border-cyan-400/20 bg-cyan-400/10 p-4 text-white font-bold"><span>Total estimado</span><span>US$ 82.94</span></div>
                     </div>
-
-                    <div class="surface rounded-[2rem] p-6 md:p-7">
-                        <div class="text-xs uppercase tracking-[0.2em] text-cyan-300 font-mono mb-3">Arquitetura</div>
-                        <h2 class="text-2xl font-bold text-white mb-5">Fluxo tecnico reconstruido</h2>
-                        <div class="space-y-4">
-                            <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
-                                <div class="text-white font-bold mb-2">1. Captura e processamento</div>
-                                <div class="text-slate-300 text-sm leading-relaxed">A `ESP32-CAM` realiza captura da face, exibe retorno em tela TFT, cria servidor local e mantem comunicacao com clientes remotos por HTTP e WebSocket.</div>
-                            </div>
-                            <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
-                                <div class="text-white font-bold mb-2">2. Decisao de acesso</div>
-                                <div class="text-slate-300 text-sm leading-relaxed">Quando a autenticacao corresponde a um usuario cadastrado, o sistema envia o sinal para o `ESP32 WROOM`, que aciona rele e fecho eletromagnetico para liberar a porta.</div>
-                            </div>
-                            <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
-                                <div class="text-white font-bold mb-2">3. Supervisao e seguranca fisica</div>
-                                <div class="text-slate-300 text-sm leading-relaxed">Um sensor magnetico monitora o estado da porta. Se a porta permanece aberta, o buzzer fornece alerta sonoro para reforcar a operacao segura.</div>
-                            </div>
-                            <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
-                                <div class="text-white font-bold mb-2">4. Versao desktop complementar</div>
-                                <div class="text-slate-300 text-sm leading-relaxed">Em paralelo, a aplicacao Python em desktop faz cadastro, armazenamento de encodings faciais em `MySQL` e reconhecimento via webcam com `face_recognition` e `OpenCV`.</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="surface rounded-[2rem] p-6 md:p-7">
-                        <div class="text-xs uppercase tracking-[0.2em] text-cyan-300 font-mono mb-3">Desafios</div>
-                        <h2 class="text-2xl font-bold text-white mb-5">Pontos destacados no artigo</h2>
-                        <div class="grid md:grid-cols-3 gap-4">
-                            <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
-                                <div class="text-white font-bold mb-2">Logistica</div>
-                                <div class="text-slate-300 text-sm">Aquisicao de componentes, compatibilidade entre pecas e atrasos de fornecedores internacionais.</div>
-                            </div>
-                            <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
-                                <div class="text-white font-bold mb-2">Versionamento</div>
-                                <div class="text-slate-300 text-sm">Conflitos de bibliotecas e ajustes de ambiente tanto no Arduino IDE quanto no stack Python.</div>
-                            </div>
-                            <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
-                                <div class="text-white font-bold mb-2">Hardware</div>
-                                <div class="text-slate-300 text-sm">Maus contatos, soldagem, organizacao de cabos e estabilidade das conexoes no prototipo fisico.</div>
-                            </div>
-                        </div>
+                    <div class="mt-4 rounded-[1.5rem] border border-amber-400/20 bg-amber-400/10 p-4 text-xs text-amber-100 leading-relaxed">
+                        O artigo informa que os valores sao estimativas de mercado e podem variar por fornecedor e localizacao geografica. A data exata da cotacao nao foi publicada; nesta pagina os custos seguem a Tabela 1 da versao divulgada em <strong>18/08/2024</strong>.
                     </div>
                 </div>
 
                 <div class="space-y-6">
-                    <div class="surface rounded-[2rem] p-6">
-                        <div class="text-xs uppercase tracking-[0.18em] text-slate-500 font-mono mb-4">Materiais e stack</div>
-                        <div class="space-y-3 text-sm text-slate-300">
-                            <div class="flex items-center justify-between gap-3"><span>ESP32 ESP-WROOM-32</span><span class="text-slate-500">US$ 14.69</span></div>
-                            <div class="flex items-center justify-between gap-3"><span>ESP32-CAM</span><span class="text-slate-500">US$ 14.09</span></div>
-                            <div class="flex items-center justify-between gap-3"><span>Sensor magnetico MC-38</span><span class="text-slate-500">US$ 3.79</span></div>
-                            <div class="flex items-center justify-between gap-3"><span>Fecho eletrico 12V</span><span class="text-slate-500">US$ 15.13</span></div>
-                            <div class="flex items-center justify-between gap-3"><span>Tela TFT 1.8in</span><span class="text-slate-500">US$ 14.84</span></div>
-                            <div class="pt-3 mt-3 border-t border-white/10 flex items-center justify-between text-white font-bold"><span>Total estimado</span><span>US$ 82.94</span></div>
-                        </div>
-                        <div class="mt-4 rounded-2xl border border-amber-400/20 bg-amber-400/10 p-4 text-xs text-amber-100 leading-relaxed">
-                            O artigo informa que os custos sao estimativas de mercado e podem variar por fornecedor e localizacao geografica. A publicacao nao explicita a data exata da cotacao; nesta pagina os valores sao apresentados conforme a Tabela 1 do artigo publicado em <strong>18/08/2024</strong>.
+                    <div class="glass-card rounded-[2rem] p-6 md:p-8">
+                        <div class="section-kicker">Ferramentas citadas</div>
+                        <div class="flex flex-wrap gap-2 mt-4 text-xs">
+                            <span class="px-3 py-2 rounded-full bg-slate-950/60 border border-white/5 text-slate-200">Python</span>
+                            <span class="px-3 py-2 rounded-full bg-slate-950/60 border border-white/5 text-slate-200">OpenCV</span>
+                            <span class="px-3 py-2 rounded-full bg-slate-950/60 border border-white/5 text-slate-200">face_recognition</span>
+                            <span class="px-3 py-2 rounded-full bg-slate-950/60 border border-white/5 text-slate-200">MySQL</span>
+                            <span class="px-3 py-2 rounded-full bg-slate-950/60 border border-white/5 text-slate-200">tkinter</span>
+                            <span class="px-3 py-2 rounded-full bg-slate-950/60 border border-white/5 text-slate-200">TensorFlow</span>
+                            <span class="px-3 py-2 rounded-full bg-slate-950/60 border border-white/5 text-slate-200">ESP32</span>
                         </div>
                     </div>
 
-                    <div class="surface rounded-[2rem] p-6">
-                        <div class="text-xs uppercase tracking-[0.18em] text-slate-500 font-mono mb-4">Ferramentas do software</div>
-                        <div class="flex flex-wrap gap-2 text-xs">
-                            <span class="px-3 py-2 rounded-full border border-white/10 bg-white/5 text-slate-200">Python</span>
-                            <span class="px-3 py-2 rounded-full border border-white/10 bg-white/5 text-slate-200">OpenCV</span>
-                            <span class="px-3 py-2 rounded-full border border-white/10 bg-white/5 text-slate-200">face_recognition</span>
-                            <span class="px-3 py-2 rounded-full border border-white/10 bg-white/5 text-slate-200">MySQL</span>
-                            <span class="px-3 py-2 rounded-full border border-white/10 bg-white/5 text-slate-200">tkinter</span>
-                            <span class="px-3 py-2 rounded-full border border-white/10 bg-white/5 text-slate-200">TensorFlow</span>
-                            <span class="px-3 py-2 rounded-full border border-white/10 bg-white/5 text-slate-200">ESP32</span>
+                    <div class="glass-card rounded-[2rem] p-6 md:p-8">
+                        <div class="section-kicker">Trabalhos futuros</div>
+                        <div class="grid md:grid-cols-3 gap-4 mt-4 text-sm text-slate-300">
+                            <div class="soft-card rounded-[1.5rem] p-5">Reconhecimento 3D com mais angulos e mais variacao de iluminacao.</div>
+                            <div class="soft-card rounded-[1.5rem] p-5">Base comum para integrar melhor o dispositivo embarcado e a versao desktop.</div>
+                            <div class="soft-card rounded-[1.5rem] p-5">Instalacao em ambiente real para medir uso, ajustes e confiabilidade operacional.</div>
                         </div>
                     </div>
+                </div>
+            </section>
 
-                    <div class="surface rounded-[2rem] p-6">
-                        <div class="text-xs uppercase tracking-[0.18em] text-slate-500 font-mono mb-4">Trabalhos futuros</div>
-                        <ul class="space-y-3 text-sm text-slate-300 leading-relaxed">
-                            <li>Reconhecimento 3D com diferentes angulos e condicoes de iluminacao.</li>
-                            <li>Banco de dados comum entre sistema embarcado e aplicacao desktop.</li>
-                            <li>Instalacao em ambiente real para validacao operacional com usuarios.</li>
-                        </ul>
+            <section id="referencias" data-story-section class="glass-card rounded-[2rem] p-6 md:p-8 fade-in-up" style="animation-delay:.42s">
+                <div class="grid lg:grid-cols-[1.1fr_0.9fr] gap-6 items-start">
+                    <div>
+                        <div class="section-kicker">Referencia primaria</div>
+                        <h2 class="text-3xl font-bold text-white mt-3 mb-4">A pagina assume uma postura simples: o artigo continua sendo a fonte de verdade.</h2>
+                        <p class="text-slate-400 leading-relaxed max-w-3xl">Tudo aqui parte dele. O que a pagina faz e melhorar a experiencia de leitura, condensar a arquitetura, destacar os aprendizados e adicionar uma demonstracao contemporanea de visao computacional para o portfolio.</p>
                     </div>
-
-                    <div class="surface rounded-[2rem] p-6 border border-cyan-400/20">
-                        <div class="text-xs uppercase tracking-[0.18em] text-cyan-300 font-mono mb-3">Referencia</div>
-                        <p class="text-sm text-slate-300 leading-relaxed">Lemos RP, Azevedo CH, Passos Junior MR, Kunzler JA. Sistema de controle de acesso atraves de reconhecimento facial com monitoramento remoto. Revista Brasileira Militar de Ciencias. 2024;10(24):e175.</p>
-                        <a href="https://rbmc.org.br/rbmc/article/view/175" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 mt-4 text-cyan-300 hover:text-cyan-200 transition-colors text-sm font-semibold">
-                            <i class="fa-solid fa-book-open-reader"></i>
-                            Abrir pagina do artigo na RBMC
-                        </a>
-                        <a href="https://doi.org/10.36414/rbmc.v10i24.175" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 mt-4 text-cyan-300 hover:text-cyan-200 transition-colors text-sm font-semibold">
-                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                            Abrir DOI do artigo
-                        </a>
+                    <div class="soft-card rounded-[1.7rem] p-5 md:p-6">
+                        <p class="text-sm text-slate-300 leading-relaxed">Lemos RP, Azevedo CH, Passos Junior MR, Kunzler JA. <em>Sistema de controle de acesso atraves de reconhecimento facial com monitoramento remoto</em>. Revista Brasileira Militar de Ciencias. 2024;10(24):e175.</p>
+                        <div class="flex flex-wrap gap-3 mt-5">
+                            <a href="https://rbmc.org.br/rbmc/article/view/175" target="_blank" rel="noopener noreferrer" class="px-4 py-3 rounded-full bg-cyan-400 text-slate-950 font-bold text-sm hover:bg-cyan-300 transition-colors">Abrir artigo na RBMC</a>
+                            <a href="https://doi.org/10.36414/rbmc.v10i24.175" target="_blank" rel="noopener noreferrer" class="px-4 py-3 rounded-full soft-card text-white font-semibold text-sm hover:border-cyan-400/25 transition-colors">Abrir DOI</a>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -457,7 +717,7 @@
                     <a href="mailto:rdpstudio@gmail.com" aria-label="Email" class="text-slate-400 hover:text-cyan-300 transition-colors text-2xl"><i class="fa-regular fa-envelope"></i></a>
                 </div>
                 <p class="text-sm text-slate-500 mb-2">© 2026 RDP STUDIO. Todos os direitos reservados.</p>
-                <p class="text-xs text-slate-600 font-mono">Desenvolvido com foco em documentacao tecnica e demonstracao visual</p>
+                <p class="text-xs text-slate-600 font-mono">Documentacao tecnica tratada como experiencia de produto</p>
                 <div class="watermark-container hidden"></div>
             </div>
         </footer>
@@ -487,6 +747,11 @@
         const riskLevel = document.getElementById('riskLevel');
         const sensitiveObjects = document.getElementById('sensitiveObjects');
         const riskFindings = document.getElementById('riskFindings');
+        const progressLine = document.getElementById('progressLine');
+        const storyLinks = Array.from(document.querySelectorAll('[data-story-link]'));
+        const storySections = Array.from(document.querySelectorAll('[data-story-section]'));
+        const tabButtons = Array.from(document.querySelectorAll('[data-tab-trigger]'));
+        const tabPanels = Array.from(document.querySelectorAll('.tab-panel'));
 
         let model = null;
         let stream = null;
@@ -503,7 +768,7 @@
             'cell phone': 'Celular',
             backpack: 'Mochila',
             handbag: 'Bolsa',
-            tie: 'Roupa/acessorio',
+            tie: 'Acessorio',
             spoon: 'Colher',
             bottle: 'Garrafa',
             book: 'Livro',
@@ -519,11 +784,42 @@
         function logEvent(message) {
             const timestamp = new Date().toLocaleTimeString('pt-BR');
             const entry = `[${timestamp}] ${message}`;
-            if (eventLog.textContent.includes('Nenhum evento ainda')) {
-                eventLog.textContent = entry;
-            } else {
-                eventLog.textContent = `${entry}\n${eventLog.textContent}`;
-            }
+            eventLog.textContent = eventLog.textContent.includes('Nenhum evento ainda')
+                ? entry
+                : `${entry}\n${eventLog.textContent}`;
+        }
+
+        function setActiveStoryLink(id) {
+            storyLinks.forEach(link => {
+                const active = link.getAttribute('href') === `#${id}`;
+                link.classList.toggle('is-active', active);
+            });
+        }
+
+        function bindStoryNavigation() {
+            const observer = new IntersectionObserver(entries => {
+                const visible = entries.filter(entry => entry.isIntersecting).sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+                if (visible) setActiveStoryLink(visible.target.id);
+            }, { threshold: 0.35 });
+
+            storySections.forEach(section => observer.observe(section));
+            if (storySections[0]) setActiveStoryLink(storySections[0].id);
+        }
+
+        function bindTabs() {
+            tabButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const target = button.dataset.tabTrigger;
+                    tabButtons.forEach(btn => btn.classList.toggle('is-active', btn === button));
+                    tabPanels.forEach(panel => panel.classList.toggle('is-active', panel.id === target));
+                });
+            });
+        }
+
+        function updateScrollProgress() {
+            const total = document.documentElement.scrollHeight - window.innerHeight;
+            const progress = total > 0 ? (window.scrollY / total) * 100 : 0;
+            progressLine.style.width = `${Math.min(progress, 100)}%`;
         }
 
         async function ensureModel() {
@@ -554,35 +850,26 @@
                 const score = Math.round(prediction.score * 100);
                 const color = highlightClasses.has(prediction.class) ? '#22d3ee' : '#a78bfa';
                 const labelText = classLabels[prediction.class] || prediction.class;
-
                 ctx.strokeStyle = color;
                 ctx.lineWidth = 3;
                 ctx.strokeRect(x, y, width, height);
-
                 ctx.fillStyle = color;
                 const label = `${labelText} ${score}%`;
                 const textWidth = ctx.measureText(label).width + 16;
                 ctx.fillRect(x, Math.max(0, y - 28), textWidth, 24);
-
                 ctx.fillStyle = '#020617';
                 ctx.fillText(label, x + 8, Math.max(16, y - 10));
             });
         }
 
         function updateHistory(predictions) {
-            const labels = predictions.map(prediction => prediction.class);
-            detectionHistory.unshift(labels);
+            detectionHistory.unshift(predictions.map(prediction => prediction.class));
             detectionHistory = detectionHistory.slice(0, 8);
         }
 
         function getStableClasses() {
             const counts = new Map();
-            detectionHistory.forEach(frame => {
-                frame.forEach(label => {
-                    counts.set(label, (counts.get(label) || 0) + 1);
-                });
-            });
-
+            detectionHistory.forEach(frame => frame.forEach(label => counts.set(label, (counts.get(label) || 0) + 1)));
             return Array.from(counts.entries())
                 .filter(([, count]) => count >= 2)
                 .sort((a, b) => b[1] - a[1]);
@@ -603,9 +890,7 @@
                 .join('');
 
             targetChips.forEach(chip => {
-                const target = chip.dataset.target;
-                const active = stable.some(([label]) => label === target);
-                chip.classList.toggle('is-active', active);
+                chip.classList.toggle('is-active', stable.some(([label]) => label === chip.dataset.target));
             });
         }
 
@@ -614,73 +899,48 @@
             const stableSet = new Set(stable.map(([label]) => label));
             const findings = [];
 
-            if (classes.has('person') || stableSet.has('person')) {
-                findings.push('Pessoa presente no enquadramento.');
-            }
-            if (classes.has('cell phone') || stableSet.has('cell phone')) {
-                findings.push('Celular visivel na cena.');
-            }
-            if (classes.has('spoon') || stableSet.has('spoon')) {
-                findings.push('Colher detectada pelo modelo.');
-            }
-            if (classes.has('tie') || stableSet.has('tie')) {
-                findings.push('Acessorio de vestimenta detectado.');
-            }
-            if (classes.has('backpack') || classes.has('handbag') || stableSet.has('backpack') || stableSet.has('handbag')) {
-                findings.push('Item de transporte pessoal encontrado, util para leitura de contexto.');
-            }
-            if (classes.has('laptop') || classes.has('book') || classes.has('keyboard')) {
-                findings.push('Objeto de uso de escritorio/estudo identificado.');
-            }
+            if (classes.has('person') || stableSet.has('person')) findings.push('Pessoa presente no enquadramento.');
+            if (classes.has('cell phone') || stableSet.has('cell phone')) findings.push('Celular visivel na cena.');
+            if (classes.has('spoon') || stableSet.has('spoon')) findings.push('Colher detectada pelo modelo.');
+            if (classes.has('tie') || stableSet.has('tie')) findings.push('Acessorio de vestimenta detectado.');
+            if (classes.has('backpack') || classes.has('handbag') || stableSet.has('backpack') || stableSet.has('handbag')) findings.push('Item de transporte pessoal encontrado, util para contextualizacao operacional.');
+            if (classes.has('laptop') || classes.has('book') || classes.has('keyboard')) findings.push('Objeto de estudo ou trabalho identificado na cena.');
 
-            if (!findings.length) {
-                specialFindings.innerHTML = '<div class="rounded-2xl border border-white/10 bg-white/5 p-4">Nenhum destaque operacional ainda.</div>';
-                return;
-            }
-
-            specialFindings.innerHTML = findings
-                .map(finding => `<div class="rounded-2xl border border-cyan-400/15 bg-cyan-400/10 p-4">${finding}</div>`)
-                .join('');
+            specialFindings.innerHTML = findings.length
+                ? findings.map(finding => `<div class="rounded-2xl border border-cyan-400/15 bg-cyan-400/10 p-4">${finding}</div>`).join('')
+                : '<div class="soft-card rounded-2xl p-4">Nenhum destaque operacional ainda.</div>';
         }
 
         function setRiskVisual(level, sensitiveList, findings) {
-            const visuals = {
+            const presets = {
                 baixo: {
                     badge: 'Sem alerta',
-                    badgeClass: 'px-3 py-2 rounded-full border border-white/10 bg-white/5 text-slate-300 text-xs font-bold uppercase tracking-[0.16em]',
-                    levelLabel: 'Baixo'
+                    badgeClass: 'px-3 py-2 rounded-full soft-card text-slate-300 text-xs font-bold uppercase tracking-[0.16em]',
+                    label: 'Baixo'
                 },
                 medio: {
                     badge: 'Atencao moderada',
                     badgeClass: 'px-3 py-2 rounded-full border border-amber-400/25 bg-amber-400/10 text-amber-200 text-xs font-bold uppercase tracking-[0.16em]',
-                    levelLabel: 'Medio'
+                    label: 'Medio'
                 },
                 alto: {
                     badge: 'Alerta elevado',
                     badgeClass: 'px-3 py-2 rounded-full border border-rose-400/25 bg-rose-400/10 text-rose-200 text-xs font-bold uppercase tracking-[0.16em]',
-                    levelLabel: 'Alto'
+                    label: 'Alto'
                 }
             };
 
-            const selected = visuals[level] || visuals.baixo;
+            const selected = presets[level] || presets.baixo;
             riskBadge.className = selected.badgeClass;
             riskBadge.textContent = selected.badge;
-            riskLevel.textContent = selected.levelLabel;
+            riskLevel.textContent = selected.label;
             sensitiveObjects.textContent = sensitiveList.length ? sensitiveList.map(label => classLabels[label] || label).join(', ') : 'Nenhum';
-
-            if (!findings.length) {
-                riskFindings.innerHTML = '<div class="rounded-2xl border border-white/10 bg-white/5 p-4">Nenhum padrao de atencao identificado.</div>';
-                return;
-            }
-
-            riskFindings.innerHTML = findings
-                .map(finding => {
-                    const tone = level === 'alto'
-                        ? 'border border-rose-400/20 bg-rose-400/10'
-                        : 'border border-amber-400/20 bg-amber-400/10';
+            riskFindings.innerHTML = findings.length
+                ? findings.map(finding => {
+                    const tone = level === 'alto' ? 'border border-rose-400/20 bg-rose-400/10' : 'border border-amber-400/20 bg-amber-400/10';
                     return `<div class="rounded-2xl ${tone} p-4">${finding}</div>`;
-                })
-                .join('');
+                }).join('')
+                : '<div class="soft-card rounded-2xl p-4">Nenhum padrao de atencao identificado.</div>';
         }
 
         function assessSceneRisk(predictions, stable) {
@@ -690,7 +950,6 @@
             const findings = [];
             let level = 'baixo';
 
-            const personPresent = classes.has('person') || stableSet.has('person');
             const bagPresent = classes.has('backpack') || classes.has('handbag') || stableSet.has('backpack') || stableSet.has('handbag');
             const phonePresent = classes.has('cell phone') || stableSet.has('cell phone');
             const multiPerson = predictions.filter(prediction => prediction.class === 'person').length >= 2;
@@ -702,17 +961,17 @@
             }
 
             if (multiPerson && (bagPresent || phonePresent)) {
-                findings.push('Cena com mais de uma pessoa e objetos portateis relevantes, recomendando observacao adicional.');
+                findings.push('Mais de uma pessoa com objetos portateis visiveis. Vale acompanhar a cena com mais atencao.');
                 if (level !== 'alto') level = 'medio';
             }
 
             if (persistentPerson && !sensitiveList.length) {
-                findings.push('Pessoa persistente no enquadramento por varios ciclos, util para triagem de permanencia em area monitorada.');
+                findings.push('Pessoa persistente no enquadramento por varios ciclos. Esse tipo de leitura pode ser util em areas monitoradas.');
                 if (level === 'baixo') level = 'medio';
             }
 
-            if (personPresent && bagPresent && phonePresent) {
-                findings.push('Pessoa com combinacao de bolsa/mochila e celular visiveis; pode ser um sinal util de contextualizacao operacional.');
+            if ((classes.has('person') || stableSet.has('person')) && bagPresent && phonePresent) {
+                findings.push('Pessoa com bolsa ou mochila e celular visiveis. Nao e um alerta por si so, mas ajuda a enriquecer a triagem da cena.');
                 if (level === 'baixo') level = 'medio';
             }
 
@@ -753,10 +1012,8 @@
         async function startCamera() {
             startButton.disabled = true;
             cameraStatus.textContent = 'Inicializando';
-
             try {
                 await ensureModel();
-
                 stream = await navigator.mediaDevices.getUserMedia({
                     video: {
                         facingMode: cameraMode.value,
@@ -802,7 +1059,7 @@
             topScore.textContent = '0%';
             stableObjects.textContent = 'Nenhum';
             recentClasses.innerHTML = '<span class="px-3 py-2 rounded-full border border-white/10 bg-white/5">Sem deteccoes</span>';
-            specialFindings.innerHTML = '<div class="rounded-2xl border border-white/10 bg-white/5 p-4">Nenhum destaque operacional ainda.</div>';
+            specialFindings.innerHTML = '<div class="soft-card rounded-2xl p-4">Nenhum destaque operacional ainda.</div>';
             detectionHistory = [];
             targetChips.forEach(chip => chip.classList.remove('is-active'));
             setRiskVisual('baixo', [], []);
@@ -816,8 +1073,48 @@
 
         startButton.addEventListener('click', startCamera);
         stopButton.addEventListener('click', stopCamera);
-
         window.addEventListener('beforeunload', stopCamera);
+        window.addEventListener('scroll', updateScrollProgress, { passive: true });
+        window.addEventListener('DOMContentLoaded', () => {
+            bindStoryNavigation();
+            bindTabs();
+            updateScrollProgress();
+        });
+    </script>
+
+    <script type="module">
+        import '../../assets/js/rod-assistant.js'
+        window.addEventListener('DOMContentLoaded', () => {
+            window.initROD({
+                knowledgePath: '../../assets/data/rod-knowledge.json',
+                currentProjectSlug: 'controle-acesso-visao',
+                subtlePrompt: true,
+            })
+        })
+    </script>
+    <script>
+        window.ROD_TOUR_DEFINITIONS = {
+            overview: [
+                {
+                    selector: '#hero',
+                    text: 'Esta abertura posiciona o projeto como case tecnico. Nao e so uma pagina bonita: ela explica o recorte, o valor e o papel da reconstrucao.'
+                },
+                {
+                    selector: '#arquitetura',
+                    text: 'Aqui a leitura foi organizada por responsabilidade. Isso deixa a arquitetura mais clara e muito mais facil de absorver.'
+                },
+                {
+                    selector: '#demo',
+                    text: 'A demo torna o case vivo. Ela nao tenta fingir o sistema original, mas prova competencia real em visao computacional no navegador.'
+                }
+            ]
+        };
+    </script>
+    <script src="../../assets/js/rod-tour.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            if (window.initRODTour) window.initRODTour();
+        });
     </script>
 </body>
 </html>
