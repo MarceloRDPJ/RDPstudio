@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Acesso Vision | RDP Studio</title>
+    <meta name="description" content="Reconstrucao documental de um TCC sobre controle de acesso com reconhecimento facial, com demo interativa de reconhecimento de objetos pela camera.">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/site/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/site/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/site/favicon-16x16.png">
+    <link rel="manifest" href="../../assets/site/site.webmanifest">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.20.0/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background:
+                radial-gradient(circle at top left, rgba(8, 145, 178, 0.18), transparent 30%),
+                radial-gradient(circle at bottom right, rgba(37, 99, 235, 0.18), transparent 28%),
+                #020617;
+            color: #f8fafc;
+        }
+
+        .font-mono {
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .surface {
+            background: rgba(15, 23, 42, 0.78);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow: 0 30px 80px -40px rgba(0, 0, 0, 0.85);
+        }
+
+        .hero-grid {
+            background-image:
+                linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px);
+            background-size: 28px 28px;
+        }
+
+        .text-gradient {
+            background-image: linear-gradient(90deg, #67e8f9, #60a5fa, #a78bfa);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .scan-line {
+            position: absolute;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, rgba(34, 211, 238, 0.9), transparent);
+            box-shadow: 0 0 18px rgba(34, 211, 238, 0.65);
+            animation: sweep 3.2s linear infinite;
+        }
+
+        @keyframes sweep {
+            0% { top: 8%; opacity: 0.2; }
+            50% { top: 88%; opacity: 1; }
+            100% { top: 8%; opacity: 0.2; }
+        }
+
+        .video-shell {
+            aspect-ratio: 4 / 3;
+            background:
+                radial-gradient(circle at center, rgba(14, 165, 233, 0.12), transparent 45%),
+                #020617;
+        }
+
+        #cameraVideo,
+        #overlayCanvas {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 1rem;
+        }
+
+        .watermark-container::after {
+            content: "© 2026 RDP STUDIO. Desenvolvido por Marcelo Rodrigues.";
+            font-size: 0.75rem;
+            color: #64748b;
+            opacity: 0.45;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-cyan-400 selection:text-slate-950">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-6 min-h-screen flex flex-col">
+        <header class="flex justify-between items-center gap-4 mb-8">
+            <a href="../../hub/projetos.html" class="flex items-center gap-3 text-slate-400 hover:text-white transition-colors group">
+                <div class="w-10 h-10 rounded-xl surface flex items-center justify-center border border-white/5 group-hover:border-cyan-400/30 transition-colors">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </div>
+                <span class="text-sm font-semibold uppercase tracking-[0.18em]">Voltar ao Hub</span>
+            </a>
+            <div class="px-4 py-2 rounded-full border border-cyan-400/20 bg-cyan-400/10 text-cyan-300 text-xs font-bold uppercase tracking-[0.18em]">
+                Reconstrucao de TCC
+            </div>
+        </header>
+
+        <main class="flex-grow space-y-8 md:space-y-10">
+            <section class="surface rounded-[2rem] overflow-hidden relative">
+                <div class="absolute inset-0 hero-grid opacity-30"></div>
+                <div class="grid lg:grid-cols-2 gap-8 p-6 md:p-8 lg:p-10 relative">
+                    <div class="space-y-6">
+                        <div class="text-xs font-mono uppercase tracking-[0.24em] text-slate-400">AIoT . Seguranca fisica . Visao computacional</div>
+                        <div>
+                            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight">
+                                Controle de acesso com <span class="text-gradient">reconhecimento facial</span> e monitoramento remoto
+                            </h1>
+                            <p class="mt-4 text-slate-300 text-base md:text-lg leading-relaxed max-w-2xl">
+                                Esta pagina reconstrui seu projeto de TCC com base no artigo publicado na RBMC e adiciona uma previa interativa de visao computacional usando a camera do visitante direto no navegador.
+                            </p>
+                        </div>
+
+                        <div class="grid sm:grid-cols-3 gap-3 text-sm">
+                            <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+                                <div class="text-slate-400 uppercase text-[11px] tracking-[0.16em] mb-2">Hardware</div>
+                                <div class="font-semibold text-white">ESP32-CAM + ESP32 WROOM</div>
+                            </div>
+                            <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+                                <div class="text-slate-400 uppercase text-[11px] tracking-[0.16em] mb-2">Desktop</div>
+                                <div class="font-semibold text-white">Python + OpenCV + MySQL</div>
+                            </div>
+                            <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+                                <div class="text-slate-400 uppercase text-[11px] tracking-[0.16em] mb-2">Demo atual</div>
+                                <div class="font-semibold text-white">Object detection na webcam</div>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-wrap gap-3">
+                            <a href="#previa" class="px-5 py-3 rounded-full bg-cyan-400 text-slate-950 font-bold text-sm hover:bg-cyan-300 transition-colors">Ver previa ao vivo</a>
+                            <a href="#documentacao" class="px-5 py-3 rounded-full border border-white/10 bg-white/5 text-white font-semibold text-sm hover:bg-white/10 transition-colors">Ler documentacao</a>
+                        </div>
+                    </div>
+
+                    <div class="relative min-h-[320px] lg:min-h-full rounded-[1.75rem] border border-cyan-400/20 bg-slate-950/70 overflow-hidden">
+                        <div class="absolute inset-0 bg-gradient-to-br from-cyan-400/10 via-blue-500/10 to-violet-500/10"></div>
+                        <div class="scan-line"></div>
+                        <div class="relative h-full p-6 flex flex-col justify-between">
+                            <div class="flex items-center justify-between text-xs uppercase tracking-[0.18em] text-slate-400 font-mono">
+                                <span>Arquitetura distribuida</span>
+                                <span>RBMC 2024</span>
+                            </div>
+                            <div class="space-y-4">
+                                <div class="rounded-2xl border border-cyan-400/20 bg-cyan-400/10 p-4">
+                                    <div class="text-cyan-300 text-xs uppercase tracking-[0.16em] mb-2">Camada 1</div>
+                                    <div class="text-white font-bold">ESP32-CAM</div>
+                                    <div class="text-slate-300 text-sm mt-2">Captura de imagem, servidor HTTP, WebSocket e processamento facial local.</div>
+                                </div>
+                                <div class="rounded-2xl border border-amber-400/20 bg-amber-400/10 p-4">
+                                    <div class="text-amber-300 text-xs uppercase tracking-[0.16em] mb-2">Camada 2</div>
+                                    <div class="text-white font-bold">ESP32 WROOM</div>
+                                    <div class="text-slate-300 text-sm mt-2">Controle de buzzer, sensor magnetico, rele e fecho eletromagnetico.</div>
+                                </div>
+                                <div class="rounded-2xl border border-violet-400/20 bg-violet-400/10 p-4">
+                                    <div class="text-violet-300 text-xs uppercase tracking-[0.16em] mb-2">Camada 3</div>
+                                    <div class="text-white font-bold">Aplicacao Python</div>
+                                    <div class="text-slate-300 text-sm mt-2">Cadastro e reconhecimento em desktop com interface grafica e banco MySQL.</div>
+                                </div>
+                            </div>
+                            <div class="text-xs text-slate-500 leading-relaxed">
+                                Reconstrucao documental baseada no artigo cientifico, com demo moderna no browser para tornar o case visivel dentro do portfolio.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="previa" class="grid xl:grid-cols-[1.2fr_0.8fr] gap-6 items-start">
+                <div class="surface rounded-[2rem] p-5 md:p-6">
+                    <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-5">
+                        <div>
+                            <div class="text-xs uppercase tracking-[0.2em] text-cyan-300 font-mono mb-2">Previa interativa</div>
+                            <h2 class="text-2xl font-bold text-white">Reconhecimento de objetos com a camera do usuario</h2>
+                            <p class="text-slate-400 mt-2 max-w-2xl">A demo abaixo roda 100% no navegador. Ela usa a webcam do visitante para detectar objetos em tempo real e servir como prova visual de capacidade em visao computacional.</p>
+                        </div>
+                        <div id="modelBadge" class="px-4 py-2 rounded-full border border-white/10 bg-white/5 text-slate-300 text-xs font-bold uppercase tracking-[0.16em]">
+                            Carregando modelo...
+                        </div>
+                    </div>
+
+                    <div class="video-shell relative rounded-2xl overflow-hidden border border-white/10">
+                        <video id="cameraVideo" autoplay playsinline muted class="absolute inset-0"></video>
+                        <canvas id="overlayCanvas" class="absolute inset-0"></canvas>
+                        <div id="cameraPlaceholder" class="absolute inset-0 flex flex-col items-center justify-center text-center p-8 bg-slate-950/85">
+                            <div class="w-20 h-20 rounded-full border border-cyan-400/25 bg-cyan-400/10 flex items-center justify-center text-cyan-300 text-3xl mb-4">
+                                <i class="fa-solid fa-camera"></i>
+                            </div>
+                            <div class="text-white font-bold text-lg mb-2">Aguardando acesso a camera</div>
+                            <p class="text-slate-400 max-w-md">Clique em iniciar para carregar o modelo e pedir permissao da webcam. Em ambientes locais, a camera costuma exigir `localhost` ou `https`.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-wrap gap-3 mt-5">
+                        <button id="startCameraBtn" class="px-5 py-3 rounded-full bg-cyan-400 text-slate-950 font-bold text-sm hover:bg-cyan-300 transition-colors">
+                            <i class="fa-solid fa-play mr-2"></i>Iniciar camera
+                        </button>
+                        <button id="stopCameraBtn" class="px-5 py-3 rounded-full border border-white/10 bg-white/5 text-white font-semibold text-sm hover:bg-white/10 transition-colors" disabled>
+                            <i class="fa-solid fa-stop mr-2"></i>Parar camera
+                        </button>
+                    </div>
+                </div>
+
+                <div class="space-y-6">
+                    <div class="surface rounded-[2rem] p-5 md:p-6">
+                        <div class="text-xs uppercase tracking-[0.18em] text-slate-500 font-mono mb-4">Telemetria da demo</div>
+                        <div class="grid grid-cols-2 gap-3">
+                            <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+                                <div class="text-slate-400 text-xs uppercase tracking-[0.16em] mb-2">Status</div>
+                                <div id="cameraStatus" class="text-white font-bold">Ocioso</div>
+                            </div>
+                            <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+                                <div class="text-slate-400 text-xs uppercase tracking-[0.16em] mb-2">Deteccoes</div>
+                                <div id="detectionCount" class="text-white font-bold">0</div>
+                            </div>
+                            <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+                                <div class="text-slate-400 text-xs uppercase tracking-[0.16em] mb-2">Objeto principal</div>
+                                <div id="topObject" class="text-white font-bold">Nenhum</div>
+                            </div>
+                            <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
+                                <div class="text-slate-400 text-xs uppercase tracking-[0.16em] mb-2">Confianca</div>
+                                <div id="topScore" class="text-white font-bold">0%</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="surface rounded-[2rem] p-5 md:p-6">
+                        <div class="text-xs uppercase tracking-[0.18em] text-slate-500 font-mono mb-4">Observacoes</div>
+                        <ul class="space-y-3 text-sm text-slate-300 leading-relaxed">
+                            <li class="flex gap-3"><i class="fa-solid fa-circle-info text-cyan-300 mt-1"></i><span>Esta previa usa reconhecimento de objetos, nao autenticacao facial completa.</span></li>
+                            <li class="flex gap-3"><i class="fa-solid fa-shield text-emerald-300 mt-1"></i><span>O processamento acontece no cliente. O video nao precisa ser enviado para servidor.</span></li>
+                            <li class="flex gap-3"><i class="fa-solid fa-lightbulb text-amber-300 mt-1"></i><span>A demo foi incluida para materializar o tema de visao computacional do TCC no portfolio atual.</span></li>
+                        </ul>
+                        <div id="eventLog" class="mt-5 rounded-2xl border border-white/10 bg-slate-950/70 p-4 text-xs font-mono text-slate-400 min-h-[130px] overflow-auto">
+                            Sistema pronto. Nenhum evento ainda.
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="documentacao" class="grid lg:grid-cols-3 gap-6 items-start">
+                <div class="lg:col-span-2 space-y-6">
+                    <div class="surface rounded-[2rem] p-6 md:p-7">
+                        <div class="text-xs uppercase tracking-[0.2em] text-cyan-300 font-mono mb-3">Contexto</div>
+                        <h2 class="text-2xl font-bold text-white mb-4">O que o projeto original fazia</h2>
+                        <p class="text-slate-300 leading-relaxed mb-4">O trabalho descreve um sistema de controle de acesso por reconhecimento facial com monitoramento remoto, combinando dispositivos embarcados com uma aplicacao desktop. A proposta era modernizar a autenticacao fisica com uma solucao de baixo custo e boa capacidade de expansao.</p>
+                        <p class="text-slate-300 leading-relaxed">Segundo o artigo, o sistema usava `ESP32-CAM` para captura e processamento de imagem, `ESP32 WROOM` como atuador, tela TFT de `1.8in`, sensor magnetico, buzzer, rele e fecho eletromagnetico para abrir ou restringir a porta conforme o resultado da autenticacao.</p>
+                    </div>
+
+                    <div class="surface rounded-[2rem] p-6 md:p-7">
+                        <div class="text-xs uppercase tracking-[0.2em] text-cyan-300 font-mono mb-3">Arquitetura</div>
+                        <h2 class="text-2xl font-bold text-white mb-5">Fluxo tecnico reconstruido</h2>
+                        <div class="space-y-4">
+                            <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
+                                <div class="text-white font-bold mb-2">1. Captura e processamento</div>
+                                <div class="text-slate-300 text-sm leading-relaxed">A `ESP32-CAM` realiza captura da face, exibe retorno em tela TFT, cria servidor local e mantem comunicacao com clientes remotos por HTTP e WebSocket.</div>
+                            </div>
+                            <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
+                                <div class="text-white font-bold mb-2">2. Decisao de acesso</div>
+                                <div class="text-slate-300 text-sm leading-relaxed">Quando a autenticacao corresponde a um usuario cadastrado, o sistema envia o sinal para o `ESP32 WROOM`, que aciona rele e fecho eletromagnetico para liberar a porta.</div>
+                            </div>
+                            <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
+                                <div class="text-white font-bold mb-2">3. Supervisao e seguranca fisica</div>
+                                <div class="text-slate-300 text-sm leading-relaxed">Um sensor magnetico monitora o estado da porta. Se a porta permanece aberta, o buzzer fornece alerta sonoro para reforcar a operacao segura.</div>
+                            </div>
+                            <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
+                                <div class="text-white font-bold mb-2">4. Versao desktop complementar</div>
+                                <div class="text-slate-300 text-sm leading-relaxed">Em paralelo, a aplicacao Python em desktop faz cadastro, armazenamento de encodings faciais em `MySQL` e reconhecimento via webcam com `face_recognition` e `OpenCV`.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="surface rounded-[2rem] p-6 md:p-7">
+                        <div class="text-xs uppercase tracking-[0.2em] text-cyan-300 font-mono mb-3">Desafios</div>
+                        <h2 class="text-2xl font-bold text-white mb-5">Pontos destacados no artigo</h2>
+                        <div class="grid md:grid-cols-3 gap-4">
+                            <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
+                                <div class="text-white font-bold mb-2">Logistica</div>
+                                <div class="text-slate-300 text-sm">Aquisicao de componentes, compatibilidade entre pecas e atrasos de fornecedores internacionais.</div>
+                            </div>
+                            <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
+                                <div class="text-white font-bold mb-2">Versionamento</div>
+                                <div class="text-slate-300 text-sm">Conflitos de bibliotecas e ajustes de ambiente tanto no Arduino IDE quanto no stack Python.</div>
+                            </div>
+                            <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
+                                <div class="text-white font-bold mb-2">Hardware</div>
+                                <div class="text-slate-300 text-sm">Maus contatos, soldagem, organizacao de cabos e estabilidade das conexoes no prototipo fisico.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="space-y-6">
+                    <div class="surface rounded-[2rem] p-6">
+                        <div class="text-xs uppercase tracking-[0.18em] text-slate-500 font-mono mb-4">Materiais e stack</div>
+                        <div class="space-y-3 text-sm text-slate-300">
+                            <div class="flex items-center justify-between gap-3"><span>ESP32 ESP-WROOM-32</span><span class="text-slate-500">US$ 14.69</span></div>
+                            <div class="flex items-center justify-between gap-3"><span>ESP32-CAM</span><span class="text-slate-500">US$ 14.09</span></div>
+                            <div class="flex items-center justify-between gap-3"><span>Sensor magnetico MC-38</span><span class="text-slate-500">US$ 3.79</span></div>
+                            <div class="flex items-center justify-between gap-3"><span>Fecho eletrico 12V</span><span class="text-slate-500">US$ 15.13</span></div>
+                            <div class="flex items-center justify-between gap-3"><span>Tela TFT 1.8in</span><span class="text-slate-500">US$ 14.84</span></div>
+                            <div class="pt-3 mt-3 border-t border-white/10 flex items-center justify-between text-white font-bold"><span>Total estimado</span><span>US$ 82.94</span></div>
+                        </div>
+                    </div>
+
+                    <div class="surface rounded-[2rem] p-6">
+                        <div class="text-xs uppercase tracking-[0.18em] text-slate-500 font-mono mb-4">Ferramentas do software</div>
+                        <div class="flex flex-wrap gap-2 text-xs">
+                            <span class="px-3 py-2 rounded-full border border-white/10 bg-white/5 text-slate-200">Python</span>
+                            <span class="px-3 py-2 rounded-full border border-white/10 bg-white/5 text-slate-200">OpenCV</span>
+                            <span class="px-3 py-2 rounded-full border border-white/10 bg-white/5 text-slate-200">face_recognition</span>
+                            <span class="px-3 py-2 rounded-full border border-white/10 bg-white/5 text-slate-200">MySQL</span>
+                            <span class="px-3 py-2 rounded-full border border-white/10 bg-white/5 text-slate-200">tkinter</span>
+                            <span class="px-3 py-2 rounded-full border border-white/10 bg-white/5 text-slate-200">TensorFlow</span>
+                            <span class="px-3 py-2 rounded-full border border-white/10 bg-white/5 text-slate-200">ESP32</span>
+                        </div>
+                    </div>
+
+                    <div class="surface rounded-[2rem] p-6">
+                        <div class="text-xs uppercase tracking-[0.18em] text-slate-500 font-mono mb-4">Trabalhos futuros</div>
+                        <ul class="space-y-3 text-sm text-slate-300 leading-relaxed">
+                            <li>Reconhecimento 3D com diferentes angulos e condicoes de iluminacao.</li>
+                            <li>Banco de dados comum entre sistema embarcado e aplicacao desktop.</li>
+                            <li>Instalacao em ambiente real para validacao operacional com usuarios.</li>
+                        </ul>
+                    </div>
+
+                    <div class="surface rounded-[2rem] p-6 border border-cyan-400/20">
+                        <div class="text-xs uppercase tracking-[0.18em] text-cyan-300 font-mono mb-3">Referencia</div>
+                        <p class="text-sm text-slate-300 leading-relaxed">Lemos RP, Azevedo CH, Passos Junior MR, Kunzler JA. Sistema de controle de acesso atraves de reconhecimento facial com monitoramento remoto. Revista Brasileira Militar de Ciencias. 2024;10(24):e175.</p>
+                        <a href="https://doi.org/10.36414/rbmc.v10i24.175" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 mt-4 text-cyan-300 hover:text-cyan-200 transition-colors text-sm font-semibold">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            Abrir DOI do artigo
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="border-t border-slate-800/50 pt-12 pb-8 mt-14">
+            <div class="flex flex-col items-center text-center">
+                <div class="flex justify-center gap-8 mb-8">
+                    <a href="https://instagram.com/marcelo_rpj" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="text-slate-400 hover:text-cyan-300 transition-colors text-2xl"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/marcelo-rodrigues-088478211/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="text-slate-400 hover:text-cyan-300 transition-colors text-2xl"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="mailto:rdpstudio@gmail.com" aria-label="Email" class="text-slate-400 hover:text-cyan-300 transition-colors text-2xl"><i class="fa-regular fa-envelope"></i></a>
+                </div>
+                <p class="text-sm text-slate-500 mb-2">© 2026 RDP STUDIO. Todos os direitos reservados.</p>
+                <p class="text-xs text-slate-600 font-mono">Desenvolvido com foco em documentacao tecnica e demonstracao visual</p>
+                <div class="watermark-container hidden"></div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        const video = document.getElementById('cameraVideo');
+        const canvas = document.getElementById('overlayCanvas');
+        const ctx = canvas.getContext('2d');
+        const startButton = document.getElementById('startCameraBtn');
+        const stopButton = document.getElementById('stopCameraBtn');
+        const placeholder = document.getElementById('cameraPlaceholder');
+        const modelBadge = document.getElementById('modelBadge');
+        const cameraStatus = document.getElementById('cameraStatus');
+        const detectionCount = document.getElementById('detectionCount');
+        const topObject = document.getElementById('topObject');
+        const topScore = document.getElementById('topScore');
+        const eventLog = document.getElementById('eventLog');
+
+        let model = null;
+        let stream = null;
+        let animationFrameId = null;
+        let running = false;
+        let detectCooldown = false;
+
+        function logEvent(message) {
+            const timestamp = new Date().toLocaleTimeString('pt-BR');
+            const entry = `[${timestamp}] ${message}`;
+            if (eventLog.textContent.includes('Nenhum evento ainda')) {
+                eventLog.textContent = entry;
+            } else {
+                eventLog.textContent = `${entry}\n${eventLog.textContent}`;
+            }
+        }
+
+        async function ensureModel() {
+            if (model) return model;
+            modelBadge.textContent = 'Carregando COCO-SSD...';
+            logEvent('Carregando modelo COCO-SSD no navegador.');
+            model = await cocoSsd.load();
+            modelBadge.textContent = 'Modelo pronto';
+            logEvent('Modelo carregado com sucesso.');
+            return model;
+        }
+
+        function resizeCanvas() {
+            const width = video.videoWidth || 640;
+            const height = video.videoHeight || 480;
+            canvas.width = width;
+            canvas.height = height;
+        }
+
+        function drawDetections(predictions) {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            predictions.forEach(prediction => {
+                const [x, y, width, height] = prediction.bbox;
+                const score = Math.round(prediction.score * 100);
+
+                ctx.strokeStyle = '#22d3ee';
+                ctx.lineWidth = 3;
+                ctx.strokeRect(x, y, width, height);
+
+                ctx.fillStyle = '#22d3ee';
+                const label = `${prediction.class} ${score}%`;
+                const textWidth = ctx.measureText(label).width + 16;
+                ctx.fillRect(x, Math.max(0, y - 28), textWidth, 24);
+
+                ctx.fillStyle = '#020617';
+                ctx.font = 'bold 14px Inter';
+                ctx.fillText(label, x + 8, Math.max(16, y - 10));
+            });
+        }
+
+        async function detectFrame() {
+            if (!running) return;
+
+            if (!detectCooldown && model && video.readyState >= 2) {
+                detectCooldown = true;
+                const predictions = await model.detect(video);
+                resizeCanvas();
+                drawDetections(predictions);
+
+                detectionCount.textContent = String(predictions.length);
+                if (predictions.length > 0) {
+                    const best = [...predictions].sort((a, b) => b.score - a.score)[0];
+                    topObject.textContent = best.class;
+                    topScore.textContent = `${Math.round(best.score * 100)}%`;
+                } else {
+                    topObject.textContent = 'Nenhum';
+                    topScore.textContent = '0%';
+                }
+
+                detectCooldown = false;
+            }
+
+            animationFrameId = requestAnimationFrame(detectFrame);
+        }
+
+        async function startCamera() {
+            startButton.disabled = true;
+            cameraStatus.textContent = 'Inicializando';
+
+            try {
+                await ensureModel();
+
+                stream = await navigator.mediaDevices.getUserMedia({
+                    video: { facingMode: 'user' },
+                    audio: false
+                });
+
+                video.srcObject = stream;
+                await video.play();
+                resizeCanvas();
+                running = true;
+                placeholder.classList.add('hidden');
+                stopButton.disabled = false;
+                cameraStatus.textContent = 'Executando';
+                logEvent('Camera iniciada e deteccao em tempo real ativa.');
+                detectFrame();
+            } catch (error) {
+                console.error(error);
+                cameraStatus.textContent = 'Falha';
+                placeholder.classList.remove('hidden');
+                logEvent(`Falha ao iniciar camera: ${error.message}`);
+                startButton.disabled = false;
+            }
+        }
+
+        function stopCamera() {
+            running = false;
+            if (animationFrameId) cancelAnimationFrame(animationFrameId);
+            if (stream) {
+                stream.getTracks().forEach(track => track.stop());
+                stream = null;
+            }
+            video.srcObject = null;
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            placeholder.classList.remove('hidden');
+            startButton.disabled = false;
+            stopButton.disabled = true;
+            cameraStatus.textContent = 'Ocioso';
+            detectionCount.textContent = '0';
+            topObject.textContent = 'Nenhum';
+            topScore.textContent = '0%';
+            logEvent('Camera encerrada pelo usuario.');
+        }
+
+        startButton.addEventListener('click', startCamera);
+        stopButton.addEventListener('click', stopCamera);
+
+        window.addEventListener('beforeunload', stopCamera);
+    </script>
+</body>
+</html>

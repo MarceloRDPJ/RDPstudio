@@ -1,5 +1,38 @@
 [
   {
+    "slug": "controle-acesso-visao",
+    "name": "Controle de Acesso Vision",
+    "headline": "Reconstrucao documental de TCC com demo de visao computacional no navegador.",
+    "summary": "Pagina de portfolio baseada em artigo cientifico sobre controle de acesso facial com ESP32, acrescida de previa interativa de reconhecimento de objetos via webcam.",
+    "problem": "O projeto original nao tinha mais codigo disponivel, o que dificultava apresentar o trabalho de forma concreta dentro do portfolio atual.",
+    "solution": "A entrega reconstrui a arquitetura, resultados e contexto do TCC e adiciona uma demo client-side com camera para materializar o tema de visao computacional.",
+    "outcome": "Transforma um artigo academico em um case navegavel, visual e util para apresentacao profissional.",
+    "type": "Case",
+    "category": "Computer Vision",
+    "status": "Reconstrucao publicada",
+    "maturity": "Documentacao interativa",
+    "primaryColor": "cyan",
+    "icon": "fa-camera",
+    "frontend": ["HTML", "Tailwind CDN", "JavaScript Vanilla", "TensorFlow.js"],
+    "backend": ["Sem backend", "Processamento local de webcam", "COCO-SSD no navegador"],
+    "languages": ["JavaScript", "HTML", "CSS"],
+    "automation": ["Deteccao de objetos em tempo real", "Renderizacao de bounding boxes", "Documentacao reconstruida"],
+    "hosting": ["GitHub Pages", "Compativel com Cloudflare Pages"],
+    "responsive": true,
+    "backendMode": "Sem backend",
+    "codeVisibility": "Publico",
+    "intent": "Apresentar um TCC sem codigo-fonte original como case tecnico navegavel, mantendo rigor documental e uma demonstracao viva de visao computacional.",
+    "useSteps": [
+      "Abra a pagina do projeto e leia o contexto do artigo e da reconstrucao.",
+      "Role ate a previa interativa e inicie a camera para testar a deteccao de objetos.",
+      "Use os blocos de arquitetura, materiais e desafios para entender o escopo tecnico original."
+    ],
+    "projectUrl": "../projects/controle-acesso-visao/index.html",
+    "readmeUrl": "../projects/controle-acesso-visao/README.md",
+    "architectureUrl": null,
+    "ctaLabel": "Abrir Case"
+  },
+  {
     "slug": "igreja-casa",
     "name": "Igreja Casa Hub",
     "headline": "Plataforma operacional para gestão pastoral, administrativa e jornada de pessoas.",

@@ -73,6 +73,25 @@
   ],
   "projects": [
     {
+      "slug": "controle-acesso-visao",
+      "name": "Controle de Acesso Vision",
+      "aliases": ["controle de acesso", "tcc reconhecimento facial", "esp32 cam", "esp32cam", "reconhecimento facial", "computer vision", "visao computacional"],
+      "category": "Computer Vision",
+      "summary": "Reconstrucao documental de um TCC sobre controle de acesso facial com ESP32, com demo atual de reconhecimento de objetos via webcam.",
+      "problem": "O case original existia como artigo academico, mas sem o codigo disponivel ficava dificil mostra-lo de forma tangivel no portfolio.",
+      "solution": "A pagina recompõe arquitetura, materiais, desafios e resultados do trabalho e adiciona uma demo de visao computacional no browser.",
+      "howToUse": [
+        "Abra a pagina para entender o contexto tecnico do TCC.",
+        "Inicie a camera na secao de previa para testar a deteccao de objetos em tempo real.",
+        "Use os blocos de arquitetura e materiais para ler o projeto como case tecnico reconstruido."
+      ],
+      "stack": ["HTML", "JavaScript", "Tailwind CDN", "TensorFlow.js", "COCO-SSD", "ESP32-CAM", "Python"],
+      "backendMode": "Sem backend",
+      "projectUrl": "../projects/controle-acesso-visao/index.html",
+      "guidedTourUrl": "../projects/controle-acesso-visao/index.html",
+      "keywords": ["tcc", "reconhecimento facial", "esp32", "camera", "objetos", "webcam", "iot", "aiot"]
+    },
+    {
       "slug": "igreja-casa",
       "name": "Igreja Casa Hub",
       "aliases": ["igreja casa", "igreja casa hub", "hub igreja casa", "crm pastoral", "domum"],
