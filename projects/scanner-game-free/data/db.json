@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-04-29T13:56:59",
-  "display_date": "29/04/2026 13:56",
+  "last_updated": "2026-04-30T13:56:21",
+  "display_date": "30/04/2026 13:56",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "565ms",
+    "latency": "406ms",
     "current_games": [
       {
         "title": "DOOMBLADE",
@@ -25,6 +25,15 @@
         "price": "0",
         "start_date": "2026-04-30T15:00:00.000Z",
         "end_date": "2026-05-07T15:00:00.000Z"
+      },
+      {
+        "title": "Eternal Threads",
+        "description": "Eternal Threads é um jogo de quebra-cabeça para um jogador, em primeira pessoa, baseado em uma história de manipulação, escolha e consequência do tempo.",
+        "image": "https://cdn1.epicgames.com/spt-assets/08813e055af64315b8a55b2e521f4e04/eternal-threads-1vm6i.jpg",
+        "url": "https://store.epicgames.com/p/a9152a8924cc4e438f0e61106ec02f7d",
+        "price": "$19.99",
+        "start_date": "2026-05-14T15:00:00.000Z",
+        "end_date": "2026-06-11T15:00:00.000Z"
       },
       {
         "title": "Ghostrunner 2",
@@ -92,7 +101,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-04-29",
+      "date": "2026-04-30",
       "summary": "Nas profundezas do subsolo, Gloom Girl descobre DOOMBLADE, uma arma senciente determinada a escapar depois de eras acorrentadas. Juntos, “Doom and Gloom” embarcam em uma busca vingativa para desbloquear habilidades poderosas e destruir os Dread Lords de uma vez por todas neste Metroidvania de ação 2D.",
       "sources": [
         "Epic Games Store"
@@ -107,12 +116,27 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-04-29",
+      "date": "2026-04-30",
       "summary": "Disponível gratuitamente a partir de 30/04. Firestone: Online Idle RPG é um jogo de fantasia multijogador com mecânica de RPG ocioso. Colete heróis🧙‍♂️, atualize seus equipamentos e habilidades e envie-os para batalhas AFK ou entre em um frenesi incremental de clicker para derrotar chefes monstruosos! Converse com amigos da guilda ou participe de PVP⚔️.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/1185abfe7c554a1e8c528aba37bf3d0f"
+    },
+    {
+      "id": "https://store.epicgames.com/p/a9152a8924cc4e438f0e61106ec02f7d",
+      "title": "EM BREVE: Eternal Threads",
+      "original_title": "Eternal Threads",
+      "image": "https://cdn1.epicgames.com/spt-assets/08813e055af64315b8a55b2e521f4e04/eternal-threads-1vm6i.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-04-30",
+      "summary": "Disponível gratuitamente a partir de 14/05. Eternal Threads é um jogo de quebra-cabeça para um jogador, em primeira pessoa, baseado em uma história de manipulação, escolha e consequência do tempo.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/a9152a8924cc4e438f0e61106ec02f7d"
     },
     {
       "id": "https://store.epicgames.com/p/ghostrunner-2",
@@ -122,7 +146,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-04-29",
+      "date": "2026-04-30",
       "summary": "Disponível gratuitamente a partir de 14/05. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
       "sources": [
         "Epic Games Store"
@@ -137,7 +161,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-04-29",
+      "date": "2026-04-30",
       "summary": "Disponível gratuitamente a partir de 30/04. Projete oficinas automatizadas para que seus estranhos e adoráveis ​​Sparks carreguem e criem tudo, inclusive mais deles mesmos. Lidere seu esquadrão de Sparks para o combate. Explore um estranho mundo de fantasia, no modo single player ou no modo cooperativo online. Desvende o antigo mistério das Centelhas!",
       "sources": [
         "Epic Games Store"
@@ -152,7 +176,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-04-29",
+      "date": "2026-04-30",
       "summary": "Disponível gratuitamente a partir de 16/09. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
@@ -167,7 +191,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-04-29",
+      "date": "2026-04-30",
       "summary": "Disponível gratuitamente a partir de 14/05. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
@@ -182,7 +206,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-04-29",
+      "date": "2026-04-30",
       "summary": "Disponível gratuitamente a partir de 14/05. A Coleção de Aniversário de Castlevania da Konami traça as origens da histórica franquia de vampiros. Está incluído um e-book exclusivo com detalhes fornecidos por desenvolvedores, artistas e outros inspirados no legado de Castlevania, que lança uma nova luz sobre o mundo de Castlevania.",
       "sources": [
         "Epic Games Store"
@@ -197,7 +221,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-04-29",
+      "date": "2026-04-30",
       "summary": "Disponível gratuitamente a partir de 14/05. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
       "sources": [
         "Epic Games Store"
@@ -205,34 +229,424 @@
       "url": "https://store.epicgames.com/p/monument-valley-02"
     },
     {
-      "id": "https://www.eurogamer.net/playstation-digital-games-30-day-online-drm",
-      "title": "Aumentam os temores de que o PlayStation tenha “rearmado o problema CBOMB”, que impede você de jogar jogos comprados, em meio à confusão de DRM de 30 dias e bot de bate-papo AI",
-      "original_title": "Fears mount that PlayStation has \"re-armed the CBOMB\" issue which stops you playing purchased games, amid 30-day DRM and AI chat bot confusion",
-      "image": "https://assetsio.gnwcdn.com/ps5-explosion-custom-header.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/resident-evil-movie-zach-cregger-first-trailer",
+      "title": "Nosso primeiro trailer do filme Resident Evil de Zach Cregger tem ecos de armas e muito mais, mas fica um pouco aquém dos lickers",
+      "original_title": "Our first trailer for Zach Cregger's Resident Evil movie has echoes of Weapons and more, but does fall a little short on lickers",
+      "image": "https://assetsio.gnwcdn.com/a-scared-man-shines-a-light-from-(I-think)-his-phone-is-Resident-Evil-movie-trailer.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-30",
+      "summary": "O primeiro trailer do filme Resident Evil, do diretor de Armas Zach Cregger, está aqui, e até agora não parece ser tanto Resident Evil. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/resident-evil-movie-zach-cregger-first-trailer"
+    },
+    {
+      "id": "https://www.eurogamer.net/dragon-quest-11-s-switch-2-rating",
+      "title": "Dragon Quest 11 S é classificado para Switch 2, potencialmente dando à Square Enix uma quinta mordida na maçã",
+      "original_title": "Dragon Quest 11 S gets rated for Switch 2, potentially giving Square Enix a fifth bite of the apple",
+      "image": "https://assetsio.gnwcdn.com/dq11-switch-2.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-30",
+      "summary": "A Square Enix está em alta com suas portas Switch 2 no momento, como tenho certeza que Final Fantasy 7 Rebirth deseja lembrá-lo. Mas hoje, outro grande gigante do RPG da Square Enix está no centro das atenções, como uma classificação para um Nintend em potencial...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/dragon-quest-11-s-switch-2-rating"
+    },
+    {
+      "id": "https://www.eurogamer.net/sony-comment-playstation-30-day-drm",
+      "title": "A Sony confirma que adicionou DRM “único” aos jogos digitais do PlayStation, exigindo que você fique online para evitar a perda de acesso, mas não comenta o problema “CBOMB”",
+      "original_title": "Sony confirms it's added \"one-time\" DRM to digital PlayStation games requiring you to go online to avoid losing access, but doesn't comment on \"CBOMB\" issue",
+      "image": "https://assetsio.gnwcdn.com/Helldivers-2-Siege-Breakers.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-30",
+      "summary": "A Sony emitiu um comunicado confirmando a introdução de uma nova verificação online de DRM para jogos PlayStation recém-comprados, garantindo ao público que os jogos podem ser comprados e jogados normalmente. Esta declaração, no entanto, não aborda preocupações em torno do \"...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/sony-comment-playstation-30-day-drm"
+    },
+    {
+      "id": "https://www.eurogamer.net/intergalactic-the-heretic-prophet-naughty-dog-different-side",
+      "title": "Intergaláctico: O Profeta Herege é “um lado diferente da Naughty Dog”, diz a atriz principal",
+      "original_title": "Intergalactic: The Heretic Prophet is \"a different side of Naughty Dog\", says lead actress",
+      "image": "https://assetsio.gnwcdn.com/Intergalactic-The-Heretic-Prophet-trailer-screenshot-showing-a-female-in-a-grey-vest-shaving-her-head.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-30",
+      "summary": "O próximo jogo da Naughty Dog, Intergalactic: The Heretic Prophet, é “um lado diferente” do estúdio Naughty Dog de The Last of Us e Uncharted. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/intergalactic-the-heretic-prophet-naughty-dog-different-side"
+    },
+    {
+      "id": "https://www.eurogamer.net/microsoft-xbox-recommitting-hardware-revenue-drop-fy2026-q3",
+      "title": "O Xbox “tem trabalho a fazer”, mas está “recomprometendo-se” com os principais fãs após a queda na receita de hardware de 33% ano a ano",
+      "original_title": "Xbox \"has work to do\", but is \"recommitting\" to core fans following hardware revenue drop of 33% year-on-year",
+      "image": "https://assetsio.gnwcdn.com/green-Xbox-logo-on-a-dark-background.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-30",
+      "summary": "Hoje cedo, a Microsoft compartilhou seus resultados de ganhos do terceiro trimestre do ano fiscal de 2026, cobrindo o período entre 1º de janeiro e 31 de março. A receita da Microsoft aumentou 18%, para US$ 82,9 bilhões, embora a receita de jogos tenha caído 7%. O conteúdo e os serviços do Xbox também...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/microsoft-xbox-recommitting-hardware-revenue-drop-fy2026-q3"
+    },
+    {
+      "id": "https://www.eurogamer.net/injustice-3-reportedly-in-development",
+      "title": "Nove anos depois, Injustice 3 está finalmente em desenvolvimento",
+      "original_title": "Nine years later, Injustice 3 is reportedly finally in development",
+      "image": "https://assetsio.gnwcdn.com/harley-ij-2.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-30",
+      "summary": "Um novo relatório afirmou que o desenvolvedor de Mortal Kombat, NetherRealm Studios, está trabalhando em Injustice 3, uma nova parcela da popular franquia de jogos de luta da DC. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/injustice-3-reportedly-in-development"
+    },
+    {
+      "id": "https://www.eurogamer.net/atomfall-tv-show-revealed",
+      "title": "3,7 milhões de jogadores depois, o jogo de ação e sobrevivência Atomfall, feito no Reino Unido, está ganhando seu próprio programa de TV",
+      "original_title": "3.7 million players later, UK-made action-survival game Atomfall is getting its own TV show",
+      "image": "https://assetsio.gnwcdn.com/atomfall_DauHvLN.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-30",
+      "summary": "Hoje, a editora Rebellion anunciou que seu jogo de ação e sobrevivência de 2025, Atomfall, é o jogo mais recente a fazer a transição do console para a tela da TV. Rebellion e Two Brothers Pictures anunciaram uma adaptação televisiva de Atomfall (que...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/atomfall-tv-show-revealed"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1szvxnm/windows_k2_microsoft_finally_admits_steamos_is/",
+      "title": "Windows K2: A Microsoft finalmente admite que o SteamOS é a referência. O \"Grande Debloat\" está chegando.",
+      "original_title": "Windows K2: Microsoft finally admits SteamOS is the benchmark. The \"Great Debloat\" is coming.",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-04-30",
+      "summary": "enviado por /u/Weekly-Specialist163 [link] [comentários]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1szvxnm/windows_k2_microsoft_finally_admits_steamos_is/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1szv17a/invicible_vs_official_giveway_mentions_the_game/",
+      "title": "O Giveway oficial do Invicible VS menciona que o jogo pode estar chegando ao “Nintendo Switch”.",
+      "original_title": "Invicible VS official Giveway mentions the game might be coming to \"Nintendo Switch\".",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-04-30",
+      "summary": "No Giveway Oficial de Invicible VS promovido pela desenvolvedora Skybound Games, a menção de que os jogadores poderão receber uma cópia de “Switch”. Não está claro se é o Nintendo Switch OG ou o Nintendo Switfh 2, mas eles disseram que está chegando ao Nintendo Switch não...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1szv17a/invicible_vs_official_giveway_mentions_the_game/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1szhok6/tose_software_reports_progress_on_five/",
+      "title": "Tose Software relata progresso em cinco projetos, Natethehate já disse que o P4R está sendo desenvolvido principalmente no meu Tose, então isso provavelmente significa que seu desenvolvimento estará concluído em agosto",
+      "original_title": "Tose Software reports progress on five projects,Natethehate already said that P4R is mainly being developed my Tose,so this likely means that its development will be complete by August",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-04-30",
+      "summary": "Fonte: https://xcancel.com/i/status/2049568234311962890 Fonte sobre Natethehate sobre as equipes de desenvolvimento P4R e P6: https://xcancel.com/NateTheHate2/status/1998983539233374508#m Tose já confirmou que Atlus é um de seus principais clientes, Natethehate...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1szhok6/tose_software_reports_progress_on_five/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1szt82t/steam_dlc_world_of_warships_x_azur_lane_quest_for/",
+      "title": "[Steam] (DLC) World of Warships x Azur Lane – Quest for AL Avrora",
+      "original_title": "[Steam] (DLC) World of Warships x Azur Lane — Quest for AL Avrora",
+      "image": "https://external-preview.redd.it/Tr1yiO76rqlyM4CoGPZEdDRh-j2p3NMct3Ux76EkG0s.jpeg?width=320&crop=smart&auto=webp&s=6c5e262b492ee698bb784b2eb1fbd02c8893594f",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-04-30",
+      "summary": "enviado por /u/MeguminShiro [link] [comentários] ...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1szt82t/steam_dlc_world_of_warships_x_azur_lane_quest_for/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1szwi05/gog_game_heartlight/",
+      "title": "[GOG] (Jogo) Heartlight",
+      "original_title": "[GOG] (Game) Heartlight",
+      "image": "https://external-preview.redd.it/xxGOnEDBgBhXwOs6Lk05cssTpYjpQH8JTOwhbwKRMwM.jpeg?width=640&crop=smart&auto=webp&s=c2ff346fd4b56e091d95c37e5d6c3617dbe302f4",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-04-30",
+      "summary": "enviado por /u/iambaldy [link] [comentários] ...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1szwi05/gog_game_heartlight/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1szwhso/gog_game_electro_man/",
+      "title": "[GOG] (Jogo) Homem Eletro",
+      "original_title": "[GOG] (Game) Electro Man",
+      "image": "https://external-preview.redd.it/WAvqXs72SIgGv4xulG-u9EuMkZLzzKn98HHSMJoGT5A.jpeg?width=640&crop=smart&auto=webp&s=082560d1cd2a1fc39cbd07694ed2070a4cd20485",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-04-30",
+      "summary": "enviado por /u/iambaldy [link] [comentários] ...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1szwhso/gog_game_electro_man/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1szwhwl/gog_game_adventures_of_robbo/",
+      "title": "[GOG] (Jogo) Aventuras de Robbo",
+      "original_title": "[GOG] (Game) Adventures of Robbo",
+      "image": "https://external-preview.redd.it/bCmxrYLvfhhCk1srTIE5VFEa1fQCdvlyhyvNjIjDlaI.jpeg?width=640&crop=smart&auto=webp&s=390c1b14962db66a9a79d3d9089344f6928792f6",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-04-30",
+      "summary": "enviado por /u/iambaldy [link] [comentários] ...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1szwhwl/gog_game_adventures_of_robbo/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1szwlp0/gog_game_robbo/",
+      "title": "[GOG] (Jogo) Robbo",
+      "original_title": "[GOG] (Game) Robbo",
+      "image": "https://external-preview.redd.it/wdEvdbcAgIFlDV8SOmWvx-xvsqIftbN6M6_PdHgH8_o.jpeg?width=640&crop=smart&auto=webp&s=fe3ea1161701c4ba7fc0ce640f858eaed215f4a8",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-04-30",
+      "summary": "enviado por /u/iambaldy [link] [comentários] ...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1szwlp0/gog_game_robbo/"
+    },
+    {
+      "id": "https://www.techpowerup.com/348677/lg-announces-u-s-pricing-availability-for-2026-lg-gram-laptop-lineup",
+      "title": "(PR) LG anuncia preço e disponibilidade nos EUA para a linha de laptops LG Gram 2026",
+      "original_title": "(PR) LG Announces U.S. Pricing & Availability for 2026 LG Gram Laptop Lineup",
+      "image": "https://tpucdn.com/img/KZTGVOI076yqGJhs_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-04-30",
+      "summary": "A LG Electronics USA anunciou hoje a disponibilidade nos EUA de sua linha de laptops LG gram 2026. Todas as quatro novas séries de laptops – LG gram Pro, LG gram Pro 2 em 1, LG gram e LG gram Book – estão agora disponíveis em LG.com e em revendedores autorizados LG. Para comemorar...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348677/lg-announces-u-s-pricing-availability-for-2026-lg-gram-laptop-lineup"
+    },
+    {
+      "id": "https://www.techpowerup.com/348676/samsung-launches-galaxy-book6-enterprise-edition-powered-by-core-ultra-processors-with-intel-vpro",
+      "title": "(PR) Samsung lança Galaxy Book6 Enterprise Edition com processadores Core Ultra com Intel vPro",
+      "original_title": "(PR) Samsung Launches Galaxy Book6 Enterprise Edition Powered by Core Ultra Processors With Intel vPro",
+      "image": "https://tpucdn.com/img/wsKpPAWUTSIYrpFb_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-04-30",
+      "summary": "A Samsung Electronics apresentou hoje o Galaxy Book6 Enterprise Edition, o primeiro Galaxy Book projetado especificamente para um ambiente empresarial. Equipado com os mais recentes processadores Intel Core Ultra Series 3 com Intel vPro, o Galaxy Book6 Enterprise Editi...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348676/samsung-launches-galaxy-book6-enterprise-edition-powered-by-core-ultra-processors-with-intel-vpro"
+    },
+    {
+      "id": "https://www.techpowerup.com/348675/samsung-q1-2026-results-memory-profit-up-nearly-50x-warns-of-2027-shortage",
+      "title": "Resultados do primeiro trimestre de 2026 da Samsung: lucro de memória aumenta quase 50 vezes, alerta sobre escassez em 2027",
+      "original_title": "Samsung Q1 2026 Results: Memory Profit Up Nearly 50x, Warns of 2027 Shortage",
+      "image": "https://tpucdn.com/img/u5hcy1110DPs3CaW_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-04-30",
+      "summary": "A Samsung relatou um lucro trimestral recorde no primeiro trimestre de 2026, com o lucro operacional da divisão de chips saltando para 53,7 trilhões de won (US$ 36,15 bilhões), um aumento de 49% em relação aos 1,1 trilhão de won (US$ 745 milhões) registrados no mesmo trimestre do ano passado. Essa figura...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348675/samsung-q1-2026-results-memory-profit-up-nearly-50x-warns-of-2027-shortage"
+    },
+    {
+      "id": "https://www.techpowerup.com/348672/qnap-unveils-qai-h1290fx-edge-ai-storage-server",
+      "title": "(PR) QNAP lança servidor de armazenamento Edge AI QAI-h1290FX",
+      "original_title": "(PR) QNAP Unveils QAI-h1290FX Edge AI Storage Server",
+      "image": "https://tpucdn.com/img/q4eMW3x7G9kxzrJR_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-04-30",
+      "summary": "À medida que a soberania dos dados e o desempenho da computação se tornam diferenciais estratégicos para as empresas que adotam a IA, a procura por infraestruturas de IA privadas e locais continua a crescer. Em resposta a esta mudança, a QNAP Systems, Inc., uma inovadora líder em c...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348672/qnap-unveils-qai-h1290fx-edge-ai-storage-server"
+    },
+    {
+      "id": "https://www.techpowerup.com/348670/alphacool-releases-new-apex-grip-fittings-and-adapter",
+      "title": "(PR) Alphacool lança novos acessórios e adaptador Apex Grip",
+      "original_title": "(PR) Alphacool Releases New Apex Grip Fittings and Adapter",
+      "image": "https://tpucdn.com/img/rWptg7DMjvIhuUf3_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-04-30",
+      "summary": "Alphacool International GmbH de Braunschweig é pioneira na tecnologia de refrigeração líquida para PCs. Com um dos portfólios de produtos mais completos do setor e mais de 20 anos de experiência, a Alphacool está mais uma vez ampliando seu portfólio com...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348670/alphacool-releases-new-apex-grip-fittings-and-adapter"
+    },
+    {
+      "id": "https://www.techpowerup.com/348491/microsofts-visual-studio-pro-2026-dropped-to-usd-35",
+      "title": "Visual Studio Pro 2026 da Microsoft caiu para US$ 35",
+      "original_title": "Microsoft's Visual Studio Pro 2026 Dropped to $35",
+      "image": "https://tpucdn.com/img/Z7f51X8cNLUEVzBB_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-04-30",
+      "summary": "O Microsoft Visual Studio Professional 2026 está atualmente disponível por US$ 34,97 (MSRP US$ 499,99), mas apenas até 17 de maio. O lançamento dá continuidade ao foco da Microsoft em melhorar o desempenho, a colaboração e o desenvolvimento assistido por IA dentro de seu carro-chefe...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348491/microsofts-visual-studio-pro-2026-dropped-to-usd-35"
+    },
+    {
+      "id": "https://www.techpowerup.com/348668/sharkoon-releases-new-steel-shark-dual-chamber-atx-pc-case",
+      "title": "(PR) Sharkoon lança novo gabinete para PC ATX de câmara dupla Steel Shark",
+      "original_title": "(PR) Sharkoon Releases New Steel Shark Dual-Chamber ATX PC Case",
+      "image": "https://tpucdn.com/img/rrlgInX0FsQqzDdQ_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-04-30",
+      "summary": "Linhas limpas, resfriamento potente, aparência intransigente: com o Steel Shark, a Sharkoon apresenta um elegante gabinete ATX de câmara dupla que combina design moderno com um layout interior especialmente limpo. Vidro temperado no painel frontal e lateral, quatro pré-entradas...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348668/sharkoon-releases-new-steel-shark-dual-chamber-atx-pc-case"
+    },
+    {
+      "id": "https://www.techpowerup.com/348666/gigabyte-motherboards-earn-supreme-recognition-with-2026-red-dot-design-honors",
+      "title": "(PR) Placas-mãe Gigabyte ganham reconhecimento supremo com 2026 Red Dot Design Honors",
+      "original_title": "(PR) Gigabyte Motherboards Earn Supreme Recognition with 2026 Red Dot Design Honors",
+      "image": "https://tpucdn.com/img/sigP7Z9HYTnJT0MP_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-04-30",
+      "summary": "Ltd, fabricante líder de placas-mãe, placas gráficas e soluções de hardware, anunciou hoje uma conquista sem precedentes: o X870 AORUS STEALTH ICE, o X870E AORUS XTREME X3D AI TOP, o X870E AORUS MASTER X3D ICE e o X870...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348666/gigabyte-motherboards-earn-supreme-recognition-with-2026-red-dot-design-honors"
+    },
+    {
+      "id": "https://www.techpowerup.com/348665/lg-electronics-introduces-its-first-ultragear-evo-hyper-mini-led-5k-gaming-monitor",
+      "title": "(PR) LG Electronics apresenta seu primeiro monitor de jogos UltraGear evo Hyper Mini LED 5K",
+      "original_title": "(PR) LG Electronics Introduces its First UltraGear evo Hyper Mini LED 5K Gaming Monitor",
+      "image": "https://tpucdn.com/img/Trn6BlQmiNUrvzHK_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-04-30",
+      "summary": "A LG Electronics (LG) está lançando seu novo monitor de jogos UltraGear evo GM9 5K (modelo 27GM950B) equipado com tecnologia Hyper Mini LED. Apresentado pela primeira vez na CES 2026, o 27GM950B reforça o compromisso da LG em fornecer monitores de jogos de alto desempenho c...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348665/lg-electronics-introduces-its-first-ultragear-evo-hyper-mini-led-5k-gaming-monitor"
+    },
+    {
+      "id": "https://www.techpowerup.com/348664/gigabyte-intel-800-700-600-series-motherboards-now-fully-support-hudimm",
+      "title": "(PR) Placas-mãe Gigabyte Intel série 800/700/600 agora suportam totalmente HUDIMM",
+      "original_title": "(PR) Gigabyte Intel 800/700/600 Series Motherboards Now Fully Support HUDIMM",
+      "image": "https://tpucdn.com/img/P0jY31LUFoknReC9_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-04-30",
+      "summary": "Ltd, fabricante líder de placas-mãe, placas gráficas e soluções de hardware, anunciou hoje uma implementação abrangente de atualização de BIOS para suas placas-mãe Intel séries 800, 700 e 600, adicionando suporte total para o recém-lançado...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348664/gigabyte-intel-800-700-600-series-motherboards-now-fully-support-hudimm"
+    },
+    {
+      "id": "https://www.eurogamer.net/take-two-ceo-la-noire-sequel",
+      "title": "O CEO da Take-Two diz que “não há nada a anunciar” sobre uma sequência de LA Noire após adquirir o estúdio de seu criador, mas “as equipes estão sempre olhando para o que temos”",
+      "original_title": "Take-Two CEO says \"there's nothing to announce\" about an LA Noire sequel after acquiring its creator's studio, but \"the teams are always looking at what we have\"",
+      "image": "https://assetsio.gnwcdn.com/0fdbc4f9c1b44642a4acde8073ebfde2.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
       "date": "2026-04-29",
-      "summary": "Os usuários do PlayStation descobriram um problema em que alguns jogos digitais se tornam impossíveis de jogar, a menos que uma conexão online seja feita a cada 30 dias - embora pesquisas adicionais na comunidade sugiram que parece ser apenas uma forma única e temporária de direitos digitais...",
+      "summary": "15 anos após seu lançamento original, LA Noire da Team Bondi e da Rockstar Games continua a ter um número considerável de seguidores, mas - apesar da Rockstar dizer que não \"contaria a possibilidade\" de uma continuação em 2012 - uma sequência nunca surgiu. Até...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/playstation-digital-games-30-day-online-drm"
+      "url": "https://www.eurogamer.net/take-two-ceo-la-noire-sequel"
     },
     {
-      "id": "https://www.eurogamer.net/gta-6-rockstar-take-two-price-expectation-player-experience",
-      "title": "Após os rumores de $ 100 GTA 6, a Take-Two ainda não deu um preço real, mas diz que “nosso trabalho é cobrar muito, muito, muito menos do valor”.",
-      "original_title": "In the wake of $100 GTA 6 rumours, Take-Two still won't give an actual price, but says \"our job is to charge way, way, way less of the value\"",
-      "image": "https://assetsio.gnwcdn.com/GTA-6's-Jason-aims-a-gun-with-a-bandana-scarf-covering-his-lower-face-and-yellow-rimmed-sunglasses-over-his-eyes.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/star-fox-puppets-fate",
+      "title": "À medida que surgem rumores de um novo jogo Star Fox, finalmente sabemos o que aconteceu com os icônicos fantoches promocionais da série dos anos 90",
+      "original_title": "As rumours of a new Star Fox game swirl, we finally know what happened to the series' iconic promotional puppets from the 90s",
+      "image": "https://assetsio.gnwcdn.com/Star-Fox-puppets-showing-four-space-exploring-animals-looking-heroically-towards-the-sky.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "Rumor",
       "date": "2026-04-29",
-      "summary": "A editora de Grand Theft Auto 6, Take-Two, discutiu recentemente o preço do próximo jogo e, embora não nos dê esse número tão importante, enfatizou que seu \"trabalho é cobrar muito, muito, muito menos pela entrega de valor\". Leia mais...",
+      "summary": "Nos dias nebulosos do início dos anos 90, a Nintendo usou versões fantoches de Fox McCloud, Slippy, Falco e Peppy para promover o lançamento do clássico SNES Star Fox (ou Starwing, se preferir). Depois que a campanha terminou, no entanto,...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/gta-6-rockstar-take-two-price-expectation-player-experience"
+      "url": "https://www.eurogamer.net/star-fox-puppets-fate"
+    },
+    {
+      "id": "https://www.eurogamer.net/here-are-our-ps-plus-monthly-games-for-may",
+      "title": "Aqui estão nossos jogos mensais PS Plus de maio",
+      "original_title": "Here are our PS Plus monthly games for May",
+      "image": "https://assetsio.gnwcdn.com/Nine-Sols-image-showing-some-cats-in-a-bathing-area-with-a-PS-Plus-logo-in-the-upper-left-corner.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-04-29",
+      "summary": "Estamos à beira de mais um mês, o que significa mais um lote de jogos para PlayStation Plus, e hoje a Sony revelou o que está reservado para todos os assinantes em maio deste ano. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/here-are-our-ps-plus-monthly-games-for-may"
     },
     {
       "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1systod/discussion_news_and_request_thread_week_beginning/",
@@ -250,334 +664,139 @@
       "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1systod/discussion_news_and_request_thread_week_beginning/"
     },
     {
-      "id": "https://www.techpowerup.com/348633/blind-test-shows-gamers-prefer-nvidia-dlss-4-5-over-amd-fsr-4-1",
-      "title": "Teste cego mostra que os jogadores preferem NVIDIA DLSS 4.5 em vez de AMD FSR 4.1",
-      "original_title": "Blind Test Shows Gamers Prefer NVIDIA DLSS 4.5 Over AMD FSR 4.1",
-      "image": "https://tpucdn.com/img/y3XRNhW34DjdbWBW_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-04-29",
-      "summary": "Em fevereiro, a ComputerBase conduziu um grande teste cego comparando capturas de tela do jogo geradas usando as mais recentes tecnologias de upscaling: FSR 4.0 da AMD e Deep Learning Super Sampling 4.5 da NVIDIA. Desde então, os testes foram atualizados e a comunidade...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348633/blind-test-shows-gamers-prefer-nvidia-dlss-4-5-over-amd-fsr-4-1"
-    },
-    {
-      "id": "https://www.techpowerup.com/348632/palit-confirms-galax-kfa2-and-hof-branding-to-continue",
-      "title": "Palit confirma que as marcas GALAX, KFA2 e HOF continuarão",
-      "original_title": "Palit Confirms: GALAX, KFA2, and HOF Branding to Continue",
-      "image": "https://tpucdn.com/img/7GgEoDabCBkXYvUC_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-04-29",
-      "summary": "Hoje informamos que a GALAX está encerrando suas operações como empresa independente e integrando-se à sua controladora, Palit. No entanto, os usuários ficaram se perguntando se a Palit deixaria de oferecer produtos da marca GALAX, que têm reconhecimento significativo...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348632/palit-confirms-galax-kfa2-and-hof-branding-to-continue"
-    },
-    {
-      "id": "https://www.techpowerup.com/348630/motogp-26-out-now",
-      "title": "(PR) MotoGP 26 já disponível",
-      "original_title": "(PR) MotoGP 26 Out Now",
-      "image": "https://tpucdn.com/img/ckS1Ysd54m5aqeI8_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-04-29",
-      "summary": "A Milestone e o MotoGP Sports Entertainment Group anunciam hoje o lançamento do MotoGP 26, a última edição da franquia oficial de videogame do MotoGP. Apresentando a temporada oficial completa de 2026, combina física reformulada com classificação Dynamic Rider...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348630/motogp-26-out-now"
-    },
-    {
-      "id": "https://www.techpowerup.com/348629/sharkoon-releases-new-fireglider-one-gaming-mouse",
-      "title": "(PR) Sharkoon lança novo mouse para jogos FIREGLIDER One",
-      "original_title": "(PR) Sharkoon Releases New FIREGLIDER One Gaming Mouse",
-      "image": "https://tpucdn.com/img/KrvixsYqjRTQ4a27_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-04-29",
-      "summary": "Pronto para reacender o fogo? Com o FIREGLIDER One, um clássico retorna - mas desta vez, mais rápido, mais leve e mais preciso do que nunca! O mouse para jogos de modo duplo combina tecnologia intransigente com um design minimalista totalmente comprometido.",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348629/sharkoon-releases-new-fireglider-one-gaming-mouse"
-    },
-    {
-      "id": "https://www.techpowerup.com/348627/galax-shuts-down-famous-gpu-vendor-taken-over-by-palit-after-30-years",
-      "title": "GALAX é encerrado, famoso fornecedor de GPU adquirido pela Palit após 30 anos",
-      "original_title": "GALAX Shuts Down, Famous GPU Vendor Taken Over by Palit After 30 Years",
-      "image": "https://tpucdn.com/img/5OB95PuCOsxwu8Vk_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-04-29",
-      "summary": "O lendário fabricante de GPUs GeForce Hall of Fame (HOF), conhecido por suas excepcionais capacidades de overclock, GALAX, está encerrando oficialmente suas operações após 30 anos no mercado. A GALAX, juntamente com a sua marca KFA2 para o mercado europeu, irá agora...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348627/galax-shuts-down-famous-gpu-vendor-taken-over-by-palit-after-30-years"
-    },
-    {
-      "id": "https://www.techpowerup.com/348491/microsofts-visual-studio-pro-2026-dropped-to-usd-35",
-      "title": "Visual Studio Pro 2026 da Microsoft caiu para US$ 35",
-      "original_title": "Microsoft's Visual Studio Pro 2026 Dropped to $35",
-      "image": "https://tpucdn.com/img/Z7f51X8cNLUEVzBB_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-04-29",
-      "summary": "O Microsoft Visual Studio Professional 2026 está atualmente disponível por US$ 34,97 (MSRP US$ 499,99), mas apenas até 17 de maio. O lançamento dá continuidade ao foco da Microsoft em melhorar o desempenho, a colaboração e o desenvolvimento assistido por IA dentro de seu carro-chefe...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348491/microsofts-visual-studio-pro-2026-dropped-to-usd-35"
-    },
-    {
-      "id": "https://www.techpowerup.com/348626/epomaker-shows-off-revised-he75-v2-gaming-keyboard-with-enthusiast-design-touches-and-gaming-performance",
-      "title": "Epomaker mostra teclado para jogos HE75 V2 revisado com toques de design entusiasta e desempenho de jogo",
-      "original_title": "Epomaker Shows Off Revised HE75 V2 Gaming Keyboard With Enthusiast Design Touches and Gaming Performance",
-      "image": "https://tpucdn.com/img/6ExfjYzqdPlti3UV_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-04-29",
-      "summary": "A viagem da Epomaker ao mundo dos teclados de efeito Hall já dura pouco mais de dois anos e, embora o fabricante de periféricos muitas vezes consiga atingir um preço razoável, os resultados podem ser um pouco confusos. Agora, ele mostrou uma revis...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348626/epomaker-shows-off-revised-he75-v2-gaming-keyboard-with-enthusiast-design-touches-and-gaming-performance"
-    },
-    {
-      "id": "https://www.techpowerup.com/348420/why-updf-is-one-of-the-most-practical-adobe-alternatives-right-now",
-      "title": "Por que o UPDF é uma das alternativas mais práticas da Adobe no momento",
-      "original_title": "Why UPDF Is One of the Most Practical Adobe Alternatives Right Now",
-      "image": "https://tpucdn.com/img/4ZHL35MKw73vd8Zg_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-04-29",
-      "summary": "O software PDF não precisa ser excessivamente complexo para ser capaz. Adobe Acrobat ainda é o nome mais reconhecido no espaço. Muitas pessoas também acham que as demandas diárias de trabalho documental são mais caras e complicadas do que realmente são. Na prática, c...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348420/why-updf-is-one-of-the-most-practical-adobe-alternatives-right-now"
-    },
-    {
-      "id": "https://www.techpowerup.com/348625/sonys-new-drm-appears-to-be-a-refund-scam-workaround",
-      "title": "O novo DRM da Sony parece ser uma solução alternativa para golpes de reembolso",
-      "original_title": "Sony's New DRM Appears To Be a Refund Scam Workaround",
-      "image": "https://tpucdn.com/img/FVAkUdWJdXXPHwrK_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-04-29",
-      "summary": "Recentemente surgiram notícias sobre um novo sistema DRM que a Sony aparentemente implementou silenciosamente no PS5 que faria com que os compradores de jogos digitais ficassem online a cada 30 dias para validar uma licença ou potencialmente seriam bloqueados de seus jogos até que pudessem acessar um...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348625/sonys-new-drm-appears-to-be-a-refund-scam-workaround"
-    },
-    {
-      "id": "https://www.techpowerup.com/348624/linux-now-officially-available-for-playstation-5",
-      "title": "Linux agora disponível oficialmente para PlayStation 5",
-      "original_title": "Linux now Officially Available for PlayStation 5",
-      "image": "https://tpucdn.com/img/CGvNMatzuxy07ck4_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-04-29",
-      "summary": "Logo após a notícia do novo DRM da Sony que gerou reação significativa da comunidade, Andy Nguyen, o desenvolvedor que anteriormente exibiu a execução de uma instalação completa do Linux em um PlayStation 5, publicou oficialmente sua metodologia e necessidades...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348624/linux-now-officially-available-for-playstation-5"
-    },
-    {
-      "id": "https://www.eurogamer.net/mega-mewtwo-debut-announced-go-fest-global-free-pokemon-go",
-      "title": "A estreia do Pokémon Go de Mega Mewtwo finalmente foi anunciada e o Go Fest Global é gratuito para todos os jogadores",
-      "original_title": "Mega Mewtwo's Pokémon Go debut finally announced and Go Fest Global is free for all players",
-      "image": "https://assetsio.gnwcdn.com/Pokemon-Go-Mega-Mewtwo-Debut-Header.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-28",
-      "summary": "Mega Mewtwo X e Y estreará em Pokémon Go durante o Go Fest 2026, a celebração anual do jogo. O desenvolvedor Scopey também confirmou que Go Fest 2026: Global será gratuito para todos os jogadores este ano nos dias 11 e 12 de julho. Isso inclui acesso ao Speci...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/mega-mewtwo-debut-announced-go-fest-global-free-pokemon-go"
-    },
-    {
-      "id": "https://www.eurogamer.net/first-mortal-kombat-2-movie-reactions",
-      "title": "As primeiras reações de Mortal Kombat 2 o chamam de “o filme que deveríamos ter assistido pela primeira vez”",
-      "original_title": "Mortal Kombat 2 first reactions call it \"the movie we should've gotten the first time\"",
-      "image": "https://assetsio.gnwcdn.com/Mortal-Kombat-2_Baraka.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-28",
-      "summary": "O filme Mortal Kombat 2 está quase pronto para encher os cinemas com lutas exageradas e litros de sangue, e a boa notícia - após a recepção morna da crítica de seu antecessor - é que as primeiras reações parecem positivas. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/first-mortal-kombat-2-movie-reactions"
-    },
-    {
-      "id": "https://www.eurogamer.net/call-of-duty-film-peter-berg-war-game-pathetic-weak-comments",
-      "title": "Os fãs de Call of Duty debatem os comentários antigos do diretor de cinema Peter Berg, onde ele certa vez chamou os jogos de \"patéticos\" e os jogadores de \"fracos\"",
-      "original_title": "Call of Duty fans debate upcoming movie director Peter Berg's years-old comments, where he once called games \"pathetic\" and gamers \"weak\"",
-      "image": "https://assetsio.gnwcdn.com/Call-of-Duty-screenshot-showing-a-male-in-body-armour-dual-weilding-two-guns-as-he-fires-them-both.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-28",
-      "summary": "Uma entrevista de 2013 com o diretor de cinema de Call of Duty, Peter Berg, na qual ele chamou aqueles que jogavam jogos de guerra como Call of Duty de \"fracos\" e \"patéticos\", ressurgiu recentemente, gerando muita discussão entre os fãs da série. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/call-of-duty-film-peter-berg-war-game-pathetic-weak-comments"
-    },
-    {
-      "id": "https://www.eurogamer.net/metroid-movie-rights-rumours-new-illumination-project-2028-date",
-      "title": "Enquanto circulam rumores de um filme Metroid de ação ao vivo, a Nintendo e a Illumination definem um misterioso novo “filme de evento” de animação para abril de 2028",
-      "original_title": "As rumours of a live-action Metroid movie swirl, Nintendo and Illumination set a mysterious new animated \"event film\" for April 2028",
-      "image": "https://assetsio.gnwcdn.com/Samus-Aran-x-Super-Mario-Galaxy-Movie-blue-background.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Rumor",
-      "date": "2026-04-28",
-      "summary": "O filme Super Mario Galaxy tem sido um enorme sucesso, apesar de sua recepção moderada pela crítica, e a adaptação live-action de Legend of Zelda está fazendo um bom progresso. Mas se acreditarmos em uma sucessão de relatórios recentes, há alguns anos ocupados...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/metroid-movie-rights-rumours-new-illumination-project-2028-date"
-    },
-    {
-      "id": "https://www.eurogamer.net/blood-of-dawnwalker-release-date",
-      "title": "RPG de fantasia sombria de vampiros The Blood of Dawnwalker ganha data de lançamento e confronto de outono com Fable",
-      "original_title": "Dark fantasy vampire RPG The Blood of Dawnwalker gets a release date and an autumn showdown with Fable",
-      "image": "https://assetsio.gnwcdn.com/blood-of-the-dawnwalker_qF6jbW1.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-28",
-      "summary": "O RPG de fantasia sombria de vampiros The Blood of Dawnwalker será lançado em 3 de setembro de 2026, anunciaram a editora Bandai Namco e a desenvolvedora Rebel Wolves. O jogo anteriormente tinha uma vaga janela “2026”, mas agora tem uma data exata. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/blood-of-dawnwalker-release-date"
-    },
-    {
-      "id": "https://www.eurogamer.net/the-blood-of-dawnwalker-ai",
-      "title": "“As empresas deveriam usar IA”, diz o diretor de The Blood of Dawnwalker, mas há uma advertência importante e uma declaração de que nada neste RPG de vampiros de fantasia sombria foi criado usando-a.",
-      "original_title": "\"Companies should use AI,\" says The Blood of Dawnwalker director, but there's an important caveat and a declaration that nothing in this dark fantasy vampire RPG was created using it",
-      "image": "https://assetsio.gnwcdn.com/blood-of-dawnwalker-vampire-2.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-28",
-      "summary": "Tem havido alguma preocupação em torno do RPG de fantasia sombria de vampiros The Blood of Dawnwalker e como as ferramentas de IA foram usadas durante seu desenvolvimento. O cofundador do estúdio Rebel Wolves, Konrad Tomsazkiewicz, conhecido por ter dirigido The Witcher 3: Wil...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/the-blood-of-dawnwalker-ai"
-    },
-    {
-      "id": "https://www.eurogamer.net/the-blood-of-dawnwalker-preview-excited-breakout-rpg",
-      "title": "Já vi mais 90 minutos de The Blood of Dawnwalker e estou animado – será este o primeiro RPG de 2026?",
-      "original_title": "I've seen 90 minutes more of The Blood of Dawnwalker and I'm excited - could this be 2026's breakout RPG?",
-      "image": "https://assetsio.gnwcdn.com/blood-of-dawnwalker-header-art.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-28",
-      "summary": "O que mais me impressionou na apresentação de 90 minutos de The Blood of Dawnwalker que assisti recentemente, no estúdio do desenvolvedor Rebel Wolves na Polônia, é o quão confiante é esse RPG de fantasia sombria. Isso apesar de ser uma estreia, e amplificado por ...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/the-blood-of-dawnwalker-preview-excited-breakout-rpg"
-    },
-    {
-      "id": "https://www.eurogamer.net/resident-evil-requiem-minigame-dlc-combat",
-      "title": "\"Será algo que fará você gritar Whoo-hoo!!\" - O diretor de Resident Evil Requiem diz “afie suas machadinhas” conforme novos detalhes do minijogo surgem",
-      "original_title": "\"It'll be something that makes you go Whoo-hoo!!\" - Resident Evil Requiem director says \"sharpen your tomahawks\" as new minigame details emerge",
-      "image": "https://assetsio.gnwcdn.com/A-chainsaw-weilding-zombie-advances-on-Leon-in-Resident-Evil-Requiem.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-04-28",
-      "summary": "O próximo minijogo de Resident Evil Requiem está nos “estágios finais” de desenvolvimento e será baseado no combate do jogo principal, provocou o diretor de Requiem. No entanto, você precisará ter terminado a história principal para tentar. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/resident-evil-requiem-minigame-dlc-combat"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sy39iq/spiders_greedfall_steelrising_technomancer_is/",
-      "title": "Spiders (Greedfall, Steelrising, Technomancer) está fechando porque nenhum comprador deseja o estúdio",
-      "original_title": "Spiders (Greedfall, Steelrising, Technomancer) is shutting down due to no buyers wanting the studio",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1szclcz/gamespot_playstation_spokesperson_on_drm_players/",
+      "title": "Gamespot: Porta-voz da PlayStation sobre DRM \"Os jogadores podem continuar a acessar e jogar os jogos adquiridos normalmente. É necessária uma verificação online única para confirmar a licença do jogo, após a qual não são necessários mais check-ins.\"",
+      "original_title": "Gamespot: PlayStation spokesperson on DRM “Players can continue to access and play their purchased games as usual. A one-time online check is required to confirm the game's license, after which no further check-ins are required.\"",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
       "category": "News",
-      "date": "2026-04-28",
-      "summary": "De acordo com o Google Translate: \"De acordo com nossas informações, Spiders, o estúdio parisiense por trás de vários RPGs de ação desde sua fundação em 2008, fechará em breve. Na falta de um comprador para esta subsidiária da Nacon, o administrador nomeado pelo tribunal responsável pelo F...",
+      "date": "2026-04-29",
+      "summary": "Porta-voz da SIE: \"Os jogadores podem continuar a acessar e jogar os jogos comprados normalmente. É necessária uma verificação on-line única para confirmar a licença do jogo, após a qual nenhum outro check-in é necessário.\" Fonte: https://www.gamespot.com/articles/p...",
       "sources": [
         "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sy39iq/spiders_greedfall_steelrising_technomancer_is/"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1szclcz/gamespot_playstation_spokesperson_on_drm_players/"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sy530f/update_psn_drm_issue_related_to_14_day_refund/",
-      "title": "Atualização: problema de DRM da PSN relacionado à janela de reembolso de 14 dias?",
-      "original_title": "Update: PSN DRM issue related to 14 day refund window?",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sz6eew/mp1st_injustice_3_in_active_development_at/",
+      "title": "MP1st: Injustice 3 em desenvolvimento ativo no NetherRealm Studios no momento.",
+      "original_title": "MP1st: Injustice 3 in active development at NetherRealm Studios right now.",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
       "category": "News",
-      "date": "2026-04-28",
-      "summary": "De andshrew em ResetEra: https://www.resetera.com/threads/sonys-digital-drm-issue-of-mandatory-activation-every-30-days-is-reportedly-unintentional.1501771/page-7#post-154305715 enviado por /u/MCUAvenger1992 [link] [comentários]...",
+      "date": "2026-04-29",
+      "summary": "https://mp1st.com/news/report-injustice-3-in-development-at-netherrealm-studios As informações a seguir vêm do currículo de um artista que atualmente trabalha na Warner Bros. Games, cuja identidade optamos por ocultar por motivos de confidencialidade...",
       "sources": [
         "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sy530f/update_psn_drm_issue_related_to_14_day_refund/"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sz6eew/mp1st_injustice_3_in_active_development_at/"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sy2ao7/untitled_illuminationnintendo_event_film/",
-      "title": "Filme Untitled Illumination/Nintendo Event será lançado em 12 de abril de 2028 na programação de lançamento da Universal Pictures International Spain",
-      "original_title": "Untitled Illumination/Nintendo Event film releasing on April 12th 2028 on Universal Pictures International Spain's Release Schedule",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sz1fau/microsoft_working_on_a_secrete_k2_plan_to_improve/",
+      "title": "Microsoft trabalhando em um plano secreto “K2” para melhorar o desempenho de jogos do Win 11 - Windows Central",
+      "original_title": "Microsoft working on a secrete “K2” plan to improve Win 11’s gaming performance - Windows Central",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
       "category": "News",
-      "date": "2026-04-28",
-      "summary": "Link para o documento: https://www.universalpictures.es/fechasdeestreno/Estrenos-Universal.pdf enviado por /u/Skipper93653 [link] [comentários]...",
+      "date": "2026-04-29",
+      "summary": "K2 usará SteamOS como referência (desempenho de jogo semelhante no mesmo hardware) Menor uso de memória ociosa e menor pegada de sistema operacional Menos confusão de IA e menos conteúdo pré-instalado Menu Iniciar reconstruído, supostamente até 60% mais rápido Muitas outras mudanças...",
       "sources": [
         "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sy2ao7/untitled_illuminationnintendo_event_film/"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sz1fau/microsoft_working_on_a_secrete_k2_plan_to_improve/"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sxql1a/re9_minigame_releasing_right_after_golden_week/",
-      "title": "Minijogo RE9 será lançado logo após a Golden Week com uma imagem dele",
-      "original_title": "RE9 mini-game releasing right after Golden Week with an image of it",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1szb3vx/dragon_quest_xi_s_echoes_of_an_elusive_age_rated/",
+      "title": "Dragon Quest XI S: Echoes of an Elusive Age classificado para Switch 2 em Taiwan",
+      "original_title": "Dragon Quest XI S: Echoes of an Elusive Age rated for Switch 2 in Taiwan",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
       "category": "News",
-      "date": "2026-04-28",
-      "summary": "https://news.denfaminicogamer.jp/interview/260428c Em entrevista com o Diretor (Nakanishi) e Produtor (Kumazawa), descobri várias coisas muito interessantes sobre o minijogo: Quando questionado sobre o minijogo, o Produtor disse o seguinte: \"Limpando-o d...",
+      "date": "2026-04-29",
+      "summary": "https://www.resetera.com/threads/dragon-quest-xi-s-echoes-of-an-elusive-age-for-switch-2-has-been-rated-in-taiwan.1505899/ enviado por /u/KelvinBelmont [link] [comentários]...",
       "sources": [
         "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sxql1a/re9_minigame_releasing_right_after_golden_week/"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1szb3vx/dragon_quest_xi_s_echoes_of_an_elusive_age_rated/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1szdh89/tales_of_eternia_remastered_is_rated_on_pegi_for/",
+      "title": "Tales of Eternia Remastered é classificado no PEGI para Nintendo Switch",
+      "original_title": "Tales of Eternia Remastered is rated on PEGI for Nintendo Switch",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-04-29",
+      "summary": "https://xcancel.com/Wario64/status/2049604903023100365#m Avaliações Direct vamos lá!!!!    enviado por /u/KelvinBelmont [link] [comentários]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1szdh89/tales_of_eternia_remastered_is_rated_on_pegi_for/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1syyr03/egs_doesnt_show_patch_notes_update_historydoes/",
+      "title": "EGS não mostra notas de patch/histórico de atualizações – isso afeta suas decisões de compra?",
+      "original_title": "EGS doesn’t show patch notes / update history—does this affect your buying decisions?",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-04-29",
+      "summary": "Uma coisa que notei como jogador e desenvolvedor é que a Epic Games Store ainda não tem uma maneira adequada de exibir notas de patch ou histórico de atualizações nas páginas da loja. Como jogador, muitas vezes confio nisso para decidir se um jogo é ativamente apoiado...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1syyr03/egs_doesnt_show_patch_notes_update_historydoes/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1syrdr5/new_here_what_should_i_know_about_the_upcoming/",
+      "title": "Novidade aqui, o que devo saber sobre as próximas promoções de verão e presentes misteriosos? [Imagem meio relacionada, não sei]",
+      "original_title": "New here, what should I know about the upcoming Summer Sale and Mystery Gifts? [Image kinda related idk]",
+      "image": "https://preview.redd.it/kr7tq2dxw2yg1.png?width=216&crop=smart&auto=webp&s=109422a6b1068a254bb001ea73ceefcc57390e22",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-04-29",
+      "summary": "enviado por /u/PaleFee2476 [link] [comentários] ...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1syrdr5/new_here_what_should_i_know_about_the_upcoming/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1sz40w0/psa_microsoftxbox_wasteland_remastered_playable/",
+      "title": "[PSA] (Microsoft/Xbox) A cópia jogável de Wasteland Remastered é gratuita com ofertas e créditos do Xbox",
+      "original_title": "[PSA] (Microsoft/Xbox) Wasteland Remastered playable copy is complimentary with Xbox Offers & Credits",
+      "image": "https://external-preview.redd.it/nWc0MBoBx-avQljThKWkc11gdEUqz7NhN5Q-1XI7deg.png?width=640&crop=smart&auto=webp&s=e9cd1299225357f5af14cf6660585ccf946629da",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-04-29",
+      "summary": "⚠️ Somente para quem reivindicou o glitch free daquela vez. [Microsoft/Xbox] (Jogo) Wasteland Remastered｜Anúncio de 16 de abril de 2026.  Algumas semanas atrás, um erro tornou Wasteland Remastered gratuito na Microsoft/Xbox Store, mas o que as pessoas conseguiram antes...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1sz40w0/psa_microsoftxbox_wasteland_remastered_playable/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1sz5w02/steam_game_69_ways_to_kill_a_zombie/",
+      "title": "[Steam] (Jogo) 69 maneiras de matar um zumbi",
+      "original_title": "[Steam] (Game) 69 Ways to Kill a Zombie",
+      "image": "https://external-preview.redd.it/YQpK2aUy-Qfq478expn5whZXJ6LsId-OA69_snvBPY4.jpeg?width=320&crop=smart&auto=webp&s=dacc8eab9c5e87295f2c258f5c8f3dfae8009412",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-04-29",
+      "summary": "enviado por /u/RegionalPrices [link] [comentários] ...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1sz5w02/steam_game_69_ways_to_kill_a_zombie/"
     },
     {
       "id": "https://www.reddit.com/r/EpicGamesPC/comments/1sxtzm0/checkout_flashbang_is_gone/",
@@ -595,21 +814,6 @@
       "url": "https://www.reddit.com/r/EpicGamesPC/comments/1sxtzm0/checkout_flashbang_is_gone/"
     },
     {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1sxo4l5/steam_game_chicken_chess_match/",
-      "title": "[Steam] (Jogo) Partida de Xadrez de Frango",
-      "original_title": "[Steam] (Game) Chicken Chess Match",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-04-28",
-      "summary": "enviado por /u/MeguminShiro [link] [comentários]...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1sxo4l5/steam_game_chicken_chess_match/"
-    },
-    {
       "id": "https://www.reddit.com/r/FreeGameFindings/comments/1sy2z9g/fgf_giveaway_minisforums_mgp01_controllers_mkb/",
       "title": "Sorteio FGF: Controladores MGP01 e teclados MKB i83 do Minisforum!",
       "original_title": "FGF Giveaway: Minisforum's MGP01 Controllers & MKB i83 Keyboards!",
@@ -623,66 +827,6 @@
         "r/FreeGameFindings"
       ],
       "url": "https://www.reddit.com/r/FreeGameFindings/comments/1sy2z9g/fgf_giveaway_minisforums_mgp01_controllers_mkb/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1sxlcc4/steamgame_awkward_girls/",
-      "title": "[Steam](Jogo) Garotas Estranhas",
-      "original_title": "[Steam](Game) Awkward Girls",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-04-28",
-      "summary": "enviado por /u/LetsPlayNintendoITA [link] [comentários]...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1sxlcc4/steamgame_awkward_girls/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sxga4r/v_scooper_universal_has_ideas_to_make_the_metroid/",
-      "title": "V Scooper: Universal tem ideias para fazer o filme Metroid se inclinar para o terror",
-      "original_title": "V Scooper: Universal has ideas to make the Metroid movie lean into horror",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-04-27",
-      "summary": "Postagem que ele fez aqui Mais informações sobre a Nintendo atualmente lançando um filme METROID, Sony e Universal estão em uma corrida acirrada para conquistar os direitos em um post anterior. ele também afirma que \"Metroid não pode ter classificação R, mas ainda pode ter terror\".    enviado b...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sxga4r/v_scooper_universal_has_ideas_to_make_the_metroid/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sxbc8o/brad_lynch_ive_been_told_some_valve_internal/",
-      "title": "Brad Lynch: \"Disseram-me que algumas metas de preços internas da Valve tinham antes e depois da crise de RAM, a Steam Machine é a mais afetada, enquanto a Steam Frame nem tanto\"",
-      "original_title": "Brad Lynch: \"I’ve been told some Valve Internal pricing targets they had before AND after RAM crisis, Steam Machine is affected the most whilst Steam Frame not so much\"",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-04-27",
-      "summary": "https://xcancel.com/SadlyItsBradley/status/2048818605991604356 enviado por /u/Connect_Base_217 [link] [comentários]...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sxbc8o/brad_lynch_ive_been_told_some_valve_internal/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sxa1fm/valve_confirms_may_4th_steam_controller_release/",
-      "title": "Valve confirma data de lançamento do Steam Controller em 4 de maio",
-      "original_title": "Valve confirms May 4th Steam Controller release date",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-04-27",
-      "summary": "https://xcancel.com/i/status/2048812119630712919 Detalhes: $ 99 USD Thumbsticks magnéticos (TMR) Conjunto completo de entradas para reproduzir toda a sua biblioteca Steam 4x motores hápticos para ruído de alta definição Bateria de 8,39 Wh; Mais de 35 horas de jogo com uma única carga St...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1sxa1fm/valve_confirms_may_4th_steam_controller_release/"
     },
     {
       "id": "https://www.reddit.com/r/EpicGamesPC/comments/1sxjsba/you_can_now_claim_the_free_giveaways_instantly/",
@@ -773,21 +917,6 @@
         "r/FreeGameFindings"
       ],
       "url": "https://www.reddit.com/r/FreeGameFindings/comments/1sx9oad/exiled_giveaways_and_itchio_mega_threads/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1sxe79r/psa_epic_games_dev_ga_typers_combat_is_now/",
-      "title": "[PSA] Epic Games Dev GA Typers Combat agora pode ser reivindicado globalmente",
-      "original_title": "[PSA] Epic Games Dev GA Typers Combat is now claimable globally",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-04-27",
-      "summary": "🆕 Atualizar todas as listas negras removidas. (Desenvolvedor/Editor completou verificação de trader + Classificação etária da Alemanha) enviado por /u/MeguminShiro [link] [comentários]...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1sxe79r/psa_epic_games_dev_ga_typers_combat_is_now/"
     }
   ]
 }
