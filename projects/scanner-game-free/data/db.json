@@ -1,28 +1,28 @@
 {
-  "last_updated": "2026-05-07T14:08:42",
-  "display_date": "07/05/2026 14:08",
+  "last_updated": "2026-05-08T13:49:02",
+  "display_date": "08/05/2026 13:49",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "237ms",
+    "latency": "465ms",
     "current_games": [
       {
-        "title": "Firestone Online Idle RPG",
-        "description": "Firestone: Online Idle RPG é um jogo de fantasia multijogador com mecânica de RPG ocioso. Colete heróis🧙‍♂️, atualize seus equipamentos e habilidades e envie-os para batalhas AFK ou entre em um frenesi incremental de clicker para derrotar chefes monstruosos! Converse com amigos da guilda ou participe de PVP⚔️.",
-        "image": "https://cdn1.epicgames.com/spt-assets/69576a28f7154fe9a0dce97508da5163/firestone-online-idle-rpg-1xeuq.png",
-        "url": "https://store.epicgames.com/p/1185abfe7c554a1e8c528aba37bf3d0f",
-        "price": "0",
-        "start_date": "2026-04-30T15:00:00.000Z",
-        "end_date": "2026-05-07T15:00:00.000Z"
+        "title": "Arranger: A Role-Puzzling Adventure",
+        "description": "Encontre o seu caminho em um mundo de quebra-cabeças alegres e bem pensados, ao longo de uma jornada encantadora de autodescoberta.",
+        "image": "https://cdn1.epicgames.com/spt-assets/fee7dc25f12c4400a5182c864fd89c66/arranger-a-rolepuzzling-adventure-17mu3.jpg",
+        "url": "https://store.epicgames.com/p/8883fa6958a24a00b6f33166e4552833",
+        "price": "$19.99",
+        "start_date": "2026-05-07T15:00:00.000Z",
+        "end_date": "2026-05-14T15:00:00.000Z"
       },
       {
-        "title": "Oddsparks: An Automation Adventure",
-        "description": "Projete oficinas automatizadas para que seus estranhos e adoráveis ​​Sparks carreguem e criem tudo, inclusive mais deles mesmos. Lidere seu esquadrão de Sparks para o combate. Explore um estranho mundo de fantasia, no modo single player ou no modo cooperativo online. Desvende o antigo mistério das Centelhas!",
-        "image": "https://cdn1.epicgames.com/spt-assets/f09aaab3f10e4c18a2948a5b829bd84d/oddsparks-an-automation-adventure-117zi.png",
-        "url": "https://store.epicgames.com/p/e16c97c0da0b4e5aa507e930befb1a25",
-        "price": "$29.99",
-        "start_date": "2026-04-30T15:00:00.000Z",
-        "end_date": "2026-05-07T15:00:00.000Z"
+        "title": "Trash Goblin",
+        "description": "Um jogo de lojista saudável e aconchegante, sem pressões, sem estresse e com boas vibrações sem fim! Descubra e limpe bugigangas e depois recicle-as para vendê-las a inúmeros clientes coloridos e peculiares. Gaste suas economias para atualizar sua loja, comprar ferramentas melhores e expandir e personalizar seu espaço.",
+        "image": "https://cdn1.epicgames.com/spt-assets/113ae486fe9040d89a7fc25a501dc3b9/trash-goblin-9bxry.png",
+        "url": "https://store.epicgames.com/p/7ea9b97f6a8b4c5d8047733207c5c65c",
+        "price": "$19.99",
+        "start_date": "2026-05-07T15:00:00.000Z",
+        "end_date": "2026-05-14T15:00:00.000Z"
       }
     ],
     "upcoming_games": [
@@ -50,8 +50,8 @@
         "image": "https://cdn1.epicgames.com/offer/ca3a9d16d131478c97fd56c138a6511a/EGS_LISATheDefinitiveEdition_DingalingProductions_Bundles_S1_2560x1440-55b66eb2046507e58eac435c21331bd5",
         "url": "https://store.epicgames.com/p/lisa-the-definitive-edition",
         "price": "$24.99",
-        "start_date": "2026-05-14T15:00:00.000Z",
-        "end_date": "2026-06-11T15:00:00.000Z"
+        "start_date": "2026-09-16T15:00:00.000Z",
+        "end_date": "2026-10-01T05:59:00.000Z"
       },
       {
         "title": "LISA: The Definitive Edition",
@@ -59,8 +59,8 @@
         "image": "https://cdn1.epicgames.com/offer/ca3a9d16d131478c97fd56c138a6511a/EGS_LISATheDefinitiveEdition_DingalingProductions_Bundles_S1_2560x1440-55b66eb2046507e58eac435c21331bd5",
         "url": "https://store.epicgames.com/p/lisa-the-definitive-edition",
         "price": "$24.99",
-        "start_date": "2026-09-16T15:00:00.000Z",
-        "end_date": "2026-10-01T05:59:00.000Z"
+        "start_date": "2026-05-14T15:00:00.000Z",
+        "end_date": "2026-06-11T15:00:00.000Z"
       },
       {
         "title": "Arranger: A Role-Puzzling Adventure",
@@ -68,8 +68,8 @@
         "image": "https://cdn1.epicgames.com/spt-assets/fee7dc25f12c4400a5182c864fd89c66/arranger-a-rolepuzzling-adventure-17mu3.jpg",
         "url": "https://store.epicgames.com/p/8883fa6958a24a00b6f33166e4552833",
         "price": "$19.99",
-        "start_date": "2026-05-07T15:00:00.000Z",
-        "end_date": "2026-05-14T15:00:00.000Z"
+        "start_date": "2026-06-15T04:00:00.000Z",
+        "end_date": "2026-07-07T03:59:00.000Z"
       },
       {
         "title": "Castlevania Anniversary Collection",
@@ -90,47 +90,56 @@
         "end_date": "2026-06-11T15:00:00.000Z"
       },
       {
-        "title": "Trash Goblin",
-        "description": "Um jogo de lojista saudável e aconchegante, sem pressões, sem estresse e com boas vibrações sem fim! Descubra e limpe bugigangas e depois recicle-as para vendê-las a inúmeros clientes coloridos e peculiares. Gaste suas economias para atualizar sua loja, comprar ferramentas melhores e expandir e personalizar seu espaço.",
-        "image": "https://cdn1.epicgames.com/spt-assets/113ae486fe9040d89a7fc25a501dc3b9/trash-goblin-9bxry.png",
-        "url": "https://store.epicgames.com/p/7ea9b97f6a8b4c5d8047733207c5c65c",
-        "price": "$19.99",
-        "start_date": "2026-05-07T15:00:00.000Z",
-        "end_date": "2026-05-14T15:00:00.000Z"
+        "title": "Mystery Game 2",
+        "description": "Jogo Misterioso 2",
+        "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/image23_1920x1080-80a010b5958f4d898f9e454840c790a1",
+        "url": "https://store.epicgames.com/p/megasale-mysterygame-2026-02",
+        "price": "0",
+        "start_date": "2026-05-14T15:00:00.000Z",
+        "end_date": "2026-05-21T15:00:00.000Z"
+      },
+      {
+        "title": "Mystery Game 1",
+        "description": "Jogo Mistério 1",
+        "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/image23_1920x1080-80a010b5958f4d898f9e454840c790a1",
+        "url": "https://store.epicgames.com/p/megasale-mysterygame-2026",
+        "price": "0",
+        "start_date": "2026-05-14T15:00:00.000Z",
+        "end_date": "2026-05-21T15:00:00.000Z"
       }
     ],
-    "mystery_detected": false
+    "mystery_detected": true
   },
   "items": [
     {
-      "id": "https://store.epicgames.com/p/1185abfe7c554a1e8c528aba37bf3d0f",
-      "title": "GRÁTIS: Firestone Online Idle RPG",
-      "original_title": "Firestone Online Idle RPG",
-      "image": "https://cdn1.epicgames.com/spt-assets/69576a28f7154fe9a0dce97508da5163/firestone-online-idle-rpg-1xeuq.png",
+      "id": "https://store.epicgames.com/p/8883fa6958a24a00b6f33166e4552833",
+      "title": "GRÁTIS: Arranger: A Role-Puzzling Adventure",
+      "original_title": "Arranger: A Role-Puzzling Adventure",
+      "image": "https://cdn1.epicgames.com/spt-assets/fee7dc25f12c4400a5182c864fd89c66/arranger-a-rolepuzzling-adventure-17mu3.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-05-07",
-      "summary": "Firestone: Online Idle RPG é um jogo de fantasia multijogador com mecânica de RPG ocioso. Colete heróis🧙‍♂️, atualize seus equipamentos e habilidades e envie-os para batalhas AFK ou entre em um frenesi incremental de clicker para derrotar chefes monstruosos! Converse com amigos da guilda ou participe de PVP⚔️.",
+      "date": "2026-05-08",
+      "summary": "Encontre o seu caminho em um mundo de quebra-cabeças alegres e bem pensados, ao longo de uma jornada encantadora de autodescoberta.",
       "sources": [
         "Epic Games Store"
       ],
-      "url": "https://store.epicgames.com/p/1185abfe7c554a1e8c528aba37bf3d0f"
+      "url": "https://store.epicgames.com/p/8883fa6958a24a00b6f33166e4552833"
     },
     {
-      "id": "https://store.epicgames.com/p/e16c97c0da0b4e5aa507e930befb1a25",
-      "title": "GRÁTIS: Oddsparks: An Automation Adventure",
-      "original_title": "Oddsparks: An Automation Adventure",
-      "image": "https://cdn1.epicgames.com/spt-assets/f09aaab3f10e4c18a2948a5b829bd84d/oddsparks-an-automation-adventure-117zi.png",
+      "id": "https://store.epicgames.com/p/7ea9b97f6a8b4c5d8047733207c5c65c",
+      "title": "GRÁTIS: Trash Goblin",
+      "original_title": "Trash Goblin",
+      "image": "https://cdn1.epicgames.com/spt-assets/113ae486fe9040d89a7fc25a501dc3b9/trash-goblin-9bxry.png",
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-05-07",
-      "summary": "Projete oficinas automatizadas para que seus estranhos e adoráveis ​​Sparks carreguem e criem tudo, inclusive mais deles mesmos. Lidere seu esquadrão de Sparks para o combate. Explore um estranho mundo de fantasia, no modo single player ou no modo cooperativo online. Desvende o antigo mistério das Centelhas!",
+      "date": "2026-05-08",
+      "summary": "Um jogo de lojista saudável e aconchegante, sem pressões, sem estresse e com boas vibrações sem fim! Descubra e limpe bugigangas e depois recicle-as para vendê-las a inúmeros clientes coloridos e peculiares. Gaste suas economias para atualizar sua loja, comprar ferramentas melhores e expandir e personalizar seu espaço.",
       "sources": [
         "Epic Games Store"
       ],
-      "url": "https://store.epicgames.com/p/e16c97c0da0b4e5aa507e930befb1a25"
+      "url": "https://store.epicgames.com/p/7ea9b97f6a8b4c5d8047733207c5c65c"
     },
     {
       "id": "https://store.epicgames.com/p/a9152a8924cc4e438f0e61106ec02f7d",
@@ -140,7 +149,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-05-07",
+      "date": "2026-05-08",
       "summary": "Disponível gratuitamente a partir de 14/05. Eternal Threads é um jogo de quebra-cabeça para um jogador, em primeira pessoa, baseado em uma história de manipulação, escolha e consequência do tempo.",
       "sources": [
         "Epic Games Store"
@@ -155,7 +164,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-05-07",
+      "date": "2026-05-08",
       "summary": "Disponível gratuitamente a partir de 14/05. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
       "sources": [
         "Epic Games Store"
@@ -170,8 +179,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-05-07",
-      "summary": "Disponível gratuitamente a partir de 14/05. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
+      "date": "2026-05-08",
+      "summary": "Disponível gratuitamente a partir de 16/09. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
       ],
@@ -185,8 +194,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-05-07",
-      "summary": "Disponível gratuitamente a partir de 16/09. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
+      "date": "2026-05-08",
+      "summary": "Disponível gratuitamente a partir de 14/05. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
       ],
@@ -200,8 +209,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-05-07",
-      "summary": "Disponível gratuitamente a partir de 07/05. Encontre o seu caminho em um mundo de quebra-cabeças alegres e bem pensados, ao longo de uma jornada encantadora de autodescoberta.",
+      "date": "2026-05-08",
+      "summary": "Disponível gratuitamente a partir de 15/06. Encontre o seu caminho em um mundo de quebra-cabeças alegres e bem pensados, ao longo de uma jornada encantadora de autodescoberta.",
       "sources": [
         "Epic Games Store"
       ],
@@ -215,7 +224,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-05-07",
+      "date": "2026-05-08",
       "summary": "Disponível gratuitamente a partir de 14/05. A Coleção de Aniversário de Castlevania da Konami traça as origens da histórica franquia de vampiros. Está incluído um e-book exclusivo com detalhes fornecidos por desenvolvedores, artistas e outros inspirados no legado de Castlevania, que lança uma nova luz sobre o mundo de Castlevania.",
       "sources": [
         "Epic Games Store"
@@ -230,7 +239,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-05-07",
+      "date": "2026-05-08",
       "summary": "Disponível gratuitamente a partir de 14/05. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
       "sources": [
         "Epic Games Store"
@@ -238,319 +247,709 @@
       "url": "https://store.epicgames.com/p/monument-valley-02"
     },
     {
-      "id": "https://store.epicgames.com/p/7ea9b97f6a8b4c5d8047733207c5c65c",
-      "title": "EM BREVE: Trash Goblin",
-      "original_title": "Trash Goblin",
-      "image": "https://cdn1.epicgames.com/spt-assets/113ae486fe9040d89a7fc25a501dc3b9/trash-goblin-9bxry.png",
+      "id": "https://store.epicgames.com/p/megasale-mysterygame-2026-02",
+      "title": "EM BREVE: Mystery Game 2",
+      "original_title": "Mystery Game 2",
+      "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/image23_1920x1080-80a010b5958f4d898f9e454840c790a1",
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-05-07",
-      "summary": "Disponível gratuitamente a partir de 07/05. Um jogo de lojista saudável e aconchegante, sem pressões, sem estresse e com boas vibrações sem fim! Descubra e limpe bugigangas e depois recicle-as para vendê-las a inúmeros clientes coloridos e peculiares. Gaste suas economias para atualizar sua loja, comprar ferramentas melhores e expandir e personalizar seu espaço.",
+      "date": "2026-05-08",
+      "summary": "Disponível gratuitamente a partir de 14/05. Jogo Misterioso 2",
       "sources": [
         "Epic Games Store"
       ],
-      "url": "https://store.epicgames.com/p/7ea9b97f6a8b4c5d8047733207c5c65c"
+      "url": "https://store.epicgames.com/p/megasale-mysterygame-2026-02"
     },
     {
-      "id": "https://www.eurogamer.net/james-bond-007-first-light-hitman",
-      "title": "007: First Light não é Hitman e a IO Interactive está “muito feliz” que as pessoas estão começando a perceber isso",
-      "original_title": "007: First Light isn't Hitman and IO Interactive is \"really happy\" people are starting to realise that",
-      "image": "https://assetsio.gnwcdn.com/agent-47-hitman-james-bond-007-first-light.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://store.epicgames.com/p/megasale-mysterygame-2026",
+      "title": "EM BREVE: Mystery Game 1",
+      "original_title": "Mystery Game 1",
+      "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/image23_1920x1080-80a010b5958f4d898f9e454840c790a1",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-05-08",
+      "summary": "Disponível gratuitamente a partir de 14/05. Jogo Mistério 1",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/megasale-mysterygame-2026"
+    },
+    {
+      "id": "https://www.eurogamer.net/path-of-exile-2-steam-deck-verified-switch",
+      "title": "Path of Exile 2 será efetivamente verificado pelo Steam Deck até o final de maio, o que é um bom presságio para a perspectiva de um lançamento do Switch 2",
+      "original_title": "Path of Exile 2 will effectively be Steam Deck verified by the end of May, which bodes very well for the prospect of a Switch 2 release",
+      "image": "https://assetsio.gnwcdn.com/path-of-exile-2-steam-deck.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-05-07",
-      "summary": "Longe de ficar irritado com o fato de as pessoas estarem se concentrando em quão diferente o novo jogo de James Bond 007: First Light é dos jogos Hitman que o precederam, o desenvolvedor IO Interactive está na verdade \"muito feliz\" que as pessoas estão começando a apreciar a diferença...",
+      "date": "2026-05-08",
+      "summary": "O RPG de ação profundo e encantador Path of Exile 2 será efetivamente verificado pelo Steam Deck até o final deste mês, disse-me o desenvolvedor Grinding Gear Games. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/james-bond-007-first-light-hitman"
+      "url": "https://www.eurogamer.net/path-of-exile-2-steam-deck-verified-switch"
     },
     {
-      "id": "https://www.eurogamer.net/star-fox-and-nintendo-switch-2-price-changes",
-      "title": "Enquanto a Nintendo supostamente enfrenta pressão para aumentar os preços do Switch 2, a Star Fox demonstra que mantém sua promessa de tornar os jogos digitais mais baratos",
-      "original_title": "As Nintendo reportedly faces pressure to raise Switch 2 prices, Star Fox demonstrates it's standing by its pledge to make digital games cheaper",
-      "image": "https://assetsio.gnwcdn.com/Star-Fox_Switch-2_money.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/bungie-marathon-destiny-765-million-impairment-loss-sony",
+      "title": "A desenvolvedora de Marathon e Destiny, Bungie, teve desempenho inferior no ano passado, causando uma perda por redução ao valor recuperável de US$ 765 milhões para o PlayStation",
+      "original_title": "Marathon and Destiny developer Bungie underperformed last year, causing a $765 million impairment loss for PlayStation",
+      "image": "https://assetsio.gnwcdn.com/marathon-stock-loss.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-05-07",
-      "summary": "A Nintendo chocou a indústria de jogos na noite passada com a revelação repentina de um novo jogo Star Fox, um remake de Star Fox 64, vindo exclusivamente para Switch 2. Este anúncio surpresa vem das costas de investidores da Nintendo que supostamente expressaram preocupações de que...",
+      "date": "2026-05-08",
+      "summary": "A Sony informou que o jogo de tiro de extração da Bungie, Marathon, e o fraco desempenho de Destiny 2, sofreram uma perda por redução ao valor recuperável de cerca de US$ 765 milhões no último ano financeiro. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/star-fox-and-nintendo-switch-2-price-changes"
+      "url": "https://www.eurogamer.net/bungie-marathon-destiny-765-million-impairment-loss-sony"
     },
     {
-      "id": "https://www.eurogamer.net/lego-batman-legacy-of-the-dark-knight-deep-cut-memes",
-      "title": "Lego Batman: Legacy of the Dark Knight inclui alguns cortes incrivelmente profundos - e muito engraçados - da história da série",
-      "original_title": "Lego Batman: Legacy of the Dark Knight includes some incredibly deep - and very funny - cuts from the series' history",
-      "image": "https://assetsio.gnwcdn.com/lego-batman_Fooz54H.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/clair-obscur-expedition-33-andy-serkis-hollywood-actors",
+      "title": "Andy Serkis, ator de Clair Obscur e Senhor dos Anéis, diz que o esnobismo de Hollywood em relação aos videogames está mudando",
+      "original_title": "Clair Obscur and Lord of the Rings actor Andy Serkis says Hollywood snobbery towards video games is changing",
+      "image": "https://assetsio.gnwcdn.com/renoir-serkis.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-05-07",
-      "summary": "Já sabemos que Lego Batman: Legacy of the Dark Knight estará cheio de ovos de Páscoa dos mais de 80 anos de história da série, mas não apreciei o quão profundo os desenvolvedores da TT Games iriam. Leia mais...",
+      "date": "2026-05-08",
+      "summary": "Andy Serkis é conhecido por muitos por suas interpretações em filmes, desde o editor-chefe da revista de moda 13 Going on 30 até Gollum do Senhor do Anel. Mais recentemente, porém, o ator e cineasta também estrelou um joguinho do qual você já deve ter ouvido falar; Clair Obsc...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/lego-batman-legacy-of-the-dark-knight-deep-cut-memes"
+      "url": "https://www.eurogamer.net/clair-obscur-expedition-33-andy-serkis-hollywood-actors"
     },
     {
-      "id": "https://www.eurogamer.net/xbox-will-offer-a-closer-look-at-project-helix-the-successor-to-its-series-xs-consoles-later-today",
-      "title": "O Xbox “oferecerá uma visão mais detalhada do Projeto Helix”, o sucessor de seus consoles da Série X/S, ainda hoje",
-      "original_title": "Xbox will \"offer a closer look at Project Helix\", the successor to its Series X/S consoles, later today",
-      "image": "https://assetsio.gnwcdn.com/webinar_final_HERO.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/nintendo-switch-2-sales-forecast-fy2027",
+      "title": "As vendas do Switch 2 chegam a quase 20 milhões quase um ano após o lançamento, mas a Nintendo reduziu a previsão do console para 2027",
+      "original_title": "Switch 2 sales reach nearly 20m almost one year after release, but Nintendo has lowered the console's forecast for 2027",
+      "image": "https://assetsio.gnwcdn.com/Switch-2-console.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-05-07",
-      "summary": "A Microsoft anunciou que realizará hoje seu primeiro showcase de atualização de desenvolvimento de jogos do Xbox. O stream de vídeo recém-anunciado apresentará o console de próxima geração da empresa: Project Helix. Até o momento, tivemos apenas atualizações vagas sobre o que este Mac...",
+      "date": "2026-05-08",
+      "summary": "O Switch 2 – o console mais vendido da Nintendo até o momento – já vendeu um total de 19,86 milhões de unidades. Esses números de vendas foram divulgados como parte dos últimos resultados financeiros da empresa, encerrados em março. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/xbox-will-offer-a-closer-look-at-project-helix-the-successor-to-its-series-xs-consoles-later-today"
+      "url": "https://www.eurogamer.net/nintendo-switch-2-sales-forecast-fy2027"
     },
     {
-      "id": "https://www.eurogamer.net/star-wars-fate-of-the-old-republic-recruits-bioware-kotor-devs",
-      "title": "Star Wars: Fate of the Old Republic atrai mais talentos ex-BioWare e KOTOR para a equipe",
-      "original_title": "Star Wars: Fate of the Old Republic attracts more ex-BioWare and KOTOR talent to the team",
-      "image": "https://assetsio.gnwcdn.com/Star-Wars_Fate-of-the-Old-Republic_ship-interior.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/sony-bandai-namco-generative-ai-initiative",
+      "title": "A PlayStation está fazendo parceria com a Bandai Namco para uma “iniciativa colaborativa” focada em IA generativa",
+      "original_title": "PlayStation is partnering with Bandai Namco for a \"collaborative initiative\" focused on generative AI",
+      "image": "https://assetsio.gnwcdn.com/Template-w-shadow%2C-blue%2C-split%2C-switch-2-(5).jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-05-07",
-      "summary": "Star Wars: Fate of the Old Republic pode ser o novo jogo Star Wars mais emocionante no horizonte e, embora não esperemos isso tão cedo - embora o diretor Casey Hudson tenha prometido que será lançado antes de 2030 - parece um desenvolvimento recém-fundado...",
+      "date": "2026-05-08",
+      "summary": "Sony e Bandai Namco anunciaram uma “iniciativa colaborativa” focada em IA e as tecnologias mais recentes podem ajudar no desenvolvimento de jogos. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/star-wars-fate-of-the-old-republic-recruits-bioware-kotor-devs"
+      "url": "https://www.eurogamer.net/sony-bandai-namco-generative-ai-initiative"
     },
     {
-      "id": "https://www.eurogamer.net/resident-evil-requiem-merchant-datamine",
-      "title": "Um datamine sugere que Resident Evil Requiem quase teve um personagem comerciante como Resi 4",
-      "original_title": "A datamine suggests Resident Evil Requiem nearly had a merchant character like Resi 4",
-      "image": "https://assetsio.gnwcdn.com/A-young-girl-in-a-white-nightgown-with-white-hair-and-eyes-in-Resident-Evil-Requiem.-She-is-holding-a-book-in-her-hands-and-is-sitting-on-a-bed.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/ps6-release-plans-sony-business-model",
+      "title": "A Sony ainda não decidiu a data de lançamento ou o preço do PS6 e pode até “mudar os modelos de negócios” em resposta à crise de memória",
+      "original_title": "Sony hasn't decided on PS6 release date or price yet, and may even \"change business models\" in response to the memory crisis",
+      "image": "https://assetsio.gnwcdn.com/ps6-price-date.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-05-07",
-      "summary": "O que você está comprando? Assim que você ler ou ouvir essas palavras, saberá exatamente de quem estou falando. É a frase de efeito dita pelo misterioso Mercador de Resident Evil 4, de quem Leon pode obter armas e atualizações enquanto luta para abrir caminho através do L...",
+      "date": "2026-05-08",
+      "summary": "A Sony revelou que ainda não decidiu a data de lançamento do console PlayStation 6, nem quanto custará no varejo, devido ao impacto do aumento dos custos de memória e outros fatores econômicos. O console da próxima geração ainda nem foi...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/resident-evil-requiem-merchant-datamine"
+      "url": "https://www.eurogamer.net/ps6-release-plans-sony-business-model"
     },
     {
-      "id": "https://www.eurogamer.net/take-two-ceo-strauss-zelnick-on-new-bioshock-development-struggles",
-      "title": "O chefe da Take-Two, Strauss Zelnick, está tão “profundamente decepcionado” quanto os jogadores com a ausência de um novo BioShock",
-      "original_title": "Take-Two boss Strauss Zelnick is as \"deeply disappointed\" as players at the absence of a new BioShock",
-      "image": "https://assetsio.gnwcdn.com/badcyx4wxvobf9drgss6.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/steam-controller-valve-adds-reservations-system",
+      "title": "Valve aborda a escassez “incrivelmente frustrante” de controladores Steam esgotados com novo sistema de reservas",
+      "original_title": "Valve tackles \"incredibly frustrating\" sold-out Steam Controller shortage with new reservation system",
+      "image": "https://assetsio.gnwcdn.com/steam-controller-header.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-05-07",
-      "summary": "Quase nada se sabe sobre o próximo jogo BioShock – que está em desenvolvimento desde pelo menos 2019 – mas o desenvolvedor Cloud Chamber aparentemente ainda está trabalhando duro nele, e a remodelação criativa do verão passado levou ao ex-chefe de Diablo e Irrati...",
+      "date": "2026-05-08",
+      "summary": "Não conseguiu um dos novos controladores Steam caros (£ 85), mas sofisticados da Valve, antes que se esgotassem? Possivelmente existe uma solução para você. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/take-two-ceo-strauss-zelnick-on-new-bioshock-development-struggles"
+      "url": "https://www.eurogamer.net/steam-controller-valve-adds-reservations-system"
     },
     {
-      "id": "https://www.eurogamer.net/diablo-4-cow-level-found",
-      "title": "Após três anos de becos sem saída e comentários atrevidos dos desenvolvedores, os jogadores de Diablo 4 finalmente encontraram o nível da vaca",
-      "original_title": "After three years of dead ends and cheeky developer comments, Diablo 4 players have finally found the cow level",
-      "image": "https://assetsio.gnwcdn.com/cow-diablo-4.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/playstation-5-sales-decline-memory-ai",
+      "title": "Espera-se que as vendas do PS5 diminuam devido à falta de memória generativa de IA e ao aumento dos preços",
+      "original_title": "PS5 sales expected to decline due to generative AI memory drought and rising prices",
+      "image": "https://assetsio.gnwcdn.com/marathon-shells-1.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-05-07",
-      "summary": "Depois de três anos, múltiplas expansões e esforço constante de crentes bovinos perplexos, os jogadores de Diablo 4 aparentemente completaram o nível de vaca secreta do jogo. Leia mais...",
+      "date": "2026-05-08",
+      "summary": "A Sony divulgou seus resultados financeiros do último ano fiscal. Por dentro, prevê uma queda nas vendas de hardware PS5 durante os próximos 12 meses. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/diablo-4-cow-level-found"
+      "url": "https://www.eurogamer.net/playstation-5-sales-decline-memory-ai"
     },
     {
-      "id": "https://www.eurogamer.net/mina-the-hollower-release-date",
-      "title": "Mina the Hollower pixelizada, semelhante a Zelda, chega à data de lançamento “final”",
-      "original_title": "Pixelated Zelda-like Mina the Hollower lands its \"final\" release date",
-      "image": "https://assetsio.gnwcdn.com/A-pixelated-mouse-skates-over-rails-in-Mina-the-Hollower.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/resident-evil-requiem-leon-must-die-forver-game-mode",
+      "title": "O novo modo de jogo de Resident Evil Requiem está aqui, pode ser baixado gratuitamente e parece um caos sangrento",
+      "original_title": "Resident Evil Requiem's new game mode is here, free to download, and it looks like bloody chaos",
+      "image": "https://assetsio.gnwcdn.com/Leon-Must-Die-Forever-artwork-showing-Leon-from-Resident-Evil-Requiem-with-a-red-light-in-his-eye-holding-a-weapon-aloft.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-05-07",
-      "summary": "Depois de um pouco de atraso, o desenvolvedor de Shovel Knight, Yacht Club Games, anunciou sua nova – e “final” – data de lançamento de Mina the Hollower. Leia mais...",
+      "date": "2026-05-08",
+      "summary": "Resident Evil Requiem tem um novo modo de jogo, que já está disponível gratuitamente para todos aqueles que já passaram pela história principal e querem continuar exercitando seus músculos de sobrevivência. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/mina-the-hollower-release-date"
+      "url": "https://www.eurogamer.net/resident-evil-requiem-leon-must-die-forver-game-mode"
     },
     {
-      "id": "https://www.eurogamer.net/stranger-than-heaven-release-window",
-      "title": "O desenvolvedor de Yakuza e Like a Dragon, RGG Studio, finalmente dá a Stranger Than Heaven uma janela de lançamento",
-      "original_title": "Yakuza and Like a Dragon developer RGG Studio finally gives Stranger Than Heaven a release window",
-      "image": "https://assetsio.gnwcdn.com/stranger-than-heaven-header-2.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/nintendo-switch-2-price-increase-may-2025",
+      "title": "Nintendo anuncia aumento de preço do Switch 2, consoles em breve custarão US$ 500 nos EUA",
+      "original_title": "Nintendo announces Switch 2 price increase, consoles will soon be $500 in the US",
+      "image": "https://assetsio.gnwcdn.com/Switch-2-console-docked-with-an-image-of-Wario-holding-a-stack-of-coins-to-the-left.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-05-07",
-      "summary": "No Xbox Presents desta noite, que foi inteiramente dedicado a Stranger Than Heaven do Ryu Ga Gotoku Studio, finalmente soubemos quando o esperado RPG de ação será lançado. Ao final de uma apresentação de 30 minutos mergulhando na história do jogo, combate...",
+      "date": "2026-05-08",
+      "summary": "A Nintendo anunciou um aumento de preço para o Switch 2. Isto segue relatos de que a Nintendo estava enfrentando pressão de investidores para aumentar o preço de seu console Switch 2, devido a preocupações com sua lucratividade. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/stranger-than-heaven-release-window"
+      "url": "https://www.eurogamer.net/nintendo-switch-2-price-increase-may-2025"
     },
     {
-      "id": "https://www.techpowerup.com/348853/palit-confirms-next-gen-galax-hof-and-kfa2-gpus-already-in-development",
-      "title": "Palit confirma GPUs GALAX HOF e KFA2 de última geração já em desenvolvimento",
-      "original_title": "Palit Confirms Next-Gen GALAX HOF and KFA2 GPUs Already in Development",
-      "image": "https://tpucdn.com/img/r83hxFNXBBJG5Qp7_thm.jpg",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1t703tx/nintendo_raising_prices_of_switch_2_and_other/",
+      "title": "Nintendo aumenta preços do Switch 2 e de outros produtos e serviços",
+      "original_title": "Nintendo raising prices of Switch 2 and other products and services",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-05-08",
+      "summary": "Anúncio: Aviso sobre revisões de preços para produtos e serviços Nintendo: https://www.nintendo.co.jp/corporate/release/en/2026/260508.html Nos Estados Unidos, o preço sugerido do Switch 2 aumentará de US$ 449,99 para US$ 499,99 em 1º de setembro.",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1t703tx/nintendo_raising_prices_of_switch_2_and_other/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1t6t9ni/netflixs_devil_may_cry_renewed_for_a_third_season/",
+      "title": "Devil May Cry da Netflix é renovado para uma terceira temporada, de acordo com Mp1st",
+      "original_title": "Netflix’s Devil May Cry Renewed for a Third Season, according to Mp1st",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-05-08",
+      "summary": "MP1st soube que Devil May Cry foi renovado para uma terceira temporada. Embora os detalhes da trama permaneçam em segredo, nossas fontes sugerem que a produção já está em andamento nos bastidores. https://mp1st.com/news/report-netflixs-devil-may-cry-r...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1t6t9ni/netflixs_devil_may_cry_renewed_for_a_third_season/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1t787xa/nfl_2k_revival_apparently_cancelled_visual/",
+      "title": "Renascimento do NFL 2K aparentemente cancelado, Visual Concepts não conseguiu ter uma visão",
+      "original_title": "NFL 2K revival apparently cancelled, Visual Concepts couldn't land a vision",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-05-08",
+      "summary": "Em uma entrevista recente com Stephen Totilo abrangendo uma ampla gama de tópicos, o CEO da Take Two, Strauss Zelnick, comentou sobre o retorno do NFL 2K e indicou que o projeto não está mais em andamento.  “O que esperávamos que se concretizasse de forma criativa não aconteceu.",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1t787xa/nfl_2k_revival_apparently_cancelled_visual/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1t72hqc/for_the_first_clue_i_think_it_will_be_borderlands/",
+      "title": "Para a primeira pista, acho que será Borderlands",
+      "original_title": "For the first clue i think it will be Borderlands",
+      "image": "https://preview.redd.it/kcjo1yxeqvzg1.png?width=140&height=140&crop=1:1,smart&auto=webp&s=525a99368f46fb1d2e1da7231207bb3e2052c2af",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-05-08",
+      "summary": "https://preview.redd.it/kcjo1yxeqvzg1.png?width=727&format=png&auto=webp&s=5bfb1bc1d0e2b953d6687a03bb21ed4474aae200 enviado por /u/keyable [link] [comentários] ...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1t72hqc/for_the_first_clue_i_think_it_will_be_borderlands/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1t6x1az/what_else_could_you_think_this_could_be/",
+      "title": "O que mais você poderia pensar que isso poderia ser?",
+      "original_title": "What else could you think this could be?",
+      "image": "https://preview.redd.it/cr8aoifr8uzg1.png?width=640&crop=smart&auto=webp&s=7b663dfee3a325c9e73f7f529b5a4fc73eecd7b8",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-05-08",
+      "summary": "O quadro na parte superior é um zoom de um ícone estranho que notei quando a animação do teaser do cofre estava terminando.    enviado por /u/Parking_Bunch2719 [link] [comentários] ...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1t6x1az/what_else_could_you_think_this_could_be/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1t74rc2/indiegala_game_the_brave_little_cloud/",
+      "title": "[Indiegala] (Jogo) The Brave Little Cloud",
+      "original_title": "[Indiegala] (Game) The Brave Little Cloud",
+      "image": "https://external-preview.redd.it/SNJ81CJfCR6Hoz6Ym3KTk9QIAfDVYxA05-h8N5x2WrE.png?width=320&crop=smart&auto=webp&s=a3b0a67a11c93a23a0debf03f4b917f286abced2",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-05-08",
+      "summary": "enviado por /u/MeguminShiro [link] [comentários] ...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1t74rc2/indiegala_game_the_brave_little_cloud/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1t72y52/steam_game_next_jump_shump_tactics/",
+      "title": "[Steam] (jogo) Próximas táticas de Jump Shump",
+      "original_title": "[Steam] (game) Next Jump Shump Tactics",
+      "image": "https://external-preview.redd.it/kuazyxHCK4IQkZ3ELW5XPj7Q-h1b9nC9eVP7o6OrPZA.jpeg?width=640&crop=smart&auto=webp&s=492ca8898f489fb93dbcbe36220ef322f0e59db2",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-05-08",
+      "summary": "enviado por /u/Minerslifedig [link] [comentários] ...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1t72y52/steam_game_next_jump_shump_tactics/"
+    },
+    {
+      "id": "https://www.techpowerup.com/348887/gigabytes-aorus-geforce-rtx-5090-infinity-graphics-card-now-available",
+      "title": "(PR) Placa gráfica AORUS GeForce RTX 5090 INFINITY da Gigabyte agora disponível",
+      "original_title": "(PR) Gigabyte's AORUS GeForce RTX 5090 INFINITY Graphics Card Now Available",
+      "image": "https://tpucdn.com/img/frhAAGhBU3TUi4K2_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-08",
+      "summary": "A Gigabyte Technology Co., Ltd., fabricante líder de hardware premium para jogos, tem o orgulho de anunciar a disponibilidade de sua nova placa gráfica da série AORUS INFINITY, a AORUS GeForce RTX 5090 INFINITY 32G. Este produto foi homenageado com o...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348887/gigabytes-aorus-geforce-rtx-5090-infinity-graphics-card-now-available"
+    },
+    {
+      "id": "https://www.techpowerup.com/348886/asus-republic-of-gamers-announces-strix-oled-xg34wcdms-and-strix-xg129c",
+      "title": "(PR) ASUS Republic of Gamers anuncia Strix OLED XG34WCDMS e Strix XG129C",
+      "original_title": "(PR) ASUS Republic of Gamers Announces Strix OLED XG34WCDMS and Strix XG129C",
+      "image": "https://tpucdn.com/img/jD0EWfaL17DeHZkY_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-08",
+      "summary": "A ASUS Republic of Gamers (ROG) anunciou hoje duas novas adições à sua linha de monitores: o ROG Strix OLED XG34WCDMS e o ROG Strix XG129C. Com os jogadores exigindo cada vez mais visuais de tirar o fôlego e recursos multitarefa simplificados, a ROG...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348886/asus-republic-of-gamers-announces-strix-oled-xg34wcdms-and-strix-xg129c"
+    },
+    {
+      "id": "https://www.techpowerup.com/348883/dlss-5-gamers-prefer-original-visuals-many-await-real-world-results",
+      "title": "DLSS 5: os jogadores preferem recursos visuais originais, muitos aguardam resultados do mundo real",
+      "original_title": "DLSS 5: Gamers Prefer Original Visuals, Many Await Real-World Results",
+      "image": "https://tpucdn.com/img/RLfezlUx3r84Jhrw_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-08",
+      "summary": "Quando a NVIDIA anunciou sua tecnologia Deep Learning Super Sampling (DLSS) 5, que a empresa descreve como a primeira tecnologia de renderização neural em tempo real a trazer fotorrealismo às texturas de jogos, a resposta dos jogadores não foi totalmente positiva. Homem...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348883/dlss-5-gamers-prefer-original-visuals-many-await-real-world-results"
+    },
+    {
+      "id": "https://www.techpowerup.com/348884/asus-republic-of-gamers-to-celebrate-20-years-of-gaming-innovation-at-computex-2026",
+      "title": "(PR) ASUS Republic of Gamers comemorará 20 anos de inovação em jogos na Computex 2026",
+      "original_title": "(PR) ASUS Republic of Gamers to Celebrate 20 Years of Gaming Innovation at Computex 2026",
+      "image": "https://tpucdn.com/img/B3qIdzFWnRLb6hCt_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-08",
+      "summary": "A ASUS Republic of Gamers (ROG) anunciou hoje o seu próximo ROG Press Event and Party na Computex 2026, marcando o seu 20º aniversário e inaugurando uma nova era de inovação em jogos. Acontece no dia 1º de junho, das 17h às 22h. (GMT+8) na Syntrend Creati...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348884/asus-republic-of-gamers-to-celebrate-20-years-of-gaming-innovation-at-computex-2026"
+    },
+    {
+      "id": "https://www.techpowerup.com/348879/apple-taps-tsmc-for-fresh-a18-pro-silicon-to-double-macbook-neo-production",
+      "title": "Apple recorre à TSMC para obter novo silício A18 Pro para dobrar a produção do MacBook Neo",
+      "original_title": "Apple Taps TSMC For Fresh A18 Pro Silicon To Double MacBook Neo Production",
+      "image": "https://tpucdn.com/img/E2Jx4739TpS3dpcR_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-08",
+      "summary": "Não é nenhum segredo que o MacBook Neo de US$ 599 da Apple foi um sucesso para fluxos de trabalho de produtividade geral e como substituto do Chromebook, mas em um recente relatório de resultados financeiros, Tim Cook mencionou o quão inesperadamente alta era a demanda do Neo. A saída...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348879/apple-taps-tsmc-for-fresh-a18-pro-silicon-to-double-macbook-neo-production"
+    },
+    {
+      "id": "https://www.techpowerup.com/348877/capcom-releases-free-resident-evil-requiem-mini-game-dlc-leon-must-die-forever",
+      "title": "Capcom lança minijogo DLC gratuito de Resident Evil Requiem: Leon Must Die Forever",
+      "original_title": "Capcom Releases Free Resident Evil Requiem Mini Game DLC: Leon Must Die Forever",
+      "image": "https://tpucdn.com/img/ezWxjT7Ft7lY4I17_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-08",
+      "summary": "Bem no prazo, conforme divulgado pela Capcom no final de abril, o prometido DLC do minijogo de combate Resident Evil Requiem chegou oficialmente para PC, PlayStation 5 e Xbox séries X | Leon Must Die Forever — cujo nome deve ser uma referência ao dilúvio de infinitos...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348877/capcom-releases-free-resident-evil-requiem-mini-game-dlc-leon-must-die-forever"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1t6mifu/discussion_news_and_request_thread_week_beginning/",
+      "title": "Tópico de discussão, notícias e solicitações - semana que começa em 04/05/26",
+      "original_title": "Discussion, News, and Request Thread - Week Beginning 05/04/26",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-05-07",
+      "summary": "14:18 Os tópicos de discussão são o seu centro central semanal para todas as solicitações, notícias sobre jogos e quaisquer outros tópicos sobre jogos sobre os quais você queira conversar. Por favor, mantenha todo o conteúdo que não precisa de postagem própria neste tópico para desorganizar o sub para vazamentos adequados e...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1t6mifu/discussion_news_and_request_thread_week_beginning/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1t6igdi/fromsofts_next_singleplayer_title_with_the/",
+      "title": "O próximo título single-player da Fromsoft com o nome interno \"Project FMC\"",
+      "original_title": "Fromsoft's next single-player title with the internal name \"Project FMC\"",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-05-07",
+      "summary": "O próximo título single-player da FromSoftware se chama ‘CERULEAN ONSLAUGHT’ e será revelado no Summer Game Fest em apenas 1 mês. É um título publicado pelo próprio e será lançado apenas 2 meses depois, em agosto, antes de The Duskbloods. É um...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1t6igdi/fromsofts_next_singleplayer_title_with_the/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1t6mcq7/cory_barlog_seemingly_confirming_nates_faye_rumor/",
+      "title": "Cory Barlog aparentemente confirmando o boato de Nate sobre Faye",
+      "original_title": "Cory Barlog seemingly confirming Nate's Faye rumor",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-05-07",
+      "summary": "Mike Minotti: \"Então qual é exatamente a vantagem de abandonar o Nintendo Direct em vez de avisar?\" Zakk Mylde: \"Para possuir NateTheHate por uma semana.\" Cory Barlog: \"apoio totalmente isso.\"  Fonte enviada por /u/Connect_Base_217 [link] [commen...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1t6mcq7/cory_barlog_seemingly_confirming_nates_faye_rumor/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1t6pcj5/sonic_frontiers_gets_a_new_description_and_a/",
+      "title": "Sonic Frontiers recebe uma nova descrição e uma queda de preço no Steam, sugerindo que a edição definitiva pode ser anunciada em breve",
+      "original_title": "Sonic frontiers gets a new description and a price drop on steam suggesting definitive edition may be announced soon",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-05-07",
+      "summary": "Fonte: https://xcancel.com/super\\_ult/status/2052497367270674945?s=46 A queda de preço sugere que haverá um caminho de atualização como origens e mania enviado por /u/skyblade960 [link] [comentários]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1t6pcj5/sonic_frontiers_gets_a_new_description_and_a/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1t6fipx/rebs_gaming_halo_studios_is_actively_developing/",
+      "title": "Rebs Gaming: Halo Studios está desenvolvendo ativamente a próxima campanha principal do Halo “Halo Next”. Detalhes sobre os planos originais de Joseph Staten para a sequência de Halo Infinite e The Flood",
+      "original_title": "Rebs Gaming: Halo Studios is actively developing the next mainline Halo campaign “Halo Next”. Details on Joseph Staten’s original plans for the Halo Infinite sequel and The Flood",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-05-07",
+      "summary": "Rebs Gaming afirma que recebeu novas informações sobre uma sequência da campanha Halo Infinite após seu relatório anterior sobre o projeto na semana passada.  A sequência estava em desenvolvimento na 343 Industries antes das demissões no início de 2023. Liderado por Joe Staten, o projeto...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1t6fipx/rebs_gaming_halo_studios_is_actively_developing/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1t6ls5j/citizen_sleeper_1_2_rated_for_switch_2/",
+      "title": "Citizen Sleeper 1 e 2 avaliado para Switch 2",
+      "original_title": "Citizen Sleeper 1 & 2 Rated For Switch 2",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-05-07",
+      "summary": "Artigo: https://universonintendo.com/citizen-sleeper-e-sua-sequencia-sao-classificados-para-switch-2-pela-esrb/ enviado por /u/Howerev [link] [comentários]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1t6ls5j/citizen_sleeper_1_2_rated_for_switch_2/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1t6n61g/removing_checkout_window_when_claiming_free_games/",
+      "title": "Remover a janela de checkout ao reivindicar jogos grátis foi a melhor atualização que já vi em jogos épicos.",
+      "original_title": "Removing checkout window when claiming free games was the best upgrade I have ever seen epic games done.",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Epic News",
+      "date": "2026-05-07",
+      "summary": "É a melhor atualização que a Epic Games já fez em sua página para o sorteio de jogos grátis. Isso nos poupará horas de nossas vidas a longo prazo. Antes de reivindicar um jogo: 1) Você visitaria a página do jogo 2) Clique para reivindicar o jogo 3) Em seguida, aguarde a verificação...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1t6n61g/removing_checkout_window_when_claiming_free_games/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1t6bvus/next_week_pc_freebiemystery_game_1_2/",
+      "title": "Brinde para PC na próxima semana｜Jogo misterioso nº 1 e 2",
+      "original_title": "Next Week PC Freebie｜Mystery Game #1 & 2",
+      "image": "https://preview.redd.it/yt8xjx9v4qzg1.png?width=140&height=109&auto=webp&s=8fb0882db615ffaa049420bed7c820b8feb3486a",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-05-07",
+      "summary": "enviado por /u/MeguminShiro [link] [comentários] ...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1t6bvus/next_week_pc_freebiemystery_game_1_2/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1t6k8ku/hint_for_one_or_both_mystery_games_next_week/",
+      "title": "Dica para um (ou ambos?) Jogos de Mistério na próxima semana postado pela Epic no Twitter",
+      "original_title": "Hint for one (or both?) Mystery Games next week posted by Epic on Twitter",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Epic News",
+      "date": "2026-05-07",
+      "summary": "enviado por /u/ImAnthlon [link] [comentários]...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1t6k8ku/hint_for_one_or_both_mystery_games_next_week/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1t6rgyj/dead_as_disco_sold_100k_copies_in_48_hours/",
+      "title": "Dead as Disco vendeu 100 mil cópias em 48 horas",
+      "original_title": "Dead as Disco sold 100k copies in 48 hours",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-05-07",
+      "summary": "enviado por /u/ImAnthlon [link] [comentários]...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1t6rgyj/dead_as_disco_sold_100k_copies_in_48_hours/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1t6dd67/mobile_freebieteacup/",
+      "title": "Brinde para celular ｜ Xícara de chá",
+      "original_title": "Mobile Freebie｜Teacup",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-05-07",
+      "summary": "📝 Página de transações (para ver se você reivindicou ou não) ⏩ Check-out instantâneo (faça login primeiro na Epic Games) Check-out instantâneo do item 🎮 REIVINDICAR TODOS Android e iOS 🎮﻿ Teacup Android／iOS 🎮 Teacup｜Android／iOS ⌛ Rating／⛔ Blacklist｜South Korea submit...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1t6dd67/mobile_freebieteacup/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1t6avzn/mixtape_has_launched_on_the_epic_games_store/",
+      "title": "Mixtape foi lançada na Epic Games Store!",
+      "original_title": "Mixtape has launched on the Epic Games Store!",
+      "image": "https://external-preview.redd.it/hkUoUzzvYuD93s1LH_F96lY3wrJZflu3xDyE4TpRqx4.jpeg?width=640&crop=smart&auto=webp&s=a82e24e03ab7e994f4405248eb65354bee7e4a26",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Epic News",
+      "date": "2026-05-07",
+      "summary": "Paralelamente, os desenvolvedores e Annapurna lançaram seu jogo anterior \"The Artful Escape\" na loja, há um pacote que pode ser adquirido que contém Mixtape e Artful Escape com um bom desconto https://store.epicgames.com/en-U...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1t6avzn/mixtape_has_launched_on_the_epic_games_store/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1t6d2ly/epic_games_game_trash_goblin/",
+      "title": "[Jogos Épicos] (Jogo) Trash Goblin",
+      "original_title": "[Epic Games] (Game) Trash Goblin",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-05-07",
+      "summary": "enviado por /u/el9in [link] [comentários]...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1t6d2ly/epic_games_game_trash_goblin/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1t6d2lx/epic_games_game_arranger_a_rolepuzzling_adventure/",
+      "title": "[Epic Games] (Jogo) Arranjador: uma aventura intrigante",
+      "original_title": "[Epic Games] (Game) Arranger: A Role-Puzzling Adventure",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-05-07",
+      "summary": "enviado por /u/el9in [link] [comentários]...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1t6d2lx/epic_games_game_arranger_a_rolepuzzling_adventure/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1t6dcty/epic_games_mobile_game_teacup/",
+      "title": "[Epic Games Mobile] (Jogo) Xícara de chá",
+      "original_title": "[Epic Games Mobile] (Game) Teacup",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-05-07",
+      "summary": "📝 Página de transações (para ver se você reivindicou ou não) ⏩ Check-out instantâneo (faça login primeiro na Epic Games) Check-out instantâneo do item 🎮 REIVINDICAR TODOS Android e iOS 🎮﻿ Teacup Android／iOS 🎮 Teacup｜Android／iOS ⌛ Rating／⛔ Blacklist｜South Korea submit...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1t6dcty/epic_games_mobile_game_teacup/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1t6j2rk/steam_game_roving_rovers_australian_rover/",
+      "title": "[Steam] (Jogo) Roving Rovers - Australian Rover Challenge 2025",
+      "original_title": "[Steam] (Game) Roving Rovers - Australian Rover Challenge 2025",
+      "image": "https://external-preview.redd.it/QtvwO4PdXJYwvrUhUSe1sEx5wKVrMLMvz5LgGq7L7RE.jpeg?width=320&crop=smart&auto=webp&s=fbbc6a07da293fdc20e804684387ee14af0afd15",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-05-07",
+      "summary": "Espera-se que mude de F2P para ~$5 em 13 de maio.  Anúncio: https://steamcommunity.com/games/2447240/announcements/detail/661609410908389383 enviado por /u/Responsible-River653 [link] [comentários] ...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1t6j2rk/steam_game_roving_rovers_australian_rover/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1t6gllk/psa_mafia_ii_definitive_edition_gog_fruitbus_gog/",
+      "title": "[PSA] Mafia II: Definitive Edition (GOG), Fruitbus (GOG) são gratuitos no Amazon Prime",
+      "original_title": "[PSA] Mafia II: Definitive Edition (GOG), Fruitbus (GOG) are complimentary with Amazon Prime",
+      "image": "https://external-preview.redd.it/_fBjABdCsDDIR7bJn-cgpkXoTMJ2MnAEY3PCdXPaAoY.png?width=640&crop=smart&auto=webp&s=bef23da95c6aa8211ed8845602ada6c6644977cf",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-05-07",
+      "summary": "enviado por /u/LighteningOneIN [link] [comentários] ...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1t6gllk/psa_mafia_ii_definitive_edition_gog_fruitbus_gog/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1t6r89t/steam_game_lawnmower_game_battle_2_reload/",
+      "title": "[Steam] (Jogo) Cortador de grama Jogo Battle 2 Recarregar",
+      "original_title": "[Steam] (Game) Lawnmower Game Battle 2 Reload",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-05-07",
+      "summary": "enviado por /u/EinHaDe [link] [comentários]...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1t6r89t/steam_game_lawnmower_game_battle_2_reload/"
+    },
+    {
+      "id": "https://www.techpowerup.com/348869/corsair-reports-strong-profit-growth-for-first-quarter-2026",
+      "title": "(PR) Corsair relata forte crescimento de lucro no primeiro trimestre de 2026",
+      "original_title": "(PR) Corsair Reports Strong Profit Growth for First Quarter 2026",
+      "image": "https://tpucdn.com/img/o37ikCFZICXK0Sx0_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-05-07",
-      "summary": "Após a unificação das subempresas da Palit, GALAX e KFA2, sob o mesmo teto, Palit confirmou que a empresa já está desenvolvendo placas gráficas GALAX Hall-of-Fame (HOF) de próxima geração, bem como modelos regulares de GPU das marcas GALAX e KFA2. ...",
+      "summary": "(Nasdaq: CRSR) (\"Corsair\" ou a \"Empresa\"), fornecedora líder global e inovadora de produtos de alto desempenho para jogadores, streamers, criadores de conteúdo, construtores de PC para jogos e entusiastas de corridas simuladas, anunciou hoje resultados financeiros",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/348853/palit-confirms-next-gen-galax-hof-and-kfa2-gpus-already-in-development"
+      "url": "https://www.techpowerup.com/348869/corsair-reports-strong-profit-growth-for-first-quarter-2026"
     },
     {
-      "id": "https://www.techpowerup.com/348852/satechi-introduces-dotdisk-80-gbps-ssd-enclosure-with-active-cooling",
-      "title": "Satechi apresenta gabinete SSD DotDisk de 80 Gbps com resfriamento ativo",
-      "original_title": "Satechi Introduces DotDisk 80 Gbps SSD Enclosure With Active Cooling",
-      "image": "https://tpucdn.com/img/89qqU6PeTDiizObH_thm.jpg",
+      "id": "https://www.techpowerup.com/348868/valve-steam-controller-update-new-availability-and-purchasing-rules-to-fight-scalping-and-supply-issues",
+      "title": "Atualização do controlador Valve Steam: novas regras de disponibilidade e compra para combater problemas de escalonamento e fornecimento",
+      "original_title": "Valve Steam Controller Update: New Availability and Purchasing Rules To Fight Scalping and Supply Issues",
+      "image": "https://tpucdn.com/img/qKMsXSbc7AamX84H_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-05-07",
-      "summary": "A Satechi lançou o DotDisk, um gabinete M.2 NVMe compacto com interface USB4 V2 rodando a até 80 Gbps. A Satechi não é novata no espaço de gabinetes SSD, tendo lançado anteriormente produtos como o compacto Mini NVMe SSD em 2024, o USB4 Slim ...",
+      "summary": "Quando a Valve lançou o Steam Controller, o novo periférico de jogos estava esgotado no primeiro dia de vendas. A Valve então prometeu que o estoque chegaria em breve, afirmando que a demanda pelo controlador era inesperada. Agora, a gigante dos jogos con...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/348852/satechi-introduces-dotdisk-80-gbps-ssd-enclosure-with-active-cooling"
+      "url": "https://www.techpowerup.com/348868/valve-steam-controller-update-new-availability-and-purchasing-rules-to-fight-scalping-and-supply-issues"
     },
     {
-      "id": "https://www.techpowerup.com/348851/qualcomm-unveils-snapdragon-6-and-4-gen-5-mid-range-mobile-chips",
-      "title": "(PR) Qualcomm lança chips móveis de médio porte Snapdragon 6 e 4 Gen 5",
-      "original_title": "(PR) Qualcomm Unveils Snapdragon 6 and 4 Gen 5 Mid-Range Mobile Chips",
-      "image": "https://tpucdn.com/img/kg5Vy0LfEdPSRkaA_thm.jpg",
+      "id": "https://www.techpowerup.com/348867/keychron-launches-q11-ultra-split-wireless-mechanical-keyboard",
+      "title": "Keychron lança teclado mecânico sem fio Q11 Ultra Split",
+      "original_title": "Keychron Launches Q11 Ultra Split Wireless Mechanical Keyboard",
+      "image": "https://tpucdn.com/img/Tt6Vi4o6qrxEZ2o1_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-05-07",
-      "summary": "anunciou hoje a plataforma móvel Snapdragon 6 Gen 5 e a plataforma móvel Snapdragon 4 Gen 5, expandindo seu portfólio com recursos de próxima geração projetados para experiências do mundo real. Ao focar nas tecnologias...",
+      "summary": "Keychron tem estado ocupado atualizando sua linha de teclados mecânicos nos últimos meses, mudando para firmware hipereficiente e seus interruptores mecânicos Silk POM atualizados. Agora, o Keychron Q11 recebe o mesmo tratamento, sendo o Q11 Ultra muito...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/348851/qualcomm-unveils-snapdragon-6-and-4-gen-5-mid-range-mobile-chips"
+      "url": "https://www.techpowerup.com/348867/keychron-launches-q11-ultra-split-wireless-mechanical-keyboard"
     },
     {
-      "id": "https://www.techpowerup.com/348848/geil-announces-jedec-standard-8000-mt-s-memory-and-the-aquarius-diamond-rgb-series-at-computex-2026",
-      "title": "(PR) GeIL Anuncia Memória JEDEC Padrão 8000 MT/s e Série AQUARIUS Diamond RGB na Computex 2026",
-      "original_title": "(PR) GeIL Announces JEDEC Standard 8000 MT/s Memory and the AQUARIUS Diamond RGB Series at Computex 2026",
-      "image": "https://tpucdn.com/img/d5doJhr1Iw4YSg58_thm.jpg",
+      "id": "https://www.techpowerup.com/348860/nuphy-berry-profile-gets-7th-colorway-with-alchemical-manuscripts-pbt-keycap-set",
+      "title": "Perfil NuPhy Berry obtém 7º Colorway com conjunto de teclas PBT “Alchemical Manuscripts”",
+      "original_title": "NuPhy Berry Profile Gets 7th Colorway With \"Alchemical Manuscripts\" PBT Keycap Set",
+      "image": "https://tpucdn.com/img/YnTJ8po59silMFfU_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-05-07",
-      "summary": "Golden Emperor International Ltd. - um dos principais fabricantes mundiais de componentes de PC e periféricos, tem o orgulho de anunciar seu mais recente avanço em computação de alto desempenho na Computex 2026. Liderando o ataque está o primeiro DDR5 8000 do setor...",
+      "summary": "O perfil Berry da NuPhy é um perfil de tecla discreto que imita o popular perfil Cherry que se tornou popular entre entusiastas de teclados mecânicos e jogadores, e a NuPhy acaba de anunciar um novo conjunto de teclas em sua linha de teclas Berry. O...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/348848/geil-announces-jedec-standard-8000-mt-s-memory-and-the-aquarius-diamond-rgb-series-at-computex-2026"
-    },
-    {
-      "id": "https://www.techpowerup.com/348847/global-tablet-market-sees-marginal-growth-at-0-1-in-q1-2026-as-demand-outlook-weakens",
-      "title": "(PR) Mercado global de tablets vê crescimento marginal de 0,1% no primeiro trimestre de 2026 à medida que a perspectiva da demanda enfraquece",
-      "original_title": "(PR) Global Tablet Market Sees Marginal Growth at 0.1% in Q1 2026 as Demand Outlook Weakens",
-      "image": "https://tpucdn.com/img/OL2Elwpikv0b8tAT_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-07",
-      "summary": "O mercado global de tablets permaneceu estável no primeiro trimestre de 2026, com as remessas aumentando apenas 0,1% ano a ano, atingindo 37 milhões de unidades, de acordo com a pesquisa mais recente da Omdia. Embora as remessas de tablets tenham diminuído sequencialmente, em linha com o padrão sazonal típico...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348847/global-tablet-market-sees-marginal-growth-at-0-1-in-q1-2026-as-demand-outlook-weakens"
-    },
-    {
-      "id": "https://www.techpowerup.com/348846/msi-launches-datamag-lite-40gbps-magnetic-portable-ssd",
-      "title": "(PR) MSI lança SSD portátil magnético DATAMAG LITE 40Gbps",
-      "original_title": "(PR) MSI Launches DATAMAG LITE 40Gbps Magnetic Portable SSD",
-      "image": "https://tpucdn.com/img/YD0YEcaCLTxgHWIj_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-07",
-      "summary": "A MSI anuncia hoje o lançamento do DATAMAG LITE 40Gbps, um SSD portátil magnético que combina desempenho de alta velocidade com conveniência diária. Disponível em capacidades de 1 TB, 2 TB e 4 TB, o DATAMAG LITE aproveita a interface USB4 de 40 Gbps para ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348846/msi-launches-datamag-lite-40gbps-magnetic-portable-ssd"
-    },
-    {
-      "id": "https://www.techpowerup.com/348845/announcing-the-new-asus-chromebook-cm14-cm1406",
-      "title": "Anunciando o novo ASUS Chromebook CM14 (CM1406)",
-      "original_title": "Announcing the New ASUS Chromebook CM14 (CM1406)",
-      "image": "https://tpucdn.com/img/x7qg1Wer0GfWSXYj_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-07",
-      "summary": "A ASUS anunciou hoje a versão mais recente do ASUS Chromebook CM14 (CM1406), um portátil de 14 polegadas poderoso mas económico, com um design elegante e premium. Este laptop foi desenvolvido para a produtividade diária, com suporte para até 8 GB de LPDDR5x...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348845/announcing-the-new-asus-chromebook-cm14-cm1406"
-    },
-    {
-      "id": "https://www.techpowerup.com/348844/pcie-8-0-targets-1-tb-s-bandwidth-and-may-need-a-new-connector",
-      "title": "PCIe 8.0 visa largura de banda de 1 TB/s e pode precisar de um novo conector",
-      "original_title": "PCIe 8.0 Targets 1 TB/s Bandwidth and May Need a New Connector",
-      "image": "https://tpucdn.com/img/WqhXkrI3rT1pyP3R_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-07",
-      "summary": "PCI-SIG lançou uma pequena atualização em seu próximo padrão PCIe 8.0, com o marco do rascunho atingindo a versão 0.5. Talvez o aspecto mais intrigante deste rascunho de atualização não seja o desempenho em si, mas a exploração de uma nova tecnologia de conector...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348844/pcie-8-0-targets-1-tb-s-bandwidth-and-may-need-a-new-connector"
-    },
-    {
-      "id": "https://www.techpowerup.com/348841/take-two-ceo-says-borderlands-4-on-switch-2-doable-but-pc-optimization-takes-priority",
-      "title": "CEO da Take-Two diz que Borderlands 4 no Switch 2 é “viável”, mas a otimização do PC tem prioridade",
-      "original_title": "Take-Two CEO Says Borderlands 4 on Switch 2 \"Doable\" but PC Optimization Takes Priority",
-      "image": "https://tpucdn.com/img/lNuMuM3PxiK6DKgd_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-07",
-      "summary": "Não muito tempo atrás, a 2K Games anunciou que estava suspendendo o desenvolvimento de Borderlands 4 no Nintendo Switch 2, afirmando que o foco seria “entregar conteúdo pós-lançamento de qualidade aos jogadores sobre as melhorias contínuas para otimizar o jogo...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348841/take-two-ceo-says-borderlands-4-on-switch-2-doable-but-pc-optimization-takes-priority"
-    },
-    {
-      "id": "https://www.techpowerup.com/348840/fbc-firebreak-will-remain-on-life-support-despite-poor-performance",
-      "title": "FBC: Firebreak permanecerá no suporte vital apesar do mau desempenho",
-      "original_title": "FBC: Firebreak Will Remain on Life Support Despite Poor Performance",
-      "image": "https://tpucdn.com/img/gM8x61gKUb6gVeKM_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-07",
-      "summary": "Desde que FBC: Firebreak foi lançado em junho de 2025, ele não conseguiu superar nem 2.000 jogadores simultâneos no Steam, de acordo com o SteamDB, com contagens baixas de jogadores resultando em Remedy colocando o desenvolvimento ativo do jogo de tiro cooperativo no gelo em março...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348840/fbc-firebreak-will-remain-on-life-support-despite-poor-performance"
+      "url": "https://www.techpowerup.com/348860/nuphy-berry-profile-gets-7th-colorway-with-alchemical-manuscripts-pbt-keycap-set"
     }
   ]
 }
