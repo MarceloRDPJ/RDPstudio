@@ -56,7 +56,7 @@
     <div class="max-w-6xl mx-auto px-5 sm:px-6 py-6 md:py-10 min-h-screen flex flex-col">
 
         <!-- Standardized Header -->
-        <header class="flex flex-wrap justify-between items-center mb-12 gap-4 fade-in-up relative z-50">
+        <header class="flex flex-wrap justify-between items-center mb-10 gap-4 fade-in-up relative z-50">
             <a href="../../hub/projetos.html" class="flex items-center gap-2 text-slate-400 hover:text-white transition-colors group">
                 <div class="p-2 rounded-lg bg-white/5 border border-white/10 group-hover:border-vibrantCyan/50 transition-colors">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -65,15 +65,7 @@
                 </div>
                 <span class="text-sm font-semibold tracking-wide uppercase">Voltar ao Hub</span>
             </a>
-            <nav class="hidden md:flex items-center gap-1 rounded-full border border-white/10 bg-white/[0.03] p-1 text-xs font-bold uppercase tracking-wider text-slate-400">
-                <a href="#ferramenta" class="rounded-full px-4 py-2 hover:bg-white/10 hover:text-white transition-colors">Ferramenta</a>
-                <a href="#fluxo" class="rounded-full px-4 py-2 hover:bg-white/10 hover:text-white transition-colors">Fluxo</a>
-                <a href="#rodape" class="rounded-full px-4 py-2 hover:bg-white/10 hover:text-white transition-colors">Contato</a>
-            </nav>
             <div class="hidden md:flex items-center gap-3">
-                <span class="px-3 py-1 rounded-full bg-vibrantCyan/10 border border-vibrantCyan/20 text-vibrantCyan text-xs font-bold uppercase tracking-wider">
-                    Validador v2.5
-                </span>
                 <a href="#ferramenta" class="px-4 py-2 rounded-full bg-vibrantCyan text-slate-950 text-xs font-extrabold uppercase tracking-wider hover:shadow-[0_0_22px_rgba(0,180,216,0.45)] transition-all">Validar agora</a>
             </div>
             <!-- Mobile Menu Button -->
@@ -96,23 +88,13 @@
         </div>
 
         <!-- Main Title Area -->
-        <div class="text-center mb-12 fade-in-up delay-100 relative">
-            <div class="inline-flex items-center gap-2 rounded-full border border-trustGreen/20 bg-trustGreen/10 px-4 py-2 text-[11px] font-bold uppercase tracking-[0.18em] text-trustGreen mb-5">
-                <i class="fa-solid fa-lock"></i>
-                Processamento local no navegador
-            </div>
+        <div class="text-center mb-10 fade-in-up delay-100 relative">
             <h1 class="text-4xl md:text-6xl font-extrabold mb-4 leading-tight tracking-[-0.04em]">
                 Valide MACs e gere <span class="text-gradient">scripts Fortigate</span>
             </h1>
-            <p class="text-base md:text-lg text-slate-400 max-w-2xl mx-auto font-light leading-relaxed mb-8">
-                Cole uma planilha, CSV ou TXT bruto. A ferramenta identifica nome e MAC automaticamente, aponta erros e entrega os comandos prontos para firewall.
+            <p class="text-base md:text-lg text-slate-400 max-w-2xl mx-auto font-light leading-relaxed mb-6">
+                Cole CSV/TXT ou texto bruto. A ferramenta identifica nome e MAC, aponta erros e gera os comandos Fortigate localmente no navegador.
             </p>
-
-            <div class="flex flex-wrap justify-center gap-2 mb-8 text-[11px] font-mono uppercase tracking-[0.18em]">
-                <span class="px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-slate-300">Nome e MAC em qualquer ordem</span>
-                <span class="px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-slate-300">CSV, TXT ou texto colado</span>
-                <span class="px-3 py-1.5 rounded-full bg-vibrantCyan/10 border border-vibrantCyan/20 text-vibrantCyan">Deteccao automatica</span>
-            </div>
 
             <div class="flex flex-col sm:flex-row justify-center gap-3">
                 <a href="#ferramenta" class="flex items-center justify-center gap-2 px-7 py-3 rounded-full bg-vibrantCyan text-slate-950 text-xs font-extrabold tracking-wide uppercase transition-all hover:scale-105 hover:shadow-[0_0_24px_rgba(0,180,216,0.5)]">
@@ -121,60 +103,57 @@
                 </a>
                 <button id="startDemoBtn" class="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 text-xs font-bold text-slate-200 transition-all hover:text-white">
                     <i class="fa-solid fa-play"></i>
-                    <span>VER DEMONSTRAÇÃO</span>
+                    <span>Ver demo</span>
                 </button>
 
-                <button id="toggleInfoBtn" class="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 text-xs font-bold text-slate-300 transition-all hover:text-white">
+                <button id="toggleInfoBtn" class="flex items-center justify-center gap-2 px-4 py-3 text-xs font-bold text-slate-500 transition-all hover:text-white">
                     <i class="fa-solid fa-book-open"></i>
-                    <span>A HISTÓRIA</span>
+                    <span>A história</span>
                 </button>
             </div>
         </div>
 
         <!-- Fluxo de Processamento (Always Visible Now) -->
-        <div id="fluxo" class="mb-12 fade-in-up delay-200">
-             <div class="text-xs font-bold text-slate-500 uppercase tracking-widest mb-6 flex items-center gap-2 justify-center">
-                <i class="fa-solid fa-microchip text-vibrantCyan"></i> Pipeline de Automação
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 relative px-4">
+        <div id="fluxo" class="mb-10 fade-in-up delay-200">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-3 relative px-0 md:px-4">
                 <!-- Connecting Line (Desktop) -->
                 <div class="hidden md:block flow-line-container">
                      <div class="flow-line-active"></div>
                 </div>
 
                 <!-- Step 1 -->
-                <div id="step-input" class="glass-card p-6 rounded-2xl text-center relative group z-10 bg-[#0f172a]">
-                    <div class="w-14 h-14 mx-auto bg-slate-800/80 rounded-full flex items-center justify-center text-slate-400 mb-4 border border-slate-700 group-hover:border-vibrantCyan group-hover:text-vibrantCyan transition-all shadow-lg group-hover:shadow-vibrantCyan/20">
-                        <i class="fa-solid fa-file-csv text-xl"></i>
+                <div id="step-input" class="glass-card p-4 rounded-xl text-center relative group z-10 bg-[#0f172a]/80">
+                    <div class="w-10 h-10 mx-auto bg-slate-800/80 rounded-full flex items-center justify-center text-slate-400 mb-3 border border-slate-700 group-hover:border-vibrantCyan group-hover:text-vibrantCyan transition-all">
+                        <i class="fa-solid fa-file-csv text-sm"></i>
                     </div>
-                    <h4 class="text-white font-bold text-base mb-1">Input</h4>
+                    <h4 class="text-white font-bold text-sm mb-1">Input</h4>
                     <p class="text-xs text-slate-400">Excel, CSV ou TXT</p>
                 </div>
 
                 <!-- Step 2 -->
-                <div id="step-engine" class="glass-card p-6 rounded-2xl text-center relative group z-10 bg-[#0f172a]">
-                    <div class="w-14 h-14 mx-auto bg-slate-800/80 rounded-full flex items-center justify-center text-slate-400 mb-4 border border-slate-700 group-hover:border-vibrantCyan group-hover:text-vibrantCyan transition-all shadow-lg group-hover:shadow-vibrantCyan/20">
-                        <i class="fa-solid fa-gears text-xl"></i>
+                <div id="step-engine" class="glass-card p-4 rounded-xl text-center relative group z-10 bg-[#0f172a]/80">
+                    <div class="w-10 h-10 mx-auto bg-slate-800/80 rounded-full flex items-center justify-center text-slate-400 mb-3 border border-slate-700 group-hover:border-vibrantCyan group-hover:text-vibrantCyan transition-all">
+                        <i class="fa-solid fa-gears text-sm"></i>
                     </div>
-                    <h4 class="text-white font-bold text-base mb-1">Engine JS</h4>
+                    <h4 class="text-white font-bold text-sm mb-1">Engine JS</h4>
                     <p class="text-xs text-slate-400">Regex & Parsing</p>
                 </div>
 
                 <!-- Step 3 -->
-                <div id="step-validation" class="glass-card p-6 rounded-2xl text-center relative group z-10 bg-[#0f172a]">
-                    <div class="w-14 h-14 mx-auto bg-slate-800/80 rounded-full flex items-center justify-center text-slate-400 mb-4 border border-slate-700 group-hover:border-energeticAmber group-hover:text-energeticAmber transition-all shadow-lg group-hover:shadow-energeticAmber/20">
-                        <i class="fa-solid fa-shield-halved text-xl"></i>
+                <div id="step-validation" class="glass-card p-4 rounded-xl text-center relative group z-10 bg-[#0f172a]/80">
+                    <div class="w-10 h-10 mx-auto bg-slate-800/80 rounded-full flex items-center justify-center text-slate-400 mb-3 border border-slate-700 group-hover:border-energeticAmber group-hover:text-energeticAmber transition-all">
+                        <i class="fa-solid fa-shield-halved text-sm"></i>
                     </div>
-                    <h4 class="text-white font-bold text-base mb-1">Validação</h4>
+                    <h4 class="text-white font-bold text-sm mb-1">Validação</h4>
                     <p class="text-xs text-slate-400">Duplicatas & Formato</p>
                 </div>
 
                 <!-- Step 4 -->
-                <div id="step-output" class="glass-card p-6 rounded-2xl text-center relative group z-10 bg-[#0f172a]">
-                    <div class="w-14 h-14 mx-auto bg-slate-800/80 rounded-full flex items-center justify-center text-slate-400 mb-4 border border-slate-700 group-hover:border-trustGreen group-hover:text-trustGreen transition-all shadow-lg group-hover:shadow-trustGreen/20">
-                        <i class="fa-solid fa-code text-xl"></i>
+                <div id="step-output" class="glass-card p-4 rounded-xl text-center relative group z-10 bg-[#0f172a]/80">
+                    <div class="w-10 h-10 mx-auto bg-slate-800/80 rounded-full flex items-center justify-center text-slate-400 mb-3 border border-slate-700 group-hover:border-trustGreen group-hover:text-trustGreen transition-all">
+                        <i class="fa-solid fa-code text-sm"></i>
                     </div>
-                    <h4 class="text-white font-bold text-base mb-1">Output</h4>
+                    <h4 class="text-white font-bold text-sm mb-1">Output</h4>
                     <p class="text-xs text-slate-400">Script Fortigate</p>
                 </div>
             </div>
@@ -257,21 +236,6 @@
                         <button id="clearButton" class="text-xs font-bold text-slate-500 hover:text-red-400 transition-colors flex items-center gap-2 px-3 py-2 bg-slate-900 rounded-lg border border-slate-800">
                             <i class="fa-solid fa-trash-can"></i> LIMPAR
                         </button>
-                    </div>
-                </div>
-
-                <div class="grid sm:grid-cols-3 gap-3">
-                    <div class="rounded-xl border border-white/10 bg-white/[0.03] p-4">
-                        <div class="text-[10px] font-bold uppercase tracking-[0.18em] text-slate-500 mb-1">Privacidade</div>
-                        <div class="text-sm font-semibold text-white">Nada é enviado</div>
-                    </div>
-                    <div class="rounded-xl border border-white/10 bg-white/[0.03] p-4">
-                        <div class="text-[10px] font-bold uppercase tracking-[0.18em] text-slate-500 mb-1">Entrada</div>
-                        <div class="text-sm font-semibold text-white">Nome/MAC flexível</div>
-                    </div>
-                    <div class="rounded-xl border border-white/10 bg-white/[0.03] p-4">
-                        <div class="text-[10px] font-bold uppercase tracking-[0.18em] text-slate-500 mb-1">Saída</div>
-                        <div class="text-sm font-semibold text-white">Scripts prontos</div>
                     </div>
                 </div>
 
