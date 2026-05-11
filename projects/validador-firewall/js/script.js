@@ -36,12 +36,15 @@ if (menuBtn && menuOverlay) {
 // --- JS LOGIC ---
 const dataInput = document.getElementById('dataInput');
 const fileInput = document.getElementById('fileInput');
+const fileDropZone = document.getElementById('fileDropZone');
 const processButton = document.getElementById('processButton');
 const clearButton = document.getElementById('clearButton');
 const resultsArea = document.getElementById('resultsArea');
 const emptyState = document.getElementById('emptyState');
 const summaryDisplay = document.getElementById('summary');
 const downloadTemplateButton = document.getElementById('downloadTemplateButton');
+const downloadTemplateButtonStory = document.getElementById('downloadTemplateButtonStory');
+const loadExampleButton = document.getElementById('loadExampleButton');
 
 const cardObjects = document.getElementById('cardObjects');
 const badgeObjects = document.getElementById('badgeObjects');
@@ -226,22 +229,52 @@ if (clearButton) {
     });
 }
 
+function loadFile(file) {
+    if (!file) return;
+
+    const reader = new FileReader();
+    reader.onload = (e) => {
+        dataInput.value = e.target.result;
+        dataInput.focus();
+    };
+    reader.readAsText(file, 'iso-8859-1');
+
+    if (emptyState) emptyState.classList.remove('hidden');
+    cardObjects.classList.add('hidden');
+    cardGroup.classList.add('hidden');
+    cardErrors.classList.add('hidden');
+}
+
 if (fileInput) {
     fileInput.addEventListener('change', (event) => {
-        const file = event.target.files[0];
-        if (file) {
-            const reader = new FileReader();
-            reader.onload = (e) => {
-                dataInput.value = e.target.result;
-            };
-            reader.readAsText(file, 'iso-8859-1');
+        loadFile(event.target.files[0]);
+    });
+}
+
+if (fileDropZone && fileInput) {
+    fileDropZone.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            fileInput.click();
         }
-        dataInput.focus();
-        // Reset view on new input? Maybe not necessary, but cleaner.
-        if (emptyState) emptyState.classList.remove('hidden');
-        cardObjects.classList.add('hidden');
-        cardGroup.classList.add('hidden');
-        cardErrors.classList.add('hidden');
+    });
+
+    ['dragenter', 'dragover'].forEach(eventName => {
+        fileDropZone.addEventListener(eventName, (event) => {
+            event.preventDefault();
+            fileDropZone.classList.add('border-vibrantCyan', 'bg-vibrantCyan/10');
+        });
+    });
+
+    ['dragleave', 'drop'].forEach(eventName => {
+        fileDropZone.addEventListener(eventName, (event) => {
+            event.preventDefault();
+            fileDropZone.classList.remove('border-vibrantCyan', 'bg-vibrantCyan/10');
+        });
+    });
+
+    fileDropZone.addEventListener('drop', (event) => {
+        loadFile(event.dataTransfer.files[0]);
     });
 }
 
@@ -272,22 +305,41 @@ if (processButton) {
     });
 }
 
+function downloadTemplate(e) {
+    e.preventDefault();
+    const csvTemplateContent = [
+        "Equipamento;ENDEREÇO MAC",
+        "RDPSTUDIO-Server-01;AA-BB-CC-11-22-33",
+        "00:11:22:AA:BB:CC;RDPSTUDIO-Wifi-Guest",
+        "Switch Core 12:34:56:78:90:AB"
+    ].join('\n');
+    const blob = new Blob(["\uFEFF" + csvTemplateContent], { type: 'text/csv;charset=utf-8;' });
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.download = 'modelo_rdpstudio.csv';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
+
 if (downloadTemplateButton) {
-    downloadTemplateButton.addEventListener('click', (e) => {
-        e.preventDefault();
-        const csvTemplateContent = [
-            "Equipamento;ENDEREÇO MAC",
-            "RDPSTUDIO-Server-01;AA-BB-CC-11-22-33",
-            "00:11:22:AA:BB:CC;RDPSTUDIO-Wifi-Guest",
-            "Switch Core 12:34:56:78:90:AB"
+    downloadTemplateButton.addEventListener('click', downloadTemplate);
+}
+
+if (downloadTemplateButtonStory) {
+    downloadTemplateButtonStory.addEventListener('click', downloadTemplate);
+}
+
+if (loadExampleButton) {
+    loadExampleButton.addEventListener('click', () => {
+        dataInput.value = [
+            'PC-FINANCEIRO; 00-11-22-33-44-55',
+            'AA:BB:CC:DD:EE:FF; IMPRESSORA-RH',
+            'Notebook Diretoria 12:34:56:78:90:AB',
+            'Switch-Core\tA1-B2-C3-D4-E5-F6'
         ].join('\n');
-        const blob = new Blob(["\uFEFF" + csvTemplateContent], { type: 'text/csv;charset=utf-8;' });
-        const link = document.createElement('a');
-        link.href = URL.createObjectURL(blob);
-        link.download = 'modelo_rdpstudio.csv';
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
+        dataInput.focus();
+        dataInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
     });
 }
 
@@ -451,9 +503,9 @@ function processData(content) {
     }
 
     summaryDisplay.innerHTML = `
-        <div class="px-3 py-1 rounded bg-slate-800 text-xs text-slate-400 border border-white/5">Total: <span class="text-white font-bold">${linhasProcessadas}</span></div>
-        <div class="px-3 py-1 rounded bg-trustGreen/10 text-xs text-trustGreen border border-trustGreen/20">Válidos: <span class="font-bold">${numSucesso}</span></div>
-        <div class="px-3 py-1 rounded bg-red-500/10 text-xs text-red-400 border border-red-500/20">Erros: <span class="font-bold">${numErros}</span></div>
+        <div class="rounded-xl bg-slate-800/80 p-3 text-center text-xs text-slate-400 border border-white/5"><span class="block text-lg text-white font-extrabold">${linhasProcessadas}</span>Total</div>
+        <div class="rounded-xl bg-trustGreen/10 p-3 text-center text-xs text-trustGreen border border-trustGreen/20"><span class="block text-lg font-extrabold">${numSucesso}</span>Válidos</div>
+        <div class="rounded-xl bg-red-500/10 p-3 text-center text-xs text-red-400 border border-red-500/20"><span class="block text-lg font-extrabold">${numErros}</span>Erros</div>
     `;
 
     // Hide empty state and show results
@@ -511,9 +563,9 @@ function openModal(type) {
             const row = generatedErrorsData[i];
             tableHtml += `
                 <tr class="hover:bg-white/5 transition-colors">
-                    <td class="p-4 font-mono text-white">${row[0] || '-'}</td>
-                    <td class="p-4 font-mono text-slate-400">${row[1] || '-'}</td>
-                    <td class="p-4 text-red-400 font-medium">${row[2] || '-'}</td>
+                    <td class="p-4 font-mono text-white">${escapeHtml(row[0] || '-')}</td>
+                    <td class="p-4 font-mono text-slate-400">${escapeHtml(row[1] || '-')}</td>
+                    <td class="p-4 text-red-400 font-medium">${escapeHtml(row[2] || '-')}</td>
                 </tr>
             `;
         }

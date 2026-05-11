@@ -53,10 +53,10 @@
         <div class="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-vibrantCyan/10 rounded-full blur-[120px]"></div>
     </div>
 
-    <div class="max-w-4xl mx-auto px-6 py-8 md:py-12 min-h-screen flex flex-col">
+    <div class="max-w-6xl mx-auto px-5 sm:px-6 py-6 md:py-10 min-h-screen flex flex-col">
 
         <!-- Standardized Header -->
-        <header class="flex flex-wrap justify-between items-center mb-16 gap-4 fade-in-up relative z-50">
+        <header class="flex flex-wrap justify-between items-center mb-12 gap-4 fade-in-up relative z-50">
             <a href="../../hub/projetos.html" class="flex items-center gap-2 text-slate-400 hover:text-white transition-colors group">
                 <div class="p-2 rounded-lg bg-white/5 border border-white/10 group-hover:border-vibrantCyan/50 transition-colors">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -65,10 +65,16 @@
                 </div>
                 <span class="text-sm font-semibold tracking-wide uppercase">Voltar ao Hub</span>
             </a>
-            <div class="flex items-center gap-3">
+            <nav class="hidden md:flex items-center gap-1 rounded-full border border-white/10 bg-white/[0.03] p-1 text-xs font-bold uppercase tracking-wider text-slate-400">
+                <a href="#ferramenta" class="rounded-full px-4 py-2 hover:bg-white/10 hover:text-white transition-colors">Ferramenta</a>
+                <a href="#fluxo" class="rounded-full px-4 py-2 hover:bg-white/10 hover:text-white transition-colors">Fluxo</a>
+                <a href="#rodape" class="rounded-full px-4 py-2 hover:bg-white/10 hover:text-white transition-colors">Contato</a>
+            </nav>
+            <div class="hidden md:flex items-center gap-3">
                 <span class="px-3 py-1 rounded-full bg-vibrantCyan/10 border border-vibrantCyan/20 text-vibrantCyan text-xs font-bold uppercase tracking-wider">
                     Validador v2.5
                 </span>
+                <a href="#ferramenta" class="px-4 py-2 rounded-full bg-vibrantCyan text-slate-950 text-xs font-extrabold uppercase tracking-wider hover:shadow-[0_0_22px_rgba(0,180,216,0.45)] transition-all">Validar agora</a>
             </div>
             <!-- Mobile Menu Button -->
             <button id="mobile-menu-btn" class="md:hidden text-white text-2xl p-2 z-50 relative group ml-auto">
@@ -79,6 +85,9 @@
 
         <!-- Mobile Menu Overlay -->
         <div id="mobile-menu-overlay" class="fixed inset-0 z-[60] bg-slate-900/95 backdrop-blur-xl transform translate-x-full transition-transform duration-300 flex flex-col items-center justify-center space-y-8 md:hidden">
+            <button type="button" class="mobile-link absolute top-6 right-6 h-11 w-11 rounded-full border border-white/10 bg-white/5 text-white hover:border-vibrantCyan/50 hover:text-vibrantCyan transition-colors" aria-label="Fechar menu">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
             <a href="../../hub/index.html" class="text-2xl font-bold text-white hover:text-vibrantCyan transition-colors mobile-link">Home</a>
             <a href="../../hub/projetos.html" class="text-2xl font-bold text-white hover:text-vibrantCyan transition-colors mobile-link">Projetos</a>
             <a href="../../hub/index.html#empresa" class="text-2xl font-bold text-white hover:text-vibrantCyan transition-colors mobile-link">A Empresa</a>
@@ -88,11 +97,15 @@
 
         <!-- Main Title Area -->
         <div class="text-center mb-12 fade-in-up delay-100 relative">
-            <h1 class="text-3xl md:text-5xl font-extrabold mb-4 leading-tight">
-                Validador <span class="text-gradient">de MACs</span>
+            <div class="inline-flex items-center gap-2 rounded-full border border-trustGreen/20 bg-trustGreen/10 px-4 py-2 text-[11px] font-bold uppercase tracking-[0.18em] text-trustGreen mb-5">
+                <i class="fa-solid fa-lock"></i>
+                Processamento local no navegador
+            </div>
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-4 leading-tight tracking-[-0.04em]">
+                Valide MACs e gere <span class="text-gradient">scripts Fortigate</span>
             </h1>
-            <p class="text-sm md:text-base text-slate-400 max-w-lg mx-auto font-light leading-relaxed mb-8">
-                Automacao de seguranca para Firewall Fortigate, agora com leitura mais inteligente de dados brutos.
+            <p class="text-base md:text-lg text-slate-400 max-w-2xl mx-auto font-light leading-relaxed mb-8">
+                Cole uma planilha, CSV ou TXT bruto. A ferramenta identifica nome e MAC automaticamente, aponta erros e entrega os comandos prontos para firewall.
             </p>
 
             <div class="flex flex-wrap justify-center gap-2 mb-8 text-[11px] font-mono uppercase tracking-[0.18em]">
@@ -101,13 +114,17 @@
                 <span class="px-3 py-1.5 rounded-full bg-vibrantCyan/10 border border-vibrantCyan/20 text-vibrantCyan">Deteccao automatica</span>
             </div>
 
-            <div class="flex justify-center gap-4">
-                <button id="startDemoBtn" class="flex items-center gap-2 px-6 py-2.5 rounded-full bg-vibrantCyan text-slate-900 text-xs font-bold tracking-wide transition-all hover:scale-105 hover:shadow-[0_0_20px_rgba(0,180,216,0.5)]">
+            <div class="flex flex-col sm:flex-row justify-center gap-3">
+                <a href="#ferramenta" class="flex items-center justify-center gap-2 px-7 py-3 rounded-full bg-vibrantCyan text-slate-950 text-xs font-extrabold tracking-wide uppercase transition-all hover:scale-105 hover:shadow-[0_0_24px_rgba(0,180,216,0.5)]">
+                    <i class="fa-solid fa-bolt"></i>
+                    <span>Começar validação</span>
+                </a>
+                <button id="startDemoBtn" class="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 text-xs font-bold text-slate-200 transition-all hover:text-white">
                     <i class="fa-solid fa-play"></i>
                     <span>VER DEMONSTRAÇÃO</span>
                 </button>
 
-                <button id="toggleInfoBtn" class="flex items-center gap-2 px-6 py-2.5 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 text-xs font-bold text-slate-300 transition-all hover:text-white">
+                <button id="toggleInfoBtn" class="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 text-xs font-bold text-slate-300 transition-all hover:text-white">
                     <i class="fa-solid fa-book-open"></i>
                     <span>A HISTÓRIA</span>
                 </button>
@@ -115,7 +132,7 @@
         </div>
 
         <!-- Fluxo de Processamento (Always Visible Now) -->
-        <div class="mb-16 fade-in-up delay-200">
+        <div id="fluxo" class="mb-12 fade-in-up delay-200">
              <div class="text-xs font-bold text-slate-500 uppercase tracking-widest mb-6 flex items-center gap-2 justify-center">
                 <i class="fa-solid fa-microchip text-vibrantCyan"></i> Pipeline de Automação
             </div>
@@ -195,7 +212,7 @@
                             <div class="pt-6 border-t border-white/5">
                                 <div class="flex items-center justify-between mb-4">
                                     <span class="text-xs font-bold text-slate-500 uppercase">Guia Rápido</span>
-                                    <button id="downloadTemplateButton" class="text-[10px] font-bold text-vibrantCyan hover:text-white transition-colors flex items-center gap-2 bg-vibrantCyan/10 px-3 py-1 rounded-full hover:bg-vibrantCyan/20">
+                                    <button id="downloadTemplateButtonStory" class="text-[10px] font-bold text-vibrantCyan hover:text-white transition-colors flex items-center gap-2 bg-vibrantCyan/10 px-3 py-1 rounded-full hover:bg-vibrantCyan/20">
                                         <i class="fa-solid fa-download"></i> BAIXAR CSV EXEMPLO
                                     </button>
                                 </div>
@@ -221,24 +238,47 @@
         </div>
 
         <!-- Main Workspace Grid -->
-        <div class="grid lg:grid-cols-5 gap-8 fade-in-up delay-300">
+        <div id="ferramenta" class="grid lg:grid-cols-5 gap-8 fade-in-up delay-300 scroll-mt-8">
 
             <!-- Left Column: Input Area (Span 3) -->
             <div class="lg:col-span-3 space-y-6">
                 <!-- Action Header -->
-                <div class="flex items-center justify-between">
+                <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
                     <h3 class="text-lg font-bold text-white flex items-center gap-2">
                         <i class="fa-solid fa-keyboard text-vibrantCyan"></i> Entrada de Dados
                     </h3>
-                    <button id="clearButton" class="text-xs font-bold text-slate-500 hover:text-red-400 transition-colors flex items-center gap-2 px-3 py-1 bg-slate-900 rounded border border-slate-800">
-                        <i class="fa-solid fa-trash-can"></i> LIMPAR
-                    </button>
+                    <div class="flex flex-wrap gap-2">
+                        <button id="loadExampleButton" class="text-xs font-bold text-vibrantCyan hover:text-white transition-colors flex items-center gap-2 px-3 py-2 bg-vibrantCyan/10 rounded-lg border border-vibrantCyan/20">
+                            <i class="fa-solid fa-flask"></i> USAR EXEMPLO
+                        </button>
+                        <button id="downloadTemplateButton" class="text-xs font-bold text-slate-300 hover:text-white transition-colors flex items-center gap-2 px-3 py-2 bg-white/5 rounded-lg border border-white/10">
+                            <i class="fa-solid fa-download"></i> MODELO CSV
+                        </button>
+                        <button id="clearButton" class="text-xs font-bold text-slate-500 hover:text-red-400 transition-colors flex items-center gap-2 px-3 py-2 bg-slate-900 rounded-lg border border-slate-800">
+                            <i class="fa-solid fa-trash-can"></i> LIMPAR
+                        </button>
+                    </div>
                 </div>
 
-                <label for="fileInput" class="group flex flex-col items-center justify-center w-full h-24 file-drop-zone rounded-xl cursor-pointer border-dashed border-2 border-slate-700 hover:border-vibrantCyan/50 transition-colors bg-slate-900/30">
-                    <div class="flex flex-col items-center justify-center">
+                <div class="grid sm:grid-cols-3 gap-3">
+                    <div class="rounded-xl border border-white/10 bg-white/[0.03] p-4">
+                        <div class="text-[10px] font-bold uppercase tracking-[0.18em] text-slate-500 mb-1">Privacidade</div>
+                        <div class="text-sm font-semibold text-white">Nada é enviado</div>
+                    </div>
+                    <div class="rounded-xl border border-white/10 bg-white/[0.03] p-4">
+                        <div class="text-[10px] font-bold uppercase tracking-[0.18em] text-slate-500 mb-1">Entrada</div>
+                        <div class="text-sm font-semibold text-white">Nome/MAC flexível</div>
+                    </div>
+                    <div class="rounded-xl border border-white/10 bg-white/[0.03] p-4">
+                        <div class="text-[10px] font-bold uppercase tracking-[0.18em] text-slate-500 mb-1">Saída</div>
+                        <div class="text-sm font-semibold text-white">Scripts prontos</div>
+                    </div>
+                </div>
+
+                <label id="fileDropZone" for="fileInput" tabindex="0" role="button" class="group flex flex-col items-center justify-center w-full h-24 file-drop-zone rounded-xl cursor-pointer border-dashed border-2 border-slate-700 hover:border-vibrantCyan/50 transition-colors bg-slate-900/30">
+                    <div class="flex flex-col items-center justify-center px-4 text-center">
                         <i class="fa-solid fa-cloud-arrow-up text-xl mb-2 text-vibrantCyan group-hover:scale-110 transition-transform"></i>
-                        <p class="text-xs text-slate-400"><span class="font-bold text-slate-200">Clique para carregar</span> ou arraste (CSV/TXT)</p>
+                        <p class="text-xs text-slate-400"><span class="font-bold text-slate-200">Clique para carregar</span> ou arraste CSV/TXT. Se preferir, cole direto abaixo.</p>
                     </div>
                     <input type="file" id="fileInput" class="hidden" accept=".csv,.txt" />
                 </label>
@@ -247,7 +287,7 @@
                     <div class="flex items-center gap-2 text-vibrantCyan font-bold uppercase tracking-[0.16em] mb-2">
                         <i class="fa-solid fa-wand-magic-sparkles"></i> Entrada inteligente
                     </div>
-                    A ferramenta detecta automaticamente qual coluna e o MAC e qual coluna e o nome do objeto. Exemplos validos: <span class="text-white font-mono">EQUIPAMENTO;MAC</span>, <span class="text-white font-mono">MAC;EQUIPAMENTO</span> e tambem linhas separadas por tabulacao, virgula ou espaco.
+                    A ferramenta detecta automaticamente qual coluna e o MAC e qual coluna e o nome do objeto. Exemplos validos: <span class="text-white font-mono">EQUIPAMENTO;MAC</span>, <span class="text-white font-mono">MAC;EQUIPAMENTO</span> e linhas separadas por tabulacao, virgula ou espaco.
                 </div>
 
                 <div class="relative">
@@ -256,7 +296,7 @@ Exemplo:
 PC-FINANCEIRO; 00-11-22-33-44-55
 AA:BB:CC:DD:EE:FF; IMPRESSORA-RH
 Notebook Diretoria 12:34:56:78:90:AB"></textarea>
-                    <div class="absolute bottom-4 right-4 text-[10px] text-slate-600 font-mono bg-slate-800 px-2 py-1 rounded">INPUT_STREAM</div>
+                    <div class="absolute bottom-4 right-4 hidden sm:block text-[10px] text-slate-600 font-mono bg-slate-800 px-2 py-1 rounded">INPUT_STREAM</div>
                 </div>
 
                 <button id="processButton" class="btn-glow w-full py-4 rounded-xl text-white font-bold text-sm tracking-widest uppercase shadow-lg flex justify-center items-center gap-3 group bg-vibrantCyan/90 hover:bg-vibrantCyan transition-all transform hover:-translate-y-1">
@@ -274,7 +314,7 @@ Notebook Diretoria 12:34:56:78:90:AB"></textarea>
                     </div>
 
                     <!-- Summary Stats (Stacked) -->
-                    <div id="summary" class="flex flex-row flex-wrap gap-2 mb-6">
+                    <div id="summary" class="grid grid-cols-3 gap-2 mb-6">
                         <!-- Summary injected via JS -->
                     </div>
 
@@ -351,9 +391,10 @@ Notebook Diretoria 12:34:56:78:90:AB"></textarea>
                     </div>
 
                     <!-- Empty State Placeholder (Initially Visible) -->
-                    <div id="emptyState" class="flex h-full flex-col items-center justify-center text-center opacity-50 py-12 border-2 border-dashed border-slate-800 rounded-xl">
+                    <div id="emptyState" class="flex h-full flex-col items-center justify-center text-center py-12 px-6 border-2 border-dashed border-slate-800 rounded-xl bg-slate-950/30">
                         <i class="fa-solid fa-chart-simple text-4xl text-slate-700 mb-4"></i>
-                        <p class="text-sm text-slate-600">Os resultados aparecerão aqui<br>após o processamento.</p>
+                        <p class="text-sm font-semibold text-slate-400 mb-2">Seu painel de saída aparece aqui.</p>
+                        <p class="text-xs text-slate-600 max-w-xs">Depois da validação, você poderá visualizar, copiar ou baixar scripts de objetos, grupo e relatório de erros.</p>
                     </div>
 
                 </div>
@@ -362,7 +403,12 @@ Notebook Diretoria 12:34:56:78:90:AB"></textarea>
 
         <!-- Footer -->
         <footer class="border-t border-slate-800/50 pt-12 pb-8 mt-auto">
-            <div class="flex flex-col items-center text-center">
+            <div id="rodape" class="flex flex-col items-center text-center scroll-mt-8">
+                <div class="mb-8 grid gap-3 text-xs text-slate-500 sm:grid-cols-3 w-full max-w-3xl">
+                    <div class="rounded-xl border border-white/5 bg-white/[0.02] p-4">Processamento local</div>
+                    <div class="rounded-xl border border-white/5 bg-white/[0.02] p-4">Fortigate-ready output</div>
+                    <div class="rounded-xl border border-white/5 bg-white/[0.02] p-4">Suporte a CSV/TXT</div>
+                </div>
                 <div class="flex justify-center gap-8 mb-8">
                     <a href="https://instagram.com/marcelo_rpj" target="_blank" aria-label="Instagram" class="text-slate-400 hover:text-vibrantCyan transition-colors text-2xl transform hover:scale-110 duration-200">
                         <i class="fa-brands fa-instagram"></i>
