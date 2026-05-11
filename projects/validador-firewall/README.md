@@ -3,12 +3,15 @@
 > **Status:** Ativo / Estável
 > **Versão:** 2.5
 > **Tecnologia:** HTML5, CSS3 (Tailwind), JavaScript (Vanilla)
+> **Experiência:** Fluxo premium com validação local, exemplo rápido e upload CSV/TXT
 
 ## 📋 Visão Geral
 
 O **Validador de Firewall** é uma ferramenta essencial para administradores de rede que trabalham com equipamentos Fortigate. Ele automatiza a tarefa tediosa e propensa a erros de formatar endereços MAC para listas de controle de acesso (ACLs) e reservas DHCP.
 
 O sistema aceita entradas "sujas" (copiadas de Excel, e-mails ou logs), limpa os dados, valida a integridade dos endereços MAC e gera scripts prontos para serem colados no terminal CLI do Fortigate.
+
+A interface atual prioriza uso rápido: CTA direto para a ferramenta, botão de exemplo, modelo CSV, drag-and-drop e resumo visual de resultados sem enviar dados para servidores externos.
 
 ## 🚀 Funcionalidades Principais
 
