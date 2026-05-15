@@ -1,58 +1,31 @@
 {
-  "last_updated": "2026-05-14T14:11:12",
-  "display_date": "14/05/2026 14:11",
+  "last_updated": "2026-05-15T14:06:53",
+  "display_date": "15/05/2026 14:06",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "571ms",
+    "latency": "74ms",
     "current_games": [
       {
-        "title": "Arranger: A Role-Puzzling Adventure",
-        "description": "Encontre o seu caminho em um mundo de quebra-cabeças alegres e bem pensados, ao longo de uma jornada encantadora de autodescoberta.",
-        "image": "https://cdn1.epicgames.com/spt-assets/fee7dc25f12c4400a5182c864fd89c66/arranger-a-rolepuzzling-adventure-17mu3.jpg",
-        "url": "https://store.epicgames.com/p/8883fa6958a24a00b6f33166e4552833",
-        "price": "$19.99",
-        "start_date": "2026-05-07T15:00:00.000Z",
-        "end_date": "2026-05-14T15:00:00.000Z"
+        "title": "The Telltale Batman Shadows Edition",
+        "description": "Edição Telltale Batman Shadows",
+        "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/TheTelltaleBatmanShadowsEdition-2560x1440-1ababb36a948b5c732ab85a330787e85_2560x1440-a85c5724ba30499ba5a81a9f2125e5d4",
+        "url": "https://store.epicgames.com/p/megasale-mysterygame-2026-02",
+        "price": "0",
+        "start_date": "2026-05-14T15:00:00.000Z",
+        "end_date": "2026-05-21T15:00:00.000Z"
       },
       {
-        "title": "Trash Goblin",
-        "description": "Um jogo de lojista saudável e aconchegante, sem pressões, sem estresse e com boas vibrações sem fim! Descubra e limpe bugigangas e depois recicle-as para vendê-las a inúmeros clientes coloridos e peculiares. Gaste suas economias para atualizar sua loja, comprar ferramentas melhores e expandir e personalizar seu espaço.",
-        "image": "https://cdn1.epicgames.com/spt-assets/113ae486fe9040d89a7fc25a501dc3b9/trash-goblin-9bxry.png",
-        "url": "https://store.epicgames.com/p/7ea9b97f6a8b4c5d8047733207c5c65c",
-        "price": "$19.99",
-        "start_date": "2026-05-07T15:00:00.000Z",
-        "end_date": "2026-05-14T15:00:00.000Z"
+        "title": "Sunderfolk - Standard Edition",
+        "description": "Sunderfolk - Edição Padrão",
+        "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/OfferImageWide_2560x1440-a500d7236c364c0bb373e3b6b9a6ee8b",
+        "url": "https://store.epicgames.com/p/megasale-mysterygame-2026",
+        "price": "0",
+        "start_date": "2026-05-14T15:00:00.000Z",
+        "end_date": "2026-05-21T15:00:00.000Z"
       }
     ],
     "upcoming_games": [
-      {
-        "title": "Eternal Threads",
-        "description": "Eternal Threads é um jogo de quebra-cabeça para um jogador, em primeira pessoa, baseado em uma história de manipulação, escolha e consequência do tempo.",
-        "image": "https://cdn1.epicgames.com/spt-assets/08813e055af64315b8a55b2e521f4e04/eternal-threads-1vm6i.jpg",
-        "url": "https://store.epicgames.com/p/a9152a8924cc4e438f0e61106ec02f7d",
-        "price": "$19.99",
-        "start_date": "2026-05-14T15:00:00.000Z",
-        "end_date": "2026-06-11T15:00:00.000Z"
-      },
-      {
-        "title": "Ghostrunner 2",
-        "description": "Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
-        "image": "https://cdn1.epicgames.com/offer/708f57aaa04b42ef885be16c8288f0ac/EGS_Ghostrunner2_OneMoreLevel_S1_2560x1440-15845148fae1d0cfd7f3e98c9b3ba6ba",
-        "url": "https://store.epicgames.com/p/ghostrunner-2",
-        "price": "$39.99",
-        "start_date": "2026-05-14T15:00:00.000Z",
-        "end_date": "2026-06-11T15:00:00.000Z"
-      },
-      {
-        "title": "LISA: The Definitive Edition",
-        "description": "Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
-        "image": "https://cdn1.epicgames.com/offer/ca3a9d16d131478c97fd56c138a6511a/EGS_LISATheDefinitiveEdition_DingalingProductions_Bundles_S1_2560x1440-55b66eb2046507e58eac435c21331bd5",
-        "url": "https://store.epicgames.com/p/lisa-the-definitive-edition",
-        "price": "$24.99",
-        "start_date": "2026-05-14T15:00:00.000Z",
-        "end_date": "2026-06-11T15:00:00.000Z"
-      },
       {
         "title": "LISA: The Definitive Edition",
         "description": "Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
@@ -63,199 +36,37 @@
         "end_date": "2026-10-01T05:59:00.000Z"
       },
       {
-        "title": "Arranger: A Role-Puzzling Adventure",
-        "description": "Encontre o seu caminho em um mundo de quebra-cabeças alegres e bem pensados, ao longo de uma jornada encantadora de autodescoberta.",
-        "image": "https://cdn1.epicgames.com/spt-assets/fee7dc25f12c4400a5182c864fd89c66/arranger-a-rolepuzzling-adventure-17mu3.jpg",
-        "url": "https://store.epicgames.com/p/8883fa6958a24a00b6f33166e4552833",
-        "price": "$19.99",
-        "start_date": "2026-06-15T04:00:00.000Z",
-        "end_date": "2026-07-07T03:59:00.000Z"
-      },
-      {
-        "title": "Castlevania Anniversary Collection",
-        "description": "A Coleção de Aniversário de Castlevania da Konami traça as origens da histórica franquia de vampiros. Está incluído um e-book exclusivo com detalhes fornecidos por desenvolvedores, artistas e outros inspirados no legado de Castlevania, que lança uma nova luz sobre o mundo de Castlevania.",
-        "image": "https://cdn1.epicgames.com/spt-assets/1ff2f74ba0ef4019b6905d8abe268819/castlevania-anniversary-collection-yex6f.jpg",
-        "url": "https://store.epicgames.com/p/32b3e0adbe0c4399be1874958194f97f",
-        "price": "$19.99",
-        "start_date": "2026-05-14T15:00:00.000Z",
-        "end_date": "2026-06-11T15:00:00.000Z"
-      },
-      {
-        "title": "Monument Valley",
-        "description": "Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
-        "image": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
-        "url": "https://store.epicgames.com/p/monument-valley-02",
-        "price": "$7.99",
-        "start_date": "2026-05-14T15:00:00.000Z",
-        "end_date": "2026-06-11T15:00:00.000Z"
-      },
-      {
-        "title": "Mystery Game 2",
-        "description": "Jogo Misterioso 2",
+        "title": "Mystery Game Week 21 Game 2",
+        "description": "Jogo de mistério, semana 21, jogo 2",
         "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/image23_1920x1080-80a010b5958f4d898f9e454840c790a1",
-        "url": "https://store.epicgames.com/p/megasale-mysterygame-2026-02",
+        "url": "https://store.epicgames.com/p/megasale-mysterygame-2026-week21-game2",
         "price": "0",
-        "start_date": "2026-05-14T15:00:00.000Z",
-        "end_date": "2026-05-21T15:00:00.000Z"
+        "start_date": "2026-05-21T15:00:00.000Z",
+        "end_date": "2026-05-28T15:00:00.000Z"
       },
       {
-        "title": "Mystery Game 1",
-        "description": "Jogo Mistério 1",
+        "title": "Mystery Game Week 21 Game 1",
+        "description": "Jogo de mistério, semana 21, jogo 1",
         "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/image23_1920x1080-80a010b5958f4d898f9e454840c790a1",
-        "url": "https://store.epicgames.com/p/megasale-mysterygame-2026",
+        "url": "https://store.epicgames.com/p/megasale-mysterygame-2026-week21-game1",
         "price": "0",
-        "start_date": "2026-05-14T15:00:00.000Z",
-        "end_date": "2026-05-21T15:00:00.000Z"
+        "start_date": "2026-05-21T15:00:00.000Z",
+        "end_date": "2026-05-28T15:00:00.000Z"
       }
     ],
     "mystery_detected": true
   },
   "items": [
     {
-      "id": "https://store.epicgames.com/p/8883fa6958a24a00b6f33166e4552833",
-      "title": "GRÁTIS: Arranger: A Role-Puzzling Adventure",
-      "original_title": "Arranger: A Role-Puzzling Adventure",
-      "image": "https://cdn1.epicgames.com/spt-assets/fee7dc25f12c4400a5182c864fd89c66/arranger-a-rolepuzzling-adventure-17mu3.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Free Games",
-      "date": "2026-05-14",
-      "summary": "Encontre o seu caminho em um mundo de quebra-cabeças alegres e bem pensados, ao longo de uma jornada encantadora de autodescoberta.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/8883fa6958a24a00b6f33166e4552833"
-    },
-    {
-      "id": "https://store.epicgames.com/p/7ea9b97f6a8b4c5d8047733207c5c65c",
-      "title": "GRÁTIS: Trash Goblin",
-      "original_title": "Trash Goblin",
-      "image": "https://cdn1.epicgames.com/spt-assets/113ae486fe9040d89a7fc25a501dc3b9/trash-goblin-9bxry.png",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Free Games",
-      "date": "2026-05-14",
-      "summary": "Um jogo de lojista saudável e aconchegante, sem pressões, sem estresse e com boas vibrações sem fim! Descubra e limpe bugigangas e depois recicle-as para vendê-las a inúmeros clientes coloridos e peculiares. Gaste suas economias para atualizar sua loja, comprar ferramentas melhores e expandir e personalizar seu espaço.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/7ea9b97f6a8b4c5d8047733207c5c65c"
-    },
-    {
-      "id": "https://store.epicgames.com/p/a9152a8924cc4e438f0e61106ec02f7d",
-      "title": "EM BREVE: Eternal Threads",
-      "original_title": "Eternal Threads",
-      "image": "https://cdn1.epicgames.com/spt-assets/08813e055af64315b8a55b2e521f4e04/eternal-threads-1vm6i.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-05-14",
-      "summary": "Disponível gratuitamente a partir de 14/05. Eternal Threads é um jogo de quebra-cabeça para um jogador, em primeira pessoa, baseado em uma história de manipulação, escolha e consequência do tempo.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/a9152a8924cc4e438f0e61106ec02f7d"
-    },
-    {
-      "id": "https://store.epicgames.com/p/ghostrunner-2",
-      "title": "EM BREVE: Ghostrunner 2",
-      "original_title": "Ghostrunner 2",
-      "image": "https://cdn1.epicgames.com/offer/708f57aaa04b42ef885be16c8288f0ac/EGS_Ghostrunner2_OneMoreLevel_S1_2560x1440-15845148fae1d0cfd7f3e98c9b3ba6ba",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-05-14",
-      "summary": "Disponível gratuitamente a partir de 14/05. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/ghostrunner-2"
-    },
-    {
-      "id": "https://store.epicgames.com/p/lisa-the-definitive-edition",
-      "title": "EM BREVE: LISA: The Definitive Edition",
-      "original_title": "LISA: The Definitive Edition",
-      "image": "https://cdn1.epicgames.com/offer/ca3a9d16d131478c97fd56c138a6511a/EGS_LISATheDefinitiveEdition_DingalingProductions_Bundles_S1_2560x1440-55b66eb2046507e58eac435c21331bd5",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-05-14",
-      "summary": "Disponível gratuitamente a partir de 14/05. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/lisa-the-definitive-edition"
-    },
-    {
-      "id": "https://store.epicgames.com/p/lisa-the-definitive-edition",
-      "title": "EM BREVE: LISA: The Definitive Edition",
-      "original_title": "LISA: The Definitive Edition",
-      "image": "https://cdn1.epicgames.com/offer/ca3a9d16d131478c97fd56c138a6511a/EGS_LISATheDefinitiveEdition_DingalingProductions_Bundles_S1_2560x1440-55b66eb2046507e58eac435c21331bd5",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-05-14",
-      "summary": "Disponível gratuitamente a partir de 16/09. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/lisa-the-definitive-edition"
-    },
-    {
-      "id": "https://store.epicgames.com/p/8883fa6958a24a00b6f33166e4552833",
-      "title": "EM BREVE: Arranger: A Role-Puzzling Adventure",
-      "original_title": "Arranger: A Role-Puzzling Adventure",
-      "image": "https://cdn1.epicgames.com/spt-assets/fee7dc25f12c4400a5182c864fd89c66/arranger-a-rolepuzzling-adventure-17mu3.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-05-14",
-      "summary": "Disponível gratuitamente a partir de 15/06. Encontre o seu caminho em um mundo de quebra-cabeças alegres e bem pensados, ao longo de uma jornada encantadora de autodescoberta.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/8883fa6958a24a00b6f33166e4552833"
-    },
-    {
-      "id": "https://store.epicgames.com/p/32b3e0adbe0c4399be1874958194f97f",
-      "title": "EM BREVE: Castlevania Anniversary Collection",
-      "original_title": "Castlevania Anniversary Collection",
-      "image": "https://cdn1.epicgames.com/spt-assets/1ff2f74ba0ef4019b6905d8abe268819/castlevania-anniversary-collection-yex6f.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-05-14",
-      "summary": "Disponível gratuitamente a partir de 14/05. A Coleção de Aniversário de Castlevania da Konami traça as origens da histórica franquia de vampiros. Está incluído um e-book exclusivo com detalhes fornecidos por desenvolvedores, artistas e outros inspirados no legado de Castlevania, que lança uma nova luz sobre o mundo de Castlevania.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/32b3e0adbe0c4399be1874958194f97f"
-    },
-    {
-      "id": "https://store.epicgames.com/p/monument-valley-02",
-      "title": "EM BREVE: Monument Valley",
-      "original_title": "Monument Valley",
-      "image": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-05-14",
-      "summary": "Disponível gratuitamente a partir de 14/05. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/monument-valley-02"
-    },
-    {
       "id": "https://store.epicgames.com/p/megasale-mysterygame-2026-02",
-      "title": "EM BREVE: Mystery Game 2",
-      "original_title": "Mystery Game 2",
-      "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/image23_1920x1080-80a010b5958f4d898f9e454840c790a1",
+      "title": "GRÁTIS: The Telltale Batman Shadows Edition",
+      "original_title": "The Telltale Batman Shadows Edition",
+      "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/TheTelltaleBatmanShadowsEdition-2560x1440-1ababb36a948b5c732ab85a330787e85_2560x1440-a85c5724ba30499ba5a81a9f2125e5d4",
       "source_count": 1,
       "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-05-14",
-      "summary": "Disponível gratuitamente a partir de 14/05. Jogo Misterioso 2",
+      "category": "Free Games",
+      "date": "2026-05-15",
+      "summary": "Edição Telltale Batman Shadows",
       "sources": [
         "Epic Games Store"
       ],
@@ -263,213 +74,168 @@
     },
     {
       "id": "https://store.epicgames.com/p/megasale-mysterygame-2026",
-      "title": "EM BREVE: Mystery Game 1",
-      "original_title": "Mystery Game 1",
-      "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/image23_1920x1080-80a010b5958f4d898f9e454840c790a1",
+      "title": "GRÁTIS: Sunderfolk - Standard Edition",
+      "original_title": "Sunderfolk - Standard Edition",
+      "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/OfferImageWide_2560x1440-a500d7236c364c0bb373e3b6b9a6ee8b",
       "source_count": 1,
       "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-05-14",
-      "summary": "Disponível gratuitamente a partir de 14/05. Jogo Mistério 1",
+      "category": "Free Games",
+      "date": "2026-05-15",
+      "summary": "Sunderfolk - Edição Padrão",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/megasale-mysterygame-2026"
     },
     {
-      "id": "https://www.eurogamer.net/gta-6-pre-order-release-date-leak",
-      "title": "Após vários atrasos, novos vazamentos de pré-encomenda do GTA 6 sugerem que a data de lançamento de novembro finalmente foi fixada e mais atrasos são improváveis",
-      "original_title": "After numerous delays, new GTA 6 pre-order leaks suggest November release date finally locked in, and further delays unlikely",
-      "image": "https://assetsio.gnwcdn.com/Cal_Hampton_04_n4sKXlZ.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://store.epicgames.com/p/lisa-the-definitive-edition",
+      "title": "EM BREVE: LISA: The Definitive Edition",
+      "original_title": "LISA: The Definitive Edition",
+      "image": "https://cdn1.epicgames.com/offer/ca3a9d16d131478c97fd56c138a6511a/EGS_LISATheDefinitiveEdition_DingalingProductions_Bundles_S1_2560x1440-55b66eb2046507e58eac435c21331bd5",
       "source_count": 1,
       "reliability": "High",
-      "category": "Rumor",
-      "date": "2026-05-14",
-      "summary": "Depois de dois atrasos, parece que Grand Theft Auto 6 está finalmente entrando na reta final. Se os detalhes da pré-encomenda recentemente divulgados servirem de indicação, parece que a desenvolvedora Rockstar está bastante certa sobre a data de lançamento do GTA 6 em novembro. Leia mais...",
+      "category": "Release Date",
+      "date": "2026-05-15",
+      "summary": "Disponível gratuitamente a partir de 16/09. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
       "sources": [
-        "Eurogamer"
+        "Epic Games Store"
       ],
-      "url": "https://www.eurogamer.net/gta-6-pre-order-release-date-leak"
+      "url": "https://store.epicgames.com/p/lisa-the-definitive-edition"
     },
     {
-      "id": "https://www.eurogamer.net/marathon-season-2-release-date-details",
-      "title": "Prepare-se para a primeira grande limpeza de progresso da Maratona enquanto a Bungie anuncia a data de início e os detalhes da 2ª temporada",
-      "original_title": "Prepare for Marathon's first major progress wipe as Bungie announces season 2 start date and details",
-      "image": "https://assetsio.gnwcdn.com/marathon-review-header.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://store.epicgames.com/p/megasale-mysterygame-2026-week21-game2",
+      "title": "EM BREVE: Mystery Game Week 21 Game 2",
+      "original_title": "Mystery Game Week 21 Game 2",
+      "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/image23_1920x1080-80a010b5958f4d898f9e454840c790a1",
       "source_count": 1,
       "reliability": "High",
-      "category": "News",
-      "date": "2026-05-14",
-      "summary": "A Bungie anunciou a data de lançamento da segunda temporada de Marathon, que trará limpezas de progresso de longo alcance que redefinirão sua base de jogadores para o mesmo ponto de partida. Leia mais...",
+      "category": "Release Date",
+      "date": "2026-05-15",
+      "summary": "Disponível gratuitamente a partir de 21/05. Jogo de mistério, semana 21, jogo 2",
       "sources": [
-        "Eurogamer"
+        "Epic Games Store"
       ],
-      "url": "https://www.eurogamer.net/marathon-season-2-release-date-details"
+      "url": "https://store.epicgames.com/p/megasale-mysterygame-2026-week21-game2"
     },
     {
-      "id": "https://www.eurogamer.net/xbox-new-game-pass-tier-china-project-saluki",
-      "title": "O Xbox está supostamente criando um novo nível de Game Pass para capturar o crescente mercado de jogos chinês",
-      "original_title": "Xbox is reportedly creating a new Game Pass tier to capture the ever growing Chinese gaming market",
-      "image": "https://assetsio.gnwcdn.com/black-myth-wukong-Monkey-protagonist-in-armour.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://store.epicgames.com/p/megasale-mysterygame-2026-week21-game1",
+      "title": "EM BREVE: Mystery Game Week 21 Game 1",
+      "original_title": "Mystery Game Week 21 Game 1",
+      "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/image23_1920x1080-80a010b5958f4d898f9e454840c790a1",
       "source_count": 1,
       "reliability": "High",
-      "category": "News",
-      "date": "2026-05-14",
-      "summary": "De acordo com um novo relatório e dicas do novo CEO do Xbox, Asha Sharma, a Microsoft está lançando um novo nível de Game Pass voltado especificamente para jogadores chineses. Leia mais...",
+      "category": "Release Date",
+      "date": "2026-05-15",
+      "summary": "Disponível gratuitamente a partir de 21/05. Jogo de mistério, semana 21, jogo 1",
       "sources": [
-        "Eurogamer"
+        "Epic Games Store"
       ],
-      "url": "https://www.eurogamer.net/xbox-new-game-pass-tier-china-project-saluki"
+      "url": "https://store.epicgames.com/p/megasale-mysterygame-2026-week21-game1"
     },
     {
-      "id": "https://www.eurogamer.net/forza-horizon-6-review",
-      "title": "Análise do Forza Horizon 6",
-      "original_title": "Forza Horizon 6 review",
-      "image": "https://assetsio.gnwcdn.com/forza-horizon-6-review-header.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-05-14",
-      "summary": "Forza Horizon 6 não reinventa a roda. Não é necessário. O mais recente gigante das corridas de mundo aberto da Playground Games repensa e retrabalha os cinco títulos anteriores, cortando a gordura e reintroduzindo as melhores partes para tornar Forz...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/forza-horizon-6-review"
-    },
-    {
-      "id": "https://www.eurogamer.net/007-first-light-james-bond-smug",
-      "title": "“Se fizéssemos um Bond onde ninguém tivesse opinião sobre ele, seria o Bond mais chato já feito” - 007: O estúdio First Light reage à sugestão de que seu Bond é muito presunçoso",
-      "original_title": "\"If we made a Bond where no one had any opinions on them, it would be the dullest Bond ever made\" - 007: First Light studio reacts to suggestion its Bond is too smug",
-      "image": "https://assetsio.gnwcdn.com/007-first-light-james-lab-hair-fixed.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/marathon-future-seasons-pve-pvp-lite",
+      "title": "Maratona “esmagadora” para os novatos, admite o diretor, conforme os planos para os modos PvE e PvP-lite são revelados",
+      "original_title": "Marathon \"overwhelming\" for newcomers, director admits as plans for PvE and PvP-lite modes revealed",
+      "image": "https://assetsio.gnwcdn.com/marathon-arachne.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-05-14",
-      "summary": "IO Interactive, o estúdio de jogos dinamarquês conhecido principalmente por sua série Hitman, disse que espera e até acolhe a controvérsia sobre o personagem James Bond que criou para 007: First Light. Este Bond - interpretado pelo ator irlandês Patrick Gibson - é um...",
+      "date": "2026-05-15",
+      "summary": "O diretor do jogo Marathon, Joe Ziegler, compartilhou alguns dos planos da Bungie para melhorar seu jogo de tiro de extração divisivo, que inclui a introdução dos modos de jogo PvE e PvP-lite como alternativas à experiência central “avassaladora”. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/007-first-light-james-bond-smug"
+      "url": "https://www.eurogamer.net/marathon-future-seasons-pve-pvp-lite"
     },
     {
-      "id": "https://www.eurogamer.net/legend-of-zelda-film-release-date-change",
-      "title": "Você poderá ver o filme Legend of Zelda de ação ao vivo mais cedo do que o esperado, conforme a data de lançamento avança",
-      "original_title": "You'll be able to see the live-action Legend of Zelda film sooner than expected, as release date gets moved up",
-      "image": "https://assetsio.gnwcdn.com/Bo-Bragson-as-Princess-Zelda-in-upcoming-Legend-of-Zelda-adaptation.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/bioware-swtor-old-republic-reboot-ohlen",
+      "title": "A BioWare tinha um plano para reiniciar Star Wars: The Old Republic e torná-lo mais parecido com KOTOR, mas o conselho de diretores da EA o encerrou",
+      "original_title": "BioWare had a plan to reboot Star Wars: The Old Republic and make it more KOTOR like, but EA's board of directors shut it down",
+      "image": "https://assetsio.gnwcdn.com/kotor_darth_revan.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-05-14",
-      "summary": "Sempre gosto de acordar com uma postagem nas redes sociais que começa com “Este é Miyamoto”, e esta manhã não foi exceção. Hoje cedo, Shigeru Miyamoto da Nintendo assumiu a conta X da empresa para anunciar uma nova data de lançamento para o live-action Legend...",
+      "date": "2026-05-15",
+      "summary": "O ex-designer principal da BioWare, James Ohlen, revelou que já houve um plano para reiniciar o RPG online massivamente multiplayer do estúdio, Star Wars: The Old Republic, e isso o teria tornado mais parecido com o RPG single-player de 2003, Star Wars: Kn...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/legend-of-zelda-film-release-date-change"
+      "url": "https://www.eurogamer.net/bioware-swtor-old-republic-reboot-ohlen"
     },
     {
-      "id": "https://www.eurogamer.net/stardew-valley-cheating-affair",
-      "title": "“Na verdade, não vou fazer isso” – o criador de Stardew Valley não vai deixar você trair seu casamento no aconchegante simulador de agricultura",
-      "original_title": "\"I'm not going to actually do this\" - Stardew Valley creator isn't really going to let you cheat in your marriage in the cosy farming sim",
-      "image": "https://assetsio.gnwcdn.com/stardew-valley-evil-genius-2-and-more-confirmed-for-game-pass-1628627930703.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/saros-arjun-rahul-kolhi-voice",
+      "title": "\"Às vezes, tudo o que é necessário é um trajeto muito ruim\" - a equipe de Saros revela as origens surpreendentes da entrega furiosa de Arjun",
+      "original_title": "\"Sometimes all it really takes is one very bad commute\" - the Saros team reveal the surprising origins of Arjun's angry delivery",
+      "image": "https://assetsio.gnwcdn.com/Arjun-aiming-a-gun-in-Saros.-He-has-very-nice-facial-hair-and-is-dressed-in-dark-clothing-with-a-gold-pendant-by-his-chest.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-05-14",
-      "summary": "Começou a circular um boato de que o criador de Stardew Valley, Eric “ConcernedApe” Barone, está considerando adicionar a capacidade de trair seu casamento no simulador agrícola saudável. No entanto, Barone desde então saiu e esmagou esses rumores enquanto...",
+      "date": "2026-05-15",
+      "summary": "Muitos personagens de videogame são imediatamente reconhecíveis por suas vozes. O grave Geralt de Doug Cockle da série The Witcher é, o imponente Kratos de Chrisopher Judge em God of War é, o Snake secreto de David Hayter é. Eu poderia continuar. Mas como é que um ato...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/stardew-valley-cheating-affair"
+      "url": "https://www.eurogamer.net/saros-arjun-rahul-kolhi-voice"
     },
     {
-      "id": "https://www.eurogamer.net/hello-eurogamer-new-editor-in-chief-chris-tapsell",
-      "title": "Olá do novo editor-chefe da Eurogamer",
-      "original_title": "Hello from Eurogamer's new editor-in-chief",
-      "image": "https://assetsio.gnwcdn.com/eurogamer-launches-paid-work-experience-programme-for-ethnic-minorities-1616072986126.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/crimson-desert-patch-boss-rematches-damiane-unarmed-combat",
+      "title": "A última atualização do Crimson Desert adiciona mais chefes para revanche, bem como novas habilidades de combate desarmado para Damiane",
+      "original_title": "Crimson Desert's latest update adds more bosses for rematches as well as new unarmed combat skills for Damiane",
+      "image": "https://assetsio.gnwcdn.com/Kliff-from-Crimson-Desert-carries-a-pig-over-his-shoulder.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-05-14",
-      "summary": "Olá, queridos leitores da Eurogamer! Estou escrevendo para você hoje como novo editor-chefe da Eurogamer. Sei que todo mundo diz isso, mas é uma honra genuína - e devo admitir uma frase que espero escrever há muito tempo. Leia mais...",
+      "date": "2026-05-15",
+      "summary": "A equipe Crimson Desert lançou recentemente uma atualização que permitia montar iguanas e outras feras fantásticas, mas já está de volta, lançando um novo patch que, entre outras coisas, adiciona mais chefes ao sistema de revanche, o que significa que você...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/hello-eurogamer-new-editor-in-chief-chris-tapsell"
+      "url": "https://www.eurogamer.net/crimson-desert-patch-boss-rematches-damiane-unarmed-combat"
     },
     {
-      "id": "https://www.eurogamer.net/amazon-ai-game-project-trident-laid-off-anyway-report",
-      "title": "A Amazon pressionou uma de suas equipes para desenvolver um jogo de IA, eles se esforçaram para fazê-lo funcionar – mas foram demitidos mesmo assim",
-      "original_title": "Amazon pressured one of its teams to develop an AI game, they scrambled to make it work - then got laid off anyway",
-      "image": "https://assetsio.gnwcdn.com/AGS-header-cropped.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/subnautica-2-sales-launch-one-million",
+      "title": "Subnautica 2 já tem um grande número de jogadores simultâneos e atingiu 2 milhões de vendas",
+      "original_title": "Subnautica 2 already has huge concurrent player counts and has swum to 2 million sales",
+      "image": "https://assetsio.gnwcdn.com/Subnautica-2-system-spec.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-05-14",
-      "summary": "Em outubro de 2025, os desenvolvedores da Amazon Game Studios descobriram que haviam perdido o emprego. Eles estavam longe de estar sozinhos; desde o fim da pandemia de Covid-19, um ataque implacável de demissões dividiu muitos estúdios em todo o mundo. As razões para t...",
+      "date": "2026-05-15",
+      "summary": "Subnautica 2 teve um desempenho excepcionalmente bom após seu lançamento no Early Access, atingindo rapidamente 467.000 jogadores simultâneos somente no Steam. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/amazon-ai-game-project-trident-laid-off-anyway-report"
+      "url": "https://www.eurogamer.net/subnautica-2-sales-launch-one-million"
     },
     {
-      "id": "https://www.eurogamer.net/amazon-cancelled-lord-of-the-rings-mmo-new-game-experience",
-      "title": "A Amazon cancelou o MMO O Senhor dos Anéis, mas promete que “continua a explorar uma nova experiência de jogo atraente” ambientada na Terra-média",
-      "original_title": "Amazon has cancelled The Lord of the Rings MMO, but promises it \"continues to explore a compelling new game experience\" set in Middle-earth",
-      "image": "https://assetsio.gnwcdn.com/lord-of-the-rings-logo.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-05-14",
-      "summary": "O chefe de jogos da Amazon, Jeff Grattis, disse ao Eurogamer que a empresa continua trabalhando em uma “experiência de jogo” do Senhor dos Anéis, após o agora quase confirmado cancelamento de seu MMO do Senhor dos Anéis anunciado anteriormente. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/amazon-cancelled-lord-of-the-rings-mmo-new-game-experience"
-    },
-    {
-      "id": "https://www.techpowerup.com/349041/razer-unveils-the-new-razer-blade-18-desktop-class-performance-for-gaming-and-ai",
-      "title": "(PR) Razer revela o novo Razer Blade 18: desempenho de classe desktop para jogos e IA",
-      "original_title": "(PR) Razer Unveils the New Razer Blade 18: Desktop-class Performance for Gaming and AI",
-      "image": "https://tpucdn.com/img/nlPvaM4FbSfMXZ7M_thm.jpg",
+      "id": "https://www.techpowerup.com/349083/turtle-beach-launches-all-new-pacific-skyline-wireless-controller",
+      "title": "(PR) Turtle Beach lança o novo controlador sem fio Pacific Skyline",
+      "original_title": "(PR) Turtle Beach Launches All-New Pacific Skyline Wireless Controller",
+      "image": "https://tpucdn.com/img/ZTLneM1cjafa2bN2_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-05-14",
-      "summary": "A Razer, marca líder global em estilo de vida para gamers, anunciou hoje a evolução 2026 do Razer Blade 18, o Blade mais poderoso de todos os tempos. Projetado para jogadores e desenvolvedores de IA, o Blade 18 vai além dos laptops para jogos tradicionais e se torna um verdadeiro de...",
+      "date": "2026-05-15",
+      "summary": "Turtle Beach lançou hoje o Pacific Skyline Wireless Controller para Xbox, PC e Android, em um design inspirado no horizonte de San Diego e na costa da Califórnia onde Turtle Beach nasceu. Tons pastel suaves, silhuetas de palmeiras e seis...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/349041/razer-unveils-the-new-razer-blade-18-desktop-class-performance-for-gaming-and-ai"
+      "url": "https://www.techpowerup.com/349083/turtle-beach-launches-all-new-pacific-skyline-wireless-controller"
     },
     {
-      "id": "https://www.techpowerup.com/349048/other-world-computing-owc-expands-uk-channel-with-m2m-direct-distribution-partnership",
-      "title": "(PR) Other World Computing (OWC) expande canal no Reino Unido com parceria de distribuição direta M2M",
-      "original_title": "(PR) Other World Computing (OWC) Expands UK Channel with M2M Direct Distribution Partnership",
-      "image": "https://tpucdn.com/img/jehxujnrxBiKcPZc_thm.jpg",
+      "id": "https://www.techpowerup.com/349081/silicon-power-launches-createpro-series-storage-solutions",
+      "title": "(PR) Silicon Power lança soluções de armazenamento da série CreatePro",
+      "original_title": "(PR) Silicon Power Launches CreatePro Series Storage Solutions",
+      "image": "https://tpucdn.com/img/qpgvhbIUvET9mduJ_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-05-14",
-      "summary": "A Other World Computing (OWC), líder confiável em armazenamento de alto desempenho, memória, conectividade, software e acessórios que capacitam profissionais criativos e de negócios a maximizar o desempenho, aumentar a confiabilidade e simplificar os fluxos de trabalho, hoje...",
+      "date": "2026-05-15",
+      "summary": "Silicon Power (SP) anuncia o lançamento da série CreatePro, uma linha abrangente de soluções de armazenamento projetadas especificamente para criadores de conteúdo. Projetado para atender às crescentes demandas da linguagem criativa altamente especializada e acelerada de hoje...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/349048/other-world-computing-owc-expands-uk-channel-with-m2m-direct-distribution-partnership"
-    },
-    {
-      "id": "https://www.techpowerup.com/349047/amd-fsr-upscaling-4-1-officially-arrives-to-radeon-rx-7000-6000-gpus",
-      "title": "AMD FSR Upscaling 4.1 chega oficialmente às GPUs Radeon RX 7000/6000",
-      "original_title": "AMD FSR Upscaling 4.1 Officially Arrives to Radeon RX 7000/6000 GPUs",
-      "image": "https://tpucdn.com/img/JIB3k2umbJ9YVLGG_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-14",
-      "summary": "A AMD respondeu ao que os jogadores mais falam: trazer sua tecnologia de upscaling FSR 4.1 para GPUs RDNA 3 e RDNA 2 mais antigas. Hoje ficamos sabendo que esse sonho está se tornando realidade, com a AMD apresentando oficialmente sua tecnologia FSR Upscaling 4.1...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349047/amd-fsr-upscaling-4-1-officially-arrives-to-radeon-rx-7000-6000-gpus"
+      "url": "https://www.techpowerup.com/349081/silicon-power-launches-createpro-series-storage-solutions"
     },
     {
       "id": "https://www.techpowerup.com/348905/gigabyte-announces-oled-monitor-bundle-with-xbox-game-pass-ultimate-elevating-gaming-across-every-genre",
@@ -479,7 +245,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-05-14",
+      "date": "2026-05-15",
       "summary": "GIGABYTE, marca líder mundial de computadores, anunciou uma nova campanha de pacotes por tempo limitado que oferece aos jogadores uma maneira aprimorada de experimentar os títulos mais populares da atualidade. De 24 de abril a 31 de maio de 2026, os clientes que comprarem OLED GIGABYTE selecionados ...",
       "sources": [
         "TechPowerUp"
@@ -487,49 +253,49 @@
       "url": "https://www.techpowerup.com/348905/gigabyte-announces-oled-monitor-bundle-with-xbox-game-pass-ultimate-elevating-gaming-across-every-genre"
     },
     {
-      "id": "https://www.techpowerup.com/349046/msi-launches-limited-edition-geforce-rtx-5080-16g-the-mandalorian-and-grogu-oc-graphics-card",
-      "title": "(PR) MSI lança placa gráfica GeForce RTX 5080 16G de edição limitada Mandalorian e Grogu OC",
-      "original_title": "(PR) MSI Launches Limited Edition GeForce RTX 5080 16G The Mandalorian and Grogu OC Graphics Card",
-      "image": "https://tpucdn.com/img/J80Nert6eAXtohZp_thm.jpg",
+      "id": "https://www.techpowerup.com/349079/asus-republic-of-gamers-announces-rog-strix-scar-18",
+      "title": "(PR) ASUS Republic of Gamers Anuncia ROG Strix SCAR 18",
+      "original_title": "(PR) ASUS Republic of Gamers Announces ROG Strix SCAR 18",
+      "image": "https://tpucdn.com/img/fPkTQbs1HTvUS7sb_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-05-14",
-      "summary": "Jogadores e fãs de Star Wars, preparem-se para fortalecer sua configuração com um item especial vindo de algum lugar distante. A MSI tem o orgulho de apresentar sua placa gráfica de edição limitada inspirada no próximo filme da Lucasfilm, 'Star Wars: The Mandalorian and Grogu', agora em cin...",
+      "date": "2026-05-15",
+      "summary": "A ASUS Republic of Gamers (ROG) anunciou hoje o lançamento do 2026 ROG Strix SCAR 18, um portátil para jogos que redefine o significado de ‘carro-chefe’. Equipado com processador Intel Core Ultra 9 290HX Plus e laptop NVIDIA GeForce RTX 5090 ...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/349046/msi-launches-limited-edition-geforce-rtx-5080-16g-the-mandalorian-and-grogu-oc-graphics-card"
+      "url": "https://www.techpowerup.com/349079/asus-republic-of-gamers-announces-rog-strix-scar-18"
     },
     {
-      "id": "https://www.techpowerup.com/349045/ddr5-pricing-remains-stable-but-ssds-continue-to-soar-notes-framework",
-      "title": "O preço do DDR5 permanece estável, mas os SSDs continuam a subir, observa a estrutura",
-      "original_title": "DDR5 Pricing Remains Stable, But SSDs Continue to Soar, Notes Framework",
-      "image": "https://tpucdn.com/img/mneELVc64I8daRVo_thm.jpg",
+      "id": "https://www.techpowerup.com/349078/asus-announces-t1-e-sports-team-co-branded-rtx-5070-and-rtx-5060-ti-graphics-cards",
+      "title": "(PR) ASUS Anuncia Placas Gráficas RTX 5070 e RTX 5060 Ti da T1 e-Sports Team",
+      "original_title": "(PR) ASUS Announces T1 e-Sports Team Co-branded RTX 5070 and RTX 5060 Ti Graphics Cards",
+      "image": "https://tpucdn.com/img/tFXfDlDwzGeQllsd_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-05-14",
-      "summary": "A Framework, fabricante de vários laptops modulares, atualizou sua postagem no blog sobre preços e disponibilidade de memória para o consumidor e configurações de armazenamento para seus produtos. À medida que a empresa colabora com sua cadeia de suprimentos para equipar seus laptops e...",
+      "date": "2026-05-15",
+      "summary": "A ASUS anunciou hoje as placas gráficas T1 GeForce RTX 5070 e RTX 5060 Ti, em colaboração com a T1, os famosos vencedores do Campeonato Mundial de League of Legends. Esta colaboração marca um marco na cultura do e-sports. T1 se uniu à ASUS em...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/349045/ddr5-pricing-remains-stable-but-ssds-continue-to-soar-notes-framework"
+      "url": "https://www.techpowerup.com/349078/asus-announces-t1-e-sports-team-co-branded-rtx-5070-and-rtx-5060-ti-graphics-cards"
     },
     {
-      "id": "https://www.techpowerup.com/349043/intel-arc-gpu-graphics-drivers-101-8801-beta-released",
-      "title": "Drivers gráficos Intel Arc GPU 101.8801 Beta lançados",
-      "original_title": "Intel Arc GPU Graphics Drivers 101.8801 Beta Released",
-      "image": "https://tpucdn.com/img/lETjMu4TrzAyXN09_thm.jpg",
+      "id": "https://www.techpowerup.com/349077/asus-enters-the-enthusiast-memory-market-with-rog-branded-ddr5-kit",
+      "title": "ASUS entra no mercado de memória para entusiastas com kit DDR5 da marca ROG",
+      "original_title": "ASUS Enters the Enthusiast Memory Market with ROG-branded DDR5 Kit",
+      "image": "https://tpucdn.com/img/esRADz0nuRbXV1gp_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-05-14",
-      "summary": "A Intel lançou hoje a versão mais recente dos drivers gráficos Arc GPU. A versão 101.8801 Beta vem com otimização para “Forza Horizon 6”, “LEGO Batman: Legacy of the Dark Knight” e “Subnautica 2”. Os drivers também corrigem um bug que faz com que \"Battlefiel...",
+      "date": "2026-05-15",
+      "summary": "A ASUS está entrando no segmento de mercado de memória para PC entusiastas com seus primeiros kits de memória DDR5 da marca ROG. A empresa lançou esses kits de memória na China e VideoCardz relata que BIWIN é o OEM por trás do kit. O módulo vem com o distinto ...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/349043/intel-arc-gpu-graphics-drivers-101-8801-beta-released"
+      "url": "https://www.techpowerup.com/349077/asus-enters-the-enthusiast-memory-market-with-rog-branded-ddr5-kit"
     },
     {
       "id": "https://www.techpowerup.com/348933/stop-paying-for-microsoft-365-the-newest-office-is-usd-130",
@@ -539,7 +305,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-05-14",
+      "date": "2026-05-15",
       "summary": "O cansaço das assinaturas é real, especialmente quando se trata de software que você usa todos os dias. O Microsoft 365 custa de US$ 69,99 a US$ 99,99 anualmente, o que significa que você gastará facilmente de US$ 200 a US$ 400 em alguns anos apenas para continuar usando o Word e o Excel. O Microsoft Office...",
       "sources": [
         "TechPowerUp"
@@ -547,34 +313,124 @@
       "url": "https://www.techpowerup.com/348933/stop-paying-for-microsoft-365-the-newest-office-is-usd-130"
     },
     {
-      "id": "https://www.techpowerup.com/349039/leak-tips-china-specific-xbox-game-pass-tiers-and-a-way-to-play-game-discs-on-digital-only-helix-console",
-      "title": "Dicas de vazamento, níveis de Xbox Game Pass específicos da China e uma maneira de jogar discos de jogos no console Helix somente digital",
-      "original_title": "Leak Tips China-Specific Xbox Game Pass Tiers and a Way to Play Game Discs on Digital-Only Helix Console",
-      "image": "https://tpucdn.com/img/mXsqIYsO5A2Suut4_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Rumor",
-      "date": "2026-05-14",
-      "summary": "Desde que a nova CEO do Xbox, Asha Sharma, se tornou o rosto público do Xbox Gaming, ela liderou uma série de mudanças significativas na empresa, muitas das quais estão diretamente ligadas ao Xbox Game Pass. A nova filosofia do Xbox parece ser ser o mais importante...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349039/leak-tips-china-specific-xbox-game-pass-tiers-and-a-way-to-play-game-discs-on-digital-only-helix-console"
-    },
-    {
-      "id": "https://www.techpowerup.com/349040/v-color-launches-gen-5-jedec-8000-mt-s-1-1v-rdimm-achieves-ddr5-9600-oc-on-w890",
-      "title": "(PR) V-Color lança Gen 5 JEDEC 8000 MT/s 1.1V RDIMM, atinge DDR5-9600 OC no W890",
-      "original_title": "(PR) V-Color Launches Gen 5 JEDEC 8000 MT/s 1.1V RDIMM, Achieves DDR5-9600 OC on W890",
-      "image": "https://tpucdn.com/img/SbXluaoxSzJrrNKW_thm.jpg",
+      "id": "https://www.techpowerup.com/349076/asus-republic-of-gamers-unveils-rog-crosshair-2006-motherboard-to-mark-20-years-of-rog",
+      "title": "(PR) ASUS Republic of Gamers revela placa-mãe ROG Crosshair 2006 para marcar 20 anos de ROG",
+      "original_title": "(PR) ASUS Republic of Gamers Unveils ROG Crosshair 2006 Motherboard to Mark 20 Years of ROG",
+      "image": "https://tpucdn.com/img/FKT1pvNbtQZfDXL7_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-05-14",
-      "summary": "A V-Color Technology Inc., fornecedora global de soluções de memória de alto desempenho, anunciou hoje a compatibilidade completa de sua memória OC RDIMM com processadores Intel Xeon 6 e plataformas de estação de trabalho com chipset Intel W890. Esta linha expandida fortalece...",
+      "date": "2026-05-15",
+      "summary": "A ASUS Republic of Gamers (ROG) anunciou hoje a ROG Crosshair 2006, uma prima da Crosshair X870E Dark Hero que é um retrocesso estético à primeira placa-mãe ROG criada há 20 anos. \n\nSeu potente poder de jogo está envolto em histórias de viagem no tempo...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/349040/v-color-launches-gen-5-jedec-8000-mt-s-1-1v-rdimm-achieves-ddr5-9600-oc-on-w890"
+      "url": "https://www.techpowerup.com/349076/asus-republic-of-gamers-unveils-rog-crosshair-2006-motherboard-to-mark-20-years-of-rog"
+    },
+    {
+      "id": "https://www.techpowerup.com/349074/asus-republic-of-gamers-announces-rog-nuc-16",
+      "title": "ASUS Republic of Gamers anuncia ROG NUC 16",
+      "original_title": "ASUS Republic of Gamers Announces ROG NUC 16",
+      "image": "https://tpucdn.com/img/hnrUfbNwFYsnAwT9_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-15",
+      "summary": "A ASUS Republic of Gamers (ROG) anunciou hoje o ROG NUC 16, um PC compacto para jogos equipado com um processador Intel Core Ultra “Arrow Lake-HX” e uma GPU para laptop NVIDIA GeForce RTX 5080. Apresentando um design térmico atualizado e suporte removível patenteado...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349074/asus-republic-of-gamers-announces-rog-nuc-16"
+    },
+    {
+      "id": "https://www.techpowerup.com/349073/amd-radeon-gpu-driver-update-breaks-zero-rpm-mode-for-several-users",
+      "title": "A atualização do driver da GPU AMD Radeon quebra o modo Zero RPM para vários usuários",
+      "original_title": "AMD Radeon GPU Driver Update Breaks Zero RPM Mode for Several Users",
+      "image": "https://tpucdn.com/img/b9Oue7vJMYs1jNRJ_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-15",
+      "summary": "A segunda atualização mais recente do driver de GPU da AMD, versão 26.5.1 WHQL, está causando problemas com o modo Zero RPM em muitas placas gráficas. Zero RPM é um recurso encontrado na maioria das placas gráficas dedicadas modernas, permitindo que a GPU seja resfriada passivamente por seu dissipador de calor ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349073/amd-radeon-gpu-driver-update-breaks-zero-rpm-mode-for-several-users"
+    },
+    {
+      "id": "https://www.eurogamer.net/attention-geometry-wars-fans-sektori-is-one-of-last-years-best-arcade-shooters-and-its-out-on-switch-2-today",
+      "title": "Atenção fãs de Geometry Wars! Sektori é um dos melhores jogos de tiro de arcade do ano passado e está disponível no Switch 2 hoje",
+      "original_title": "Attention Geometry Wars fans! Sektori is one of last year's best arcade shooters, and it's out on Switch 2 today",
+      "image": "https://assetsio.gnwcdn.com/sektori_KfGAqSx.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-05-14",
+      "summary": "Sektori, um dos melhores jogos do ano passado - e um jogo tão intimamente relacionado ao jogo de tiro duplo Geometry Wars que poderia ser a mesma coisa - finalmente chegou ao Nintendo Switch 2. Ler mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/attention-geometry-wars-fans-sektori-is-one-of-last-years-best-arcade-shooters-and-its-out-on-switch-2-today"
+    },
+    {
+      "id": "https://www.eurogamer.net/nintendo-switch-online-classics-may",
+      "title": "Nintendo Switch Online adiciona mais cinco clássicos para maio",
+      "original_title": "Nintendo Switch Online adds five more Classics for May",
+      "image": "https://assetsio.gnwcdn.com/New-Project-(18)_ibnR9Vv.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-05-14",
+      "summary": "A Nintendo se aprofundou em seu catálogo anterior e revelou o próximo conjunto de jogos clássicos que chegarão ao serviço de assinatura Switch Online + Expansion Pass. O que, desta vez, é um prazer para os fãs do Virtual Boy - contanto que você tenha...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/nintendo-switch-online-classics-may"
+    },
+    {
+      "id": "https://www.eurogamer.net/nintendo-explains-switch-2-price-rise",
+      "title": "A Nintendo explica porque aumentou o preço do Switch 2 e diz que os problemas responsáveis ​​“poderão ter um impacto não apenas neste ano, mas também no próximo”.",
+      "original_title": "Nintendo explains why it raised the price of Switch 2, and says the issues responsible \"could have an impact not only this year but next year as well\"",
+      "image": "https://assetsio.gnwcdn.com/Switch-2-console-docked-with-an-image-of-Wario-holding-a-stack-of-coins-to-the-left.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-05-14",
+      "summary": "A Nintendo ofereceu uma explicação mais detalhada sobre por que aumentou o preço do Switch 2, revelando que, infelizmente, não espera que o preço inflacionado da memória e dos componentes do computador caia tão cedo. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/nintendo-explains-switch-2-price-rise"
+    },
+    {
+      "id": "https://www.eurogamer.net/the-people-that-you-care-about-and-root-for-are-not-good-all-the-time-craig-mazin-discusses-landing-the-crucial-abby-perspective-in-the-last-of-us-season-three",
+      "title": "“As pessoas com quem você se importa e por quem você torce não são boas o tempo todo” – Craig Mazin discute a perspectiva crucial de Abby na terceira temporada de The Last of Us",
+      "original_title": "\"The people that you care about and root for are not good all the time\" - Craig Mazin discusses landing the crucial Abby perspective in The Last of Us season three",
+      "image": "https://assetsio.gnwcdn.com/Kaitlyn-Dever-as-The-Last-of-Us'-Abby-with-tears-in-her-eyes-and-a-determined-look-on-her-face.jfif?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-05-14",
+      "summary": "As filmagens da terceira temporada da adaptação de The Last of Us da HBO estão em andamento, com imagens recentes mostrando Abby de Kaitlyn Dever e a estreante Kyriana Kratter como Lev, e agora o showrunner Craig Mazin compartilhou mais sobre o que os espectadores podem esperar...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/the-people-that-you-care-about-and-root-for-are-not-good-all-the-time-craig-mazin-discusses-landing-the-crucial-abby-perspective-in-the-last-of-us-season-three"
+    },
+    {
+      "id": "https://www.eurogamer.net/subautica-2-non-violence",
+      "title": "Os fãs de Subnautica 2 de um país queriam “esmagadoramente” ser capazes de fabricar armas, mas seus desenvolvedores “sentem-se fortemente” em continuar a evitá-las",
+      "original_title": "One country's Subnautica 2 fans \"overwhelmingly\" wanted to be able to craft weapons, but its devs \"feel strongly\" about continuing to avoid them",
+      "image": "https://assetsio.gnwcdn.com/screenshot-from-subnautica-2-showing-a-character-with-a-cracked-diving-mask.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-05-14",
+      "summary": "Os desenvolvedores do Subautica 2 falaram sobre a decisão de permanecer firmes na postura não violenta de seu próximo jogo de sobrevivência oceânica, mesmo depois que fãs de um país queriam a fabricação de armas. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/subautica-2-non-violence"
     }
   ]
 }
