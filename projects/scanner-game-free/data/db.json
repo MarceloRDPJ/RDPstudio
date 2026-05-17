@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-05-16T13:22:47",
-  "display_date": "16/05/2026 13:22",
+  "last_updated": "2026-05-17T13:20:08",
+  "display_date": "17/05/2026 13:20",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "227ms",
+    "latency": "66ms",
     "current_games": [
       {
         "title": "The Telltale Batman Shadows Edition",
@@ -65,7 +65,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-05-16",
+      "date": "2026-05-17",
       "summary": "Edição Telltale Batman Shadows",
       "sources": [
         "Epic Games Store"
@@ -80,7 +80,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-05-16",
+      "date": "2026-05-17",
       "summary": "Sunderfolk - Edição Padrão",
       "sources": [
         "Epic Games Store"
@@ -95,7 +95,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-05-16",
+      "date": "2026-05-17",
       "summary": "Disponível gratuitamente a partir de 16/09. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
@@ -110,7 +110,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-05-16",
+      "date": "2026-05-17",
       "summary": "Disponível gratuitamente a partir de 21/05. Jogo de mistério, semana 21, jogo 2",
       "sources": [
         "Epic Games Store"
@@ -125,7 +125,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-05-16",
+      "date": "2026-05-17",
       "summary": "Disponível gratuitamente a partir de 21/05. Jogo de mistério, semana 21, jogo 1",
       "sources": [
         "Epic Games Store"
@@ -133,10 +133,55 @@
       "url": "https://store.epicgames.com/p/megasale-mysterygame-2026-week21-game1"
     },
     {
+      "id": "https://www.eurogamer.net/lovecraft-indiana-jones-call-of-the-elder-gods-impressions",
+      "title": "Lovecraft recebe o tratamento de Indiana Jones em Call of the Elder Gods, mas está faltando alguma coisa nesta sequência de Call of the Sea?",
+      "original_title": "Lovecraft gets the Indiana Jones treatment in Call of the Elder Gods, but is something missing in this Call of the Sea sequel?",
+      "image": "https://assetsio.gnwcdn.com/call-of-the-elder-gods-15.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-05-17",
+      "summary": "Apesar de toda a sua aventura estrondosa de Indiana Jones, suas civilizações antigas e o perigo sobrenatural polpudo, o verdadeiro coração de Call of the Elder Gods é talvez seu diário com capa de couro surrado. Isso não será uma surpresa para ninguém que já jogou Call of the Sea...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/lovecraft-indiana-jones-call-of-the-elder-gods-impressions"
+    },
+    {
+      "id": "https://www.eurogamer.net/a-great-score-is-not-heard-from-indiana-jones-to-star-wars-musical-legend-gordy-haab-on-becoming-a-caretaker-of-some-of-video-games-most-prolific-franchises",
+      "title": "\"Uma grande partitura não se ouve\" - ​​De Indiana Jones a Star Wars, a lenda musical Gordy Haab ao tornar-se zelador de algumas das franquias mais prolíficas dos videojogos",
+      "original_title": "\"A great score is not heard\" - From Indiana Jones to Star Wars, musical legend Gordy Haab on becoming a caretaker of some of video games' most prolific franchises",
+      "image": "https://assetsio.gnwcdn.com/Gordy-Haab-in-his-studio.-He-is-surrounded-by-musical-equipment.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-05-17",
+      "summary": "O compositor americano Gordy Haab é uma força a ser reconhecida, trocadilho intencional. Seu catálogo de trabalhos em videogames inclui a composição de trilhas sonoras para Star Wars Jedi: Fallen Order, Star Wars Jedi: Survivor, Star Wars Squadrons e, a maioria...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/a-great-score-is-not-heard-from-indiana-jones-to-star-wars-musical-legend-gordy-haab-on-becoming-a-caretaker-of-some-of-video-games-most-prolific-franchises"
+    },
+    {
+      "id": "https://www.techpowerup.com/349125/this-week-in-gaming-week-21",
+      "title": "Esta semana em jogos (semana 21)",
+      "original_title": "This Week in Gaming (Week 21)",
+      "image": "https://tpucdn.com/img/gY2hGC0zKFRjLyYN_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-17",
+      "summary": "Bem-vindo à penúltima semana de maio e esta semana está repleta de lançamentos maiores, então segure seu chapéu enquanto iniciamos o lançamento AAA desta semana, que envolve você dirigir carros velozes em ambientes exóticos por todo o Japão. O resto da semana...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349125/this-week-in-gaming-week-21"
+    },
+    {
       "id": "https://www.eurogamer.net/invincible-vs-review",
       "title": "Revisão Invencível vs.",
       "original_title": "Invincible Vs Review",
-      "image": "https://assetsio.gnwcdn.com/Invincible-vs-review-header.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "image": "https://assetsio.gnwcdn.com/19e2c6db3e127-screenshotUrl.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
@@ -163,51 +208,6 @@
       "url": "https://www.eurogamer.net/what-weve-been-playing-mixtape-saros-zelda-directive-8020"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tegl23/tom_hendersoninsider_gaming_we_dont_believe/",
-      "title": "Tom Henderson/Insider Gaming: Não acreditamos que as pré-encomendas de GTA 6 abram na segunda-feira; não teremos nada tangível sobre GTA 6 até julho ou agosto",
-      "original_title": "Tom Henderson/Insider Gaming: We don't believe pre-orders for GTA 6 open on Monday; we're not getting anything tangible about GTA 6 until July or August",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-16",
-      "summary": "Apesar de confirmar que o e-mail da bestbuy é legítimo, todos os Insider Gaming (incluindo Tom Henderson) concordam que não acreditam que as pré-encomendas sejam abertas na segunda-feira. Fonte: https://youtu.be/YUBHxi6vS7g?t=2680 (44: 40; 45:34) enviado por /u/cat__statue [l...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tegl23/tom_hendersoninsider_gaming_we_dont_believe/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1teo3h5/one_of_the_next_epic_mystery_games_might_be_a/",
-      "title": "Um dos próximos Epic Mystery Games pode ser o título Five Nights at Freddy's.",
-      "original_title": "One of the next Epic Mystery Games might be a Five Nights at Freddy's title.",
-      "image": "https://preview.redd.it/y30hw7ocqg1h1.jpg?width=140&height=111&auto=webp&s=aecf88ff56540bc044341f53932e7fb5a81b4caf",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Epic News",
-      "date": "2026-05-16",
-      "summary": "enviado por /u/Puzzleheaded_irl [link] [comentários] ...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1teo3h5/one_of_the_next_epic_mystery_games_might_be_a/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1teowx2/monument_valley_dlc/",
-      "title": "Monument Valley DLC",
-      "original_title": "Monument valley dlc",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-16",
-      "summary": "Olá, então venci o jogo base e os sonhos de Ida, mas o dlc \"forgotten shores\" é mostrado com um preço. Clicar nele dá um erro e não pode ser comprado, então o que posso fazer? Agradecimentos enviados por /u/Kayato601 [link] [comentários]...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1teowx2/monument_valley_dlc/"
-    },
-    {
       "id": "https://www.techpowerup.com/349099/discord-gets-massively-improved-linux-support-and-official-fedora-and-arch-packages",
       "title": "Discord obtém suporte Linux enormemente aprimorado e pacotes oficiais Fedora e Arch",
       "original_title": "Discord Gets Massively Improved Linux Support and Official Fedora and Arch Packages",
@@ -221,6 +221,21 @@
         "TechPowerUp"
       ],
       "url": "https://www.techpowerup.com/349099/discord-gets-massively-improved-linux-support-and-official-fedora-and-arch-packages"
+    },
+    {
+      "id": "https://www.techpowerup.com/348905/gigabyte-announces-oled-monitor-bundle-with-xbox-game-pass-ultimate-elevating-gaming-across-every-genre",
+      "title": "GIGABYTE anuncia pacote de monitores OLED com Xbox Game Pass Ultimate, elevando os jogos em todos os gêneros",
+      "original_title": "GIGABYTE Announces OLED Monitor Bundle with Xbox Game Pass Ultimate, Elevating Gaming Across Every Genre",
+      "image": "https://tpucdn.com/img/mGf0L0v2DDYUBeCN_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-16",
+      "summary": "GIGABYTE, marca líder mundial de computadores, anunciou uma nova campanha de pacotes por tempo limitado que oferece aos jogadores uma maneira aprimorada de experimentar os títulos mais populares da atualidade. De 24 de abril a 31 de maio de 2026, os clientes que comprarem OLED GIGABYTE selecionados ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348905/gigabyte-announces-oled-monitor-bundle-with-xbox-game-pass-ultimate-elevating-gaming-across-every-genre"
     },
     {
       "id": "https://www.eurogamer.net/party-animals-ai-competition-controversy-apology",
@@ -313,201 +328,6 @@
       "url": "https://www.eurogamer.net/bioware-swtor-old-republic-reboot-ohlen"
     },
     {
-      "id": "https://www.eurogamer.net/saros-arjun-rahul-kolhi-voice",
-      "title": "\"Às vezes, tudo o que é necessário é um trajeto muito ruim\" - a equipe de Saros revela as origens surpreendentes da entrega furiosa de Arjun",
-      "original_title": "\"Sometimes all it really takes is one very bad commute\" - the Saros team reveal the surprising origins of Arjun's angry delivery",
-      "image": "https://assetsio.gnwcdn.com/Arjun-aiming-a-gun-in-Saros.-He-has-very-nice-facial-hair-and-is-dressed-in-dark-clothing-with-a-gold-pendant-by-his-chest.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-05-15",
-      "summary": "Muitos personagens de videogame são imediatamente reconhecíveis por suas vozes. O grave Geralt de Doug Cockle da série The Witcher é, o imponente Kratos de Chrisopher Judge em God of War é, o Snake secreto de David Hayter é. Eu poderia continuar. Mas como é que um ato...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/saros-arjun-rahul-kolhi-voice"
-    },
-    {
-      "id": "https://www.eurogamer.net/crimson-desert-patch-boss-rematches-damiane-unarmed-combat",
-      "title": "A última atualização do Crimson Desert adiciona mais chefes para revanche, bem como novas habilidades de combate desarmado para Damiane",
-      "original_title": "Crimson Desert's latest update adds more bosses for rematches as well as new unarmed combat skills for Damiane",
-      "image": "https://assetsio.gnwcdn.com/Kliff-from-Crimson-Desert-carries-a-pig-over-his-shoulder.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-05-15",
-      "summary": "A equipe Crimson Desert lançou recentemente uma atualização que permitia montar iguanas e outras feras fantásticas, mas já está de volta, lançando um novo patch que, entre outras coisas, adiciona mais chefes ao sistema de revanche, o que significa que você...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/crimson-desert-patch-boss-rematches-damiane-unarmed-combat"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1teacz8/jeff_grubb_on_alinea_analytics_talked_to_people/",
-      "title": "Jeff Grubb sobre Alinea Analytics: \"conversei com pessoas do setor, suas estimativas não são perfeitas, mas muito boas, geralmente mais próximas do que qualquer outra pessoa\"",
-      "original_title": "Jeff Grubb on Alinea Analytics: \"talked to people in the industry, their estimates are not perfect but pretty good, usually closer than anyone else\"",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-15",
-      "summary": "Fonte para sua informação: Alinea Analytics é uma empresa de dados de mercado de jogos, eles relatam vendas estimadas usando suas próprias ferramentas em jogos lançados recentemente.    enviado por /u/Connect_Base_217 [link] [comentários]...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1teacz8/jeff_grubb_on_alinea_analytics_talked_to_people/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1te36u8/jordan_middler_hints_at_a_return_from_ape_escape/",
-      "title": "Jordan Middler sugere um retorno de Ape Escape (e outros IPs mais antigos da Sony) no VGC Podcast",
-      "original_title": "Jordan Middler Hints At A Return From Ape Escape (And Other Older Sony IPs) At VGC Podcast",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-15",
-      "summary": "Jordan Middler é jornalista do VGC. https://youtu.be/5Hc3ItMzta4?si=uYI3wjphshFHExiM&t=2090 Eles precisam recuperar aquele macaquinho. Aquele macaquinho e o resto dos macaquinhos. Não pode ser apenas um macaco porque seria um jogo chato se você...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1te36u8/jordan_middler_hints_at_a_return_from_ape_escape/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1te4f6l/dead_by_daylight_anniversary_trailer_published/",
-      "title": "Trailer de aniversário de Dead by Daylight publicado ao vivo mais cedo, possivelmente sugerindo sexta-feira 13",
-      "original_title": "Dead by Daylight Anniversary Trailer published live early, possibly hinting at Friday the 13th",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-15",
-      "summary": "https://www.reddit.com/r/LeaksDBD/s/OuigDkmyVw Conforme observado no subreddit LeaksDbD, o trailer tinha exatamente 13 segundos de duração. O trailer em si era um trailer mais antigo, mas interrompido. 13 segundos é notável porque a BHVR gosta de deixar dicas como essa para você...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1te4f6l/dead_by_daylight_anniversary_trailer_published/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1te370l/new_darktide_dlc_leaked_via_ukrainian/",
-      "title": "Novo DLC Darktide vazou por meio de arquivos de localização ucranianos",
-      "original_title": "New Darktide DLC leaked via Ukrainian localisation files",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Rumor",
-      "date": "2026-05-15",
-      "summary": "https://www.reddit.com/r/DarkTide/s/zF6lp6GFrW Esta postagem confirma que o personagem DLC é skitarii junto com vários de seus mecânicos. Não tenho certeza se isso está totalmente verificado e pode ser inventado, mas não acredito. No evento Warhammer Skulls...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1te370l/new_darktide_dlc_leaked_via_ukrainian/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1te5zkb/the_first_one_like_an_house_or_something_what_is/",
-      "title": "O primeiro como uma casa ou algo assim, o que é isso?, o segundo como um machado",
-      "original_title": "The first one like an house or something what is this?,the sec one like axe",
-      "image": "https://preview.redd.it/z7apt3ntnc1h1.jpeg?width=640&crop=smart&auto=webp&s=b9da78c9b11f877aa97f82955fa5bd501ad0cb8c",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-15",
-      "summary": "Qual jogo??    enviado por /u/Kelyo100924 [link] [comentários] ...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1te5zkb/the_first_one_like_an_house_or_something_what_is/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1te2qbq/maybe_it_will_be_core_keeper/",
-      "title": "Talvez seja Core Keeper?",
-      "original_title": "Maybe it will be Core Keeper?",
-      "image": "https://preview.redd.it/rjcr88gs3c1h1.png?width=320&crop=smart&auto=webp&s=5cf774809a80081c131917ec1121fdb8fbf9e74c",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-15",
-      "summary": "enviado por /u/Sabot79 [link] [comentários] ...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1te2qbq/maybe_it_will_be_core_keeper/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1te63s0/how_i_fixed_the_epic_games_infinite_updating/",
-      "title": "Como consertei o inicializador de atualização infinita do EPIC GAMES onde o aplicativo nunca inicia",
-      "original_title": "How i fixed the EPIC GAMES infinite updating launcher where the App never launch",
-      "image": "https://preview.redd.it/huzvhu9klc1h1.png?width=140&height=76&auto=webp&s=5423062338454808f89be7811ba6a7afe396c158",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Epic News",
-      "date": "2026-05-15",
-      "summary": "Olá, tive uma falha em que o inicializador do jogo épico nunca abria e ficava abrindo e fechando após 2 segundos de \"atualização\". Para consertar, usei https://epic-games-launcher.en.uptodown.com/windows/download/1099321252 com todas as versões...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1te63s0/how_i_fixed_the_epic_games_infinite_updating/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1tdrl29/oh_so_this_is_my_pridictions_when_i_watched_the/",
-      "title": "Ah, então essas são minhas previsões. Quando assisti o vídeo com atenção, vi que a primeira imagem parecia uma picareta ou uma flecha. _________ então agora desligue a segunda imagem, parece uma granada ou um tijolo ou uma parede de tijolos ou uma torre. Você pode me sugerir jogos com base em ambas as pistas nos comentários.👍👍",
-      "original_title": "Oh so this is my pridictions. When I watched the video carefully then I saw the first picture seems like a pickaxe or a arrow. _________ so now turn off the second picture it seems like a grenade or a brick or a brick wall or a tower.Can you suggest me games based on both clues in the comments.👍👍",
-      "image": "https://preview.redd.it/he2z51bvu91h1.jpg?width=140&height=140&crop=1:1,smart&auto=webp&s=6799694248df2f2847a7b6218a56267fd0aa4fd0",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-15",
-      "summary": "enviado por /u/Electrical_Sort_989 [link] [comentários] ...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1tdrl29/oh_so_this_is_my_pridictions_when_i_watched_the/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1te2an5/steam_game_dino_running_from_a_furry_gamesforfarm/",
-      "title": "[Steam] (Jogo) Dino fugindo de um FURRY: GAMESFORFARM",
-      "original_title": "[Steam] (Game) Dino running from a FURRY: GAMESFORFARM",
-      "image": "https://external-preview.redd.it/E9ecmM9QljrRmn0qY6pOaarHMOeJuh5aziYuSGlb6DE.jpeg?width=320&crop=smart&auto=webp&s=5039cf76b0067e147d6443f08bf18bbe290e34ad",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-05-15",
-      "summary": "enviado por /u/Oliomono [link] [comentários] ...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1te2an5/steam_game_dino_running_from_a_furry_gamesforfarm/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1tdzn8l/indiegala_game_blood_and_zombies/",
-      "title": "[IndieGala] (Jogo) Sangue e Zumbis",
-      "original_title": "[IndieGala] (Game) Blood And Zombies",
-      "image": "https://external-preview.redd.it/6meqsWLX6HrIXRbeswgxd2crnXcLtdHeujhwaS65IUc.png?width=320&crop=smart&auto=webp&s=709a8ecd38f5f0d1fb2f53e7f58b019b44fd6ff2",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-05-15",
-      "summary": "enviado por /u/royroy [link] [comentários] ...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1tdzn8l/indiegala_game_blood_and_zombies/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1tdm1l0/pcconsolemobile_other_hitman_world_of/",
-      "title": "[PC/Console/Mobile] (Outro) HITMAN World of Assassination – The Purple Streak Explosive Duck",
-      "original_title": "[PC/Console/Mobile] (Other) HITMAN World of Assassination - The Purple Streak Explosive Duck",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-05-15",
-      "summary": "enviado por /u/MeguminShiro [link] [comentários]...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1tdm1l0/pcconsolemobile_other_hitman_world_of/"
-    },
-    {
       "id": "https://www.techpowerup.com/349095/forza-horizon-6-advanced-access-kicks-off-with-over-170-000-concurrent-players",
       "title": "Forza Horizon 6 Advanced Access começa com mais de 170.000 jogadores simultâneos",
       "original_title": "Forza Horizon 6 Advanced Access Kicks Off With Over 170,000 Concurrent Players",
@@ -523,23 +343,8 @@
       "url": "https://www.techpowerup.com/349095/forza-horizon-6-advanced-access-kicks-off-with-over-170-000-concurrent-players"
     },
     {
-      "id": "https://www.techpowerup.com/348905/gigabyte-announces-oled-monitor-bundle-with-xbox-game-pass-ultimate-elevating-gaming-across-every-genre",
-      "title": "GIGABYTE anuncia pacote de monitores OLED com Xbox Game Pass Ultimate, elevando os jogos em todos os gêneros",
-      "original_title": "GIGABYTE Announces OLED Monitor Bundle with Xbox Game Pass Ultimate, Elevating Gaming Across Every Genre",
-      "image": "https://tpucdn.com/img/mGf0L0v2DDYUBeCN_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-15",
-      "summary": "GIGABYTE, marca líder mundial de computadores, anunciou uma nova campanha de pacotes por tempo limitado que oferece aos jogadores uma maneira aprimorada de experimentar os títulos mais populares da atualidade. De 24 de abril a 31 de maio de 2026, os clientes que comprarem OLED GIGABYTE selecionados ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348905/gigabyte-announces-oled-monitor-bundle-with-xbox-game-pass-ultimate-elevating-gaming-across-every-genre"
-    },
-    {
       "id": "https://www.techpowerup.com/349094/sony-rolls-out-public-playstation-5-player-count-beta-widget",
-      "title": "Sony lança widget beta público de contagem de jogadores do PlayStation 5",
+      "title": "Sony lança widget público beta de contagem de jogadores do PlayStation 5",
       "original_title": "Sony Rolls Out Public PlayStation 5 Player Count Beta Widget",
       "image": "https://tpucdn.com/img/Pgxr1MiMkENJsSGR_thm.jpg",
       "source_count": 1,
@@ -568,21 +373,6 @@
       "url": "https://www.techpowerup.com/349092/starforge-systems-launches-the-apothecary-diaries-collection"
     },
     {
-      "id": "https://www.techpowerup.com/349090/awekeys-shows-off-shine-through-metal-keycaps-for-mechanical-keyboards",
-      "title": "Awekeys mostra teclas de metal brilhantes para teclados mecânicos",
-      "original_title": "Awekeys Shows Off Shine-Through Metal Keycaps for Mechanical Keyboards",
-      "image": "https://tpucdn.com/img/AGgOip3LKir02hKV_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-15",
-      "summary": "Awekeys, a empresa que lançou anteriormente um conjunto de teclas de metal elegantes e discretas, acaba de retornar com um novo projeto de teclas de metal no qual sua equipe de design vem trabalhando há vários meses: teclas de metal com letras brilhantes. Ah...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349090/awekeys-shows-off-shine-through-metal-keycaps-for-mechanical-keyboards"
-    },
-    {
       "id": "https://www.techpowerup.com/348933/stop-paying-for-microsoft-365-the-newest-office-is-usd-130",
       "title": "Pare de pagar pelo Microsoft 365 – o mais novo Office custa US$ 130",
       "original_title": "Stop Paying for Microsoft 365—The Newest Office is $130",
@@ -596,6 +386,21 @@
         "TechPowerUp"
       ],
       "url": "https://www.techpowerup.com/348933/stop-paying-for-microsoft-365-the-newest-office-is-usd-130"
+    },
+    {
+      "id": "https://www.techpowerup.com/349090/awekeys-shows-off-shine-through-metal-keycaps-for-mechanical-keyboards",
+      "title": "Awekeys mostra teclas de metal brilhantes para teclados mecânicos",
+      "original_title": "Awekeys Shows Off Shine-Through Metal Keycaps for Mechanical Keyboards",
+      "image": "https://tpucdn.com/img/AGgOip3LKir02hKV_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-15",
+      "summary": "Awekeys, a empresa que lançou anteriormente um conjunto de teclas de metal elegantes e discretas, acaba de retornar com um novo projeto de teclas de metal no qual sua equipe de design vem trabalhando há vários meses: teclas de metal com letras brilhantes. Ah...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349090/awekeys-shows-off-shine-through-metal-keycaps-for-mechanical-keyboards"
     },
     {
       "id": "https://www.techpowerup.com/349082/samsung-starts-shutting-down-chip-production-lines-ahead-of-18-day-worker-strike",
@@ -626,186 +431,6 @@
         "TechPowerUp"
       ],
       "url": "https://www.techpowerup.com/349089/dell-introduces-new-14s-and-16s-mid-range-laptops-with-core-ultra-series-3-cpus"
-    },
-    {
-      "id": "https://www.techpowerup.com/349088/gamesir-opens-pre-orders-for-the-g7-pro-8k-pc-royal2-edition-controller",
-      "title": "(PR) GameSir abre pré-encomendas do controlador G7 Pro 8K PC Royal2 Edition",
-      "original_title": "(PR) GameSir Opens Pre-Orders for the G7 Pro 8K PC Royal2 Edition Controller",
-      "image": "https://tpucdn.com/img/4ISHy8nfCQZeqN7x_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-15",
-      "summary": "Conheça o G7 Pro 8K PC Royal2 Edition, um controlador de esportes eletrônicos sem fio projetado para jogos de PC competitivos. Apresentando pesquisa ultra-responsiva de 8K Hz com fio e 2.4G sem fio, cada movimento e ação é capturado com precisão extremamente rápida, entregando...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349088/gamesir-opens-pre-orders-for-the-g7-pro-8k-pc-royal2-edition-controller"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tdb79j/leaked_images_of_xbox_elite_3_controller/",
-      "title": "Imagens vazadas do controle do Xbox Elite 3",
-      "original_title": "Leaked images of Xbox Elite 3 controller",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Rumor",
-      "date": "2026-05-14",
-      "summary": "The Verge Image: https://ibb.co/C50kxbhx - duas novas rodas de rolagem na parte inferior do controlador - bateria recarregável removível (1.528mAh vs. 2.050maH do Elite 2) - Novo botão de par para alternar o modo local/modo nuvem enviado por /u/Connect_Base_217 [li...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tdb79j/leaked_images_of_xbox_elite_3_controller/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tddgys/rtx_5090_cards_will_get_a_price_hike_soon_due_to/",
-      "title": "Os cartões RTX 5090 terão um aumento de preço em breve devido à falta de memória",
-      "original_title": "RTX 5090 Cards will get a price hike soon due to memory shortages",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-14",
-      "summary": "De acordo com o Chinese Board Channels, uma fonte confiável de informações sobre a cadeia de suprimentos de placas gráficas, a NVIDIA está supostamente se preparando para aumentar o preço de suas GPUs GeForce RTX 5090 e RTX 5090D V2. Isso resultará em um aumento de US$ 300 (cerca de 2.000 RMB)...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tddgys/rtx_5090_cards_will_get_a_price_hike_soon_due_to/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tcvgt0/insider_gaming_has_been_able_to_independently/",
-      "title": "A Insider Gaming conseguiu verificar de forma independente se a pré-encomenda do GTA 6 na Best Buy é legítima",
-      "original_title": "Insider Gaming has been able to independently verify that the GTA 6 preorder from Best Buy is legitimate",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-14",
-      "summary": "https://xcancel.com/i/status/2054886100926132475 enviado por /u/KvasirTheOld [link] [comentários]...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tcvgt0/insider_gaming_has_been_able_to_independently/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1tczhml/pc_freebiesunderfolk_standard_edition_the/",
-      "title": "PC Freebie｜Sunderfolk - Edição Standard e The Telltale Batman Shadows Edition",
-      "original_title": "PC Freebie｜Sunderfolk - Standard Edition & The Telltale Batman Shadows Edition",
-      "image": "https://preview.redd.it/wtacz8oo241h1.png?width=640&crop=smart&auto=webp&s=92d76ded4e36d8c9c12d3454f0b34f1467b1a6f1",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-14",
-      "summary": "enviado por /u/MeguminShiro [link] [comentários] ...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1tczhml/pc_freebiesunderfolk_standard_edition_the/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1tczqf6/next_pc_freebiemystery_game_3_4/",
-      "title": "Próximo brinde para PC ｜ Jogo misterioso nº 3 e nº 4",
-      "original_title": "Next PC Freebie｜Mystery Game #3 & #4",
-      "image": "https://preview.redd.it/nkrldin9441h1.png?width=640&crop=smart&auto=webp&s=e8c23fee65599a3f53dc01eed0cd8e0168abe2ce",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-14",
-      "summary": "enviado por /u/MeguminShiro [link] [comentários] ...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1tczqf6/next_pc_freebiemystery_game_3_4/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1tdcx1s/epic_games_game_vaudeville/",
-      "title": "[Jogos Épicos] (Jogo) Vaudeville",
-      "original_title": "[Epic Games] (Game) Vaudeville",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-05-14",
-      "summary": "enviado por /u/Oliomono [link] [comentários]...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1tdcx1s/epic_games_game_vaudeville/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1td0rxj/epic_games_game_the_telltale_batman_shadows/",
-      "title": "[Epic Games] (Jogo) The Telltale Batman Shadows Edition",
-      "original_title": "[Epic Games] (Game) The Telltale Batman Shadows Edition",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-05-14",
-      "summary": "enviado por /u/MeguminShiro [link] [comentários]...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1td0rxj/epic_games_game_the_telltale_batman_shadows/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1td0snu/epic_games_game_sunderfolk_standard_edition/",
-      "title": "[Epic Games] (Jogo) Sunderfolk - Edição Padrão",
-      "original_title": "[Epic Games] (Game) Sunderfolk - Standard Edition",
-      "image": "https://external-preview.redd.it/0rS_JpzGIbEfS9jZYQh_5ysWarlEAtAeL15Ia0C855g.jpeg?width=640&crop=smart&auto=webp&s=69966d93ce902f3fdb64fabbc4fc58b80d9d566e",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-05-14",
-      "summary": "enviado por /u/MeguminShiro [link] [comentários] ...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1td0snu/epic_games_game_sunderfolk_standard_edition/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1td49et/steamgame_terrors_to_unveil_day_off/",
-      "title": "[Steam](Jogo) Terrores a serem revelados - Dia de folga",
-      "original_title": "[Steam](Game) Terrors to Unveil - Day Off",
-      "image": "https://external-preview.redd.it/fzLSmd62BDteygdi9snBYEkQbkiaDmTZTprp5Vol3qc.jpeg?width=320&crop=smart&auto=webp&s=713983b5d965a5739d3e821e6a5f559ef92efd4c",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-05-14",
-      "summary": "enviado por /u/Fhczvyd474374846 [link] [comentários] ...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1td49et/steamgame_terrors_to_unveil_day_off/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1td2fvf/psa_epic_games_mega_sale_2026_freebies/",
-      "title": "[PSA] Epic Games MEGA Sale 2026 Brindes",
-      "original_title": "[PSA] Epic Games MEGA Sale 2026 Freebies",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-05-14",
-      "summary": "🎮 REIVINDICAR TUDO｜BaseGame + DLC (primeiros 19)｜BaseGame + DLC (Últimos 10) 🧧 RECLAMAR TUDO｜DLC Item Checkout instantâneo 🧧 Asphalt Legends｜Decal Pack BaseGame + DLC／DLC 🧧﻿ Discord Nitro Reward 🧧 Duet Night Abyss｜Windbreath Baú de Suprimentos de Personagem: Base Hellfire...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1td2fvf/psa_epic_games_mega_sale_2026_freebies/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tccnnk/discussion_news_and_request_thread_week_beginning/",
-      "title": "Discussão, notícias e tópico de solicitação - semana que começa em 11/05/26",
-      "original_title": "Discussion, News, and Request Thread - Week Beginning 05/11/26",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-13",
-      "summary": "Um dos meus locais favoritos em um jogo Os tópicos de discussão são seu hub central semanal para todas as solicitações, notícias de jogos e quaisquer outros tópicos de jogos sobre os quais você queira falar. Por favor, mantenha todo o conteúdo que não precisa de postagem própria neste tópico para d...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tccnnk/discussion_news_and_request_thread_week_beginning/"
     }
   ]
 }
