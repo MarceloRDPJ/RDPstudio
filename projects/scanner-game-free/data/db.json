@@ -1,28 +1,28 @@
 {
-  "last_updated": "2026-05-20T15:20:39",
-  "display_date": "20/05/2026 15:20",
+  "last_updated": "2026-05-21T15:25:48",
+  "display_date": "21/05/2026 15:25",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "343ms",
+    "latency": "105ms",
     "current_games": [
       {
-        "title": "The Telltale Batman Shadows Edition",
-        "description": "Edição Telltale Batman Shadows",
-        "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/TheTelltaleBatmanShadowsEdition-2560x1440-1ababb36a948b5c732ab85a330787e85_2560x1440-a85c5724ba30499ba5a81a9f2125e5d4",
-        "url": "https://store.epicgames.com/p/megasale-mysterygame-2026-02",
+        "title": "Down in Bermuda",
+        "description": "Nas Bermudas",
+        "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Offer_wide_2560x1440-a5d54568f32d4df2a0700c89b56f00ae",
+        "url": "https://store.epicgames.com/p/megasale-mysterygame-2026-week21-game2",
         "price": "0",
-        "start_date": "2026-05-14T15:00:00.000Z",
-        "end_date": "2026-05-21T15:00:00.000Z"
+        "start_date": "2026-05-21T15:00:00.000Z",
+        "end_date": "2026-05-28T15:00:00.000Z"
       },
       {
-        "title": "Sunderfolk - Standard Edition",
-        "description": "Sunderfolk - Edição Padrão",
-        "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/OfferImageWide_2560x1440-a500d7236c364c0bb373e3b6b9a6ee8b",
-        "url": "https://store.epicgames.com/p/megasale-mysterygame-2026",
+        "title": "Tomb Raider I-III Remastered Starring Lara Croft",
+        "description": "Tomb Raider I-III Remasterizado, estrelado por Lara Croft",
+        "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Wide_2560x1440-70744ab05bab4e6784a6b206eef2a94c",
+        "url": "https://store.epicgames.com/p/megasale-mysterygame-2026-week21-game1",
         "price": "0",
-        "start_date": "2026-05-14T15:00:00.000Z",
-        "end_date": "2026-05-21T15:00:00.000Z"
+        "start_date": "2026-05-21T15:00:00.000Z",
+        "end_date": "2026-05-28T15:00:00.000Z"
       }
     ],
     "upcoming_games": [
@@ -36,56 +36,56 @@
         "end_date": "2026-10-01T05:59:00.000Z"
       },
       {
-        "title": "Mystery Game Week 21 Game 2",
-        "description": "Jogo de mistério, semana 21, jogo 2",
+        "title": "Mystery Game Week 22 Game 1",
+        "description": "Jogo de mistério, semana 22, jogo 1",
         "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/image23_1920x1080-80a010b5958f4d898f9e454840c790a1",
-        "url": "https://store.epicgames.com/p/megasale-mysterygame-2026-week21-game2",
+        "url": "https://store.epicgames.com/p/megasale-mysterygame-2026-week22-game1",
         "price": "0",
-        "start_date": "2026-05-21T15:00:00.000Z",
-        "end_date": "2026-05-28T15:00:00.000Z"
+        "start_date": "2026-05-28T15:00:00.000Z",
+        "end_date": "2026-06-04T15:00:00.000Z"
       },
       {
-        "title": "Mystery Game Week 21 Game 1",
-        "description": "Jogo de mistério, semana 21, jogo 1",
+        "title": "Mystery Game Week 22 Game 2",
+        "description": "Jogo de mistério, semana 22, jogo 2",
         "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/image23_1920x1080-80a010b5958f4d898f9e454840c790a1",
-        "url": "https://store.epicgames.com/p/megasale-mysterygame-2026-week21-game1",
+        "url": "https://store.epicgames.com/p/megasale-mysterygame-2026-week22-game2",
         "price": "0",
-        "start_date": "2026-05-21T15:00:00.000Z",
-        "end_date": "2026-05-28T15:00:00.000Z"
+        "start_date": "2026-05-28T15:00:00.000Z",
+        "end_date": "2026-06-04T15:00:00.000Z"
       }
     ],
     "mystery_detected": true
   },
   "items": [
     {
-      "id": "https://store.epicgames.com/p/megasale-mysterygame-2026-02",
-      "title": "GRÁTIS: The Telltale Batman Shadows Edition",
-      "original_title": "The Telltale Batman Shadows Edition",
-      "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/TheTelltaleBatmanShadowsEdition-2560x1440-1ababb36a948b5c732ab85a330787e85_2560x1440-a85c5724ba30499ba5a81a9f2125e5d4",
+      "id": "https://store.epicgames.com/p/megasale-mysterygame-2026-week21-game2",
+      "title": "GRÁTIS: Down in Bermuda",
+      "original_title": "Down in Bermuda",
+      "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Offer_wide_2560x1440-a5d54568f32d4df2a0700c89b56f00ae",
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-05-20",
-      "summary": "Edição Telltale Batman Shadows",
+      "date": "2026-05-21",
+      "summary": "Nas Bermudas",
       "sources": [
         "Epic Games Store"
       ],
-      "url": "https://store.epicgames.com/p/megasale-mysterygame-2026-02"
+      "url": "https://store.epicgames.com/p/megasale-mysterygame-2026-week21-game2"
     },
     {
-      "id": "https://store.epicgames.com/p/megasale-mysterygame-2026",
-      "title": "GRÁTIS: Sunderfolk - Standard Edition",
-      "original_title": "Sunderfolk - Standard Edition",
-      "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/OfferImageWide_2560x1440-a500d7236c364c0bb373e3b6b9a6ee8b",
+      "id": "https://store.epicgames.com/p/megasale-mysterygame-2026-week21-game1",
+      "title": "GRÁTIS: Tomb Raider I-III Remastered Starring Lara Croft",
+      "original_title": "Tomb Raider I-III Remastered Starring Lara Croft",
+      "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/Wide_2560x1440-70744ab05bab4e6784a6b206eef2a94c",
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-05-20",
-      "summary": "Sunderfolk - Edição Padrão",
+      "date": "2026-05-21",
+      "summary": "Tomb Raider I-III Remasterizado, estrelado por Lara Croft",
       "sources": [
         "Epic Games Store"
       ],
-      "url": "https://store.epicgames.com/p/megasale-mysterygame-2026"
+      "url": "https://store.epicgames.com/p/megasale-mysterygame-2026-week21-game1"
     },
     {
       "id": "https://store.epicgames.com/p/lisa-the-definitive-edition",
@@ -95,7 +95,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-05-20",
+      "date": "2026-05-21",
       "summary": "Disponível gratuitamente a partir de 16/09. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
@@ -103,34 +103,319 @@
       "url": "https://store.epicgames.com/p/lisa-the-definitive-edition"
     },
     {
-      "id": "https://store.epicgames.com/p/megasale-mysterygame-2026-week21-game2",
-      "title": "EM BREVE: Mystery Game Week 21 Game 2",
-      "original_title": "Mystery Game Week 21 Game 2",
+      "id": "https://store.epicgames.com/p/megasale-mysterygame-2026-week22-game1",
+      "title": "EM BREVE: Mystery Game Week 22 Game 1",
+      "original_title": "Mystery Game Week 22 Game 1",
       "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/image23_1920x1080-80a010b5958f4d898f9e454840c790a1",
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-05-20",
-      "summary": "Disponível gratuitamente a partir de 21/05. Jogo de mistério, semana 21, jogo 2",
+      "date": "2026-05-21",
+      "summary": "Disponível gratuitamente a partir de 28/05. Jogo de mistério, semana 22, jogo 1",
       "sources": [
         "Epic Games Store"
       ],
-      "url": "https://store.epicgames.com/p/megasale-mysterygame-2026-week21-game2"
+      "url": "https://store.epicgames.com/p/megasale-mysterygame-2026-week22-game1"
     },
     {
-      "id": "https://store.epicgames.com/p/megasale-mysterygame-2026-week21-game1",
-      "title": "EM BREVE: Mystery Game Week 21 Game 1",
-      "original_title": "Mystery Game Week 21 Game 1",
+      "id": "https://store.epicgames.com/p/megasale-mysterygame-2026-week22-game2",
+      "title": "EM BREVE: Mystery Game Week 22 Game 2",
+      "original_title": "Mystery Game Week 22 Game 2",
       "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/image23_1920x1080-80a010b5958f4d898f9e454840c790a1",
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-05-20",
-      "summary": "Disponível gratuitamente a partir de 21/05. Jogo de mistério, semana 21, jogo 1",
+      "date": "2026-05-21",
+      "summary": "Disponível gratuitamente a partir de 28/05. Jogo de mistério, semana 22, jogo 2",
       "sources": [
         "Epic Games Store"
       ],
-      "url": "https://store.epicgames.com/p/megasale-mysterygame-2026-week21-game1"
+      "url": "https://store.epicgames.com/p/megasale-mysterygame-2026-week22-game2"
+    },
+    {
+      "id": "https://www.eurogamer.net/honestly-difficult-to-imagine-a-path-forward-with-it-licensed-paranormal-activity-horror-game-technically-done-for-good-says-mortuary-assistant-creator",
+      "title": "“Honestamente, é difícil imaginar um caminho a seguir” – jogo de terror licenciado de Atividade Paranormal “tecnicamente feito para o bem”, diz o criador do Mortuary Assistant",
+      "original_title": "\"Honestly difficult to imagine a path forward with it\" - licensed Paranormal Activity horror game \"technically done for good\", says Mortuary Assistant creator",
+      "image": "https://assetsio.gnwcdn.com/paranormal-activity-threshold_ro3AVHp.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-05-21",
+      "summary": "O desenvolvedor solo do sucesso de terror The Mortuary Assistant disse à Eurogamer que seu jogo Paranormal Activity oficialmente licenciado, Paranormal Activity: Threshold, “está tecnicamente feito para sempre”. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/honestly-difficult-to-imagine-a-path-forward-with-it-licensed-paranormal-activity-horror-game-technically-done-for-good-says-mortuary-assistant-creator"
+    },
+    {
+      "id": "https://www.eurogamer.net/playstation-plus-premium-extra-price-hike",
+      "title": "Não é apenas o PS Plus Essential que está recebendo um aumento de preço: os níveis Premium e Extra agora também são mais caros",
+      "original_title": "It's not just PS Plus Essential getting a price hike: Premium and Extra tiers are now more expensive too",
+      "image": "https://assetsio.gnwcdn.com/playstation-plus-art-july-2025-v2.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-05-21",
+      "summary": "Após o anúncio cuidadosamente redigido do aumento de preços do PlayStation Plus pela Sony no início desta semana, a empresa confirmou o que todos já esperavam, mas o que ainda não havia dito em voz alta: não é apenas o preço do PS Plus Essential subindo; Primeiro...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/playstation-plus-premium-extra-price-hike"
+    },
+    {
+      "id": "https://www.eurogamer.net/xbox-hires-analyst-asha-sharma",
+      "title": "Xbox contrata analista que disse que os jogos estavam perdendo a atenção na batalha contra jogos de azar, criptografia e pornografia como diretor de estratégia em outra reformulação de liderança",
+      "original_title": "Xbox hires analyst who said games were losing the attention battle with gambling, crypto and porn as chief strategy officer in another leadership revamp",
+      "image": "https://assetsio.gnwcdn.com/asha-sharma-xbox_ETUJlFF.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-05-21",
+      "summary": "O recém-nomeado chefe de jogos da Microsoft, Asha Sharma, fez mais mudanças de liderança no Xbox, desta vez contratando um punhado de executivos para ajudar a liderar a empresa, que inclui um analista da indústria que disse que os jogos estavam perdendo a atenção na guerra para os jogos de azar...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/xbox-hires-analyst-asha-sharma"
+    },
+    {
+      "id": "https://www.eurogamer.net/co-op-is-definitely-the-worst-way-to-play-subnautica-2-but-as-a-big-old-sea-wuss-i-really-dont-care",
+      "title": "Co-op é definitivamente a pior maneira de jogar Subnautica 2, mas como um grande covarde do mar, eu realmente não me importo",
+      "original_title": "Co-op is definitely the worst way to play Subnautica 2, but as a big old sea-wuss, I really don't care",
+      "image": "https://assetsio.gnwcdn.com/subnautica-2-header-1.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-05-21",
+      "summary": "Hora da confissão: na verdade, nunca terminei o Subnautica original. Não é que eu não tenha adorado sua mistura inteligente de sobrevivência na caixa de areia e narrativa estruturada; é que sou um grande covarde quando se trata de mar. Ou o que está por baixo, pelo menos. ...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/co-op-is-definitely-the-worst-way-to-play-subnautica-2-but-as-a-big-old-sea-wuss-i-really-dont-care"
+    },
+    {
+      "id": "https://www.eurogamer.net/subnautica-2-combat-response-update",
+      "title": "Desenvolvedor de Subnautica 2 pede desculpas por dizer aos jogadores em busca de combate para “ir jogar Sons of the Forest ou algo assim”",
+      "original_title": "Subnautica 2 dev apologises for telling combat-seeking players to \"go play Sons of the Forest or something\"",
+      "image": "https://assetsio.gnwcdn.com/e3b--RPQ.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-05-21",
+      "summary": "O desenvolvedor do Subnautica 2, Unknown Worlds, despejou água fria na esperança de adicionar mais maneiras de se defender no popular jogo de sobrevivência subaquática e potencialmente lutar contra peixes perigosos. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/subnautica-2-combat-response-update"
+    },
+    {
+      "id": "https://www.techpowerup.com/349248/lian-li-announces-o11-vision-m-case-3-sided-glass-engineered-for-airflow",
+      "title": "(PR) Lian Li anuncia case O11 VISION-M: vidro de 3 lados, projetado para fluxo de ar",
+      "original_title": "(PR) Lian Li Announces O11 VISION-M Case: 3-Sided Glass, Engineered for Airflow",
+      "image": "https://tpucdn.com/img/N1eGm4wSL3FR72fB_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-21",
+      "summary": "LIAN LI Industrial Co., Ltd., fabricante líder de chassis e acessórios para PC, anuncia o O11 VISION-M, um chassi microATX de câmara dupla que combina apresentação panorâmica de vidro de três lados com fluxo de ar aprimorado. Projetado para reter o visual ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349248/lian-li-announces-o11-vision-m-case-3-sided-glass-engineered-for-airflow"
+    },
+    {
+      "id": "https://www.techpowerup.com/349245/intel-14a-node-enters-risk-production-in-2028-10a-and-7a-nodes-on-the-roadmap",
+      "title": "Nó Intel 14A entra em produção de risco em 2028, nós 10A e 7A no roteiro",
+      "original_title": "Intel 14A Node Enters Risk Production in 2028, 10A and 7A Nodes on the Roadmap",
+      "image": "https://tpucdn.com/img/Gtm9qbYhVJdDg8iN_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-21",
+      "summary": "O CEO da Intel, Lip-Bu Tan, falou na Conferência J.P. Morgan TMT, fornecendo mais detalhes sobre o roteiro da empresa para desenvolvimentos futuros de nós. De acordo com Lip-Bu Tan, a Intel agora prevê que a produção de risco do nó 14A será executada em 2028, com alto volume...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349245/intel-14a-node-enters-risk-production-in-2028-10a-and-7a-nodes-on-the-roadmap"
+    },
+    {
+      "id": "https://www.techpowerup.com/349244/fractal-launches-dynamic-3-fan-series",
+      "title": "(PR) Fractal lança série de ventiladores Dynamic 3",
+      "original_title": "(PR) Fractal Launches Dynamic 3 Fan Series",
+      "image": "https://tpucdn.com/img/sexr1IHiE2g8wBNI_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-21",
+      "summary": "Anunciamos o Dynamic 3, a evolução de uma série de ventoinhas projetadas para oferecer forte desempenho de resfriamento em um formato moderno e elegante. \n\nCriado para fabricantes de PC que buscam fluxo de ar confiável, acústica mais silenciosa e uma estética de sistema refinada, o Dynamic 3 oferece PW...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349244/fractal-launches-dynamic-3-fan-series"
+    },
+    {
+      "id": "https://www.techpowerup.com/349243/fraunhofer-ipms-develops-high-density-chiplet-systems-at-the-wafer-level",
+      "title": "(PR) Fraunhofer IPMS desenvolve sistemas de chips de alta densidade em nível de wafer",
+      "original_title": "(PR) Fraunhofer IPMS Develops High-Density Chiplet Systems at the Wafer Level",
+      "image": "https://tpucdn.com/img/qbCsypdY50k239mG_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-21",
+      "summary": "Avanço na fabricação de chips: Como parte da linha piloto europeia APECS, pesquisadores do Instituto Fraunhofer de Microssistemas Fotônicos IPMS desenvolveram um método que permite que diferentes componentes do chip sejam fundidos quase perfeitamente em um único...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349243/fraunhofer-ipms-develops-high-density-chiplet-systems-at-the-wafer-level"
+    },
+    {
+      "id": "https://www.techpowerup.com/349242/other-world-computing-announces-owc-stack-ai-thunderbolt-5-accelerator-and-storage-hub",
+      "title": "(PR) Other World Computing Anuncia Acelerador e Hub de Armazenamento OWC Stack AI Thunderbolt 5",
+      "original_title": "(PR) Other World Computing Announces OWC Stack AI Thunderbolt 5 Accelerator and Storage Hub",
+      "image": "https://tpucdn.com/img/Sy3bDkOyLxB9aSp0_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-21",
+      "summary": "A Other World Computing (OWC), líder confiável em armazenamento de alto desempenho, memória, conectividade, software e acessórios que capacitam profissionais criativos e de negócios a maximizar o desempenho, aumentar a confiabilidade e agilizar os fluxos de trabalho, hoje...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349242/other-world-computing-announces-owc-stack-ai-thunderbolt-5-accelerator-and-storage-hub"
+    },
+    {
+      "id": "https://www.techpowerup.com/348933/stop-paying-for-microsoft-365-the-newest-office-is-usd-130",
+      "title": "Pare de pagar pelo Microsoft 365 – o mais novo Office custa US$ 130",
+      "original_title": "Stop Paying for Microsoft 365—The Newest Office is $130",
+      "image": "https://tpucdn.com/img/mbJM7RrYig5TageL_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-21",
+      "summary": "O cansaço das assinaturas é real, especialmente quando se trata de software que você usa todos os dias. O Microsoft 365 custa de US$ 69,99 a US$ 99,99 anualmente, o que significa que você gastará facilmente de US$ 200 a US$ 400 em alguns anos apenas para continuar usando o Word e o Excel. O Microsoft Office...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348933/stop-paying-for-microsoft-365-the-newest-office-is-usd-130"
+    },
+    {
+      "id": "https://www.techpowerup.com/349241/gl-inet-launches-slate-7-pro-tri-band-wi-fi-7-travel-router",
+      "title": "(PR) GL.iNet lança roteador de viagem Slate 7 Pro Tri-band Wi-Fi 7",
+      "original_title": "(PR) GL.iNet Launches Slate 7 Pro Tri-band Wi-Fi 7 Travel Router",
+      "image": "https://tpucdn.com/img/O8MSu06VCBSNkP9d_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-21",
+      "summary": "GL.iNet, fornecedora líder de soluções de rede e acesso remoto baseadas em OpenWrt, anuncia o lançamento do Slate 7 Pro (GL-BE10000), a versão atualizada do Slate 7 (GL-BE3600). Este roteador de viagem é o primeiro desse tipo a obter Wi-Fi tri-band...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349241/gl-inet-launches-slate-7-pro-tri-band-wi-fi-7-travel-router"
+    },
+    {
+      "id": "https://www.techpowerup.com/349240/ibm-and-u-s-department-of-commerce-announce-americas-first-purpose-built-quantum-foundry",
+      "title": "(PR) IBM e Departamento de Comércio dos EUA anunciam a primeira fundição quântica especialmente desenvolvida da América",
+      "original_title": "(PR) IBM and U.S. Department of Commerce Announce America's First Purpose-Built Quantum Foundry",
+      "image": "https://tpucdn.com/img/M3zqHOO0dgtX8HVZ_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-21",
+      "summary": "Hoje, a IBM e o Departamento de Comércio (DoC) dos EUA anunciaram uma Carta de Intenções (LOI) para construir uma fundição americana de chips quânticos, garantindo a liderança quântica global do país e alimentando o crescente ecossistema quântico do país. O incentivo CHIPS...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349240/ibm-and-u-s-department-of-commerce-announce-americas-first-purpose-built-quantum-foundry"
+    },
+    {
+      "id": "https://www.techpowerup.com/349238/amd-announces-production-ramp-of-next-generation-amd-epyc-processor-venice-on-tsmc-2nm-process-technology",
+      "title": "(PR) AMD Anuncia Rampa de Produção do Processador AMD EPYC de Próxima Geração “Veneza” na Tecnologia de Processo TSMC 2nm",
+      "original_title": "(PR) AMD Announces Production Ramp of Next-Generation AMD EPYC Processor \"Venice\" on TSMC 2nm Process Technology",
+      "image": "https://tpucdn.com/img/dg0Kj4dqK69HPI1q_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-21",
+      "summary": "A AMD anunciou hoje que seu processador AMD EPYC de próxima geração, codinome “Veneza”, está aumentando a produção em Taiwan na avançada tecnologia de processo de 2 nm da TSMC, com planos futuros para aumentar a produção nas instalações de fabricação da TSMC no Arizona. O marco...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349238/amd-announces-production-ramp-of-next-generation-amd-epyc-processor-venice-on-tsmc-2nm-process-technology"
+    },
+    {
+      "id": "https://www.techpowerup.com/349084/for-only-usd-10-windows-11-pro-adds-better-productivity-features-and-security",
+      "title": "Por apenas US$ 10, o Windows 11 Pro adiciona melhores recursos de produtividade e segurança",
+      "original_title": "For Only $10, Windows 11 Pro Adds Better Productivity Features and Security",
+      "image": "https://tpucdn.com/img/2DCeg9bDMLLnZTEh_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-21",
+      "summary": "Sistemas operacionais mais antigos podem diminuir a produtividade com interfaces desatualizadas, proteções de segurança mais fracas e recursos multitarefa limitados. O Microsoft Windows 11 Pro foi projetado para modernizar PCs compatíveis com uma interface mais limpa e produtividade atualizada...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349084/for-only-usd-10-windows-11-pro-adds-better-productivity-features-and-security"
+    },
+    {
+      "id": "https://www.eurogamer.net/ubisoft-new-assassins-creed-far-cry-ghost-recon-ai-experience",
+      "title": "Ubisoft confirma que novos jogos Assassin’s Creed, Far Cry e Ghost Recon serão lançados antes de abril de 2029",
+      "original_title": "Ubisoft confirms new Assassin's Creed, Far Cry, and Ghost Recon games are coming before April 2029",
+      "image": "https://assetsio.gnwcdn.com/ubisoft-big-three-updated.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-05-20",
+      "summary": "A Ubisoft descreveu sua lista futura de lançamentos em seu último relatório de lucros, confirmando que o próximo Assassin's Creed será lançado antes do final do ano financeiro de 2028-2029. Isso além dos novos jogos Ghost Recon e Far Cry. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/ubisoft-new-assassins-creed-far-cry-ghost-recon-ai-experience"
+    },
+    {
+      "id": "https://www.eurogamer.net/quantic-dream-closing-spellcasters-chronicles",
+      "title": "O jogo multijogador da Quantic Dream, Spellcasters Chronicles, está sendo fechado e o estúdio reorganizado, mas Star Wars Eclipse não foi afetado",
+      "original_title": "Quantic Dream's multiplayer game Spellcasters Chronicles is being shut down and the studio reorganised, but Star Wars Eclipse is unaffected",
+      "image": "https://assetsio.gnwcdn.com/spellcasters-chronicles_HtUHwZW.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-05-20",
+      "summary": "Quantic Dream, desenvolvedora de Detroit: Become Human e Heavy Rain, está encerrando seu jogo MOBA com vôo Spellcasters Chronicles, que só foi lançado em acesso antecipado em fevereiro deste ano. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/quantic-dream-closing-spellcasters-chronicles"
+    },
+    {
+      "id": "https://www.eurogamer.net/kickstarter-adult-content-rules-censorship-apology",
+      "title": "\"Honestamente? Nós estragamos tudo\" - Kickstarter pede desculpas por suas criticadas regras de conteúdo adulto e por trair seu \"foda-se o espírito do establishment\"",
+      "original_title": "\"Honestly? We botched it\" - Kickstarter apologises for its criticised adult content rules, and for betraying its \"f*ck the establishment spirit\"",
+      "image": "https://assetsio.gnwcdn.com/kickstarter-sorry-AdobeStock_598768280.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-05-20",
+      "summary": "O site de crowdfunding Kickstarter - um lugar onde muitos projetos de videogame se originaram - emitiu um pedido de desculpas inabalável depois de 'errar' nas novas diretrizes lançadas na semana passada. As mudanças procuraram tornar mais rígidas as regras em torno de projetos voltados para adultos...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/kickstarter-adult-content-rules-censorship-apology"
+    },
+    {
+      "id": "https://www.eurogamer.net/titanium-court-sells-25k-copies",
+      "title": "O jogo narrativo surreal de combinar 3 Titanium Court vendeu mais de 25.000 cópias, dando ao designer AP Thomson tempo suficiente para trabalhar pacificamente em seu próximo jogo",
+      "original_title": "Surreal narrative match-3 game Titanium Court has sold over 25,000 copies, giving designer AP Thomson enough time to peacefully work on his next game",
+      "image": "https://assetsio.gnwcdn.com/Dead-End-screenshot_Titanium-Court.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-05-20",
+      "summary": "Muitos jogos independentes estão obtendo sucesso à medida que grandes editoras e estúdios tentam navegar em um mercado difícil, mas Titanium Court se destaca como um mercado particularmente especial e único. Depois de um lançamento relativamente tranquilo há um mês, agora já vendeu mais de 25 mil cópias...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/titanium-court-sells-25k-copies"
     },
     {
       "id": "https://www.eurogamer.net/party-animals-ai-video-contest-cancelled",
@@ -146,636 +431,6 @@
         "Eurogamer"
       ],
       "url": "https://www.eurogamer.net/party-animals-ai-video-contest-cancelled"
-    },
-    {
-      "id": "https://www.eurogamer.net/final-fantasy-creator-generative-ai-backlash",
-      "title": "“Uau, que reação selvagem” – o criador de Final Fantasy, Hironobu Sakaguchi, reage à reação após elogiar um trailer de remake de FF6 gerado por IA",
-      "original_title": "\"Whoa what a wild reaction\" - Final Fantasy creator Hironobu Sakaguchi reacts to backlash after praising an AI-generated FF6 remake trailer",
-      "image": "https://assetsio.gnwcdn.com/FF6-art_custom.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-05-20",
-      "summary": "No início desta semana, a lenda de Final Fantasy, Hironobu Sakaguchi, elogiou um trailer gerado por IA para um hipotético remake de FF6, provocando algumas reações, antes de ser instruído a “por favor, pare” pelo criador de SaGa, Akitoshi Kawazu, outro veterano da Square. O com...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/final-fantasy-creator-generative-ai-backlash"
-    },
-    {
-      "id": "https://www.eurogamer.net/sony-playstation-financial-report-what-it-means",
-      "title": "Atrasos no PS6, sucessos de bilheteria entre gerações, mais assinaturas? O que as finanças do PlayStation realmente significam",
-      "original_title": "PS6 delays, cross-gen blockbusters, more subscriptions? What PlayStation's financials really mean",
-      "image": "https://assetsio.gnwcdn.com/PS5_on-blue-background.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-05-20",
-      "summary": "No início de maio, a Sony divulgou seu relatório do ano fiscal dos últimos doze meses. Entre a inevitável secura dos relatórios financeiros, ofereceu uma visão intrigante dos desafios económicos mais amplos que o proprietário da plataforma PlayStation está enfrentando, e...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/sony-playstation-financial-report-what-it-means"
-    },
-    {
-      "id": "https://www.eurogamer.net/playstation-just-announced-a-new-state-of-play-and-itll-be-over-an-hour-long",
-      "title": "A PlayStation acaba de anunciar um novo State of Play, que terá mais de uma hora de duração",
-      "original_title": "PlayStation just announced a new State of Play, and it'll be over an hour long",
-      "image": "https://assetsio.gnwcdn.com/state-of-play_UI9BBFM.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-05-20",
-      "summary": "A Sony acaba de anunciar seu próximo State of Play, que retornará em 2 de junho - iniciando a semana do Summer Games Fest com um showcase de uma hora que revelará mais informações sobre o Wolverine da Marvel, bem como \"notícias e atualizações sobre o próximo PS...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/playstation-just-announced-a-new-state-of-play-and-itll-be-over-an-hour-long"
-    },
-    {
-      "id": "https://www.eurogamer.net/pokemon-pokopia-kanto-build",
-      "title": "Meses de trabalho depois, a recriação da região original de Kanto por um jogador de Pokémon Pokopia está quase completa",
-      "original_title": "Months of work later, one Pokémon Pokopia player's recreation of the original Kanto region is almost complete",
-      "image": "https://assetsio.gnwcdn.com/PokemonLetsGo_PokopiaDitto_custom.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-05-20",
-      "summary": "Pokémon Pokopia foi um sucesso no Nintendo Switch 2, e seus eventos contínuos mantêm os jogadores grudados nele. Um jogador especialmente dedicado tem trabalhado em uma recriação do mapa Kanto de primeira geração com ferramentas semelhantes às do Minecraft de Pokopia, e ...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/pokemon-pokopia-kanto-build"
-    },
-    {
-      "id": "https://www.eurogamer.net/returnal-director-launches-cosmic-division-studio",
-      "title": "O diretor de Returnal e veterano da Housemarque, Harry Krueger, lança o estúdio de jogos Cosmic Division, com sede na Finlândia",
-      "original_title": "Returnal director and Housemarque veteran Harry Krueger launches Finland-based game studio Cosmic Division",
-      "image": "https://assetsio.gnwcdn.com/cosmic_division.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-05-20",
-      "summary": "Housemarque é o assunto da cidade novamente após o lançamento de Saros, e agora outro veterano do estúdio finlandês, o diretor de jogos Returnal Harry Krueger, tem como objetivo entregar algo que pareça familiar com um novo estúdio de jogos. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/returnal-director-launches-cosmic-division-studio"
-    },
-    {
-      "id": "https://www.eurogamer.net/kingdom-come-deliverance-lotr-lord-of-the-rings-rpg",
-      "title": "É verdade: o estúdio Kingdom Come Deliverance está fazendo um RPG do Senhor dos Anéis",
-      "original_title": "It's true: the Kingdom Come Deliverance studio is making a Lord of the Rings RPG",
-      "image": "https://assetsio.gnwcdn.com/HIvpR2-XEAANokl.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-05-20",
-      "summary": "Os rumores são verdadeiros: o estúdio Warhorse, do Kingdom Come Deliverance, está realmente fazendo um RPG do Senhor dos Anéis. Mais especificamente, está fazendo um RPG de mundo aberto da Terra Média. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/kingdom-come-deliverance-lotr-lord-of-the-rings-rpg"
-    },
-    {
-      "id": "https://www.eurogamer.net/star-wars-jedi-dungeons-dragons-game-cancelled",
-      "title": "O jogo Dungeons & Dragons para um jogador do diretor Star Wars Jedi foi cancelado menos de um ano depois de ter sido anunciado",
-      "original_title": "Star Wars Jedi director's single-player Dungeons & Dragons game cancelled less than a year after it was announced",
-      "image": "https://assetsio.gnwcdn.com/jedi-survivor_p4i7SaX.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-05-20",
-      "summary": "Isso foi rápido. A Hasbro supostamente cancelou a aventura de ação Dungeons & Dragons para um jogador, feita pelo diretor Jedi de Star Wars, Stig Asmussen, menos de um ano depois de ter sido anunciado. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/star-wars-jedi-dungeons-dragons-game-cancelled"
-    },
-    {
-      "id": "https://www.eurogamer.net/io-interactive-james-bond-007-first-light-sexiness",
-      "title": "Quão sexy será o jogo 007: First Light de James Bond? O estúdio Hitman IO Interactive diz que as pistas já estão disponíveis",
-      "original_title": "How sexy will James Bond game 007: First Light be? Hitman studio IO Interactive says the clues are already out there",
-      "image": "https://assetsio.gnwcdn.com/bond-poolside-flirt.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-05-20",
-      "summary": "O estúdio Hitman, IO Interactive, não mediu esforços para garantir que 007: First Light parecesse James Bond o suficiente. Tivemos vídeos inteiros documentando o relógio que Bond usará, ou o Aston Martin que ele provavelmente dirigirá, e há uma celebridade fazendo um v...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/io-interactive-james-bond-007-first-light-sexiness"
-    },
-    {
-      "id": "https://www.eurogamer.net/embracer-split-deux-ex-saints-row",
-      "title": "Séries clássicas como Deux Ex, Legacy Kain e Saints Row serão exploradas “mais ativamente” após a mudança na estrutura do Grupo Embracer",
-      "original_title": "Classic series like Deux Ex, Legacy Kain, and Saints Row will be \"more actively\" explored following Embracer Group structure shift",
-      "image": "https://assetsio.gnwcdn.com/embracer-split.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-05-20",
-      "summary": "O Grupo Embracer está se dividindo ao meio, resultando em duas empresas públicas legalmente distintas. A divisão, que deverá ocorrer no próximo ano, poderia potencialmente fornecer uma tábua de salvação para muitas das propriedades intelectuais atualmente em hibernação...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/embracer-split-deux-ex-saints-row"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tik5nd/state_of_play_confirmed_for_june_2nd_new_look_at/",
-      "title": "Situação confirmada para 2 de junho: novo visual de Wolverine e muito mais",
-      "original_title": "State of play confirmed for June 2nd: new look at Wolverine and more",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-20",
-      "summary": "https://blog.playstation.com/2026/05/20/state-of-play-returns-tuesday-june-2/ \"State of Play retorna terça-feira, 2 de junho com mais de 60 minutos de atualizações, anúncios e revelações de jogabilidade dos principais estúdios de todo o mundo. Para começar, você...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tik5nd/state_of_play_confirmed_for_june_2nd_new_look_at/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tiflxa/warhorse_studios_is_working_on_the_open_world/",
-      "title": "Warhorse Studios está trabalhando no jogo Senhor dos Anéis de mundo aberto",
-      "original_title": "Warhorse Studios is working on the open world Lord of the Rings game",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-20",
-      "summary": "\"Você deve ter ouvido os rumores, é hora de revelar no que estamos trabalhando. 🗺️ Um RPG de mundo aberto da Terra Média. ⚔️ Uma nova aventura do Kingdom Come. Estamos ansiosos para contar mais a vocês quando chegar a hora certa.\" https://xcancel.com/WarhorseStudios/status/2057...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tiflxa/warhorse_studios_is_working_on_the_open_world/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tiohna/next_state_of_play_is_being_livestreamed_to_alamo/",
-      "title": "O próximo State of Play está sendo transmitido ao vivo para Alamo Drafthouse (cinemas). Este é um evento muito maior do que o normal da E3?",
-      "original_title": "Next State of Play is being live-streamed to Alamo Drafthouse (theaters). Is this a much bigger than the usual E3-time event?",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-20",
-      "summary": "https://www.boxofficepro.com/alamo-drafthouse-and-sony-interactive-entertainment-bring-playstations-state-of-play-broadcast-to-theaters/ Não me lembro de nenhum momento em que um State of Play normal, mesmo durante a janela da E3 com anúncios maiores, tenha sido...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tiohna/next_state_of_play_is_being_livestreamed_to_alamo/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1tif337/i_got_tired_of_the_epic_games_store_loading/",
-      "title": "Cansei da Epic Games Store carregando tudo só para conferir jogos grátis, então criei isso",
-      "original_title": "I got tired of the Epic Games Store loading everything just to check free games, so I built this",
-      "image": "https://preview.redd.it/fp5dot99392h1.jpeg?width=640&crop=smart&auto=webp&s=f30c613ec43bff4572bd17b6d4a3bbbc03305161",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Epic News",
-      "date": "2026-05-20",
-      "summary": "Criei um pequeno site para rastrear jogos misteriosos/gratuitos da Epic Games e queria algum feedback. Normalmente visito a Epic Games Store toda semana apenas para verificar e resgatar os jogos grátis no celular, mas a loja parece um pouco sobrecarregada para isso específico...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1tif337/i_got_tired_of_the_epic_games_store_loading/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1tig5hd/spike_chunsoft_confirm_danganronpa_2x2_will_come/",
-      "title": "Spike Chunsoft confirma que Danganronpa 2x2 chegará à Epic Games Store",
-      "original_title": "Spike Chunsoft confirm Danganronpa 2x2 will come to Epic Games Store",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Epic News",
-      "date": "2026-05-20",
-      "summary": "enviado por /u/ImAnthlon [link] [comentários]...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1tig5hd/spike_chunsoft_confirm_danganronpa_2x2_will_come/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1tih1ok/steam_game_tower_of_time_from_fanatical/",
-      "title": "[Steam] (Jogo) Tower of Time de Fanatical",
-      "original_title": "[Steam] (Game) Tower of Time from Fanatical",
-      "image": "https://external-preview.redd.it/YveQ3zEjPdKuTJ-yUtkXJBMuovKDpp-0GHj4TW1O4to.jpeg?width=640&crop=smart&auto=webp&s=24e5ffe665608a3f5e0c3065b81c3fd017c88825",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-05-20",
-      "summary": "enviado por /u/WeAreFanatical [link] [comentários] ...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1tih1ok/steam_game_tower_of_time_from_fanatical/"
-    },
-    {
-      "id": "https://www.techpowerup.com/349213/herman-miller-launches-the-coyl-gaming-desk-starting-at-ususd-1095",
-      "title": "Herman Miller lança Coyl Gaming Desk a partir de US$ 1.095",
-      "original_title": "Herman Miller Launches the Coyl Gaming Desk Starting at US$1095",
-      "image": "https://tpucdn.com/img/qrbeBaena5ptj2UA_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-20",
-      "summary": "A empresa de móveis ergonômicos Herman Miller expandiu sua linha de jogos com uma nova mesa de jogos motorizada e ajustável em altura chamada Coyl. Não é tão difícil perceber de onde veio a inspiração para o nome, já que o Coyl apresenta um design muito proeminente.",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349213/herman-miller-launches-the-coyl-gaming-desk-starting-at-ususd-1095"
-    },
-    {
-      "id": "https://www.techpowerup.com/349209/leaked-intel-crescent-island-pcb-surfaces-with-xe3p-gpu-160-gb-lpddr5x-and-16-pin-power",
-      "title": "Superfícies de PCB Intel Crescent Island vazadas com GPU Xe3P, 160 GB LPDDR5X e alimentação de 16 pinos",
-      "original_title": "Leaked Intel Crescent Island PCB Surfaces with Xe3P GPU, 160 GB LPDDR5X and 16-Pin Power",
-      "image": "https://tpucdn.com/img/t1Zha5AjnNxzG9F2_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Rumor",
-      "date": "2026-05-20",
-      "summary": "Um vazamento de PCB de YuuKi_AnS nos deu uma primeira olhada no acelerador Crescent Island PCIe da Intel e algumas coisas se destacam imediatamente. A matriz da GPU Xe3P é visivelmente maior do que o BMG-G31 baseado em Xe2 na atual linha Intel Arc. Xe3P é o arqui...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349209/leaked-intel-crescent-island-pcb-surfaces-with-xe3p-gpu-160-gb-lpddr5x-and-16-pin-power"
-    },
-    {
-      "id": "https://www.techpowerup.com/349203/colorful-introduces-igame-b850m-ultra-series-microatx-motherboards",
-      "title": "(PR) COLORFUL apresenta placas-mãe microATX da série iGame B850M ULTRA",
-      "original_title": "(PR) COLORFUL Introduces iGame B850M ULTRA Series microATX Motherboards",
-      "image": "https://tpucdn.com/img/MVqlR4p1d8Vlij5M_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-20",
-      "summary": "Colorful Technology Company Limited, marca líder em componentes para PC para jogos, laptops para jogos e produtos de áudio Hi-fi, apresenta as novas placas-mãe iGame B850M ULTRA Series para plataformas AMD Ryzen, apresentando o iGame B850M ULTRA-S e o iGame ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349203/colorful-introduces-igame-b850m-ultra-series-microatx-motherboards"
-    },
-    {
-      "id": "https://www.techpowerup.com/349202/innodisk-launches-high-speed-10-gbe-lan-series",
-      "title": "(PR) Innodisk lança série LAN 10 GbE de alta velocidade",
-      "original_title": "(PR) Innodisk Launches High-Speed 10 GbE LAN Series",
-      "image": "https://tpucdn.com/img/3TU2nDK0D9YvRoco_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-20",
-      "summary": "A Innodisk, fornecedora líder global de soluções de IA, lançou hoje sua série LAN 10GbE de alta velocidade, um portfólio de módulos LAN desenvolvidos para atender às crescentes demandas de rede de aplicações de IA de ponta. À medida que os aplicativos de IA de ponta dependem cada vez mais de tempo real...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349202/innodisk-launches-high-speed-10-gbe-lan-series"
-    },
-    {
-      "id": "https://www.techpowerup.com/349201/samsung-and-google-give-first-look-at-new-intelligent-eyewear",
-      "title": "(PR) Samsung e Google dão uma primeira olhada em novos óculos inteligentes",
-      "original_title": "(PR) Samsung and Google Give First Look at New Intelligent Eyewear",
-      "image": "https://tpucdn.com/img/gCdag3USMV1cvSmv_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-20",
-      "summary": "A Samsung Electronics e o Google revelaram hoje novos óculos inteligentes no Google I/O 2026, dando uma primeira olhada em dois estilos premium criados com os parceiros de óculos Gentle Monster e Warby Parker. Projetado para funcionar como um dispositivo complementar para um telefone móvel...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349201/samsung-and-google-give-first-look-at-new-intelligent-eyewear"
-    },
-    {
-      "id": "https://www.techpowerup.com/348933/stop-paying-for-microsoft-365-the-newest-office-is-usd-130",
-      "title": "Pare de pagar pelo Microsoft 365 – o mais novo Office custa US$ 130",
-      "original_title": "Stop Paying for Microsoft 365—The Newest Office is $130",
-      "image": "https://tpucdn.com/img/mbJM7RrYig5TageL_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-20",
-      "summary": "O cansaço das assinaturas é real, especialmente quando se trata de software que você usa todos os dias. O Microsoft 365 custa de US$ 69,99 a US$ 99,99 anualmente, o que significa que você gastará facilmente de US$ 200 a US$ 400 em alguns anos apenas para continuar usando o Word e o Excel. O Microsoft Office...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348933/stop-paying-for-microsoft-365-the-newest-office-is-usd-130"
-    },
-    {
-      "id": "https://www.techpowerup.com/349197/forza-horizon-6-peaks-at-over-270-000-day-1-concurrent-steam-players",
-      "title": "Forza Horizon 6 atinge o pico com mais de 270.000 jogadores Steam simultâneos no primeiro dia",
-      "original_title": "Forza Horizon 6 Peaks at Over 270,000 Day-1 Concurrent Steam Players",
-      "image": "https://tpucdn.com/img/7eZZUfxDbkA1tbPO_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-20",
-      "summary": "No fim de semana anterior ao lançamento, Forza Horizon 6 apresentou acesso avançado para compradores da Edição Premium de US$ 120 do jogo, obtendo um pico de jogadores simultâneos de pouco mais de 172.000 jogadores no primeiro dia de Acesso Avançado. Seguindo Avançado Acc...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349197/forza-horizon-6-peaks-at-over-270-000-day-1-concurrent-steam-players"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ti0lg6/discussion_news_and_request_thread_week_beginning/",
-      "title": "Tópico de discussão, notícias e solicitações - semana que começa em 18/05/26",
-      "original_title": "Discussion, News, and Request Thread - Week Beginning 05/18/26",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-19",
-      "summary": "Uma das áreas mais bonitas em todos os tópicos de discussão sobre jogos é o centro central semanal para todas as solicitações, notícias sobre jogos e quaisquer outros tópicos sobre jogos sobre os quais você queira conversar. Por favor, mantenha todo o conteúdo que não precisa de postagem própria neste tópico ...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ti0lg6/discussion_news_and_request_thread_week_beginning/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1thzfrb/bloomberg_hasbro_cancels_actionadventure_dungeons/",
-      "title": "Bloomberg: Hasbro cancela jogo de ação e aventura Dungeons & Dragons da Giant Skull, equipe liderada por Stig Asmussen (God of War 3, Star Wars Jedi Fallen Order)",
-      "original_title": "Bloomberg: Hasbro cancels action-adventure Dungeons & Dragons game by Giant Skull, the team led by Stig Asmussen (God of War 3, Star Wars Jedi Fallen Order)",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-19",
-      "summary": "O acordo de publicação da Hasbro com Giant Skull foi cancelado menos de um ano depois de anunciar que Giant Skull era liderado por Stig Asmussen, diretor de GoW 3, Jedi Fallen Order Stig recrutou muitos veteranos da EA que trabalharam em Star Wars com ele ...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1thzfrb/bloomberg_hasbro_cancels_actionadventure_dungeons/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1thvk7i/jeff_grub_im_hearing_therell_be_a_nintendo_direct/",
-      "title": "Jeff Grub: Ouvi dizer que haverá um Nintendo Direct em meados de junho",
-      "original_title": "Jeff Grub: I'm hearing there'll be a Nintendo Direct by mid-June",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-19",
-      "summary": "https://www.twitch.tv/giantbomb Por volta das 2:14:00 pol. enviado por /u/MCUAvenger1992 [link] [comentários]...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1thvk7i/jeff_grub_im_hearing_therell_be_a_nintendo_direct/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1thnhfd/psn_accounts_being_hacked/",
-      "title": "Contas PSN sendo hackeadas",
-      "original_title": "PSN Accounts being hacked",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-19",
-      "summary": "https://insider-gaming.com/sony-playstation-accounts-are-reportedly-being-hacked-with-ease/ Eu sei que isso não é notícia sobre jogos, mas muitas pessoas têm um Playstation, e imaginei que elas poderiam querer ver esta notícia enviada por /u/SuddenDepact [link...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1thnhfd/psn_accounts_being_hacked/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1thwxr9/natethehate_on_onimusha_wots_it_is_well_ontrack/",
-      "title": "NateTheHate on Onimusha: WotS “Está no caminho certo para este ano.”",
-      "original_title": "NateTheHate on Onimusha: WotS “It is well on-track for this year.”",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-19",
-      "summary": "https://xcancel.com/natethehate2/status/2056807711325474843?s=46 Acho que nenhum atraso está acontecendo enviado por /u/Solid-Entertainer-39 [link] [comentários]...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1thwxr9/natethehate_on_onimusha_wots_it_is_well_ontrack/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1thlegd/batman_game_files_already_leaked/",
-      "title": "Arquivos do jogo Batman já vazaram",
-      "original_title": "Batman game files already leaked",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Rumor",
-      "date": "2026-05-19",
-      "summary": "Desta vez, faltavam apenas cerca de 7 horas para o lançamento do acesso antecipado, embora https://i.imgur.com/v9GFpSY.jpeg enviado por /u/Alleexxi [link] [comentários]...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1thlegd/batman_game_files_already_leaked/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1thzmda/finally_after_2_years_thq_nordic_have_fixed/",
-      "title": "Finalmente, após 2 anos, a THQ Nordic corrigiu conquistas para SpongeBob SquarePants: The Cosmic Shake",
-      "original_title": "Finally after 2 years THQ Nordic have fixed achievements for SpongeBob SquarePants: The Cosmic Shake",
-      "image": "https://preview.redd.it/ekbssv2on52h1.png?width=640&crop=smart&auto=webp&s=f2fa2b23cfee38411dd53d5046bddd47c9196eae",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-19",
-      "summary": "Quando a THQ analisou seus jogos e adicionou conquistas, Cosmic Shake teve um problema estranho onde havia conquistas na loja, mas quando você jogava o jogo, a sobreposição mostrava as conquistas antigas (sem XP, sem raridade de troféus) e elas não.",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1thzmda/finally_after_2_years_thq_nordic_have_fixed/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1thsv8g/the_games_were_switched_around_in_the_box_art/",
-      "title": "Os jogos foram trocados nas dicas da arte da caixa para o primeiro conjunto de Jogos de Mistério. Aqui está um cenário possível se eles também tivessem feito o mesmo no Jogo 3 e no Jogo 4 desta vez.",
-      "original_title": "The games were switched around in the box art clues for the first set of Mystery Games. Here is a possible scenario if they have done the same for Game 3 and Game 4 this time as well.",
-      "image": "https://preview.redd.it/9s5ponrdi42h1.png?width=640&crop=smart&auto=webp&s=753359924dd65b83b0e37cbd1a456dba06ca4501",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-19",
-      "summary": "enviado por /u/kabirsingh84 [link] [comentários] ...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1thsv8g/the_games_were_switched_around_in_the_box_art/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1tht26c/epic_games_clues/",
-      "title": "Pistas de jogos épicos",
-      "original_title": "Epic games clues",
-      "image": "https://preview.redd.it/cvxio55tk42h1.jpg?width=140&height=140&crop=1:1,smart&auto=webp&s=da67ad8a6b58da08e21ad18c13ced7922072df68",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Epic News",
-      "date": "2026-05-19",
-      "summary": "Se os jogos forem revertidos novamente, direi que existe a possibilidade de remake do espaço morto. O holograma parece a máscara de Isaac para mim.    enviado por /u/Old_Recognition_1717 [link] [comentários] ...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1tht26c/epic_games_clues/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1thm0w2/mirage_a_biplane_adventure_received_a_major/",
-      "title": "Mirage: A Biplane Adventure recebeu uma grande atualização na Epic Games Store - - Drone Defense Mode.",
-      "original_title": "Mirage: A Biplane Adventure received a major update on Epic Games Store - - Drone Defense Mode.",
-      "image": "https://preview.redd.it/s5oq2qdib32h1.gif?frame=1&width=140&height=78&auto=webp&s=06b806dd8214e0c5084c3a6256d0ee4bd77d6839",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Epic News",
-      "date": "2026-05-19",
-      "summary": "Olá a todos!  Acabei de lançar uma grande atualização que adiciona um novo modo Drone Defense ao meu jogo solo de desenvolvimento Mirage: Biplane Adventure. Os jogadores precisam se defender contra ondas de drones, ganhar atualizações entre as rodadas e tentar sobreviver aos ataques caóticos.",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1thm0w2/mirage_a_biplane_adventure_received_a_major/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1ti35u5/epic_game_steampunks_vs_skeletons_adventure/",
-      "title": "[Épico] (jogo) Steampunks Vs Skeletons: Adventure Puzzle Park",
-      "original_title": "[Epic] (game) Steampunks Vs Skeletons: Adventure Puzzle Park",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-05-19",
-      "summary": "Gratuito para reivindicar os primeiros 10.000 jogadores enviados por /u/thalesulisses_29 [link] [comentários]...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1ti35u5/epic_game_steampunks_vs_skeletons_adventure/"
-    },
-    {
-      "id": "https://www.techpowerup.com/349196/valve-streamlines-steam-store-tags-list-reveals-most-ubiquitous-tags",
-      "title": "Valve simplifica a lista de tags da Steam Store e revela as tags mais onipresentes",
-      "original_title": "Valve Streamlines Steam Store Tags List, Reveals Most Ubiquitous Tags",
-      "image": "https://tpucdn.com/img/j6rQTCZpLkmD6Qal_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-19",
-      "summary": "As tags oficiais da Valve na Steam Store podem ser um recurso útil para restringir sua busca por novos jogos, mas, como a própria Valve admite, a lista de tags ficou um tanto inchada nos últimos anos. Em um esforço para remediar isso, a Valve revelou...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349196/valve-streamlines-steam-store-tags-list-reveals-most-ubiquitous-tags"
-    },
-    {
-      "id": "https://www.techpowerup.com/349195/publisher-of-indie-hit-far-far-west-rejects-gen-ai-in-videogames",
-      "title": "Editora do hit indie “Far Far West” rejeita geração de IA em videogames",
-      "original_title": "Publisher of Indie Hit \"Far Far West\" Rejects Gen AI in Videogames",
-      "image": "https://tpucdn.com/img/MQrpKQsqxhVTZ4nR_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-19",
-      "summary": "Embora Far Far West tenha sido feito por uma pequena equipe independente, parece ter tocado os jogadores, liderando a parada de mais vendidos do Steam no dia do lançamento e obtendo uma avaliação positiva de 97% no Steam. A editora por trás do jogo, Fireshine...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349195/publisher-of-indie-hit-far-far-west-rejects-gen-ai-in-videogames"
-    },
-    {
-      "id": "https://www.techpowerup.com/349084/for-only-usd-10-windows-11-pro-adds-better-productivity-features-and-security",
-      "title": "Por apenas US$ 10, o Windows 11 Pro adiciona melhores recursos de produtividade e segurança",
-      "original_title": "For Only $10, Windows 11 Pro Adds Better Productivity Features and Security",
-      "image": "https://tpucdn.com/img/2DCeg9bDMLLnZTEh_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-19",
-      "summary": "Sistemas operacionais mais antigos podem diminuir a produtividade com interfaces desatualizadas, proteções de segurança mais fracas e recursos multitarefa limitados. O Microsoft Windows 11 Pro foi projetado para modernizar PCs compatíveis com uma interface mais limpa e produtividade atualizada...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349084/for-only-usd-10-windows-11-pro-adds-better-productivity-features-and-security"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1th5lgx/ci_games_has_terminated_its_contract_with_epic/",
-      "title": "CI Games rescindiu seu contrato com a Epic para exclusividade de Lords of the Fallen 2",
-      "original_title": "CI Games has terminated it's contract with Epic for Lords of the Fallen 2 exclusivity",
-      "image": "https://external-preview.redd.it/JIkQ0poafjHsCkz1TeeEzbP_EgCTt2XyfNeeivdF1GA.jpeg?width=640&crop=smart&auto=webp&s=6c5fbdca066657ef7d28caeeb452aa5f027ade47",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Epic News",
-      "date": "2026-05-18",
-      "summary": "enviado por /u/ImAnthlon [link] [comentários] ...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1th5lgx/ci_games_has_terminated_its_contract_with_epic/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1tgstku/new_colour_clues_for_mystery_game_3_4_from_epic/",
-      "title": "Novas pistas de cores para Mystery Game #3 e #4 do Twitter da Epic Games",
-      "original_title": "New colour clues for Mystery Game #3 & #4 from Epic Games twitter",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Epic News",
-      "date": "2026-05-18",
-      "summary": "enviado por /u/ImAnthlon [link] [comentários]...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1tgstku/new_colour_clues_for_mystery_game_3_4_from_epic/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1tgsr8b/exiled_giveaways_and_itchio_mega_threads/",
-      "title": "Brindes exilados e mega threads do Itch.io",
-      "original_title": "Exiled Giveaways and Itch.io Mega Threads",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-05-18",
-      "summary": "Para aumentar a visibilidade, os megatópicos são postados semanalmente. Isso está sendo feito seguindo a discussão geral dos Mega Threads via FGF Update - https://redd.it/jkxyzw Por favor, use os tópicos abaixo para suas postagens. :) Mega Brindes Exilados...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1tgsr8b/exiled_giveaways_and_itchio_mega_threads/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1tgssa2/steam_dlc_aquadream_soundtrack/",
-      "title": "[Steam] (DLC) Trilha sonora do AquaDream",
-      "original_title": "[Steam] (DLC) AquaDream Soundtrack",
-      "image": "https://external-preview.redd.it/YQ5T45DfP64sOvqpjVqCNkKY_QwUkDF160PpAvfl5A8.jpeg?width=320&crop=smart&auto=webp&s=f84b66038da5f5368b6bebbcb651eddd82ce9377",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-05-18",
-      "summary": "enviado por /u/MeguminShiro [link] [comentários] ...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1tgssa2/steam_dlc_aquadream_soundtrack/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1tgg4wt/psa_no_gravity_games_nintendo_switch_pixel_chaos/",
-      "title": "[PSA] No Gravity Games Nintendo Switch - Evento Pixel Chaos",
-      "original_title": "[PSA] No Gravity Games Nintendo Switch - Pixel Chaos Event",
-      "image": "https://external-preview.redd.it/_-gOYfvee6Vj09H5RGakOGs2HtGakBCMF7etLZizWkI.jpeg?width=640&crop=smart&auto=webp&s=b28cf1f1dedfa135d0c1413ebaf9ae7b93557867",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-05-18",
-      "summary": "Prepare-se para uma reação em cadeia de jogos GRATUITOS para Nintendo Switch da No Gravity Games! A partir de 19 de maio de 2026, um jogo do portfólio No Gravity Games será gratuito a cada 24 horas para os jogadores que acompanharem a rede de brindes. COMO FUNCIONA:...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1tgg4wt/psa_no_gravity_games_nintendo_switch_pixel_chaos/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1tgyfse/steam_game_through_abandoned_the_underground_city/",
-      "title": "[Steam] (Jogo) Através de Abandoned: The Underground City",
-      "original_title": "[Steam] (Game) Through Abandoned: The Underground City",
-      "image": "https://external-preview.redd.it/befeUsb0OF_h60i30vWU9FEkGkt3ANOVL3WJ6g3mCi4.jpeg?width=320&crop=smart&auto=webp&s=ce0b3dd03b0e39ae37718209becde04c7dda9399",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-05-18",
-      "summary": "enviado por /u/Norland78 [link] [comentários] ...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1tgyfse/steam_game_through_abandoned_the_underground_city/"
     }
   ]
 }
