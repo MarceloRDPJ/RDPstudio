@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-05-21T15:25:48",
-  "display_date": "21/05/2026 15:25",
+  "last_updated": "2026-05-22T14:39:39",
+  "display_date": "22/05/2026 14:39",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "105ms",
+    "latency": "298ms",
     "current_games": [
       {
         "title": "Down in Bermuda",
@@ -65,7 +65,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-05-21",
+      "date": "2026-05-22",
       "summary": "Nas Bermudas",
       "sources": [
         "Epic Games Store"
@@ -80,7 +80,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-05-21",
+      "date": "2026-05-22",
       "summary": "Tomb Raider I-III Remasterizado, estrelado por Lara Croft",
       "sources": [
         "Epic Games Store"
@@ -95,7 +95,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-05-21",
+      "date": "2026-05-22",
       "summary": "Disponível gratuitamente a partir de 16/09. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
@@ -110,7 +110,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-05-21",
+      "date": "2026-05-22",
       "summary": "Disponível gratuitamente a partir de 28/05. Jogo de mistério, semana 22, jogo 1",
       "sources": [
         "Epic Games Store"
@@ -125,12 +125,387 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-05-21",
+      "date": "2026-05-22",
       "summary": "Disponível gratuitamente a partir de 28/05. Jogo de mistério, semana 22, jogo 2",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/megasale-mysterygame-2026-week22-game2"
+    },
+    {
+      "id": "https://www.eurogamer.net/call-of-duty-2026-modern-warfare-definitive",
+      "title": "Call of Duty 2026 é um novo Modern Warfare, e a Infinity Ward promete que será uma entrada “definitiva”",
+      "original_title": "Call of Duty 2026 is a new Modern Warfare, and Infinity Ward promises it'll be a \"definitive\" entry",
+      "image": "https://assetsio.gnwcdn.com/cod-2026.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-05-22",
+      "summary": "Já sabemos algumas coisas sobre o jogo Call of Duty deste ano. No início deste ano, a Activision confirmou que o jogo iria pular o PS4 e o Xbox One (algo que não era verdade no Black Ops 7 do ano passado). Também houve rumores de que o jogo...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/call-of-duty-2026-modern-warfare-definitive"
+    },
+    {
+      "id": "https://www.eurogamer.net/switch-2-production-ramps-up-march-2027",
+      "title": "Aumentos de preços? Que preço sobe? A Nintendo supostamente está aumentando a produção do Switch 2, com o objetivo de produzir 20 milhões de consoles até março de 2027",
+      "original_title": "Price rises? What price rises? Nintendo reportedly ramping up Switch 2 production, aiming to produce 20 million consoles by March 2027",
+      "image": "https://assetsio.gnwcdn.com/stonks-s2.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-05-22",
+      "summary": "A Nintendo pretende produzir unidades Switch 2 de 20m francamente impressionantes até o final do atual ano fiscal (março de 2027), de acordo com um relatório da Bloomberg. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/switch-2-production-ramps-up-march-2027"
+    },
+    {
+      "id": "https://www.eurogamer.net/gta-6-release-date-reaffirmed",
+      "title": "Não se preocupe, GTA 6 ainda está planejado para novembro, o impulso de marketing começará neste verão",
+      "original_title": "Don't worry, GTA 6 is still planned for November, marketing push will begin this summer",
+      "image": "https://assetsio.gnwcdn.com/Lucia-in-GTA-6-using-a-punch-bag.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-05-22",
+      "summary": "Eu sei, eu sei, sempre que você vê uma manchete do GTA no momento, você está esperando um novo trailer, certo? Atualmente, há uma grande parte da Internet obcecada com a ideia de que obteremos o preço de varejo do GTA 6 e seu terceiro trailer a qualquer momento. Um...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/gta-6-release-date-reaffirmed"
+    },
+    {
+      "id": "https://www.eurogamer.net/destiny-2-live-service-layoffs-destiny-3",
+      "title": "A Bungie está de olho em demissões “significativas”, sem planos para Destiny 3: o que acontece após a atualização final de Destiny 2 em junho?",
+      "original_title": "Bungie reportedly eyeing up \"significant\" layoffs, no plans for Destiny 3: what happens after Destiny 2's final update in June?",
+      "image": "https://assetsio.gnwcdn.com/d2-header.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-05-22",
+      "summary": "Durante a noite, o desenvolvedor de Halo e Destiny, Bungie, anunciou o fim das atualizações de conteúdo para o jogo de tiro ao vivo Destiny 2. Quase nove anos após o lançamento, e após uma miríade de atualizações de conteúdo e mudanças de monetização, o desenvolvedor encerrou o dia...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/destiny-2-live-service-layoffs-destiny-3"
+    },
+    {
+      "id": "https://www.eurogamer.net/troy-baker-ai-art-doesnt-innovate-interview",
+      "title": "\"Ele emula e replica, mas não inova\" - Troy Baker não tem medo da 'arte da IA', porque ele não acredita que ela possa realmente existir",
+      "original_title": "\"It emulates and it replicates, but it doesn't innovate\" - Troy Baker isn't afraid of 'AI art', because he doesn't believe it can ever actually exist",
+      "image": "https://assetsio.gnwcdn.com/troy-baker-header.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-05-22",
+      "summary": "Troy Baker é um dos atores mais conhecidos dos videogames, com créditos que vão desde o Coringa do Batman até Joel de The Last of Us, e muitos mais entre eles. Junto com papéis principais em franquias estabelecidas, como o protagonista de Indiana Jones e...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/troy-baker-ai-art-doesnt-innovate-interview"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tkh1wp/007_first_light_physical_copies_are_out_in_the/",
+      "title": "007: Cópias físicas do First Light estão disponíveis",
+      "original_title": "007: First Light physical copies are out in the wild",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-05-22",
+      "summary": "O jogo pode ser lançado sem nenhuma atualização Nem todos os níveis estão no disco, mas a campanha começa Opção de loja de cosméticos mostrada no menu Imagem: https://ibb.co/RGdZtYj8 enviada por /u/ZamnBoii [link] [comentários]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tkh1wp/007_first_light_physical_copies_are_out_in_the/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tkk3fo/fable_has_received_a_18_rating_in_south_korea/",
+      "title": "Fable recebeu uma classificação de 18+ na Coreia do Sul.",
+      "original_title": "Fable has received a 18+ rating in South Korea.",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-05-22",
+      "summary": "\"Fable foi classificado como maior de 18 anos pelo conselho de classificação sul-coreano 🇰🇷 Motivo da classificação: • Uso de linguagem que expressa diretamente atos sexuais • Assassinatos frequentes, derramamento de sangue e mutilação corporal usando determinação de armas • Atos criminosos diretos baseados em ...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tkk3fo/fable_has_received_a_18_rating_in_south_korea/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tkg8tl/bloomberg_reports_that_nintendo_has_asked/",
+      "title": "Bloomberg relata que a Nintendo pediu aos fornecedores que aumentassem a produção do Switch 2",
+      "original_title": "Bloomberg reports that Nintendo has asked suppliers to increase Switch 2 production",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-05-22",
+      "summary": "O relatório afirma que a Nintendo planeja produzir mais 20 milhões de unidades do Switch 2 até março do próximo ano. Bloomberg também observa que a Nintendo historicamente deu previsões conservadoras de hardware antes de revisá-las para cima mais tarde. Último ano fiscal...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tkg8tl/bloomberg_reports_that_nintendo_has_asked/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tkk8y4/dealabs_some_additional_information_on_sonic/",
+      "title": "Dealabs: Algumas informações adicionais sobre Sonic Frontiers: Definitive Edition",
+      "original_title": "Dealabs: Some additional information on Sonic Frontiers: Definitive Edition",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-05-22",
+      "summary": "A atualização também será lançada no Nintendo Switch 2. Artigo completo: https://www.dealabs.com/magazine/sonic-frontiers-definitive-edition-sortira-bien-sur-switch-2-on-vous-devoile-de-nouvelles-infos-61378 enviado por /u/scott1swann [link] [c...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tkk8y4/dealabs_some_additional_information_on_sonic/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tkahxk/marvel_tokon_comic_covers_hint_at_unannounced/",
+      "title": "Marvel Tokon Comic cobre dicas sobre personagens não anunciados",
+      "original_title": "Marvel Tokon Comic covers hint at unannounced characters",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-05-22",
+      "summary": "MARC SPECTOR: MOON KNIGHT #7 MARVEL TŌKON: FIGHTING SOULS CAPA VARIANTE MARC SPECTOR: MOON KNIGHT #8 MARVEL TŌKON: FIGHTING SOULS CAPA VARIANTE THOR #801 MARVEL TŌKON: FIGHTING SOULS CAPA VARIANTE WADE WILSON: DEADPOOL #8 MARVEL TŌKON: FIGHTING SOULS...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tkahxk/marvel_tokon_comic_covers_hint_at_unannounced/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1tk7w9w/fix_for_tomb_raider_i_iii_remastered_stuck_in_gym/",
+      "title": "*FIX* Para Tomb Raider I - III Remasterizado bug preso no traje de ginástica",
+      "original_title": "*FIX* For Tomb Raider I - III Remastered Stuck In Gym Outfit Bug",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-05-22",
+      "summary": "Postando isso aqui porque não consegui encontrar mais ninguém postando essa correção. Acabei de instalar o jogo (Obrigado, EPIC!!) e descobri em 2 minutos um bug que veio com um patch recente, que arruinaria a imersão no jogo para mim pessoalmente quando...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1tk7w9w/fix_for_tomb_raider_i_iii_remastered_stuck_in_gym/"
+    },
+    {
+      "id": "https://www.techpowerup.com/349279/ktc-expands-mini-led-monitor-lineup-as-technology-moves-toward-mainstream-adoption",
+      "title": "(PR) KTC expande linha de monitores mini-LED à medida que a tecnologia avança em direção à adoção convencional",
+      "original_title": "(PR) KTC Expands Mini-LED Monitor Lineup as Technology Moves Toward Mainstream Adoption",
+      "image": "https://tpucdn.com/img/Yhao6uYe87uVeVMV_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-22",
+      "summary": "A KTC continua a expandir seu portfólio de monitores Mini-LED à medida que a tecnologia se torna mais acessível aos consumidores convencionais. De acordo com relatórios públicos da TrendForce, as remessas globais de monitores Mini-LED registraram um crescimento significativo, enquanto a média...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349279/ktc-expands-mini-led-monitor-lineup-as-technology-moves-toward-mainstream-adoption"
+    },
+    {
+      "id": "https://www.techpowerup.com/349278/corsair-introduces-corsair-pro-lineup-of-ai-workstations-and-servers",
+      "title": "(PR) Corsair apresenta linha Corsair Pro de estações de trabalho e servidores de IA",
+      "original_title": "(PR) Corsair Introduces Corsair Pro Lineup of AI Workstations and Servers",
+      "image": "https://tpucdn.com/img/VJiEZxcflznohhrm_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-22",
+      "summary": "A Corsair (Nasdaq: CRSR) apresentou hoje o Corsair Pro, um novo portfólio de sistemas de IA desenvolvido para organizações que implantam e dimensionam cargas de trabalho modernas de IA. Projetado para suportar diversas cargas de trabalho, desde o desenvolvimento e ajuste fino de modelos até inferência e produção...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349278/corsair-introduces-corsair-pro-lineup-of-ai-workstations-and-servers"
+    },
+    {
+      "id": "https://www.techpowerup.com/349276/micron-advances-made-in-america-memory-with-manufacturing-expansion-in-virginia",
+      "title": "(PR) Micron avança memória made-in-America com expansão da fabricação na Virgínia",
+      "original_title": "(PR) Micron Advances Made-in-America Memory With Manufacturing Expansion in Virginia",
+      "image": "https://tpucdn.com/img/e76DssvZff8dwrxm_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-22",
+      "summary": "(Nasdaq: MU) está comemorando hoje o início da fabricação de DRAM 1α (1-alfa) em sua fábrica em Manassas, Virgínia, um passo importante nos esforços da empresa para expandir significativamente a fabricação de memória nos EUA. Como o único United St...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349276/micron-advances-made-in-america-memory-with-manufacturing-expansion-in-virginia"
+    },
+    {
+      "id": "https://www.techpowerup.com/349274/lian-li-intros-hydroshift-ii-oled-curved-360-aio-with-motorized-2k-oled-curved-screen",
+      "title": "(PR) Lian Li apresenta HydroShift II OLED Curved 360 AIO com tela curva OLED 2K motorizada",
+      "original_title": "(PR) Lian Li Intros HydroShift II OLED Curved 360 AIO with Motorized 2K OLED Curved Screen",
+      "image": "https://tpucdn.com/img/rQvstxxuhF2jFh7i_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-22",
+      "summary": "LIAN LI Industrial Co., Ltd., fabricante líder de chassis e acessórios para PC, lança o HydroShift II OLED Curved 360, um refrigerador líquido completo que apresenta uma tela OLED curva 2K de 6,67 polegadas com ajuste motorizado de eixo duplo. O disp...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349274/lian-li-intros-hydroshift-ii-oled-curved-360-aio-with-motorized-2k-oled-curved-screen"
+    },
+    {
+      "id": "https://www.techpowerup.com/349273/corsair-vengeance-ddr5-memory-modules-with-cxmt-dram-chips-surface",
+      "title": "Módulos de memória Corsair Vengeance DDR5 com superfície de chips DRAM CXMT",
+      "original_title": "Corsair Vengeance DDR5 Memory Modules with CXMT DRAM Chips Surface",
+      "image": "https://tpucdn.com/img/xT6NsA3jCPbRuZoD_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-22",
+      "summary": "O fabricante chinês de DRAM CXMT (Chang Xin Memory Technologies) está produzindo chips DRAM DDR5 em massa, e a empresa parece ter ganhado boa força com marcas populares de memória para PC de canal de varejo. O entusiasta de PC WXNOD identificou um Corsair Vengeance DDR5...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349273/corsair-vengeance-ddr5-memory-modules-with-cxmt-dram-chips-surface"
+    },
+    {
+      "id": "https://www.techpowerup.com/348933/stop-paying-for-microsoft-365-the-newest-office-is-usd-130",
+      "title": "Pare de pagar pelo Microsoft 365 – o mais novo Office custa US$ 130",
+      "original_title": "Stop Paying for Microsoft 365—The Newest Office is $130",
+      "image": "https://tpucdn.com/img/mbJM7RrYig5TageL_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-22",
+      "summary": "O cansaço das assinaturas é real, especialmente quando se trata de software que você usa todos os dias. O Microsoft 365 custa de US$ 69,99 a US$ 99,99 anualmente, o que significa que você gastará facilmente de US$ 200 a US$ 400 em alguns anos apenas para continuar usando o Word e o Excel. O Microsoft Office...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/348933/stop-paying-for-microsoft-365-the-newest-office-is-usd-130"
+    },
+    {
+      "id": "https://www.techpowerup.com/349271/lenovo-delivers-exceptional-fourth-quarter-results",
+      "title": "(PR) Lenovo apresenta resultados excepcionais no quarto trimestre",
+      "original_title": "(PR) Lenovo Delivers Exceptional Fourth Quarter Results",
+      "image": "https://tpucdn.com/img/kKTLt4nScFn7rO45_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-22",
+      "summary": "Lenovo Group Limited (HKSE: 992) (ADR: LNVGY), juntamente com suas subsidiárias ('o Grupo'), relataram hoje os resultados do quarto trimestre e do ano fiscal para o ano fiscal de 2025/26, marcando um quarto trimestre excepcional e o ano mais forte na história do Grupo. Durante ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349271/lenovo-delivers-exceptional-fourth-quarter-results"
+    },
+    {
+      "id": "https://www.techpowerup.com/349270/g-skill-to-demo-new-memory-solutions-for-gaming-server-ai-workstation-applications-host-oc-world-cup-2026-at-computex",
+      "title": "(PR) G.Skill demonstrará novas soluções de memória para aplicativos de jogos, servidores, IA e estações de trabalho, sediará a OC World Cup 2026 na Computex",
+      "original_title": "(PR) G.Skill to Demo New Memory Solutions for Gaming, Server, AI & Workstation Applications, Host OC World Cup 2026 at Computex",
+      "image": "https://tpucdn.com/img/huLdV3CaUEEg8w2F_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-22",
+      "summary": "G.SKILL International Enterprise Co., Ltd., marca líder mundial em memória de overclock de desempenho, tem o prazer de demonstrar várias novas soluções de memória DDR5 para sistemas entusiastas de PC, servidores, IA, aplicações industriais e estações de trabalho de alto desempenho...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349270/g-skill-to-demo-new-memory-solutions-for-gaming-server-ai-workstation-applications-host-oc-world-cup-2026-at-computex"
+    },
+    {
+      "id": "https://www.techpowerup.com/349269/gamdias-unveils-atlas-p6-cg-flagship-pc-case",
+      "title": "(PR) Gamdias revela gabinete para PC carro-chefe ATLAS P6 CG",
+      "original_title": "(PR) Gamdias Unveils ATLAS P6 CG Flagship PC Case",
+      "image": "https://tpucdn.com/img/rwCnNjbr8aGigOER_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-22",
+      "summary": "GAMDIAS, líder global em hardware para jogos de alto desempenho, orgulhosamente anuncia o lançamento de seu chassi mais ambicioso até o momento, o ATLAS P6 CG. Como produto definidor da visão 2026 da GAMDIAS, \"IMMERSÃO AUMENTADA\", o ATLAS P6 CG apresenta...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349269/gamdias-unveils-atlas-p6-cg-flagship-pc-case"
+    },
+    {
+      "id": "https://www.techpowerup.com/349084/for-only-usd-10-windows-11-pro-adds-better-productivity-features-and-security",
+      "title": "Por apenas US$ 10, o Windows 11 Pro adiciona melhores recursos de produtividade e segurança",
+      "original_title": "For Only $10, Windows 11 Pro Adds Better Productivity Features and Security",
+      "image": "https://tpucdn.com/img/2DCeg9bDMLLnZTEh_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-22",
+      "summary": "Sistemas operacionais mais antigos podem diminuir a produtividade com interfaces desatualizadas, proteções de segurança mais fracas e recursos multitarefa limitados. O Microsoft Windows 11 Pro foi projetado para modernizar PCs compatíveis com uma interface mais limpa e produtividade atualizada...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349084/for-only-usd-10-windows-11-pro-adds-better-productivity-features-and-security"
+    },
+    {
+      "id": "https://www.eurogamer.net/warhammer-40k-dawn-of-war-4-release-date-devs-tease-more-factions",
+      "title": "Warhammer 40K: Dawn of War 4 recebe uma data de lançamento, já que os desenvolvedores sugerem que poderíamos obter ainda mais facções após o lançamento",
+      "original_title": "Warhammer 40K: Dawn of War 4 gets a release date, as devs suggest we could get even more factions after launch",
+      "image": "https://assetsio.gnwcdn.com/dawn-of-war-4-chaos.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-05-21",
+      "summary": "Warhammer 40K: Dawn of War 4 tem uma data de lançamento e, felizmente para outros fãs do DoW, não está muito longe. A excelente sequência RTS será lançada em 17 de setembro deste ano, com uma Commander Edition mais sofisticada também dando acesso alguns dias antes...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/warhammer-40k-dawn-of-war-4-release-date-devs-tease-more-factions"
+    },
+    {
+      "id": "https://www.eurogamer.net/playstation-dynamic-pricing-sony-transparency-eu-law",
+      "title": "A experiência de preços dinâmicos do PlayStation e a falta de transparência da Sony sobre isso podem violar a lei europeia",
+      "original_title": "PlayStation's dynamic pricing experiment, and Sony's lack of transparency about it, reportedly might violate European law",
+      "image": "https://assetsio.gnwcdn.com/ps6-price-date.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-05-21",
+      "summary": "A recente experiência de preços dinâmicos da Sony na PlayStation Store, que oferece preços de jogos diferentes para pessoas diferentes, pode violar a lei europeia, concluiu um novo relatório. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/playstation-dynamic-pricing-sony-transparency-eu-law"
+    },
+    {
+      "id": "https://www.eurogamer.net/assassins-creed-black-flag-resycned-preview",
+      "title": "Black Flag Resynced é o Assassin's Creed mais chocante dos últimos anos, mas acho que é aí que reside o seu charme",
+      "original_title": "Black Flag Resynced is the shonkiest Assassin's Creed in years, but therein, I think, lies its charm",
+      "image": "https://assetsio.gnwcdn.com/Black-Flag-header-final.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-05-21",
+      "summary": "\"Quero comida que não me deixe doente, quero paredes que contenham o vento. Quero uma vida boa.\" A introdução de Edward Kenway à pirataria não é inspirada em sonhos de riqueza ou no desejo de glória. Ele simplesmente quer viver confortavelmente, fora da pobreza. T...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/assassins-creed-black-flag-resycned-preview"
+    },
+    {
+      "id": "https://www.eurogamer.net/black-flag-resynced-modern-day-tease-interview",
+      "title": "O diretor de Assassin's Creed Black Flag Resynced provocou mais seções cortadas dos dias modernos - e isso me fez pensar",
+      "original_title": "Assassin's Creed Black Flag Resynced director has teased more on cut modern-day sections - and it got me thinking",
+      "image": "https://assetsio.gnwcdn.com/black_flag_julien_koch.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-05-21",
+      "summary": "Comecemos pelo princípio: essa coisa é real. Após três longos anos de rumores, relatórios e vazamentos, o remake de Assassin’s Creed Black Flag da Ubisoft foi revelado em março e obtivemos mais detalhes sobre o que realmente é em abril. O remake, apelidado de Res...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/black-flag-resynced-modern-day-tease-interview"
     },
     {
       "id": "https://www.eurogamer.net/honestly-difficult-to-imagine-a-path-forward-with-it-licensed-paranormal-activity-horror-game-technically-done-for-good-says-mortuary-assistant-creator",
@@ -148,289 +523,304 @@
       "url": "https://www.eurogamer.net/honestly-difficult-to-imagine-a-path-forward-with-it-licensed-paranormal-activity-horror-game-technically-done-for-good-says-mortuary-assistant-creator"
     },
     {
-      "id": "https://www.eurogamer.net/playstation-plus-premium-extra-price-hike",
-      "title": "Não é apenas o PS Plus Essential que está recebendo um aumento de preço: os níveis Premium e Extra agora também são mais caros",
-      "original_title": "It's not just PS Plus Essential getting a price hike: Premium and Extra tiers are now more expensive too",
-      "image": "https://assetsio.gnwcdn.com/playstation-plus-art-july-2025-v2.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tk1fr8/jason_schreier_bungie_is_planning_significant/",
+      "title": "Jason Schreier: A Bungie está planejando demissões significativas, Destiny 3 NÃO está em produção ativa",
+      "original_title": "‪Jason Schreier‬: Bungie is planning significant layoffs, Destiny 3 is NOT in active production",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
       "category": "News",
       "date": "2026-05-21",
-      "summary": "Após o anúncio cuidadosamente redigido do aumento de preços do PlayStation Plus pela Sony no início desta semana, a empresa confirmou o que todos já esperavam, mas o que ainda não havia dito em voz alta: não é apenas o preço do PS Plus Essential subindo; Primeiro...",
+      "summary": "https://www.bloomberg.com/news/articles/2026-05-21/bungie-plans-layoffs-after-ending-destiny-2-development?utm_source=website&utm_medium=share&utm_campaign=cópia enviada por /u/FlyFight2Win [link] [comentários]...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/playstation-plus-premium-extra-price-hike"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tk1fr8/jason_schreier_bungie_is_planning_significant/"
     },
     {
-      "id": "https://www.eurogamer.net/xbox-hires-analyst-asha-sharma",
-      "title": "Xbox contrata analista que disse que os jogos estavam perdendo a atenção na batalha contra jogos de azar, criptografia e pornografia como diretor de estratégia em outra reformulação de liderança",
-      "original_title": "Xbox hires analyst who said games were losing the attention battle with gambling, crypto and porn as chief strategy officer in another leadership revamp",
-      "image": "https://assetsio.gnwcdn.com/asha-sharma-xbox_ETUJlFF.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tjxilq/graczdari_gta_vi_trailer_will_be_out_on_tuesday/",
+      "title": "Graczdari – Trailer de GTA VI será lançado na terça-feira, anunciado amanhã e “uma coisinha” no State of Play da Sony",
+      "original_title": "Graczdari - GTA VI trailer will be out on Tuesday, announced tomorrow and \"a little something\" at Sony's State of Play",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
       "category": "News",
       "date": "2026-05-21",
-      "summary": "O recém-nomeado chefe de jogos da Microsoft, Asha Sharma, fez mais mudanças de liderança no Xbox, desta vez contratando um punhado de executivos para ajudar a liderar a empresa, que inclui um analista da indústria que disse que os jogos estavam perdendo a atenção na guerra para os jogos de azar...",
+      "summary": "Graczdari afirma que um novo trailer de GTA VI será lançado na terça-feira e \"alguma coisa\" no próximo State of Play da Sony \"Se você puder me dar um link onde posso apostar 1.000 euros que o terceiro trailer de GTA VI será lançado na terça-feira, farei a aposta :) Talvez eu...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/xbox-hires-analyst-asha-sharma"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tjxilq/graczdari_gta_vi_trailer_will_be_out_on_tuesday/"
     },
     {
-      "id": "https://www.eurogamer.net/co-op-is-definitely-the-worst-way-to-play-subnautica-2-but-as-a-big-old-sea-wuss-i-really-dont-care",
-      "title": "Co-op é definitivamente a pior maneira de jogar Subnautica 2, mas como um grande covarde do mar, eu realmente não me importo",
-      "original_title": "Co-op is definitely the worst way to play Subnautica 2, but as a big old sea-wuss, I really don't care",
-      "image": "https://assetsio.gnwcdn.com/subnautica-2-header-1.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tjqmu8/sony_is_sending_out_invites_to_media_outlets_to/",
+      "title": "Sony está enviando convites para meios de comunicação cobrirem o evento (SoP)",
+      "original_title": "Sony is sending out invites to media outlets to cover the event (SoP)",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
       "category": "News",
       "date": "2026-05-21",
-      "summary": "Hora da confissão: na verdade, nunca terminei o Subnautica original. Não é que eu não tenha adorado sua mistura inteligente de sobrevivência na caixa de areia e narrativa estruturada; é que sou um grande covarde quando se trata de mar. Ou o que está por baixo, pelo menos. ...",
+      "summary": "https://xcancel.com/misterpxl/status/2057474281592725802?s=46 Isso poderia ser maior do que imaginamos?    enviado por /u/Solid-Entertainer-39 [link] [comentários]...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/co-op-is-definitely-the-worst-way-to-play-subnautica-2-but-as-a-big-old-sea-wuss-i-really-dont-care"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tjqmu8/sony_is_sending_out_invites_to_media_outlets_to/"
     },
     {
-      "id": "https://www.eurogamer.net/subnautica-2-combat-response-update",
-      "title": "Desenvolvedor de Subnautica 2 pede desculpas por dizer aos jogadores em busca de combate para “ir jogar Sons of the Forest ou algo assim”",
-      "original_title": "Subnautica 2 dev apologises for telling combat-seeking players to \"go play Sons of the Forest or something\"",
-      "image": "https://assetsio.gnwcdn.com/e3b--RPQ.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1tjlu6f/pc_freebiedown_in_bermuda_tomb_raider_iiii/",
+      "title": "PC Freebie｜Down in Bermuda e Tomb Raider I-III Remasterizado, estrelado por Lara Croft",
+      "original_title": "PC Freebie｜Down in Bermuda & Tomb Raider I-III Remastered Starring Lara Croft",
+      "image": "https://preview.redd.it/0niozmp51i2h1.png?width=640&crop=smart&auto=webp&s=304fb5f1f5ab14e15901e30dc7b3428fadc1760a",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
       "category": "News",
       "date": "2026-05-21",
-      "summary": "O desenvolvedor do Subnautica 2, Unknown Worlds, despejou água fria na esperança de adicionar mais maneiras de se defender no popular jogo de sobrevivência subaquática e potencialmente lutar contra peixes perigosos. Leia mais...",
+      "summary": "enviado por /u/MeguminShiro [link] [comentários] ...",
       "sources": [
-        "Eurogamer"
+        "r/EpicGamesPC"
       ],
-      "url": "https://www.eurogamer.net/subnautica-2-combat-response-update"
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1tjlu6f/pc_freebiedown_in_bermuda_tomb_raider_iiii/"
     },
     {
-      "id": "https://www.techpowerup.com/349248/lian-li-announces-o11-vision-m-case-3-sided-glass-engineered-for-airflow",
-      "title": "(PR) Lian Li anuncia case O11 VISION-M: vidro de 3 lados, projetado para fluxo de ar",
-      "original_title": "(PR) Lian Li Announces O11 VISION-M Case: 3-Sided Glass, Engineered for Airflow",
-      "image": "https://tpucdn.com/img/N1eGm4wSL3FR72fB_thm.jpg",
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1tjm3kt/next_pc_freebiemystery_game_5_6/",
+      "title": "Próximo brinde para PC｜Jogo misterioso nº 5 e nº 6",
+      "original_title": "Next PC Freebie｜Mystery Game #5 & #6",
+      "image": "https://preview.redd.it/ze259gkq2i2h1.png?width=640&crop=smart&auto=webp&s=e377028277063cf06e156914137135e916e6f1f9",
       "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-21",
-      "summary": "LIAN LI Industrial Co., Ltd., fabricante líder de chassis e acessórios para PC, anuncia o O11 VISION-M, um chassi microATX de câmara dupla que combina apresentação panorâmica de vidro de três lados com fluxo de ar aprimorado. Projetado para reter o visual ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349248/lian-li-announces-o11-vision-m-case-3-sided-glass-engineered-for-airflow"
-    },
-    {
-      "id": "https://www.techpowerup.com/349245/intel-14a-node-enters-risk-production-in-2028-10a-and-7a-nodes-on-the-roadmap",
-      "title": "Nó Intel 14A entra em produção de risco em 2028, nós 10A e 7A no roteiro",
-      "original_title": "Intel 14A Node Enters Risk Production in 2028, 10A and 7A Nodes on the Roadmap",
-      "image": "https://tpucdn.com/img/Gtm9qbYhVJdDg8iN_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-21",
-      "summary": "O CEO da Intel, Lip-Bu Tan, falou na Conferência J.P. Morgan TMT, fornecendo mais detalhes sobre o roteiro da empresa para desenvolvimentos futuros de nós. De acordo com Lip-Bu Tan, a Intel agora prevê que a produção de risco do nó 14A será executada em 2028, com alto volume...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349245/intel-14a-node-enters-risk-production-in-2028-10a-and-7a-nodes-on-the-roadmap"
-    },
-    {
-      "id": "https://www.techpowerup.com/349244/fractal-launches-dynamic-3-fan-series",
-      "title": "(PR) Fractal lança série de ventiladores Dynamic 3",
-      "original_title": "(PR) Fractal Launches Dynamic 3 Fan Series",
-      "image": "https://tpucdn.com/img/sexr1IHiE2g8wBNI_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-21",
-      "summary": "Anunciamos o Dynamic 3, a evolução de uma série de ventoinhas projetadas para oferecer forte desempenho de resfriamento em um formato moderno e elegante. \n\nCriado para fabricantes de PC que buscam fluxo de ar confiável, acústica mais silenciosa e uma estética de sistema refinada, o Dynamic 3 oferece PW...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349244/fractal-launches-dynamic-3-fan-series"
-    },
-    {
-      "id": "https://www.techpowerup.com/349243/fraunhofer-ipms-develops-high-density-chiplet-systems-at-the-wafer-level",
-      "title": "(PR) Fraunhofer IPMS desenvolve sistemas de chips de alta densidade em nível de wafer",
-      "original_title": "(PR) Fraunhofer IPMS Develops High-Density Chiplet Systems at the Wafer Level",
-      "image": "https://tpucdn.com/img/qbCsypdY50k239mG_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-21",
-      "summary": "Avanço na fabricação de chips: Como parte da linha piloto europeia APECS, pesquisadores do Instituto Fraunhofer de Microssistemas Fotônicos IPMS desenvolveram um método que permite que diferentes componentes do chip sejam fundidos quase perfeitamente em um único...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349243/fraunhofer-ipms-develops-high-density-chiplet-systems-at-the-wafer-level"
-    },
-    {
-      "id": "https://www.techpowerup.com/349242/other-world-computing-announces-owc-stack-ai-thunderbolt-5-accelerator-and-storage-hub",
-      "title": "(PR) Other World Computing Anuncia Acelerador e Hub de Armazenamento OWC Stack AI Thunderbolt 5",
-      "original_title": "(PR) Other World Computing Announces OWC Stack AI Thunderbolt 5 Accelerator and Storage Hub",
-      "image": "https://tpucdn.com/img/Sy3bDkOyLxB9aSp0_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-21",
-      "summary": "A Other World Computing (OWC), líder confiável em armazenamento de alto desempenho, memória, conectividade, software e acessórios que capacitam profissionais criativos e de negócios a maximizar o desempenho, aumentar a confiabilidade e agilizar os fluxos de trabalho, hoje...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349242/other-world-computing-announces-owc-stack-ai-thunderbolt-5-accelerator-and-storage-hub"
-    },
-    {
-      "id": "https://www.techpowerup.com/348933/stop-paying-for-microsoft-365-the-newest-office-is-usd-130",
-      "title": "Pare de pagar pelo Microsoft 365 – o mais novo Office custa US$ 130",
-      "original_title": "Stop Paying for Microsoft 365—The Newest Office is $130",
-      "image": "https://tpucdn.com/img/mbJM7RrYig5TageL_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-21",
-      "summary": "O cansaço das assinaturas é real, especialmente quando se trata de software que você usa todos os dias. O Microsoft 365 custa de US$ 69,99 a US$ 99,99 anualmente, o que significa que você gastará facilmente de US$ 200 a US$ 400 em alguns anos apenas para continuar usando o Word e o Excel. O Microsoft Office...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348933/stop-paying-for-microsoft-365-the-newest-office-is-usd-130"
-    },
-    {
-      "id": "https://www.techpowerup.com/349241/gl-inet-launches-slate-7-pro-tri-band-wi-fi-7-travel-router",
-      "title": "(PR) GL.iNet lança roteador de viagem Slate 7 Pro Tri-band Wi-Fi 7",
-      "original_title": "(PR) GL.iNet Launches Slate 7 Pro Tri-band Wi-Fi 7 Travel Router",
-      "image": "https://tpucdn.com/img/O8MSu06VCBSNkP9d_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-21",
-      "summary": "GL.iNet, fornecedora líder de soluções de rede e acesso remoto baseadas em OpenWrt, anuncia o lançamento do Slate 7 Pro (GL-BE10000), a versão atualizada do Slate 7 (GL-BE3600). Este roteador de viagem é o primeiro desse tipo a obter Wi-Fi tri-band...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349241/gl-inet-launches-slate-7-pro-tri-band-wi-fi-7-travel-router"
-    },
-    {
-      "id": "https://www.techpowerup.com/349240/ibm-and-u-s-department-of-commerce-announce-americas-first-purpose-built-quantum-foundry",
-      "title": "(PR) IBM e Departamento de Comércio dos EUA anunciam a primeira fundição quântica especialmente desenvolvida da América",
-      "original_title": "(PR) IBM and U.S. Department of Commerce Announce America's First Purpose-Built Quantum Foundry",
-      "image": "https://tpucdn.com/img/M3zqHOO0dgtX8HVZ_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-21",
-      "summary": "Hoje, a IBM e o Departamento de Comércio (DoC) dos EUA anunciaram uma Carta de Intenções (LOI) para construir uma fundição americana de chips quânticos, garantindo a liderança quântica global do país e alimentando o crescente ecossistema quântico do país. O incentivo CHIPS...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349240/ibm-and-u-s-department-of-commerce-announce-americas-first-purpose-built-quantum-foundry"
-    },
-    {
-      "id": "https://www.techpowerup.com/349238/amd-announces-production-ramp-of-next-generation-amd-epyc-processor-venice-on-tsmc-2nm-process-technology",
-      "title": "(PR) AMD Anuncia Rampa de Produção do Processador AMD EPYC de Próxima Geração “Veneza” na Tecnologia de Processo TSMC 2nm",
-      "original_title": "(PR) AMD Announces Production Ramp of Next-Generation AMD EPYC Processor \"Venice\" on TSMC 2nm Process Technology",
-      "image": "https://tpucdn.com/img/dg0Kj4dqK69HPI1q_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-21",
-      "summary": "A AMD anunciou hoje que seu processador AMD EPYC de próxima geração, codinome “Veneza”, está aumentando a produção em Taiwan na avançada tecnologia de processo de 2 nm da TSMC, com planos futuros para aumentar a produção nas instalações de fabricação da TSMC no Arizona. O marco...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349238/amd-announces-production-ramp-of-next-generation-amd-epyc-processor-venice-on-tsmc-2nm-process-technology"
-    },
-    {
-      "id": "https://www.techpowerup.com/349084/for-only-usd-10-windows-11-pro-adds-better-productivity-features-and-security",
-      "title": "Por apenas US$ 10, o Windows 11 Pro adiciona melhores recursos de produtividade e segurança",
-      "original_title": "For Only $10, Windows 11 Pro Adds Better Productivity Features and Security",
-      "image": "https://tpucdn.com/img/2DCeg9bDMLLnZTEh_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-21",
-      "summary": "Sistemas operacionais mais antigos podem diminuir a produtividade com interfaces desatualizadas, proteções de segurança mais fracas e recursos multitarefa limitados. O Microsoft Windows 11 Pro foi projetado para modernizar PCs compatíveis com uma interface mais limpa e produtividade atualizada...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349084/for-only-usd-10-windows-11-pro-adds-better-productivity-features-and-security"
-    },
-    {
-      "id": "https://www.eurogamer.net/ubisoft-new-assassins-creed-far-cry-ghost-recon-ai-experience",
-      "title": "Ubisoft confirma que novos jogos Assassin’s Creed, Far Cry e Ghost Recon serão lançados antes de abril de 2029",
-      "original_title": "Ubisoft confirms new Assassin's Creed, Far Cry, and Ghost Recon games are coming before April 2029",
-      "image": "https://assetsio.gnwcdn.com/ubisoft-big-three-updated.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
       "category": "News",
+      "date": "2026-05-21",
+      "summary": "enviado por /u/MeguminShiro [link] [comentários] ...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1tjm3kt/next_pc_freebiemystery_game_5_6/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1tjz7m7/is_it_just_me_or_did_they_bring_back_the_old_way/",
+      "title": "Sou só eu ou eles trouxeram de volta a maneira antiga de obter jogos grátis?",
+      "original_title": "Is It just me, or did they bring back the old way to get free games?",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-05-21",
+      "summary": "Antes você poderia pressionar obter jogo, então você o conseguiria, mas agora você será levado para a página antiga.    enviado por /u/TheUnknownD [link] [comentários]...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1tjz7m7/is_it_just_me_or_did_they_bring_back_the_old_way/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1tjsjae/the_first_one_gives_me_sea_of_thieves_vibes_any/",
+      "title": "O primeiro me dá vibrações de Sea of ​​​​Thieves. algum palpite de sua parte?",
+      "original_title": "The first one gives me Sea of Thieves vibes. any guesses on your end?",
+      "image": "https://preview.redd.it/jcfbnw6i4j2h1.png?width=320&crop=smart&auto=webp&s=ead98ae603eb1abe4a09c45bc21b5b0dae9ac078",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-05-21",
+      "summary": "enviado por /u/Puzzleheaded_irl [link] [comentários] ...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1tjsjae/the_first_one_gives_me_sea_of_thieves_vibes_any/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1tjmte4/mobile_freebie_monument_valley_3_iosandroid/",
+      "title": "Brinde para celular | Monument Valley 3 (iOS/Android)",
+      "original_title": "Mobile Freebie | Monument Valley 3 (iOS/Android)",
+      "image": "https://preview.redd.it/2gva9zlx6i2h1.png?width=640&crop=smart&auto=webp&s=8a14d7cf1227022f405c4f517a803848a4c2fbc6",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-05-21",
+      "summary": "Ele está sendo exibido na categoria de jogos grátis e espera ser lançado nas lojas móveis quando os brindes forem lançados (próximos 10 minutos ou mais) EDIT: Aqui estão os links das lojas para adicionar à cesta/resgatar https://store.epicgames.com/p/monument-valley-3-android...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1tjmte4/mobile_freebie_monument_valley_3_iosandroid/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1tjrax0/interpreting_what_i_see_in_the_new_hints_for_5/",
+      "title": "Interpretando o que vejo nas novas dicas para #5 e #6",
+      "original_title": "Interpreting what I see in the new hints for #5 and #6",
+      "image": "https://preview.redd.it/agyor6sxxi2h1.png?width=640&crop=smart&auto=webp&s=47910ea540314b90874508b9712ee0e7bff372ab",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-05-21",
+      "summary": "O chapéu/barco é o mais óbvio e fácil, não tenho certeza sobre a coisa com aparência de palácio enviada por /u/Red-jo [link] [comments] ...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1tjrax0/interpreting_what_i_see_in_the_new_hints_for_5/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1tjqzc8/new_icon_hint_tweet_for_mystery_games_5_6/",
+      "title": "Novo tweet de dica de ícone para Mystery Games #5 e #6",
+      "original_title": "New icon hint tweet for Mystery Games #5 & #6",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-05-21",
+      "summary": "enviado por /u/ImAnthlon [link] [comentários]...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1tjqzc8/new_icon_hint_tweet_for_mystery_games_5_6/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1tjqp8x/steam_game_car_mechanic_simulator_2018/",
+      "title": "[Steam] (Jogo) Simulador de mecânico de automóveis 2018",
+      "original_title": "[Steam] (Game) Car Mechanic Simulator 2018",
+      "image": "https://external-preview.redd.it/hpQ8BPWJoHlKGytpUJRjxxG_JRxujhyKnf36_2-oe3Q.jpeg?width=320&crop=smart&auto=webp&s=bb2fbe371409246f5425e7265423cc49a11a6074",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-05-21",
+      "summary": "enviado por /u/iambaldy [link] [comentários] ...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1tjqp8x/steam_game_car_mechanic_simulator_2018/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1tjn55w/epic_games_game_tomb_raider_iiii_remastered/",
+      "title": "[Epic Games] (Jogo) Tomb Raider I-III Remasterizado, estrelado por Lara Croft",
+      "original_title": "[Epic Games] (Game) Tomb Raider I-III Remastered Starring Lara Croft",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-05-21",
+      "summary": "enviado por /u/el9in [link] [comentários]...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1tjn55w/epic_games_game_tomb_raider_iiii_remastered/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1tjxo3x/gog_other_warhammer_skulls_2026_digital_goodie_bag/",
+      "title": "[GOG] (Outro) Sacola Digital Warhammer Skulls 2026",
+      "original_title": "[GOG] (Other) Warhammer Skulls 2026 Digital Goodie Bag",
+      "image": "https://external-preview.redd.it/5w4x_26OtaHZtOqaow6ZD23Opflamr6JAyzLnahuSY0.jpeg?width=640&crop=smart&auto=webp&s=c357eda410ff1198ef743046e783ea88cb4d495e",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-05-21",
+      "summary": "enviado por /u/Responsible-River653 [link] [comentários] ...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1tjxo3x/gog_other_warhammer_skulls_2026_digital_goodie_bag/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1tjndf9/epic_games_mobile_game_monument_valley_3/",
+      "title": "[Epic Games Mobile] (Jogo) Monument Valley 3",
+      "original_title": "[Epic Games Mobile] (Game) Monument Valley 3",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-05-21",
+      "summary": "enviado por /u/Fit-Cardiologist-124 [link] [comentários]...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1tjndf9/epic_games_mobile_game_monument_valley_3/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1tjvem7/steam_dlc_world_of_tanks_skulls_free_pack/",
+      "title": "[Steam] (DLC) World of Tanks — Pacote gratuito SKULLS",
+      "original_title": "[Steam] (DLC) World of Tanks — SKULLS Free Pack",
+      "image": "https://external-preview.redd.it/OO05k-prOistX0A2EdRrDkxXe7j4ZM9a338mn83HwBY.jpeg?width=320&crop=smart&auto=webp&s=5c85cee32f2689c71716af6e3e01f370f841bf21",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-05-21",
+      "summary": "enviado por /u/RegionalPrices [link] [comentários] ...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1tjvem7/steam_dlc_world_of_tanks_skulls_free_pack/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1tjn55v/epic_games_game_down_in_bermuda/",
+      "title": "[Epic Games] (Jogo) Nas Bermudas",
+      "original_title": "[Epic Games] (Game) Down in Bermuda",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-05-21",
+      "summary": "enviado por /u/el9in [link] [comentários]...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1tjn55v/epic_games_game_down_in_bermuda/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1tjozu6/steam_game_warhammer_40000_gladius_relics_of_war/",
+      "title": "[Steam] (Jogo) Warhammer 40.000: Gladius - Relíquias da Guerra",
+      "original_title": "[Steam] (Game) Warhammer 40,000: Gladius - Relics of War",
+      "image": "https://external-preview.redd.it/dPNCMQXNVxbj1dzh2uitUc7gfn2GhXbZ4JSw_doKXjw.jpeg?width=320&crop=smart&auto=webp&s=94c0a8c905b51bc2d0cbcbeca8638f82f450fa7a",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-05-21",
+      "summary": "enviado por /u/iambaldy [link] [comentários] ...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1tjozu6/steam_game_warhammer_40000_gladius_relics_of_war/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1tjqp6i/psa_space_grunts_gog_palindrome_syndrome_escape/",
+      "title": "[PSA] Space Grunts (GOG), Palindrome Syndrome: Escape Room (GOG), Hot Brass (GOG) são gratuitos no Amazon Prime",
+      "original_title": "[PSA] Space Grunts (GOG), Palindrome Syndrome: Escape Room (GOG), Hot Brass (GOG) are complimentary with Amazon Prime",
+      "image": "https://external-preview.redd.it/_fBjABdCsDDIR7bJn-cgpkXoTMJ2MnAEY3PCdXPaAoY.png?width=640&crop=smart&auto=webp&s=bef23da95c6aa8211ed8845602ada6c6644977cf",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-05-21",
+      "summary": "enviado por /u/LighteningOneIN [link] [comentários] ...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1tjqp6i/psa_space_grunts_gog_palindrome_syndrome_escape/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1tiwmqx/fgf_giveaway_branch_furniture_2_ergonomic_chair/",
+      "title": "Sorteio FGF: Móveis de filial nº 2 - Cadeira ergonômica Pro e vales-presente!",
+      "original_title": "FGF Giveaway: Branch Furniture #2 - Ergonomic Chair Pro & Gift Cards!",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
       "date": "2026-05-20",
-      "summary": "A Ubisoft descreveu sua lista futura de lançamentos em seu último relatório de lucros, confirmando que o próximo Assassin's Creed será lançado antes do final do ano financeiro de 2028-2029. Isso além dos novos jogos Ghost Recon e Far Cry. Leia mais...",
+      "summary": "Este evento é apenas para Canadá e EUA! Você pode entrar para/através de um amigo com endereço nos EUA/Canadá. Vídeo de unboxing e review da Cadeira Ergonômica Pro no canal da FGF no YouTube - https://youtu.be/uYSIENA-qgI Este é um direto de dev/pub/sto...",
       "sources": [
-        "Eurogamer"
+        "r/FreeGameFindings"
       ],
-      "url": "https://www.eurogamer.net/ubisoft-new-assassins-creed-far-cry-ghost-recon-ai-experience"
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1tiwmqx/fgf_giveaway_branch_furniture_2_ergonomic_chair/"
     },
     {
-      "id": "https://www.eurogamer.net/quantic-dream-closing-spellcasters-chronicles",
-      "title": "O jogo multijogador da Quantic Dream, Spellcasters Chronicles, está sendo fechado e o estúdio reorganizado, mas Star Wars Eclipse não foi afetado",
-      "original_title": "Quantic Dream's multiplayer game Spellcasters Chronicles is being shut down and the studio reorganised, but Star Wars Eclipse is unaffected",
-      "image": "https://assetsio.gnwcdn.com/spellcasters-chronicles_HtUHwZW.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ti0lg6/discussion_news_and_request_thread_week_beginning/",
+      "title": "Tópico de discussão, notícias e solicitações - semana que começa em 18/05/26",
+      "original_title": "Discussion, News, and Request Thread - Week Beginning 05/18/26",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
       "category": "News",
-      "date": "2026-05-20",
-      "summary": "Quantic Dream, desenvolvedora de Detroit: Become Human e Heavy Rain, está encerrando seu jogo MOBA com vôo Spellcasters Chronicles, que só foi lançado em acesso antecipado em fevereiro deste ano. Leia mais...",
+      "date": "2026-05-19",
+      "summary": "Uma das áreas mais bonitas em todos os tópicos de discussão sobre jogos é o centro central semanal para todas as solicitações, notícias sobre jogos e quaisquer outros tópicos sobre jogos sobre os quais você queira conversar. Por favor, mantenha todo o conteúdo que não precisa de postagem própria neste tópico ...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/quantic-dream-closing-spellcasters-chronicles"
-    },
-    {
-      "id": "https://www.eurogamer.net/kickstarter-adult-content-rules-censorship-apology",
-      "title": "\"Honestamente? Nós estragamos tudo\" - Kickstarter pede desculpas por suas criticadas regras de conteúdo adulto e por trair seu \"foda-se o espírito do establishment\"",
-      "original_title": "\"Honestly? We botched it\" - Kickstarter apologises for its criticised adult content rules, and for betraying its \"f*ck the establishment spirit\"",
-      "image": "https://assetsio.gnwcdn.com/kickstarter-sorry-AdobeStock_598768280.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-05-20",
-      "summary": "O site de crowdfunding Kickstarter - um lugar onde muitos projetos de videogame se originaram - emitiu um pedido de desculpas inabalável depois de 'errar' nas novas diretrizes lançadas na semana passada. As mudanças procuraram tornar mais rígidas as regras em torno de projetos voltados para adultos...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/kickstarter-adult-content-rules-censorship-apology"
-    },
-    {
-      "id": "https://www.eurogamer.net/titanium-court-sells-25k-copies",
-      "title": "O jogo narrativo surreal de combinar 3 Titanium Court vendeu mais de 25.000 cópias, dando ao designer AP Thomson tempo suficiente para trabalhar pacificamente em seu próximo jogo",
-      "original_title": "Surreal narrative match-3 game Titanium Court has sold over 25,000 copies, giving designer AP Thomson enough time to peacefully work on his next game",
-      "image": "https://assetsio.gnwcdn.com/Dead-End-screenshot_Titanium-Court.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-05-20",
-      "summary": "Muitos jogos independentes estão obtendo sucesso à medida que grandes editoras e estúdios tentam navegar em um mercado difícil, mas Titanium Court se destaca como um mercado particularmente especial e único. Depois de um lançamento relativamente tranquilo há um mês, agora já vendeu mais de 25 mil cópias...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/titanium-court-sells-25k-copies"
-    },
-    {
-      "id": "https://www.eurogamer.net/party-animals-ai-video-contest-cancelled",
-      "title": "“Ignoramos o potencial de ofensa e dano” – o estúdio por trás do popular jogo multijogador Party Animals cancelou totalmente sua competição de vídeo de IA",
-      "original_title": "\"We overlooked the potential offense and harm\" - the studio behind popular multiplayer game Party Animals has now cancelled its AI video competition entirely",
-      "image": "https://assetsio.gnwcdn.com/Party-Animals-in-the-snow.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-05-20",
-      "summary": "Na semana passada, a Recreate Games pediu desculpas depois que uma competição de vídeo gerada por IA para seu popular jogo de luta casual Party Animals atraiu críticas significativas de sua comunidade. Agora, a competição foi totalmente cancelada. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/party-animals-ai-video-contest-cancelled"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ti0lg6/discussion_news_and_request_thread_week_beginning/"
     }
   ]
 }
