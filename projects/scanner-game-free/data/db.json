@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-05-24T13:26:19",
-  "display_date": "24/05/2026 13:26",
+  "last_updated": "2026-05-25T14:53:40",
+  "display_date": "25/05/2026 14:53",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "570ms",
+    "latency": "524ms",
     "current_games": [
       {
         "title": "Down in Bermuda",
@@ -65,7 +65,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "summary": "Nas Bermudas",
       "sources": [
         "Epic Games Store"
@@ -80,7 +80,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "summary": "Tomb Raider I-III Remasterizado, estrelado por Lara Croft",
       "sources": [
         "Epic Games Store"
@@ -95,7 +95,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "summary": "Disponível gratuitamente a partir de 16/09. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
@@ -110,7 +110,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "summary": "Disponível gratuitamente a partir de 28/05. Jogo de mistério, semana 22, jogo 1",
       "sources": [
         "Epic Games Store"
@@ -125,12 +125,222 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "summary": "Disponível gratuitamente a partir de 28/05. Jogo de mistério, semana 22, jogo 2",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/megasale-mysterygame-2026-week22-game2"
+    },
+    {
+      "id": "https://www.eurogamer.net/arkane-bladerunner-thief-4",
+      "title": "O desenvolvedor Dishonored Arkane Studios quase fez Thief 4 e um jogo Blade Runner",
+      "original_title": "Dishonored dev Arkane Studios nearly made Thief 4 and a Blade Runner game",
+      "image": "https://assetsio.gnwcdn.com/Screenshot-2026-05-25-at-13.45.43.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-05-25",
+      "summary": "O desenvolvedor de Redfall e Deathloop, Arkane, quase trabalhou em Thief 4 e em um jogo Blade Runner antes de fazer o primeiro Dishonored. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/arkane-bladerunner-thief-4"
+    },
+    {
+      "id": "https://www.eurogamer.net/paralives-perfect-tranquil-tonic-chaos-the-sims",
+      "title": "Paralives parece o tônico tranquilo perfeito para o caos do The Sims",
+      "original_title": "Paralives feels like the perfect tranquil tonic to the chaos of The Sims",
+      "image": "https://assetsio.gnwcdn.com/paralives-relax-header.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-05-25",
+      "summary": "Paralives teve um começo adorável. Desaparecemos e vemos a câmera acompanhando um trem em movimento enquanto ele serpenteia serenamente por uma paisagem bucólica. Lentamente ele se move para uma visão aérea e o teto se abre, revelando o guarda lá dentro. E este é o seu movimento...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/paralives-perfect-tranquil-tonic-chaos-the-sims"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tn51vc/potential_gta_6_feature_leaked_in_gta_online/",
+      "title": "Potencial recurso do GTA 6 vazou no GTA online? Número de identificação do veículo (VIN)",
+      "original_title": "Potential GTA 6 feature leaked in GTA online? Vehicle Identification Number (VIN)",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Rumor",
+      "date": "2026-05-25",
+      "summary": "Um jogador notou que o Coquette D10 da The Chop Shop tinha uma descrição de personalização incomumente detalhada da faixa solar mencionando o VIN do carro, ao contrário de qualquer outro veículo. Eles acreditam que pode ser código restante ou reutilizado acidentalmente de...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tn51vc/potential_gta_6_feature_leaked_in_gta_online/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1tmtg28/unreal_engine_6_coming_soon_already_does_that/",
+      "title": "Unreal Engine 6 já estará disponível em breve. isso significa que o aplicativo épico também será melhorado?",
+      "original_title": "Unreal Engine 6 coming soon already. does that mean the epic app will get improved too?",
+      "image": "https://preview.redd.it/nbw3aulyi63h1.png?width=640&crop=smart&auto=webp&s=c83b89cd2782b336d0329408f161b33a4686e1a1",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Epic News",
+      "date": "2026-05-25",
+      "summary": "ultimamente, o desempenho do aplicativo de jogos épicos está muito melhor do que antes, hoje em dia consome menos memória RAM (meu uso pessoal no Windows 10) em 2020, o épico pode levar 40 segundos, agora leva cerca de 8 segundos **instalado no SSD NVMe**, mas nos perguntaram...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1tmtg28/unreal_engine_6_coming_soon_already_does_that/"
+    },
+    {
+      "id": "https://www.techpowerup.com/349330/amd-zen-7-ip-to-use-tsmc-a14-node-and-more-advanced-packaging",
+      "title": "AMD “Zen 7” IP usará nó TSMC A14 e embalagens mais avançadas",
+      "original_title": "AMD \"Zen 7\" IP to Use TSMC A14 Node and More Advanced Packaging",
+      "image": "https://tpucdn.com/img/6OlwSncg2IKLnXz5_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-25",
+      "summary": "A AMD está gradualmente se preparando para lançar sua série de processadores “Zen 6” de próxima geração sob a nova família de CPU de servidor EPYC “Venice”. Enquanto isso, o desenvolvimento da arquitetura \"Zen 7\" já está em andamento há algum tempo e parece que finalmente estamos...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349330/amd-zen-7-ip-to-use-tsmc-a14-node-and-more-advanced-packaging"
+    },
+    {
+      "id": "https://www.techpowerup.com/349327/promise-technology-brings-sustainability-focus-to-ai-storage-at-computex-2026",
+      "title": "(PR) Promise Technology traz foco na sustentabilidade para armazenamento de IA na Computex 2026",
+      "original_title": "(PR) Promise Technology Brings Sustainability Focus to AI Storage at Computex 2026",
+      "image": "https://tpucdn.com/img/NSON3QH9xOLLryIz_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-25",
+      "summary": "A Promise Technology, inovadora global em soluções de armazenamento empresarial, anunciou que apresentará seu mais recente portfólio de armazenamento otimizado para IA na COMPUTEX 2026, destacando um foco estratégico em desempenho, expansão de armazenamento e eficiência energética. Ta...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349327/promise-technology-brings-sustainability-focus-to-ai-storage-at-computex-2026"
+    },
+    {
+      "id": "https://www.techpowerup.com/349325/combined-revenue-of-top-five-global-nand-flash-suppliers-rose-by-83-7-qoq-for-1q26-as-supply-shortages-drove-price-hikes",
+      "title": "(PR) A receita combinada dos cinco principais fornecedores globais de NAND Flash aumentou 83,7% no trimestre no 1T26, à medida que a escassez de fornecimento levou a aumentos de preços",
+      "original_title": "(PR) Combined Revenue of Top Five Global NAND Flash Suppliers Rose by 83.7% QoQ for 1Q26 as Supply Shortages Drove Price Hikes",
+      "image": "https://tpucdn.com/img/Lal9gouzcrbFLbBC_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-25",
+      "summary": "De acordo com a última pesquisa da TrendForce sobre a indústria NAND Flash, os CSPs em todo o mundo experimentaram um aumento exponencial na demanda por SSDs corporativos no 1T26 devido à necessidade de transmissão de dados em alta velocidade e às enormes capacidades de armazenamento de dados exigidas...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349325/combined-revenue-of-top-five-global-nand-flash-suppliers-rose-by-83-7-qoq-for-1q26-as-supply-shortages-drove-price-hikes"
+    },
+    {
+      "id": "https://www.techpowerup.com/349324/microsoft-copilot-returns-as-a-sidebar-in-windows-11",
+      "title": "Microsoft Copilot retorna como barra lateral no Windows 11",
+      "original_title": "Microsoft Copilot Returns as a Sidebar in Windows 11",
+      "image": "https://tpucdn.com/img/8xMLyUqCjFwkVYLl_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-25",
+      "summary": "A Microsoft ainda está experimentando como integrar seu Copilot AI ao sistema operacional Windows 11, e a empresa parece determinada a tornar seu companheiro de IA um recurso principal no desktop. De acordo com uma mudança que está acontecendo gradativamente...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349324/microsoft-copilot-returns-as-a-sidebar-in-windows-11"
+    },
+    {
+      "id": "https://www.techpowerup.com/349319/amds-china-exclusive-radeon-rx-9070-gre-may-launch-globally",
+      "title": "Radeon RX 9070 GRE exclusivo da AMD para a China pode ser lançado globalmente",
+      "original_title": "AMD's China-Exclusive Radeon RX 9070 GRE May Launch Globally",
+      "image": "https://tpucdn.com/img/pxlt5VPoAOUDztSG_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-25",
+      "summary": "A AMD parece estar se preparando para lançar seu Radeon RX 9070 GRE exclusivo para a China por meio de sua rede global de distribuidores, de acordo com VideoCardz. Uma imagem recente de uma edição Sapphire Radeon RX 9070 GRE PULSE mostra a embalagem com a marca inglesa, que...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349319/amds-china-exclusive-radeon-rx-9070-gre-may-launch-globally"
+    },
+    {
+      "id": "https://www.techpowerup.com/349234/einarex-introduces-the-halox-series-aio-liquid-cpu-coolers",
+      "title": "(PR) EINAREX apresenta os coolers líquidos para CPU AIO da série HALOX",
+      "original_title": "(PR) EINAREX Introduces the HALOX Series AIO Liquid CPU Coolers",
+      "image": "https://tpucdn.com/img/DzaPS0XCsBqztIvb_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-25",
+      "summary": "A EINAREX apresenta oficialmente o novo EINAREX HALOX, uma série completa de refrigeração líquida construída em torno de uma ideia não convencional: criar profundidade visual através da própria estrutura. Em vez de esconder sua forma interna atrás de superfícies sólidas, o HALOX adota um...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349234/einarex-introduces-the-halox-series-aio-liquid-cpu-coolers"
+    },
+    {
+      "id": "https://www.eurogamer.net/star-citizen-tops-1-billion-sells-5000-unflyable-spaceship",
+      "title": "Star Citizen atinge o marco de financiamento coletivo de US$ 1 bilhão quando a nave espacial “$ 5.000 JPEG” que você ainda não pode usar está à venda",
+      "original_title": "Star Citizen tops $1 billion crowdfunding milestone as \"$5000 JPEG\" spaceship you cannot use yet goes on sale",
+      "image": "https://assetsio.gnwcdn.com/Star-Citizen_bCEvDtA.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-05-24",
+      "summary": "É oficial: Star Citizen, simulador de ficção científica multijogador da Cloud Imperium Games, já ultrapassou US$ 1 bilhão em crowdfunding. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/star-citizen-tops-1-billion-sells-5000-unflyable-spaceship"
+    },
+    {
+      "id": "https://www.eurogamer.net/dead-by-daylight-jason-friday-13th",
+      "title": "Um dos personagens mais icônicos do terror está finalmente chegando a Dead by Daylight bem a tempo para seu décimo aniversário",
+      "original_title": "One of horror's most iconic characters is finally coming to Dead by Daylight just in time for its tenth anniversary",
+      "image": "https://assetsio.gnwcdn.com/Screenshot-2026-05-24-at-22.08.48.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-05-24",
+      "summary": "Sexta-feira 13 Jason Voorhees está finalmente se juntando às fileiras de Dead by Daylight. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/dead-by-daylight-jason-friday-13th"
+    },
+    {
+      "id": "https://www.eurogamer.net/007-first-light-leak",
+      "title": "Enquanto os primeiros 13 minutos de 007 First Light vazam online, a IO Interactive divulga a filmagem oficial da missão de abertura",
+      "original_title": "As 007 First Light's first 13 minutes leak online, IO Interactive drops official footage of the opening mission",
+      "image": "https://assetsio.gnwcdn.com/James-Bond-gun-barrel-opening-with-an-image-of-Bond-in-007-First-Light-wearing-a-black-DJ-overlaid-on-top.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Rumor",
+      "date": "2026-05-24",
+      "summary": "A IO Interactive compartilhou uma parte da missão de abertura de seu próximo jogo de James Bond, 007 First Light, depois que imagens vazaram online no fim de semana. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/007-first-light-leak"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tmbpi4/lego_batman_dlc_villains/",
+      "title": "Vilões DLC do LEGO Batman",
+      "original_title": "LEGO Batman DLC villains",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-05-24",
+      "summary": "Capangas da Força-Tarefa X: Bronze Tiger Capitão Bumerangue Pistoleiro Deathstroke Javelin Katana Killer Croc King Shark Lester (O Eletrocucionador?) Mongal Polka Dot Man Rick Flag A.R.G.U.S Cops Ally Goons for Joker & Harley Fonte enviada por /u/Con...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tmbpi4/lego_batman_dlc_villains/"
     },
     {
       "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tm3b42/007_first_lights_introduction_mission_iceland/",
@@ -148,19 +358,34 @@
       "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tm3b42/007_first_lights_introduction_mission_iceland/"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tmbpi4/lego_batman_dlc_villains/",
-      "title": "Vilões DLC do LEGO Batman",
-      "original_title": "LEGO Batman DLC villains",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1tmfhcx/weird_game_added_to_lobraru/",
+      "title": "Jogo estranho adicionado ao Lobraru",
+      "original_title": "Weird Game Added To Lobraru",
+      "image": "https://preview.redd.it/zzqpayrfu33h1.jpeg?width=640&crop=smart&auto=webp&s=1492fd7710e7706d2550a3641e2ef2ab05a34be2",
       "source_count": 1,
       "reliability": "Medium",
       "category": "News",
       "date": "2026-05-24",
-      "summary": "Capangas da Força-Tarefa X: Bronze Tiger Capitão Bumerangue Pistoleiro Deathstroke Javelin Katana Killer Croc King Shark Lester (O Eletrocucionador?) Mongal Polka Dot Man Rick Flag A.R.G.U.S Cops Ally Goons for Joker & Harley Fonte enviada por /u/Con...",
+      "summary": "Abri a Epic Games e encontrei esses dois jogos aqui. Eu não os comprei e esses jogos não têm nada no Google. O que é isso?    enviado por /u/Aecerius [link] [comentários] ...",
       "sources": [
-        "r/GamingLeaksAndRumours"
+        "r/EpicGamesPC"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tmbpi4/lego_batman_dlc_villains/"
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1tmfhcx/weird_game_added_to_lobraru/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1tmkcs0/when_will_be_epic_games_supported_on_linux/",
+      "title": "Quando os jogos épicos terão suporte no Linux?",
+      "original_title": "When will be epic games supported on linux?",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Epic News",
+      "date": "2026-05-24",
+      "summary": "quero usar Linux, mas metade dos meus jogos são épicos, não quero usar coisas de terceiros, estou curioso para saber se os jogos da Epic suportarão Linux nativamente enviado por /u/Remarkable-Year-9353 [link] [comentários]...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1tmkcs0/when_will_be_epic_games_supported_on_linux/"
     },
     {
       "id": "https://www.techpowerup.com/349312/this-week-in-gaming-week-22",
@@ -313,19 +538,19 @@
       "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tleeqe/asus_to_reveal_their_nextgen_handheld_at_computex/"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tl2t0j/kingdom_hearts_cloud_port_demos_have_been_removed/",
-      "title": "As demos da porta em nuvem de Kingdom Hearts foram removidas do switch eshop, possíveis novidades em breve?",
-      "original_title": "Kingdom Hearts cloud port demos have been removed from switch eshop, possible news coming soon?",
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1tlt80j/will_we_ever_have_profile_pics/",
+      "title": "Será que algum dia teremos fotos de perfil?",
+      "original_title": "Will we ever have profile pics?",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
       "category": "News",
       "date": "2026-05-23",
-      "summary": "Fonte eu mesmo verifiquei e é verdade, parece que eles estão preparando alguma coisa?    enviado por /u/InosukeEnjoyer [link] [comentários]...",
+      "summary": "É 2026, pessoal. O segundo maior lançador/loja de jogos não tem opção de foto de perfil. Estou cansado de ter foto prof padrão azul ahh em RL enviada por /u/Obvious_Ad_306 [link] [comentários]...",
       "sources": [
-        "r/GamingLeaksAndRumours"
+        "r/EpicGamesPC"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tl2t0j/kingdom_hearts_cloud_port_demos_have_been_removed/"
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1tlt80j/will_we_ever_have_profile_pics/"
     },
     {
       "id": "https://www.reddit.com/r/EpicGamesPC/comments/1tlaqx1/appear_offline_feature_on_epic/",
@@ -341,21 +566,6 @@
         "r/EpicGamesPC"
       ],
       "url": "https://www.reddit.com/r/EpicGamesPC/comments/1tlaqx1/appear_offline_feature_on_epic/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1tlt80j/will_we_ever_have_profile_pics/",
-      "title": "Será que algum dia teremos fotos de perfil?",
-      "original_title": "Will we ever have profile pics?",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-23",
-      "summary": "É 2026, pessoal. O segundo maior lançador/loja de jogos não tem opção de foto de perfil. Estou cansado de ter foto prof padrão azul ahh em RL enviada por /u/Obvious_Ad_306 [link] [comentários]...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1tlt80j/will_we_ever_have_profile_pics/"
     },
     {
       "id": "https://www.reddit.com/r/FreeGameFindings/comments/1tl9jix/itchiogame_svoboda_1945_liberation/",
@@ -433,19 +643,19 @@
       "url": "https://www.techpowerup.com/349301/forza-horizon-6-nears-5-million-sales-42-on-xbox"
     },
     {
-      "id": "https://www.techpowerup.com/349300/subnautica-2-continues-impressive-sales-crosses-4-million-units-despite-no-violence-and-eula",
-      "title": "Subnautica 2 continua com vendas impressionantes, ultrapassa 4 milhões de unidades apesar de “No Violence” e EULA",
-      "original_title": "Subnautica 2 Continues Impressive Sales, Crosses 4 Million Units Despite \"No Violence\" and EULA",
-      "image": "https://tpucdn.com/img/dAOmJWV93KtjxLeB_thm.jpg",
+      "id": "https://www.techpowerup.com/349084/for-only-usd-10-windows-11-pro-adds-better-productivity-features-and-security",
+      "title": "Por apenas US$ 10, o Windows 11 Pro adiciona melhores recursos de produtividade e segurança",
+      "original_title": "For Only $10, Windows 11 Pro Adds Better Productivity Features and Security",
+      "image": "https://tpucdn.com/img/2DCeg9bDMLLnZTEh_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-05-23",
-      "summary": "Antes mesmo do dia do lançamento terminar, Subnautica 2 já havia ultrapassado 2 milhões de vendas, com recordes de contagem de jogadores simultâneos igualmente impressionantes. Agora, menos de uma semana após o lançamento, Unknown Worlds revelou (via Gematsu) que o jogo de sobrevivência...",
+      "summary": "Sistemas operacionais mais antigos podem diminuir a produtividade com interfaces desatualizadas, proteções de segurança mais fracas e recursos multitarefa limitados. O Microsoft Windows 11 Pro foi projetado para modernizar PCs compatíveis com uma interface mais limpa e produtividade atualizada...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/349300/subnautica-2-continues-impressive-sales-crosses-4-million-units-despite-no-violence-and-eula"
+      "url": "https://www.techpowerup.com/349084/for-only-usd-10-windows-11-pro-adds-better-productivity-features-and-security"
     },
     {
       "id": "https://www.eurogamer.net/final-fantasy-7-remake-part-3-chadley",
@@ -461,96 +671,6 @@
         "Eurogamer"
       ],
       "url": "https://www.eurogamer.net/final-fantasy-7-remake-part-3-chadley"
-    },
-    {
-      "id": "https://www.eurogamer.net/call-of-duty-2026-modern-warfare-definitive",
-      "title": "Call of Duty 2026 é um novo Modern Warfare, e a Infinity Ward promete que será uma entrada “definitiva”",
-      "original_title": "Call of Duty 2026 is a new Modern Warfare, and Infinity Ward promises it'll be a \"definitive\" entry",
-      "image": "https://assetsio.gnwcdn.com/cod-2026.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-05-22",
-      "summary": "Já sabemos algumas coisas sobre o jogo Call of Duty deste ano. No início deste ano, a Activision confirmou que o jogo iria pular o PS4 e o Xbox One (algo que não era verdade no Black Ops 7 do ano passado). Também houve rumores de que o jogo...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/call-of-duty-2026-modern-warfare-definitive"
-    },
-    {
-      "id": "https://www.eurogamer.net/switch-2-production-ramps-up-march-2027",
-      "title": "Aumentos de preços? Que preço sobe? A Nintendo supostamente está aumentando a produção do Switch 2, com o objetivo de produzir 20 milhões de consoles até março de 2027",
-      "original_title": "Price rises? What price rises? Nintendo reportedly ramping up Switch 2 production, aiming to produce 20 million consoles by March 2027",
-      "image": "https://assetsio.gnwcdn.com/stonks-s2.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-05-22",
-      "summary": "A Nintendo pretende produzir unidades Switch 2 de 20m francamente impressionantes até o final do atual ano fiscal (março de 2027), de acordo com um relatório da Bloomberg. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/switch-2-production-ramps-up-march-2027"
-    },
-    {
-      "id": "https://www.eurogamer.net/gta-6-release-date-reaffirmed",
-      "title": "Não se preocupe, GTA 6 ainda está planejado para novembro, o impulso de marketing começará neste verão",
-      "original_title": "Don't worry, GTA 6 is still planned for November, marketing push will begin this summer",
-      "image": "https://assetsio.gnwcdn.com/Lucia-in-GTA-6-using-a-punch-bag.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-05-22",
-      "summary": "Eu sei, eu sei, sempre que você vê uma manchete do GTA no momento, você está esperando um novo trailer, certo? Atualmente, há uma grande parte da Internet obcecada com a ideia de que obteremos o preço de varejo do GTA 6 e seu terceiro trailer a qualquer momento. Um...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/gta-6-release-date-reaffirmed"
-    },
-    {
-      "id": "https://www.eurogamer.net/destiny-2-live-service-layoffs-destiny-3",
-      "title": "A Bungie está de olho em demissões “significativas”, sem planos para Destiny 3: o que acontece após a atualização final de Destiny 2 em junho?",
-      "original_title": "Bungie reportedly eyeing up \"significant\" layoffs, no plans for Destiny 3: what happens after Destiny 2's final update in June?",
-      "image": "https://assetsio.gnwcdn.com/d2-header.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-05-22",
-      "summary": "Durante a noite, o desenvolvedor de Halo e Destiny, Bungie, anunciou o fim das atualizações de conteúdo para o jogo de tiro ao vivo Destiny 2. Quase nove anos após o lançamento, e após uma miríade de atualizações de conteúdo e mudanças de monetização, o desenvolvedor encerrou o dia...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/destiny-2-live-service-layoffs-destiny-3"
-    },
-    {
-      "id": "https://www.eurogamer.net/troy-baker-ai-art-doesnt-innovate-interview",
-      "title": "\"Ele emula e replica, mas não inova\" - Troy Baker não tem medo da 'arte da IA', porque ele não acredita que ela possa realmente existir",
-      "original_title": "\"It emulates and it replicates, but it doesn't innovate\" - Troy Baker isn't afraid of 'AI art', because he doesn't believe it can ever actually exist",
-      "image": "https://assetsio.gnwcdn.com/troy-baker-header.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-05-22",
-      "summary": "Troy Baker é um dos atores mais conhecidos dos videogames, com créditos que vão desde o Coringa do Batman até Joel de The Last of Us, e muitos mais entre eles. Junto com papéis principais em franquias estabelecidas, como o protagonista de Indiana Jones e...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/troy-baker-ai-art-doesnt-innovate-interview"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1tk7w9w/fix_for_tomb_raider_i_iii_remastered_stuck_in_gym/",
-      "title": "*FIX* Para Tomb Raider I - III Remasterizado bug preso no traje de ginástica",
-      "original_title": "*FIX* For Tomb Raider I - III Remastered Stuck In Gym Outfit Bug",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-22",
-      "summary": "Postando isso aqui porque não consegui encontrar mais ninguém postando essa correção. Acabei de instalar o jogo (Obrigado, EPIC!!) e descobri em 2 minutos um bug que veio com um patch recente, que arruinaria a imersão no jogo para mim pessoalmente quando...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1tk7w9w/fix_for_tomb_raider_i_iii_remastered_stuck_in_gym/"
     },
     {
       "id": "https://www.reddit.com/r/FreeGameFindings/comments/1tkoy52/steam_game_bunny_guys/",
@@ -581,216 +701,6 @@
         "r/FreeGameFindings"
       ],
       "url": "https://www.reddit.com/r/FreeGameFindings/comments/1tkoy92/steamgame_bunny_hurling/"
-    },
-    {
-      "id": "https://www.techpowerup.com/349296/steam-controller-gets-hid-remapper-support-for-3rd-party-compatibility",
-      "title": "Steam Controller obtém suporte HID Remapper para compatibilidade de terceiros",
-      "original_title": "Steam Controller Gets HID Remapper Support for 3rd-Party Compatibility",
-      "image": "https://tpucdn.com/img/T7BK6sX3YVDGfuIb_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-22",
-      "summary": "HID Remapper é um projeto de código aberto e independente de hardware que torna os dispositivos de entrada remapeáveis ​​com um adaptador USB de hardware que fica entre o dispositivo de entrada e o dispositivo host e converte as entradas do controlador em um sinal compatível ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349296/steam-controller-gets-hid-remapper-support-for-3rd-party-compatibility"
-    },
-    {
-      "id": "https://www.techpowerup.com/348933/stop-paying-for-microsoft-365-the-newest-office-is-usd-130",
-      "title": "Pare de pagar pelo Microsoft 365 – o mais novo Office custa US$ 130",
-      "original_title": "Stop Paying for Microsoft 365—The Newest Office is $130",
-      "image": "https://tpucdn.com/img/mbJM7RrYig5TageL_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-22",
-      "summary": "O cansaço das assinaturas é real, especialmente quando se trata de software que você usa todos os dias. O Microsoft 365 custa de US$ 69,99 a US$ 99,99 anualmente, o que significa que você gastará facilmente de US$ 200 a US$ 400 em alguns anos apenas para continuar usando o Word e o Excel. O Microsoft Office...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/348933/stop-paying-for-microsoft-365-the-newest-office-is-usd-130"
-    },
-    {
-      "id": "https://www.techpowerup.com/349295/fable-to-launch-cross-platform-despite-xbox-gaming-reevaluating-exclusives",
-      "title": "Fable lançará plataforma cruzada apesar dos jogos do Xbox reavaliarem exclusividades",
-      "original_title": "Fable To Launch Cross-Platform Despite Xbox Gaming Reevaluating Exclusives",
-      "image": "https://tpucdn.com/img/HNXRnUshUNbWGsHi_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-22",
-      "summary": "Desde os recentes rumores sobre o retorno de jogos exclusivos de ambos os lados do campo de batalha da guerra de consoles, tem havido dúvidas sobre a estratégia de lançamento de certos jogos multiplataforma. Um desses jogos que levantou dúvidas é o Playground...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349295/fable-to-launch-cross-platform-despite-xbox-gaming-reevaluating-exclusives"
-    },
-    {
-      "id": "https://www.techpowerup.com/349293/steam-controller-charging-puck-may-lack-protection-redditor-nearly-starts-fire-with-short-circuit",
-      "title": "O disco de carregamento do controlador Steam pode não ter proteção – Reddit quase inicia fogo com curto-circuito",
-      "original_title": "Steam Controller Charging Puck May Lack Protection—Redditor Nearly Starts Fire With Short Circuit",
-      "image": "https://tpucdn.com/img/9ua081x3SsmzOuJJ_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-22",
-      "summary": "O Steam Controller da Valve não está disponível há um mês, e um usuário já tocou o alarme no disco de carregamento do controlador, que expôs os pinos de alimentação para carregar o controlador de jogo sem fio. Um usuário do Reddit, u/Toikka, po...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349293/steam-controller-charging-puck-may-lack-protection-redditor-nearly-starts-fire-with-short-circuit"
-    },
-    {
-      "id": "https://www.techpowerup.com/349291/bungie-slated-to-lay-off-destiny-2-staff-no-sequel-on-the-cards",
-      "title": "Bungie está programada para demitir funcionários de Destiny 2, sem sequência nos planos",
-      "original_title": "Bungie Slated To Lay Off Destiny 2 Staff, No Sequel On the Cards",
-      "image": "https://tpucdn.com/img/T62P25Mqao8kdbTQ_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-22",
-      "summary": "A Bungie anunciou recentemente que interromperia o trabalho de desenvolvimento de Destiny 2 em junho de 2026 e, embora rumores anteriores sugerissem que Destiny 3 estava nos estágios iniciais de desenvolvimento, parece que foi tomada a decisão de arquivar esse projeto...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349291/bungie-slated-to-lay-off-destiny-2-staff-no-sequel-on-the-cards"
-    },
-    {
-      "id": "https://www.techpowerup.com/349084/for-only-usd-10-windows-11-pro-adds-better-productivity-features-and-security",
-      "title": "Por apenas US$ 10, o Windows 11 Pro adiciona melhores recursos de produtividade e segurança",
-      "original_title": "For Only $10, Windows 11 Pro Adds Better Productivity Features and Security",
-      "image": "https://tpucdn.com/img/2DCeg9bDMLLnZTEh_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-22",
-      "summary": "Sistemas operacionais mais antigos podem diminuir a produtividade com interfaces desatualizadas, proteções de segurança mais fracas e recursos multitarefa limitados. O Microsoft Windows 11 Pro foi projetado para modernizar PCs compatíveis com uma interface mais limpa e produtividade atualizada...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349084/for-only-usd-10-windows-11-pro-adds-better-productivity-features-and-security"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1tjlu6f/pc_freebiedown_in_bermuda_tomb_raider_iiii/",
-      "title": "PC Freebie｜Down in Bermuda e Tomb Raider I-III Remasterizado, estrelado por Lara Croft",
-      "original_title": "PC Freebie｜Down in Bermuda & Tomb Raider I-III Remastered Starring Lara Croft",
-      "image": "https://preview.redd.it/0niozmp51i2h1.png?width=640&crop=smart&auto=webp&s=304fb5f1f5ab14e15901e30dc7b3428fadc1760a",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-21",
-      "summary": "enviado por /u/MeguminShiro [link] [comentários] ...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1tjlu6f/pc_freebiedown_in_bermuda_tomb_raider_iiii/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1tjz7m7/is_it_just_me_or_did_they_bring_back_the_old_way/",
-      "title": "Sou só eu ou eles trouxeram de volta a maneira antiga de obter jogos grátis?",
-      "original_title": "Is It just me, or did they bring back the old way to get free games?",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-21",
-      "summary": "Antes você poderia pressionar obter jogo, então você o conseguiria, mas agora você será levado para a página antiga.    enviado por /u/TheUnknownD [link] [comentários]...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1tjz7m7/is_it_just_me_or_did_they_bring_back_the_old_way/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1tjsjae/the_first_one_gives_me_sea_of_thieves_vibes_any/",
-      "title": "O primeiro me dá vibrações de Sea of ​​​​Thieves. algum palpite de sua parte?",
-      "original_title": "The first one gives me Sea of Thieves vibes. any guesses on your end?",
-      "image": "https://preview.redd.it/jcfbnw6i4j2h1.png?width=320&crop=smart&auto=webp&s=ead98ae603eb1abe4a09c45bc21b5b0dae9ac078",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-21",
-      "summary": "enviado por /u/Puzzleheaded_irl [link] [comentários] ...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1tjsjae/the_first_one_gives_me_sea_of_thieves_vibes_any/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1tjm3kt/next_pc_freebiemystery_game_5_6/",
-      "title": "Próximo brinde para PC｜Jogo misterioso nº 5 e nº 6",
-      "original_title": "Next PC Freebie｜Mystery Game #5 & #6",
-      "image": "https://preview.redd.it/ze259gkq2i2h1.png?width=640&crop=smart&auto=webp&s=e377028277063cf06e156914137135e916e6f1f9",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-21",
-      "summary": "enviado por /u/MeguminShiro [link] [comentários] ...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1tjm3kt/next_pc_freebiemystery_game_5_6/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1tjrax0/interpreting_what_i_see_in_the_new_hints_for_5/",
-      "title": "Interpretando o que vejo nas novas dicas para #5 e #6",
-      "original_title": "Interpreting what I see in the new hints for #5 and #6",
-      "image": "https://preview.redd.it/agyor6sxxi2h1.png?width=640&crop=smart&auto=webp&s=47910ea540314b90874508b9712ee0e7bff372ab",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-21",
-      "summary": "O chapéu/barco é o mais óbvio e fácil, não tenho certeza sobre a coisa com aparência de palácio enviada por /u/Red-jo [link] [comments] ...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1tjrax0/interpreting_what_i_see_in_the_new_hints_for_5/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1tjqp8x/steam_game_car_mechanic_simulator_2018/",
-      "title": "[Steam] (Jogo) Simulador de mecânico de automóveis 2018",
-      "original_title": "[Steam] (Game) Car Mechanic Simulator 2018",
-      "image": "https://external-preview.redd.it/hpQ8BPWJoHlKGytpUJRjxxG_JRxujhyKnf36_2-oe3Q.jpeg?width=320&crop=smart&auto=webp&s=bb2fbe371409246f5425e7265423cc49a11a6074",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-05-21",
-      "summary": "enviado por /u/iambaldy [link] [comentários] ...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1tjqp8x/steam_game_car_mechanic_simulator_2018/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1tjxo3x/gog_other_warhammer_skulls_2026_digital_goodie_bag/",
-      "title": "[GOG] (Outro) Sacola Digital Warhammer Skulls 2026",
-      "original_title": "[GOG] (Other) Warhammer Skulls 2026 Digital Goodie Bag",
-      "image": "https://external-preview.redd.it/5w4x_26OtaHZtOqaow6ZD23Opflamr6JAyzLnahuSY0.jpeg?width=640&crop=smart&auto=webp&s=c357eda410ff1198ef743046e783ea88cb4d495e",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-05-21",
-      "summary": "enviado por /u/Responsible-River653 [link] [comentários] ...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1tjxo3x/gog_other_warhammer_skulls_2026_digital_goodie_bag/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1tjn55w/epic_games_game_tomb_raider_iiii_remastered/",
-      "title": "[Epic Games] (Jogo) Tomb Raider I-III Remasterizado, estrelado por Lara Croft",
-      "original_title": "[Epic Games] (Game) Tomb Raider I-III Remastered Starring Lara Croft",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-05-21",
-      "summary": "enviado por /u/el9in [link] [comentários]...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1tjn55w/epic_games_game_tomb_raider_iiii_remastered/"
     }
   ]
 }
