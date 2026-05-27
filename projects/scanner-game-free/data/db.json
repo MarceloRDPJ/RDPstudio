@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-05-26T15:28:05",
-  "display_date": "26/05/2026 15:28",
+  "last_updated": "2026-05-27T15:41:21",
+  "display_date": "27/05/2026 15:41",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "64ms",
+    "latency": "157ms",
     "current_games": [
       {
         "title": "Down in Bermuda",
@@ -65,7 +65,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-05-26",
+      "date": "2026-05-27",
       "summary": "Nas Bermudas",
       "sources": [
         "Epic Games Store"
@@ -80,7 +80,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-05-26",
+      "date": "2026-05-27",
       "summary": "Tomb Raider I-III Remasterizado, estrelado por Lara Croft",
       "sources": [
         "Epic Games Store"
@@ -95,7 +95,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-05-26",
+      "date": "2026-05-27",
       "summary": "Disponível gratuitamente a partir de 16/09. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
@@ -110,7 +110,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-05-26",
+      "date": "2026-05-27",
       "summary": "Disponível gratuitamente a partir de 28/05. Jogo de mistério, semana 22, jogo 1",
       "sources": [
         "Epic Games Store"
@@ -125,7 +125,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-05-26",
+      "date": "2026-05-27",
       "summary": "Disponível gratuitamente a partir de 28/05. Jogo de mistério, semana 22, jogo 2",
       "sources": [
         "Epic Games Store"
@@ -133,184 +133,499 @@
       "url": "https://store.epicgames.com/p/megasale-mysterygame-2026-week22-game2"
     },
     {
-      "id": "https://www.eurogamer.net/marvel-rivals-exploiters-cheats-named-shamed",
-      "title": "Centenas de cheats do Marvel Rivals nomeados e envergonhados em “uma expurgação imediata e direcionada”",
-      "original_title": "Hundreds of Marvel Rivals cheats named and shamed in \"an immediate, targeted purge\"",
-      "image": "https://assetsio.gnwcdn.com/marvel-rivals_ltROskf.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/forza-horizon-6-bowieknife99-viral",
+      "title": "“Esperando sermos poupados” – A saga bowieknife99 em Forza Horizon 6 continua enquanto a lenda urbana se torna viral e o Walmart proíbe o misterioso piloto",
+      "original_title": "\"Hoping we'll be spared\" - The bowieknife99 saga in Forza Horizon 6 continues as the urban legend goes viral and Walmart bans the mysterious racer",
+      "image": "https://assetsio.gnwcdn.com/Forza-Horizon-6_BS1HQnI.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-05-26",
-      "summary": "Quase 500 jogadores do Marvel Rivals foram nomeados, envergonhados e banidos em “um expurgo direcionado” pela NetEase após suas explorações após uma atualização recente do jogo. Leia mais...",
+      "date": "2026-05-27",
+      "summary": "Forza Horizon 6 é incrível, mas há um piloto de IA ‘drivatar’ recorrente que torna as coisas mais difíceis para muitos pilotos. O apelido deles é bowieknife99, e eles causaram confusão suficiente para se tornarem uma espécie de lenda urbana. Agora, o mito se tornou viral. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/marvel-rivals-exploiters-cheats-named-shamed"
+      "url": "https://www.eurogamer.net/forza-horizon-6-bowieknife99-viral"
     },
     {
-      "id": "https://www.eurogamer.net/here-are-our-ps-plus-monthly-games-for-june-with-an-xbox-title-headlining",
-      "title": "Aqui estão nossos jogos mensais do PS Plus para junho, com um título do Xbox como atração principal",
-      "original_title": "Here are our PS Plus monthly games for June, with an Xbox title headlining",
-      "image": "https://assetsio.gnwcdn.com/Screenshot-from-Grounded-showing-a-small-human-in-the-back-garden-with-a-PS-Plus-logo-overlaid-to-the-side.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/destruction-allstars-online-servers-shutdown",
+      "title": "Outro jogo de serviço ao vivo trava quando a Sony desliga os servidores do Destruction AllStars exclusivo do PS5",
+      "original_title": "Another live service game crashes as Sony switches off servers for PS5 exclusive Destruction AllStars",
+      "image": "https://assetsio.gnwcdn.com/destruction-all-starts.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-05-26",
-      "summary": "Estamos à beira de mais um mês, e isso significa outro lote de jogos para PlayStation Plus, e hoje a Sony revelou o que está reservado para todos os assinantes em junho, com um jogo de propriedade do Xbox sendo a atração principal da programação. Leia mais...",
+      "date": "2026-05-27",
+      "summary": "A Sony encerrou abruptamente os serviços multijogador para o lançamento exclusivo do PlayStation 5, Destruction AllStars, e parece que eles nunca mais voltarão. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/here-are-our-ps-plus-monthly-games-for-june-with-an-xbox-title-headlining"
+      "url": "https://www.eurogamer.net/destruction-allstars-online-servers-shutdown"
     },
     {
-      "id": "https://www.eurogamer.net/elden-ring-movie-set-video-conwy-castle",
-      "title": "Novo vídeo do set de filmagem de Elden Ring aparentemente confirma a presença de inimigos no início do jogo e um castelo familiar",
-      "original_title": "New video from Elden Ring movie set seemingly confirms the presence of early game foes and a familiar castle",
-      "image": "https://assetsio.gnwcdn.com/Elden-Ring_Stormveil.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/hideo-kojima-nicolas-winding-refn-ai-short",
+      "title": "Hideo Kojima e Nicolas Winding Refn se uniram para um teaser do evento do modo Prada explorando “novas possibilidades criativas através da tecnologia de IA”",
+      "original_title": "Hideo Kojima and Nicolas Winding Refn have teamed up for a Prada mode event teaser exploring \"new creative possibilities through AI technology\"",
+      "image": "https://assetsio.gnwcdn.com/Prada_NWRxKojima.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-05-26",
-      "summary": "A produção do filme Elden Ring de Alex Garland – que é, pelo menos parcialmente, uma prequela do RPG da FromSoftware – está progredindo bem. Até Dung Eater aparentemente está presente, então os fãs estão esperando uma adaptação bastante fiel. Agora, a última sugestão de vídeo do set...",
+      "date": "2026-05-27",
+      "summary": "Hideo Kojima e o cineasta Nicolas Winding Refn se uniram novamente após Death Stranding 2, mas não estão trabalhando em um novo jogo ou filme. Em vez disso, eles lançaram um curta feito com a ajuda de ferramentas de IA para a Prada. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/elden-ring-movie-set-video-conwy-castle"
+      "url": "https://www.eurogamer.net/hideo-kojima-nicolas-winding-refn-ai-short"
     },
     {
-      "id": "https://www.eurogamer.net/007-first-light-review",
-      "title": "Revisão da Primeira Luz 007",
-      "original_title": "007 First Light review",
-      "image": "https://assetsio.gnwcdn.com/007-First-Light-review-header.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/no-mans-sky-swarm-update",
+      "title": "No Man's Sky vai para a guerra enquanto a atualização do Swarm traz ameaças de fim de universo, batalhas espaciais de cem naves e um toque de… Splatoon?",
+      "original_title": "No Man's Sky goes to war as Swarm update brings universe-ending threat, hundred-ship space battles, and a splash of… Splatoon?",
+      "image": "https://assetsio.gnwcdn.com/no-mans-sky-swarm-update-header-correction.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-05-26",
-      "summary": "A magia de 007 First Light está no blefe. Quando o jovem James Bond da IO Interactive é pego mais uma vez tentando se esgueirar por alguma área restrita, ele tem inúmeras maneiras de resolver a situação. Gadgets. Punhos. Armas. O que quer que esteja deitado no n...",
+      "date": "2026-05-27",
+      "summary": "Mesmo que você não esteja muito familiarizado com a tradição de No Man's Sky, provavelmente já ouviu pelo menos uma menção no jogo ao World of Glass, uma espécie de vida após a morte arquivada ligada à malfadada simulação exploratória do jogo de ficção científica. E em sua última atualização...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/007-first-light-review"
+      "url": "https://www.eurogamer.net/no-mans-sky-swarm-update"
     },
     {
-      "id": "https://www.eurogamer.net/planet-zoo-2-reveal-tease-youtube",
-      "title": "Parece que a revelação do Planet Zoo 2 pode estar chegando",
-      "original_title": "It looks like a Planet Zoo 2 reveal could be just around the corner",
-      "image": "https://assetsio.gnwcdn.com/planet-zoo-birthday-penguins.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/mina-the-hollower-impressions-wonder",
+      "title": "Mina the Hollower é um mundo de maravilhas complexas de 8 bits",
+      "original_title": "Mina the Hollower is an 8-bit world of complex wonder",
+      "image": "https://assetsio.gnwcdn.com/mina-the-hollower-9.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-05-26",
-      "summary": "Já sabíamos que isso aconteceria graças a uma provocação rápida e ao anúncio subsequente no ano passado, mas parece que uma revelação adequada do Planet Zoo 2 poderia ser iminente se uma atualização na página oficial da série no YouTube servir de indicação. Leia mais...",
+      "date": "2026-05-27",
+      "summary": "Meu momento favorito em The Legend of Zelda: Link's Awakening acontece em uma biblioteca. Você está vagando entre as pilhas, tentando aprender mais sobre esta estranha ilha em que foi parar, quando espia um livro que está escondido no alto, preso no topo...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/planet-zoo-2-reveal-tease-youtube"
+      "url": "https://www.eurogamer.net/mina-the-hollower-impressions-wonder"
     },
     {
-      "id": "https://www.eurogamer.net/forza-horizon-6-drivatar-crisis",
-      "title": "Os jogadores do Forza Horizon 6 estão sendo atormentados pelo ‘drivatar’ bowieknife99, mas o verdadeiro piloto por trás do bot permanece um mistério",
-      "original_title": "Forza Horizon 6 players are being tormented by 'drivatar' bowieknife99, but the real racer behind the bot remains a mystery",
-      "image": "https://assetsio.gnwcdn.com/FH6-snow-race.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/resident-evil-requiem-finally-has-a-free-pc-and-console-demo-three-months-after-the-full-game-released",
+      "title": "Resident Evil Requiem finalmente tem uma demo gratuita para PC e console, três meses após o lançamento do jogo completo",
+      "original_title": "Resident Evil Requiem finally has a free PC and console demo, three months after the full game released",
+      "image": "https://assetsio.gnwcdn.com/Grace-from-Resident-Evil-Requiem-posing-in-the-game's-photo-mode-with-three-stars-around-her.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-05-26",
-      "summary": "Forza Horizon 6 é um ótimo momento em uma réplica extremamente detalhada do Japão, mas um único ‘drivatar’ está causando confusão em todo o jogo de corrida, com a comunidade agora se organizando para acabar com seu reinado de terror e aprender mais sobre suas origens. Leia mais...",
+      "date": "2026-05-27",
+      "summary": "Três meses após seu lançamento completo, a Capcom anunciou uma demo de Resident Evil Requiem. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/forza-horizon-6-drivatar-crisis"
+      "url": "https://www.eurogamer.net/resident-evil-requiem-finally-has-a-free-pc-and-console-demo-three-months-after-the-full-game-released"
     },
     {
-      "id": "https://www.eurogamer.net/kingdom-come-deliverance-3-release-window",
-      "title": "Um terceiro RPG de Kingdom Come pode ser lançado mais cedo do que você pensa",
-      "original_title": "A third Kingdom Come RPG may be released sooner than you think",
-      "image": "https://assetsio.gnwcdn.com/kingdom-come-dlieverance.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/pokemon-games-tcg-sales-2026",
+      "title": "As vendas de jogos Pokémon ultrapassam 515 milhões de unidades, enquanto a The Pokémon Company espera Winds and Waves no próximo ano, e a produção de TCG também está aumentando",
+      "original_title": "Pokémon game sales cross 515m units as The Pokémon Company looks to Winds and Waves next year, and TCG production is ramping up too",
+      "image": "https://assetsio.gnwcdn.com/Pokemon_money_custom_WindyWavychu.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-05-26",
-      "summary": "O próximo jogo da série de RPG Kingdom Come: Deliverance será - conforme os planos - será lançado surpreendentemente em breve. O desenvolvedor Warhorse Studios disse que sua meta atual é o próximo ano financeiro. Leia mais...",
+      "date": "2026-05-27",
+      "summary": "Pokémon Winds and Waves será sem dúvida enorme quando os dois jogos forem lançados no Nintendo Switch 2 em 2027, mas Pokémon está prosperando independentemente do que está acontecendo na série principal. Legends: Z-A teve uma estreia matadora no ano passado, e você não precisa que nós...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/kingdom-come-deliverance-3-release-window"
+      "url": "https://www.eurogamer.net/pokemon-games-tcg-sales-2026"
     },
     {
-      "id": "https://www.eurogamer.net/destiny-3-online-petition",
-      "title": "À medida que uma petição online para Destiny 3 ganha força, relatórios sugerem que a equipe da Bungie não sabia sobre o fim de Destiny 2 até o anúncio público",
-      "original_title": "As an online petition for Destiny 3 gains traction, reports suggest Bungie staff didn't know about the end of Destiny 2 until the public announcement",
-      "image": "https://assetsio.gnwcdn.com/ss_d230d30da82a7b92c842e7447ee5a8458b866251.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/the-witcher-3-minimum-pc-requirements-change",
+      "title": "Os requisitos mínimos do PC para Witcher 3 aumentam significativamente antes da nova expansão, forçando você a usar o Windows 11 e um SSD",
+      "original_title": "The Witcher 3 minimum PC requirements rise significantly ahead of new expansion, forcing you to use Windows 11 and an SSD",
+      "image": "https://assetsio.gnwcdn.com/witcher-3-geralt-songs-of-past-expansion.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-05-26",
-      "summary": "O maior choque da semana passada foi a morte prematura de Destiny 2, que receberá sua última atualização de conteúdo no início de junho, antes de entrar no modo de suporte de vida. Agora, estamos obtendo mais detalhes sobre como tudo aconteceu na Bungie e aprendemos...",
+      "date": "2026-05-27",
+      "summary": "O CD Projekt Red atualizou os requisitos mínimos de sistema para The Witcher: Wild Hunt no PC, principalmente encerrando o suporte para unidades de disco rígido e Windows 10. Somente unidades de estado sólido e Windows 11 serão suportados daqui para frente. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/destiny-3-online-petition"
+      "url": "https://www.eurogamer.net/the-witcher-3-minimum-pc-requirements-change"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tnz85c/lego_skylines_by_paradox_interactive_persona_4/",
-      "title": "LEGO Skylines da Paradox Interactive, Persona 4 Revival e mais avaliados na Coreia",
-      "original_title": "LEGO Skylines by Paradox Interactive, Persona 4 Revival, and more rated in Korea",
+      "id": "https://www.eurogamer.net/gta-5-rage-mp-mod-service-shutting-down",
+      "title": "Outro serviço de mod multijogador GTA 5 está sendo encerrado enquanto a Take-Two e a Rockstar pressionam para consolidar o modding em torno do FiveM",
+      "original_title": "Another GTA 5 multiplayer mod service is shutting down as Take-Two and Rockstar push to consolidate modding around FiveM",
+      "image": "https://assetsio.gnwcdn.com/grand-theft-auto-5s-latest-pc-screenshots-sure-are-a-looker-142748226146.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-05-27",
+      "summary": "Enquanto aguardamos ansiosamente o início do impulso de marketing do GTA 6, Grand Theft Auto 5 e GTA Online continuam a ganhar milhões de dólares todos os meses, por isso não é surpreendente ver a Take-Two pressionar para consolidar mods multijogador em torno de FiveM, a plataforma que adquiriu.",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/gta-5-rage-mp-mod-service-shutting-down"
+    },
+    {
+      "id": "https://www.eurogamer.net/marathon-season-2-cinematic-trailer",
+      "title": "O trailer cinematográfico da 2ª temporada de Marathon promete que as coisas estão prestes a ficar mais assustadoras em Tau Ceti IV: “Moon’s EXTRA assombrado”",
+      "original_title": "Marathon's Season 2 cinematic trailer promises things are about to get spookier on Tau Ceti IV: \"Moon's EXTRA haunted\"",
+      "image": "https://assetsio.gnwcdn.com/MarathonS2_cinematic.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-05-27",
+      "summary": "Marathon continua a crescer, mesmo com Destiny 2 prestes a ser lançado. Após o anúncio oficial da 2ª temporada no início deste mês, o trailer cinematográfico promete que o atirador de extração ficará ainda mais assustador neste verão. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/marathon-season-2-cinematic-trailer"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tp00jx/the_witcher_3_songs_of_the_past_expansion/",
+      "title": "The Witcher 3 – Expansão Songs of the Past anunciada",
+      "original_title": "The Witcher 3 - Songs of the Past Expansion announced",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-05-27",
+      "summary": "https://xcancel.com/thewitcher/status/2059560461872373812 O zumbido do medalhão... isso só pode significar uma coisa! É hora de anunciar The Witcher 3: Wild Hunt – Songs of the Past! Esta nova expansão para The Witcher 3: Wild Hunt levará você a...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tp00jx/the_witcher_3_songs_of_the_past_expansion/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tp5qzi/billbilkun_call_of_duty_modern_warfare_4_cover/",
+      "title": "Billbil-kun: Revelação da arte da capa de Call of Duty: Modern Warfare 4 (desfocada)",
+      "original_title": "billbil-kun: Call of Duty: Modern Warfare 4 Cover art reveal (blurred)",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-05-27",
+      "summary": "fonte enviada por /u/KekanKok [link] [comentários]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tp5qzi/billbilkun_call_of_duty_modern_warfare_4_cover/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tp003n/the_witcher_3_dlc_name_songs_of_the_past_has_been/",
+      "title": "O nome do DLC de Witcher 3 'Songs of the Past' foi adicionado ao banco de dados EUIPO",
+      "original_title": "The Witcher 3 DLC name 'Songs of the Past' has been added to the EUIPO database",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-05-27",
+      "summary": "Desde esta manhã, estão disponíveis nas redes sociais screenshots do Red Launcher, que contêm novas informações sobre a expansão Songs of the Past, com estreia prevista para 2027. Resolvi consultar a base de dados do EUIPO para verificar a tr...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tp003n/the_witcher_3_dlc_name_songs_of_the_past_has_been/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tp779d/rayman_legends_retold_logo_leaked/",
+      "title": "Logotipo de Rayman Legends Retold vazou",
+      "original_title": "Rayman Legends Retold logo leaked",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Rumor",
+      "date": "2026-05-27",
+      "summary": "Fonte A mesma pessoa vazou conteúdo do remake de Assassin's Creed, Fortnite e Overwatch enviado por /u/ShiinaBR [link] [comentários]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tp779d/rayman_legends_retold_logo_leaked/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tp48dc/billbilkun_explaining_everything_contained_in_the/",
+      "title": "billbil-kun: Explicando tudo contido na Sonic Frontiers Definitive Edition",
+      "original_title": "billbil-kun: Explaining everything contained in the Sonic Frontiers Definitive Edition",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-05-27",
+      "summary": "Fonte O que a Definitive Edition contém Sonic Frontiers Definitive Edition é apresentada como a versão mais completa do jogo até o momento. Inclui todas as atualizações, DLC e melhorias de jogabilidade lançadas desde o lançamento original em 2022. É exp...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tp48dc/billbilkun_explaining_everything_contained_in_the/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1toowo8/residence_of_evil_channel_claims_to_have_heard/",
+      "title": "O canal Residence of Evil afirma ter ouvido que o remake de Code Veronica será anunciado na SGF",
+      "original_title": "Residence of Evil channel claims to have heard Code Veronica remake is set to be announced in SGF",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-05-27",
+      "summary": "https://youtu.be/Aw5onnsLGQY?t=1215 enviado por /u/Connect_Base_217 [link] [comentários]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1toowo8/residence_of_evil_channel_claims_to_have_heard/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tp0tra/2026_sonic_concert_tour_possibly_leaked_by/",
+      "title": "Turnê do Sonic de 2026 possivelmente vazada pelo Hammersmith Apollo de Londres",
+      "original_title": "2026 Sonic concert tour possibly leaked by London's Hammersmith Apollo",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Rumor",
+      "date": "2026-05-27",
+      "summary": "Imagens do vazamento na postagem r/SonicTheHedgehog aqui: https://www.reddit.com/r/SonicTheHedgehog/comments/1tp0rn6/2026_concert_tour_possably_leaked_by_londons/ Recebi um e-mail esta manhã da lista de discussão do Eventim (Hammersmith) Apo...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tp0tra/2026_sonic_concert_tour_possibly_leaked_by/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1tp8fdd/steam_game_heavy_rain/",
+      "title": "[Steam] (Jogo) Chuva Forte",
+      "original_title": "[Steam] (Game) Heavy Rain",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-05-27",
+      "summary": "Parece que outro conjunto de chaves de Heavy Rain será distribuído hoje. Supostamente existem cerca de 5.000 chaves desta vez. Se você já o reivindicou da última vez, talvez não consiga reivindicar este.    enviado por /u/Sea_Yak_6683 [link]...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1tp8fdd/steam_game_heavy_rain/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1towg96/ps_other_days_of_play_2026_3_avatars/",
+      "title": "[PS] (Outros) Dias de Jogo 2026 – 3 Avatares",
+      "original_title": "[PS] (Other) Days of Play 2026 - 3 Avatars",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-05-27",
+      "summary": "🎁 Recompensas 🔸 Days of Play 2026: Baby Steps Avatar 🔸 Days of Play 2026: Cairn Avatar 🔸 Days of Play 2026: Lumines Avatar 🔻 NA & SA BD3Q-NNBB-5843 🔻 UE e África e Oriente Médio e Oceania e Índia AAET-4A2C-LLNP 🔻 Ásia EK8R-B23R-NEJ2 🔻 JP B4A8-JABE-Q7G...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1towg96/ps_other_days_of_play_2026_3_avatars/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1tp0fdp/pcconsole_other_007_first_light_daring_elite/",
+      "title": "[PC/Console] (Outro) 007 First Light – Roupa Daring Elite",
+      "original_title": "[PC/Console] (Other) 007 First Light - Daring Elite Outfit",
+      "image": "https://external-preview.redd.it/hpMXYS6iAmt5NZJkC5QrLGEcyyg95ay5KHSK4Y51OmI.jpeg?width=640&crop=smart&auto=webp&s=f3daa60c9d4cea0bd2680b41b745a91b49f75330",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-05-27",
+      "summary": "⚠️ GeForce GTX série 10 e superior necessária.  📋 Etapas｜ 🔻 Crie uma conta NVIDIA (é necessário ser elegível para GeForceNow) ou pule para a próxima etapa 🔻 ﻿Verifique as configurações de privacidade \"Sim, mostre-me jogos, recompensas e outros conteúdos que eu possa gostar com base...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1tp0fdp/pcconsole_other_007_first_light_daring_elite/"
+    },
+    {
+      "id": "https://www.techpowerup.com/349407/couch-co-op-hand-drawn-puzzle-adventure-lost-in-tandem-announces-july-release-date",
+      "title": "(PR) Couch Co-op Hand Drawn Puzzle Adventure Lost in Tandem anuncia data de lançamento em julho",
+      "original_title": "(PR) Couch Co-op Hand Drawn Puzzle Adventure Lost in Tandem Announces July Release Date",
+      "image": "https://tpucdn.com/img/NiOLipaMNpq81Jg3_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-27",
+      "summary": "Reúna um amigo e entre no mundo de Lost in Tandem, um colorido e emocionante jogo de aventura e quebra-cabeça em 2D onde uma jovem e um robô \"Mech-ute\" perdido viajam juntos por um mundo pós-apocalíptico. \n\nApresentando exploração em ritmo descontraído e...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349407/couch-co-op-hand-drawn-puzzle-adventure-lost-in-tandem-announces-july-release-date"
+    },
+    {
+      "id": "https://www.techpowerup.com/349406/007-first-light-launches-globally-today",
+      "title": "(PR) 007 First Light é lançado globalmente hoje",
+      "original_title": "(PR) 007 First Light Launches Globally Today",
+      "image": "https://tpucdn.com/img/9NNKQEiZ3b5n2X6K_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-27",
+      "summary": "IO Interactive, desenvolvedora e editora independente de videogame por trás da franquia HITMAN, e Amazon MGM Studios orgulhosamente anunciam o lançamento mundial de 007 First Light. Um dos lançamentos mais esperados de 2026, 007 First Light convida os jogadores...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349406/007-first-light-launches-globally-today"
+    },
+    {
+      "id": "https://www.techpowerup.com/349404/sama-unveils-its-next-wave-of-pc-hardware-at-computex-2026",
+      "title": "(PR) SAMA revela sua próxima onda de hardware para PC na Computex 2026",
+      "original_title": "(PR) SAMA Unveils Its Next Wave of PC Hardware at Computex 2026",
+      "image": "https://tpucdn.com/img/JwSC30tMdvTA2sIV_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-27",
+      "summary": "A SAMA, líder global em hardware para PC, convida os participantes da Computex 2026 a visitar o estande I0118 no Centro de Exposições Taipei Nangang, Hall 1, 1F, de 2 a 5 de junho. A SAMA apresentará dois protótipos de case: o V80 apresenta um vidro temperado de curva dupla...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349404/sama-unveils-its-next-wave-of-pc-hardware-at-computex-2026"
+    },
+    {
+      "id": "https://www.techpowerup.com/349402/corsair-announces-the-novablade-pro-wireless-invincible-vs-edition-in-collaboration-with-skybound",
+      "title": "(PR) Corsair Anuncia Novablade Pro Wireless Invincible VS Edition em Colaboração com Skybound",
+      "original_title": "(PR) Corsair Announces the Novablade Pro Wireless Invincible VS Edition in Collaboration with Skybound",
+      "image": "https://tpucdn.com/img/SLILbLDPEpaXnqtp_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-27",
+      "summary": "A Corsair (Nasdaq: CRSR), fabricante dos principais periféricos para jogos, anunciou um conjunto de periféricos colecionáveis ​​em colaboração com o brutal jogo de luta de super-heróis 3v3, Invincible VS. Fãs de quadrinhos, séries de TV e jogos poderão mostrar...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349402/corsair-announces-the-novablade-pro-wireless-invincible-vs-edition-in-collaboration-with-skybound"
+    },
+    {
+      "id": "https://www.techpowerup.com/349403/latest-nvidia-610-47-whql-packs-dlss-5-neural-rendering-profile-settings",
+      "title": "Pacotes NVIDIA 610.47 WHQL mais recentes Configurações de perfil de renderização neural DLSS 5",
+      "original_title": "Latest NVIDIA 610.47 WHQL Packs DLSS 5 Neural Rendering Profile Settings",
+      "image": "https://tpucdn.com/img/L23G2pLJpzgA3oB1_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-27",
+      "summary": "Em meio à notícia de que a NVIDIA está aposentando o aplicativo legado Win32 Control Panel para seu driver gráfico com seu driver GeForce 610.47 WHQL Game Ready mais recente, um novo desenvolvimento importante passou despercebido. O driver aparentemente introduz configuração de perfil...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349403/latest-nvidia-610-47-whql-packs-dlss-5-neural-rendering-profile-settings"
+    },
+    {
+      "id": "https://www.techpowerup.com/349400/lg-innotek-showcases-next-generation-semiconductor-substrate-technologies-at-ectc",
+      "title": "(PR) LG Innotek apresenta tecnologias de substrato de semicondutores de última geração na ECTC",
+      "original_title": "(PR) LG Innotek Showcases Next‑Generation Semiconductor Substrate Technologies at ECTC",
+      "image": "https://tpucdn.com/img/YjhqGQr7jC67DvSc_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-27",
+      "summary": "LG Innotek (CEO Moon Hyuksoo) anunciou em 27 de maio que participará da Conferência de Componentes Eletrônicos e Tecnologia (ECTC) de 2026 para apresentar suas tecnologias de substrato de pacote de semicondutores de próxima geração para empresas globais de semicondutores...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349400/lg-innotek-showcases-next-generation-semiconductor-substrate-technologies-at-ectc"
+    },
+    {
+      "id": "https://www.techpowerup.com/349398/beelink-unveils-wildcat-lake-lineup-powered-by-intel-18a",
+      "title": "(PR) Beelink revela linha Wildcat Lake com tecnologia Intel 18A",
+      "original_title": "(PR) Beelink Unveils Wildcat Lake Lineup Powered by Intel 18A",
+      "image": "https://tpucdn.com/img/TEwO6navTx3eiGfo_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-27",
+      "summary": "Beelink apresentou oficialmente sua primeira linha de produtos baseada na mais recente plataforma de baixo consumo de energia Wildcat Lake da Intel, trazendo desempenho de próxima geração, recursos de IA e eficiência para sistemas desktop compactos. A nova série inclui dois mini PCs ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349398/beelink-unveils-wildcat-lake-lineup-powered-by-intel-18a"
+    },
+    {
+      "id": "https://www.techpowerup.com/349396/colorful-intros-limited-edition-igame-rtx-5070-ultra-oc-x-007-first-light-edition",
+      "title": "(PR) COLORIDO Intros Edição Limitada iGame RTX 5070 Ultra OC x 007 First Light Edition",
+      "original_title": "(PR) COLORFUL Intros Limited Edition iGame RTX 5070 Ultra OC x 007 First Light Edition",
+      "image": "https://tpucdn.com/img/2xWayx9nJuVTYIG1_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-27",
+      "summary": "Colorful Technology Company Limited, uma marca líder em componentes para PC para jogos, laptops para jogos e produtos de áudio Hi-fi, orgulhosamente apresenta a edição limitada da placa gráfica iGame GeForce RTX 5070 Ultra OC 12 GB x 007 First Light Edition, com...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349396/colorful-intros-limited-edition-igame-rtx-5070-ultra-oc-x-007-first-light-edition"
+    },
+    {
+      "id": "https://www.techpowerup.com/349395/the-witcher-3-free-next-gen-upgrade-raises-minimum-system-requirements-ahead-of-dlc-release",
+      "title": "A atualização gratuita de próxima geração do Witcher 3 aumenta os requisitos mínimos do sistema antes do lançamento do DLC",
+      "original_title": "The Witcher 3 Free Next-Gen Upgrade Raises Minimum System Requirements Ahead of DLC Release",
+      "image": "https://tpucdn.com/img/2Hm36wW8FrShLVYP_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-27",
+      "summary": "A CD Projekt Red está lançando o Next-Gen Upgrade, essencialmente um pacote de remasterização do jogo, de “The Witcher 3: Wild Hunt” gratuitamente. Antes do lançamento de seu próximo DLC de expansão, \"Songs of the Past\", o desenvolvedor aumentou os requisitos mínimos do sistema...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349395/the-witcher-3-free-next-gen-upgrade-raises-minimum-system-requirements-ahead-of-dlc-release"
+    },
+    {
+      "id": "https://www.techpowerup.com/349394/007-first-light-ships-with-baked-in-fsr-3-1-lacks-fsr-4-support-dll-mods-dont-work",
+      "title": "007 First Light é lançado com FSR 3.1 integrado, não tem suporte para FSR 4, mods DLL não funcionam",
+      "original_title": "007 First Light Ships with Baked-in FSR 3.1, Lacks FSR 4 Support, DLL Mods Don't Work",
+      "image": "https://tpucdn.com/img/l4pIcvc4Ngt9kchr_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-27",
+      "summary": "007 First Light foi lançado ontem, mas os jogadores das GPUs RDNA 4 da série AMD Radeon RX 9000 notaram que o jogo não suporta upscaling FSR 4.1. Este é um jogo bastante exigente em GPUs modernas, como nossos testes mostraram, e ajuda ter o que há de mais recente ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349394/007-first-light-ships-with-baked-in-fsr-3-1-lacks-fsr-4-support-dll-mods-dont-work"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tokg9f/discussion_news_and_request_thread_week_beginning/",
+      "title": "☀️ Tópico de discussão, notícias e solicitação - Semana que começa em 25/05/26☀️",
+      "original_title": "☀️Discussion, News, and Request Thread - Week Beginning 05/25/26☀️",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
       "category": "News",
       "date": "2026-05-26",
-      "summary": "Novo artigo da Gematsu com novos jogos classificados na Coreia https://www.gematsu.com/2026/05/lego-skylines-by-paradox-interactive-persona-4-revival-and-more-rated-in-korea enviado por /u/Rbtmj2 [link] [comentários]...",
+      "summary": "Minha reação ao anúncio da Fromsoft (potencialmente) de um novo jogo nos tópicos de discussão do SGF é o seu centro central semanal para todas as solicitações, notícias de jogos e quaisquer outros tópicos de jogos sobre os quais você queira falar. Por favor, mantenha todo o conteúdo que não precisa de conteúdo próprio...",
       "sources": [
         "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tnz85c/lego_skylines_by_paradox_interactive_persona_4/"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tokg9f/discussion_news_and_request_thread_week_beginning/"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tnukuu/bioshock_infinite_october_2012_build_discovered/",
-      "title": "Versão do Bioshock Infinite de outubro de 2012 descoberta",
-      "original_title": "Bioshock Infinite October 2012 build discovered",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tom3i6/xbox_showcase_titles_leaked_early/",
+      "title": "Títulos de demonstração do Xbox vazaram mais cedo",
+      "original_title": "Xbox Showcase Titles Leaked Early",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
-      "category": "News",
+      "category": "Rumor",
       "date": "2026-05-26",
-      "summary": "https://xcancel.com/dr\\_hingis/status/2059059600696242645?s=46 enviado por /u/Solid-Entertainer-39 [link] [comentários]...",
+      "summary": "Você pode ver os novos jogos adicionados em breve na seção de passes de jogo. Recentemente, eles adicionaram vários títulos TBA (eles nunca fizeram isso antes). Isso pode significar que veremos esses jogos no Xbox Games Showcase. Os jogos incluem: Clockwork Revol...",
       "sources": [
         "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tnukuu/bioshock_infinite_october_2012_build_discovered/"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tom3i6/xbox_showcase_titles_leaked_early/"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tnr5b2/the_true_sf6_s4_roster_has_potentially_been/",
-      "title": "A verdadeira lista do SF6 S4 foi potencialmente revelada. Super SF6 também está em desenvolvimento.",
-      "original_title": "The true SF6 S4 roster has potentially been revealed. Super SF6 is also in the works.",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1todw65/og_the_outer_worlds_is_suddenly_in_my_library/",
+      "title": "OG The Outer Worlds está de repente na minha biblioteca antes do fechamento da lista em 27 de maio.",
+      "original_title": "OG The Outer Worlds is suddenly in my library ahead of May 27th delisting.",
+      "image": "https://preview.redd.it/2n0glwd2oi3h1.png?width=140&height=86&auto=webp&s=94043ee07cfabf8993cf1340004dd935150b82b0",
       "source_count": 1,
       "reliability": "Medium",
       "category": "News",
       "date": "2026-05-26",
-      "summary": "Eu estava olhando para resetera e notei que alguém postou algo sobre S4, com informações que foram fornecidas por um mútuo dessa pessoa sobre o elenco https://www.resetera.com/threads/street-fighter-6-ot-round-4-once-more-with-healing-switch-2-version-s...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tnr5b2/the_true_sf6_s4_roster_has_potentially_been/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1to04qa/mystery_game_6_could_be_doki_doki_literature_club/",
-      "title": "Mystery Game 6 poderia ser Doki Doki Literature Club Plus",
-      "original_title": "Mystery Game 6 could be Doki Doki Literature Club Plus",
-      "image": "https://preview.redd.it/o1d4k373uf3h1.png?width=640&crop=smart&auto=webp&s=3c6f05428b5b7f0c4559a51e81753a1b65890d14",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-26",
-      "summary": "enviado por /u/kabirsingh84 [link] [comentários] ...",
+      "summary": "Repost from: OG The Outer Worlds está de repente na minha biblioteca antes de ser fechado. : r/theouterworlds Enquanto navegava pela minha conta da Epic Games hoje tentando instalar The Last Of Us Parte 1, fiquei surpreso ao ver que The Outer Worlds (OG) é ...",
       "sources": [
         "r/EpicGamesPC"
       ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1to04qa/mystery_game_6_could_be_doki_doki_literature_club/"
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1todw65/og_the_outer_worlds_is_suddenly_in_my_library/"
     },
     {
       "id": "https://www.reddit.com/r/EpicGamesPC/comments/1to3akv/my_lightweight_epic_games_tracker_now_supports/",
@@ -328,6 +643,21 @@
       "url": "https://www.reddit.com/r/EpicGamesPC/comments/1to3akv/my_lightweight_epic_games_tracker_now_supports/"
     },
     {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1to04qa/mystery_game_6_could_be_doki_doki_literature_club/",
+      "title": "Mystery Game 6 poderia ser Doki Doki Literature Club Plus",
+      "original_title": "Mystery Game 6 could be Doki Doki Literature Club Plus",
+      "image": "https://preview.redd.it/o1d4k373uf3h1.png?width=640&crop=smart&auto=webp&s=3c6f05428b5b7f0c4559a51e81753a1b65890d14",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-05-26",
+      "summary": "enviado por /u/kabirsingh84 [link] [comentários] ...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1to04qa/mystery_game_6_could_be_doki_doki_literature_club/"
+    },
+    {
       "id": "https://www.reddit.com/r/EpicGamesPC/comments/1tnzv8w/i_have_a_strong_feeling_this_might_be_next/",
       "title": "Tenho uma forte sensação de que este pode ser o próximo jogo de mistério (#5 ou #6).",
       "original_title": "I have a strong feeling this might be next mystery game (#5 or #6).",
@@ -341,261 +671,6 @@
         "r/EpicGamesPC"
       ],
       "url": "https://www.reddit.com/r/EpicGamesPC/comments/1tnzv8w/i_have_a_strong_feeling_this_might_be_next/"
-    },
-    {
-      "id": "https://www.techpowerup.com/349361/nvidia-vera-cpu-benchmarked-beating-intel-xeon-and-amd-epyc-in-select-workloads",
-      "title": "CPU NVIDIA “Vera” avaliada: superando Intel Xeon e AMD EPYC em cargas de trabalho selecionadas",
-      "original_title": "NVIDIA \"Vera\" CPU Benchmarked: Beating Intel Xeon and AMD EPYC in Select Workloads",
-      "image": "https://tpucdn.com/img/NWV3XkKxjQAYElEK_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-26",
-      "summary": "A Phoronix conduziu uma rodada exclusiva de testes com a mais recente CPU “Vera” da NVIDIA, apresentando benchmarks iniciais que destacam os avanços da NVIDIA no design de CPU personalizada. Os resultados iniciais indicam que esta plataforma de CPU baseada em Arm é poderosa o suficiente ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349361/nvidia-vera-cpu-benchmarked-beating-intel-xeon-and-amd-epyc-in-select-workloads"
-    },
-    {
-      "id": "https://www.techpowerup.com/349360/corsair-reveals-shugo-ddr5-a-collectible-memory-series",
-      "title": "(PR) Corsair revela SHUGO DDR5, uma série de memórias colecionáveis",
-      "original_title": "(PR) Corsair Reveals SHUGO DDR5, a Collectible Memory Series",
-      "image": "https://tpucdn.com/img/PRvgrySrpiCbQYh1_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-26",
-      "summary": "A Corsair, líder global em periféricos de jogos de alto desempenho e componentes para PC para entusiastas, anunciou hoje a Corsair SHUGO DDR5, uma série de memórias para entusiastas de edição limitada criada para construtores que veem a máquina tanto como um PC de desempenho quanto como um PC pessoal.",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349360/corsair-reveals-shugo-ddr5-a-collectible-memory-series"
-    },
-    {
-      "id": "https://www.techpowerup.com/349359/nvidia-geforce-graphics-drivers-610-47-whql-drops-control-panel-support",
-      "title": "Drivers gráficos NVIDIA GeForce 610.47 WHQL descartam suporte ao painel de controle",
-      "original_title": "NVIDIA GeForce Graphics Drivers 610.47 WHQL Drops Control Panel Support",
-      "image": "https://tpucdn.com/img/YNHx33sIYOiP8W9A_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-26",
-      "summary": "A NVIDIA lançou hoje seus mais recentes drivers gráficos GeForce 610.47 WHQL, introduzindo mudanças significativas para usuários consumidores de PC. Com esta atualização de driver, a NVIDIA está retirando seu painel de controle para drivers GeForce Game Ready e Studio após 20 anos...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349359/nvidia-geforce-graphics-drivers-610-47-whql-drops-control-panel-support"
-    },
-    {
-      "id": "https://www.techpowerup.com/349356/hyperx-introduces-first-ever-valorant-gaming-laptop",
-      "title": "(PR) HyperX apresenta o primeiro laptop para jogos Valorant",
-      "original_title": "(PR) HyperX Introduces First-Ever Valorant Gaming Laptop",
-      "image": "https://tpucdn.com/img/A8qkDi13rDNMqLDI_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-26",
-      "summary": "(NYSE: HPQ) anunciou hoje o HyperX OMEN 16 VALORANT Limited Edition, um laptop para jogos projetado em colaboração com a Riot Games que combina hardware voltado para o desempenho com o design dos títulos de jogos mais populares, VALORANT. Construído para...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349356/hyperx-introduces-first-ever-valorant-gaming-laptop"
-    },
-    {
-      "id": "https://www.techpowerup.com/349355/kensington-launches-entry-level-thunderbolt-5-docking-station-with-80-gbps-speeds-and-triple-4k-support",
-      "title": "(PR) Kensington lança docking station Thunderbolt 5 de nível básico com velocidades de 80 Gbps e suporte triplo 4K",
-      "original_title": "(PR) Kensington Launches Entry-Level Thunderbolt 5 Docking Station with 80 Gbps Speeds and Triple 4K Support",
-      "image": "https://tpucdn.com/img/Y71cJueP8WamKGQF_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-26",
-      "summary": "Kensington, líder mundial em soluções de computação desktop e mobilidade para profissionais de TI, negócios e escritórios domésticos, anunciou hoje a estação de acoplamento SD5010T5 EQ Thunderbolt 5, uma estação de acoplamento Thunderbolt 5 de alto desempenho projetada para tornar a próxima geração...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349355/kensington-launches-entry-level-thunderbolt-5-docking-station-with-80-gbps-speeds-and-triple-4k-support"
-    },
-    {
-      "id": "https://www.techpowerup.com/349354/arctic-announces-freezer-36-s-tower-type-air-cpu-cooler",
-      "title": "(PR) Arctic Anuncia Cooler Air CPU Freezer 36-S tipo Torre",
-      "original_title": "(PR) Arctic Announces Freezer 36-S Tower-type Air CPU Cooler",
-      "image": "https://tpucdn.com/img/Il8bsAh8Y8TzXsSk_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-26",
-      "summary": "O Freezer 36-S foi desenvolvido especificamente como uma contrapartida econômica do Freezer 36, oferecendo desempenho térmico comparável a um preço mais acessível. Como um cooler para CPU de torre única com quatro heat pipes de toque direto de 6 mm e uma ventoinha de 120 mm, ele...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349354/arctic-announces-freezer-36-s-tower-type-air-cpu-cooler"
-    },
-    {
-      "id": "https://www.techpowerup.com/349353/logitech-introduces-the-signature-comfort-plus-lineup",
-      "title": "(PR) Logitech apresenta a linha Signature Comfort Plus",
-      "original_title": "(PR) Logitech Introduces the Signature Comfort Plus Lineup",
-      "image": "https://tpucdn.com/img/eLdc2RcQjuVCUSyY_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-26",
-      "summary": "A Logitech anunciou hoje o lançamento do Signature Comfort Plus, a mais nova adição à série Signature da Logitech de ferramentas de uso diário projetadas para o trabalho e a vida moderna. Signature Comfort Plus foi projetado para longos dias na mesa onde o trabalho e a personalidade...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349353/logitech-introduces-the-signature-comfort-plus-lineup"
-    },
-    {
-      "id": "https://www.techpowerup.com/349352/computex-best-choice-awards-2026-reveals-asus-rog-rapture-gt-bn98-pro-wi-fi-8-router",
-      "title": "Computex Best Choice Awards 2026 revela roteador Asus ROG Rapture GT-BN98 Pro Wi-Fi 8",
-      "original_title": "Computex Best Choice Awards 2026 Reveals Asus ROG Rapture GT-BN98 Pro Wi-Fi 8 Router",
-      "image": "https://tpucdn.com/img/ZMxVFIq8Hq5vOQjL_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-26",
-      "summary": "Parece que o primeiro roteador Wi-Fi 8 da ASUS foi revelado antes da Computex, cortesia da cerimônia do Prêmio Melhor Escolha da Taipei Computer Association, que foi realizada na semana passada, sexta-feira. O ROG Rapture GT-BN98 Pro dá continuidade ao design que vimos...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349352/computex-best-choice-awards-2026-reveals-asus-rog-rapture-gt-bn98-pro-wi-fi-8-router"
-    },
-    {
-      "id": "https://www.techpowerup.com/349351/formula-v-line-to-preview-air-power-g10-case-with-tilting-front-intake-fans",
-      "title": "(PR) Linha Fórmula V apresenta case Air Power G10 com ventiladores de entrada frontal inclináveis",
-      "original_title": "(PR) Formula V Line to Preview Air Power G10 Case with Tilting Front Intake Fans",
-      "image": "https://tpucdn.com/img/vO34IdOfQx8MwC09_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-26",
-      "summary": "A Linha Fórmula V apresentará o Air Power G10, um novo chassi torre média com montagens de ventilador de entrada frontal com inclinação ajustável, na Computex 2026. O G10 é o produto líder em uma linha de 22 novos produtos de 2026, abrangendo gabinetes de computador, refrigeradores de ar, ventiladores de resfriamento,...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349351/formula-v-line-to-preview-air-power-g10-case-with-tilting-front-intake-fans"
-    },
-    {
-      "id": "https://www.techpowerup.com/349347/samsung-stacks-two-450-layer-nand-chips-into-a-900-layer-v-nand",
-      "title": "Samsung empilha dois chips NAND de 450 camadas em um V-NAND de 900 camadas",
-      "original_title": "Samsung Stacks Two 450-Layer NAND Chips Into a 900-Layer V-NAND",
-      "image": "https://tpucdn.com/img/h95MtZTqr0xpaSGv_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-26",
-      "summary": "A Samsung está trabalhando continuamente para atingir seu objetivo de criar módulos de armazenamento NAND Flash de 1.000 camadas. No entanto, à medida que as complexidades de fabricação aumentam, a empresa não consegue alcançar isso com um único chip. Em vez disso, está se voltando para soluções de embalagem avançadas...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349347/samsung-stacks-two-450-layer-nand-chips-into-a-900-layer-v-nand"
-    },
-    {
-      "id": "https://www.eurogamer.net/arkane-bladerunner-thief-4",
-      "title": "O desenvolvedor Dishonored Arkane Studios quase fez Thief 4 e um jogo Blade Runner",
-      "original_title": "Dishonored dev Arkane Studios nearly made Thief 4 and a Blade Runner game",
-      "image": "https://assetsio.gnwcdn.com/Screenshot-2026-05-25-at-13.45.43.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-05-25",
-      "summary": "O desenvolvedor de Redfall e Deathloop, Arkane, quase trabalhou em Thief 4 e em um jogo Blade Runner antes de fazer o primeiro Dishonored. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/arkane-bladerunner-thief-4"
-    },
-    {
-      "id": "https://www.eurogamer.net/paralives-perfect-tranquil-tonic-chaos-the-sims",
-      "title": "Paralives parece o tônico tranquilo perfeito para o caos do The Sims",
-      "original_title": "Paralives feels like the perfect tranquil tonic to the chaos of The Sims",
-      "image": "https://assetsio.gnwcdn.com/paralives-relax-header.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-05-25",
-      "summary": "Paralives teve um começo adorável. Desaparecemos e vemos a câmera acompanhando um trem em movimento enquanto ele serpenteia serenamente por uma paisagem bucólica. Lentamente ele se move para uma visão aérea e o teto se abre, revelando o guarda lá dentro. E este é o seu movimento...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/paralives-perfect-tranquil-tonic-chaos-the-sims"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tnjwy8/jason_schreier_clarifies_on_his_naughtydog/",
-      "title": "Jason Schreier esclarece em sua declaração na NaughtyDog: “O objetivo desta resposta é que a Sony, como outras empresas de jogos, tem problemas com orçamentos e prazos inchados, onde quer que estejam”.",
-      "original_title": "Jason Schreier clarifies on his NaughtyDog statement: \"The whole point of this response is that Sony, like other game companies, has an issue with swelling budgets and timelines wherever they might be.\"",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-25",
-      "summary": "https://xcancel.com/MrHooboMaster/status/2058991688849223986/photo/1 enviado por /u/Connect_Base_217 [link] [comentários]...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tnjwy8/jason_schreier_clarifies_on_his_naughtydog/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tnpkux/new_job_listing_suggests_activision_elsewhere/",
-      "title": "Nova lista de empregos sugere que a Activision (Elsewhere Entertainment) está trabalhando em um título de RPG com modos multijogador focados em PvE",
-      "original_title": "New job listing suggests Activision (Elsewhere Entertainment) is working on a RPG title with PvE focused multiplayer modes",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-25",
-      "summary": "Elsewhere Entertainment está procurando um diretor de design multijogador para se juntar ao desenvolvimento de um novo IP; focar principalmente em experiências PvE e ser responsável por desenvolver uma visão coesa abrangendo sistemas de engajamento, conteúdo sazonal, prog...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tnpkux/new_job_listing_suggests_activision_elsewhere/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tnhii0/mp1st_littlebigplanet_and_dreams_dev_media/",
-      "title": "MP1st: Novo projeto de LittleBigPlanet e Dreams Dev Media Molecule tem elementos de mundo aberto",
-      "original_title": "MP1st: LittleBigPlanet and Dreams Dev Media Molecule New Project Has Open-World Elements",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-25",
-      "summary": "Artigo: https://mp1st.com/news/littlebigplanet-dreams-developer-media-molecule-working-new-ip-open-world-content Dev lista algumas de suas funções, como \"“proprietário do recurso, principal contato/detentor da visão de vários conteúdos de mundo aberto” Menciona \"design de forragem...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tnhii0/mp1st_littlebigplanet_and_dreams_dev_media/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tnicrn/paul_tassi_from_forbes_reports_that_destiny_2s/",
-      "title": "Paul Tassi, da Forbes, relata que o fim do suporte de Destiny 2 era desconhecido para a maior parte da Bungie",
-      "original_title": "Paul Tassi from Forbes reports that Destiny 2’s End of Support Was Unknown to Most of Bungie",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-25",
-      "summary": "De acordo com as fontes de Paul, o trabalho continuou no conteúdo futuro de Destiny 2, incluindo futuras expansões como Shattered Cycle, e não parou imediatamente quando esta decisão foi tomada. Isso porque a grande maioria da Bungie não sabia sobre Destiny...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tnicrn/paul_tassi_from_forbes_reports_that_destiny_2s/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tn51vc/potential_gta_6_feature_leaked_in_gta_online/",
-      "title": "Potencial recurso do GTA 6 vazou no GTA online? Número de identificação do veículo (VIN)",
-      "original_title": "Potential GTA 6 feature leaked in GTA online? Vehicle Identification Number (VIN)",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Rumor",
-      "date": "2026-05-25",
-      "summary": "Um jogador notou que o Coquette D10 da The Chop Shop tinha uma descrição de personalização incomumente detalhada da faixa solar mencionando o VIN do carro, ao contrário de qualquer outro veículo. Eles acreditam que pode ser código restante ou reutilizado acidentalmente de...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tn51vc/potential_gta_6_feature_leaked_in_gta_online/"
     },
     {
       "id": "https://www.reddit.com/r/EpicGamesPC/comments/1tndi88/epic_games_twitter_just_posted_colour_hints_for/",
@@ -671,36 +746,6 @@
         "r/FreeGameFindings"
       ],
       "url": "https://www.reddit.com/r/FreeGameFindings/comments/1tnn6bp/fgf_mod_post_my_free_game_findings_v20_beta/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1tmfhcx/weird_game_added_to_lobraru/",
-      "title": "Jogo estranho adicionado ao Lobraru",
-      "original_title": "Weird Game Added To Lobraru",
-      "image": "https://preview.redd.it/zzqpayrfu33h1.jpeg?width=640&crop=smart&auto=webp&s=1492fd7710e7706d2550a3641e2ef2ab05a34be2",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-24",
-      "summary": "Abri a Epic Games e encontrei esses dois jogos aqui. Eu não os comprei e esses jogos não têm nada no Google. O que é isso?    enviado por /u/Aecerius [link] [comentários] ...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1tmfhcx/weird_game_added_to_lobraru/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1tmkcs0/when_will_be_epic_games_supported_on_linux/",
-      "title": "Quando os jogos épicos terão suporte no Linux?",
-      "original_title": "When will be epic games supported on linux?",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Epic News",
-      "date": "2026-05-24",
-      "summary": "quero usar Linux, mas metade dos meus jogos são épicos, não quero usar coisas de terceiros, estou curioso para saber se os jogos da Epic suportarão Linux nativamente enviado por /u/Remarkable-Year-9353 [link] [comentários]...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1tmkcs0/when_will_be_epic_games_supported_on_linux/"
     }
   ]
 }
