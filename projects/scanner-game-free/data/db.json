@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-05-30T13:38:16",
-  "display_date": "30/05/2026 13:38",
+  "last_updated": "2026-05-31T13:44:26",
+  "display_date": "31/05/2026 13:44",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "571ms",
+    "latency": "220ms",
     "current_games": [
       {
         "title": "LONESTAR",
@@ -74,7 +74,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-05-30",
+      "date": "2026-05-31",
       "summary": "ESTRELA SOLITÁRIA",
       "sources": [
         "Epic Games Store"
@@ -89,7 +89,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-05-30",
+      "date": "2026-05-31",
       "summary": "Chita",
       "sources": [
         "Epic Games Store"
@@ -104,7 +104,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-05-30",
+      "date": "2026-05-31",
       "summary": "Disponível gratuitamente a partir de 16/07. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
       "sources": [
         "Epic Games Store"
@@ -119,7 +119,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-05-30",
+      "date": "2026-05-31",
       "summary": "Disponível gratuitamente a partir de 16/09. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
@@ -134,7 +134,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-05-30",
+      "date": "2026-05-31",
       "summary": "Disponível gratuitamente a partir de 04/06. Jogo de mistério, semana 23, jogo 2",
       "sources": [
         "Epic Games Store"
@@ -149,12 +149,162 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-05-30",
+      "date": "2026-05-31",
       "summary": "Disponível gratuitamente a partir de 04/06. Jogo de mistério, semana 23, jogo 1",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/megasale-mysterygame-2026-week23-game1"
+    },
+    {
+      "id": "https://www.eurogamer.net/little-nightmares-2-enhanced-edition-switch-2",
+      "title": "Little Nightmares 2 Enhanced Edition está finalmente disponível no Nintendo Switch 2",
+      "original_title": "Little Nightmares 2 Enhanced Edition is finally available on Nintendo Switch 2",
+      "image": "https://assetsio.gnwcdn.com/little-nightmares-2s-free-enhanced-edition-update-out-now-for-pc-ps5-and-xbox-series-x-s-1629905869658.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-05-31",
+      "summary": "A edição aprimorada de Little Nightmares 2 está finalmente disponível no Nintendo Switch 2. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/little-nightmares-2-enhanced-edition-switch-2"
+    },
+    {
+      "id": "https://www.eurogamer.net/ace-combat-8-wings-of-theve-pegi-leak",
+      "title": "Ace Combat 8: Wings of Theve acaba de aparecer no site da PEGI",
+      "original_title": "Ace Combat 8: Wings of Theve just popped up on PEGI's website",
+      "image": "https://assetsio.gnwcdn.com/Screenshot-2026-05-31-at-12.41.16.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-05-31",
+      "summary": "Ace Combat 8: Wings of Theve apareceu no site da PEGI com uma “data de pré-lançamento”: 30 de maio de 2026. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/ace-combat-8-wings-of-theve-pegi-leak"
+    },
+    {
+      "id": "https://www.eurogamer.net/tomodachi-life-best-seller-april-2026",
+      "title": "Tomodachi Life: Living the Dream foi o jogo mais vendido de abril de 2026 nos EUA",
+      "original_title": "Tomodachi Life: Living the Dream was April 2026's best-selling game in the US",
+      "image": "https://assetsio.gnwcdn.com/Tomodachi-Life-Living-the-Dream---Island-Layouts-Header.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-05-31",
+      "summary": "Tomodachi Life: Living the Dream foi o jogo mais vendido nos EUA no mês passado. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/tomodachi-life-best-seller-april-2026"
+    },
+    {
+      "id": "https://www.eurogamer.net/twitchcon-europe-gifs-dual-format",
+      "title": "O novo recurso Dual Format do Twitch permite que streamers transmitam horizontalmente e verticalmente ao mesmo tempo",
+      "original_title": "Twitch's new Dual Format feature lets streamers broadcast horizontally and vertically at the same time",
+      "image": "https://assetsio.gnwcdn.com/000002885-15.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-05-31",
+      "summary": "Twitch anunciou que lançará streaming em formato duplo no próximo mês, um novo sistema que permite aos criadores transmitir em formatos horizontais e verticais ao mesmo tempo. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/twitchcon-europe-gifs-dual-format"
+    },
+    {
+      "id": "https://www.eurogamer.net/thick-as-thieves-janky-conspicuously-incomplete-surprisingly-good-time",
+      "title": "A aventura de assalto cooperativo barato como chips do estúdio Warren Spector, Thick as Thieves, é instável, visivelmente incompleta e surpreendentemente boa",
+      "original_title": "Warren Spector studio's cheap as chips co-op heist adventure Thick as Thieves is wonky, conspicuously incomplete, and a surprisingly good time",
+      "image": "https://assetsio.gnwcdn.com/thick-as-thieves-header.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-05-31",
+      "summary": "Thick as Thieves parece ter uma história para contar. E não apenas aquele sobre efígies falantes e diamantes misteriosos que se desenrola ao longo de sua campanha relativamente rápida. Em vez disso, a história de seu afastamento aparentemente repentino do PvP, é truncado...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/thick-as-thieves-janky-conspicuously-incomplete-surprisingly-good-time"
+    },
+    {
+      "id": "https://www.eurogamer.net/stop-killing-games-passes-floor-vote-california",
+      "title": "Projeto de proteção ao consumidor da Stop Killing Games é aprovado em votação na Califórnia",
+      "original_title": "Stop Killing Games consumer protection bill passes floor vote in California",
+      "image": "https://assetsio.gnwcdn.com/Screenshot-2025-07-19-at-16.31.10.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-05-31",
+      "summary": "A Assembleia do Estado da Califórnia aprovou a Lei Protect Our Games, um projeto de lei centrado na proteção dos direitos do consumidor, conforme detalhado pelo movimento Stop Killing Games. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/stop-killing-games-passes-floor-vote-california"
+    },
+    {
+      "id": "https://www.techpowerup.com/349540/this-week-in-gaming-week-23",
+      "title": "Esta semana em jogos (semana 23)",
+      "original_title": "This Week in Gaming (Week 23)",
+      "image": "https://tpucdn.com/img/v1JIlVjQryLkgwBJ_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-31",
+      "summary": "Bem-vindo ao mês de junho, que iniciamos com um remake de um ARPG de 2001 que parece ter recebido um pouco mais do que apenas uma revisão gráfica. O resto da semana começa com uma loja que vende produtos misteriosos, alguns hack and slash e ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349540/this-week-in-gaming-week-23"
+    },
+    {
+      "id": "https://www.techpowerup.com/349537/steam-machine-welcome-tour-signals-potential-launch-imminent",
+      "title": "Tour de boas-vindas da Steam Machine sinaliza potencial lançamento iminente",
+      "original_title": "Steam Machine Welcome Tour Signals Potential Launch Imminent",
+      "image": "https://tpucdn.com/img/j3huv8w0S71p2JjO_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-31",
+      "summary": "Atualizações anteriores sugeriram que o Steam Machine da Valve pode ser lançado em breve, embora uma atualização recente no backend do Steam tenha adicionado um tour de boas-vindas para o Steam Machine e potencialmente nos dado um vislumbre da data de lançamento pretendida da Valve para o S...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349537/steam-machine-welcome-tour-signals-potential-launch-imminent"
+    },
+    {
+      "id": "https://www.techpowerup.com/349500/godeal24-unveils-6th-anniversary-sale-office-2024-at-just-usd-16-99",
+      "title": "GoDeal24 lança promoção de 6º aniversário – Office 2024 por apenas US$ 16,99!",
+      "original_title": "GoDeal24 Unveils 6th Anniversary Sale—Office 2024 at Just $16.99!",
+      "image": "https://tpucdn.com/img/cahIX2s6Rx6Wvnjl_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-05-31",
+      "summary": "GoDeal24 está comemorando seu 6º aniversário com um acordo bonança. Obtenha o Office 2024 Professional Plus genuíno e vitalício por apenas US$ 16,99 – uma grande economia em relação ao pagamento da taxa de assinatura do Microsoft 365 a cada ano. O Office 2021 Professional Plus pode ser adquirido...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349500/godeal24-unveils-6th-anniversary-sale-office-2024-at-just-usd-16-99"
+    },
+    {
+      "id": "https://www.techpowerup.com/349536/new-leak-tips-usd-549-msrp-for-amd-radeon-rx-9070-gre",
+      "title": "Novas dicas de vazamento $ 549 MSRP para AMD Radeon RX 9070 GRE",
+      "original_title": "New Leak Tips $549 MSRP for AMD Radeon RX 9070 GRE",
+      "image": "https://tpucdn.com/img/3q1cGZIVC1PQFMOG_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Rumor",
+      "date": "2026-05-31",
+      "summary": "Vazamentos e rumores recentes afirmavam que a AMD estava planejando lançar globalmente a placa gráfica Radeon RX 9070 GRE, anteriormente exclusiva da China. Agora, um novo vazamento do VideoCardz dá credibilidade a esses rumores, relatando que o corte gráfico Navi 48...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349536/new-leak-tips-usd-549-msrp-for-amd-radeon-rx-9070-gre"
     },
     {
       "id": "https://www.eurogamer.net/secret-weapon-of-star-wars-editor-marcia-lucas-dies",
@@ -217,51 +367,6 @@
       "url": "https://www.eurogamer.net/what-weve-been-playing-our-tv-broke"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1trkd8f/lolilolaio_hints_another_persona_6_character_leak/",
-      "title": "Lolilolaio sugere que outro vazamento de personagem Persona 6 é real",
-      "original_title": "Lolilolaio hints another persona 6 character leak is real",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Rumor",
-      "date": "2026-05-30",
-      "summary": "Em resposta a esta arte postada por outro usuário https://ibb.co/bRbN5NV7 https://www.resetera.com/threads/alleged-persona-6-character-designs-may-have-surfaced-online.1531939/page-20#post-155590753 enviado por /u/toast267 [link] [comentários]...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1trkd8f/lolilolaio_hints_another_persona_6_character_leak/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1trq4h9/mlid_zen_6_x3d_cpu_b0_final_stepping_ready_could/",
-      "title": "MLID: Zen 6 X3D CPU B0 etapa final pronta, pode ser lançada antes do final do ano",
-      "original_title": "MLID: Zen 6 X3D CPU B0 final stepping ready, could launch by year end earliest",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-30",
-      "summary": "Os Source Chips passam por diversas revisões para correção e melhorias de desempenho. Quando chegam à revisão final, os projetos são enviados para produção em massa, o que leva de 4 a 5 meses, e geralmente outros 2 para acúmulo de estoque. O boato afirma que...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1trq4h9/mlid_zen_6_x3d_cpu_b0_final_stepping_ready_could/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1trvhy4/suggestions_for_dlc_to_buy_on_sale/",
-      "title": "Sugestões de DLC para comprar em promoção?",
-      "original_title": "Suggestions for DLC to buy on sale?",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-30",
-      "summary": "Aproveitando as promoções, pensei em comprar DLC, principalmente para os jogos que foram sorteados. Alguma sugestão? Algumas sugestões que vêm à mente Passe de temporada de Dead Island 2 Passe de temporada Frostpunk Orcs devem morrer 3 (dlc de 2 histórias) KeyWee (1st...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1trvhy4/suggestions_for_dlc_to_buy_on_sale/"
-    },
-    {
       "id": "https://www.techpowerup.com/349522/steamos-update-adds-support-for-slew-of-gaming-handhelds-and-vrr-on-hdmi",
       "title": "A atualização do SteamOS adiciona suporte para vários dispositivos portáteis para jogos e VRR em HDMI",
       "original_title": "SteamOS Update Adds Support for Slew of Gaming Handhelds and VRR on HDMI",
@@ -292,19 +397,19 @@
       "url": "https://www.techpowerup.com/349521/intel-readies-atx12vo-v3-psu-standard-with-efficiency-increases"
     },
     {
-      "id": "https://www.techpowerup.com/349500/godeal24-unveils-6th-anniversary-sale-office-2024-at-just-usd-16-99",
-      "title": "GoDeal24 lança promoção de 6º aniversário – Office 2024 por apenas US$ 16,99!",
-      "original_title": "GoDeal24 Unveils 6th Anniversary Sale—Office 2024 at Just $16.99!",
-      "image": "https://tpucdn.com/img/cahIX2s6Rx6Wvnjl_thm.jpg",
+      "id": "https://www.techpowerup.com/349452/microsoft-visual-studio-professional-2026-15-coding-courses-just-usd-50",
+      "title": "Microsoft Visual Studio Professional 2026 + 15 cursos de codificação por apenas US$ 50",
+      "original_title": "Microsoft Visual Studio Professional 2026 + 15 Coding Courses Just $50",
+      "image": "https://tpucdn.com/img/A8zV60F1u5dE7Ahg_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-05-30",
-      "summary": "GoDeal24 está comemorando seu 6º aniversário com um acordo bonança. Obtenha o Office 2024 Professional Plus genuíno e vitalício por apenas US$ 16,99 – uma grande economia em relação ao pagamento da taxa de assinatura do Microsoft 365 a cada ano. O Office 2021 Professional Plus pode ser adquirido...",
+      "summary": "O Microsoft Visual Studio Professional 2026 é há muito tempo o ambiente de desenvolvimento preferido de programadores sérios, e combiná-lo com 15 cursos de codificação estruturados torna este um dos negócios mais completos que você encontrará para quem deseja construir...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/349500/godeal24-unveils-6th-anniversary-sale-office-2024-at-just-usd-16-99"
+      "url": "https://www.techpowerup.com/349452/microsoft-visual-studio-professional-2026-15-coding-courses-just-usd-50"
     },
     {
       "id": "https://www.techpowerup.com/349517/fable-gets-delayed-once-more-potentially-to-avoid-gta-vi-eating-its-lunch",
@@ -322,276 +427,6 @@
       "url": "https://www.techpowerup.com/349517/fable-gets-delayed-once-more-potentially-to-avoid-gta-vi-eating-its-lunch"
     },
     {
-      "id": "https://www.eurogamer.net/fable-reboot-delayed-2027-amid-reported-gta-6-worries",
-      "title": "Reinicialização de Fable adiada para 2027 em meio a relatos de ‘preocupações’ com GTA 6",
-      "original_title": "Fable reboot delayed to 2027 amid reported GTA 6 'worries'",
-      "image": "https://assetsio.gnwcdn.com/fable-guy-in-tights.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-05-29",
-      "summary": "A tão esperada reinicialização de Fable da Playground Games foi adiada. Agora está previsto para ser lançado em fevereiro de 2027.\n Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/fable-reboot-delayed-2027-amid-reported-gta-6-worries"
-    },
-    {
-      "id": "https://www.eurogamer.net/valve-steam-deck-price-increase-steam-machine-future-analysts-reaction",
-      "title": "“Este mercado não está se comportando normalmente” – analistas reagem aos aumentos de preços do Steam Deck da Valve e o que isso significa para o custo da próxima Steam Machine",
-      "original_title": "\"This market is not behaving normally\" - analysts react to Valve's Steam Deck price increases, and what it means for the cost of the upcoming Steam Machine",
-      "image": "https://assetsio.gnwcdn.com/The-LED-strim-on-the-Steam-Machine.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-05-29",
-      "summary": "No início desta semana, a Valve anunciou um grande aumento de preço para seus modelos Steam Deck OLED. No Reino Unido, os possíveis compradores viram um aumento de mais de £ 200 para o modelo Steam Deck OLED de 1 TB mais robusto da empresa, que aumentou de £ 569 para £ 779. Seu 512G de nível inferior...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/valve-steam-deck-price-increase-steam-machine-future-analysts-reaction"
-    },
-    {
-      "id": "https://www.eurogamer.net/io-interactive-project-fantasy-rpg",
-      "title": "Depois de 007 First Light, o próximo jogo da IO Interactive provavelmente não será outro James Bond ou Hitman, mas sim algo totalmente diferente",
-      "original_title": "After 007 First Light, IO Interactive's next game probably won't be another James Bond or a Hitman, but rather something else entirely",
-      "image": "https://assetsio.gnwcdn.com/project-fantasy-art-io-interactive-cropped.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-05-29",
-      "summary": "O novo jogo de James Bond, 007 First Light, parece estar tendo uma resposta muito positiva. Ficamos encantados com nossa análise do 007 First Light e, a julgar pelas impressionantes vendas de lançamento do 007 First Light, muitos de vocês também ficaram. As chances do desenvolvedor IO Int...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/io-interactive-project-fantasy-rpg"
-    },
-    {
-      "id": "https://www.eurogamer.net/were-determined-to-win-justice-for-the-31-fired-workers-rockstar-games-workers-publicly-launch-union-as-legal-battle-with-the-gta-6-maker-rages-on",
-      "title": "“Estamos determinados a obter justiça para os 31 trabalhadores demitidos” – trabalhadores da Rockstar Games lançam publicamente o sindicato, enquanto a batalha legal com o fabricante do GTA 6 continua",
-      "original_title": "\"We're determined to win justice for the 31 fired workers\" - Rockstar Games workers publicly launch union, as legal battle with the GTA 6 maker rages on",
-      "image": "https://assetsio.gnwcdn.com/Lucia-in-GTA-6-aiming-a-weapon.-She-has-her-hair-tied-back-and-is-wearing-sunglasses-and-a-mask-to-cover-her-face.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-05-29",
-      "summary": "Os desenvolvedores da Rockstar Games anunciaram publicamente um sindicato conhecido como Rockstar Game Workers Union (RGWU), que é uma subsidiária do Independent Workers' Union of Great Britain (IWGB). Acontece no momento em que o IWGB se prepara para assumir o Grand ...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/were-determined-to-win-justice-for-the-31-fired-workers-rockstar-games-workers-publicly-launch-union-as-legal-battle-with-the-gta-6-maker-rages-on"
-    },
-    {
-      "id": "https://www.eurogamer.net/crimson-desert-patch-1-09-details",
-      "title": "O patch 1.09.00 do Crimson Desert adiciona outro recurso de jogador altamente solicitado (bem como muitos novos animais de estimação)",
-      "original_title": "Crimson Desert's 1.09.00 patch adds another highly-requested player feature (as well as loads of new pets)",
-      "image": "https://assetsio.gnwcdn.com/Kliff-from-Crimson-Desert-carries-a-pig-over-his-shoulder.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-05-29",
-      "summary": "O patch 1.09.00 para Crimson Desert chegou, apenas uma semana após o último patch - provando que o desenvolvedor Pearl Abyss está se movendo a passos largos quando se trata de consertar e atualizar seu RPG extremamente popular. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/crimson-desert-patch-1-09-details"
-    },
-    {
-      "id": "https://www.eurogamer.net/xbox-game-pass-price-cut-working-asha-sharma",
-      "title": "O corte de preço do Xbox Game Pass está funcionando, disse Asha Sharma à equipe, mas “não resolveremos isso em um momento ou em um lançamento”",
-      "original_title": "The Xbox Game Pass price cut is working, Asha Sharma reportedly tells staff, but \"we will not solve this in one moment or one launch\"",
-      "image": "https://assetsio.gnwcdn.com/asha-sharma-xbox_ETUJlFF.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-05-29",
-      "summary": "A recente decisão da Microsoft de reduzir o preço do Xbox Game Pass parece ter feito o que foi projetado para fazer e aumentar a atividade dos assinantes do Game Pass. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/xbox-game-pass-price-cut-working-asha-sharma"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tr7gqs/fable_delayed_again_to_february_2027/",
-      "title": "Fable adiada novamente para fevereiro de 2027",
-      "original_title": "Fable delayed again to February 2027",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-29",
-      "summary": "Confirmado pelo Xbox no Twitter agora há pouco. https://xcancel.com/XBOX/status/2060398425686888546 Este ano está repleto de jogos incríveis para os jogadores de XBOX se divertirem, desde Halo: Campaign Evolved, Gears of War: E-Day e Call of Duty Modern Warfare 4 até Con...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tr7gqs/fable_delayed_again_to_february_2027/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1trezqo/rayman_origins_enhanced_edition_has_appeared_in/",
-      "title": "Rayman Origins: Enhanced Edition apareceu na loja do Xbox",
-      "original_title": "Rayman Origins: Enhanced edition has appeared in the Xbox shop",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-29",
-      "summary": "Por alguma razão você pode comprá-lo por 2.000 dólares, lmao. Também apenas a geração atual (lista apenas o Xbox Series X | S como plataformas, roda a 4K 60 FPS) Editar: parece que foi removido. Editar 2: Wario64 compartilhou uma foto da página Fonte Original (não funciona e...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1trezqo/rayman_origins_enhanced_edition_has_appeared_in/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1trei8w/someone_has_an_picture_of_a_page_for_the_art_book/",
-      "title": "Alguém tem a foto de uma página do livro de arte de Fire Emblem Fortune's Weave",
-      "original_title": "Someone has an picture of a page for the art book for Fire Emblem Fortune's Weave",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-29",
-      "summary": "Fonte Se a Nintendo começar a retirar imagens disso, então é legítimo.    enviado por /u/andree1234 [link] [comentários]...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1trei8w/someone_has_an_picture_of_a_page_for_the_art_book/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1trhkjm/rayman_origins_enhanced_possibly_new_features/",
-      "title": "Rayman Origins Enhanced possivelmente novos recursos vazaram?",
-      "original_title": "Rayman Origins Enhanced possibly new features leaked?",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Rumor",
-      "date": "2026-05-29",
-      "summary": "Rayman Origins Enhanced supostamente conterá: •Murphy, que pode pegar itens (de acordo com a fonte, ele faz parte de um Modo Fácil onde pega Moedas de Caveira) •Corações Azuis e Corações Dourados (a fonte diz que o Coração Dourado pode aguentar mais golpes, mas o Ouvir Azul...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1trhkjm/rayman_origins_enhanced_possibly_new_features/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1trfcd0/a_new_naruto_game_in_the_works/",
-      "title": "Um novo jogo de Naruto em desenvolvimento?",
-      "original_title": "A new Naruto game in the works?",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-29",
-      "summary": "A TV Tokyo (detentora da propriedade intelectual do anime dos direitos de Naruto) disse em seu recente ano fiscal: \"Vemos o 25º aniversário [de Naruto] como o início de uma nova etapa, e temos vários projetos planejados para capturar isso. Novos projetos, incluindo vídeos e jogos desenvolvidos...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1trfcd0/a_new_naruto_game_in_the_works/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tr5ncf/rgt_insider_who_told_me_gow_faye_will_be_at_the/",
-      "title": "RGT: Insider que me disse que GoW Faye estará no SoP disse Infamous remake e algo relacionado a Resident Evil",
-      "original_title": "RGT: Insider who told me GoW Faye will be at the SoP said Infamous remake and something related to Resident Evil",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-29",
-      "summary": "https://xcancel.com/redgamingtech/status/2060292350954307826?s=46 enviado por /u/Solid-Entertainer-39 [link] [comentários]...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tr5ncf/rgt_insider_who_told_me_gow_faye_will_be_at_the/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1tr2vok/pc_dev_freebiebunny_guys/",
-      "title": "Brinde para desenvolvedores de PC｜Coelhinhos!",
-      "original_title": "PC Dev Freebie｜Bunny Guys!",
-      "image": "https://preview.redd.it/4jpc9e5z234h1.png?width=140&height=116&auto=webp&s=f7b3e09f6d0ad8753fcc364d6d02c280d2776dd9",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-29",
-      "summary": "https://preview.redd.it/4jpc9e5z234h1.png?width=539&format=png&auto=webp&s=0f95d4f01a63b0f1e7108fa608a5606d0333c714 ⚠️ Não faz parte do programa habitual de brindes da Epic Games ⚠️ ❗VERIFIQUE O JOGO E DEV PRIMEIRO ANTES DE REIVINDICAR❗ 📝 Página de transações...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1tr2vok/pc_dev_freebiebunny_guys/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1tquin5/out_of_words_release_window_moved_to_early_2027/",
-      "title": "Janela de lançamento Out of Words movida para o início de 2027",
-      "original_title": "Out of Words Release Window Moved to Early 2027",
-      "image": "https://preview.redd.it/9l4g395f514h1.jpeg?width=640&crop=smart&auto=webp&s=2c647f6dcca919155975ebb065d948056a3c955e",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-29",
-      "summary": "http://youtube.com/post/Ugkxb1xplCFeDq6S5mK1wFceAl4_vU-UOJ7C enviado por /u/Madukes96 [link] [comentários] ...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1tquin5/out_of_words_release_window_moved_to_early_2027/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1tr9eaa/new_freebie_clues/",
-      "title": "Novas dicas de brindes",
-      "original_title": "New freebie clues",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-29",
-      "summary": "https://gg.deals/au/redirect/b02f511946c454fa3d4e5fbdace36b29b4865c45/?utm_source=news%2Fsingle acredito que o primeiro a ser o mundo da chuva, parece um gato lesma se movendo pelo nível. a outra é uma espada, talvez kcd?    enviado por /u/legendar...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1tr9eaa/new_freebie_clues/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1tquugq/will_follow_the_light_has_launched_on_the_store/",
-      "title": "WILL: Follow The Light foi lançado na loja",
-      "original_title": "WILL: Follow The Light has Launched on The Store",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-29",
-      "summary": "enviado por /u/Madukes96 [link] [comentários]...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1tquugq/will_follow_the_light_has_launched_on_the_store/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1tr2tir/epic_games_game_bunny_guys/",
-      "title": "[Jogos Épicos] (Jogo) Coelhinhos!",
-      "original_title": "[Epic Games] (Game) Bunny Guys!",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-05-29",
-      "summary": "enviado por /u/MeguminShiro [link] [comentários]...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1tr2tir/epic_games_game_bunny_guys/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1trd3m6/pcconsole_other_dead_by_daylight_starting_526/",
-      "title": "[PC/Console] (Outros) Dead by Daylight – Começando em 26/05 Skins semanais até o 10º aniversário",
-      "original_title": "[PC/Console] (Other) Dead by Daylight - Starting 5/26 Weekly skins for lead up to 10th Anniversary",
-      "image": "https://external-preview.redd.it/q0nhncgkh44h1.jpeg?width=320&crop=smart&auto=webp&s=98f4a76ec9699a88a8b77ac7d5cd5d769a348eea",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-05-29",
-      "summary": "Você tem correio.  (Você precisa fazer login e clicar em reivindicar para obtê-los em sua caixa de entrada e parece expirar em 02/06, o que suponho que seja quando for substituído por mais do mesmo conjunto (atualmente as skins de torso para Candlekeep Wraith e Demi-God David...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1trd3m6/pcconsole_other_dead_by_daylight_starting_526/"
-    },
-    {
       "id": "https://www.techpowerup.com/349516/noctua-teases-computex-launch-for-phase-change-aio-for-silent-builds",
       "title": "Noctua provoca lançamento da Computex para AIO de mudança de fase para construções silenciosas",
       "original_title": "Noctua Teases Computex Launch for Phase-Change AIO for Silent Builds",
@@ -607,66 +442,6 @@
       "url": "https://www.techpowerup.com/349516/noctua-teases-computex-launch-for-phase-change-aio-for-silent-builds"
     },
     {
-      "id": "https://www.techpowerup.com/349513/pulsar-reveals-in-store-mouse-fitment-system",
-      "title": "Pulsar revela sistema de montagem de mouse na loja",
-      "original_title": "Pulsar Reveals In-Store Mouse Fitment System",
-      "image": "https://tpucdn.com/img/gUug2lS52xNzQvnM_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-29",
-      "summary": "Nos primórdios dos mouses para jogos, novos sensores e avanços na conectividade melhoraram visivelmente o desempenho e a capacidade de resposta, mas a Pulsar há muito argumenta que \"a forma é rei\", referindo-se ao formato da concha de um mouse para jogos e como ele se ajusta à sua mão.",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349513/pulsar-reveals-in-store-mouse-fitment-system"
-    },
-    {
-      "id": "https://www.techpowerup.com/349452/microsoft-visual-studio-professional-2026-15-coding-courses-just-usd-50",
-      "title": "Microsoft Visual Studio Professional 2026 + 15 cursos de codificação por apenas US$ 50",
-      "original_title": "Microsoft Visual Studio Professional 2026 + 15 Coding Courses Just $50",
-      "image": "https://tpucdn.com/img/A8zV60F1u5dE7Ahg_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-29",
-      "summary": "O Microsoft Visual Studio Professional 2026 é há muito tempo o ambiente de desenvolvimento preferido de programadores sérios, e combiná-lo com 15 cursos de codificação estruturados torna este um dos negócios mais completos que você encontrará para quem deseja construir...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349452/microsoft-visual-studio-professional-2026-15-coding-courses-just-usd-50"
-    },
-    {
-      "id": "https://www.techpowerup.com/349514/microsoft-and-nvidia-jointly-tease-possible-n1x-debut-as-a-new-era-of-pc",
-      "title": "Microsoft e NVIDIA conjuntamente provocam possível estreia do N1X como uma “nova era do PC”",
-      "original_title": "Microsoft and NVIDIA Jointly Tease Possible N1X Debut as a \"New Era of PC\"",
-      "image": "https://tpucdn.com/img/OMup2blyFmRY45H3_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-29",
-      "summary": "Microsoft e NVIDIA, por meio de seus identificadores X, provocaram “Uma nova era do PC”, junto com as coordenadas do mapa “25.0528, 121.5990”, que correspondem ao Centro de Exposições Nangang, sede da Computex 2026. Se já não fosse óbvio, NVIDIA é um...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349514/microsoft-and-nvidia-jointly-tease-possible-n1x-debut-as-a-new-era-of-pc"
-    },
-    {
-      "id": "https://www.techpowerup.com/349510/intel-launches-thunderbolt-share-for-pc-to-pc-file-and-peripheral-sharing-on-windows-11",
-      "title": "Intel lança Thunderbolt Share para compartilhamento de arquivos e periféricos de PC para PC no Windows 11",
-      "original_title": "Intel Launches Thunderbolt Share for PC-to-PC File and Peripheral Sharing on Windows 11",
-      "image": "https://tpucdn.com/img/Qcm30qqdN6fUq61d_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-05-29",
-      "summary": "Após o recente lançamento do protocolo Intel USB4Stream, que permite o compartilhamento direto de arquivos e periféricos de PC para PC no Linux, a Intel lançou oficialmente o Thunderbolt Share para Windows, que realiza a mesma coisa no Windows por meio de um Thunderbolt ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349510/intel-launches-thunderbolt-share-for-pc-to-pc-file-and-peripheral-sharing-on-windows-11"
-    },
-    {
       "id": "https://www.techpowerup.com/349451/no-surprise-microsoft-office-hikes-own-it-for-life-for-usd-50",
       "title": "Nenhuma surpresa no Microsoft Office - ganhe-o para o resto da vida por US $ 50",
       "original_title": "No Surprise Microsoft Office Hikes—Own it for Life for $50",
@@ -680,141 +455,6 @@
         "TechPowerUp"
       ],
       "url": "https://www.techpowerup.com/349451/no-surprise-microsoft-office-hikes-own-it-for-life-for-usd-50"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1tq5105/epic_mystery_games_revealed_lonestar_calico/",
-      "title": "Jogos épicos de mistério revelados. LONESTAR, CALICO",
-      "original_title": "Epic Mystery Games revealed. LONESTAR, CALICO",
-      "image": "https://preview.redd.it/q9l6u34a0w3h1.png?width=640&crop=smart&auto=webp&s=335454086e366bc9f0340617ee138fd9c349a88d",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Epic News",
-      "date": "2026-05-28",
-      "summary": "Os jogos de mistério desta semana foram revelados 👀 Visite epicmysterygames.com para atualizações ao vivo e contagens regressivas.    enviado por /u/ContextUnlucky223 [link] [comentários] ...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1tq5105/epic_mystery_games_revealed_lonestar_calico/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1tq5lfz/next_pc_freebiemystery_game_7_8/",
-      "title": "Próximo brinde para PC ｜ Jogo misterioso nº 7 e nº 8",
-      "original_title": "Next PC Freebie｜Mystery Game #7 & #8",
-      "image": "https://preview.redd.it/r7yuf1904w3h1.png?width=320&crop=smart&auto=webp&s=31b9e7c02bf000da6db7cd880e066b100d0462ca",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-05-28",
-      "summary": "enviado por /u/EmuConscious108 [link] [comentários] ...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1tq5lfz/next_pc_freebiemystery_game_7_8/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1tqbfbl/hogwarts_legacy_is_my_favourite_epic_claim_whats/",
-      "title": "Hogwarts Legacy é minha reivindicação épica favorita, qual é a sua?",
-      "original_title": "Hogwarts Legacy is my favourite Epic claim, what's yours?",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Epic News",
-      "date": "2026-05-28",
-      "summary": "Não é o objetivamente “melhor”. Apenas aquele que te deixou mais feliz quando o viu de graça na Epic. O meu foi o Legado de Hogwarts. Não esperava ver aquele de graça. TL;DR: Qual é a sua reivindicação gratuita da Epic favorita?    enviado por /u/Nice-Sandwich4512 [li...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1tqbfbl/hogwarts_legacy_is_my_favourite_epic_claim_whats/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1tq7tli/steam_game_drift86/",
-      "title": "[Steam] (Jogo) Drift86",
-      "original_title": "[Steam] (Game) Drift86",
-      "image": "https://external-preview.redd.it/LGWBI-ekIu5rGFa0hwYK9aiXluAD9pQI5R1ZruMZ5og.jpeg?width=320&crop=smart&auto=webp&s=0c507004910f1db07676b1a9586b5f41642c1ab8",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-05-28",
-      "summary": "enviado por /u/iambaldy [link] [comentários] ...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1tq7tli/steam_game_drift86/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1tq64xf/epic_games_game_lonestar/",
-      "title": "[Jogos Épicos] (Jogo) LONESTAR",
-      "original_title": "[Epic Games] (Game) LONESTAR",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-05-28",
-      "summary": "enviado por /u/el9in [link] [comentários]...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1tq64xf/epic_games_game_lonestar/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1tq6gvr/epic_games_mobile_game_northgard/",
-      "title": "[Epic Games Mobile] (Jogo) Northgard",
-      "original_title": "[Epic Games Mobile] (Game) Northgard",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-05-28",
-      "summary": "enviado por /u/Fit-Cardiologist-124 [link] [comentários]...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1tq6gvr/epic_games_mobile_game_northgard/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1tq64xg/epic_games_game_calico/",
-      "title": "[Jogos Épicos] (Jogo) Calico",
-      "original_title": "[Epic Games] (Game) Calico",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-05-28",
-      "summary": "enviado por /u/el9in [link] [comentários]...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1tq64xg/epic_games_game_calico/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1tq9h91/psa_nordic_storm_solitaire_legacy_games_moon/",
-      "title": "[PSA] Nordic Storm Solitaire (Legacy Games), Moon Mystery (EGS), Pro Basketball Manager 2026 (Amazon Games) são gratuitos no Amazon Prime",
-      "original_title": "[PSA] Nordic Storm Solitaire (Legacy Games), Moon Mystery (EGS), Pro Basketball Manager 2026 (Amazon Games) are complimentary with Amazon Prime",
-      "image": "https://external-preview.redd.it/_fBjABdCsDDIR7bJn-cgpkXoTMJ2MnAEY3PCdXPaAoY.png?width=640&crop=smart&auto=webp&s=bef23da95c6aa8211ed8845602ada6c6644977cf",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-05-28",
-      "summary": "enviado por /u/LighteningOneIN [link] [comentários] ...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1tq9h91/psa_nordic_storm_solitaire_legacy_games_moon/"
-    },
-    {
-      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1tqcd36/pcconsole_other_world_of_tanks_heat_amd_bonus_pack/",
-      "title": "[PC/Console] (Outro) World of Tanks: HEAT - Pacote Bônus AMD",
-      "original_title": "[PC/Console] (Other) World of Tanks: HEAT - AMD Bonus Pack",
-      "image": "https://external-preview.redd.it/Fqd_GWKF3HNOsrrFGwSjBUFjM6D7xxFQzVmLOVNrFwY.jpeg?width=640&crop=smart&auto=webp&s=fda254c7e8868048d1c383ce73b5b10887d187fe",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Free Games",
-      "date": "2026-05-28",
-      "summary": "enviado por /u/Responsible-River653 [link] [comentários] ...",
-      "sources": [
-        "r/FreeGameFindings"
-      ],
-      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1tqcd36/pcconsole_other_world_of_tanks_heat_amd_bonus_pack/"
     }
   ]
 }
