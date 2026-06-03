@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-06-02T16:24:44",
-  "display_date": "02/06/2026 16:24",
+  "last_updated": "2026-06-03T16:48:36",
+  "display_date": "03/06/2026 16:48",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "387ms",
+    "latency": "592ms",
     "current_games": [
       {
         "title": "LONESTAR",
@@ -74,7 +74,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "summary": "ESTRELA SOLITÁRIA",
       "sources": [
         "Epic Games Store"
@@ -89,7 +89,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "summary": "Chita",
       "sources": [
         "Epic Games Store"
@@ -104,7 +104,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "summary": "Disponível gratuitamente a partir de 16/07. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
       "sources": [
         "Epic Games Store"
@@ -119,7 +119,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "summary": "Disponível gratuitamente a partir de 16/09. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
@@ -134,7 +134,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "summary": "Disponível gratuitamente a partir de 04/06. Jogo de mistério, semana 23, jogo 2",
       "sources": [
         "Epic Games Store"
@@ -149,7 +149,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "summary": "Disponível gratuitamente a partir de 04/06. Jogo de mistério, semana 23, jogo 1",
       "sources": [
         "Epic Games Store"
@@ -157,244 +157,229 @@
       "url": "https://store.epicgames.com/p/megasale-mysterygame-2026-week23-game1"
     },
     {
-      "id": "https://www.eurogamer.net/super-yooka-laylee-kart-leaks",
-      "title": "Super Yooka-Laylee Kart vaza antes do Summer Game Fest enquanto a desenvolvedora Playtonic Games provoca “pode haver maneiras mais rápidas de ir”",
-      "original_title": "Super Yooka-Laylee Kart leaks ahead of Summer Game Fest as developer Playtonic Games teases \"there may be faster ways to go\"",
-      "image": "https://assetsio.gnwcdn.com/Super-Yooka-Laylee-Kart-first-key-art.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/lego-batman-legacy-of-the-dark-knight-switch-2-release-date",
+      "title": "Lego Batman: Legacy of the Dark Knight chega ao Switch 2 neste outono, e seu primeiro grande DLC chega no mesmo dia",
+      "original_title": "Lego Batman: Legacy of the Dark Knight swoops onto Switch 2 this autumn, and its first major DLC arrives the same day",
+      "image": "https://assetsio.gnwcdn.com/Poison-Ivy-in-Lego-Batman-Legacy-of-the-Dark-Knight.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-06-03",
+      "summary": "Depois de um pouco de espera, os proprietários do Switch 2 podem colocar as mãos em Lego Batman: Legacy of the Dark Knight neste outono, anunciou a editora Warner Bros., ao se juntar a muitos outros jogos que chegarão em setembro. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/lego-batman-legacy-of-the-dark-knight-switch-2-release-date"
+    },
+    {
+      "id": "https://www.eurogamer.net/cd-projekt-red-hadar-first-info",
+      "title": "O novo IP misterioso ‘Hadar’ do CD Projekt Red é “uma experiência emocional de mundo aberto” em linha com os jogos Witcher e Cyberpunk do desenvolvedor",
+      "original_title": "CD Projekt Red's new mystery IP 'Hadar' is \"an emotional, open-world experience\" in line with the developer's Witcher and Cyberpunk games",
+      "image": "https://assetsio.gnwcdn.com/ss_02c440c80edb9b5ec5008bb9031530cce79a880e.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-06-03",
+      "summary": "Já sabemos sobre Hadar, a nova franquia da CD Projekt Red, há alguns anos, mas foi só em março de 2026 que o estúdio “estabeleceu as bases” do que realmente seria. Com apenas promessas e um codinome, pouco se sabe sobre sua nat...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/cd-projekt-red-hadar-first-info"
+    },
+    {
+      "id": "https://www.eurogamer.net/raymans-best-most-beautiful-adventure-is-being-remade-in-3d-for-some-reason-and-itll-bundled-with-the-leaked-rayman-origins-remaster",
+      "title": "A melhor e mais bela aventura de Rayman está sendo refeita em 3D, por algum motivo, e será incluída na remasterização de Rayman Origins que vazou",
+      "original_title": "Rayman's best, most beautiful adventure is being remade in 3D, for some reason, and it'll be bundled with the leaked Rayman Origins remaster",
+      "image": "https://assetsio.gnwcdn.com/rayman-legends-header-crop.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "Rumor",
-      "date": "2026-06-02",
-      "summary": "O Summer Game Fest 2026 está acontecendo esta semana e, embora isso normalmente signifique que podemos nos preparar para muitas revelações surpresas de videogame, invariavelmente nem tudo conseguirá permanecer em segredo até o grande dia. E parece que o desenvolvedor Playto...",
+      "date": "2026-06-03",
+      "summary": "Você provavelmente não precisa que eu diga que Rayman Legends é um clássico absoluto. E apesar de já ter mais de uma década, o célebre jogo de plataformas 2D - com sua suntuosa arte desenhada à mão e ação extremamente imaginativa - ainda parece e soa...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/super-yooka-laylee-kart-leaks"
+      "url": "https://www.eurogamer.net/raymans-best-most-beautiful-adventure-is-being-remade-in-3d-for-some-reason-and-itll-bundled-with-the-leaked-rayman-origins-remaster"
     },
     {
-      "id": "https://www.eurogamer.net/subnautica-2-hotfix-3-first-creature-changes",
-      "title": "Subnautica 2 recebe o primeiro hotfix para ajustar o comportamento de certas criaturas",
-      "original_title": "Subnautica 2 gets first hotfix to tweak the behaviour of certain creatures",
-      "image": "https://assetsio.gnwcdn.com/Subnautica-2---Power-Base-Header.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/nintendo-music-mario-kart-world-soundtrack",
+      "title": "Nintendo Music agora suporta telas de PC, tablets e carros, já que quatro horas de sucessos de Mario Kart World se juntam ao serviço de streaming",
+      "original_title": "Nintendo Music now supports PC, tablets, and car screens as a whopping four hours of Mario Kart World bangers join the streaming service",
+      "image": "https://assetsio.gnwcdn.com/A-lot-of-Yoshis-racing-in-Mario-Kart-World.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-02",
-      "summary": "Subnautica 2 lançou um novo hotfix, o terceiro desde que foi lançado em acesso antecipado há pouco mais de duas semanas. Esta atualização em particular é especial, pois é a primeira a chegar após o debate entre os jogadores sobre se você deve ou não ...",
+      "date": "2026-06-03",
+      "summary": "O Nintendo Music já existe há algum tempo, mas apesar de muitas atualizações em sua seleção musical desde o lançamento, o serviço de streaming só está acessível através do aplicativo móvel da Nintendo. Isso agora mudou. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/subnautica-2-hotfix-3-first-creature-changes"
+      "url": "https://www.eurogamer.net/nintendo-music-mario-kart-world-soundtrack"
     },
     {
-      "id": "https://www.eurogamer.net/crimson-desert-summer-2026-update-roadmap",
-      "title": "Crimson Desert DLC oficialmente em desenvolvimento na Pearl Abyss enquanto o estúdio surpreende a todos ao concordar em mudar a história do jogo",
-      "original_title": "Crimson Desert DLC officially in development at Pearl Abyss as the studio surprises everyone by agreeing to change the game's story",
-      "image": "https://assetsio.gnwcdn.com/Crimson-Desert_boss-fight.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/lego-pokemon-smart-play-sets",
+      "title": "Pokémon recebe o tratamento Lego Smart Play com novos conjuntos chegando neste verão, e eles não são tão caros quanto as versões anteriores do Pokémon",
+      "original_title": "Pokémon gets the Lego Smart Play treatment with new sets arriving this summer, and they're not as eye-wateringly expensive as the previous Pokémon builds",
+      "image": "https://assetsio.gnwcdn.com/Charizard-vs.-Jolteon-Lego-set.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-02",
-      "summary": "Crimson Desert continua a crescer e evoluir seguindo o sucesso financeiro e o feedback dos jogadores, ao mesmo tempo eliminando problemas e adicionando mais conteúdo a um jogo que já era denso no lançamento. Agora, Pearl Abyss confirmou os planos para este...",
+      "date": "2026-06-03",
+      "summary": "Os conjuntos Lego Pokémon finalmente chegaram no início deste ano, mas eram caros, com forte foco em grandes construções. Claro, isso foi apenas o começo da parceria do The Lego Group e da The Pokémon Company, e agora eles revelaram Lego S...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/crimson-desert-summer-2026-update-roadmap"
+      "url": "https://www.eurogamer.net/lego-pokemon-smart-play-sets"
     },
     {
-      "id": "https://www.eurogamer.net/june-2026-playstation-state-of-play-live-report",
-      "title": "Relatório ao vivo do PlayStation State of Play – todas as notícias de hoje do showcase de verão de 2026 da Sony",
-      "original_title": "PlayStation State of Play live report - all of today's news from Sony's 2026 summer showcase",
-      "image": "https://assetsio.gnwcdn.com/marvel's-wolverine-playstation-state-of-play.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/playstation-state-of-play-recap-2026-june",
+      "title": "Uma notável ausência de serviço ao vivo, uma riqueza de jogos para um jogador e o espectro de um console de £ 500: o que fizemos com o State of Play de junho do PlayStation",
+      "original_title": "A conspicuous absence of live-service, a wealth of single-player games, and the spectre of a £500 console: what we made of PlayStation's June State of Play",
+      "image": "https://assetsio.gnwcdn.com/ps-headline.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-02",
-      "summary": "Toque a buzina, pois as festividades dos jogos de verão estão prestes a começar. A Sony vai primeiro com seu showcase PlayStation State of Play, que começa hoje à noite às 22h, horário do Reino Unido (23h CEST/14h PDT/17h EDT). E abordaremos isso neste artigo, ao vivo...",
+      "date": "2026-06-03",
+      "summary": "O PlayStation State of Play da noite passada foi um grande problema para a Sony. Ainda estamos nos recuperando do anúncio do proprietário da plataforma em março de que o PS5, PS5 Pro e Portal receberiam grandes aumentos de preços graças às “pressões contínuas na economia global...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/june-2026-playstation-state-of-play-live-report"
+      "url": "https://www.eurogamer.net/playstation-state-of-play-recap-2026-june"
     },
     {
-      "id": "https://www.eurogamer.net/pokemon-tcg-30th-celebration-set",
-      "title": "Pokémon TCG anuncia conjunto de 30 anos com “todas as cartas foil”, 30 novas ilustrações exclusivas de Pikachu e o retorno do clássico Charizard",
-      "original_title": "Pokémon TCG announces 30th anniversary set with \"all foil cards\", 30 new unique Pikachu illustrations, and the return of classic Charizard",
-      "image": "https://assetsio.gnwcdn.com/Pokemon-TCG-30th-Celebration_Pikachus.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/marvels-wolverine-x-men-dont-exist-spider-man-cameo",
+      "title": "Os X-Men não existem no Wolverine da Marvel e, embora o Homem-Aranha exista, ele só aparecerá fugazmente de uma forma \"ovo de Páscoa\"",
+      "original_title": "The X-Men don't exist in Marvel's Wolverine, and while Spider-Man does, he'll only appear fleetingly in an \"Easter-eggy\" kind of way",
+      "image": "https://assetsio.gnwcdn.com/jean-grey-marvels-wolverine.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-02",
-      "summary": "A Pokémon Company revelou “uma expansão comemorativa” para Pokémon TCG que celebra o 30º aniversário da série Pokémon. Chegará às lojas em todo o mundo no dia 16 de setembro deste ano, e aposto que veremos brigas por causa desses boosters. R...",
+      "date": "2026-06-03",
+      "summary": "Ver Jean Grey no trailer de Wolverine da Marvel ontem, e sua capacidade de trabalhar com Logan como um aliado em combate, naturalmente levantou outra questão sobre o jogo: quais outros personagens famosos dos X-Men veremos? Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/pokemon-tcg-30th-celebration-set"
+      "url": "https://www.eurogamer.net/marvels-wolverine-x-men-dont-exist-spider-man-cameo"
     },
     {
-      "id": "https://www.eurogamer.net/sony-playstation-first-party-sales-decline",
-      "title": "Novos dados mostram que a Sony tem vendido cada vez menos cópias de seus exclusivos PlayStation desde 2020",
-      "original_title": "New data shows Sony has been selling fewer and fewer copies of its PlayStation exclusives since 2020",
-      "image": "https://assetsio.gnwcdn.com/Aloy-looks-puzzled-in-a-screenshot-from-Horizon-Forbidden-West.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/god-of-war-laufey-combat-classic-modern-meld",
+      "title": "God of War Laufey está trazendo de volta o combate mais rápido da trilogia original",
+      "original_title": "God of War Laufey is bringing back the original trilogy's faster combat",
+      "image": "https://assetsio.gnwcdn.com/god-of-war-laufey-classic-cover-1.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-02",
-      "summary": "As vendas de jogos exclusivos do PlayStation têm diminuído desde o ano fiscal de 2020 da empresa, de acordo com novos dados, registrando apenas um breve aumento no ano passado (2025). Essa queda perceptível é notável, em parte porque a Sony sempre...",
+      "date": "2026-06-03",
+      "summary": "Embora ocorra no mesmo mundo da reinicialização de God of War de 2018 e de God of War Ragnarök, God of War Laufey surpreendentemente empresta algumas das características mais definidoras da trilogia original. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/sony-playstation-first-party-sales-decline"
+      "url": "https://www.eurogamer.net/god-of-war-laufey-combat-classic-modern-meld"
     },
     {
-      "id": "https://www.eurogamer.net/valve-antitrust-lawsuits-ubisoft-warner-bros-report",
-      "title": "O processo antitruste da Valve supostamente revela até onde o proprietário do Steam está disposto a ir para evitar preços mais baratos em outros lugares",
-      "original_title": "Valve antitrust lawsuit reportedly reveals lengths Steam owner is willing to go to prevent cheaper prices elsewhere",
-      "image": "https://assetsio.gnwcdn.com/steam_share_image.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/dune-awakening-console-version-no-crossplay",
+      "title": "Dune Awakening está finalmente chegando aos consoles, mas por algum motivo, não terá jogo cruzado",
+      "original_title": "Dune Awakening is coming to consoles at long last, but for some reason, it will not have crossplay",
+      "image": "https://assetsio.gnwcdn.com/dune-awakening-desert.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-02",
-      "summary": "O Steam está mais uma vez sob ataque. Um novo processo antitruste acusou a proprietária da plataforma Valve de abusar de sua posição dominante no mercado de PCs ao perseguir agressivamente desenvolvedores - incluindo grandes players como Ubisoft e Warner Bros.",
+      "date": "2026-06-03",
+      "summary": "Dune Awakening está finalmente chegando aos consoles e está recebendo um modo single-player dedicado. Infelizmente, não haverá jogo cruzado entre a maioria das plataformas. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/valve-antitrust-lawsuits-ubisoft-warner-bros-report"
+      "url": "https://www.eurogamer.net/dune-awakening-console-version-no-crossplay"
     },
     {
-      "id": "https://www.eurogamer.net/resident-evil-capcom-japan",
-      "title": "O produtor de Resident Evil Requiem sugere que a lendária série de terror poderia finalmente visitar o Japão no futuro – “Acho que cada membro [da equipe] pensou um pouco sobre isso”",
-      "original_title": "Resident Evil Requiem producer suggests the legendary horror series could finally visit Japan in the future - \"I think every member [of the team] has given it some thought\"",
-      "image": "https://assetsio.gnwcdn.com/japangrace.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/toy-story-retro-collection-announcement",
+      "title": "Toy Story é a próxima série a receber o aclamado tratamento de coleção retrô do Digital Eclipse, e uma remasterização de Toy Story 3 também está a caminho",
+      "original_title": "Toy Story is the next series to get Digital Eclipse's acclaimed retro collection treatment, and a remaster of Toy Story 3 is also on the way",
+      "image": "https://assetsio.gnwcdn.com/Toy-Story_retro-roundup_key-art.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-02",
-      "summary": "Apesar de vir de um estúdio japonês, a série Resident Evil nunca mergulhou no Japão, pelo menos em termos de cenário de jogo. No entanto, o produtor de Resident Evil Requiem acha que cada membro da equipe de desenvolvimento da Capcom tem no m...",
+      "date": "2026-06-03",
+      "summary": "Após Mortal Kombat: Legacy Kollection da Digital Eclipse no ano passado, o estúdio famoso por seu trabalho de preservação e restauração - incluindo a aclamada Gold Master Series - revelou uma coleção de títulos retrô de Toy Story, além de um ...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/resident-evil-capcom-japan"
+      "url": "https://www.eurogamer.net/toy-story-retro-collection-announcement"
     },
     {
-      "id": "https://www.eurogamer.net/streets-of-rage-movie-sonic-writers",
-      "title": "O filme Streets of Rage ganha impulso com os roteiristas de Sonic the Hedgehog e o diretor de The Harder They Fall embarcando na adaptação",
-      "original_title": "Streets of Rage movie gains momentum as Sonic the Hedgehog writers and The Harder They Fall director board the adaptation",
-      "image": "https://assetsio.gnwcdn.com/streets-of-rage-4-main-art.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-06-02",
-      "summary": "Embora você possa ter esquecido disso, um filme de Streets of Rage está em andamento desde 2022. Originalmente, o atual roteirista de ação de Hollywood, Derek Kolstad (famoso por John Wick), foi contratado. Agora, o projeto lento evoluiu e ...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/streets-of-rage-movie-sonic-writers"
-    },
-    {
-      "id": "https://www.eurogamer.net/star-wars-jedi-3-cal-kestis-rumours",
-      "title": "O boato de Star Wars Jedi 3 sugere que podemos ver um Cal Kestis mais velho após um salto no tempo, o que se alinha com as promessas recentes de “mais histórias de Cal”",
-      "original_title": "Star Wars Jedi 3 rumour suggests we might see an older Cal Kestis after a time jump, which lines up with recent promises of \"more Cal stories\"",
-      "image": "https://assetsio.gnwcdn.com/Jedi-Survivor_Cal-sunset.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Rumor",
-      "date": "2026-06-02",
-      "summary": "Já sabemos há muito tempo que um terceiro jogo Star Wars Jedi está em desenvolvimento ativo, mas a duração planejada da série e o destino do sobrevivente Jedi Cal Kestis - um herói que não está disponível no momento em que Luke Skywalker enfrenta Darth Vader e o...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/star-wars-jedi-3-cal-kestis-rumours"
-    },
-    {
-      "id": "https://www.techpowerup.com/349632/geometric-future-unveils-new-pc-cases-power-supplies-and-aios-at-computex-2026",
-      "title": "Geometric Future revela novos gabinetes para PC, fontes de alimentação e AIOs na Computex 2026",
-      "original_title": "Geometric Future Unveils New PC Cases, Power Supplies and AIOs at Computex 2026",
-      "image": "https://tpucdn.com/img/VkSHLfQ2bx8jk9ru_thm.jpg",
+      "id": "https://www.techpowerup.com/349682/akasa-showcases-fanless-chassis-cooling-power-and-network-solutions-at-computex-2026",
+      "title": "Akasa apresenta soluções de chassi, refrigeração, energia e rede sem ventoinha na Computex 2026",
+      "original_title": "Akasa Showcases Fanless Chassis, Cooling, Power and Network Solutions at Computex 2026",
+      "image": "https://tpucdn.com/img/qUL6wJenkfcQgWqE_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-02",
-      "summary": "A Geometric Future apresentou seu novo chassi carro-chefe do Modelo 9 junto com versões de protótipo do Modelo 7 e Modelo 7 Extreme na Computex 2026. O Modelo 9 é uma ultratorre de alumínio medindo 750 × 300 × 608 mm com um painel lateral curvo de vidro fumê e...",
+      "date": "2026-06-03",
+      "summary": "Akasa veio para a Computex 2026 com uma ampla gama de produtos como gabinetes sem ventoinha, refrigeração, adaptadores, acessórios de alimentação e conectividade. Durante nossa caminhada no estande da Akasa, encontramos pela primeira vez uma extensa linha de gabinetes passivos. A escalação sem fãs...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/349632/geometric-future-unveils-new-pc-cases-power-supplies-and-aios-at-computex-2026"
+      "url": "https://www.techpowerup.com/349682/akasa-showcases-fanless-chassis-cooling-power-and-network-solutions-at-computex-2026"
     },
     {
-      "id": "https://www.techpowerup.com/349631/tcomas-at-computex-2026-an-aio-shaped-like-a-game-console",
-      "title": "TCOMAS na Computex 2026: um AIO em formato de console de jogo",
-      "original_title": "TCOMAS at Computex 2026: An AIO Shaped Like a Game Console",
-      "image": "https://tpucdn.com/img/8HayPKybHXkDP8VB_thm.jpg",
+      "id": "https://www.techpowerup.com/349680/wentai-unveils-aibarza-aldan-d1515-first-cybenetics-diamond-rated-psu",
+      "title": "Wentai lança AiBARZA Aldan-D1515, primeira fonte de alimentação Cybenetics com classificação diamante",
+      "original_title": "Wentai Unveils AiBARZA Aldan-D1515, First Cybenetics Diamond-rated PSU",
+      "image": "https://tpucdn.com/img/MaPbZ9IVYssSr7LL_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-02",
-      "summary": "A TCOMAS na Computex 2026 exibiu seus mais recentes coolers líquidos para CPU AIO. Começamos nosso tour com o EXIT D3 Pro, o primeiro AIO CLC do mundo com três monitores 480×480, formando a metade interna de um cubo. Com um pouco de programação inteligente, os três d...",
+      "date": "2026-06-03",
+      "summary": "Wentai revelou a AiBARZA Aldan-D1515, que é provavelmente a fonte de alimentação mais eficiente do mundo. Esta é a primeira fonte de alimentação de produção a ser classificada como Cybenetics Diamond, que tem pelo menos 95% de eficiência de comutação contínua com menos de 0,1 W de potência vampírica ...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/349631/tcomas-at-computex-2026-an-aio-shaped-like-a-game-console"
+      "url": "https://www.techpowerup.com/349680/wentai-unveils-aibarza-aldan-d1515-first-cybenetics-diamond-rated-psu"
     },
     {
-      "id": "https://www.techpowerup.com/349500/godeal24-unveils-6th-anniversary-sale-office-2024-at-just-usd-16-99",
-      "title": "GoDeal24 lança promoção de 6º aniversário – Office 2024 por apenas US$ 16,99!",
-      "original_title": "GoDeal24 Unveils 6th Anniversary Sale—Office 2024 at Just $16.99!",
-      "image": "https://tpucdn.com/img/cahIX2s6Rx6Wvnjl_thm.jpg",
+      "id": "https://www.techpowerup.com/349679/zotac-unveils-mini-pcs-for-robotics-and-iiot-the-most-compact-prebuilt-with-a-desktop-rtx-5080",
+      "title": "ZOTAC lança mini-PCs para robótica e IIoT, os mais compactos pré-construídos com um desktop RTX 5080",
+      "original_title": "ZOTAC Unveils Mini-PCs for Robotics and IIoT, the Most Compact Prebuilt with a Desktop RTX 5080",
+      "image": "https://tpucdn.com/img/YZwHq5gpXQkdKZVQ_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-02",
-      "summary": "GoDeal24 está comemorando seu 6º aniversário com um acordo bonança. Obtenha o Office 2024 Professional Plus genuíno e vitalício por apenas US$ 16,99 – uma grande economia em relação ao pagamento da taxa de assinatura do Microsoft 365 a cada ano. O Office 2021 Professional Plus pode ser adquirido...",
+      "date": "2026-06-03",
+      "summary": "Visitamos a área exclusiva ZBOX do estande da ZOTAC, onde fomos recebidos pelo Magnus One Ultra (EU27508OC), o desktop pré-construído mais compacto do mundo com uma placa gráfica NVIDIA GeForce RTX 5080 para desktop. Essa coisa é mais ou menos do tamanho de um sapato...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/349500/godeal24-unveils-6th-anniversary-sale-office-2024-at-just-usd-16-99"
+      "url": "https://www.techpowerup.com/349679/zotac-unveils-mini-pcs-for-robotics-and-iiot-the-most-compact-prebuilt-with-a-desktop-rtx-5080"
     },
     {
-      "id": "https://www.techpowerup.com/349630/wizmax-at-computex-2026-pc-cases-and-calux-aluminium-keyboard",
-      "title": "WizMax na Computex 2026: gabinetes para PC e teclado de alumínio Calux",
-      "original_title": "WizMax at Computex 2026: PC Cases and Calux Aluminium Keyboard",
-      "image": "https://tpucdn.com/img/iJuE352XMTxwPk7h_thm.jpg",
+      "id": "https://www.techpowerup.com/349678/mad-catz-showcases-r-a-t-7-gaming-mouse-and-n-e-k-o-k-o-leverless-arcade-controller-at-computex-2026",
+      "title": "Mad Catz apresenta mouse para jogos R.A.T 7+ e N.E.K.O. K.O. Controlador Leverless Arcade na Computex 2026",
+      "original_title": "Mad Catz Showcases R.A.T 7+ Gaming Mouse and N.E.K.O. K.O. Leverless Arcade Controller at Computex 2026",
+      "image": "https://tpucdn.com/img/fX2DDhD9avzpj6xG_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-02",
-      "summary": "Na Computex 2026, a WizMax, marca de hardware da sul-coreana Hanmi Micronics, apresentou uma linha de novos chassis de PC e seu teclado de alumínio Calux. A nova linha de gabinetes para PC inclui Prism Max, Prism Pro, Ara Max, Lucent, Vista, Monochrome e Artr...",
+      "date": "2026-06-03",
+      "summary": "Mad Catz apresentou seus periféricos para jogos na Computex 2026 e entre eles estavam o novo R.A.T. 7+ mouse para jogos sem fio junto com N.E.K.O. K.O. controlador de arcade sem alavanca. O R.A.T. 7+ apresenta o design ajustável distinto Mad Catz R.A.T enquanto ...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/349630/wizmax-at-computex-2026-pc-cases-and-calux-aluminium-keyboard"
+      "url": "https://www.techpowerup.com/349678/mad-catz-showcases-r-a-t-7-gaming-mouse-and-n-e-k-o-k-o-leverless-arcade-controller-at-computex-2026"
     },
     {
-      "id": "https://www.techpowerup.com/349629/mistel-at-computex-2026-airone-pro-md770-md600-new-variants",
-      "title": "Mistel na Computex 2026: Airone Pro, MD770, MD600 Novas Variantes",
-      "original_title": "Mistel at Computex 2026: Airone Pro, MD770, MD600 New Variants",
-      "image": "https://tpucdn.com/img/95pCuJzr5r666K3X_thm.jpg",
+      "id": "https://www.techpowerup.com/349676/sama-at-computex-2026-pc-cases-power-supplies-and-coolers",
+      "title": "SAMA na Computex 2026: Gabinetes, fontes de alimentação e coolers para PC",
+      "original_title": "SAMA at Computex 2026: PC Cases, Power Supplies and Coolers",
+      "image": "https://tpucdn.com/img/WZj9GZOebbWLGNHX_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-02",
-      "summary": "Mistel na Computex 2026 apresentou seus mais recentes teclados sem fio compactos com teclas altamente modificáveis. O Airone Pro é um teclado compacto de 72 teclas com layout 65% JIS. Ele usa switches Cherry MX ULP com retroiluminação RGB e N-key Rollover. A chave...",
+      "date": "2026-06-03",
+      "summary": "Na Computex 2026, a SAMA apresenta seus próximos chassis para PC, coolers líquidos AIO e fontes de alimentação ATX 3.1. O chassi V80 é um protótipo interessante com painel frontal de vidro temperado de curva dupla, suporte para placas-mãe BTF, um resfriamento de GPU dedicado...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/349629/mistel-at-computex-2026-airone-pro-md770-md600-new-variants"
-    },
-    {
-      "id": "https://www.techpowerup.com/349628/valkyrie-showcases-pc-cases-coolers-and-m1-pro-mouse-at-computex-2026",
-      "title": "Valkyrie apresenta gabinetes para PC, coolers e mouse M1 Pro na Computex 2026",
-      "original_title": "Valkyrie Showcases PC Cases, Coolers and M1 Pro Mouse at Computex 2026",
-      "image": "https://tpucdn.com/img/O5qV9w9RwSqam3DH_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-06-02",
-      "summary": "Valkyrie apresentou na Computex 2026 novos produtos, incluindo os gabinetes Titan, Fortress e Bastion para PC, os coolers Air Surge e Liquid Enforcer e o mouse M1 Pro. O Titan é um chassi de torre completa de vidro duplo medindo 420 × 285 × 410 mm e suporta...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349628/valkyrie-showcases-pc-cases-coolers-and-m1-pro-mouse-at-computex-2026"
+      "url": "https://www.techpowerup.com/349676/sama-at-computex-2026-pc-cases-power-supplies-and-coolers"
     },
     {
       "id": "https://www.techpowerup.com/349452/microsoft-visual-studio-professional-2026-15-coding-courses-just-usd-50",
@@ -404,7 +389,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "summary": "O Microsoft Visual Studio Professional 2026 é há muito tempo o ambiente de desenvolvimento preferido de programadores sérios, e combiná-lo com 15 cursos de codificação estruturados torna este um dos negócios mais completos que você encontrará para quem deseja construir...",
       "sources": [
         "TechPowerUp"
@@ -412,34 +397,49 @@
       "url": "https://www.techpowerup.com/349452/microsoft-visual-studio-professional-2026-15-coding-courses-just-usd-50"
     },
     {
-      "id": "https://www.techpowerup.com/349627/leopold-brings-new-alchemie-series-keyboards-and-discrete-num-pads-to-computex-2026",
-      "title": "Leopold traz novos teclados da série Alchemie e pads NUM discretos para a Computex 2026",
-      "original_title": "Leopold Brings New Alchemie Series Keyboards and Discrete NUM Pads to Computex 2026",
-      "image": "https://tpucdn.com/img/cB36WKxKxII50EwF_thm.jpg",
+      "id": "https://www.techpowerup.com/349675/thermaltake-dockpower-is-an-innovative-modular-psu-where-the-connections-panel-comes-off",
+      "title": "Thermaltake DockPower é uma fonte de alimentação modular inovadora onde o painel de conexões sai",
+      "original_title": "Thermaltake DockPower is an Innovative Modular PSU Where the Connections Panel Comes Off",
+      "image": "https://tpucdn.com/img/44yspIbZQCLhGsI5_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-02",
-      "summary": "O designer de periféricos de jogos boutique Leopold revelou seus teclados mecânicos da série Alchemie na Computex 2026. O Alchemie é um teclado mecânico sem fio de última geração com alumínio anodizado, corpo usinado em CNC, com lubrificação hot-swap...",
+      "date": "2026-06-03",
+      "summary": "A série de inovações da Thermaltake continua, com sua nova fonte DockPower. Você já viu PSUs totalmente modulares e PSUs como o Corsair RMx Shift, que orienta o painel de conexões ao longo da lateral do corpo da PSU para facilitar o acesso. Isso...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/349627/leopold-brings-new-alchemie-series-keyboards-and-discrete-num-pads-to-computex-2026"
+      "url": "https://www.techpowerup.com/349675/thermaltake-dockpower-is-an-innovative-modular-psu-where-the-connections-panel-comes-off"
     },
     {
-      "id": "https://www.techpowerup.com/349626/antec-cases-at-computex-2026-flux-pro-digital-c6-curve-and-c6-wood",
-      "title": "Casos Antec na Computex 2026: Flux Pro Digital, C6 Curve e C6 Wood",
-      "original_title": "Antec Cases at Computex 2026: Flux Pro Digital, C6 Curve, and C6 Wood",
-      "image": "https://tpucdn.com/img/a7jg3D5FL1r7tlYw_thm.jpg",
+      "id": "https://www.techpowerup.com/349500/godeal24-unveils-6th-anniversary-sale-office-2024-at-just-usd-16-99",
+      "title": "GoDeal24 lança promoção de 6º aniversário – Office 2024 por apenas US$ 16,99!",
+      "original_title": "GoDeal24 Unveils 6th Anniversary Sale—Office 2024 at Just $16.99!",
+      "image": "https://tpucdn.com/img/cahIX2s6Rx6Wvnjl_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-02",
-      "summary": "A Antec na Computex 2026 exibiu as últimas edições de seus cases. O Flux Pro Digital baseia-se no premiado design original do Flux Pro. O painel lateral inferior esquerdo baseado em malha que cobre a fonte de alimentação e os compartimentos da unidade agora tem uma cor retangular...",
+      "date": "2026-06-03",
+      "summary": "GoDeal24 está comemorando seu 6º aniversário com um acordo bonança. Obtenha o Office 2024 Professional Plus genuíno e vitalício por apenas US$ 16,99 – uma grande economia em relação ao pagamento da taxa de assinatura do Microsoft 365 a cada ano. O Office 2021 Professional Plus pode ser adquirido...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/349626/antec-cases-at-computex-2026-flux-pro-digital-c6-curve-and-c6-wood"
+      "url": "https://www.techpowerup.com/349500/godeal24-unveils-6th-anniversary-sale-office-2024-at-just-usd-16-99"
+    },
+    {
+      "id": "https://www.techpowerup.com/349674/thermaltake-capo-x-is-a-tall-tower-case-with-room-for-two-matx-systems",
+      "title": "Thermaltake CAPO X é um gabinete torre alta com espaço para dois sistemas MATX",
+      "original_title": "Thermaltake CAPO X is a Tall Tower Case with Room for Two MATX Systems",
+      "image": "https://tpucdn.com/img/Pc0I7BQ3XXawGnPl_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-06-03",
+      "summary": "Thermaltake CAPO X é um novo case fascinante que vimos este ano na Computex. Este não é o primeiro caso com espaço para duas placas-mãe para dois sistemas independentes; mas é provavelmente o primeiro com espaço para duas placas-mãe de tamanhos iguais. Na maioria dos mais antigos...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349674/thermaltake-capo-x-is-a-tall-tower-case-with-room-for-two-matx-systems"
     },
     {
       "id": "https://www.techpowerup.com/349451/no-surprise-microsoft-office-hikes-own-it-for-life-for-usd-50",
@@ -449,7 +449,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "summary": "Se a sua assinatura do Microsoft 365 tem sido renovada silenciosamente todos os meses, sem pensar muito, este é um bom momento para repensar isso. Uma licença vitalícia do Microsoft Office Professional 2021 para Windows está disponível atualmente por apenas US$ 49,97 (normalmente...",
       "sources": [
         "TechPowerUp"
