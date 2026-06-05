@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-06-04T15:14:07",
-  "display_date": "04/06/2026 15:14",
+  "last_updated": "2026-06-05T14:50:57",
+  "display_date": "05/06/2026 14:50",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "174ms",
+    "latency": "200ms",
     "current_games": [
       {
         "title": "Rogue Waters",
@@ -17,7 +17,7 @@
       },
       {
         "title": "Songs of Conquest",
-        "description": "Crie exércitos poderosos, use magia antiga e forje um império. Este jogo de estratégia e aventura baseado em turnos combina tomada de decisões estratégicas, combate tático e gerenciamento de reino.",
+        "description": "Crie exércitos poderosos, use magia antiga e forje um império. Este jogo de estratégia e aventura baseado em turnos combina tomada de decisão estratégica, combate tático e gerenciamento de reino.",
         "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/s2_2560x1440-5c396b18c3e1460fb4a268cc6bbdfaa2",
         "url": "https://store.epicgames.com/p/megasale-mysterygame-2026-week23-game1",
         "price": "0",
@@ -45,6 +45,15 @@
         "end_date": "2026-10-01T05:59:00.000Z"
       },
       {
+        "title": "The Ouroboros King",
+        "description": "O Ouroboros King combina a profundidade estratégica do xadrez com a variedade de construção e rejogabilidade dos roguelikes. Monte um exército formidável, descubra relíquias poderosas e compre dispositivos surpreendentes para derrotar o Coven.",
+        "image": "https://cdn1.epicgames.com/spt-assets/33630d7105014582a478094e89953f49/the-ouroboros-king-jwabx.jpg",
+        "url": "https://store.epicgames.com/p/the-ouroboros-king",
+        "price": "$9.99",
+        "start_date": "2026-06-11T15:00:00.000Z",
+        "end_date": "2026-06-18T15:00:00.000Z"
+      },
+      {
         "title": "Warhammer 40K Speed Freeks",
         "description": "Corridas de combate de alta octanagem no universo Warhammer 40.000.",
         "image": "https://cdn1.epicgames.com/spt-assets/a1af14251fb748fc9bda63bfc260f933/warhammer-40k-speed-freeks-1k4pq.jpg",
@@ -65,7 +74,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-06-04",
+      "date": "2026-06-05",
       "summary": "Águas Desonestas",
       "sources": [
         "Epic Games Store"
@@ -80,8 +89,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-06-04",
-      "summary": "Crie exércitos poderosos, use magia antiga e forje um império. Este jogo de estratégia e aventura baseado em turnos combina tomada de decisões estratégicas, combate tático e gerenciamento de reino.",
+      "date": "2026-06-05",
+      "summary": "Crie exércitos poderosos, use magia antiga e forje um império. Este jogo de estratégia e aventura baseado em turnos combina tomada de decisão estratégica, combate tático e gerenciamento de reino.",
       "sources": [
         "Epic Games Store"
       ],
@@ -95,7 +104,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-06-04",
+      "date": "2026-06-05",
       "summary": "Disponível gratuitamente a partir de 16/07. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
       "sources": [
         "Epic Games Store"
@@ -110,12 +119,27 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-06-04",
+      "date": "2026-06-05",
       "summary": "Disponível gratuitamente a partir de 16/09. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/lisa-the-definitive-edition"
+    },
+    {
+      "id": "https://store.epicgames.com/p/the-ouroboros-king",
+      "title": "EM BREVE: The Ouroboros King",
+      "original_title": "The Ouroboros King",
+      "image": "https://cdn1.epicgames.com/spt-assets/33630d7105014582a478094e89953f49/the-ouroboros-king-jwabx.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-06-05",
+      "summary": "Disponível gratuitamente a partir de 11/06. O Ouroboros King combina a profundidade estratégica do xadrez com a variedade de construção e rejogabilidade dos roguelikes. Monte um exército formidável, descubra relíquias poderosas e compre dispositivos surpreendentes para derrotar o Coven.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/the-ouroboros-king"
     },
     {
       "id": "https://store.epicgames.com/p/b28e038bd68b4e80840e7fb8b747de54",
@@ -125,7 +149,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-06-04",
+      "date": "2026-06-05",
       "summary": "Disponível gratuitamente a partir de 11/06. Corridas de combate de alta octanagem no universo Warhammer 40.000.",
       "sources": [
         "Epic Games Store"
@@ -133,154 +157,304 @@
       "url": "https://store.epicgames.com/p/b28e038bd68b4e80840e7fb8b747de54"
     },
     {
-      "id": "https://www.eurogamer.net/elden-ring-switch-2-release-date",
-      "title": "FromSoftware finalmente anunciou uma data de lançamento do Elden Ring Switch 2",
-      "original_title": "FromSoftware has finally announced an Elden Ring Switch 2 release date",
-      "image": "https://assetsio.gnwcdn.com/Elden-Ring-knight-with-a-sword-over-thier-shoulder-and-a-Switch-2-logo-in-the-upper-left-corner.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/xbox-exclusives-asha-sharma-interview",
+      "title": "O chefe do Xbox, Asha Sharma, ainda não consegue decidir sobre uma posição em relação à exclusividade do console",
+      "original_title": "Xbox boss Asha Sharma still can't seem to decide on a stance regarding console exclusivity",
+      "image": "https://assetsio.gnwcdn.com/asha-sharma-xbox_ETUJlFF.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-04",
-      "summary": "FromSoftware e Bandai Namco Entertainment finalmente anunciaram uma data de lançamento do Switch 2 para Elden Ring. Leia mais...",
+      "date": "2026-06-05",
+      "summary": "A recém-nomeada CEO do Xbox, Asha Sharma, já passou mais de 100 dias em sua nova função. Falando recentemente no Bloomberg Tech Live, o executivo foi questionado mais uma vez sobre a postura da empresa em relação à exclusividade para jogos originais, e se isso ou não...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/elden-ring-switch-2-release-date"
+      "url": "https://www.eurogamer.net/xbox-exclusives-asha-sharma-interview"
     },
     {
-      "id": "https://www.eurogamer.net/god-of-war-laufey-more-kratos-games-coming",
-      "title": "Kratos retornará em jogos futuros, garante o desenvolvedor de God of War aos fãs após a revelação de Laufey",
-      "original_title": "Kratos will return in future games, God of War developer assures fans following the Laufey reveal",
-      "image": "https://assetsio.gnwcdn.com/god-of-war-laufey-reveal-screen-3.jpeg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/marathon-deluxe-edition-discount-change",
+      "title": "O desconto da Marathon Deluxe Edition oferece bônus aos jogadores de teste gratuito sem o jogo completo, e a confusão se instala",
+      "original_title": "Marathon Deluxe Edition discount offers free-trial players bonuses without the full game, confusion ensues",
+      "image": "https://assetsio.gnwcdn.com/marathon-triage_PKluLN5.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-04",
-      "summary": "Após a revelação de God of War Laufey, a desenvolvedora da série Sony Santa Monica teve que esclarecer, em várias ocasiões, que o protagonista de longa data Kratos continua sendo o God of War homônimo, e mais jogos estrelados por Kratos estão de fato em andamento. Ler ...",
+      "date": "2026-06-05",
+      "summary": "Parece estar surgindo alguma confusão em torno da edição Deluxe do Marathon, já que uma versão da edição deluxe com desconto do jogo comprada por muitos usuários do PlayStation não inclui o jogo completo. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/god-of-war-laufey-more-kratos-games-coming"
+      "url": "https://www.eurogamer.net/marathon-deluxe-edition-discount-change"
     },
     {
-      "id": "https://www.eurogamer.net/nintendo-replacable-batteries-eu-law-switch-controller",
-      "title": "A Nintendo finalmente está desenvolvendo baterias substituíveis, então provavelmente não teremos que descartar um Switch porque a bateria acabou",
-      "original_title": "Nintendo's finally developing replaceable batteries, so we presumably won't have to bin a Switch because the battery conked out",
-      "image": "https://assetsio.gnwcdn.com/Donkey-Kong-Bananza-%E2%80%93-Overview-Trailer-%E2%80%93-Nintendo-Switch-2-7-15-screenshot.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/capcom-generative-ai-use",
+      "title": "“Estamos vendo um certo grau de eficácia no uso de IA generativa” – Capcom esclarece sua posição sobre o uso da polêmica tecnologia",
+      "original_title": "\"We are seeing a certain degree of effectiveness from the use of generative AI\" - Capcom clarifies its stance on using the controversial tech",
+      "image": "https://assetsio.gnwcdn.com/A-fair-haired%2C-blue-eyed-female-in-Resident-Evil-Requiem-with-an-ear-piece.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-04",
-      "summary": "A Nintendo anunciou que está a criar hardware com baterias substituíveis, que provavelmente incluirá as suas consolas Switch, devido às novas regulamentações da UE que combatem o lixo eletrónico. Leia mais...",
+      "date": "2026-06-05",
+      "summary": "A Capcom explicou por que está usando IA generativa em seus negócios, afirmando que sua política é “melhorar a eficiência das operações de rotina para que nossos desenvolvedores possam dedicar mais tempo à criação de valor essencial”. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/nintendo-replacable-batteries-eu-law-switch-controller"
+      "url": "https://www.eurogamer.net/capcom-generative-ai-use"
     },
     {
-      "id": "https://www.eurogamer.net/marvels-wolverine-city-explore-base-length",
-      "title": "O Wolverine da Marvel é um jogo mais linear que o Homem-Aranha – não espere uma cidade para explorar ou uma base para explorar",
-      "original_title": "Marvel's Wolverine is a more linear game than Spider-Man - don't expect a city to explore or a base to nose around in",
-      "image": "https://assetsio.gnwcdn.com/Wolverine-screenshot-showing-Logan-sitting-at-a-bar-with-a-plaid-shirt-and-cowboy-style-hat-on.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/summer-game-fest-2026-live-report",
+      "title": "Relatório ao vivo do Summer Game Fest 2026 – todas as notícias e anúncios do showcase da E3 de Geoff Keighley, mas não do showcase da E3",
+      "original_title": "Summer Game Fest 2026 live report - all the news and announcements from Geoff Keighley's E3 but not E3 showcase",
+      "image": "https://assetsio.gnwcdn.com/Summer-Game-Fest-When-Where-Header.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-04",
-      "summary": "Parece que o jogo Wolverine da desenvolvedora Insomniac tem um escopo muito mais restrito do que seus jogos do Homem-Aranha. Não haverá uma cidade mais ampla para explorar na forma como o Homem-Aranha circula por Nova York, nem haverá uma base de operações para apostas em tempo de inatividade...",
+      "date": "2026-06-05",
+      "summary": "O show central do Summer Game Fest - literalmente o showcase do Summer Game Fest - acontece hoje à noite às 21h, horário do Reino Unido (22h CEST / 17h EDT / 14h PDT), e cobriremos todas as notícias e anúncios dele, ao vivo, aqui mesmo neste artigo. R...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/marvels-wolverine-city-explore-base-length"
+      "url": "https://www.eurogamer.net/summer-game-fest-2026-live-report"
     },
     {
-      "id": "https://www.eurogamer.net/mina-the-hollower-secrets",
-      "title": "Acha que conhece Mina the Hollower? O Yacht Club avalia que muitas jogadas “perdem 50% do jogo” e “há algumas coisas muito secretas” que os jogadores ainda não descobriram",
-      "original_title": "Think you've got a handle on Mina the Hollower? Yacht Club reckons many playthroughs are \"missing 50 percent of the game\", and \"there are a few very secret things\" players are yet to find",
-      "image": "https://assetsio.gnwcdn.com/Mina-the-Hollower's-world-map-blurred-out-with-artwork-of-Mina-drinking-a-healing-tonic-from-a-test-tube-like-vessel-overlaid-on-top.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/playstation-state-of-play-june-2026-most-watched",
+      "title": "O PlayStation State of Play de junho quebra recordes e é supostamente o mais assistido de todos os tempos",
+      "original_title": "June's PlayStation State of Play breaks records, is reportedly the most-watched ever",
+      "image": "https://assetsio.gnwcdn.com/MW_ExtGameplay_WolverineHero_4k_2026.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-04",
-      "summary": "Mina the Hollower pode parecer um jogo fofo e despretensioso à primeira vista, com sua estética retrô de pixel e herói recatado do mouse, mas não se deixe enganar. O desenvolvedor Yacht Club Game escondeu inúmeros segredos em seu mundo, a Ilha Tenebrosa, para jogar...",
+      "date": "2026-06-05",
+      "summary": "A Sony transformou com sucesso sua série State of Play em uma marca que traz milhões de visualizações a cada episódio. O showcase mais recente, que aconteceu em 2 de junho, antes do Summer Game Fest 2026, foi aparentemente o maior de todos os tempos, não importa...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/mina-the-hollower-secrets"
+      "url": "https://www.eurogamer.net/playstation-state-of-play-june-2026-most-watched"
     },
     {
-      "id": "https://www.eurogamer.net/dune-awakening-crossplay-statement",
-      "title": "\"Sabemos que os jogadores querem. NÓS queremos\" - Desenvolvedores de Dune Awakening respondem à falta de jogo cruzado para lançamento de console",
-      "original_title": "\"We know players want it. WE want it\" - Dune Awakening developers respond to lack of crossplay for console release",
-      "image": "https://assetsio.gnwcdn.com/dune-awakening-headline_bWzLGjr.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/playstation-state-of-play-footage-on-ps5-pro-analysis",
+      "title": "O PlayStation State of Play desta semana hospedou o maior número de jogos rodando no PS5 Pro? Não tecnicamente, mas perto",
+      "original_title": "Did this week's PlayStation State of Play host the largest number of games running on PS5 Pro? Not technically, but close",
+      "image": "https://assetsio.gnwcdn.com/ps5-pro-footage-banner-wolverine-1.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-04",
-      "summary": "O desenvolvedor de Dune Awakening, Funcom, respondeu à notícia de que o crossplay não será incluído no próximo lançamento do console do jogo, dizendo ao Eurogamer: \"Sabemos que os jogadores querem. NÓS queremos.\" Leia mais...",
+      "date": "2026-06-05",
+      "summary": "Por um tempo depois de seu lançamento, nunca senti que o PlayStation 5 Pro realmente tivesse sido lançado. Você poderia argumentar que a Sony não tem promovido bem isso. A revelação inicial de Ghost of Yotei ocorreu em um State of Play de setembro de 2024, mas seu trailer não...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/dune-awakening-crossplay-statement"
+      "url": "https://www.eurogamer.net/playstation-state-of-play-footage-on-ps5-pro-analysis"
     },
     {
-      "id": "https://www.eurogamer.net/007-first-light-sales-estimate",
-      "title": "Estima-se que as vendas do jogo 007 First Light de James Bond atingiram um marco impressionante uma semana após o lançamento",
-      "original_title": "James Bond game 007 First Light sales estimated to have reached an impressive milestone a week after launch",
-      "image": "https://assetsio.gnwcdn.com/007-First-Light-trailer.webp?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/yet-another-new-crimson-desert-update-is-here-and-this-one-adding-pinball-because-of-course",
+      "title": "Mais uma nova atualização do Crimson Desert está aqui, e esta adicionando Pinball, porque é claro",
+      "original_title": "Yet another new Crimson Desert update is here, and this one adding Pinball, because of course",
+      "image": "https://assetsio.gnwcdn.com/Crimson-Desert-image-showing-a-massive-dragon-like-beast-in-a-red-lit-cavern.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-04",
-      "summary": "007 First Light foi lançado há pouco mais de uma semana e já pode ter ultrapassado os dois milhões de cópias vendidas. Leia mais...",
+      "date": "2026-06-05",
+      "summary": "Pearl Abyss está no patch roll do Crimson Desert e acaba de lançar outra atualização para seu popular spin-off de RPG para um jogador do sucesso MMO coreano Black Desert. Na semana passada, o desenvolvedor adicionou a capacidade de remapear seu controlador, e não...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/007-first-light-sales-estimate"
+      "url": "https://www.eurogamer.net/yet-another-new-crimson-desert-update-is-here-and-this-one-adding-pinball-because-of-course"
     },
     {
-      "id": "https://www.eurogamer.net/here-are-our-xbox-game-pass-games-for-june",
-      "title": "Aqui estão nossos jogos Xbox Game Pass de junho",
-      "original_title": "Here are our Xbox Game Pass games for June",
-      "image": "https://assetsio.gnwcdn.com/Herdling-screenshot-showing-a-human-figure-leading-a-herd-of-fluffy-beasts-across-a-snowy-landscape-with-an-Xbox-logo-overlaid-on-top.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/playstation-5-uk-sales-may-2026-big-drop",
+      "title": "As vendas de hardware do PlayStation 5 caíram drasticamente no Reino Unido no mês passado em comparação ao Xbox",
+      "original_title": "PlayStation 5 hardware sales dropped dramatically in the UK last month vs Xbox",
+      "image": "https://assetsio.gnwcdn.com/ps_zj46e6Z.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-04",
-      "summary": "A Microsoft revelou o primeiro lote de jogos chegando ao serviço de assinatura Xbox Game Pass em junho. Leia mais...",
+      "date": "2026-06-05",
+      "summary": "As vendas de hardware Xbox da geração atual têm sido baixas em todos os principais mercados, registrando o pior ano de todos os tempos no Reino Unido no ano passado. A sorte quase mudou em maio, porém, um mês em que o PlayStation sofreu uma grande queda em suas próprias vendas. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/here-are-our-xbox-game-pass-games-for-june"
+      "url": "https://www.eurogamer.net/playstation-5-uk-sales-may-2026-big-drop"
     },
     {
-      "id": "https://www.techpowerup.com/349713/asrock-showcases-radeon-rx-9070-xt-phantom-gaming-with-12v-2x6-power-input",
-      "title": "ASRock apresenta Radeon RX 9070 XT Phantom Gaming com entrada de energia 12V-2x6",
-      "original_title": "ASRock Showcases Radeon RX 9070 XT Phantom Gaming with 12V-2x6 Power Input",
-      "image": "https://tpucdn.com/img/loaOLV4j5raBA5YD_thm.jpg",
+      "id": "https://www.eurogamer.net/steam-machine-frame-summer-2026-verified",
+      "title": "Steam Machine e Steam Frame serão lançados \"neste verão\", afirma Valve",
+      "original_title": "Steam Machine and Steam Frame both shipping \"this summer\", Valve affirms",
+      "image": "https://assetsio.gnwcdn.com/Image-of-the-Steam-Frame-and-Steam-Machine-on-a-beige-background.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-06-05",
+      "summary": "A Valve pretende lançar sua Steam Machine e Steam Frame neste verão. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/steam-machine-frame-summer-2026-verified"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1txat12/megathread_summer_game_fest_2026/",
+      "title": "[MEGATHREAD] Festival de Jogos de Verão 2026",
+      "original_title": "[MEGATHREAD] Summer Game Fest 2026",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-06-05",
+      "summary": "|Festival de Jogos de Verão 6.5.26| |Data/hora: 5 de junho de 2026 16h CST (clique para ver seu fuso horário)| |Onde assistir: Youtube da TGA, Twitch da TGA, Youtube da IGN | |O que esperar|    enviado por /u/Spheromancer [link] [comentários]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1txat12/megathread_summer_game_fest_2026/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1txm0lb/natethehate_im_confident_enough_to_say_persona_6/",
+      "title": "NateTheHate: “Estou confiante o suficiente para dizer” Persona 6 estará no Xbox Games Showcase",
+      "original_title": "NateTheHate: \"I'm confident enough to say\" Persona 6 will be at Xbox Games Showcase",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-06-05",
+      "summary": "Também acha que teremos uma data de lançamento do Persona 4 Revival https://www.youtube.com/watch?v=0jD0Y5XvL9I Eles começam a falar sobre isso por volta das 4h30 enviado por /u/VistaVick [link] [comentários]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1txm0lb/natethehate_im_confident_enough_to_say_persona_6/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1txh3pq/hot_wheels_infinite_rush_trailer_was_posted_early/",
+      "title": "O trailer de Hot Wheels Infinite Rush foi publicado antecipadamente e será lançado em 24 de setembro para PC, PS5, Xbox Series X/S e Switch 2. Custa US$ 49,99",
+      "original_title": "Hot Wheels Infinite Rush Trailer was posted early, Releases Sep 24th for PC, PS5, Xbox Series X/S, and Switch 2. It costs $49.99",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-06-05",
+      "summary": "Link: https://insider-gaming.com/new-hot-wheels-game-infinite-rush-release-date-and-trailer-revealed/ Artigo Billbil-kun: https://xcancel.com/billbil_kun/status/2062827607683420376?s=20 enviado por /u/Howerev [link] [comentários]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1txh3pq/hot_wheels_infinite_rush_trailer_was_posted_early/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1txl7b0/a9vg_rumor_reliable_chinese_leaker_hints_at/",
+      "title": "[Rumor A9VG] Um vazador chinês confiável sugere que o Persona 4 Revival chegará em fevereiro de 2027",
+      "original_title": "[A9VG rumor] Reliable Chinese leaker hints at Persona 4 Revival coming in February 2027",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Rumor",
+      "date": "2026-06-05",
+      "summary": "Ele geralmente posta fotos enigmáticas como esta. https://i.ibb.co/b5JCV20y/150838n60k04s36s64kg73.png https://bbs.a9vg.com/thread-9068851-1-1.html Salromano da Gematsu acredita que está insinuando o Persona 4 Revival no showcase do Xbox.  TVs, fevereiro de 2027 c...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1txl7b0/a9vg_rumor_reliable_chinese_leaker_hints_at/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1txkslm/guild_wars_3_domain_was_just_updated_to_the_same/",
+      "title": "O domínio de Guild Wars 3 acabou de ser atualizado para a mesma configuração ao vivo de guildwars2.com",
+      "original_title": "Guild Wars 3 domain was just updated to the same live config as guildwars2.com",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-06-05",
+      "summary": "Entre as fortes provocações da Arena Net e esta, parece muito provável que Guild Wars 3 seja anunciado esta noite.  https://xcancel.com/lucynavt/status/2062850820912107700 enviado por /u/Com_Raven [link] [comentários]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1txkslm/guild_wars_3_domain_was_just_updated_to_the_same/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1txmjo8/thomas_friends_game_has_a_nintendo_switch_release/",
+      "title": "O jogo Thomas & Friends tem data de lançamento para Nintendo Switch em uma data familiar. 9 de junho.",
+      "original_title": "Thomas & Friends game has a Nintendo Switch release date on a familiar date. June 9th.",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-06-05",
+      "summary": "https://fixupx.com/essnstuffs/status/2062790590626938964 é discreto confirmar o Nintendo Direct?    enviado por /u/Star_Petal_Arts [link] [comentários]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1txmjo8/thomas_friends_game_has_a_nintendo_switch_release/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tx5f8b/screenfire_germany_99_percent_chance_of_resident/",
+      "title": "ScreenFire Alemanha: 99 por cento de chance de Resident Evil: Code Veronica Remake no Summer Game Fest amanhã",
+      "original_title": "ScreenFire Germany: 99 percent chance of Resident Evil: Code Veronica Remake at Summer Game Fest tomorrow",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-06-05",
+      "summary": "https://youtu.be/neRgEUogPpU?si=tmaUVNXIkGEOlC9S 10:37 Nota: ScreenFire Germany era uma fonte confiável de notícias de Resident Evil Requiem e estava correta sobre a revelação desse jogo no SGF do ano passado também.    enviado por /u/Ok_Rent_3748 [link...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tx5f8b/screenfire_germany_99_percent_chance_of_resident/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1txe7ov/arc_system_works_could_announce_an_anime/",
+      "title": "Arc System Works pode anunciar um JRPG de estética de anime na Anime Expo 2026",
+      "original_title": "Arc System Works could announce an anime aesthetic JRPG at Anime Expo 2026",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-06-05",
+      "summary": "Foi oficialmente confirmado pela conta da Anime Expo que Arc System Works apresentará um novo título em estilo anime, não anunciado anteriormente. Dado que Satoshi Hirayae (Crymachina/Sword Art Online) será o designer e diretor deste novo projeto...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1txe7ov/arc_system_works_could_announce_an_anime/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1txk6kk/steam_game_sudoku_bactron/",
+      "title": "[Steam] (Jogo) Sudoku Bactron",
+      "original_title": "[Steam] (Game) Sudoku Bactron",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-06-05",
+      "summary": "enviado por /u/MeguminShiro [link] [comentários]...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1txk6kk/steam_game_sudoku_bactron/"
+    },
+    {
+      "id": "https://www.techpowerup.com/349748/adata-xpg-cases-cooling-power-and-peripherals-at-computex-2026",
+      "title": "Gabinetes, resfriamento, energia e periféricos ADATA XPG na Computex 2026",
+      "original_title": "ADATA XPG Cases, Cooling, Power, and Peripherals at Computex 2026",
+      "image": "https://tpucdn.com/img/8vX1TrCw00d7kX1K_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-04",
-      "summary": "Quando a ASRock lançou suas placas gráficas da série Radeon RX 9070, a marca Phantom Gaming estava visivelmente ausente – você tinha placas das marcas Taichi, Steel Legend e Challenger, mas não Phantom Gaming. Parece que a ASRock está perto de consertar isso. ...",
+      "date": "2026-06-05",
+      "summary": "ADATA é muito mais do que apenas uma empresa de memória, a empresa agora possui uma vasta linha de gabinetes de PC, refrigeração e hardware de energia; a marca também está fazendo incursões em periféricos de jogos. Começamos nosso passeio com o XPG Slingshot, um suporte leve sem fio...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/349713/asrock-showcases-radeon-rx-9070-xt-phantom-gaming-with-12v-2x6-power-input"
+      "url": "https://www.techpowerup.com/349748/adata-xpg-cases-cooling-power-and-peripherals-at-computex-2026"
     },
     {
-      "id": "https://www.techpowerup.com/349712/asrock-cpu-coolers-at-computex-an-aio-with-a-3d-holographic-fan",
-      "title": "Coolers de CPU ASRock na Computex: um AIO com ventilador holográfico 3D",
-      "original_title": "ASRock CPU Coolers at Computex: an AIO with a 3D Holographic Fan",
-      "image": "https://tpucdn.com/img/xuFUc3ec9MWAgyh5_thm.jpg",
+      "id": "https://www.techpowerup.com/349743/computex-2026-xmg-pro-18-brings-12-gb-vram-to-upper-mid-range-mobile-segment",
+      "title": "Computex 2026: XMG Pro 18 traz 12 GB de VRAM para o segmento móvel de médio porte",
+      "original_title": "Computex 2026: XMG Pro 18 Brings 12 GB VRAM to Upper Mid-Range Mobile Segment",
+      "image": "https://tpucdn.com/img/PZDNUjrgrxxVtiCP_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-04",
-      "summary": "A ASRock não quer apenas ser apenas mais um participante no altamente saturado mercado de coolers líquidos para CPU AIO, ela quer vencer. A empresa apresentou o ASRock Taichi 360 Holo, um novo AIO CLC muito fascinante. Em vez de escolher entre um display ou um ...",
+      "date": "2026-06-05",
+      "summary": "Na Computex 2026, a XMG anunciou os notebooks PRO 18 e PRO 18 Value Edition (VE), marcando o retorno da empresa ao segmento de notebooks de grande formato. Ambos os notebooks compartilham a mesma plataforma básica da série PRO 16 existente. O chassi de 2,8 kg tem aprox...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/349712/asrock-cpu-coolers-at-computex-an-aio-with-a-3d-holographic-fan"
+      "url": "https://www.techpowerup.com/349743/computex-2026-xmg-pro-18-brings-12-gb-vram-to-upper-mid-range-mobile-segment"
     },
     {
       "id": "https://www.techpowerup.com/349500/godeal24-unveils-6th-anniversary-sale-office-2024-at-just-usd-16-99",
@@ -290,7 +464,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-04",
+      "date": "2026-06-05",
       "summary": "GoDeal24 está comemorando seu 6º aniversário com um acordo bonança. Obtenha o Office 2024 Professional Plus genuíno e vitalício por apenas US$ 16,99 – uma grande economia em relação ao pagamento da taxa de assinatura do Microsoft 365 a cada ano. O Office 2021 Professional Plus pode ser adquirido...",
       "sources": [
         "TechPowerUp"
@@ -298,49 +472,49 @@
       "url": "https://www.techpowerup.com/349500/godeal24-unveils-6th-anniversary-sale-office-2024-at-just-usd-16-99"
     },
     {
-      "id": "https://www.techpowerup.com/349710/asrock-power-supplies-at-computex-2026",
-      "title": "Fontes de alimentação ASRock na Computex 2026",
-      "original_title": "ASRock Power Supplies at Computex 2026",
-      "image": "https://tpucdn.com/img/1wqtkVvJlXkGewyo_thm.jpg",
+      "id": "https://www.techpowerup.com/349742/tcl-unveils-expanded-monitor-lineup-in-europe-including-its-first-flagship-oled-monitor",
+      "title": "(PR) TCL lança linha ampliada de monitores na Europa, incluindo seu primeiro monitor OLED+ carro-chefe",
+      "original_title": "(PR) TCL Unveils Expanded Monitor Lineup in Europe, Including its First Flagship OLED+ Monitor",
+      "image": "https://tpucdn.com/img/g84zdi6WPZnXPOZh_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-04",
-      "summary": "A ASRock está se expandindo substancialmente em novos segmentos de hardware de PC nos últimos anos, a partir de seu mercado tradicional de placas-mãe e placas gráficas. A empresa trouxe uma grande linha de PSUs e coolers de CPU para a Computex 2026. O novo P...",
+      "date": "2026-06-05",
+      "summary": "A TCL, marca líder em produtos eletrónicos de consumo, revelou a sua mais recente linha de monitores no seu primeiro evento dedicado a monitores na Europa, realizado no TCL NXTHOME em Paris, em maio deste ano. O evento destaca uma série de inovações projetadas para apoiar melhor...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/349710/asrock-power-supplies-at-computex-2026"
+      "url": "https://www.techpowerup.com/349742/tcl-unveils-expanded-monitor-lineup-in-europe-including-its-first-flagship-oled-monitor"
     },
     {
-      "id": "https://www.techpowerup.com/349709/a-quick-walk-through-raidmax-cases-and-coolers-at-computex-2026",
-      "title": "Um rápido passeio pelos gabinetes e coolers Raidmax na Computex 2026",
-      "original_title": "A Quick Walk Through Raidmax Cases and Coolers at Computex 2026",
-      "image": "https://tpucdn.com/img/GOwLq5dn8QUbVjlS_thm.jpg",
+      "id": "https://www.techpowerup.com/349741/adata-memory-and-storage-products-at-computex-2026",
+      "title": "Produtos de memória e armazenamento ADATA na Computex 2026",
+      "original_title": "ADATA Memory and Storage Products at Computex 2026",
+      "image": "https://tpucdn.com/img/1ODqHnURJ5TCJlWT_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-04",
-      "summary": "Raidmax trouxe uma linha impressionante de novos gabinetes de PC e soluções de resfriamento na Computex 2026. O LA360 Digital e o LA240 Digital são os CLCs AIO premium da empresa com LCDs que fornecem medições de temperatura da CPU em tempo real. Há também alguns ARGB ...",
+      "date": "2026-06-05",
+      "summary": "A ADATA trouxe suas duas principais marcas para a Computex 2026, XPG voltada para jogadores e entusiastas de PC; e TRUSTA, voltado para armazenamento corporativo. A memória XPG Novakey RGB DDR5 é um módulo de memória DDR5 de última geração com um elemento de reflexão infinita emoldurando seu ARG...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/349709/a-quick-walk-through-raidmax-cases-and-coolers-at-computex-2026"
+      "url": "https://www.techpowerup.com/349741/adata-memory-and-storage-products-at-computex-2026"
     },
     {
-      "id": "https://www.techpowerup.com/349706/geil-memory-at-computex-2026-4r-dimms-camm2-rog-and-tuf-certified-ddr5-kits",
-      "title": "Memória GeIL na Computex 2026: DIMMs 4R, kits DDR5 com certificação CAMM2, ROG e TUF",
-      "original_title": "GeIL Memory at Computex 2026: 4R DIMMs, CAMM2, ROG and TUF-certified DDR5 Kits",
-      "image": "https://tpucdn.com/img/QjwA9zgasI8mYPSP_thm.jpg",
+      "id": "https://www.techpowerup.com/349739/cps-pccooler-brings-high-wattage-psus-aios-and-a-gigantic-full-tower-case-to-computex-2026",
+      "title": "CPS PCCooler traz PSUs de alta potência, AIOs e um gigantesco gabinete torre completa para a Computex 2026",
+      "original_title": "CPS PCCooler Brings High-Wattage PSUs, AIOs, and a Gigantic Full-tower Case to Computex 2026",
+      "image": "https://tpucdn.com/img/MRq0AN2WxkEBseOa_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-04",
-      "summary": "Golden Emperor Industries (GeIL) trouxe seu mais recente PC de última geração e memória de estação de trabalho para a 2026 Computex. Começamos nosso tour com os módulos CAMM2 e LPCAMM2 mais recentes da empresa. O módulo CAMM2 vem em velocidades de até DDR5-8000 e ajuda você a economizar...",
+      "date": "2026-06-05",
+      "summary": "CPS PCCooler trouxe suas últimas inovações para nos mostrar na Computex 2026. Começamos nosso tour com o SR700, uma torre completa HPTX gigantesca que é particionada verticalmente e suporta formatos de placas-mãe empresariais grandes, como X12DPG-QT6, HPTX, S...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/349706/geil-memory-at-computex-2026-4r-dimms-camm2-rog-and-tuf-certified-ddr5-kits"
+      "url": "https://www.techpowerup.com/349739/cps-pccooler-brings-high-wattage-psus-aios-and-a-gigantic-full-tower-case-to-computex-2026"
     },
     {
       "id": "https://www.techpowerup.com/349452/microsoft-visual-studio-professional-2026-15-coding-courses-just-usd-50",
@@ -350,7 +524,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-04",
+      "date": "2026-06-05",
       "summary": "O Microsoft Visual Studio Professional 2026 é há muito tempo o ambiente de desenvolvimento preferido de programadores sérios, e combiná-lo com 15 cursos de codificação estruturados torna este um dos negócios mais completos que você encontrará para quem deseja construir...",
       "sources": [
         "TechPowerUp"
@@ -358,34 +532,34 @@
       "url": "https://www.techpowerup.com/349452/microsoft-visual-studio-professional-2026-15-coding-courses-just-usd-50"
     },
     {
-      "id": "https://www.techpowerup.com/349705/havns-new-cases-and-psus-smile-for-the-camera",
-      "title": "Os novos cases e PSUs da HAVN sorriem para a câmera",
-      "original_title": "HAVN's New Cases and PSUs Smile for the Camera",
-      "image": "https://tpucdn.com/img/RwAk3N1u6WV8aJNr_thm.jpg",
+      "id": "https://www.techpowerup.com/349736/darkflash-brings-innovative-new-fans-and-cases-to-computex-2026",
+      "title": "darkFlash traz novos ventiladores e cases inovadores para a Computex 2026",
+      "original_title": "darkFlash Brings Innovative New Fans and Cases to Computex 2026",
+      "image": "https://tpucdn.com/img/nLejjXMd1jjUhFJl_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-04",
-      "summary": "A HAVN trouxe uma nova linha de gabinetes e fontes de alimentação para a Computex 2026. Começamos nosso tour com as novas fontes de alimentação premium da série HAVN XR. Eles vêm em capacidades de 1000 W e 1200 W e são classificados como 80 Plus Platinum para eficiência de comutação e Cybenetics Platinum A++ ...",
+      "date": "2026-06-05",
+      "summary": "Na Computex, a darkFlash apresentou uma expansão horizontal da marca em novos segmentos de produtos em gabinetes de PC, soluções de refrigeração, fontes de alimentação, periféricos, placas-mãe e placas gráficas. Uma atração principal é a série de chassis FLOATRON F1. O...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/349705/havns-new-cases-and-psus-smile-for-the-camera"
+      "url": "https://www.techpowerup.com/349736/darkflash-brings-innovative-new-fans-and-cases-to-computex-2026"
     },
     {
-      "id": "https://www.techpowerup.com/349704/sparkle-showcases-new-egpu-enclosures-and-docks-at-computex-2026",
-      "title": "Sparkle apresenta novos gabinetes e docks eGPU na Computex 2026",
-      "original_title": "Sparkle Showcases New eGPU Enclosures and Docks at Computex 2026",
-      "image": "https://tpucdn.com/img/yeEdMI2j9xJJSEby_thm.jpg",
+      "id": "https://www.techpowerup.com/349720/cooler-master-debuts-new-budget-and-quiet-workstation-pc-cases-and-airflow-ducts",
+      "title": "Cooler Master lança novos gabinetes e dutos de fluxo de ar para estações de trabalho econômicas e silenciosas",
+      "original_title": "Cooler Master Debuts New Budget and Quiet Workstation PC Cases and Airflow Ducts",
+      "image": "https://tpucdn.com/img/6SJKplzSyCmod2Ae_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-04",
-      "summary": "Sparkle apresentou vários novos produtos eGPU na Computex 2026. Começamos nosso tour com o Sparkle eGPU Studio-G Ultra 850. Projetado para placas gráficas de última geração, incluindo o RTX 5090, o gabinete contém uma placa gráfica de 4 slots de até 33 cm de comprimento...",
+      "date": "2026-06-05",
+      "summary": "Já cobrimos alguns conceitos inovadores bacanas no estande da Cooler Master na Computex 2026, mas a marca também está lançando uma nova série de gabinetes, que vão desde modelos compactos e acessíveis até gabinetes gigantes para estações de trabalho com ambições de operação silenciosa.",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/349704/sparkle-showcases-new-egpu-enclosures-and-docks-at-computex-2026"
+      "url": "https://www.techpowerup.com/349720/cooler-master-debuts-new-budget-and-quiet-workstation-pc-cases-and-airflow-ducts"
     },
     {
       "id": "https://www.techpowerup.com/349451/no-surprise-microsoft-office-hikes-own-it-for-life-for-usd-50",
@@ -395,7 +569,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-04",
+      "date": "2026-06-05",
       "summary": "Se a sua assinatura do Microsoft 365 tem sido renovada silenciosamente todos os meses, sem pensar muito, este é um bom momento para repensar isso. Uma licença vitalícia do Microsoft Office Professional 2021 para Windows está disponível atualmente por apenas US$ 49,97 (normalmente...",
       "sources": [
         "TechPowerUp"
@@ -403,34 +577,289 @@
       "url": "https://www.techpowerup.com/349451/no-surprise-microsoft-office-hikes-own-it-for-life-for-usd-50"
     },
     {
-      "id": "https://www.eurogamer.net/lego-batman-legacy-of-the-dark-knight-switch-2-release-date",
-      "title": "Lego Batman: Legacy of the Dark Knight chega ao Switch 2 neste outono, e seu primeiro grande DLC chega no mesmo dia",
-      "original_title": "Lego Batman: Legacy of the Dark Knight swoops onto Switch 2 this autumn, and its first major DLC arrives the same day",
-      "image": "https://assetsio.gnwcdn.com/Poison-Ivy-in-Lego-Batman-Legacy-of-the-Dark-Knight.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/subnautica-2-developer-video-next-updates",
+      "title": "O estúdio Subnautica 2 está “trabalhando duro” em novas atualizações enquanto compartilha mais detalhes sobre os recursos que seus 4 milhões de jogadores podem esperar em seguida",
+      "original_title": "Subnautica 2 studio \"hard at work\" on new updates as it shares more details on the features its 4 million players can expect next",
+      "image": "https://assetsio.gnwcdn.com/subnautica-2-header-2.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-03",
-      "summary": "Depois de um pouco de espera, os proprietários do Switch 2 podem colocar as mãos em Lego Batman: Legacy of the Dark Knight neste outono, anunciou a editora Warner Bros., ao se juntar a muitos outros jogos que chegarão em setembro. Leia mais...",
+      "date": "2026-06-04",
+      "summary": "Subnautica 2 teve um início estrondoso, e o desenvolvedor Unknown Worlds comemorou recentemente o fato de que 4 milhões de jogadores já mergulharam os pés nas águas do planeta oceânico Proteus. São muitos comentários de acesso antecipado para analisar, mas o ...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/lego-batman-legacy-of-the-dark-knight-switch-2-release-date"
+      "url": "https://www.eurogamer.net/subnautica-2-developer-video-next-updates"
     },
     {
-      "id": "https://www.eurogamer.net/cd-projekt-red-hadar-first-info",
-      "title": "O novo IP misterioso ‘Hadar’ do CD Projekt Red é “uma experiência emocional de mundo aberto” em linha com os jogos Witcher e Cyberpunk do desenvolvedor",
-      "original_title": "CD Projekt Red's new mystery IP 'Hadar' is \"an emotional, open-world experience\" in line with the developer's Witcher and Cyberpunk games",
-      "image": "https://assetsio.gnwcdn.com/ss_02c440c80edb9b5ec5008bb9031530cce79a880e.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tx3u04/mike_straw_of_insider_gaming_ive_heard_rumblings/",
+      "title": "Mike Straw da Insider Gaming: Ouvi rumores de que o preço [da Steam Machine] está “longe de perto” de onde foi originalmente planejado",
+      "original_title": "Mike Straw of Insider Gaming: I've heard rumblings that the price [of the Steam Machine] is \"nowhere near\" where it was originally planned",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-06-04",
+      "summary": "https://xcancel.com/MikeStrawMedia/status/2062673064731509038 A Valve confirmou que a Steam Machine será lançada “neste verão” depois de ser lançada na primavera. O preço, no entanto, não foi anunciado.  Ouvi rumores de que o preço está \"em lugar nenhum...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tx3u04/mike_straw_of_insider_gaming_ive_heard_rumblings/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1tx4ruj/upcoming_ama_with_whitethorn_games_on_the_epic/",
+      "title": "Próximo AMA com Whitethorn Games no Discord da comunidade da Epic Games Store",
+      "original_title": "Upcoming AMA with Whitethorn Games on the Epic Games Store Community Discord",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Epic News",
+      "date": "2026-06-04",
+      "summary": "Olá pessoal! No próximo sábado (6 de junho de 2026, 16h UTC, encontre no meu fuso horário) o pessoal da Whitethorn Games, que você pode reconhecer como os editores de jogos como o próximo Kernal Hearts e os lançados anteriormente Teacup, Calico, Botany M...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1tx4ruj/upcoming_ama_with_whitethorn_games_on_the_epic/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1twrubr/all_the_epic_games_mega_sale_mystery_games/",
+      "title": "Todos os jogos de mistério da mega venda da Epic Games de 2020 a 2026. Qual ano foi o seu melhor desses?",
+      "original_title": "All the Epic Games mega sale mystery games giveaway from 2020 to 2026. Which year was your best one out of these?",
+      "image": "https://preview.redd.it/dwtt3x4aga5h1.png?width=640&crop=smart&auto=webp&s=8b165051eeeba1f4c0c45bee06c8adf56b054724",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Epic News",
+      "date": "2026-06-04",
+      "summary": "enviado por /u/kabirsingh84 [link] [comentários] ...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1twrubr/all_the_epic_games_mega_sale_mystery_games/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1twowqu/pc_freebiesongs_of_conquest/",
+      "title": "Brinde para PC｜Canções de Conquista",
+      "original_title": "PC Freebie｜Songs of Conquest",
+      "image": "https://preview.redd.it/5kzyp6ppx95h1.png?width=320&crop=smart&auto=webp&s=cdeef7f5aae8e966e5d47eea194ee561463764b4",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-06-04",
+      "summary": "enviado por /u/MeguminShiro [link] [comentários] ...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1twowqu/pc_freebiesongs_of_conquest/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1twpl76/pc_freebie_rogue_waters/",
+      "title": "Brinde para PC | Águas Desonestas",
+      "original_title": "PC Freebie | Rogue Waters",
+      "image": "https://preview.redd.it/tr4vf1u42a5h1.png?width=320&crop=smart&auto=webp&s=e892ef15816917c7cabc5eaeaec94ec9a93bcc85",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-06-04",
+      "summary": "enviado por /u/EmuConscious108 [link] [comentários] ...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1twpl76/pc_freebie_rogue_waters/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1twoz1a/next_week_pc_freebiewarhammer_40k_speed_freeks/",
+      "title": "Próxima Semana PC Freebie｜Warhammer 40K Speed ​​Freeks",
+      "original_title": "Next Week PC Freebie｜Warhammer 40K Speed Freeks",
+      "image": "https://preview.redd.it/n6p89sl3y95h1.png?width=320&crop=smart&auto=webp&s=803bc3c45104f5773ce79f0bebd8ead5f731daa7",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-06-04",
+      "summary": "enviado por /u/MeguminShiro [link] [comentários] ...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1twoz1a/next_week_pc_freebiewarhammer_40k_speed_freeks/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1twpdcb/mobile_freebie_iosandroid_wytchwood/",
+      "title": "Brinde móvel (iOS/Android) | Wytchwood",
+      "original_title": "Mobile Freebie (iOS/Android) | Wytchwood",
+      "image": "https://preview.redd.it/nferpq6p0a5h1.jpg?width=140&height=78&auto=webp&s=27da0ce5ad47c9de6e4c27771f920c897ef04204",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-06-04",
+      "summary": "Página da loja Android - https://store.epicgames.com/p/wytchwood-android-cad0ea Página da loja iOS - https://store.epicgames.com/p/wytchwood-ios-ccf5ed enviado por /u/ImAnthlon [link] [comentários] ...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1twpdcb/mobile_freebie_iosandroid_wytchwood/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1twrjse/next_week_pc_freebiethe_ouroboros_king/",
+      "title": "Brinde para PC na próxima semana｜O Rei Ouroboros",
+      "original_title": "Next Week PC Freebie｜The Ouroboros King",
+      "image": "https://preview.redd.it/p8qjwmmgea5h1.png?width=320&crop=smart&auto=webp&s=00fe111135247260ce9d8591c51c7192345cfd60",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-06-04",
+      "summary": "enviado por /u/MeguminShiro [link] [comentários] ...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1twrjse/next_week_pc_freebiethe_ouroboros_king/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1twddww/add_a_unique_sound_to_the_platinum_achievement_in/",
+      "title": "Adicione um som único à conquista Platinum no Epic Games Launcher",
+      "original_title": "Add a unique sound to the Platinum achievement in Epic Games Launcher",
+      "image": "https://preview.redd.it/aav0gj8y375h1.jpeg?width=640&crop=smart&auto=webp&s=adcd5de4ad7ad4c9559d89693f093e3cd4b84bd9",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Epic News",
+      "date": "2026-06-04",
+      "summary": "enviado por /u/Optimal_Camp_788 [link] [comentários] ...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1twddww/add_a_unique_sound_to_the_platinum_achievement_in/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1twe5az/is_it_possible/",
+      "title": "É POSSÍVEL",
+      "original_title": "IS IT POSSIBLE",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-06-04",
+      "summary": "Eu sei que parece puro lúpulo, mas a última pista continha guarda-chuva, e se o guarda-chuva em si significasse guarda-chuva corp, eu poderia realmente obter RE 2 Remasterizado ou Re7/8 enviado por /u/Sure_Commission_4503 [link] [comentários]...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1twe5az/is_it_possible/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1twq6oi/epic_games_game_songs_of_conquest/",
+      "title": "[Epic Games] (Jogo) Canções de Conquista",
+      "original_title": "[Epic Games] (Game) Songs of Conquest",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-06-04",
+      "summary": "enviado por /u/el9in [link] [comentários]...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1twq6oi/epic_games_game_songs_of_conquest/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1twq6ok/epic_games_game_rogue_waters/",
+      "title": "[Jogos Épicos] (Jogo) Rogue Waters",
+      "original_title": "[Epic Games] (Game) Rogue Waters",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-06-04",
+      "summary": "enviado por /u/el9in [link] [comentários]...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1twq6ok/epic_games_game_rogue_waters/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1twq6t0/epic_games_mobile_game_wytchwood/",
+      "title": "[Epic Games Mobile] (Jogo) Wytchwood",
+      "original_title": "[Epic Games Mobile] (Game) Wytchwood",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-06-04",
+      "summary": "📝 Página de transações (para ver se você reivindicou ou não) ⏩ Check-out instantâneo (faça login primeiro na Epic Games) Check-out instantâneo de itens 🎮 REIVINDICAR TODOS Android e iOS 🎮﻿ Wytchwood Android／iOS 🎮 Wytchwood｜Android／iOS ⌛ Rating／⛔ Blacklist｜Alemanha submi...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1twq6t0/epic_games_mobile_game_wytchwood/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tvoegs/discussion_news_and_request_thread_week_beginning/",
+      "title": "☀️ Tópico de discussão, notícias e solicitação - Semana que começa em 01/06/26☀️",
+      "original_title": "☀️Discussion, News, and Request Thread - Week Beginning 06/01/26☀️",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
       "category": "News",
       "date": "2026-06-03",
-      "summary": "Já sabemos sobre Hadar, a nova franquia da CD Projekt Red, há alguns anos, mas foi só em março de 2026 que o estúdio “estabeleceu as bases” do que realmente seria. Com apenas promessas e um codinome, pouco se sabe sobre sua nat...",
+      "summary": "A beleza de Shadow of the Erdtree... Os tópicos de discussão são o seu centro central semanal para todas as solicitações, notícias de jogos e quaisquer outros tópicos de jogos sobre os quais você queira conversar. Por favor, mantenha todo o conteúdo que não precisa de postagem própria neste tópico para descluir...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/cd-projekt-red-hadar-first-info"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1tvoegs/discussion_news_and_request_thread_week_beginning/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1tvfjak/microsoftxbox_game_tell_me_why_chapters_13/",
+      "title": "[Microsoft/Xbox] (Jogo) Diga-me por quê: Capítulos 1-3",
+      "original_title": "[Microsoft/Xbox] (Game) Tell Me Why: Chapters 1-3",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-06-03",
+      "summary": "enviado por /u/MeguminShiro [link] [comentários]...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1tvfjak/microsoftxbox_game_tell_me_why_chapters_13/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1tux268/steam_game_winexy/",
+      "title": "[Steam] (Jogo) Winexy",
+      "original_title": "[Steam] (Game) Winexy",
+      "image": "https://external-preview.redd.it/hOw9TsGUK4aBnQva6RAtXJAk0geVGJlXj_NwE9ygGyc.jpeg?width=320&crop=smart&auto=webp&s=233f8f3c4667d537cddec7251171033d6c2018a4",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-06-02",
+      "summary": "enviado por /u/iambaldy [link] [comentários] ...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1tux268/steam_game_winexy/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1tuxuy8/psa_mafia_iii_definitive_edition_gog_tomb_raider/",
+      "title": "[PSA] Mafia III: Definitive Edition (GOG), Tomb Raider IV-VI Remastered (Epic), XCOM: Chimera Squad (GOG) são gratuitos no Amazon Prime",
+      "original_title": "[PSA] Mafia III: Definitive Edition (GOG), Tomb Raider IV-VI Remastered (Epic), XCOM: Chimera Squad (GOG) are complimentary with Amazon Prime",
+      "image": "https://external-preview.redd.it/_fBjABdCsDDIR7bJn-cgpkXoTMJ2MnAEY3PCdXPaAoY.png?width=640&crop=smart&auto=webp&s=bef23da95c6aa8211ed8845602ada6c6644977cf",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-06-02",
+      "summary": "enviado por /u/LighteningOneIN [link] [comentários] ...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1tuxuy8/psa_mafia_iii_definitive_edition_gog_tomb_raider/"
+    },
+    {
+      "id": "https://www.reddit.com/r/FreeGameFindings/comments/1tuuqvi/psa_lenovo_legion_is_doing_a_channel_points/",
+      "title": "[PSA] Lenovo Legion está lançando um jogo de resgate de pontos de canal do Train Valley 2 em sua transmissão ao vivo do Twitch nos dias 2 e 4 de junho",
+      "original_title": "[PSA] Lenovo Legion is doing a channel points redemption game drop of Train Valley 2 on their Twitch livestream on June 2 & 4",
+      "image": "https://external-preview.redd.it/kPHd7uUIfii_f15dBpMk2dwG0Jgaiv-s3V3E2V3k6H0.png?width=216&crop=smart&auto=webp&s=fe2fafdb197130ece0759eb9c31263604127ac14",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Free Games",
+      "date": "2026-06-02",
+      "summary": "Lenovo Legion está lançando uma chave Steam especial de Train Valley 2 em seu canal Twitch durante sua transmissão ao vivo em 2 e 4 de junho. Você precisará resgatar 700 pontos de canal para reivindicar a chave, o que deve levar cerca de 75 minutos para um visualizador pela primeira vez...",
+      "sources": [
+        "r/FreeGameFindings"
+      ],
+      "url": "https://www.reddit.com/r/FreeGameFindings/comments/1tuuqvi/psa_lenovo_legion_is_doing_a_channel_points/"
     }
   ]
 }
