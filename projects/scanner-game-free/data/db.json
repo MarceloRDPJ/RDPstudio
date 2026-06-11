@@ -1,28 +1,28 @@
 {
-  "last_updated": "2026-06-10T15:34:07",
-  "display_date": "10/06/2026 15:34",
+  "last_updated": "2026-06-11T16:00:26",
+  "display_date": "11/06/2026 16:00",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "806ms",
+    "latency": "621ms",
     "current_games": [
       {
-        "title": "Rogue Waters",
-        "description": "Águas Desonestas",
-        "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/rogue-waters-wide_2560x1440-81c0f87c8e7c4bb09e2d7d9c94213104",
-        "url": "https://store.epicgames.com/p/megasale-mysterygame-2026-week23-game2",
-        "price": "0",
-        "start_date": "2026-06-04T15:00:00.000Z",
-        "end_date": "2026-06-11T15:00:00.000Z"
+        "title": "The Ouroboros King",
+        "description": "O Ouroboros King combina a profundidade estratégica do xadrez com a variedade de construção e rejogabilidade dos roguelikes. Monte um exército formidável, descubra relíquias poderosas e compre dispositivos surpreendentes para derrotar o Coven.",
+        "image": "https://cdn1.epicgames.com/spt-assets/33630d7105014582a478094e89953f49/the-ouroboros-king-jwabx.jpg",
+        "url": "https://store.epicgames.com/p/the-ouroboros-king",
+        "price": "$9.99",
+        "start_date": "2026-06-11T15:00:00.000Z",
+        "end_date": "2026-06-18T15:00:00.000Z"
       },
       {
-        "title": "Songs of Conquest",
-        "description": "Crie exércitos poderosos, use magia antiga e forje um império. Este jogo de estratégia e aventura baseado em turnos combina tomada de decisão estratégica, combate tático e gerenciamento de reino.",
-        "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/s2_2560x1440-5c396b18c3e1460fb4a268cc6bbdfaa2",
-        "url": "https://store.epicgames.com/p/megasale-mysterygame-2026-week23-game1",
-        "price": "0",
-        "start_date": "2026-06-04T15:00:00.000Z",
-        "end_date": "2026-06-11T15:00:00.000Z"
+        "title": "Warhammer 40K Speed Freeks",
+        "description": "Corridas de combate de alta octanagem no universo Warhammer 40.000.",
+        "image": "https://cdn1.epicgames.com/spt-assets/a1af14251fb748fc9bda63bfc260f933/warhammer-40k-speed-freeks-1k4pq.jpg",
+        "url": "https://store.epicgames.com/p/b28e038bd68b4e80840e7fb8b747de54",
+        "price": "$19.99",
+        "start_date": "2026-06-11T15:00:00.000Z",
+        "end_date": "2026-06-18T15:00:00.000Z"
       }
     ],
     "upcoming_games": [
@@ -61,58 +61,40 @@
         "price": "$24.99",
         "start_date": "2026-09-16T15:00:00.000Z",
         "end_date": "2026-10-01T05:59:00.000Z"
-      },
-      {
-        "title": "The Ouroboros King",
-        "description": "O Ouroboros King combina a profundidade estratégica do xadrez com a variedade de construção e rejogabilidade dos roguelikes. Monte um exército formidável, descubra relíquias poderosas e compre dispositivos surpreendentes para derrotar o Coven.",
-        "image": "https://cdn1.epicgames.com/spt-assets/33630d7105014582a478094e89953f49/the-ouroboros-king-jwabx.jpg",
-        "url": "https://store.epicgames.com/p/the-ouroboros-king",
-        "price": "$9.99",
-        "start_date": "2026-06-11T15:00:00.000Z",
-        "end_date": "2026-06-18T15:00:00.000Z"
-      },
-      {
-        "title": "Warhammer 40K Speed Freeks",
-        "description": "Corridas de combate de alta octanagem no universo Warhammer 40.000.",
-        "image": "https://cdn1.epicgames.com/spt-assets/a1af14251fb748fc9bda63bfc260f933/warhammer-40k-speed-freeks-1k4pq.jpg",
-        "url": "https://store.epicgames.com/p/b28e038bd68b4e80840e7fb8b747de54",
-        "price": "$19.99",
-        "start_date": "2026-06-11T15:00:00.000Z",
-        "end_date": "2026-06-18T15:00:00.000Z"
       }
     ],
     "mystery_detected": false
   },
   "items": [
     {
-      "id": "https://store.epicgames.com/p/megasale-mysterygame-2026-week23-game2",
-      "title": "GRÁTIS: Rogue Waters",
-      "original_title": "Rogue Waters",
-      "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/rogue-waters-wide_2560x1440-81c0f87c8e7c4bb09e2d7d9c94213104",
+      "id": "https://store.epicgames.com/p/the-ouroboros-king",
+      "title": "GRÁTIS: The Ouroboros King",
+      "original_title": "The Ouroboros King",
+      "image": "https://cdn1.epicgames.com/spt-assets/33630d7105014582a478094e89953f49/the-ouroboros-king-jwabx.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-06-10",
-      "summary": "Águas Desonestas",
+      "date": "2026-06-11",
+      "summary": "O Ouroboros King combina a profundidade estratégica do xadrez com a variedade de construção e rejogabilidade dos roguelikes. Monte um exército formidável, descubra relíquias poderosas e compre dispositivos surpreendentes para derrotar o Coven.",
       "sources": [
         "Epic Games Store"
       ],
-      "url": "https://store.epicgames.com/p/megasale-mysterygame-2026-week23-game2"
+      "url": "https://store.epicgames.com/p/the-ouroboros-king"
     },
     {
-      "id": "https://store.epicgames.com/p/megasale-mysterygame-2026-week23-game1",
-      "title": "GRÁTIS: Songs of Conquest",
-      "original_title": "Songs of Conquest",
-      "image": "https://cdn1.epicgames.com/offer/d5241c76f178492ea1540fce45616757/s2_2560x1440-5c396b18c3e1460fb4a268cc6bbdfaa2",
+      "id": "https://store.epicgames.com/p/b28e038bd68b4e80840e7fb8b747de54",
+      "title": "GRÁTIS: Warhammer 40K Speed Freeks",
+      "original_title": "Warhammer 40K Speed Freeks",
+      "image": "https://cdn1.epicgames.com/spt-assets/a1af14251fb748fc9bda63bfc260f933/warhammer-40k-speed-freeks-1k4pq.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-06-10",
-      "summary": "Crie exércitos poderosos, use magia antiga e forje um império. Este jogo de estratégia e aventura baseado em turnos combina tomada de decisão estratégica, combate tático e gerenciamento de reino.",
+      "date": "2026-06-11",
+      "summary": "Corridas de combate de alta octanagem no universo Warhammer 40.000.",
       "sources": [
         "Epic Games Store"
       ],
-      "url": "https://store.epicgames.com/p/megasale-mysterygame-2026-week23-game1"
+      "url": "https://store.epicgames.com/p/b28e038bd68b4e80840e7fb8b747de54"
     },
     {
       "id": "https://store.epicgames.com/p/da528841e0eb43d8b93fd243c6767b0c",
@@ -122,7 +104,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "summary": "Disponível gratuitamente a partir de 18/06. Interpretando as ruínas do capitalismo interplanetário. Viva a vida de um trabalhador fugitivo, levado para uma estação sem lei no limite de uma sociedade interestelar. Inspirado na flexibilidade e liberdade dos TTRPGs, escolha seus amigos, fuja do seu passado e mude o seu futuro.",
       "sources": [
         "Epic Games Store"
@@ -137,7 +119,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "summary": "Disponível gratuitamente a partir de 16/07. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
       "sources": [
         "Epic Games Store"
@@ -152,7 +134,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "summary": "Disponível gratuitamente a partir de 18/06. Mantenha o dedo no gatilho no pulso! No jogo de tiro rítmico ROBOBEAT, você jogará como Ace – um caçador de recompensas em uma missão para capturar Frazzer, o robô desonesto. Corra, deslize e atire na parede no seu próprio ritmo usando o editor de música personalizado do jogo, destruindo os exércitos de Frazzer!",
       "sources": [
         "Epic Games Store"
@@ -167,7 +149,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-06-10",
+      "date": "2026-06-11",
       "summary": "Disponível gratuitamente a partir de 16/09. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
@@ -175,39 +157,249 @@
       "url": "https://store.epicgames.com/p/lisa-the-definitive-edition"
     },
     {
-      "id": "https://store.epicgames.com/p/the-ouroboros-king",
-      "title": "EM BREVE: The Ouroboros King",
-      "original_title": "The Ouroboros King",
-      "image": "https://cdn1.epicgames.com/spt-assets/33630d7105014582a478094e89953f49/the-ouroboros-king-jwabx.jpg",
+      "id": "https://www.eurogamer.net/shadow-colossus-secret-fumita-ueda-responds",
+      "title": "Depois de uma década de busca dos fãs pelo segredo final de Shadow of the Colossus, o criador Fumito Ueda diz que se sente “tão sortudo” que as pessoas querem estar em seus mundos",
+      "original_title": "After fans' decade-long search for Shadow of the Colossus' final secret, creator Fumito Ueda says he feels \"so fortunate\" people want to be in his worlds",
+      "image": "https://assetsio.gnwcdn.com/shadow-of-the-colossus-crop-header.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-06-10",
-      "summary": "Disponível gratuitamente a partir de 11/06. O Ouroboros King combina a profundidade estratégica do xadrez com a variedade de construção e rejogabilidade dos roguelikes. Monte um exército formidável, descubra relíquias poderosas e compre dispositivos surpreendentes para derrotar o Coven.",
+      "category": "News",
+      "date": "2026-06-11",
+      "summary": "Já se passaram seis anos desde que a PlayStation destruiu seus fóruns, levando consigo uma das comunidades mais lendárias dos videogames - uma equipe de dedicados caçadores de segredos convencidos de que Shadow of the Colossus, de Fumito Ueda, guardava um último mistério, e que investiu quase...",
       "sources": [
-        "Epic Games Store"
+        "Eurogamer"
       ],
-      "url": "https://store.epicgames.com/p/the-ouroboros-king"
+      "url": "https://www.eurogamer.net/shadow-colossus-secret-fumita-ueda-responds"
     },
     {
-      "id": "https://store.epicgames.com/p/b28e038bd68b4e80840e7fb8b747de54",
-      "title": "EM BREVE: Warhammer 40K Speed Freeks",
-      "original_title": "Warhammer 40K Speed Freeks",
-      "image": "https://cdn1.epicgames.com/spt-assets/a1af14251fb748fc9bda63bfc260f933/warhammer-40k-speed-freeks-1k4pq.jpg",
+      "id": "https://www.eurogamer.net/crimson-desert-sales-6-million",
+      "title": "Crimson Desert ultrapassa outro grande marco de vendas, já que a demanda continua três meses após o lançamento",
+      "original_title": "Crimson Desert passes another big sales milestone as demand continues three months after release",
+      "image": "https://assetsio.gnwcdn.com/Crimson-Desert-Unreachable-Village---Pororin-Village-Cat.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-06-10",
-      "summary": "Disponível gratuitamente a partir de 11/06. Corridas de combate de alta octanagem no universo Warhammer 40.000.",
+      "category": "News",
+      "date": "2026-06-11",
+      "summary": "Passaram-se pouco menos de três meses desde o lançamento de Crimson Desert, o RPG de ação de mundo aberto do estúdio coreano Pearl Abyss. O jogo continuou a quebrar recordes de vendas desde que foi disponibilizado para venda, e seu desenvolvedor anunciou hoje...",
       "sources": [
-        "Epic Games Store"
+        "Eurogamer"
       ],
-      "url": "https://store.epicgames.com/p/b28e038bd68b4e80840e7fb8b747de54"
+      "url": "https://www.eurogamer.net/crimson-desert-sales-6-million"
+    },
+    {
+      "id": "https://www.eurogamer.net/tomb-radier-legacy-of-atlantis-preview-feels-double-a",
+      "title": "Tomb Raider: Legacy of Atlantis parece estranhamente duplo A",
+      "original_title": "Tomb Raider: Legacy of Atlantis feels strangely double-A",
+      "image": "https://assetsio.gnwcdn.com/lara-croft-tomb-raider-atlantis.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-06-11",
+      "summary": "Não sou um especialista em Tomb Raider - minhas memórias remontam a quando joguei a maior parte do original e sua sequência na casa de um amigo, com idade entre sete e 10 anos, e tentei me libertar do mesmo nível de disco demo por alguns para...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/tomb-radier-legacy-of-atlantis-preview-feels-double-a"
+    },
+    {
+      "id": "https://www.eurogamer.net/destiny-2-final-update-big-player-boost-marathon-slump",
+      "title": "A atualização final de Destiny 2 causa o maior salto no número de jogadores em quase dois anos, já que os números da Maratona coincidentemente caem para perto do menor",
+      "original_title": "Destiny 2's final update causes the biggest jump in players in nearly two years, as Marathon numbers coincidentally drop to near their lowest",
+      "image": "https://assetsio.gnwcdn.com/destiny-2-edge-of-fate-cinematic.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-06-11",
+      "summary": "A Bungie pode ter terminado de atualizar Destiny 2 para sempre, mas o amor que os jogadores têm pelo atirador de ficção científica é claramente profundo. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/destiny-2-final-update-big-player-boost-marathon-slump"
+    },
+    {
+      "id": "https://www.eurogamer.net/ubisoft-two-studio-closures-layoffs",
+      "title": "A Ubisoft está supostamente fechando dois estúdios e reestruturando outro, com cerca de 380 pessoas sendo demitidas",
+      "original_title": "Ubisoft is reportedly closing two studios and restructuring another, with around 380 people expected to be laid off",
+      "image": "https://assetsio.gnwcdn.com/ubisoft_logo_whiteonblack_960x540_351175.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-06-11",
+      "summary": "Dois dos estúdios menores da Ubisoft, Ubisoft Winnipeg e Ubisoft Belgrade, estão sendo fechados. O Insider Gaming foi o primeiro a dar a notícia, mas relatórios do Game Developer e do VGC lançaram mais luz sobre o impacto mais amplo. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/ubisoft-two-studio-closures-layoffs"
+    },
+    {
+      "id": "https://www.eurogamer.net/xbox-layoffs-business-reset",
+      "title": "O Xbox supostamente se prepara para demissões “significativas”, à medida que o grande plano de “redefinição” de Asha Sharma entra em vigor",
+      "original_title": "Xbox reportedly preparing for \"significant\" lay-offs, as Asha Sharma's big \"reset\" plan comes into full force",
+      "image": "https://assetsio.gnwcdn.com/xbox-logo_OJRhRlL.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-06-11",
+      "summary": "Dias depois de sua vitrine de jogos, o Xbox está supostamente cortando orçamentos e se preparando para demitir um número “significativo” de funcionários, como parte da “redefinição” de negócios do novo CEO Asha Sharma para a marca Xbox. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/xbox-layoffs-business-reset"
+    },
+    {
+      "id": "https://www.techpowerup.com/349907/nvidia-at-computex-2026-rtx-spark-gaming-hands-on-dlss-4-5-and-more",
+      "title": "NVIDIA na Computex 2026: RTX Spark Gaming prático, DLSS 4.5 e mais",
+      "original_title": "NVIDIA at Computex 2026: RTX Spark Gaming Hands-On, DLSS 4.5, and More",
+      "image": "https://tpucdn.com/img/pA5FTqs8SSj9jET3_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-06-11",
+      "summary": "Na Computex 2026 em Taipei, a NVIDIA convidou a imprensa para uma demonstração prática da plataforma RTX Spark, espalhada por várias salas, cobrindo cargas de trabalho de jogos, criadores e IA. Tudo rodava em laptops Microsoft Surface, e a Microsoft também estava pré...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349907/nvidia-at-computex-2026-rtx-spark-gaming-hands-on-dlss-4-5-and-more"
+    },
+    {
+      "id": "https://www.techpowerup.com/349909/montage-technology-samples-9200-mt-s-ddr5-rcd-to-boost-next-gen-server-performance",
+      "title": "(PR) Montage Technology Amostra RCD DDR5 de 9.200 MT/s para Aumentar o Desempenho de Servidores de Próxima Geração",
+      "original_title": "(PR) Montage Technology Samples 9200 MT/s DDR5 RCD to Boost Next-Gen Server Performance",
+      "image": "https://tpucdn.com/img/lqx2sY6CciFznxBs_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-06-11",
+      "summary": "A Montage Technology anunciou hoje a amostragem de seu chip Gen 6 DDR5 Registering Clock Driver (RCD06) com os principais clientes. Projetado para módulos de memória duplos em linha registrados DDR5 (RDIMMs) de próxima geração, o chip foi configurado para acelerar o desempenho e...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349909/montage-technology-samples-9200-mt-s-ddr5-rcd-to-boost-next-gen-server-performance"
+    },
+    {
+      "id": "https://www.techpowerup.com/349776/chatgpt-is-usd-20-a-month-this-app-gives-you-gpt-claude-and-gemini-for-a-year-for-usd-29-99",
+      "title": "ChatGPT custa US $ 20 por mês, este aplicativo oferece GPT, Claude e Gemini por um ano por US $ 29,99",
+      "original_title": "ChatGPT Is $20 a Month, This App Gives You GPT, Claude, and Gemini for a Year for $29.99",
+      "image": "https://tpucdn.com/img/JEE4PNiWfCL0P2Ac_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-06-11",
+      "summary": "A maioria das pessoas que usaram ferramentas de IA em 2026 acabou silenciosamente na mesma situação: um aplicativo para escrita, outro para pesquisa, um terceiro para imagens e o ChatGPT ainda aberto em uma guia fixada, apenas para garantir. Funciona, mas é muito atrito para algo que...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349776/chatgpt-is-usd-20-a-month-this-app-gives-you-gpt-claude-and-gemini-for-a-year-for-usd-29-99"
+    },
+    {
+      "id": "https://www.techpowerup.com/349908/gigabyte-aorus-geforce-rtx-50-series-ai-box-brings-desktop-class-computing-power-to-laptops",
+      "title": "(PR) Gigabyte AORUS GeForce RTX Série 50 AI BOX traz potência de computação de classe desktop para laptops",
+      "original_title": "(PR) Gigabyte AORUS GeForce RTX 50 Series AI BOX Brings Desktop-Class Computing Power to Laptops",
+      "image": "https://tpucdn.com/img/5q0QafiK7tgWTmGx_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-06-11",
+      "summary": "Gigabyte, marca líder mundial de computadores, apresentou a AORUS GeForce RTX Série 50 AI BOX com arquitetura NVIDIA Blackwell, oferecendo desempenho de classe desktop para laptops ultrabook na COMPUTEX 2026. Projetado para trazer capacidades revolucionárias...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349908/gigabyte-aorus-geforce-rtx-50-series-ai-box-brings-desktop-class-computing-power-to-laptops"
+    },
+    {
+      "id": "https://www.techpowerup.com/349904/ubisoft-lays-off-hundreds-of-staff-across-multiple-studios",
+      "title": "Ubisoft demite centenas de funcionários em vários estúdios",
+      "original_title": "Ubisoft Lays Off Hundreds of Staff Across Multiple Studios",
+      "image": "https://tpucdn.com/img/kjnPjyzx56FDp0Wh_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-06-11",
+      "summary": "Não é nenhum segredo que a Ubisoft tem passado por momentos difíceis ultimamente, com a gigante dos jogos anunciando mudanças radicais em sua estrutura no início de 2026, seguidas de demissões há poucos meses. Agora, parece que a Ubisoft está conduzindo ainda mais...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349904/ubisoft-lays-off-hundreds-of-staff-across-multiple-studios"
+    },
+    {
+      "id": "https://www.techpowerup.com/349902/epomaker-teases-he65-v2-tmr-gaming-keyboard-in-2-translucent-colorways",
+      "title": "Epomaker provoca teclado para jogos HE65 V2 TMR em 2 cores translúcidas",
+      "original_title": "Epomaker Teases HE65 V2 TMR Gaming Keyboard in 2 Translucent Colorways",
+      "image": "https://tpucdn.com/img/sG566z0GVm4iI9fh_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-06-11",
+      "summary": "Seguindo o recente teclado HE75 V2 atualizado, a Epomaker revelou oficialmente o teclado para jogos HE65 V2 TMR em uma recente transmissão ao vivo no YouTube. O HE65 V2 TMR, como o nome sugere, atualiza o teclado para jogos de efeito Hall para TMR (ímã de túnel...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349902/epomaker-teases-he65-v2-tmr-gaming-keyboard-in-2-translucent-colorways"
+    },
+    {
+      "id": "https://www.techpowerup.com/349777/no-surprise-microsoft-office-hikes-own-it-for-life-for-usd-33",
+      "title": "Nenhuma surpresa no Microsoft Office, ganhe-o para o resto da vida por US $ 33",
+      "original_title": "No Surprise Microsoft Office Hikes, Own it for Life for $33",
+      "image": "https://tpucdn.com/img/SndkBXAbMB31TEXS_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-06-11",
+      "summary": "Se a sua assinatura do Microsoft 365 tem sido renovada silenciosamente todos os meses, sem pensar muito, este é um bom momento para repensar isso. Uma licença vitalícia do Microsoft Office Professional 2021 para Windows está disponível atualmente por apenas US$ 32,97 (normalmente...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349777/no-surprise-microsoft-office-hikes-own-it-for-life-for-usd-33"
+    },
+    {
+      "id": "https://www.eurogamer.net/frontier-confirms-new-planet-game",
+      "title": "Frontier anuncia discretamente um jogo Planet “novíssimo” e todos estão tentando adivinhar o que pode ser",
+      "original_title": "Frontier quietly announces a \"brand-new\" Planet game and everyone's trying to guess what it might be",
+      "image": "https://assetsio.gnwcdn.com/PC2-water-park.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-06-10",
+      "summary": "A Frontier Developments acaba de anunciar Planet Zoo 2 e a primeira expansão Jurassic World Evolution 3, mas a desenvolvedora já está trabalhando duro em seu próximo jogo de “simulação de construção e gerenciamento”. E não é uma sequência. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/frontier-confirms-new-planet-game"
+    },
+    {
+      "id": "https://www.eurogamer.net/here-are-our-ps-plus-premium-and-extra-games-for-june",
+      "title": "Aqui estão nossos jogos PS Plus Premium e Extra de junho",
+      "original_title": "Here are our PS Plus Premium and Extra games for June",
+      "image": "https://assetsio.gnwcdn.com/playstation-plus-june-header.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-06-10",
+      "summary": "O verão pode estar chegando, nos tentando em direção ao sol, areia e mar, mas isso não impede a Sony de lançar uma forte lista de jogos PS Plus Premium e Extra em junho que podem apenas tentá-lo a ficar por dentro. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/here-are-our-ps-plus-premium-and-extra-games-for-june"
+    },
+    {
+      "id": "https://www.eurogamer.net/hotel-barcelona-swery-opinion-gen-ai-steam-ratings",
+      "title": "\"A maldição do Mixed foi quebrada\" - Swery muda a opinião sobre o excêntrico roguelike Hotel Barcelona, ​​removendo as vozes da geração AI e reformulando substancialmente o jogo",
+      "original_title": "\"The curse of Mixed is broken\" - Swery turns opinion around on oddball roguelike Hotel Barcelona by removing gen-AI voices and substantially reworking the game",
+      "image": "https://assetsio.gnwcdn.com/Hotel-Barcelona-key-art.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-06-10",
+      "summary": "O excêntrico roguelike Hotel Barcelona de Hidetaka “Swery” Suehiro não nos impressionou quando foi lançado no ano passado, mas havia algo encantador e sério nele. Mas meses depois - e muitas atualizações depois - Swery e White Owl parecem ter ligado...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/hotel-barcelona-swery-opinion-gen-ai-steam-ratings"
     },
     {
       "id": "https://www.eurogamer.net/gears-of-war-e-day-ps5-snub-smaller-audience-interview",
-      "title": "Apesar dos relatos e da remoção do vídeo, os desenvolvedores de Gears of War: E-Day insistem que ele nunca esteve em desenvolvimento para PS5",
-      "original_title": "Despite reports and a video takedown, Gears of War: E-Day developers insist it was never in development for PS5",
+      "title": "Apesar dos relatórios e da remoção de um vídeo, os desenvolvedores de Gears of War: E-Day insistem que o Xbox “nunca mudou” os planos para o lançamento do PS5 – porque nunca anunciou um",
+      "original_title": "Despite reports and a video takedown, Gears of War: E-Day devs insist Xbox \"never changed\" plans for a PS5 release - because it never announced one",
       "image": "https://assetsio.gnwcdn.com/gears-of-war-e-day-june-2026-screen-4.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
@@ -220,289 +412,49 @@
       "url": "https://www.eurogamer.net/gears-of-war-e-day-ps5-snub-smaller-audience-interview"
     },
     {
-      "id": "https://www.eurogamer.net/gears-of-war-e-day-active-reload-big-change",
-      "title": "Gears of War: E-Day está fazendo grandes mudanças em uma das mecânicas mais icônicas da série",
-      "original_title": "Gears of War: E-Day is making big changes to one of the series' most iconic mechanics",
-      "image": "https://assetsio.gnwcdn.com/gears-of-war-e-day-june-2026-screen-5.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-06-10",
-      "summary": "Você pode realmente dizer que o desenvolvedor de Gears of War: E-Day, The Coalition, deseja que o próximo jogo de tiro em terceira pessoa seja apreciado por mais do que apenas os fanáticos por Gears. No Developer Direct do último domingo, o estúdio relembrou a decisão de iniciar o desenvolvimento de...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/gears-of-war-e-day-active-reload-big-change"
-    },
-    {
-      "id": "https://www.eurogamer.net/gears-of-war-e-day-multiplayer-its-coming",
-      "title": "\"Está chegando\" O desenvolvedor de Gears of War: E-Day garante aos fãs multijogador que mais informações estão a caminho",
-      "original_title": "\"It's coming\" Gears of War: E-Day developer reassures multiplayer fans that more information is on the way",
-      "image": "https://assetsio.gnwcdn.com/Gears-of-War-E-Day_X2cX2yo.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-06-10",
-      "summary": "Os desenvolvedores de Gears of War: E-Day garantiram aos fãs que informações multijogador chegarão em breve, após a aparição do jogo no Xbox Game Showcase focado no jogador único. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/gears-of-war-e-day-multiplayer-its-coming"
-    },
-    {
-      "id": "https://www.eurogamer.net/resident-evil-veronica-first-person",
-      "title": "Apesar do trailer, a Capcom diz que seu remake de Resident Evil – Code: Veronica é em terceira pessoa e segue o exemplo de Resident Evil 2",
-      "original_title": "Despite its trailer, Capcom says its Resident Evil - Code: Veronica remake is third-person and taking its cue from Resident Evil 2",
-      "image": "https://assetsio.gnwcdn.com/resident-evil-veronica-header.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-06-10",
-      "summary": "Se você viu o trailer de anúncio de Resident Evil Veronica durante o Summer Game Fest da semana passada, você pode razoavelmente assumir que continuará as incursões da série moderna no terror em primeira pessoa. No entanto, a Capcom confirmou agora seu lançamento de Code Veronica...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/resident-evil-veronica-first-person"
-    },
-    {
-      "id": "https://www.eurogamer.net/resident-evil-veronica-no-code-explained",
-      "title": "Quer saber por que Resident Evil Veronica retirou o “Código” do nome do original? Capcom explica tudo",
-      "original_title": "Wondering why Resident Evil Veronica has ditched the \"Code\" from the original's name? Capcom explains all",
-      "image": "https://assetsio.gnwcdn.com/resident-evil-veronica-claire-header.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-06-10",
-      "summary": "Com toda a empolgação em torno do anúncio do tão aguardado remake de Resident Evil Code Veronica da Capcom na semana passada, foi muito fácil não perceber o fato de que sua reformulação teve uma pequena mudança de nome. E se você está se perguntando por que isso acontece,...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/resident-evil-veronica-no-code-explained"
-    },
-    {
-      "id": "https://www.eurogamer.net/fable-behind-closed-doors-demo-preview",
-      "title": "Senhor, me ajude, a demonstração a portas fechadas de Fable me deixou muito animado",
-      "original_title": "Lord help me, Fable's behind-closed-doors demo has got me very excited",
-      "image": "https://assetsio.gnwcdn.com/Fable-header.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-06-10",
-      "summary": "Não seria uma prévia do Fable se eu não fosse pelo menos um pouco cauteloso em encorajá-lo a ter muitas esperanças. Mas, me perdoe, eu vou. Já vi uma boa meia hora de jogo contínuo e, embora venha com muitas ressalvas, realmente ...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/fable-behind-closed-doors-demo-preview"
-    },
-    {
-      "id": "https://www.eurogamer.net/halo-campaign-evolved-hands-on",
-      "title": "Entrei no Halo: Campaign Evolved pensando que não precisava existir, mas depois de jogar dois níveis quero remakes completos da trilogia original e Reach",
-      "original_title": "I went into Halo: Campaign Evolved thinking it didn't need to exist, but after playing two levels I want full remakes of the original trilogy and Reach",
-      "image": "https://assetsio.gnwcdn.com/halo-consoles.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-06-10",
-      "summary": "Quando a Microsoft revelou que Halo: Campaign Evolved no ano passado, recusei a sua afirmação de que este seria “um remake fiel mas modernizado da campanha de Halo: Combat Evolved”. Como poderia ser? É feito no Unreal Engine 5, muito poucos dos modelos originais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/halo-campaign-evolved-hands-on"
-    },
-    {
-      "id": "https://www.eurogamer.net/steam-valve-ends-physical-gift-cards-scams",
-      "title": "Os vales-presente físicos do Steam estão sendo encerrados pela Valve porque golpistas continuam usando-os para enganar as pessoas",
-      "original_title": "Physical Steam gift cards are being ended by Valve because scammers keep using them to trick people",
-      "image": "https://assetsio.gnwcdn.com/steam_share_image.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-06-10",
-      "summary": "Uma das formas mais populares para os usuários do Steam cobrarem suas carteiras de lojas é através da compra de cartões-presente. Durante anos, o Steam permitiu que os jogadores comprassem cartões-presente em diferentes valores, que poderiam então resgatar pelo seu valor em...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/steam-valve-ends-physical-gift-cards-scams"
-    },
-    {
-      "id": "https://www.eurogamer.net/dragons-dogma-2-patch-update-june-2026",
-      "title": "A expansão Dragon's Dogma 2 e a porta Switch 2 fornecem à Capcom uma oportunidade perfeita para atualizar substancialmente o jogo - e o trabalho já começou",
-      "original_title": "The Dragon's Dogma 2 expansion and Switch 2 port provide Capcom with a perfect opportunity to substantially update the game - and work has already begun",
-      "image": "https://assetsio.gnwcdn.com/DD2-Dark-Arisen-overlook.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-06-10",
-      "summary": "A revelação de uma porta Dragon’s Dogma 2 para Nintendo Switch 2 foi uma das maiores surpresas do Nintendo Direct de ontem. Além disso, é a versão Dark Arisen que inclui uma nova expansão que também chega a outras versões do jogo. E a Capcom...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/dragons-dogma-2-patch-update-june-2026"
-    },
-    {
-      "id": "https://www.eurogamer.net/guild-wars-3-revealed-guild-wars-2-so-good",
-      "title": "Com Guild Wars 3 finalmente anunciado, eis por que seu amado antecessor sobreviveu ao teste do tempo",
-      "original_title": "With Guild Wars 3 announced at long last, here's why its beloved predecessor has survived the test of time",
-      "image": "https://assetsio.gnwcdn.com/guild-wars-2-header.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-06-10",
-      "summary": "O Summer Game Fest deste ano foi repleto de ótimas revelações, mas para meu dinheiro, Guild Wars 3 foi uma das maiores novidades. Houve rumores sobre sua existência, algumas ofertas de emprego perdidas aqui e ali, mas para realmente vê-lo...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/guild-wars-3-revealed-guild-wars-2-so-good"
-    },
-    {
-      "id": "https://www.techpowerup.com/349888/thermalright-introduces-peerless-assassin-se-series-cpu-coolers",
-      "title": "Thermalright apresenta coolers de CPU da série Peerless Assassin SE",
-      "original_title": "Thermalright Introduces Peerless Assassin SE Series CPU Coolers",
-      "image": "https://tpucdn.com/img/Rsum0rVQcZcgMWN2_thm.jpg",
+      "id": "https://www.techpowerup.com/349899/deepcools-prototype-sff-pc-takes-the-cpu-cooler-to-fresh-air",
+      "title": "O protótipo SFF PC da DeepCool leva o cooler da CPU para o ar fresco",
+      "original_title": "DeepCool's Prototype SFF PC Takes the CPU Cooler to Fresh Air",
+      "image": "https://tpucdn.com/img/BWZrOQrfVpK4hpFK_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-06-10",
-      "summary": "A Thermalright apresentou hoje os coolers para CPU Peerless Assassin 120 SE V3 e Peerless Assassin 140 V3. Ambos são melhorias de design em relação à série Peerless Assassin V3 e vêm com ventiladores aprimorados e padrões de pilha de aletas de alumínio. Ambos os refrigeradores são ...",
+      "summary": "Já cobrimos uma série de inovações mais recentes da DeepCool na Computex 2026, desde seus mais recentes coolers de CPU e AIO até seus novos ventiladores silenciosos em cadeia, mas a marca também exibiu um novo protótipo de PC SFF que inverte o script na construção de PC. Isso...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/349888/thermalright-introduces-peerless-assassin-se-series-cpu-coolers"
+      "url": "https://www.techpowerup.com/349899/deepcools-prototype-sff-pc-takes-the-cpu-cooler-to-fresh-air"
     },
     {
-      "id": "https://www.techpowerup.com/349885/nextsilicon-to-productize-arbel-risc-v-core-into-64-core-enterprise-processor-for-ai-and-hpc",
-      "title": "(PR) NextSilicon produzirá núcleo Arbel RISC-V em processador corporativo de 64 núcleos para IA e HPC",
-      "original_title": "(PR) NextSilicon to Productize Arbel RISC-V Core Into 64-Core Enterprise Processor for AI and HPC",
-      "image": "https://tpucdn.com/img/ee3GQm8JxwFPYeeL_thm.jpg",
+      "id": "https://www.techpowerup.com/349896/lian-li-debuts-dk-b-motorized-sit-stand-desk-with-built-in-pc-case-at-computex",
+      "title": "Lian Li lança mesa de apoio motorizada DK-B com gabinete de PC integrado na Computex",
+      "original_title": "Lian Li Debuts DK-B Motorized Sit-Stand Desk with Built-In PC Case at Computex",
+      "image": "https://tpucdn.com/img/gguJazpqWS19TlIA_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-06-10",
-      "summary": "NextSilicon, líder em soluções de computação de próxima geração para IA e computação de alto desempenho (HPC), anunciou hoje planos para produzir seu núcleo Arbel RISC-V em um processador de nível empresarial de 64 núcleos e 128 núcleos, adequado para fornecer ultra-velocidade...",
+      "summary": "Além das novas fontes de alimentação para PC desktop e gabinetes de PC premium exibidos na Computex, Lian Li também estreou seu novo DK-B, uma mesa ergonômica motorizada com um gabinete de PC integrado que suporta uma ampla variedade de hardware. O DK-B, que ganhou um TechPowerUp B...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/349885/nextsilicon-to-productize-arbel-risc-v-core-into-64-core-enterprise-processor-for-ai-and-hpc"
+      "url": "https://www.techpowerup.com/349896/lian-li-debuts-dk-b-motorized-sit-stand-desk-with-built-in-pc-case-at-computex"
     },
     {
-      "id": "https://www.techpowerup.com/349776/chatgpt-is-usd-20-a-month-this-app-gives-you-gpt-claude-and-gemini-for-a-year-for-usd-29-99",
-      "title": "ChatGPT custa US $ 20 por mês, este aplicativo oferece GPT, Claude e Gemini por um ano por US $ 29,99",
-      "original_title": "ChatGPT Is $20 a Month, This App Gives You GPT, Claude, and Gemini for a Year for $29.99",
-      "image": "https://tpucdn.com/img/JEE4PNiWfCL0P2Ac_thm.jpg",
+      "id": "https://www.techpowerup.com/349898/formula-v-line-showcases-its-ergonomic-gaming-chairs-at-computex-2026",
+      "title": "Linha Fórmula V apresenta suas cadeiras ergonômicas para jogos na Computex 2026",
+      "original_title": "Formula V Line Showcases Its Ergonomic Gaming Chairs at Computex 2026",
+      "image": "https://tpucdn.com/img/9MinPgaAdEapKQiS_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-06-10",
-      "summary": "A maioria das pessoas que usaram ferramentas de IA em 2026 acabou silenciosamente na mesma situação: um aplicativo para escrita, outro para pesquisa, um terceiro para imagens e o ChatGPT ainda aberto em uma guia fixada, apenas para garantir. Funciona, mas é muito atrito para algo que...",
+      "summary": "A Formula V Line apresentou na Computex 2026 uma nova linha de cadeiras para jogos junto com sua mais recente linha de chassis para PC, coolers e fontes de alimentação. O modelo Solen é a cadeira de jogos carro-chefe da empresa, com apoio para os pés totalmente retrátil e encosto reclinável motorizado...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/349776/chatgpt-is-usd-20-a-month-this-app-gives-you-gpt-claude-and-gemini-for-a-year-for-usd-29-99"
-    },
-    {
-      "id": "https://www.techpowerup.com/349884/semiconductor-market-surpasses-usd-300bn-quarterly-revenue-in-1q26-as-memory-market-shifts-historical-patterns",
-      "title": "(PR) Mercado de semicondutores ultrapassa receita trimestral de US$ 300 bilhões no 1T26 à medida que o mercado de memória muda os padrões históricos",
-      "original_title": "(PR) Semiconductor Market Surpasses $300bn Quarterly Revenue in 1Q26 as Memory Market Shifts Historical Patterns",
-      "image": "https://tpucdn.com/img/Gc1srF4Jcunpj6Zl_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-06-10",
-      "summary": "Após um ano recorde para a indústria de semicondutores, o início do novo ano manteve o ímpeto, já que a receita de semicondutores cresceu 27% no 1T26 em relação ao 4T25, atingindo US$ 319 bilhões, de acordo com uma nova pesquisa da Omdia. A receita de memória impulsionou o ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349884/semiconductor-market-surpasses-usd-300bn-quarterly-revenue-in-1q26-as-memory-market-shifts-historical-patterns"
-    },
-    {
-      "id": "https://www.techpowerup.com/349883/capcoms-dragons-dogma-2-dark-arisen-scheduled-to-launch-on-october-9",
-      "title": "(PR) Dragon's Dogma 2: Dark Arisen da Capcom com lançamento previsto para 9 de outubro",
-      "original_title": "(PR) Capcom's Dragon's Dogma 2: Dark Arisen Scheduled to Launch on October 9",
-      "image": "https://tpucdn.com/img/7JNmtMihg5TpLwLc_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-06-10",
-      "summary": "anunciou hoje que Dragon's Dogma 2: Dark Arisen, que inclui uma expansão para Dragon's Dogma 2, está programado para ser lançado em 9 de outubro de 2026. A série Dragon's Dogma consiste em jogos de ação em um cenário de fantasia onde os jogadores...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349883/capcoms-dragons-dogma-2-dark-arisen-scheduled-to-launch-on-october-9"
-    },
-    {
-      "id": "https://www.techpowerup.com/349882/thermal-grizzly-shows-new-duronaut-pro-and-hydronaut-pro-and-several-new-prototypes-at-computex-2026",
-      "title": "Thermal Grizzly mostra novos Duronaut Pro e Hydronaut Pro e vários novos protótipos na Computex 2026",
-      "original_title": "Thermal Grizzly Shows New Duronaut Pro and Hydronaut Pro and Several New Prototypes at Computex 2026",
-      "image": "https://tpucdn.com/img/YYC4MTOEVH05yUZU_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-06-10",
-      "summary": "A Thermal Grizzly apresentou sua nova e futura pasta térmica de alto desempenho Duronaut Pro e Hydronaut Pro que deve chegar ao mercado em breve. Além disso, a empresa trouxe vários novos protótipos para a feira, incluindo uma versão à base de diamante...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349882/thermal-grizzly-shows-new-duronaut-pro-and-hydronaut-pro-and-several-new-prototypes-at-computex-2026"
-    },
-    {
-      "id": "https://www.techpowerup.com/349777/no-surprise-microsoft-office-hikes-own-it-for-life-for-usd-33",
-      "title": "Nenhuma surpresa no Microsoft Office, ganhe-o para o resto da vida por US $ 33",
-      "original_title": "No Surprise Microsoft Office Hikes, Own it for Life for $33",
-      "image": "https://tpucdn.com/img/SndkBXAbMB31TEXS_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-06-10",
-      "summary": "Se a sua assinatura do Microsoft 365 tem sido renovada silenciosamente todos os meses, sem pensar muito, este é um bom momento para repensar isso. Uma licença vitalícia do Microsoft Office Professional 2021 para Windows está disponível atualmente por apenas US$ 32,97 (normalmente...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349777/no-surprise-microsoft-office-hikes-own-it-for-life-for-usd-33"
-    },
-    {
-      "id": "https://www.techpowerup.com/349878/rosewill-launches-the-fbm-z-series-micro-atx-cases",
-      "title": "(PR) Rosewill lança gabinetes micro-ATX da série FBM-Z",
-      "original_title": "(PR) Rosewill Launches the FBM-Z Series Micro-ATX Cases",
-      "image": "https://tpucdn.com/img/i4HY0iRHf12mTjLO_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-06-10",
-      "summary": "Rosewill anunciou hoje a Série FBM-Z, uma nova linha de três gabinetes de PC minitorre microATX projetados para simplificar a experiência de construção sem comprometer o estilo ou o desempenho. Cada modelo vem com uma fonte de alimentação pré-instalada e um painel temperado...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349878/rosewill-launches-the-fbm-z-series-micro-atx-cases"
-    },
-    {
-      "id": "https://www.techpowerup.com/349876/logitech-launches-mobi-fold-its-first-ultra-portable-foldable-mouse-for-life-on-the-go",
-      "title": "(PR) Logitech lança Mobi Fold, seu primeiro mouse dobrável ultraportátil para a vida em movimento",
-      "original_title": "(PR) Logitech Launches Mobi Fold, Its First Ultra-Portable Foldable Mouse for Life On the Go",
-      "image": "https://tpucdn.com/img/cITJJMpZ2ajwOnRP_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-06-10",
-      "summary": "A Logitech resolveu hoje um grande problema para os profissionais que viajam com o lançamento do Mobi Fold e do Mobi Fold for Business. Como o primeiro mouse dobrável da Logitech, o Mobi Fold foi projetado para permitir que os usuários recuperem todo o seu potencial de produtividade...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349876/logitech-launches-mobi-fold-its-first-ultra-portable-foldable-mouse-for-life-on-the-go"
-    },
-    {
-      "id": "https://www.techpowerup.com/349872/deepcool-launches-updated-pc-case-fans-for-quiet-and-tidy-builds-at-computex-2026",
-      "title": "DeepCool lança ventiladores de gabinete de PC atualizados para construções silenciosas e organizadas na Computex 2026",
-      "original_title": "DeepCool Launches Updated PC Case Fans for Quiet and Tidy Builds at Computex 2026",
-      "image": "https://tpucdn.com/img/SrHlztlUzog68jT5_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-06-10",
-      "summary": "DeepCool exibiu uma série de novos coolers de CPU na Computex 2026, que já abordamos anteriormente, mas alguns dos novos ventiladores da empresa podem ser ainda mais interessantes para os fabricantes de PC – especialmente aqueles que procuram uma construção de PC silenciosa e descomplicada.",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349872/deepcool-launches-updated-pc-case-fans-for-quiet-and-tidy-builds-at-computex-2026"
+      "url": "https://www.techpowerup.com/349898/formula-v-line-showcases-its-ergonomic-gaming-chairs-at-computex-2026"
     }
   ]
 }
