@@ -1,31 +1,11 @@
 {
-  "last_updated": "2026-06-17T15:29:58",
-  "display_date": "17/06/2026 15:29",
+  "last_updated": "2026-06-18T15:24:35",
+  "display_date": "18/06/2026 15:24",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "2395ms",
+    "latency": "361ms",
     "current_games": [
-      {
-        "title": "The Ouroboros King",
-        "description": "O Ouroboros King combina a profundidade estratégica do xadrez com a variedade de construção e rejogabilidade dos roguelikes. Monte um exército formidável, descubra relíquias poderosas e compre dispositivos surpreendentes para derrotar o Coven.",
-        "image": "https://cdn1.epicgames.com/spt-assets/33630d7105014582a478094e89953f49/the-ouroboros-king-jwabx.jpg",
-        "url": "https://store.epicgames.com/p/the-ouroboros-king",
-        "price": "$9.99",
-        "start_date": "2026-06-11T15:00:00.000Z",
-        "end_date": "2026-06-18T15:00:00.000Z"
-      },
-      {
-        "title": "Warhammer 40K Speed Freeks",
-        "description": "Corridas de combate de alta octanagem no universo Warhammer 40.000.",
-        "image": "https://cdn1.epicgames.com/spt-assets/a1af14251fb748fc9bda63bfc260f933/warhammer-40k-speed-freeks-1k4pq.jpg",
-        "url": "https://store.epicgames.com/p/b28e038bd68b4e80840e7fb8b747de54",
-        "price": "$19.99",
-        "start_date": "2026-06-11T15:00:00.000Z",
-        "end_date": "2026-06-18T15:00:00.000Z"
-      }
-    ],
-    "upcoming_games": [
       {
         "title": "Citizen Sleeper",
         "description": "Interpretando as ruínas do capitalismo interplanetário. Viva a vida de um trabalhador fugitivo, levado para uma estação sem lei no limite de uma sociedade interestelar. Inspirado na flexibilidade e liberdade dos TTRPGs, escolha seus amigos, fuja do seu passado e mude o seu futuro.",
@@ -36,15 +16,6 @@
         "end_date": "2026-06-25T15:00:00.000Z"
       },
       {
-        "title": "Ghostrunner 2",
-        "description": "Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
-        "image": "https://cdn1.epicgames.com/offer/708f57aaa04b42ef885be16c8288f0ac/EGS_Ghostrunner2_OneMoreLevel_S1_2560x1440-15845148fae1d0cfd7f3e98c9b3ba6ba",
-        "url": "https://store.epicgames.com/p/ghostrunner-2",
-        "price": "$39.99",
-        "start_date": "2026-07-16T15:00:00.000Z",
-        "end_date": "2026-07-30T15:00:00.000Z"
-      },
-      {
         "title": "ROBOBEAT",
         "description": "Mantenha o dedo no gatilho no pulso! No jogo de tiro rítmico ROBOBEAT, você jogará como Ace – um caçador de recompensas em uma missão para capturar Frazzer, o robô desonesto. Corra, deslize e atire na parede no seu próprio ritmo usando o editor de música personalizado do jogo, destruindo os exércitos de Frazzer!",
         "image": "https://cdn1.epicgames.com/spt-assets/91105717b53044ed8e384e5fada71db8/robobeat-1ojda.png",
@@ -52,6 +23,26 @@
         "price": "$19.99",
         "start_date": "2026-06-18T15:00:00.000Z",
         "end_date": "2026-06-25T15:00:00.000Z"
+      }
+    ],
+    "upcoming_games": [
+      {
+        "title": "RollerCoaster Tycoon 3 Complete Edition",
+        "description": "Construa o parque da sua vida e redescubra o best-seller de simulação de montanha-russa aclamado pela crítica. Sinta a emoção de um clássico que define o gênero, completo com dois enormes pacotes de expansão.",
+        "image": "https://cdn1.epicgames.com/f01b3e0178d448f0b93911e292d8e614/offer/EGS_RollerCoasterTycoon3CompleteEdition_FrontierDevelopments_S5-1920x1080-689d96ca4d5a4e8de183b7a928960c87.jpg",
+        "url": "https://store.epicgames.com/p/mainegeneralaudience",
+        "price": "$19.99",
+        "start_date": "2026-06-25T15:00:00.000Z",
+        "end_date": "2026-07-02T15:00:00.000Z"
+      },
+      {
+        "title": "Ghostrunner 2",
+        "description": "Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
+        "image": "https://cdn1.epicgames.com/offer/708f57aaa04b42ef885be16c8288f0ac/EGS_Ghostrunner2_OneMoreLevel_S1_2560x1440-15845148fae1d0cfd7f3e98c9b3ba6ba",
+        "url": "https://store.epicgames.com/p/ghostrunner-2",
+        "price": "$39.99",
+        "start_date": "2026-07-16T15:00:00.000Z",
+        "end_date": "2026-07-30T15:00:00.000Z"
       },
       {
         "title": "LISA: The Definitive Edition",
@@ -85,49 +76,49 @@
   },
   "items": [
     {
-      "id": "https://store.epicgames.com/p/the-ouroboros-king",
-      "title": "GRÁTIS: The Ouroboros King",
-      "original_title": "The Ouroboros King",
-      "image": "https://cdn1.epicgames.com/spt-assets/33630d7105014582a478094e89953f49/the-ouroboros-king-jwabx.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Free Games",
-      "date": "2026-06-17",
-      "summary": "O Ouroboros King combina a profundidade estratégica do xadrez com a variedade de construção e rejogabilidade dos roguelikes. Monte um exército formidável, descubra relíquias poderosas e compre dispositivos surpreendentes para derrotar o Coven.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/the-ouroboros-king"
-    },
-    {
-      "id": "https://store.epicgames.com/p/b28e038bd68b4e80840e7fb8b747de54",
-      "title": "GRÁTIS: Warhammer 40K Speed Freeks",
-      "original_title": "Warhammer 40K Speed Freeks",
-      "image": "https://cdn1.epicgames.com/spt-assets/a1af14251fb748fc9bda63bfc260f933/warhammer-40k-speed-freeks-1k4pq.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Free Games",
-      "date": "2026-06-17",
-      "summary": "Corridas de combate de alta octanagem no universo Warhammer 40.000.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/b28e038bd68b4e80840e7fb8b747de54"
-    },
-    {
       "id": "https://store.epicgames.com/p/da528841e0eb43d8b93fd243c6767b0c",
-      "title": "EM BREVE: Citizen Sleeper",
+      "title": "GRÁTIS: Citizen Sleeper",
       "original_title": "Citizen Sleeper",
       "image": "https://cdn1.epicgames.com/spt-assets/919d5976f3804d4cabb8ca90ea43a956/citizen-sleeper-xudwg.jpg",
       "source_count": 1,
       "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-06-17",
-      "summary": "Disponível gratuitamente a partir de 18/06. Interpretando as ruínas do capitalismo interplanetário. Viva a vida de um trabalhador fugitivo, levado para uma estação sem lei no limite de uma sociedade interestelar. Inspirado na flexibilidade e liberdade dos TTRPGs, escolha seus amigos, fuja do seu passado e mude o seu futuro.",
+      "category": "Free Games",
+      "date": "2026-06-18",
+      "summary": "Interpretando as ruínas do capitalismo interplanetário. Viva a vida de um trabalhador fugitivo, levado para uma estação sem lei no limite de uma sociedade interestelar. Inspirado na flexibilidade e liberdade dos TTRPGs, escolha seus amigos, fuja do seu passado e mude o seu futuro.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/da528841e0eb43d8b93fd243c6767b0c"
+    },
+    {
+      "id": "https://store.epicgames.com/p/4ee365fd76704f37ae3dc13676f1ac61",
+      "title": "GRÁTIS: ROBOBEAT",
+      "original_title": "ROBOBEAT",
+      "image": "https://cdn1.epicgames.com/spt-assets/91105717b53044ed8e384e5fada71db8/robobeat-1ojda.png",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Free Games",
+      "date": "2026-06-18",
+      "summary": "Mantenha o dedo no gatilho no pulso! No jogo de tiro rítmico ROBOBEAT, você jogará como Ace – um caçador de recompensas em uma missão para capturar Frazzer, o robô desonesto. Corra, deslize e atire na parede no seu próprio ritmo usando o editor de música personalizado do jogo, destruindo os exércitos de Frazzer!",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/4ee365fd76704f37ae3dc13676f1ac61"
+    },
+    {
+      "id": "https://store.epicgames.com/p/mainegeneralaudience",
+      "title": "EM BREVE: RollerCoaster Tycoon 3 Complete Edition",
+      "original_title": "RollerCoaster Tycoon 3 Complete Edition",
+      "image": "https://cdn1.epicgames.com/f01b3e0178d448f0b93911e292d8e614/offer/EGS_RollerCoasterTycoon3CompleteEdition_FrontierDevelopments_S5-1920x1080-689d96ca4d5a4e8de183b7a928960c87.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-06-18",
+      "summary": "Disponível gratuitamente a partir de 25/06. Construa o parque da sua vida e redescubra o best-seller de simulação de montanha-russa aclamado pela crítica. Sinta a emoção de um clássico que define o gênero, completo com dois enormes pacotes de expansão.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/mainegeneralaudience"
     },
     {
       "id": "https://store.epicgames.com/p/ghostrunner-2",
@@ -137,27 +128,12 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-06-17",
+      "date": "2026-06-18",
       "summary": "Disponível gratuitamente a partir de 16/07. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/ghostrunner-2"
-    },
-    {
-      "id": "https://store.epicgames.com/p/4ee365fd76704f37ae3dc13676f1ac61",
-      "title": "EM BREVE: ROBOBEAT",
-      "original_title": "ROBOBEAT",
-      "image": "https://cdn1.epicgames.com/spt-assets/91105717b53044ed8e384e5fada71db8/robobeat-1ojda.png",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-06-17",
-      "summary": "Disponível gratuitamente a partir de 18/06. Mantenha o dedo no gatilho no pulso! No jogo de tiro rítmico ROBOBEAT, você jogará como Ace – um caçador de recompensas em uma missão para capturar Frazzer, o robô desonesto. Corra, deslize e atire na parede no seu próprio ritmo usando o editor de música personalizado do jogo, destruindo os exércitos de Frazzer!",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/4ee365fd76704f37ae3dc13676f1ac61"
     },
     {
       "id": "https://store.epicgames.com/p/lisa-the-definitive-edition",
@@ -167,7 +143,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-06-17",
+      "date": "2026-06-18",
       "summary": "Disponível gratuitamente a partir de 16/09. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
@@ -182,7 +158,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-06-17",
+      "date": "2026-06-18",
       "summary": "Disponível gratuitamente a partir de 25/06. Voidwrought é um jogo de plataforma de ação 2D ambientado em um mundo desenhado à mão de horrores cósmicos. Explore as ruínas descongeladas da Primeira Civilização e derrube os deuses que ali habitam. Aumente seus poderes, descubra artefatos antigos e expanda seu santuário em meio aos destroços.",
       "sources": [
         "Epic Games Store"
@@ -197,7 +173,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-06-17",
+      "date": "2026-06-18",
       "summary": "Disponível gratuitamente a partir de 16/07. A Coleção de Aniversário de Castlevania da Konami traça as origens da histórica franquia de vampiros. Está incluído um e-book exclusivo com detalhes fornecidos por desenvolvedores, artistas e outros inspirados no legado de Castlevania, que lança uma nova luz sobre o mundo de Castlevania.",
       "sources": [
         "Epic Games Store"
@@ -205,199 +181,214 @@
       "url": "https://store.epicgames.com/p/32b3e0adbe0c4399be1874958194f97f"
     },
     {
-      "id": "https://www.eurogamer.net/unreal-engine-5-8-ai-llm-engine",
-      "title": "A grande nova ideia do Unreal Engine é permitir que os LLMs da geração AI se conectem diretamente a ele e conversem com ele",
-      "original_title": "Unreal Engine's big new idea is letting gen-AI LLMs plug directly into it and talk to it",
-      "image": "https://assetsio.gnwcdn.com/unreal-engine-ai-room.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/gta-6-vice-city-overview-map",
+      "title": "A Rockstar silenciosamente nos dá provavelmente a melhor visão de Vice City de GTA 6 até agora",
+      "original_title": "Rockstar quietly gives us probably our best look at GTA 6's Vice City yet",
+      "image": "https://assetsio.gnwcdn.com/Jason-and-Lucia-in-artwork-for-GTA-6.-She-has-a-black-top-on-and-a-gun-in-her-hand.-He-is-wearing-a-white-vest.-They-are-standing-against-a-pink-and-purple-cityscape.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-17",
-      "summary": "A Epic Games revelou uma nova ferramenta para Unreal Engine 5.8 que permite que modelos generativos de linguagem grande (LLMs) de IA se conectem e se comuniquem diretamente com o mecanismo, usando suas ferramentas enquanto são direcionados por prompts de texto. Leia mais...",
+      "date": "2026-06-18",
+      "summary": "Junto com a revelação da arte da capa de hoje, a Rockstar também revelou discretamente sua melhor visão geral até agora da metrópole assolada pelo crime de Grand Theft Auto 6, Vice City. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/unreal-engine-5-8-ai-llm-engine"
+      "url": "https://www.eurogamer.net/gta-6-vice-city-overview-map"
     },
     {
-      "id": "https://www.eurogamer.net/gta-6-rockstar-legal-dispute-blacklisting-claims",
-      "title": "\"A Rockstar pensou que poderia controlar a narrativa. Eles estão errados\" - o tribunal decide contra o pedido do desenvolvedor do GTA 6 para remover as reivindicações da lista negra do sindicato da disputa legal em andamento",
-      "original_title": "\"Rockstar thought they could control the narrative. They're wrong\" - tribunal rules against GTA 6 developer's request to remove union's blacklisting claims from ongoing legal dispute",
-      "image": "https://assetsio.gnwcdn.com/Raul-Bautista-using-his-phone-in-GTA-6.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/warframe-jade-shadow-constellations-protoframe-interview",
+      "title": "“Nossos jogadores podem se movimentar de diferentes maneiras” – o estúdio Warframe fala sobre como evitar o esgotamento do Protoframe e afastar o apetite furioso dos fãs por romance",
+      "original_title": "\"Our players can swing different types of ways\" - Warframe studio talks  avoiding Protoframe burnout, and fending off fans' furious appetite for romance",
+      "image": "https://assetsio.gnwcdn.com/WF_AshGaruda-Gemini_MinorKeyart_1920x1080.png?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-17",
-      "summary": "Um tribunal trabalhista decidiu contra o pedido da Rockstar Games para remover as reivindicações da lista negra da disputa legal em andamento sobre suposta violação de sindicatos no estúdio Grand Theft Auto 6. Leia mais...",
+      "date": "2026-06-18",
+      "summary": "A próxima atualização do Warframe - Jade Shadows: Constellations - finalmente chegou, trazendo consigo dois novos Protoframes: Ryoku e Vena. Uma adição relativamente recente ao repertório jogável do atirador de ficção científica, Protoframes - essencialmente versões humanas de...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/gta-6-rockstar-legal-dispute-blacklisting-claims"
+      "url": "https://www.eurogamer.net/warframe-jade-shadow-constellations-protoframe-interview"
     },
     {
-      "id": "https://www.eurogamer.net/warframe-jade-shadow-constellations-interview",
-      "title": "Como Warframe está construindo sua busca mais comovente em uma continuação “ninguém previu”",
-      "original_title": "How Warframe is building upon its most heartbreaking quest in a continuation \"no one saw coming\"",
-      "image": "https://assetsio.gnwcdn.com/WF_Jade-Shadows-Constellations-Complete-Collection_MinorKeyart_3840x2160_no-logo.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/valorant-masters-pub-big-john-hackney-london",
+      "title": "Por alguma razão, a Riot Games está criando um ‘pub’ Valorant no leste de Londres, hospedado por um entregador britânico que gosta de gritar “bosh!”",
+      "original_title": "For some reason, Riot Games is creating a Valorant 'pub' in east London hosted by a British takeaway guy who likes to yell \"bosh!\"",
+      "image": "https://assetsio.gnwcdn.com/big-john-valorant-pub.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-17",
-      "summary": "Cerca de dois anos atrás, Warframe recebeu uma deliciosa dose de desgosto na forma de Jade Shadows. O jogo de tiro de ficção científica gratuito da Digital Extremes tem uma história de missões de 'intervalo' - histórias menores que ajudaram a preencher o espaço entre naves maiores...",
+      "date": "2026-06-18",
+      "summary": "Já assistiu a um vídeo do Big John? Ele é um cara grande de Londres que se filma comendo uma comida que provavelmente me deixaria chocado. Assisti a um vídeo em que ele pedia três tortas e duas colheres de purê de batata e um pouco de molho tipo pântano. Comida saudável e adequada, como ele chama...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/warframe-jade-shadow-constellations-interview"
+      "url": "https://www.eurogamer.net/valorant-masters-pub-big-john-hackney-london"
     },
     {
-      "id": "https://www.eurogamer.net/sandisk-ps5-nvme-ssd-optimus-gx-pro-prices",
-      "title": "Os SSDs PlayStation 5 oficialmente licenciados da SanDisk custam mais do que o próprio console – até mesmo um PS5 Pro",
-      "original_title": "SanDisk's officially licensed PlayStation 5 SSDs cost more than the console itself - even a PS5 Pro",
-      "image": "https://assetsio.gnwcdn.com/optimus-gx-pro-850p-promo-shot-1.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/rockstar-grand-theft-auto-6-gta-box-art",
+      "title": "Rockstar revela a arte da caixa de Grand Theft Auto 6, o que é muito bom, suponho, e as datas de pré-encomenda do jogo",
+      "original_title": "Rockstar reveals the Grand Theft Auto 6 box art, which is quite nice I suppose, and pre-order dates for the game",
+      "image": "https://assetsio.gnwcdn.com/gta-6-official-cover-art-wide-1.jpeg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-17",
-      "summary": "A SanDisk lançou hoje o Optimus GX PRO 850P, uma série de SSDs NVMe oficialmente licenciados para PlayStation 5 e PlayStation 5 Pro. Os SSDs, que os usuários podem inserir em seu console para expandir seu armazenamento, também funcionam com PCs. Leia mais...",
+      "date": "2026-06-18",
+      "summary": "A Rockstar Games revelou a arte da caixa de Grand Theft Auto 6, que se parece muito com o que você esperaria, e revelou as datas de pré-encomenda do novo jogo. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/sandisk-ps5-nvme-ssd-optimus-gx-pro-prices"
+      "url": "https://www.eurogamer.net/rockstar-grand-theft-auto-6-gta-box-art"
     },
     {
-      "id": "https://www.eurogamer.net/dualsense-controller-haptics-bluetooth-audio-dsx-beta",
-      "title": "Finalmente, você pode usar todos os recursos do controlador PlayStation DualSense sem fio no PC, mas precisará pagar por isso",
-      "original_title": "Finally you can use all PlayStation DualSense controller features wirelessly on PC, but you will need to pay for it",
-      "image": "https://assetsio.gnwcdn.com/New-Midnight-Black-Collection-%E2%80%93-Reveal-Trailer-_-PS5-0-34-screenshot-(1).png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/gta-5-free-ps5-xbox-series-x-s-upgrade",
+      "title": "Enquanto GTA Online se prepara para outra grande atualização e GTA 6 se aproxima, a Rockstar oferece atualizações gratuitas para GTA 5 no PS5 e Xbox Series S/X",
+      "original_title": "As GTA Online readies for another large update, and GTA 6 approaches, Rockstar offers free upgrades to GTA 5 on PS5 and Xbox Series S/X",
+      "image": "https://assetsio.gnwcdn.com/gta-online-drawn-art-1.jpeg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-17",
-      "summary": "Dane-se o rastreamento de raio e tempos de carregamento mais rápidos: o controlador DualSense é a inovação mais impressionante do PS5. E embora o controlador funcione no PC, a Sony só suporta seu pacote de recursos quando conectado por meio de um cabo. Leia mais...",
+      "date": "2026-06-18",
+      "summary": "Em uma jogada surpresa, a Rockstar Games, desenvolvedora de Grand Theft Auto, está oferecendo aos jogadores de GTA 5 no PS4 ou Xbox One uma atualização gratuita para GTA 5 no PS5 ou Xbox Series X/S. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/dualsense-controller-haptics-bluetooth-audio-dsx-beta"
+      "url": "https://www.eurogamer.net/gta-5-free-ps5-xbox-series-x-s-upgrade"
     },
     {
-      "id": "https://www.eurogamer.net/world-of-warcraft-classic-camelot-datamine",
-      "title": "À medida que a Blizzard continua sua onda de derrubadas de servidores privados, os dataminers podem ter descoberto o que vem por aí para World of Warcraft: Classic",
-      "original_title": "As Blizzard continues its private server takedown spree, dataminers may have uncovered what's next for World of Warcraft: Classic",
-      "image": "https://assetsio.gnwcdn.com/world-of-warcraft-classic-players-think-some-features-are-bugs-1558194864795.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/battlefield-6-season-3-hotfix-deploy-screen-bug",
+      "title": "Battlefield Studios aborda bugs irritantes da 3ª temporada do Battlefield 6, incluindo o misterioso vazio negro, mas muitos problemas permanecem",
+      "original_title": "Battlefield Studios addresses annoying Battlefield 6 Season 3 bugs, including the mysterious black void, but many issues remain",
+      "image": "https://assetsio.gnwcdn.com/battlefield-6-season-3-gameplay-screen-5.jpeg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-17",
-      "summary": "Os dataminers de World of Warcraft podem ter descoberto a próxima grande revelação do Classic WoW – poucos meses antes da BlizzCon, onde um grande anúncio para o jogo foi divulgado. Leia mais...",
+      "date": "2026-06-18",
+      "summary": "Battlefield Studios lançou um novo hotfix para jogadores de Battlefield 6 em PC, PS5 e Xbox Series X/S. O pequeno patch, versão 1.3.2.1, foi lançado na manhã de quarta-feira. Este é o primeiro patch do lado do cliente a chegar em resposta à bagunça do bu...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/world-of-warcraft-classic-camelot-datamine"
+      "url": "https://www.eurogamer.net/battlefield-6-season-3-hotfix-deploy-screen-bug"
     },
     {
-      "id": "https://www.eurogamer.net/housemarque-saros-returnal-sales-fromsoftware-ambitions",
-      "title": "“Este é apenas o começo” – Housemarque responde às vendas mais lentas de Saros em comparação com Returnal e se compara a um dos estúdios mais queridos do mundo",
-      "original_title": "\"This is just the start\" - Housemarque responds to Saros' slower sales versus Returnal's, and compares itself to one of the most beloved studios around",
-      "image": "https://assetsio.gnwcdn.com/Arjun-aiming-a-gun-in-Saros.-He-has-very-nice-facial-hair-and-is-dressed-in-dark-clothing-with-a-gold-pendant-by-his-chest.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/fortnite-gen-ai-vampire-survivors-collaboration-reviewed-epic-poncle",
+      "title": "O estúdio Vampire Survivors, Poncle, está “revisando” sua colaboração Fortnite após o show State of Unreal e o foco da Epic na IA generativa",
+      "original_title": "Vampire Survivors studio Poncle is \"reviewing\" its Fortnite collaboration after the State of Unreal show and Epic's focus on generative AI",
+      "image": "https://assetsio.gnwcdn.com/artwork-for-Vampire-Survivors-on-the-left-showing-a-male-with-yellow-eyes-looking-intently-towards-the-camera-next-to-an-image-of-Peeley-from-Fortnite-on-the-right.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Epic News",
+      "date": "2026-06-18",
+      "summary": "Ontem à noite, durante sua apresentação State of Unreal, a Epic revelou uma série de futuras colaborações do Fortnite com Control Resonant, Sonic Crossworlds Racing, Phantom Blade Zero e os premiados Vampire Survivors. Porém, uma mera questão de h...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/fortnite-gen-ai-vampire-survivors-collaboration-reviewed-epic-poncle"
+    },
+    {
+      "id": "https://www.eurogamer.net/tom-cruise-julia-roberts-halo-master-chief-bungie",
+      "title": "Não, Tom Cruise não era nem de longe o Master Chief de Halo, e Julia Roberts também não estava na série – mas houve uma conversa em uma festa",
+      "original_title": "No, Tom Cruise wasn't nearly Halo's Master Chief, and Julia Roberts wasn't nearly in the series either - but there was this conversation at a party",
+      "image": "https://assetsio.gnwcdn.com/tom-chief-header.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-17",
-      "summary": "A Housemarque é uma equipe com um longo histórico de criação de jogos para um determinado tipo de público. O estúdio finlandês, que começou fazendo títulos arcade menores, cresceu e se tornou um dos mais prestigiados estúdios originais do PlayStation. Mas apesar...",
+      "date": "2026-06-18",
+      "summary": "O superastro de Hollywood Tom Cruise nem de longe dublou o famoso protagonista de Halo, Master Chief, e a superestrela de Hollywood Julia Roberts também não apareceu em Halo. Certa vez, houve uma conversa em uma festa, entre um agente de elenco e o diretor de voz de Halo...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/housemarque-saros-returnal-sales-fromsoftware-ambitions"
+      "url": "https://www.eurogamer.net/tom-cruise-julia-roberts-halo-master-chief-bungie"
     },
     {
-      "id": "https://www.eurogamer.net/death-stranding-live-action-film-violence",
-      "title": "O diretor do filme Death Stranding promete que “não veremos muitas mandíbulas sendo arrancadas” após seu filme sangrento de Robin Hood, enquanto os preparativos para as filmagens do próximo ano continuam",
-      "original_title": "Death Stranding movie director promises we're \"not gonna see a lot of jaws getting ripped off\" after his gory Robin Hood flick, as preparations for next year's filming continue",
-      "image": "https://assetsio.gnwcdn.com/Sam-in-Death-Stranding-fires-a-weapon-at-an-enemy-which-causes-an-explosion-to-go-off.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-06-17",
-      "summary": "Os mais melindrosos podem ter certeza de que a adaptação cinematográfica de ação ao vivo de Death Stranding não terá o mesmo nível de violência dos filmes anteriores do diretor Michael Sarnoski, mas, diz ele, ainda honrará o \"sombrio e árido pós-apocalíptico\" do videogame.",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/death-stranding-live-action-film-violence"
-    },
-    {
-      "id": "https://www.eurogamer.net/stop-killing-games-european-parliament-commission-setback",
-      "title": "Stop Killing Games sofre revés após audiência no Parlamento Europeu - mas nem tudo está perdido",
-      "original_title": "Stop Killing Games suffers setback following European Parliamentary hearing - but all is not lost",
-      "image": "https://assetsio.gnwcdn.com/stop-killing-games-eu-v2.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-06-17",
-      "summary": "A decepção repercute hoje no movimento Stop Killing Games, depois que a Comissão Europeia deu seu veredicto sobre as recentes audiências parlamentares sobre a preservação de jogos online e como a UE pretende ajudar - ou não - o movimento...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/stop-killing-games-european-parliament-commission-setback"
-    },
-    {
-      "id": "https://www.eurogamer.net/luna-abyss-developer-kwalee-labs-layoffs",
-      "title": "Kwalee demite toda a equipe de desenvolvimento de Luna Abyss quando um dos jogos bullet-hell esquecidos deste ano é vítima de um cronograma de lançamento superlotado",
-      "original_title": "Kwalee lays off the entire Luna Abyss development team as one of this year's overlooked bullet-hell games falls victim to an overcrowded release schedule",
-      "image": "https://assetsio.gnwcdn.com/scigwt.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-06-17",
-      "summary": "Maio foi um mês extremamente movimentado para lançamentos de jogos de alto nível, o que pode explicar por que o lançamento de Luna Abyss passou relativamente despercebido no PC e nos consoles da geração atual. É um jogo de tiro de ficção científica que pareceu ter uma crítica muito boa, mas apesar disso...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/luna-abyss-developer-kwalee-labs-layoffs"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1u7v8lr/gamefile_microsoft_had_already_planned_to_shut/",
-      "title": "Arquivo de jogo: A Microsoft já havia planejado encerrar a Ninja Theory quando Senua foi revelado. Eles esperavam que a revelação atraísse investidores.",
-      "original_title": "Gamefile: Microsoft had already planned to shut down Ninja Theory when Senua was revealed. They hoped the reveal would draw investors.",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1u97hjv/nightreign_to_have_made_over_10x_its_production/",
+      "title": "Nightreign terá ganho mais de 10x seu custo de produção e Fromsoft trabalhando em um estilo Shadow of the Colossus.",
+      "original_title": "Nightreign to have made over 10x its production cost and Fromsoft working on a Shadow of the Colossus-like.",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
       "category": "News",
-      "date": "2026-06-17",
-      "summary": "Link para o artigo Mais extraordinário, Ninja Theory até estreou um novo jogo, um terceiro título Hellblade chamado Senua, no Xbox Game Showcase 2026 em 7 de junho.",
+      "date": "2026-06-18",
+      "summary": "Leve-o com um grão de sal 4chan. https://boards.4chan.org/v/thread/741204168 \"The Duskbloods foi desenvolvido por uma equipe muito pequena por muitos anos. O desenvolvimento começou na época do lançamento de Sekiro. O desenvolvimento mudou algumas vezes, os conceitos do ini...",
       "sources": [
         "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1u7v8lr/gamefile_microsoft_had_already_planned_to_shut/"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1u97hjv/nightreign_to_have_made_over_10x_its_production/"
     },
     {
-      "id": "https://www.techpowerup.com/350064/alogic-unveils-fokus-touchscreens-aspekt-touch-27-monitor-and-folio-portable-monitors",
-      "title": "(PR) ALOGIC lança telas sensíveis ao toque FOKUS, monitor Aspekt Touch 27\" e monitores portáteis Folio",
-      "original_title": "(PR) ALOGIC Unveils FOKUS Touchscreens, Aspekt Touch 27\" Monitor, and Folio Portable Monitors",
-      "image": "https://tpucdn.com/img/d8TjYsXcloSA6qeL_thm.jpg",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1u91twm/video_game_translator_on_tumblr_claims_to_have/",
+      "title": "O tradutor de videogame no Tumblr afirma estar trabalhando na tradução do Persona 6 desde antes de janeiro deste ano.",
+      "original_title": "Video Game translator on Tumblr claims to have been working on Persona 6 translation since before January of this year.",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-06-18",
+      "summary": "https://www.tumblr.com/indigozeal/818785974452633600/persona-6-it-descends-upon-us?source=share Alguém mencionou isso no Twitter, então tive que procurar. Parece que realmente está muito mais perto do que as pessoas imaginam. Esperando que realmente seja setembro de 2027....",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1u91twm/video_game_translator_on_tumblr_claims_to_have/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1u8v5ww/paul_tassi_on_the_sony_revenge_reports_against/",
+      "title": "Paul Tassi sobre as reportagens de \"Sony Revenge\" contra a Bungie",
+      "original_title": "Paul Tassi on the \"Sony Revenge\" reports against Bungie",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-06-18",
+      "summary": "Tudo bem, então. Minhas fontes (Bungie, não Sony), sobre o enredo da \"vingança da Sony\": ​ - A impressão é que esta informação relatada \\provavelmente* vem de observadores de funcionários do PlayStation, e não de alguém de alto escalão com conhecimento significativo da mentalidade de liderança.* ​...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1u8v5ww/paul_tassi_on_the_sony_revenge_reports_against/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1u8ycly/my_hero_academia_angry_birds_will_crossover_in/",
+      "title": "My Hero Academia e Angry Birds farão crossover em Sonic Rumble, por meio de imagens datadas",
+      "original_title": "My Hero Academia & Angry Birds will crossover in Sonic Rumble, via datamined images",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-06-18",
+      "summary": "https://xcancel.com/soniccitynet/status/2067468738408878425?s=46 A primeira imagem mostra Sonic apontando ao lado de Deku, e a segunda é Sonic e Amy voando pelo ar ao lado de Red, Bomb, Chuck e um Pig (todos com seus designs de filme), com o...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1u8ycly/my_hero_academia_angry_birds_will_crossover_in/"
+    },
+    {
+      "id": "https://www.techpowerup.com/350082/acemagic-intros-kron-mini-k5-mini-pc-powered-by-intel-wildcat-lake-processor",
+      "title": "AceMagic apresenta Kron Mini K5 Mini PC com processador Intel “Wildcat Lake”",
+      "original_title": "AceMagic Intros Kron Mini K5 Mini PC Powered by Intel \"Wildcat Lake\" Processor",
+      "image": "https://tpucdn.com/img/VUYO9tLTacQrHx7B_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-17",
-      "summary": "ALOGIC, marca global profissional de AV e conectividade, anuncia o lançamento de cinco novos produtos na InfoComm 2026: A linha de telas sensíveis ao toque de parede FOKUS nos tamanhos 43\", 55\" e 65\"; as telas sensíveis ao toque individuais e duplas portáteis Folio para Mac e Windows...",
+      "date": "2026-06-18",
+      "summary": "AceMagic lançou na quarta-feira o Kron Mini K5, um mini PC compacto equipado com processador móvel Intel Core 5 320 “Wildcat Lake”. Este chip apresenta uma configuração de núcleo 2P + 4LPE, com frequência máxima de aumento de núcleo P de 4,60 GHz e 6 MB de cache L3. Ás...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350064/alogic-unveils-fokus-touchscreens-aspekt-touch-27-monitor-and-folio-portable-monitors"
+      "url": "https://www.techpowerup.com/350082/acemagic-intros-kron-mini-k5-mini-pc-powered-by-intel-wildcat-lake-processor"
     },
     {
-      "id": "https://www.techpowerup.com/350061/qualcomm-announces-snapdragon-reality-elite-platform",
-      "title": "(PR) Qualcomm anuncia plataforma Snapdragon Reality Elite",
-      "original_title": "(PR) Qualcomm Announces Snapdragon Reality Elite Platform",
-      "image": "https://tpucdn.com/img/NvlEOxKCcEioENTs_thm.jpg",
+      "id": "https://www.techpowerup.com/350081/amd-ryzen-threadripper-tr6-mustang-peak-arrives-with-zen-6-and-pcie-6-0",
+      "title": "AMD Ryzen Threadripper TR6 “Mustang Peak” chega com “Zen 6” e PCIe 6.0",
+      "original_title": "AMD Ryzen Threadripper TR6 \"Mustang Peak\" Arrives with \"Zen 6\" and PCIe 6.0",
+      "image": "https://tpucdn.com/img/DhJqSO8cNvluxdF4_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-17",
-      "summary": "anunciou hoje na Augmented World Expo a plataforma Snapdragon Reality Elite, projetada para potencializar experiências imersivas de computação espacial com fidelidade visual impressionante e IA profundamente integrada no dispositivo em um espectro de ...",
+      "date": "2026-06-18",
+      "summary": "A AMD, por meio de seu portal de documentação oficial, confirmou a chegada da plataforma Ryzen Threadripper TR6 “Mustang Peak” de próxima geração, junto com alguns detalhes intrigantes sobre a próxima linha de CPUs. Baseado na arquitetura de CPU \"Zen 6\", ...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350061/qualcomm-announces-snapdragon-reality-elite-platform"
+      "url": "https://www.techpowerup.com/350081/amd-ryzen-threadripper-tr6-mustang-peak-arrives-with-zen-6-and-pcie-6-0"
     },
     {
       "id": "https://www.techpowerup.com/349994/a-new-usd-20-e-degree-is-teaching-a-better-way-to-use-claude",
@@ -407,7 +398,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-17",
+      "date": "2026-06-18",
       "summary": "A maioria das pessoas que abre o Claude o trata como uma caixa de pesquisa mais inteligente: faça uma pergunta, copie a resposta e siga em frente. Isso mal arranha o que pode fazer. Este E-Degree Profissional da Claude AI leva você dos bate-papos básicos à construção de fluxos de trabalho reais, e você ...",
       "sources": [
         "TechPowerUp"
@@ -415,49 +406,139 @@
       "url": "https://www.techpowerup.com/349994/a-new-usd-20-e-degree-is-teaching-a-better-way-to-use-claude"
     },
     {
-      "id": "https://www.techpowerup.com/350060/msi-introduces-the-mag-infinite-z-amd-ryzen-9000-performance-in-a-compact-25l-gaming-tower",
-      "title": "(PR) MSI apresenta o MAG Infinite Z: desempenho do AMD Ryzen 9000 em uma torre de jogos compacta de 25L",
-      "original_title": "(PR) MSI Introduces the MAG Infinite Z: AMD Ryzen 9000 Performance in a Compact 25L Gaming Tower",
-      "image": "https://tpucdn.com/img/XYaISONeNC6hn71J_thm.jpg",
+      "id": "https://www.techpowerup.com/350080/amd-quietly-drops-memory-encryption-feature-from-consumer-ryzen-cpus",
+      "title": "AMD descarta silenciosamente recurso de criptografia de memória de CPUs Ryzen de consumo",
+      "original_title": "AMD Quietly Drops Memory Encryption Feature from Consumer Ryzen CPUs",
+      "image": "https://tpucdn.com/img/4TUPEPHS8roelTjT_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-17",
-      "summary": "A MSI, líder mundial em hardware para jogos, apresentou hoje o MAG Infinite Z, um desktop para jogos com tecnologia AMD desenvolvido para jogadores que desejam desempenho forte, resfriamento inteligente e fácil atualização em um design de torre compacto. Apresentando até um AMD Ryzen 7 ...",
+      "date": "2026-06-18",
+      "summary": "De acordo com uma investigação da Ars Technica, a AMD removeu discretamente um recurso de criptografia de memória de seus processadores Ryzen voltados para o consumidor, após anos de inclusão. Esse recurso, conhecido como Transparent Secure Memory Encryption (TSME), é usado para en...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350060/msi-introduces-the-mag-infinite-z-amd-ryzen-9000-performance-in-a-compact-25l-gaming-tower"
+      "url": "https://www.techpowerup.com/350080/amd-quietly-drops-memory-encryption-feature-from-consumer-ryzen-cpus"
     },
     {
-      "id": "https://www.techpowerup.com/350058/biostar-releases-the-new-b850ms-e-motherboard",
-      "title": "(PR) Biostar lança nova placa-mãe B850MS-E",
-      "original_title": "(PR) Biostar Releases the New B850MS-E Motherboard",
-      "image": "https://tpucdn.com/img/tjBxnGEPelXjxV2q_thm.jpg",
+      "id": "https://www.techpowerup.com/350079/sk-hynix-ships-samples-of-12-layer-next-gen-hbm4e",
+      "title": "(PR) SK hynix envia amostras de HBM4E de última geração de 12 camadas",
+      "original_title": "(PR) SK hynix Ships Samples of 12-Layer Next-Gen HBM4E",
+      "image": "https://tpucdn.com/img/E2NGzqlN3rTysBkS_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-17",
-      "summary": "BIOSTAR, fabricante líder de placas-mãe, soluções de computação de ponta, placas-mãe industriais, placas gráficas e dispositivos de armazenamento, tem hoje o prazer de apresentar a placa-mãe B850MS-E, uma moderna plataforma AMD B850 projetada para produção eficiente...",
+      "date": "2026-06-18",
+      "summary": "anunciou hoje que enviou amostras de HBM4E, uma DRAM de próxima geração para IA, para grandes clientes. \"A empresa conseguiu entregar amostras do HBM4E de 12 pilhas dentro do prazo graças ao seu desenvolvimento avançado e produção HBM...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350058/biostar-releases-the-new-b850ms-e-motherboard"
+      "url": "https://www.techpowerup.com/350079/sk-hynix-ships-samples-of-12-layer-next-gen-hbm4e"
     },
     {
-      "id": "https://www.techpowerup.com/350054/msi-launches-maestro-500-wireless-headset",
-      "title": "(PR) MSI lança fone de ouvido sem fio Maestro 500",
-      "original_title": "(PR) MSI Launches Maestro 500 Wireless Headset",
-      "image": "https://tpucdn.com/img/ifTUOKmecfs6ShSW_thm.jpg",
+      "id": "https://www.eurogamer.net/unreal-engine-6-fortnite-skins",
+      "title": "Unreal Engine 6 tem uma ideia nova: você usar suas skins Fortnite em outros jogos Unreal e vice-versa",
+      "original_title": "Unreal Engine 6 has a novel idea: you using your Fortnite skins in other Unreal games and vice versa",
+      "image": "https://assetsio.gnwcdn.com/fortnite-runners-keyart-webheader.jpeg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-06-17",
+      "summary": "A Epic Games detalhou alguns dos recursos de sua próxima geração Unreal Engine - Unreal Engine 6 - e uma das ideias que está testando é a capacidade dos jogadores moverem suas skins Fortnite para outros jogos Unreal Engine e para outros Unreal Engi...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/unreal-engine-6-fortnite-skins"
+    },
+    {
+      "id": "https://www.eurogamer.net/dead-by-daylight-new-steam-player-peak",
+      "title": "10 anos depois, o jogo de terror assimétrico Dead by Daylight estabelece um novo recorde de jogadores simultâneos no Steam, mostrando que o suporte contínuo está definitivamente funcionando",
+      "original_title": "10 years later, asymmetrical horror game Dead by Daylight sets a new concurrent player record on Steam, showing that the ongoing support is definitely working",
+      "image": "https://assetsio.gnwcdn.com/Jason-in-Dead-by-Daylight.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-06-17",
+      "summary": "No fim de semana passado, a Behavior Interactive apresentou uma forte vitrine para Dead by Daylight, provocando grandes revisões visuais e muito mais. Juntamente com a chegada da lenda de sexta-feira 13, Jason Voorhees, as atualizações impulsionaram o jogo de terror online assimétrico...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/dead-by-daylight-new-steam-player-peak"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1u8ihpv/jason_schreier_video_how_things_got_so_bad_at_xbox/",
+      "title": "Jason Schreier (vídeo): Como as coisas ficaram tão ruins no Xbox.",
+      "original_title": "Jason Schreier (video): How things got so bad at Xbox.",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-06-17",
+      "summary": "Link ​ Em seu canal no YouTube, Jason Schreier enviou um vídeo que retrata as lutas e problemas do Xbox desde o lançamento do Xbox One até as recentes demissões. A maior parte do material já é conhecida, mas há algumas coisas novas e interessantes nos bastidores em...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1u8ihpv/jason_schreier_video_how_things_got_so_bad_at_xbox/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1u8jfha/treyarch_have_announced_black_ops_1_2_ports_for/",
+      "title": "Treyarch anunciou portas Black Ops 1 e 2 para PlayStation",
+      "original_title": "Treyarch have announced Black Ops 1 & 2 ports for PlayStation",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-06-17",
+      "summary": "Tweet da Treyarchs confirmando as portas Aparentemente apenas uma porta sem nada feito a eles, gostaria de saber se eles incluem o DLC e quanto custarão? boato anterior enviado por /u/Ok-Confusion-202 [link] [comentários]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1u8jfha/treyarch_have_announced_black_ops_1_2_ports_for/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1u8ijb3/george_broussard_cofounder_of_apogee3d_realms/",
+      "title": "George Broussard (cofundador da Apogee/3D Realms): As demissões começaram na Zenimax",
+      "original_title": "George Broussard (co-founder of Apogee/3D Realms): Layoffs has begun at Zenimax",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-06-17",
+      "summary": "George Broussard, cofundador da 3D-Realms e conhecido por seu trabalho em Duke Nukem 3D e no lendário Duke Nukem Forever, postou esta mensagem em sua conta no Twitter: https://xcancel.com/georgebsocial/status/2067290959218417717#m Ficando sabendo que layo...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1u8ijb3/george_broussard_cofounder_of_apogee3d_realms/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1u8f7cm/paul_tassi_positive_reception_to_d2_final_update/",
+      "title": "Paul Tassi: A recepção positiva à atualização final do D2 não mudou a situação na Bungie",
+      "original_title": "Paul Tassi: Positive reception to D2 final update has not moved the needle at Bungie",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-06-17",
+      "summary": "Em um vídeo recente discutindo os problemas da Bungie, demissões iminentes, fracasso da Maratona, etc. Paul Tassi observou uma conversa que teve com uma de suas fontes na Bungie.  \"Mesmo após esta atualização de bom desempenho, perguntei às minhas fontes se há...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1u8f7cm/paul_tassi_positive_reception_to_d2_final_update/"
+    },
+    {
+      "id": "https://www.techpowerup.com/350075/eu-cannot-propose-a-legal-obligation-to-stop-destroying-videogames",
+      "title": "UE “não pode propor uma obrigação legal” para parar de destruir videogames",
+      "original_title": "EU \"Cannot Propose a Legal Obligation\" To Stop Destroying Videogames",
+      "image": "https://tpucdn.com/img/IrQGQyGYYZ3z5vF0_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-06-17",
-      "summary": "A MSI anuncia hoje o lançamento do Maestro 500 Wireless, um headset versátil projetado para usuários que se movimentam com fluidez entre trabalho, entretenimento, chamadas e audição diária. Apresentando Cancelamento Ativo de Ruído com modo Transparência, 4...",
+      "summary": "O movimento Stop Killing Games e a resultante Iniciativa de Cidadania Europeia Stop Destroying Videogames chegaram ao auge recentemente com uma audiência perante a Comissão Europeia, depois de uma petição em apoio à iniciativa ter recolhido mais de 1,3 milhões...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350054/msi-launches-maestro-500-wireless-headset"
+      "url": "https://www.techpowerup.com/350075/eu-cannot-propose-a-legal-obligation-to-stop-destroying-videogames"
     },
     {
       "id": "https://www.techpowerup.com/349995/windows-11-pro-is-only-usd-10-during-stacksocials-version-of-prime-day",
@@ -475,49 +556,49 @@
       "url": "https://www.techpowerup.com/349995/windows-11-pro-is-only-usd-10-during-stacksocials-version-of-prime-day"
     },
     {
-      "id": "https://www.techpowerup.com/350053/coherent-breaks-ground-on-expanded-texas-facility-scaling-ais-optical-backbone",
-      "title": "(PR) Coherent inova na expansão das instalações do Texas, ampliando a espinha dorsal óptica da IA",
-      "original_title": "(PR) Coherent Breaks Ground on Expanded Texas Facility, Scaling AI's Optical Backbone",
-      "image": "https://tpucdn.com/img/DYEHhqji62J5np5w_thm.jpg",
+      "id": "https://www.techpowerup.com/350071/unreal-engine-5-8-paves-way-for-better-optimization-in-ue6",
+      "title": "Unreal Engine 5.8 abre caminho para melhor otimização no UE6",
+      "original_title": "Unreal Engine 5.8 Paves Way for Better Optimization in UE6",
+      "image": "https://tpucdn.com/img/oNVIGquxDinpi1PB_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-06-17",
-      "summary": "A IA funciona na velocidade da luz. Cada vez mais, essa luz é fabricada no Texas. A Coherent inaugurou hoje a construção de um edifício de produção expandido em Sherman, Texas. A empresa fabrica lasers, componentes ópticos e semicondutores compostos que conectam IA ...",
+      "summary": "O Unreal Engine 5.8 acaba de ser anunciado pela Epic Games como a última grande atualização do Unreal Engine 5 antes do lançamento do Unreal Engine 6. Embora haja uma série de mudanças presentes no UE 5.8, incluindo texturização simplificada e criação de paisagem, um...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350053/coherent-breaks-ground-on-expanded-texas-facility-scaling-ais-optical-backbone"
+      "url": "https://www.techpowerup.com/350071/unreal-engine-5-8-paves-way-for-better-optimization-in-ue6"
     },
     {
-      "id": "https://www.techpowerup.com/350052/adata-xpg-launches-infinity-fans-and-maestro-air-cpu-coolers",
-      "title": "(PR) ADATA XPG lança ventoinhas INFINITY e coolers MAESTRO Air para CPU",
-      "original_title": "(PR) ADATA XPG Launches INFINITY Fans and MAESTRO Air CPU Coolers",
-      "image": "https://tpucdn.com/img/yBClNRNYcEGym4oC_thm.jpg",
+      "id": "https://www.techpowerup.com/350069/pubg-gets-nvidia-ace-ai-teammates-with-high-demands",
+      "title": "PUBG obtém companheiros de equipe NVIDIA Ace AI com altas demandas",
+      "original_title": "PUBG Gets NVIDIA Ace AI Teammates with High Demands",
+      "image": "https://tpucdn.com/img/kD6CjfGK1lDXEdH9_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-06-17",
-      "summary": "À medida que o mercado DIY de PC de 2026 passa por uma mudança estrutural dramática impulsionada pela volatilidade dos preços da memória, os entusiastas globais de hardware estão entrando em uma nova era de “investimento preciso e construção inteligente”. Para ajudar os consumidores a equilibrar perfeitamente o desempenho do sistema principal...",
+      "summary": "Tem havido muita conversa nos últimos meses sobre companheiros de equipe com tecnologia de IA em videogames, com todos, desde NVIDIA até Ubisoft e Take-Two, expressando interesse no recurso. A mesma tecnologia Ace AI que a NVIDIA demonstrou há mais de um ano...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350052/adata-xpg-launches-infinity-fans-and-maestro-air-cpu-coolers"
+      "url": "https://www.techpowerup.com/350069/pubg-gets-nvidia-ace-ai-teammates-with-high-demands"
     },
     {
-      "id": "https://www.techpowerup.com/350051/nvidia-rtx-remix-1-5-update-cuts-file-size-and-brings-smooth-normals",
-      "title": "A atualização NVIDIA RTX Remix 1.5 reduz o tamanho do arquivo e traz normais suaves",
-      "original_title": "NVIDIA RTX Remix 1.5 Update Cuts File Size and Brings Smooth Normals",
-      "image": "https://tpucdn.com/img/gC75aKmXcSpKsOQh_thm.jpg",
+      "id": "https://www.techpowerup.com/350068/destiny-2-soars-to-2-year-high-despite-uncertainty",
+      "title": "Destiny 2 atinge o máximo em 2 anos, apesar da incerteza",
+      "original_title": "Destiny 2 Soars to 2-Year High Despite Uncertainty",
+      "image": "https://tpucdn.com/img/Sz7VLJpNgedNkSJQ_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-06-17",
-      "summary": "A NVIDIA publicou sua última atualização para o framework RTX Remix, com a versão 1.5 trazendo melhorias impressionantes. Como alguns devem se lembrar, o RTX Remix da NVIDIA é uma ferramenta para remasterizar jogos mais antigos para permitir que o mecanismo de jogo suporte melhorias visuais modernas...",
+      "summary": "Até agora, toda a indústria de jogos já lamentou mais ou menos a perda de Destiny 2 de uma forma ou de outra, com o jogo recebendo sua atualização final de conteúdo em 9 de junho e demissões em massa esperadas na Bungie nas próximas semanas. Os fãs de Destiny, no entanto, parecem...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350051/nvidia-rtx-remix-1-5-update-cuts-file-size-and-brings-smooth-normals"
+      "url": "https://www.techpowerup.com/350068/destiny-2-soars-to-2-year-high-despite-uncertainty"
     },
     {
       "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1u7m0tk/discussion_news_and_request_thread_week_beginning/",
@@ -548,111 +629,6 @@
         "r/GamingLeaksAndRumours"
       ],
       "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1u7t6xn/the_2nd_rgamingleaksandrumours_leaker_tier_list/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1u7stdn/bungie_to_suffer_a_50_staff_reduction_due_to/",
-      "title": "Bungie sofrerá redução de 50% no quadro de funcionários devido a demissões",
-      "original_title": "Bungie to suffer a 50% staff reduction due to layoffs",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-06-16",
-      "summary": "De acordo com o mesmo jornalista que tem falado sobre demissões na indústria de jogos nestes dias, a Sony vai demitir cerca de metade do pessoal do estúdio neste verão. A última vez que tivemos uma atualização sobre o número de desenvolvedores no estúdio...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1u7stdn/bungie_to_suffer_a_50_staff_reduction_due_to/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1u7szos/steam_machine_release_dateprice_announcement/",
-      "title": "Data de lançamento da máquina Steam/anúncio de preço possivelmente entre 23 e 30 de junho, revisão do embargo suspensa em 23 de junho, data de anúncio do Steam Frame ambígua",
-      "original_title": "Steam Machine Release Date/Price Announcement possibly between June 23rd and June 30th, Review Embargo lifting June 23rd, Steam Frame announcement date ambiguous",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-06-16",
-      "summary": "A fonte da conta diz que o embargo será suspenso no dia 23, sua especulação é o anúncio de 23 a 30 *https://xcancel.com/HardwareSteam/status/2066339918872535112 -A fonte me disse que o embargo do vídeo foi suspenso em 23 de junho.",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1u7szos/steam_machine_release_dateprice_announcement/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1u7bxx5/bloomberg_studios_are_in_active_negotiations_with/",
-      "title": "[Bloomberg] Os estúdios estão em negociações ativas com o Xbox e podem ter a chance de se tornarem independentes",
-      "original_title": "[Bloomberg] Studios are in active negotiations with Xbox and may be given the chance to go independent",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-06-16",
-      "summary": "https://www.bloomberg.com/news/articles/2026-06-15/studios-in-microsoft-s-xbox-division-brace-for-closures (Estúdios na divisão Xbox da Microsoft Brace for Closures) \"Os estúdios, que incluem Compulsion Games e Double Fine, estão em negociações ativas...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1u7bxx5/bloomberg_studios_are_in_active_negotiations_with/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1u7lot1/the_2026_xenoblade_game_accidentally_leaked_by/",
-      "title": "O “jogo Xenoblade 2026” vazado acidentalmente pela dubladora de KOS-MOS foi “Xenoblade Chronicles 2 - Nintendo Switch 2 Edition”",
-      "original_title": "The \"2026 Xenoblade game\" accidentally leaked by KOS-MOS voice actress was \"Xenoblade Chronicles 2 - Nintendo Switch 2 Edition\"",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Rumor",
-      "date": "2026-06-16",
-      "summary": "Rumor anterior: https://old.reddit.com/r/GamingLeaksAndRumours/comments/1qvb7f9/caitlin_thorburn_just_updated_her_spotlight_page/ O novo NS2E tem um modo com Blades controláveis ​​Descubra um novo Blade raro, completo com uma missão para você enfrentar. D...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1u7lot1/the_2026_xenoblade_game_accidentally_leaked_by/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1u7h00w/playstation_layoffs_were_a_misunderstanding/",
-      "title": "As demissões do PlayStation foram um mal-entendido?",
-      "original_title": "PlayStation layoffs were a misunderstanding?",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-06-16",
-      "summary": "https://xcancel.com/SylvainTrinel/status/2066893237168537690#m O jornalista francês Sylvain responde aos rumores de demissões do PS “isso é uma loucura porque @SylvainTrinel nunca disse nada neste post” “Sim…” enviado por /u/Veltop [link] [comentários]...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1u7h00w/playstation_layoffs_were_a_misunderstanding/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1u78bgd/simon_pulman_on_linkedin_south_of_midnight_and/",
-      "title": "Simon Pulman no Linkedin: “South of Midnight” e “The Outer Worlds 2” custaram cerca de US$ 100 milhões, incluindo produção e marketing",
-      "original_title": "Simon Pulman on Linkedin : “South of Midnight” and “The Outer Worlds 2” both cost around $100 million, including production and marketing",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-06-16",
-      "summary": "Eu vi alguém compartilhar isso. Não sei até que ponto isso é preciso, mas estes são números interessantes dada a situação: https://www.linkedin.com/feed/update/urn:li:activity:7472408267743404032/ Orçamento de desenvolvimento/marketing do South of Midnight: mais de US$ 100 milhões Então...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1u78bgd/simon_pulman_on_linkedin_south_of_midnight_and/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1u7b39n/sea_of_thieves_being_developed_for_switch_2_and/",
-      "title": "Sea of ​​Thieves sendo desenvolvido para Switch 2 e dispositivos Android",
-      "original_title": "Sea of Thieves Being Developed for Switch 2 and Android devices",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-06-16",
-      "summary": "Não posso entrar em muitos detalhes sobre como sei disso. No entanto, posso garantir que isso é exato, tanto quanto é do meu conhecimento. A versão do Android será nativa. Sem transmissão. Controlador recomendado. Nenhuma versão da Apple está planejada atualmente. Mudar 2 vezes...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1u7b39n/sea_of_thieves_being_developed_for_switch_2_and/"
     }
   ]
 }
