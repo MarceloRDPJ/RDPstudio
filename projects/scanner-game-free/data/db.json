@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-06-20T14:03:19",
-  "display_date": "20/06/2026 14:03",
+  "last_updated": "2026-06-21T14:10:05",
+  "display_date": "21/06/2026 14:10",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "211ms",
+    "latency": "86ms",
     "current_games": [
       {
         "title": "Citizen Sleeper",
@@ -83,7 +83,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-06-20",
+      "date": "2026-06-21",
       "summary": "Interpretando as ruínas do capitalismo interplanetário. Viva a vida de um trabalhador fugitivo, levado para uma estação sem lei no limite de uma sociedade interestelar. Inspirado na flexibilidade e liberdade dos TTRPGs, escolha seus amigos, fuja do seu passado e mude o seu futuro.",
       "sources": [
         "Epic Games Store"
@@ -98,7 +98,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-06-20",
+      "date": "2026-06-21",
       "summary": "Mantenha o dedo no gatilho no pulso! No jogo de tiro rítmico ROBOBEAT, você jogará como Ace – um caçador de recompensas em uma missão para capturar Frazzer, o robô desonesto. Corra, deslize e atire na parede no seu próprio ritmo usando o editor de música personalizado do jogo, destruindo os exércitos de Frazzer!",
       "sources": [
         "Epic Games Store"
@@ -113,7 +113,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-06-20",
+      "date": "2026-06-21",
       "summary": "Disponível gratuitamente a partir de 25/06. Construa o parque da sua vida e redescubra o best-seller de simulação de montanha-russa aclamado pela crítica. Sinta a emoção de um clássico que define o gênero, completo com dois enormes pacotes de expansão.",
       "sources": [
         "Epic Games Store"
@@ -128,7 +128,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-06-20",
+      "date": "2026-06-21",
       "summary": "Disponível gratuitamente a partir de 16/07. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
       "sources": [
         "Epic Games Store"
@@ -143,7 +143,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-06-20",
+      "date": "2026-06-21",
       "summary": "Disponível gratuitamente a partir de 16/09. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
@@ -158,7 +158,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-06-20",
+      "date": "2026-06-21",
       "summary": "Disponível gratuitamente a partir de 25/06. Voidwrought é um jogo de plataforma de ação 2D ambientado em um mundo desenhado à mão de horrores cósmicos. Explore as ruínas descongeladas da Primeira Civilização e derrube os deuses que ali habitam. Aumente seus poderes, descubra artefatos antigos e expanda seu santuário em meio aos destroços.",
       "sources": [
         "Epic Games Store"
@@ -173,12 +173,27 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-06-20",
+      "date": "2026-06-21",
       "summary": "Disponível gratuitamente a partir de 16/07. A Coleção de Aniversário de Castlevania da Konami traça as origens da histórica franquia de vampiros. Está incluído um e-book exclusivo com detalhes fornecidos por desenvolvedores, artistas e outros inspirados no legado de Castlevania, que lança uma nova luz sobre o mundo de Castlevania.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/32b3e0adbe0c4399be1874958194f97f"
+    },
+    {
+      "id": "https://www.eurogamer.net/mistbound-guild-wars-card-game-ccg-announce",
+      "title": "Logo após a revelação de Guild Wars 3, a longa série MMO está recebendo seu primeiro CCG em Mistbound",
+      "original_title": "Hot off the Guild Wars 3 reveal, the long-running MMO series is getting its first-ever CCG in Mistbound",
+      "image": "https://assetsio.gnwcdn.com/mistbound-guild-wars-card-game-reveal-intro-splash-11.jpeg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-06-21",
+      "summary": "Guild Wars, a lendária série MMO da ArenaNet, de alguma forma nunca se expandiu para o gênero de jogos de cartas colecionáveis ​​(CCG). Isso mudará em breve, no entanto, já que Mistbound: Guild Wars Card Game acaba de ser revelado. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/mistbound-guild-wars-card-game-ccg-announce"
     },
     {
       "id": "https://www.eurogamer.net/doom-composer-bobby-prince-dies",
@@ -241,6 +256,51 @@
       "url": "https://www.eurogamer.net/what-weve-been-playing-and-no-i-dont-mean-sexy-barry-white-songs"
     },
     {
+      "id": "https://www.techpowerup.com/350146/microsoft-previews-directx-crash-dump-feature-for-game-devs",
+      "title": "Microsoft apresenta recurso DirectX Crash Dump para desenvolvedores de jogos",
+      "original_title": "Microsoft Previews DirectX Crash Dump Feature for Game Devs",
+      "image": "https://tpucdn.com/img/ly6cpeyrxbmma2Bx_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-06-20",
+      "summary": "A Microsoft lançou na sexta-feira um recurso que permite aos desenvolvedores de jogos avaliar melhor as falhas do jogo no nível da API gráfica, com o novo recurso DirectX Dump. Lançado como uma prévia, o recurso requer suporte de fornecedores de GPU na forma de drivers gráficos...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/350146/microsoft-previews-directx-crash-dump-feature-for-game-devs"
+    },
+    {
+      "id": "https://www.techpowerup.com/350144/asrock-intros-b550-rock-wifi-socket-am4-motherboard",
+      "title": "ASRock apresenta placa-mãe B550 Rock WiFi soquete AM4",
+      "original_title": "ASRock Intros B550 Rock WiFi Socket AM4 Motherboard",
+      "image": "https://tpucdn.com/img/FlMdRDVa1YqXIefX_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-06-20",
+      "summary": "O soquete AM4 veio para ficar enquanto a memória DDR4 permanecer acessível, e a AMD ressuscitou o Ryzen 7 5800X3D para restaurar um processador de jogos carro-chefe e caminho de atualização para esta plataforma. Os fornecedores de placas-mãe estão lançando uma nova safra de placas-mãe AM4...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/350144/asrock-intros-b550-rock-wifi-socket-am4-motherboard"
+    },
+    {
+      "id": "https://www.techpowerup.com/349994/a-new-usd-20-e-degree-is-teaching-a-better-way-to-use-claude",
+      "title": "Um novo E-Degree de US$ 20 está ensinando uma maneira melhor de usar Claude",
+      "original_title": "A New $20 E-Degree is Teaching a Better Way to Use Claude",
+      "image": "https://tpucdn.com/img/ekrWXD6rfaLxo3Yw_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-06-20",
+      "summary": "A maioria das pessoas que abre o Claude o trata como uma caixa de pesquisa mais inteligente: faça uma pergunta, copie a resposta e siga em frente. Isso mal arranha o que pode fazer. Este E-Degree Profissional da Claude AI leva você dos bate-papos básicos à construção de fluxos de trabalho reais, e você ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349994/a-new-usd-20-e-degree-is-teaching-a-better-way-to-use-claude"
+    },
+    {
       "id": "https://www.techpowerup.com/350142/amd-to-restore-tsme-memory-encryption-on-consumer-ryzen-processors-after-backlash",
       "title": "AMD restaurará TSME (criptografia de memória) em processadores Ryzen de consumo após reação negativa",
       "original_title": "AMD to Restore TSME (Memory Encryption) on Consumer Ryzen Processors After Backlash",
@@ -271,21 +331,6 @@
       "url": "https://www.techpowerup.com/350136/new-friendslop-game-meccha-chameleon-earns-5-million-sales-in-10-days"
     },
     {
-      "id": "https://www.techpowerup.com/349994/a-new-usd-20-e-degree-is-teaching-a-better-way-to-use-claude",
-      "title": "Um novo E-Degree de US$ 20 está ensinando uma maneira melhor de usar Claude",
-      "original_title": "A New $20 E-Degree is Teaching a Better Way to Use Claude",
-      "image": "https://tpucdn.com/img/ekrWXD6rfaLxo3Yw_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-06-20",
-      "summary": "A maioria das pessoas que abre o Claude o trata como uma caixa de pesquisa mais inteligente: faça uma pergunta, copie a resposta e siga em frente. Isso mal arranha o que pode fazer. Este E-Degree Profissional da Claude AI leva você dos bate-papos básicos à construção de fluxos de trabalho reais, e você ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349994/a-new-usd-20-e-degree-is-teaching-a-better-way-to-use-claude"
-    },
-    {
       "id": "https://www.techpowerup.com/350135/gta-vi-release-date-disappearing-act-sparks-delay-concerns",
       "title": "Ato de desaparecimento da data de lançamento do GTA VI gera preocupações com atrasos",
       "original_title": "GTA VI Release Date Disappearing Act Sparks Delay Concerns",
@@ -299,6 +344,21 @@
         "TechPowerUp"
       ],
       "url": "https://www.techpowerup.com/350135/gta-vi-release-date-disappearing-act-sparks-delay-concerns"
+    },
+    {
+      "id": "https://www.techpowerup.com/349995/windows-11-pro-is-only-usd-10-during-stacksocials-version-of-prime-day",
+      "title": "O Windows 11 Pro custa apenas US $ 10 durante a versão do Prime Day do StackSocial",
+      "original_title": "Windows 11 Pro is Only $10 During StackSocial's Version of Prime Day",
+      "image": "https://tpucdn.com/img/Vta5JMZZuhrLywfQ_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-06-20",
+      "summary": "O suporte do Windows 10 terminou no ano passado, então os PCs que ainda o executam não recebem mais patches de segurança e estão se tornando um alvo mais fácil a cada dia. A mudança para o Windows 11 Pro preenche essa lacuna, e a edição Pro oferece camadas de proteção que o Home deixa de fora. Durante...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/349995/windows-11-pro-is-only-usd-10-during-stacksocials-version-of-prime-day"
     },
     {
       "id": "https://www.techpowerup.com/350134/nvidia-open-source-linux-nvk-driver-gets-experimental-dlss-support",
@@ -406,36 +466,6 @@
       "url": "https://www.eurogamer.net/capcom-pragmata-diana-police"
     },
     {
-      "id": "https://www.eurogamer.net/eurogamer-is-hiring-a-news-editor",
-      "title": "Eurogamer está contratando um editor de notícias",
-      "original_title": "Eurogamer is hiring a News Editor",
-      "image": "https://assetsio.gnwcdn.com/eurogamer-launches-paid-work-experience-programme-for-ethnic-minorities-1616072986126.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-06-19",
-      "summary": "Aqui está um caso bastante raro: a Eurogamer está contratando e estamos atrás do melhor editor de notícias da categoria para ajudar a liderar as reportagens do site em uma nova era. Você pode ler o anúncio de emprego na íntegra aqui. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/eurogamer-is-hiring-a-news-editor"
-    },
-    {
-      "id": "https://www.techpowerup.com/349995/windows-11-pro-is-only-usd-10-during-stacksocials-version-of-prime-day",
-      "title": "O Windows 11 Pro custa apenas US $ 10 durante a versão do Prime Day do StackSocial",
-      "original_title": "Windows 11 Pro is Only $10 During StackSocial's Version of Prime Day",
-      "image": "https://tpucdn.com/img/Vta5JMZZuhrLywfQ_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-06-19",
-      "summary": "O suporte do Windows 10 terminou no ano passado, então os PCs que ainda o executam não recebem mais patches de segurança e estão se tornando um alvo mais fácil a cada dia. A mudança para o Windows 11 Pro preenche essa lacuna, e a edição Pro oferece camadas de proteção que o Home deixa de fora. Durante...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/349995/windows-11-pro-is-only-usd-10-during-stacksocials-version-of-prime-day"
-    },
-    {
       "id": "https://www.techpowerup.com/350128/lm-tek-launches-ek-quantum-reflection-uni-distro-plate-300-d5-with-ek-bypass-valve",
       "title": "(PR) LM TEK Lança EK-Quantum Reflection³ Uni Distro Plate 300 D5 com Válvula Bypass EK",
       "original_title": "(PR) LM TEK Launches EK-Quantum Reflection³ Uni Distro Plate 300 D5 with EK Bypass Valve",
@@ -449,36 +479,6 @@
         "TechPowerUp"
       ],
       "url": "https://www.techpowerup.com/350128/lm-tek-launches-ek-quantum-reflection-uni-distro-plate-300-d5-with-ek-bypass-valve"
-    },
-    {
-      "id": "https://www.techpowerup.com/350124/viewsonic-unveils-vx24g26j-4k-23-8-inch-4k-160-hz-fast-ips-gaming-monitor",
-      "title": "ViewSonic lança monitor de jogos IPS rápido VX24G26J-4K de 23,8 polegadas 4K 160 Hz",
-      "original_title": "ViewSonic Unveils VX24G26J-4K 23.8-Inch 4K 160 Hz Fast IPS Gaming Monitor",
-      "image": "https://tpucdn.com/img/shrEzsVkN1MBuCet_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-06-19",
-      "summary": "ViewSonic lançou um novo monitor de jogos de 23,8 polegadas, o VX24G26J-4K com resolução de 3840 x 2160 (4K). O monitor usa um painel Fast IPS com taxa de atualização nativa de 160 Hz, 1 ms GtG, taxa de contraste de 1.000:1 e brilho de até 400 nits. A combinação...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/350124/viewsonic-unveils-vx24g26j-4k-23-8-inch-4k-160-hz-fast-ips-gaming-monitor"
-    },
-    {
-      "id": "https://www.techpowerup.com/350098/epic-games-store-revamp-promises-up-to-5x-faster-launch-speeds",
-      "title": "A reformulação da Epic Games Store promete velocidades de lançamento até 5x mais rápidas",
-      "original_title": "Epic Games Store Revamp Promises Up to 5x Faster Launch Speeds",
-      "image": "https://tpucdn.com/img/xATHOqEpRd71jDZW_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-06-19",
-      "summary": "A Epic Games tem trabalhado para aprimorar sua Epic Games Store (EGS) para competir melhor com o Steam, e a próxima versão 2 do Epic Games Launcher trará melhorias significativas de desempenho para o aplicativo de desktop. De acordo com o último boato...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/350098/epic-games-store-revamp-promises-up-to-5x-faster-launch-speeds"
     }
   ]
 }
