@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-06-22T16:56:34",
-  "display_date": "22/06/2026 16:56",
+  "last_updated": "2026-06-23T14:48:41",
+  "display_date": "23/06/2026 14:48",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "480ms",
+    "latency": "92ms",
     "current_games": [
       {
         "title": "Citizen Sleeper",
@@ -34,6 +34,15 @@
         "price": "$19.99",
         "start_date": "2026-06-25T15:00:00.000Z",
         "end_date": "2026-07-02T15:00:00.000Z"
+      },
+      {
+        "title": "Eternal Threads",
+        "description": "Eternal Threads é um jogo de quebra-cabeça para um jogador, em primeira pessoa, baseado em uma história de manipulação, escolha e consequência do tempo.",
+        "image": "https://cdn1.epicgames.com/spt-assets/08813e055af64315b8a55b2e521f4e04/eternal-threads-1vm6i.jpg",
+        "url": "https://store.epicgames.com/p/a9152a8924cc4e438f0e61106ec02f7d",
+        "price": "$19.99",
+        "start_date": "2026-07-16T15:00:00.000Z",
+        "end_date": "2026-07-30T15:00:00.000Z"
       },
       {
         "title": "Ghostrunner 2",
@@ -83,7 +92,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "summary": "Interpretando as ruínas do capitalismo interplanetário. Viva a vida de um trabalhador fugitivo, levado para uma estação sem lei no limite de uma sociedade interestelar. Inspirado na flexibilidade e liberdade dos TTRPGs, escolha seus amigos, fuja do seu passado e mude o seu futuro.",
       "sources": [
         "Epic Games Store"
@@ -98,7 +107,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "summary": "Mantenha o dedo no gatilho no pulso! No jogo de tiro rítmico ROBOBEAT, você jogará como Ace – um caçador de recompensas em uma missão para capturar Frazzer, o robô desonesto. Corra, deslize e atire na parede no seu próprio ritmo usando o editor de música personalizado do jogo, destruindo os exércitos de Frazzer!",
       "sources": [
         "Epic Games Store"
@@ -113,12 +122,27 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "summary": "Disponível gratuitamente a partir de 25/06. Construa o parque da sua vida e redescubra o best-seller de simulação de montanha-russa aclamado pela crítica. Sinta a emoção de um clássico que define o gênero, completo com dois enormes pacotes de expansão.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/mainegeneralaudience"
+    },
+    {
+      "id": "https://store.epicgames.com/p/a9152a8924cc4e438f0e61106ec02f7d",
+      "title": "EM BREVE: Eternal Threads",
+      "original_title": "Eternal Threads",
+      "image": "https://cdn1.epicgames.com/spt-assets/08813e055af64315b8a55b2e521f4e04/eternal-threads-1vm6i.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-06-23",
+      "summary": "Disponível gratuitamente a partir de 16/07. Eternal Threads é um jogo de quebra-cabeça para um jogador, em primeira pessoa, baseado em uma história de manipulação, escolha e consequência do tempo.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/a9152a8924cc4e438f0e61106ec02f7d"
     },
     {
       "id": "https://store.epicgames.com/p/ghostrunner-2",
@@ -128,7 +152,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "summary": "Disponível gratuitamente a partir de 16/07. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
       "sources": [
         "Epic Games Store"
@@ -143,7 +167,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "summary": "Disponível gratuitamente a partir de 16/09. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
@@ -158,7 +182,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "summary": "Disponível gratuitamente a partir de 25/06. Voidwrought é um jogo de plataforma de ação 2D ambientado em um mundo desenhado à mão de horrores cósmicos. Explore as ruínas descongeladas da Primeira Civilização e derrube os deuses que ali habitam. Aumente seus poderes, descubra artefatos antigos e expanda seu santuário em meio aos destroços.",
       "sources": [
         "Epic Games Store"
@@ -173,7 +197,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "summary": "Disponível gratuitamente a partir de 16/07. A Coleção de Aniversário de Castlevania da Konami traça as origens da histórica franquia de vampiros. Está incluído um e-book exclusivo com detalhes fornecidos por desenvolvedores, artistas e outros inspirados no legado de Castlevania, que lança uma nova luz sobre o mundo de Castlevania.",
       "sources": [
         "Epic Games Store"
@@ -181,124 +205,259 @@
       "url": "https://store.epicgames.com/p/32b3e0adbe0c4399be1874958194f97f"
     },
     {
-      "id": "https://www.eurogamer.net/ultima-ip-rights-ea-copyright",
-      "title": "O criador de Ultima, Richard Garriott, está planejando reconquistar os direitos de seu lendário RPG da EA com uma peculiaridade de direitos autorais de 50 anos",
-      "original_title": "Ultima's creator Richard Garriott is planning to win back the rights to his legendary RPG from EA with an 50-year-old copyright quirk",
-      "image": "https://assetsio.gnwcdn.com/ultima-9-ascension.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/hideo-kojima-od-xbox-crazy",
+      "title": "O Xbox está publicando o misterioso jogo de terror de Kojima, OD, porque aparentemente ninguém mais o queria – eles não entendiam o conceito",
+      "original_title": "Xbox is publishing Kojima's mysterious horror game OD because apparently no one else wanted it - they didn't understand the concept",
+      "image": "https://assetsio.gnwcdn.com/An-image-from-Hideo-Kojima's-upcoming-game-OD-showing-a-female-with-her-mouth-open-in-a-scream-as-two-large-hand-looking-shapes-clasp-her-face.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-22",
-      "summary": "O designer do Ultima, Richard Garriott (também conhecido como Lord British), tem um plano para reivindicar de volta os direitos de sua lendária série de RPG do atual proprietário, EA. O truque para fazer isso? Uma parte bastante obscura da lei de direitos autorais de cerca de 50 anos atrás. Leia mais...",
+      "date": "2026-06-23",
+      "summary": "Agora que Death Stranding 2: On the Beach foi lançado para PC e também para PS5, o criador Hideo Kojima está voltando sua atenção para seus próximos projetos, que incluem o misterioso jogo de terror para Xbox OD. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/ultima-ip-rights-ea-copyright"
+      "url": "https://www.eurogamer.net/hideo-kojima-od-xbox-crazy"
     },
     {
-      "id": "https://www.eurogamer.net/wallace-and-gromit-studios-long-awaited-stop-motion-pokemon-series-is-heading-to-a-particularly-fitting-region-when-it-releases-next-year",
-      "title": "A tão esperada série Pokémon em stop-motion do estúdio Wallace e Gromit está caminhando para uma região particularmente “adequada” quando for lançada no próximo ano",
-      "original_title": "Wallace and Gromit studio's long-awaited stop-motion Pokémon series is heading to a particularly \"fitting\" region when it releases next year",
-      "image": "https://assetsio.gnwcdn.com/Crop-of-Aardman's-Sirfetchd-and-Pichi-artwork-showing-the-two-Pokemon-together.-Pichu-is-on-the-back-of-Sirfetch'd's-leek-sword.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/tencent-selling-stakes-japanese-studios-marvelous",
+      "title": "Estúdio Monster Hunter Stories Marvelous em apuros enquanto a Tencent supostamente tenta se afastar dos investimentos em estúdios japoneses",
+      "original_title": "Monster Hunter Stories studio Marvelous in trouble as Tencent reportedly seeks to back away from Japanese studio investments",
+      "image": "https://assetsio.gnwcdn.com/monster-hunter-stories-3-header.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-22",
-      "summary": "A Pokémon Company revelou novos detalhes sobre sua próxima série animada, Pokémon Tales: The Misadventures of Sirfetch'd & Pichu. Apresentado inicialmente em 2024, o projeto de animação stop-motion é uma colaboração entre Pokémon e britânicos ...",
+      "date": "2026-06-23",
+      "summary": "O enorme conglomerado multimídia chinês Tencent está supostamente reconsiderando suas participações em vários desenvolvedores japoneses de videogames, incluindo Rune Factory e criador de Monster Hunter Stories, Marvelous. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/wallace-and-gromit-studios-long-awaited-stop-motion-pokemon-series-is-heading-to-a-particularly-fitting-region-when-it-releases-next-year"
+      "url": "https://www.eurogamer.net/tencent-selling-stakes-japanese-studios-marvelous"
     },
     {
-      "id": "https://www.eurogamer.net/warframe-destiny-2-shut-down",
-      "title": "“Ninguém está comemorando” – Warframe desenvolvedores sobre a morte “revolucionária” de Destiny 2 e por que o gênero é mais fraco para isso",
-      "original_title": "\"No one is celebrating\" - Warframe devs on Destiny 2's \"earth-shattering\" death, and why the genre is weaker for it",
-      "image": "https://assetsio.gnwcdn.com/image-(17)_43VnGqa.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/gta-6-pre-order-prices-ps5-xbox-series-xs-analysts",
+      "title": "£80, £90, £100? Quanto custará Grand Theft Auto 6? Perguntamos aos especialistas antes da abertura das pré-encomendas esta semana",
+      "original_title": "£80, £90, £100? How much will Grand Theft Auto 6 cost? We ask the experts ahead of pre-orders opening this week",
+      "image": "https://assetsio.gnwcdn.com/GTA-6-image-showing-to-male-characters-in-Vice-City.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-22",
-      "summary": "Caso você não esteja familiarizado com o espaço dos videogames de ficção científica, um de seus gigantes teve um fim repentino e trágico. Destiny 2 – um rolo compressor do gênero – não receberá mais atualizações de seu desenvolvedor Bungie. Enquanto os fãs voltaram...",
+      "date": "2026-06-23",
+      "summary": "Grand Theft Auto 6 está programado para ser lançado em novembro, com pré-encomendas entrando no ar esta semana, em 25 de junho – uma ocasião anunciada pela Rockstar com um pequeno vídeo revelando a arte da capa de GTA 6. Só esse teaser já registrou 10 milhões de visualizações no YouTube. Para saber...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/warframe-destiny-2-shut-down"
+      "url": "https://www.eurogamer.net/gta-6-pre-order-prices-ps5-xbox-series-xs-analysts"
     },
     {
-      "id": "https://www.eurogamer.net/new-crimson-desert-update-finally-solves-the-case-of-the-missing-outdoor-furniture",
-      "title": "A nova atualização do Crimson Desert finalmente resolve o caso da falta de móveis de exterior",
-      "original_title": "New Crimson Desert update finally solves the case of the missing outdoor furniture",
-      "image": "https://assetsio.gnwcdn.com/Kliff-from-Crimson-Desert-wearing-a-white-shirt.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/god-of-war-laufey-pitched-in-2018",
+      "title": "God of War Laufey não é uma ideia nova, nem o cubo de gelatina falante – Cory Barlog aparentemente estava discutindo isso em 2018",
+      "original_title": "God of War Laufey is not a new idea, nor is the talking jelly cube - Cory Barlog was apparently discussing it back in 2018",
+      "image": "https://assetsio.gnwcdn.com/god-of-war-laufey-reveal-screen-3.jpeg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-22",
-      "summary": "Pearl Abyss lançou outro patch para Crimson Desert, seu popular spin-off de RPG para um jogador do sucesso MMO coreano Black Desert. Leia mais...",
+      "date": "2026-06-23",
+      "summary": "A revelação de God of War Laufey foi uma das maiores da temporada do Summer Game Fest deste ano – e parte de um State of Play recorde. A revelação surpresa gerou muita discussão, mas a maior parte da conversa centrou-se no novo protagonista do jogo,...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/new-crimson-desert-update-finally-solves-the-case-of-the-missing-outdoor-furniture"
+      "url": "https://www.eurogamer.net/god-of-war-laufey-pitched-in-2018"
     },
     {
-      "id": "https://www.eurogamer.net/meccha-chameleon-seven-million-sales",
-      "title": "A mais recente mega-sensação indie é Meccha Chameleon, um jogo artístico de esconde-esconde que vendeu uma quantidade astronômica em apenas duas semanas",
-      "original_title": "The latest indie mega-sensation is Meccha Chameleon, an artsy hide-and-seek game, which has sold an astronomical amount in only two weeks",
-      "image": "https://assetsio.gnwcdn.com/meccha-chameleon.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/senior-ea-exec-laura-miele-thinks-ai-has-led-to-a-real-rise-of-creativity-among-the-publishers-studios",
+      "title": "A executiva sênior da EA, Laura Miele, acha que a IA levou a “um verdadeiro aumento de criatividade” entre os estúdios da editora",
+      "original_title": "Senior EA exec Laura Miele thinks AI has led to \"a real rise of creativity\" among the publisher's studios",
+      "image": "https://assetsio.gnwcdn.com/laura-miele-ea-header.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-22",
-      "summary": "O jogo indie artístico de esconde-esconde Meccha Chameleon deixou de lado sua camuflagem e ganhou destaque, ultrapassando 7 milhões de cópias vendidas desde seu lançamento, há menos de duas semanas. Leia mais...",
+      "date": "2026-06-23",
+      "summary": "À medida que as conversas sobre a crescente prevalência de controversas ferramentas generativas de IA no desenvolvimento de jogos continuam, a presidente de desenvolvimento empresarial da EA, Laura Miele, disse acreditar que a tecnologia levou a um \"aumento real na criatividade\" entre os...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/meccha-chameleon-seven-million-sales"
+      "url": "https://www.eurogamer.net/senior-ea-exec-laura-miele-thinks-ai-has-led-to-a-real-rise-of-creativity-among-the-publishers-studios"
     },
     {
-      "id": "https://www.eurogamer.net/the-last-of-us-2-multiplayer-mod",
-      "title": "The Last of Us Part 2 terá multijogador ainda este ano, mas não da Sony e, infelizmente, também não no PS5",
-      "original_title": "The Last of Us Part 2 will get multiplayer later this year, but not from Sony, and sadly not on PS5 either",
-      "image": "https://assetsio.gnwcdn.com/The-Last-of-Us-Part-2-Abby-Anderson.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/capcom-spotlight-june-2026-dragons-dogma-2-dlc-onimusha",
+      "title": "A Capcom está fazendo um showcase Spotlight esta semana, oferecendo uma visão melhor do novo DLC Dark Arisen de Dragon’s Dogma 2, Onimusha e muito mais",
+      "original_title": "Capcom's doing a Spotlight showcase this week, offering a better look at Dragon's Dogma 2's new Dark Arisen DLC, Onimusha, and more",
+      "image": "https://assetsio.gnwcdn.com/Screenshot-from-Dragon's-Dogma-2's-Dark-Arisen-trailer-showing-a-large-dragon-like-creature-breathing-blue-flames-as-a-hero-with-a-sword-stands-ready.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-22",
-      "summary": "O modo multijogador ganhou vida em The Last of Us Parte 2. Infelizmente, não pela Sony, mas por um modder empreendedor que lançou um novo vídeo mostrando alguns tensos tiroteios um contra um. Leia mais...",
+      "date": "2026-06-23",
+      "summary": "A Capcom anunciou um novo showcase do Spotlight agendado para o final desta semana. Irá ao ar na quinta-feira, 25 de junho, às 22h, horário do Reino Unido (23h CEST / 14h PDT). Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/the-last-of-us-2-multiplayer-mod"
+      "url": "https://www.eurogamer.net/capcom-spotlight-june-2026-dragons-dogma-2-dlc-onimusha"
     },
     {
-      "id": "https://www.techpowerup.com/350185/amd-fsr-upscaling-4-1-officially-released-for-radeon-rx-7000-gpus",
-      "title": "AMD FSR Upscaling 4.1 lançado oficialmente para GPUs Radeon RX 7000",
-      "original_title": "AMD FSR Upscaling 4.1 Officially Released for Radeon RX 7000 GPUs",
-      "image": "https://tpucdn.com/img/ER1nAF3k7uHrCEs2_thm.jpg",
+      "id": "https://www.eurogamer.net/ea-more-layoffs-june-2026",
+      "title": "EA demite mais uma onda de funcionários antes da venda para a Arábia Saudita",
+      "original_title": "EA lays off yet another wave of staff in the run up to sale to Saudi Arabia",
+      "image": "https://assetsio.gnwcdn.com/ea-logo_tMgccMU.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-06-23",
+      "summary": "A EA demitiu um número não especificado de funcionários mais uma vez, em sua terceira onda de cortes de pessoal este ano. Isto ocorre num momento em que a aquisição alavancada da empresa pela Arábia Saudita, no valor de 55 mil milhões de dólares, se aproxima. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/ea-more-layoffs-june-2026"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ud8xdo/bloomberg_tencent_in_talks_to_offload_marvelous/",
+      "title": "Bloomberg: 'Tencent em negociações para descarregar apostas em jogos maravilhosos e outras apostas globais'",
+      "original_title": "Bloomberg: 'Tencent in Talks to Offload Marvelous and Other Global Game Bets'",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-06-23",
+      "summary": "A Tencent está enfrentando uma crise prolongada na indústria de jogos, ao mesmo tempo em que tenta se recuperar na corrida de inteligência artificial de capital intensivo contra seus pares Alibaba Group Holding Ltd.",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ud8xdo/bloomberg_tencent_in_talks_to_offload_marvelous/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1uddp6o/motorsport_manager_2_leaked_by_steamdb/",
+      "title": "Motorsport Manager 2 vazado pelo SteamDB",
+      "original_title": "Motorsport Manager 2 leaked by SteamDB",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Rumor",
+      "date": "2026-06-23",
+      "summary": "No mês passado, um aplicativo Steam foi carregado intitulado “Motorsport Manager 2 Playtest”. Foi descoberto hoje cedo no reddit e parece que Motorsport Manager 2 é o jogo que está sendo provocado pelos desenvolvedores do primeiro jogo no Twitter https://s...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1uddp6o/motorsport_manager_2_leaked_by_steamdb/"
+    },
+    {
+      "id": "https://www.techpowerup.com/350218/asus-acer-resume-notebook-sales-in-germany-after-nokia-patent-dispute",
+      "title": "ASUS e Acer retomam vendas de notebooks na Alemanha após disputa de patente da Nokia",
+      "original_title": "ASUS & Acer Resume Notebook Sales in Germany After Nokia Patent Dispute",
+      "image": "https://tpucdn.com/img/ipo7SwdXM2FUpskn_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-22",
-      "summary": "A AMD lançou oficialmente o modelo FSR Upscaling 4.1 focado em RDNA 3 para a série de placas gráficas Radeon RX 7000. Isto marca o primeiro passo para a implantação da tecnologia FSR 4 em todas as GPUs para jogos RDNA. De acordo com uma postagem no X de Ja da AMD...",
+      "date": "2026-06-23",
+      "summary": "No início deste ano, o Tribunal Regional de Munique proibiu a ASUS e a Acer de venderem diretamente os seus portáteis na Alemanha devido a uma disputa de patente com a Nokia. No entanto, os dois principais OEMs de notebooks chegaram a um acordo com a Nokia que lhes permite vender ...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350185/amd-fsr-upscaling-4-1-officially-released-for-radeon-rx-7000-gpus"
+      "url": "https://www.techpowerup.com/350218/asus-acer-resume-notebook-sales-in-germany-after-nokia-patent-dispute"
     },
     {
-      "id": "https://www.techpowerup.com/350179/micron-and-anthropic-announce-strategic-agreement-to-scale-next-generation-ai-infrastructure",
-      "title": "(PR) Micron e Anthropic anunciam acordo estratégico para dimensionar infraestrutura de IA de próxima geração",
-      "original_title": "(PR) Micron and Anthropic Announce Strategic Agreement to Scale Next-Generation AI Infrastructure",
-      "image": "https://tpucdn.com/img/6w47LC4aQDAd4Npq_thm.jpg",
+      "id": "https://www.techpowerup.com/350181/this-usd-79-lifetime-deal-replaces-your-chatgpt-claude-and-gemini-subscriptions",
+      "title": "Este acordo vitalício de $ 79 substitui suas assinaturas ChatGPT, Claude e Gemini",
+      "original_title": "This $79 Lifetime Deal Replaces Your ChatGPT, Claude, and Gemini Subscriptions",
+      "image": "https://tpucdn.com/img/VKidWGgEn0BDPl9c_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-22",
-      "summary": "(Nasdaq: MU) anunciou hoje um acordo estratégico com a Anthropic que abrange design de arquitetura de IA de memória e armazenamento, oferta e demanda, adoção empresarial de Claude em toda a Micron e um investimento estratégico no S...",
+      "date": "2026-06-23",
+      "summary": "Alternar entre ChatGPT, Claude, Gemini e um punhado de outras ferramentas de IA apenas para chegar a uma resposta sólida significa que você está pagando por recursos sobrepostos várias vezes, facilmente de US$ 60 a US$ 80 por mês, ou centenas por ano. ChatPlayground AI não ...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350179/micron-and-anthropic-announce-strategic-agreement-to-scale-next-generation-ai-infrastructure"
+      "url": "https://www.techpowerup.com/350181/this-usd-79-lifetime-deal-replaces-your-chatgpt-claude-and-gemini-subscriptions"
+    },
+    {
+      "id": "https://www.techpowerup.com/350216/terramaster-launches-the-f4-425-pro-featuring-the-worlds-first-ai-native-nas-os",
+      "title": "(PR) TerraMaster lança o F4-425 Pro apresentando o primeiro NAS OS nativo de IA do mundo",
+      "original_title": "(PR) TerraMaster Launches the F4-425 Pro Featuring the World's First AI-native NAS OS",
+      "image": "https://tpucdn.com/img/VnDa4IoBb6k0sHn7_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-06-23",
+      "summary": "TerraMaster, marca líder global de armazenamento em nuvem privada, anunciou hoje a estreia global de seu mais recente NAS carro-chefe de 4 baias, o F4-425 Pro, agendado para 23 de junho para coincidir com o Amazon Prime Day. Desenvolvido por TOS 7, a primeira ópera nativa de IA do mundo...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/350216/terramaster-launches-the-f4-425-pro-featuring-the-worlds-first-ai-native-nas-os"
+    },
+    {
+      "id": "https://www.techpowerup.com/350205/gigabyte-motherboard-bundles-headline-micro-center-tech-days",
+      "title": "Pacotes de placas-mãe GIGABYTE são destaque no Micro Center Tech Days",
+      "original_title": "GIGABYTE Motherboard Bundles Headline Micro Center Tech Days",
+      "image": "https://tpucdn.com/img/P8niNeBZ5oz1O3uv_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-06-23",
+      "summary": "A GIGABYTE está trazendo grandes economias para o Micro Center Tech Days com uma linha de pacotes de placas-mãe, CPU e RAM projetados para jogadores, criadores e construtores de PC que desejam atualizar seus sistemas. Válida de 23 a 25 de junho, a promoção traz...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/350205/gigabyte-motherboard-bundles-headline-micro-center-tech-days"
+    },
+    {
+      "id": "https://www.techpowerup.com/350215/agon-by-aoc-announces-agon-pro-agp277qkdc-gaming-monitor",
+      "title": "(PR) AGON by AOC Anuncia Monitor Gaming AGON PRO AGP277QKDC",
+      "original_title": "(PR) AGON by AOC Announces AGON PRO AGP277QKDC Gaming Monitor",
+      "image": "https://tpucdn.com/img/sKSQVskWFEkEnaHU_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-06-23",
+      "summary": "AGON by AOC, marca líder mundial de monitores de jogos, anuncia hoje a estreia da série AGON 7 com o lançamento de seu primeiro modelo, o AGON PRO AGP277QKDC. Este monitor de nível profissional de 26,5 polegadas (67,3 cm) é o primeiro a combinar Dual Frame ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/350215/agon-by-aoc-announces-agon-pro-agp277qkdc-gaming-monitor"
+    },
+    {
+      "id": "https://www.techpowerup.com/350214/goodram-introduces-pro-s6b0-sd-card-for-photographers-and-videographers",
+      "title": "(PR) Goodram apresenta cartão SD PRO S6B0 para fotógrafos e cinegrafistas",
+      "original_title": "(PR) Goodram Introduces PRO S6B0 SD Card for Photographers and Videographers",
+      "image": "https://tpucdn.com/img/UNrwv3RHK0NwZpoH_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-06-23",
+      "summary": "Um único quadro perdido pode significar a perda da foto mais forte de uma sessão inteira. Para fotógrafos, videomakers e criadores de conteúdo que trabalham com formatos exigentes, o desempenho do armazenamento não é apenas um detalhe técnico. Isso afeta diretamente o quão suave ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/350214/goodram-introduces-pro-s6b0-sd-card-for-photographers-and-videographers"
+    },
+    {
+      "id": "https://www.techpowerup.com/350204/gigabyte-prime-day-week-deals-bring-big-savings-on-motherboards-and-monitors",
+      "title": "As ofertas da GIGABYTE Prime Day Week trazem grandes economias em placas-mãe e monitores",
+      "original_title": "GIGABYTE Prime Day Week Deals Bring Big Savings on Motherboards and Monitors",
+      "image": "https://tpucdn.com/img/Nmi2L79DkFKYOyZD_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-06-23",
+      "summary": "A GIGABYTE está iniciando a Prime Day Week com uma forte combinação de ofertas de placas-mãe e monitores na Amazon de 23 a 26 de junho. Os fabricantes de PC podem encontrar grandes economias em plataformas AMD, incluindo B550M K, B650 EAGLE AX, B850 AORUS ELITE WIFI7, X...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/350204/gigabyte-prime-day-week-deals-bring-big-savings-on-motherboards-and-monitors"
+    },
+    {
+      "id": "https://www.techpowerup.com/350212/ceva-launches-microsoft-certified-spatial-audio-software-for-pc-gaming-headsets",
+      "title": "(PR) Ceva lança software de áudio espacial certificado pela Microsoft para headsets de jogos para PC",
+      "original_title": "(PR) Ceva Launches Microsoft-Certified Spatial Audio Software for PC Gaming Headsets",
+      "image": "https://tpucdn.com/img/BYrCUQX01FHbjO3N_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-06-23",
+      "summary": "(NASDAQ: CEVA), licenciante líder de silício e IP de software para Smart Edge, anunciou hoje o RealSpace Elevate para Windows, um Windows Audio Processing Object (APO) licenciado e certificado pela Microsoft que permite fones de ouvido para jogos e PC O...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/350212/ceva-launches-microsoft-certified-spatial-audio-software-for-pc-gaming-headsets"
     },
     {
       "id": "https://www.techpowerup.com/350057/acemagic-unveils-mini-pc-sale-get-up-to-20-off-on-amd-ryzen-powered-mini-pcs",
@@ -308,7 +467,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "summary": "A marca de mini PCs e notebooks AceMagic anunciou hoje uma venda relâmpago de dois de seus mais recentes mini PCs com AMD Ryzen na Amazon, aberta de hoje até 30 de junho de 2026. À venda está um AceMagician M1, equipado com processador AMD Ryzen 7 7735HS, 24 GB de LPDDR...",
       "sources": [
         "TechPowerUp"
@@ -316,169 +475,184 @@
       "url": "https://www.techpowerup.com/350057/acemagic-unveils-mini-pc-sale-get-up-to-20-off-on-amd-ryzen-powered-mini-pcs"
     },
     {
-      "id": "https://www.techpowerup.com/350178/microsoft-confirms-windows-11-26h2-update-for-x86-64-pcs",
-      "title": "Microsoft confirma atualização do Windows 11 26H2 para PCs x86-64",
-      "original_title": "Microsoft Confirms Windows 11 26H2 Update for x86-64 PCs",
-      "image": "https://tpucdn.com/img/vGjDEvH6RGNtKLXp_thm.jpg",
+      "id": "https://www.techpowerup.com/350211/samsung-unveils-ufs-5-0-solution-with-data-transfer-speed-of-10-8-gb-s",
+      "title": "(PR) Samsung lança solução UFS 5.0 com velocidade de transferência de dados de 10,8 GB/s",
+      "original_title": "(PR) Samsung Unveils UFS 5.0 Solution with Data Transfer Speed of 10.8 GB/s",
+      "image": "https://tpucdn.com/img/0O2AVlXSBD1Tls2P_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-22",
-      "summary": "A Microsoft confirmou na semana passada a atualização deste ano para o Windows 11, versão 26H2. Esta atualização seria exclusiva para PCs equipados com processadores x86-64 (processadores compatíveis da Intel e AMD); como dispositivos baseados em Qualcomm Snapdragon Elite e NVIDIA...",
+      "date": "2026-06-23",
+      "summary": "A Samsung Electronics, líder mundial em tecnologia de memória avançada, anunciou hoje que, pela primeira vez na indústria, desenvolveu a solução Universal Flash Storage (UFS) 5.0 mais rápida do setor, que ajudará a permitir alta e contínua...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350178/microsoft-confirms-windows-11-26h2-update-for-x86-64-pcs"
+      "url": "https://www.techpowerup.com/350211/samsung-unveils-ufs-5-0-solution-with-data-transfer-speed-of-10-8-gb-s"
     },
     {
-      "id": "https://www.techpowerup.com/350177/gravastar-unveils-mercury-k98-pro-a-cyberpunk-engineered-98-mechanical-keyboard",
-      "title": "(PR) GravaStar lança Mercury K98 Pro: um teclado 98% mecânico com engenharia cyberpunk",
-      "original_title": "(PR) GravaStar Unveils Mercury K98 Pro: A Cyberpunk-Engineered 98% Mechanical Keyboard",
-      "image": "https://tpucdn.com/img/aB7Mx4TnVDWG5rJV_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-06-22",
-      "summary": "GravaStar, marca de design industrial de inspiração cyberpunk conhecida por sua abordagem diferenciada para periféricos de jogos, anunciou hoje o Mercury K98 Pro, um teclado mecânico sem fio 98% de tamanho normal. Projetado para jogadores e criadores que desejam uma experiência completa...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/350177/gravastar-unveils-mercury-k98-pro-a-cyberpunk-engineered-98-mechanical-keyboard"
-    },
-    {
-      "id": "https://www.techpowerup.com/350176/silverstone-expands-flp-series-with-the-flp03-retro-inspired-microatx-chassis",
-      "title": "(PR) SilverStone expande a série FLP com o chassi microATX de inspiração retro FLP03",
-      "original_title": "(PR) SilverStone Expands FLP Series with the FLP03 Retro-Inspired microATX Chassis",
-      "image": "https://tpucdn.com/img/2MLaoutI0rjMUF9z_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-06-22",
-      "summary": "SilverStone apresenta o FLP03 - um chassi microATX de inspiração retro que traz a estética clássica do PC em um formato mais compacto e versátil, combinando detalhes exteriores nostálgicos com suporte para armazenamento moderno, placas gráficas de última geração e ef...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/350176/silverstone-expands-flp-series-with-the-flp03-retro-inspired-microatx-chassis"
-    },
-    {
-      "id": "https://www.techpowerup.com/350180/get-office-2024-and-an-8-course-training-bundle-for-usd-116",
-      "title": "Obtenha o Office 2024 e um pacote de treinamento de 8 cursos por US$ 116",
-      "original_title": "Get Office 2024 and an 8-course Training Bundle for $116",
-      "image": "https://tpucdn.com/img/qZ2BRV8RtNGP2RBk_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-06-22",
-      "summary": "A maioria das pessoas usa o Office todos os dias sem nunca tocar em metade do que ele pode fazer. Por meio do Deal Days do StackSocial, a versão do Prime Day da empresa, este pacote combina o Microsoft Office 2024 Home & Business com um programa de treinamento de 8 cursos desenvolvido para encerrar...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/350180/get-office-2024-and-an-8-course-training-bundle-for-usd-116"
-    },
-    {
-      "id": "https://www.techpowerup.com/350175/dell-introduces-poweredge-xe8812-server-with-nvidia-vera-rubin-nvl4-architecture",
-      "title": "(PR) Dell apresenta servidor PowerEdge XE8812 com arquitetura NVIDIA Vera Rubin NVL4",
-      "original_title": "(PR) Dell Introduces PowerEdge XE8812 Server with NVIDIA Vera Rubin NVL4 Architecture",
-      "image": "https://tpucdn.com/img/Ebzm6UBW8tyXapGk_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-06-22",
-      "summary": "A Dell Technologies (NYSE: DELL) apresenta o servidor Dell PowerEdge XE8812, uma nova adição à Dell AI Factory com NVIDIA, desenvolvido especificamente para as cargas de trabalho de HPC e IA mais exigentes do mundo, com arquitetura NVIDIA Vera Rubin NVL4 e entrega...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/350175/dell-introduces-poweredge-xe8812-server-with-nvidia-vera-rubin-nvl4-architecture"
-    },
-    {
-      "id": "https://www.techpowerup.com/350172/montech-announces-the-tg3-mid-tower-case",
-      "title": "Montech Anuncia o Gabinete Torre Média TG3",
-      "original_title": "Montech Announces the TG3 Mid-Tower Case",
-      "image": "https://tpucdn.com/img/ndk913eTOsZeOyIG_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-06-22",
-      "summary": "A Montech lançou hoje o TG3, um gabinete torre média ATX econômico com canto frontal esquerdo sem pilares. O case possui dois painéis de vidro temperado para compor os painéis esquerdo e frontal. Embora projetado para ser um gabinete particionado horizontalmente, há ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/350172/montech-announces-the-tg3-mid-tower-case"
-    },
-    {
-      "id": "https://www.techpowerup.com/350171/killscreen-launches-the-sfc-1-a-super-famicom-inspired-custom-controller-for-pc-and-ps5",
-      "title": "(PR) Killscreen lança o SFC-1, um controle personalizado inspirado no Super Famicom para PC e PS5",
-      "original_title": "(PR) Killscreen Launches the SFC-1, a Super Famicom-inspired Custom Controller for PC and PS5",
-      "image": "https://tpucdn.com/img/gGPAd0CVrDFNu8gL_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-06-22",
-      "summary": "Killscreen anunciou hoje o lançamento do SFC-1, um novo controlador de desempenho personalizado inspirado no Super Famicom japonês e na era dos jogos de 16 bits. Construído para jogadores de PC e PlayStation 5, SFC-1 traz o estilo visual inconfundível do clássico japonês...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/350171/killscreen-launches-the-sfc-1-a-super-famicom-inspired-custom-controller-for-pc-and-ps5"
-    },
-    {
-      "id": "https://www.eurogamer.net/cd-projekt-red-admits-it-lost-the-faith-of-some-fans-indefinitely",
-      "title": "O co-CEO da CD Projekt Red admite que “indefinidamente” “perdeu a fé” de alguns fãs após Cyberpunk 2077",
-      "original_title": "CD Projekt Red co-CEO admits it \"indefinitely\" \"lost the faith\" of some fans after Cyberpunk 2077",
-      "image": "https://assetsio.gnwcdn.com/cyberpunk-witcher-v-ciri.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/valve-steam-machine-price-availability-reaction",
+      "title": "A Valve diz que o preço da Steam Machine é “significativamente maior” do que o inicialmente previsto, e a quantidade de lançamento é “menos do que queríamos ser capazes de produzir”",
+      "original_title": "Valve says Steam Machine's price is \"significantly more\" than it originally envisaged, and the launch quantity is \"less than we wanted to be able to make\"",
+      "image": "https://assetsio.gnwcdn.com/Steam-Machine-with-a-pound-sign-over-top.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-21",
-      "summary": "O desenvolvedor de Witcher 4, CD Projekt Red, acredita que ainda não completou seu “arco de redenção total” após o desastroso lançamento em 2020 de seu jogo de ação e aventura de mundo aberto, Cyberpunk 2077. Leia mais...",
+      "date": "2026-06-22",
+      "summary": "O preço da Steam Machine é “significativamente maior” do que a Valve gostaria de lançá-la, disse a Valve ao Eurogamer, e também não foi capaz de fabricar tantas unidades do novo PC tipo console quanto gostaria. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/cd-projekt-red-admits-it-lost-the-faith-of-some-fans-indefinitely"
+      "url": "https://www.eurogamer.net/valve-steam-machine-price-availability-reaction"
     },
     {
-      "id": "https://www.eurogamer.net/ubisoft-cofounder-claude-guillemot-dies",
-      "title": "Cofundador da Ubisoft, Claude Guillemot morre em acidente de avião",
-      "original_title": "Ubisoft co-founder Claude Guillemot dies in plane crash",
-      "image": "https://assetsio.gnwcdn.com/ubisoft-logo.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/steam-machine-review",
+      "title": "Análise da Steam Machine – uma curiosidade de jogo totalmente adorável, provavelmente muito específica e definitivamente muito cara",
+      "original_title": "Steam Machine review - an utterly lovable, probably too niche, definitely too expensive gaming curio",
+      "image": "https://assetsio.gnwcdn.com/Steam-Machine-12.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-21",
-      "summary": "O cofundador da Ubisoft, Claude Guillemot, morreu em um acidente de avião. Leia mais...",
+      "date": "2026-06-22",
+      "summary": "O que é a Máquina a Vapor? Devo admitir que passei boa parte do meu tempo tentando resolver essa questão. A Valve dirá a você, como nos disseram, que foi feito essencialmente para as pessoas que desejam trazer seu PC existente ...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/ubisoft-cofounder-claude-guillemot-dies"
+      "url": "https://www.eurogamer.net/steam-machine-review"
     },
     {
-      "id": "https://www.eurogamer.net/mistbound-guild-wars-card-game-ccg-announce",
-      "title": "Logo após a revelação de Guild Wars 3, a longa série MMO está recebendo seu primeiro CCG em Mistbound",
-      "original_title": "Hot off the Guild Wars 3 reveal, the long-running MMO series is getting its first-ever CCG in Mistbound",
-      "image": "https://assetsio.gnwcdn.com/mistbound-guild-wars-card-game-reveal-intro-splash-11.jpeg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/steam-machine-the-big-tech-questions-answered",
+      "title": "Steam Machine: as grandes questões tecnológicas respondidas",
+      "original_title": "Steam Machine: the big tech questions answered",
+      "image": "https://assetsio.gnwcdn.com/Steam-Machine-17.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-21",
-      "summary": "Guild Wars, a lendária série MMO da ArenaNet, de alguma forma nunca se expandiu para o gênero de jogos de cartas colecionáveis ​​(CCG). Isso mudará em breve, no entanto, já que Mistbound: Guild Wars Card Game acaba de ser revelado. Leia mais...",
+      "date": "2026-06-22",
+      "summary": "A Steam Machine finalmente pode ser comprada! E com certeza custa um bom dinheiro, como provavelmente seria de se esperar aqui no ano de nosso senhor e/ou senhor das trevas 2026. Escrevemos uma análise completa da Steam Machine focada no usuário separadamente, graças a você,...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/mistbound-guild-wars-card-game-ccg-announce"
+      "url": "https://www.eurogamer.net/steam-machine-the-big-tech-questions-answered"
     },
     {
-      "id": "https://www.eurogamer.net/doom-composer-bobby-prince-dies",
-      "title": "Compositor da trilha sonora de Doom, Bobby Prince, morre aos 81 anos",
-      "original_title": "Doom soundtrack composer Bobby Prince dies aged 81",
-      "image": "https://assetsio.gnwcdn.com/Screenshot-2026-06-20-at-14.08.02.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ucqhej/steam_machine_starts_at_1049usd/",
+      "title": "Máquina Steam começa em $ 1.049 USD",
+      "original_title": "Steam Machine starts at $1049USD",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
       "category": "News",
+      "date": "2026-06-22",
+      "summary": "https://store.steampowered.com/sub/1629447/ Rumor anterior: https://www.reddit.com/r/GamingLeaksAndRumours/s/f6ogAqjKqq enviado por /u/MarvelousRedditor [link] [comentários]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ucqhej/steam_machine_starts_at_1049usd/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ucw6kd/todd_howard_in_entertainment_weekly_interview/",
+      "title": "Todd Howard, em entrevista semanal de entretenimento, sugere que Blade não foi cancelado (a citação é de 22 de maio. O artigo foi publicado hoje)",
+      "original_title": "Todd Howard in entertainment weekly interview implies that Blade hasn't been cancelled (quote is from May 22nd. Article was published today)",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-06-22",
+      "summary": "https://ew.com/xbox-25th-anniversary-hollywood-adaptations-cover-story-exclusive-12003252 \"Não tenho liberdade para dizer quando [veremos mais]\", mas vi algumas coisas ontem [em 21 de maio] e o pessoal da Arkane está fazendo um trabalho muito, muito bom....",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ucw6kd/todd_howard_in_entertainment_weekly_interview/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ucnnli/keplerl2_denies_ps6_is_getting_delayed_from_2027/",
+      "title": "KeplerL2 nega que o PS6 esteja sendo adiado de 2027",
+      "original_title": "KeplerL2 denies PS6 is getting delayed from 2027",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-06-22",
+      "summary": "Fonte, via Neogaf: https://wccftech.com/playstation-6-delay-fears-overblown-leaker-pushes-back/ ​ Ele respondeu com um gif \"Não\" para alguém perguntando se poderia ser adiado, e gostou de uma postagem de outro usuário argumentando \"Atrasando o console quando ele está bas...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ucnnli/keplerl2_denies_ps6_is_getting_delayed_from_2027/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ucm33k/dusk_golem_resident_evil_veronica_zero_remakes/",
+      "title": "Dusk Golem: “Os remakes de Resident Evil Veronica e Zero serão vinculados ao Requiem”",
+      "original_title": "Dusk Golem: \"Resident Evil Veronica & Zero remakes will tie into Requiem\"",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-06-22",
+      "summary": "https://www.resetera.com/threads/dusk-golem-there-isnt-any-drive-to-do-a-re5-remake-at-capcom.1554202/post-156672862 Ele também explica: \"mas honestamente isso tem muito mais a ver com o fato de eles estarem em desenvolvimento ao mesmo tempo que Requiem do que qualquer mestre ...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ucm33k/dusk_golem_resident_evil_veronica_zero_remakes/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1uctukr/the_studio_behind_mudang_two_hearts_has_gone/",
+      "title": "O estúdio por trás de Mudang: Two Hearts faliu",
+      "original_title": "The studio behind Mudang: Two Hearts has gone bankrupt",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-06-22",
+      "summary": "De acordo com esta postagem no subreddit de jogos: https://www.reddit.com/r/MUDANG\\_TWO\\_HEARTS/s/R7TBAHXulo ​ O EVR STUDIO por trás do jogo faliu. Parece que já está em dificuldades há meses, o que é uma pena. Esse jogo parecia...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1uctukr/the_studio_behind_mudang_two_hearts_has_gone/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1uclooq/rockstar_has_listed_nopixel_v_as_a_title_within/",
+      "title": "A Rockstar listou NoPixel V como um título no backend do Rockstar Games Launcher com a atualização de hoje.",
+      "original_title": "Rockstar has listed NoPixel V as a title within the Rockstar Games Launcher backend with today's update.",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-06-22",
+      "summary": "https://xcancel.com/TexFunz2/status/2068976531464913160?s=20 A Rockstar listou NoPixel V como um título no backend do Rockstar Games Launcher com a atualização de hoje.  https://i.ibb.co/9QvpphW/HLZ7-Fby-Xw-AABK59.png https://i.ibb.co/V01GjD67/HLa-Jp5y...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1uclooq/rockstar_has_listed_nopixel_v_as_a_title_within/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1ub4yv9/are_the_characters_from_paragon_by_epic_games/",
+      "title": "Os personagens da Paragon da Epic Games são considerados de código aberto?",
+      "original_title": "Are the Characters from Paragon by Epic Games considered Open Source?",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Epic News",
       "date": "2026-06-20",
-      "summary": "Robert Prince III – mais conhecido como Bobby Prince, o homem por trás da trilha sonora icônica do jogo Doom original – morreu aos 81 anos.",
+      "summary": "Então, em março de 2018, a Epic Games já havia fechado o Moba Paragon devido ao boom de sua nova batalha real naquela época. No entanto, eles também divulgaram publicamente todos os ativos que criaram para o jogo para qualquer pessoa usar. Você pode ver...",
       "sources": [
-        "Eurogamer"
+        "r/EpicGamesPC"
       ],
-      "url": "https://www.eurogamer.net/doom-composer-bobby-prince-dies"
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1ub4yv9/are_the_characters_from_paragon_by_epic_games/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1ub66f7/concept_reworking_epic_launcher_profiles_and/",
+      "title": "Conceito: reformulando perfis e conquistas do Epic Launcher",
+      "original_title": "Concept: Reworking Epic Launcher Profiles And Achievements",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Epic News",
+      "date": "2026-06-20",
+      "summary": "O Epic Games Launcher é uma bagunça desajeitada e lenta. Não há absolutamente nenhuma razão para levar três segundos inteiros apenas para fazer a transição da guia Loja para minha Biblioteca. Essa coisa nem tem animações visuais básicas, mas ainda leva uma eternidade...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1ub66f7/concept_reworking_epic_launcher_profiles_and/"
     }
   ]
 }
