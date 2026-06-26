@@ -1,31 +1,11 @@
 {
-  "last_updated": "2026-06-25T14:33:00",
-  "display_date": "25/06/2026 14:33",
+  "last_updated": "2026-06-26T14:24:03",
+  "display_date": "26/06/2026 14:24",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "101ms",
+    "latency": "174ms",
     "current_games": [
-      {
-        "title": "Citizen Sleeper",
-        "description": "Interpretando as ruínas do capitalismo interplanetário. Viva a vida de um trabalhador fugitivo, levado para uma estação sem lei no limite de uma sociedade interestelar. Inspirado na flexibilidade e liberdade dos TTRPGs, escolha seus amigos, fuja do seu passado e mude o seu futuro.",
-        "image": "https://cdn1.epicgames.com/spt-assets/919d5976f3804d4cabb8ca90ea43a956/citizen-sleeper-xudwg.jpg",
-        "url": "https://store.epicgames.com/p/da528841e0eb43d8b93fd243c6767b0c",
-        "price": "$19.99",
-        "start_date": "2026-06-18T15:00:00.000Z",
-        "end_date": "2026-06-25T15:00:00.000Z"
-      },
-      {
-        "title": "ROBOBEAT",
-        "description": "Mantenha o dedo no gatilho no pulso! No jogo de tiro rítmico ROBOBEAT, você jogará como Ace – um caçador de recompensas em uma missão para capturar Frazzer, o robô desonesto. Corra, deslize e atire na parede no seu próprio ritmo usando o editor de música personalizado do jogo, destruindo os exércitos de Frazzer!",
-        "image": "https://cdn1.epicgames.com/spt-assets/91105717b53044ed8e384e5fada71db8/robobeat-1ojda.png",
-        "url": "https://store.epicgames.com/p/4ee365fd76704f37ae3dc13676f1ac61",
-        "price": "$19.99",
-        "start_date": "2026-06-18T15:00:00.000Z",
-        "end_date": "2026-06-25T15:00:00.000Z"
-      }
-    ],
-    "upcoming_games": [
       {
         "title": "RollerCoaster Tycoon 3 Complete Edition",
         "description": "Construa o parque da sua vida e redescubra o best-seller de simulação de montanha-russa aclamado pela crítica. Sinta a emoção de um clássico que define o gênero, completo com dois enormes pacotes de expansão.",
@@ -35,6 +15,17 @@
         "start_date": "2026-06-25T15:00:00.000Z",
         "end_date": "2026-07-02T15:00:00.000Z"
       },
+      {
+        "title": "Voidwrought",
+        "description": "Voidwrought é um jogo de plataforma de ação 2D ambientado em um mundo desenhado à mão de horrores cósmicos. Explore as ruínas descongeladas da Primeira Civilização e derrube os deuses que ali habitam. Aumente seus poderes, descubra artefatos antigos e expanda seu santuário em meio aos destroços.",
+        "image": "https://cdn1.epicgames.com/spt-assets/ae3f962fab4d42eba2dbefa4a1e76ff6/voidwrought-bio8j.jpg",
+        "url": "https://store.epicgames.com/p/8d0e69e541454ac7818117af13960b30",
+        "price": "$19.99",
+        "start_date": "2026-06-25T15:00:00.000Z",
+        "end_date": "2026-07-02T15:00:00.000Z"
+      }
+    ],
+    "upcoming_games": [
       {
         "title": "Eternal Threads",
         "description": "Eternal Threads é um jogo de quebra-cabeça para um jogador, em primeira pessoa, baseado em uma história de manipulação, escolha e consequência do tempo.",
@@ -46,7 +37,7 @@
       },
       {
         "title": "Ghostrunner 2",
-        "description": "Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cibernética.",
+        "description": "Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
         "image": "https://cdn1.epicgames.com/offer/708f57aaa04b42ef885be16c8288f0ac/EGS_Ghostrunner2_OneMoreLevel_S1_2560x1440-15845148fae1d0cfd7f3e98c9b3ba6ba",
         "url": "https://store.epicgames.com/p/ghostrunner-2",
         "price": "$39.99",
@@ -61,15 +52,6 @@
         "price": "$24.99",
         "start_date": "2026-09-16T15:00:00.000Z",
         "end_date": "2026-10-01T05:59:00.000Z"
-      },
-      {
-        "title": "Voidwrought",
-        "description": "Voidwrought é um jogo de plataforma de ação 2D ambientado em um mundo desenhado à mão de horrores cósmicos. Explore as ruínas descongeladas da Primeira Civilização e derrube os deuses que ali habitam. Aumente seus poderes, descubra artefatos antigos e expanda seu santuário em meio aos destroços.",
-        "image": "https://cdn1.epicgames.com/spt-assets/ae3f962fab4d42eba2dbefa4a1e76ff6/voidwrought-bio8j.jpg",
-        "url": "https://store.epicgames.com/p/8d0e69e541454ac7818117af13960b30",
-        "price": "$19.99",
-        "start_date": "2026-06-25T15:00:00.000Z",
-        "end_date": "2026-07-02T15:00:00.000Z"
       },
       {
         "title": "Castlevania Anniversary Collection",
@@ -103,49 +85,34 @@
   },
   "items": [
     {
-      "id": "https://store.epicgames.com/p/da528841e0eb43d8b93fd243c6767b0c",
-      "title": "GRÁTIS: Citizen Sleeper",
-      "original_title": "Citizen Sleeper",
-      "image": "https://cdn1.epicgames.com/spt-assets/919d5976f3804d4cabb8ca90ea43a956/citizen-sleeper-xudwg.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Free Games",
-      "date": "2026-06-25",
-      "summary": "Interpretando as ruínas do capitalismo interplanetário. Viva a vida de um trabalhador fugitivo, levado para uma estação sem lei no limite de uma sociedade interestelar. Inspirado na flexibilidade e liberdade dos TTRPGs, escolha seus amigos, fuja do seu passado e mude o seu futuro.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/da528841e0eb43d8b93fd243c6767b0c"
-    },
-    {
-      "id": "https://store.epicgames.com/p/4ee365fd76704f37ae3dc13676f1ac61",
-      "title": "GRÁTIS: ROBOBEAT",
-      "original_title": "ROBOBEAT",
-      "image": "https://cdn1.epicgames.com/spt-assets/91105717b53044ed8e384e5fada71db8/robobeat-1ojda.png",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Free Games",
-      "date": "2026-06-25",
-      "summary": "Mantenha o dedo no gatilho no pulso! No jogo de tiro rítmico ROBOBEAT, você jogará como Ace – um caçador de recompensas em uma missão para capturar Frazzer, o robô desonesto. Corra, deslize e atire na parede no seu próprio ritmo usando o editor de música personalizado do jogo, destruindo os exércitos de Frazzer!",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/4ee365fd76704f37ae3dc13676f1ac61"
-    },
-    {
       "id": "https://store.epicgames.com/p/mainegeneralaudience",
-      "title": "EM BREVE: RollerCoaster Tycoon 3 Complete Edition",
+      "title": "GRÁTIS: RollerCoaster Tycoon 3 Complete Edition",
       "original_title": "RollerCoaster Tycoon 3 Complete Edition",
       "image": "https://cdn1.epicgames.com/f01b3e0178d448f0b93911e292d8e614/offer/EGS_RollerCoasterTycoon3CompleteEdition_FrontierDevelopments_S5-1920x1080-689d96ca4d5a4e8de183b7a928960c87.jpg",
       "source_count": 1,
       "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-06-25",
-      "summary": "Disponível gratuitamente a partir de 25/06. Construa o parque da sua vida e redescubra o best-seller de simulação de montanha-russa aclamado pela crítica. Sinta a emoção de um clássico que define o gênero, completo com dois enormes pacotes de expansão.",
+      "category": "Free Games",
+      "date": "2026-06-26",
+      "summary": "Construa o parque da sua vida e redescubra o best-seller de simulação de montanha-russa aclamado pela crítica. Sinta a emoção de um clássico que define o gênero, completo com dois enormes pacotes de expansão.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/mainegeneralaudience"
+    },
+    {
+      "id": "https://store.epicgames.com/p/8d0e69e541454ac7818117af13960b30",
+      "title": "GRÁTIS: Voidwrought",
+      "original_title": "Voidwrought",
+      "image": "https://cdn1.epicgames.com/spt-assets/ae3f962fab4d42eba2dbefa4a1e76ff6/voidwrought-bio8j.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Free Games",
+      "date": "2026-06-26",
+      "summary": "Voidwrought é um jogo de plataforma de ação 2D ambientado em um mundo desenhado à mão de horrores cósmicos. Explore as ruínas descongeladas da Primeira Civilização e derrube os deuses que ali habitam. Aumente seus poderes, descubra artefatos antigos e expanda seu santuário em meio aos destroços.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/8d0e69e541454ac7818117af13960b30"
     },
     {
       "id": "https://store.epicgames.com/p/a9152a8924cc4e438f0e61106ec02f7d",
@@ -155,7 +122,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-06-25",
+      "date": "2026-06-26",
       "summary": "Disponível gratuitamente a partir de 16/07. Eternal Threads é um jogo de quebra-cabeça para um jogador, em primeira pessoa, baseado em uma história de manipulação, escolha e consequência do tempo.",
       "sources": [
         "Epic Games Store"
@@ -170,8 +137,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-06-25",
-      "summary": "Disponível gratuitamente a partir de 16/07. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cibernética.",
+      "date": "2026-06-26",
+      "summary": "Disponível gratuitamente a partir de 16/07. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
       "sources": [
         "Epic Games Store"
       ],
@@ -185,27 +152,12 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-06-25",
+      "date": "2026-06-26",
       "summary": "Disponível gratuitamente a partir de 16/09. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/lisa-the-definitive-edition"
-    },
-    {
-      "id": "https://store.epicgames.com/p/8d0e69e541454ac7818117af13960b30",
-      "title": "EM BREVE: Voidwrought",
-      "original_title": "Voidwrought",
-      "image": "https://cdn1.epicgames.com/spt-assets/ae3f962fab4d42eba2dbefa4a1e76ff6/voidwrought-bio8j.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-06-25",
-      "summary": "Disponível gratuitamente a partir de 25/06. Voidwrought é um jogo de plataforma de ação 2D ambientado em um mundo desenhado à mão de horrores cósmicos. Explore as ruínas descongeladas da Primeira Civilização e derrube os deuses que ali habitam. Aumente seus poderes, descubra artefatos antigos e expanda seu santuário em meio aos destroços.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/8d0e69e541454ac7818117af13960b30"
     },
     {
       "id": "https://store.epicgames.com/p/32b3e0adbe0c4399be1874958194f97f",
@@ -215,7 +167,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-06-25",
+      "date": "2026-06-26",
       "summary": "Disponível gratuitamente a partir de 16/07. A Coleção de Aniversário de Castlevania da Konami traça as origens da histórica franquia de vampiros. Está incluído um e-book exclusivo com detalhes fornecidos por desenvolvedores, artistas e outros inspirados no legado de Castlevania, que lança uma nova luz sobre o mundo de Castlevania.",
       "sources": [
         "Epic Games Store"
@@ -230,7 +182,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-06-25",
+      "date": "2026-06-26",
       "summary": "Disponível gratuitamente a partir de 02/07. Uma aventura de ficção científica em pixel art ambientada em meio a uma rebelião contra um regime totalitário, LUNARK é uma versão moderna do gênero de plataformas cinematográficas 2D dos anos 90. Corra, pule, pendure-se, escale, role e atire em locais lindos e misteriosos!",
       "sources": [
         "Epic Games Store"
@@ -245,7 +197,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-06-25",
+      "date": "2026-06-26",
       "summary": "Disponível gratuitamente a partir de 02/07. O Allied Mastercomputer destruiu toda a humanidade, exceto cinco pessoas, que as manteve vivas e as torturou durante os últimos cento e nove anos, projetando aventuras virtuais baseadas em seus medos e fraquezas.",
       "sources": [
         "Epic Games Store"
@@ -253,169 +205,169 @@
       "url": "https://store.epicgames.com/p/0937dc8ff7874fb8897a678d8a27c9ac"
     },
     {
-      "id": "https://www.eurogamer.net/xbox-layoffs-compulsion-games-south-of-midnight",
-      "title": "Em meio a relatos de que o Xbox está se preparando para demissões significativas, uma onda de funcionários da Compulsion Games, desenvolvedora de South of Midnight, anuncia sua saída",
-      "original_title": "Amid reports Xbox is preparing for significant layoffs, a wave of staff at South of Midnight developer Compulsion Games announce their departure",
-      "image": "https://assetsio.gnwcdn.com/hazel-south-of-midnight.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/phoebe-bridgers-lost-boys-runescape-music-video",
+      "title": "OldSchool RuneScape aparece no videoclipe de Lost Boys de Phoebe Bridger",
+      "original_title": "OldSchool RuneScape shows up in Phoebe Bridger's Lost Boys music video",
+      "image": "https://assetsio.gnwcdn.com/phoebe-bridgers-runescape.png?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-25",
-      "summary": "Pelo menos uma dúzia de pessoas deixaram o premiado desenvolvedor South of Midnight, Compulsion Games, esta semana, após relatos de que o Xbox está planejando uma grande reestruturação que pode resultar em demissões “significativas” e fechamentos de estúdios. Leia mais...",
+      "date": "2026-06-26",
+      "summary": "A sensação pop Phoebe Bridgers lançou um novo videoclipe para seu último single, Lost Boys. Ele apresenta uma música adorável, mas o mais importante é que apresenta o Old School RuneScape - e é a primeira vez que o Old School RuneScape aparece em um formato tão grande...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/xbox-layoffs-compulsion-games-south-of-midnight"
+      "url": "https://www.eurogamer.net/phoebe-bridgers-lost-boys-runescape-music-video"
     },
     {
-      "id": "https://www.eurogamer.net/grand-theft-auto-6-physical-no-disc-experts",
-      "title": "Vazamentos, controle de preços, sem vendas de segunda mão: por que as edições físicas de Grand Theft Auto 6 não vêm com disco, segundo especialistas",
-      "original_title": "Leaks, price control, no second-hand sales: why Grand Theft Auto 6 physical editions won't come with a disc, according to experts",
-      "image": "https://assetsio.gnwcdn.com/ULTIMATE_EDITION_SQUALO_01.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Rumor",
-      "date": "2026-06-25",
-      "summary": "O principal ponto de discussão desta semana em torno dos anúncios de pré-encomenda de Grand Theft Auto 6 - e detalhes do preço do jogo e das diversas versões - foi inegavelmente a caixa do jogo e o que está dentro dela. Ou melhor, o que não está dentro dele. Porque...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/grand-theft-auto-6-physical-no-disc-experts"
-    },
-    {
-      "id": "https://www.eurogamer.net/gta-6-exciting-but-we-need-to-talk-about-game-owenership-fast",
-      "title": "Poucas coisas me entusiasmam tanto quanto esses grandes momentos do GTA 6, mas precisamos conversar sobre propriedade de jogos digitais – e rápido",
-      "original_title": "Few things get me excited like these big GTA 6 moments, but we need to talk about digital game ownership - and fast",
-      "image": "https://assetsio.gnwcdn.com/VINTAGE_VICE_CITY_PACK_EXCLUSIVE_LOOKS_03.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/stim-machine-knock-off--steam-machine-on",
+      "title": "As imitações da Steam Machine começam quando a Stim Machine tenta oferecer uma máquina mais poderosa com o mesmo preço e formato",
+      "original_title": "The Steam Machine knock-offs begin as Stim Machine attempts to offer a more powerful machine at the same price and shape",
+      "image": "https://assetsio.gnwcdn.com/stim-machine-promo-art-1.jpeg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-25",
-      "summary": "O mais importante para mim sempre foi aquele do Sabre Turbo. Parado numa encruzilhada, preto com um brilho impossível, como uma mancha de óleo no asfalto, reflexos iridescentes. Um idiota em um carro esporte vermelho na frente, a cidade ao redor, montanhas ao longe...",
+      "date": "2026-06-26",
+      "summary": "O lançamento da Steam Machine nos deu oficialmente a primeira tentativa de imitação. O atrevido Stim Machine vem de um varejista de hardware francês e está visando o mini-PC da Valve de algumas maneiras importantes. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/gta-6-exciting-but-we-need-to-talk-about-game-owenership-fast"
+      "url": "https://www.eurogamer.net/stim-machine-knock-off--steam-machine-on"
     },
     {
-      "id": "https://www.eurogamer.net/destiny-dating-sim-bungie-pitched",
-      "title": "Acredite ou não, uma vez houve um impulso para um simulador de namoro Destiny na Bungie, e ele tinha uma apresentação adequada e tudo mais",
-      "original_title": "Believe it or not, there was a push for a Destiny dating sim at Bungie once, and it had a proper pitch deck and everything",
-      "image": "https://assetsio.gnwcdn.com/destiny-romance.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/grand-theft-auto-6-gta-social-network",
+      "title": "GTA 6 mira no TikTok com uma nova rede social onde aparentemente poderemos seguir influenciadores, conseguir missões paralelas e quem sabe ficar famosos?",
+      "original_title": "GTA 6 takes aim at TikTok with a new social network where we'll apparently be able to follow influencers, get side missions, and maybe get famous?",
+      "image": "https://assetsio.gnwcdn.com/gta-6-social-network.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-25",
-      "summary": "Há uma linha do tempo em algum lugar onde um simulador de namoro de Destiny poderia ter sido lançado. Isso é de acordo com dois ex-funcionários da Bungie que se lembram de ter lançado essa ideia internamente na empresa. A ex-gerente de comunidade Liana Ruppert foi a primeira a compartilhar o...",
+      "date": "2026-06-26",
+      "summary": "Grand Theft Auto 6 aparentemente apresenta uma nova rede social no jogo onde poderemos assistir a vídeos e seguir influências para descobrir missões secundárias “secretas”, o que faz parecer que a Rockstar está apontando seu canhão satírico para TikTok e Instagram...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/destiny-dating-sim-bungie-pitched"
+      "url": "https://www.eurogamer.net/grand-theft-auto-6-gta-social-network"
     },
     {
-      "id": "https://www.eurogamer.net/sega-sonic-arg-ai-model-training-data",
-      "title": "SEGA enfrenta reação quando Sonic the Hedgehog ARG sorrateiramente pede consentimento para treinar gen-AI em seus dados",
-      "original_title": "SEGA faces backlash as Sonic the Hedgehog ARG sneakily asks for consent to train gen-AI on your data",
-      "image": "https://assetsio.gnwcdn.com/theres-a-sonic-the-hedgehog-30th-anniversary-livestream-this-thursday-1621968180892.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/battlefield-6-season-3-gunplay-update",
+      "title": "Battlefield 6 está alterando seu tiroteio de longo alcance para se parecer mais com Battlefield 4",
+      "original_title": "Battlefield 6 is altering its long-range gunplay to feel more like Battlefield 4",
+      "image": "https://assetsio.gnwcdn.com/battlefield-6-season-3-gameplay-screen-1.jpeg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-25",
-      "summary": "A Sega está enfrentando uma reação negativa depois que um recente jogo de realidade alternativa Sonic the Hedgehog – uma espécie de campanha de marketing que acontece online – revelou estar treinando modelos de IA com base nos dados dos participantes. Leia mais...",
+      "date": "2026-06-26",
+      "summary": "Como prometido, Battlefield Studios detalhou como o tiroteio do Battlefield 6 está sendo revisado, e acontece que o desenvolvedor quer que ele pareça mais próximo do Battlefield 4. As mudanças propostas chegarão em 30 de junho com a atualização final da temporada...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/sega-sonic-arg-ai-model-training-data"
+      "url": "https://www.eurogamer.net/battlefield-6-season-3-gunplay-update"
     },
     {
-      "id": "https://www.eurogamer.net/steam-machine-linux-steamos-anti-cheat-unplayable-games-list",
-      "title": "Há uma quantidade surpreendente de jogos importantes que você não pode jogar na Steam Machine da Valve – aqui estão oito dos maiores e por quê",
-      "original_title": "There's a surprising amount of major games you can't play on Valve's Steam Machine - here are eight of the biggest, and why",
-      "image": "https://assetsio.gnwcdn.com/steam-machine-major-games-you-cant-play-1.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/grand-theft-auto-6-console-shortage-holiday",
+      "title": "A demanda por Grand Theft Auto 6 pode ser tão alta que “provavelmente superará a oferta” nesta temporada de férias, alerta um varejista de videogames",
+      "original_title": "Grand Theft Auto 6 demand may be so high it will \"likely outstrip supply\" this holiday season, a video game retailer warns",
+      "image": "https://assetsio.gnwcdn.com/grand-theft-auto-6-character-4k-wallpaper-uhdpaper.com-269%401%40n.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-25",
-      "summary": "A Steam Machine pode ser um dos lançamentos de hardware mais emocionantes deste ano, mas dependendo dos tipos de jogos que você joga, ela pode não substituir seu console ou PC existente ainda. Isso ocorre simplesmente porque ele não será capaz de reproduzir alguns dos...",
+      "date": "2026-06-26",
+      "summary": "Os grandes varejistas podem não ter o estoque de consoles necessário para suportar a nova onda de demanda nesta temporada de férias, graças ao lançamento de Grand Theft Auto 6, afirma-se. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/steam-machine-linux-steamos-anti-cheat-unplayable-games-list"
+      "url": "https://www.eurogamer.net/grand-theft-auto-6-console-shortage-holiday"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1uf4ydw/gta_6_physical_disc_coming_during_following/",
-      "title": "Disco físico do GTA 6 chegando “durante os próximos meses” por e-mail do suporte da Rockstar",
-      "original_title": "GTA 6 physical disc coming \"during following months\" per e-mail from Rockstar support",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-06-25",
-      "summary": "https://ibb.co/XfyhL3q1 Editar: recebi este e-mail de um grupo do Facebook, alguém perguntou ao suporte da Rockstar sobre quando as cópias físicas do disco estarão disponíveis para compra, vocês podem estar certos ao dizer que é um mal-entendido enviado por /u/Mostuu [link] [co...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1uf4ydw/gta_6_physical_disc_coming_during_following/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ufbhb6/bungie_confirm_layoffs/",
-      "title": "Bungie confirma demissões.",
-      "original_title": "Bungie confirm layoffs.",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-06-25",
-      "summary": "https://bsky.app/profile/bungie.net/post/3mp4mq5cnq224 Boato anterior: https://www.reddit.com/r/GamingLeaksAndRumours/s/YJgROHjhts enviado por /u/ThinWhiteDuke00 [link] [comentários]...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ufbhb6/bungie_confirm_layoffs/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1uexzae/xbox_game_studios_compulsion_games_south_of/",
-      "title": "Xbox Game Studios Compulsion Games (desenvolvedores de South of Midnight) atingidos por demissões",
-      "original_title": "Xbox Game Studios Compulsion Games (South of Midnight developers) hit with layoffs",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-06-25",
-      "summary": "https://xcancel.com/mr_rebs_/status/2069959570877812839?s=46&t=hc5NrTRIWu5hhJBvuuWS9g RebsGaming: \"Estou triste em informar que as demissões do Xbox começaram. A Compulsion Games (desenvolvedores de South of Midnight) foi atingida por demissões em massa. #Xbox As demissões do Xbox começaram...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1uexzae/xbox_game_studios_compulsion_games_south_of/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1uf4rxz/ppepl_reports_gta_vi_physical_disc_edition_is/",
-      "title": "PPE.pl informa que a edição do disco físico do GTA VI está planejada para dezembro",
-      "original_title": "PPE.pl reports GTA VI physical disc edition is planned for December",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-06-25",
-      "summary": "De acordo com o canal polonês PPE.pl e o insider Graczdari, cópias físicas de Grand Theft Auto VI que incluem um disco estão planejadas para chegar em dezembro. A mesma fonte afirmou anteriormente que GTA VI não receberia um lançamento físico em d...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1uf4rxz/ppepl_reports_gta_vi_physical_disc_edition_is/"
-    },
-    {
-      "id": "https://www.techpowerup.com/350288/ayaneo-launches-pocket-micro-2-horizontal-retro-handheld-on-friday-june-26",
-      "title": "(PR) Ayaneo lança Pocket Micro 2 Horizontal Retro Handheld na sexta-feira, 26 de junho",
-      "original_title": "(PR) Ayaneo Launches Pocket Micro 2 Horizontal Retro Handheld on Friday, June 26",
-      "image": "https://tpucdn.com/img/0TGVBcTqBWSptLRz_thm.jpg",
+      "id": "https://www.techpowerup.com/350328/yunzii-launches-c98-mao-cake-kitten-wireless-mechanical-keyboard",
+      "title": "(PR) Yunzii lança teclado mecânico sem fio C98 MAO Cake Kitten",
+      "original_title": "(PR) Yunzii Launches C98 MAO Cake Kitten Wireless Mechanical Keyboard",
+      "image": "https://tpucdn.com/img/FeBorFCe69x5PfIy_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-25",
-      "summary": "Os dispositivos portáteis retrô sempre ocuparam um lugar especial nos corações dos entusiastas de jogos – um símbolo duradouro de nostalgia e paixão. À medida que a onda de jogos retro continua a crescer, Ayaneo mais uma vez traz o design clássico e a evolução moderna para um novo equilíbrio...",
+      "date": "2026-06-26",
+      "summary": "O amado YUNZII C98 está agora disponível em uma nova edição MAO Keycap! O adorável design inspirado em gatos foi levado para o próximo nível com teclas MAO de formato exclusivo e detalhes transparentes em forma de orelha de gato que brilham lindamente com luz RGB...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350288/ayaneo-launches-pocket-micro-2-horizontal-retro-handheld-on-friday-june-26"
+      "url": "https://www.techpowerup.com/350328/yunzii-launches-c98-mao-cake-kitten-wireless-mechanical-keyboard"
+    },
+    {
+      "id": "https://www.techpowerup.com/350326/memory-price-hikes-will-become-a-new-norm-claims-lenovo",
+      "title": "Aumentos no preço da memória se tornarão uma nova norma, afirma Lenovo",
+      "original_title": "Memory Price Hikes Will Become a New Norm, Claims Lenovo",
+      "image": "https://tpucdn.com/img/VjOq6FCTbciX9bAR_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-06-26",
+      "summary": "Um quadro muito sombrio está sendo pintado no espaço dos PCs de consumo, já que a Lenovo afirma agora que os aumentos no preço da memória se tornarão a nova norma. De acordo com o último relatório do Wall Street News China, a Lenovo afirmou no ISC 2026 que a trajetória ascendente...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/350326/memory-price-hikes-will-become-a-new-norm-claims-lenovo"
+    },
+    {
+      "id": "https://www.techpowerup.com/350057/acemagic-unveils-mini-pc-sale-get-up-to-20-off-on-amd-ryzen-powered-mini-pcs",
+      "title": "AceMagic lança venda de mini PCs: ganhe até 20% de desconto em mini PCs com AMD Ryzen",
+      "original_title": "AceMagic Unveils Mini PC Sale: Get Up to 20% Off on AMD Ryzen-powered Mini PCs",
+      "image": "https://tpucdn.com/img/wRPjbVd3LLZYjhjY_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-06-26",
+      "summary": "A marca de mini PCs e notebooks AceMagic anunciou hoje uma venda relâmpago de dois de seus mais recentes mini PCs com AMD Ryzen na Amazon, aberta de hoje até 30 de junho de 2026. À venda está um AceMagician M1, equipado com processador AMD Ryzen 7 7735HS, 24 GB de LPDDR...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/350057/acemagic-unveils-mini-pc-sale-get-up-to-20-off-on-amd-ryzen-powered-mini-pcs"
+    },
+    {
+      "id": "https://www.techpowerup.com/350325/microsoft-extends-windows-10-security-updates-to-2027",
+      "title": "Microsoft estende atualizações de segurança do Windows 10 até 2027",
+      "original_title": "Microsoft Extends Windows 10 Security Updates to 2027",
+      "image": "https://tpucdn.com/img/fh1KgPdSPbcceXem_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-06-26",
+      "summary": "A Microsoft confirmou que oferecerá atualizações de segurança estendidas (ESUs) para o sistema operacional Windows 10 até o final de 2027. Especificamente, as ESUs cobrirão o Windows 10 até 12 de outubro de 2027, após o qual a Microsoft deixará de fornecer atualizações de segurança...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/350325/microsoft-extends-windows-10-security-updates-to-2027"
+    },
+    {
+      "id": "https://www.techpowerup.com/350307/apple-to-skip-m6-pro-and-m6-max-jumps-to-m7-series",
+      "title": "Apple pulará M6 Pro e M6 Max, saltando para a série M7",
+      "original_title": "Apple to Skip M6 Pro and M6 Max, Jumps to M7 Series",
+      "image": "https://tpucdn.com/img/hNjm45xPzrEW9TFH_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-06-26",
+      "summary": "A Apple supostamente cancelou seus processadores M6 Pro e M6 Max, de acordo com uma nota recente de Mark Gurman, membro da Apple da Bloomberg. Nos bastidores, há uma mudança significativa na estratégia de lançamento de silício da Apple. A empresa está adiando o...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/350307/apple-to-skip-m6-pro-and-m6-max-jumps-to-m7-series"
+    },
+    {
+      "id": "https://www.techpowerup.com/350204/gigabyte-prime-day-week-deals-bring-big-savings-on-motherboards-and-monitors",
+      "title": "As ofertas da GIGABYTE Prime Day Week trazem grandes economias em placas-mãe e monitores",
+      "original_title": "GIGABYTE Prime Day Week Deals Bring Big Savings on Motherboards and Monitors",
+      "image": "https://tpucdn.com/img/Nmi2L79DkFKYOyZD_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-06-26",
+      "summary": "A GIGABYTE está iniciando a Prime Day Week com uma forte combinação de ofertas de placas-mãe e monitores na Amazon de 23 a 26 de junho. Os fabricantes de PC podem encontrar grandes economias em plataformas AMD, incluindo B550M K, B650 EAGLE AX, B850 AORUS ELITE WIFI7, X...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/350204/gigabyte-prime-day-week-deals-bring-big-savings-on-motherboards-and-monitors"
     },
     {
       "id": "https://www.techpowerup.com/350190/gigabyte-fantastech-deals-deliver-motherboard-bundles-and-monitor-discounts-on-newegg",
@@ -425,7 +377,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-25",
+      "date": "2026-06-26",
       "summary": "A promoção Newegg Fantastech da GIGABYTE traz uma linha focada de ofertas de placas-mãe e monitores de 22 a 28 de junho. Para atualizações de tela, o GS27QCA cai para US$ 139,99, enquanto o monitor de jogos OLED MO27Q28G SA está disponível por US$ 454,99, dando...",
       "sources": [
         "TechPowerUp"
@@ -433,259 +385,124 @@
       "url": "https://www.techpowerup.com/350190/gigabyte-fantastech-deals-deliver-motherboard-bundles-and-monitor-discounts-on-newegg"
     },
     {
-      "id": "https://www.techpowerup.com/350287/owc-launches-new-atlas-core-line-with-256gb-cfexpress-4-0-type-b-memory-card",
-      "title": "(PR) OWC lança nova linha Atlas Core com cartão de memória CFExpress 4.0 Tipo B de 256GB",
-      "original_title": "(PR) OWC Launches New Atlas Core Line with 256GB CFExpress 4.0 Type B Memory Card",
-      "image": "https://tpucdn.com/img/GnpwfLbQRvUNrJKY_thm.jpg",
+      "id": "https://www.techpowerup.com/350320/amds-fsr-4-1-performance-on-rdna-3-notably-slower-than-fsr-3-1",
+      "title": "Desempenho FSR 4.1 da AMD em RDNA 3 notavelmente mais lento que FSR 3.1",
+      "original_title": "AMD's FSR 4.1 Performance on RDNA 3 Notably Slower than FSR 3.1",
+      "image": "https://tpucdn.com/img/vaDcVJ3B2SVOyMvG_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-25",
-      "summary": "A Other World Computing (OWC), líder confiável em armazenamento de alto desempenho, memória, conectividade, software e acessórios que capacitam profissionais criativos e de negócios a maximizar o desempenho, aumentar a confiabilidade e simplificar os fluxos de trabalho, hoje...",
+      "date": "2026-06-26",
+      "summary": "A AMD lançou recentemente o FSR 4.1 para suas GPUs RDNA 3, que demonstrou um prático aumento de desempenho em relação à renderização nativa em RDNA 3, mas uma comparação recente feita pela empresa alemã ComputerBase revelou que há regressões de desempenho perceptíveis...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350287/owc-launches-new-atlas-core-line-with-256gb-cfexpress-4-0-type-b-memory-card"
+      "url": "https://www.techpowerup.com/350320/amds-fsr-4-1-performance-on-rdna-3-notably-slower-than-fsr-3-1"
     },
     {
-      "id": "https://www.techpowerup.com/350180/get-office-2024-and-an-8-course-training-bundle-for-usd-116",
-      "title": "Obtenha o Office 2024 e um pacote de treinamento de 8 cursos por US$ 116",
-      "original_title": "Get Office 2024 and an 8-course Training Bundle for $116",
-      "image": "https://tpucdn.com/img/qZ2BRV8RtNGP2RBk_thm.jpg",
+      "id": "https://www.techpowerup.com/350317/ergohaven-debuts-k-04-split-ergonomic-mechanical-keyboard-with-modular-design",
+      "title": "Ergohaven lança teclado mecânico ergonômico dividido K:04 com design modular",
+      "original_title": "Ergohaven Debuts K:04 Split Ergonomic Mechanical Keyboard with Modular Design",
+      "image": "https://tpucdn.com/img/TYxp3CD1FoAD5I83_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-25",
-      "summary": "A maioria das pessoas usa o Office todos os dias sem nunca tocar em metade do que ele pode fazer. Por meio do Deal Days do StackSocial, a versão do Prime Day da empresa, este pacote combina o Microsoft Office 2024 Home & Business com um programa de treinamento de 8 cursos desenvolvido para encerrar...",
+      "date": "2026-06-26",
+      "summary": "A Ergohaven anunciou o K:04, um novo teclado mecânico ergonômico dividido com um design modular adaptável que permite aos usuários adicionar módulos de navegação para expandir a funcionalidade do teclado além da simples digitação. O K:04 foi projetado em torno do ergon...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350180/get-office-2024-and-an-8-course-training-bundle-for-usd-116"
+      "url": "https://www.techpowerup.com/350317/ergohaven-debuts-k-04-split-ergonomic-mechanical-keyboard-with-modular-design"
     },
     {
-      "id": "https://www.techpowerup.com/350285/aaeons-release-of-the-epic-pth9-puts-a-spotlight-on-industrial-ai",
-      "title": "(PR) O lançamento do EPIC-PTH9 pela AAEON destaca a IA industrial",
-      "original_title": "(PR) AAEON's Release of the EPIC-PTH9 Puts a Spotlight on Industrial AI",
-      "image": "https://tpucdn.com/img/yJ7EcUuVpvvLLgHO_thm.jpg",
+      "id": "https://www.techpowerup.com/350316/epic-games-ceo-calls-steam-ai-disclosure-irresponsible",
+      "title": "O CEO da Epic Games chama a divulgação da Steam AI de “irresponsável”",
+      "original_title": "Epic Games CEO Calls Steam AI Disclosure \"Irresponsible\"",
+      "image": "https://tpucdn.com/img/h3piK5pXrZon5fqj_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-25",
-      "summary": "O fornecedor líder do setor de soluções embarcadas AAEON (código de estoque: 6579) anunciou hoje o lançamento do EPIC-PTH9, um computador industrial de placa única de 4\" com processadores Intel Core Ultra Series 3 (anteriormente Panther Lake), expansão PCIe Gen 5 x8, um...",
+      "date": "2026-06-26",
+      "summary": "O CEO da Epic Games, Tim Sweeney, tem uma reputação por suas opiniões acirradas sobre a indústria de jogos e já falou sobre os benefícios percebidos da IA ​​​​nos jogos e sobre suas críticas aos seus detratores. Agora, o executivo ampliou seu pr...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350285/aaeons-release-of-the-epic-pth9-puts-a-spotlight-on-industrial-ai"
+      "url": "https://www.techpowerup.com/350316/epic-games-ceo-calls-steam-ai-disclosure-irresponsible"
     },
     {
-      "id": "https://www.techpowerup.com/350284/silverstone-launches-alta-t1-premium-aluminum-unibody-super-tower-chassis",
-      "title": "SilverStone lança chassi supertorre monobloco de alumínio ALTA T1 Premium",
-      "original_title": "SilverStone Launches ALTA T1 Premium Aluminum Unibody Super Tower Chassis",
-      "image": "https://tpucdn.com/img/lHORtod6NodSOYFr_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-06-25",
-      "summary": "A SilverStone lançou hoje o ALTA T1, um gabinete supertorre HPTX premium com chassi monobloco de alumínio com painéis de alumínio anodizado. A caixa é feita de chapa de alumínio com 4,3-8 mm de espessura. Destina-se a PCs ou estações de trabalho do segmento entusiasta...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/350284/silverstone-launches-alta-t1-premium-aluminum-unibody-super-tower-chassis"
-    },
-    {
-      "id": "https://www.techpowerup.com/350181/this-usd-79-lifetime-deal-replaces-your-chatgpt-claude-and-gemini-subscriptions",
-      "title": "Este acordo vitalício de $ 79 substitui suas assinaturas ChatGPT, Claude e Gemini",
-      "original_title": "This $79 Lifetime Deal Replaces Your ChatGPT, Claude, and Gemini Subscriptions",
-      "image": "https://tpucdn.com/img/VKidWGgEn0BDPl9c_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-06-25",
-      "summary": "Alternar entre ChatGPT, Claude, Gemini e um punhado de outras ferramentas de IA apenas para chegar a uma resposta sólida significa que você está pagando por recursos sobrepostos várias vezes, facilmente de US$ 60 a US$ 80 por mês, ou centenas por ano. ChatPlayground AI não ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/350181/this-usd-79-lifetime-deal-replaces-your-chatgpt-claude-and-gemini-subscriptions"
-    },
-    {
-      "id": "https://www.techpowerup.com/350281/qualcomm-hbc-gen-1-achieves-133-tb-s-bandwidth-by-stacking-lpddr-memory",
-      "title": "Qualcomm HBC Gen 1 atinge largura de banda de 133 TB/s empilhando memória LPDDR",
-      "original_title": "Qualcomm HBC Gen 1 Achieves 133 TB/s Bandwidth by Stacking LPDDR Memory",
-      "image": "https://tpucdn.com/img/5th06UXfAdO6ZJ7w_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-06-25",
-      "summary": "Ontem, a Qualcomm anunciou seu produto High Bandwidth Compute (HBC), uma solução híbrida de memória-computação projetada para substituir a tradicional High Bandwidth Memory (HBM) e oferecer maior desempenho, eficiência e rendimento. HBC utiliza memória LPDDR,...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/350281/qualcomm-hbc-gen-1-achieves-133-tb-s-bandwidth-by-stacking-lpddr-memory"
-    },
-    {
-      "id": "https://www.techpowerup.com/350280/amd-fsr-sdk-v2-3-arrives-with-ray-regeneration-1-2-and-fsr-4-1-1-for-rdna-3",
-      "title": "AMD FSR SDK v2.3 chega com Ray Regeneration 1.2 e FSR 4.1.1 para RDNA 3",
-      "original_title": "AMD FSR SDK v2.3 Arrives with Ray Regeneration 1.2 and FSR 4.1.1 for RDNA 3",
-      "image": "https://tpucdn.com/img/KmfsRGD8muDHhEpc_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-06-25",
-      "summary": "A AMD lançou seu mais recente Kit de Desenvolvimento de Software (SDK) versão 2.3, trazendo atualizações para várias tecnologias de aprendizado de máquina baseadas em DLL AMD FSR Redstone. Segundo a AMD, a mudança mais significativa em relação ao FSR SDK 2.2, lançado em março, é um...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/350280/amd-fsr-sdk-v2-3-arrives-with-ray-regeneration-1-2-and-fsr-4-1-1-for-rdna-3"
-    },
-    {
-      "id": "https://www.techpowerup.com/350278/asus-and-mewc-turn-global-landmarks-into-excel-esports-battlegrounds",
-      "title": "(PR) ASUS e MEWC transformam marcos globais em campos de batalha do Excel Esports",
-      "original_title": "(PR) ASUS and MEWC Turn Global Landmarks into Excel Esports Battlegrounds",
-      "image": "https://tpucdn.com/img/SnC3vexI5hmcQ8y0_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-06-25",
-      "summary": "A ASUS e a MEWC anunciaram hoje o Landmark Battle, um evento especial de Excel Esports que combina competição de planilhas de alta pressão com desafios inspirados em marcos globais notáveis. A transmissão ao vivo acontecerá no dia 10 de julho, às 17h (horário de Londres), no...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/350278/asus-and-mewc-turn-global-landmarks-into-excel-esports-battlegrounds"
-    },
-    {
-      "id": "https://www.eurogamer.net/sony-ps5-playstation-store-stricter-guidelines-shovelware-games",
-      "title": "A Sony aparentemente está aplicando “diretrizes mais rígidas” na PlayStation Store para remover os montes de jogos de shovelware do PS5 que se acumulam lá",
-      "original_title": "Sony seemingly enforcing \"stricter guidelines\" on PlayStation Store to remove the mounds of PS5 shovelware games accumulating there",
-      "image": "https://assetsio.gnwcdn.com/cat-pipes-thumbnail-1.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/xbox-major-price-increases",
+      "title": "O Xbox Series X/S está obtendo um grande aumento de preço, já que a Microsoft se torna a mais recente empresa a culpar o aumento vertiginoso de RAM e custos de armazenamento",
+      "original_title": "Xbox Series X/S is getting a major price increase, as Microsoft becomes the latest company to blame skyrocketing RAM and storage costs",
+      "image": "https://assetsio.gnwcdn.com/xbox-price-increase-header.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-24",
-      "summary": "A Sony parece estar implementando regras “mais rígidas” para o lançamento de jogos na PlayStation Store, em um esforço para reduzir a quantidade de shovelware – jogos de baixo esforço – que aparecem lá. Leia mais...",
+      "date": "2026-06-25",
+      "summary": "A Microsoft anunciou aumentos de preços significativos de US$ 100 ou mais para seus consoles Xbox Series X/S, culpando os custos crescentes de memória e armazenamento pela mudança. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/sony-ps5-playstation-store-stricter-guidelines-shovelware-games"
+      "url": "https://www.eurogamer.net/xbox-major-price-increases"
     },
     {
-      "id": "https://www.eurogamer.net/marathon-pve-mode-community-reaction",
-      "title": "O novo modo PvE do Marathon reacenderá o interesse em torno do jogo fracassado? A reação da comunidade até agora parece positiva",
-      "original_title": "Will Marathon's new PvE mode reignite interest around the fizzling game? Community reaction so far seems positive",
-      "image": "https://assetsio.gnwcdn.com/marathon-cryo-archive-gunfight.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/marvels-wolverine-disc-in-box-gta-6",
+      "title": "O Wolverine da Marvel virá com um disco na caixa, garante a Insomniac aos jogadores, já que a abordagem do código de download do GTA 6 causa repercussões em toda a indústria",
+      "original_title": "Marvel's Wolverine will come with a disc in the box, Insomniac assures players as GTA 6's download code approach sends ripples around the industry",
+      "image": "https://assetsio.gnwcdn.com/wolverine-disc.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-24",
-      "summary": "A Bungie revelou detalhes de seu próximo modo Maratona PvE, que permitirá aos jogadores explorar o mapa final do Cryo Archive sem a ameaça de outros jogadores. Em vez disso, eles enfrentarão inimigos controlados por computador. Em suma, a resposta do ...",
+      "date": "2026-06-25",
+      "summary": "A Insomniac Games garantiu aos fãs que não se preocupassem: ao contrário do iminente GTA 6, a edição física do Wolverine da Marvel virá com um disco quando for lançado exclusivamente para PlayStation 5 em 15 de setembro. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/marathon-pve-mode-community-reaction"
+      "url": "https://www.eurogamer.net/marvels-wolverine-disc-in-box-gta-6"
     },
     {
-      "id": "https://www.eurogamer.net/grand-theft-auto-6-ps5-features",
-      "title": "A Sony quer que você saiba que GTA 6 “funcionará melhor no PS5”, e aqui está o porquê",
-      "original_title": "Sony wants you to know GTA 6 \"will play best on PS5\", and here's why",
-      "image": "https://assetsio.gnwcdn.com/ULTIMATE_EDITION_02.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/bungie-sony-layoffs-destiny-2-marathon",
+      "title": "Sony e Bungie demitiram “a maior parte” da equipe de Destiny 2, bem como alguns da Marathon",
+      "original_title": "Sony and Bungie lay off \"most\" of the Destiny 2 team as well as some from Marathon",
+      "image": "https://assetsio.gnwcdn.com/destiny-2-cayde-6-dead.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-24",
-      "summary": "A Sony lançou uma postagem no blog detalhando os recursos do PlayStation 5 que funcionarão com Grand Theft Auto 6, e afirma que o jogo “jogará melhor” no PS5. Leia mais...",
+      "date": "2026-06-25",
+      "summary": "Atualização - 9h, 26 de julho - Novos detalhes surgiram sobre as demissões da Bungie. \n Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/grand-theft-auto-6-ps5-features"
+      "url": "https://www.eurogamer.net/bungie-sony-layoffs-destiny-2-marathon"
     },
     {
-      "id": "https://www.eurogamer.net/star-fox-review",
-      "title": "Crítica da Star Fox",
-      "original_title": "Star Fox review",
-      "image": "https://assetsio.gnwcdn.com/star-fox-review-header.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/gta-6-physical-disc-in-december-insider-claims",
+      "title": "Uma edição física adequada de Grand Theft Auto 6 chegará antes do final do ano, afirma uma fonte",
+      "original_title": "A proper physical edition of Grand Theft Auto 6 will arrive before the year's end, insider claims",
+      "image": "https://assetsio.gnwcdn.com/ULTIMATE_EDITION_SARAS_SALON_03.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-06-24",
-      "summary": "Recentemente terminei de ler o excelente Super Nintendo de Keza MacDonald, um livro amplamente comemorativo sobre a empresa que “ajudou o mundo a se divertir”, que, no entanto, soa com uma nota de cautela compreensível em sua conclusão. O autor está preocupado...",
+      "date": "2026-06-25",
+      "summary": "A mesma fonte que afirmou em fevereiro que Grand Theft Auto 6 não seria lançado com uma versão física - o que acabou sendo quase correto - afirmou agora que uma edição física adequada com um disco será lançada em dezembro. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/star-fox-review"
+      "url": "https://www.eurogamer.net/gta-6-physical-disc-in-december-insider-claims"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ueqd9b/exxbox_workers_describe_a_recurring_pattern_of/",
-      "title": "Ex-funcionários do Xbox descrevem um “padrão recorrente de retaliação” contra funcionários que registram reclamações no RH",
-      "original_title": "Ex-Xbox workers describe a “recurring pattern of retaliation” towards employees who file complaints with HR",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "id": "https://www.eurogamer.net/gta-6-online-retail-country-code-in-box-limitation",
+      "title": "Os varejistas online estão afirmando que os códigos PS5 GTA 6 só podem ser reproduzidos no país onde foram comprados",
+      "original_title": "Online retailers are stating that PS5 GTA 6 codes can only be played in the country they're bought",
+      "image": "https://assetsio.gnwcdn.com/ULTIMATE_EDITION_ELECTRIC_FANG_03.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
-      "reliability": "Medium",
+      "reliability": "High",
       "category": "News",
-      "date": "2026-06-24",
-      "summary": "https://www.gamedeveloper.com/business/former-xbox-employees-warn-of-potential-for-retaliation-in-rumored-impending-layoffs > Na última semana, o Game Developer conversou com quatro ex-funcionários do Xbox que descreveram um padrão recorrente: após empurrar...",
+      "date": "2026-06-25",
+      "summary": "As pré-encomendas de Grand Theft Auto 6 foram oficialmente lançadas em muitas partes do mundo e, embora muitos jogadores façam suas encomendas nas lojas PlayStation e Xbox, muitos outros farão pedidos na Amazon e em varejistas online. Leia mais...",
       "sources": [
-        "r/GamingLeaksAndRumours"
+        "Eurogamer"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ueqd9b/exxbox_workers_describe_a_recurring_pattern_of/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ueqm9j/natethehate_says_gta_vis_november_release_may/",
-      "title": "NateTheHate diz que o lançamento do GTA VI em novembro pode ter afetado o momento da atualização RDR2 PS5",
-      "original_title": "NateTheHate says GTA VI’s November release may have affected the timing of the RDR2 PS5 update",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-06-24",
-      "summary": "Respondendo a perguntas sobre a atualização, Nate disse: “Ou os planos mudaram quando GTA6 manteve seu lançamento para novembro. O jogo pode ficar pronto e ser lançado sempre que a Rockstar precisar/quiser.” “Se o GTA fosse adiado, o RDR2 poderia ter sido usado para suavizar...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ueqm9j/natethehate_says_gta_vis_november_release_may/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ueaaqq/grand_theft_auto_vi_prices_officially_announced/",
-      "title": "Preços de Grand Theft Auto VI anunciados oficialmente: $ 79,99 para Standard, $ 99,99 para Ultimate Edition; Nenhum disco em cópias físicas",
-      "original_title": "Grand Theft Auto VI Prices Officially Announced: $79.99 for Standard, $99.99 for Ultimate Edition; No Disc in Physical Copies",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-06-24",
-      "summary": "https://www.take2games.com/ir/news/rockstar-games-announces-pre-orders-grand-theft-auto-vi \"Lançamento em 19 de novembro de 2026, para os sistemas de entretenimento de computador PlayStation® 5 e jogos e sistemas de entretenimento Xbox Series X|S por US$ 79,99, Grand Theft...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ueaaqq/grand_theft_auto_vi_prices_officially_announced/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ueg664/jason_schreier_i_wouldnt_be_surprised_if_god_of/",
-      "title": "Jason Schreier: “Eu não ficaria surpreso se God of War Laufey fosse anunciado para fevereiro ou março de 2027 em breve.”",
-      "original_title": "Jason Schreier: \"I wouldn't be surprised if God of War Laufey gets announced for February or March 2027 pretty soon.\"",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-06-24",
-      "summary": "https://www.youtube.com/watch?v=48JxW_-UN4M&t=427s Timestamp às 7:07 enviado por /u/Capn_C [link] [comentários]...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ueg664/jason_schreier_i_wouldnt_be_surprised_if_god_of/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1udsvum/discussion_news_and_request_thread_week_beginning/",
-      "title": "☀️Tópico de discussão, notícias e solicitação - Semana que começa em 22/06/26☀️",
-      "original_title": "☀️Discussion, News, and Request Thread - Week Beginning 06/22/26☀️",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-06-23",
-      "summary": "Os tópicos de discussão do partido são o seu centro central semanal para todas as solicitações, notícias de jogos e quaisquer outros tópicos de jogos sobre os quais você queira conversar. Por favor, mantenha todo o conteúdo que não precisa de postagem própria neste tópico para desorganizar o sub para vazamentos adequados e ...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1udsvum/discussion_news_and_request_thread_week_beginning/"
+      "url": "https://www.eurogamer.net/gta-6-online-retail-country-code-in-box-limitation"
     }
   ]
 }
