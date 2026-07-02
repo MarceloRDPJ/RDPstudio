@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-07-01T14:34:54",
-  "display_date": "01/07/2026 14:34",
+  "last_updated": "2026-07-02T13:59:43",
+  "display_date": "02/07/2026 13:59",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "124ms",
+    "latency": "183ms",
     "current_games": [
       {
         "title": "RollerCoaster Tycoon 3 Complete Edition",
@@ -32,8 +32,8 @@
         "image": "https://cdn1.epicgames.com/spt-assets/9a2764693c414ecda63d8f785452a4bb/nova-lands-offer-16wzy.png",
         "url": "https://store.epicgames.com/p/acb83bd813054e599598de9e76f6d95d",
         "price": "$19.99",
-        "start_date": "2026-09-03T15:00:00.000Z",
-        "end_date": "2026-09-17T15:00:00.000Z"
+        "start_date": "2026-07-16T15:00:00.000Z",
+        "end_date": "2026-07-30T15:00:00.000Z"
       },
       {
         "title": "Nova Lands",
@@ -41,8 +41,8 @@
         "image": "https://cdn1.epicgames.com/spt-assets/9a2764693c414ecda63d8f785452a4bb/nova-lands-offer-16wzy.png",
         "url": "https://store.epicgames.com/p/acb83bd813054e599598de9e76f6d95d",
         "price": "$19.99",
-        "start_date": "2026-07-16T15:00:00.000Z",
-        "end_date": "2026-07-30T15:00:00.000Z"
+        "start_date": "2026-09-03T15:00:00.000Z",
+        "end_date": "2026-09-17T15:00:00.000Z"
       },
       {
         "title": "Nova Lands",
@@ -55,7 +55,7 @@
       },
       {
         "title": "Eternal Threads",
-        "description": "Eternal Threads é um jogo de quebra-cabeça para um jogador, em primeira pessoa, baseado em uma história, de manipulação, escolha e consequência do tempo.",
+        "description": "Eternal Threads é um jogo de quebra-cabeça para um jogador, em primeira pessoa, baseado em uma história de manipulação, escolha e consequência do tempo.",
         "image": "https://cdn1.epicgames.com/spt-assets/08813e055af64315b8a55b2e521f4e04/eternal-threads-1vm6i.jpg",
         "url": "https://store.epicgames.com/p/a9152a8924cc4e438f0e61106ec02f7d",
         "price": "$19.99",
@@ -119,7 +119,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "summary": "Construa o parque da sua vida e redescubra o best-seller de simulação de montanha-russa aclamado pela crítica. Sinta a emoção de um clássico que define o gênero, completo com dois enormes pacotes de expansão.",
       "sources": [
         "Epic Games Store"
@@ -134,7 +134,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "summary": "Voidwrought é um jogo de plataforma de ação 2D ambientado em um mundo desenhado à mão de horrores cósmicos. Explore as ruínas descongeladas da Primeira Civilização e derrube os deuses que ali habitam. Aumente seus poderes, descubra artefatos antigos e expanda seu santuário em meio aos destroços.",
       "sources": [
         "Epic Games Store"
@@ -149,22 +149,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-01",
-      "summary": "Disponível gratuitamente a partir de 03/09. Nova Lands é um jogo de construção de fábricas, exploração e gerenciamento de ilhas. Explore, participe de combates e automatize sua indústria. O planeta em que você está está cheio de mistérios, criaturas, pessoas e coisas para fazer. Bem-vindo à sua nova casa entre as estrelas!",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/acb83bd813054e599598de9e76f6d95d"
-    },
-    {
-      "id": "https://store.epicgames.com/p/acb83bd813054e599598de9e76f6d95d",
-      "title": "EM BREVE: Nova Lands",
-      "original_title": "Nova Lands",
-      "image": "https://cdn1.epicgames.com/spt-assets/9a2764693c414ecda63d8f785452a4bb/nova-lands-offer-16wzy.png",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "summary": "Disponível gratuitamente a partir de 16/07. Nova Lands é um jogo de construção de fábricas, exploração e gerenciamento de ilhas. Explore, participe de combates e automatize sua indústria. O planeta em que você está está cheio de mistérios, criaturas, pessoas e coisas para fazer. Bem-vindo à sua nova casa entre as estrelas!",
       "sources": [
         "Epic Games Store"
@@ -179,7 +164,22 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-01",
+      "date": "2026-07-02",
+      "summary": "Disponível gratuitamente a partir de 03/09. Nova Lands é um jogo de construção de fábricas, exploração e gerenciamento de ilhas. Explore, participe de combates e automatize sua indústria. O planeta em que você está está cheio de mistérios, criaturas, pessoas e coisas para fazer. Bem-vindo à sua nova casa entre as estrelas!",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/acb83bd813054e599598de9e76f6d95d"
+    },
+    {
+      "id": "https://store.epicgames.com/p/acb83bd813054e599598de9e76f6d95d",
+      "title": "EM BREVE: Nova Lands",
+      "original_title": "Nova Lands",
+      "image": "https://cdn1.epicgames.com/spt-assets/9a2764693c414ecda63d8f785452a4bb/nova-lands-offer-16wzy.png",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-07-02",
       "summary": "Disponível gratuitamente a partir de 09/07. Nova Lands é um jogo de construção de fábricas, exploração e gerenciamento de ilhas. Explore, participe de combates e automatize sua indústria. O planeta em que você está está cheio de mistérios, criaturas, pessoas e coisas para fazer. Bem-vindo à sua nova casa entre as estrelas!",
       "sources": [
         "Epic Games Store"
@@ -194,8 +194,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-01",
-      "summary": "Disponível gratuitamente a partir de 16/07. Eternal Threads é um jogo de quebra-cabeça para um jogador, em primeira pessoa, baseado em uma história, de manipulação, escolha e consequência do tempo.",
+      "date": "2026-07-02",
+      "summary": "Disponível gratuitamente a partir de 16/07. Eternal Threads é um jogo de quebra-cabeça para um jogador, em primeira pessoa, baseado em uma história de manipulação, escolha e consequência do tempo.",
       "sources": [
         "Epic Games Store"
       ],
@@ -209,7 +209,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "summary": "Disponível gratuitamente a partir de 16/07. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
       "sources": [
         "Epic Games Store"
@@ -224,7 +224,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "summary": "Disponível gratuitamente a partir de 16/09. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
@@ -239,7 +239,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "summary": "Disponível gratuitamente a partir de 16/07. A Coleção de Aniversário de Castlevania da Konami traça as origens da histórica franquia de vampiros. Está incluído um e-book exclusivo com detalhes fornecidos por desenvolvedores, artistas e outros inspirados no legado de Castlevania, que lança uma nova luz sobre o mundo de Castlevania.",
       "sources": [
         "Epic Games Store"
@@ -254,7 +254,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "summary": "Disponível gratuitamente a partir de 02/07. Uma aventura de ficção científica em pixel art ambientada em meio a uma rebelião contra um regime totalitário, LUNARK é uma versão moderna do gênero de plataformas cinematográficas 2D dos anos 90. Corra, pule, pendure-se, escale, role e atire em locais lindos e misteriosos!",
       "sources": [
         "Epic Games Store"
@@ -269,7 +269,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-01",
+      "date": "2026-07-02",
       "summary": "Disponível gratuitamente a partir de 02/07. O Allied Mastercomputer destruiu toda a humanidade, exceto cinco pessoas, que as manteve vivas e as torturou durante os últimos cento e nove anos, projetando aventuras virtuais baseadas em seus medos e fraquezas.",
       "sources": [
         "Epic Games Store"
@@ -277,184 +277,154 @@
       "url": "https://store.epicgames.com/p/0937dc8ff7874fb8897a678d8a27c9ac"
     },
     {
-      "id": "https://www.eurogamer.net/ps-plus-extra-premium-new-announcement-model",
-      "title": "Os anúncios do PlayStation Plus Extra e Premium de novos jogos mensais estão sendo alterados em alguns territórios, e os jogadores não estão satisfeitos com isso",
-      "original_title": "PlayStation Plus Extra and Premium's announcements of monthly new games are being changed in some territories, and players aren't happy about it",
-      "image": "https://assetsio.gnwcdn.com/PS-Plus-Premium-icon-on-fire-custom.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/warhammer-40-000-space-marine-master-crafted-edition-ps5-switch-2",
+      "title": "Warhammer 40.000: Space Marine remasterizado de 2025 que era inexplicavelmente exclusivo para PC e Xbox, aparentemente a caminho do PS5 e Switch 2",
+      "original_title": "2025's Warhammer 40,000: Space Marine remaster that was inexplicably exclusive to PC and Xbox seemingly on its way to PS5 and Switch 2",
+      "image": "https://assetsio.gnwcdn.com/warhammer-40000-space-marine-master-crafted-edition-screen-3.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-01",
-      "summary": "Os jogos mensais do PlayStation Plus Extra e Premium eram normalmente revelados e entregues todos de uma vez - isso ainda era verdade em maio - mas a seleção de títulos de junho introduziu uma grande mudança com lançamentos graduais estendidos por alguns meses...",
+      "date": "2026-07-02",
+      "summary": "Warhammer 40.000: Space Marine – Master Crafted Edition, a remasterização do clássico jogo de ação Relic, foi lançado em junho do ano passado, menos de um mês após seu lançamento inicial. Curiosamente, porém, a remasterização apenas foi anunciada, e o lançamento...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/ps-plus-extra-premium-new-announcement-model"
+      "url": "https://www.eurogamer.net/warhammer-40-000-space-marine-master-crafted-edition-ps5-switch-2"
     },
     {
-      "id": "https://www.eurogamer.net/ps3-vita-stores-end-support-sony",
-      "title": "Sony anuncia fim das lojas digitais PS3 e Vita",
-      "original_title": "Sony announces an end to the PS3 and Vita digital stores",
-      "image": "https://assetsio.gnwcdn.com/playstation-u-turns-on-playstation-3-and-vita-store-shutdowns-1618852000658.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/sony-kills-game-ownership-and-says-its-all-your-fault",
+      "title": "Sony mata propriedade de jogos e diz que é tudo culpa sua",
+      "original_title": "Sony kills game ownership and says it's all your fault",
+      "image": "https://assetsio.gnwcdn.com/sony-game-ownership-opinion-header.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-01",
-      "summary": "A Sony anunciou que encerrará o suporte para suas lojas PS3 e PlayStation Vita globalmente em 2027. Em mercados selecionados, o suporte terminará ainda este ano. Leia mais...",
+      "date": "2026-07-02",
+      "summary": "Quando escrevi, há apenas seis semanas, que gostava de reler ocasionalmente o editorial de Tom Bramwell \"A Microsoft mata a propriedade de jogos e espera que sorriamos\" para me lembrar do que se trata, não quis dizer que queria realmente reescrever um ato de tributo ve...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/ps3-vita-stores-end-support-sony"
+      "url": "https://www.eurogamer.net/sony-kills-game-ownership-and-says-its-all-your-fault"
     },
     {
-      "id": "https://www.eurogamer.net/sony-ending-playstation-discs-physical-media-january-2028",
-      "title": "A Sony não produzirá mais discos para jogos de PlayStation a partir de janeiro de 2028, citando as “preferências do consumidor” como o motivo",
-      "original_title": "Sony will no longer produce discs for PlayStation games starting in January 2028, citing \"consumer preferences\" as the reason why",
-      "image": "https://assetsio.gnwcdn.com/ps5-3_zJgc3ql.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/onimusha-way-of-the-sword-new-release-date",
+      "title": "Capcom antecipa a data de lançamento de Onimusha: Way of the Sword poucos dias depois que os desenvolvedores declararam que não têm medo da agenda lotada de setembro",
+      "original_title": "Capcom pushes forward Onimusha: Way of the Sword release date just days after devs stated they're not afraid of September's busy schedule",
+      "image": "https://assetsio.gnwcdn.com/onimusha-way-of-the-sword-gameplay-screen-3.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-01",
-      "summary": "A Sony anunciou hoje que encerrará a produção de discos para jogos de PlayStation a partir de janeiro de 2028. Após esse ponto, os jogos de PlayStation estarão disponíveis apenas digitalmente. Notavelmente, os jogos de PlayStation continuarão a ser vendidos no varejo, apenas sem...",
+      "date": "2026-07-02",
+      "summary": "A Capcom anunciou hoje uma nova data de lançamento para Onimusha: Way of the Sword, a próxima sequência da série de ação adormecida. O jogo agora será lançado em 4 de setembro, três semanas antes do lançamento anunciado anteriormente em 25 de setembro...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/sony-ending-playstation-discs-physical-media-january-2028"
+      "url": "https://www.eurogamer.net/onimusha-way-of-the-sword-new-release-date"
     },
     {
-      "id": "https://www.eurogamer.net/rhythm-paradise-groove-review",
-      "title": "Crítica do Rhythm Paradise Groove",
-      "original_title": "Rhythm Paradise Groove review",
-      "image": "https://assetsio.gnwcdn.com/rhythm-paradise-groove-header.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/playstation-old-anti-drm-video-ps4-physical",
+      "title": "\"RIP PLAYSTATION 1994-2026\" - Os jogadores estão migrando para o antigo vídeo anti-DRM do PS4 da Sony após sua chocante decisão de descartar os jogos físicos",
+      "original_title": "\"RIP PLAYSTATION 1994-2026\" - Players are flocking to Sony's old PS4 anti-DRM video in the wake of its shock decision to scrap physical games",
+      "image": "https://assetsio.gnwcdn.com/trade-in-games.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-01",
-      "summary": "O clássico da batida retorna com uma bela voz. Leia mais...",
+      "date": "2026-07-02",
+      "summary": "Ontem, a Sony surpreendeu a indústria de jogos ao anunciar que não produzirá mais discos para jogos de PlayStation a partir de janeiro de 2028, citando as “preferências do consumidor” como a razão para a mudança em direção a um futuro totalmente digital. Já vimos...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/rhythm-paradise-groove-review"
+      "url": "https://www.eurogamer.net/playstation-old-anti-drm-video-ps4-physical"
     },
     {
-      "id": "https://www.eurogamer.net/gta-6-rockstar-enforcing-crunch-weaponising-bonus-payments-ignoring-widening-gender-pay-gap",
-      "title": "Rockstar, desenvolvedora de GTA 6, acusada de impor restrições, transformar pagamentos de bônus em armas e ignorar a crescente disparidade salarial entre homens e mulheres",
-      "original_title": "GTA 6 developer Rockstar accused of enforcing crunch, weaponising bonus payments, and ignoring a widening gender pay gap",
-      "image": "https://assetsio.gnwcdn.com/gta-6-union.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/video-game-collector-edition-collateral-damage",
+      "title": "“Estamos profundamente decepcionados” – fabricantes de jogos de edição especial reagem ao futuro desconhecido do PlayStation",
+      "original_title": "\"We are profoundly disappointed\" - boutique special edition game makers react to PlayStation's discless future",
+      "image": "https://assetsio.gnwcdn.com/cult-of-the-lamb_VKlo228.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-01",
-      "summary": "À medida que os funcionários da Rockstar buscam o reconhecimento sindical oficial após uma série de demissões de alto perfil em 2025, novas alegações estão surgindo relacionadas ao tratamento dado pela Rockstar aos seus funcionários. Em um novo relatório publicado pela Game Developer, vários Roc...",
+      "date": "2026-07-02",
+      "summary": "Os fabricantes de jogos de edição especial boutique - que produzem edições de colecionador de alta qualidade para fãs apaixonados - protestaram contra a decisão da Sony de encerrar a produção de discos para jogos físicos. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/gta-6-rockstar-enforcing-crunch-weaponising-bonus-payments-ignoring-widening-gender-pay-gap"
+      "url": "https://www.eurogamer.net/video-game-collector-edition-collateral-damage"
     },
     {
-      "id": "https://www.eurogamer.net/battlefield-6-xp-boosters-in-game-message-change-error",
-      "title": "EA muda Battlefield 6 XP Boosters para melhor, apenas para mais uma vez revelar que a mudança foi um erro e retirá-la",
-      "original_title": "EA changes Battlefield 6 XP Boosters for the better, only to yet again reveal the change was an error and take it back",
-      "image": "https://assetsio.gnwcdn.com/battlefield-6-xp-booster-fumble-1.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/hideo-kojima-od-knock-xbox-exclusive-safe-from-cuts",
+      "title": "O exclusivo experimental do Xbox de Hideo Kojima, OD, está supostamente protegido dos cortes da Microsoft",
+      "original_title": "Hideo Kojima's experimental Xbox exclusive, OD, is reportedly safe from Microsoft cuts",
+      "image": "https://assetsio.gnwcdn.com/A-female-looking-distressd-in-a-still-from-OD's-reveal-trailer.webp?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-01",
-      "summary": "Pela segunda vez em um mês, Battlefield Studios alterou a linguagem do jogo explicando como funcionam os Battlefield 6 XP Boosters, apenas para renegar e alegar que foi feito por engano. Desta vez, porém, deixou os jogadores ainda mais irritados por causa de ...",
+      "date": "2026-07-02",
+      "summary": "O Xbox continuará a publicar OD, o próximo título de terror de Hideo Kojima. O projeto experimental, que foi anunciado no final de 2023, sobreviverá aos cortes e cancelamentos que estão sendo feitos atualmente no Xbox, à medida que a divisão traça um caminho para o pro...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/battlefield-6-xp-boosters-in-game-message-change-error"
+      "url": "https://www.eurogamer.net/hideo-kojima-od-knock-xbox-exclusive-safe-from-cuts"
     },
     {
-      "id": "https://www.eurogamer.net/persona-live-action-netflix-show-announced",
-      "title": "Persona está recebendo tratamento de programa de ação ao vivo na Netflix, Star Trek: Picard e escritor do 9-1-1 como showrunner",
-      "original_title": "Persona is getting the live-action show treatment at Netflix, Star Trek: Picard and 9-1-1 writer attached as showrunner",
-      "image": "https://assetsio.gnwcdn.com/Persona-5-Strikes-cutscene.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/pride-week-the-surprising-queerness-of-elden-ring",
+      "title": "A surpreendente estranheza de Elden Ring",
+      "original_title": "The surprising queerness of Elden Ring",
+      "image": "https://assetsio.gnwcdn.com/eg-pride-week-2026-elden-header.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-01",
-      "summary": "Com Persona 4 Revival e Persona 6 no horizonte, os fãs da longa série de RPG comerão bem em um futuro próximo, mas um programa de ação ao vivo da Netflix pode ser uma oferta mais polêmica. Leia mais...",
+      "date": "2026-07-02",
+      "summary": "Olá! A semana de recursos da Eurogamer celebrando a interseção da cultura queer e dos jogos continua hoje, enquanto Kelsey Raynor descobre um Elden Ring muito diferente daquele que eles esperavam. E você pode visitar nosso hub da Pride Week para acompanhar P...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/persona-live-action-netflix-show-announced"
+      "url": "https://www.eurogamer.net/pride-week-the-surprising-queerness-of-elden-ring"
     },
     {
-      "id": "https://www.eurogamer.net/007-first-light-io-interactive-hitman-layoffs-project-fantasy",
-      "title": "Estúdio 007 First Light IOI enfrentando demissões enquanto Xbox retira financiamento para Project Fantasy RPG",
-      "original_title": "007 First Light studio IOI facing layoffs as Xbox pulls funding for Project Fantasy RPG",
-      "image": "https://assetsio.gnwcdn.com/project-fantasy-art-io-interactive-cropped.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/xbox-project-helix-no-disc-drive-reports",
+      "title": "O Xbox supostamente seguirá o exemplo do PlayStation e abandonará os discos para o console de próxima geração, Project Helix",
+      "original_title": "Xbox reportedly to follow PlayStation's example and ditch discs for next-gen console Project Helix",
+      "image": "https://assetsio.gnwcdn.com/green-background-with-Project-Helix-logo-and-name-written-in-white-on-top.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-01",
-      "summary": "A Xbox desistiu de um acordo para financiar e publicar o RPG de fantasia online - Project Fantasy - que está em desenvolvimento na Hitman e na IO Interactive, desenvolvedora de 007 First Light. Leia mais...",
+      "date": "2026-07-02",
+      "summary": "A Microsoft supostamente seguirá o exemplo da Sony com o Project Helix e não incluirá uma unidade de disco, de acordo com um novo relatório. A Microsoft também está trabalhando em uma maneira de conceder licenças digitais de jogos para pessoas que já possuem um...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/007-first-light-io-interactive-hitman-layoffs-project-fantasy"
+      "url": "https://www.eurogamer.net/xbox-project-helix-no-disc-drive-reports"
     },
     {
-      "id": "https://www.eurogamer.net/ubisoft-barcelona-strike-after-layoffs",
-      "title": "Os desenvolvedores de um estúdio da Ubisoft entraram em greve em resposta à última rodada de demissões radicais da editora",
-      "original_title": "Developers at a Ubisoft studio have gone on strike in response to the publisher's latest round of sweeping layoffs",
-      "image": "https://assetsio.gnwcdn.com/rainbow-six-siege-to-add-hardcore-playlist-in-2016-145013701883.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-07-01",
-      "summary": "Os desenvolvedores da Ubisoft Barcelona – que trabalha em Rainbow Six: Siege após a recente reestruturação da empresa – entraram em greve. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/ubisoft-barcelona-strike-after-layoffs"
-    },
-    {
-      "id": "https://www.eurogamer.net/pride-week-haven-straight-love-story-gay",
-      "title": "Revisitando Haven, a atualização do RPG que transformou uma história de amor heterossexual em gay – e a tornou melhor como resultado",
-      "original_title": "Revisiting Haven, the RPG update that turned a straight love story gay - and made it better as a result",
-      "image": "https://assetsio.gnwcdn.com/eg-pride-week-2026-haven-header.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-07-01",
-      "summary": "Olá! A semana de recursos da Eurogamer celebrando a interseção da cultura queer e dos jogos continua hoje, enquanto Kaan Serin explora como o aclamado Haven encontrou um novo significado quando introduziu a opção de troca de gênero em seus protagonistas dois anos após o lançamento...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/pride-week-haven-straight-love-story-gay"
-    },
-    {
-      "id": "https://www.techpowerup.com/350435/io-interactive-has-to-cut-jobs-after-xbox-pulls-project-funding",
-      "title": "IO Interactive tem que cortar empregos depois que o Xbox retira o financiamento do projeto",
-      "original_title": "IO Interactive Has to Cut Jobs After Xbox Pulls Project Funding",
-      "image": "https://tpucdn.com/img/u4o1z6mtB0ExisAR_thm.jpg",
+      "id": "https://www.techpowerup.com/350466/noctua-prepares-low-profile-am5-workstation-air-coolers-and-next-gen-psu-collaborations-for-2027",
+      "title": "Noctua prepara colaborações AM5 discretas, resfriadores de ar para estações de trabalho e fontes de alimentação de última geração para 2027",
+      "original_title": "Noctua Prepares Low-Profile AM5, Workstation Air Coolers, and Next-Gen PSU Collaborations for 2027",
+      "image": "https://tpucdn.com/img/fMmxHic4DPwCcIbf_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-30",
-      "summary": "Agora foi amplamente divulgado que o Xbox Game Studios está passando por grandes mudanças, com demissões em massa iminentes e possíveis fechamentos de estúdios previstos para o início de julho. Agora, parece que também haverá danos colaterais em outros estúdios, como IO In...",
+      "date": "2026-07-02",
+      "summary": "A Noctua lançou uma nova atualização do roteiro para seus próximos produtos, fornecendo cronogramas concretos para muitos itens que a empresa divulgou durante a feira internacional Computex 2026 deste ano. Um dos designs mais interessantes é o perfil baixo, com 70 mm de altura...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350435/io-interactive-has-to-cut-jobs-after-xbox-pulls-project-funding"
+      "url": "https://www.techpowerup.com/350466/noctua-prepares-low-profile-am5-workstation-air-coolers-and-next-gen-psu-collaborations-for-2027"
     },
     {
-      "id": "https://www.techpowerup.com/350434/steam-machine-crippled-by-single-channel-ram",
-      "title": "Máquina Steam prejudicada por RAM de canal único",
-      "original_title": "Steam Machine Crippled by Single-Channel RAM",
-      "image": "https://tpucdn.com/img/WDYIGK9gQNDQOIK6_thm.jpg",
+      "id": "https://www.techpowerup.com/350465/intel-raises-msrp-of-core-ultra-7-270k-plus-and-core-ultra-5-250k-plus",
+      "title": "Intel aumenta preço sugerido do Core Ultra 7 270K Plus e Core Ultra 5 250K Plus",
+      "original_title": "Intel Raises MSRP of Core Ultra 7 270K Plus and Core Ultra 5 250K Plus",
+      "image": "https://tpucdn.com/img/SUITyMLvWH1te2tN_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-30",
-      "summary": "Pouco depois de a Valve lançar a tão esperada Steam Machine, as análises foram rápidas em apontar seu desempenho mediano e preço alto, com o console de jogos pontuando entre a AMD Radeon RX 6600 e 7600 em testes de jogos. Acontece que um dos ...",
+      "date": "2026-07-02",
+      "summary": "A Intel aumentou discretamente o preço de venda recomendado de seus recentemente lançados processadores de desktop Core Ultra 7 270K Plus e Core Ultra 5 250K Plus “Arrow Lake-S” de seus preços de lançamento de US$ 299,99 e US$ 199,99, respectivamente. O 270K Plus agora vê um...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350434/steam-machine-crippled-by-single-channel-ram"
+      "url": "https://www.techpowerup.com/350465/intel-raises-msrp-of-core-ultra-7-270k-plus-and-core-ultra-5-250k-plus"
     },
     {
       "id": "https://www.techpowerup.com/350385/godeal24-unveils-midsummer-sale-get-windows-11-office-2024-for-just-usd-31-91",
@@ -464,7 +434,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-30",
+      "date": "2026-07-02",
       "summary": "GoDeal24 revelou hoje a Liquidação de verão de 2026. Obtenha o software mais recente, genuíno e globalmente válido que você precisa, com grandes descontos. Nossa principal oferta é uma combinação de Windows 11 Pro + Office 2024 Professional Plus por apenas US$ 31,91. O mesmo pacote, mas com W...",
       "sources": [
         "TechPowerUp"
@@ -472,109 +442,139 @@
       "url": "https://www.techpowerup.com/350385/godeal24-unveils-midsummer-sale-get-windows-11-office-2024-for-just-usd-31-91"
     },
     {
-      "id": "https://www.techpowerup.com/350429/amd-backs-up-ps6-portable-rumors-with-zen-6-lp-core-support-in-linux",
-      "title": "AMD respalda rumores de portátil PS6 com suporte central “Zen 6 LP” no Linux",
-      "original_title": "AMD Backs Up PS6 Portable Rumors With \"Zen 6 LP\" Core Support in Linux",
-      "image": "https://tpucdn.com/img/EyKooyWONcNIP7j0_thm.jpg",
+      "id": "https://www.techpowerup.com/350464/philips-evnia-launches-the-worlds-first-triple-mode-fast-ips-gaming-monitor",
+      "title": "(PR) Philips Evnia lança o primeiro monitor de jogos IPS rápido de modo triplo do mundo",
+      "original_title": "(PR) Philips Evnia Launches the World's First Triple-Mode Fast IPS Gaming Monitor",
+      "image": "https://tpucdn.com/img/AZzkcfP3BBXmJaGI_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-30",
-      "summary": "Quando rumores e vazamentos sobre o interior do próximo portátil PlayStation 6 Portable começaram a surgir, soubemos que o próximo portátil para jogos apresentaria uma CPU Zen 6c com quatro núcleos Zen 6c e dois núcleos Zen 6 LP. Os rumores de que...",
+      "date": "2026-07-02",
+      "summary": "A Philips Evnia lançou a nova linha de jogos M4 construída com a revolucionária tecnologia Triple-Mode. Ele oferece três predefinições selecionáveis ​​de alta Hz e resolução, adaptadas para diferentes cenários de jogo, trazendo flexibilidade sem precedentes aos jogadores. O...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350429/amd-backs-up-ps6-portable-rumors-with-zen-6-lp-core-support-in-linux"
+      "url": "https://www.techpowerup.com/350464/philips-evnia-launches-the-worlds-first-triple-mode-fast-ips-gaming-monitor"
     },
     {
-      "id": "https://www.techpowerup.com/350433/drakong-debuts-with-the-challenger-controller-for-xbox-and-pc",
-      "title": "(PR) Drakong estreia com controle “The Challenger” para Xbox e PC",
-      "original_title": "(PR) Drakong Debuts with \"The Challenger\" Controller for Xbox and PC",
-      "image": "https://tpucdn.com/img/M8lIeWdceElOHkmp_thm.jpg",
+      "id": "https://www.techpowerup.com/350463/ibase-releases-cmi211-1005-expandable-edge-ai-computer-with-up-to-99-tops",
+      "title": "(PR) IBASE lança computador expansível Edge AI CMI211-1005 com até 99 TOPS",
+      "original_title": "(PR) IBASE Releases CMI211-1005 Expandable Edge AI Computer with Up to 99 TOPS",
+      "image": "https://tpucdn.com/img/dM10PeAV9e0FXIFO_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-30",
-      "summary": "Drakong, uma empresa líder de hardware para jogos com sede em Los Angeles, anunciou hoje o The Challenger, uma nova geração de controladores premium projetado para jogos do dia a dia e ideal para quem deseja jogar no Xbox e no PC, talvez pela primeira vez. Apresentando vantagens...",
+      "date": "2026-07-02",
+      "summary": "A IBASE Technology Inc., fornecedora líder de soluções de computação industrial e IA de ponta, anuncia o CMI211-1005, um computador de IA de ponta compacto e expansível equipado com processadores Intel Core Ultra Série 200H. Integrando computação CPU, GPU e NPU ...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350433/drakong-debuts-with-the-challenger-controller-for-xbox-and-pc"
+      "url": "https://www.techpowerup.com/350463/ibase-releases-cmi211-1005-expandable-edge-ai-computer-with-up-to-99-tops"
     },
     {
-      "id": "https://www.techpowerup.com/350431/omdia-us-pc-shipments-fell-7-0-in-1q26-marking-steepest-decline-since-2023",
-      "title": "(PR) Omdia: As remessas de PCs nos EUA caíram 7,0% no 1T26, marcando o declínio mais acentuado desde 2023",
-      "original_title": "(PR) Omdia: US PC Shipments Fell 7.0% in 1Q26, Marking Steepest Decline Since 2023",
-      "image": "https://tpucdn.com/img/MclGtUuVffLTOWwG_thm.jpg",
+      "id": "https://www.techpowerup.com/350462/cherry-xtrfy-releases-k63w-pro-compact-ultra-wideband-gaming-keyboard",
+      "title": "(PR) Cherry Xtrfy lança teclado para jogos compacto K63W Pro de banda ultralarga",
+      "original_title": "(PR) Cherry Xtrfy Releases K63W Pro Compact Ultra-Wideband Gaming Keyboard",
+      "image": "https://tpucdn.com/img/PerpMiEVj3DG5nF0_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-30",
-      "summary": "A pesquisa mais recente da Omdia mostra que as remessas de PCs nos EUA (excluindo tablets) caíram 7,0% ano a ano no primeiro trimestre de 2026, para 15,8 milhões de unidades, o maior declínio anual desde o terceiro trimestre de 2023. A desaceleração reflete restrições de fornecimento de componentes e pressões de custos para...",
+      "date": "2026-07-02",
+      "summary": "Cherry Xtrfy expandiu seu portfólio premium com o K63W Pro Compact Ultra-Wideband. É o primeiro teclado para jogos a combinar a tecnologia de banda ultralarga com uma taxa de pesquisa sem fio de 8.000 Hz, juntamente com uma construção montada em gaxeta de baixo perfil...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350431/omdia-us-pc-shipments-fell-7-0-in-1q26-marking-steepest-decline-since-2023"
+      "url": "https://www.techpowerup.com/350462/cherry-xtrfy-releases-k63w-pro-compact-ultra-wideband-gaming-keyboard"
     },
     {
-      "id": "https://www.techpowerup.com/350057/acemagic-unveils-mini-pc-sale-get-up-to-20-off-on-amd-ryzen-powered-mini-pcs",
-      "title": "AceMagic lança venda de mini PCs: ganhe até 20% de desconto em mini PCs com AMD Ryzen",
-      "original_title": "AceMagic Unveils Mini PC Sale: Get Up to 20% Off on AMD Ryzen-powered Mini PCs",
-      "image": "https://tpucdn.com/img/wRPjbVd3LLZYjhjY_thm.jpg",
+      "id": "https://www.techpowerup.com/350461/msi-named-among-first-epeat-2-0-launch-partners-flagship-ai-business-laptop-achieves-silver-certification",
+      "title": "(PR) MSI nomeada entre os primeiros parceiros de lançamento do EPEAT 2.0; Flagship AI Business Laptop obtém certificação Silver",
+      "original_title": "(PR) MSI Named Among First EPEAT 2.0 Launch Partners; Flagship AI Business Laptop Achieves Silver Certification",
+      "image": "https://tpucdn.com/img/tjDl0go2fTQbd9Fj_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-30",
-      "summary": "A marca de mini PCs e notebooks AceMagic anunciou hoje uma venda relâmpago de dois de seus mais recentes mini PCs com AMD Ryzen na Amazon, aberta de hoje até 30 de junho de 2026. À venda está um AceMagician M1, equipado com processador AMD Ryzen 7 7735HS, 24 GB de LPDDR...",
+      "date": "2026-07-02",
+      "summary": "A MSI, líder global em jogos, AI PC e computação de alto desempenho, orgulhosamente anuncia sua posição como uma das primeiras marcas do mundo a se tornar parceira de lançamento do EPEAT 2.0. Este marco ressalta o compromisso central da MSI com a sustentabilidade dentro...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350057/acemagic-unveils-mini-pc-sale-get-up-to-20-off-on-amd-ryzen-powered-mini-pcs"
+      "url": "https://www.techpowerup.com/350461/msi-named-among-first-epeat-2-0-launch-partners-flagship-ai-business-laptop-achieves-silver-certification"
     },
     {
-      "id": "https://www.techpowerup.com/350428/xbox-to-shutter-at-least-5-studios-and-cancel-upcoming-blade-game",
-      "title": "Xbox fechará pelo menos 5 estúdios e cancelará o próximo jogo “Blade”",
-      "original_title": "Xbox To Shutter At Least 5 Studios and Cancel Upcoming \"Blade\" Game",
-      "image": "https://tpucdn.com/img/rRlXCGrBSFmcCyYH_thm.jpg",
+      "id": "https://www.techpowerup.com/350460/nvidia-geforce-rtx-5090d-overclocked-to-4-ghz-with-liquid-nitrogen",
+      "title": "NVIDIA GeForce RTX 5090D com overclock para 4 GHz com nitrogênio líquido",
+      "original_title": "NVIDIA GeForce RTX 5090D Overclocked to 4 GHz with Liquid Nitrogen",
+      "image": "https://tpucdn.com/img/Zg0JODA9orbotZ82_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-30",
-      "summary": "Quando foi relatado que o Xbox Game Studios estava planejando uma reestruturação diante da queda nas receitas, o que previsivelmente levaria a demissões em massa e fechamento de estúdios, parecia que alguns estúdios estavam em risco de fechar. Agora, aco...",
+      "date": "2026-07-02",
+      "summary": "Graças a um feito incrível da equipe OGS, a arquitetura de GPU “Blackwell” da NVIDIA finalmente ultrapassou a marca de 4 GHz com a ajuda de nitrogênio líquido. Usando a GPU GALAX GeForce RTX 5090D Hall of Fame OC Lab Edition, a equipe aumentou o clock da GPU principal...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350428/xbox-to-shutter-at-least-5-studios-and-cancel-upcoming-blade-game"
+      "url": "https://www.techpowerup.com/350460/nvidia-geforce-rtx-5090d-overclocked-to-4-ghz-with-liquid-nitrogen"
     },
     {
-      "id": "https://www.techpowerup.com/350425/rockstar-workers-seek-union-recognition-ahead-of-gta-vi-launch",
-      "title": "Trabalhadores da Rockstar buscam reconhecimento sindical antes do lançamento do GTA VI",
-      "original_title": "Rockstar Workers Seek Union Recognition Ahead of GTA VI Launch",
-      "image": "https://tpucdn.com/img/VLBjwl84FF81UQ24_thm.jpg",
+      "id": "https://www.eurogamer.net/krafton-to-pay-bonuses-to-all-subnautica-2-staffers",
+      "title": "A editora Krafton finalmente concorda em pagar bônus a todos os funcionários do Subnautica 2 quando o CEO da Unknown Worlds, Ted Gill, sai novamente",
+      "original_title": "Publisher Krafton finally agrees to pay bonuses to every Subnautica 2 staffer as Unknown Worlds CEO Ted Gill leaves again",
+      "image": "https://assetsio.gnwcdn.com/Subnautica-2-underwater-money-rain.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-06-30",
-      "summary": "Foi revelado no início de 2026 que os trabalhadores da Rockstar formaram o Rockstar Game Workers Union (RSGWU) em colaboração com o IWGB (Sindicato dos Trabalhadores Independentes da Grã-Bretanha) Game Workers. Agora, o RSGWU anunciou oficialmente que está buscando...",
+      "category": "News",
+      "date": "2026-07-01",
+      "summary": "Para a maioria dos jogadores, Subnautica 2 é um dos jogos de sobrevivência mais populares de 2026, depois que mais de quatro milhões de jogadores pularam em suas águas perigosas e encontraram uma sequência iterativa, mas envolvente. Se você está acompanhando seu longo desenvolvimento, no entanto, você sabe...",
       "sources": [
-        "TechPowerUp"
+        "Eurogamer"
       ],
-      "url": "https://www.techpowerup.com/350425/rockstar-workers-seek-union-recognition-ahead-of-gta-vi-launch"
+      "url": "https://www.eurogamer.net/krafton-to-pay-bonuses-to-all-subnautica-2-staffers"
     },
     {
-      "id": "https://www.techpowerup.com/350427/amd-to-raise-radeon-gpu-kit-prices-by-10-in-july",
-      "title": "AMD aumentará os preços dos kits de GPU Radeon em 10% em julho",
-      "original_title": "AMD to Raise Radeon GPU Kit Prices by 10% in July",
-      "image": "https://tpucdn.com/img/BJlYstYykgnd9LFY_thm.jpg",
+      "id": "https://www.eurogamer.net/the-internet-reacts-to-playstation-killing-off-physical-media",
+      "title": "“É o preço dinâmico”, “os preços certamente subirão”, “isso é anticonsumidor”: a internet reage com indignação e desespero ao fato de o PlayStation acabar com a mídia física",
+      "original_title": "\"Dynamic pricing it is\", \"prices will surely go up\", \"this is anti-consumer\": the internet reacts with outrage and despair to PlayStation killing off physical media",
+      "image": "https://assetsio.gnwcdn.com/ps5-physical.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-07-01",
+      "summary": "Hoje, a Sony anunciou que não produzirá mais discos para jogos de PlayStation a partir de janeiro de 2028, citando as “preferências do consumidor” pelo motivo de estar apostando tudo no digital. A reação, sem surpresa, foi muito ruim em todo o estagiário...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/the-internet-reacts-to-playstation-killing-off-physical-media"
+    },
+    {
+      "id": "https://www.techpowerup.com/350450/edifier-unveils-the-g5-max-wireless-gaming-headset",
+      "title": "(PR) Edifier lança headset para jogos sem fio G5 MAX",
+      "original_title": "(PR) Edifier Unveils the G5 MAX Wireless Gaming Headset",
+      "image": "https://tpucdn.com/img/eFDrbaZ8pgZFXeCu_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-06-30",
-      "summary": "A AMD teria informado seus parceiros de placa adicional de GPU (AIB) que um aumento de preço é iminente, de acordo com um relatório da Chinese Board Channels. O relatório afirma que a AMD está preparando um aumento de 10% no preço de seus kits de GPU, que incluem um chip de GPU e...",
+      "date": "2026-07-01",
+      "summary": "Edifier International, o premiado designer de eletrônicos de áudio, anuncia o lançamento de sua mais recente inovação, o headset para jogos sem fio G5 MAX, redefinindo o áudio envolvente para jogos com desempenho acústico de nível profissional e latência ultrabaixa.",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350427/amd-to-raise-radeon-gpu-kit-prices-by-10-in-july"
+      "url": "https://www.techpowerup.com/350450/edifier-unveils-the-g5-max-wireless-gaming-headset"
+    },
+    {
+      "id": "https://www.techpowerup.com/350449/samsung-prepares-1-4-nm-node-for-mass-production-in-2029",
+      "title": "Samsung prepara nó de 1,4 nm para produção em massa em 2029",
+      "original_title": "Samsung Prepares 1.4 nm Node for Mass Production in 2029",
+      "image": "https://tpucdn.com/img/jpOxRtqF3qWoy05g_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-07-01",
+      "summary": "A Samsung deve iniciar a produção em massa de seu nó de 1,4 nm em 2029, de acordo com relatórios recentes do meio de comunicação sul-coreano The Bell. Inicialmente, a Samsung pretendia a produção em massa em 2028, mas isso foi adiado para 2029 devido à expansão da m...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/350449/samsung-prepares-1-4-nm-node-for-mass-production-in-2029"
     }
   ]
 }
