@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-07-03T14:03:22",
-  "display_date": "03/07/2026 14:03",
+  "last_updated": "2026-07-04T13:26:15",
+  "display_date": "04/07/2026 13:26",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "567ms",
+    "latency": "198ms",
     "current_games": [
       {
         "title": "River City Girls 2",
@@ -32,15 +32,6 @@
         "image": "https://cdn1.epicgames.com/spt-assets/9a2764693c414ecda63d8f785452a4bb/nova-lands-offer-16wzy.png",
         "url": "https://store.epicgames.com/p/acb83bd813054e599598de9e76f6d95d",
         "price": "$19.99",
-        "start_date": "2026-07-09T15:00:00.000Z",
-        "end_date": "2026-07-16T15:00:00.000Z"
-      },
-      {
-        "title": "Nova Lands",
-        "description": "Nova Lands é um jogo de construção de fábricas, exploração e gerenciamento de ilhas. Explore, participe de combates e automatize sua indústria. O planeta em que você está está cheio de mistérios, criaturas, pessoas e coisas para fazer. Bem-vindo à sua nova casa entre as estrelas!",
-        "image": "https://cdn1.epicgames.com/spt-assets/9a2764693c414ecda63d8f785452a4bb/nova-lands-offer-16wzy.png",
-        "url": "https://store.epicgames.com/p/acb83bd813054e599598de9e76f6d95d",
-        "price": "$19.99",
         "start_date": "2026-07-16T15:00:00.000Z",
         "end_date": "2026-07-30T15:00:00.000Z"
       },
@@ -52,6 +43,15 @@
         "price": "$19.99",
         "start_date": "2026-09-03T15:00:00.000Z",
         "end_date": "2026-09-17T15:00:00.000Z"
+      },
+      {
+        "title": "Nova Lands",
+        "description": "Nova Lands é um jogo de construção de fábricas, exploração e gerenciamento de ilhas. Explore, participe de combates e automatize sua indústria. O planeta em que você está está cheio de mistérios, criaturas, pessoas e coisas para fazer. Bem-vindo à sua nova casa entre as estrelas!",
+        "image": "https://cdn1.epicgames.com/spt-assets/9a2764693c414ecda63d8f785452a4bb/nova-lands-offer-16wzy.png",
+        "url": "https://store.epicgames.com/p/acb83bd813054e599598de9e76f6d95d",
+        "price": "$19.99",
+        "start_date": "2026-07-09T15:00:00.000Z",
+        "end_date": "2026-07-16T15:00:00.000Z"
       },
       {
         "title": "Eternal Threads",
@@ -95,8 +95,8 @@
         "image": "https://cdn1.epicgames.com/spt-assets/0b68dfc82a014fe2ac9971f13e0e3ce5/tattoo-tycoon-11qwx.jpg",
         "url": "https://store.epicgames.com/p/tattoo-tycoon",
         "price": "$29.99",
-        "start_date": "2026-07-09T15:00:00.000Z",
-        "end_date": "2026-07-16T15:00:00.000Z"
+        "start_date": "2026-09-24T15:00:00.000Z",
+        "end_date": "2026-10-08T15:00:00.000Z"
       },
       {
         "title": "Tattoo Tycoon",
@@ -104,8 +104,8 @@
         "image": "https://cdn1.epicgames.com/spt-assets/0b68dfc82a014fe2ac9971f13e0e3ce5/tattoo-tycoon-11qwx.jpg",
         "url": "https://store.epicgames.com/p/tattoo-tycoon",
         "price": "$29.99",
-        "start_date": "2026-09-24T15:00:00.000Z",
-        "end_date": "2026-10-08T15:00:00.000Z"
+        "start_date": "2026-07-09T15:00:00.000Z",
+        "end_date": "2026-07-16T15:00:00.000Z"
       }
     ],
     "mystery_detected": false
@@ -119,7 +119,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "summary": "Uma aventura de ficção científica em pixel art ambientada em meio a uma rebelião contra um regime totalitário, LUNARK é uma versão moderna do gênero de plataformas cinematográficas 2D dos anos 90. Corra, pule, pendure-se, escale, role e atire em locais lindos e misteriosos!",
       "sources": [
         "Epic Games Store"
@@ -134,7 +134,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "summary": "O Allied Mastercomputer destruiu toda a humanidade, exceto cinco pessoas, que as manteve vivas e as torturou durante os últimos cento e nove anos, projetando aventuras virtuais baseadas em seus medos e fraquezas.",
       "sources": [
         "Epic Games Store"
@@ -149,22 +149,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-03",
-      "summary": "Disponível gratuitamente a partir de 09/07. Nova Lands é um jogo de construção de fábricas, exploração e gerenciamento de ilhas. Explore, participe de combates e automatize sua indústria. O planeta em que você está está cheio de mistérios, criaturas, pessoas e coisas para fazer. Bem-vindo à sua nova casa entre as estrelas!",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/acb83bd813054e599598de9e76f6d95d"
-    },
-    {
-      "id": "https://store.epicgames.com/p/acb83bd813054e599598de9e76f6d95d",
-      "title": "EM BREVE: Nova Lands",
-      "original_title": "Nova Lands",
-      "image": "https://cdn1.epicgames.com/spt-assets/9a2764693c414ecda63d8f785452a4bb/nova-lands-offer-16wzy.png",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "summary": "Disponível gratuitamente a partir de 16/07. Nova Lands é um jogo de construção de fábricas, exploração e gerenciamento de ilhas. Explore, participe de combates e automatize sua indústria. O planeta em que você está está cheio de mistérios, criaturas, pessoas e coisas para fazer. Bem-vindo à sua nova casa entre as estrelas!",
       "sources": [
         "Epic Games Store"
@@ -179,8 +164,23 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "summary": "Disponível gratuitamente a partir de 03/09. Nova Lands é um jogo de construção de fábricas, exploração e gerenciamento de ilhas. Explore, participe de combates e automatize sua indústria. O planeta em que você está está cheio de mistérios, criaturas, pessoas e coisas para fazer. Bem-vindo à sua nova casa entre as estrelas!",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/acb83bd813054e599598de9e76f6d95d"
+    },
+    {
+      "id": "https://store.epicgames.com/p/acb83bd813054e599598de9e76f6d95d",
+      "title": "EM BREVE: Nova Lands",
+      "original_title": "Nova Lands",
+      "image": "https://cdn1.epicgames.com/spt-assets/9a2764693c414ecda63d8f785452a4bb/nova-lands-offer-16wzy.png",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-07-04",
+      "summary": "Disponível gratuitamente a partir de 09/07. Nova Lands é um jogo de construção de fábricas, exploração e gerenciamento de ilhas. Explore, participe de combates e automatize sua indústria. O planeta em que você está está cheio de mistérios, criaturas, pessoas e coisas para fazer. Bem-vindo à sua nova casa entre as estrelas!",
       "sources": [
         "Epic Games Store"
       ],
@@ -194,7 +194,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "summary": "Disponível gratuitamente a partir de 16/07. Eternal Threads é um jogo de quebra-cabeça para um jogador, em primeira pessoa, baseado em uma história de manipulação, escolha e consequência do tempo.",
       "sources": [
         "Epic Games Store"
@@ -209,7 +209,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "summary": "Disponível gratuitamente a partir de 16/07. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
       "sources": [
         "Epic Games Store"
@@ -224,7 +224,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "summary": "Disponível gratuitamente a partir de 16/09. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
@@ -239,7 +239,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-03",
+      "date": "2026-07-04",
       "summary": "Disponível gratuitamente a partir de 16/07. A Coleção de Aniversário de Castlevania da Konami traça as origens da histórica franquia de vampiros. Está incluído um e-book exclusivo com detalhes fornecidos por desenvolvedores, artistas e outros inspirados no legado de Castlevania, que lança uma nova luz sobre o mundo de Castlevania.",
       "sources": [
         "Epic Games Store"
@@ -254,8 +254,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-03",
-      "summary": "Disponível gratuitamente a partir de 09/07. Torne-se um tatuador e gerencie seu próprio estúdio de tatuagem. Encontre os melhores designs para seus clientes, transformando suas ideias vagas em impressionantes obras de arte corporal. Expanda de um estúdio pessoal aconchegante para um próspero negócio com vários salões nos diversos distritos de Tattuga Bay.",
+      "date": "2026-07-04",
+      "summary": "Disponível gratuitamente a partir de 24/09. Torne-se um tatuador e gerencie seu próprio estúdio de tatuagem. Encontre os melhores designs para seus clientes, transformando suas ideias vagas em impressionantes obras de arte corporal. Expanda de um estúdio pessoal aconchegante para um próspero negócio com vários salões nos diversos distritos de Tattuga Bay.",
       "sources": [
         "Epic Games Store"
       ],
@@ -269,12 +269,87 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-03",
-      "summary": "Disponível gratuitamente a partir de 24/09. Torne-se um tatuador e gerencie seu próprio estúdio de tatuagem. Encontre os melhores designs para seus clientes, transformando suas ideias vagas em impressionantes obras de arte corporal. Expanda de um estúdio pessoal aconchegante para um próspero negócio com vários salões nos diversos distritos de Tattuga Bay.",
+      "date": "2026-07-04",
+      "summary": "Disponível gratuitamente a partir de 09/07. Torne-se um tatuador e gerencie seu próprio estúdio de tatuagem. Encontre os melhores designs para seus clientes, transformando suas ideias vagas em impressionantes obras de arte corporal. Expanda de um estúdio pessoal aconchegante para um próspero negócio com vários salões nos diversos distritos de Tattuga Bay.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/tattoo-tycoon"
+    },
+    {
+      "id": "https://www.eurogamer.net/what-weve-been-playing-i-lost-my-best-clothes-and-switch-2",
+      "title": "What we've been playing - \"As a result, I lost all my best clothes and my Switch 2\"",
+      "original_title": "What we've been playing - \"As a result, I lost all my best clothes and my Switch 2\"",
+      "image": "https://assetsio.gnwcdn.com/backpack-2-AdobeStock_1834483402.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-07-04",
+      "summary": " Hello and welcome back to our regular feature where we write a little about the games we've been playing. This week, Sherif determines whether the Battlefield 6 changes have actually changed the game as Battlefield Studios hoped; Dom has a great wee...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/what-weve-been-playing-i-lost-my-best-clothes-and-switch-2"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1un60x4/jason_schreier_jerk_gustafsson_became_studio/",
+      "title": "Jason Schreier: Jerk Gustafsson tornou-se diretor de estúdio da Arkane em julho de 2025, não recentemente.",
+      "original_title": "Jason Schreier: Jerk Gustafsson became studio director of Arkane in July 2025, not recently.",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-07-04",
+      "summary": "Essa resposta veio após uma reportagem que ele assumiu recentemente. Fonte: https://bsky.app/profile/jasonschreier.bsky.social/post/3mpsv5i7w6s2v enviado por /u/Loose_Society9485 [link] [comentários]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1un60x4/jason_schreier_jerk_gustafsson_became_studio/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1un0x27/indiana_jones_game_director_and_machinegames/",
+      "title": "O diretor de jogos de Indiana Jones e o diretor do MachineGames Studio tornam-se presidente da Arkane Studios.",
+      "original_title": "Indiana Jones Game Director, and MachineGames Studio Director becomes President of Arkane Studios.",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-07-04",
+      "summary": "Isso provavelmente significa que Arkane não será desligado, mas levanta questões sobre o que aconteceu com Blade. Ou talvez MachineGames e Arkane se fundam? https://xcancel.com/i/status/2073262128505495751 enviado por /u/IlyasBT [link] [comentário...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1un0x27/indiana_jones_game_director_and_machinegames/"
+    },
+    {
+      "id": "https://www.eurogamer.net/scopely-investment-studio-auknow-saudi",
+      "title": "A Scopely, de propriedade da Arábia Saudita, continua sua onda de investimentos móveis com Umamusame: a nova empresa do diretor do Pretty Derby, Studio AuKnow",
+      "original_title": "Saudi Arabia-owned Scopely continues its mobile investment spree with Umamusame: Pretty Derby director's new company Studio AuKnow",
+      "image": "https://assetsio.gnwcdn.com/screenshot-from-Umamusume-Pretty-Derby-showing-female-anime-characters-racing.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-07-03",
+      "summary": "A gigante de jogos para celular Scopely fez um “investimento estratégico” no Studio Auknow, uma nova empresa formada pelo ex-diretor da Umamusame: Pretty Derby. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/scopely-investment-studio-auknow-saudi"
+    },
+    {
+      "id": "https://www.eurogamer.net/clair-obscur-expedition-33-studio-sandfall-isnt-bothered-refreshing-thing",
+      "title": "Clair Obscur: O estúdio Expedition 33, Sandfall, não se incomoda com o fato de as pessoas não gostarem de seu próximo jogo, e isso é a coisa mais revigorante que ouvi durante toda a semana",
+      "original_title": "Clair Obscur: Expedition 33 studio Sandfall isn't bothered that people may not like its next game, and that's the most refreshing thing I've heard all week",
+      "image": "https://assetsio.gnwcdn.com/broche-header.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-07-03",
+      "summary": "\"Talvez as pessoas não gostem. A vida é assim\", diz Clair Obscur: diretor da Expedition 33 e fundador da Sandfall Interactive, Guillaume Broche, quando questionado sobre o jogo do segundo ano do estúdio, ainda a ser revelado - seu segundo jogo. \"Não fizemos o primeiro jogo...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/clair-obscur-expedition-33-studio-sandfall-isnt-bothered-refreshing-thing"
     },
     {
       "id": "https://www.eurogamer.net/cinder-city-64-gb-ram-requirement-new-gpu-update",
@@ -382,49 +457,109 @@
       "url": "https://www.eurogamer.net/pride-week-baldurs-gate-3-lesbian-stories"
     },
     {
-      "id": "https://www.eurogamer.net/final-fantasy-7-revelation-dlc-pack-leak-story-expansions",
-      "title": "O jogo final do remake de Final Fantasy 7, Revelation, pode não ser realmente o fim da história, sugerem listagens de DLC vazadas",
-      "original_title": "The final Final Fantasy 7 remake game Revelation may not actually be the end of the story, leaked DLC listings suggest",
-      "image": "https://assetsio.gnwcdn.com/New-Summer-Game-Fest-2026-Header.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ums2ji/halo_project_ekur_cancelled_leaks/",
+      "title": "Projeto Halo ekur cancelou vazamentos",
+      "original_title": "Halo project ekur cancelled leaks",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
       "category": "Rumor",
       "date": "2026-07-03",
-      "summary": "Final Fantasy 7 Revelation está definido para terminar a história que começou em 2020 com o Final Fantasy 7 Remake original. Mas esse final pode não ser tão definitivo quanto você esperava. Leia mais...",
+      "summary": "- Depois de fazer alguns vídeos recentes de vazamento do projeto Ekur que estavam gerando buzz online, três desenvolvedores atuais do Halo Studios entraram em contato com Rebs apenas alguns dias atrás e confirmaram que o projeto Ekur foi cancelado. - Os Devs revelaram que Ekur era 100% real e...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/final-fantasy-7-revelation-dlc-pack-leak-story-expansions"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ums2ji/halo_project_ekur_cancelled_leaks/"
     },
     {
-      "id": "https://www.techpowerup.com/350491/thermaltake-intros-dr-power-iii-pro-tester-for-atx-3-1-psus",
-      "title": "Thermaltake apresenta testador Dr. Power III Pro para fontes de alimentação ATX 3.1",
-      "original_title": "Thermaltake Intros Dr. Power III Pro Tester for ATX 3.1 PSUs",
-      "image": "https://tpucdn.com/img/9cl4WVxQY8Cnt8m6_thm.jpg",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1umajk4/billbilkun_xbox_cancelled_an_ad_campaign_in_2025/",
+      "title": "Billbil-kun: Xbox cancelou uma campanha publicitária em 2025 destacando as vantagens dos jogos físicos versus digitais",
+      "original_title": "Billbil-kun: Xbox cancelled an ad campaign in 2025 highlighting the advantages of physical vs digital games",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-07-03",
+      "summary": "https://www.dealabs.com/magazine/cette-publicite-xbox-jamais-diffusee-qui-prend-une-toute-autre-saveur-aujourdhui-61528 As partes mais relevantes do artigo abaixo: No início de 2025, nos deparamos com um anúncio do Xbox destacando as vantagens de ...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1umajk4/billbilkun_xbox_cancelled_an_ad_campaign_in_2025/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1umpdtn/new_look_at_jubilee_in_marvel_rivals_leaked_via/",
+      "title": "Novo visual do Jubileu em Marvel Rivals vazou (via MultiverSusie)",
+      "original_title": "New look at Jubilee in Marvel Rivals leaked (via MultiverSusie)",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Rumor",
+      "date": "2026-07-03",
+      "summary": "https://xcancel.com/multiversusie/status/2073132011842125842?s=46 Mais algumas informações: -A imagem acima é apenas uma skin para ela (muito provavelmente baseada em sua personalidade de Vampiro ou algo relacionado ao Apocalipse) -America Chavez não está planejada atualmente -J...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1umpdtn/new_look_at_jubilee_in_marvel_rivals_leaked_via/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1umeu3h/editor_in_chief_of_knowledge_edge_industry/",
+      "title": "Editor-chefe de conhecimento (Edge Industry Newsletter): Foi informado ontem à noite que a Rare está no mercado",
+      "original_title": "Editor in Chief of Knowledge (Edge Industry Newsletter): Was told last night that Rare’s on the block",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-07-03",
+      "summary": "https://www.resetera.com/threads/knowledge-we-understand-that-rare-may-be-affected-in-any-restructuring-eic-says-rare-is-on-the-block.1568068/ O boletim informativo afirma que “Entendemos que a Rare pode ser afetada em qualquer reestruturação”, afirmou Patrick Garratt...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1umeu3h/editor_in_chief_of_knowledge_edge_industry/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1um4rio/jeff_grubb_obsidian_closurebuyout_was_going/",
+      "title": "Jeff Grubb: \"[fechamento/compra da Obsidian] estava acontecendo dentro da Microsoft\"",
+      "original_title": "Jeff Grubb: \"[Obsidian closure/buyout] was going around inside Microsoft\"",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-07-03",
+      "summary": "Grubb abordou a situação da Obsidian no último episódio de seu podcast Game Mess Decides, o tldr foi que ele verificou com suas fontes e confirmou que pelo menos em um ponto a Obsidian estava em discussão para ser fechada ou vendida. Parece que, ...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1um4rio/jeff_grubb_obsidian_closurebuyout_was_going/"
+    },
+    {
+      "id": "https://www.techpowerup.com/350506/samsung-readies-ssd-990-value-gen-4-nvme-ssd",
+      "title": "Samsung prepara SSD 990 Value Gen 4 NVMe",
+      "original_title": "Samsung Readies SSD 990 Value Gen 4 NVMe SSD",
+      "image": "https://tpucdn.com/img/Pg7SuRl6T0Fx0YZr_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-07-03",
-      "summary": "A Thermaltake apresentou hoje o Dr. Power III Pro (modelo: AC-083-OO1NAN-A1), uma ferramenta útil para testar fontes de alimentação ATX 3.1 modernas. Isso foi apresentado pela primeira vez pela Thermaltake na CES 2026. O testador permite verificar tensões e estabilidade dos vários...",
+      "summary": "A Samsung está dando os retoques finais no SSD 990, um novo SSD M.2 NVMe Gen 4 que ocupa o segmento de valor da linha de SSDs clientes da empresa. O 990 não deve ser confundido com o 990 EVO Plus, que era o segmento de desempenho sem DRAM da empresa...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350491/thermaltake-intros-dr-power-iii-pro-tester-for-atx-3-1-psus"
+      "url": "https://www.techpowerup.com/350506/samsung-readies-ssd-990-value-gen-4-nvme-ssd"
     },
     {
-      "id": "https://www.techpowerup.com/350490/attack-shark-launches-r98-he-magnetic-switch-keyboard",
-      "title": "(PR) Attack Shark lança teclado magnético R98 HE",
-      "original_title": "(PR) Attack Shark Launches R98 HE Magnetic Switch Keyboard",
-      "image": "https://tpucdn.com/img/mvbNX9isPOBz5E7e_thm.jpg",
+      "id": "https://www.techpowerup.com/350500/epomaker-launches-nex-pro-gaming-mouse-and-he65-v2-tmr-keyboard",
+      "title": "Epomaker lança mouse para jogos NEX Pro e teclado HE65 V2 TMR",
+      "original_title": "Epomaker Launches NEX Pro Gaming Mouse and HE65 V2 TMR Keyboard",
+      "image": "https://tpucdn.com/img/Z3oACwAftB8Yyb8y_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-07-03",
-      "summary": "A marca de periféricos para jogos ATTACK SHARK anunciou o lançamento de seu R98 HE, um novo teclado de switch magnético competitivo projetado para elevar o padrão para teclados de switch magnético de efeito hall de última geração. Visando jogos profissionais, escritório ...",
+      "summary": "Depois de lançar o HE65 V2 no início de junho, a Epomaker finalmente lançou o teclado compacto para jogos TMR de 65%, disponibilizando-o em preto ou branco por US$ 99,99 na loja online Epomaker ou na Amazon. O HE65 V2 TMR, como o nome sugere, é um TMR de 65%...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350490/attack-shark-launches-r98-he-magnetic-switch-keyboard"
+      "url": "https://www.techpowerup.com/350500/epomaker-launches-nex-pro-gaming-mouse-and-he65-v2-tmr-keyboard"
     },
     {
       "id": "https://www.techpowerup.com/350385/godeal24-unveils-midsummer-sale-get-windows-11-office-2024-for-just-usd-31-91",
@@ -442,34 +577,34 @@
       "url": "https://www.techpowerup.com/350385/godeal24-unveils-midsummer-sale-get-windows-11-office-2024-for-just-usd-31-91"
     },
     {
-      "id": "https://www.techpowerup.com/350489/gmktec-launches-evo-x3-ai-workstation-with-amd-ryzen-ai-max-395",
-      "title": "(PR) GMKtec lança estação de trabalho EVO-X3 AI com AMD Ryzen AI Max+ 395",
-      "original_title": "(PR) GMKtec Launches EVO-X3 AI Workstation with AMD Ryzen AI Max+ 395",
-      "image": "https://tpucdn.com/img/O1iWY7ZbKbdE2oT1_thm.jpg",
+      "id": "https://www.techpowerup.com/350503/system76-announces-new-adder-pro-15-3-inch-performance-laptop-series",
+      "title": "System76 anuncia nova série de laptops de desempenho Adder Pro de 15,3 polegadas",
+      "original_title": "System76 Announces New Adder Pro 15.3-inch Performance Laptop Series",
+      "image": "https://tpucdn.com/img/nM2jWSGdxzQBj3Xe_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-07-03",
-      "summary": "GMKtec lançou oficialmente a estação de trabalho EVO-X3 AI, um sistema de desktop compacto equipado com o processador AMD Ryzen AI Max+ 395, voltado para desenvolvedores, profissionais de IA, criadores e usuários que exigem desempenho de classe de estação de trabalho para tarefas de IA locais.",
+      "summary": "System76 está preparando uma nova versão de sua série de laptops de desempenho Adder Pro. A empresa de Denver, Colorado, que se inclina principalmente para usuários de Linux, está oferecendo este novo modelo de 15,3 polegadas com Intel Panther Lake Core Ultra 7 356H, 16 núcleos (4P + 8E + 4LPE), 4...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350489/gmktec-launches-evo-x3-ai-workstation-with-amd-ryzen-ai-max-395"
+      "url": "https://www.techpowerup.com/350503/system76-announces-new-adder-pro-15-3-inch-performance-laptop-series"
     },
     {
-      "id": "https://www.techpowerup.com/350487/intel-solves-18a-yield-issues-production-reaches-30-000-wafers-per-month",
-      "title": "Intel resolve problemas de rendimento 18A, produção atinge 30.000 wafers por mês",
-      "original_title": "Intel Solves 18A Yield Issues, Production Reaches 30,000 Wafers Per Month",
-      "image": "https://tpucdn.com/img/gfEHyS4SZJ4YcX8t_thm.jpg",
+      "id": "https://www.techpowerup.com/350502/intel-readies-two-22-core-nova-lake-s-skus-with-108-mb-bllc-cache-for-gaming",
+      "title": "Intel prepara dois SKUs “Nova Lake-S” de 22 núcleos com cache bLLC de 108 MB para jogos",
+      "original_title": "Intel Readies Two 22-Core \"Nova Lake-S\" SKUs with 108 MB bLLC Cache for Gaming",
+      "image": "https://tpucdn.com/img/RRwacBx4hCj5RJkn_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-07-03",
-      "summary": "A Intel supostamente resolveu todos os problemas de rendimento enfrentados com seu nó 18A nos últimos meses. De acordo com a empresa de pesquisa de ações do lado vendedor BlueFin Research Partners, a Intel corrigiu esses problemas de rendimento, tornando a produção em alto volume...",
+      "summary": "De acordo com o conhecido vazador da Intel Jaykihn, a Intel está preparando dois modelos de CPU “Nova Lake-S” com configuração de 22 núcleos, aprimorados pelo grande Last Level Cache (bLLC). Esses processadores fazem parte da família Core Ultra 5 400S e a Intel está desenvolvendo...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350487/intel-solves-18a-yield-issues-production-reaches-30-000-wafers-per-month"
+      "url": "https://www.techpowerup.com/350502/intel-readies-two-22-core-nova-lake-s-skus-with-108-mb-bllc-cache-for-gaming"
     },
     {
       "id": "https://www.techpowerup.com/350180/get-office-2024-and-an-8-course-training-bundle-for-usd-116",
@@ -487,64 +622,34 @@
       "url": "https://www.techpowerup.com/350180/get-office-2024-and-an-8-course-training-bundle-for-usd-116"
     },
     {
-      "id": "https://www.techpowerup.com/350486/ai-server-demand-continues-to-support-memory-prices-in-3q26-but-gains-moderate-as-consumer-demand-weakens-and-high-base-effects-take-hold",
-      "title": "(PR) A demanda por servidores de IA continua a sustentar os preços de memória no 3T26, mas ganha moderadamente à medida que a demanda do consumidor enfraquece e os altos efeitos de base se instalam",
-      "original_title": "(PR) AI Server Demand Continues to Support Memory Prices in 3Q26, but Gains Moderate as Consumer Demand Weakens and High Base Effects Take Hold",
-      "image": "https://tpucdn.com/img/nnEaVSYjoLgbjg19_thm.jpg",
+      "id": "https://www.techpowerup.com/350501/yunzii-introduces-new-colorways-for-b75-pro-mechanical-keyboard",
+      "title": "(PR) Yunzii apresenta novas cores para teclado mecânico B75 PRO",
+      "original_title": "(PR) Yunzii Introduces New Colorways for B75 PRO Mechanical Keyboard",
+      "image": "https://tpucdn.com/img/jdWint1AXPhXMObG_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-07-03",
-      "summary": "A última pesquisa de preços de memória da TrendForce revela que o mercado de DRAM permanecerá extremamente apertado no terceiro trimestre de 2026. No entanto, espera-se que a demanda mais fraca por parte de aplicativos de consumo e o impacto de uma base de comparação mais alta moderem as con...",
+      "summary": "O querido Yunzii B75 PRO dá as boas-vindas a uma coleção de lindas novas cores, trazendo ainda mais personalidade a um de nossos teclados mecânicos mais populares. Quer sua configuração seja limpa e minimalista ou colorida e expressiva, agora há um novo...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350486/ai-server-demand-continues-to-support-memory-prices-in-3q26-but-gains-moderate-as-consumer-demand-weakens-and-high-base-effects-take-hold"
+      "url": "https://www.techpowerup.com/350501/yunzii-introduces-new-colorways-for-b75-pro-mechanical-keyboard"
     },
     {
-      "id": "https://www.eurogamer.net/ontos-delayed-to-2027",
-      "title": "O próximo jogo do desenvolvedor Soma, Ontos, foi adiado para 2027 para cumprir a visão “ambiciosa” do estúdio",
-      "original_title": "Soma dev's next game, Ontos, delayed to 2027 in order to deliver on studio's \"ambitious\" vision",
-      "image": "https://assetsio.gnwcdn.com/ontos-space-suit.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-07-02",
-      "summary": "Frictional Games – o desenvolvedor sueco por trás de Soma e Amnesia: The Dark Descent – ​​anunciou que seu próximo lançamento, Ontos, será adiado para 2027. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/ontos-delayed-to-2027"
-    },
-    {
-      "id": "https://www.eurogamer.net/steam-machine-arrived-unboxing",
-      "title": "A primeira onda de Steam Machines finalmente chegou, mas quem não tem fica de olho na lista de espera",
-      "original_title": "The first wave of Steam Machines has arrived at long last, but those without are left watching the waitlist",
-      "image": "https://assetsio.gnwcdn.com/Steam-Machine-Price-Header.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-07-02",
-      "summary": "A primeira onda de Steam Machines chegou às mãos dos primeiros usuários. Mas enquanto alguns comemoram seu novo brinquedo, outros ficam olhando para a lista de espera. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/steam-machine-arrived-unboxing"
-    },
-    {
-      "id": "https://www.techpowerup.com/350483/sandisk-announces-sampling-of-bics10-1-tb-tlc-3d-nand-flash-memory",
-      "title": "(PR) Sandisk Anuncia Amostragem de Memória Flash BiCS10 1 Tb TLC 3D NAND",
-      "original_title": "(PR) Sandisk Announces Sampling of BiCS10 1 Tb TLC 3D NAND Flash Memory",
-      "image": "https://tpucdn.com/img/ZsFkPpoDPiRuM5gZ_thm.jpg",
+      "id": "https://www.techpowerup.com/350499/razer-announces-wuthering-waves-gaming-peripherals-collection",
+      "title": "(PR) Razer anuncia coleção de periféricos para jogos Wuthering Waves",
+      "original_title": "(PR) Razer Announces Wuthering Waves Gaming Peripherals Collection",
+      "image": "https://tpucdn.com/img/LOwClCcwG4as8EsX_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-02",
-      "summary": "A Sandisk Corporation (Nasdaq: SNDK) anunciou hoje que está testando seu BiCS10 1 Tb TLC, sua tecnologia de memória flash 3D NAND de 10ª geração. BiCS10 aplica técnicas avançadas de escalonamento lateral para alcançar maior densidade de memória TLC de 1 Tb líder do setor...",
+      "date": "2026-07-03",
+      "summary": "A Razer, marca líder global em estilo de vida para gamers, anunciou hoje o Razer | Coleção Wuthering Waves, criada em colaboração com Kuro Games. Inspirada no mais novo Resonator do jogo, Denia, a coleção marca a primeira formação oficial de ...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350483/sandisk-announces-sampling-of-bics10-1-tb-tlc-3d-nand-flash-memory"
+      "url": "https://www.techpowerup.com/350499/razer-announces-wuthering-waves-gaming-peripherals-collection"
     },
     {
       "id": "https://www.techpowerup.com/350181/this-usd-79-lifetime-deal-replaces-your-chatgpt-claude-and-gemini-subscriptions",
@@ -554,7 +659,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-02",
+      "date": "2026-07-03",
       "summary": "Alternar entre ChatGPT, Claude, Gemini e um punhado de outras ferramentas de IA apenas para chegar a uma resposta sólida significa que você está pagando por recursos sobrepostos várias vezes, facilmente de US$ 60 a US$ 80 por mês, ou centenas por ano. ChatPlayground AI não ...",
       "sources": [
         "TechPowerUp"
@@ -562,19 +667,34 @@
       "url": "https://www.techpowerup.com/350181/this-usd-79-lifetime-deal-replaces-your-chatgpt-claude-and-gemini-subscriptions"
     },
     {
-      "id": "https://www.techpowerup.com/350482/kioxia-commences-sample-shipments-of-10th-generation-bics-flash-devices",
-      "title": "(PR) Kioxia inicia remessas de amostras de dispositivos BiCS FLASH de 10ª geração",
-      "original_title": "(PR) Kioxia Commences Sample Shipments of 10th-Generation BiCS FLASH Devices",
-      "image": "https://tpucdn.com/img/vcjsXechdDwYhZEC_thm.jpg",
+      "id": "https://www.techpowerup.com/350491/thermaltake-intros-dr-power-iii-pro-tester-for-atx-3-1-psus",
+      "title": "Thermaltake apresenta testador Dr. Power III Pro para fontes de alimentação ATX 3.1",
+      "original_title": "Thermaltake Intros Dr. Power III Pro Tester for ATX 3.1 PSUs",
+      "image": "https://tpucdn.com/img/9cl4WVxQY8Cnt8m6_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-02",
-      "summary": "A Kioxia Corporation, líder mundial em soluções de memória, anunciou hoje que iniciou remessas de amostras de dispositivos de memória Triple-Level-Cell (TLC) de 1 Tb (terabit) utilizando sua tecnologia de memória flash BiCS FLASH 3D de 10ª geração. Estes serão...",
+      "date": "2026-07-03",
+      "summary": "A Thermaltake apresentou hoje o Dr. Power III Pro (modelo: AC-083-OO1NAN-A1), uma ferramenta útil para testar fontes de alimentação ATX 3.1 modernas. Isso foi apresentado pela primeira vez pela Thermaltake na CES 2026. O testador permite verificar tensões e estabilidade dos vários...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350482/kioxia-commences-sample-shipments-of-10th-generation-bics-flash-devices"
+      "url": "https://www.techpowerup.com/350491/thermaltake-intros-dr-power-iii-pro-tester-for-atx-3-1-psus"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ultyqo/rebs_gaming_part_of_the_reason_for_the_xbox/",
+      "title": "(Rebs Gaming) Parte do motivo das demissões do Xbox e do fechamento de estúdios é fornecer mais financiamento/suporte para Halo e outras franquias icônicas",
+      "original_title": "(Rebs Gaming) Part of the reason for the Xbox layoffs and studio closures is providing more funding/support to Halo and other iconic franchises",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-07-02",
+      "summary": "https://xcancel.com/mr_rebs_/status/2072747400091897886?s=46&t=w6MCvnDcs7N074ZG11kKUA enviado por /u/SilentNova300 [link] [comentários]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ultyqo/rebs_gaming_part_of_the_reason_for_the_xbox/"
     }
   ]
 }
