@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-07-08T14:04:59",
-  "display_date": "08/07/2026 14:04",
+  "last_updated": "2026-07-09T14:57:58",
+  "display_date": "09/07/2026 14:57",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "240ms",
+    "latency": "435ms",
     "current_games": [
       {
         "title": "River City Girls 2",
@@ -32,8 +32,8 @@
         "image": "https://cdn1.epicgames.com/spt-assets/9a2764693c414ecda63d8f785452a4bb/nova-lands-offer-16wzy.png",
         "url": "https://store.epicgames.com/p/acb83bd813054e599598de9e76f6d95d",
         "price": "$19.99",
-        "start_date": "2026-07-16T15:00:00.000Z",
-        "end_date": "2026-07-30T15:00:00.000Z"
+        "start_date": "2026-09-03T15:00:00.000Z",
+        "end_date": "2026-09-17T15:00:00.000Z"
       },
       {
         "title": "Nova Lands",
@@ -50,8 +50,8 @@
         "image": "https://cdn1.epicgames.com/spt-assets/9a2764693c414ecda63d8f785452a4bb/nova-lands-offer-16wzy.png",
         "url": "https://store.epicgames.com/p/acb83bd813054e599598de9e76f6d95d",
         "price": "$19.99",
-        "start_date": "2026-09-03T15:00:00.000Z",
-        "end_date": "2026-09-17T15:00:00.000Z"
+        "start_date": "2026-07-16T15:00:00.000Z",
+        "end_date": "2026-07-30T15:00:00.000Z"
       },
       {
         "title": "Eternal Threads",
@@ -99,6 +99,15 @@
         "end_date": "2026-07-30T15:00:00.000Z"
       },
       {
+        "title": "Luto",
+        "description": "Luto é uma experiência de terror psicológico onde você assume o papel de alguém que não consegue sair de casa. Cada tentativa de fuga o levará mais fundo no desconhecido, onde nada é o que parece e tudo testará seus sentidos.",
+        "image": "https://cdn1.epicgames.com/spt-assets/eda0432529164b29b8a659d627d660e4/luto-14zrp.png",
+        "url": "https://store.epicgames.com/p/67459b70a96e40ca96d5676d8a4fd8c5",
+        "price": "$19.99",
+        "start_date": "2026-07-16T15:00:00.000Z",
+        "end_date": "2026-07-23T15:00:00.000Z"
+      },
+      {
         "title": "Tattoo Tycoon",
         "description": "Torne-se um tatuador e gerencie seu próprio estúdio de tatuagem. Encontre os melhores designs para seus clientes, transformando suas ideias vagas em impressionantes obras de arte corporal. Expanda de um estúdio pessoal aconchegante para um próspero negócio com vários salões nos diversos distritos de Tattuga Bay.",
         "image": "https://cdn1.epicgames.com/spt-assets/0b68dfc82a014fe2ac9971f13e0e3ce5/tattoo-tycoon-11qwx.jpg",
@@ -115,6 +124,15 @@
         "price": "$29.99",
         "start_date": "2026-07-09T15:00:00.000Z",
         "end_date": "2026-07-16T15:00:00.000Z"
+      },
+      {
+        "title": "Echo Generation: Midnight Edition",
+        "description": "Lidere uma gangue de crianças para descobrir mistérios assustadores, lutar contra criaturas e explorar o lado sobrenatural de sua cidade natal em Echo Generation, uma aventura baseada em turnos ambientada nos anos 90.",
+        "image": "https://cdn1.epicgames.com/spt-assets/d85d8cbcd8bd43308d262ba62af5b5ce/echo-generation-midnight-edition-49ac1.jpg",
+        "url": "https://store.epicgames.com/p/cbf3f5857ec241bab03dbb7eb03efad8",
+        "price": "$24.99",
+        "start_date": "2026-07-16T15:00:00.000Z",
+        "end_date": "2026-07-23T15:00:00.000Z"
       }
     ],
     "mystery_detected": false
@@ -128,7 +146,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-07-08",
+      "date": "2026-07-09",
       "summary": "Uma aventura de ficção científica em pixel art ambientada em meio a uma rebelião contra um regime totalitário, LUNARK é uma versão moderna do gênero de plataformas cinematográficas 2D dos anos 90. Corra, pule, pendure-se, escale, role e atire em locais lindos e misteriosos!",
       "sources": [
         "Epic Games Store"
@@ -143,7 +161,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-07-08",
+      "date": "2026-07-09",
       "summary": "O Allied Mastercomputer destruiu toda a humanidade, exceto cinco pessoas, que as manteve vivas e as torturou durante os últimos cento e nove anos, projetando aventuras virtuais baseadas em seus medos e fraquezas.",
       "sources": [
         "Epic Games Store"
@@ -158,8 +176,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-08",
-      "summary": "Disponível gratuitamente a partir de 16/07. Nova Lands é um jogo de construção de fábricas, exploração e gerenciamento de ilhas. Explore, participe de combates e automatize sua indústria. O planeta em que você está está cheio de mistérios, criaturas, pessoas e coisas para fazer. Bem-vindo à sua nova casa entre as estrelas!",
+      "date": "2026-07-09",
+      "summary": "Disponível gratuitamente a partir de 03/09. Nova Lands é um jogo de construção de fábricas, exploração e gerenciamento de ilhas. Explore, participe de combates e automatize sua indústria. O planeta em que você está está cheio de mistérios, criaturas, pessoas e coisas para fazer. Bem-vindo à sua nova casa entre as estrelas!",
       "sources": [
         "Epic Games Store"
       ],
@@ -173,7 +191,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-08",
+      "date": "2026-07-09",
       "summary": "Disponível gratuitamente a partir de 09/07. Nova Lands é um jogo de construção de fábricas, exploração e gerenciamento de ilhas. Explore, participe de combates e automatize sua indústria. O planeta em que você está está cheio de mistérios, criaturas, pessoas e coisas para fazer. Bem-vindo à sua nova casa entre as estrelas!",
       "sources": [
         "Epic Games Store"
@@ -188,8 +206,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-08",
-      "summary": "Disponível gratuitamente a partir de 03/09. Nova Lands é um jogo de construção de fábricas, exploração e gerenciamento de ilhas. Explore, participe de combates e automatize sua indústria. O planeta em que você está está cheio de mistérios, criaturas, pessoas e coisas para fazer. Bem-vindo à sua nova casa entre as estrelas!",
+      "date": "2026-07-09",
+      "summary": "Disponível gratuitamente a partir de 16/07. Nova Lands é um jogo de construção de fábricas, exploração e gerenciamento de ilhas. Explore, participe de combates e automatize sua indústria. O planeta em que você está está cheio de mistérios, criaturas, pessoas e coisas para fazer. Bem-vindo à sua nova casa entre as estrelas!",
       "sources": [
         "Epic Games Store"
       ],
@@ -203,7 +221,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-08",
+      "date": "2026-07-09",
       "summary": "Disponível gratuitamente a partir de 16/07. Eternal Threads é um jogo de quebra-cabeça para um jogador, em primeira pessoa, baseado em uma história de manipulação, escolha e consequência do tempo.",
       "sources": [
         "Epic Games Store"
@@ -218,7 +236,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-08",
+      "date": "2026-07-09",
       "summary": "Disponível gratuitamente a partir de 16/07. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
       "sources": [
         "Epic Games Store"
@@ -233,7 +251,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-08",
+      "date": "2026-07-09",
       "summary": "Disponível gratuitamente a partir de 16/07. The Old Ones Awaken adiciona novos níveis para explorar, novos inimigos para derrotar e novos chefes para enfrentar, juntamente com uma série de novas armas e equipamentos emocionantes para empunhar e usar.",
       "sources": [
         "Epic Games Store"
@@ -248,7 +266,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-08",
+      "date": "2026-07-09",
       "summary": "Disponível gratuitamente a partir de 16/09. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
@@ -263,12 +281,27 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-08",
+      "date": "2026-07-09",
       "summary": "Disponível gratuitamente a partir de 16/07. A Coleção de Aniversário de Castlevania da Konami traça as origens da histórica franquia de vampiros. Está incluído um e-book exclusivo com detalhes fornecidos por desenvolvedores, artistas e outros inspirados no legado de Castlevania, que lança uma nova luz sobre o mundo de Castlevania.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/32b3e0adbe0c4399be1874958194f97f"
+    },
+    {
+      "id": "https://store.epicgames.com/p/67459b70a96e40ca96d5676d8a4fd8c5",
+      "title": "EM BREVE: Luto",
+      "original_title": "Luto",
+      "image": "https://cdn1.epicgames.com/spt-assets/eda0432529164b29b8a659d627d660e4/luto-14zrp.png",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-07-09",
+      "summary": "Disponível gratuitamente a partir de 16/07. Luto é uma experiência de terror psicológico onde você assume o papel de alguém que não consegue sair de casa. Cada tentativa de fuga o levará mais fundo no desconhecido, onde nada é o que parece e tudo testará seus sentidos.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/67459b70a96e40ca96d5676d8a4fd8c5"
     },
     {
       "id": "https://store.epicgames.com/p/tattoo-tycoon",
@@ -278,7 +311,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-08",
+      "date": "2026-07-09",
       "summary": "Disponível gratuitamente a partir de 24/09. Torne-se um tatuador e gerencie seu próprio estúdio de tatuagem. Encontre os melhores designs para seus clientes, transformando suas ideias vagas em impressionantes obras de arte corporal. Expanda de um estúdio pessoal aconchegante para um próspero negócio com vários salões nos diversos distritos de Tattuga Bay.",
       "sources": [
         "Epic Games Store"
@@ -293,7 +326,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-08",
+      "date": "2026-07-09",
       "summary": "Disponível gratuitamente a partir de 09/07. Torne-se um tatuador e gerencie seu próprio estúdio de tatuagem. Encontre os melhores designs para seus clientes, transformando suas ideias vagas em impressionantes obras de arte corporal. Expanda de um estúdio pessoal aconchegante para um próspero negócio com vários salões nos diversos distritos de Tattuga Bay.",
       "sources": [
         "Epic Games Store"
@@ -301,169 +334,244 @@
       "url": "https://store.epicgames.com/p/tattoo-tycoon"
     },
     {
-      "id": "https://www.eurogamer.net/arc-raiders-new-matchmaking-playstyle-tracking-patch-1-36-0",
-      "title": "Arc Raiders apresenta rastreamento Solo, Duo e Trio separado para que você possa ser amigável em um e um rato nos outros",
-      "original_title": "Arc Raiders introduces separate Solo, Duo and Trio tracking so you can be friendly in one and a rat in the others",
-      "image": "https://assetsio.gnwcdn.com/arc-raiders-face.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://store.epicgames.com/p/cbf3f5857ec241bab03dbb7eb03efad8",
+      "title": "EM BREVE: Echo Generation: Midnight Edition",
+      "original_title": "Echo Generation: Midnight Edition",
+      "image": "https://cdn1.epicgames.com/spt-assets/d85d8cbcd8bd43308d262ba62af5b5ce/echo-generation-midnight-edition-49ac1.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-07-09",
+      "summary": "Disponível gratuitamente a partir de 16/07. Lidere uma gangue de crianças para descobrir mistérios assustadores, lutar contra criaturas e explorar o lado sobrenatural de sua cidade natal em Echo Generation, uma aventura baseada em turnos ambientada nos anos 90.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/cbf3f5857ec241bab03dbb7eb03efad8"
+    },
+    {
+      "id": "https://www.eurogamer.net/retail-shop-games-cheaper-report-sony-ending-playstation-discs",
+      "title": "Os jogos são quase sempre mais baratos nas lojas, diz novo relatório, no momento em que a Sony anuncia o fim dos discos PlayStation e coloca em questão o futuro dos varejistas",
+      "original_title": "Games are almost always cheaper in shops, says new report, just as Sony announces an end to PlayStation discs and brings retailers' futures into question",
+      "image": "https://assetsio.gnwcdn.com/ps-store-retail.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-08",
-      "summary": "Arc Raiders está evoluindo seu comportamento de matchmaking mais uma vez. A atualização mais recente do jogo introduziu um recurso que os jogadores solicitam há muito tempo. O patch 1.36.0, agora disponível para PC, PlayStation e Xbox, permite que o jogo monitore seu estilo de jogo separadamente para...",
+      "date": "2026-07-09",
+      "summary": "No início deste mês, a Sony anunciou que encerrará a fabricação de discos físicos do PlayStation a partir de janeiro de 2028. A decisão chocante significa lançamentos futuros, tanto da Sony Interactive Entertainment quanto de todas as outras editoras do planeta, com...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/arc-raiders-new-matchmaking-playstyle-tracking-patch-1-36-0"
+      "url": "https://www.eurogamer.net/retail-shop-games-cheaper-report-sony-ending-playstation-discs"
     },
     {
-      "id": "https://www.eurogamer.net/assassins-creed-black-flag-resynced-early-sales-shadows",
-      "title": "Assassin's Creed Black Flag Resynced ainda não zarpou, mas já está se saindo melhor que Shadows no Steam",
-      "original_title": "Assassin's Creed Black Flag Resynced hasn't set sail yet, but it's already doing better than Shadows on Steam",
-      "image": "https://assetsio.gnwcdn.com/AC-Black-Flag-Resynced---reaching-a-port.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/fallout-tv-show-emmy-nominations-2026",
+      "title": "A segunda temporada de Fallout foi indicada para mais Emmys, mesmo que seja significativamente menos do que da última vez",
+      "original_title": "Fallout's second season has been nominated for more Emmys, even if it's significantly fewer than last time",
+      "image": "https://assetsio.gnwcdn.com/fallout-season-2-goggins.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-08",
-      "summary": "Assassin's Creed Black Flag Resynced ainda nem foi lançado - Edward Kenway faz seu tão esperado retorno amanhã, 9 de julho - mas já está a caminho de ter um desempenho melhor do que Assassin's Creed Shadows do ano passado. Leia mais...",
+      "date": "2026-07-09",
+      "summary": "A segunda temporada da adaptação live-action de Fallout da Amazon pode ter sido um pouco divisiva, mas isso não a impediu de receber outro monte de indicações antes do prestigiado Emmy Awards deste ano. No total, o segundo de Fallout ...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/assassins-creed-black-flag-resynced-early-sales-shadows"
+      "url": "https://www.eurogamer.net/fallout-tv-show-emmy-nominations-2026"
     },
     {
-      "id": "https://www.eurogamer.net/mobile-games-mario-kart-tour-ff7-ever-crisis-shut-down",
-      "title": "O afastamento dos jogos para celular continua, já que Mario Kart Tour e Final Fantasy 7 Ever Crisis serão retirados do ar ainda este ano",
-      "original_title": "The retreat from mobile games continues as Mario Kart Tour and Final Fantasy 7 Ever Crisis will be taken offline later this year",
-      "image": "https://assetsio.gnwcdn.com/Mario-Kart-Tour-key-art.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/elder-scrolls-6-morale-bethesda-xbox-layoffs",
+      "title": "Até The Elder Scrolls 6 é afetado pelas demissões do Xbox, dizem os funcionários da Bethesda, à medida que pessoas “chave” são demitidas e o moral desce",
+      "original_title": "Even The Elder Scrolls 6 is affected by Xbox layoffs, say Bethesda employees, as \"key\" people are let go and morale bottoms out",
+      "image": "https://assetsio.gnwcdn.com/TESO-header.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-08",
-      "summary": "Parece haver um retrocesso nas adaptações móveis de grandes marcas de jogos em andamento. Desde o fechamento de Call of Duty: Warzone Mobile até a redução drástica das operações móveis da Sony, a corrida do ouro para adaptações ambiciosas de grandes IPs está diminuindo. E agora, ...",
+      "date": "2026-07-09",
+      "summary": "O impacto da onda massiva de demissões do Xbox desta semana em projetos e equipes individuais está começando a ficar claro. A última revelação vem de vários funcionários da Bethesda, que disseram ao IGN que esperam um “efeito substancial e em cascata” no...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/mobile-games-mario-kart-tour-ff7-ever-crisis-shut-down"
+      "url": "https://www.eurogamer.net/elder-scrolls-6-morale-bethesda-xbox-layoffs"
     },
     {
-      "id": "https://www.eurogamer.net/blood-of-dawnwalker-beat-game-prologue-brencis",
-      "title": "Você pode completar o RPG medieval de vampiros The Blood of Dawnwalker ainda mais rápido do que se pensava - antes mesmo do prólogo terminar",
-      "original_title": "You can complete medieval vampire RPG The Blood of Dawnwalker even quicker than previously thought - before even the prologue ends",
-      "image": "https://assetsio.gnwcdn.com/blood-of-dawnwalker-vampire-2.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/sony-bungie-marathon-director-lawsuit-settled",
+      "title": "Sony e Bungie chegam a um acordo com o ex-diretor da Maratona que acusaram de “comportamento predatório”, encerrando o processo de demissão injusta de US$ 200 milhões",
+      "original_title": "Sony, Bungie settle with ex-Marathon director they accused of \"predatory behaviour\", bringing $200m wrongful dismissal lawsuit to a close",
+      "image": "https://assetsio.gnwcdn.com/marathon-bungie-art-crop.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-08",
-      "summary": "Você pode terminar o RPG medieval de vampiros The Blood of Dawnwalker ainda mais cedo do que se pensava: não é apenas possível terminar o jogo após o prólogo, você também pode fazê-lo no prólogo. (Cuidado, há alguns spoilers do prólogo à frente.) Leia mais...",
+      "date": "2026-07-09",
+      "summary": "O ex-diretor da Maratona, Christopher Barrett, anunciou que um acordo foi alcançado com a Sony e a Bungie, depois que ele processou ambas as empresas por demissão injusta, alegando que elas haviam \"destruído deliberadamente [sua] reputação por falsa e publicamente, insinuando...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/blood-of-dawnwalker-beat-game-prologue-brencis"
+      "url": "https://www.eurogamer.net/sony-bungie-marathon-director-lawsuit-settled"
     },
     {
-      "id": "https://www.eurogamer.net/microsoft-making-more-xbox-games-exclusive-to-give-reason-to-buy-the-console",
-      "title": "A Microsoft está considerando tornar mais jogos originais exclusivos para Xbox",
-      "original_title": "Microsoft is reportedly considering making more of its first-party games exclusive to Xbox",
-      "image": "https://assetsio.gnwcdn.com/xbox-series-x-s-controller-over-halo-gears-1.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/doom-quake-studio-id-software-gutted-xbox-cuts-game-ideas",
+      "title": "Doom e Quake Studio ID Software supostamente destruídos, deixando recursos autônomos em dúvida e ideias de jogos recém-reveladas mortas",
+      "original_title": "Doom and Quake studio id Software reportedly gutted, leaving standalone capabilities in doubt and newly revealed game ideas dead",
+      "image": "https://assetsio.gnwcdn.com/doom-slayer-sad-face.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-08",
-      "summary": "Mais futuros títulos originais da Microsoft podem se tornar exclusivos do Xbox, de acordo com um novo relatório. Diz-se que a empresa está interessada em dar aos clientes um motivo para escolher os consoles Xbox em vez de outras marcas. Leia mais...",
+      "date": "2026-07-09",
+      "summary": "Uma imagem mais clara de quão duramente a id Software foi atingida pela drástica reestruturação do Xbox da Microsoft está começando a surgir, e ela foi duramente atingida. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/microsoft-making-more-xbox-games-exclusive-to-give-reason-to-buy-the-console"
+      "url": "https://www.eurogamer.net/doom-quake-studio-id-software-gutted-xbox-cuts-game-ideas"
     },
     {
-      "id": "https://www.eurogamer.net/call-of-duty-black-ops-1-2-playstation-re-releases-trophy-leak-missing-content",
-      "title": "Os próximos relançamentos de Call of Duty: Black Ops para PlayStation aparentemente trazem alguns recursos lembrados com carinho",
-      "original_title": "The upcoming Call of Duty: Black Ops PlayStation re-releases seemingly drop a few fondly remembered features",
-      "image": "https://assetsio.gnwcdn.com/bo_zStfFRs.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/fallout-new-vegas-studio-obsidian-no-avowed-sequel",
+      "title": "O estúdio Obsidian de Fallout: New Vegas supostamente mudou para um novo jogo Fallout do Xbox, mas ao custo de uma sequência de Avowed",
+      "original_title": "Fallout: New Vegas studio Obsidian reportedly moved onto a new Fallout game by Xbox, but at the cost of a sequel to Avowed",
+      "image": "https://assetsio.gnwcdn.com/fallout-new-vegas_06roh2J.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-08",
-      "summary": "Provavelmente estamos mais perto do que nunca do lançamento dos relançamentos de Call of Duty: Black Ops 1 e 2 no PlayStation, porque suas listas de troféus apareceram online. Isso normalmente acontece dias antes de um jogo ser disponibilizado. Leia mais...",
+      "date": "2026-07-09",
+      "summary": "Dias depois dos devastadores cortes de 3.200 empregos da Microsoft no Xbox, o verdadeiro escopo das demissões está se tornando mais claro. A Obsidian Entertainment, que supostamente perdeu um quarto de sua equipe nos cortes, também teve suas prioridades alteradas. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/call-of-duty-black-ops-1-2-playstation-re-releases-trophy-leak-missing-content"
+      "url": "https://www.eurogamer.net/fallout-new-vegas-studio-obsidian-no-avowed-sequel"
     },
     {
-      "id": "https://www.eurogamer.net/assassins-creed-black-flag-resynced-review",
-      "title": "Análise ressincronizada de Assassin's Creed Black Flag",
-      "original_title": "Assassin's Creed Black Flag Resynced review",
-      "image": "https://assetsio.gnwcdn.com/black-flag-review.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/playstation-shift-to-digital-physical-game-retailers-expert",
+      "title": "“Um golpe de martelo para o varejo de jogos” – Especialistas avaliam o futuro sem disco do PlayStation e o impacto que ele terá nas lojas de jogos tradicionais",
+      "original_title": "\"A hammer blow for games retail\" - Experts weigh in on PlayStation's discless future, and the impact it will have on traditional game stores",
+      "image": "https://assetsio.gnwcdn.com/ps-store-retail.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-08",
-      "summary": "Você conhece o Navio de Teseu? É um antigo experimento mental filosófico sobre se um objeto é a mesma coisa depois que todas as suas partes constituintes foram substituídas. É um paradoxo, uma brincadeira divertida com temas de identidade e continuidade...",
+      "date": "2026-07-09",
+      "summary": "Na semana passada, a Sony anunciou que em janeiro de 2028 cessaria a produção em larga escala de discos físicos para novos jogos. Isso gerou ondas em toda a indústria, levantando questões sobre o que isso significava para outros fabricantes de consoles, preservação de jogos e...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/assassins-creed-black-flag-resynced-review"
+      "url": "https://www.eurogamer.net/playstation-shift-to-digital-physical-game-retailers-expert"
     },
     {
-      "id": "https://www.eurogamer.net/nintendo-switch-1-sales-continue-globally-europe-discontinuation",
-      "title": "É apenas na Europa que a Nintendo está descontinuando o Switch 1, e provavelmente devido às leis de direito de reparo que temos aqui",
-      "original_title": "It's only in Europe where Nintendo is discontinuing Switch 1, and likely to do with the Right to Repair laws we have here",
-      "image": "https://assetsio.gnwcdn.com/Super-Mario-Bros.-Wonder-Direct-%E2%80%93-31_08_2023-38-3-screenshot-(1).png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/persona-4-revival-yosuke-changes",
+      "title": "Aparentemente, haverá “mudanças” em um dos personagens mais importantes do Persona 4 Revival, mas o que isso significa exatamente?",
+      "original_title": "There are apparently going to be \"changes\" to one of Persona 4 Revival's most important characters, but what exactly does that mean?",
+      "image": "https://assetsio.gnwcdn.com/yosuke-p4-r.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-08",
-      "summary": "A Nintendo confirmou que a decisão de suspender as vendas da sua consola Switch 1 na Europa não afetará as suas operações no resto do mundo. A empresa, que recentemente revelou que deixará de vender o console Switch original na Europa a partir de meados...",
+      "date": "2026-07-09",
+      "summary": "Depois de um longo período sem saber muito sobre o próximo remake, Persona 4 Revival, no mês passado finalmente soubemos que a versão refeita de um de seus jogos mais populares pela Atlus será lançada em 18 de fevereiro no PlayStation 5, Xbox Series X/S e PC. Mas o g...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/nintendo-switch-1-sales-continue-globally-europe-discontinuation"
+      "url": "https://www.eurogamer.net/persona-4-revival-yosuke-changes"
     },
     {
-      "id": "https://www.eurogamer.net/pokemon-tcg-stock-stolen-in-cheshire-england",
-      "title": "Dois irmãos admitem ter roubado mais de £ 71.000 em cartas Pokémon TCG depois de não conseguirem escapar da polícia e esconder o saque",
-      "original_title": "Two brothers admit to stealing more than £71,000 worth of Pokémon TCG cards after failing to escape the police and hide the loot",
-      "image": "https://assetsio.gnwcdn.com/Pokemon-TCG-Pocket-Pikachu-full-art.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/mortal-shell-2-august-release-date",
+      "title": "Brutal Soulslike Mortal Shell 2 escolhe violência, define data de lançamento no engarrafamento de agosto de 2026",
+      "original_title": "Brutal Soulslike Mortal Shell 2 chooses violence, sets release date in the 2026 August traffic jam",
+      "image": "https://assetsio.gnwcdn.com/mortal-shell-2-release-date-1.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-08",
-      "summary": "Muitos de nós estamos entusiasmados com os conjuntos mais recentes do Pokémon TCG - incluindo o enorme aniversário de 30 anos - mas dois irmãos em Warrington, Cheshire, Inglaterra, levaram as coisas longe demais quando roubaram mais de £ 71.000 em itens colecionáveis.",
+      "date": "2026-07-09",
+      "summary": "Mortal Shell 2, o inventivo RPG Soulslike do desenvolvedor Cold Symmetry, tem uma data oficial de lançamento. O jogo chegará em 20 de agosto para PC, PS5 e Xbox Series X/S. Embora Mortal Shell 2 sempre tenha sido definido para lançamento este ano, seu lançamento ganha...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/pokemon-tcg-stock-stolen-in-cheshire-england"
+      "url": "https://www.eurogamer.net/mortal-shell-2-august-release-date"
     },
     {
-      "id": "https://www.techpowerup.com/350606/apple-to-increase-spend-with-broadcom-to-produce-billions-more-u-s-chips",
-      "title": "(PR) Apple aumentará gastos com Broadcom para produzir bilhões a mais de chips nos EUA",
-      "original_title": "(PR) Apple to Increase Spend with Broadcom to Produce Billions More U.S. Chips",
-      "image": "https://tpucdn.com/img/TqonNadNC1FgreQ1_thm.jpg",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1urnzin/according_to_kotakus_sources_id_tech_engine_team/",
+      "title": "De acordo com fontes do Kotaku, a equipe de motores da id Tech foi supostamente reduzida a um único funcionário após demissões do Xbox",
+      "original_title": "According to Kotaku’s sources, id Tech engine team reportedly reduced to a single employee following Xbox layoffs",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-07-09",
+      "summary": "De acordo com fontes do Kotaku, as recentes demissões do Xbox impactaram fortemente a id Software, com posições-chave e equipes inteiras supostamente eliminadas. Fontes afirmam que os cortes incluem quase toda a equipe de motores da id Tech, com apenas um funcionário acreditando...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1urnzin/according_to_kotakus_sources_id_tech_engine_team/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1urrs3j/anonymous_sources_told_ign_that_xbox_layoffs/",
+      "title": "Fontes anônimas disseram ao IGN que as demissões do Xbox podem fazer com que The Elder Scrolls VI enfrente mais atrasos",
+      "original_title": "Anonymous sources told IGN that Xbox layoffs could cause The Elder Scrolls VI to face further delays",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-07-09",
+      "summary": "De acordo com fontes anônimas que falaram com o IGN, as recentes demissões da Bethesda Game Studios levantaram preocupações internas de que The Elder Scrolls VI poderia enfrentar mais atrasos, maior crise e perda de conhecimento institucional importante. Fontes afirmam que...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1urrs3j/anonymous_sources_told_ign_that_xbox_layoffs/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1urie8j/id_tech_engine_reportedly_still_part_of_xboxs/",
+      "title": "id Tech Engine supostamente ainda faz parte do futuro do Xbox, apesar de demissões significativas de codificadores na id Software | Esta semana em videogames",
+      "original_title": "id Tech Engine Reportedly Still Part of Xbox's Future, Despite Significant Coder Layoffs at id Software | This Week In Video Games",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-07-09",
+      "summary": "https://thisweekinvideogames.com/news/id-tech-engine-reportedly-still-part-of-xboxs-future-despite-significant-coder-layoffs-at-id-software/ enviado por /u/SilentNova300 [link] [comentários]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1urie8j/id_tech_engine_reportedly_still_part_of_xboxs/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1urmjs7/1000xresist_rated_by_the_esrb_for_switch_2/",
+      "title": "1000xRESIST avaliado pela ESRB para Switch 2",
+      "original_title": "1000xRESIST Rated by the ESRB For Switch 2",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-07-09",
+      "summary": "Link: http://www.esrb.org/ratings/Synopsis.aspx?Certificate=41352&Title=1000xRESIST enviado por /u/Howerev [link] [comentários]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1urmjs7/1000xresist_rated_by_the_esrb_for_switch_2/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1uraco9/significant_layoffs_at_zenimax_online_studios_213/",
+      "title": "Demissões significativas na ZeniMax Online Studios (213 funcionários) e ZeniMax Media (166 funcionários)",
+      "original_title": "Significant layoffs at ZeniMax Online Studios (213 employees) and ZeniMax Media (166 employees)",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-07-09",
+      "summary": "O aviso oficial WARN afirma que Zenimax Online Studios sofreu demissão de 213 pessoas. Onde Zenimax Media Inc. sofreu uma demissão de 166. Rumor anterior de Jason Schreir sobre demissões significativas na ZeniMax Online (Elder Scroll Online): https:...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1uraco9/significant_layoffs_at_zenimax_online_studios_213/"
+    },
+    {
+      "id": "https://www.techpowerup.com/350607/xmg-apex-17-now-available-with-rtx-5070-and-12-gb-vram",
+      "title": "(PR) XMG APEX 17 agora disponível com RTX 5070 e 12 GB VRAM",
+      "original_title": "(PR) XMG APEX 17 Now Available with RTX 5070 and 12 GB VRAM",
+      "image": "https://tpucdn.com/img/qmxpPXElSfHHgg5N_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-08",
-      "summary": "A Apple anunciou hoje um novo compromisso plurianual com a Broadcom para projetar e produzir componentes de silício personalizados e tecnologias de conectividade sem fio de ponta para uma ampla gama de produtos Apple. O novo acordo, que deverá ultrapassar US$ 30 bilhões,...",
+      "date": "2026-07-09",
+      "summary": "O XMG APEX 17 é o primeiro laptop da linha XMG a apresentar o 2026 NVIDIA GeForce RTX 5070 com 12 GB de VRAM, acima dos 8 GB anteriores. Esta nova configuração, anunciada pela primeira vez na Computex 2026, complementa o APEX 17 existente com AMD Ryzen 9...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350606/apple-to-increase-spend-with-broadcom-to-produce-billions-more-u-s-chips"
-    },
-    {
-      "id": "https://www.techpowerup.com/350604/gamesir-launches-g7-pro-aimlabs-edition-game-controller",
-      "title": "(PR) GameSir lança controlador de jogo G7 Pro Aimlabs Edition",
-      "original_title": "(PR) GameSir Launches G7 Pro Aimlabs Edition Game Controller",
-      "image": "https://tpucdn.com/img/bAoEb75csEYsfEdN_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-07-08",
-      "summary": "Suba de nível a partir da célebre linhagem G7 - apresentando o G7 Pro. Além de herdar o desempenho excepcional da série G7, o G7 Pro também traz novas atualizações emocionantes: o primeiro controlador de Xbox com manípulos TMR, efeito Hall e tri...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/350604/gamesir-launches-g7-pro-aimlabs-edition-game-controller"
+      "url": "https://www.techpowerup.com/350607/xmg-apex-17-now-available-with-rtx-5070-and-12-gb-vram"
     },
     {
       "id": "https://www.techpowerup.com/350543/kamrui-july-deals-ak1plus-and-pinova-p1-mini-pcs-from-usd-230-84",
@@ -473,7 +581,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-08",
+      "date": "2026-07-09",
       "summary": "KAMRUI está atualmente realizando uma promoção de julho na Amazon US, oferecendo descontos de até 34% em sua linha de mini PCs AK1PLUS e Pinova P1. A promoção abrange três configurações, com preços a partir de US$ 230,84 após o código promocional. A validade do negócio vai de...",
       "sources": [
         "TechPowerUp"
@@ -481,34 +589,34 @@
       "url": "https://www.techpowerup.com/350543/kamrui-july-deals-ak1plus-and-pinova-p1-mini-pcs-from-usd-230-84"
     },
     {
-      "id": "https://www.techpowerup.com/350603/patriot-memory-announces-viper-steel-5-infinite-ddr5-memory-with-speeds-up-to-8000-mt-s",
-      "title": "(PR) Patriot Memory Anuncia Memória Viper Steel 5 Infinite DDR5 com Velocidades de até 8.000 MT/s",
-      "original_title": "(PR) Patriot Memory Announces Viper Steel 5 Infinite DDR5 Memory with Speeds up to 8000 MT/s",
-      "image": "https://tpucdn.com/img/3yJ2SZh0jqOygCvc_thm.jpg",
+      "id": "https://www.techpowerup.com/350634/worldwide-pc-market-declined-4-in-2q26-amid-mounting-supply-pressure",
+      "title": "(PR) Mercado mundial de PCs caiu 4% no 2T26 em meio à crescente pressão de oferta",
+      "original_title": "(PR) Worldwide PC Market Declined 4% in 2Q26 Amid Mounting Supply Pressure",
+      "image": "https://tpucdn.com/img/tEgBgjOQHm0b7fsb_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-08",
-      "summary": "A Patriot Memory, líder global em soluções de memória e armazenamento de desempenho, anunciou hoje o próximo lançamento de seu kit de memória Viper Steel 5 Infinite DDR5. Projetada para jogos de última geração, criação de conteúdo profissional e modificação de PC, a nova série...",
+      "date": "2026-07-09",
+      "summary": "As remessas globais de desktops, notebooks e estações de trabalho no 2T26 diminuíram 3,6% ano a ano, para 65,7 milhões de unidades, de acordo com a pesquisa mais recente da Omdia. As remessas de desktops (incluindo estações de trabalho desktop) atingiram 13,9 milhões, caindo 1,3% e...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350603/patriot-memory-announces-viper-steel-5-infinite-ddr5-memory-with-speeds-up-to-8000-mt-s"
+      "url": "https://www.techpowerup.com/350634/worldwide-pc-market-declined-4-in-2q26-amid-mounting-supply-pressure"
     },
     {
-      "id": "https://www.techpowerup.com/350602/intel-arc-gpu-graphics-drivers-101-8861-beta-released",
-      "title": "Drivers gráficos Intel Arc GPU 101.8861 Beta lançados",
-      "original_title": "Intel Arc GPU Graphics Drivers 101.8861 Beta Released",
-      "image": "https://tpucdn.com/img/ht3JWT59ALVQOAsd_thm.jpg",
+      "id": "https://www.techpowerup.com/350632/in-win-introduces-l50-breeze-with-reeded-glass-and-awwa-puretone-lighting",
+      "title": "(PR) In Win apresenta L50 BREEZE com vidro reeded e iluminação AWWA PureTone",
+      "original_title": "(PR) In Win Introduces L50 BREEZE with Reeded Glass and AWWA PureTone Lighting",
+      "image": "https://tpucdn.com/img/lHNj6sb32Wl8dH88_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-08",
-      "summary": "A Intel lançou hoje a versão mais recente de seus drivers Arc GPU Graphics. A versão 101.8861 Beta vem com otimização para “Assassin’s Creed Black Flag Resynced”, “DOOM: The Dark Ages Revelations”, “Echos of Aincrad” e “Halo: Campaign Evolved”. Isso...",
+      "date": "2026-07-09",
+      "summary": "(InWin), uma inovadora global em design e engenharia de hardware de PC, orgulhosamente apresenta o L50 BREEZE. Indo além do estilo agressivo e dos efeitos RGB vibrantes tradicionalmente associados aos sistemas de jogos, o L50 BREEZE em...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350602/intel-arc-gpu-graphics-drivers-101-8861-beta-released"
+      "url": "https://www.techpowerup.com/350632/in-win-introduces-l50-breeze-with-reeded-glass-and-awwa-puretone-lighting"
     },
     {
       "id": "https://www.techpowerup.com/350557/windows-11-pro-has-dropped-to-just-usd-10-through-july-19",
@@ -518,7 +626,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-08",
+      "date": "2026-07-09",
       "summary": "Se o seu PC precisa de uma nova licença de sistema operacional, este é um dos preços mais baixos que você encontrará no Windows 11 Pro. Até 19 de julho, uma licença vitalícia estará disponível por US$ 9,97 (MSRP US$ 199). Esta versão é destinada a PCs que requerem uma nova licença do Windows...",
       "sources": [
         "TechPowerUp"
@@ -526,64 +634,124 @@
       "url": "https://www.techpowerup.com/350557/windows-11-pro-has-dropped-to-just-usd-10-through-july-19"
     },
     {
-      "id": "https://www.techpowerup.com/350600/samsung-begins-mass-production-of-pm1763-pcie-gen-6-ssd",
-      "title": "(PR) Samsung inicia produção em massa do SSD PM1763 PCIe Gen 6",
-      "original_title": "(PR) Samsung Begins Mass Production of PM1763 PCIe Gen 6 SSD",
-      "image": "https://tpucdn.com/img/ZwcJdFVVLiKKpDwW_thm.jpg",
+      "id": "https://www.techpowerup.com/350627/xbox-to-follow-playstation-single-player-exclusives-and-cross-platform-multiplayer-games",
+      "title": "Xbox seguirá o PlayStation: jogos exclusivos para um jogador e jogos multijogador multiplataforma",
+      "original_title": "Xbox To Follow PlayStation: Single-Player Exclusives and Cross-Platform Multiplayer Games",
+      "image": "https://tpucdn.com/img/1C9CrT8iv7aKpxVL_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-08",
-      "summary": "Samsung Electronics Co., Ltd., líder global em tecnologia de memória avançada, anunciou hoje a produção em massa do PM1763, a unidade de estado sólido (SSD) empresarial baseada em PCIe 6.0 otimizada para ambientes de servidores de IA e HPC de próxima geração. Como ...",
+      "date": "2026-07-09",
+      "summary": "Já se sabe há algum tempo que, como parte da nova estratégia de redefinição do Xbox sob o comando do novo CEO, Asha Sharma, o Xbox estaria se inclinando cada vez mais para os exclusivos do Xbox no futuro, entendendo-se que \"exclusivo do Xbox\" se referia tanto ao PC quanto ao Xbox...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350600/samsung-begins-mass-production-of-pm1763-pcie-gen-6-ssd"
+      "url": "https://www.techpowerup.com/350627/xbox-to-follow-playstation-single-player-exclusives-and-cross-platform-multiplayer-games"
     },
     {
-      "id": "https://www.techpowerup.com/350594/retro-keyboy-advance-wireless-mechanical-keyboard-launches-at-usd-275",
-      "title": "Teclado mecânico sem fio retrô “KeyBoy Advance” lançado por US$ 275",
-      "original_title": "Retro \"KeyBoy Advance\" Wireless Mechanical Keyboard Launches at $275",
-      "image": "https://tpucdn.com/img/BL93d2IRYKeirC2J_thm.jpg",
+      "id": "https://www.techpowerup.com/350626/crimson-desert-may-get-multiplayer-after-all",
+      "title": "Afinal, Crimson Desert pode se tornar multijogador",
+      "original_title": "Crimson Desert May Get Multiplayer After All",
+      "image": "https://tpucdn.com/img/gTMhYigv0tkHnb7o_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-08",
-      "summary": "O KeyBoy Advance, um novo teclado 50% mecânico projetado pela PromoType (Galo), acaba de entrar em compra em grupo. O design, como o nome sugere, é fortemente inspirado na estética do Nintendo Game Boy Advance, alcançando seu visual retrô com um toque...",
+      "date": "2026-07-09",
+      "summary": "Crimson Desert supostamente começou inicialmente como um MMO, mas depois se transformou em um jogo de mundo aberto para um jogador, embora ainda tenha muito de seu DNA MMO, embora tenha sido lançado como um título para um jogador. De acordo com o CEO da Pearl Abyss, Heo Jin-young,...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350594/retro-keyboy-advance-wireless-mechanical-keyboard-launches-at-usd-275"
+      "url": "https://www.techpowerup.com/350626/crimson-desert-may-get-multiplayer-after-all"
     },
     {
-      "id": "https://www.eurogamer.net/the-blood-of-dawnwalker-hands-on-preview",
-      "title": "Depois de quatro horas jogando The Blood of Dawnwalker, vi combate, romance, intriga – tem tudo para ser o RPG inovador de 2026",
-      "original_title": "After four hours playing The Blood of Dawnwalker, I've seen combat, romance, intrigue - it's got the makings of being 2026's breakout RPG",
-      "image": "https://assetsio.gnwcdn.com/blood-of-dawnwalker-(2).webp?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/minecraft-preview-update-cushion",
+      "title": "17 anos depois, o Minecraft está finalmente adicionando um lugar para sentar",
+      "original_title": "17 years later, Minecraft is finally adding somewhere to sit",
+      "image": "https://assetsio.gnwcdn.com/minecraft-cushions.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-07",
-      "summary": "Joguei quatro horas do extremamente promissor The Blood of Dawnwalker agora, que, se você ainda não sabe, é o novo projeto de RPG com tema de vampiro liderado pela pessoa que dirigiu The Witcher 3: Wild Hunt - Konrad Tomaszkiewicz. Ele formou um novo...",
+      "date": "2026-07-08",
+      "summary": "Você pode querer sentar-se para este. Cerca de 17 anos após seu lançamento, o Minecraft está finalmente adicionando um lugar para aventureiros cansados ​​descansarem: almofadas agora estão disponíveis como parte da última prévia do blockbuster de sobrevivência...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/the-blood-of-dawnwalker-hands-on-preview"
+      "url": "https://www.eurogamer.net/minecraft-preview-update-cushion"
     },
     {
-      "id": "https://www.techpowerup.com/350593/keychron-debuts-k4-ultra-and-k10-ultra-wireless-mechanical-keyboards",
-      "title": "Keychron lança teclados mecânicos sem fio K4 Ultra e K10 Ultra",
-      "original_title": "Keychron Debuts K4 Ultra and K10 Ultra Wireless Mechanical Keyboards",
-      "image": "https://tpucdn.com/img/8Pv9sieD2bhIfrO5_thm.jpg",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ur66a9/discussion_news_and_request_thread_week_beginning/",
+      "title": "☀️ Tópico de discussão, notícias e solicitação - Semana que começa em 06/07/26☀️",
+      "original_title": "☀️Discussion, News, and Request Thread - Week Beginning 07/06/26☀️",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-07-08",
+      "summary": "Eu e meu mano depois de assistir ao trailer de Dune Parte Três Os tópicos de discussão são seu centro central semanal para todas as solicitações, notícias de jogos e quaisquer outros tópicos de jogos sobre os quais você queira conversar. Por favor, mantenha todo o conteúdo que não precisa de postagem própria no ...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ur66a9/discussion_news_and_request_thread_week_beginning/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ur09st/jason_schreier_obsidian_entertainment_is_making_a/",
+      "title": "Jason Schreier: A Obsidian Entertainment está dando um grande passo como parte da reestruturação do Xbox. Ela demitiu um quarto de sua equipe, cancelou uma sequência planejada de Avowed e agora está começando a trabalhar em um novo jogo Fallout.",
+      "original_title": "Jason Schreier: Obsidian Entertainment is making a big pivot as part of the Xbox restructuring. It has laid off a quarter of its staff, canceled a planned sequel to Avowed, and is now beginning work on a new Fallout game",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-07-08",
+      "summary": "Bluesky Post: https://bsky.app/profile/jasonschreier.bsky.social/post/3mq5oqyh2yk2o Artigo Bloomberg: https://www.bloomberg.com/news/articles/2026-07-08/microsoft-s-xbox-to-shift-obsidian-studio-to-new-fallout-video-game Editar: Também mencionado no ...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ur09st/jason_schreier_obsidian_entertainment_is_making_a/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ur55y0/id_software_was_pitching_perfect_dark_a_john/",
+      "title": "A id Software estava lançando Perfect Dark, um jogo inspirado em John Wick com o codinome Fury e um Robot Western antes das dispensas",
+      "original_title": "id Software Was Pitching Perfect Dark, a John Wick-Inspired Game Codenamed Fury, and a Robot Western Before the Layoffs",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-07-08",
+      "summary": "De acordo com desenvolvedores da id Software entrevistados por Dean Takahashi, o estúdio se tornou alvo fácil de demissões por estar entre grandes projetos. A equipe está supostamente trabalhando na arte conceitual de um novo Perfect Dark, um código de jogo inspirado em John Wick...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ur55y0/id_software_was_pitching_perfect_dark_a_john/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ur7vg2/chris_avellone_claims_obsidian_intended_to_be/",
+      "title": "Chris Avellone afirma que a Obsidian pretendia trabalhar em um jogo Fallout, que foi posteriormente interrompido pela Bethesda há algum tempo e refeito em um IP diferente.",
+      "original_title": "Chris Avellone claims Obsidian intended to be working on a Fallout game, which was subsequently stopped by Bethesda a while back and retooled into a different IP.",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-07-08",
+      "summary": "https://xcancel.com/i/status/2074956767541301256 enviado por /u/ThinWhiteDuke00 [link] [comentários]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ur7vg2/chris_avellone_claims_obsidian_intended_to_be/"
+    },
+    {
+      "id": "https://www.techpowerup.com/350625/intel-nova-lake-s-and-h-cpus-to-feature-12-core-arc-xe3p-igpus",
+      "title": "CPUs Intel Nova Lake-S e -H apresentarão iGPUs Arc Xe3P de 12 núcleos",
+      "original_title": "Intel Nova Lake-S and -H CPUs To Feature 12-Core Arc Xe3P iGPUs",
+      "image": "https://tpucdn.com/img/HiD8Et1lxGdgcQxH_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-07",
-      "summary": "Keychron acaba de expandir sua linha de teclados mecânicos sem fio K Ultra com o K4 Ultra e K10 Ultra, ambos com teclados numéricos e componentes internos idênticos com pequenos ajustes de layout para atender a diferentes casos de uso. O K10 Ultra é um completo...",
+      "date": "2026-07-08",
+      "summary": "Recentemente, novos IDs iGPU Intel Nova Lake-S foram adicionados à pilha de drivers do kernel Linux, revelando que a Intel pode estar planejando lançar até sete SKUs na série de CPUs para desktop Core Ultra 400. Até um novo boato do vazador @jaykihn0 no X, no entanto,...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350593/keychron-debuts-k4-ultra-and-k10-ultra-wireless-mechanical-keyboards"
+      "url": "https://www.techpowerup.com/350625/intel-nova-lake-s-and-h-cpus-to-feature-12-core-arc-xe3p-igpus"
     },
     {
       "id": "https://www.techpowerup.com/350558/send-unlimited-files-for-life-with-transfr-pro-for-just-usd-80",
@@ -593,12 +761,27 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-07",
+      "date": "2026-07-08",
       "summary": "As transferências de arquivos grandes ainda são mais complicadas do que provavelmente deveriam ser. Muitos serviços limitam os tamanhos de upload, exigem assinaturas ou oferecem pouca visibilidade sobre se um arquivo foi realmente recebido. O Transfr Pro adota uma abordagem diferente ao com...",
       "sources": [
         "TechPowerUp"
       ],
       "url": "https://www.techpowerup.com/350558/send-unlimited-files-for-life-with-transfr-pro-for-just-usd-80"
+    },
+    {
+      "id": "https://www.techpowerup.com/350623/obsidian-nukes-avowed-2-in-favor-of-new-fallout-game",
+      "title": "Obsidian Nukes declarou 2 em favor do novo jogo Fallout",
+      "original_title": "Obsidian Nukes Avowed 2 in Favor of New Fallout Game",
+      "image": "https://tpucdn.com/img/XJI9KHSKFeDjRheG_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-07-08",
+      "summary": "A Obsidian foi notoriamente apanhada na recente redefinição do Xbox, com o estúdio de jogos perdendo até 25% de sua equipe devido a demissões. De acordo com relatórios recentes da Bloomberg, uma das consequências da redução do número de funcionários parece ser...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/350623/obsidian-nukes-avowed-2-in-favor-of-new-fallout-game"
     }
   ]
 }
