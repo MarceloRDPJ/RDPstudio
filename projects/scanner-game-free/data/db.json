@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-07-14T13:41:50",
-  "display_date": "14/07/2026 13:41",
+  "last_updated": "2026-07-15T13:42:26",
+  "display_date": "15/07/2026 13:42",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "111ms",
+    "latency": "512ms",
     "current_games": [
       {
         "title": "Nova Lands",
@@ -26,6 +26,24 @@
       }
     ],
     "upcoming_games": [
+      {
+        "title": "Foretales",
+        "description": "Decida o destino do mundo neste engenhoso jogo de cartas baseado em uma história.\n\nForetales oferece uma visão única do gênero aventura, com uma infinidade de estilos de jogo e caminhos de história através dos quais você pode salvar o mundo... ou trazer seu fim.",
+        "image": "https://cdn1.epicgames.com/spt-assets/2b593b82aea84695b1608d74d3850ceb/foretales-offer-urvzn.jpg",
+        "url": "https://store.epicgames.com/p/a6dcabac79154e218bd3c7d4a8cad8a7",
+        "price": "$19.99",
+        "start_date": "2026-07-23T15:00:00.000Z",
+        "end_date": "2026-07-30T15:00:00.000Z"
+      },
+      {
+        "title": "Foretales",
+        "description": "Decida o destino do mundo neste engenhoso jogo de cartas baseado em uma história.\n\nForetales oferece uma visão única do gênero aventura, com uma infinidade de estilos de jogo e caminhos de história através dos quais você pode salvar o mundo... ou trazer seu fim.",
+        "image": "https://cdn1.epicgames.com/spt-assets/2b593b82aea84695b1608d74d3850ceb/foretales-offer-urvzn.jpg",
+        "url": "https://store.epicgames.com/p/a6dcabac79154e218bd3c7d4a8cad8a7",
+        "price": "$19.99",
+        "start_date": "2026-07-16T15:00:00.000Z",
+        "end_date": "2026-07-30T15:00:00.000Z"
+      },
       {
         "title": "Nova Lands",
         "description": "Nova Lands é um jogo de construção de fábricas, exploração e gerenciamento de ilhas. Explore, participe de combates e automatize sua indústria. O planeta em que você está está cheio de mistérios, criaturas, pessoas e coisas para fazer. Bem-vindo à sua nova casa entre as estrelas!",
@@ -55,7 +73,7 @@
       },
       {
         "title": "Ghostrunner 2",
-        "description": "Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
+        "description": "Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cibernética.",
         "image": "https://cdn1.epicgames.com/offer/708f57aaa04b42ef885be16c8288f0ac/EGS_Ghostrunner2_OneMoreLevel_S1_2560x1440-15845148fae1d0cfd7f3e98c9b3ba6ba",
         "url": "https://store.epicgames.com/p/ghostrunner-2",
         "price": "$39.99",
@@ -128,7 +146,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-07-14",
+      "date": "2026-07-15",
       "summary": "Nova Lands é um jogo de construção de fábricas, exploração e gerenciamento de ilhas. Explore, participe de combates e automatize sua indústria. O planeta em que você está está cheio de mistérios, criaturas, pessoas e coisas para fazer. Bem-vindo à sua nova casa entre as estrelas!",
       "sources": [
         "Epic Games Store"
@@ -143,12 +161,42 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-07-14",
+      "date": "2026-07-15",
       "summary": "Torne-se um tatuador e gerencie seu próprio estúdio de tatuagem. Encontre os melhores designs para seus clientes, transformando suas ideias vagas em impressionantes obras de arte corporal. Expanda de um estúdio pessoal aconchegante para um próspero negócio com vários salões nos diversos distritos de Tattuga Bay.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/tattoo-tycoon"
+    },
+    {
+      "id": "https://store.epicgames.com/p/a6dcabac79154e218bd3c7d4a8cad8a7",
+      "title": "EM BREVE: Foretales",
+      "original_title": "Foretales",
+      "image": "https://cdn1.epicgames.com/spt-assets/2b593b82aea84695b1608d74d3850ceb/foretales-offer-urvzn.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-07-15",
+      "summary": "Disponível gratuitamente a partir de 23/07. Decida o destino do mundo neste engenhoso jogo de cartas baseado em uma história.\n\nForetales oferece uma visão única do gênero aventura, com uma infinidade de estilos de jogo e caminhos de história através dos quais você pode salvar o mundo... ou trazer seu fim.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/a6dcabac79154e218bd3c7d4a8cad8a7"
+    },
+    {
+      "id": "https://store.epicgames.com/p/a6dcabac79154e218bd3c7d4a8cad8a7",
+      "title": "EM BREVE: Foretales",
+      "original_title": "Foretales",
+      "image": "https://cdn1.epicgames.com/spt-assets/2b593b82aea84695b1608d74d3850ceb/foretales-offer-urvzn.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-07-15",
+      "summary": "Disponível gratuitamente a partir de 16/07. Decida o destino do mundo neste engenhoso jogo de cartas baseado em uma história.\n\nForetales oferece uma visão única do gênero aventura, com uma infinidade de estilos de jogo e caminhos de história através dos quais você pode salvar o mundo... ou trazer seu fim.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/a6dcabac79154e218bd3c7d4a8cad8a7"
     },
     {
       "id": "https://store.epicgames.com/p/acb83bd813054e599598de9e76f6d95d",
@@ -158,7 +206,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-14",
+      "date": "2026-07-15",
       "summary": "Disponível gratuitamente a partir de 16/07. Nova Lands é um jogo de construção de fábricas, exploração e gerenciamento de ilhas. Explore, participe de combates e automatize sua indústria. O planeta em que você está está cheio de mistérios, criaturas, pessoas e coisas para fazer. Bem-vindo à sua nova casa entre as estrelas!",
       "sources": [
         "Epic Games Store"
@@ -173,7 +221,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-14",
+      "date": "2026-07-15",
       "summary": "Disponível gratuitamente a partir de 03/09. Nova Lands é um jogo de construção de fábricas, exploração e gerenciamento de ilhas. Explore, participe de combates e automatize sua indústria. O planeta em que você está está cheio de mistérios, criaturas, pessoas e coisas para fazer. Bem-vindo à sua nova casa entre as estrelas!",
       "sources": [
         "Epic Games Store"
@@ -188,7 +236,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-14",
+      "date": "2026-07-15",
       "summary": "Disponível gratuitamente a partir de 16/07. Eternal Threads é um jogo de quebra-cabeça para um jogador, em primeira pessoa, baseado em uma história de manipulação, escolha e consequência do tempo.",
       "sources": [
         "Epic Games Store"
@@ -203,8 +251,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-14",
-      "summary": "Disponível gratuitamente a partir de 16/07. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
+      "date": "2026-07-15",
+      "summary": "Disponível gratuitamente a partir de 16/07. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cibernética.",
       "sources": [
         "Epic Games Store"
       ],
@@ -218,7 +266,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-14",
+      "date": "2026-07-15",
       "summary": "Disponível gratuitamente a partir de 16/07. The Old Ones Awaken adiciona novos níveis para explorar, novos inimigos para derrotar e novos chefes para enfrentar, juntamente com uma série de novas armas e equipamentos emocionantes para empunhar e usar.",
       "sources": [
         "Epic Games Store"
@@ -233,7 +281,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-14",
+      "date": "2026-07-15",
       "summary": "Disponível gratuitamente a partir de 16/09. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
@@ -248,7 +296,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-14",
+      "date": "2026-07-15",
       "summary": "Disponível gratuitamente a partir de 16/07. A Coleção de Aniversário de Castlevania da Konami traça as origens da histórica franquia de vampiros. Está incluído um e-book exclusivo com detalhes fornecidos por desenvolvedores, artistas e outros inspirados no legado de Castlevania, que lança uma nova luz sobre o mundo de Castlevania.",
       "sources": [
         "Epic Games Store"
@@ -263,7 +311,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-14",
+      "date": "2026-07-15",
       "summary": "Disponível gratuitamente a partir de 16/07. Luto é uma experiência de terror psicológico onde você assume o papel de alguém que não consegue sair de casa. Cada tentativa de fuga o levará mais fundo no desconhecido, onde nada é o que parece e tudo testará seus sentidos.",
       "sources": [
         "Epic Games Store"
@@ -278,7 +326,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-14",
+      "date": "2026-07-15",
       "summary": "Disponível gratuitamente a partir de 24/09. Torne-se um tatuador e gerencie seu próprio estúdio de tatuagem. Encontre os melhores designs para seus clientes, transformando suas ideias vagas em impressionantes obras de arte corporal. Expanda de um estúdio pessoal aconchegante para um próspero negócio com vários salões nos diversos distritos de Tattuga Bay.",
       "sources": [
         "Epic Games Store"
@@ -293,12 +341,297 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-14",
+      "date": "2026-07-15",
       "summary": "Disponível gratuitamente a partir de 16/07. Lidere uma gangue de crianças para descobrir mistérios assustadores, lutar contra criaturas e explorar o lado sobrenatural de sua cidade natal em Echo Generation, uma aventura baseada em turnos ambientada nos anos 90.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/cbf3f5857ec241bab03dbb7eb03efad8"
+    },
+    {
+      "id": "https://www.eurogamer.net/ubisoft-barcelona-strike-july-2026",
+      "title": "O estúdio Ubisoft Barcelona de Assassin's Creed Black Flag Resynced entra em greve de três dias em protesto contra demissões",
+      "original_title": "Assassin's Creed Black Flag Resynced studio Ubisoft Barcelona goes on three-day strike in protest of layoffs",
+      "image": "https://assetsio.gnwcdn.com/ss_9553ccbfadad58974d31817949373ce1ac0d8fbf.1920x1080.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-07-15",
+      "summary": "Assassin's Creed Black Flag Resynced teve um início estrondoso, com a Ubisoft alardeando 2 milhões de cópias vendidas apenas no dia do lançamento. Mas apesar do sucesso, a Ubisoft Barcelona – um dos estúdios envolvidos no seu desenvolvimento – ainda enfrenta demissões e...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/ubisoft-barcelona-strike-july-2026"
+    },
+    {
+      "id": "https://www.eurogamer.net/assassins-creed-black-flag-resynced-steam-launch-data",
+      "title": "Assassin's Creed Black Flag Resynced desfruta do melhor lançamento de qualquer jogo AC no Steam, ganhando uma grande soma de dinheiro lá",
+      "original_title": "Assassin's Creed Black Flag Resynced enjoys the best launch of any AC game on Steam, making avast sum of money there",
+      "image": "https://assetsio.gnwcdn.com/AC-Black-Flag-Resynced-underwater-treasure.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-07-15",
+      "summary": "Está claro agora que Assassin's Creed Black Flag Resynced foi um sucesso para a Ubisoft, embora isso inexplicavelmente tenha resultado na demissão de muitos dos desenvolvedores que tornaram isso possível. Uma contagem de 2 milhões de cópias vendidas no dia do lançamento é...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/assassins-creed-black-flag-resynced-steam-launch-data"
+    },
+    {
+      "id": "https://www.eurogamer.net/glen-schofield-retiring-after-35-years",
+      "title": "O co-criador da série Dead Space e veterano da indústria, Glen Schofield, anuncia sua aposentadoria em um vídeo emocionante",
+      "original_title": "Dead Space series co-creator and industry veteran Glen Schofield announces his retirement in emotional video",
+      "image": "https://assetsio.gnwcdn.com/Glen-Schofield-image-overlaid-on-a-screenshot-from-Dead-Space.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-07-15",
+      "summary": "Glen Schofield, ex-cofundador da Sledgehammer Games e cocriador de Dead Space, anunciou sua aposentadoria do desenvolvimento de jogos. Schofield deu a notícia em um vídeo emocionante em sua página do LinkedIn, no qual relembrou uma carreira histórica...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/glen-schofield-retiring-after-35-years"
+    },
+    {
+      "id": "https://www.eurogamer.net/xbox-cuts-report-staggering-loss-fear",
+      "title": "“Não sei como alguém que permanece no Xbox Studios pode se sentir seguro” – Novo relatório revela ambiente de incerteza e medo, e uma perda “impressionante” de conhecimento institucional",
+      "original_title": "\"I don't know how anyone remaining at Xbox Studios can feel safe\" - New report reveals environment of uncertainty and fear, and a \"staggering\" loss of institutional knowledge",
+      "image": "https://assetsio.gnwcdn.com/xbox-trio.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-07-15",
+      "summary": "Um novo relatório baseado em testemunhos de pessoas afetadas pelos recentes cortes da Microsoft na divisão Xbox pintou um quadro de sigilo, desordem e raiva, e de uma empresa cambaleando à medida que novas demissões se aproximam. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/xbox-cuts-report-staggering-loss-fear"
+    },
+    {
+      "id": "https://www.eurogamer.net/resident-evil-1-remake-pre-production-rumour",
+      "title": "O suposto Resident Evil 1 Remake supostamente entrou em pré-produção no ano passado",
+      "original_title": "The rumoured Resident Evil 1 Remake reportedly entered pre-production last year",
+      "image": "https://assetsio.gnwcdn.com/residentevil_1204_07.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Rumor",
+      "date": "2026-07-15",
+      "summary": "O suposto Resident Evil 1 Remake está de volta ao noticiário, graças a novas informações de uma fonte de longa data. Dusk Golem, um famoso jogo de terror e vazador de Resident Evil, compartilhou uma atualização em suas redes sociais sobre o estado do projeto. Leia m...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/resident-evil-1-remake-pre-production-rumour"
+    },
+    {
+      "id": "https://www.eurogamer.net/generative-ai-100-percent-japanese-online-game-developers",
+      "title": "De acordo com uma pesquisa, a IA generativa está sendo usada por 100% dos desenvolvedores japoneses de jogos online, à medida que aumentam as preocupações com violação de direitos autorais.",
+      "original_title": "According to a poll, Generative AI is being used by a whopping 100% of Japanese online game developers, as copyright infringement concerns climb",
+      "image": "https://assetsio.gnwcdn.com/shodan_6g3Vfa5.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-07-15",
+      "summary": "Um novo relatório sobre a indústria japonesa de jogos online mostrou que 100% dos desenvolvedores entrevistados estão atualmente usando IA generativa. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/generative-ai-100-percent-japanese-online-game-developers"
+    },
+    {
+      "id": "https://www.eurogamer.net/battlefield-6-season-4-reveal-trailer-new-jets-top-gun-tease",
+      "title": "Battlefield 6 está trazendo de volta um recurso que não víamos desde Battlefield 2, e provocando uma colaboração adequada com Top Gun ao lado dele",
+      "original_title": "Battlefield 6 is bringing back a feature we've not seen since Battlefield 2, and teasing a fitting Top Gun collab alongside it",
+      "image": "https://assetsio.gnwcdn.com/battlefield-6-season-4-cover-1.jpeg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-07-15",
+      "summary": "Battlefield Studios lançou nossa primeira olhada na 4ª temporada de Battlefield 6. Este novo trailer chega uma semana antes do lançamento da 4ª temporada em 21 de julho e mostra muitos motivos para ficar animado. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/battlefield-6-season-4-reveal-trailer-new-jets-top-gun-tease"
+    },
+    {
+      "id": "https://www.techpowerup.com/350785/cervoz-introduces-the-t445-and-t455-industrial-m-2-2230-a-e-key-nvme-ssds",
+      "title": "(PR) Cervoz apresenta os SSDs NVMe Key T445 e T455 Industrial M.2 2230 A+E",
+      "original_title": "(PR) Cervoz Introduces the T445 and T455 Industrial M.2 2230 A+E Key NVMe SSDs",
+      "image": "https://tpucdn.com/img/iQkG9Ke35pVxfmlL_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-07-15",
+      "summary": "Os sistemas embarcados compactos estão se tornando menores, enquanto os requisitos de armazenamento continuam a crescer. Aplicações como computação embarcada, computadores médicos, quiosques de autoatendimento e robôs de serviço precisam de armazenamento local confiável para sistemas operacionais, dados, l...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/350785/cervoz-introduces-the-t445-and-t455-industrial-m-2-2230-a-e-key-nvme-ssds"
+    },
+    {
+      "id": "https://www.techpowerup.com/350784/system76-debuts-adder-pro-laptop-features-2k-oled-display-core-ultra-7-and-rtx-50-series",
+      "title": "(PR) System76 lança laptop Adder Pro: apresenta display OLED 2K, Core Ultra 7 e série RTX 50",
+      "original_title": "(PR) System76 Debuts Adder Pro Laptop: Features 2K OLED Display, Core Ultra 7, and RTX 50 Series",
+      "image": "https://tpucdn.com/img/tXJoCtXn6UP4zVGP_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-07-15",
+      "summary": "Se você fosse um jogador sério ou criador de conteúdo e estivesse encomendando seu laptop ideal, o que ele teria? Um display 2K OLED de 500 nits Poder de processamento do calibre de estação de trabalho Até 96 GB de RAM GPU NVIDIA e placa gráfica Peso leve (3,37 libras) Excepcional ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/350784/system76-debuts-adder-pro-laptop-features-2k-oled-display-core-ultra-7-and-rtx-50-series"
+    },
+    {
+      "id": "https://www.techpowerup.com/350687/dropreference-launches-in-the-us-with-pc-part-price-comparison-and-gaming-performance-estimates",
+      "title": "DropReference é lançado nos EUA com comparação de preços de peças de PC e estimativas de desempenho de jogos",
+      "original_title": "DropReference Launches in the US with PC Part Price Comparison and Gaming Performance Estimates",
+      "image": "https://tpucdn.com/img/o5Oy7xOEcq5wx7nB_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-07-15",
+      "summary": "DropReference, uma plataforma de comparação de hardware de PC e planejamento de construção que atrai mais de 200.000 visitantes únicos a cada mês, está se expandindo oficialmente para os Estados Unidos. Já estabelecido entre os fabricantes europeus de PCs, o DropReference permite aos usuários c...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/350687/dropreference-launches-in-the-us-with-pc-part-price-comparison-and-gaming-performance-estimates"
+    },
+    {
+      "id": "https://www.techpowerup.com/350782/asml-reports-eur-9-3-billion-total-net-sales-and-eur-2-9-billion-net-income-in-q2-2026",
+      "title": "(PR) ASML reporta vendas líquidas totais de € 9,3 bilhões e lucro líquido de € 2,9 bilhões no segundo trimestre de 2026",
+      "original_title": "(PR) ASML Reports €9.3 Billion Total Net Sales and €2.9 Billion Net Income in Q2 2026",
+      "image": "https://tpucdn.com/img/yfcHhYeyyuIIDxfo_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-07-15",
+      "summary": "Hoje, a ASML Holding NV (ASML) publicou seus resultados do segundo trimestre de 2026. Vendas líquidas totais do segundo trimestre de € 9,3 bilhões, margem bruta de 54,0%, lucro líquido de € 2,9 bilhões A ASML espera vendas líquidas totais do terceiro trimestre de 2026 entre € 11,0 bilhões e € 12,0 bilhões, e um valor bruto...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/350782/asml-reports-eur-9-3-billion-total-net-sales-and-eur-2-9-billion-net-income-in-q2-2026"
+    },
+    {
+      "id": "https://www.techpowerup.com/350781/ibm-unveils-new-power-systems-and-software-built-for-enterprises",
+      "title": "(PR) IBM lança novos sistemas Power e software desenvolvidos para empresas",
+      "original_title": "(PR) IBM Unveils New Power Systems and Software Built for Enterprises",
+      "image": "https://tpucdn.com/img/7SosxTPpd2iE2AMZ_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-07-15",
+      "summary": "A IBM (NYSE: IBM) anunciou hoje o IBM Power Autonomous Operations, um agente de IA que pode ajudar a monitorar continuamente os sistemas Power e resolver problemas de forma autônoma para manter as operações funcionando sem problemas. Ele complementa o recém-lançado IBM Bob Premium Pa...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/350781/ibm-unveils-new-power-systems-and-software-built-for-enterprises"
+    },
+    {
+      "id": "https://www.techpowerup.com/350779/asus-republic-of-gamers-announces-availability-of-rog-swift-oled-pg27ucwm-and-pg32ucwm-tandem-rgb-oled-gaming-monitors",
+      "title": "(PR) ASUS Republic of Gamers anuncia disponibilidade dos monitores de jogos ROG Swift OLED PG27UCWM e PG32UCWM Tandem RGB OLED",
+      "original_title": "(PR) ASUS Republic of Gamers Announces Availability of ROG Swift OLED PG27UCWM and PG32UCWM Tandem RGB OLED Gaming Monitors",
+      "image": "https://tpucdn.com/img/YqJng300S7Cwb5ot_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-07-15",
+      "summary": "A ASUS Republic of Gamers (ROG) anunciou hoje a disponibilidade dos monitores de jogos ROG Swift OLED PG27UCWM e PG32UCWM que apresentam tecnologia 4K True Tandem RGB OLED. Trazendo tecnologia de painel de ponta para configurações entusiastas, o PG27UC de 26,5 polegadas...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/350779/asus-republic-of-gamers-announces-availability-of-rog-swift-oled-pg27ucwm-and-pg32ucwm-tandem-rgb-oled-gaming-monitors"
+    },
+    {
+      "id": "https://www.techpowerup.com/350778/nvidia-launches-geforce-now-in-india",
+      "title": "NVIDIA lança GeForce AGORA na Índia",
+      "original_title": "NVIDIA Launches GeForce NOW in India",
+      "image": "https://tpucdn.com/img/LQZMTaRfs9RZQdVK_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-07-15",
+      "summary": "A NVIDIA lançou formalmente na terça-feira seu serviço de jogos em nuvem GeForce NOW na Índia. O serviço vem com preços introdutórios atraentes específicos para o mercado indiano sob um esquema de passe de acesso antecipado que certamente chamará a atenção, especialmente na I...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/350778/nvidia-launches-geforce-now-in-india"
+    },
+    {
+      "id": "https://www.techpowerup.com/350777/samsung-launches-990-qlc-dramless-ssd-usd-270-for-1tb-usd-530-for-2tb",
+      "title": "Samsung lança SSD 990 QLC sem DRAM, US$ 270 por 1 TB, US$ 530 por 2 TB",
+      "original_title": "Samsung Launches 990 QLC DRAMless SSD, $270 for 1TB, $530 for 2TB",
+      "image": "https://tpucdn.com/img/ll78lonBGJbnIzt6_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-07-15",
+      "summary": "A Samsung lançou formalmente em 14 de julho o 990, seu SSD M.2 NVMe do segmento de valor. Não deve ser confundido com o 990 EVO, outro SSD sem DRAM da empresa que usa flash TLC NAND, o novo 990 implementa flash QLC NAND e depende de nível de controlador...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/350777/samsung-launches-990-qlc-dramless-ssd-usd-270-for-1tb-usd-530-for-2tb"
+    },
+    {
+      "id": "https://www.techpowerup.com/350557/windows-11-pro-has-dropped-to-just-usd-10-through-july-19",
+      "title": "O Windows 11 Pro caiu para apenas US$ 10 até 19 de julho",
+      "original_title": "Windows 11 Pro Has Dropped to Just $10 Through July 19",
+      "image": "https://tpucdn.com/img/eJP5kB0TyLJbRIyB_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-07-15",
+      "summary": "Se o seu PC precisa de uma nova licença de sistema operacional, este é um dos preços mais baixos que você encontrará no Windows 11 Pro. Até 19 de julho, uma licença vitalícia estará disponível por US$ 9,97 (MSRP US$ 199). Esta versão é destinada a PCs que requerem uma nova licença do Windows...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/350557/windows-11-pro-has-dropped-to-just-usd-10-through-july-19"
+    },
+    {
+      "id": "https://www.techpowerup.com/350775/samsung-introduces-flex-titanium-technology-to-advance-foldable-displays",
+      "title": "(PR) Samsung apresenta tecnologia Flex Titanium para aprimorar telas dobráveis",
+      "original_title": "(PR) Samsung Introduces Flex Titanium Technology To Advance Foldable Displays",
+      "image": "https://tpucdn.com/img/0D6ljFFnILCzSzor_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-07-15",
+      "summary": "A Samsung Electronics revelou hoje a nova tecnologia Flex Titanium para a próxima geração de dispositivos dobráveis ​​Galaxy. Construída com base em sete gerações de inovação dobrável e experiência em engenharia, a estrutura de exibição redesenhada utiliza ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/350775/samsung-introduces-flex-titanium-technology-to-advance-foldable-displays"
+    },
+    {
+      "id": "https://www.eurogamer.net/marvel-rivals-season-9-player-feedback",
+      "title": "Os jogadores do Marvel Rivals estão expressando suas frustrações com a excessiva “confusão visual” da 9ª temporada e outros problemas que dificultam a diversão",
+      "original_title": "Marvel Rivals players are airing their frustrations over Season 9's excessive \"visual clutter\" and other issues making it difficult to enjoy",
+      "image": "https://assetsio.gnwcdn.com/Jubilee-in-Marvel-Rivals-S9.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-07-14",
+      "summary": "Marvel Rivals existe há apenas 18 meses, mas já chegamos à 9ª temporada. E com ele vem um arco narrativo focado em personagens da Marvel como Apocalipse, perfeitamente sincronizado para coincidir com a segunda temporada de X-Men '97. Os rivais da Marvel também...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/marvel-rivals-season-9-player-feedback"
+    },
+    {
+      "id": "https://www.eurogamer.net/my-chemical-romance-gerard-way-on-baldurs-gate-3",
+      "title": "Gerard Way, do My Chemical Romance, ainda não tocou Baldur's Gate 3, mas ainda reservou algum tempo durante um show para discutir o assunto com os fãs.",
+      "original_title": "My Chemical Romance's Gerard Way hasn't played Baldur's Gate 3 yet, but he still made some time during a concert to discuss it with fans",
+      "image": "https://assetsio.gnwcdn.com/gate-3-deck.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-07-14",
+      "summary": "Enquanto aguardamos notícias sobre Baldur’s Gate 4 (se isso acontecer), Baldur’s Gate 3 continua sendo um RPG de primeira linha do qual as pessoas aparentemente não se cansam. O cantor e compositor do My Chemical Romance, Gerard Way - que também é escritor de quadrinhos - ainda não chegou à vida de Larian...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/my-chemical-romance-gerard-way-on-baldurs-gate-3"
     },
     {
       "id": "https://www.eurogamer.net/call-of-duty-black-ops-1-2-ps4-ps5-ports-hacked-lobbies",
@@ -314,411 +647,6 @@
         "Eurogamer"
       ],
       "url": "https://www.eurogamer.net/call-of-duty-black-ops-1-2-ps4-ps5-ports-hacked-lobbies"
-    },
-    {
-      "id": "https://www.eurogamer.net/dragons-dogma-2-switch-2-development",
-      "title": "\"Já está superando nossas expectativas no Switch 2\" - Dragon's Dogma 2 Dark Arisen já rodando a '30fps e superior' no portátil Nintendo",
-      "original_title": "\"It's already exceeding our expectations on Switch 2\" - Dragon's Dogma 2 Dark Arisen already running at '30fps and higher' on Nintendo handheld",
-      "image": "https://assetsio.gnwcdn.com/DD2-dark-arisen-switch.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-07-14",
-      "summary": "Ainda este ano, veremos o incrível e envolvente RPG da Capcom, Dragon's Dogma 2, chegar ao Switch 2, junto com uma nova expansão massiva chamada Dark Arisen. Dado que o jogo foi sujeito a muitas críticas pela forma como funcionou em ambos os consoles...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/dragons-dogma-2-switch-2-development"
-    },
-    {
-      "id": "https://www.eurogamer.net/next-gen-console-delay-blood-of-dawnwalker-developer",
-      "title": "Um atraso na próxima geração de consoles é “melhor para nós”, diz o diretor de The Blood of Dawnwalker, já que os aumentos de preços continuam a atormentar a indústria",
-      "original_title": "A delayed next generation of consoles is \"better for us\", says The Blood of Dawnwalker director, as price rises continue to plague the industry",
-      "image": "https://assetsio.gnwcdn.com/blood-of-dawnwalker-next-gen-consoles.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-07-14",
-      "summary": "Konrad Tomaszkiewicz, diretor do promissor RPG com temática de vampiros The Blood of Dawnwalker - e anteriormente diretor de The Witcher 3: Wild Hunt - disse que uma próxima geração adiada de consoles seria \"melhor\" para um estúdio como o dele. Ler ...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/next-gen-console-delay-blood-of-dawnwalker-developer"
-    },
-    {
-      "id": "https://www.eurogamer.net/xbox-player-voice-portal-layoffs-discussion",
-      "title": "Os usuários migram para o portal Xbox Player Voice para pedir o fim do ciclo de demissões",
-      "original_title": "Users flock to Xbox Player Voice portal to ask for an end to cycle of layoffs",
-      "image": "https://assetsio.gnwcdn.com/player-voice-xbox.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-07-14",
-      "summary": "O portal Xbox Player Voice foi lançado em maio, dando aos usuários a oportunidade de compartilhar facilmente suas idéias sobre o Xbox e desejos para o futuro. Isso aconteceu depois que o novo CEO, Asha Sharma, prometeu um “retorno do Xbox” ao assumir o controle. Seguindo o an...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/xbox-player-voice-portal-layoffs-discussion"
-    },
-    {
-      "id": "https://www.eurogamer.net/sony-killing-discs-anti-trust-complaint-mexico",
-      "title": "Sony enfrenta uma reclamação antitruste no México pelo fim da mídia física do PlayStation",
-      "original_title": "Sony faces an anti-trust complaint in Mexico over ending PlayStation physical media",
-      "image": "https://assetsio.gnwcdn.com/PS-store-mexico.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-07-14",
-      "summary": "A cascata de eventos que se segue à decisão da Sony de encerrar a produção de discos PlayStation até janeiro de 2028 continua. A empresa enfrentará em breve uma reclamação formal de representantes no México, que acreditam que a decisão constitui anticompetitiva e...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/sony-killing-discs-anti-trust-complaint-mexico"
-    },
-    {
-      "id": "https://www.eurogamer.net/compulsion-games-looking-for-work-xbox-cuts",
-      "title": "Dias depois de deixar o Xbox, o desenvolvedor do South of Midnight, Compulsion Games, transmite que está procurando trabalho",
-      "original_title": "Days after leaving Xbox, South of Midnight developer Compulsion Games broadcasts that it's looking for work",
-      "image": "https://assetsio.gnwcdn.com/we-happy-few_6xEWlEH.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-07-14",
-      "summary": "Poucos dias depois de a Compulsion Games ter resgatado sua independência da Microsoft como parte das demissões em massa do Xbox, o estúdio – enfrentando a realidade de seguir sozinho – já está em busca de novas oportunidades de trabalho. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/compulsion-games-looking-for-work-xbox-cuts"
-    },
-    {
-      "id": "https://www.eurogamer.net/nintendo-switch-2-oled-rumours",
-      "title": "Novos rumores sugerem que a Nintendo pode estar pensando em atualizar o Switch 2 com uma tela OLED",
-      "original_title": "New rumours suggest Nintendo could be looking into upgrading the Switch 2 with an OLED screen",
-      "image": "https://assetsio.gnwcdn.com/oled-s2.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Rumor",
-      "date": "2026-07-14",
-      "summary": "Rumores de atualizações do Switch 2 continuam a surgir após rumores de que a Nintendo pretende atualizar o painel LCD do console. Agora, um importante site de tecnologia coreano afirma que estão em andamento negociações sérias com a gigante japonesa sobre explorar as possibilidades...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/nintendo-switch-2-oled-rumours"
-    },
-    {
-      "id": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-learn-from-black-ops-7-classic-mode",
-      "title": "Call of Duty: Modern Warfare 4 precisa de sua própria versão do modo Clássico do Black Ops 7 ou corre o risco de deixar de lado seus fãs mais antigos e leais",
-      "original_title": "Call of Duty: Modern Warfare 4 needs its own version of Black Ops 7's Classic mode or it risks sidelining its oldest and most loyal fans",
-      "image": "https://assetsio.gnwcdn.com/modern-warfare-ghost-over-black-ops-1.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-07-14",
-      "summary": "Pode ter demorado um pouco para admitir - e certamente recuei por um tempo, mas temo que esteja ficando velho demais para Call of Duty. Não a série como um todo; Encontro muito entretenimento nas campanhas ooh-rah e gosto especialmente do ...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-learn-from-black-ops-7-classic-mode"
-    },
-    {
-      "id": "https://www.eurogamer.net/kingdom-hearts-d23-event-retrospective-25-years",
-      "title": "Kingdom Hearts terá uma grande presença em um evento de fãs da Disney no próximo mês, mas você provavelmente não deveria ficar muito animado com Kingdom Hearts 4",
-      "original_title": "Kingdom Hearts will have a big presence at a Disney fan event next month, but you probably shouldn't get too excited about Kingdom Hearts 4",
-      "image": "https://assetsio.gnwcdn.com/KH-d23.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-07-14",
-      "summary": "Kingdom Hearts fará uma grande aparição no próximo evento de fãs D23 Disney na Califórnia no próximo mês, embora aqueles que têm esperança de uma ou duas revelações prolongadas de Kingdom Hearts 4 provavelmente não devam prender a respiração. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/kingdom-hearts-d23-event-retrospective-25-years"
-    },
-    {
-      "id": "https://www.eurogamer.net/dragons-dogma-2-dark-arisen-itsuno-future",
-      "title": "“Eu tenho o que é preciso para continuar o legado desta série” Hideaki Itsuno pode ter deixado a Capcom, mas o novo diretor de Dragon’s Dogma 2 avalia que o RPG ainda está em boas mãos",
-      "original_title": "\"I have what it takes to continue this series' legacy\" Hideaki Itsuno may have left Capcom, but Dragon's Dogma 2's new director reckons the RPG is still in good hands",
-      "image": "https://assetsio.gnwcdn.com/itsuno-dd2.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-07-14",
-      "summary": "Em agosto de 2024, o diretor de Dragon's Dogma 2, Hideaki Itsuno, deixou a Capcom após \"30 anos e cinco meses\" na editora japonesa. O lendário desenvolvedor, responsável pela criação de Dragon's Dogma e pela defesa da franquia Devil May Cry, é prático...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/dragons-dogma-2-dark-arisen-itsuno-future"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1uw23j2/dusk_golem_capcom_is_investing_into_doing_more/",
-      "title": "Dusk Golem \"A Capcom está investindo em fazer um DLC de história mais longa no futuro de RE, da duração e ambição de Separate Ways/Shadow of Rose, tanto para Requiem quanto para futuros títulos de RE\"",
-      "original_title": "Dusk Golem \"Capcom is investing into doing more lengthy story DLC in the future of RE, of the length & ambition as Separate Ways/Shadow of Rose, for both Requiem & future RE titles\"",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-07-14",
-      "summary": "- Além disso, ele basicamente diz que eles usarão DLCs para preencher a lacuna entre os novos lançamentos (basicamente tratando-os quase como jogos paralelos, como fizeram com Separate Ways) - Requiem DLC é muito ambicioso e responde a muitos comentários de RE9, isso é...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1uw23j2/dusk_golem_capcom_is_investing_into_doing_more/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1uw712o/world_of_warcraft_project_camelot_classic_datamine/",
-      "title": "Dados do Projeto Camelot do World of Warcraft (clássico +)",
-      "original_title": "World of Warcraft Project Camelot (classic+) datamine",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-07-14",
-      "summary": "Na verdade, isso já existe há um mês, mas aparentemente foi recentemente escolhido.  - Um dataminer confiável encontrou uma versão totalmente nova para um jogo no patch 1.60. Eles confirmam que a versão 1.60 é o projeto Camelot. Isso se alinha com os rumores clássicos + que ...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1uw712o/world_of_warcraft_project_camelot_classic_datamine/"
-    },
-    {
-      "id": "https://www.techpowerup.com/350751/intel-shifts-majority-of-nova-lake-production-in-house-amid-yield-improvements",
-      "title": "Intel muda a maior parte da produção interna de “Nova Lake” em meio a melhorias de rendimento",
-      "original_title": "Intel Shifts Majority of \"Nova Lake\" Production In-House Amid Yield Improvements",
-      "image": "https://tpucdn.com/img/BRF3LV595epdbLLq_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-07-14",
-      "summary": "A próxima geração de processadores “Nova Lake-S” da Intel está no horizonte, e a empresa já está tomando decisões preliminares de fabricação antes de iniciar a produção em alto volume. De acordo com uma nota de pesquisa do banco de investimento KeyBanc Capital...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/350751/intel-shifts-majority-of-nova-lake-production-in-house-amid-yield-improvements"
-    },
-    {
-      "id": "https://www.techpowerup.com/350750/europes-only-gallium-oxide-semiconductor-maker-raises-eur-2-million-funding",
-      "title": "Único fabricante de semicondutores de óxido de gálio da Europa levanta financiamento de 2 milhões de euros",
-      "original_title": "Europe's Only Gallium-Oxide Semiconductor Maker Raises €2 Million Funding",
-      "image": "https://tpucdn.com/img/GHmvzDDIfYqSWeJd_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-07-14",
-      "summary": "A independência europeia dos semicondutores tem sido um tema quente recentemente, e os legisladores da União Europeia, especialmente a Comissão Europeia, aprovaram a Lei dos Chips 2.0 para alcançar a independência da produção de semicondutores do resto do mundo. Agora, ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/350750/europes-only-gallium-oxide-semiconductor-maker-raises-eur-2-million-funding"
-    },
-    {
-      "id": "https://www.techpowerup.com/350687/dropreference-launches-in-the-us-with-pc-part-price-comparison-and-gaming-performance-estimates",
-      "title": "DropReference é lançado nos EUA com comparação de preços de peças de PC e estimativas de desempenho de jogos",
-      "original_title": "DropReference Launches in the US with PC Part Price Comparison and Gaming Performance Estimates",
-      "image": "https://tpucdn.com/img/o5Oy7xOEcq5wx7nB_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-07-14",
-      "summary": "DropReference, uma plataforma de comparação de hardware de PC e planejamento de construção que atrai mais de 200.000 visitantes únicos a cada mês, está se expandindo oficialmente para os Estados Unidos. Já estabelecido entre os fabricantes europeus de PCs, o DropReference permite aos usuários c...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/350687/dropreference-launches-in-the-us-with-pc-part-price-comparison-and-gaming-performance-estimates"
-    },
-    {
-      "id": "https://www.techpowerup.com/350515/ymtc-ssds-ship-with-german-lenovo-laptops-for-the-first-time",
-      "title": "SSDs YMTC são enviados com laptops Lenovo alemães pela primeira vez",
-      "original_title": "YMTC SSDs Ship With German Lenovo Laptops for the First Time",
-      "image": "https://tpucdn.com/img/JY06qgQZBAdPIEE6_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-07-14",
-      "summary": "De acordo com uma nova análise do ThinkBook 14 G9 da Notebookcheck, a Lenovo começou a enviar pela primeira vez suas configurações de laptop alemão com SSDs fabricados pela YMTC. Esta é uma notícia significativa, considerando que os preços dos SSDs têm disparado...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/350515/ymtc-ssds-ship-with-german-lenovo-laptops-for-the-first-time"
-    },
-    {
-      "id": "https://www.techpowerup.com/350746/microsoft-is-finally-fixing-windows-search-no-more-promotional-content",
-      "title": "A Microsoft está finalmente consertando o Windows Search, sem mais conteúdo promocional",
-      "original_title": "Microsoft is Finally Fixing Windows Search, No More Promotional Content",
-      "image": "https://tpucdn.com/img/D55Z7GKZadCuLPSK_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-07-14",
-      "summary": "A Microsoft finalmente abordou um dos maiores problemas no uso do moderno sistema operacional Windows 11 – a caixa de pesquisa do Windows. O que costumava ser uma bagunça complicada, cheia de conteúdo com o qual você não se importava, agora está se tornando uma interface utilizável, com...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/350746/microsoft-is-finally-fixing-windows-search-no-more-promotional-content"
-    },
-    {
-      "id": "https://www.techpowerup.com/350742/msi-motherboards-deliver-ddr5-8000-support-for-cxmt-based-memory-on-intel-platform",
-      "title": "(PR) Placas-mãe MSI oferecem suporte DDR5-8000+ para memória baseada em CXMT na plataforma Intel",
-      "original_title": "(PR) MSI Motherboards Deliver DDR5-8000+ Support for CXMT-Based Memory on Intel Platform",
-      "image": "https://tpucdn.com/img/cJ1KOHyle1v6e025_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-07-14",
-      "summary": "A MSI anunciou hoje que suas placas-mãe Intel série 800 agora estão totalmente otimizadas para memória DDR5 construída em DRAM CXMT (ChangXin Memory Technologies). Seguindo o ajuste de memória BIOS dedicado, as placas-mãe MSI Z890 oferecem operação DDR5-8000+ estável com...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/350742/msi-motherboards-deliver-ddr5-8000-support-for-cxmt-based-memory-on-intel-platform"
-    },
-    {
-      "id": "https://www.techpowerup.com/350543/kamrui-july-deals-ak1plus-and-pinova-p1-mini-pcs-from-usd-230-84",
-      "title": "Ofertas de julho KAMRUI: Mini PCs AK1PLUS e Pinova P1 a partir de US$ 230,84",
-      "original_title": "KAMRUI July Deals: AK1PLUS and Pinova P1 Mini PCs from $230.84",
-      "image": "https://tpucdn.com/img/2VqlSawF7zpQk608_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-07-14",
-      "summary": "KAMRUI está atualmente realizando uma promoção de julho na Amazon US, oferecendo descontos de até 34% em sua linha de mini PCs AK1PLUS e Pinova P1. A promoção abrange três configurações, com preços a partir de US$ 230,84 após o código promocional. A validade do negócio vai de...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/350543/kamrui-july-deals-ak1plus-and-pinova-p1-mini-pcs-from-usd-230-84"
-    },
-    {
-      "id": "https://www.techpowerup.com/350740/1047-games-suffers-more-layoffs-following-empulse-launch",
-      "title": "1047 Games sofre mais demissões após o lançamento de “Empulse”",
-      "original_title": "1047 Games Suffers More Layoffs Following \"Empulse\" Launch",
-      "image": "https://tpucdn.com/img/EAyzM8BF1RA2bP0b_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-07-14",
-      "summary": "Depois que as demissões atingiram o estúdio em meados de 2025, após o lançamento de Splitgate: Arena Reloaded, a 1047 Games se ramificou em um jogo de tiro de movimento inspirado em Titanfall que seria lançado em acesso antecipado como Empulse no final de junho de 2026. Agora, três semanas depois...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/350740/1047-games-suffers-more-layoffs-following-empulse-launch"
-    },
-    {
-      "id": "https://www.techpowerup.com/350738/frostpunk-and-the-alters-studio-lays-off-20-employees-despite-hit-games",
-      "title": "Frostpunk e The Alters Studio demitem 20 funcionários apesar dos jogos de sucesso",
-      "original_title": "Frostpunk and The Alters Studio Lays Off 20 Employees Despite Hit Games",
-      "image": "https://tpucdn.com/img/B06I8qA2BaCRbGzR_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-07-14",
-      "summary": "Apesar do sucesso recente de Frostpunk 2 e The Alters, o 11 Bit Studio confirmou que está demitindo 20 funcionários em uma rodada de demissões que afirma ser necessária para as próximas fases de desenvolvimento dos projetos atualmente em seu portfólio. Esse...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/350738/frostpunk-and-the-alters-studio-lays-off-20-employees-despite-hit-games"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1uvo3cy/zdnet_korea_samsung_display_strives_to_supply/",
-      "title": "[ZDNET Coreia] Samsung Display se esforça para fornecer painéis OLED para Nintendo Switch 2, mas a Nintendo está se esforçando para reduzir custos de fabricação devido ao aumento no preço dos componentes",
-      "original_title": "[ZDNET Korea] Samsung Display strives to supply OLED panels for Nintendo Switch 2, but Nintendo is striving to lower manufacturing costs due to component price surge",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-07-13",
-      "summary": "Fonte: https://zdnet.co.kr/view/?no=20260713182948 Tradução automática No dia 13, o membro da indústria A declarou: \"A Nintendo está considerando lançar um Switch 2 OLED com a resolução atualizada de HD (1280x720) do modelo Switch 1 OLED para FHD (192...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1uvo3cy/zdnet_korea_samsung_display_strives_to_supply/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1uvejj7/windows_central_backs_up_rebs_gaming_report/",
-      "title": "O Windows Central apóia o relatório Rebs Gaming, o Projeto Ekur foi cancelado e o chefe do Halo Studios Pierre Hintze é um problema para Halo e Xbox e é uma “figura geralmente controversa internamente”",
-      "original_title": "Windows Central backs up Rebs Gaming report, Project Ekur cancelled and Head of Halo Studios Pierre Hintze is a problem for Halo and Xbox and is a “generally controversial figure internally”",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-07-13",
-      "summary": "https://www.windowscentral.com/gaming/i-was-verbally-blasted-by-pierre-xbox-and-halo-studios-pierre-hintze-has-reportedly-repeatedly-been-referred-to-hr-for-antagonic-comportamento enviado por /u/SilentNova300 [link] [comentários]...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1uvejj7/windows_central_backs_up_rebs_gaming_report/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1uvbh3h/outlaws_handful_of_missions_remaster_ns2_edition/",
-      "title": "Outlaws + Handful of Missions: Remaster NS2 Edition será lançado em 16 de julho",
-      "original_title": "Outlaws + Handful of Missions: Remaster NS2 Edition Releases July 16th",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-07-13",
-      "summary": "Atualização gratuita para quem possui a versão switch 1 Link para captura de tela do e-shop (sem trailer ainda): https://www.reddit.com/r/NintendoSwitch2/s/fXECPSnyjo Vazamento: https://www.reddit.com/r/GamingLeaksAndRumours/s/sUriKsCyWA enviado por /u/Howerev [...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1uvbh3h/outlaws_handful_of_missions_remaster_ns2_edition/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1uuwdua/insider_gaming_new_details_on_what_was_cut_from/",
-      "title": "[Insider Gaming] – Novos detalhes sobre o que foi cortado do Ghost Recon Project OVR",
-      "original_title": "[Insider Gaming] - New Details on what was cut from Ghost Recon Project OVR",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-07-13",
-      "summary": "Insider Gaming tem detalhes sobre alguns dos recursos que foram removidos ou reprogramados no Ghost Recon Project OVR. “Em relação ao que foi totalmente cortado, o primeiro são as minas de proximidade que poderiam ser colocadas no mapa pelo jogador.",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1uuwdua/insider_gaming_new_details_on_what_was_cut_from/"
-    },
-    {
-      "id": "https://www.techpowerup.com/350557/windows-11-pro-has-dropped-to-just-usd-10-through-july-19",
-      "title": "O Windows 11 Pro caiu para apenas US$ 10 até 19 de julho",
-      "original_title": "Windows 11 Pro Has Dropped to Just $10 Through July 19",
-      "image": "https://tpucdn.com/img/eJP5kB0TyLJbRIyB_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-07-13",
-      "summary": "Se o seu PC precisa de uma nova licença de sistema operacional, este é um dos preços mais baixos que você encontrará no Windows 11 Pro. Até 19 de julho, uma licença vitalícia estará disponível por US$ 9,97 (MSRP US$ 199). Esta versão é destinada a PCs que requerem uma nova licença do Windows...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/350557/windows-11-pro-has-dropped-to-just-usd-10-through-july-19"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1uuon8c/yet_another_unreleased_doom_4_footage_and/",
-      "title": "Mais uma filmagem e animações inéditas de DOOM 4",
-      "original_title": "Yet Another Unreleased DOOM 4 footage and animations",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-07-12",
-      "summary": "Cortesia de Crispies, Wad Overdose e Gil B que preservam o material do jogo DOOM perdido. Arte conceitual do Early Hell https://xcancel.com/Runhob/status/2076142086798098784/photo/1 Animações do Soldado Possuído em sua forma original de Doom 4: https://xca...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1uuon8c/yet_another_unreleased_doom_4_footage_and/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1uudfhl/rebs_gaming_leadership_at_halo_studios_is/",
-      "title": "Rebs Gaming: A liderança da Halo Studios está administrando mal a franquia Halo e maltratando os funcionários.",
-      "original_title": "Rebs Gaming: Leadership at Halo Studios is mismanaging the Halo franchise and mistreating employees.",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-07-12",
-      "summary": "Pierre Hintze (Chefe de Estúdio) denunciou repetidamente ao RH por maltratar funcionários. • Repreende as equipes de desenvolvimento, causando medo de apresentar trabalhos. • Resposta desdenhosa às preocupações com o equilíbrio entre vida pessoal e profissional: \"Eu não dou a mínima.\" • Minimiza as dúvidas dos funcionários...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1uudfhl/rebs_gaming_leadership_at_halo_studios_is/"
     }
   ]
 }
