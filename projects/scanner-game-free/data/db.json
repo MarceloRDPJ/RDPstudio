@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-07-17T13:26:42",
-  "display_date": "17/07/2026 13:26",
+  "last_updated": "2026-07-18T13:13:33",
+  "display_date": "18/07/2026 13:13",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "687ms",
+    "latency": "138ms",
     "current_games": [
       {
         "title": "Luto",
@@ -36,6 +36,15 @@
         "end_date": "2026-07-30T15:00:00.000Z"
       },
       {
+        "title": "Ghostrunner 2",
+        "description": "Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
+        "image": "https://cdn1.epicgames.com/offer/708f57aaa04b42ef885be16c8288f0ac/EGS_Ghostrunner2_OneMoreLevel_S1_2560x1440-15845148fae1d0cfd7f3e98c9b3ba6ba",
+        "url": "https://store.epicgames.com/p/ghostrunner-2",
+        "price": "$39.99",
+        "start_date": "2026-09-10T17:00:00.000Z",
+        "end_date": "2026-09-24T17:00:00.000Z"
+      },
+      {
         "title": "LISA: The Definitive Edition",
         "description": "Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
         "image": "https://cdn1.epicgames.com/offer/ca3a9d16d131478c97fd56c138a6511a/EGS_LISATheDefinitiveEdition_DingalingProductions_Bundles_S1_2560x1440-55b66eb2046507e58eac435c21331bd5",
@@ -56,7 +65,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "summary": "Luto é uma experiência de terror psicológico onde você assume o papel de alguém que não consegue sair de casa. Cada tentativa de fuga o levará mais fundo no desconhecido, onde nada é o que parece e tudo testará seus sentidos.",
       "sources": [
         "Epic Games Store"
@@ -71,7 +80,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "summary": "Lidere uma gangue de crianças para descobrir mistérios assustadores, lutar contra criaturas e explorar o lado sobrenatural de sua cidade natal em Echo Generation, uma aventura baseada em turnos ambientada nos anos 90.",
       "sources": [
         "Epic Games Store"
@@ -86,12 +95,27 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "summary": "Disponível gratuitamente a partir de 23/07. Decida o destino do mundo neste engenhoso jogo de cartas baseado em uma história.\n\nForetales oferece uma visão única do gênero aventura, com uma infinidade de estilos de jogo e caminhos de história através dos quais você pode salvar o mundo... ou trazer seu fim.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/a6dcabac79154e218bd3c7d4a8cad8a7"
+    },
+    {
+      "id": "https://store.epicgames.com/p/ghostrunner-2",
+      "title": "EM BREVE: Ghostrunner 2",
+      "original_title": "Ghostrunner 2",
+      "image": "https://cdn1.epicgames.com/offer/708f57aaa04b42ef885be16c8288f0ac/EGS_Ghostrunner2_OneMoreLevel_S1_2560x1440-15845148fae1d0cfd7f3e98c9b3ba6ba",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-07-18",
+      "summary": "Disponível gratuitamente a partir de 10/09. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/ghostrunner-2"
     },
     {
       "id": "https://store.epicgames.com/p/lisa-the-definitive-edition",
@@ -101,7 +125,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "summary": "Disponível gratuitamente a partir de 16/09. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
@@ -109,124 +133,109 @@
       "url": "https://store.epicgames.com/p/lisa-the-definitive-edition"
     },
     {
-      "id": "https://www.eurogamer.net/gta-6-pre-order-numbers-record",
-      "title": "As alegações sobre as pré-encomendas do GTA 6 são incorretas e “absurdas”, diz a empresa de análise, mas ainda teve a “campanha de pré-encomenda mais forte já registrada”",
-      "original_title": "Claims about GTA 6 pre-orders are incorrect and \"absurd\", analyst firm says, but it's still had the \"strongest pre-order campaign ever recorded\"",
-      "image": "https://assetsio.gnwcdn.com/gta-boxed.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/disco-elysium-zero-parades-studio-zaum-to-lay-off-large-chunk-of-staff-once-more",
+      "title": "O polêmico estúdio Disco Elysium e Zero Parades ZA / UM vai demitir grande parte da equipe mais uma vez",
+      "original_title": "Controversy-laiden Disco Elysium and Zero Parades studio ZA/UM to lay off large chunk of staff once more",
+      "image": "https://assetsio.gnwcdn.com/zero-parades-layoffs-header-man-in-chair.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-17",
-      "summary": "Todos sabíamos que GTA 6 seria grande, mas novos dados de um grupo de analistas de dados do mercado de videogames sugerem que o próximo jogo sandbox da Rockstar já rendeu mais de US$ 260 milhões para a empresa. Leia mais...",
+      "date": "2026-07-18",
+      "summary": "ZA/UM Studio, o desenvolvedor controverso no centro de anos de acirradas disputas públicas e legais desde o lançamento do aclamado Disco Elysium de 2019, vai demitir até 32 funcionários “em todos os departamentos”, foi anunciado. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/gta-6-pre-order-numbers-record"
+      "url": "https://www.eurogamer.net/disco-elysium-zero-parades-studio-zaum-to-lay-off-large-chunk-of-staff-once-more"
     },
     {
-      "id": "https://www.eurogamer.net/marvels-wolverine-story-trailer-sony-disc-outrage",
-      "title": "O novo trailer cinematográfico do Wolverine da Marvel foi invadido por fãs do PlayStation, ainda irritados com o abandono dos discos pela Sony",
-      "original_title": "The new Marvel's Wolverine cinematic trailer has been swarmed by PlayStation fans still angry at Sony ditching discs",
-      "image": "https://assetsio.gnwcdn.com/wolverine_riJvh67.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/blood-of-dawnwalker-released-on-disc",
+      "title": "O jogo Blood of Dawnwalker completo será lançado em disco, confirmam Bandai Namco e Rebel Wolves",
+      "original_title": "The full Blood of Dawnwalker game will be released on disc, Bandai Namco and Rebel Wolves confirm",
+      "image": "https://assetsio.gnwcdn.com/brencis-danwalker-artwork.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-17",
-      "summary": "Um trailer cinematográfico foi lançado para a próxima aventura de ação mutante da Insomniac Game: Wolverine da Marvel. E embora muitos fãs estejam entusiasmados para ver outra atualização incrível para o jogo, ela foi invadida por aqueles que ainda estão irritados com a decisão da Sony...",
+      "date": "2026-07-18",
+      "summary": "O novo e promissor RPG de vampiros medievais The Blood of Dawnwalker será, aleluia, lançado em um bom e velho disco. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/marvels-wolverine-story-trailer-sony-disc-outrage"
+      "url": "https://www.eurogamer.net/blood-of-dawnwalker-released-on-disc"
     },
     {
-      "id": "https://www.eurogamer.net/id-software-xbox-cuts-doom",
-      "title": "Não, a id Software, criadora de Doom, não foi “nerfada e destruída” pelos cortes do Xbox, insiste o diretor Hugo Martin",
-      "original_title": "No, Doom maker id Software hasn't been \"nerfed into the ground and gutted\" by the Xbox cuts, insists director Hugo Martin",
-      "image": "https://assetsio.gnwcdn.com/DOOM-SITE_5fKgryC-(1).jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/netflixs-games-strategy-might-be-a-mess-but-oxenfree-studios-ingenious-new-chiller-thriller-shows-it-has-a-secret-weapon",
+      "title": "A estratégia de jogos da Netflix pode ser uma bagunça, mas o engenhoso novo thriller do estúdio Oxenfree mostra que ele tem uma arma secreta",
+      "original_title": "Netflix's games strategy might be a mess, but Oxenfree studio's ingenious new chiller-thriller shows it has a secret weapon",
+      "image": "https://assetsio.gnwcdn.com/unhinged-header_R5aN0Nb.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-17",
-      "summary": "O criador de Doom e Quake, id Software, insiste que não foi “nerfado e destruído” pelo Xbox, apesar de relatos em contrário. Leia mais...",
+      "date": "2026-07-18",
+      "summary": "Ainda me lembro vividamente do momento em No More Heroes em que o meu Comando Wii tocou pela primeira vez. A confusão se transformou em alegria quando segurei o controle no ouvido e, através de seu minúsculo alto-falante, Sylvia começou a falar, como se estivesse do outro lado da linha...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/id-software-xbox-cuts-doom"
+      "url": "https://www.eurogamer.net/netflixs-games-strategy-might-be-a-mess-but-oxenfree-studios-ingenious-new-chiller-thriller-shows-it-has-a-secret-weapon"
     },
     {
-      "id": "https://www.eurogamer.net/god-of-war-amazon-actor-ryan-hurst-injury-recast",
-      "title": "A série de TV de ação ao vivo God of War sofre um grande revés quando o ator de Kratos fica gravemente ferido no set e precisa ser reformulado",
-      "original_title": "The live-action God of War TV series suffers a huge setback as Kratos actor is injured badly on set and needs to be recast",
-      "image": "https://assetsio.gnwcdn.com/Kratos-in-God-of-War.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/io-interactive-007-first-light-james-bond",
+      "title": "Não tanto James Bond, mas Missão Impossível - 007 First Light era originalmente mais uma peça de conjunto, diz IO Interactive",
+      "original_title": "Not so much James Bond, more Mission Impossible - 007 First Light was originally more of an ensemble piece, says IO Interactive",
+      "image": "https://assetsio.gnwcdn.com/james-bond-007-first-light-cressida.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-17",
-      "summary": "O próximo programa de TV God of War da Amazon encontrou um grande obstáculo depois que o ator de Kratos, Ryan Hurst, sofreu um ferimento grave no set. Leia mais...",
+      "date": "2026-07-18",
+      "summary": "A IO Interactive certa vez considerou fazer de 007 First Light mais uma peça de conjunto do que acabou sendo. Em outras palavras, o jogo seria menos sobre James Bond sozinho e mais sobre ele e uma equipe de agentes trabalhando juntos. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/god-of-war-amazon-actor-ryan-hurst-injury-recast"
+      "url": "https://www.eurogamer.net/io-interactive-007-first-light-james-bond"
     },
     {
-      "id": "https://www.eurogamer.net/castlevania-belmonts-curse-preview",
-      "title": "Castlevania Belmont's Curse poderia ser apenas um clássico do jogo que voltou à forma",
-      "original_title": "Castlevania Belmont's Curse could just be a gaming classic whipped back into shape",
-      "image": "https://assetsio.gnwcdn.com/0608_01.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/what-weve-been-playing-he-takes-great-joy-out-of-my-suffering",
+      "title": "O que temos tocado - \"Ele tira muita alegria do meu sofrimento\"",
+      "original_title": "What we've been playing - \"He takes great joy out of my suffering\"",
+      "image": "https://assetsio.gnwcdn.com/emperor-palpatine.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-17",
-      "summary": "Castlevania Belmont's Curse é um grande retorno às raízes da série de plataformas. Desenvolvido pela Konami e Evil Empire, é uma catedral gótica construída com novos materiais, sobre as mais fortes fundações do gênero. Nas poucas horas que tive para explorar o jogo'...",
+      "date": "2026-07-18",
+      "summary": "Olá e bem-vindo de volta ao nosso artigo regular, onde escrevemos um pouco sobre os jogos que temos jogado. Esta semana, Connor é habilmente perseguido por seu amigo e compartilha uma versão controversa de um jogo que algumas pessoas vão adorar; Chris revisita uma história de todos os tempos...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/castlevania-belmonts-curse-preview"
+      "url": "https://www.eurogamer.net/what-weve-been-playing-he-takes-great-joy-out-of-my-suffering"
     },
     {
-      "id": "https://www.techpowerup.com/350843/ibuypower-relaunches-rdyxyou-creator-collab-pcs",
-      "title": "(PR) iBUYPOWER relança PCs colaborativos RDYxYOU Creator",
-      "original_title": "(PR) iBUYPOWER Relaunches RDYxYOU Creator Collab PCs",
-      "image": "https://tpucdn.com/img/izLDd5Eh5QyTCxRb_thm.jpg",
+      "id": "https://www.techpowerup.com/350863/ubisoft-celebrates-3-million-sales-for-assassins-creed-black-flag-resynced-and-promises-new-game-content",
+      "title": "Ubisoft comemora 3 milhões de vendas de Assassin's Creed Black Flag ressincronizado e promete novo jogo + conteúdo",
+      "original_title": "Ubisoft Celebrates 3 Million Sales for Assassin's Creed Black Flag Resynced and Promises New Game+ Content",
+      "image": "https://tpucdn.com/img/8QeM9JJYQ83xrJiH_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-17",
-      "summary": "Hoje, o integrador líder de sistemas iBUYPOWER tem o prazer de anunciar que, após projetos únicos anteriores com os criadores de \"tecnologia aconchegante\" momodokii e kaileune, está relançando seu programa RDYxYOU, onde a empresa está se unindo a criadores de conteúdo...",
+      "date": "2026-07-18",
+      "summary": "Exatamente uma semana depois que o jogo ultrapassou a marca de dois milhões de vendas – em menos de 24 horas, nada menos – a Ubisoft anunciou que Assassin’s Creed Black Flag Resynced vendeu oficialmente três milhões de unidades. Black Flag Resynced também conseguiu bastante decente...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350843/ibuypower-relaunches-rdyxyou-creator-collab-pcs"
+      "url": "https://www.techpowerup.com/350863/ubisoft-celebrates-3-million-sales-for-assassins-creed-black-flag-resynced-and-promises-new-game-content"
     },
     {
-      "id": "https://www.techpowerup.com/350842/intel-to-launch-28-core-nova-lake-s-before-52-core-version",
-      "title": "Intel lançará “Nova Lake-S” de 28 núcleos antes da versão de 52 núcleos",
-      "original_title": "Intel to Launch 28-Core \"Nova Lake-S\" Before 52-Core Version",
-      "image": "https://tpucdn.com/img/Sa2jrn7E7cpvuAUF_thm.jpg",
+      "id": "https://www.techpowerup.com/350859/the-behemoth-v2-is-a-maximalist-135-mechanical-gaming-keyboard",
+      "title": "O Behemoth V2 é um teclado para jogos maximalista 135% mecânico",
+      "original_title": "The Behemoth V2 Is a Maximalist 135% Mechanical Gaming Keyboard",
+      "image": "https://tpucdn.com/img/7GhpWGPbhzwlKHv3_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-17",
-      "summary": "A Intel está gradualmente preparando as bases para o lançamento de seus processadores para desktop Core Ultra 400 “Nova Lake-S” com uma revisão básica da marca. No entanto, a empresa está supostamente preparando diferentes datas de lançamento para vários SKUs, de acordo com VideoCar...",
+      "date": "2026-07-18",
+      "summary": "Com os teclados recentes para jogos e produtividade tendendo a designs mais compactos para abrir mais espaço para o movimento do mouse, é quase inevitável que projetos como o The Behemoth apareçam. O Behemoth V2, a versão mais recente do 135%...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350842/intel-to-launch-28-core-nova-lake-s-before-52-core-version"
-    },
-    {
-      "id": "https://www.techpowerup.com/350841/akko-launches-new-u1-switch-series-debuting-with-creamy-yellow-u1",
-      "title": "(PR) Akko lança nova série de switches U1, estreando com Creamy Yellow U1",
-      "original_title": "(PR) Akko Launches New U1 Switch Series, Debuting with Creamy Yellow U1",
-      "image": "https://tpucdn.com/img/JjnamF7FDeTHvzSa_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-07-17",
-      "summary": "À medida que a Akko se aproxima do seu 10º aniversário, a marca apresenta os interruptores mecânicos de teclado da série U1. Como linha de switches de próxima geração da Akko, a Série U1 é construída em torno da inovação de materiais, refinamento estrutural e ajuste acústico, com o objetivo de...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/350841/akko-launches-new-u1-switch-series-debuting-with-creamy-yellow-u1"
+      "url": "https://www.techpowerup.com/350859/the-behemoth-v2-is-a-maximalist-135-mechanical-gaming-keyboard"
     },
     {
       "id": "https://www.techpowerup.com/350687/dropreference-launches-in-the-us-with-pc-part-price-comparison-and-gaming-performance-estimates",
@@ -236,7 +245,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-17",
+      "date": "2026-07-18",
       "summary": "DropReference, uma plataforma de comparação de hardware de PC e planejamento de construção que atrai mais de 200.000 visitantes únicos a cada mês, está se expandindo oficialmente para os Estados Unidos. Já estabelecido entre os fabricantes europeus de PCs, o DropReference permite aos usuários c...",
       "sources": [
         "TechPowerUp"
@@ -244,154 +253,154 @@
       "url": "https://www.techpowerup.com/350687/dropreference-launches-in-the-us-with-pc-part-price-comparison-and-gaming-performance-estimates"
     },
     {
-      "id": "https://www.techpowerup.com/350837/gta-vi-expected-to-cross-usd-4-5-billion-in-sales-in-launch-week",
-      "title": "GTA VI deverá ultrapassar US$ 4,5 bilhões em vendas na semana de lançamento",
-      "original_title": "GTA VI Expected To Cross $4.5 Billion in Sales, in Launch Week",
-      "image": "https://tpucdn.com/img/6W7ilBjFrFePyBUL_thm.jpg",
+      "id": "https://www.techpowerup.com/350858/disco-elysium-studio-fires-workers-after-failed-game-launch",
+      "title": "Disco Elysium Studio demite funcionários após falha no lançamento do jogo",
+      "original_title": "Disco Elysium Studio Fires Workers After Failed Game Launch",
+      "image": "https://tpucdn.com/img/nz36Vujum1POWIWt_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-07-18",
+      "summary": "Após o sucesso moderado de Disco Elysium, ZA/UM lançou Zero Parades: For Dead Spies em 21 de maio, com as ambições do estúdio voltadas para o novo RPG de suspense de espionagem. Infelizmente, isso parece não ter dado certo, como foi confirmado em 17 de julho e...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/350858/disco-elysium-studio-fires-workers-after-failed-game-launch"
+    },
+    {
+      "id": "https://www.eurogamer.net/god-of-war-laufey-deborah-ann-woll-unbothered",
+      "title": "“Eu me sinto totalmente despreocupada” – Deborah Ann Woll não se importa com os trolls atirando em God Of War Laufey",
+      "original_title": "\"I feel totally unbothered\" - Deborah Ann Woll doesn't care about the trolls taking shots at God Of War Laufey",
+      "image": "https://assetsio.gnwcdn.com/laufey-sword.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-07-17",
+      "summary": "Desde que foi anunciado no início de junho, God of War Laufey tem recebido uma quantidade inesperada de críticas negativas. E muitos comentários sobre o jogo - do qual só vimos um trailer até agora - giram em torno da atriz...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/god-of-war-laufey-deborah-ann-woll-unbothered"
+    },
+    {
+      "id": "https://www.eurogamer.net/battlefield-6-top-gun-collaboration-season-4-carrier-strike",
+      "title": "Battlefield 6 está recebendo um modo Carrier Assault evoluído na 4ª temporada, e a colaboração Top Gun traz mais do que cosméticos",
+      "original_title": "Battlefield 6 is getting an evolved Carrier Assault mode in Season 4, and the Top Gun collab brings more than cosmetics",
+      "image": "https://assetsio.gnwcdn.com/battlefield-6-season-4-gameplay-screen-4.jpeg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-07-17",
+      "summary": "A próxima temporada 4 de Battlefield 6 continua parecendo uma de suas temporadas mais emocionantes. Depois de apresentar uma primeira visão do combate naval no início desta semana, Battlefield Studios detalhou mais do que podemos esperar ao longo da temporada, em...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/battlefield-6-top-gun-collaboration-season-4-carrier-strike"
+    },
+    {
+      "id": "https://www.eurogamer.net/elder-scrolls-6-xbox-layoffs-bethesda-reaction",
+      "title": "Bethesda garante aos fãs que The Elder Scrolls 6 está “a caminho” seguindo os cortes do Xbox, e que está “amando sua aparência” e “jogando todos os dias”",
+      "original_title": "Bethesda reassures fans The Elder Scrolls 6 is \"on the way\" following the Xbox cuts, and that it's \"loving how it looks\" and \"playing it every day\"",
+      "image": "https://assetsio.gnwcdn.com/TGS6.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-07-17",
+      "summary": "A Bethesda Game Studios acalmou as preocupações sobre The Elder Scrolls 6 após os cortes recentes do Xbox, dizendo aos jogadores que: \"O próximo capítulo está a caminho. Estamos onde planejamos estar, adorando sua aparência e jogando todos os dias.\" Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/elder-scrolls-6-xbox-layoffs-bethesda-reaction"
+    },
+    {
+      "id": "https://www.eurogamer.net/starfield-impotant-part-of-future-bethesda-future-support",
+      "title": "Starfield “continua sendo uma parte importante do nosso futuro”, diz Bethesda, enquanto o desenvolvedor promete apoio contínuo ao RPG de ficção científica",
+      "original_title": "Starfield \"remains an important part of our future\" says Bethesda, as developer pledges continued support for sci-fi RPG",
+      "image": "https://assetsio.gnwcdn.com/STARFIELD-SITE_aiZ8Li5.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-07-17",
+      "summary": "A Bethesda confirmou que seu RPG de ficção científica espacial Starfield continuará a ser apoiado pelo desenvolvedor, mesmo depois de sofrer demissões e voltou a se concentrar em franquias principais como The Elder Scrolls e Fallout. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/starfield-impotant-part-of-future-bethesda-future-support"
+    },
+    {
+      "id": "https://www.eurogamer.net/those-rumoured-fallout-3-and-fallout-new-vegas-remasteres-are-real-fallout-5-is-in-pre-production-and-fallout-76-is-getting-a-massive-expansion",
+      "title": "Esses rumores de remasterizações de Fallout 3 e Fallout New Vegas são reais, Fallout 5 está em pré-produção e Fallout 76 está recebendo uma expansão massiva",
+      "original_title": "Those rumoured Fallout 3 and Fallout New Vegas remasters are real, Fallout 5 is in pre-production, and Fallout 76 is getting a massive expansion",
+      "image": "https://assetsio.gnwcdn.com/Fallout-3-nv.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Rumor",
+      "date": "2026-07-17",
+      "summary": "Bethesda publicou uma nova declaração que lança algumas bombas importantes (desculpe) sobre o futuro da série Fallout. No comunicado, a empresa observou que os rumores de remasterizações de Fallout: New Vegas e Fallout 3 são realmente reais, provocaram um mistério...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/those-rumoured-fallout-3-and-fallout-new-vegas-remasteres-are-real-fallout-5-is-in-pre-production-and-fallout-76-is-getting-a-massive-expansion"
+    },
+    {
+      "id": "https://www.techpowerup.com/350857/onimusha-way-of-the-sword-to-launch-3-weeks-early",
+      "title": "Onimusha: Way of the Sword será lançado 3 semanas antes",
+      "original_title": "Onimusha: Way of the Sword To Launch 3 Weeks Early",
+      "image": "https://tpucdn.com/img/VVKCvaxeDUZ8e5Uv_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-07-17",
-      "summary": "Já sabemos que GTA VI é um jogo muito aguardado, com o segundo trailer do jogo supostamente ultrapassando 475 milhões de visualizações nas primeiras 24 horas em todas as plataformas. Agora, a empresa de análise Newzoo previu que GTA VI pode ser vendido em qualquer lugar...",
+      "summary": "Onimusha: Way of the Sword estava originalmente programado para ser lançado em 25 de setembro de 2026, mas a Capcom anunciou por meio da conta X oficial do jogo que a data de lançamento foi adiada. Uma raridade no cenário atual dos jogos, a data de lançamento foi trazida...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350837/gta-vi-expected-to-cross-usd-4-5-billion-in-sales-in-launch-week"
+      "url": "https://www.techpowerup.com/350857/onimusha-way-of-the-sword-to-launch-3-weeks-early"
     },
     {
-      "id": "https://www.eurogamer.net/ea-in-game-advertising-opportunity",
-      "title": "“Tem que fazer sentido para o jogo” – a EA vê uma “grande oportunidade” para publicidade no jogo “mas tem que ser feita corretamente”",
-      "original_title": "\"It has to make sense for the game\" - EA sees a \"huge opportunity\" for in-game advertising \"but it has to be done properly\"",
-      "image": "https://assetsio.gnwcdn.com/the-sims-coach-collab.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-07-16",
-      "summary": "Parece que a EA está sendo cuidadosa, por enquanto, sobre quais marcas podem anunciar em seus jogos. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/ea-in-game-advertising-opportunity"
-    },
-    {
-      "id": "https://www.eurogamer.net/gta-6-rockstar-pc-consoles-release",
-      "title": "“Não é que não nos importemos com PC” – Ex-desenvolvedor da Rockstar sugere por que GTA 6 só chegará aos consoles no lançamento",
-      "original_title": "\"It's not that we don't care about PC\" - Former Rockstar developer suggests why GTA 6 is only coming to consoles at launch",
-      "image": "https://assetsio.gnwcdn.com/gta-6-trailer-city.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-07-16",
-      "summary": "GTA 6 está aparecendo como aquele monólito em 2001: Uma Odisséia no Espaço, lançando sua sombra assustadora sobre a indústria de jogos e provavelmente também assustando alguns macacos. Mas os jogadores de PC não poderão participar da diversão quando a megasequela da Rockstar Games for lançada em 19...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/gta-6-rockstar-pc-consoles-release"
-    },
-    {
-      "id": "https://www.eurogamer.net/assassins-creed-black-flag-resynced-new-game-plus",
-      "title": "Ubisoft está trabalhando em Assassin's Creed Black Flag ressincronizado New Game Plus",
-      "original_title": "Ubisoft is working on Assassin's Creed Black Flag Resynced New Game Plus",
-      "image": "https://assetsio.gnwcdn.com/AC-Black-Flag-Resynced---reaching-a-port.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-07-16",
-      "summary": "O enorme sucesso de Assassin’s Creed Black Flag Resynced provavelmente tem algo a ver com a decisão do estúdio de trabalhar no modo New Game Plus. O diretor do jogo, Richard Knight, confirmou que o recurso está atualmente em estágios iniciais de desenvolvimento. Ler...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/assassins-creed-black-flag-resynced-new-game-plus"
-    },
-    {
-      "id": "https://www.eurogamer.net/playstation-plus-games-july",
-      "title": "Aqui estão nossos jogos PS Plus Premium e Extra de julho",
-      "original_title": "Here are our PS Plus Premium and Extra games for July",
-      "image": "https://assetsio.gnwcdn.com/indigo-prophecy-playstation-plus.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-07-16",
-      "summary": "Estamos no meio de um verão escaldante. E para esta temporada de ficar dentro de casa e suar muito, a linha de julho do PlayStation Plus traz uma nova leva de jogos para nos manter entretidos enquanto o sol está alto, tornando o toque na grama mais árduo do que...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/playstation-plus-games-july"
-    },
-    {
-      "id": "https://www.eurogamer.net/elder-scrolls-online-zenimax-online-studios-leadership-fired",
-      "title": "Liderança da Zenimax Online Studios incluída em cortes generalizados de empregos no Xbox, à medida que persistem preocupações em torno da longevidade de Elder Scrolls Online",
-      "original_title": "Zenimax Online Studios leadership included in widespread Xbox job cuts, as concerns around Elder Scrolls Online's longevity persist",
-      "image": "https://assetsio.gnwcdn.com/the-elder-scrolls-online-image-portal.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-07-16",
-      "summary": "Vários membros da liderança sênior da Zenimax Online Studios estão sendo cortados da empresa, como parte das amplas demissões do Xbox que resultaram em mais de 200 demissões do desenvolvedor Elder Scrolls Online. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/elder-scrolls-online-zenimax-online-studios-leadership-fired"
-    },
-    {
-      "id": "https://www.techpowerup.com/350835/marvel-tokon-fighting-souls-open-beta-detailed-15-characters-and-no-ps-plus-requirement",
-      "title": "Marvel Tokon: Fighting Souls Open Beta detalhado: 15 personagens e sem necessidade de PS Plus",
-      "original_title": "Marvel Tokon: Fighting Souls Open Beta Detailed: 15 Characters and No PS Plus Requirement",
-      "image": "https://tpucdn.com/img/tYxkDCYzO4mbWpyc_thm.jpg",
+      "id": "https://www.techpowerup.com/350856/marathon-loses-game-director-after-general-manager-retires",
+      "title": "Marathon perde diretor de jogo após a aposentadoria do gerente geral",
+      "original_title": "Marathon Loses Game Director After General Manager Retires",
+      "image": "https://tpucdn.com/img/CJQE1ZHG88dlKhCh_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-16",
-      "summary": "Marvel Tōkon: Fighting Souls, o novo jogo de luta em equipe 4v4 da Arc System Works e PlayStation Publishing, tem um beta aberto agendado para 24 a 26 de julho, antes da data de lançamento em 6 de agosto. Esta será a primeira vez que os jogadores poderão experimentar o g...",
+      "date": "2026-07-17",
+      "summary": "Seguindo a recente promessa da Bungie de uma jogabilidade PvE mais aprofundada para Marathon no final de 2026, e o anúncio de que o gerente geral da Marathon, Scott Taylor, estava deixando a Bungie após um período de 20 anos no estúdio, foi revelado em um post em ...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350835/marvel-tokon-fighting-souls-open-beta-detailed-15-characters-and-no-ps-plus-requirement"
+      "url": "https://www.techpowerup.com/350856/marathon-loses-game-director-after-general-manager-retires"
     },
     {
-      "id": "https://www.techpowerup.com/350834/rpcs3-emulator-now-plays-75-of-ps3-game-library-on-pc",
-      "title": "Emulador RPCS3 agora reproduz 75% da biblioteca de jogos PS3 no PC",
-      "original_title": "RPCS3 Emulator Now Plays 75% of PS3 Game Library on PC",
-      "image": "https://tpucdn.com/img/6Sbqktl9TYGDi9Tw_thm.jpg",
+      "id": "https://www.techpowerup.com/350852/ifixit-slams-asus-rog-flow-z13s-10-10-repairability-score",
+      "title": "iFixit bate pontuação de reparabilidade 10/10 do ASUS ROG Flow Z13",
+      "original_title": "iFixit Slams ASUS ROG Flow Z13's 10/10 Repairability Score",
+      "image": "https://tpucdn.com/img/WF9GkG4lUzPRvZm7_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-16",
-      "summary": "A equipe de desenvolvimento por trás do RPCS3, o emulador PS3 de código aberto para Linux, macOS e Windows, acaba de anunciar em um post no X que o emulador agora pode jogar 75% da biblioteca de jogos do PlayStation 3, que representa 2.681 jogos dos 3 do console...",
+      "date": "2026-07-17",
+      "summary": "Quando a ASUS lançou o 2 em 1 para jogos ROG Flow Z13 em 2025, ela se vangloriou orgulhosamente da pontuação de reparabilidade 10/10 do conversível – uma pontuação auto-relatada que avalia a reparabilidade de um produto com base na disponibilidade de peças, documentação, rep...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350834/rpcs3-emulator-now-plays-75-of-ps3-game-library-on-pc"
+      "url": "https://www.techpowerup.com/350852/ifixit-slams-asus-rog-flow-z13s-10-10-repairability-score"
     },
     {
-      "id": "https://www.techpowerup.com/350832/bungie-pegs-marathon-full-pve-mode-for-season-3-as-new-game-director-takes-over",
-      "title": "Modo PvE completo da Bungie Pegs Marathon para a 3ª temporada com o novo diretor do jogo assumindo o controle",
-      "original_title": "Bungie Pegs Marathon Full PvE Mode for Season 3 As New Game Director Takes Over",
-      "image": "https://tpucdn.com/img/XmycqsmJjeMAIsQ8_thm.jpg",
+      "id": "https://www.techpowerup.com/350854/msi-adds-new-320-hz-and-180-hz-wqhd-gaming-monitors-to-its-mag-lineup",
+      "title": "MSI adiciona novos monitores de jogos WQHD de 320 Hz e 180 Hz à sua linha MAG",
+      "original_title": "MSI Adds New 320 Hz and 180 Hz WQHD Gaming Monitors to Its MAG Lineup",
+      "image": "https://tpucdn.com/img/to8GMqq1eOH5klNU_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-16",
-      "summary": "Desde o lançamento do Marathon no início de março, o jogo de tiro de extração PvPvE tem passado por momentos difíceis com a retenção de jogadores, caindo de um pico de contagem de jogadores simultâneos no Steam de 88.337 jogadores logo após o lançamento para picos diários de cerca de 5.000-6.0...",
+      "date": "2026-07-17",
+      "summary": "A MSI adicionou dois novos monitores WQHD à sua linha MAG visando diferentes fins do mercado de jogos. O MAG 274QPF X32 é um monitor plano clássico de 27 polegadas que possui uma taxa de atualização de 320 Hz, tornando-o o mais rápido dos dois. O monitor possui Rapid IPS,...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350832/bungie-pegs-marathon-full-pve-mode-for-season-3-as-new-game-director-takes-over"
-    },
-    {
-      "id": "https://www.techpowerup.com/350833/onimusha-way-of-the-sword-is-coming-to-geforce-now",
-      "title": "(PR) Onimusha: Way of the Sword está chegando à GeForce AGORA",
-      "original_title": "(PR) Onimusha: Way of the Sword Is Coming to GeForce NOW",
-      "image": "https://tpucdn.com/img/5eJc98WuxI2Ai2PF_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-07-16",
-      "summary": "Onimusha: Way of the Sword está chegando à GeForce AGORA no lançamento, com a demo jogável disponível esta semana. Denshattack se juntou a ele! chegando com cinco novos jogos chegando na nuvem. Além disso, o GeForce NOW é lançado oficialmente na Índia, passando de b...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/350833/onimusha-way-of-the-sword-is-coming-to-geforce-now"
+      "url": "https://www.techpowerup.com/350854/msi-adds-new-320-hz-and-180-hz-wqhd-gaming-monitors-to-its-mag-lineup"
     },
     {
       "id": "https://www.techpowerup.com/350557/windows-11-pro-has-dropped-to-just-usd-10-through-july-19",
@@ -401,12 +410,27 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-16",
+      "date": "2026-07-17",
       "summary": "Se o seu PC precisa de uma nova licença de sistema operacional, este é um dos preços mais baixos que você encontrará no Windows 11 Pro. Até 19 de julho, uma licença vitalícia estará disponível por US$ 9,97 (MSRP US$ 199). Esta versão é destinada a PCs que requerem uma nova licença do Windows...",
       "sources": [
         "TechPowerUp"
       ],
       "url": "https://www.techpowerup.com/350557/windows-11-pro-has-dropped-to-just-usd-10-through-july-19"
+    },
+    {
+      "id": "https://www.techpowerup.com/350853/pc-vendors-fight-for-cxmt-memory-supply-smaller-oems-struggle",
+      "title": "Fornecedores de PC “lutam” pelo fornecimento de memória CXMT, luta entre OEMs menores",
+      "original_title": "PC Vendors \"Fight\" for CXMT Memory Supply, Smaller OEMs Struggle",
+      "image": "https://tpucdn.com/img/pc8JzX6DlmdAePJa_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-07-17",
+      "summary": "Os principais OEMs de PC estão começando a fechar acordos com o fabricante chinês de memória CXMT, já que a cadeia de suprimentos está esgotada de DRAM disponível dos três grandes fabricantes de memória – SK hynix, Samsung e Micron. De acordo com um relatório da DigiTimes, a memória do CXMT pode...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/350853/pc-vendors-fight-for-cxmt-memory-supply-smaller-oems-struggle"
     }
   ]
 }
