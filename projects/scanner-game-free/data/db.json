@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-07-19T13:16:19",
-  "display_date": "19/07/2026 13:16",
+  "last_updated": "2026-07-20T14:04:27",
+  "display_date": "20/07/2026 14:04",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "769ms",
+    "latency": "257ms",
     "current_games": [
       {
         "title": "Luto",
@@ -52,6 +52,15 @@
         "price": "$24.99",
         "start_date": "2026-09-16T15:00:00.000Z",
         "end_date": "2026-10-01T05:59:00.000Z"
+      },
+      {
+        "title": "Monument Valley",
+        "description": "Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
+        "image": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
+        "url": "https://store.epicgames.com/p/monument-valley-02",
+        "price": "$7.99",
+        "start_date": "2026-09-03T15:00:00.000Z",
+        "end_date": "2026-09-17T15:00:00.000Z"
       }
     ],
     "mystery_detected": false
@@ -65,7 +74,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "summary": "Luto é uma experiência de terror psicológico onde você assume o papel de alguém que não consegue sair de casa. Cada tentativa de fuga o levará mais fundo no desconhecido, onde nada é o que parece e tudo testará seus sentidos.",
       "sources": [
         "Epic Games Store"
@@ -80,7 +89,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "summary": "Lidere uma gangue de crianças para descobrir mistérios assustadores, lutar contra criaturas e explorar o lado sobrenatural de sua cidade natal em Echo Generation, uma aventura baseada em turnos ambientada nos anos 90.",
       "sources": [
         "Epic Games Store"
@@ -95,7 +104,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "summary": "Disponível gratuitamente a partir de 23/07. Decida o destino do mundo neste engenhoso jogo de cartas baseado em uma história.\n\nForetales oferece uma visão única do gênero aventura, com uma infinidade de estilos de jogo e caminhos de história através dos quais você pode salvar o mundo... ou trazer seu fim.",
       "sources": [
         "Epic Games Store"
@@ -110,7 +119,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "summary": "Disponível gratuitamente a partir de 10/09. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
       "sources": [
         "Epic Games Store"
@@ -125,7 +134,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-19",
+      "date": "2026-07-20",
       "summary": "Disponível gratuitamente a partir de 16/09. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
@@ -133,19 +142,214 @@
       "url": "https://store.epicgames.com/p/lisa-the-definitive-edition"
     },
     {
-      "id": "https://www.eurogamer.net/forbidden-solitaire-90s-cd-rom-game-preservation",
-      "title": "Forbidden Solitaire é um maravilhoso lembrete de que os jogos são poderosos artefatos culturais que precisam ser preservados",
-      "original_title": "Forbidden Solitaire is a wonderful reminder games are powerful cultural artefacts that demand to be preserved",
-      "image": "https://assetsio.gnwcdn.com/forbidden-solitaire-header-3.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://store.epicgames.com/p/monument-valley-02",
+      "title": "EM BREVE: Monument Valley",
+      "original_title": "Monument Valley",
+      "image": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-07-20",
+      "summary": "Disponível gratuitamente a partir de 03/09. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/monument-valley-02"
+    },
+    {
+      "id": "https://www.eurogamer.net/ea-sports-fc-spain-winner-fifa-world-cup",
+      "title": "As simulações da EA Sports FC previram corretamente que o vencedor da Copa do Mundo da FIFA seria a Espanha, e não é a primeira vez que isso acontece",
+      "original_title": "EA Sports FC simulations correctly predicted the FIFA World Cup winner would be Spain, and it's not the first time it has happened",
+      "image": "https://assetsio.gnwcdn.com/EA-FC-26-Spain-team.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-07-20",
+      "summary": "A Espanha é a nova vencedora da Copa do Mundo da FIFA depois de derrotar a Argentina por 1 a 0 na noite passada e, mais uma vez, o jogo da EA Sports FC previu corretamente o resultado com antecedência. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/ea-sports-fc-spain-winner-fifa-world-cup"
+    },
+    {
+      "id": "https://www.eurogamer.net/uk-retailer-game-administration",
+      "title": "A varejista de jogos do Reino Unido, Game, entrou na administração com uma dívida de £ 16 milhões, graças à concorrência acirrada, às tendências de consumo e à \"incerteza associada ao Brexit\"",
+      "original_title": "UK games retailer Game entered administration owing £16m, thanks to fierce competition, consumer trends, and \"uncertainty associated with Brexit\"",
+      "image": "https://assetsio.gnwcdn.com/Game-Store.webp?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-07-20",
+      "summary": "A visão sobre a queda do varejista britânico de videogames Game, que está entrando em administração, foi trazida à luz em um novo relatório. Após anos de problemas e desafios comerciais, este artigo afirma que a liquidação da empresa foi causada por ...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/uk-retailer-game-administration"
+    },
+    {
+      "id": "https://www.eurogamer.net/steam-machine-valve-component-price-increase",
+      "title": "\"Honestamente, ainda está piorando\" - o engenheiro da Valve Steam Machine diz que os preços dos componentes ainda estão subindo, potencialmente abrindo caminho para um aumento de preços",
+      "original_title": "\"Honestly, it's still getting worse\" - Valve Steam Machine engineer says component prices are still rising, potentially paving the way for a price increase",
+      "image": "https://assetsio.gnwcdn.com/steam-machine-green.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-07-20",
+      "summary": "Aparentemente, não há fim à vista para a crise da memória, ou para quanto mais alto poderá ser o preço dos produtos eletrónicos de consumo. A Valve, que recentemente lançou sua cara Steam Machine, aprendeu isso da maneira mais difícil. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/steam-machine-valve-component-price-increase"
+    },
+    {
+      "id": "https://www.eurogamer.net/bethesda-todd-howard-reddit-lurker",
+      "title": "O “espreitador profissional” Todd Howard reaparece em fóruns da Internet após os anúncios de Fallout e Elder Scrolls da Bethesda para agradecer aos fãs por seu apoio",
+      "original_title": "\"Professional lurker\" Todd Howard reappears on internet forums following Bethesda's Fallout and Elder Scrolls announcements to thank fans for their support",
+      "image": "https://assetsio.gnwcdn.com/Todd-Howard-at-Fallout-season-one-premier.-He-is-wearing-a-blue-suit-and-white-shirt-with-no-tie.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-07-20",
+      "summary": "Após amplas demissões em toda a divisão Xbox no início deste mês, a Bethesda compartilhou um roteiro surpreendentemente transparente sobre os projetos Fallout e The Elder Scrolls que está fazendo. Agora, o líder da Bethesda Game Studios, Todd Howard, retornou...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/bethesda-todd-howard-reddit-lurker"
+    },
+    {
+      "id": "https://www.eurogamer.net/cliff-bleszinski-alcoholism-gears-of-war-lawbreakers",
+      "title": "“A trilogia Gears of War foi desenvolvida em grande parte por mim de ressaca” – Cliff Bleszinski enfrenta um passado difícil enquanto planeja um retorno aos jogos e um futuro melhor",
+      "original_title": "\"The Gears of War trilogy was largely developed hungover by me\" - Cliff Bleszinski reckons with a difficult past while plotting a return to games and a brighter future",
+      "image": "https://assetsio.gnwcdn.com/cliff-bleszinski_ElyTLax.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-07-20",
+      "summary": "Cliff Bleszkinski, o designer fundamental na criação de Gears of War - o rosto da série em três jogos - falou sobre uma luta ao longo de sua carreira contra o álcool, com a qual ele agora está contando, ao mesmo tempo que provoca um possível retorno ao c...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/cliff-bleszinski-alcoholism-gears-of-war-lawbreakers"
+    },
+    {
+      "id": "https://www.eurogamer.net/call-of-duty-voice-chat-ambience-website",
+      "title": "Os lobbies de bate-papo por voz do Call of Duty se transformaram em um aplicativo ASMR que leva os veteranos de volta às cacofonias dos dias MW2 e BO1",
+      "original_title": "Call of Duty voice chat lobbies turned into ASMR app that takes veterans back to the cacophonies of the MW2 and BO1 days",
+      "image": "https://assetsio.gnwcdn.com/bo_zStfFRs.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-07-20",
+      "summary": "Enquanto algumas pessoas adormecem com ruído branco ou paisagens sonoras calmas, outras aparentemente conseguem fazê-lo no meio de partidas online barulhentas. Pelo menos, é o que parece pensar um desenvolvedor de aplicativos nostálgico dos velhos tempos do Call of Duty, como...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/call-of-duty-voice-chat-ambience-website"
+    },
+    {
+      "id": "https://www.eurogamer.net/assassins-creed-black-flag-resynced-3-million-copies-one-week",
+      "title": "Assassin's Creed Black Flag Resynced vendeu 3 milhões na primeira semana",
+      "original_title": "Assassin's Creed Black Flag Resynced sold 3 million in its first week",
+      "image": "https://assetsio.gnwcdn.com/AC-Black-Flag-Resynced-underwater-treasure.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-07-20",
+      "summary": "Após sua grande abertura de vendas de 2 milhões, Assassin's Creed Black Flag Resynced atingiu um novo marco de vendas: a Ubisoft anunciou que o remake vendeu mais de 3 milhões de unidades em uma semana em todas as plataformas. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/assassins-creed-black-flag-resynced-3-million-copies-one-week"
+    },
+    {
+      "id": "https://www.eurogamer.net/kingdom-hearts-missing-link-footage-leak-beyblade-astronauts",
+      "title": "Kingdom Hearts Missing-Link pode ter sido cancelado, mas isso não impediu que imagens de astronautas empunhando Keyblade vazassem online",
+      "original_title": "Kingdom Hearts Missing-Link may have been cancelled, but that hasn't stopped footage of Keyblade-wielding astronauts from leaking online",
+      "image": "https://assetsio.gnwcdn.com/kingdom-hearts-missing-link-keyblade-wielder.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Rumor",
+      "date": "2026-07-20",
+      "summary": "Imagens do Missing-Link cancelado de Kingdom Hearts apareceram online, pouco mais de um ano desde o término do desenvolvimento do jogo. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/kingdom-hearts-missing-link-footage-leak-beyblade-astronauts"
+    },
+    {
+      "id": "https://www.techpowerup.com/350891/nvidia-paves-the-way-for-windows-on-arm-gaming-with-rtx-spark-toolkit",
+      "title": "NVIDIA abre caminho para jogos Windows-on-Arm com RTX Spark Toolkit",
+      "original_title": "NVIDIA Paves the Way for Windows-on-Arm Gaming With RTX Spark Toolkit",
+      "image": "https://tpucdn.com/img/BpCGj86Wu2M6OE8d_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-07-20",
+      "summary": "A NVIDIA lançou oficialmente sua primeira versão prévia do kit de ferramentas CUDA para sua plataforma RTX Spark, especificamente como um kit de ferramentas de software nativo do Windows-on-Arm. Isso significa que os parceiros da NVIDIA, desenvolvedores de ecossistemas e desenvolvedores de jogos agora têm...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/350891/nvidia-paves-the-way-for-windows-on-arm-gaming-with-rtx-spark-toolkit"
+    },
+    {
+      "id": "https://www.techpowerup.com/350888/per-module-gddr7-temperature-reading-unlocked-on-nvidia-geforce-rtx-50-blackwell",
+      "title": "Leitura de temperatura GDDR7 por módulo desbloqueada na NVIDIA GeForce RTX 50 \"Blackwell\"",
+      "original_title": "Per-Module GDDR7 Temperature Reading Unlocked on NVIDIA GeForce RTX 50 \"Blackwell\"",
+      "image": "https://tpucdn.com/img/NcFaM9iriuZ38uih_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-07-20",
+      "summary": "Mais leituras individuais estão sendo desbloqueadas nas placas gráficas “Blackwell” da série GeForce RTX 50 da NVIDIA, à medida que a comunidade modding começou a explorar o monitoramento de temperatura GDDR7 por módulo. Curiosamente, a comunidade modding é diversa...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/350888/per-module-gddr7-temperature-reading-unlocked-on-nvidia-geforce-rtx-50-blackwell"
+    },
+    {
+      "id": "https://www.eurogamer.net/jennifer-english-leaves-tides-of-annihilation",
+      "title": "Baldur's Gate 3, a atriz de Clair Obscur, Jennifer English, se retira de Tides of Annihilation para \"cuidar de sua saúde física e mental\"",
+      "original_title": "Baldur's Gate 3, Clair Obscur actor Jennifer English withdraws from Tides of Annihilation to \"look after her mental and physical health\"",
+      "image": "https://assetsio.gnwcdn.com/Tides-of-Annihilation---Announce-Trailer-_-PS5-Games-0-23-screenshot.png?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
       "date": "2026-07-19",
-      "summary": "Não faz muito tempo, encontrei um estoque de meus jogos antigos do ZX Spectrum no sótão. E vasculhando aquelas caixas surradas - as velhas e meio esquecidas pechinchas, as fitas de compilação ilícitas que circulavam pelo playground - não foram os jogos que encontrei...",
+      "summary": "A premiada atriz Jennifer English retirou-se do jogo de ação Tides of Annihilation da Eclipse Glow Games para “cuidar de [sua] saúde física e mental”. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/forbidden-solitaire-90s-cd-rom-game-preservation"
+      "url": "https://www.eurogamer.net/jennifer-english-leaves-tides-of-annihilation"
+    },
+    {
+      "id": "https://www.eurogamer.net/game-of-thrones-war-for-westeros-rts-game-delayed-to-2027",
+      "title": "Game of Thrones: War for Westeros RTS adiado para 2027 para “garantir que o jogo atinja o alto nível de qualidade que almejamos”",
+      "original_title": "Game of Thrones: War for Westeros RTS delayed to 2027 to \"ensure the game reaches the high level of quality we are aiming for\"",
+      "image": "https://assetsio.gnwcdn.com/game-of-thrones-war-for-westeros.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-07-19",
+      "summary": "Más notícias, fãs de Game of Thrones - o RTS da PlaySide Studios baseado no livro e série de TV de enorme sucesso foi adiado para 2027. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/game-of-thrones-war-for-westeros-rts-game-delayed-to-2027"
+    },
+    {
+      "id": "https://www.techpowerup.com/350687/dropreference-launches-in-the-us-with-pc-part-price-comparison-and-gaming-performance-estimates",
+      "title": "DropReference é lançado nos EUA com comparação de preços de peças de PC e estimativas de desempenho de jogos",
+      "original_title": "DropReference Launches in the US with PC Part Price Comparison and Gaming Performance Estimates",
+      "image": "https://tpucdn.com/img/o5Oy7xOEcq5wx7nB_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-07-19",
+      "summary": "DropReference, uma plataforma de comparação de hardware de PC e planejamento de construção que atrai mais de 200.000 visitantes únicos a cada mês, está se expandindo oficialmente para os Estados Unidos. Já estabelecido entre os fabricantes europeus de PCs, o DropReference permite aos usuários c...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/350687/dropreference-launches-in-the-us-with-pc-part-price-comparison-and-gaming-performance-estimates"
     },
     {
       "id": "https://www.techpowerup.com/350879/this-week-in-gaming-week-30",
@@ -163,81 +367,6 @@
       "url": "https://www.techpowerup.com/350879/this-week-in-gaming-week-30"
     },
     {
-      "id": "https://www.eurogamer.net/disco-elysium-zero-parades-studio-zaum-to-lay-off-large-chunk-of-staff-once-more",
-      "title": "O estúdio ZA / UM, carregado de controvérsias, Disco Elysium e Zero Parades, demitirá grande parte da equipe mais uma vez",
-      "original_title": "Controversy-laden Disco Elysium and Zero Parades studio ZA/UM to lay off large chunk of staff once more",
-      "image": "https://assetsio.gnwcdn.com/zero-parades-layoffs-header-man-in-chair.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-07-18",
-      "summary": "ZA/UM Studio, o desenvolvedor controverso no centro de anos de acirradas disputas públicas e legais desde o lançamento do aclamado Disco Elysium de 2019, vai demitir até 32 funcionários “em todos os departamentos”, foi anunciado. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/disco-elysium-zero-parades-studio-zaum-to-lay-off-large-chunk-of-staff-once-more"
-    },
-    {
-      "id": "https://www.eurogamer.net/blood-of-dawnwalker-released-on-disc",
-      "title": "O jogo Blood of Dawnwalker completo será lançado em disco, confirmam Bandai Namco e Rebel Wolves",
-      "original_title": "The full Blood of Dawnwalker game will be released on disc, Bandai Namco and Rebel Wolves confirm",
-      "image": "https://assetsio.gnwcdn.com/brencis-danwalker-artwork.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-07-18",
-      "summary": "O novo e promissor RPG de vampiros medievais The Blood of Dawnwalker será, aleluia, lançado em um bom e velho disco. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/blood-of-dawnwalker-released-on-disc"
-    },
-    {
-      "id": "https://www.eurogamer.net/netflixs-games-strategy-might-be-a-mess-but-oxenfree-studios-ingenious-new-chiller-thriller-shows-it-has-a-secret-weapon",
-      "title": "A estratégia de jogos da Netflix pode ser uma bagunça, mas o engenhoso novo thriller do estúdio Oxenfree mostra que ele tem uma arma secreta",
-      "original_title": "Netflix's games strategy might be a mess, but Oxenfree studio's ingenious new chiller-thriller shows it has a secret weapon",
-      "image": "https://assetsio.gnwcdn.com/unhinged-header_R5aN0Nb.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-07-18",
-      "summary": "Ainda me lembro vividamente do momento em No More Heroes em que o meu Comando Wii tocou pela primeira vez. A confusão se transformou em alegria quando segurei o controle no ouvido e, através de seu minúsculo alto-falante, Sylvia começou a falar, como se estivesse do outro lado da linha...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/netflixs-games-strategy-might-be-a-mess-but-oxenfree-studios-ingenious-new-chiller-thriller-shows-it-has-a-secret-weapon"
-    },
-    {
-      "id": "https://www.eurogamer.net/io-interactive-007-first-light-james-bond",
-      "title": "Não tanto James Bond, mas Missão Impossível - 007 First Light era originalmente mais uma peça de conjunto, diz IO Interactive",
-      "original_title": "Not so much James Bond, more Mission Impossible - 007 First Light was originally more of an ensemble piece, says IO Interactive",
-      "image": "https://assetsio.gnwcdn.com/james-bond-007-first-light-cressida.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-07-18",
-      "summary": "A IO Interactive certa vez considerou fazer de 007 First Light mais uma peça de conjunto do que acabou sendo. Em outras palavras, o jogo seria menos sobre James Bond sozinho e mais sobre ele e uma equipe de agentes trabalhando juntos. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/io-interactive-007-first-light-james-bond"
-    },
-    {
-      "id": "https://www.eurogamer.net/what-weve-been-playing-he-takes-great-joy-out-of-my-suffering",
-      "title": "O que temos tocado - \"Ele tira muita alegria do meu sofrimento\"",
-      "original_title": "What we've been playing - \"He takes great joy out of my suffering\"",
-      "image": "https://assetsio.gnwcdn.com/emperor-palpatine.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-07-18",
-      "summary": "Olá e bem-vindo de volta ao nosso artigo regular, onde escrevemos um pouco sobre os jogos que temos jogado. Esta semana, Connor é habilmente perseguido por seu amigo e compartilha uma versão controversa de um jogo que algumas pessoas vão adorar; Chris revisita uma história de todos os tempos...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/what-weve-been-playing-he-takes-great-joy-out-of-my-suffering"
-    },
-    {
       "id": "https://www.techpowerup.com/350872/valve-reportedly-sells-12-15k-steam-machine-units-per-week",
       "title": "A Valve vende de 12 a 15 mil unidades de máquinas a vapor por semana",
       "original_title": "Valve Reportedly Sells 12-15K Steam Machine Units Per Week",
@@ -251,21 +380,6 @@
         "TechPowerUp"
       ],
       "url": "https://www.techpowerup.com/350872/valve-reportedly-sells-12-15k-steam-machine-units-per-week"
-    },
-    {
-      "id": "https://www.techpowerup.com/350687/dropreference-launches-in-the-us-with-pc-part-price-comparison-and-gaming-performance-estimates",
-      "title": "DropReference é lançado nos EUA com comparação de preços de peças de PC e estimativas de desempenho de jogos",
-      "original_title": "DropReference Launches in the US with PC Part Price Comparison and Gaming Performance Estimates",
-      "image": "https://tpucdn.com/img/o5Oy7xOEcq5wx7nB_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-07-18",
-      "summary": "DropReference, uma plataforma de comparação de hardware de PC e planejamento de construção que atrai mais de 200.000 visitantes únicos a cada mês, está se expandindo oficialmente para os Estados Unidos. Já estabelecido entre os fabricantes europeus de PCs, o DropReference permite aos usuários c...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/350687/dropreference-launches-in-the-us-with-pc-part-price-comparison-and-gaming-performance-estimates"
     },
     {
       "id": "https://www.techpowerup.com/350863/ubisoft-celebrates-3-million-sales-for-assassins-creed-black-flag-resynced-and-promises-new-game-content",
@@ -313,66 +427,6 @@
       "url": "https://www.techpowerup.com/350858/disco-elysium-studio-fires-workers-after-failed-game-launch"
     },
     {
-      "id": "https://www.eurogamer.net/god-of-war-laufey-deborah-ann-woll-unbothered",
-      "title": "“Eu me sinto totalmente despreocupada” – Deborah Ann Woll não se importa com os trolls atirando em God Of War Laufey",
-      "original_title": "\"I feel totally unbothered\" - Deborah Ann Woll doesn't care about the trolls taking shots at God Of War Laufey",
-      "image": "https://assetsio.gnwcdn.com/laufey-sword.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-07-17",
-      "summary": "Desde que foi anunciado no início de junho, God of War Laufey tem recebido uma quantidade inesperada de críticas negativas. E muitos comentários sobre o jogo - do qual só vimos um trailer até agora - giram em torno da atriz...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/god-of-war-laufey-deborah-ann-woll-unbothered"
-    },
-    {
-      "id": "https://www.eurogamer.net/battlefield-6-top-gun-collaboration-season-4-carrier-strike",
-      "title": "Battlefield 6 está recebendo um modo Carrier Assault evoluído na 4ª temporada, e a colaboração Top Gun traz mais do que cosméticos",
-      "original_title": "Battlefield 6 is getting an evolved Carrier Assault mode in Season 4, and the Top Gun collab brings more than cosmetics",
-      "image": "https://assetsio.gnwcdn.com/battlefield-6-season-4-gameplay-screen-4.jpeg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-07-17",
-      "summary": "A próxima temporada 4 de Battlefield 6 continua parecendo uma de suas temporadas mais emocionantes. Depois de apresentar uma primeira visão do combate naval no início desta semana, Battlefield Studios detalhou mais do que podemos esperar ao longo da temporada, em...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/battlefield-6-top-gun-collaboration-season-4-carrier-strike"
-    },
-    {
-      "id": "https://www.eurogamer.net/elder-scrolls-6-xbox-layoffs-bethesda-reaction",
-      "title": "Bethesda garante aos fãs que The Elder Scrolls 6 está “a caminho” seguindo os cortes do Xbox, e que está “amando sua aparência” e “jogando todos os dias”",
-      "original_title": "Bethesda reassures fans The Elder Scrolls 6 is \"on the way\" following the Xbox cuts, and that it's \"loving how it looks\" and \"playing it every day\"",
-      "image": "https://assetsio.gnwcdn.com/TGS6.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-07-17",
-      "summary": "A Bethesda Game Studios acalmou as preocupações sobre The Elder Scrolls 6 após os cortes recentes do Xbox, dizendo aos jogadores que: \"O próximo capítulo está a caminho. Estamos onde planejamos estar, adorando sua aparência e jogando todos os dias.\" Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/elder-scrolls-6-xbox-layoffs-bethesda-reaction"
-    },
-    {
-      "id": "https://www.eurogamer.net/starfield-impotant-part-of-future-bethesda-future-support",
-      "title": "Starfield “continua sendo uma parte importante do nosso futuro”, diz Bethesda, enquanto o desenvolvedor promete apoio contínuo ao RPG de ficção científica",
-      "original_title": "Starfield \"remains an important part of our future\" says Bethesda, as developer pledges continued support for sci-fi RPG",
-      "image": "https://assetsio.gnwcdn.com/STARFIELD-SITE_aiZ8Li5.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-07-17",
-      "summary": "A Bethesda confirmou que seu RPG de ficção científica espacial Starfield continuará a ser apoiado pelo desenvolvedor, mesmo depois de sofrer demissões e voltou a se concentrar em franquias principais como The Elder Scrolls e Fallout. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/starfield-impotant-part-of-future-bethesda-future-support"
-    },
-    {
       "id": "https://www.techpowerup.com/350857/onimusha-way-of-the-sword-to-launch-3-weeks-early",
       "title": "Onimusha: Way of the Sword será lançado 3 semanas antes",
       "original_title": "Onimusha: Way of the Sword To Launch 3 Weeks Early",
@@ -401,36 +455,6 @@
         "TechPowerUp"
       ],
       "url": "https://www.techpowerup.com/350856/marathon-loses-game-director-after-general-manager-retires"
-    },
-    {
-      "id": "https://www.techpowerup.com/350557/windows-11-pro-has-dropped-to-just-usd-10-through-july-19",
-      "title": "O Windows 11 Pro caiu para apenas US$ 10 até 19 de julho",
-      "original_title": "Windows 11 Pro Has Dropped to Just $10 Through July 19",
-      "image": "https://tpucdn.com/img/eJP5kB0TyLJbRIyB_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-07-17",
-      "summary": "Se o seu PC precisa de uma nova licença de sistema operacional, este é um dos preços mais baixos que você encontrará no Windows 11 Pro. Até 19 de julho, uma licença vitalícia estará disponível por US$ 9,97 (MSRP US$ 199). Esta versão é destinada a PCs que requerem uma nova licença do Windows...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/350557/windows-11-pro-has-dropped-to-just-usd-10-through-july-19"
-    },
-    {
-      "id": "https://www.techpowerup.com/350852/ifixit-slams-asus-rog-flow-z13s-10-10-repairability-score",
-      "title": "iFixit bate pontuação de reparabilidade 10/10 do ASUS ROG Flow Z13",
-      "original_title": "iFixit Slams ASUS ROG Flow Z13's 10/10 Repairability Score",
-      "image": "https://tpucdn.com/img/WF9GkG4lUzPRvZm7_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-07-17",
-      "summary": "Quando a ASUS lançou o 2 em 1 para jogos ROG Flow Z13 em 2025, ela se vangloriou orgulhosamente da pontuação de reparabilidade 10/10 do conversível – uma pontuação auto-relatada que avalia a reparabilidade de um produto com base na disponibilidade de peças, documentação, rep...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/350852/ifixit-slams-asus-rog-flow-z13s-10-10-repairability-score"
     }
   ]
 }
