@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-07-21T13:48:03",
-  "display_date": "21/07/2026 13:48",
+  "last_updated": "2026-07-22T13:51:48",
+  "display_date": "22/07/2026 13:51",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "167ms",
+    "latency": "324ms",
     "current_games": [
       {
         "title": "Luto",
@@ -50,8 +50,8 @@
         "image": "https://cdn1.epicgames.com/offer/ca3a9d16d131478c97fd56c138a6511a/EGS_LISATheDefinitiveEdition_DingalingProductions_Bundles_S1_2560x1440-55b66eb2046507e58eac435c21331bd5",
         "url": "https://store.epicgames.com/p/lisa-the-definitive-edition",
         "price": "$24.99",
-        "start_date": "2026-09-16T15:00:00.000Z",
-        "end_date": "2026-10-01T05:59:00.000Z"
+        "start_date": "2026-09-17T15:00:00.000Z",
+        "end_date": "2026-10-02T05:59:00.000Z"
       },
       {
         "title": "Monument Valley",
@@ -74,7 +74,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-07-21",
+      "date": "2026-07-22",
       "summary": "Luto é uma experiência de terror psicológico onde você assume o papel de alguém que não consegue sair de casa. Cada tentativa de fuga o levará mais fundo no desconhecido, onde nada é o que parece e tudo testará seus sentidos.",
       "sources": [
         "Epic Games Store"
@@ -89,7 +89,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-07-21",
+      "date": "2026-07-22",
       "summary": "Lidere uma gangue de crianças para descobrir mistérios assustadores, lutar contra criaturas e explorar o lado sobrenatural de sua cidade natal em Echo Generation, uma aventura baseada em turnos ambientada nos anos 90.",
       "sources": [
         "Epic Games Store"
@@ -104,7 +104,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-21",
+      "date": "2026-07-22",
       "summary": "Disponível gratuitamente a partir de 23/07. Decida o destino do mundo neste engenhoso jogo de cartas baseado em uma história.\n\nForetales oferece uma visão única do gênero aventura, com uma infinidade de estilos de jogo e caminhos de história através dos quais você pode salvar o mundo... ou trazer seu fim.",
       "sources": [
         "Epic Games Store"
@@ -119,7 +119,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-21",
+      "date": "2026-07-22",
       "summary": "Disponível gratuitamente a partir de 10/09. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
       "sources": [
         "Epic Games Store"
@@ -134,8 +134,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-21",
-      "summary": "Disponível gratuitamente a partir de 16/09. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
+      "date": "2026-07-22",
+      "summary": "Disponível gratuitamente a partir de 17/09. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
       ],
@@ -149,7 +149,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-21",
+      "date": "2026-07-22",
       "summary": "Disponível gratuitamente a partir de 03/09. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
       "sources": [
         "Epic Games Store"
@@ -157,229 +157,139 @@
       "url": "https://store.epicgames.com/p/monument-valley-02"
     },
     {
-      "id": "https://www.eurogamer.net/splatoon-raiders-review",
-      "title": "Revisão de Splatoon Raiders",
-      "original_title": "Splatoon Raiders review",
-      "image": "https://assetsio.gnwcdn.com/splatoon-raiders-review-header.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-07-21",
-      "summary": "Este desdobramento da série é uma delícia agitada, muitas vezes avassaladora. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/splatoon-raiders-review"
-    },
-    {
-      "id": "https://www.eurogamer.net/warner-bros-dcko-dc-fighting-game-mobile-announced",
-      "title": "Depois de ver, você não pode deixar de ver: a hilaridade surge quando o novo jogo de luta da DC Comics se chama DCKO",
-      "original_title": "Once you see it, you can't unsee it: Hilarity ensues as new DC Comics fighting game is named DCKO",
-      "image": "https://assetsio.gnwcdn.com/dcko-constantine.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-07-21",
-      "summary": "Um novo jogo de luta foi anunciado! Fazendo uso do rico universo DC, este próximo lançamento traz lutas 2v2 gratuitas para dispositivos móveis. Seu nome? Hum, DCKO. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/warner-bros-dcko-dc-fighting-game-mobile-announced"
-    },
-    {
-      "id": "https://www.eurogamer.net/star-wars-kotor-remake-reveal-rumours",
-      "title": "O remake de Star Wars: Knights of the Old Republic pode ser revelado novamente este ano, sugere um novo relatório",
-      "original_title": "Star Wars: Knights of the Old Republic remake might be re-revealed this year, a new report suggests",
-      "image": "https://assetsio.gnwcdn.com/kotor_kQM9BLI.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-07-21",
-      "summary": "O remake intermitente de Star Wars: Cavaleiros da Velha República - que foi anunciado pela primeira vez no final de 2021, antes de mudar de estúdio - pode ser revelado novamente ainda este ano. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/star-wars-kotor-remake-reveal-rumours"
-    },
-    {
-      "id": "https://www.eurogamer.net/ghost-recon-wildlands-definitive-edition-leak",
-      "title": "Ghost Recon Wildlands de Tom Clancy parece estar recebendo uma edição definitiva para PS5 e Xbox Series X/S, mas é uma remasterização ou um relançamento padrão do pântano?",
-      "original_title": "Tom Clancy's Ghost Recon Wildlands appears to be getting a PS5 and Xbox Series X/S Definitive Edition, but is it a remaster or a bog standard re-release?",
-      "image": "https://assetsio.gnwcdn.com/ghost-recon-wildlands-latest-update-drops-cheeky-nod-to-rainbox-sixs-cancelled-patriots-game-1532590213465.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-07-21",
-      "summary": "Se você está ansioso para jogar Ghost Recon Wildlands de Tom Clancy, por algum motivo, em breve você terá um motivo para fazê-lo. O jogo de tiro cooperativo de mundo aberto completará 10 anos em março próximo e parece que a Ubisoft está comemorando o aniversário mais cedo. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/ghost-recon-wildlands-definitive-edition-leak"
-    },
-    {
-      "id": "https://www.eurogamer.net/007-first-light-britishness-john-greenway",
-      "title": "O melhor personagem secreto de 007 First Light foi uma maneira perfeita para a IO Interactive celebrar a escrita britânica e a \"emoção contida\"",
-      "original_title": "007 First Light's secret best character was a perfect way for IO Interactive to celebrate British writing and \"restrained emotion\"",
-      "image": "https://assetsio.gnwcdn.com/greenway-007-first-light.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-07-21",
-      "summary": "A IO Interactive compartilhou mais informações de desenvolvimento sobre o personagem que se destaca em 007 First Light: a figura do mentor de James Bond, John Greenway. Este é o personagem interpretado brilhantemente pelo ator de Walking Dead e Line of Duty, Lennie James - um...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/007-first-light-britishness-john-greenway"
-    },
-    {
-      "id": "https://www.eurogamer.net/marathon-vault-breaker-pve-mode-details-gameplay",
-      "title": "O próximo grande momento do Marathon chega hoje com uma nova atualização e a estreia do seu modo PvE, Vault Breaker",
-      "original_title": "The next major moment for Marathon arrives today with a new update and the debut of its PvE mode, Vault Breaker",
-      "image": "https://assetsio.gnwcdn.com/marathon-shells-3.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-07-21",
-      "summary": "A Bungie exibiu Vault Breaker em um novo trailer de jogo. Este é o modo PvE experimental e por tempo limitado do Marathon, que chega hoje na atualização de meio da temporada da 2ª temporada. Vault Breaker é um modo roguelite que existe separadamente dos modos normais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/marathon-vault-breaker-pve-mode-details-gameplay"
-    },
-    {
-      "id": "https://www.eurogamer.net/xbox-leadership-on-future-exclusives",
-      "title": "O Xbox admite que sua estratégia de exclusividade de jogos não é “óbvia”, mas insiste que Gears of War e Clockwork Revolution não serão os únicos jogos que não são do PlayStation",
-      "original_title": "Xbox admits its game exclusivity strategy isn't \"obvious\", but insists Gears of War and Clockwork Revolution won't be the only non-PlayStation games",
-      "image": "https://assetsio.gnwcdn.com/Screenshot-from-Gears-of-War-E-Day.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-07-21",
-      "summary": "Outro dia, outra atualização sobre o que está acontecendo no Xbox após o showcase do mês passado e os subsequentes cortes de 3.200 empregos e desinvestimentos em estúdios. O assunto em questão hoje: exclusividades de console, e com base em comentários anteriores do Xbox, nós realmente não ...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/xbox-leadership-on-future-exclusives"
-    },
-    {
-      "id": "https://www.eurogamer.net/what-sense-to-make-from-id-software-layoffs-microsoft-xbox",
-      "title": "Que sentido podemos dar à loucura da id Software?",
-      "original_title": "What sense can we make of the madness at id Software?",
-      "image": "https://assetsio.gnwcdn.com/id-software-staff-photo.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-07-21",
-      "summary": "Numa semana sombria para a indústria de jogos, onde a Microsoft demitiu 1.600 pessoas (com mais 1.600 cortes de empregos pairando sobre as cabeças dos funcionários do Xbox), uma decisão se destacou como especialmente flagrante. A Id Software, desenvolvedora de Doom e Quake, foi forçada a...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/what-sense-to-make-from-id-software-layoffs-microsoft-xbox"
-    },
-    {
-      "id": "https://www.eurogamer.net/playstation-disc-sales--outrage-circana",
-      "title": "Apesar da indignação com a mudança da Sony em direção a um futuro sem disco, apenas sete jogos do PlayStation conseguiram mais de 100.000 vendas físicas nos EUA este ano",
-      "original_title": "Despite outrage at Sony's shift towards a discless future, only seven PlayStation games have managed more than 100,000 physical sales in the US this year",
+      "id": "https://www.eurogamer.net/used-video-game-market-at-risk-sony-killing-playstation-discs",
+      "title": "A decisão da Sony de eliminar os discos do PlayStation pode destruir o mercado de jogos usados ​​de US$ 7,2 bilhões, segundo analistas",
+      "original_title": "Sony's decision to kill off PlayStation discs could destroy the $7.2bn used game market, according to analysts",
       "image": "https://assetsio.gnwcdn.com/discs-playstation.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-21",
-      "summary": "A mudança planejada da Sony na produção de discos físicos para PlayStation pode ser impopular, mas novos dados de vendas destacaram a dura realidade comercial por trás disso. Leia mais...",
+      "date": "2026-07-22",
+      "summary": "O mercado de videogames usados ​​está em perigo após a decisão da Sony de encerrar a fabricação de discos PlayStation até janeiro de 2028. O mercado, que os analistas estimam valer US$ 7,2 bilhões globalmente, pode ser destruído como resultado da Sony...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/playstation-disc-sales--outrage-circana"
+      "url": "https://www.eurogamer.net/used-video-game-market-at-risk-sony-killing-playstation-discs"
     },
     {
-      "id": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-beta-dates-switch-2-next",
-      "title": "Datas de beta aberto e fechado de Modern Warfare 4 anunciadas, inclusive para Switch 2, juntamente com o retorno de Call of Duty: Next",
-      "original_title": "Modern Warfare 4 open and closed beta dates announced, including for Switch 2, alongside the return of Call of Duty: Next",
-      "image": "https://assetsio.gnwcdn.com/modern-warfare-4-multiplayer-beta-screen-1.jpeg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/xbox-game-pass-july-wave-2",
+      "title": "Aqui está seu próximo lote de jogos Xbox Game Pass para julho",
+      "original_title": "Here's your next batch of Xbox Game Pass games for July",
+      "image": "https://assetsio.gnwcdn.com/Halo-CE_key-art_Xbox-logo_custom.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-21",
-      "summary": "A Activision finalmente revelou alguns novos detalhes interessantes sobre como serão os próximos meses antes do lançamento de Modern Warfare 4. A empresa anunciou oficialmente o retorno de Call of Duty: Next, o evento que tem, por t...",
+      "date": "2026-07-22",
+      "summary": "O Xbox revelou o próximo lote de jogos que chegarão ao serviço de assinatura Xbox Game Pass durante o restante de julho e início de agosto, com Halo: Campaign Evolved e Hell Is Us liderando a seleção. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-beta-dates-switch-2-next"
+      "url": "https://www.eurogamer.net/xbox-game-pass-july-wave-2"
     },
     {
-      "id": "https://www.techpowerup.com/350928/glorious-announces-ghs-wireless-infiniteplay-headset-with-swappable-85-hour-battery-packs",
-      "title": "(PR) Glorious anuncia fone de ouvido GHS Wireless InfinitePlay com baterias substituíveis para mais de 85 horas",
-      "original_title": "(PR) Glorious Announces GHS Wireless InfinitePlay Headset With Swappable 85+ Hour Battery Packs",
-      "image": "https://tpucdn.com/img/0WugIPrsUO2sf6S2_thm.jpg",
+      "id": "https://www.eurogamer.net/overwatch-stadium-support-ending",
+      "title": "Chegou a hora da Blizzard personalizar o modo Stadium do herói de Overwatch, e posso muito bem ser a única pessoa que está triste com isso",
+      "original_title": "Blizzard's calling time on Overwatch's hero customising Stadium mode, and I may well be the only person that's sad about that",
+      "image": "https://assetsio.gnwcdn.com/overwatch-stadium-sad.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-07-22",
+      "summary": "Os jogos de serviço ao vivo enfrentam um enigma interessante, eu acho: como você continua oferecendo a experiência central de um jogo e ao mesmo tempo reinventando-o e variando-o periodicamente, de tal forma que o faça parecer novo? Overwatch é um jogo que enfrenta tal con...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/overwatch-stadium-support-ending"
+    },
+    {
+      "id": "https://www.eurogamer.net/xbox-vp-engineering-leaves-after-three-months",
+      "title": "O vice-presidente de engenharia do Xbox nomeado por Asha Sharma sai apenas três meses depois de deixar a equipe CoreAI da Microsoft",
+      "original_title": "Asha Sharma-appointed Xbox VP of engineering leaves just three months after moving over from Microsoft's CoreAI team",
+      "image": "https://assetsio.gnwcdn.com/xbox-logo_OJRhRlL.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-07-22",
+      "summary": "Quando a Microsoft designou Asha Sharma como a nova líder da divisão Xbox em fevereiro, substituindo o regime de Phil Spencer, a executiva trouxe consigo alguns de seus ex-colegas. Agora, uma dessas contratações recentes está saindo. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/xbox-vp-engineering-leaves-after-three-months"
+    },
+    {
+      "id": "https://www.eurogamer.net/the-duskbloods-google-ai-hallucinations",
+      "title": "O Reddit está forçando a IA do Google a alucinar os personagens de The Duskbloods antes que o exclusivo Switch 2 da FromSoftware seja lançado",
+      "original_title": "Reddit is forcing Google AI into hallucinating The Duskbloods characters before FromSoftware's Switch 2 exclusive is even out",
+      "image": "https://assetsio.gnwcdn.com/duskbloods-gemini.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-07-22",
+      "summary": "O primeiro teste de jogo dos Duskbloods - que provavelmente marcará a primeira vez que alguém fora da FromSoftware e da Nintendo jogou o exclusivo Switch 2 - chegará no próximo mês, mas a pesquisa de IA do Google acredita que o subreddit r/TheDuskbloods já tem oficial...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/the-duskbloods-google-ai-hallucinations"
+    },
+    {
+      "id": "https://www.eurogamer.net/the-incident-at-galley-house-review",
+      "title": "Revisão do Incidente na Galley House",
+      "original_title": "The Incident at Galley House review",
+      "image": "https://assetsio.gnwcdn.com/galley-house-header-3.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-07-22",
+      "summary": "Há uma máquina em The Incident at Galley House com a qual você passará muito tempo, e é uma coisa maravilhosamente tátil. É parte mesa de mixagem, parte enigma paranormal, parte jogo Guess Who superprojetado e cheio de dials clicáveis, bunda robusta...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/the-incident-at-galley-house-review"
+    },
+    {
+      "id": "https://www.eurogamer.net/mortal-shell-2-revered-edition-ps5-disc-sold-out",
+      "title": "Mortal Shell 2 esgota as pré-encomendas físicas do Revered Edition PS5 enquanto os jogadores correm para comprar o tão aguardado jogo em disco",
+      "original_title": "Mortal Shell 2 sells out of physical Revered Edition PS5 pre-orders as players rush to buy the highly-anticipated game on disc",
+      "image": "https://assetsio.gnwcdn.com/mortal-shell-2-gameplay-screen-1.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-07-22",
+      "summary": "Faltando pouco menos de um mês para o lançamento de Soulslike Mortal Shell 2, uma das versões físicas do jogo não pode mais ser pré-encomendada. O estoque do PlayStation 5 Revered Edition de £ 55 ($ 70) está completamente esgotado, anunciou a editora Playstack...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/mortal-shell-2-revered-edition-ps5-disc-sold-out"
+    },
+    {
+      "id": "https://www.techpowerup.com/350964/raspberry-pi-releases-new-10-inch-raspberry-pi-touch-display-2-at-usd-80",
+      "title": "(PR) Raspberry Pi lança novo Raspberry Pi Touch Display 2 de 10 polegadas por US$ 80",
+      "original_title": "(PR) Raspberry Pi Releases New 10-inch Raspberry Pi Touch Display 2 at $80",
+      "image": "https://tpucdn.com/img/ceC3jGzPzccDEdSe_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-21",
-      "summary": "Apresentando o GHS Wireless InfinitePlay, o headset para jogos sem fio com baterias substituíveis para mais de 85 horas e uma bateria interna que significa zero tempo de inatividade, zero desconexões e zero desculpas.\n\nOs headsets para jogos sem fio guardam um segredo sujo desde o dia...",
+      "date": "2026-07-22",
+      "summary": "Os leitores regulares estarão familiarizados com o Raspberry Pi Touch Display 2 de 7\", que atualizou nosso produto Touch Display original com um formato mais fino e painel de maior resolução. Desde seu lançamento em 2024, lançamos uma variante de 5\", trazendo o mesmo...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350928/glorious-announces-ghs-wireless-infiniteplay-headset-with-swappable-85-hour-battery-packs"
+      "url": "https://www.techpowerup.com/350964/raspberry-pi-releases-new-10-inch-raspberry-pi-touch-display-2-at-usd-80"
     },
     {
-      "id": "https://www.techpowerup.com/350927/asrock-industrial-integrates-axelera-metis-aipu-cards-into-its-edge-ai-platforms",
-      "title": "(PR) ASRock Industrial integra placas Axelera Metis AIPU em suas plataformas Edge AI",
-      "original_title": "(PR) ASRock Industrial Integrates Axelera Metis AIPU Cards Into Its Edge AI Platforms",
-      "image": "https://tpucdn.com/img/woOEiZc1ninoIb7t_thm.jpg",
+      "id": "https://www.techpowerup.com/350962/rtx-spark-core-counts-leaked-by-nvidias-own-driver",
+      "title": "Contagens de núcleos RTX Spark vazadas pelo próprio driver da NVIDIA",
+      "original_title": "RTX Spark Core Counts Leaked by NVIDIA's Own Driver",
+      "image": "https://tpucdn.com/img/KZxl8BdcH9PlYuqG_thm.jpg",
       "source_count": 1,
       "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-07-21",
-      "summary": "A ASRock Industrial anunciou hoje uma colaboração estratégica com a Axelera AI para fornecer soluções de inferência de IA de alto desempenho, com baixo consumo de energia e econômicas para computação de ponta. A colaboração integra placas Axelera Metis AIPU na ASRock ...",
+      "category": "Rumor",
+      "date": "2026-07-22",
+      "summary": "A NVIDIA lançou uma prévia do desenvolvedor dos drivers GeForce para sua plataforma RTX Spark PC, confirmando as variantes do chip N1X e a separação de SKU que ocorrerá. Na versão 616.00 do driver GeForce, este marca o primeiro pacote de driver da empresa ...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350927/asrock-industrial-integrates-axelera-metis-aipu-cards-into-its-edge-ai-platforms"
-    },
-    {
-      "id": "https://www.techpowerup.com/350922/report-nand-flash-shortages-to-finally-end-in-2027",
-      "title": "Relatório: Escassez de Flash NAND terminará finalmente em 2027",
-      "original_title": "Report: NAND Flash Shortages to Finally End in 2027",
-      "image": "https://tpucdn.com/img/G4ykZLRSZykcdlnk_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-07-21",
-      "summary": "No mar de notícias negativas que cercam toda a indústria de semicondutores, o NAND Flash pode ser um dos poucos componentes principais que se tornará abundante novamente. De acordo com o último relatório da TrendForce, espera-se que a cadeia de abastecimento de armazenamento atinja...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/350922/report-nand-flash-shortages-to-finally-end-in-2027"
-    },
-    {
-      "id": "https://www.techpowerup.com/350920/ddr5-prices-surge-7-in-july-reaching-new-highs",
-      "title": "Preços DDR5 sobem 7% em julho, atingindo novos máximos",
-      "original_title": "DDR5 Prices Surge 7% in July, Reaching New Highs",
-      "image": "https://tpucdn.com/img/xZ3uOUBIi69ijjwk_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-07-21",
-      "summary": "Os preços do DDR5 na Alemanha voltaram a acelerar, de acordo com o último relatório do 3D Center. Infelizmente, em julho deste ano houve um aumento mensal de 7% no preço dos kits DDR5, além dos preços já elevados, empurrando o DDR5 para um novo recorde histórico...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/350920/ddr5-prices-surge-7-in-july-reaching-new-highs"
-    },
-    {
-      "id": "https://www.techpowerup.com/350918/intel-arc-gpu-graphics-drivers-101-8864-beta-released",
-      "title": "Drivers gráficos Intel Arc GPU 101.8864 beta lançados",
-      "original_title": "Intel Arc GPU Graphics Drivers 101.8864 Beta Released",
-      "image": "https://tpucdn.com/img/q6nF1VbwXGZXVyAd_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-07-21",
-      "summary": "A Intel lançou hoje a versão mais recente dos drivers Arc GPU Graphics. A versão 101.8864 Beta não inclui nenhuma nova otimização de jogo, mas corrige alguns problemas importantes específicos de suas diversas linhas de produtos. Para começar, os drivers corrigem um problema com...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/350918/intel-arc-gpu-graphics-drivers-101-8864-beta-released"
+      "url": "https://www.techpowerup.com/350962/rtx-spark-core-counts-leaked-by-nvidias-own-driver"
     },
     {
       "id": "https://www.techpowerup.com/350898/microsoft-office-2024-professional-plus-just-hit-a-new-low-price-usd-55-for-life",
@@ -389,7 +299,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-21",
+      "date": "2026-07-22",
       "summary": "O modelo de assinatura da Microsoft não é para todos. Algumas pessoas querem apenas pagar uma vez e seguir em frente com suas vidas, sem renovações automáticas, sem surpresas de faturamento, sem e-mails “seu plano mudou”. Esta licença vitalícia caiu para o preço mais baixo até agora: ...",
       "sources": [
         "TechPowerUp"
@@ -397,34 +307,49 @@
       "url": "https://www.techpowerup.com/350898/microsoft-office-2024-professional-plus-just-hit-a-new-low-price-usd-55-for-life"
     },
     {
-      "id": "https://www.techpowerup.com/350917/intel-xeon-6-and-xeon-6-processors-gain-ddr5-8000-rdimm-support-via-firmware-update",
-      "title": "Processadores Intel Xeon 6+ e Xeon 6 ganham suporte RDIMM DDR5-8000 por meio de atualização de firmware",
-      "original_title": "Intel Xeon 6+ and Xeon 6 Processors Gain DDR5-8000 RDIMM Support via Firmware Update",
-      "image": "https://tpucdn.com/img/IsIQwTuXOKa5sMzE_thm.jpg",
+      "id": "https://www.techpowerup.com/350960/microsoft-is-modernizing-decades-old-properties-window-in-file-explorer",
+      "title": "A Microsoft está modernizando a janela de propriedades de décadas no File Explorer",
+      "original_title": "Microsoft is Modernizing Decades-Old Properties Window in File Explorer",
+      "image": "https://tpucdn.com/img/MVrwQDZuuUiu5vJV_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-21",
-      "summary": "A Intel anunciou que os processadores Xeon 6+ “Clearwater Forest” e Xeon 6 “Granite Rapids” agora suportam nativamente RDIMMs DDR5-8000. A empresa tem lançado atualizações de microcódigo para OEMs de servidores e fabricantes de placas-mãe de servidores para combinar com UEFI f...",
+      "date": "2026-07-22",
+      "summary": "A Microsoft está finalmente abordando as inconsistências da interface do usuário no Windows 11, que atualmente apresenta uma mistura de elementos de design de várias eras do Windows, desde o Windows 7 até a linguagem de design moderna. De acordo com a última versão de visualização do Windows...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350917/intel-xeon-6-and-xeon-6-processors-gain-ddr5-8000-rdimm-support-via-firmware-update"
+      "url": "https://www.techpowerup.com/350960/microsoft-is-modernizing-decades-old-properties-window-in-file-explorer"
     },
     {
-      "id": "https://www.techpowerup.com/350916/nvidia-shows-dlss-5-progress-and-technical-details-at-siggraph-2026",
-      "title": "NVIDIA mostra progresso e detalhes técnicos do DLSS 5 na SIGGRAPH 2026",
-      "original_title": "NVIDIA Shows DLSS 5 Progress and Technical Details at SIGGRAPH 2026",
-      "image": "https://tpucdn.com/img/yNIJ2nsKNE6xwBgx_thm.jpg",
+      "id": "https://www.techpowerup.com/350958/apple-to-launch-mac-leasing-and-upgrade-program-on-july-28",
+      "title": "Apple lançará programa de leasing e atualização de Mac em 28 de julho",
+      "original_title": "Apple to Launch Mac Leasing and Upgrade Program on July 28",
+      "image": "https://tpucdn.com/img/UDaFFVg7yCjt0kQM_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-21",
-      "summary": "A NVIDIA apresentou mais uma vez sua renderização neural DLSS 5 no evento SIGGRAPH 2026, que acontece atualmente em Los Angeles. Apesar da reação negativa inicial dos jogadores, a NVIDIA continua a desenvolver a tecnologia, oferecendo melhorias e...",
+      "date": "2026-07-22",
+      "summary": "A Apple está se preparando para lançar uma nova estrutura financeira destinada a aumentar as vendas de Macs, iPhones e iPads. De acordo com a Bloomberg, a empresa planeja lançar um programa chamado “Apple Upgrade” em 28 de julho.",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350916/nvidia-shows-dlss-5-progress-and-technical-details-at-siggraph-2026"
+      "url": "https://www.techpowerup.com/350958/apple-to-launch-mac-leasing-and-upgrade-program-on-july-28"
+    },
+    {
+      "id": "https://www.techpowerup.com/350955/steam-deck-sales-crash-after-price-hike-in-may",
+      "title": "Queda nas vendas do Steam Deck após aumento de preços em maio",
+      "original_title": "Steam Deck Sales Crash After Price Hike in May",
+      "image": "https://tpucdn.com/img/lKgrpr38EwD6HQjA_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-07-22",
+      "summary": "Apesar de um notável aumento nas vendas imediatamente após os recentes aumentos de preços impulsionados pelo RAMpocalypse, que fizeram os preços do Steam Deck dispararem em US$ 240-300 durante a noite, parece que as vendas do Steam Deck despencaram desde o aumento de preços. \n\nAcomod...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/350955/steam-deck-sales-crash-after-price-hike-in-may"
     },
     {
       "id": "https://www.techpowerup.com/350899/sale-get-chatgpt-gemini-claude-and-more-for-life-for-usd-80",
@@ -434,7 +359,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-21",
+      "date": "2026-07-22",
       "summary": "ChatGPT custa US$ 20 por mês, mas a maioria dos profissionais não consegue fazer tudo com apenas um modelo. Combine isso com assinaturas pagas de Claude e Gemini e você poderá pagar US$ 60 por mês apenas pela IA. Em vez de gastar centenas todos os anos, um ...",
       "sources": [
         "TechPowerUp"
@@ -442,19 +367,94 @@
       "url": "https://www.techpowerup.com/350899/sale-get-chatgpt-gemini-claude-and-more-for-life-for-usd-80"
     },
     {
-      "id": "https://www.techpowerup.com/350914/thermalright-launches-royal-pretor-130-vision-cpu-cooler",
-      "title": "Thermalright lança cooler para CPU Royal Pretor 130 Vision",
-      "original_title": "Thermalright Launches Royal Pretor 130 Vision CPU Cooler",
-      "image": "https://tpucdn.com/img/7asNfVXdj8L7n1WL_thm.jpg",
+      "id": "https://www.eurogamer.net/darkest-dungeon-the-fires-edge-dlc-reveal",
+      "title": "Darkest Dungeon está recebendo seu primeiro lote de DLC em vários anos, enquanto o velho e sombrio RPG comemora seu 10º aniversário",
+      "original_title": "Darkest Dungeon is getting its first dollop of DLC in several years, as the gloomy old RPG celebrates its 10th birthday",
+      "image": "https://assetsio.gnwcdn.com/Darkest-Dungeon-2---The-Fire's-Edge.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-07-21",
+      "summary": "Darkest Dungeon 2 teve um bom desempenho e recebeu críticas geralmente positivas, mas nunca foi universalmente aceito da mesma forma que o jogo original, como destacam as análises de usuários do Steam sobre Darkest Dungeon 2. Agora, o desenvolvedor Red Hook Studios está su...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/darkest-dungeon-the-fires-edge-dlc-reveal"
+    },
+    {
+      "id": "https://www.eurogamer.net/jagex-runescape-bigger-than-world-of-warcraft",
+      "title": "Jagex quer que o clássico MMO britânico de apontar e clicar RuneScape seja maior que World of Warcraft",
+      "original_title": "Jagex wants classic British point-and-click MMO RuneScape to be bigger than World of Warcraft",
+      "image": "https://assetsio.gnwcdn.com/RuneScape_Dragonwilds_Armor_1.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-07-21",
+      "summary": "O CEO da Jagex, Jon Bellamy, compartilhou sua grande aspiração de que o RuneScape seja o maior MMO do mundo nos próximos cinco anos. Isso, para quem não sabe, significaria derrubar World of Warcraft do primeiro lugar. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/jagex-runescape-bigger-than-world-of-warcraft"
+    },
+    {
+      "id": "https://www.eurogamer.net/fbi-arrest-21-year-old-stolen-crypto-currency",
+      "title": "O FBI prendeu um jovem de 21 anos que supostamente roubou US$ 220.000 através do Steam usando jogos cheios de malware",
+      "original_title": "The FBI has arrested a 21-year-old alleged to have stolen $220,000 through Steam using malware-ridden games",
+      "image": "https://assetsio.gnwcdn.com/sombra-hacking-overwatch.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-07-21",
+      "summary": "O FBI prendeu um homem de 21 anos da Flórida que supostamente roubou cerca de US$ 220.000 em criptomoedas usando malware instalado junto com jogos. E embora a plataforma de PC usada para capturar essa captura não seja explicitamente especificada, os jogos infestados listados...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/fbi-arrest-21-year-old-stolen-crypto-currency"
+    },
+    {
+      "id": "https://www.techpowerup.com/350952/palworld-hits-nearly-1-million-concurrent-players-10-days-after-1-0-launch",
+      "title": "Palworld atinge quase 1 milhão de jogadores simultâneos 10 dias após o lançamento 1.0",
+      "original_title": "Palworld Hits Nearly 1 Million Concurrent Players 10 Days After 1.0 Launch",
+      "image": "https://tpucdn.com/img/mqrNJuyGXFULiCSt_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-07-21",
-      "summary": "A Thermalright lançou hoje o Royal Pretor 130 Vision, um cooler de ar para CPU de última geração. O cooler possui um dissipador de calor grande de pilha dupla (tipo D) com um par de ventoinhas na configuração push-pull e é caracterizado por uma placa superior que apresenta um 3,95...",
+      "summary": "A trajetória meteórica do Palworld aparentemente continuou após seu lançamento 1.0 em 10 de julho. Quase duas semanas após o lançamento, em 19 de julho, o jogo atingiu 961.867 jogadores simultâneos relatados pelo SteamDB, o número mais alto desde o início do jogo...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350914/thermalright-launches-royal-pretor-130-vision-cpu-cooler"
+      "url": "https://www.techpowerup.com/350952/palworld-hits-nearly-1-million-concurrent-players-10-days-after-1-0-launch"
+    },
+    {
+      "id": "https://www.techpowerup.com/350951/ex-burnout-and-need-for-speed-talent-starts-new-studio-to-make-wreckreation-2",
+      "title": "Ex-Burnout e Need for Speed ​​Talent inicia novo estúdio para fazer Wreckreation 2",
+      "original_title": "Ex-Burnout and Need for Speed Talent Starts New Studio To Make Wreckreation 2",
+      "image": "https://tpucdn.com/img/pFzOgCqIFKkudu1v_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-07-21",
+      "summary": "When Tides Turn é o nome de um novo estúdio de jogos iniciado por Fiona Sperry para lançar Wreckreation 2, uma sequência do “playground de direção em mundo aberto” que tinha mais do que seu quinhão de energia Burnout. Wreckreation 2 será um jogo de mundo aberto...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/350951/ex-burnout-and-need-for-speed-talent-starts-new-studio-to-make-wreckreation-2"
+    },
+    {
+      "id": "https://www.techpowerup.com/350950/silverstone-quietly-lists-cs240-mini-itx-nas-case-with-four-hot-swap-u-2-bays",
+      "title": "SilverStone lista silenciosamente o gabinete CS240 Mini-ITX NAS com quatro baias U.2 Hot-Swap",
+      "original_title": "SilverStone Quietly Lists CS240 Mini-ITX NAS Case With Four Hot-Swap U.2 Bays",
+      "image": "https://tpucdn.com/img/MQ9RxU3jmpb38r1e_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-07-21",
+      "summary": "SilverStone listou discretamente o CS240, um chassi NAS Mini-ITX mostrado pela primeira vez na Computex 2026 em junho, construído em torno de quatro unidades U.2 de 2,5 polegadas hot-swap em um tamanho compacto de 21,65 litros. O chassi mede 211 x 285 x 360 mm e é construído p...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/350950/silverstone-quietly-lists-cs240-mini-itx-nas-case-with-four-hot-swap-u-2-bays"
     }
   ]
 }
