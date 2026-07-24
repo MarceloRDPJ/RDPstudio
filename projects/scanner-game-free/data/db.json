@@ -1,31 +1,11 @@
 {
-  "last_updated": "2026-07-23T13:57:22",
-  "display_date": "23/07/2026 13:57",
+  "last_updated": "2026-07-24T13:43:44",
+  "display_date": "24/07/2026 13:43",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "182ms",
+    "latency": "186ms",
     "current_games": [
-      {
-        "title": "Luto",
-        "description": "Luto é uma experiência de terror psicológico onde você assume o papel de alguém que não consegue sair de casa. Cada tentativa de fuga o levará mais fundo no desconhecido, onde nada é o que parece e tudo testará seus sentidos.",
-        "image": "https://cdn1.epicgames.com/spt-assets/eda0432529164b29b8a659d627d660e4/luto-14zrp.png",
-        "url": "https://store.epicgames.com/p/67459b70a96e40ca96d5676d8a4fd8c5",
-        "price": "$19.99",
-        "start_date": "2026-07-16T15:00:00.000Z",
-        "end_date": "2026-07-23T15:00:00.000Z"
-      },
-      {
-        "title": "Echo Generation: Midnight Edition",
-        "description": "Lidere uma gangue de crianças para descobrir mistérios assustadores, lutar contra criaturas e explorar o lado sobrenatural de sua cidade natal em Echo Generation, uma aventura baseada em turnos ambientada nos anos 90.",
-        "image": "https://cdn1.epicgames.com/spt-assets/d85d8cbcd8bd43308d262ba62af5b5ce/echo-generation-midnight-edition-49ac1.jpg",
-        "url": "https://store.epicgames.com/p/cbf3f5857ec241bab03dbb7eb03efad8",
-        "price": "$24.99",
-        "start_date": "2026-07-16T15:00:00.000Z",
-        "end_date": "2026-07-23T15:00:00.000Z"
-      }
-    ],
-    "upcoming_games": [
       {
         "title": "Foretales",
         "description": "Decida o destino do mundo neste engenhoso jogo de cartas baseado em uma história.\n\nForetales oferece uma visão única do gênero aventura, com uma infinidade de estilos de jogo e caminhos de história através dos quais você pode salvar o mundo... ou trazer seu fim.",
@@ -35,6 +15,17 @@
         "start_date": "2026-07-23T15:00:00.000Z",
         "end_date": "2026-07-30T15:00:00.000Z"
       },
+      {
+        "title": "Foretales",
+        "description": "Decida o destino do mundo neste engenhoso jogo de cartas baseado em uma história.\n\nForetales oferece uma visão única do gênero aventura, com uma infinidade de estilos de jogo e caminhos de história através dos quais você pode salvar o mundo... ou trazer seu fim.",
+        "image": "https://cdn1.epicgames.com/spt-assets/2b593b82aea84695b1608d74d3850ceb/foretales-offer-urvzn.jpg",
+        "url": "https://store.epicgames.com/p/a6dcabac79154e218bd3c7d4a8cad8a7",
+        "price": "$19.99",
+        "start_date": "2026-07-23T15:00:00.000Z",
+        "end_date": "2026-07-30T15:00:00.000Z"
+      }
+    ],
+    "upcoming_games": [
       {
         "title": "Ghostrunner 2",
         "description": "Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
@@ -61,51 +52,63 @@
         "price": "$7.99",
         "start_date": "2026-09-03T15:00:00.000Z",
         "end_date": "2026-09-17T15:00:00.000Z"
+      },
+      {
+        "title": "OTXO",
+        "description": "Entre em uma mansão abstrata e inexplicável para resgatar um ente querido neste roguelite sombrio, brutal e de ritmo acelerado, cheio de tiros precisos, mas selvagens, e câmera lenta que distorce o tempo. Enfrente seus demônios interiores e desvende os segredos da Mansão.",
+        "image": "https://cdn1.epicgames.com/spt-assets/f6da0031691c4d94a6e21255b18c1710/otxo-wtcug.jpg",
+        "url": "https://store.epicgames.com/p/63e3482da69d4332bd73ce23706e78eb",
+        "price": "$14.99",
+        "start_date": "2026-08-29T23:00:00.000Z",
+        "end_date": "2026-09-12T23:00:00.000Z"
+      },
+      {
+        "title": "OTXO",
+        "description": "Entre em uma mansão abstrata e inexplicável para resgatar um ente querido neste roguelite sombrio, brutal e de ritmo acelerado, cheio de tiros precisos, mas selvagens, e câmera lenta que distorce o tempo. Enfrente seus demônios interiores e desvende os segredos da Mansão.",
+        "image": "https://cdn1.epicgames.com/spt-assets/f6da0031691c4d94a6e21255b18c1710/otxo-wtcug.jpg",
+        "url": "https://store.epicgames.com/p/63e3482da69d4332bd73ce23706e78eb",
+        "price": "$14.99",
+        "start_date": "2026-07-30T15:00:00.000Z",
+        "end_date": "2026-08-06T15:00:00.000Z"
+      },
+      {
+        "title": "Sol Cesto",
+        "description": "Sol Cesto é um roguelite tático e frenético onde dominar a sorte é fundamental. Escolha um herói, atualize-o usando dentes amaldiçoados e itens mágicos e desça ao fundo de uma masmorra em constante mudança. Neste mundo sombrio, toda ação tem consequências…",
+        "image": "https://cdn1.epicgames.com/spt-assets/30d70e74bab1498686aba69969a6c19e/sol-cesto-1ara2.png",
+        "url": "https://store.epicgames.com/p/sol-cesto",
+        "price": "$13.99",
+        "start_date": "2026-07-30T15:00:00.000Z",
+        "end_date": "2026-08-06T15:00:00.000Z"
       }
     ],
     "mystery_detected": false
   },
   "items": [
     {
-      "id": "https://store.epicgames.com/p/67459b70a96e40ca96d5676d8a4fd8c5",
-      "title": "GRÁTIS: Luto",
-      "original_title": "Luto",
-      "image": "https://cdn1.epicgames.com/spt-assets/eda0432529164b29b8a659d627d660e4/luto-14zrp.png",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Free Games",
-      "date": "2026-07-23",
-      "summary": "Luto é uma experiência de terror psicológico onde você assume o papel de alguém que não consegue sair de casa. Cada tentativa de fuga o levará mais fundo no desconhecido, onde nada é o que parece e tudo testará seus sentidos.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/67459b70a96e40ca96d5676d8a4fd8c5"
-    },
-    {
-      "id": "https://store.epicgames.com/p/cbf3f5857ec241bab03dbb7eb03efad8",
-      "title": "GRÁTIS: Echo Generation: Midnight Edition",
-      "original_title": "Echo Generation: Midnight Edition",
-      "image": "https://cdn1.epicgames.com/spt-assets/d85d8cbcd8bd43308d262ba62af5b5ce/echo-generation-midnight-edition-49ac1.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Free Games",
-      "date": "2026-07-23",
-      "summary": "Lidere uma gangue de crianças para descobrir mistérios assustadores, lutar contra criaturas e explorar o lado sobrenatural de sua cidade natal em Echo Generation, uma aventura baseada em turnos ambientada nos anos 90.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/cbf3f5857ec241bab03dbb7eb03efad8"
-    },
-    {
       "id": "https://store.epicgames.com/p/a6dcabac79154e218bd3c7d4a8cad8a7",
-      "title": "EM BREVE: Foretales",
+      "title": "GRÁTIS: Foretales",
       "original_title": "Foretales",
       "image": "https://cdn1.epicgames.com/spt-assets/2b593b82aea84695b1608d74d3850ceb/foretales-offer-urvzn.jpg",
       "source_count": 1,
       "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-07-23",
-      "summary": "Disponível gratuitamente a partir de 23/07. Decida o destino do mundo neste engenhoso jogo de cartas baseado em uma história.\n\nForetales oferece uma visão única do gênero aventura, com uma infinidade de estilos de jogo e caminhos de história através dos quais você pode salvar o mundo... ou trazer seu fim.",
+      "category": "Free Games",
+      "date": "2026-07-24",
+      "summary": "Decida o destino do mundo neste engenhoso jogo de cartas baseado em uma história.\n\nForetales oferece uma visão única do gênero aventura, com uma infinidade de estilos de jogo e caminhos de história através dos quais você pode salvar o mundo... ou trazer seu fim.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/a6dcabac79154e218bd3c7d4a8cad8a7"
+    },
+    {
+      "id": "https://store.epicgames.com/p/a6dcabac79154e218bd3c7d4a8cad8a7",
+      "title": "GRÁTIS: Foretales",
+      "original_title": "Foretales",
+      "image": "https://cdn1.epicgames.com/spt-assets/2b593b82aea84695b1608d74d3850ceb/foretales-offer-urvzn.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Free Games",
+      "date": "2026-07-24",
+      "summary": "Decida o destino do mundo neste engenhoso jogo de cartas baseado em uma história.\n\nForetales oferece uma visão única do gênero aventura, com uma infinidade de estilos de jogo e caminhos de história através dos quais você pode salvar o mundo... ou trazer seu fim.",
       "sources": [
         "Epic Games Store"
       ],
@@ -119,7 +122,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-23",
+      "date": "2026-07-24",
       "summary": "Disponível gratuitamente a partir de 10/09. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
       "sources": [
         "Epic Games Store"
@@ -134,7 +137,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-23",
+      "date": "2026-07-24",
       "summary": "Disponível gratuitamente a partir de 17/09. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
@@ -149,7 +152,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-23",
+      "date": "2026-07-24",
       "summary": "Disponível gratuitamente a partir de 03/09. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
       "sources": [
         "Epic Games Store"
@@ -157,139 +160,199 @@
       "url": "https://store.epicgames.com/p/monument-valley-02"
     },
     {
-      "id": "https://www.eurogamer.net/resident-evil-movie-new-trailer-july-hosptial",
-      "title": "O filme Resident Evil ganha outro trailer assustador e apresenta uma divertida referência de jogo para fãs mais atentos",
-      "original_title": "Resident Evil movie gets another spooky trailer, and features a fun game reference for keen-eyed fans",
-      "image": "https://assetsio.gnwcdn.com/a-scared-man-shines-a-light-from-(I-think)-his-phone-is-Resident-Evil-movie-trailer.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://store.epicgames.com/p/63e3482da69d4332bd73ce23706e78eb",
+      "title": "EM BREVE: OTXO",
+      "original_title": "OTXO",
+      "image": "https://cdn1.epicgames.com/spt-assets/f6da0031691c4d94a6e21255b18c1710/otxo-wtcug.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-07-24",
+      "summary": "Disponível gratuitamente a partir de 29/08. Entre em uma mansão abstrata e inexplicável para resgatar um ente querido neste roguelite sombrio, brutal e de ritmo acelerado, cheio de tiros precisos, mas selvagens, e câmera lenta que distorce o tempo. Enfrente seus demônios interiores e desvende os segredos da Mansão.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/63e3482da69d4332bd73ce23706e78eb"
+    },
+    {
+      "id": "https://store.epicgames.com/p/63e3482da69d4332bd73ce23706e78eb",
+      "title": "EM BREVE: OTXO",
+      "original_title": "OTXO",
+      "image": "https://cdn1.epicgames.com/spt-assets/f6da0031691c4d94a6e21255b18c1710/otxo-wtcug.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-07-24",
+      "summary": "Disponível gratuitamente a partir de 30/07. Entre em uma mansão abstrata e inexplicável para resgatar um ente querido neste roguelite sombrio, brutal e de ritmo acelerado, cheio de tiros precisos, mas selvagens, e câmera lenta que distorce o tempo. Enfrente seus demônios interiores e desvende os segredos da Mansão.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/63e3482da69d4332bd73ce23706e78eb"
+    },
+    {
+      "id": "https://store.epicgames.com/p/sol-cesto",
+      "title": "EM BREVE: Sol Cesto",
+      "original_title": "Sol Cesto",
+      "image": "https://cdn1.epicgames.com/spt-assets/30d70e74bab1498686aba69969a6c19e/sol-cesto-1ara2.png",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-07-24",
+      "summary": "Disponível gratuitamente a partir de 30/07. Sol Cesto é um roguelite tático e frenético onde dominar a sorte é fundamental. Escolha um herói, atualize-o usando dentes amaldiçoados e itens mágicos e desça ao fundo de uma masmorra em constante mudança. Neste mundo sombrio, toda ação tem consequências…",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/sol-cesto"
+    },
+    {
+      "id": "https://www.eurogamer.net/psn-network-down-login-failure",
+      "title": "PlayStation Network fora do ar, enquanto dezenas de milhares de jogadores fazem fila para jogar o beta recém-lançado do Marvel Tokon Fighting Souls",
+      "original_title": "PlayStation Network down, as tens of thousands of players queue to play Marvel Tokon Fighting Souls newly-launched beta",
+      "image": "https://assetsio.gnwcdn.com/marvel-tokon-iron-man.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-23",
-      "summary": "Um novo trailer do próximo filme Resident Evil foi lançado, apresentando o apelo à ação para a jornada do nosso protagonista ao mundo sombrio e assustador do bioterror. Ele também traz um lindo ovo de páscoa para os fãs mais atentos do jogo...",
+      "date": "2026-07-24",
+      "summary": "Os relatos de uma interrupção na PlayStation Network (PSN) estão aumentando, pois muitos jogadores estão lutando para se conectar aos serviços online. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/resident-evil-movie-new-trailer-july-hosptial"
+      "url": "https://www.eurogamer.net/psn-network-down-login-failure"
     },
     {
-      "id": "https://www.eurogamer.net/playstation-shawn-layden-bringing-double-a-back",
-      "title": "O ex-chefe do PlayStation Shawn Layden quer salvar os jogos trazendo de volta o duplo A – e ele tem um plano",
-      "original_title": "Former PlayStation boss Shawn Layden wants to save games by bringing back double-A - and he has a plan",
-      "image": "https://assetsio.gnwcdn.com/robocop-layden.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/atari-movie-pong-breakout-asteroids-more",
+      "title": "Há um filme Breakout a caminho enquanto Atari assina acordo para trazer Pong, Asteroids e outros jogos clássicos para a tela grande",
+      "original_title": "There's a Breakout movie on the way as Atari signs deal to bring Pong, Asteroids, and other classic games to the big screen",
+      "image": "https://assetsio.gnwcdn.com/breakout-cinema.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-23",
-      "summary": "Ele vem dizendo isso há anos: o desenvolvimento de jogos de grande sucesso é insustentável hoje, e dado que Shawn Layden costumava liderar toda a lista de estúdios originais do PlayStation, ele provavelmente sabe bastante sobre o assunto. “Cada geração custa...",
+      "date": "2026-07-24",
+      "summary": "Em um sinal infalível de que Hollywood atingiu o estágio desesperador de sua fome insaciável por propriedades de videogame para serem engolidas e cuspidas em uma forma de tela grande duvidosamente reconhecível, a Atari anunciou um acordo um tanto improvável com a Universal Pic...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/playstation-shawn-layden-bringing-double-a-back"
+      "url": "https://www.eurogamer.net/atari-movie-pong-breakout-asteroids-more"
     },
     {
-      "id": "https://www.eurogamer.net/call-of-duty-black-ops-7-classic-matchmaking-black-ops-1-2",
-      "title": "Call of Duty: Black Ops 7 oferecerá em breve três sistemas de matchmaking diferentes, e você estaria certo em ficar confuso",
-      "original_title": "Call of Duty: Black Ops 7 will very soon offer three different matchmaking systems, and you'd be right to be confused",
-      "image": "https://assetsio.gnwcdn.com/black-ops-7-season-5-screen-3.jpeg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/kingdom-come-salvation-trademark-filing",
+      "title": "Kingdom Come Salvation pode ser o próximo RPG medieval de Warhorse e também pode ter algum tipo de funcionalidade multijogador",
+      "original_title": "Kingdom Come Salvation may be the next Medieval RPG from Warhorse, and it could have some sort of multi-player functionality, too",
+      "image": "https://assetsio.gnwcdn.com/kh-c-2-horse.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-23",
-      "summary": "Call of Duty trouxe o matchmaking de volta à conversa. A Activision anunciou que Black Ops 7 está introduzindo um novo sistema de matchmaking, disponível para os jogadores hoje com o lançamento da 5ª temporada.",
+      "date": "2026-07-24",
+      "summary": "Parece que tivemos a primeira dica sobre o que podemos esperar do Kingdom Come stuido, Warhorse. Só ouvimos em maio deste ano que um terceiro RPG de Kingdom Come pode ser lançado mais cedo do que esperávamos, e parece que o mal anunciado ...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/call-of-duty-black-ops-7-classic-matchmaking-black-ops-1-2"
+      "url": "https://www.eurogamer.net/kingdom-come-salvation-trademark-filing"
     },
     {
-      "id": "https://www.eurogamer.net/bethesda-montreal-smallest-severance-possible",
-      "title": "“A menor indenização possível” – Sindicato da Bethesda promete lutar enquanto os funcionários do estúdio sofrem com o pagamento “mínimo” após demissões em massa do Xbox",
-      "original_title": "\"The smallest severance pay possible\" - Bethesda union vows to fight as studio employees reel from \"bare minimum\" payout following mass Xbox layoffs",
-      "image": "https://assetsio.gnwcdn.com/Fallout-4-update_sAo2i7i.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/ubisoft-ceo-playstation-disc-wont-disturb-industry",
+      "title": "O chefe da Ubisoft, Yves Guillemot, não acredita que o abandono dos discos físicos do PlayStation irá “perturbar” muito a indústria",
+      "original_title": "Ubisoft boss Yves Guillemot doesn't believe PlayStation ditching physical discs will \"disturb\" the industry much",
+      "image": "https://assetsio.gnwcdn.com/watch-dogs-legion_qQHG7BM.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-23",
-      "summary": "Após demissões em massa do Xbox no início deste mês, os funcionários do estúdio da Bethesda em Montreal foram informados de que receberão a “menor” indenização legalmente possível. Leia mais...",
+      "date": "2026-07-24",
+      "summary": "O CEO da Ubisoft, Yves Guillemot, interveio no debate em torno da mudança planejada da Sony para longe da produção de discos físicos, afirmando que não acha que isso “perturbará” muito a indústria. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/bethesda-montreal-smallest-severance-possible"
+      "url": "https://www.eurogamer.net/ubisoft-ceo-playstation-disc-wont-disturb-industry"
     },
     {
-      "id": "https://www.eurogamer.net/hasbro-56-million-usd-write-down-exodus-warlock-fate",
-      "title": "Depois de seu alarde da era Baldur's Gate 3, a Hasbro está reduzindo suas ambições de jogos após uma perda de US $ 56 milhões, mas Warlock e Exodus do tipo Mass Effect estão seguros",
-      "original_title": "After its Baldur's Gate 3-era splurge, Hasbro is scaling back its gaming ambitions following $56m loss, but Warlock and Mass Effect-like Exodus are safe",
-      "image": "https://assetsio.gnwcdn.com/exodus-2.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/playstation-physical-media-sega-ceo",
+      "title": "“Ainda valorizamos a cultura da mídia física” Enquanto o PlayStation se prepara para um futuro totalmente digital, o presidente da Sega sai em apoio aos discos",
+      "original_title": "\"We still value the culture of physical media\" As PlayStation prepares for an all-digital future, Sega president comes out in support of discs",
+      "image": "https://assetsio.gnwcdn.com/custom-image-sega-ceo.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-23",
-      "summary": "A Hasbro, empresa controladora da Wizards of the Coast, proprietária de Dungeons and Dragons, está aparentemente reduzindo suas ambições em videogames. A empresa, que em 2022 havia iniciado um plano para se tornar uma grande editora, já cancelou vários de seus projetos...",
+      "date": "2026-07-24",
+      "summary": "A Sega é a mais recente editora a deixar clara a sua opinião sobre a mídia física, após a polêmica decisão da Sony de encerrar a fabricação e venda de discos até 2028. O presidente da editora japonesa, Shuji Utsumi, observou que...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/hasbro-56-million-usd-write-down-exodus-warlock-fate"
+      "url": "https://www.eurogamer.net/playstation-physical-media-sega-ceo"
     },
     {
-      "id": "https://www.eurogamer.net/avatar-legends-fighting-game-xbox-delay-switch-version",
-      "title": "Versão Xbox de Avatar Legends: The Fighting Game atrasada em mais de um mês, menos de 24 horas antes do lançamento",
-      "original_title": "Xbox version of Avatar Legends: The Fighting Game delayed by over a month, less than 24 hours before launch",
-      "image": "https://assetsio.gnwcdn.com/avatar-legends-korra.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/playstation-physical-media-hardware-disgaea-creator",
+      "title": "Se o PlayStation matar a mídia física, ele também deveria “se livrar do hardware”, diz o criador da popular série de RPG Disgaea",
+      "original_title": "If PlayStation kills physical media, it should \"get rid of the hardware\" too, says the creator of popular RPG series Disgaea",
+      "image": "https://assetsio.gnwcdn.com/Niikawa-discs.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-23",
-      "summary": "Menos de 24 horas antes da data de lançamento prevista, os desenvolvedores por trás de Avatar Legends: The Fighting Game anunciaram algumas interrupções sérias no lançamento no Xbox e Nintendo Switch. Leia mais...",
+      "date": "2026-07-24",
+      "summary": "Desde 1º de julho, quando a Sony anunciou sua intenção de se afastar da produção e venda de mídia física, temos visto muitas reações negativas por parte dos consumidores e daqueles que trabalham na indústria de videogames. Há muitas evidências disso, mas...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/avatar-legends-fighting-game-xbox-delay-switch-version"
+      "url": "https://www.eurogamer.net/playstation-physical-media-hardware-disgaea-creator"
     },
     {
-      "id": "https://www.eurogamer.net/stalker-2-xbox-timed-exclusivity-claim-refuted",
-      "title": "Desenvolvedor de Stalker 2 refuta afirmações do fundador do estúdio de que o Xbox pagou mais do que o custo de desenvolvimento do jogo para torná-lo exclusivo",
-      "original_title": "Stalker 2 developer refutes claims by studio founder that Xbox paid more than game's development cost to make it exclusive",
-      "image": "https://assetsio.gnwcdn.com/ss_bb0d9a5b981ada1e0045cc49327e2cc26566766f.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/xbox-game-advertising-insider-affordability",
+      "title": "O Xbox lança teste de streaming de jogos com anúncios para seus programas internos, à medida que a crise de fornecimento de hardware e acessibilidade aumenta",
+      "original_title": "Xbox rolls out ad-supported game streaming test for its insider programs, as hardware supply and affordability crisis rages on",
+      "image": "https://assetsio.gnwcdn.com/halo-infinite-campaign-review-master-chief-makes-a-leap-of-faith-and-nails-the-landing-1638458496549.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-23",
-      "summary": "No início desta semana, o fundador do estúdio GSC Game World, Sergiy Grygorovych, fez uma revelação bombástica sobre o desenvolvimento de Stalker 2: Heart of Chornobyl. Grygorovych disse em entrevista ao YouTuber OLDboi que a Microsoft pagou uma quantia significativa para manter...",
+      "date": "2026-07-24",
+      "summary": "O Xbox anunciou um teste para um serviço de streaming com suporte de anúncios para seu programa Xbox Insider. Ele permitirá que os jogadores transmitam jogos selecionados de sua biblioteca gratuitamente por sessões de uma hora, com anúncios sendo exibidos antes das sessões de jogo. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/stalker-2-xbox-timed-exclusivity-claim-refuted"
+      "url": "https://www.eurogamer.net/xbox-game-advertising-insider-affordability"
     },
     {
-      "id": "https://www.techpowerup.com/351012/owc-announces-owc-express-4m2-ultra-thunderbolt-5-nvme-raid-solution",
-      "title": "(PR) OWC Anuncia Solução RAID OWC Express 4M2 Ultra Thunderbolt 5 NVMe",
-      "original_title": "(PR) OWC Announces OWC Express 4M2 Ultra Thunderbolt 5 NVMe RAID Solution",
-      "image": "https://tpucdn.com/img/7TBpRD0xFK3fsVBl_thm.jpg",
+      "id": "https://www.eurogamer.net/assassins-creed-black-flag-sales-exceed-annual-expectations",
+      "title": "Assassin's Creed Black Flag Resynced já vendeu mais de 3,5 milhões de cópias, \"superando as expectativas anuais nos primeiros 14 dias\"",
+      "original_title": "Assassin's Creed Black Flag Resynced has already sold over 3.5 million copies, \"exceeding annual expectations within its first 14 days\"",
+      "image": "https://assetsio.gnwcdn.com/kenway-cash.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-07-24",
+      "summary": "Assassin's Creed Black Flag está cada vez mais forte para a Ubisoft. Depois de arrecadar 2 milhões de vendas nos primeiros dias (e subir para 3 milhões em uma semana), a Ubisoft acaba de anunciar que o jogo vendeu impressionantes 3,5 milhões de unidades -...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/assassins-creed-black-flag-sales-exceed-annual-expectations"
+    },
+    {
+      "id": "https://www.techpowerup.com/351058/asrock-launches-phantom-gaming-pgo27qsa-series-qd-oled-gaming-monitors-in-black-and-white",
+      "title": "(PR) ASRock lança monitores de jogos QD-OLED da série Phantom Gaming PGO27QSA em preto e branco",
+      "original_title": "(PR) ASRock Launches Phantom Gaming PGO27QSA Series QD-OLED Gaming Monitors in Black and White",
+      "image": "https://tpucdn.com/img/EH9t9TozwdNzqmQv_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-23",
-      "summary": "A Other World Computing (OWC), líder confiável em armazenamento de alto desempenho, memória, conectividade, software e acessórios que capacitam profissionais criativos e de negócios a maximizar o desempenho, aumentar a confiabilidade e simplificar os fluxos de trabalho, hoje...",
+      "date": "2026-07-24",
+      "summary": "ASRock, fabricante líder global de placas-mãe, placas gráficas, mini PCs, monitores de jogos, fontes de alimentação e coolers líquidos AIO, anunciou hoje o lançamento dos novos monitores de jogos OLED Phantom Gaming PGO27QSA e PGO27QSA-W. Características...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/351012/owc-announces-owc-express-4m2-ultra-thunderbolt-5-nvme-raid-solution"
+      "url": "https://www.techpowerup.com/351058/asrock-launches-phantom-gaming-pgo27qsa-series-qd-oled-gaming-monitors-in-black-and-white"
     },
     {
-      "id": "https://www.techpowerup.com/351009/liquidation-announces-august-4-early-access-release-with-a-new-teaser-trailer",
-      "title": "(PR) Liquidation anuncia lançamento de acesso antecipado em 4 de agosto com um novo teaser trailer",
-      "original_title": "(PR) Liquidation Announces August 4 Early Access Release with a New Teaser Trailer",
-      "image": "https://tpucdn.com/img/q6ruB5RWzYbXiSa4_thm.jpg",
+      "id": "https://www.techpowerup.com/351057/gigabyte-breaks-the-ddr5-bottleneck-full-motherboard-lineup-now-supports-cxsh-cxmt-memory",
+      "title": "(PR) Gigabyte quebra o gargalo DDR5: linha completa de placas-mãe agora suporta memória CXSH (CXMT)",
+      "original_title": "(PR) Gigabyte Breaks the DDR5 Bottleneck: Full Motherboard Lineup Now Supports CXSH (CXMT) Memory",
+      "image": "https://tpucdn.com/img/FN0IN5DOlaZuPXls_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-23",
-      "summary": "A editora MicroProse e a desenvolvedora Divio têm o prazer de anunciar que Liquidation será lançado no Steam Early Access em 4 de agosto. A data de lançamento foi revelada junto com um novo teaser de anúncio, oferecendo um novo vislumbre do mundo devastado pela guerra...",
+      "date": "2026-07-24",
+      "summary": "Ltd, fabricante líder de placas-mãe, placas gráficas e soluções de hardware, anunciou hoje que sua linha completa de placas-mãe DDR5 agora suporta memória baseada em chip CXSH (CXMT), oferecendo aos consumidores mais opções e ótimos...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/351009/liquidation-announces-august-4-early-access-release-with-a-new-teaser-trailer"
+      "url": "https://www.techpowerup.com/351057/gigabyte-breaks-the-ddr5-bottleneck-full-motherboard-lineup-now-supports-cxsh-cxmt-memory"
     },
     {
       "id": "https://www.techpowerup.com/350898/microsoft-office-2024-professional-plus-just-hit-a-new-low-price-usd-55-for-life",
@@ -299,7 +362,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-23",
+      "date": "2026-07-24",
       "summary": "O modelo de assinatura da Microsoft não é para todos. Algumas pessoas querem apenas pagar uma vez e seguir em frente com suas vidas, sem renovações automáticas, sem surpresas de faturamento, sem e-mails “seu plano mudou”. Esta licença vitalícia caiu para o preço mais baixo até agora: ...",
       "sources": [
         "TechPowerUp"
@@ -307,49 +370,49 @@
       "url": "https://www.techpowerup.com/350898/microsoft-office-2024-professional-plus-just-hit-a-new-low-price-usd-55-for-life"
     },
     {
-      "id": "https://www.techpowerup.com/350999/thermaltake-unveils-ax-3200w-platinum-psu-for-ai-workstations-and-multi-gpu-systems",
-      "title": "(PR) Thermaltake lança fonte de alimentação AX 3200W Platinum para estações de trabalho de IA e sistemas multi-GPU",
-      "original_title": "(PR) Thermaltake Unveils AX 3200W Platinum PSU for AI Workstations and Multi-GPU Systems",
-      "image": "https://tpucdn.com/img/IuT8xvfyRigCIqD9_thm.jpg",
+      "id": "https://www.techpowerup.com/351056/alphacool-intros-ddczero-pump-reservoirs-mounting-kit",
+      "title": "(PR) Bomba, reservatórios e kit de montagem Alphacool Intros DDCzero",
+      "original_title": "(PR) Alphacool Intros DDCzero Pump, Reservoirs & Mounting Kit",
+      "image": "https://tpucdn.com/img/963cueAyv9PCuIp6_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-23",
-      "summary": "A Thermaltake, marca líder de DIY para soluções de hardware premium, apresenta a fonte de alimentação AX 3200W Platinum, projetada para fornecer potência e confiabilidade excepcionais para estações de trabalho de IA, criadores profissionais e sistemas multi-GPU de alto desempenho.",
+      "date": "2026-07-24",
+      "summary": "Alphacool International GmbH de Braunschweig é pioneira em tecnologia de refrigeração líquida para PC. Com um dos portfólios de produtos mais abrangentes do setor e mais de 20 anos de experiência, a Alphacool está expandindo sua linha com o Core DDCzero PWM...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350999/thermaltake-unveils-ax-3200w-platinum-psu-for-ai-workstations-and-multi-gpu-systems"
+      "url": "https://www.techpowerup.com/351056/alphacool-intros-ddczero-pump-reservoirs-mounting-kit"
     },
     {
-      "id": "https://www.techpowerup.com/350997/framework-teases-desktop-with-ryzen-ai-max-pro-495-and-192gb-memory",
-      "title": "Framework provoca desktop com Ryzen AI Max + PRO 495 e 192 GB de memória",
-      "original_title": "Framework Teases Desktop with Ryzen AI Max+ PRO 495 and 192GB Memory",
-      "image": "https://tpucdn.com/img/eKN92PEiuUJrvk1E_thm.jpg",
+      "id": "https://www.techpowerup.com/351054/msi-launches-the-pro-max-edge-ai-ushering-in-a-new-era-of-on-device-ai-computing",
+      "title": "(PR) MSI lança PRO MAX EDGE AI+, inaugurando uma nova era de computação de IA no dispositivo",
+      "original_title": "(PR) MSI Launches the PRO MAX EDGE AI+, Ushering in a New Era of On-Device AI Computing",
+      "image": "https://tpucdn.com/img/wGYt7MY7GV1OKUNP_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-23",
-      "summary": "Framework lançou sua primeira plataforma de qualificação de mini-PC para o processador AMD Ryzen AI Max+ PRO 495. Revelado no início deste ano na Computex, o Ryzen AI Max+ PRO 495 é uma grande atualização do Ryzen AI Max+ 395 que suporta uma memória unificada máxima de ...",
+      "date": "2026-07-24",
+      "summary": "A MSI anunciou hoje o lançamento do PRO MAX EDGE AI+, um desktop de IA de próxima geração desenvolvido especificamente para computação de IA no dispositivo. Projetado para acelerar a inovação em IA, o PRO MAX EDGE AI+ oferece desempenho excepcional de IA enquanto mantém dados confidenciais...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350997/framework-teases-desktop-with-ryzen-ai-max-pro-495-and-192gb-memory"
+      "url": "https://www.techpowerup.com/351054/msi-launches-the-pro-max-edge-ai-ushering-in-a-new-era-of-on-device-ai-computing"
     },
     {
-      "id": "https://www.techpowerup.com/350995/asus-releases-beta-version-of-zenni-claw-for-supported-asus-devices",
-      "title": "(PR) ASUS lança versão beta do Zenni Claw para dispositivos ASUS suportados",
-      "original_title": "(PR) ASUS Releases Beta Version of Zenni Claw for Supported ASUS Devices",
-      "image": "https://tpucdn.com/img/FWz5IQ3X1jo65Dcb_thm.jpg",
+      "id": "https://www.techpowerup.com/351053/asus-accelerates-enterprise-ai-at-scale-with-6th-gen-amd-epyc-server-cpus",
+      "title": "(PR) ASUS acelera IA empresarial em escala com CPUs de servidor AMD EPYC de 6ª geração",
+      "original_title": "(PR) ASUS Accelerates Enterprise AI at Scale with 6th-Gen AMD EPYC Server CPUs",
+      "image": "https://tpucdn.com/img/TQKuBUgCy5SHzrcF_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-23",
-      "summary": "A ASUS anunciou hoje o lançamento beta do ASUS Zenni Claw, um software de IA desenvolvido para ajudar os usuários de dispositivos ASUS suportados a transformar solicitações diárias em fluxos de trabalho guiados e orientados para tarefas. Apresentado pela primeira vez na Computex 2026, o ASUS Zenni Claw envelhece...",
+      "date": "2026-07-24",
+      "summary": "A ASUS anunciou hoje a sua nova linha inovadora de servidores equipados com processadores AMD EPYC 9006, projetados para oferecer desempenho incomparável para as cargas de trabalho empresariais mais exigentes e intensivas. Este portfólio avançado apresenta dois recursos altamente otimizados...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350995/asus-releases-beta-version-of-zenni-claw-for-supported-asus-devices"
+      "url": "https://www.techpowerup.com/351053/asus-accelerates-enterprise-ai-at-scale-with-6th-gen-amd-epyc-server-cpus"
     },
     {
       "id": "https://www.techpowerup.com/350899/sale-get-chatgpt-gemini-claude-and-more-for-life-for-usd-80",
@@ -359,7 +422,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-23",
+      "date": "2026-07-24",
       "summary": "ChatGPT custa US$ 20 por mês, mas a maioria dos profissionais não consegue fazer tudo com apenas um modelo. Combine isso com assinaturas pagas de Claude e Gemini e você poderá pagar US$ 60 por mês apenas pela IA. Em vez de gastar centenas todos os anos, um ...",
       "sources": [
         "TechPowerUp"
@@ -367,94 +430,79 @@
       "url": "https://www.techpowerup.com/350899/sale-get-chatgpt-gemini-claude-and-more-for-life-for-usd-80"
     },
     {
-      "id": "https://www.techpowerup.com/350991/steam-now-allows-gifting-across-regions-and-guest-checkouts",
-      "title": "Steam agora permite presentes em todas as regiões e checkouts de convidados",
-      "original_title": "Steam Now Allows Gifting Across Regions and Guest Checkouts",
-      "image": "https://tpucdn.com/img/j7pmgNMa3rliG0NE_thm.jpg",
+      "id": "https://www.techpowerup.com/351052/aaeon-prioritizes-durability-with-the-release-of-new-com-express-type-6-modules",
+      "title": "(PR) AAEON prioriza durabilidade com lançamento de novos módulos COM Express Tipo 6",
+      "original_title": "(PR) AAEON Prioritizes Durability with the Release of New COM Express Type 6 Modules",
+      "image": "https://tpucdn.com/img/lHaDMXJ4HWs7xxX5_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
+      "date": "2026-07-24",
+      "summary": "Fornecedor líder de módulos de computador AAEON (código de estoque: 6579) apresentou hoje os módulos COM-TWLC6 Rev.B, COM-ASLC6 Rev.B e COM-ADNC6 Rev.B COM Express Tipo 6, equipados com CPUs Intel Atom e Processador série N.\n\nEssa linha diferencia seu...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/351052/aaeon-prioritizes-durability-with-the-release-of-new-com-express-type-6-modules"
+    },
+    {
+      "id": "https://www.techpowerup.com/351050/team-group-launches-the-ace-8k-microsdxc-memory-card",
+      "title": "(PR) Team Group lança cartão de memória ACE 8K MicroSDXC",
+      "original_title": "(PR) Team Group Launches The ACE 8K MicroSDXC Memory Card",
+      "image": "https://tpucdn.com/img/1UzhFbKCOAFMwRKx_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-07-24",
+      "summary": "À medida que os dispositivos de imagem de próxima geração, incluindo câmeras gimbal profissionais, câmeras de 360 ​​graus, câmeras de ação e drones, suportam cada vez mais a gravação de vídeo de alta resolução 8K, a demanda por cartões de memória que ofereçam ampla compatibilidade de dispositivos, estabilidade...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/351050/team-group-launches-the-ace-8k-microsdxc-memory-card"
+    },
+    {
+      "id": "https://www.techpowerup.com/351049/intel-reaffirms-multithreading-returns-in-2028-with-coral-rapids",
+      "title": "Intel reafirma: Multithreading retorna em 2028 com “Coral Rapids”",
+      "original_title": "Intel Reaffirms: Multithreading Returns in 2028 with \"Coral Rapids\"",
+      "image": "https://tpucdn.com/img/jGL3JHTWPdisrOW8_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-07-24",
+      "summary": "Nos últimos anos, a Intel abandonou o multithreading tradicional em seus designs de núcleo de CPU. Essa mudança começou com as CPUs Core de 12ª geração, quando a Intel começou a se afastar do Hyper-Threading. Ao mesmo tempo, a empresa fez a transição para uma assimetria...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/351049/intel-reaffirms-multithreading-returns-in-2028-with-coral-rapids"
+    },
+    {
+      "id": "https://www.eurogamer.net/rockstar-developer-union-more-members-layoffs",
+      "title": "À medida que a controvérsia sobre demissões continua, o sindicato Rockstar tem “mais membros do que nunca”, o que significa que pode forçar o reconhecimento obrigatório",
+      "original_title": "As layoff controversy continues, Rockstar union has 'more members than ever before', meaning it could force mandatory recognition",
+      "image": "https://assetsio.gnwcdn.com/grand-theft-auto-6-character-4k-wallpaper-uhdpaper.com-269%401%40n.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
       "date": "2026-07-23",
-      "summary": "Uma atualização recente nos requisitos e regras de presentes da Valve tornou um pouco mais fácil presentear jogos no Steam. Para começar, os compradores não precisarão mais ter uma conta Steam para comprar presentes para um usuário Steam. Agora eles podem fazer check-out como convidados,...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/350991/steam-now-allows-gifting-across-regions-and-guest-checkouts"
-    },
-    {
-      "id": "https://www.eurogamer.net/xbox-backward-compatibility-on-pc-announced",
-      "title": "Após demissões e mudanças estratégicas confusas, o Xbox anuncia o programa de retrocompatibilidade no PC, com Blinx e Conker liderando a primeira onda",
-      "original_title": "Following layoffs and muddy strategy shifts, Xbox announces Backward Compatibility on PC program, with Blinx and Conker leading the first wave",
-      "image": "https://assetsio.gnwcdn.com/Blinx-The-Time-Sweeper.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-07-22",
-      "summary": "Enquanto a Microsoft tenta minimizar os efeitos do corte de 3.200 empregos e quatro estúdios em seu negócio de jogos, o Xbox está repensando toda a sua estratégia, mesmo que os comentários mais recentes de dentro da casa ainda pareçam, na melhor das hipóteses, confusos. Não se preocupe; ...",
+      "summary": "O Rockstar Game Workers Union (RGWU), que foi formado no início deste ano em resposta aos controversos cortes de empregos do desenvolvedor de Grand Theft Auto 6, agora tem “mais membros do que nunca”. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/xbox-backward-compatibility-on-pc-announced"
+      "url": "https://www.eurogamer.net/rockstar-developer-union-more-members-layoffs"
     },
     {
-      "id": "https://www.eurogamer.net/splatoon-raiders-original-idea",
-      "title": "Os desenvolvedores de Splatoon Raiders revelam que originalmente era “como um jogo de defesa básica” antes de evoluir para um spin-off mais rápido “com um forte senso de ação”",
-      "original_title": "Splatoon Raiders developers reveal it originally was \"like a base defence game\" before evolving into a faster spin-off \"with a strong sense of action\"",
-      "image": "https://assetsio.gnwcdn.com/NSwitch2_SplatoonRaiders_Mechanic_02.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/former-disney-ceo-cant-remember-why-kingdom-hearts",
+      "title": "O ex-CEO da Disney, Michael Eisner, não consegue se lembrar por que deu sinal verde para Kingdom Hearts",
+      "original_title": "Former Disney CEO Michael Eisner can't remember why he green-lit Kingdom Hearts",
+      "image": "https://assetsio.gnwcdn.com/KINGDOM-HEARTS-III-%E2%80%93-Opening-Movie-Trailer-1-23-screenshot.png?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-22",
-      "summary": "Splatoon Raiders tentará causar impacto amanhã, 23 de julho, e a Nintendo está comemorando seu lançamento no Switch 2 com um bate-papo surpreendentemente aprofundado com quatro principais desenvolvedores do Nintendo EPD. Leia mais...",
+      "date": "2026-07-23",
+      "summary": "Kingdom Hearts pode ser amado por milhões de jogadores em todo o mundo, mas aparentemente não teve um impacto duradouro em uma das pessoas mais importantes envolvidas em sua criação: o ex-CEO da Walt Disney, Michael Eisner, admitiu que não pode...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/splatoon-raiders-original-idea"
-    },
-    {
-      "id": "https://www.eurogamer.net/circana-june-2026-game-hardware-xbox-growth-software-sales",
-      "title": "De todas as plataformas, o Xbox é o único que cresceu ano após ano – mas há um grande problema",
-      "original_title": "Of all the platforms, Xbox is the only one to have just grown year-on-year - but there's a big catch",
-      "image": "https://assetsio.gnwcdn.com/xbox_hPBubF0.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-07-22",
-      "summary": "A empresa de análise de mercado Circana publicou a última edição de seu relatório mensal, que monitora os gastos com hardware e software de jogos nos EUA. A edição de junho é outra desoladora, com declínio quase universal. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/circana-june-2026-game-hardware-xbox-growth-software-sales"
-    },
-    {
-      "id": "https://www.techpowerup.com/350984/linux-gets-nvidia-reflex-support-in-new-cachyos-proton-translation-layer",
-      "title": "Linux obtém suporte NVIDIA Reflex na nova camada de tradução CachyOS Proton",
-      "original_title": "Linux Gets NVIDIA Reflex Support in New CachyOS Proton Translation Layer",
-      "image": "https://tpucdn.com/img/ECISUfp62wz3URRH_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-07-22",
-      "summary": "Desde o lançamento do Steam Deck, a camada de tradução Proton da Valve usada para jogar jogos Windows em sistemas Linux tem sido fundamental para o surgimento de muitas distribuições de jogos, e desenvolvedores Linux como a equipe de desenvolvimento CachyOS, fizeram seus...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/350984/linux-gets-nvidia-reflex-support-in-new-cachyos-proton-translation-layer"
-    },
-    {
-      "id": "https://www.techpowerup.com/350987/creality-pika-pocket-sized-ai-3d-scanner-goes-on-sale-at-usd-699",
-      "title": "(PR) Creality Pika Pocket-Sized AI 3D Scanner chega à venda por US$ 699",
-      "original_title": "(PR) Creality Pika Pocket-Sized AI 3D Scanner Goes on Sale at $699",
-      "image": "https://tpucdn.com/img/NLwjHe4AxybusN1i_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-07-22",
-      "summary": "A Creality anunciou hoje que o Creality Pika, o scanner 3D portátil de bolso alimentado por IA que foi revelado no evento de lançamento do 12º aniversário do \"Ecossistema AI\", está agora à venda na loja oficial da Creality com um desconto de lançamento de 10% sobre o preço de varejo de US$ 699...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/350987/creality-pika-pocket-sized-ai-3d-scanner-goes-on-sale-at-usd-699"
+      "url": "https://www.eurogamer.net/former-disney-ceo-cant-remember-why-kingdom-hearts"
     }
   ]
 }
