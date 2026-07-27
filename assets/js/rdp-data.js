@@ -8,6 +8,7 @@ window.RDP_PROJECTS = [
       "OpenCV",
       "TensorFlow.js"
     ],
+    "screenshot": "../assets/images/projects/controle-acesso-visao.png",
     "pt": {
       "name": "Controle de Acesso Vision",
       "eyebrow": "Estudo de caso acadêmico reconstruído",
@@ -170,6 +171,7 @@ window.RDP_PROJECTS = [
       "GitHub Actions",
       "JSON estático"
     ],
+    "screenshot": "../assets/images/projects/scanner-game-free.png",
     "pt": {
       "name": "RDP Insider",
       "eyebrow": "Produto orientado por dados",
@@ -249,6 +251,7 @@ window.RDP_PROJECTS = [
       "CSS",
       "Processamento local"
     ],
+    "screenshot": "../assets/images/projects/validador-firewall.png",
     "pt": {
       "name": "Validador Fortigate",
       "eyebrow": "Ferramenta operacional",
@@ -328,6 +331,7 @@ window.RDP_PROJECTS = [
       "Upload multipart",
       "Logs"
     ],
+    "screenshot": "../assets/images/projects/abertura-chamados-glpi.png",
     "pt": {
       "name": "GLPI Automator",
       "eyebrow": "Automação operacional",
@@ -407,6 +411,7 @@ window.RDP_PROJECTS = [
       "Supabase",
       "Telegram API"
     ],
+    "screenshot": "../assets/images/projects/assistente-vendas-ia.png",
     "pt": {
       "name": "Assistente de Vendas IA",
       "eyebrow": "Demonstração de agente comercial",
@@ -486,6 +491,7 @@ window.RDP_PROJECTS = [
       "JavaScript",
       "jsPDF"
     ],
+    "screenshot": "../assets/images/projects/relatorio-interativo.png",
     "pt": {
       "name": "Relatório Interativo",
       "eyebrow": "Aplicação de inteligência financeira",

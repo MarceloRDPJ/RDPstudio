@@ -11,11 +11,19 @@
 
   const systemTheme = () => matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
   function applyTheme(mode) {
-    const safe = ['system','light','dark'].includes(mode) ? mode : 'system';
+    const safe = ['system','light','dark','contrast'].includes(mode) ? mode : 'system';
     root.dataset.themeMode = safe;
     root.dataset.theme = safe === 'system' ? systemTheme() : safe;
     storage.set(THEME_KEY, safe);
     document.querySelectorAll('[data-theme-select]').forEach(el => el.value = safe);
+    document.querySelectorAll('[data-theme-option]').forEach(el => {
+      const selected = el.dataset.themeOption === safe;
+      el.setAttribute('aria-pressed', String(selected));
+    });
+    document.querySelectorAll('[data-theme-current]').forEach(el => {
+      const labels = { system: 'Sistema', light: 'Pistache', dark: 'Eucalipto', contrast: 'Contraste' };
+      el.textContent = labels[safe];
+    });
   }
   function currentLang() {
     const stored = storage.get(LANG_KEY);
@@ -28,6 +36,9 @@
     root.lang = safe;
     root.dataset.lang = safe;
     document.querySelectorAll('[data-lang-select]').forEach(el => el.value = safe);
+    document.querySelectorAll('[data-lang-option]').forEach(el => {
+      el.setAttribute('aria-pressed', String(el.dataset.langOption === safe));
+    });
     const dict = (window.RDP_I18N || {})[safe] || {};
     document.querySelectorAll('[data-i18n]').forEach(el => {
       const value = dict[el.dataset.i18n];
@@ -43,6 +54,15 @@
   const initialTheme = storage.get(THEME_KEY) || 'system';
   applyTheme(initialTheme);
   applyLanguage(currentLang());
+  const directProjectLinks = {
+    'igreja-casa': '../projects/igreja-casa/index.html',
+    'scanner-game-free': '../projects/scanner-game-free/index.html',
+    'abertura-chamados-glpi': '../projects/abertura-chamados-glpi/index.html'
+  };
+  document.querySelectorAll('a[href^="projeto.html?slug="]').forEach(link => {
+    const slug = new URL(link.href).searchParams.get('slug');
+    if (directProjectLinks[slug]) link.href = directProjectLinks[slug];
+  });
 
   matchMedia('(prefers-color-scheme: light)').addEventListener?.('change', () => {
     if ((storage.get(THEME_KEY) || 'system') === 'system') applyTheme('system');
@@ -51,6 +71,12 @@
   document.addEventListener('change', event => {
     if (event.target.matches('[data-theme-select]')) applyTheme(event.target.value);
     if (event.target.matches('[data-lang-select]')) applyLanguage(event.target.value);
+  });
+  document.addEventListener('click', event => {
+    const theme = event.target.closest('[data-theme-option]');
+    if (theme) applyTheme(theme.dataset.themeOption);
+    const lang = event.target.closest('[data-lang-option]');
+    if (lang) applyLanguage(lang.dataset.langOption);
   });
 
   const menuBtn = document.querySelector('[data-menu-toggle]');
