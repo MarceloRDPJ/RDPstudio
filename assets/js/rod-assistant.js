@@ -1,5 +1,3 @@
-import Fuse from 'https://cdn.jsdelivr.net/npm/fuse.js@7.3.0/dist/fuse.min.mjs'
-
 const DEFAULT_KNOWLEDGE_PATH = '../assets/data/rod-knowledge.json'
 
 function stripAccents(value = '') {
@@ -46,6 +44,74 @@ function dedupeParagraphs(paragraphs = []) {
 
 function compact(text = '') {
   return text.replace(/\n{3,}/g, '\n\n').trim()
+}
+
+function editDistance(a = '', b = '') {
+  const previous = Array.from({ length: b.length + 1 }, (_, index) => index)
+  for (let i = 1; i <= a.length; i += 1) {
+    let diagonal = previous[0]
+    previous[0] = i
+    for (let j = 1; j <= b.length; j += 1) {
+      const above = previous[j]
+      previous[j] = Math.min(
+        previous[j] + 1,
+        previous[j - 1] + 1,
+        diagonal + (a[i - 1] === b[j - 1] ? 0 : 1)
+      )
+      diagonal = above
+    }
+  }
+  return previous[b.length]
+}
+
+function tokenScore(queryToken, candidateToken) {
+  if (queryToken === candidateToken) return 1
+  if (candidateToken.includes(queryToken) || queryToken.includes(candidateToken)) return 0.82
+  const longest = Math.max(queryToken.length, candidateToken.length)
+  if (!longest) return 0
+  return Math.max(0, 1 - editDistance(queryToken, candidateToken) / longest)
+}
+
+class LocalSearch {
+  constructor(items = [], options = {}) {
+    this.items = items
+    this.keys = (options.keys || []).map(key =>
+      typeof key === 'string' ? { name: key, weight: 1 } : key
+    )
+  }
+
+  value(item, path) {
+    return path.split('.').reduce((current, key) => current?.[key], item)
+  }
+
+  search(query) {
+    const queryTokens = normalizeText(query).split(' ').filter(Boolean)
+    if (!queryTokens.length) return []
+
+    return this.items
+      .map(item => {
+        let weightedScore = 0
+        let totalWeight = 0
+        this.keys.forEach(({ name, weight = 1 }) => {
+          const raw = this.value(item, name)
+          const values = Array.isArray(raw) ? raw : [raw]
+          const candidateTokens = normalizeText(values.filter(Boolean).join(' ')).split(' ').filter(Boolean)
+          const score = queryTokens.reduce((sum, queryToken) => {
+            const best = candidateTokens.reduce(
+              (current, candidateToken) => Math.max(current, tokenScore(queryToken, candidateToken)),
+              0
+            )
+            return sum + best
+          }, 0) / queryTokens.length
+          weightedScore += score * weight
+          totalWeight += weight
+        })
+        const score = totalWeight ? weightedScore / totalWeight : 0
+        return { item, score: 1 - score }
+      })
+      .filter(result => result.score < 0.72)
+      .sort((a, b) => a.score - b.score)
+  }
 }
 
 function humanizePtBr(text = '') {
@@ -111,7 +177,7 @@ function humanizePtBr(text = '') {
 class RodKnowledgeEngine {
   constructor(knowledge) {
     this.knowledge = knowledge
-    this.projectFuse = new Fuse(
+    this.projectFuse = new LocalSearch(
       knowledge.projects.map(project => ({
         ...project,
         searchable: [project.name, ...(project.aliases || []), ...(project.keywords || []), project.category, project.summary, project.problem].join(' '),
@@ -133,7 +199,7 @@ class RodKnowledgeEngine {
       }
     )
 
-    this.faqFuse = new Fuse(knowledge.faq, {
+    this.faqFuse = new LocalSearch(knowledge.faq, {
       includeScore: true,
       threshold: 0.34,
       ignoreLocation: true,
@@ -334,26 +400,26 @@ class RodAssistant {
     const toggle = createElement('button', 'rod-toggle')
     toggle.type = 'button'
     toggle.innerHTML = `
-      <span class="rod-toggle-badge"><i class="fa-solid fa-microchip"></i></span>
+      <span class="rod-toggle-badge" aria-hidden="true">R</span>
       <span class="rod-toggle-text">
         <span class="rod-toggle-title">${knowledge.assistant.name}</span>
         <span class="rod-toggle-subtitle">Assistente do portfolio</span>
       </span>
-      <i class="fa-solid fa-angle-up"></i>
+      <span aria-hidden="true">⌃</span>
     `
 
     panel.innerHTML = `
       <header class="rod-header">
         <div class="rod-header-title">
-          <div class="rod-avatar"><i class="fa-solid fa-robot"></i></div>
+          <div class="rod-avatar" aria-hidden="true">R</div>
           <div class="rod-title-copy">
             <h3>${knowledge.assistant.name}</h3>
             <p>${knowledge.assistant.title}</p>
           </div>
         </div>
         <div class="rod-header-actions">
-          <button type="button" class="rod-icon-btn" data-rod-clear title="Reiniciar conversa"><i class="fa-solid fa-rotate-left"></i></button>
-          <button type="button" class="rod-icon-btn" data-rod-close title="Fechar"><i class="fa-solid fa-xmark"></i></button>
+          <button type="button" class="rod-icon-btn" data-rod-clear title="Reiniciar conversa" aria-label="Reiniciar conversa">↻</button>
+          <button type="button" class="rod-icon-btn" data-rod-close title="Fechar" aria-label="Fechar">×</button>
         </div>
       </header>
       <div class="rod-body">
@@ -363,7 +429,7 @@ class RodAssistant {
         <div class="rod-suggestions" data-rod-suggestions></div>
         <div class="rod-input-row">
           <textarea class="rod-input custom-scrollbar" rows="1" placeholder="Pergunte sobre voce, RDP Studio, ferramentas, stack ou como usar um projeto..." data-rod-input></textarea>
-          <button type="button" class="rod-send" data-rod-send><i class="fa-solid fa-arrow-up"></i></button>
+          <button type="button" class="rod-send" data-rod-send aria-label="Enviar pergunta">↑</button>
         </div>
         <div class="rod-footer-note">Dica: o ROD entende erros de digitacao, nomes de projetos e perguntas abertas. Se eu puder te guiar, eu mostro um botao de tour.</div>
       </div>
