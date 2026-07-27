@@ -18,3 +18,4 @@ html[data-theme="contrast"] .rdp-global-bar{background:#020806;border-color:#719
 html[data-theme="contrast"] .rdp-project-page :is(.text-cyan-300,.text-cyan-400,.text-blue-300,.text-blue-400,.text-emerald-300,.text-emerald-400){color:#c9f29f!important}
 html[data-theme="contrast"] .rdp-project-page :is(.bg-slate-950,.bg-slate-900,.bg-slate-800){background-color:#061611!important}
 @media(max-width:760px){.rdp-theme-picker summary{width:34px;padding:0;justify-content:center}.rdp-theme-picker summary [data-rdp-theme-current]{display:none}.rdp-lang-switch button{min-width:30px}}
+html[data-theme="light"] .rdp-global-brand img{content:url("../images/branding/logo-black.png")}

@@ -399,22 +399,27 @@ class RodAssistant {
     const nudge = createElement('div', 'rod-nudge')
     const toggle = createElement('button', 'rod-toggle')
     toggle.type = 'button'
+    toggle.setAttribute('aria-expanded', 'false')
+    toggle.setAttribute('aria-controls', 'rod-panel')
+    toggle.setAttribute('aria-label', `Abrir ${knowledge.assistant.name}`)
     toggle.innerHTML = `
-      <span class="rod-toggle-badge" aria-hidden="true">R</span>
+      <span class="rod-toggle-badge" aria-hidden="true"><img class="rod-brand-logo" src="../assets/images/branding/logo.png" alt=""></span>
       <span class="rod-toggle-text">
         <span class="rod-toggle-title">${knowledge.assistant.name}</span>
-        <span class="rod-toggle-subtitle">Assistente do portfolio</span>
+        <span class="rod-toggle-subtitle">Guia dos projetos</span>
       </span>
-      <span aria-hidden="true">⌃</span>
+      <span class="rod-toggle-arrow" aria-hidden="true">⌃</span>
     `
 
+    panel.id = 'rod-panel'
+    panel.setAttribute('aria-label', `${knowledge.assistant.name} — guia da RDP Studio`)
     panel.innerHTML = `
       <header class="rod-header">
         <div class="rod-header-title">
-          <div class="rod-avatar" aria-hidden="true">R</div>
+          <div class="rod-avatar" aria-hidden="true"><img class="rod-brand-logo" src="../assets/images/branding/logo.png" alt=""></div>
           <div class="rod-title-copy">
             <h3>${knowledge.assistant.name}</h3>
-            <p>${knowledge.assistant.title}</p>
+            <p>Guia da RDP Studio</p>
           </div>
         </div>
         <div class="rod-header-actions">
@@ -423,15 +428,15 @@ class RodAssistant {
         </div>
       </header>
       <div class="rod-body">
-        <div class="rod-status"><span class="rod-status-dot"></span> Linguagem natural local com busca fuzzy e base de conhecimento do portfolio.</div>
-        <div class="rod-messages custom-scrollbar" data-rod-messages></div>
+        <div class="rod-status"><span class="rod-status-dot"></span> Consulta local aos projetos e à trajetória de Marcelo.</div>
+        <div class="rod-messages custom-scrollbar" data-rod-messages aria-live="polite" aria-relevant="additions"></div>
         <div class="rod-actions" data-rod-actions></div>
         <div class="rod-suggestions" data-rod-suggestions></div>
         <div class="rod-input-row">
-          <textarea class="rod-input custom-scrollbar" rows="1" placeholder="Pergunte sobre voce, RDP Studio, ferramentas, stack ou como usar um projeto..." data-rod-input></textarea>
+          <textarea class="rod-input custom-scrollbar" rows="1" aria-label="Pergunta para o ROD" placeholder="Pergunte sobre um projeto, tecnologia ou como usar uma ferramenta" data-rod-input></textarea>
           <button type="button" class="rod-send" data-rod-send aria-label="Enviar pergunta">↑</button>
         </div>
-        <div class="rod-footer-note">Dica: o ROD entende erros de digitacao, nomes de projetos e perguntas abertas. Se eu puder te guiar, eu mostro um botao de tour.</div>
+        <div class="rod-footer-note">O ROD consulta conteúdo deste portfólio no navegador. Ele não envia a conversa para um servidor.</div>
       </div>
     `
 
@@ -469,9 +474,18 @@ class RodAssistant {
   bindEvents() {
     const { toggle, panel, input, send, close, clear } = this.elements
 
-    toggle.addEventListener('click', () => panel.classList.toggle('is-open'))
+    toggle.addEventListener('click', () => {
+      const open = panel.classList.toggle('is-open')
+      toggle.setAttribute('aria-expanded', String(open))
+      toggle.setAttribute('aria-label', `${open ? 'Fechar' : 'Abrir'} ${this.engine.knowledge.assistant.name}`)
+      if (open) window.setTimeout(() => input.focus(), 60)
+    })
     toggle.addEventListener('click', () => this.elements.nudge.classList.remove('is-visible'))
-    close.addEventListener('click', () => panel.classList.remove('is-open'))
+    close.addEventListener('click', () => {
+      panel.classList.remove('is-open')
+      toggle.setAttribute('aria-expanded', 'false')
+      toggle.focus()
+    })
     clear.addEventListener('click', () => {
       this.elements.messages.innerHTML = ''
       this.elements.actions.innerHTML = ''
@@ -484,6 +498,13 @@ class RodAssistant {
       if (event.key === 'Enter' && !event.shiftKey) {
         event.preventDefault()
         this.handleSubmit()
+      }
+    })
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && panel.classList.contains('is-open')) {
+        panel.classList.remove('is-open')
+        toggle.setAttribute('aria-expanded', 'false')
+        toggle.focus()
       }
     })
   }
@@ -511,15 +532,10 @@ class RodAssistant {
     this.elements.messages.appendChild(typing)
     this.elements.messages.scrollTop = this.elements.messages.scrollHeight
 
-    await new Promise(resolve => setTimeout(resolve, 420))
+    await new Promise(resolve => setTimeout(resolve, 180))
 
     typing.remove()
-    const bubble = this.addMessage('', 'bot')
-    for (const char of text) {
-      bubble.textContent += char
-      this.elements.messages.scrollTop = this.elements.messages.scrollHeight
-      await new Promise(resolve => setTimeout(resolve, char === '\n' ? 4 : 7))
-    }
+    this.addMessage(text, 'bot')
 
     this.renderActions(actions)
     this.renderSuggestions(suggestions)

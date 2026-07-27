@@ -21,6 +21,24 @@ const cases = [
     page.on('pageerror', error => errors.push(error.message));
     const response = await page.goto(base + url, { waitUntil: 'domcontentloaded' });
     await page.waitForTimeout(600);
+    let rod = null;
+    if (url.includes('/hub/')) {
+      await page.locator('.rod-toggle').click();
+      await page.waitForTimeout(80);
+      rod = await page.evaluate(() => {
+        const toggle = document.querySelector('.rod-toggle');
+        const panel = document.querySelector('.rod-panel');
+        const logo = document.querySelector('.rod-brand-logo');
+        return {
+          open: panel?.classList.contains('is-open') || false,
+          expanded: toggle?.getAttribute('aria-expanded'),
+          hasLogo: Boolean(logo),
+          logoSource: logo?.currentSrc || logo?.src || '',
+          logoContent: logo ? getComputedStyle(logo).content : '',
+          localDisclosure: document.querySelector('.rod-footer-note')?.textContent.includes('não envia') || false,
+        };
+      });
+    }
     if (url.includes('/hub/')) {
       await page.screenshot({ path: `validation-${name}.png`, fullPage: true });
     }
@@ -33,7 +51,7 @@ const cases = [
       projectRows: document.querySelectorAll('.project-row').length,
       themeOptions: document.querySelectorAll('[data-theme-option]').length,
     }));
-    results.push({ name, status: response?.status(), errors, ...state });
+    results.push({ name, status: response?.status(), errors, rod, ...state });
     await page.close();
   }
   await browser.close();

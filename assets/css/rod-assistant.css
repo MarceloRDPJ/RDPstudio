@@ -406,3 +406,159 @@
         transition: none;
     }
 }
+
+/* ROD aligned with the RDP Studio green identity */
+.rod-shell {
+    font-family: Manrope, "Segoe UI Variable", "Segoe UI", ui-sans-serif, system-ui, sans-serif;
+}
+
+.rod-toggle,
+.rod-panel,
+.rod-nudge {
+    background: rgba(6, 22, 17, 0.97);
+    border-color: rgba(178, 217, 139, 0.2);
+    color: #f2f7f2;
+}
+
+.rod-toggle {
+    box-shadow: 0 24px 60px -35px rgba(22, 107, 93, 0.75);
+}
+
+.rod-toggle:hover,
+.rod-toggle:focus-visible {
+    border-color: #b2d98b;
+    box-shadow: 0 22px 55px -30px rgba(178, 217, 139, 0.55);
+}
+
+.rod-toggle-badge,
+.rod-avatar {
+    background: #166b5d;
+    border-color: rgba(178, 217, 139, 0.36);
+    color: #b2d98b;
+    overflow: hidden;
+}
+
+.rod-brand-logo {
+    width: 68%;
+    height: 68%;
+    display: block;
+    object-fit: contain;
+}
+
+.rod-header {
+    border-color: rgba(178, 217, 139, 0.14);
+}
+
+.rod-title-copy h3,
+.rod-bubble.user {
+    color: #f2f7f2;
+}
+
+.rod-toggle-subtitle,
+.rod-title-copy p,
+.rod-status,
+.rod-footer-note {
+    color: #a9c0b1;
+}
+
+.rod-status-dot {
+    background: #b2d98b;
+    box-shadow: 0 0 0 5px rgba(178, 217, 139, 0.12);
+}
+
+.rod-bubble.bot,
+.rod-action.secondary,
+.rod-suggestion,
+.rod-input,
+.rod-icon-btn {
+    background: rgba(178, 217, 139, 0.055);
+    border-color: rgba(178, 217, 139, 0.14);
+    color: #dce9df;
+}
+
+.rod-bubble.user {
+    background: #166b5d;
+    border-color: rgba(178, 217, 139, 0.24);
+}
+
+.rod-action,
+.rod-send {
+    background: #b2d98b;
+    border-color: #b2d98b;
+    color: #061611;
+}
+
+.rod-action:hover,
+.rod-send:hover,
+.rod-suggestion:hover {
+    border-color: #b2d98b;
+    filter: brightness(1.04);
+}
+
+.rod-input:focus {
+    outline: 2px solid #b2d98b;
+    outline-offset: 2px;
+}
+
+.rod-toggle-arrow {
+    transition: transform .2s ease;
+}
+
+.rod-toggle[aria-expanded="true"] .rod-toggle-arrow {
+    transform: rotate(180deg);
+}
+
+[data-theme="light"] .rod-toggle,
+[data-theme="light"] .rod-panel,
+[data-theme="light"] .rod-nudge {
+    background: rgba(244, 248, 239, 0.99);
+    border-color: rgba(22, 107, 93, 0.2);
+    color: #092019;
+}
+
+[data-theme="light"] .rod-toggle-badge,
+[data-theme="light"] .rod-avatar {
+    background: #b2d98b;
+    border-color: rgba(6, 22, 17, 0.16);
+}
+
+[data-theme="light"] .rod-brand-logo {
+    content: url("../images/branding/logo-black.png");
+}
+
+[data-theme="light"] .rod-title-copy h3,
+[data-theme="light"] .rod-bubble.bot,
+[data-theme="light"] .rod-action.secondary,
+[data-theme="light"] .rod-suggestion,
+[data-theme="light"] .rod-input,
+[data-theme="light"] .rod-icon-btn {
+    color: #092019;
+}
+
+[data-theme="light"] .rod-toggle-subtitle,
+[data-theme="light"] .rod-title-copy p,
+[data-theme="light"] .rod-status,
+[data-theme="light"] .rod-footer-note {
+    color: #405b4e;
+}
+
+[data-theme="light"] .rod-bubble.bot,
+[data-theme="light"] .rod-action.secondary,
+[data-theme="light"] .rod-suggestion,
+[data-theme="light"] .rod-input,
+[data-theme="light"] .rod-icon-btn {
+    background: rgba(22, 107, 93, 0.055);
+    border-color: rgba(22, 107, 93, 0.16);
+}
+
+[data-theme="light"] .rod-bubble.user {
+    background: #166b5d;
+    color: #fff;
+}
+
+[data-theme="contrast"] .rod-toggle,
+[data-theme="contrast"] .rod-panel,
+[data-theme="contrast"] .rod-nudge {
+    background: #020806;
+    border-color: #71917e;
+}

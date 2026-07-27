@@ -88,6 +88,7 @@ img { max-width: 100%; display: block; }
 .header-inner { height: 100%; display: flex; align-items: center; justify-content: space-between; gap: 2rem; }
 .brand { display: flex; align-items: center; gap: .8rem; font-weight: 760; letter-spacing: -.02em; }
 .brand img { width: 36px; height: 36px; object-fit: contain; }
+html[data-theme="light"] .brand img { content: url("../images/branding/logo-black.png"); }
 .brand-copy { display: flex; flex-direction: column; line-height: 1.08; }
 .brand-copy small { color: var(--muted); font-size: .66rem; font-weight: 620; letter-spacing: .14em; text-transform: uppercase; }
 .nav { display: flex; align-items: center; gap: 1.45rem; }
