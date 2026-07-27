@@ -85,6 +85,10 @@ body.rdp-project-page::before { display: none !important; }
 .rdp-project--abertura-chamados-glpi .terminal-window { background: var(--rdp-surface) !important; border: 1px solid var(--rdp-border) !important; box-shadow: none !important; }
 .rdp-project--assistente-vendas-ia [class*="phone"],
 .rdp-project--assistente-vendas-ia .phone-mockup { border-radius: 24px !important; box-shadow: var(--rdp-shadow) !important; }
+.rdp-project--assistente-vendas-ia [class*="left-[-10%]"],
+.rdp-project--assistente-vendas-ia [class*="right-[-10%]"],
+.rdp-project--assistente-vendas-ia [class*="-right-10"],
+.rdp-project--assistente-vendas-ia [class*="translate-x-1/2"] { display: none !important; }
 .rdp-project--relatorio-interativo :is(header, nav) { border-color: var(--rdp-border) !important; }
 .rdp-project--relatorio-interativo :is(.drop-zone, [class*="upload"]) { border-style: solid !important; }
 @media (max-width: 760px) {

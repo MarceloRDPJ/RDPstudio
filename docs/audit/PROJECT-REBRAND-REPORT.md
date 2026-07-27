@@ -72,8 +72,7 @@ Foram estudados Open Props, Pico CSS, Spectrum Web Components e Shoelace. Nenhum
 
 - Sete páginas em desktop.
 - Quatro páginas críticas em celular.
-- Resolução desktop: 1440 × 900.
-- Resolução móvel: 390 × 844.
+- Resoluções verificadas: 320 × 640, 390 × 844, 768 × 1024, 980 × 900, 1280 × 720 e 1440 × 900.
 - Sem overflow horizontal nos casos testados.
 - Sem erros de execução durante os testes.
 - Tema escuro e idioma inglês aplicados em todas as páginas avaliadas.
@@ -83,15 +82,14 @@ Foram estudados Open Props, Pico CSS, Spectrum Web Components e Shoelace. Nenhum
 
 ## Pontos ainda necessários antes da publicação
 
-1. Revisão visual final em 320, 768, 980 e 1280 px.
-2. Teste de zoom em 200%.
-3. Teste manual da câmera com permissão real.
-4. Teste de importação e PDF com uma planilha demonstrativa autorizada.
-5. Teste dos downloads do Validador em navegador real.
-6. Revisão completa das traduções específicas de cada projeto.
-7. Captura autenticada e anonimizada do Igreja Casa.
-8. Captura anonimizada de execução do GLPI Automator.
-9. Aprovação visual das novas páginas e do ROD.
+1. Teste de zoom em 200%.
+2. Teste manual da câmera com permissão real.
+3. Teste de importação e PDF com uma planilha demonstrativa autorizada.
+4. Teste dos downloads do Validador em navegador real.
+5. Revisão completa das traduções específicas de cada projeto.
+6. Captura autenticada e anonimizada do Igreja Casa.
+7. Captura anonimizada de execução do GLPI Automator.
+8. Aprovação visual das novas páginas e do ROD.
 
 ## Limitações da infraestrutura de teste
 
