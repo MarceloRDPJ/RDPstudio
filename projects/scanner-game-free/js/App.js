@@ -45,9 +45,8 @@ function App() {
     if (!data) return (
         <div className="min-h-screen flex flex-col items-center justify-center text-slate-400">
             <Icon name="triangle-exclamation" className="text-4xl mb-4 text-dangerRed" />
-            <h1 className="text-2xl font-bold text-white mb-2">Sistema Offline</h1>
-            <p>Falha ao conectar com o banco de dados de inteligência.</p>
-            <p className="text-xs mt-2 font-mono text-slate-600">ERROR_CODE: DB_FETCH_FAILED</p>
+            <h1 className="text-2xl font-bold text-white mb-2">Não foi possível carregar o acervo</h1>
+            <p>O arquivo de dados não respondeu. Recarregue a página ou tente novamente mais tarde.</p>
         </div>
     );
 
@@ -81,7 +80,7 @@ function App() {
                 <div className="flex flex-col md:flex-row items-center justify-between mb-8 gap-4 border-b border-white/5 pb-6">
                     <h2 className="text-2xl font-bold text-white flex items-center gap-3">
                         <Icon name={isEpicView ? "gamepad" : "layer-group"} className="text-vibrantCyan" />
-                        {isEpicView ? "Epic Games Intelligence" : "Feed de Inteligência"}
+                        {isEpicView ? "Jogos gratuitos na Epic" : "Radar de jogos e hardware"}
                     </h2>
                     <div className="flex flex-wrap justify-center gap-2">
                         {categories.map(cat => (

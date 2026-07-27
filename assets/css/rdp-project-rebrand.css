@@ -1,0 +1,95 @@
+:root {
+  --rdp-bg: #061611;
+  --rdp-surface: #0d251d;
+  --rdp-surface-raised: #123027;
+  --rdp-ink: #f3f7f3;
+  --rdp-muted: #abc1b2;
+  --rdp-border: #315044;
+  --rdp-accent: #b2d98b;
+  --rdp-accent-strong: #166b5d;
+  --rdp-radius-sm: 5px;
+  --rdp-radius-md: 9px;
+  --rdp-shadow: 0 18px 50px rgb(0 0 0 / .18);
+}
+html[data-theme="light"] {
+  --rdp-bg: #f1f5ef;
+  --rdp-surface: #fbfdf9;
+  --rdp-surface-raised: #e7eee5;
+  --rdp-ink: #102019;
+  --rdp-muted: #52685c;
+  --rdp-border: #bdcbbf;
+  --rdp-accent: #356b4f;
+  --rdp-accent-strong: #d5e8bd;
+  --rdp-shadow: 0 16px 42px rgb(20 50 36 / .08);
+}
+.rdp-theme-picker summary,
+.rdp-lang-switch { border-radius: 6px !important; }
+.rdp-theme-picker summary { height: 36px; padding-inline: 11px; }
+.rdp-theme-picker > div { width: 172px; padding: 7px; border-radius: 7px !important; }
+.rdp-theme-picker button { border-radius: 4px !important; padding: 9px 10px; }
+.rdp-lang-switch { height: 36px; }
+.rdp-lang-switch button { min-width: 36px; border-radius: 3px !important; }
+body.rdp-project-page {
+  background: var(--rdp-bg) !important;
+  color: var(--rdp-ink) !important;
+  font-family: Manrope, "Segoe UI Variable", "Segoe UI", system-ui, sans-serif !important;
+}
+body.rdp-project-page::before { display: none !important; }
+.rdp-project-page :is(h1, h2, h3, h4) {
+  color: var(--rdp-ink) !important;
+  font-family: Manrope, "Segoe UI Variable", "Segoe UI", system-ui, sans-serif !important;
+  letter-spacing: -.035em;
+  text-wrap: balance;
+}
+.rdp-project-page :is(p, li) { text-wrap: pretty; }
+.rdp-project-page :is(.text-cyan-300, .text-cyan-400, .text-cyan-500, .text-blue-300, .text-blue-400, .text-blue-500, .text-emerald-300, .text-emerald-400, .text-emerald-500) { color: var(--rdp-accent) !important; }
+.rdp-project-page :is(.text-vibrantCyan, .text-accent, .text-gradient) { color: var(--rdp-accent) !important; background: none !important; -webkit-text-fill-color: currentColor !important; }
+.rdp-project-page :is(.bg-cyan-400, .bg-cyan-500, .bg-blue-400, .bg-blue-500, .bg-emerald-400, .bg-emerald-500) { background-color: var(--rdp-accent-strong) !important; }
+.rdp-project-page :is(.bg-vibrantCyan, .bg-accent) { background-color: var(--rdp-accent-strong) !important; }
+.rdp-project-page :is(.border-cyan-300, .border-cyan-400, .border-cyan-500, .border-blue-400, .border-blue-500, .border-emerald-400, .border-emerald-500) { border-color: var(--rdp-accent-strong) !important; }
+.rdp-project-page :is(.border-vibrantCyan, .border-accent) { border-color: var(--rdp-accent-strong) !important; }
+.rdp-project-page [class*="bg-gradient-to"] { background-image: none !important; }
+.rdp-project-page [class*="bg-clip-text"] { -webkit-text-fill-color: currentColor !important; }
+.rdp-project-page :is(button, a, input, textarea, select, summary) { border-radius: var(--rdp-radius-sm) !important; }
+.rdp-project-page :is(.rounded-full, [class*="rounded-2xl"], [class*="rounded-3xl"], [class*="rounded-[3rem]"]) { border-radius: var(--rdp-radius-md) !important; }
+.rdp-project-page :is(.glass-card, .glass-panel, .surface, .soft-card, .wire-card, [class*="bg-slate-900"], [class*="bg-slate-800"]) {
+  background: var(--rdp-surface) !important;
+  border-color: var(--rdp-border) !important;
+  box-shadow: none !important;
+}
+.rdp-project-page :is(input, textarea, select) {
+  background: var(--rdp-surface) !important;
+  border-color: var(--rdp-border) !important;
+  color: var(--rdp-ink) !important;
+}
+.rdp-project-page :is(input, textarea, select, button, a):focus-visible {
+  outline: 2px solid var(--rdp-accent) !important;
+  outline-offset: 3px !important;
+}
+.rdp-project-page main { isolation: isolate; }
+.rdp-project-page section { scroll-margin-top: calc(var(--rdp-shell-h) + 24px); }
+.rdp-project-page :is(table, pre, code, .folder-tree) { max-width: 100%; }
+.rdp-project-page :is(pre, .folder-tree) { overflow-x: auto; }
+.rdp-project--controle-acesso-visao main { --rdp-accent: #8bd4b1; }
+.rdp-project--controle-acesso-visao :is(.glass-card, .surface) { border-left: 2px solid var(--rdp-accent-strong) !important; }
+.rdp-project--igreja-casa { --rdp-accent: #d9c59a; }
+.rdp-project--igreja-casa .glass-card { background: color-mix(in srgb, var(--rdp-surface) 92%, #d9c59a) !important; }
+.rdp-project--scanner-game-free #root { background: var(--rdp-bg); color: var(--rdp-ink); }
+.rdp-project--scanner-game-free article,
+.rdp-project--scanner-game-free [class*="card"] { border-color: var(--rdp-border) !important; border-radius: var(--rdp-radius-sm) !important; box-shadow: none !important; }
+.rdp-project--validador-firewall textarea {
+  min-height: 210px;
+  font-family: "IBM Plex Mono", "Cascadia Code", monospace !important;
+  line-height: 1.65;
+}
+.rdp-project--abertura-chamados-glpi .terminal-window { background: var(--rdp-surface) !important; border: 1px solid var(--rdp-border) !important; box-shadow: none !important; }
+.rdp-project--assistente-vendas-ia [class*="phone"],
+.rdp-project--assistente-vendas-ia .phone-mockup { border-radius: 24px !important; box-shadow: var(--rdp-shadow) !important; }
+.rdp-project--relatorio-interativo :is(header, nav) { border-color: var(--rdp-border) !important; }
+.rdp-project--relatorio-interativo :is(.drop-zone, [class*="upload"]) { border-style: solid !important; }
+@media (max-width: 760px) {
+  .rdp-project-page :is(h1, .text-6xl, .md\:text-6xl, .lg\:text-6xl) { font-size: clamp(2.25rem, 11vw, 3.4rem) !important; line-height: 1 !important; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .rdp-project-page *, .rdp-project-page *::before, .rdp-project-page *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; }
+}

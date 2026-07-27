@@ -403,12 +403,9 @@ class RodAssistant {
     toggle.setAttribute('aria-controls', 'rod-panel')
     toggle.setAttribute('aria-label', `Abrir ${knowledge.assistant.name}`)
     toggle.innerHTML = `
+      <canvas class="rod-neural-canvas" width="112" height="112" aria-hidden="true"></canvas>
       <span class="rod-toggle-badge" aria-hidden="true"><img class="rod-brand-logo" src="../assets/images/branding/logo.png" alt=""></span>
-      <span class="rod-toggle-text">
-        <span class="rod-toggle-title">${knowledge.assistant.name}</span>
-        <span class="rod-toggle-subtitle">Guia dos projetos</span>
-      </span>
-      <span class="rod-toggle-arrow" aria-hidden="true">⌃</span>
+      <span class="sr-only">${knowledge.assistant.name} — mapa do portfólio</span>
     `
 
     panel.id = 'rod-panel'
@@ -428,7 +425,13 @@ class RodAssistant {
         </div>
       </header>
       <div class="rod-body">
-        <div class="rod-status"><span class="rod-status-dot"></span> Consulta local aos projetos e à trajetória de Marcelo.</div>
+        <nav class="rod-context-map" aria-label="Áreas que o ROD pode relacionar">
+          <button type="button" data-rod-context="Compare os sete projetos e seus formatos">Projetos</button>
+          <button type="button" data-rod-context="Conte a trajetória profissional de Marcelo">Marcelo</button>
+          <button type="button" data-rod-context="Relacione as tecnologias aos problemas resolvidos">Tecnologias</button>
+          <button type="button" data-rod-context="Explique a RDP Studio e a marca">RDP Studio</button>
+        </nav>
+        <div class="rod-status"><span class="rod-status-dot"></span> Mapa local dos projetos e da trajetória de Marcelo.</div>
         <div class="rod-messages custom-scrollbar" data-rod-messages aria-live="polite" aria-relevant="additions"></div>
         <div class="rod-actions" data-rod-actions></div>
         <div class="rod-suggestions" data-rod-suggestions></div>
@@ -468,11 +471,12 @@ class RodAssistant {
       send: panel.querySelector('[data-rod-send]'),
       close: panel.querySelector('[data-rod-close]'),
       clear: panel.querySelector('[data-rod-clear]'),
+      contexts: [...panel.querySelectorAll('[data-rod-context]')],
     }
   }
 
   bindEvents() {
-    const { toggle, panel, input, send, close, clear } = this.elements
+    const { toggle, panel, input, send, close, clear, contexts } = this.elements
 
     toggle.addEventListener('click', () => {
       const open = panel.classList.toggle('is-open')
@@ -500,6 +504,7 @@ class RodAssistant {
         this.handleSubmit()
       }
     })
+    contexts.forEach(button => button.addEventListener('click', () => this.handlePrompt(button.dataset.rodContext)))
     document.addEventListener('keydown', event => {
       if (event.key === 'Escape' && panel.classList.contains('is-open')) {
         panel.classList.remove('is-open')

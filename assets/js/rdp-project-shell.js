@@ -1,5 +1,12 @@
 (() => {
  const html=document.documentElement, body=document.body; body.classList.add('rdp-project-page');
+ const projectSlug=location.pathname.match(/\/projects\/([^/]+)/)?.[1]||'project';
+ body.dataset.rdpProject=body.dataset.rdpProject||projectSlug;
+ body.classList.add(`rdp-project--${projectSlug}`);
+ const rebrandStyles=document.createElement('link');
+ rebrandStyles.rel='stylesheet';
+ rebrandStyles.href='../../assets/css/rdp-project-rebrand.css';
+ document.head.append(rebrandStyles);
  const THEME='rdp-theme-mode', LANG='rdp-language';
  const memoryStorage=Object.create(null); const storage={get(k){try{return localStorage.getItem(k)??memoryStorage[k]??null}catch(_){return memoryStorage[k]??null}},set(k,v){memoryStorage[k]=v;try{localStorage.setItem(k,v)}catch(_){}}};
  const originals=new WeakMap();
