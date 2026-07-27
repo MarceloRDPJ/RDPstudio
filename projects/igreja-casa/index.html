@@ -310,8 +310,11 @@
             }
         }
     </style>
+<!-- RDP_REBRAND_HEAD -->
+<script>try{const m=localStorage.getItem('rdp-theme-mode')||'system';document.documentElement.dataset.themeMode=m;document.documentElement.dataset.theme=m==='system'?(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark'):m}catch(e){}</script>
+<link rel='stylesheet' href='../../assets/css/rdp-project-shell.css'>
 </head>
-<body class="antialiased selection:bg-vibrantCyan selection:text-white">
+<body class="antialiased selection:bg-vibrantCyan selection:text-white" data-rdp-project="igreja-casa">
     <div class="max-w-7xl mx-auto px-6 py-6 min-h-screen flex flex-col">
         <header class="flex flex-wrap justify-between items-center mb-12 gap-4 fade-in-up relative z-50">
             <a href="../../hub/projetos.html" class="flex items-center gap-2 text-slate-400 hover:text-white transition-colors group">
@@ -691,7 +694,9 @@
         document.addEventListener('DOMContentLoaded', function() {
             setTimeout(createParticles, 500);
             animateCards();
-        }); abaixo
+        });
     </script>
+<!-- RDP_REBRAND_BODY -->
+<script src='../../assets/js/rdp-project-shell.js'></script>
 </body>
 </html>

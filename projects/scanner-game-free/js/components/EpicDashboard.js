@@ -9,8 +9,8 @@ window.EpicDashboard = ({ epicData, newsItems }) => {
         "> Conectando ao endpoint seguro...",
         "> Handshake estabelecido.",
         "> Recebendo pacote de dados...",
-        "> Descriptografando...",
-        "> Análise de integridade: OK"
+        "> Organizando dados recebidos...",
+        "> Verificação de estrutura concluída."
     ]);
 
     // Live Refresh Functionality
@@ -130,7 +130,7 @@ window.EpicDashboard = ({ epicData, newsItems }) => {
                             <div className="text-xs text-slate-400 font-mono flex gap-4 mt-1">
                                 <span className="flex items-center gap-1"><span className={`w-2 h-2 rounded-full animate-pulse ${displayStatus === 'Offline' ? 'bg-dangerRed' : 'bg-trustGreen'}`}></span> {displayStatus}</span>
                                 <span>LATENCY: {displayLatency}</span>
-                                <span>UPTIME: 99.9%</span>
+                                <span>FONTE: dados locais/API</span>
                             </div>
                         </div>
                     </div>
@@ -245,8 +245,8 @@ window.EpicDashboard = ({ epicData, newsItems }) => {
                     {/* RAW DATA TERMINAL */}
                     <div className="glass-panel rounded-xl p-4 bg-black/40 font-mono text-[10px] text-slate-500 overflow-hidden border border-white/5">
                         <div className="flex justify-between items-center mb-2 text-xs text-slate-400 border-b border-white/5 pb-2">
-                            <span className="flex items-center gap-2"><Icon name="terminal" className="text-vibrantCyan" /> SECURITY_LOG_V3.0</span>
-                            <span className="text-[10px] text-trustGreen">ENCRYPTED</span>
+                            <span className="flex items-center gap-2"><Icon name="terminal" className="text-vibrantCyan" /> REGISTRO_DE_DADOS</span>
+                            <span className="text-[10px] text-trustGreen">LOCAL</span>
                         </div>
                         <div className="space-y-1 font-mono text-slate-400 h-24 overflow-hidden relative">
                             <div className="absolute inset-0 pointer-events-none bg-gradient-to-t from-black/80 to-transparent z-10"></div>

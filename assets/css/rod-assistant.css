@@ -362,3 +362,47 @@
         text-overflow: ellipsis;
     }
 }
+
+[data-theme="light"] .rod-toggle,
+[data-theme="light"] .rod-panel,
+[data-theme="light"] .rod-nudge {
+    background: rgba(248, 250, 252, 0.98);
+    border-color: rgba(15, 23, 42, 0.14);
+    color: #172033;
+    box-shadow: 0 24px 60px -35px rgba(15, 23, 42, 0.35);
+}
+
+[data-theme="light"] .rod-toggle-subtitle,
+[data-theme="light"] .rod-title-copy p,
+[data-theme="light"] .rod-status,
+[data-theme="light"] .rod-footer-note {
+    color: #596579;
+}
+
+[data-theme="light"] .rod-title-copy h3,
+[data-theme="light"] .rod-bubble.bot,
+[data-theme="light"] .rod-action.secondary {
+    color: #172033;
+}
+
+[data-theme="light"] .rod-bubble.bot,
+[data-theme="light"] .rod-action.secondary,
+[data-theme="light"] .rod-suggestion,
+[data-theme="light"] .rod-input,
+[data-theme="light"] .rod-icon-btn {
+    background: rgba(15, 23, 42, 0.04);
+    border-color: rgba(15, 23, 42, 0.12);
+    color: #253047;
+}
+
+[data-theme="light"] .rod-input::placeholder {
+    color: #6b7485;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .rod-toggle,
+    .rod-typing-dot {
+        animation: none;
+        transition: none;
+    }
+}

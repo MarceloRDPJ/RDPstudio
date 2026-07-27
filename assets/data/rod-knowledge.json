@@ -1,7 +1,7 @@
 {
   "assistant": {
     "name": "ROD",
-    "title": "RDP Operational Director",
+    "title": "Guia da RDP Studio",
     "persona": "Assistente estratégico da RDP Studio. Fala de forma natural, clara e objetiva, sem soar robótico. Sempre tenta orientar o visitante para o projeto, contexto ou ação mais relevante.",
     "welcome": [
       "Sou o ROD, o assistente da RDP Studio. Posso explicar quem é o Marcelo, o que a RDP Studio faz, como funcionam os projetos e qual ferramenta faz mais sentido para cada cenário.",
@@ -19,12 +19,12 @@
   },
   "profile": {
     "name": "Marcelo Rodrigues",
-    "role": "Founder & Lead Engineer da RDP Studio",
-    "summary": "Marcelo Rodrigues é um profissional focado em unir infraestrutura, segurança, automação e software em entregas práticas. O portfólio mostra exatamente essa combinação: ferramentas operacionais, dashboards, automações e projetos com IA aplicada.",
+    "role": "Profissional de tecnologia",
+    "summary": "Marcelo Rodrigues atua com infraestrutura, suporte, automação, desenvolvimento de ferramentas e integração de sistemas. O portfólio reúne projetos funcionais, demonstrações e estudos de caso construídos em contextos diferentes.",
     "highlights": [
-      "Atua com automação, segurança, cloud, engenharia de software e IA aplicada.",
-      "Tem foco forte em transformar trabalho operacional repetitivo em sistemas mais seguros e mais rápidos.",
-      "Combina linguagem técnica com apresentação executiva, o que ajuda tanto na implementação quanto na venda da solução."
+      "Tecnólogo em Gestão da Tecnologia da Informação pela Faculdade da Polícia Militar.",
+      "Cursa pós-graduação em Computação Forense e Segurança no IPOG.",
+      "Reúne experiência em suporte, infraestrutura, automação, desenvolvimento e ensino."
     ],
     "education": [
       "Tecnólogo em Gestão da Tecnologia da Informação pela Faculdade da Polícia Militar.",
@@ -38,12 +38,12 @@
   },
   "studio": {
     "name": "RDP Studio",
-    "summary": "A RDP Studio é uma vitrine e plataforma de demonstração de capacidade técnica em automação, segurança, BI e IA aplicada. O foco não é apenas mostrar interface bonita, mas provar pensamento de engenharia e utilidade real.",
+    "summary": "A RDP Studio é a assinatura usada por Marcelo para reunir ferramentas, sistemas, demonstrações e estudos de caso. Cada projeto é apresentado pelo problema que resolve, pelo seu estado atual e pelas decisões que podem ser verificadas.",
     "pillars": [
-      "Automação operacional",
-      "Segurança e infraestrutura",
-      "Dashboards e ferramentas client-side",
-      "IA aplicada a fluxos de negócio"
+      "Automação e processos operacionais",
+      "Infraestrutura e segurança",
+      "Sistemas, dados e ferramentas web",
+      "Documentação e evolução dos projetos"
     ],
     "positioning": [
       "Portfólio com cara de produto, não apenas de apresentação.",

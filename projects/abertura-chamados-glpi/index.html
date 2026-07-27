@@ -149,8 +149,11 @@
     </style>
     <link rel="stylesheet" href="../../assets/css/rod-assistant.css">
     <link rel="stylesheet" href="../../assets/css/rod-tour.css">
+<!-- RDP_REBRAND_HEAD -->
+<script>try{const m=localStorage.getItem('rdp-theme-mode')||'system';document.documentElement.dataset.themeMode=m;document.documentElement.dataset.theme=m==='system'?(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark'):m}catch(e){}</script>
+<link rel='stylesheet' href='../../assets/css/rdp-project-shell.css'>
 </head>
-<body class="antialiased selection:bg-vibrantCyan selection:text-white">
+<body class="antialiased selection:bg-vibrantCyan selection:text-white" data-rdp-project="abertura-chamados-glpi">
 
     <!-- Background Elements (Adjusted colors) -->
     <div class="fixed top-0 left-0 w-full h-full overflow-hidden -z-10 pointer-events-none">
@@ -202,7 +205,7 @@
                     <span class="text-gradient">Chamados GLPI</span>
                 </h1>
                 <p class="text-base md:text-lg text-slate-400 mb-8 leading-relaxed max-w-lg font-light">
-                    Revolucione a gestão de preventivas. Um script Python poderoso que varre diretórios locais, identifica evidências fotográficas e cria tickets no GLPI automaticamente.
+                    Automação em Python que percorre diretórios, identifica evidências fotográficas e cria chamados no GLPI de forma padronizada.
                 </p>
 
                 <div class="flex flex-col sm:flex-row gap-4">
@@ -285,9 +288,9 @@
                 <div class="glass-card p-6 rounded-2xl relative overflow-hidden group hover:bg-slate-800/50">
                     <div class="absolute -right-4 -top-4 w-24 h-24 bg-trustGreen/10 rounded-full group-hover:bg-trustGreen/20 transition-colors"></div>
                     <div class="w-12 h-12 bg-trustGreen/20 rounded-xl flex items-center justify-center text-trustGreen mb-4 text-xl font-bold">3</div>
-                    <h3 class="text-xl font-bold mb-2 text-white">Relaxe</h3>
+                    <h3 class="text-xl font-bold mb-2 text-white">Revise</h3>
                     <p class="text-slate-400 text-sm leading-relaxed">
-                        O sistema cria os tickets na entidade correta e realiza o upload das fotos via API. Um log de auditoria é gerado ao final.
+                        O sistema cria os tickets na entidade correta, envia as fotos pela API e registra o resultado para conferência.
                     </p>
                 </div>
             </div>
@@ -484,5 +487,7 @@
             if (window.initRODTour) window.initRODTour();
         });
     </script>
+<!-- RDP_REBRAND_BODY -->
+<script src='../../assets/js/rdp-project-shell.js'></script>
 </body>
 </html>

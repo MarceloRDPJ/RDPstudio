@@ -242,8 +242,11 @@
             100% { top: 10%; opacity: .2; }
         }
     </style>
+<!-- RDP_REBRAND_HEAD -->
+<script>try{const m=localStorage.getItem('rdp-theme-mode')||'system';document.documentElement.dataset.themeMode=m;document.documentElement.dataset.theme=m==='system'?(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark'):m}catch(e){}</script>
+<link rel='stylesheet' href='../../assets/css/rdp-project-shell.css'>
 </head>
-<body class="antialiased selection:bg-cyan-400 selection:text-slate-950">
+<body class="antialiased selection:bg-cyan-400 selection:text-slate-950" data-rdp-project="controle-acesso-visao">
     <div class="progress-line" id="progressLine"></div>
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 py-6 min-h-screen flex flex-col">
@@ -1116,5 +1119,7 @@
             if (window.initRODTour) window.initRODTour();
         });
     </script>
+<!-- RDP_REBRAND_BODY -->
+<script src='../../assets/js/rdp-project-shell.js'></script>
 </body>
 </html>

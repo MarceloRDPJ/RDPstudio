@@ -44,8 +44,11 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="../../assets/css/rod-assistant.css">
     <link rel="stylesheet" href="../../assets/css/rod-tour.css">
+<!-- RDP_REBRAND_HEAD -->
+<script>try{const m=localStorage.getItem('rdp-theme-mode')||'system';document.documentElement.dataset.themeMode=m;document.documentElement.dataset.theme=m==='system'?(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark'):m}catch(e){}</script>
+<link rel='stylesheet' href='../../assets/css/rdp-project-shell.css'>
 </head>
-<body class="antialiased selection:bg-vibrantCyan selection:text-white">
+<body class="antialiased selection:bg-vibrantCyan selection:text-white" data-rdp-project="validador-firewall">
 
     <!-- Background Glows -->
     <div class="fixed top-0 left-0 w-full h-full overflow-hidden -z-10 pointer-events-none">
@@ -92,7 +95,7 @@
                 Validador <span class="text-gradient">de MACs</span>
             </h1>
             <p class="text-sm md:text-base text-slate-400 max-w-lg mx-auto font-light leading-relaxed mb-8">
-                Automacao de seguranca para Firewall Fortigate, agora com leitura mais inteligente de dados brutos.
+                Ferramenta local para validar dados brutos e gerar scripts consistentes para Firewall Fortigate.
             </p>
 
             <div class="flex flex-wrap justify-center gap-2 mb-8 text-[11px] font-mono uppercase tracking-[0.18em]">
@@ -177,18 +180,18 @@
                             <div class="w-20 h-20 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center text-3xl text-vibrantCyan mb-4 shadow-[0_0_30px_rgba(0,180,216,0.2)]">
                                 <i class="fa-solid fa-stopwatch"></i>
                             </div>
-                            <h3 class="text-xl font-bold text-white mb-2">A Gênese da Eficiência</h3>
+                            <h3 class="text-xl font-bold text-white mb-2">Por que a ferramenta foi criada</h3>
                             <p class="text-xs text-slate-400 uppercase tracking-widest">De horas para segundos</p>
                         </div>
 
                         <!-- Right: Text -->
                         <div class="md:col-span-3 p-8 md:p-10 flex flex-col justify-center">
                             <p class="text-slate-300 leading-relaxed mb-6 font-light">
-                                <strong class="text-white block mb-2 text-lg">Enfrentávamos um desafio titânico.</strong>
-                                A configuração manual de mais de 150 equipamentos de rede não era apenas trabalhosa — era uma batalha contra o relógio. Cada linha digitada no CLI era uma oportunidade de erro e perda de tempo precioso. A ineficiência não era uma opção.
+                                <strong class="text-white block mb-2 text-lg">O processo manual precisava ser simplificado.</strong>
+                                A configuração manual de muitos equipamentos consumia tempo e aumentava o risco de erro em cada linha digitada no CLI.
                             </p>
                             <p class="text-slate-300 leading-relaxed mb-8 font-light">
-                                Desenvolvemos o <strong class="text-vibrantCyan">Validador RDP</strong> para transcender o trabalho manual. O que antes demandava horas de configuração complexa e tediosa, hoje é executado com precisão cirúrgica em <strong class="text-trustGreen">menos de 60 segundos</strong>.
+                                O <strong class="text-vibrantCyan">Validador RDP</strong> foi criado para reduzir o trabalho manual, padronizar as entradas e tornar a revisão dos scripts mais segura.
                             </p>
 
                             <!-- Quick Specs -->
@@ -476,5 +479,7 @@ Notebook Diretoria 12:34:56:78:90:AB"></textarea>
             if (window.initRODTour) window.initRODTour();
         });
     </script>
+<!-- RDP_REBRAND_BODY -->
+<script src='../../assets/js/rdp-project-shell.js'></script>
 </body>
 </html>
