@@ -61,8 +61,11 @@
         table th { font-weight: 600; color: #64748b; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; }
         table td { font-size: 0.8rem; color: #334155; }
     </style>
+<!-- RDP_REBRAND_HEAD -->
+<script>try{const m=localStorage.getItem('rdp-theme-mode')||'system';document.documentElement.dataset.themeMode=m;document.documentElement.dataset.theme=m==='system'?(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark'):m}catch(e){}</script>
+<link rel='stylesheet' href='../../assets/css/rdp-project-shell.css'>
 </head>
-<body class="flex flex-col min-h-screen">
+<body class="flex flex-col min-h-screen" data-rdp-project="relatorio-interativo-tecnoit">
 
     <!-- Header -->
     <header class="bg-white border-b border-slate-200 sticky top-0 z-50">
@@ -294,5 +297,7 @@
     </main>
 
     <script src="js/dashboard_tecnoit.js"></script>
+<!-- RDP_REBRAND_BODY -->
+<script src='../../assets/js/rdp-project-shell.js'></script>
 </body>
 </html>

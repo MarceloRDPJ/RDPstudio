@@ -1,0 +1,17 @@
+(() => {
+ const fallback=window.RDP_PROJECTS||[]; let source=[]; let active='all'; let query='';
+ const els={metrics:document.getElementById('project-metrics'),dist:document.getElementById('project-distribution'),filters:document.getElementById('project-filters'),list:document.getElementById('projects-list'),search:document.getElementById('project-search'),empty:document.getElementById('projects-empty')};
+ const curatedBySlug=Object.fromEntries(fallback.map(p=>[p.slug,p]));
+ const langKey=()=>document.documentElement.dataset.lang==='en'?'en':'pt';
+ async function load(){try{const r=await fetch('data/projects.json',{cache:'no-store'}); if(!r.ok) throw new Error(); const raw=await r.json(); source=raw.map(x=>({...curatedBySlug[x.slug],...x,pt:curatedBySlug[x.slug]?.pt,en:curatedBySlug[x.slug]?.en,livePath:'../'+x.projectUrl.replace(/^\.\.\//,'')}));}catch(e){source=fallback;} renderAll();}
+ function copy(p){return p[langKey()]||p.pt;}
+ function t(k){return (window.RDP_I18N?.[document.documentElement.dataset.lang||'pt-BR']||{})[k]||k;}
+ function types(){return [...new Set(source.map(p=>copy(p).type))];}
+ function renderFilters(){const opts=['all',...types()]; els.filters.innerHTML=opts.map(v=>`<button class="filter-button ${v===active?'active':''}" data-type="${v}">${v==='all'?t('projects.filterAll'):v}</button>`).join('');}
+ function renderMetrics(){const operational=source.filter(p=>/operação|produção|estável|ativo|operation|production|stable|active/i.test(copy(p).status)||/uso imediato|ready to use/i.test(copy(p).maturity)).length; const privateCount=source.filter(p=>/privado|private|partial/i.test(copy(p).status+' '+copy(p).maturity)).length; const metrics=[[source.length,t('projects.total')],[types().length,t('projects.types')],[operational,t('projects.operational')],[privateCount,t('projects.private')]]; els.metrics.innerHTML=metrics.map(([n,l])=>`<article><strong>${n}</strong><span>${l}</span></article>`).join('');}
+ function renderDist(){const counts={}; source.forEach(p=>counts[copy(p).type]=(counts[copy(p).type]||0)+1); els.dist.innerHTML=Object.entries(counts).map(([name,count])=>`<div class="distribution-row"><span>${name}</span><div><i style="width:${count/source.length*100}%"></i></div><strong>${count}</strong></div>`).join('');}
+ function matches(p){const c=copy(p); const type=active==='all'||c.type===active; const hay=[c.name,c.summary,c.problem,c.category,...(p.technologies||[])].join(' ').toLowerCase(); return type&&hay.includes(query.toLowerCase());}
+ function renderList(){const rows=source.filter(matches); els.empty.hidden=rows.length>0; els.list.innerHTML=rows.map(p=>{const c=copy(p); return `<article class="project-row"><div><span class="row-type">${c.type}</span><h2>${c.name}</h2></div><p>${c.summary}</p><dl class="row-facts"><div><dt>${t('projects.status')}</dt><dd>${c.status}</dd></div><div><dt>${t('projects.maturity')}</dt><dd>${c.maturity}</dd></div></dl><a class="row-action" href="projeto.html?slug=${p.slug}" aria-label="${t('projects.open')}: ${c.name}">→</a></article>`}).join('');}
+ function renderAll(){renderFilters();renderMetrics();renderDist();renderList();}
+ els.filters?.addEventListener('click',e=>{const b=e.target.closest('[data-type]');if(!b)return;active=b.dataset.type;renderAll();}); els.search?.addEventListener('input',e=>{query=e.target.value;renderList();}); document.addEventListener('rdp:language',renderAll); load();
+})();
