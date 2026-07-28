@@ -1,6 +1,7 @@
 const { chromium } = require('playwright')
 
 const base = process.env.RDP_PREVIEW_URL || 'http://127.0.0.1:4180'
+const allowedOrigin = new URL(base).origin
 const projects = [
   'controle-acesso-visao',
   'igreja-casa',
@@ -25,7 +26,11 @@ const projects = [
       const requests = []
       page.on('pageerror', error => errors.push(error.message))
       page.on('request', request => requests.push(request.url()))
-      await page.route(/^https?:\/\/(?!127\.0\.0\.1)/, route => route.abort())
+      await page.route('**/*', route => {
+        const url = route.request().url()
+        if (!url.startsWith('http') || new URL(url).origin === allowedOrigin) return route.continue()
+        return route.abort()
+      })
 
       const started = Date.now()
       const response = await page.goto(`${base}/projects/${slug}/index.html`, {
