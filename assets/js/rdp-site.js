@@ -82,6 +82,14 @@
   const menuBtn = document.querySelector('[data-menu-toggle]');
   const nav = document.querySelector('[data-nav]');
   if (menuBtn && nav) {
+    if (!nav.querySelector('[data-nav-rod]')) {
+      const rodLink = document.createElement('a');
+      rodLink.href = 'rod.html';
+      rodLink.dataset.navRod = '';
+      rodLink.textContent = 'ROD';
+      const contact = nav.querySelector('a[href*="#contato"]');
+      nav.insertBefore(rodLink, contact || null);
+    }
     menuBtn.addEventListener('click', () => {
       const open = nav.classList.toggle('is-open');
       menuBtn.setAttribute('aria-expanded', String(open));

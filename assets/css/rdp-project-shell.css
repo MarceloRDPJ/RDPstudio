@@ -19,3 +19,18 @@ html[data-theme="contrast"] .rdp-project-page :is(.text-cyan-300,.text-cyan-400,
 html[data-theme="contrast"] .rdp-project-page :is(.bg-slate-950,.bg-slate-900,.bg-slate-800){background-color:#061611!important}
 @media(max-width:760px){.rdp-theme-picker summary{width:34px;padding:0;justify-content:center}.rdp-theme-picker summary [data-rdp-theme-current]{display:none}.rdp-lang-switch button{min-width:30px}}
 html[data-theme="light"] .rdp-global-brand img{content:url("../images/branding/logo-black.png")}
+
+@media(max-width:760px){
+  :root{--rdp-shell-h:64px}
+  .rdp-global-bar{height:var(--rdp-shell-h)}
+  .rdp-global-bar__inner{height:100%;padding:0;flex-wrap:nowrap;align-items:center;gap:8px}
+  .rdp-global-brand{flex:0 0 auto}.rdp-global-brand img{width:30px;height:30px}
+  .rdp-global-nav{order:0;width:auto;margin-left:auto;justify-content:flex-end;gap:12px}
+  .rdp-global-nav a{min-height:44px;display:flex;align-items:center;font-size:12px}
+  .rdp-global-nav a[data-rdp-label="about"],.rdp-global-nav a[data-rdp-label="contact"]{display:none}
+  .rdp-global-controls{gap:4px}
+  .rdp-theme-picker summary{width:40px;height:40px;border-radius:4px}
+  .rdp-theme-picker>div{position:fixed;right:14px;top:58px;width:min(220px,calc(100vw - 28px));border-radius:6px}
+  .rdp-theme-picker button{min-height:44px;border-radius:3px}
+  .rdp-lang-switch{height:40px;border-radius:4px}.rdp-lang-switch button{min-width:32px;border-radius:2px}
+}

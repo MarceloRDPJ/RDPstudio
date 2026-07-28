@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="description" content="ROD é o guia local da RDP Studio para explorar projetos, tecnologias e a trajetória de Marcelo Rodrigues.">
+  <title>ROD — RDP Studio</title>
+  <link rel="icon" href="../assets/site/favicon-32x32.png">
+  <link rel="stylesheet" href="../assets/css/rdp-rebrand.css">
+  <link rel="stylesheet" href="../assets/css/rdp-rod-page.css">
+  <script>try{const m=localStorage.getItem('rdp-theme-mode')||'system';document.documentElement.dataset.themeMode=m;document.documentElement.dataset.theme=m==='system'?(matchMedia('(prefers-color-scheme:light)').matches?'light':'dark'):m}catch(e){}</script>
+</head>
+<body class="rod-page">
+  <a class="skip-link" href="#rod-experience" data-i18n="skip">Ir para o conteúdo</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="index.html"><img src="../assets/images/branding/logo.png" alt=""><span class="brand-copy">RDP Studio</span></a>
+      <nav class="nav" data-nav aria-label="Navegação principal">
+        <a href="index.html" data-i18n="nav.home">Início</a>
+        <a href="projetos.html" data-i18n="nav.projects">Projetos</a>
+        <a href="sobre.html" data-i18n="nav.about">Sobre</a>
+        <a href="rod.html" data-nav-rod aria-current="page">ROD</a>
+        <a href="index.html#contato" data-i18n="nav.contact">Contato</a>
+      </nav>
+      <div class="header-actions">
+        <details class="theme-picker">
+          <summary><span aria-hidden="true">◐</span><span data-theme-current>Sistema</span></summary>
+          <div class="theme-menu">
+            <button type="button" data-theme-option="system"><i class="theme-swatch system"></i><span>Sistema<small>Segue o dispositivo</small></span></button>
+            <button type="button" data-theme-option="light"><i class="theme-swatch pistachio"></i><span>Pistache<small>Claro e suave</small></span></button>
+            <button type="button" data-theme-option="dark"><i class="theme-swatch eucalyptus"></i><span>Eucalipto<small>Escuro da marca</small></span></button>
+            <button type="button" data-theme-option="contrast"><i class="theme-swatch contrast"></i><span>Contraste<small>Leitura reforçada</small></span></button>
+          </div>
+        </details>
+        <div class="language-switch" aria-label="Idioma"><button type="button" data-lang-option="pt-BR">PT</button><button type="button" data-lang-option="en">EN</button></div>
+        <button class="menu-button" type="button" data-menu-toggle aria-expanded="false" aria-label="Abrir menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="rod-experience" class="rod-experience">
+    <section class="rod-intro shell">
+      <div>
+        <span class="eyebrow" data-rod-copy="kicker">ROD · guia do portfólio</span>
+        <h1 data-rod-copy="title">Explore a RDP Studio por conexões.</h1>
+      </div>
+      <p data-rod-copy="lead">O ROD relaciona projetos, tecnologias e trajetória usando a base local deste site. Escolha um caminho ou faça uma pergunta.</p>
+    </section>
+
+    <section class="rod-stage shell" aria-label="Núcleo interativo do ROD">
+      <div class="rod-query-card" data-rod-query-card hidden>
+        <span data-rod-copy="queryLabel">Consulta atual</span>
+        <strong data-rod-current-query></strong>
+      </div>
+
+      <div class="rod-core-zone" data-rod-core-state="idle">
+        <canvas class="rod-core-canvas" width="720" height="720" aria-hidden="true"></canvas>
+        <div class="rod-core-mark" aria-hidden="true">
+          <img src="../assets/images/branding/logo.png" alt="">
+        </div>
+        <div class="rod-core-status" role="status" aria-live="polite">
+          <span></span><strong data-rod-status>Pronto para conectar</strong>
+        </div>
+      </div>
+
+      <article class="rod-response" data-rod-response aria-live="polite" aria-busy="false">
+        <span class="rod-response-label" data-rod-copy="responseLabel">Resposta do núcleo</span>
+        <h2 data-rod-response-title>Por onde você quer começar?</h2>
+        <div class="rod-response-text" data-rod-response-text>Posso apresentar os sete projetos, explicar a trajetória de Marcelo, comparar tecnologias ou indicar a experiência mais adequada para uma necessidade.</div>
+        <div class="rod-response-actions" data-rod-actions></div>
+      </article>
+
+      <form class="rod-composer" data-rod-form>
+        <label for="rod-question" class="sr-only">Pergunta para o ROD</label>
+        <span aria-hidden="true">›</span>
+        <input id="rod-question" data-rod-input autocomplete="off" maxlength="280" placeholder="Pergunte ao ROD">
+        <button type="submit" data-rod-copy="send" aria-label="Enviar pergunta">Enviar</button>
+      </form>
+    </section>
+
+    <section class="rod-paths shell" aria-labelledby="rod-paths-title">
+      <div class="rod-paths-head">
+        <span class="section-kicker" data-rod-copy="pathsKicker">Caminhos rápidos</span>
+        <h2 id="rod-paths-title" data-rod-copy="pathsTitle">Comece pelo assunto, não por um menu.</h2>
+      </div>
+      <div class="rod-path-list" data-rod-suggestions></div>
+    </section>
+
+    <section class="rod-disclosure shell">
+      <strong data-rod-copy="disclosureTitle">Como o ROD funciona</strong>
+      <p data-rod-copy="disclosure">As respostas são montadas no seu navegador a partir do conteúdo publicado no portfólio. A conversa não é enviada para um servidor e o ROD informa quando não encontra contexto suficiente.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="shell footer-inner"><span>© <span data-year></span> RDP Studio</span><span data-i18n="footer.note">Projetos, ferramentas e estudos de caso.</span></div></footer>
+  <script src="../assets/js/rdp-data.js"></script>
+  <script src="../assets/js/rdp-i18n.js"></script>
+  <script src="../assets/js/rdp-site.js"></script>
+  <script src="../assets/js/rod-assistant.js"></script>
+  <script type="module" src="../assets/js/rdp-rod-page.js"></script>
+</body>
+</html>

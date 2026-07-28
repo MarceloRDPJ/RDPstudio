@@ -587,8 +587,39 @@ class RodAssistant {
   }
 }
 
+class RodLauncher {
+  constructor({ knowledgePath = DEFAULT_KNOWLEDGE_PATH, currentProjectSlug = null } = {}) {
+    this.knowledgePath = knowledgePath
+    this.currentProjectSlug = currentProjectSlug
+    this.elements = {}
+  }
+
+  async init() {
+    const isProject = this.knowledgePath.startsWith('../../')
+    const base = isProject ? '../../hub/rod.html' : 'rod.html'
+    const href = this.currentProjectSlug ? `${base}?project=${encodeURIComponent(this.currentProjectSlug)}` : base
+    const link = createElement('a', 'rod-launcher')
+    link.href = href
+    link.setAttribute('aria-label', 'Abrir ROD, guia da RDP Studio')
+    link.innerHTML = `
+      <span class="rod-launcher-network" aria-hidden="true">
+        <i></i><i></i><i></i><i></i><i></i><i></i>
+      </span>
+      <span class="rod-launcher-core" aria-hidden="true">
+        <img class="rod-brand-logo" src="${isProject ? '../../' : '../'}assets/images/branding/logo.png" alt="">
+      </span>
+      <span class="sr-only">Abrir ROD</span>
+    `
+    document.body.appendChild(link)
+    this.elements = { link }
+  }
+
+  scheduleNudge() {}
+}
+
+window.RodKnowledgeEngine = RodKnowledgeEngine
 window.initROD = async function initROD(options = {}) {
-  const assistant = new RodAssistant(options)
+  const assistant = options.mode === 'panel' ? new RodAssistant(options) : new RodLauncher(options)
   await assistant.init()
   assistant.scheduleNudge()
   return assistant
