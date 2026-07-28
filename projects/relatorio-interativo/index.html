@@ -13,42 +13,9 @@
     <link rel="manifest" href="../../assets/site/site.webmanifest">
 
     <!-- Bibliotecas -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
-    <script src="https://cdn.sheetjs.com/xlsx-0.20.1/package/dist/xlsx.full.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-
     <!-- Fonts & Icons -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="../../assets/css/rod-assistant.css">
-    <link rel="stylesheet" href="../../assets/css/rod-tour.css">
-
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        deepBlue: '#1E3A5F',
-                        techGray: '#2D3748',
-                        vibrantCyan: '#00B4D8',
-                        energeticAmber: '#F59E0B',
-                        trustGreen: '#10B981',
-                        darkSlate: '#020617',
-                    },
-                    fontFamily: {
-                        sans: ['Inter', 'sans-serif'],
-                        mono: ['JetBrains Mono', 'monospace'],
-                    }
-                }
-            }
-        }
-    </script>
-
-    <style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
         body {
             font-family: 'Inter', sans-serif;
             background-color: #020617;
@@ -112,8 +79,10 @@
         table td { font-size: 0.8rem; color: #e2e8f0; }
     </style>
 <!-- RDP_REBRAND_HEAD -->
+<link rel='stylesheet' href='../../assets/css/project-base.css'>
 <script>try{const m=localStorage.getItem('rdp-theme-mode')||'system';document.documentElement.dataset.themeMode=m;document.documentElement.dataset.theme=m==='system'?(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark'):m}catch(e){}</script>
-<link rel='stylesheet' href='../../assets/css/rdp-project-shell.css'>
+
+
 </head>
 <body class="flex flex-col min-h-screen" data-rdp-project="relatorio-interativo">
 
@@ -382,50 +351,8 @@
         </div>
     </footer>
 
-    <script src="js/dashboard_rdp.js"></script>
-    <script type="module">
-        import '../../assets/js/rod-assistant.js'
-        window.addEventListener('DOMContentLoaded', () => {
-            window.initROD({
-                knowledgePath: '../../assets/data/rod-knowledge.json',
-                currentProjectSlug: 'relatorio-interativo',
-                subtlePrompt: true,
-            })
-        })
-    </script>
-    <script>
-        window.ROD_TOUR_DEFINITIONS = {
-            quickstart: [
-                {
-                    selector: '#dropZone',
-                    text: 'Comece por aqui: arraste sua planilha ou clique para selecionar um arquivo XLSX ou CSV.'
-                },
-                {
-                    selector: '#dropZone',
-                    text: 'Se voce tiver o arquivo pronto, esse e o caminho mais direto. A ferramenta foi pensada para transformar planilhas em leitura executiva.'
-                },
-                {
-                    selector: '#screen-upload div[onclick="App.openPasteWizard()"]',
-                    text: 'Se nao tiver o arquivo em maos, voce pode usar a entrada manual e colar os dados diretamente.'
-                },
-                {
-                    selector: '#mobile-menu-overlay, nav',
-                    text: 'Depois do processamento, voce navega entre dashboard, conferencia e relatorios. A logica e sair da coleta bruta e chegar a uma visualizacao clara.'
-                }
-            ],
-            overview: [
-                {
-                    selector: '#screen-upload',
-                    text: 'Esta ferramenta transforma planilhas financeiras em dashboard, conferencia e relatorio. O fluxo inteiro acontece no navegador, sem depender de backend.'
-                },
-                {
-                    selector: '#dropZone',
-                    text: 'Se quiser usar agora, envie um arquivo. Se ainda estiver conhecendo a ferramenta, a entrada manual ajuda a entender a experiencia.'
-                }
-            ]
-        };
-    </script>
-    <script>
+    <script defer src="js/dashboard_rdp.js"></script>
+<script>
         // --- MOBILE MENU LOGIC ---
         const menuBtn = document.getElementById('mobile-menu-btn');
         const menuOverlay = document.getElementById('mobile-menu-overlay');
@@ -456,12 +383,7 @@
             });
         }
     </script>
-    <script src="../../assets/js/rod-tour.js"></script>
-    <script>
-        window.addEventListener('DOMContentLoaded', () => {
-            if (window.initRODTour) window.initRODTour();
-        });
-    </script>
+
 <!-- RDP_REBRAND_BODY -->
 <script src='../../assets/js/rdp-project-shell.js'></script>
 </body>

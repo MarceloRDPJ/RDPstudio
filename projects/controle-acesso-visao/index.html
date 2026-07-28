@@ -12,41 +12,8 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../../assets/site/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../../assets/site/favicon-16x16.png">
     <link rel="manifest" href="../../assets/site/site.webmanifest">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="../../assets/css/rod-assistant.css">
-    <link rel="stylesheet" href="../../assets/css/rod-tour.css">
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.20.0/dist/tf.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-webgl@4.20.0/dist/tf-backend-webgl.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        deepBlue: '#1E3A5F',
-                        vibrantCyan: '#00B4D8',
-                        trustGreen: '#10B981',
-                        darkSlate: '#020617',
-                        softRose: '#fb7185',
-                        softAmber: '#f59e0b',
-                        softViolet: '#a78bfa',
-                    },
-                    fontFamily: {
-                        sans: ['Inter', 'sans-serif'],
-                        mono: ['JetBrains Mono', 'monospace'],
-                    },
-                    animation: {
-                        'fade-in-up': 'fadeInUp .9s cubic-bezier(0.16, 1, 0.3, 1) forwards',
-                        'pulse-soft': 'pulseSoft 3.2s ease-in-out infinite',
-                        'float-soft': 'floatSoft 8s ease-in-out infinite',
-                    }
-                }
-            }
-        }
-    </script>
-    <style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
         :root {
             --bg: #020617;
             --panel: rgba(15, 23, 42, 0.74);
@@ -243,8 +210,10 @@
         }
     </style>
 <!-- RDP_REBRAND_HEAD -->
+<link rel='stylesheet' href='../../assets/css/project-base.css'>
 <script>try{const m=localStorage.getItem('rdp-theme-mode')||'system';document.documentElement.dataset.themeMode=m;document.documentElement.dataset.theme=m==='system'?(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark'):m}catch(e){}</script>
-<link rel='stylesheet' href='../../assets/css/rdp-project-shell.css'>
+
+
 </head>
 <body class="antialiased selection:bg-cyan-400 selection:text-slate-950" data-rdp-project="controle-acesso-visao">
     <div class="progress-line" id="progressLine"></div>
@@ -825,8 +794,33 @@
             progressLine.style.width = `${Math.min(progress, 100)}%`;
         }
 
+        const visionDependencies = (() => {
+            const pending = new Map();
+            const load = (src, test) => {
+                if (test()) return Promise.resolve();
+                if (pending.has(src)) return pending.get(src);
+                const promise = new Promise((resolve, reject) => {
+                    const script = document.createElement('script');
+                    script.src = src;
+                    script.async = true;
+                    script.onload = () => test() ? resolve() : reject(new Error(`Dependência indisponível: ${src}`));
+                    script.onerror = () => reject(new Error(`Não foi possível carregar: ${src}`));
+                    document.head.appendChild(script);
+                });
+                pending.set(src, promise);
+                return promise;
+            };
+            return async () => {
+                await load('https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.20.0/dist/tf.min.js', () => Boolean(window.tf));
+                await load('https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-webgl@4.20.0/dist/tf-backend-webgl.min.js', () => Boolean(window.tf?.findBackend?.('webgl')));
+                await load('https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd', () => Boolean(window.cocoSsd));
+            };
+        })();
+
         async function ensureModel() {
             if (model) return model;
+            modelBadge.textContent = 'Carregando recursos de visão...';
+            await visionDependencies();
             await tf.setBackend('webgl');
             await tf.ready();
             modelBadge.textContent = 'Carregando COCO-SSD...';
@@ -1082,41 +1076,6 @@
             bindStoryNavigation();
             bindTabs();
             updateScrollProgress();
-        });
-    </script>
-
-    <script type="module">
-        import '../../assets/js/rod-assistant.js'
-        window.addEventListener('DOMContentLoaded', () => {
-            window.initROD({
-                knowledgePath: '../../assets/data/rod-knowledge.json',
-                currentProjectSlug: 'controle-acesso-visao',
-                subtlePrompt: true,
-            })
-        })
-    </script>
-    <script>
-        window.ROD_TOUR_DEFINITIONS = {
-            overview: [
-                {
-                    selector: '#hero',
-                    text: 'Esta abertura posiciona o projeto como case técnico. Não é só uma página bonita: ela explica o recorte, o valor e o papel da reconstrução.'
-                },
-                {
-                    selector: '#arquitetura',
-                    text: 'Aqui a leitura foi organizada por responsabilidade. Isso deixa a arquitetura mais clara e muito mais fácil de absorver.'
-                },
-                {
-                    selector: '#demo',
-                    text: 'A demo torna o case vivo. Ela não tenta fingir o sistema original, mas prova competência real em visão computacional no navegador.'
-                }
-            ]
-        };
-    </script>
-    <script src="../../assets/js/rod-tour.js"></script>
-    <script>
-        window.addEventListener('DOMContentLoaded', () => {
-            if (window.initRODTour) window.initRODTour();
         });
     </script>
 <!-- RDP_REBRAND_BODY -->

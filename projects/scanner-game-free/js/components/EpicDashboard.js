@@ -172,7 +172,7 @@ window.EpicDashboard = ({ epicData, newsItems }) => {
                     {displayGames.length > 0 ? displayGames.map((game, idx) => (
                         <div key={idx} className="glass-panel rounded-2xl overflow-hidden border border-white/10 group relative">
                             <div className="h-64 overflow-hidden relative">
-                                <img src={game.image} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                                <img src={game.image} loading="lazy" decoding="async" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
                                 <div className="absolute inset-0 bg-gradient-to-t from-darkSlate via-transparent to-transparent"></div>
                                 <div className="absolute bottom-4 left-4">
                                     <span className="bg-vibrantCyan text-darkSlate text-xs font-bold px-3 py-1 rounded-full uppercase">Grátis agora</span>
@@ -228,7 +228,7 @@ window.EpicDashboard = ({ epicData, newsItems }) => {
                             {displayUpcoming && displayUpcoming.map((game, idx) => (
                                 <div key={idx} className="flex gap-4 group">
                                     <div className="w-16 h-16 rounded-lg overflow-hidden flex-shrink-0 bg-slate-800">
-                                        <img src={game.image} className="w-full h-full object-cover opacity-70 group-hover:opacity-100 transition-opacity" />
+                                        <img src={game.image} loading="lazy" decoding="async" className="w-full h-full object-cover opacity-70 group-hover:opacity-100 transition-opacity" />
                                     </div>
                                     <div className="flex-1 min-w-0">
                                         <h4 className="text-sm font-bold text-white truncate group-hover:text-vibrantCyan transition-colors">{game.title}</h4>

@@ -21,47 +21,13 @@
     <link rel="manifest" href="../../assets/site/site.webmanifest">
 
     <!-- Fontes (Preconnect para performance) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
-    
-    <!-- Icons (Carregamento otimizado) -->
+<!-- Icons (Carregamento otimizado) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" media="print" onload="this.media='all'">
 
     <!-- Tailwind CSS (Dev Mode - Recomenda-se build para produção) -->
-    <script src="https://cdn.tailwindcss.com"></script>
-
-    <!-- Configurações Tailwind e Mermaid -->
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        deepBlue: '#1E3A5F',
-                        techGray: '#2D3748',
-                        vibrantCyan: '#00B4D8',
-                        energeticAmber: '#F59E0B',
-                        trustGreen: '#10B981',
-                        darkSlate: '#020617',
-                    },
-                    fontFamily: {
-                        sans: ['Inter', 'sans-serif'],
-                        mono: ['JetBrains Mono', 'monospace'],
-                    },
-                    animation: {
-                        'fade-in-up': 'fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards',
-                        'float': 'float 6s ease-in-out infinite',
-                        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-                    }
-                }
-            }
-        }
-    </script>
-
-    <!-- Mermaid JS (Deferido) -->
+<!-- Configurações Tailwind e Mermaid -->
+<!-- Mermaid JS (Deferido) -->
     <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js" defer></script>
-    <link rel="stylesheet" href="../../assets/css/rod-assistant.css">
-    <link rel="stylesheet" href="../../assets/css/rod-tour.css">
 
     <style>
         /* CSS Otimizado e Organizado */
@@ -215,10 +181,11 @@
         #chat-viewport::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.1); border-radius: 10px; }
         #chat-viewport::-webkit-scrollbar-thumb:hover { background: rgba(255, 255, 255, 0.2); }
     </style>
-    <link rel="stylesheet" href="../../assets/css/rod-tour.css">
 <!-- RDP_REBRAND_HEAD -->
+<link rel='stylesheet' href='../../assets/css/project-base.css'>
 <script>try{const m=localStorage.getItem('rdp-theme-mode')||'system';document.documentElement.dataset.themeMode=m;document.documentElement.dataset.theme=m==='system'?(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark'):m}catch(e){}</script>
-<link rel='stylesheet' href='../../assets/css/rdp-project-shell.css'>
+
+
 </head>
 <body class="antialiased selection:bg-vibrantCyan selection:text-white" data-rdp-project="assistente-vendas-ia">
 
@@ -486,7 +453,7 @@
             const timeString = now.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' });
             document.getElementById('clock-time').textContent = timeString;
         }
-        setInterval(updateClock, 1000);
+        setInterval(updateClock, 30000);
         updateClock();
 
         // --- Mobile Menu Logic ---
@@ -533,6 +500,8 @@
 
         const chatContainer = document.getElementById('chat-viewport');
         let isChatRunning = false;
+        let chatVisible = false;
+        const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
         function createBubble(message) {
             const bubble = document.createElement('div');
@@ -563,7 +532,7 @@
         }
 
         async function playConversation() {
-            if (isChatRunning) return;
+            if (isChatRunning || !chatVisible) return;
             isChatRunning = true;
 
             // Fade out existing content
@@ -579,6 +548,10 @@
             chatContainer.appendChild(timeDiv);
 
             for (const msg of conversation) {
+                if (!chatVisible) {
+                    isChatRunning = false;
+                    return;
+                }
                 // If bot is "thinking" (not processing type, just normal delay before typing)
                 if (msg.from === 'bot' && msg.type !== 'processing') {
                     const typingBubble = createBubble({from: 'bot', type: 'processing', content: ''});
@@ -616,46 +589,26 @@
 
             await new Promise(r => setTimeout(r, 3000));
             isChatRunning = false;
-            playConversation(); // Recursion
+            if (chatVisible) playConversation();
         }
 
-        // Start the loop
-        playConversation();
+        const chatObserver = new IntersectionObserver(entries => {
+            chatVisible = entries.some(entry => entry.isIntersecting);
+            if (!chatVisible || isChatRunning) return;
+            if (reducedMotion) {
+                chatContainer.innerHTML = '';
+                conversation.forEach(message => {
+                    const bubble = createBubble(message);
+                    bubble.style.opacity = '1';
+                    chatContainer.appendChild(bubble);
+                });
+                scrollToBottom();
+                return;
+            }
+            playConversation();
+        }, { threshold: 0.15 });
+        chatObserver.observe(chatContainer);
 
-    </script>
-    <script type="module">
-        import '../../assets/js/rod-assistant.js'
-        window.addEventListener('DOMContentLoaded', () => {
-            window.initROD({
-                knowledgePath: '../../assets/data/rod-knowledge.json',
-                currentProjectSlug: 'assistente-vendas-ia',
-                subtlePrompt: true,
-            })
-        })
-    </script>
-    <script>
-        window.ROD_TOUR_DEFINITIONS = {
-            quickstart: [
-                {
-                    selector: 'main .space-y-10',
-                    text: 'Aqui o foco é mostrar o problema comercial e como o assistente atua como camada inteligente de atendimento e operação.'
-                },
-                {
-                    selector: '.mermaid',
-                    text: 'Este bloco mostra a arquitetura: canal de mensageria, núcleo Python, LLM e base de dados trabalhando juntos.'
-                },
-                {
-                    selector: '#chat-viewport',
-                    text: 'Nesta área, a interface simula a experiência final do usuário. É aqui que o valor do projeto fica mais tangível para quem está avaliando a solução.'
-                }
-            ]
-        };
-    </script>
-    <script src="../../assets/js/rod-tour.js"></script>
-    <script>
-        window.addEventListener('DOMContentLoaded', () => {
-            if (window.initRODTour) window.initRODTour();
-        });
     </script>
 <!-- RDP_REBRAND_BODY -->
 <script src='../../assets/js/rdp-project-shell.js'></script>

@@ -9,31 +9,8 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../../assets/site/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../../assets/site/favicon-16x16.png">
     <link rel="manifest" href="../../assets/site/site.webmanifest">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="../../assets/css/rod-assistant.css">
-    <link rel="stylesheet" href="../../assets/css/rod-tour.css">
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        vibrantCyan: '#00B4D8',
-                        energeticAmber: '#F59E0B',
-                        trustGreen: '#10B981',
-                        darkSlate: '#020617',
-                        warmStone: '#d6c3a0',
-                    },
-                    fontFamily: {
-                        sans: ['Inter', 'sans-serif'],
-                        mono: ['JetBrains Mono', 'monospace'],
-                    },
-                }
-            }
-        }
-    </script>
-    <style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
         body {
             font-family: 'Inter', sans-serif;
             background: #020617;
@@ -311,8 +288,10 @@
         }
     </style>
 <!-- RDP_REBRAND_HEAD -->
+<link rel='stylesheet' href='../../assets/css/project-base.css'>
 <script>try{const m=localStorage.getItem('rdp-theme-mode')||'system';document.documentElement.dataset.themeMode=m;document.documentElement.dataset.theme=m==='system'?(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark'):m}catch(e){}</script>
-<link rel='stylesheet' href='../../assets/css/rdp-project-shell.css'>
+
+
 </head>
 <body class="antialiased selection:bg-vibrantCyan selection:text-white" data-rdp-project="igreja-casa">
     <div class="max-w-7xl mx-auto px-6 py-6 min-h-screen flex flex-col">
@@ -585,16 +564,6 @@
         </footer>
     </div>
 
-    <script type="module">
-        import '../../assets/js/rod-assistant.js'
-        window.addEventListener('DOMContentLoaded', () => {
-            window.initROD({
-                knowledgePath: '../../assets/data/rod-knowledge.json',
-                currentProjectSlug: 'igreja-casa',
-                subtlePrompt: true,
-            })
-        })
-    </script>
     <script>
         const menuBtn = document.getElementById('mobile-menu-btn');
         const menuOverlay = document.getElementById('mobile-menu-overlay');
@@ -630,30 +599,7 @@
             });
         }
     </script>
-    <script>
-        window.ROD_TOUR_DEFINITIONS = {
-            overview: [
-                {
-                    selector: 'main > section:first-child',
-                    text: 'Aqui está o enquadramento executivo do case. A ideia é apresentar rapidamente a plataforma, o contexto e a proposta de valor.'
-                },
-                {
-                    selector: '#arquitetura',
-                    text: 'Este bloco explica a arquitetura. O projeto combina frontend estático com backend operacional serverless usando Supabase e Cloudflare Pages.'
-                },
-                {
-                    selector: '#modulos',
-                    text: 'Nesta parte você entende os domínios principais da plataforma: admin, CRM, formulários, analytics, Wi-Fi, DOMUM e escala.'
-                }
-            ]
-        };
-    </script>
-    <script src="../../assets/js/rod-tour.js"></script>
-    <script>
-        window.addEventListener('DOMContentLoaded', () => {
-            if (window.initRODTour) window.initRODTour();
-        });
-
+<script>
         // Preview estático - apenas o painel administrativo é exibido
         // Formulário público e Wi‑Fi são explicados textualmente
 
@@ -692,7 +638,6 @@
 
         // Inicializar animações quando a página carregar
         document.addEventListener('DOMContentLoaded', function() {
-            setTimeout(createParticles, 500);
             animateCards();
         });
     </script>

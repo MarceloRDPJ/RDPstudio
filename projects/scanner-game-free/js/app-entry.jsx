@@ -1,0 +1,7 @@
+import './components/Icons.js'
+import './components/Badge.js'
+import './components/NavBar.js'
+import './components/EpicDashboard.js'
+import './components/NewsCard.js'
+import './components/Footer.js'
+import './App.js'

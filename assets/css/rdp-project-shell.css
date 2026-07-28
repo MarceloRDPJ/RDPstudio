@@ -19,6 +19,10 @@ html[data-theme="contrast"] .rdp-project-page :is(.text-cyan-300,.text-cyan-400,
 html[data-theme="contrast"] .rdp-project-page :is(.bg-slate-950,.bg-slate-900,.bg-slate-800){background-color:#061611!important}
 @media(max-width:760px){.rdp-theme-picker summary{width:34px;padding:0;justify-content:center}.rdp-theme-picker summary [data-rdp-theme-current]{display:none}.rdp-lang-switch button{min-width:30px}}
 html[data-theme="light"] .rdp-global-brand img{content:url("../images/branding/logo-black.png")}
+.rdp-rod-launcher{position:fixed;z-index:9998;right:max(16px,env(safe-area-inset-right));bottom:max(16px,env(safe-area-inset-bottom));width:56px;height:56px;display:grid;place-items:center;border:1px solid color-mix(in srgb,var(--rdp-pistachio) 42%,transparent);border-radius:50%;background:color-mix(in srgb,var(--rdp-black) 94%,transparent);box-shadow:0 12px 30px rgba(3,15,11,.24);transition:transform .18s ease,border-color .18s ease}
+.rdp-rod-launcher span{width:30px;height:30px;display:grid;place-items:center;border-radius:50%;background:var(--rdp-eucalyptus)}
+.rdp-rod-launcher img{width:22px;height:22px;object-fit:contain}.rdp-rod-launcher:hover,.rdp-rod-launcher:focus-visible{transform:translateY(-2px);border-color:var(--rdp-pistachio);outline:3px solid color-mix(in srgb,var(--rdp-pistachio) 24%,transparent);outline-offset:3px}
+html[data-theme="light"] .rdp-rod-launcher{background:#fff;border-color:#b8c9bd}html[data-theme="light"] .rdp-rod-launcher img{content:url("../images/branding/logo-black.png")}
 
 @media(max-width:760px){
   :root{--rdp-shell-h:64px}

@@ -8,36 +8,8 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../../assets/site/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../../assets/site/favicon-16x16.png">
     <link rel="manifest" href="../../assets/site/site.webmanifest">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        deepBlue: '#1E3A5F',
-                        techGray: '#2D3748',
-                        vibrantCyan: '#00B4D8',
-                        energeticAmber: '#F59E0B',
-                        trustGreen: '#10B981',
-                        darkSlate: '#020617',
-                    },
-                    fontFamily: {
-                        sans: ['Inter', 'sans-serif'],
-                        mono: ['JetBrains Mono', 'monospace'],
-                    },
-                    animation: {
-                        'fade-in-up': 'fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards',
-                        'float': 'float 6s ease-in-out infinite',
-                    }
-                }
-            }
-        }
-    </script>
-
-    <style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
         body {
             font-family: 'Inter', sans-serif;
             background-color: #020617; /* Dark Slate da Home */
@@ -147,11 +119,11 @@
             transition: color 0.3s ease;
         }
     </style>
-    <link rel="stylesheet" href="../../assets/css/rod-assistant.css">
-    <link rel="stylesheet" href="../../assets/css/rod-tour.css">
 <!-- RDP_REBRAND_HEAD -->
+<link rel='stylesheet' href='../../assets/css/project-base.css'>
 <script>try{const m=localStorage.getItem('rdp-theme-mode')||'system';document.documentElement.dataset.themeMode=m;document.documentElement.dataset.theme=m==='system'?(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark'):m}catch(e){}</script>
-<link rel='stylesheet' href='../../assets/css/rdp-project-shell.css'>
+
+
 </head>
 <body class="antialiased selection:bg-vibrantCyan selection:text-white" data-rdp-project="abertura-chamados-glpi">
 
@@ -417,35 +389,7 @@
     </div>
 
     <!-- Scripts -->
-    <script type="module">
-        import '../../assets/js/rod-assistant.js'
-        window.addEventListener('DOMContentLoaded', () => {
-            window.initROD({
-                knowledgePath: '../../assets/data/rod-knowledge.json',
-                currentProjectSlug: 'abertura-chamados-glpi',
-                subtlePrompt: true,
-            })
-        })
-    </script>
-    <script>
-        window.ROD_TOUR_DEFINITIONS = {
-            quickstart: [
-                {
-                    selector: '.grid.lg\\:grid-cols-2',
-                    text: 'Esse projeto mostra um case de automação enterprise. Primeiro, aqui no topo, você entende o problema e a promessa da solução.'
-                },
-                {
-                    selector: '.mb-24.fade-in-up.delay-300',
-                    text: 'Depois, este bloco resume o fluxo de trabalho em três passos: organizar as evidências, executar o script e receber os chamados já criados.'
-                },
-                {
-                    selector: '.grid.lg\\:grid-cols-2.gap-12.items-start.mb-24',
-                    text: 'Por fim, a página explica a estrutura de pastas esperada. É isso que torna a automação confiável e repetível em ambiente real.'
-                }
-            ]
-        };
-    </script>
-    <script>
+<script>
         // --- MOBILE MENU LOGIC ---
         const menuBtn = document.getElementById('mobile-menu-btn');
         const menuOverlay = document.getElementById('mobile-menu-overlay');
@@ -481,12 +425,7 @@
             });
         }
     </script>
-    <script src="../../assets/js/rod-tour.js"></script>
-    <script>
-        window.addEventListener('DOMContentLoaded', () => {
-            if (window.initRODTour) window.initRODTour();
-        });
-    </script>
+
 <!-- RDP_REBRAND_BODY -->
 <script src='../../assets/js/rdp-project-shell.js'></script>
 </body>

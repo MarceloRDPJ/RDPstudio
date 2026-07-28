@@ -1,3 +1,36 @@
+const DependencyLoader = (() => {
+    const pending = new Map();
+    const load = (src, test) => {
+        if (test()) return Promise.resolve();
+        if (pending.has(src)) return pending.get(src);
+        const promise = new Promise((resolve, reject) => {
+            const script = document.createElement('script');
+            script.src = src;
+            script.async = true;
+            script.onload = () => test() ? resolve() : reject(new Error(`Dependência indisponível: ${src}`));
+            script.onerror = () => reject(new Error(`Não foi possível carregar: ${src}`));
+            document.head.appendChild(script);
+        });
+        pending.set(src, promise);
+        return promise;
+    };
+    const core = async () => {
+        await Promise.all([
+            load('https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js', () => Boolean(window.Papa)),
+            load('https://cdn.sheetjs.com/xlsx-0.20.1/package/dist/xlsx.full.min.js', () => Boolean(window.XLSX)),
+            load('https://cdn.jsdelivr.net/npm/chart.js', () => Boolean(window.Chart))
+        ]);
+        await load('https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js', () => Boolean(window.dateFns));
+        Chart.defaults.font.family = "'Inter', sans-serif";
+        Chart.defaults.color = '#94a3b8';
+    };
+    const pdf = () => Promise.all([
+        load('https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js', () => Boolean(window.html2canvas)),
+        load('https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js', () => Boolean(window.jspdf))
+    ]);
+    return { core, pdf };
+})();
+
 const App = {
     rawData: [],
     filteredData: [],
@@ -5,8 +38,6 @@ const App = {
     pendingFiles: [],
 
     init: () => {
-        Chart.defaults.font.family = "'Inter', sans-serif";
-        Chart.defaults.color = '#94a3b8'; // RDP Text Color (Slate-400)
         App.setupDragAndDrop();
     },
 
@@ -49,6 +80,13 @@ const App = {
     },
 
     processAllFiles: async () => {
+        try {
+            await DependencyLoader.core();
+        } catch (error) {
+            alert('Não foi possível carregar os recursos de planilha e gráficos. Verifique sua conexão e tente novamente.');
+            console.error(error);
+            return;
+        }
         const loading = document.getElementById('loading');
         const loadingText = document.getElementById('loading-text');
         const loadingBar = document.getElementById('loading-bar');
@@ -241,7 +279,14 @@ const App = {
         document.getElementById('modal-wizard').classList.add('hidden');
         document.getElementById('screen-upload').classList.remove('hidden');
     },
-    processPaste: () => {
+    processPaste: async () => {
+        try {
+            await DependencyLoader.core();
+        } catch (error) {
+            alert('Não foi possível carregar os gráficos. Verifique sua conexão e tente novamente.');
+            console.error(error);
+            return;
+        }
         const text = document.getElementById('paste-area').value;
         const rows = text.split('\n').map(line => line.split('\t'));
         if(rows.length < 2) { alert("Dados insuficientes."); return; }
@@ -436,6 +481,13 @@ const App = {
         document.getElementById('btn-download-pdf').disabled = false;
     },
     downloadPDF: async () => {
+        try {
+            await DependencyLoader.pdf();
+        } catch (error) {
+            alert('Não foi possível carregar o gerador de PDF. Verifique sua conexão e tente novamente.');
+            console.error(error);
+            return;
+        }
         const element = document.getElementById('report-paper');
         const canvas = await html2canvas(element, { scale: 2 });
         const pdf = new jspdf.jsPDF('p', 'mm', 'a4');

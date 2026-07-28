@@ -4,7 +4,7 @@ window.NewsCard = ({ item }) => {
     const Badge = window.Badge;
 
     const handleImageError = (e) => {
-        e.target.src = "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?auto=format&fit=crop&q=80";
+        e.target.src = "../../assets/images/projects/scanner-game-free.png";
         e.target.onerror = null;
     };
 
@@ -14,6 +14,8 @@ window.NewsCard = ({ item }) => {
                 <img
                     src={item.image}
                     alt={item.title}
+                    loading="lazy"
+                    decoding="async"
                     onError={handleImageError}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 opacity-80 group-hover:opacity-100"
                 />

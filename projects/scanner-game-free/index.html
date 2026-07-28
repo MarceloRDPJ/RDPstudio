@@ -10,57 +10,16 @@
     <link rel="manifest" href="../../assets/site/site.webmanifest">
 
     <!-- React & ReactDOM -->
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="../../assets/css/rod-assistant.css">
-    <link rel="stylesheet" href="../../assets/css/rod-tour.css">
+    <script defer src="../../assets/vendor/react/react.production.min.js"></script>
+    <script defer src="../../assets/vendor/react/react-dom.production.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
-
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        deepBlue: '#0f172a',
-                        vibrantCyan: '#06b6d4',
-                        energeticAmber: '#f59e0b',
-                        trustGreen: '#10b981',
-                        darkSlate: '#020617',
-                        dangerRed: '#ef4444',
-                        glass: 'rgba(15, 23, 42, 0.7)',
-                        mysteryPurple: '#8b5cf6',
-                    },
-                    fontFamily: {
-                        sans: ['Inter', 'sans-serif'],
-                        mono: ['JetBrains Mono', 'monospace'],
-                    },
-                    animation: {
-                        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-                        'fade-in': 'fadeIn 0.6s ease-out forwards',
-                    },
-                    keyframes: {
-                        fadeIn: {
-                            '0%': { opacity: '0', transform: 'translateY(10px)' },
-                            '100%': { opacity: '1', transform: 'translateY(0)' }
-                        }
-                    }
-                }
-            }
-        }
-    </script>
-
-    <style>
+<style>
         body {
             font-family: 'Inter', sans-serif;
             background-color: #020617;
-            background-image:
-                linear-gradient(to bottom, rgba(2, 6, 23, 0.95), rgba(2, 6, 23, 0.98)),
-                url("https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=2070&auto=format&fit=crop");
+            background-image: linear-gradient(to bottom, rgba(2, 6, 23, 0.95), rgba(2, 6, 23, 0.98));
             background-size: cover;
             background-attachment: fixed;
             color: #F8FAFC;
@@ -94,52 +53,15 @@
         }
     </style>
 <!-- RDP_REBRAND_HEAD -->
+<link rel='stylesheet' href='../../assets/css/project-base.css'>
 <script>try{const m=localStorage.getItem('rdp-theme-mode')||'system';document.documentElement.dataset.themeMode=m;document.documentElement.dataset.theme=m==='system'?(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark'):m}catch(e){}</script>
-<link rel='stylesheet' href='../../assets/css/rdp-project-shell.css'>
+
+
 </head>
 <body class="antialiased min-h-screen flex flex-col" data-rdp-project="scanner-game-free">
     <div id="root" class="flex-grow flex flex-col"></div>
 
-    <!-- Application Components -->
-    <script type="text/babel" src="js/components/Icons.js"></script>
-    <script type="text/babel" src="js/components/Badge.js"></script>
-    <script type="text/babel" src="js/components/NavBar.js"></script>
-    <script type="text/babel" src="js/components/EpicDashboard.js"></script>
-    <script type="text/babel" src="js/components/NewsCard.js"></script>
-    <script type="text/babel" src="js/components/Footer.js"></script>
-
-    <!-- Main Entry Point -->
-    <script type="text/babel" src="js/App.js"></script>
-    <script type="module">
-        import '../../assets/js/rod-assistant.js'
-        window.addEventListener('DOMContentLoaded', () => {
-            window.initROD({
-                knowledgePath: '../../assets/data/rod-knowledge.json',
-                currentProjectSlug: 'scanner-game-free',
-                subtlePrompt: true,
-            })
-        })
-    </script>
-    <script>
-        window.ROD_TOUR_DEFINITIONS = {
-            overview: [
-                {
-                    selector: 'nav',
-                    text: 'Esse projeto funciona como um painel de inteligencia. O topo mostra status do sistema e o acesso de volta ao hub.'
-                },
-                {
-                    selector: 'main .border-b',
-                    text: 'Use os filtros para trocar entre feed geral e Epic Dashboard. A mudanca de visao e a forma mais rapida de entender o produto.'
-                }
-            ]
-        };
-    </script>
-    <script src="../../assets/js/rod-tour.js"></script>
-    <script>
-        window.addEventListener('DOMContentLoaded', () => {
-            if (window.initRODTour) window.initRODTour();
-        });
-    </script>
+    <script defer src="js/app.bundle.js"></script>
 <!-- RDP_REBRAND_BODY -->
 <script src='../../assets/js/rdp-project-shell.js'></script>
 </body>

@@ -1,6 +1,6 @@
 const { chromium } = require('playwright')
 
-const base = 'http://127.0.0.1:4179'
+const base = process.env.RDP_PREVIEW_URL || 'http://127.0.0.1:4180'
 const cases = [
   ['vision', '/projects/controle-acesso-visao/', 1440, 900],
   ['church', '/projects/igreja-casa/', 1440, 900],
@@ -32,6 +32,9 @@ const selectedCases = process.env.RDP_CASE
     const page = await browser.newPage({ viewport: { width, height } })
     const errors = []
     page.on('pageerror', error => errors.push(error.message))
+    if (process.env.RDP_BLOCK_EXTERNAL === '1') {
+      await page.route(/^https?:\/\/(?!127\.0\.0\.1)/, route => route.abort())
+    }
     const response = await page.goto(base + route, { waitUntil: 'domcontentloaded', timeout: 30000 })
     await page.waitForTimeout(1400)
 
