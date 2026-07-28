@@ -41,8 +41,11 @@ const selectedCases = process.env.RDP_CASE
       await page.waitForTimeout(200)
     }
     if (name === 'insider') {
-      await page.getByRole('button', { name: 'HARDWARE' }).click()
-      await page.waitForTimeout(100)
+      const hardwareFilter = page.getByRole('button', { name: /hardware/i })
+      if (await hardwareFilter.count()) {
+        await hardwareFilter.click()
+        await page.waitForTimeout(100)
+      }
     }
 
     await page.locator('.rdp-theme-picker summary').click()

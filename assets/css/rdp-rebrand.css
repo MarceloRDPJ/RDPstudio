@@ -446,3 +446,48 @@ html[data-theme="contrast"] {
   .project-row .row-facts { display: none; }
   .project-row .row-action { grid-column: 1 / -1; grid-row: auto; justify-self: start; }
 }
+
+/* Projects editorial index */
+.projects-page .page-hero{padding:clamp(64px,8vw,112px) 0 clamp(44px,6vw,76px)}
+.projects-page .page-hero h1{max-width:940px;font-size:clamp(3rem,6.5vw,6.7rem);line-height:.94;letter-spacing:-.065em}
+.projects-page .page-hero p{max-width:680px;margin-top:1.5rem;font-size:clamp(1rem,1.6vw,1.25rem)}
+.projects-page .catalog-section{padding-top:24px}
+.projects-page .portfolio-summary{max-width:720px;margin:0 0 clamp(40px,6vw,72px);color:var(--muted);font-size:clamp(1.1rem,2vw,1.5rem);line-height:1.45}
+.projects-page .catalog-controls{display:grid;grid-template-columns:minmax(260px,1fr) auto;align-items:end;gap:clamp(2rem,5vw,5rem);margin-bottom:clamp(56px,7vw,88px)}
+.projects-page .search-field{min-width:0}
+.projects-page .search-field input{min-height:48px;padding:.75rem 0;border:0;border-bottom:1px solid var(--line);border-radius:0;background:transparent}
+.projects-page .search-field input:focus{outline:0;border-color:var(--accent);box-shadow:0 1px 0 var(--accent)}
+.projects-page .filters{margin:0;gap:1.25rem;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:thin}
+.projects-page .filter-button{position:relative;flex:0 0 auto;padding:.75rem 0;border:0;border-radius:0;background:transparent;color:var(--muted);white-space:nowrap}
+.projects-page .filter-button:hover,.projects-page .filter-button.active{border:0;background:transparent;color:var(--text)}
+.projects-page .filter-button.active::after{content:"";position:absolute;right:0;bottom:.35rem;left:0;height:2px;background:var(--accent)}
+.projects-page .projects-list{display:grid;gap:clamp(56px,7vw,96px);border:0}
+.projects-page .project-row{display:grid;grid-template-columns:minmax(220px,300px) minmax(0,1fr);gap:clamp(28px,5vw,72px);align-items:center;padding:0;border:0}
+.projects-page .project-row-image{position:relative;width:100%;aspect-ratio:16/10;overflow:hidden;border:0;border-radius:4px;background:var(--surface)}
+.projects-page .project-row-image img{position:relative;z-index:1;width:100%;height:100%;object-fit:cover;object-position:top;transition:transform .35s ease}
+.projects-page .project-row:hover .project-row-image img{transform:scale(1.015)}
+.projects-page .project-image-fallback{position:absolute;inset:0;display:grid;place-items:center;padding:1.5rem;color:var(--muted);text-align:center}
+.projects-page .project-row-image.is-missing img{display:none}
+.projects-page .project-row-copy{min-width:0}
+.projects-page .project-row-meta{display:flex;gap:.65rem 1.25rem;flex-wrap:wrap;margin-bottom:.8rem;color:var(--subtle);font-size:.75rem}
+.projects-page .project-row-meta span+span::before{content:"·";margin-right:1.25rem;color:var(--accent)}
+.projects-page .project-row h2{margin:0;font-size:clamp(2rem,4vw,4.1rem);line-height:1;letter-spacing:-.05em}
+.projects-page .project-row h2 a{color:inherit;text-decoration:none}
+.projects-page .project-row p{max-width:700px;margin:1rem 0 0;color:var(--muted);font-size:clamp(.95rem,1.35vw,1.08rem)}
+.projects-page .project-row .row-action{display:inline-flex;width:auto;min-width:0;height:auto;margin-top:1.35rem;padding:0 0 .18rem;gap:.55rem;border:0;border-bottom:1px solid var(--line);border-radius:0;background:transparent;color:var(--text)}
+.projects-page .project-row .row-action:hover{border-color:var(--accent);background:transparent;color:var(--accent)}
+.projects-page .project-row .row-action span{font-size:.82rem}
+@media (max-width:980px){
+  .projects-page .catalog-controls{grid-template-columns:1fr;align-items:stretch;gap:1.5rem}
+  .projects-page .project-row{grid-template-columns:minmax(180px,240px) minmax(0,1fr)}
+  .projects-page .project-row .row-action{grid-column:auto;grid-row:auto}
+}
+@media (max-width:720px){
+  .projects-page .page-hero{padding-top:48px}
+  .projects-page .page-hero h1{font-size:clamp(2.7rem,13vw,4.25rem)}
+  .projects-page .filters{margin-right:-14px;padding-right:14px}
+  .projects-page .project-row{grid-template-columns:1fr;gap:1.5rem}
+  .projects-page .project-row-image{grid-row:auto}
+  .projects-page .project-row-meta{display:flex}
+  .projects-page .project-row .row-action{grid-column:auto;justify-self:start}
+}
