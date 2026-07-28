@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Trajetória, formação e projetos de Marcelo Rodrigues, responsável pela RDP Studio.">
-  <title>Sobre Marcelo Rodrigues — RDP Studio</title>
+  <meta name="description" content="Conheça Marcelo Rodrigues e os trabalhos reunidos na RDP Studio.">
+  <title>Marcelo Rodrigues — RDP Studio</title>
   <link rel="icon" href="../assets/site/favicon-32x32.png">
   <link rel="stylesheet" href="../assets/css/rod-assistant.css">
   <link rel="stylesheet" href="../assets/css/rdp-rebrand.css">
   <script>try{const m=localStorage.getItem('rdp-theme-mode')||'system';document.documentElement.dataset.themeMode=m;document.documentElement.dataset.theme=m==='system'?(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark'):m}catch(e){}</script>
 </head>
-<body class="about-page">
+<body class="about-page about-page-v2">
   <a class="skip-link" href="#conteudo" data-i18n="skip">Ir para o conteúdo</a>
   <header class="site-header">
     <div class="shell header-inner">
@@ -38,140 +38,119 @@
   </header>
 
   <main id="conteudo">
-    <section class="about-intro">
-      <div class="shell about-intro-grid">
-        <div class="about-intro-copy">
-          <div class="eyebrow" data-i18n="about.kicker">Sobre</div>
-          <h1>Marcelo Rodrigues</h1>
-          <p class="about-role" data-i18n="about.lead">Atuo entre suporte, infraestrutura, automação e desenvolvimento. A RDP Studio reúne as ferramentas e os sistemas que construo a partir desse trabalho.</p>
-          <a class="text-link" href="projetos.html" data-i18n="about.viewWork">Conhecer os projetos <span aria-hidden="true">↗</span></a>
+    <section class="bio-hero">
+      <div class="shell bio-hero-grid">
+        <div class="bio-hero-copy">
+          <p class="bio-overline" data-i18n="about.kicker">Sobre</p>
+          <h1>Marcelo<br>Rodrigues</h1>
+          <p class="bio-intro" data-i18n="about.heroStatement">Trabalho com suporte, infraestrutura e desenvolvimento de ferramentas para situações que encontro no dia a dia.</p>
+          <div class="bio-links">
+            <a href="projetos.html" data-i18n="about.viewWork">Conhecer os projetos</a>
+            <a href="index.html#contato" data-i18n="nav.contact">Contato</a>
+          </div>
         </div>
-        <figure class="about-portrait">
+        <figure class="bio-photo">
           <img src="../assets/images/profile/marcelo.png" alt="Marcelo Rodrigues">
-          <figcaption>
-            <span data-i18n="about.degreeShort">Gestão da Tecnologia da Informação</span>
-            <span data-i18n="about.currentStudy">Computação Forense e Segurança · em formação</span>
-          </figcaption>
         </figure>
       </div>
     </section>
 
-    <section class="section about-narrative">
+    <section class="bio-story">
+      <div class="shell bio-story-grid">
+        <p class="bio-side-label" data-i18n="about.storyLabel">Como cheguei até aqui</p>
+        <div class="bio-story-copy">
+          <p data-i18n="about.story1">Minha experiência começou no suporte: configurando equipamentos, mantendo redes e resolvendo problemas junto de quem precisava usar a tecnologia naquele momento.</p>
+          <p data-i18n="about.story2">Com o tempo, algumas tarefas repetitivas viraram scripts; os scripts cresceram para ferramentas internas e aplicações web. Foi assim que suporte, infraestrutura e desenvolvimento passaram a fazer parte do mesmo trabalho.</p>
+          <p data-i18n="about.story3">Hoje, a pós-graduação em Computação Forense e Segurança amplia essa base com investigação, análise e cuidado com os dados. Os projetos abaixo mostram esse percurso melhor do que uma lista de tecnologias.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="bio-evidence">
       <div class="shell">
-        <div class="about-section-heading">
-          <div class="section-kicker" data-i18n="about.pathLabel">Trajetória</div>
-          <h2 data-i18n="about.pathTitle">A prática veio antes dos títulos.</h2>
-        </div>
-        <div class="journey-list">
-          <article class="journey-row">
-            <span>01</span>
-            <h3 data-i18n="about.path1Title">Suporte e infraestrutura</h3>
-            <p data-i18n="about.path1Body">O trabalho começou perto de quem usa a tecnologia: configuração de equipamentos, redes, manutenção e resolução de falhas no dia a dia.</p>
+        <header class="bio-evidence-head">
+          <p data-i18n="about.evidenceLabel">Três trabalhos, três partes da trajetória</p>
+          <h2 data-i18n="about.evidenceTitle">O que aprendi aparece no que construo.</h2>
+        </header>
+
+        <article class="bio-project bio-project-large">
+          <a class="bio-project-image" href="../projects/igreja-casa/index.html">
+            <img src="../assets/images/projects/igreja-casa.png" alt="Interface do Igreja Casa Hub">
+          </a>
+          <div class="bio-project-copy">
+            <p data-i18n="about.projectProductLabel">Desenvolvimento de produto</p>
+            <h3>Igreja Casa Hub</h3>
+            <p data-i18n="about.projectProductBody">Uma plataforma que reúne administração, formulários, CRM, dados e rotinas de uma operação real. É o projeto que melhor mostra a passagem de ferramentas isoladas para um sistema integrado.</p>
+            <a href="../projects/igreja-casa/index.html" data-i18n="about.projectProductAction">Conhecer a plataforma <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+
+        <div class="bio-project-pair">
+          <article class="bio-project">
+            <a class="bio-project-image" href="../projects/abertura-chamados-glpi/index.html">
+              <img src="../assets/images/projects/abertura-chamados-glpi.png" alt="Representação do GLPI Automator">
+            </a>
+            <div class="bio-project-copy">
+              <p data-i18n="about.projectAutomationLabel">Automação operacional</p>
+              <h3>GLPI Automator</h3>
+              <p data-i18n="about.projectAutomationBody">Nasceu da necessidade de organizar evidências e abrir chamados sem repetir manualmente o mesmo processo para cada equipamento.</p>
+              <a href="../projects/abertura-chamados-glpi/index.html" data-i18n="about.projectAutomationAction">Entender a automação <span aria-hidden="true">↗</span></a>
+            </div>
           </article>
-          <article class="journey-row">
-            <span>02</span>
-            <h3 data-i18n="about.path2Title">Automação e sistemas</h3>
-            <p data-i18n="about.path2Body">Processos repetitivos passaram a virar scripts, ferramentas internas e aplicações web. O foco continua sendo reduzir atrito sem esconder como a solução funciona.</p>
-          </article>
-          <article class="journey-row">
-            <span>03</span>
-            <h3 data-i18n="about.path3Title">Segurança e investigação</h3>
-            <p data-i18n="about.path3Body">A formação em Gestão de TI abriu caminho para o aprofundamento atual em computação forense e segurança, conectando operação, análise e responsabilidade técnica.</p>
+
+          <article class="bio-project">
+            <a class="bio-project-image" href="../projects/controle-acesso-visao/index.html">
+              <img src="../assets/images/projects/controle-acesso-visao.png" alt="Demonstração do Controle de Acesso Vision">
+            </a>
+            <div class="bio-project-copy">
+              <p data-i18n="about.projectResearchLabel">Formação e pesquisa</p>
+              <h3>Controle de Acesso Vision</h3>
+              <p data-i18n="about.projectResearchBody">Um trabalho acadêmico que conectou hardware, reconhecimento facial e segurança, posteriormente reconstruído como estudo de caso interativo.</p>
+              <a href="../projects/controle-acesso-visao/index.html" data-i18n="about.projectResearchAction">Ler o estudo de caso <span aria-hidden="true">↗</span></a>
+            </div>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section about-work">
-      <div class="shell">
-        <div class="about-section-heading">
-          <div class="section-kicker" data-i18n="about.workLabel">Na prática</div>
-          <h2 data-i18n="about.workTitle">A trajetória aparece nos projetos.</h2>
+    <section class="bio-record">
+      <div class="shell bio-record-grid">
+        <div>
+          <p class="bio-side-label" data-i18n="about.education">Formação</p>
+          <h2 data-i18n="about.recordTitle">Formação e experiência de ensino</h2>
         </div>
-        <div class="work-index">
-          <a class="work-index-row" href="projeto.html?slug=abertura-chamados-glpi">
-            <span data-i18n="about.workAutomation">Automação operacional</span>
-            <strong>GLPI Automator</strong>
-            <small data-i18n="about.workAutomationNote">Organização de evidências e abertura de chamados</small>
-            <i aria-hidden="true">↗</i>
-          </a>
-          <a class="work-index-row" href="projeto.html?slug=validador-firewall">
-            <span data-i18n="about.workInfra">Infraestrutura</span>
-            <strong>Validador Fortigate</strong>
-            <small data-i18n="about.workInfraNote">Tratamento de dados e geração de configuração</small>
-            <i aria-hidden="true">↗</i>
-          </a>
-          <a class="work-index-row" href="projeto.html?slug=igreja-casa">
-            <span data-i18n="about.workProduct">Produto web</span>
-            <strong>Igreja Casa Hub</strong>
-            <small data-i18n="about.workProductNote">Gestão, formulários, dados e operação em uma plataforma</small>
-            <i aria-hidden="true">↗</i>
-          </a>
-          <a class="work-index-row" href="projeto.html?slug=controle-acesso-visao">
-            <span data-i18n="about.workResearch">Trabalho acadêmico</span>
-            <strong>Controle de Acesso Vision</strong>
-            <small data-i18n="about.workResearchNote">Visão computacional, hardware e documentação</small>
-            <i aria-hidden="true">↗</i>
-          </a>
-        </div>
+        <dl class="bio-record-list">
+          <div>
+            <dt>2024</dt>
+            <dd><strong data-i18n="about.degree">Tecnólogo em Gestão da Tecnologia da Informação</strong><span data-i18n="about.degreeInstitution">Faculdade da Polícia Militar</span></dd>
+          </div>
+          <div>
+            <dt data-i18n="about.inProgress">Em andamento</dt>
+            <dd><strong data-i18n="about.post">Pós-graduação em Computação Forense e Segurança</strong><span>IPOG</span></dd>
+          </div>
+          <div>
+            <dt data-i18n="about.teaching">Experiência de ensino</dt>
+            <dd><strong data-i18n="about.teachingSummary">Criação de sites, edição de imagens e manutenção de computadores</strong><span data-i18n="about.teachingDetail">Duas experiências como instrutor e uma como monitor, com 20 horas cada.</span></dd>
+          </div>
+        </dl>
       </div>
     </section>
 
-    <section class="section about-education">
-      <div class="shell education-grid">
-        <div class="about-section-heading">
-          <div class="section-kicker" data-i18n="about.education">Formação</div>
-          <h2 data-i18n="about.educationTitle">Estudo contínuo, ligado ao trabalho.</h2>
-        </div>
-        <div class="education-list">
-          <article>
-            <p data-i18n="about.degreeMeta">Faculdade da Polícia Militar · concluído em dezembro de 2024</p>
-            <h3 data-i18n="about.degree">Tecnólogo em Gestão da Tecnologia da Informação</h3>
-          </article>
-          <article>
-            <p data-i18n="about.postMeta">IPOG · em andamento · previsão janeiro de 2027</p>
-            <h3 data-i18n="about.post">Pós-graduação em Computação Forense e Segurança</h3>
-          </article>
-          <article>
-            <p data-i18n="about.teaching">Experiência de ensino</p>
-            <h3 data-i18n="about.teachingSummary">Criação de sites, edição de imagens e manutenção de computadores</h3>
-            <small data-i18n="about.teachingDetail">Duas experiências como instrutor e uma como monitor, com 20 horas cada.</small>
-          </article>
-          <article>
-            <p data-i18n="about.credentials">Formação complementar</p>
-            <h3>Fortinet · Microsoft · Udemy · FPM</h3>
-            <small data-i18n="about.credentialsDetail">Cybersecurity, desenvolvimento, bancos de dados, ferramentas de produtividade e fundamentos de programação.</small>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section about-studio">
-      <div class="shell about-studio-grid">
+    <section class="bio-signature">
+      <div class="shell bio-signature-grid">
         <img src="../assets/images/branding/logo.png" alt="RDP Studio">
         <div>
-          <div class="section-kicker">RDP Studio</div>
-          <h2 data-i18n="about.rdpTitle">Um lugar para organizar e publicar o trabalho.</h2>
-          <p data-i18n="about.rdpBody">A RDP Studio reúne ferramentas operacionais, produtos próprios e trabalhos acadêmicos. Cada projeto mantém seu contexto, seu estágio atual e uma forma adequada de ser explorado.</p>
-          <a class="text-link" href="projetos.html" data-i18n="about.openArchive">Abrir o acervo <span aria-hidden="true">↗</span></a>
-        </div>
-      </div>
-    </section>
-
-    <section class="section about-contact">
-      <div class="shell contact-panel">
-        <h2 data-i18n="about.contactTitle">Quer conversar sobre um problema ou projeto?</h2>
-        <div>
-          <p class="contact-copy" data-i18n="about.contactBody">Explique o contexto, o que já existe e onde está o principal atrito. Essa é a melhor forma de começar.</p>
-          <div class="contact-links">
-            <a class="button primary" href="index.html#contato" data-i18n="about.contactAction">Ver contatos</a>
-          </div>
+          <h2>RDP Studio</h2>
+          <p data-i18n="about.signatureBody">É o nome que uso para organizar e publicar meus projetos. Alguns nasceram no trabalho, outros na formação acadêmica ou na vontade de entender melhor um problema. O site registra essas soluções, inclusive o que ainda está em desenvolvimento.</p>
+          <a href="projetos.html" data-i18n="about.openArchive">Abrir o acervo <span aria-hidden="true">↗</span></a>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer"><div class="shell footer-inner"><span>© <span data-year></span> RDP Studio</span><span data-i18n="footer.note">Projetos, ferramentas e estudos de caso.</span></div></footer>
+  <footer class="site-footer">
+    <div class="shell footer-inner"><span>© <span data-year></span> RDP Studio</span><span data-i18n="footer.note">Projetos, ferramentas e estudos de caso.</span></div>
+  </footer>
   <script src="../assets/js/rdp-data.js"></script>
   <script src="../assets/js/rdp-i18n.js"></script>
   <script src="../assets/js/rdp-site.js"></script>
