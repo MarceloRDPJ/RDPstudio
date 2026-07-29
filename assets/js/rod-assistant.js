@@ -213,9 +213,34 @@ class RodKnowledgeEngine {
 
   findIntent(query) {
     const normalized = normalizeText(query)
-    return this.knowledge.intents.find(intent =>
-      intent.keywords.some(keyword => normalized.includes(normalizeText(keyword)))
+    const exact = this.knowledge.intents.find(intent =>
+      intent.keywords.some(keyword => {
+        const phrase = normalizeText(keyword)
+        return normalized === phrase || normalized.includes(` ${phrase} `) || normalized.startsWith(`${phrase} `) || normalized.endsWith(` ${phrase}`)
+      })
     )
+    if (exact) return exact
+
+    const queryTokens = normalized.split(' ').filter(token => token.length > 1)
+    let best = null
+    let bestScore = 0
+    this.knowledge.intents.forEach(intent => {
+      intent.keywords.forEach(keyword => {
+        const keywordTokens = normalizeText(keyword).split(' ').filter(token => token.length > 1)
+        if (!keywordTokens.length) return
+        const score = keywordTokens.reduce((sum, keywordToken) => {
+          const closest = queryTokens.reduce((current, queryToken) => Math.max(current, tokenScore(queryToken, keywordToken)), 0)
+          return sum + closest
+        }, 0) / keywordTokens.length
+        const coverage = keywordTokens.filter(keywordToken => queryTokens.some(queryToken => tokenScore(queryToken, keywordToken) >= .72)).length / keywordTokens.length
+        const weighted = score * .7 + coverage * .3
+        if (weighted > bestScore) {
+          best = intent
+          bestScore = weighted
+        }
+      })
+    })
+    return bestScore >= .74 ? best : null
   }
 
   findProjects(query) {

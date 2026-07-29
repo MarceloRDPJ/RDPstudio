@@ -292,12 +292,12 @@
     },
     {
       "id": "identity",
-      "keywords": ["quem é você", "quem e voce", "o que você é", "o que voce e", "se apresente", "qual seu nome"],
+      "keywords": ["quem é você", "quem e voce", "quem é vc", "quem e vc", "qem e voce", "qem e vc", "o que você é", "o que voce e", "se apresente", "qual seu nome"],
       "response": "Eu sou o ROD, o guia da RDP Studio. Trabalho com uma base local sobre Marcelo, os sete projetos e as ferramentas deste portfólio. Não sou uma pessoa e não sei tudo, mas consigo relacionar o conteúdo daqui e levar você ao lugar certo."
     },
     {
       "id": "wellbeing",
-      "keywords": ["você está bem", "voce esta bem", "tudo bem com você", "tudo bem com voce", "como você está", "como voce esta", "como vai você", "como vai voce"],
+      "keywords": ["você está bem", "voce esta bem", "voce ta bem", "vc ta bem", "voce ta ben", "tudo bem com você", "tudo bem com voce", "como você está", "como voce esta", "como vai você", "como vai voce"],
       "response": "Tudo funcionando por aqui — obrigado por perguntar. E com você? Se quiser conversar sobre o portfólio, me diga o que chamou sua atenção."
     },
     {

@@ -5,7 +5,7 @@ const copy = {
     queryLabel:'Consulta atual',responseLabel:'Resposta do núcleo',send:'Enviar',
     pathsKicker:'Caminhos rápidos',pathsTitle:'Comece pelo assunto, não por um menu.',
     disclosureTitle:'Como o ROD funciona',
-    disclosure:'As respostas são montadas no seu navegador a partir do conteúdo publicado no portfólio. A conversa não é enviada para um servidor e o ROD informa quando não encontra contexto suficiente.',
+    disclosure:'As respostas e a visão são processadas no navegador. O reconhecimento de voz depende do serviço disponível no navegador e pode usar processamento do fornecedor. O ROD informa quando não encontra contexto suficiente.',
     ready:'Pronto para conectar',thinking:'Procurando relações',organizing:'Organizando o contexto',typing:'Formando a resposta',answered:'Resposta pronta',
     startTitle:'Por onde você quer começar?',
     startText:'Posso apresentar os sete projetos, explicar a trajetória de Marcelo, comparar tecnologias ou indicar a experiência mais adequada para uma necessidade.',
@@ -17,7 +17,7 @@ const copy = {
     queryLabel:'Current query',responseLabel:'Core response',send:'Send',
     pathsKicker:'Quick paths',pathsTitle:'Start with a subject, not a menu.',
     disclosureTitle:'How ROD works',
-    disclosure:'Answers are assembled in your browser from published portfolio content. The conversation is not sent to a server, and ROD states when there is not enough context.',
+    disclosure:'Answers and vision run in the browser. Speech recognition depends on the browser service and may use provider processing. ROD states when there is not enough context.',
     ready:'Ready to connect',thinking:'Finding connections',organizing:'Organizing context',typing:'Forming the answer',answered:'Answer ready',
     startTitle:'Where would you like to start?',
     startText:'I can introduce the seven projects, explain Marcelo’s path, compare technologies or point you to the right experience for a specific need.',
@@ -40,7 +40,102 @@ const elements = {
 let knowledge
 let engine
 let context = { lastProjectSlug:new URLSearchParams(location.search).get('project'), lastRecommendationSlugs:[] }
+let personality=localStorage.getItem('rdp-rod-personality')||'natural'
+let visionStream=null
+let visionFrame=0
 const lang = () => document.documentElement.dataset.lang === 'en' ? 'en' : 'pt-BR'
+
+const personalities={
+  natural:{label:'Natural',description:'Conversa clara e equilibrada.'},
+  direct:{label:'Direto',description:'Respostas curtas e objetivas.'},
+  teacher:{label:'Didático',description:'Explica contexto e próximos passos.'},
+  curious:{label:'Explorador',description:'Relaciona assuntos e sugere caminhos.'}
+}
+
+function detectClimate(question){
+  const value=question.toLowerCase()
+  if(/n[aã]o funciona|travou|erro|ruim|confuso|irritad|frustrad|n[aã]o entendi/.test(value))return'frustrated'
+  if(/amei|legal|ótimo|otimo|bom demais|gostei|parab[eé]ns/.test(value))return'positive'
+  if(/\?|como|por que|porque|qual|curios/.test(value))return'curious'
+  return'neutral'
+}
+function shapeAnswer(text,climate){
+  let result=text
+  if(personality==='direct')result=result.split('\n\n').slice(0,2).join('\n\n')
+  if(personality==='teacher'&&!/^(Vamos por partes|Primeiro,)/.test(result))result=`Vamos por partes. ${result}`
+  if(personality==='curious'&&!/^(Há uma conexão|Vale observar)/.test(result))result=`Há uma conexão interessante aqui. ${result}`
+  if(climate==='frustrated')result=`Entendi. Vou direto ao ponto. ${result}`
+  if(climate==='positive')result=`Que bom saber disso. ${result}`
+  return result
+}
+async function typeResponse(text,reduced){
+  elements.text.textContent=''
+  if(reduced){elements.text.textContent=text;return}
+  const lengthScale=text.length>650?.34:text.length>360?.52:text.length>180?.72:1
+  let index=0
+  while(index<text.length){
+    const chunk=text.slice(index,index+(Math.random()>.72?2:1))
+    elements.text.textContent+=chunk
+    index+=chunk.length
+    const last=chunk.at(-1)
+    const pause=/[.!?]/.test(last)?105:/[,;:]/.test(last)?58:last===' '?14:22
+    const delay=Math.max(7,pause*lengthScale*(personality==='direct'?.72:1))
+    await new Promise(resolve=>setTimeout(resolve,delay))
+  }
+}
+
+function loadScript(src,test){
+  if(test())return Promise.resolve()
+  return new Promise((resolve,reject)=>{const script=document.createElement('script');script.src=src;script.onload=()=>test()?resolve():reject(new Error('Recurso indisponível'));script.onerror=reject;document.head.appendChild(script)})
+}
+function initCapabilitiesUI(){
+  const intro=document.querySelector('.rod-intro>p')
+  const controls=document.createElement('div')
+  controls.className='rod-capability-bar'
+  controls.innerHTML=`<label><span>Personalidade</span><select data-rod-personality>${Object.entries(personalities).map(([value,item])=>`<option value="${value}" ${value===personality?'selected':''}>${item.label}</option>`).join('')}</select><small data-rod-personality-help>${personalities[personality].description}</small></label><div class="rod-mode-actions"><button type="button" data-rod-listen>Usar voz</button><button type="button" data-rod-speak>Ler resposta</button><button type="button" data-rod-vision>Visão</button></div>`
+  intro?.insertAdjacentElement('afterend',controls)
+  const caseSection=document.createElement('section')
+  caseSection.className='rod-case shell'
+  caseSection.innerHTML=`<div class="rod-case-head"><span class="section-kicker">ROD como case</span><h2>Quatro técnicas trabalhando juntas.</h2><p>O ROD não esconde o mecanismo: cada modo mostra uma técnica diferente e seus limites.</p></div><div class="rod-techniques"><article><strong>01</strong><div><h3>Linguagem e erros</h3><p>Normalização, distância de edição e busca aproximada reconhecem variações e pequenos erros de digitação.</p></div></article><article><strong>02</strong><div><h3>Contexto e clima</h3><p>Uma classificação local identifica intenção, curiosidade, frustração ou retorno positivo para ajustar o ritmo da resposta.</p></div></article><article><strong>03</strong><div><h3>Voz</h3><p>Reconhecimento e síntese usam os recursos de fala disponíveis no navegador e no sistema operacional.</p></div></article><article><strong>04</strong><div><h3>Visão computacional</h3><p>TensorFlow.js e COCO-SSD detectam objetos na câmera sem armazenar imagens.</p></div></article></div>`
+  document.querySelector('.rod-paths')?.before(caseSection)
+  controls.querySelector('[data-rod-personality]').addEventListener('change',event=>{personality=event.target.value;localStorage.setItem('rdp-rod-personality',personality);controls.querySelector('[data-rod-personality-help]').textContent=personalities[personality].description})
+  initSpeech(controls)
+  controls.querySelector('[data-rod-vision]').addEventListener('click',openVision)
+}
+function initSpeech(controls){
+  const listen=controls.querySelector('[data-rod-listen]')
+  const Recognition=window.SpeechRecognition||window.webkitSpeechRecognition
+  if(!Recognition){listen.disabled=true;listen.title='Reconhecimento de voz não disponível neste navegador'}else{
+    const recognition=new Recognition();recognition.lang='pt-BR';recognition.interimResults=true
+    listen.addEventListener('click',()=>{recognition.start();listen.dataset.active='true';elements.status.textContent='Ouvindo'})
+    recognition.onresult=event=>{elements.input.value=Array.from(event.results).map(result=>result[0].transcript).join('')}
+    recognition.onend=()=>{listen.dataset.active='false';elements.status.textContent=copy[lang()].ready;if(elements.input.value.trim())ask(elements.input.value)}
+    recognition.onerror=()=>{listen.dataset.active='false';elements.status.textContent='Não consegui ouvir'}
+  }
+  controls.querySelector('[data-rod-speak]').addEventListener('click',()=>{speechSynthesis.cancel();const utterance=new SpeechSynthesisUtterance(elements.text.textContent);utterance.lang=lang()==='en'?'en-US':'pt-BR';speechSynthesis.speak(utterance)})
+}
+async function openVision(){
+  let panel=document.querySelector('[data-rod-vision-panel]')
+  if(!panel){
+    panel=document.createElement('section');panel.className='rod-vision shell';panel.dataset.rodVisionPanel=''
+    panel.innerHTML=`<div class="rod-vision-copy"><span class="section-kicker">Laboratório de visão</span><h2>O que o ROD consegue reconhecer?</h2><p>A câmera é processada no navegador com COCO-SSD. Nenhuma imagem é enviada ou armazenada. A detecção é genérica e pode errar.</p><button type="button" data-rod-vision-close>Encerrar câmera</button></div><div class="rod-vision-feed"><video data-rod-video playsinline muted></video><canvas data-rod-vision-canvas></canvas><p data-rod-vision-result>Preparando o modelo local…</p></div>`
+    document.querySelector('.rod-paths').before(panel);panel.querySelector('[data-rod-vision-close]').addEventListener('click',closeVision)
+  }
+  panel.hidden=false;panel.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'auto':'smooth',block:'center'})
+  const result=panel.querySelector('[data-rod-vision-result]')
+  try{
+    await loadScript('https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.20.0/dist/tf.min.js',()=>Boolean(window.tf))
+    await loadScript('https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd',()=>Boolean(window.cocoSsd))
+    result.textContent='Carregando o modelo COCO-SSD…'
+    const model=await window.cocoSsd.load()
+    visionStream=await navigator.mediaDevices.getUserMedia({video:{facingMode:'environment'},audio:false})
+    const video=panel.querySelector('[data-rod-video]');video.srcObject=visionStream;await video.play()
+    const canvas=panel.querySelector('[data-rod-vision-canvas]'),ctx=canvas.getContext('2d')
+    const detect=async()=>{if(!visionStream)return;canvas.width=video.videoWidth;canvas.height=video.videoHeight;ctx.clearRect(0,0,canvas.width,canvas.height);const predictions=await model.detect(video);predictions.slice(0,6).forEach(item=>{ctx.strokeStyle='#b2d98b';ctx.lineWidth=3;ctx.strokeRect(...item.bbox);ctx.fillStyle='#b2d98b';ctx.font='16px sans-serif';ctx.fillText(`${item.class} ${Math.round(item.score*100)}%`,item.bbox[0],Math.max(18,item.bbox[1]-6))});result.textContent=predictions.length?`Reconhecido agora: ${predictions.slice(0,4).map(item=>`${item.class} (${Math.round(item.score*100)}%)`).join(', ')}`:'Observando a cena…';visionFrame=requestAnimationFrame(detect)}
+    detect()
+  }catch(error){result.textContent=error.name==='NotAllowedError'?'A câmera não foi autorizada. Você pode ativá-la nas permissões do navegador.':'Não foi possível iniciar a visão neste dispositivo.'}
+}
+function closeVision(){cancelAnimationFrame(visionFrame);visionStream?.getTracks().forEach(track=>track.stop());visionStream=null;const panel=document.querySelector('[data-rod-vision-panel]');if(panel)panel.hidden=true}
 
 function renderStatic(){
   const dictionary=copy[lang()]
@@ -95,17 +190,9 @@ async function ask(question){
   await new Promise(resolve=>setTimeout(resolve,reduced?0:240))
   const answer=engine.answer(question,{...context});context=answer.context||context
   elements.title.textContent=responseTitle(answer,question)
-  const responseText=lang()==='en'?englishAnswer(answer,question):answer.text
+  const responseText=shapeAnswer(lang()==='en'?englishAnswer(answer,question):answer.text,detectClimate(question))
   elements.core.dataset.rodCoreState='typing';elements.status.textContent=dictionary.typing
-  if(reduced){
-    elements.text.textContent=responseText
-  }else{
-    const words=responseText.split(/(\s+)/)
-    for(let index=0;index<words.length;index+=1){
-      elements.text.textContent+=words[index]
-      if(words[index].trim())await new Promise(resolve=>setTimeout(resolve,Math.min(52,18+words[index].length*1.6)))
-    }
-  }
+  await typeResponse(responseText,reduced)
   renderActions(answer.actions);renderSuggestions(lang()==='en'?starter.en:(answer.suggestions.length?answer.suggestions:starter['pt-BR']))
   elements.core.dataset.rodCoreState='answer';elements.status.textContent=dictionary.answered;elements.response.setAttribute('aria-busy','false')
   elements.input.disabled=false;elements.input.focus()
@@ -129,6 +216,7 @@ function initCanvas(){
 }
 async function init(){
   renderStatic()
+  initCapabilitiesUI()
   const response=await fetch('../assets/data/rod-knowledge.json',{cache:'no-store'})
   if(!response.ok)throw new Error('Base do ROD indisponível')
   knowledge=await response.json();engine=new window.RodKnowledgeEngine(knowledge)
