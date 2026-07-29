@@ -56,6 +56,9 @@
   $("[data-rm-reset]")?.addEventListener("click",()=>location.reload());$$("[data-rm-print]").forEach(b=>b.addEventListener("click",()=>{const report=$('[data-rm-view="report"]');report?.click();setTimeout(()=>print(),50)}));
   $("[data-rm-search]")?.addEventListener("input",e=>renderTable(e.target.value));document.addEventListener("click",e=>{const b=e.target.closest("[data-nature]");if(b){$('[data-rm-view="movements"]').click();$("[data-rm-search]").value=b.dataset.nature;renderTable(b.dataset.nature)}});
   $("[data-rm-theme]")?.addEventListener("click",()=>{const next=document.documentElement.dataset.theme==="dark"?"light":"dark";document.documentElement.dataset.theme=next;localStorage.setItem("rm-product-theme",next)});
-  const stored=localStorage.getItem("rm-product-theme");if(stored)document.documentElement.dataset.theme=stored;
+  const stored=localStorage.getItem("rm-product-theme"),siteMode=localStorage.getItem("rdp-theme-mode");
+  if(stored)document.documentElement.dataset.theme=stored;
+  else if(siteMode==="light"||siteMode==="dark"||siteMode==="contrast")document.documentElement.dataset.theme=siteMode;
+  else if(siteMode==="system")document.documentElement.dataset.theme=matchMedia("(prefers-color-scheme: light)").matches?"light":"dark";
   if(new URLSearchParams(location.search).get("demo")==="1")load(demoRows(),"Fluxo RM · demonstração",true);
 })();
