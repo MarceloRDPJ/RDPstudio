@@ -43,6 +43,7 @@ let context = { lastProjectSlug:new URLSearchParams(location.search).get('projec
 let personality=localStorage.getItem('rdp-rod-personality')||'natural'
 let visionStream=null
 let visionFrame=0
+let visionStarting=false
 const lang = () => document.documentElement.dataset.lang === 'en' ? 'en' : 'pt-BR'
 
 const personalities={
@@ -115,27 +116,44 @@ function initSpeech(controls){
   controls.querySelector('[data-rod-speak]').addEventListener('click',()=>{speechSynthesis.cancel();const utterance=new SpeechSynthesisUtterance(elements.text.textContent);utterance.lang=lang()==='en'?'en-US':'pt-BR';speechSynthesis.speak(utterance)})
 }
 async function openVision(){
+  if(visionStarting||visionStream)return
+  visionStarting=true
+  const visionButton=document.querySelector('[data-rod-vision]')
+  if(visionButton){visionButton.disabled=true;visionButton.textContent='Solicitando câmera…'}
   let panel=document.querySelector('[data-rod-vision-panel]')
   if(!panel){
     panel=document.createElement('section');panel.className='rod-vision shell';panel.dataset.rodVisionPanel=''
-    panel.innerHTML=`<div class="rod-vision-copy"><span class="section-kicker">Laboratório de visão</span><h2>O que o ROD consegue reconhecer?</h2><p>A câmera é processada no navegador com COCO-SSD. Nenhuma imagem é enviada ou armazenada. A detecção é genérica e pode errar.</p><button type="button" data-rod-vision-close>Encerrar câmera</button></div><div class="rod-vision-feed"><video data-rod-video playsinline muted></video><canvas data-rod-vision-canvas></canvas><p data-rod-vision-result>Preparando o modelo local…</p></div>`
+    panel.innerHTML=`<div class="rod-vision-copy"><span class="section-kicker">Laboratório de visão</span><h2>O que o ROD consegue reconhecer?</h2><p>A câmera é processada no navegador com COCO-SSD. Nenhuma imagem é enviada ou armazenada. A detecção é genérica e pode errar.</p><button type="button" data-rod-vision-close>Encerrar câmera</button></div><div class="rod-vision-feed"><video data-rod-video playsinline muted></video><canvas data-rod-vision-canvas></canvas><p data-rod-vision-result role="status" aria-live="polite">Aguardando permissão da câmera…</p></div>`
     document.querySelector('.rod-paths').before(panel);panel.querySelector('[data-rod-vision-close]').addEventListener('click',closeVision)
   }
   panel.hidden=false;panel.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'auto':'smooth',block:'center'})
   const result=panel.querySelector('[data-rod-vision-result]')
   try{
+    if(!window.isSecureContext||!navigator.mediaDevices?.getUserMedia)throw Object.assign(new Error('Câmera indisponível'),{name:'UnsupportedError'})
+    result.textContent='Autorize o uso da câmera no navegador.'
+    visionStream=await navigator.mediaDevices.getUserMedia({video:{facingMode:{ideal:'environment'},width:{ideal:1280},height:{ideal:720}},audio:false})
+    const video=panel.querySelector('[data-rod-video]');video.srcObject=visionStream
+    await video.play()
+    result.textContent='Câmera ativa. Carregando o reconhecimento de objetos…'
+    if(visionButton)visionButton.textContent='Visão ativa'
     await loadScript('https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.20.0/dist/tf.min.js',()=>Boolean(window.tf))
     await loadScript('https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd',()=>Boolean(window.cocoSsd))
     result.textContent='Carregando o modelo COCO-SSD…'
     const model=await window.cocoSsd.load()
-    visionStream=await navigator.mediaDevices.getUserMedia({video:{facingMode:'environment'},audio:false})
-    const video=panel.querySelector('[data-rod-video]');video.srcObject=visionStream;await video.play()
+    if(!visionStream)return
     const canvas=panel.querySelector('[data-rod-vision-canvas]'),ctx=canvas.getContext('2d')
     const detect=async()=>{if(!visionStream)return;canvas.width=video.videoWidth;canvas.height=video.videoHeight;ctx.clearRect(0,0,canvas.width,canvas.height);const predictions=await model.detect(video);predictions.slice(0,6).forEach(item=>{ctx.strokeStyle='#b2d98b';ctx.lineWidth=3;ctx.strokeRect(...item.bbox);ctx.fillStyle='#b2d98b';ctx.font='16px sans-serif';ctx.fillText(`${item.class} ${Math.round(item.score*100)}%`,item.bbox[0],Math.max(18,item.bbox[1]-6))});result.textContent=predictions.length?`Reconhecido agora: ${predictions.slice(0,4).map(item=>`${item.class} (${Math.round(item.score*100)}%)`).join(', ')}`:'Observando a cena…';visionFrame=requestAnimationFrame(detect)}
     detect()
-  }catch(error){result.textContent=error.name==='NotAllowedError'?'A câmera não foi autorizada. Você pode ativá-la nas permissões do navegador.':'Não foi possível iniciar a visão neste dispositivo.'}
+  }catch(error){
+    visionStream?.getTracks().forEach(track=>track.stop());visionStream=null
+    const messages={NotAllowedError:'A câmera foi bloqueada. Libere a permissão para rdpstudio.com.br nas configurações do navegador e tente novamente.',NotFoundError:'Nenhuma câmera foi encontrada neste dispositivo.',NotReadableError:'A câmera está sendo usada por outro aplicativo ou não pôde ser iniciada.',OverconstrainedError:'A câmera disponível não atende à configuração solicitada.',UnsupportedError:'Este navegador ou contexto não permite acesso à câmera.'}
+    result.textContent=messages[error.name]||'Não foi possível iniciar a câmera. Verifique a permissão e tente novamente.'
+    if(visionButton){visionButton.disabled=false;visionButton.textContent='Tentar visão novamente'}
+  }finally{
+    visionStarting=false
+  }
 }
-function closeVision(){cancelAnimationFrame(visionFrame);visionStream?.getTracks().forEach(track=>track.stop());visionStream=null;const panel=document.querySelector('[data-rod-vision-panel]');if(panel)panel.hidden=true}
+function closeVision(){cancelAnimationFrame(visionFrame);visionStream?.getTracks().forEach(track=>track.stop());visionStream=null;visionStarting=false;const panel=document.querySelector('[data-rod-vision-panel]');if(panel)panel.hidden=true;const button=document.querySelector('[data-rod-vision]');if(button){button.disabled=false;button.textContent='Visão'}}
 
 function renderStatic(){
   const dictionary=copy[lang()]
