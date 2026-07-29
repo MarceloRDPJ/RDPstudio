@@ -1,33 +1,33 @@
-# Relatório Interativo
+# RDP Visão RM
 
-## Visão Geral
-O **Relatório Interativo** é uma ferramenta de Business Intelligence (BI) client-side projetada para transformar planilhas financeiras (Excel/CSV) em dashboards executivos dinâmicos.
+Camada independente de leitura e conferência para o fluxo de caixa exportado do TOTVS Gestão Financeira.
 
-O projeto resolve a dificuldade de gerar relatórios financeiros limpos e rápidos, eliminando a necessidade de formatação manual em Excel. Com ele, o usuário pode importar dados brutos, aplicar filtros interativos e exportar relatórios em PDF prontos para impressão.
+## Estrutura
 
-## Funcionalidades
-- **Importação Universal:** Suporte a arquivos `.xlsx`, `.xls` e `.csv`.
-- **Dashboard Dinâmico:** Visualização automática de KPIs (Receita, Despesa, Saldo).
-- **Filtragem Avançada:** Filtros por período (data), categoria e descrição.
-- **Gráficos Interativos:** Rankings, Evolução Temporal, Distribuição e Dispersão.
-- **Exportação PDF:** Geração de relatórios estáticos de alta fidelidade.
-- **Privacidade Total:** Processamento 100% local (offline), garantindo segurança dos dados financeiros.
+- `index.html`: página explicativa do produto;
+- `app.html`: analisador funcional;
+- `rm-analyzer.js`: importação, reconhecimento, cálculos e apresentação;
+- `rm-product.css`: sistema visual responsivo;
+- `demo/fluxo-rm-demonstracao.csv`: base fictícia para teste;
+- `tecnoit.html`: redirecionamento de compatibilidade para a aplicação atual.
 
-## Tecnologias
-- **Frontend:** HTML5, Tailwind CSS (Design System RDP Studio)
-- **Lógica:** JavaScript (ES6+)
-- **Bibliotecas:**
-  - `Chart.js`: Visualização de dados.
-  - `SheetJS` (xlsx): Leitura de planilhas.
-  - `PapaParse`: Leitura de CSV.
-  - `html2canvas` & `jspdf`: Geração de PDF.
+## Fluxo de uso
 
-## Como Usar
-1. Acesse a ferramenta.
-2. Arraste ou selecione seu arquivo financeiro.
-3. Utilize a barra de ferramentas para filtrar os dados desejados.
-4. Analise os gráficos gerados.
-5. Clique em "Exportar PDF" para salvar o relatório.
+1. Exportar o Fluxo de Caixa no RM.
+2. Importar XLS, XLSX ou CSV.
+3. Conferir colunas, meses e pendências reconhecidas.
+4. Analisar entradas, saídas, saldo, naturezas e movimentos.
+5. Imprimir ou salvar o resumo.
 
-## Licença
-Copyright 2025 RDP STUDIO. Todos os direitos reservados.
+O arquivo é processado no navegador e não é enviado para um servidor da RDP Studio. A leitura de XLS/XLSX carrega o SheetJS sob demanda; CSV funciona sem essa dependência.
+
+## Limites atuais
+
+- O importador reconhece natureza, centro de custo, tipo e meses por nomes de cabeçalho.
+- Linhas de totalização são ignoradas para evitar dupla contagem.
+- Tipos não reconhecidos ficam fora dos totais e aparecem na conferência.
+- Variações de layout do RM podem precisar de um perfil específico.
+- A compatibilidade final ainda deve ser validada com exportações reais anonimizadas.
+- A ferramenta não grava dados no RM, não recalcula regras contábeis e não substitui a conferência com o relatório de origem.
+
+TOTVS e RM são marcas de seus respectivos proprietários. Este projeto é independente.

@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Analisador local de fluxo de caixa exportado do TOTVS RM.">
+  <title>Analisador — RDP Visão RM</title>
+  <link rel="icon" href="../../assets/site/favicon-32x32.png">
+  <link rel="stylesheet" href="rm-product.css">
+</head>
+<body class="rm-app-page">
+  <a class="skip-link" href="#rm-main">Ir para o conteúdo</a>
+  <header class="rm-app-header">
+    <a class="rm-app-brand" href="index.html"><img src="../../assets/images/branding/logo-black.png" alt=""><span><strong>RDP Visão RM</strong><small>Leitura do fluxo de caixa</small></span></a>
+    <div class="rm-app-header-actions">
+      <span class="rm-local-note">Processamento neste navegador</span>
+      <button type="button" class="rm-icon-button" data-rm-theme aria-label="Alternar tema" title="Alternar tema">◐</button>
+      <a class="rm-icon-button" href="index.html" aria-label="Sobre a ferramenta" title="Sobre a ferramenta">?</a>
+    </div>
+  </header>
+
+  <main id="rm-main">
+    <section class="rm-import-screen" data-rm-import-screen>
+      <div class="rm-import-copy">
+        <p class="rm-app-kicker">Nova análise</p>
+        <h1>Importe um Fluxo de Caixa do RM.</h1>
+        <p>A ferramenta procura a estrutura usada pelo relatório financeiro, mostra o que reconheceu e só então monta a análise.</p>
+        <div class="rm-import-actions">
+          <label class="rm-button rm-button-primary" for="rm-file">Selecionar planilha</label>
+          <input id="rm-file" type="file" accept=".xlsx,.xls,.csv" hidden>
+          <button class="rm-button rm-button-secondary" type="button" data-rm-demo>Usar demonstração</button>
+        </div>
+        <p class="rm-file-help">Formatos aceitos: XLS, XLSX e CSV. Arquivos Excel precisam de conexão para carregar o leitor nesta versão. <a href="demo/fluxo-rm-demonstracao.csv" download>Baixar CSV de teste</a>.</p>
+      </div>
+      <aside class="rm-import-guide">
+        <p>Origem esperada</p>
+        <strong>TOTVS Gestão Financeira</strong>
+        <ol>
+          <li>Abra Gestão de Caixa</li>
+          <li>Gere o Fluxo de Caixa</li>
+          <li>Salve a planilha Excel</li>
+          <li>Importe o arquivo aqui</li>
+        </ol>
+        <a href="index.html#limites">Ver estrutura reconhecida →</a>
+      </aside>
+    </section>
+
+    <section class="rm-workspace" data-rm-workspace hidden>
+      <aside class="rm-workspace-nav">
+        <div class="rm-analysis-file">
+          <small>Análise atual</small>
+          <strong data-rm-file-name>Fluxo demonstrativo</strong>
+          <span data-rm-period>Jan–Dez 2026</span>
+        </div>
+        <nav aria-label="Áreas da análise">
+          <button class="is-active" type="button" data-rm-view="overview"><span>Visão geral</span></button>
+          <button type="button" data-rm-view="check"><span>Conferência</span><i data-rm-issue-count>0</i></button>
+          <button type="button" data-rm-view="movements"><span>Movimentos</span></button>
+          <button type="button" data-rm-view="report"><span>Resumo</span></button>
+        </nav>
+        <button class="rm-new-analysis" type="button" data-rm-reset>+ Nova análise</button>
+      </aside>
+
+      <div class="rm-workspace-content">
+        <section class="rm-view is-active" data-rm-panel="overview">
+          <header class="rm-view-header">
+            <div><p data-rm-context>Demonstração · valores fictícios</p><h1>Visão geral</h1></div>
+            <button class="rm-button rm-button-secondary" type="button" data-rm-print>Imprimir resumo</button>
+          </header>
+          <div class="rm-balance-block">
+            <div><small>Saldo final</small><strong data-rm-balance>R$ 0,00</strong><span data-rm-lowest>Menor saldo —</span></div>
+            <div class="rm-flow-totals"><p><span>Entradas</span><strong data-rm-income>R$ 0,00</strong></p><p><span>Saídas</span><strong data-rm-expense>R$ 0,00</strong></p></div>
+          </div>
+          <div class="rm-chart-panel">
+            <header><div><h2>Evolução mensal</h2><p>Entradas, saídas e saldo acumulado</p></div><div class="rm-chart-key"><span class="income">Entradas</span><span class="expense">Saídas</span><span class="balance">Saldo</span></div></header>
+            <div class="rm-chart" data-rm-chart></div>
+          </div>
+          <div class="rm-overview-columns">
+            <section><header><h2>Pontos de atenção</h2><p>Calculados a partir desta importação</p></header><div class="rm-attention-list" data-rm-attention></div></section>
+            <section><header><h2>Saídas por natureza</h2><p>Selecione para ver os movimentos</p></header><div class="rm-nature-list" data-rm-natures></div></section>
+          </div>
+        </section>
+
+        <section class="rm-view" data-rm-panel="check" hidden>
+          <header class="rm-view-header"><div><p>Antes dos gráficos</p><h1>Conferência da importação</h1></div></header>
+          <div class="rm-check-summary" data-rm-check-summary></div>
+          <section class="rm-data-section"><header><h2>Como a estrutura foi interpretada</h2></header><dl class="rm-mapping-list" data-rm-mapping></dl></section>
+          <section class="rm-data-section"><header><h2>Pendências encontradas</h2></header><div class="rm-issues" data-rm-issues></div></section>
+        </section>
+
+        <section class="rm-view" data-rm-panel="movements" hidden>
+          <header class="rm-view-header"><div><p>Base interpretada</p><h1>Movimentos</h1></div><label class="rm-search"><span>Buscar</span><input type="search" data-rm-search placeholder="Natureza ou centro de custo"></label></header>
+          <div class="rm-table-wrap"><table><thead><tr><th>Período</th><th>Tipo</th><th>Natureza</th><th>Centro de custo</th><th class="number">Valor</th></tr></thead><tbody data-rm-table></tbody></table></div>
+        </section>
+
+        <section class="rm-view" data-rm-panel="report" hidden>
+          <header class="rm-view-header"><div><p>Leitura preparada</p><h1>Resumo da análise</h1></div><button class="rm-button rm-button-primary" type="button" data-rm-print>Imprimir / salvar PDF</button></header>
+          <article class="rm-report" data-rm-report></article>
+        </section>
+      </div>
+    </section>
+  </main>
+  <div class="rm-toast" role="status" aria-live="polite" data-rm-toast hidden></div>
+  <script src="rm-analyzer.js"></script>
+</body>
+</html>

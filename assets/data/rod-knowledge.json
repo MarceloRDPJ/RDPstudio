@@ -188,22 +188,22 @@
     },
     {
       "slug": "relatorio-interativo",
-      "name": "Relatorio Interativo",
-      "aliases": ["relatorio", "dashboard financeiro", "bi", "planilha", "pdf"],
-      "category": "BI Tools",
-      "summary": "Dashboard client-side para leitura de planilhas financeiras com filtros e exportacao em PDF.",
-      "problem": "Analises financeiras em planilhas brutas custam tempo e dificultam conferencia e entrega executiva.",
-      "solution": "A ferramenta processa arquivos localmente e transforma dados brutos em indicadores e relatorios navegaveis.",
+      "name": "RDP Visao RM",
+      "aliases": ["relatorio", "totvs rm", "fluxo de caixa", "dashboard financeiro", "planilha"],
+      "category": "TOTVS RM e dados",
+      "summary": "Camada local de leitura e conferencia para o fluxo de caixa exportado do TOTVS RM.",
+      "problem": "Depois da exportacao do RM, a conferencia de naturezas, centros de custo e totais ainda costuma continuar manualmente no Excel.",
+      "solution": "A ferramenta mostra como reconheceu a estrutura e organiza entradas, saidas, saldos e movimentos sem alterar o arquivo original.",
       "howToUse": [
-        "Envie uma planilha XLSX ou CSV.",
-        "Processe os dados para gerar dashboard e conferencia.",
-        "Aplique filtros e exporte o resultado quando necessario."
+        "Exporte o Fluxo de Caixa no TOTVS Gestao Financeira.",
+        "Importe o arquivo XLS, XLSX ou CSV.",
+        "Confira o mapeamento antes de analisar ou imprimir o resumo."
       ],
-      "stack": ["HTML", "JavaScript", "Chart.js", "SheetJS", "jsPDF"],
+      "stack": ["HTML", "CSS", "JavaScript", "SVG", "SheetJS"],
       "backendMode": "Sem backend",
       "projectUrl": "../projects/relatorio-interativo/index.html",
-      "guidedTourUrl": "../projects/relatorio-interativo/index.html?rodTour=quickstart",
-      "keywords": ["bi", "dashboard", "financeiro", "csv", "xlsx", "pdf", "kpi"]
+      "guidedTourUrl": "../projects/relatorio-interativo/app.html?demo=1",
+      "keywords": ["totvs", "rm", "fluxo de caixa", "financeiro", "csv", "xlsx", "natureza", "centro de custo"]
     }
   ],
   "intents": [

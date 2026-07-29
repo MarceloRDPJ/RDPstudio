@@ -1,390 +1,117 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+<!doctype html>
+<html lang="pt-BR" data-theme="dark">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Relatório Interativo | RDP Studio</title>
-    <meta name="description" content="Dashboard Financeiro Inteligente">
-
-    <!-- RDP Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/site/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/site/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/site/favicon-16x16.png">
-    <link rel="manifest" href="../../assets/site/site.webmanifest">
-
-    <!-- Bibliotecas -->
-    <!-- Fonts & Icons -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-<style>
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #020617;
-            background-image: radial-gradient(circle at 15% 50%, rgba(30, 58, 95, 0.15), transparent 25%), radial-gradient(circle at 85% 30%, rgba(0, 180, 216, 0.1), transparent 25%);
-            background-attachment: fixed;
-            color: #F8FAFC;
-        }
-
-        .glass-card {
-            background: rgba(30, 41, 59, 0.4);
-            backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.05);
-            border-radius: 1rem;
-            transition: all 0.3s ease;
-        }
-
-        .glass-card:hover {
-            border-color: rgba(0, 180, 216, 0.3);
-        }
-
-        .btn-primary {
-            background-color: #00B4D8;
-            color: white;
-            font-weight: 600;
-            padding: 0.5rem 1.5rem;
-            border-radius: 0.5rem;
-            transition: background 0.2s;
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-        .btn-primary:hover { background-color: #0096b3; }
-
-        .btn-secondary {
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            color: #94a3b8;
-            font-weight: 600;
-            padding: 0.5rem 1.5rem;
-            border-radius: 0.5rem;
-            transition: all 0.2s;
-        }
-        .btn-secondary:hover { border-color: #fff; color: #fff; }
-
-        ::-webkit-scrollbar { width: 8px; }
-        ::-webkit-scrollbar-track { background: #020617; }
-        ::-webkit-scrollbar-thumb { background: #2D3748; border-radius: 4px; }
-        ::-webkit-scrollbar-thumb:hover { background: #4A5568; }
-
-        .wizard-step { display: none; }
-        .wizard-step.active { display: block; animation: fadeIn 0.5s ease-out; }
-
-        /* Input Styles for Dark Mode */
-        input[type="date"], input[type="text"], select, textarea {
-            color-scheme: dark;
-            background: rgba(30, 41, 59, 0.5);
-            border-color: rgba(255, 255, 255, 0.1);
-            color: white;
-        }
-
-        table th { font-weight: 600; color: #94a3b8; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; }
-        table td { font-size: 0.8rem; color: #e2e8f0; }
-    </style>
-<!-- RDP_REBRAND_HEAD -->
-<link rel='stylesheet' href='../../assets/css/project-base.css'>
-<script>try{const m=localStorage.getItem('rdp-theme-mode')||'system';document.documentElement.dataset.themeMode=m;document.documentElement.dataset.theme=m==='system'?(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark'):m}catch(e){}</script>
-
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Uma camada de leitura e conferência para o fluxo de caixa exportado do TOTVS RM.">
+  <title>RDP Visão RM — leitura para o fluxo de caixa do RM</title>
+  <link rel="icon" href="../../assets/site/favicon-32x32.png">
+  <link rel="stylesheet" href="../../assets/css/rdp-rebrand.css">
+  <link rel="stylesheet" href="rm-product.css">
+  <script>try{const m=localStorage.getItem('rdp-theme-mode')||'system';document.documentElement.dataset.themeMode=m;document.documentElement.dataset.theme=m==='system'?(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark'):m}catch(e){}</script>
 </head>
-<body class="flex flex-col min-h-screen" data-rdp-project="relatorio-interativo">
-
-    <!-- Header -->
-    <header class="border-b border-slate-800/50 bg-slate-900/50 backdrop-blur-md sticky top-0 z-50">
-        <div class="max-w-7xl mx-auto px-6 h-16 flex justify-between items-center">
-            <div class="flex items-center gap-6">
-                <a href="../../hub/projetos.html" class="flex items-center gap-2 text-slate-400 hover:text-white transition-colors group">
-                    <div class="p-2 rounded-lg bg-white/5 border border-white/10 group-hover:border-vibrantCyan/50 transition-colors">
-                        <i class="fa-solid fa-arrow-left"></i>
-                    </div>
-                    <span class="text-sm font-semibold tracking-wide uppercase hidden md:block">Voltar ao Hub</span>
-                </a>
-                <div class="h-6 w-px bg-white/10 hidden md:block"></div>
-                <a href="../../hub/index.html" class="flex items-center gap-4 group">
-                    <div class="w-10 h-10 rounded-xl glass-card flex items-center justify-center p-1">
-                        <img src="../../assets/images/branding/logo.png" alt="Logo" class="w-full h-full object-contain group-hover:scale-110 transition-transform">
-                    </div>
-                    <h1 class="text-xl font-bold tracking-tight text-white hidden sm:block">RDP <span class="text-vibrantCyan font-light">STUDIO</span></h1>
-                </a>
-            </div>
-
-            <nav class="hidden md:flex gap-4">
-                <button onclick="App.switchView('dashboard')" id="btn-view-dashboard" class="text-sm font-medium text-vibrantCyan bg-vibrantCyan/20 px-3 py-1.5 rounded-lg transition border border-vibrantCyan/50">Dashboard</button>
-                <button onclick="App.switchView('debug')" id="btn-view-debug" class="text-sm font-medium text-slate-400 hover:bg-slate-800 px-3 py-1.5 rounded-lg transition">Conferência de Dados</button>
-                <button onclick="App.switchView('report')" id="btn-view-report" class="text-sm font-medium text-slate-400 hover:bg-slate-800 px-3 py-1.5 rounded-lg transition">Relatórios</button>
-            </nav>
-
-            <div class="flex items-center gap-4">
-                <a href="tecnoit.html" class="hidden md:flex items-center gap-2 px-4 py-2 rounded-lg bg-white/80 hover:bg-white backdrop-blur-md text-slate-900 transition-all text-sm font-medium border border-white/10 shadow-lg shadow-white/5">
-                    Modo Tecno it
-                </a>
-                <button onclick="location.reload()" class="hidden md:block text-slate-400 hover:text-red-500 transition" title="Reiniciar">
-                    <i class="fa-solid fa-power-off"></i>
-                </button>
-                <!-- Mobile Menu Button -->
-                <button id="mobile-menu-btn" class="md:hidden text-white text-2xl p-2 z-50 relative group">
-                    <div class="absolute inset-0 bg-white/5 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                    <i class="fa-solid fa-bars relative z-10"></i>
-                </button>
-            </div>
-        </div>
-    </header>
-
-    <!-- Mobile Menu Overlay -->
-    <div id="mobile-menu-overlay" class="fixed inset-0 z-40 bg-slate-900/95 backdrop-blur-xl transform translate-x-full transition-transform duration-300 flex flex-col items-center justify-center space-y-8 md:hidden">
-        <a href="../../hub/projetos.html" class="text-xl font-bold text-slate-400 hover:text-white transition-colors mobile-link flex items-center gap-2">
-            <i class="fa-solid fa-arrow-left"></i> Voltar ao Hub
-        </a>
-        <div class="w-16 h-px bg-slate-800"></div>
-        <button onclick="App.switchView('dashboard'); closeMobileMenu()" class="text-2xl font-bold text-vibrantCyan hover:text-vibrantCyan transition-colors mobile-link">Dashboard</button>
-        <button onclick="App.switchView('debug'); closeMobileMenu()" class="text-2xl font-bold text-white hover:text-vibrantCyan transition-colors mobile-link">Conferência</button>
-        <button onclick="App.switchView('report'); closeMobileMenu()" class="text-2xl font-bold text-white hover:text-vibrantCyan transition-colors mobile-link">Relatórios</button>
-        <div class="w-16 h-px bg-slate-800"></div>
-        <a href="tecnoit.html" class="text-xl font-bold text-energeticAmber hover:text-white transition-colors mobile-link">Modo Tecno it</a>
+<body class="rm-product-page">
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+  <header class="rm-site-header">
+    <div class="rm-shell rm-site-header-inner">
+      <a class="rm-brand" href="../../hub/index.html"><img src="../../assets/images/branding/logo.png" alt=""><span>RDP Studio</span></a>
+      <nav aria-label="Navegação do projeto">
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#limites">Compatibilidade</a>
+        <a class="rm-header-action" href="app.html">Abrir analisador</a>
+      </nav>
     </div>
+  </header>
 
-    <main class="flex-grow w-full max-w-7xl mx-auto p-6">
-
-        <!-- TELA DE UPLOAD -->
-        <div id="screen-upload" class="flex flex-col items-center justify-center min-h-[70vh]">
-            <div class="text-center max-w-3xl w-full">
-                <h1 class="text-4xl font-bold text-white mb-4">Conferência financeira a partir das suas planilhas</h1>
-                <p class="text-slate-400 mb-8">
-                    Importe arquivos, confira os lançamentos e prepare um relatório sem enviar os dados para um servidor.<br>
-                    <span class="text-xs text-vibrantCyan font-bold bg-vibrantCyan/10 px-2 py-1 rounded border border-vibrantCyan/20">Linhas de totalização são identificadas durante a importação</span>
-                </p>
-
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 w-full mb-8">
-                    <!-- Opção 1: Upload -->
-                    <div id="dropZone" class="glass-card p-8 cursor-pointer hover:border-vibrantCyan/50 group transition text-center border-dashed border-2 border-slate-700 relative">
-                        <input type="file" id="fileInput" class="absolute inset-0 w-full h-full opacity-0 cursor-pointer" multiple accept=".csv, .xlsx, .xls" onchange="App.handleFiles(this.files)">
-                        <div class="pointer-events-none">
-                            <div class="w-16 h-16 bg-slate-800 text-vibrantCyan rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition border border-slate-700">
-                                <i class="fa-solid fa-layer-group text-2xl"></i>
-                            </div>
-                            <h3 class="font-bold text-white">Arraste Planilhas Aqui</h3>
-                            <p class="text-xs text-slate-500 mt-2">Suporta múltiplos arquivos</p>
-                            <p class="text-[10px] text-vibrantCyan mt-2 font-bold">Pode usar a planilha original (com totais)</p>
-                        </div>
-                    </div>
-
-                    <!-- Opção 2: Colar -->
-                    <div onclick="App.openPasteWizard()" class="glass-card p-8 cursor-pointer hover:border-vibrantCyan/50 group transition text-center border-dashed border-2 border-slate-700">
-                        <div class="w-16 h-16 bg-slate-800 text-energeticAmber rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition border border-slate-700">
-                            <i class="fa-solid fa-keyboard text-2xl"></i>
-                        </div>
-                        <h3 class="font-bold text-white">Entrada Manual</h3>
-                        <p class="text-xs text-slate-500 mt-2">Copie do Excel e cole aqui</p>
-                    </div>
-                </div>
-
-                <div id="file-list" class="w-full max-w-2xl mx-auto space-y-2 hidden">
-                    <h4 class="text-xs font-bold text-slate-500 uppercase text-left mb-2">Arquivos na Fila:</h4>
-                </div>
-
-                <button id="btn-process-all" onclick="App.processAllFiles()" class="hidden mt-6 btn-primary w-full max-w-xs justify-center shadow-lg shadow-vibrantCyan/20">
-                    Iniciar Processamento <i class="fa-solid fa-bolt ml-2"></i>
-                </button>
-
-                <div id="loading" class="hidden mt-8 flex flex-col items-center">
-                    <i class="fas fa-circle-notch fa-spin text-vibrantCyan text-2xl mb-2"></i>
-                    <span class="text-sm font-mono text-slate-400" id="loading-text">Iniciando...</span>
-                    <div class="w-64 h-2 bg-slate-800 rounded mt-2 overflow-hidden">
-                        <div id="loading-bar" class="h-full bg-vibrantCyan w-0 transition-all duration-500"></div>
-                    </div>
-                </div>
-            </div>
+  <main id="conteudo">
+    <section class="rm-product-hero">
+      <div class="rm-shell rm-product-hero-grid">
+        <div>
+          <a class="rm-back" href="../../hub/projetos.html">← Voltar aos projetos</a>
+          <p class="rm-kicker">RDP Visão RM</p>
+          <h1>Do fluxo de caixa do RM para uma leitura mais clara.</h1>
+          <p class="rm-product-lead">Importe a planilha gerada pelo TOTVS RM, confira como os valores foram interpretados e explore entradas, saídas, saldos, naturezas e centros de custo sem alterar o arquivo original.</p>
+          <div class="rm-product-actions">
+            <a class="rm-button rm-button-primary" href="app.html">Abrir analisador</a>
+            <a class="rm-text-action" href="app.html?demo=1">Usar dados de demonstração →</a>
+          </div>
+          <p class="rm-independence">Ferramenta independente da RDP Studio. TOTVS e RM são marcas de seus respectivos proprietários.</p>
         </div>
-
-        <!-- MODAL WIZARD -->
-        <div id="modal-wizard" class="fixed inset-0 z-50 hidden bg-slate-950/80 backdrop-blur-md flex items-center justify-center p-4">
-            <div class="bg-slate-900 w-full max-w-2xl rounded-2xl shadow-2xl overflow-hidden flex flex-col max-h-[90vh] border border-slate-700">
-                <div class="bg-slate-800/50 p-4 border-b border-slate-700 flex justify-between items-center">
-                    <h3 class="font-bold text-white">Assistente de Importação</h3>
-                    <button onclick="App.closeWizard()" class="text-slate-400 hover:text-red-500"><i class="fa-solid fa-xmark"></i></button>
-                </div>
-                <div class="p-6 flex-grow overflow-y-auto">
-                    <div id="step-1" class="wizard-step active">
-                        <p class="text-xs text-slate-400 mb-2">Cole os dados do Excel (com cabeçalho):</p>
-                        <textarea id="paste-area" class="w-full h-64 p-3 bg-slate-800 border border-slate-700 rounded-lg text-xs font-mono text-white focus:ring-2 focus:ring-vibrantCyan focus:outline-none resize-none" placeholder="Cole aqui..."></textarea>
-                        <div class="mt-4 flex justify-end">
-                            <button onclick="App.processPaste()" class="btn-primary text-sm">Processar</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="rm-product-preview" aria-label="Prévia da ferramenta com dados demonstrativos">
+          <div class="rm-preview-top"><span>Fluxo demonstrativo</span><span>Jan–Dez 2026</span></div>
+          <div class="rm-preview-balance">
+            <small>Saldo final projetado</small>
+            <strong>R$ 148.420</strong>
+            <span>Menor saldo em março · R$ 31.280</span>
+          </div>
+          <svg viewBox="0 0 640 210" role="img" aria-label="Curva demonstrativa de saldo">
+            <path class="rm-preview-grid" d="M0 40H640M0 100H640M0 160H640"/>
+            <path class="rm-preview-area" d="M0 174L58 145L116 152L174 118L232 132L290 91L348 106L406 71L464 82L522 48L580 57L640 22V210H0Z"/>
+            <path class="rm-preview-line" d="M0 174L58 145L116 152L174 118L232 132L290 91L348 106L406 71L464 82L522 48L580 57L640 22"/>
+          </svg>
+          <div class="rm-preview-note"><span>Conferência</span><strong>Totais conciliados</strong><i>Diferença R$ 0,00</i></div>
         </div>
+      </div>
+    </section>
 
-        <!-- APP CONTENT -->
-        <div id="app-content" class="hidden space-y-8">
+    <section class="rm-product-section" id="como-funciona">
+      <div class="rm-shell">
+        <header class="rm-section-heading">
+          <p>O trabalho completo</p>
+          <h2>O gráfico só aparece depois da conferência.</h2>
+        </header>
+        <ol class="rm-process">
+          <li><span>Importar</span><p>Selecione o arquivo Excel salvo a partir da visão de Fluxo de Caixa do RM.</p></li>
+          <li><span>Reconhecer</span><p>A ferramenta procura natureza, centro de custo, tipo e colunas mensais.</p></li>
+          <li><span>Conferir</span><p>Veja o que foi lido, o que foi ignorado e onde a estrutura precisa de atenção.</p></li>
+          <li><span>Analisar</span><p>Navegue pelo saldo, pelas naturezas e pelos centros de custo sem editar a planilha.</p></li>
+        </ol>
+      </div>
+    </section>
 
-            <!-- DASHBOARD -->
-            <div id="view-dashboard" class="space-y-6">
-                <!-- Filtros -->
-                <div class="glass-card p-4 flex flex-wrap items-center justify-between gap-4 sticky top-20 z-40 bg-slate-900/90 backdrop-blur border-b border-slate-700">
-                    <div class="flex items-center gap-2">
-                        <i class="fa-solid fa-filter text-vibrantCyan"></i>
-                        <span class="font-bold text-sm text-white">Período</span>
-                    </div>
-                    <div class="flex gap-2">
-                        <input type="date" id="d-start" class="border border-slate-600 rounded px-2 py-1 text-xs text-white bg-slate-700">
-                        <input type="date" id="d-end" class="border border-slate-600 rounded px-2 py-1 text-xs text-white bg-slate-700">
-                        <button onclick="App.applyFilters()" class="bg-vibrantCyan text-white px-3 py-1 rounded text-xs font-bold hover:bg-cyan-600">Aplicar</button>
-                    </div>
-                </div>
-
-                <!-- KPIs -->
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <div class="glass-card p-6 border-l-4 border-trustGreen">
-                        <p class="text-xs font-bold text-slate-400 uppercase">Entrada Total (Recebimentos)</p>
-                        <h3 id="kpi-rec" class="text-2xl font-bold text-white">R$ 0,00</h3>
-                    </div>
-                    <div class="glass-card p-6 border-l-4 border-red-500">
-                        <p class="text-xs font-bold text-slate-400 uppercase">Saída Total (Pagamentos)</p>
-                        <h3 id="kpi-desp" class="text-2xl font-bold text-white">R$ 0,00</h3>
-                    </div>
-                    <div class="glass-card p-6 border-l-4 border-vibrantCyan">
-                        <p class="text-xs font-bold text-slate-400 uppercase">Saldo Final</p>
-                        <h3 id="kpi-saldo" class="text-2xl font-bold text-white">R$ 0,00</h3>
-                    </div>
-                </div>
-
-                <!-- Gráficos -->
-                <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
-                    <div class="lg:col-span-2 glass-card p-6">
-                        <h4 class="font-bold text-white mb-4 text-sm">Fluxo de Caixa (Linha do Tempo)</h4>
-                        <div class="h-64"><canvas id="chart-timeline"></canvas></div>
-                    </div>
-                    <div class="glass-card p-6">
-                        <h4 class="font-bold text-white mb-4 text-sm">Top Naturezas (Despesas)</h4>
-                        <div class="h-64"><canvas id="chart-pie"></canvas></div>
-                    </div>
-                </div>
-
-                <!-- Tabelas -->
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-                    <div class="glass-card overflow-hidden">
-                        <div class="bg-red-900/20 p-4 border-b border-red-500/20">
-                            <h4 class="font-bold text-red-500 text-sm">Top 5 Despesas (Centros de Custo)</h4>
-                        </div>
-                        <div class="overflow-x-auto">
-                            <table class="w-full text-xs text-left">
-                                <thead class="bg-slate-800 text-slate-400"><tr><th class="p-3">CC</th><th class="p-3">Natureza</th><th class="p-3 text-right">Valor</th></tr></thead>
-                                <tbody id="table-top-desp" class="divide-y divide-slate-800 text-slate-300"></tbody>
-                            </table>
-                        </div>
-                    </div>
-                    <div class="glass-card overflow-hidden">
-                        <div class="bg-green-900/20 p-4 border-b border-green-500/20">
-                            <h4 class="font-bold text-trustGreen text-sm">Top 5 Receitas (Centros de Custo)</h4>
-                        </div>
-                        <div class="overflow-x-auto">
-                            <table class="w-full text-xs text-left">
-                                <thead class="bg-slate-800 text-slate-400"><tr><th class="p-3">CC</th><th class="p-3">Natureza</th><th class="p-3 text-right">Valor</th></tr></thead>
-                                <tbody id="table-top-rec" class="divide-y divide-slate-800 text-slate-300"></tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- DEBUG VIEW -->
-            <div id="view-debug" class="hidden glass-card p-6 overflow-hidden">
-                <div class="flex justify-between items-center mb-4">
-                    <h3 class="font-bold text-white">Auditoria de Dados (Sem Totais)</h3>
-                    <div class="text-right">
-                        <p class="text-xs text-slate-400">Total de Itens Individuais: <span id="debug-count" class="font-bold text-white">0</span></p>
-                        <p class="text-[10px] text-vibrantCyan">Totais da planilha foram ignorados</p>
-                    </div>
-                </div>
-                <div class="overflow-x-auto max-h-[600px] border border-slate-700 rounded-lg">
-                    <table class="w-full text-xs text-left border-collapse">
-                        <thead class="bg-slate-800 sticky top-0 z-10 shadow-sm">
-                            <tr>
-                                <th class="p-3 border-b border-r border-slate-700">Data</th>
-                                <th class="p-3 border-b border-r border-slate-700">Tipo</th>
-                                <th class="p-3 border-b border-r border-slate-700 bg-blue-900/20 text-blue-300">Natureza</th>
-                                <th class="p-3 border-b border-r border-slate-700 bg-orange-900/20 text-orange-300">Centro de Custo</th>
-                                <th class="p-3 border-b border-slate-700 text-right">Valor Extraído</th>
-                            </tr>
-                        </thead>
-                        <tbody id="debug-table-body" class="divide-y divide-slate-800 bg-slate-900"></tbody>
-                    </table>
-                </div>
-            </div>
-
-            <!-- REPORT VIEW -->
-            <div id="view-report" class="hidden grid grid-cols-1 lg:grid-cols-3 gap-8">
-                <div class="glass-card p-6">
-                    <h3 class="font-bold text-white mb-4">Gerar PDF</h3>
-                    <div class="mb-4">
-                        <label class="text-xs font-bold text-slate-400 uppercase">Filtros de Natureza</label>
-                        <div id="report-filter-list" class="mt-2 h-64 overflow-y-auto border border-slate-700 rounded p-2 text-xs space-y-1 bg-slate-800/50 text-white"></div>
-                        <div class="flex gap-2 mt-2">
-                            <button onclick="App.toggleReportChecks(true)" class="text-xs text-vibrantCyan hover:underline">Todos</button>
-                            <button onclick="App.toggleReportChecks(false)" class="text-xs text-slate-400 hover:underline">Nenhum</button>
-                        </div>
-                    </div>
-                    <button onclick="App.generateReportPreview()" class="btn-primary w-full justify-center">Gerar Relatório</button>
-                </div>
-                <div class="lg:col-span-2 glass-card p-8 bg-white min-h-[800px] flex flex-col">
-                    <div class="flex justify-between items-center mb-6 pb-4 border-b border-slate-200">
-                        <h2 class="text-xl font-bold text-slate-900">Pré-visualização</h2>
-                        <button id="btn-download-pdf" onclick="App.downloadPDF()" class="btn-secondary text-green-600 border-green-200 hover:bg-green-50" disabled>Baixar PDF</button>
-                    </div>
-                    <div id="report-paper" class="flex-grow bg-white text-slate-800">
-                        <div class="text-center py-20 text-slate-300"><p>Clique em "Gerar Relatório" para visualizar.</p></div>
-                    </div>
-                </div>
-            </div>
+    <section class="rm-product-section rm-product-evidence">
+      <div class="rm-shell rm-evidence-grid">
+        <div>
+          <p class="rm-kicker">Por que existe</p>
+          <h2>A exportação continua sendo a fonte. A ferramenta melhora a leitura.</h2>
         </div>
-    </main>
-
-    <!-- Footer -->
-    <footer class="border-t border-slate-800/50 pt-12 pb-8 mt-auto relative z-10 bg-slate-900/50 backdrop-blur-md">
-        <div class="flex flex-col items-center text-center">
-            <div class="flex justify-center gap-8 mb-8">
-                <a href="https://instagram.com/marcelo_rpj" target="_blank" class="text-slate-400 hover:text-vibrantCyan transition-colors text-2xl transform hover:scale-110 duration-200"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/marcelo-rodrigues-088478211/" target="_blank" class="text-slate-400 hover:text-vibrantCyan transition-colors text-2xl transform hover:scale-110 duration-200"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="mailto:rdpstudio@gmail.com" class="text-slate-400 hover:text-vibrantCyan transition-colors text-2xl transform hover:scale-110 duration-200"><i class="fa-regular fa-envelope"></i></a>
-            </div>
-            <p class="text-sm text-slate-500 mb-2">© 2026 RDP STUDIO. Todos os direitos reservados.</p>
-            <p class="text-xs text-slate-600 font-mono">Desenvolvido com <i class="fa-solid fa-heart text-red-900 animate-pulse"></i> por Marcelo Rodrigues</p>
-            <div class="watermark-container hidden"></div>
+        <div class="rm-evidence-copy">
+          <p>O RM reúne lançamentos, previsões e estruturas financeiras. Depois da exportação, porém, a leitura costuma continuar no Excel: localizar a natureza certa, comparar centros de custo, conferir totalizações e preparar uma apresentação.</p>
+          <p>O RDP Visão RM não recalcula a contabilidade nem grava informações no sistema. Ele organiza a planilha exportada, mostra a interpretação adotada e mantém cada análise ligada aos dados que a originaram.</p>
         </div>
-    </footer>
+      </div>
+    </section>
 
-    <script defer src="js/dashboard_rdp.js"></script>
-<script>
-        // --- MOBILE MENU LOGIC ---
-        const menuBtn = document.getElementById('mobile-menu-btn');
-        const menuOverlay = document.getElementById('mobile-menu-overlay');
-        const mobileLinks = document.querySelectorAll('.mobile-link');
-        let isMenuOpen = false;
+    <section class="rm-product-section" id="limites">
+      <div class="rm-shell rm-compatibility">
+        <div>
+          <p class="rm-kicker">Compatibilidade atual</p>
+          <h2>Especializado, não “universal”.</h2>
+        </div>
+        <div>
+          <h3>Estrutura reconhecida nesta versão</h3>
+          <ul>
+            <li>Arquivos XLS, XLSX e CSV</li>
+            <li>Natureza orçamentária em linhas</li>
+            <li>Centro de custo associado</li>
+            <li>Entradas e saídas identificadas por tipo</li>
+            <li>Meses distribuídos em colunas</li>
+          </ul>
+          <p>Modelos diferentes do RM podem exigir um novo perfil de importação. Antes da análise, a ferramenta informa se reconheceu a estrutura.</p>
+          <a class="rm-text-action" href="demo/fluxo-rm-demonstracao.csv" download>Baixar CSV de demonstração →</a>
+        </div>
+      </div>
+    </section>
 
-        function closeMobileMenu() {
-            isMenuOpen = false;
-            menuOverlay.classList.add('translate-x-full');
-            const icon = menuBtn.querySelector('i');
-            icon.classList.remove('fa-xmark');
-            icon.classList.add('fa-bars');
-            document.body.style.overflow = 'auto';
-        }
+    <section class="rm-product-cta">
+      <div class="rm-shell">
+        <p>Experiência funcional</p>
+        <h2>Teste primeiro com a demonstração. Depois, confira uma exportação do RM.</h2>
+        <a class="rm-button rm-button-primary" href="app.html?demo=1">Abrir demonstração</a>
+      </div>
+    </section>
+  </main>
 
-        if (menuBtn && menuOverlay) {
-            menuBtn.addEventListener('click', () => {
-                isMenuOpen = !isMenuOpen;
-                const icon = menuBtn.querySelector('i');
-                if (isMenuOpen) {
-                    menuOverlay.classList.remove('translate-x-full');
-                    icon.classList.remove('fa-bars');
-                    icon.classList.add('fa-xmark');
-                    document.body.style.overflow = 'hidden';
-                } else {
-                    closeMobileMenu();
-                }
-            });
-        }
-    </script>
-
-<!-- RDP_REBRAND_BODY -->
-<script src='../../assets/js/rdp-project-shell.js'></script>
+  <footer class="rm-product-footer"><div class="rm-shell"><span>RDP Studio</span><span>RDP Visão RM · projeto independente</span></div></footer>
 </body>
 </html>

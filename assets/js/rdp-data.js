@@ -493,70 +493,70 @@ window.RDP_PROJECTS = [
     ],
     "screenshot": "../assets/images/projects/relatorio-interativo.png",
     "pt": {
-      "name": "Relatório Interativo",
-      "eyebrow": "Aplicação de inteligência financeira",
-      "headline": "Planilhas entram; conferência, indicadores e relatórios saem.",
-      "summary": "Dashboard client-side que importa arquivos, higieniza dados, calcula KPIs, permite auditoria e exporta relatórios em PDF.",
-      "type": "Dashboard",
-      "category": "BI e dados",
-      "status": "Ativo",
-      "maturity": "Uso imediato",
-      "problem": "Planilhas brutas exigem preparação manual para conferência, leitura financeira e entrega executiva.",
-      "solution": "O navegador processa Excel e CSV localmente, organiza entradas e saídas, gera gráficos, tabelas e relatórios sem backend.",
-      "outcome": "Uma ferramenta completa de processamento local com experiência RDP Studio e uma variação visual TecnoIT.",
-      "cta": "Abrir dashboard atual",
+      "name": "RDP Visão RM",
+      "eyebrow": "Leitura para o fluxo de caixa do TOTVS RM",
+      "headline": "A exportação do RM continua sendo a fonte. Esta ferramenta torna a leitura mais direta.",
+      "summary": "Importa o fluxo de caixa exportado do RM, mostra como a estrutura foi reconhecida e organiza entradas, saídas, saldos, naturezas e centros de custo.",
+      "type": "Ferramenta financeira",
+      "category": "TOTVS RM e dados",
+      "status": "Em validação",
+      "maturity": "Demonstração funcional",
+      "problem": "Depois de exportar o fluxo de caixa do RM, a conferência e a apresentação dos dados ainda costumam continuar manualmente no Excel.",
+      "solution": "O navegador lê a planilha, explicita o mapeamento adotado e só então monta a visão mensal, a conferência e o resumo.",
+      "outcome": "Uma camada independente de leitura. Ela não grava no RM e não substitui a conferência com o relatório de origem.",
+      "cta": "Conhecer o RDP Visão RM",
       "highlights": [
-        "Upload múltiplo ou entrada manual",
-        "KPIs e gráficos",
-        "Auditoria dos dados",
-        "Prévia e exportação de PDF"
+        "Importação de XLS, XLSX e CSV",
+        "Reconhecimento da estrutura do RM",
+        "Conferência antes da análise",
+        "Resumo para impressão"
       ],
       "sections": [
         {
-          "title": "Entrada de dados",
-          "body": "Upload, fila de arquivos, entrada manual e assistente de importação continuam como primeira etapa da aplicação."
+          "title": "Origem dos dados",
+          "body": "A análise começa em uma exportação do Fluxo de Caixa do TOTVS Gestão Financeira. O arquivo original não é alterado."
         },
         {
-          "title": "Três modos de trabalho",
-          "body": "Dashboard, conferência e relatórios permanecem como áreas separadas, cada uma com uma tarefa clara."
+          "title": "Conferência visível",
+          "body": "A ferramenta informa quais colunas e meses reconheceu, além de registrar tipos desconhecidos antes de apresentar os totais."
         },
         {
-          "title": "Duas identidades",
-          "body": "A versão RDP Studio e a variação TecnoIT são preservadas. O rebrand do portfólio não deve apagar a identidade aplicada ao produto."
+          "title": "Limite declarado",
+          "body": "Layouts diferentes do RM podem exigir um novo perfil de importação. A compatibilidade final depende de arquivos reais anonimizados."
         }
       ]
     },
     "en": {
-      "name": "Relatório Interativo",
-      "eyebrow": "Financial-intelligence application",
-      "headline": "Spreadsheets go in; checks, indicators and reports come out.",
-      "summary": "A client-side dashboard that imports files, cleans data, calculates KPIs, enables auditing and exports PDF reports.",
-      "type": "Dashboard",
-      "category": "BI and data",
-      "status": "Active",
-      "maturity": "Ready to use",
-      "problem": "Raw spreadsheets require manual preparation for validation, financial reading and executive delivery.",
-      "solution": "The browser processes Excel and CSV locally, organizes inflows and outflows, generates charts, tables and reports without a backend.",
-      "outcome": "A complete local-processing tool with an RDP Studio experience and a TecnoIT visual variation.",
-      "cta": "Open current dashboard",
+      "name": "RDP Visão RM",
+      "eyebrow": "A reading layer for TOTVS RM cash flow",
+      "headline": "The RM export remains the source. This tool makes it easier to read.",
+      "summary": "It imports an RM cash-flow export, shows how the structure was recognized, and organizes inflows, outflows, balances, natures and cost centers.",
+      "type": "Financial tool",
+      "category": "TOTVS RM and data",
+      "status": "Under validation",
+      "maturity": "Working demonstration",
+      "problem": "After exporting cash flow from RM, checking and presenting the data often continues manually in Excel.",
+      "solution": "The browser reads the spreadsheet, exposes its mapping and only then builds the monthly view, checks and summary.",
+      "outcome": "An independent reading layer. It does not write to RM and does not replace checking against the source report.",
+      "cta": "Explore RDP Visão RM",
       "highlights": [
-        "Multi-file upload or manual input",
-        "KPIs and charts",
-        "Data auditing",
-        "PDF preview and export"
+        "XLS, XLSX and CSV import",
+        "RM structure recognition",
+        "Checks before analysis",
+        "Print-ready summary"
       ],
       "sections": [
         {
-          "title": "Data input",
-          "body": "Upload, file queue, manual input and import assistant remain the application’s first stage."
+          "title": "Data source",
+          "body": "The analysis begins with a Cash Flow export from TOTVS Gestão Financeira. The original file is not changed."
         },
         {
-          "title": "Three work modes",
-          "body": "Dashboard, validation and reports remain separate areas, each with a clear task."
+          "title": "Visible checks",
+          "body": "The tool shows which columns and months were recognized and records unknown types before displaying totals."
         },
         {
-          "title": "Two identities",
-          "body": "The RDP Studio version and the TecnoIT variation are preserved. The portfolio rebrand must not erase the product’s applied identity."
+          "title": "Declared limit",
+          "body": "Different RM layouts may need another import profile. Final compatibility depends on anonymized real exports."
         }
       ]
     },
