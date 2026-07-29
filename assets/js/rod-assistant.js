@@ -271,6 +271,8 @@ class RodKnowledgeEngine {
       .filter(Boolean)
 
     let contextualProject = projects[0] || null
+    const conversationalIntentIds = new Set(['greeting', 'identity', 'wellbeing', 'thanks', 'goodbye', 'capabilities'])
+    if (conversationalIntentIds.has(intent?.id)) contextualProject = null
     const generalFaqIds = new Set(['hosting', 'backend', 'best-project', 'project-states', 'usable-now', 'privacy', 'rod-operation', 'languages', 'themes', 'project-images', 'contact-reason'])
     if (directFaq && generalFaqIds.has(directFaq.id)) contextualProject = null
 
@@ -283,6 +285,10 @@ class RodKnowledgeEngine {
     }
 
     if (intent?.id === 'greeting') {
+      responses.push(intent.response)
+    }
+
+    if (['identity', 'wellbeing', 'thanks', 'goodbye', 'capabilities'].includes(intent?.id)) {
       responses.push(intent.response)
     }
 

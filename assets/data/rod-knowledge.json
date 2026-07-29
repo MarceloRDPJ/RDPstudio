@@ -288,7 +288,32 @@
     {
       "id": "greeting",
       "keywords": ["oi", "ola", "olá", "e ai", "fala", "bom dia", "boa tarde", "boa noite"],
-      "response": "Oi. Eu sou o ROD, o assistente da RDP Studio. Se quiser, posso te apresentar a RDP Studio, falar do Marcelo, resumir os projetos ou te guiar para a ferramenta certa."
+      "response": "Oi! Estou por aqui. Posso conversar um pouco ou ajudar você a encontrar um projeto, uma ferramenta ou uma informação sobre a RDP Studio."
+    },
+    {
+      "id": "identity",
+      "keywords": ["quem é você", "quem e voce", "o que você é", "o que voce e", "se apresente", "qual seu nome"],
+      "response": "Eu sou o ROD, o guia da RDP Studio. Trabalho com uma base local sobre Marcelo, os sete projetos e as ferramentas deste portfólio. Não sou uma pessoa e não sei tudo, mas consigo relacionar o conteúdo daqui e levar você ao lugar certo."
+    },
+    {
+      "id": "wellbeing",
+      "keywords": ["você está bem", "voce esta bem", "tudo bem com você", "tudo bem com voce", "como você está", "como voce esta", "como vai você", "como vai voce"],
+      "response": "Tudo funcionando por aqui — obrigado por perguntar. E com você? Se quiser conversar sobre o portfólio, me diga o que chamou sua atenção."
+    },
+    {
+      "id": "thanks",
+      "keywords": ["obrigado", "obrigada", "valeu", "agradeço", "agradeco", "muito obrigado"],
+      "response": "Por nada. Se alguma parte ficou confusa, pode perguntar de outro jeito que eu tento organizar melhor."
+    },
+    {
+      "id": "goodbye",
+      "keywords": ["tchau", "até mais", "ate mais", "falou", "até logo", "ate logo"],
+      "response": "Até mais. Quando voltar, posso continuar pelo último projeto ou começar por uma pergunta nova."
+    },
+    {
+      "id": "capabilities",
+      "keywords": ["o que você sabe fazer", "o que voce sabe fazer", "como pode me ajudar", "o que posso perguntar", "quais perguntas"],
+      "response": "Posso explicar quem é Marcelo, apresentar a RDP Studio, comparar os sete projetos, mostrar quais ferramentas podem ser usadas agora e responder dúvidas sobre tecnologias, temas, idiomas, privacidade e formas de contato."
     },
     {
       "id": "about-studio",
@@ -297,7 +322,7 @@
     },
     {
       "id": "about-profile",
-      "keywords": ["marcelo", "quem e voce", "quem e ele", "fundador", "sobre voce", "sobre ele"],
+      "keywords": ["marcelo", "quem e ele", "fundador", "sobre marcelo", "trajetoria do marcelo"],
       "response": "Marcelo Rodrigues trabalha entre suporte, infraestrutura, automação e desenvolvimento de ferramentas. É tecnólogo em Gestão da Tecnologia da Informação e cursa pós-graduação em Computação Forense e Segurança. A RDP Studio organiza projetos construídos ao longo dessa trajetória."
     },
     {
