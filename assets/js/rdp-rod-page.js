@@ -174,7 +174,7 @@ function renderActions(actions=[]){
 }
 function englishAnswer(answer,question){
   const normalized=question.toLowerCase()
-  if(/marcelo|who/.test(normalized)) return 'Marcelo Rodrigues works across infrastructure, support, automation and web tools. He holds a technology degree in Information Technology Management and is pursuing postgraduate studies in Digital Forensics and Security.'
+  if(/marcelo|who/.test(normalized)) return 'Marcelo Rodrigues is a Full Stack Developer working across frontend, backend, integrations, automation and data. He holds a technology degree in Information Technology Management and is pursuing postgraduate studies in Digital Forensics and Security.'
   if(/studio|rdp/.test(normalized)) return 'RDP Studio is the identity Marcelo uses to bring together operational tools, platforms, documented automations and case studies. Each project is presented according to its actual format and current state.'
   if(/backend|server|api/.test(normalized)) return 'The portfolio combines client-side tools with projects that have operational or documented backends. RDP Insider uses a Python data pipeline, Igreja Casa uses Supabase, while GLPI Automator and the Sales Assistant document private backend flows.'
   if(/contact|email|whatsapp|linkedin/.test(normalized)) return 'You can contact RDP Studio by WhatsApp, email or Marcelo’s LinkedIn. The contact links are available on the home page.'

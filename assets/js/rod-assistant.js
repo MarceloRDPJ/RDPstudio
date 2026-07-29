@@ -331,7 +331,7 @@ class RodKnowledgeEngine {
       responses.push(intent.response)
     }
 
-    if (directFaq) {
+    if (directFaq && !['about-profile', 'about-studio'].includes(intent?.id)) {
       responses.push(directFaq.answer)
     }
 
