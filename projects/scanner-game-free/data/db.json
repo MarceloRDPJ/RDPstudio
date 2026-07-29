@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-07-28T14:05:06",
-  "display_date": "28/07/2026 14:05",
+  "last_updated": "2026-07-29T14:08:37",
+  "display_date": "29/07/2026 14:08",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "220ms",
+    "latency": "453ms",
     "current_games": [
       {
         "title": "Foretales",
@@ -27,8 +27,17 @@
     ],
     "upcoming_games": [
       {
+        "title": "Beacon Pines",
+        "description": "Beacon Pines é um jogo de aventura fofo e assustador. Saia escondido até tarde, faça novos amigos, descubra verdades ocultas e colete palavras que mudarão o curso do destino!",
+        "image": "https://cdn1.epicgames.com/spt-assets/c89a3b955d704c3c97ddd2aba5265a38/beacon-pines-offer-1l6ky.jpg",
+        "url": "https://store.epicgames.com/p/9e9a438c651a49799c3ddd94a0c3f4c0",
+        "price": "$19.99",
+        "start_date": "2026-08-06T15:00:00.000Z",
+        "end_date": "2026-08-13T15:00:00.000Z"
+      },
+      {
         "title": "Ghostrunner 2",
-        "description": "Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cibernética.",
+        "description": "Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
         "image": "https://cdn1.epicgames.com/offer/708f57aaa04b42ef885be16c8288f0ac/EGS_Ghostrunner2_OneMoreLevel_S1_2560x1440-15845148fae1d0cfd7f3e98c9b3ba6ba",
         "url": "https://store.epicgames.com/p/ghostrunner-2",
         "price": "$39.99",
@@ -101,7 +110,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "summary": "Decida o destino do mundo neste engenhoso jogo de cartas baseado em uma história.\n\nForetales oferece uma visão única do gênero de aventura, com uma infinidade de estilos de jogo e caminhos de história através dos quais você pode salvar o mundo... ou trazer seu fim.",
       "sources": [
         "Epic Games Store"
@@ -116,12 +125,27 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "summary": "Decida o destino do mundo neste engenhoso jogo de cartas baseado em uma história.\n\nForetales oferece uma visão única do gênero de aventura, com uma infinidade de estilos de jogo e caminhos de história através dos quais você pode salvar o mundo... ou trazer seu fim.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/a6dcabac79154e218bd3c7d4a8cad8a7"
+    },
+    {
+      "id": "https://store.epicgames.com/p/9e9a438c651a49799c3ddd94a0c3f4c0",
+      "title": "EM BREVE: Beacon Pines",
+      "original_title": "Beacon Pines",
+      "image": "https://cdn1.epicgames.com/spt-assets/c89a3b955d704c3c97ddd2aba5265a38/beacon-pines-offer-1l6ky.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-07-29",
+      "summary": "Disponível gratuitamente a partir de 06/08. Beacon Pines é um jogo de aventura fofo e assustador. Saia escondido até tarde, faça novos amigos, descubra verdades ocultas e colete palavras que mudarão o curso do destino!",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/9e9a438c651a49799c3ddd94a0c3f4c0"
     },
     {
       "id": "https://store.epicgames.com/p/ghostrunner-2",
@@ -131,8 +155,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-28",
-      "summary": "Disponível gratuitamente a partir de 10/09. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cibernética.",
+      "date": "2026-07-29",
+      "summary": "Disponível gratuitamente a partir de 10/09. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
       "sources": [
         "Epic Games Store"
       ],
@@ -146,7 +170,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "summary": "Disponível gratuitamente a partir de 30/08. The Old Ones Awaken adiciona novos níveis para explorar, novos inimigos para derrotar e novos chefes para enfrentar, juntamente com uma série de novas armas e equipamentos emocionantes para empunhar e usar.",
       "sources": [
         "Epic Games Store"
@@ -161,7 +185,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "summary": "Disponível gratuitamente a partir de 17/09. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
@@ -176,7 +200,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "summary": "Disponível gratuitamente a partir de 03/09. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
       "sources": [
         "Epic Games Store"
@@ -191,7 +215,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "summary": "Disponível gratuitamente a partir de 29/08. Entre em uma mansão abstrata e inexplicável para resgatar um ente querido neste roguelite sombrio, brutal e de ritmo acelerado, cheio de tiros precisos, mas selvagens, e câmera lenta que distorce o tempo. Enfrente seus demônios interiores e desvende os segredos da Mansão.",
       "sources": [
         "Epic Games Store"
@@ -206,7 +230,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "summary": "Disponível gratuitamente a partir de 30/07. Entre em uma mansão abstrata e inexplicável para resgatar um ente querido neste roguelite sombrio, brutal e de ritmo acelerado, cheio de tiros precisos, mas selvagens, e câmera lenta que distorce o tempo. Enfrente seus demônios interiores e desvende os segredos da Mansão.",
       "sources": [
         "Epic Games Store"
@@ -221,7 +245,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-07-28",
+      "date": "2026-07-29",
       "summary": "Disponível gratuitamente a partir de 30/07. Sol Cesto é um roguelite tático e frenético onde dominar a sorte é fundamental. Escolha um herói, atualize-o usando dentes amaldiçoados e itens mágicos e desça ao fundo de uma masmorra em constante mudança. Neste mundo sombrio, toda ação tem consequências…",
       "sources": [
         "Epic Games Store"
@@ -229,424 +253,304 @@
       "url": "https://store.epicgames.com/p/sol-cesto"
     },
     {
-      "id": "https://www.eurogamer.net/the-legend-of-zelda-movie-actor-on-breath-of-the-wild",
-      "title": "Link do filme The Legend of Zelda, Benjamin Evan Ainsworth, não pôde jogar Breath of the Wild por causa de sua idade (e da falta de um switch)",
-      "original_title": "The Legend of Zelda movie's Link, Benjamin Evan Ainsworth, couldn't play Breath of the Wild because of his age (and the lack of a Switch)",
-      "image": "https://assetsio.gnwcdn.com/Daeron-Targaryen-in-House-of-the-Dragon.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/pubg-ip-continued-growth-25-percent",
+      "title": "Talvez você não ouça mais muito sobre isso, mas a série PUBG aumentou sua receita em 25% no primeiro semestre de 2026",
+      "original_title": "You might not hear that much about it anymore, but the PUBG series grew its revenue by 25% in the first half of 2026",
+      "image": "https://assetsio.gnwcdn.com/pubg-new-gameplay-screen-5.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-28",
-      "summary": "The Legend of Zelda: Breath of the Wild e Tears of the Kingdom expandiram os horizontes da série principal e trouxeram muitos novos jogadores, mas o ator que interpreta Link em live-action sentiu falta do primeiro - inicialmente devido à sua idade. Leia mais...",
+      "date": "2026-07-29",
+      "summary": "PUBG, que já foi o maior jogo multijogador para PC, continuou discretamente a se sair muito bem. Embora possa não estar mais nas manchetes, continua sendo uma visão constante nos cinco jogos mais jogados do Steam, trocando golpes com os maiores lançamentos da plataforma...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/the-legend-of-zelda-movie-actor-on-breath-of-the-wild"
+      "url": "https://www.eurogamer.net/pubg-ip-continued-growth-25-percent"
     },
     {
-      "id": "https://www.eurogamer.net/marvels-spider-man-2-gets-two-new-costumes-inspired-by-brand-new-day-and-marvel-tokon-fighting-souls",
-      "title": "Marvel's Spider-Man 2 ganha dois novos trajes inspirados em Brand New Day e Marvel Tokon: Fighting Souls",
-      "original_title": "Marvel's Spider-Man 2 gets two new costumes inspired by Brand New Day and Marvel Tokon: Fighting Souls",
-      "image": "https://assetsio.gnwcdn.com/marvel-spider-man-2-tokon-suit.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/halo-campaign-evolved-performs-better-ps5",
+      "title": "Lançamento do Xbox da sustentação Halo: Campaign Evolved tem melhor desempenho no PlayStation 5, com o PS5 Pro proporcionando a melhor experiência",
+      "original_title": "Tentpole Xbox release Halo: Campaign Evolved performs better on the PlayStation 5, with the PS5 Pro providing the best experience",
+      "image": "https://assetsio.gnwcdn.com/halo-campaign-evolved-master-chief-back.jpeg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-28",
-      "summary": "Há boas notícias para todos os web-swingers por aí (não, vocês não, falem baixo). O Homem-Aranha 2 da Marvel recebeu uma nova atualização hoje, adicionando dois novos trajes de aranha inspirados em alguns grandes lançamentos. Leia mais...",
+      "date": "2026-07-29",
+      "summary": "Halo: Campaign Evolved – o mais recente lançamento de grande orçamento da Microsoft – já foi lançado e está nas mãos dos amantes de ficção científica no PlayStation e no Xbox. No entanto, após alguns testes árduos, você pode se surpreender com qual console funciona melhor. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/marvels-spider-man-2-gets-two-new-costumes-inspired-by-brand-new-day-and-marvel-tokon-fighting-souls"
+      "url": "https://www.eurogamer.net/halo-campaign-evolved-performs-better-ps5"
     },
     {
-      "id": "https://www.eurogamer.net/call-of-duty-black-ops-2-enough-with-nuketown-hijacked-raid",
-      "title": "Os jogadores de Call of Duty: Black Ops 2 querem que você pare de votar em Nuketown, Hijacked e Raid em todas as partidas",
-      "original_title": "Call of Duty: Black Ops 2 players want you to please stop voting for Nuketown, Hijacked and Raid every match",
-      "image": "https://assetsio.gnwcdn.com/black-ops-2-nuketown-map-loading-1.jpeg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/pokemon-pokopia-bubbly-basin-dlc-date",
+      "title": "O DLC Bubbly Basin do Pokémon Pokopia e a atualização gratuita com tema subaquático chegarão na próxima semana",
+      "original_title": "Pokémon Pokopia's Bubbly Basin DLC and underwater-themed free update is coming as soon as next week",
+      "image": "https://assetsio.gnwcdn.com/Pokemon-Pokopia-Bubbly-Basin-DLC_screenshot-Ditto.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-28",
-      "summary": "As portas PlayStation de Call of Duty: Black Ops 1 e 2 lançadas recentemente têm sido incrivelmente populares, mas esse afluxo de jogadores também lembrou a todos que - clássicos ou não - os jogadores simplesmente continuarão escolhendo os mesmos mapas em cada partida. Leia mais...",
+      "date": "2026-07-29",
+      "summary": "Atualização 14h19: A Nintendo acaba de lançar um trailer de sete minutos confirmando a data de lançamento em 5 de agosto e dando aos jogadores uma visão geral do conteúdo e das novas mecânicas incluídas em Bubbly Basin. Um segundo DLC com acessórios chegará no final de 2026, com...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/call-of-duty-black-ops-2-enough-with-nuketown-hijacked-raid"
+      "url": "https://www.eurogamer.net/pokemon-pokopia-bubbly-basin-dlc-date"
     },
     {
-      "id": "https://www.eurogamer.net/roblox-be-dead-forever-unavailable",
-      "title": "O jogo Roblox Be Dead Forever Simulator provavelmente está morto para sempre",
-      "original_title": "Roblox game Be Dead Forever Simulator is likely dead forever",
-      "image": "https://assetsio.gnwcdn.com/roblox-characters_LHW6U2o.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/clair-obscur-expedition-33-sandfall-switch-2-version-technical-challenge",
+      "title": "Clair Obscur: Os desenvolvedores da Expedition 33 estão trabalhando em uma versão Nintendo Switch 2, mas observe o “grande desafio técnico” de colocá-la em funcionamento",
+      "original_title": "Clair Obscur: Expedition 33 devs are working on a Nintendo Switch 2 version, but note the \"big technical challenge\" of getting it up and running",
+      "image": "https://assetsio.gnwcdn.com/ex-33-switch-2.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-28",
-      "summary": "Um amado jogo Roblox – Be Dead Forever Simulator – ficou indisponível para download devido às novas regras de verificação de idade da plataforma. Parece muito improvável que esteja disponível novamente. Leia mais...",
+      "date": "2026-07-29",
+      "summary": "Você quer jogar Clair Obscur: Expedition 33 no Switch 2? Desde o lançamento do console da Nintendo, os fãs têm clamado para que o RPG inovador chegue à plataforma – e vimos dicas do estúdio de que uma versão seria algo que seria...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/roblox-be-dead-forever-unavailable"
+      "url": "https://www.eurogamer.net/clair-obscur-expedition-33-sandfall-switch-2-version-technical-challenge"
     },
     {
-      "id": "https://www.eurogamer.net/free-ubisoft-games-xbox-to-pc",
-      "title": "A Ubisoft está permitindo que os proprietários de seus jogos do Xbox joguem títulos selecionados gratuitamente no PC como parte de uma nova parceria com a Microsoft",
-      "original_title": "Ubisoft is letting owners of its Xbox games play select titles for free on PC as part of a new partnership with Microsoft",
-      "image": "https://assetsio.gnwcdn.com/Female-Eivor-in-Assassins-Creed-Valhalla.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/subnautica-2-franchise-ip-krafton-unknown-worlds-5m-sales",
+      "title": "Krafton promete transformar Subnautica em “franquia IP” depois que Subnautica 2 ultrapassar 5 milhões de vendas em apenas 22 dias",
+      "original_title": "Krafton pledges to turn Subnautica into \"franchise IP\" after Subnautica 2 surpasses 5m sales in just 22 days",
+      "image": "https://assetsio.gnwcdn.com/Subnautica-2-underwater-money-rain.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-28",
-      "summary": "A Microsoft anunciou uma nova parceria com a Ubisoft que permitirá aos proprietários de jogos selecionados do Xbox da Ubisoft jogá-los no PC sem nenhum custo extra. Leia mais...",
+      "date": "2026-07-29",
+      "summary": "Após um ano de disputas legais acirradas e um acordo concordando em pagar bônus aos desenvolvedores de Unknown Worlds, Krafton agora se comprometeu a transformar a série Subnautica em uma “propriedade de franquia” em meio à confirmação de que Subnautica 2 ultrapassou 5 milhões de vendas. ...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/free-ubisoft-games-xbox-to-pc"
+      "url": "https://www.eurogamer.net/subnautica-2-franchise-ip-krafton-unknown-worlds-5m-sales"
     },
     {
-      "id": "https://www.eurogamer.net/cyberpunk-edgerunners-brawler-report",
-      "title": "Cyberpunk: Edgerunners teria sido transformado em um lutador 2.5D pela CD Projekt Red e pelo estúdio Shantae WayForward, mas seu destino é incerto",
-      "original_title": "Cyberpunk: Edgerunners was reportedly being turned into a 2.5D brawler by CD Projekt Red and Shantae studio WayForward, but its fate is uncertain",
-      "image": "https://assetsio.gnwcdn.com/Cyberpunk-Edgerunners-key-art-cropped.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/dragon-age-trilogy-remaster-bioware-dont-know-engine",
+      "title": "Uma remasterização da Dragon Age Trilogy provavelmente não acontecerá, pois ninguém que ainda trabalha na BioWare sabe como o motor funciona, afirma o produtor",
+      "original_title": "A Dragon Age Trilogy remaster probably won't happen as no one still employed at BioWare knows how the engine works, claims producer",
+      "image": "https://assetsio.gnwcdn.com/Dragon-Age-2-Hawke.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-28",
-      "summary": "Cyberpunk 2077 continua a ter um desempenho excepcionalmente bom para o CD Projekt Red, mas enquanto esperamos por notícias sobre sua (ainda distante) sequência, foi relatado que o estúdio também tinha um jogo Cyberpunk 2077 menor em desenvolvimento. Leia mais...",
+      "date": "2026-07-29",
+      "summary": "O ex-produtor da BioWare, Mark Darrah, acredita que uma remasterização da trilogia Dragon Age original provavelmente não acontecerá, já que ninguém que trabalhou na desenvolvedora sabe como o motor antigo funciona. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/cyberpunk-edgerunners-brawler-report"
+      "url": "https://www.eurogamer.net/dragon-age-trilogy-remaster-bioware-dont-know-engine"
     },
     {
-      "id": "https://www.eurogamer.net/monster-hunter-wilds-patch-1-042-event-quests-offline",
-      "title": "O patch mais recente de Monster Hunter Wilds torna as missões somente online jogáveis ​​offline, junto com algumas outras atualizações úteis",
-      "original_title": "Monster Hunter Wilds' latest patch makes online-only missions playable offline, alongside some other useful updates",
-      "image": "https://assetsio.gnwcdn.com/monster-hunter-wilds-lagiacrus-monster-screen-1.jpeg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/koei-tecmo-fiscal-year-2027-plans",
+      "title": "A Koei Tecmo quer evitar a “dependência de títulos importantes”, embora as expectativas para Wo Long 2 e Attack on Titan 3 sejam altas",
+      "original_title": "Koei Tecmo wants to avoid \"dependence on major titles\", though expectations for Wo Long 2 and Attack on Titan 3 are high",
+      "image": "https://assetsio.gnwcdn.com/Wo-Long-2_screenshot_centered-character.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-28",
-      "summary": "As coisas têm estado calmas no front de Monster Hunter Wilds desde o anúncio de sua grande expansão Ascendance no início de junho. Enquanto o jogo base continua recebendo atualizações, este próximo faz um de seus tipos de missões mais interessantes – que...",
+      "date": "2026-07-29",
+      "summary": "A Koei Tecmo está em alta recentemente, com grandes sucessos como Nioh 3 e Dynasty Warriors: Origins elevando IPs estabelecidos, enquanto colaborações surpreendentes como Pokémon Pokopia se tornaram sensações virais. De acordo com o último relatório financeiro...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/monster-hunter-wilds-patch-1-042-event-quests-offline"
+      "url": "https://www.eurogamer.net/koei-tecmo-fiscal-year-2027-plans"
     },
     {
-      "id": "https://www.eurogamer.net/dragons-dogma-2-homesteading-mod",
-      "title": "Dragon's Dogma 2 está recebendo um mod homesteading inspirado em Fallout com casas totalmente personalizáveis, e seu criador tem toneladas de grandes ideias para isso",
-      "original_title": "Dragon's Dogma 2 is getting a Fallout-inspired homesteading mod with fully customisable houses, and its creator has tons of big ideas for it",
-      "image": "https://assetsio.gnwcdn.com/DD2-2nd-anniversary.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/crazy-taxi-world-tour-closed-network-test-multiplayer",
+      "title": "Crazy Taxi: World Tour tem multijogador competitivo e você terá a chance de jogá-lo em breve",
+      "original_title": "Crazy Taxi: World Tour has competitive multiplayer, and you've got a chance to play it very soon",
+      "image": "https://assetsio.gnwcdn.com/crazy-taxi-world-tour-multiplayer-screen-2.jpeg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-28",
-      "summary": "Dragon's Dogma 2: Dark Arisen chegará ainda este ano e, antes disso, a Capcom lançará atualizações para atender às reclamações dos jogadores. Mas isso não significa que os modders estejam esperando que as coisas se acalmem novamente antes de trabalhar em ambiciosas expansões feitas pelo usuário...",
+      "date": "2026-07-29",
+      "summary": "A Sega anunciou que está realizando um teste de rede fechado para Crazy Taxi: World Tour. O teste limitado está disponível para PC (aplicativo Steam e Xbox), PS5 e Xbox Series X/S. Decorre numa única sessão, de 11 a 13 de setembro. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/dragons-dogma-2-homesteading-mod"
+      "url": "https://www.eurogamer.net/crazy-taxi-world-tour-closed-network-test-multiplayer"
     },
     {
-      "id": "https://www.eurogamer.net/pragmata-resident-evil-requiem-capcom-sales-financial-report",
-      "title": "Pragmata e Resident Evil Requiem reforçam um trimestre forte para a Capcom, com as vendas de Monster Hunter e Street Fighter atingindo níveis recordes",
-      "original_title": "Pragmata and Resident Evil Requiem bolster a strong quarter for Capcom, as Monster Hunter and Street Fighter sales hit record highs",
-      "image": "https://assetsio.gnwcdn.com/capcom-q1.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/007-first-light-nintendo-switch-2-release-date-leak",
+      "title": "A data de lançamento do Switch 2 de 007 First Light pode estar mais próxima do que imaginávamos",
+      "original_title": "007 First Light's Switch 2 release date may be closer than we realised",
+      "image": "https://assetsio.gnwcdn.com/007_First_Light_Walkthrough_2.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-28",
-      "summary": "A Capcom divulgou os números de vendas de dois de seus lançamentos mais recentes – Pragmata e Resident Evil Requiem – no relatório financeiro do primeiro trimestre de 2026 da empresa. Ambos estão bem. Leia mais...",
+      "date": "2026-07-29",
+      "summary": "A versão Nintendo Switch 2 de 007 First Light da IO Interactive foi antecipada praticamente desde que foi revelado que estava em andamento. Essa versão do jogo não apareceu junto com todas as outras plataformas em maio, mas graças a um novo le...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/pragmata-resident-evil-requiem-capcom-sales-financial-report"
+      "url": "https://www.eurogamer.net/007-first-light-nintendo-switch-2-release-date-leak"
     },
     {
-      "id": "https://www.eurogamer.net/xbox-outage-response-failing-service-apology",
-      "title": "O CTO do Xbox explica o que causou a interrupção do Xbox, pede desculpas aos jogadores e descreve o que está sendo feito daqui para frente",
-      "original_title": "Xbox CTO explains what caused the Xbox outage, apologises to players, and outlines what's being done going forward",
-      "image": "https://assetsio.gnwcdn.com/xbox-logo_OJRhRlL.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/ea-boss-38-million-bonus-battlefield-6-layoffs",
+      "title": "Depois de demitir desenvolvedores de Battlefield 6, o bônus do chefe da EA, Andrew Wilson, aumentou de US$ 8 milhões para US$ 38 milhões no ano passado, graças ao sucesso do jogo em “todos os marcos”",
+      "original_title": "After laying off Battlefield 6 devs, EA boss Andrew Wilson's bonus rose $8m to $38m last year, thanks to the game's success across \"all milestones\"",
+      "image": "https://assetsio.gnwcdn.com/andrew-wilson-custom-header-cut.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-07-28",
-      "summary": "Na segunda-feira, o Xbox sofreu uma grande interrupção no servidor que afetou jogadores em todo o mundo. A interrupção desativou várias funções importantes do Xbox, incluindo a capacidade de comprar e baixar jogos, jogá-los offline e até estender-se a jogos baseados em disco. Serviços h...",
+      "date": "2026-07-29",
+      "summary": "O CEO da Electronic Arts, Andrew Wilson, levou para casa um bônus de US$ 38,7 milhões para o ano financeiro de 2026, já que os jogos da empresa, como Battlefield 6, tiveram um bom desempenho, atingiram “todos os marcos” e uma nova estratégia de IA foi executada. Esse bônus e muitos outros para ex seniores da EA...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/xbox-outage-response-failing-service-apology"
+      "url": "https://www.eurogamer.net/ea-boss-38-million-bonus-battlefield-6-layoffs"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1v8wmy1/natethehate_says_assassins_creed_codename_hexe_is/",
-      "title": "NateTheHate diz que Assassin’s Creed Codename Hexe não é esperado antes do segundo semestre de 2027",
-      "original_title": "NateTheHate says Assassin’s Creed Codename Hexe is not expected before the second half of 2027",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-07-28",
-      "summary": "Fonte: https://xcancel.com/NateTheHate2/status/2081946228326092941#m enviado por /u/Loose_Society9485 [link] [comentários]...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1v8wmy1/natethehate_says_assassins_creed_codename_hexe_is/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1v8ol7d/charlieintel_call_of_duty_black_ops_and_black_ops/",
-      "title": "[CharlieIntel] As portas Call of Duty: Black Ops e Black Ops 2 para PlayStation venderam mais de 7 milhões de unidades combinadas",
-      "original_title": "[CharlieIntel] Call of Duty: Black Ops and Black Ops 2 ports on PlayStation have sold over 7 million units combined",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-07-28",
-      "summary": "https://xcancel.com/charlieINTEL/status/2081916595387908330 As portas Call of Duty: Black Ops e Black Ops 2 no PlayStation venderam mais de 7 milhões de unidades combinadas, disseram-nos fontes familiarizadas com os números de vendas https://xcancel.com/charlieINTEL/statu...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1v8ol7d/charlieintel_call_of_duty_black_ops_and_black_ops/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1v8wuu1/amazon_jpn_has_007_first_lights_release_date_on/",
-      "title": "Amazon JPN tem data de lançamento do 007 First Lights no Switch 2 em 16 de setembro",
-      "original_title": "Amazon JPN has 007 First Lights Release Date on Switch 2 as Sep 16th",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-07-28",
-      "summary": "Obviamente, leve isso com cautela, já que os varejistas costumam colocar datas de espaço reservado. (Link fixo) Link: https://www.amazon.co.jp/dp/B0FZRMWNL6 enviado por /u/Howerev [link] [comentários]...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1v8wuu1/amazon_jpn_has_007_first_lights_release_date_on/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1v8lecy/rebs_gaming_follow_up_on_future_of_halo/",
-      "title": "Rebs Gaming acompanha o futuro do Halo",
-      "original_title": "Rebs gaming follow up on future of Halo",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-07-28",
-      "summary": "Alguns não são realmente vazamentos e são apenas pesquisas dos próprios rebeldes nos perfis do LinkedIn. Os pontos principais: - Os jogos estão em fase de conceito agora porque a campanha evoluiu e precisava de ajuda e os jogos anteriores em desenvolvimento foram cancelados para chamar a atenção para ce. - ...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1v8lecy/rebs_gaming_follow_up_on_future_of_halo/"
-    },
-    {
-      "id": "https://www.techpowerup.com/351145/scaleflux-unveils-pcie-gen-6-ssd-and-cxl-memory-controllers",
-      "title": "(PR) ScaleFlux lança controladores de memória CXL e SSD PCIe Gen 6",
-      "original_title": "(PR) ScaleFlux Unveils PCIe Gen 6 SSD and CXL Memory Controllers",
-      "image": "https://tpucdn.com/img/29K4iOT7OjPAOIxP_thm.jpg",
+      "id": "https://www.techpowerup.com/351187/acemagic-unveils-the-new-launch-of-f9a-the-2l-flagship-mini-ai-workstation",
+      "title": "(PR) Acemagic revela o novo lançamento do F9A: a principal estação de trabalho Mini AI 2L",
+      "original_title": "(PR) Acemagic Unveils the New Launch of F9A: The 2L Flagship Mini AI Workstation",
+      "image": "https://tpucdn.com/img/O0KvWxgG0VCaaycy_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-28",
-      "summary": "ScaleFlux apresentará duas soluções de silício PCIe Gen 6 de próxima geração no Future of Memory and Storage (FMS) 2026: o controlador SSD FC6116 PCIe Gen 6 NVMe e o controlador de memória MC600 PCIe Gen 6 CXL 3.2 Tipo 3. Juntos, esses produtos expandem...",
+      "date": "2026-07-29",
+      "summary": "Estamos entusiasmados em apresentar oficialmente nossa estação de trabalho compacta e de alto desempenho de próxima geração: a Acemagic F9A (Ryzen AI MAX+395). Projetada como uma mini estação de trabalho AI classe 2L, ela combina a principal plataforma AMD Ryzen AI com expansão Oculink, du...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/351145/scaleflux-unveils-pcie-gen-6-ssd-and-cxl-memory-controllers"
+      "url": "https://www.techpowerup.com/351187/acemagic-unveils-the-new-launch-of-f9a-the-2l-flagship-mini-ai-workstation"
     },
     {
-      "id": "https://www.techpowerup.com/351144/kioxia-announces-nx1-data-center-nvme-e1-s-ssds",
-      "title": "(PR) Kioxia anuncia SSDs NVMe E1.S para data center NX1",
-      "original_title": "(PR) Kioxia Announces NX1 Data Center NVMe E1.S SSDs",
-      "image": "https://tpucdn.com/img/KWEAumb9bN3Wz29Q_thm.jpg",
+      "id": "https://www.techpowerup.com/351186/powercolor-intros-radeon-rx-9050-8gb-reaper-graphics-card",
+      "title": "PowerColor apresenta placa gráfica Radeon RX 9050 8GB Reaper",
+      "original_title": "PowerColor Intros Radeon RX 9050 8GB Reaper Graphics Card",
+      "image": "https://tpucdn.com/img/dGWG0XXrmE8Mwy4e_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-28",
-      "summary": "anunciou hoje a série KIOXIA NX1 de unidades de estado sólido (SSDs), uma nova geração de SSDs de data center E1.S PCIe 5.0 NVMe e o primeiro SSD da Kioxia com suporte direto para refrigeração líquida. A série KIOXIA NX1 apresenta o próximo...",
+      "date": "2026-07-29",
+      "summary": "A PowerColor apresentou hoje a placa gráfica Radeon RX 9050 8 GB Reaper. Baseado na nova GPU básica para jogos da série RX 9000 da AMD e equipado com a arquitetura gráfica AMD RDNA 4, o RX 9050 é feito de silício \"Navi 44\" de 4 nm...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/351144/kioxia-announces-nx1-data-center-nvme-e1-s-ssds"
+      "url": "https://www.techpowerup.com/351186/powercolor-intros-radeon-rx-9050-8gb-reaper-graphics-card"
     },
     {
-      "id": "https://www.techpowerup.com/351142/yunzii-launches-c75-mao-cake-kitten-wireless-mechanical-keyboard",
-      "title": "(PR) Yunzii lança teclado mecânico sem fio C75 MAO Cake Kitten",
-      "original_title": "(PR) Yunzii Launches C75 MAO Cake Kitten Wireless Mechanical Keyboard",
-      "image": "https://tpucdn.com/img/eCUWlVcRuxAsdWhe_thm.jpg",
+      "id": "https://www.techpowerup.com/351185/sapphire-intros-radeon-rx-9050-8gb-pulse-graphics-card",
+      "title": "Sapphire apresenta placa gráfica Radeon RX 9050 8GB Pulse",
+      "original_title": "Sapphire Intros Radeon RX 9050 8GB Pulse Graphics Card",
+      "image": "https://tpucdn.com/img/QrvyF2Bdxw1Rk51D_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-28",
-      "summary": "Gosta de layouts compactos? Obcecado por configurações de mesa adoráveis? Então você não vai querer perder o teclado mecânico sem fio Yunzii C75 MAO Cake Kitten. Seguindo o amor esmagador pelo Yunzii C75 Cake Kitten original, levamos tudo o que os usuários...",
+      "date": "2026-07-29",
+      "summary": "A Sapphire apresentou hoje sua placa gráfica Radeon RX 9050 Pulse de 8 GB. Baseada em uma variante compactada do design da placa RX 9060 XT Pulse, a placa constitui o novo nível de entrada da AMD na geração de GPUs da série RX 9000 com arquitetura gráfica RDNA 4...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/351142/yunzii-launches-c75-mao-cake-kitten-wireless-mechanical-keyboard"
+      "url": "https://www.techpowerup.com/351185/sapphire-intros-radeon-rx-9050-8gb-pulse-graphics-card"
     },
     {
-      "id": "https://www.techpowerup.com/351139/beyerdynamic-introduces-the-new-dt-275-pro-headphones",
-      "title": "(PR) beyerdynamic apresenta os novos fones de ouvido DT 275 PRO",
-      "original_title": "(PR) beyerdynamic Introduces the New DT 275 PRO Headphones",
-      "image": "https://tpucdn.com/img/iZB7r4FlIRCzc4BF_thm.jpg",
+      "id": "https://www.techpowerup.com/351184/asrock-launches-radeon-rx-9050-challenger-8gb-graphics-card",
+      "title": "(PR) ASRock lança placa gráfica Radeon RX 9050 Challenger 8GB",
+      "original_title": "(PR) ASRock Launches Radeon RX 9050 Challenger 8GB Graphics Card",
+      "image": "https://tpucdn.com/img/ScuZqVuztAclv7B4_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-28",
-      "summary": "A especialista alemã em áudio beyerdynamic está expandindo sua popular série PRO com os novos fones de ouvido DT 275 PRO. Projetados para usuários profissionais, eles permitem avaliações sonoras rápidas e confiáveis, mesmo em ambientes ruidosos. Os novos fones de ouvido combinam...",
+      "date": "2026-07-29",
+      "summary": "ASRock, líder global em placas-mãe, placas gráficas, monitores de jogos, mini PCs, fontes de alimentação e coolers líquidos AIO, lançou hoje as novas placas gráficas da série Challenger baseadas na mais recente GPU AMD Radeon RX 9050. Como o mais recente membro...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/351139/beyerdynamic-introduces-the-new-dt-275-pro-headphones"
+      "url": "https://www.techpowerup.com/351184/asrock-launches-radeon-rx-9050-challenger-8gb-graphics-card"
     },
     {
-      "id": "https://www.techpowerup.com/351138/arctic-unveils-the-10-port-arctic-fan-controller",
-      "title": "(PR) Arctic revela o controlador de ventilador Arctic de 10 portas",
-      "original_title": "(PR) Arctic Unveils the 10-port Arctic Fan Controller",
-      "image": "https://tpucdn.com/img/0HXytARNKFFhYq40_thm.jpg",
+      "id": "https://www.techpowerup.com/351183/kioxia-announces-ufs-5-0-embedded-flash-memory-devices",
+      "title": "(PR) Kioxia Anuncia Dispositivos de Memória Flash Incorporados UFS 5.0",
+      "original_title": "(PR) Kioxia Announces UFS 5.0 Embedded Flash Memory Devices",
+      "image": "https://tpucdn.com/img/LXqusztOmwrRT1Dp_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-28",
-      "summary": "O ARCTIC Fan Controller reúne gerenciamento inteligente de ventiladores, monitoramento detalhado e ampla compatibilidade de software em uma solução compacta. Com suporte para até dez ventiladores controláveis ​​de forma independente, permite otimização precisa do fluxo de ar com...",
+      "date": "2026-07-29",
+      "summary": "A Kioxia Corporation, líder mundial em soluções de memória, anunciou hoje suas soluções de memória flash incorporada UFS 5.0, projetadas para oferecer o desempenho, a eficiência e a capacidade necessários para a próxima geração de dispositivos móveis e de borda habilitados para IA. ...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/351138/arctic-unveils-the-10-port-arctic-fan-controller"
+      "url": "https://www.techpowerup.com/351183/kioxia-announces-ufs-5-0-embedded-flash-memory-devices"
     },
     {
-      "id": "https://www.techpowerup.com/351136/be-quiet-introduces-light-loop-io-lcd-aio-liquid-cpu-coolers",
-      "title": "(PR) fique quieto! Apresenta coolers líquidos para CPU Light Loop IO LCD AIO",
-      "original_title": "(PR) be quiet! Introduces Light Loop IO LCD AIO Liquid CPU Coolers",
-      "image": "https://tpucdn.com/img/hKpxa9nQRTwoWqz2_thm.jpg",
+      "id": "https://www.techpowerup.com/351182/umc-announces-fab-expansion-in-singapore-and-construction-of-new-fab-in-tainan-to-meet-accelerating-ai-demand",
+      "title": "(PR) UMC anuncia expansão de fábrica em Cingapura e construção de nova fábrica em Tainan para atender à crescente demanda por IA",
+      "original_title": "(PR) UMC Announces Fab Expansion in Singapore and Construction of New Fab in Tainan to Meet Accelerating AI Demand",
+      "image": "https://tpucdn.com/img/k8WmT4Z3hckq2DNo_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-28",
-      "summary": "fique quieto!, o fabricante alemão de componentes e periféricos premium para PC, tem o orgulho de anunciar o Light Loop IO LCD, uma nova adição à série multifuncional de refrigeração líquida Light Loop. Projetado para sistemas com overclock intenso, o Light Loop IO LCD combina...",
+      "date": "2026-07-29",
+      "summary": "A United Microelectronics Corporation (UMC), uma fundição líder global de semicondutores, anunciou hoje que seu Conselho de Administração aprovou um plano de expansão em fases para atender à crescente demanda dos clientes. A empresa expandirá imediatamente a capacidade de salas limpas...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/351136/be-quiet-introduces-light-loop-io-lcd-aio-liquid-cpu-coolers"
+      "url": "https://www.techpowerup.com/351182/umc-announces-fab-expansion-in-singapore-and-construction-of-new-fab-in-tainan-to-meet-accelerating-ai-demand"
     },
     {
-      "id": "https://www.techpowerup.com/351135/sk-hynix-lpddr6-enters-mass-production-in-second-half-of-2026",
-      "title": "SK hynix LPDDR6 entra em produção em massa no segundo semestre de 2026",
-      "original_title": "SK hynix LPDDR6 Enters Mass Production in Second Half of 2026",
-      "image": "https://tpucdn.com/img/6CiY8yGUeAx3GdEA_thm.jpg",
+      "id": "https://www.techpowerup.com/351181/aaeon-launches-mix-q870a1-a-modular-mini-itx-motherboard-with-65w-arrow-lake-cpu-support",
+      "title": "(PR) AAEON lança MIX-Q870A1, uma placa-mãe modular Mini-ITX com suporte para CPU “Arrow Lake” de 65W",
+      "original_title": "(PR) AAEON Launches MIX-Q870A1, a Modular Mini-ITX Motherboard with 65W \"Arrow Lake\" CPU Support",
+      "image": "https://tpucdn.com/img/xjdJJDeo7FTqqOTe_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-28",
-      "summary": "A SK Hynix está se preparando para a produção em massa de sua memória LPDDR6 de próxima geração, de acordo com o canal sul-coreano Herald. Embora esta informação não seja surpreendente, o cronograma está agora definido para o segundo semestre de 2026, que começou em julho. Cedo...",
+      "date": "2026-07-29",
+      "summary": "AAEON, produtor líder de placas-mãe industriais, anunciou o lançamento da MIX-Q870A1, uma sofisticada placa-mãe Mini-ITX que suporta processadores Intel Core Ultra 200S Series LGA 1851 de até 65 W (anteriormente Arrow Lake). Compatível...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/351135/sk-hynix-lpddr6-enters-mass-production-in-second-half-of-2026"
+      "url": "https://www.techpowerup.com/351181/aaeon-launches-mix-q870a1-a-modular-mini-itx-motherboard-with-65w-arrow-lake-cpu-support"
     },
     {
-      "id": "https://www.techpowerup.com/351134/amd-launches-radeon-rx-9050-4-8-gb-skus-with-first-design-from-asrock",
-      "title": "AMD lança SKUs Radeon RX 9050 4/8 GB com primeiro design da ASRock",
-      "original_title": "AMD Launches Radeon RX 9050 4/8 GB SKUs with First Design from ASRock",
-      "image": "https://tpucdn.com/img/lkyDj0pDA2c6F2Zo_thm.jpg",
+      "id": "https://www.techpowerup.com/351180/colorful-launches-the-rimbook-l1-plus-laptop",
+      "title": "(PR) COLORFUL lança laptop Rimbook L1 Plus",
+      "original_title": "(PR) COLORFUL Launches the Rimbook L1 Plus Laptop",
+      "image": "https://tpucdn.com/img/bTozq6vmiADtAaJR_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-28",
-      "summary": "A AMD enviou suas placas gráficas RDNA 4 de nível mais baixo para OEMs e parceiros de placas, apresentando as variantes Radeon RX 9050 de 4 GB e 8 GB. O modelo de 4 GB é uma versão reduzida da Radeon RX 9050 8 GB, com alterações apenas na configuração da memória. Bom...",
+      "date": "2026-07-29",
+      "summary": "A Colorful Technology Company Limited, marca líder em componentes para PC para jogos, laptops para jogos e produtos de áudio Hi-fi, anuncia com orgulho o COLORFUL Rimbook L1 Plus, equipado com um processador AMD Ryzen. Projetado para estudantes, profissionais, criadores,...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/351134/amd-launches-radeon-rx-9050-4-8-gb-skus-with-first-design-from-asrock"
+      "url": "https://www.techpowerup.com/351180/colorful-launches-the-rimbook-l1-plus-laptop"
     },
     {
-      "id": "https://www.techpowerup.com/351132/alphacool-announces-ddczero-xs-reservoir-ddczero-pumptop-and-es-reservoir-ddczero-1u",
-      "title": "(PR) Alphacool Anuncia Reservatório DDCzero XS, DDCzero Pumptop e Reservatório ES DDCzero 1U",
-      "original_title": "(PR) Alphacool Announces DDCzero XS Reservoir, DDCzero Pumptop and ES Reservoir DDCzero 1U",
-      "image": "https://tpucdn.com/img/KKe4kNGcMEgvXrP0_thm.jpg",
+      "id": "https://www.techpowerup.com/351179/assassins-creed-hexe-to-launch-in-late-2027-at-earliest",
+      "title": "Assassin’s Creed Hexe será lançado no final de 2027 “no início”",
+      "original_title": "Assassin's Creed Hexe To Launch in Late 2027 \"At Earliest\"",
+      "image": "https://tpucdn.com/img/Uw4f0jR2vXktrQcJ_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-28",
-      "summary": "Alphacool International GmbH de Braunschweig é pioneira na tecnologia de refrigeração líquida para PC. Com um dos portfólios de produtos mais abrangentes do setor e mais de 20 anos de experiência, a Alphacool está expandindo sua série DDCzero com o Cor...",
+      "date": "2026-07-29",
+      "summary": "Dado o recente sucesso de Assassin's Creed Shadows e Black Flag: Resynced, Assassin's Creed Hexe está se tornando um jogo razoavelmente aguardado, neste momento. Embora rumores anteriores indicassem que o Hexe pode ser lançado em junho de 2027, apesar de alguns ...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/351132/alphacool-announces-ddczero-xs-reservoir-ddczero-pumptop-and-es-reservoir-ddczero-1u"
+      "url": "https://www.techpowerup.com/351179/assassins-creed-hexe-to-launch-in-late-2027-at-earliest"
     },
     {
-      "id": "https://www.techpowerup.com/351130/hyper-dash-vr-shooter-shuts-down-with-final-update-adding-offline-gameplay",
-      "title": "Hyper Dash VR Shooter é encerrado com atualização final adicionando jogabilidade offline",
-      "original_title": "Hyper Dash VR Shooter Shuts Down With Final Update Adding Offline Gameplay",
-      "image": "https://tpucdn.com/img/7DZDz6uY2sqKBeYA_thm.jpg",
+      "id": "https://www.techpowerup.com/351178/double-fine-games-lays-off-25-of-staff-after-xbox-split",
+      "title": "Double Fine Games demite 25% da equipe após divisão do Xbox",
+      "original_title": "Double Fine Games Lays Off 25% of Staff After Xbox Split",
+      "image": "https://tpucdn.com/img/5vDUvzpXL3Gw8uel_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-07-28",
-      "summary": "Hyper Dash, o VR PvP boomer shooter lançado em 2021, ficará oficialmente offline em 1º de novembro de 2026. Triangle Factory, o estúdio por trás do jogo, anunciou que tomou a decisão de encerrar o jogo e desligar os servidores, afirmando...",
+      "date": "2026-07-29",
+      "summary": "A Double Fine Productions foi um dos poucos estúdios de jogos que conseguiram recuperar sua independência durante a recente reinicialização massiva do Xbox, que viu vários fechamentos de estúdios, um grande número de demissões e danos colaterais adicionais ao estúdio...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/351130/hyper-dash-vr-shooter-shuts-down-with-final-update-adding-offline-gameplay"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1v87ijp/windows_central_fable_has_run_uncomfortably/",
-      "title": "[Windows Central] Fable funcionou “Desconfortavelmente além do orçamento”",
-      "original_title": "[Windows Central] Fable has run “Uncomfortably beyond budget”",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-07-27",
-      "summary": "“O mesmo não pode ser dito da próxima Fábula, que fontes sugerem que ultrapassou “desconfortavelmente” o orçamento.” https://www.windowscentral.com/gaming/xbox/playstation-makes-a-mockery-of-xboxs-multi-plat-push-by-dropping-god-of-war-one-day-before-f...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1v87ijp/windows_central_fable_has_run_uncomfortably/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1v8bf8g/mp1st_cd_projekt_red_was_collaborating_with/",
-      "title": "MP1ST: CD Projekt Red estava colaborando com WayForward em um Cyberpunk: Edgerunners Brawler 2.5D",
-      "original_title": "MP1ST: CD Projekt Red was collaborating with WayForward on a 2.5D Cyberpunk: Edgerunners Brawler",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-07-27",
-      "summary": "https://mp1st.com/news/report-cd-projekt-red-partnered-with-shantae-devs-on-a-2-5d-cyberpunk-edgerunners-brawler \"Descobrimos que o CDPR estava colaborando com WayForward, o estúdio mais conhecido pela série Shantae, em um jogo paralelo menor...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1v8bf8g/mp1st_cd_projekt_red_was_collaborating_with/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1v7x9ih/tom_henderson_far_crys_extractionshooter_has_been/",
-      "title": "Tom Henderson: O atirador de extração de Far Cry foi cancelado",
-      "original_title": "Tom Henderson: Far Cry's extraction-shooter has been cancelled",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-07-27",
-      "summary": "https://xcancel.com/_Tom_Henderson_/status/2081695081447268637 https://insider-gaming.com/far-cry-new-game/ Ele também menciona que o próximo jogo Far Cry da linha principal está aparentemente em um “bom caminho daqui para frente” após relatos anteriores de desenvolvimento péssimo...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1v7x9ih/tom_henderson_far_crys_extractionshooter_has_been/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1v84hb8/new_playable_character_for_marvel_tokon_got/",
-      "title": "Novo personagem jogável para Marvel Tokon vazou antes do lançamento",
-      "original_title": "New playable character for Marvel Tokon got leaked before release",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Rumor",
-      "date": "2026-07-27",
-      "summary": "https://streamable.com/37ih1h O Campeão, chefe final do jogo enviado por /u/Gabrielhrd [link] [comentários]...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1v84hb8/new_playable_character_for_marvel_tokon_got/"
+      "url": "https://www.techpowerup.com/351178/double-fine-games-lays-off-25-of-staff-after-xbox-split"
     }
   ]
 }
