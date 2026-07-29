@@ -1,8 +1,16 @@
 # Controle de Acesso Vision
 
-> **Status:** Case reconstruído e refinado para portfólio
+> **Status:** Estudo de caso reconstruído, com apresentação e demonstração separadas
 > **Base:** Artigo científico publicado na RBMC (2024)
-> **Tecnologia da página:** HTML, Tailwind CDN, JavaScript, TensorFlow.js, COCO-SSD
+> **Tecnologia da página:** HTML, CSS estático, JavaScript, TensorFlow.js, COCO-SSD
+
+## Estrutura atual
+
+- `index.html`: apresentação factual do projeto, da arquitetura, das fontes e dos limites.
+- `demo.html`: experiência independente com câmera e detecção local de objetos.
+- `vision-product.css`: sistema visual específico da apresentação.
+
+A separação impede que a demonstração contemporânea seja confundida com o reconhecimento facial e o acionamento físico descritos no artigo.
 
 **Artigo:** `https://rbmc.org.br/rbmc/article/view/175`
 

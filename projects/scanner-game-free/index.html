@@ -1,68 +1,79 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RDP Insider | Leaks & Hardware Intelligence</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/site/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/site/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/site/favicon-16x16.png">
-    <link rel="manifest" href="../../assets/site/site.webmanifest">
-
-    <!-- React & ReactDOM -->
-    <script defer src="../../assets/vendor/react/react.production.min.js"></script>
-    <script defer src="../../assets/vendor/react/react-dom.production.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <!-- Fonts -->
-<style>
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #020617;
-            background-image: linear-gradient(to bottom, rgba(2, 6, 23, 0.95), rgba(2, 6, 23, 0.98));
-            background-size: cover;
-            background-attachment: fixed;
-            color: #F8FAFC;
-        }
-
-        /* Scrollbar */
-        ::-webkit-scrollbar { width: 8px; }
-        ::-webkit-scrollbar-track { background: #0f172a; }
-        ::-webkit-scrollbar-thumb { background: #334155; border-radius: 4px; }
-        ::-webkit-scrollbar-thumb:hover { background: #06b6d4; }
-
-        .glass-panel {
-            background: rgba(15, 23, 42, 0.6);
-            backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.08);
-        }
-
-        .hover-card:hover {
-            transform: translateY(-4px);
-            border-color: rgba(6, 182, 212, 0.4);
-            box-shadow: 0 10px 40px -10px rgba(6, 182, 212, 0.15);
-        }
-
-        .dashboard-grid {
-            display: grid;
-            grid-template-columns: 2fr 1fr;
-            gap: 2rem;
-        }
-        @media(max-width: 768px) {
-            .dashboard-grid { grid-template-columns: 1fr; }
-        }
-    </style>
-<!-- RDP_REBRAND_HEAD -->
-<link rel='stylesheet' href='../../assets/css/project-base.css'>
-<script>try{const m=localStorage.getItem('rdp-theme-mode')||'system';document.documentElement.dataset.themeMode=m;document.documentElement.dataset.theme=m==='system'?(matchMedia('(prefers-color-scheme: light)').matches?'light':'dark'):m}catch(e){}</script>
-
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>RDP Insider | Jogos gratuitos e hardware</title>
+  <meta name="description" content="Painel atualizado por crawler Python para acompanhar jogos gratuitos da Epic Games e notícias de hardware.">
+  <link rel="icon" href="../../assets/site/favicon-32x32.png">
+  <link rel="stylesheet" href="../../assets/css/project-base.css">
+  <link rel="stylesheet" href="insider.css">
+  <script>try{const m=localStorage.getItem('rdp-theme-mode')||'system';document.documentElement.dataset.themeMode=m;document.documentElement.dataset.theme=m==='system'?(matchMedia('(prefers-color-scheme:light)').matches?'light':'dark'):m}catch(e){}</script>
 </head>
-<body class="antialiased min-h-screen flex flex-col" data-rdp-project="scanner-game-free">
-    <div id="root" class="flex-grow flex flex-col"></div>
+<body data-rdp-project="scanner-game-free">
+  <main class="insider" id="insider-app">
+    <header class="insider-hero">
+      <div>
+        <p class="insider-eyebrow">RDP Insider</p>
+        <h1 data-copy="title">O que está grátis agora. O que vale acompanhar depois.</h1>
+        <p class="insider-lead" data-copy="lead">Um crawler em Python organiza ofertas da Epic Games e notícias de hardware em um acervo estático, rápido e consultável.</p>
+      </div>
+      <aside class="insider-update" aria-live="polite">
+        <span data-copy="update">Última coleta</span>
+        <strong id="last-update">—</strong>
+        <small id="data-state">Carregando dados locais…</small>
+      </aside>
+    </header>
 
-    <script defer src="js/app.bundle.js"></script>
-<!-- RDP_REBRAND_BODY -->
-<script src='../../assets/js/rdp-project-shell.js'></script>
+    <section class="insider-feature" id="epic-feature" aria-labelledby="epic-title">
+      <div class="insider-feature-media" id="current-game-media"></div>
+      <div class="insider-feature-copy">
+        <p class="insider-eyebrow" data-copy="available">Disponível gratuitamente</p>
+        <h2 id="epic-title">Epic Games Store</h2>
+        <p id="current-game-description" class="insider-description"></p>
+        <dl class="insider-meta">
+          <div><dt data-copy="until">Prazo</dt><dd id="current-game-deadline">—</dd></div>
+          <div><dt data-copy="source">Fonte</dt><dd>Epic Games Store</dd></div>
+        </dl>
+        <a id="current-game-link" class="insider-action" href="https://store.epicgames.com/free-games" target="_blank" rel="noopener" data-copy="claim">Abrir na Epic Games</a>
+      </div>
+    </section>
+
+    <section class="insider-section" aria-labelledby="next-title">
+      <div class="insider-section-head">
+        <div><p class="insider-eyebrow">Epic Games</p><h2 id="next-title" data-copy="next">Próximas ofertas</h2></div>
+        <p data-copy="nextText">Datas coletadas da fonte e apresentadas sem contagem regressiva simulada.</p>
+      </div>
+      <div class="insider-rail" id="upcoming-games"></div>
+    </section>
+
+    <section class="insider-section" aria-labelledby="feed-title">
+      <div class="insider-section-head">
+        <div><p class="insider-eyebrow" data-copy="collection">Acervo monitorado</p><h2 id="feed-title" data-copy="feed">Jogos e hardware</h2></div>
+        <label class="insider-search"><span class="sr-only" data-copy="search">Buscar no acervo</span><input id="search" type="search" placeholder="Buscar título ou assunto"></label>
+      </div>
+      <div class="insider-filters" id="filters" aria-label="Filtros">
+        <button class="is-active" data-filter="All" data-copy="all">Tudo</button>
+        <button data-filter="News" data-copy="news">Notícias</button>
+        <button data-filter="Hardware">Hardware</button>
+        <button data-filter="Release Date" data-copy="dates">Datas</button>
+        <button data-filter="Free Games" data-copy="free">Grátis</button>
+      </div>
+      <p class="insider-count" id="result-count" aria-live="polite"></p>
+      <div class="insider-feed" id="news-feed"></div>
+      <button class="insider-more" id="load-more" type="button" data-copy="more">Mostrar mais</button>
+    </section>
+
+    <section class="insider-method" aria-labelledby="method-title">
+      <div><p class="insider-eyebrow" data-copy="how">Como funciona</p><h2 id="method-title" data-copy="method">Python coleta. JSON publica. O navegador filtra.</h2></div>
+      <ol>
+        <li><strong>1</strong><span data-copy="step1">O crawler consulta a Epic Games e feeds RSS.</span></li>
+        <li><strong>2</strong><span data-copy="step2">As entradas são normalizadas, deduplicadas e gravadas em JSON.</span></li>
+        <li><strong>3</strong><span data-copy="step3">A interface lê o arquivo local; nenhum servidor é necessário para pesquisar.</span></li>
+      </ol>
+    </section>
+  </main>
+  <script src="insider.js"></script>
+  <script src="../../assets/js/rdp-project-shell.js"></script>
 </body>
 </html>

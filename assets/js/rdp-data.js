@@ -9,11 +9,12 @@ window.RDP_PROJECTS = [
       "TensorFlow.js"
     ],
     "screenshot": "../assets/images/projects/controle-acesso-visao.png",
+    "appUrl": "../projects/controle-acesso-visao/demo.html#demo",
     "pt": {
       "name": "Controle de Acesso Vision",
       "eyebrow": "Estudo de caso acadêmico reconstruído",
-      "headline": "Do artigo técnico a uma experiência de visão computacional.",
-      "summary": "Reconstrução editorial de um TCC sobre controle de acesso com ESP32 e reconhecimento facial, acompanhada por uma demonstração local de visão computacional no navegador.",
+      "headline": "O sistema publicado, a reconstrução documental e a demo atual — sem misturar as três coisas.",
+      "summary": "Estudo de caso de um TCC sobre controle de acesso com ESP32 e reconhecimento facial. A apresentação registra o que o artigo comprova, o que se perdeu e o que a demonstração web realmente faz.",
       "type": "Case",
       "category": "Visão computacional",
       "status": "Reconstrução publicada",
