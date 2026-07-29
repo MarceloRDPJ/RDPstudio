@@ -7,10 +7,11 @@
 .rod-stage::before{content:"";position:absolute;inset:4% 8% 14%;z-index:-1;background:radial-gradient(circle,color-mix(in srgb,var(--accent) 12%,transparent),transparent 66%)}
 .rod-core-zone{position:relative;grid-column:2;grid-row:1;width:min(100%,640px);aspect-ratio:1;margin:auto;display:grid;place-items:center}
 .rod-core-canvas{position:absolute;inset:0;width:100%;height:100%}
-.rod-core-mark{position:relative;z-index:2;width:clamp(72px,9vw,112px);aspect-ratio:1;display:grid;place-items:center;border-radius:50%;background:var(--accent);box-shadow:0 0 0 12px color-mix(in srgb,var(--accent) 10%,transparent),0 0 80px color-mix(in srgb,var(--accent) 32%,transparent);transition:transform .35s ease}
+.rod-core-mark{position:relative;z-index:2;width:clamp(72px,9vw,112px);aspect-ratio:1;display:grid;place-items:center;border-radius:50%;background:var(--accent);box-shadow:0 0 0 12px color-mix(in srgb,var(--accent) 10%,transparent),0 0 80px color-mix(in srgb,var(--accent) 32%,transparent);transition:transform .35s ease,box-shadow .35s ease}
 .rod-core-mark img{width:64%;height:64%;object-fit:contain}
 html[data-theme="light"] .rod-core-mark img{content:url("../images/branding/logo-black.png")}
-.rod-core-zone[data-rod-core-state="thinking"] .rod-core-mark{transform:scale(.88)}
+.rod-core-zone[data-rod-core-state="thinking"] .rod-core-mark{animation:rod-breathe .72s ease-in-out infinite alternate;box-shadow:0 0 0 18px color-mix(in srgb,var(--accent) 9%,transparent),0 0 110px color-mix(in srgb,var(--accent) 42%,transparent)}
+.rod-core-zone[data-rod-core-state="typing"] .rod-core-mark{animation:rod-heartbeat 1.05s ease-in-out infinite;box-shadow:0 0 0 14px color-mix(in srgb,var(--accent) 11%,transparent),0 0 92px color-mix(in srgb,var(--accent) 36%,transparent)}
 .rod-core-zone[data-rod-core-state="answer"] .rod-core-mark{transform:scale(1.08)}
 .rod-core-status{position:absolute;bottom:8%;display:flex;align-items:center;gap:.65rem;color:var(--muted);font-size:.78rem}
 .rod-core-status span{width:8px;height:8px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 6px color-mix(in srgb,var(--accent) 13%,transparent)}
@@ -21,6 +22,7 @@ html[data-theme="light"] .rod-core-mark img{content:url("../images/branding/logo
 .rod-response{grid-column:3;grid-row:1;align-self:center}
 .rod-response h2{margin:0 0 1rem;font-size:clamp(1.6rem,2.6vw,2.7rem);line-height:1;letter-spacing:-.045em}
 .rod-response-text{color:var(--muted);white-space:pre-line}
+.rod-response[aria-busy="true"] .rod-response-text::after{content:"";display:inline-block;width:.42em;height:1em;margin-left:.24em;vertical-align:-.12em;background:var(--accent);animation:rod-cursor .75s steps(1,end) infinite}
 .rod-response-actions{display:flex;flex-wrap:wrap;gap:1rem;margin-top:1.25rem}
 .rod-response-actions a{padding-bottom:.15rem;border-bottom:1px solid var(--line);font-size:.82rem;font-weight:720}
 .rod-response-actions a:hover{border-color:var(--accent);color:var(--accent)}
@@ -60,3 +62,7 @@ html[data-theme="light"] .rod-core-mark img{content:url("../images/branding/logo
   .rod-disclosure{gap:.8rem}
 }
 @media(prefers-reduced-motion:reduce){.rod-core-mark{transition:none}}
+@keyframes rod-breathe{from{transform:scale(.9)}to{transform:scale(1.04)}}
+@keyframes rod-heartbeat{0%,100%{transform:scale(.98)}14%{transform:scale(1.07)}28%{transform:scale(.99)}42%{transform:scale(1.04)}65%{transform:scale(.98)}}
+@keyframes rod-cursor{0%,48%{opacity:1}49%,100%{opacity:0}}
+@media(prefers-reduced-motion:reduce){.rod-core-zone[data-rod-core-state="thinking"] .rod-core-mark,.rod-core-zone[data-rod-core-state="typing"] .rod-core-mark{animation:none}}

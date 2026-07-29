@@ -6,7 +6,7 @@ const copy = {
     pathsKicker:'Caminhos rápidos',pathsTitle:'Comece pelo assunto, não por um menu.',
     disclosureTitle:'Como o ROD funciona',
     disclosure:'As respostas são montadas no seu navegador a partir do conteúdo publicado no portfólio. A conversa não é enviada para um servidor e o ROD informa quando não encontra contexto suficiente.',
-    ready:'Pronto para conectar',thinking:'Relacionando informações',answered:'Contexto encontrado',
+    ready:'Pronto para conectar',thinking:'Procurando relações',organizing:'Organizando o contexto',typing:'Formando a resposta',answered:'Resposta pronta',
     startTitle:'Por onde você quer começar?',
     startText:'Posso apresentar os sete projetos, explicar a trajetória de Marcelo, comparar tecnologias ou indicar a experiência mais adequada para uma necessidade.',
     placeholder:'Pergunte ao ROD'
@@ -18,7 +18,7 @@ const copy = {
     pathsKicker:'Quick paths',pathsTitle:'Start with a subject, not a menu.',
     disclosureTitle:'How ROD works',
     disclosure:'Answers are assembled in your browser from published portfolio content. The conversation is not sent to a server, and ROD states when there is not enough context.',
-    ready:'Ready to connect',thinking:'Connecting information',answered:'Context found',
+    ready:'Ready to connect',thinking:'Finding connections',organizing:'Organizing context',typing:'Forming the answer',answered:'Answer ready',
     startTitle:'Where would you like to start?',
     startText:'I can introduce the seven projects, explain Marcelo’s path, compare technologies or point you to the right experience for a specific need.',
     placeholder:'Ask ROD'
@@ -86,10 +86,26 @@ async function ask(question){
   elements.queryCard.hidden=false;elements.query.textContent=question;elements.response.setAttribute('aria-busy','true')
   elements.core.dataset.rodCoreState='thinking';elements.status.textContent=dictionary.thinking
   elements.input.value='';elements.input.disabled=true
-  await new Promise(resolve=>setTimeout(resolve,matchMedia('(prefers-reduced-motion:reduce)').matches?0:260))
+  const reduced=matchMedia('(prefers-reduced-motion:reduce)').matches
+  elements.title.textContent=''
+  elements.text.textContent=''
+  renderActions([])
+  await new Promise(resolve=>setTimeout(resolve,reduced?0:280))
+  elements.status.textContent=dictionary.organizing
+  await new Promise(resolve=>setTimeout(resolve,reduced?0:240))
   const answer=engine.answer(question,{...context});context=answer.context||context
   elements.title.textContent=responseTitle(answer,question)
-  elements.text.textContent=lang()==='en'?englishAnswer(answer,question):answer.text
+  const responseText=lang()==='en'?englishAnswer(answer,question):answer.text
+  elements.core.dataset.rodCoreState='typing';elements.status.textContent=dictionary.typing
+  if(reduced){
+    elements.text.textContent=responseText
+  }else{
+    const words=responseText.split(/(\s+)/)
+    for(let index=0;index<words.length;index+=1){
+      elements.text.textContent+=words[index]
+      if(words[index].trim())await new Promise(resolve=>setTimeout(resolve,Math.min(52,18+words[index].length*1.6)))
+    }
+  }
   renderActions(answer.actions);renderSuggestions(lang()==='en'?starter.en:(answer.suggestions.length?answer.suggestions:starter['pt-BR']))
   elements.core.dataset.rodCoreState='answer';elements.status.textContent=dictionary.answered;elements.response.setAttribute('aria-busy','false')
   elements.input.disabled=false;elements.input.focus()

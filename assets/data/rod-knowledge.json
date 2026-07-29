@@ -67,8 +67,86 @@
     {
       "id": "best-project",
       "question": "Qual projeto representa melhor a capacidade técnica da RDP Studio?",
-      "answer": "Depende do recorte. Para automação e dados, o RDP Insider mostra coleta, atualização e leitura de informação. Para ferramenta operacional prática, o Validador de MACs é forte. Para fluxo de negócio com IA, o Assistente de Vendas IA é a melhor vitrine.",
+      "answer": "Não existe um único projeto que resuma o acervo. O GLPI Automator mostra automação aplicada a uma rotina operacional; o Validador de MACs transforma uma tarefa sujeita a erro em uma ferramenta direta; o RDP Visão RM trabalha a conferência de dados exportados do TOTVS RM; e o Controle de Acesso Vision documenta a evolução de um TCC. A melhor escolha depende do problema que você quer conhecer.",
       "keywords": ["melhor projeto", "mais forte", "principal", "capacidade tecnica", "representa melhor"]
+    },
+    {
+      "id": "project-states",
+      "question": "Todos os projetos estão em produção?",
+      "answer": "Não. O acervo reúne ferramentas utilizáveis, plataformas, demonstrações, automações com código restrito e reconstruções documentais. A página de cada projeto explica sua natureza e leva à ação correta: usar a ferramenta, abrir a aplicação, ver a demonstração ou conhecer o caso.",
+      "keywords": ["produção", "status", "pronto", "funciona", "prototipo", "demonstração", "estado dos projetos"]
+    },
+    {
+      "id": "usable-now",
+      "question": "Quais ferramentas posso usar agora?",
+      "answer": "O Validador de MACs pode receber texto ou arquivo e gerar comandos para Fortigate. O RDP Visão RM possui uma experiência de demonstração voltada a arquivos exportados do TOTVS RM. O RDP Insider pode ser aberto como portal de dados. No Controle de Acesso Vision, a demonstração de câmera depende da permissão do navegador.",
+      "keywords": ["usar agora", "testar", "ferramenta funcionando", "demonstração", "demo", "experimentar"]
+    },
+    {
+      "id": "privacy",
+      "question": "O ROD envia minhas perguntas para algum servidor?",
+      "answer": "Não. Nesta versão, a pergunta é analisada no próprio navegador e comparada com uma base de conhecimento publicada junto com o site. O ROD não usa uma API externa para montar a resposta e não mantém histórico em um servidor.",
+      "keywords": ["privacidade", "dados", "servidor", "salva conversa", "envia pergunta", "api do rod"]
+    },
+    {
+      "id": "rod-operation",
+      "question": "Como o ROD funciona?",
+      "answer": "O ROD é um guia local do portfólio. Ele reconhece assuntos, nomes e relações entre os projetos, consulta uma base revisada e indica páginas ou ferramentas relacionadas. Ele não tenta responder sobre qualquer assunto: quando o contexto não existe no acervo, deve dizer isso com clareza.",
+      "keywords": ["como funciona o rod", "o que é rod", "rod é ia", "assistente", "base local"]
+    },
+    {
+      "id": "tcc-source",
+      "question": "Onde encontro o artigo do Controle de Acesso Vision?",
+      "answer": "O projeto nasceu de um trabalho acadêmico sobre controle de acesso com reconhecimento facial e ESP32. A página do case explica o que pertence ao trabalho original e o que foi reconstruído para o portfólio. O artigo está publicado na Revista Brasileira de Mecatrônica, no endereço rbmc.org.br/rbmc/article/view/175.",
+      "keywords": ["tcc", "artigo", "rbmc", "doi", "controle de acesso", "trabalho acadêmico"]
+    },
+    {
+      "id": "rm-purpose",
+      "question": "Para que serve o RDP Visão RM?",
+      "answer": "Ele foi criado para facilitar a leitura e a conferência do fluxo de caixa exportado do TOTVS RM. A ferramenta reconhece colunas, organiza entradas e saídas, mostra saldos e ajuda a revisar naturezas e centros de custo sem alterar o arquivo original.",
+      "keywords": ["totvs rm", "rm", "visão rm", "relatório interativo", "fluxo de caixa", "centro de custo"]
+    },
+    {
+      "id": "fortigate-use",
+      "question": "Como usar o Validador de MACs?",
+      "answer": "Você pode colar uma lista ou carregar CSV e TXT. A ferramenta aceita NOME;MAC e MAC;NOME, normaliza os endereços, aponta entradas inválidas ou duplicadas e prepara os comandos de objetos e grupos para revisão antes do uso no Fortigate.",
+      "keywords": ["validador de macs", "fortigate", "como validar mac", "csv mac", "script firewall"]
+    },
+    {
+      "id": "glpi-private",
+      "question": "Por que o código do GLPI Automator não está disponível?",
+      "answer": "A automação nasceu em um contexto operacional com dados e regras que não devem ser publicados. Por isso, o portfólio mostra o problema, a organização das evidências, o fluxo de abertura dos chamados e as decisões do projeto, mas preserva o código e as informações do ambiente.",
+      "keywords": ["glpi privado", "código glpi", "codigo restrito", "github glpi", "automação glpi"]
+    },
+    {
+      "id": "languages",
+      "question": "O portfólio possui mais de um idioma?",
+      "answer": "A camada institucional permite alternar entre português e inglês. A preferência fica salva no navegador. Algumas ferramentas mantêm termos próprios do domínio para não prejudicar a operação ou a leitura dos arquivos que processam.",
+      "keywords": ["idioma", "inglês", "português", "traduzido", "multilíngue", "language"]
+    },
+    {
+      "id": "themes",
+      "question": "Quais temas visuais estão disponíveis?",
+      "answer": "O site oferece temas claro, escuro e de alto contraste, com preferência persistida no navegador. A marca e o ROD se adaptam ao tema escolhido, e as ferramentas recebem o mesmo sistema visual sem perder sua função.",
+      "keywords": ["tema", "claro", "escuro", "contraste", "cores", "aparência"]
+    },
+    {
+      "id": "project-images",
+      "question": "As imagens dos projetos são reais?",
+      "answer": "A prioridade é usar capturas, interfaces e materiais do próprio projeto. Quando uma página é documental ou o código não pode ser publicado, a imagem serve para explicar o fluxo sem fingir uma tela operacional que não existe.",
+      "keywords": ["imagens reais", "screenshots", "mockup", "imagem do projeto", "capturas"]
+    },
+    {
+      "id": "insider-data",
+      "question": "De onde vêm os dados do RDP Insider?",
+      "answer": "O projeto usa uma rotina em Python para coletar e organizar informações em uma base JSON. O frontend lê essa base e separa o conteúdo por categorias, incluindo jogos gratuitos, hardware e o painel relacionado ao ecossistema Epic.",
+      "keywords": ["rdp insider", "dados insider", "crawler", "epic games", "json", "jogos grátis"]
+    },
+    {
+      "id": "contact-reason",
+      "question": "Sobre quais trabalhos posso falar com Marcelo?",
+      "answer": "Faz sentido conversar sobre automação de rotinas, ferramentas internas, organização e leitura de dados, integrações, infraestrutura e melhoria de sistemas existentes. O contato também pode começar por uma análise do problema, antes de existir uma solução definida.",
+      "keywords": ["contratar", "serviço", "trabalho", "orçamento", "falar com marcelo", "projeto novo"]
     }
   ],
   "projects": [
@@ -215,12 +293,12 @@
     {
       "id": "about-studio",
       "keywords": ["rdp studio", "empresa", "estudio", "studio", "consultoria", "o que voces fazem", "o que vc faz"],
-      "response": "A RDP Studio é um portfólio orientado à prova de capacidade técnica. O foco principal é mostrar automação, segurança, BI e IA aplicada com exemplos que resolvem problemas concretos, não apenas mockups bonitos."
+      "response": "A RDP Studio é a assinatura que Marcelo usa para reunir ferramentas, plataformas, automações e trabalhos documentados. O acervo mostra projetos de naturezas diferentes e explica o que cada um faz, como foi construído e em que estado se encontra."
     },
     {
       "id": "about-profile",
       "keywords": ["marcelo", "quem e voce", "quem e ele", "fundador", "sobre voce", "sobre ele"],
-      "response": "Marcelo Rodrigues é o fundador da RDP Studio. O perfil dele combina automação, infraestrutura, segurança e engenharia de software, com uma pegada forte de resolver trabalho repetitivo com sistemas mais inteligentes e mais apresentáveis."
+      "response": "Marcelo Rodrigues trabalha entre suporte, infraestrutura, automação e desenvolvimento de ferramentas. É tecnólogo em Gestão da Tecnologia da Informação e cursa pós-graduação em Computação Forense e Segurança. A RDP Studio organiza projetos construídos ao longo dessa trajetória."
     },
     {
       "id": "contact",
@@ -230,12 +308,12 @@
     {
       "id": "project-recommendation",
       "keywords": ["qual projeto", "qual ferramenta", "me indica", "recomenda", "por onde comeco", "por onde começo"],
-      "response": "Se você quer automação operacional, eu mostraria primeiro o GLPI Automator ou o Validador de MACs. Se quer IA aplicada a negócio, eu iria para o Assistente de Vendas IA. Se o objetivo é dados e atualização automática, o RDP Insider é a melhor vitrine."
+      "response": "Se a necessidade é reduzir uma rotina manual, comece pelo GLPI Automator ou pelo Validador de MACs. Para analisar uma exportação do TOTVS RM, abra o RDP Visão RM. Para coleta e organização recorrente de dados, conheça o RDP Insider. Se você me disser o problema, consigo apontar um caminho mais preciso."
     },
     {
       "id": "project-vision-case",
       "keywords": ["tcc", "artigo", "rbmc", "reconhecimento facial", "controle de acesso", "esp32 cam", "computer vision"],
-      "response": "Se você quer um case com mais cara de engenharia aplicada, eu te mostraria o Controle de Acesso Vision. Ele pega um TCC publicado, reorganiza o raciocínio técnico e ainda adiciona uma demo viva de visão computacional no navegador."
+      "response": "O Controle de Acesso Vision apresenta um TCC publicado sobre reconhecimento facial e ESP32. A página separa o trabalho original da reconstrução feita para o portfólio e inclui uma demonstração de visão computacional no navegador para tornar parte da experiência observável."
     }
   ]
 }

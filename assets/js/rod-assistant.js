@@ -226,10 +226,31 @@ class RodKnowledgeEngine {
     return this.faqFuse.search(query).slice(0, 2).map(result => result.item)
   }
 
+  findDirectFaq(query) {
+    const normalized = normalizeText(query)
+    let best = null
+    let bestScore = 0
+    this.knowledge.faq.forEach(item => {
+      const phrases = [item.question, ...(item.keywords || [])].map(normalizeText)
+      const score = phrases.reduce((total, phrase) => {
+        if (!phrase) return total
+        if (normalized.includes(phrase)) return total + Math.max(3, phrase.split(' ').length * 2)
+        const overlap = phrase.split(' ').filter(word => word.length > 3 && normalized.includes(word)).length
+        return total + overlap
+      }, 0)
+      if (score > bestScore) {
+        best = item
+        bestScore = score
+      }
+    })
+    return bestScore >= 2 ? best : null
+  }
+
   answer(query, context = {}) {
     const normalized = normalizeText(query)
     const projects = this.findProjects(query)
     const faq = this.findFaq(query)
+    const directFaq = this.findDirectFaq(query)
     const intent = this.findIntent(query)
     const responses = []
     const suggestions = []
@@ -250,6 +271,8 @@ class RodKnowledgeEngine {
       .filter(Boolean)
 
     let contextualProject = projects[0] || null
+    const generalFaqIds = new Set(['hosting', 'backend', 'best-project', 'project-states', 'usable-now', 'privacy', 'rod-operation', 'languages', 'themes', 'project-images', 'contact-reason'])
+    if (directFaq && generalFaqIds.has(directFaq.id)) contextualProject = null
 
     if (!contextualProject && /^(me mostra|mostra|abrir|abre|abre ele|esse|esse ai|essa ferramenta|essa)$/.test(normalized)) {
       contextualProject = recommendationByContext[0] || projectByContext || null
@@ -277,18 +300,22 @@ class RodKnowledgeEngine {
       responses.push(intent.response)
     }
 
+    if (directFaq) {
+      responses.push(directFaq.answer)
+    }
+
     if (intent?.id === 'project-recommendation') {
       responses.push(intent.response)
       context.lastRecommendationSlugs = ['controle-acesso-visao', 'abertura-chamados-glpi', 'validador-firewall', 'assistente-vendas-ia', 'scanner-game-free']
       suggestions.push('Me mostra', 'Como usar o GLPI Automator?', 'Como usar o Validador de MACs?')
     }
 
-    if (/hospedagem|github pages|cloudflare|statico|estatico|deploy/.test(normalized)) {
+    if (!directFaq && /hospedagem|github pages|cloudflare|statico|estatico|deploy/.test(normalized)) {
       const hostingFaq = this.knowledge.faq.find(item => item.id === 'hosting')
       if (hostingFaq) responses.push(hostingFaq.answer)
     }
 
-    if (/backend|api|servidor|fullstack|full stack/.test(normalized)) {
+    if (!directFaq && /backend|api|servidor|fullstack|full stack/.test(normalized)) {
       const backendFaq = this.knowledge.faq.find(item => item.id === 'backend')
       if (backendFaq) responses.push(backendFaq.answer)
     }
@@ -308,12 +335,15 @@ class RodKnowledgeEngine {
       const wantsTechnical = /stack|tecnologia|linguagem|backend|frontend|automacao|automacao/.test(normalized)
       const wantsSummary = /explica|resuma|resume|fale sobre|me fala|me explique|o que e|oque e/.test(normalized) || isQuestion(normalized)
 
-      if (wantsSummary || !responses.length) {
+      if (!directFaq && (wantsSummary || !responses.length)) {
         responses.push(`Sobre ${targetedProject.name}: ${targetedProject.summary}\n\nProblema: ${targetedProject.problem}\nSolucao: ${targetedProject.solution}`)
       }
 
-      if (wantsUsage) {
+      if (wantsUsage && !directFaq) {
         responses.push(`Como usar ${targetedProject.name}:\n${bullets(targetedProject.howToUse, 3)}`)
+      }
+
+      if (wantsUsage) {
         if (targetedProject.guidedTourUrl) {
           actions.push({ label: 'Abrir e me guiar', href: targetedProject.guidedTourUrl, primary: true })
         }
