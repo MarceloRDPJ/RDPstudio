@@ -1,0 +1,23 @@
+.sales-hero{grid-template-columns:minmax(0,.92fr) minmax(430px,.78fr)}
+.sales-stage{align-self:center;border:1px solid var(--s-line);background:var(--s-surface);box-shadow:0 36px 90px rgb(0 0 0/.14)}
+.sales-stage>header,.sales-stage>footer{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:15px 17px;border-bottom:1px solid var(--s-line)}
+.sales-stage>header span{font-weight:800}.sales-stage>header small,.sales-stage__request small,.sales-stage__path small{color:var(--s-muted)}
+.sales-stage__request{padding:28px 24px 24px}.sales-stage__request small,.sales-stage__request strong{display:block}.sales-stage__request strong{max-width:390px;margin-top:9px;font-size:clamp(1.45rem,2.6vw,2.3rem);line-height:1.08;letter-spacing:-.045em}
+.sales-stage__path{display:grid;grid-template-columns:1fr 1fr;border-block:1px solid var(--s-line)}
+.sales-stage__path>div{min-height:118px;padding:15px;border-right:1px solid var(--s-line);border-bottom:1px solid var(--s-line);opacity:.34;transition:opacity .35s ease,background .35s ease}
+.sales-stage__path>div:nth-child(2n){border-right:0}.sales-stage__path>div:nth-last-child(-n+2){border-bottom:0}.sales-stage__path>div.is-current{opacity:1;background:var(--s-raised)}.sales-stage__path>div.is-complete{opacity:1}
+.sales-stage__path span,.sales-stage__path small,.sales-stage__path strong{display:block}.sales-stage__path span{color:var(--s-accent);font-size:.72rem;font-weight:900}.sales-stage__path strong{margin-top:18px;font-size:.9rem}
+.sales-stage>footer{position:relative;border-bottom:0;overflow:hidden}.sales-stage>footer span{position:absolute;inset:auto auto 0 0;height:3px;width:0;background:var(--s-accent);transition:width .45s ease}.sales-stage>footer strong{font-size:.78rem}
+.sales-proof{display:grid;grid-template-columns:repeat(4,1fr);margin-top:-62px;border-block:1px solid var(--s-line)}
+.sales-proof>div{padding:19px;border-right:1px solid var(--s-line)}.sales-proof>div:last-child{border-right:0}.sales-proof small,.sales-proof strong{display:block}.sales-proof small{color:var(--s-muted)}.sales-proof strong{margin-top:4px}
+.sales-recruiter{padding:clamp(80px,10vw,140px) 0;border-top:1px solid var(--s-line)}.sales-recruiter>h2{max-width:1040px;margin:0 0 58px;font-size:clamp(2.6rem,5.6vw,5.7rem);line-height:.94;letter-spacing:-.068em}.sales-recruiter>div{display:grid;grid-template-columns:repeat(4,1fr);border-block:1px solid var(--s-line)}.sales-recruiter p{margin:0;padding:22px;border-right:1px solid var(--s-line)}.sales-recruiter p:last-child{border-right:0}.sales-recruiter span,.sales-recruiter strong,.sales-recruiter small{display:block}.sales-recruiter span{color:var(--s-accent);font-weight:850}.sales-recruiter strong{margin-top:34px}.sales-recruiter small{margin-top:9px;color:var(--s-muted)}
+.sales-reveal{opacity:1;transform:none}
+.sales-workbench{height:720px;min-height:0}
+.sales-conversation,.sales-trace{min-height:0;overflow:hidden}
+.sales-messages{min-height:0;overscroll-behavior:contain;scrollbar-gutter:stable}
+.sales-trace{overflow-y:auto;overscroll-behavior:contain}
+.sales-suggestions{flex:0 0 auto}
+.sales-conversation form{flex:0 0 auto;background:var(--s-surface)}
+@media(max-width:860px){.sales-hero{grid-template-columns:1fr}.sales-stage{width:100%}.sales-proof{grid-template-columns:1fr 1fr;margin-top:0}.sales-proof>div:nth-child(2){border-right:0}.sales-proof>div:nth-child(-n+2){border-bottom:1px solid var(--s-line)}.sales-recruiter>div{grid-template-columns:1fr 1fr}.sales-recruiter p:nth-child(2){border-right:0}.sales-recruiter p:nth-child(-n+2){border-bottom:1px solid var(--s-line)}.sales-workbench{height:auto}.sales-conversation{height:min(660px,calc(100svh - 92px));min-height:560px}.sales-trace{max-height:620px}}
+@media(max-width:480px){.sales-stage__path{grid-template-columns:1fr}.sales-stage__path>div{min-height:92px;border-right:0}.sales-stage__path>div:nth-last-child(2){border-bottom:1px solid var(--s-line)}.sales-proof,.sales-recruiter>div{grid-template-columns:1fr}.sales-proof>div,.sales-recruiter p{border-right:0;border-bottom:1px solid var(--s-line)}.sales-proof>div:last-child,.sales-recruiter p:last-child{border-bottom:0}}
+@media(prefers-reduced-motion:reduce){.sales-reveal{opacity:1;transform:none}}

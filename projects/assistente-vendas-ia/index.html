@@ -8,32 +8,45 @@
   <link rel="icon" href="../../assets/site/favicon-32x32.png">
   <link rel="stylesheet" href="../../assets/css/project-base.css">
   <link rel="stylesheet" href="sales-product.css">
+  <link rel="stylesheet" href="sales-story.css">
   <script>try{const m=localStorage.getItem('rdp-theme-mode')||'system';document.documentElement.dataset.themeMode=m;document.documentElement.dataset.theme=m==='system'?(matchMedia('(prefers-color-scheme:light)').matches?'light':'dark'):m}catch(e){}</script>
 </head>
 <body data-rdp-project="assistente-vendas-ia">
   <main class="sales-page">
     <section class="sales-hero">
       <div class="sales-hero__copy">
-        <p class="sales-kicker" data-i18n="kind">Laboratório de comércio conversacional</p>
-        <h1 data-i18n="title">Uma conversa só é útil quando o sistema sabe o que fazer depois dela.</h1>
-        <p class="sales-lead" data-i18n="lead">Esta demonstração separa linguagem, catálogo e regras. O assistente entende o pedido; funções controladas consultam estoque e montam o carrinho; ações sensíveis continuam exigindo confirmação.</p>
+        <p class="sales-kicker" data-i18n="kind">Case interativo · comércio conversacional</p>
+        <h1 data-i18n="title">Da intenção ao pedido. Sem entregar as decisões ao modelo.</h1>
+        <p class="sales-lead" data-i18n="lead">Escreva como uma pessoa. O sistema traduz a conversa em funções conhecidas, consulta dados e interrompe qualquer ação que ainda precise de confirmação.</p>
         <div class="sales-actions">
-          <a href="#laboratorio" class="sales-button sales-button--primary" data-i18n="try">Testar o fluxo</a>
-          <a href="#arquitetura" class="sales-button" data-i18n="understand">Entender a arquitetura</a>
+          <a href="#laboratorio" class="sales-button sales-button--primary" data-i18n="try">Experimentar agora</a>
+          <a href="#arquitetura" class="sales-button" data-i18n="understand">Abrir decisões técnicas</a>
         </div>
       </div>
-      <div class="sales-hero__proof" aria-label="Resumo do projeto">
-        <div><small data-i18n="channel">Canal projetado</small><strong>Telegram</strong></div>
-        <div><small data-i18n="controller">Orquestração</small><strong>Python + Aiogram</strong></div>
-        <div><small data-i18n="model">Interpretação</small><strong>Gemini API</strong></div>
-        <div><small data-i18n="data">Dados previstos</small><strong>Supabase</strong></div>
+      <div class="sales-stage" aria-label="Prévia animada do funcionamento">
+        <header><span data-i18n="stage">Uma solicitação, quatro decisões</span><small data-i18n="localSim">simulação local</small></header>
+        <div class="sales-stage__request"><small>Mensagem</small><strong id="stage-request">“Quero dois batons vermelhos.”</strong></div>
+        <div class="sales-stage__path">
+          <div data-stage-step="intent"><span>01</span><small>intenção</small><strong>add_to_cart</strong></div>
+          <div data-stage-step="catalog"><span>02</span><small>catálogo</small><strong>batom-matte</strong></div>
+          <div data-stage-step="rule"><span>03</span><small>regra</small><strong>quantidade ≤ estoque</strong></div>
+          <div data-stage-step="result"><span>04</span><small>resultado</small><strong>aguarda confirmação</strong></div>
+        </div>
+        <footer><span id="stage-progress"></span><strong id="stage-status">Interpretando a solicitação…</strong></footer>
       </div>
+    </section>
+
+    <section class="sales-proof" aria-label="Tecnologias demonstradas">
+      <div><small data-i18n="channel">Canal projetado</small><strong>Telegram</strong></div>
+      <div><small data-i18n="controller">Orquestração</small><strong>Python + Aiogram</strong></div>
+      <div><small data-i18n="model">Interpretação</small><strong>Gemini API</strong></div>
+      <div><small data-i18n="data">Dados previstos</small><strong>Supabase</strong></div>
     </section>
 
     <section class="sales-lab" id="laboratorio">
       <header class="sales-section-head">
-        <div><p class="sales-kicker" data-i18n="demo">Demonstração local</p><h2 data-i18n="demoTitle">Veja a conversa e as ações lado a lado.</h2></div>
-        <p data-i18n="demoText">Escolha um roteiro ou escreva livremente. Nada sai do navegador e nenhum estoque real é alterado.</p>
+        <div><p class="sales-kicker" data-i18n="demo">Produto utilizável</p><h2 data-i18n="demoTitle">Converse. Depois confira cada decisão.</h2></div>
+        <p data-i18n="demoText">Escolha um roteiro ou tente quebrar o fluxo escrevendo livremente. Nada sai do navegador e nenhum estoque real é alterado.</p>
       </header>
 
       <nav class="sales-scenarios" aria-label="Roteiros da demonstração">
@@ -93,9 +106,21 @@
         <p><strong data-i18n="absent">O que não está ativo</strong><span data-i18n="absentText">Pagamento, leitura de comprovante, reserva real de estoque, mensagens externas e atendimento humano.</span></p>
       </div>
     </section>
+
+    <section class="sales-recruiter">
+      <p class="sales-kicker" data-i18n="recruiter">Leitura do case</p>
+      <h2 data-i18n="recruiterTitle">O valor não está em responder bonito. Está em manter a resposta ligada ao sistema.</h2>
+      <div>
+        <p><span>01</span><strong data-i18n="skill1">Design de conversa</strong><small data-i18n="skill1Text">Turnos curtos, sugestões contextuais e reparo quando a intenção não é reconhecida.</small></p>
+        <p><span>02</span><strong data-i18n="skill2">Chamadas de função</strong><small data-i18n="skill2Text">Ações limitadas por contratos conhecidos, em vez de texto livre executando operações.</small></p>
+        <p><span>03</span><strong data-i18n="skill3">Estado transacional</strong><small data-i18n="skill3Text">Carrinho, quantidade, total e confirmação vivem fora da resposta do modelo.</small></p>
+        <p><span>04</span><strong data-i18n="skill4">Limites verificáveis</strong><small data-i18n="skill4Text">Pagamento e reserva real são bloqueados quando a integração necessária não existe.</small></p>
+      </div>
+    </section>
   </main>
   <footer class="sales-footer"><a href="../../hub/projetos.html" data-i18n="back">Voltar aos projetos</a><span>Assistente de Vendas · RDP Studio</span></footer>
   <script src="sales-product.js"></script>
+  <script src="sales-story.js"></script>
   <script src="../../assets/js/rdp-project-shell.js"></script>
 </body>
 </html>
