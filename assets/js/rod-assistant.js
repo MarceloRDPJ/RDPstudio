@@ -446,6 +446,8 @@ class RodAssistant {
     this.nudgeTimeout = null
     this.messageSequence = 0
     this.followLive = true
+    this.responseRun = 0
+    this.isResponding = false
     this.pageContext = this.resolvePageContext()
     this.context = {
       lastProjectSlug: currentProjectSlug,
@@ -584,7 +586,7 @@ class RodAssistant {
       this.addBotMessage(`Estou acompanhando a página “${this.pageContext.label}”. O que você quer entender?`, ['O que tem nesta página?', ...this.engine.knowledge.assistant.starterQuestions.slice(0, 3)])
     })
 
-    send.addEventListener('click', () => this.handleSubmit())
+    send.addEventListener('click', () => this.isResponding ? this.cancelResponse() : this.handleSubmit())
     input.addEventListener('keydown', event => {
       if (event.key === 'Enter' && !event.shiftKey) {
         event.preventDefault()
@@ -647,30 +649,72 @@ class RodAssistant {
   }
 
   async addBotMessage(text, suggestions = [], actions = []) {
+    const run = ++this.responseRun
+    this.isResponding = true
+    this.elements.send.textContent = '■'
+    this.elements.send.setAttribute('aria-label', 'Interromper resposta')
+    this.elements.send.classList.add('is-streaming')
     const typing = createElement('div', 'rod-bubble bot typing', '<span class="rod-typing-dot"></span><span class="rod-typing-dot"></span><span class="rod-typing-dot"></span>')
     typing.id = `rod-message-${++this.messageSequence}`
     this.elements.messages.appendChild(typing)
     if (this.followLive) this.scrollToLatest()
 
-    await new Promise(resolve => setTimeout(resolve, 180))
+    await new Promise(resolve => setTimeout(resolve, 360 + Math.min(280, text.length * .45)))
+
+    if (run !== this.responseRun) {
+      typing.remove()
+      return
+    }
 
     typing.classList.remove('typing')
+    typing.classList.add('streaming')
+    typing.setAttribute('aria-busy', 'true')
     typing.innerHTML = ''
     const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
     if (reduced) {
       typing.textContent = text
     } else {
-      const words = text.split(/(\s+)/)
-      for (let index = 0; index < words.length; index += 1) {
-        typing.textContent += words[index]
+      const characters = Array.from(text)
+      const chunkSize = text.length > 520 ? 3 : text.length > 260 ? 2 : 1
+      for (let index = 0; index < characters.length; index += chunkSize) {
+        if (run !== this.responseRun) break
+        const chunk = characters.slice(index, index + chunkSize).join('')
+        typing.textContent += chunk
         if (this.followLive) this.scrollToLatest()
-        await new Promise(resolve => setTimeout(resolve, /\s+/.test(words[index]) ? 4 : Math.min(26, 8 + words[index].length)))
+        const last = chunk.at(-1)
+        const delay = /[.!?]/.test(last) ? 135 : /[,;:]/.test(last) ? 72 : /\n/.test(last) ? 92 : /\s/.test(last) ? 12 : 21
+        await new Promise(resolve => setTimeout(resolve, delay))
       }
     }
+    typing.classList.remove('streaming')
+    typing.removeAttribute('aria-busy')
     if (!this.followLive) this.elements.jump.hidden = false
 
-    this.renderActions(actions)
-    this.renderSuggestions(suggestions)
+    if (run === this.responseRun) {
+      this.renderActions(actions)
+      this.renderSuggestions(suggestions)
+    }
+    this.finishResponseState(run)
+  }
+
+  cancelResponse() {
+    if (!this.isResponding) return
+    this.responseRun += 1
+    const streaming = this.elements.messages.querySelector('.rod-bubble.streaming, .rod-bubble.typing')
+    if (streaming) {
+      streaming.classList.remove('streaming', 'typing')
+      streaming.removeAttribute('aria-busy')
+      if (!streaming.textContent.trim()) streaming.textContent = 'Resposta interrompida.'
+    }
+    this.finishResponseState()
+  }
+
+  finishResponseState(run = null) {
+    if (run !== null && run !== this.responseRun) return
+    this.isResponding = false
+    this.elements.send.textContent = '↑'
+    this.elements.send.setAttribute('aria-label', 'Enviar pergunta')
+    this.elements.send.classList.remove('is-streaming')
   }
 
   renderActions(actions) {

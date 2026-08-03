@@ -703,21 +703,28 @@ html[data-theme="light"] .rod-launcher-core .rod-brand-logo{content:url("../imag
 }
 .rod-messages {
     height: clamp(10.5rem, 27vh, 15rem);
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
+.rod-messages::-webkit-scrollbar,.rod-input::-webkit-scrollbar{display:none;width:0;height:0}
+.rod-input{scrollbar-width:none;-ms-overflow-style:none}
 .rod-bubble {
     border-left: 2px solid #b2d98b !important;
     background: rgba(178, 217, 139, .045) !important;
 }
 .rod-bubble{padding:.68rem .75rem;font-size:.82rem;line-height:1.48;transition:border-color .16s ease,background-color .16s ease}
+.rod-bubble.streaming::after{content:"";display:inline-block;width:.42em;height:1em;margin-left:.18em;vertical-align:-.12em;background:var(--accent,#b2d98b);animation:rodStreamCursor .75s steps(1,end) infinite}
 .rod-suggestions,.rod-actions{gap:.38rem}
 .rod-suggestion{padding:.46rem .58rem;border-radius:4px;font-size:.7rem;transition:transform .14s ease,border-color .14s ease,color .14s ease}
 .rod-suggestion:hover,.rod-suggestion:focus-visible{transform:translateY(-1px)}
 .rod-input-row{gap:.42rem}.rod-input{min-height:2.55rem;padding:.65rem .72rem;border-radius:4px;font-size:.82rem}.rod-send{min-width:2.55rem;height:2.55rem;border-radius:4px;transition:transform .12s ease,filter .12s ease}.rod-send:hover{transform:translateY(-1px)}.rod-send:active{transform:translateY(1px) scale(.97)}
+.rod-send.is-streaming{background:transparent;color:var(--accent,#b2d98b);border-color:var(--accent,#b2d98b);font-size:.7rem}
 .rod-footer-note{font-size:.64rem;line-height:1.4}.rod-status{font-size:.68rem}.rod-status-dot{width:.42rem;height:.42rem}
 .rod-icon-btn{width:1.8rem;height:1.8rem;border-radius:4px;transition:background-color .14s ease,color .14s ease,transform .14s ease}.rod-icon-btn:hover{transform:translateY(-1px)}
 .rod-jump-latest{font-size:.66rem;padding:.42rem .58rem;animation:rodJumpIn .16s ease-out both}
 @keyframes rodPanelIn{from{opacity:0;transform:translateY(8px) scale(.985)}to{opacity:1;transform:none}}
 @keyframes rodJumpIn{from{opacity:0;transform:translate(-50%,5px)}to{opacity:1;transform:translate(-50%,0)}}
+@keyframes rodStreamCursor{0%,48%{opacity:1}49%,100%{opacity:0}}
 .rod-bubble.user {
     align-self: stretch;
     color: #dce9df;
