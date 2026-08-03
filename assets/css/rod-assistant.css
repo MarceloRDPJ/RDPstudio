@@ -634,8 +634,11 @@ html[data-theme="light"] .rod-launcher-core .rod-brand-logo{content:url("../imag
     padding: 0;
     display: grid;
     place-items: center;
+    justify-content: center;
     border-radius: 50% !important;
-    background: #092019;
+    background: color-mix(in srgb,var(--surface,#102a21) 94%,transparent);
+    border-color: color-mix(in srgb,var(--accent,#b2d98b) 24%,transparent);
+    box-shadow:0 8px 24px rgba(3,15,11,.16);
     overflow: visible;
 }
 .rod-neural-canvas {
@@ -650,7 +653,12 @@ html[data-theme="light"] .rod-launcher-core .rod-brand-logo{content:url("../imag
     z-index: 2;
     width: 34px;
     height: 34px;
+    border-radius: 0;
+    background: transparent;
+    border: 0;
+    box-shadow:none;
 }
+.rod-toggle-badge .rod-brand-logo{width:82%;height:82%;filter:drop-shadow(0 1px 2px rgba(0,0,0,.22))}
 .rod-toggle[aria-expanded="true"] {
     transform: none;
     border-color: #b2d98b;
@@ -748,8 +756,9 @@ html[data-theme="light"] .rod-launcher-core .rod-brand-logo{content:url("../imag
     border: 0;
 }
 [data-theme="light"] .rod-toggle {
-    background: #eef5e9;
+    background:color-mix(in srgb,var(--surface,#fff) 96%,transparent);
 }
+[data-theme="light"] .rod-toggle-badge{background:transparent;border:0}
 [data-theme="light"] .rod-context-map {
     border-color: rgba(22, 107, 93, .18);
 }
@@ -769,7 +778,9 @@ html[data-theme="light"] .rod-launcher-core .rod-brand-logo{content:url("../imag
         height: 56px;
     }
     .rod-neural-canvas {
-        inset: -12px;
+        inset: -8px;
+        width: 72px;
+        height: 72px;
     }
     .rod-panel {
         position: fixed;
