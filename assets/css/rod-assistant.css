@@ -407,6 +407,50 @@
     }
 }
 
+.rod-transcript {
+    position: relative;
+    min-height: 0;
+    border-block: 1px solid rgba(178, 217, 139, .12);
+}
+
+.rod-messages {
+    height: clamp(13rem, 36vh, 20rem);
+    max-height: none !important;
+    padding: .8rem .35rem 3rem 0;
+    scroll-padding-block: 2rem 4rem;
+    overscroll-behavior: contain;
+}
+
+.rod-bubble[data-message-id] {
+    scroll-margin-top: 2rem;
+}
+
+.rod-jump-latest {
+    position: absolute;
+    left: 50%;
+    bottom: .65rem;
+    z-index: 3;
+    transform: translateX(-50%);
+    width: max-content;
+    max-width: calc(100% - 1rem);
+    padding: .52rem .72rem;
+    border: 1px solid rgba(178, 217, 139, .35);
+    border-radius: 5px;
+    background: #102a21;
+    color: #dce9df;
+    font: inherit;
+    font-size: .72rem;
+    box-shadow: 0 10px 24px rgba(3, 15, 11, .28);
+}
+
+.rod-jump-latest[hidden] { display: none; }
+
+[data-theme="light"] .rod-jump-latest {
+    background: #f4f8ef;
+    color: #173d31;
+    border-color: rgba(22, 107, 93, .3);
+}
+
 /* Compact access to the dedicated ROD experience */
 .rod-launcher{position:fixed;right:max(1rem,env(safe-area-inset-right));bottom:max(1rem,env(safe-area-inset-bottom));z-index:120;width:68px;height:68px;display:grid;place-items:center;border:1px solid color-mix(in srgb,var(--accent,#b2d98b) 42%,transparent);border-radius:50%;background:color-mix(in srgb,var(--bg,#061611) 92%,transparent);box-shadow:0 16px 42px rgba(3,15,11,.28);isolation:isolate}
 .rod-launcher::before,.rod-launcher::after{content:"";position:absolute;inset:7px;border:1px solid color-mix(in srgb,var(--accent,#b2d98b) 40%,transparent);border-radius:50%;animation:rodLauncherPulse 3.2s ease-in-out infinite}

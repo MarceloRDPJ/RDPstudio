@@ -313,6 +313,11 @@ class RodKnowledgeEngine {
       responses.push(intent.response)
     }
 
+    if (/o que (tem|ha) (nesta|nessa|aqui)|onde (estou|eu estou)|explique (esta|essa) pagina|sobre (esta|essa) pagina/.test(normalized) && context.currentPageSummary) {
+      responses.push(`${context.currentPageSummary}\n\nPosso detalhar um bloco, explicar um projeto citado ou indicar a ação mais útil a partir daqui.`)
+      suggestions.push('Qual é o principal projeto daqui?', 'Quem é Marcelo?', 'Como navegar pelo portfólio?')
+    }
+
     if (['identity', 'wellbeing', 'thanks', 'goodbye', 'capabilities'].includes(intent?.id)) {
       responses.push(intent.response)
     }
@@ -439,10 +444,26 @@ class RodAssistant {
     this.currentProjectSlug = currentProjectSlug
     this.subtlePrompt = subtlePrompt
     this.nudgeTimeout = null
+    this.messageSequence = 0
+    this.followLive = true
+    this.pageContext = this.resolvePageContext()
     this.context = {
       lastProjectSlug: currentProjectSlug,
-      lastRecommendationSlugs: []
+      lastRecommendationSlugs: [],
+      currentPageType: this.pageContext.type,
+      currentPageLabel: this.pageContext.label,
+      currentPageSummary: this.pageContext.summary,
     }
+  }
+
+  resolvePageContext() {
+    const path = window.location.pathname.toLowerCase()
+    const params = new URLSearchParams(window.location.search)
+    const projectSlug = params.get('slug') || this.currentProjectSlug
+    if (projectSlug) return { type: 'project', label: 'Projeto em foco', summary: `Esta página apresenta o projeto ${projectSlug.replaceAll('-', ' ')}.` }
+    if (path.includes('projetos')) return { type: 'projects', label: 'Catálogo de projetos', summary: 'Esta página reúne os projetos, ferramentas e estudos de caso da RDP Studio.' }
+    if (path.includes('sobre')) return { type: 'about', label: 'Sobre Marcelo', summary: 'Esta página apresenta a trajetória, formação e áreas de atuação de Marcelo Rodrigues.' }
+    return { type: 'home', label: 'Página inicial', summary: 'Esta página apresenta a RDP Studio, os trabalhos em destaque e os caminhos para explorar o portfólio.' }
   }
 
   async init() {
@@ -451,10 +472,11 @@ class RodAssistant {
     this.engine = new RodKnowledgeEngine(knowledge)
     this.render(knowledge)
     this.bindEvents()
-    this.addBotMessage(pickOne(knowledge.assistant.welcome), knowledge.assistant.starterQuestions)
+    this.addBotMessage(`Estou acompanhando a página “${this.pageContext.label}”. Posso explicar o que há aqui, responder dúvidas ou indicar o próximo caminho.`, ['O que tem nesta página?', ...knowledge.assistant.starterQuestions.slice(0, 3)])
   }
 
   render(knowledge) {
+    const assetBase = this.knowledgePath.startsWith('../../') ? '../../' : '../'
     const shell = createElement('div', 'rod-shell')
     const panel = createElement('section', 'rod-panel')
     const nudge = createElement('div', 'rod-nudge')
@@ -465,7 +487,7 @@ class RodAssistant {
     toggle.setAttribute('aria-label', `Abrir ${knowledge.assistant.name}`)
     toggle.innerHTML = `
       <canvas class="rod-neural-canvas" width="112" height="112" aria-hidden="true"></canvas>
-      <span class="rod-toggle-badge" aria-hidden="true"><img class="rod-brand-logo" src="../assets/images/branding/logo.png" alt=""></span>
+      <span class="rod-toggle-badge" aria-hidden="true"><img class="rod-brand-logo" src="${assetBase}assets/images/branding/logo.png" alt=""></span>
       <span class="sr-only">${knowledge.assistant.name} — mapa do portfólio</span>
     `
 
@@ -474,7 +496,7 @@ class RodAssistant {
     panel.innerHTML = `
       <header class="rod-header">
         <div class="rod-header-title">
-          <div class="rod-avatar" aria-hidden="true"><img class="rod-brand-logo" src="../assets/images/branding/logo.png" alt=""></div>
+          <div class="rod-avatar" aria-hidden="true"><img class="rod-brand-logo" src="${assetBase}assets/images/branding/logo.png" alt=""></div>
           <div class="rod-title-copy">
             <h3>${knowledge.assistant.name}</h3>
             <p>Guia da RDP Studio</p>
@@ -492,8 +514,11 @@ class RodAssistant {
           <button type="button" data-rod-context="Relacione as tecnologias aos problemas resolvidos">Tecnologias</button>
           <button type="button" data-rod-context="Explique a RDP Studio e a marca">RDP Studio</button>
         </nav>
-        <div class="rod-status"><span class="rod-status-dot"></span> Mapa local dos projetos e da trajetória de Marcelo.</div>
-        <div class="rod-messages custom-scrollbar" data-rod-messages aria-live="polite" aria-relevant="additions"></div>
+        <div class="rod-status"><span class="rod-status-dot"></span><span data-rod-page-context>${this.pageContext.label}</span></div>
+        <div class="rod-transcript">
+          <div class="rod-messages custom-scrollbar" data-rod-messages role="log" aria-live="polite" aria-relevant="additions text"></div>
+          <button type="button" class="rod-jump-latest" data-rod-jump hidden>Ir para a resposta mais recente ↓</button>
+        </div>
         <div class="rod-actions" data-rod-actions></div>
         <div class="rod-suggestions" data-rod-suggestions></div>
         <div class="rod-input-row">
@@ -533,11 +558,12 @@ class RodAssistant {
       close: panel.querySelector('[data-rod-close]'),
       clear: panel.querySelector('[data-rod-clear]'),
       contexts: [...panel.querySelectorAll('[data-rod-context]')],
+      jump: panel.querySelector('[data-rod-jump]'),
     }
   }
 
   bindEvents() {
-    const { toggle, panel, input, send, close, clear, contexts } = this.elements
+    const { toggle, panel, input, send, close, clear, contexts, messages, jump } = this.elements
 
     toggle.addEventListener('click', () => {
       const open = panel.classList.toggle('is-open')
@@ -555,7 +581,7 @@ class RodAssistant {
       this.elements.messages.innerHTML = ''
       this.elements.actions.innerHTML = ''
       this.elements.suggestions.innerHTML = ''
-      this.addBotMessage(humanizePtBr(pickOne(this.engine.knowledge.assistant.welcome)), this.engine.knowledge.assistant.starterQuestions)
+      this.addBotMessage(`Estou acompanhando a página “${this.pageContext.label}”. O que você quer entender?`, ['O que tem nesta página?', ...this.engine.knowledge.assistant.starterQuestions.slice(0, 3)])
     })
 
     send.addEventListener('click', () => this.handleSubmit())
@@ -566,6 +592,11 @@ class RodAssistant {
       }
     })
     contexts.forEach(button => button.addEventListener('click', () => this.handlePrompt(button.dataset.rodContext)))
+    messages.addEventListener('scroll', () => {
+      this.followLive = this.isAtLiveEdge()
+      jump.hidden = this.followLive
+    }, { passive: true })
+    jump.addEventListener('click', () => this.scrollToLatest('smooth'))
     document.addEventListener('keydown', event => {
       if (event.key === 'Escape' && panel.classList.contains('is-open')) {
         panel.classList.remove('is-open')
@@ -587,21 +618,56 @@ class RodAssistant {
 
   addMessage(text, role = 'bot') {
     const bubble = createElement('div', `rod-bubble ${role}`)
+    bubble.id = `rod-message-${++this.messageSequence}`
+    bubble.dataset.messageId = String(this.messageSequence)
     bubble.textContent = text
     this.elements.messages.appendChild(bubble)
-    this.elements.messages.scrollTop = this.elements.messages.scrollHeight
+    if (this.followLive) this.scrollToLatest()
+    else this.elements.jump.hidden = false
     return bubble
+  }
+
+  isAtLiveEdge() {
+    const { messages } = this.elements
+    return messages.scrollHeight - messages.scrollTop - messages.clientHeight < 44
+  }
+
+  scrollToLatest(behavior = 'auto') {
+    const { messages, jump } = this.elements
+    messages.scrollTo({ top: messages.scrollHeight, behavior })
+    this.followLive = true
+    jump.hidden = true
+  }
+
+  anchorUserTurn(bubble) {
+    const messages = this.elements.messages
+    const previousPeek = 36
+    messages.scrollTop = Math.max(0, bubble.offsetTop - previousPeek)
+    this.followLive = true
   }
 
   async addBotMessage(text, suggestions = [], actions = []) {
     const typing = createElement('div', 'rod-bubble bot typing', '<span class="rod-typing-dot"></span><span class="rod-typing-dot"></span><span class="rod-typing-dot"></span>')
+    typing.id = `rod-message-${++this.messageSequence}`
     this.elements.messages.appendChild(typing)
-    this.elements.messages.scrollTop = this.elements.messages.scrollHeight
+    if (this.followLive) this.scrollToLatest()
 
     await new Promise(resolve => setTimeout(resolve, 180))
 
-    typing.remove()
-    this.addMessage(text, 'bot')
+    typing.classList.remove('typing')
+    typing.innerHTML = ''
+    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    if (reduced) {
+      typing.textContent = text
+    } else {
+      const words = text.split(/(\s+)/)
+      for (let index = 0; index < words.length; index += 1) {
+        typing.textContent += words[index]
+        if (this.followLive) this.scrollToLatest()
+        await new Promise(resolve => setTimeout(resolve, /\s+/.test(words[index]) ? 4 : Math.min(26, 8 + words[index].length)))
+      }
+    }
+    if (!this.followLive) this.elements.jump.hidden = false
 
     this.renderActions(actions)
     this.renderSuggestions(suggestions)
@@ -634,7 +700,8 @@ class RodAssistant {
     const question = this.elements.input.value.trim()
     if (!question) return
 
-    this.addMessage(question, 'user')
+    const userBubble = this.addMessage(question, 'user')
+    this.anchorUserTurn(userBubble)
     const answer = this.engine.answer(question, { ...this.context })
     this.context = answer.context || this.context
     this.elements.input.value = ''

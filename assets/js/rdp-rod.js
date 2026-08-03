@@ -5,6 +5,7 @@ window.addEventListener('DOMContentLoaded', async () => {
   try {
     await window.initROD({
       knowledgePath: '../assets/data/rod-knowledge.json',
+      mode: 'panel',
       subtlePrompt: false
     })
   } catch (error) {

@@ -1,7 +1,7 @@
 const copy = {
   'pt-BR': {
-    kicker:'ROD · guia do portfólio',title:'Explore a RDP Studio por conexões.',
-    lead:'O ROD relaciona projetos, tecnologias e trajetória usando a base local deste site. Escolha um caminho ou faça uma pergunta.',
+    kicker:'ROD · laboratório aplicado',title:'Linguagem, visão e contexto em um único núcleo.',
+    lead:'Uma experiência interativa que combina busca aproximada, classificação de intenção, contexto local, voz e visão computacional para explorar a RDP Studio.',
     queryLabel:'Consulta atual',responseLabel:'Resposta do núcleo',send:'Enviar',
     pathsKicker:'Caminhos rápidos',pathsTitle:'Comece pelo assunto, não por um menu.',
     disclosureTitle:'Como o ROD funciona',
@@ -12,8 +12,8 @@ const copy = {
     placeholder:'Pergunte ao ROD'
   },
   en: {
-    kicker:'ROD · portfolio guide',title:'Explore RDP Studio through connections.',
-    lead:'ROD connects projects, technologies and professional experience using this site’s local knowledge base. Choose a path or ask a question.',
+    kicker:'ROD · applied lab',title:'Language, vision and context in a single core.',
+    lead:'An interactive experience combining approximate search, intent classification, local context, speech and computer vision to explore RDP Studio.',
     queryLabel:'Current query',responseLabel:'Core response',send:'Send',
     pathsKicker:'Quick paths',pathsTitle:'Start with a subject, not a menu.',
     disclosureTitle:'How ROD works',
@@ -97,7 +97,7 @@ function initCapabilitiesUI(){
   intro?.insertAdjacentElement('afterend',controls)
   const caseSection=document.createElement('section')
   caseSection.className='rod-case shell'
-  caseSection.innerHTML=`<div class="rod-case-head"><span class="section-kicker">ROD como case</span><h2>Quatro técnicas trabalhando juntas.</h2><p>O ROD não esconde o mecanismo: cada modo mostra uma técnica diferente e seus limites.</p></div><div class="rod-techniques"><article><strong>01</strong><div><h3>Linguagem e erros</h3><p>Normalização, distância de edição e busca aproximada reconhecem variações e pequenos erros de digitação.</p></div></article><article><strong>02</strong><div><h3>Contexto e clima</h3><p>Uma classificação local identifica intenção, curiosidade, frustração ou retorno positivo para ajustar o ritmo da resposta.</p></div></article><article><strong>03</strong><div><h3>Voz</h3><p>Reconhecimento e síntese usam os recursos de fala disponíveis no navegador e no sistema operacional.</p></div></article><article><strong>04</strong><div><h3>Visão computacional</h3><p>TensorFlow.js e COCO-SSD detectam objetos na câmera sem armazenar imagens.</p></div></article></div>`
+  caseSection.innerHTML=`<div class="rod-case-head"><span class="section-kicker">ROD como case</span><h2>Seis técnicas, uma experiência integrada.</h2><p>Cada recurso pode ser testado e explica com clareza onde funciona, de onde vem o contexto e quais são seus limites.</p></div><div class="rod-techniques"><article><strong>01</strong><div><h3>Linguagem e erros</h3><p>Normalização, distância de edição e busca aproximada reconhecem variações e pequenos erros de digitação.</p></div></article><article><strong>02</strong><div><h3>Contexto da página</h3><p>O núcleo reconhece o conteúdo em exibição e usa esse ponto de partida para explicar projetos, páginas e próximos caminhos.</p></div></article><article><strong>03</strong><div><h3>Intenção e tom</h3><p>Uma classificação local identifica intenção, curiosidade ou frustração e ajusta o ritmo da resposta sem esconder o mecanismo.</p></div></article><article><strong>04</strong><div><h3>Personalidade</h3><p>Quatro modos alteram concisão, didática e exploração mantendo a mesma base verificável do portfólio.</p></div></article><article><strong>05</strong><div><h3>Voz</h3><p>Reconhecimento e síntese usam os recursos de fala disponíveis no navegador e no sistema operacional.</p></div></article><article><strong>06</strong><div><h3>Visão computacional</h3><p>TensorFlow.js e COCO-SSD detectam objetos na câmera sem armazenar imagens.</p></div></article></div>`
   document.querySelector('.rod-paths')?.before(caseSection)
   controls.querySelector('[data-rod-personality]').addEventListener('change',event=>{personality=event.target.value;localStorage.setItem('rdp-rod-personality',personality);controls.querySelector('[data-rod-personality-help]').textContent=personalities[personality].description})
   initSpeech(controls)
