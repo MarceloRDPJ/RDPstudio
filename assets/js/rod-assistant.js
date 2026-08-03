@@ -593,6 +593,10 @@ class RodAssistant {
         this.handleSubmit()
       }
     })
+    input.addEventListener('input', () => {
+      input.style.height = 'auto'
+      input.style.height = `${Math.min(input.scrollHeight, 82)}px`
+    })
     contexts.forEach(button => button.addEventListener('click', () => this.handlePrompt(button.dataset.rodContext)))
     messages.addEventListener('scroll', () => {
       this.followLive = this.isAtLiveEdge()
@@ -671,20 +675,16 @@ class RodAssistant {
     typing.setAttribute('aria-busy', 'true')
     typing.innerHTML = ''
     const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
-    if (reduced) {
-      typing.textContent = text
-    } else {
-      const characters = Array.from(text)
-      const chunkSize = text.length > 520 ? 3 : text.length > 260 ? 2 : 1
-      for (let index = 0; index < characters.length; index += chunkSize) {
-        if (run !== this.responseRun) break
-        const chunk = characters.slice(index, index + chunkSize).join('')
-        typing.textContent += chunk
-        if (this.followLive) this.scrollToLatest()
-        const last = chunk.at(-1)
-        const delay = /[.!?]/.test(last) ? 135 : /[,;:]/.test(last) ? 72 : /\n/.test(last) ? 92 : /\s/.test(last) ? 12 : 21
-        await new Promise(resolve => setTimeout(resolve, delay))
-      }
+    const characters = Array.from(text)
+    const chunkSize = reduced ? 7 : text.length > 520 ? 3 : text.length > 260 ? 2 : 1
+    for (let index = 0; index < characters.length; index += chunkSize) {
+      if (run !== this.responseRun) break
+      const chunk = characters.slice(index, index + chunkSize).join('')
+      typing.textContent += chunk
+      if (this.followLive) this.scrollToLatest()
+      const last = chunk.at(-1)
+      const delay = reduced ? 32 : /[.!?]/.test(last) ? 135 : /[,;:]/.test(last) ? 72 : /\n/.test(last) ? 92 : /\s/.test(last) ? 12 : 21
+      await new Promise(resolve => setTimeout(resolve, delay))
     }
     typing.classList.remove('streaming')
     typing.removeAttribute('aria-busy')
@@ -729,7 +729,7 @@ class RodAssistant {
 
   renderSuggestions(suggestions) {
     this.elements.suggestions.innerHTML = ''
-    suggestions.forEach(suggestion => {
+    suggestions.slice(0, 3).forEach(suggestion => {
       const button = createElement('button', 'rod-suggestion', suggestion)
       button.type = 'button'
       button.addEventListener('click', () => {

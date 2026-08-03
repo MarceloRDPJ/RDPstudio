@@ -1,4 +1,4 @@
-import './rod-assistant.js'
+import './rod-assistant.js?v=20260803d'
 window.addEventListener('DOMContentLoaded', async () => {
   if (!window.initROD || document.querySelector('.rod-launcher') || document.body.classList.contains('rod-page')) return
 

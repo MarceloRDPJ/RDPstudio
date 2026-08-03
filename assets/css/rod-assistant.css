@@ -657,8 +657,8 @@ html[data-theme="light"] .rod-launcher-core .rod-brand-logo{content:url("../imag
 }
 .rod-panel.is-open + .rod-toggle{opacity:0;visibility:hidden;pointer-events:none;transform:scale(.88)}
 .rod-panel {
-    width: min(25rem, calc(100vw - 2rem));
-    max-height: min(76vh, 38rem);
+    width: min(21.5rem, calc(100vw - 2rem));
+    max-height: min(70vh, 32rem);
     border-radius: 7px;
     transform-origin: right bottom;
 }
@@ -678,16 +678,20 @@ html[data-theme="light"] .rod-launcher-core .rod-brand-logo{content:url("../imag
     border-radius: 5px;
 }
 .rod-context-map {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
     gap: 5px;
     padding: 5px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
     border: 1px solid rgba(178, 217, 139, .16);
     background:
         linear-gradient(rgba(178, 217, 139, .1), rgba(178, 217, 139, .1)) center / 75% 1px no-repeat;
 }
+.rod-context-map::-webkit-scrollbar{display:none;width:0;height:0}
 .rod-context-map button {
-    min-height: 34px;
+    flex:0 0 auto;
+    min-height: 30px;
     padding: 5px 7px;
     border: 1px solid rgba(178, 217, 139, .18);
     border-radius: 4px;
@@ -702,7 +706,7 @@ html[data-theme="light"] .rod-launcher-core .rod-brand-logo{content:url("../imag
     color: #b2d98b;
 }
 .rod-messages {
-    height: clamp(10.5rem, 27vh, 15rem);
+    height: clamp(8.5rem, 23vh, 12rem);
     scrollbar-width: none;
     -ms-overflow-style: none;
 }
@@ -717,9 +721,9 @@ html[data-theme="light"] .rod-launcher-core .rod-brand-logo{content:url("../imag
 .rod-suggestions,.rod-actions{gap:.38rem}
 .rod-suggestion{padding:.46rem .58rem;border-radius:4px;font-size:.7rem;transition:transform .14s ease,border-color .14s ease,color .14s ease}
 .rod-suggestion:hover,.rod-suggestion:focus-visible{transform:translateY(-1px)}
-.rod-input-row{gap:.42rem}.rod-input{min-height:2.55rem;padding:.65rem .72rem;border-radius:4px;font-size:.82rem}.rod-send{min-width:2.55rem;height:2.55rem;border-radius:4px;transition:transform .12s ease,filter .12s ease}.rod-send:hover{transform:translateY(-1px)}.rod-send:active{transform:translateY(1px) scale(.97)}
+.rod-input-row{gap:.42rem}.rod-input{height:2.4rem;min-height:2.4rem;max-height:82px;overflow-y:hidden;padding:.58rem .68rem;border-radius:4px;font-size:.8rem;line-height:1.35}.rod-send{min-width:2.4rem;height:2.4rem;border-radius:4px;transition:transform .12s ease,filter .12s ease}.rod-send:hover{transform:translateY(-1px)}.rod-send:active{transform:translateY(1px) scale(.97)}
 .rod-send.is-streaming{background:transparent;color:var(--accent,#b2d98b);border-color:var(--accent,#b2d98b);font-size:.7rem}
-.rod-footer-note{font-size:.64rem;line-height:1.4}.rod-status{font-size:.68rem}.rod-status-dot{width:.42rem;height:.42rem}
+.rod-footer-note{display:none}.rod-status{font-size:.66rem}.rod-status-dot{width:.4rem;height:.4rem}
 .rod-icon-btn{width:1.8rem;height:1.8rem;border-radius:4px;transition:background-color .14s ease,color .14s ease,transform .14s ease}.rod-icon-btn:hover{transform:translateY(-1px)}
 .rod-jump-latest{font-size:.66rem;padding:.42rem .58rem;animation:rodJumpIn .16s ease-out both}
 @keyframes rodPanelIn{from{opacity:0;transform:translateY(8px) scale(.985)}to{opacity:1;transform:none}}
