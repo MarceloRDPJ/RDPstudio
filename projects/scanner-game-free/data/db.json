@@ -1,34 +1,14 @@
 {
-  "last_updated": "2026-08-06T14:06:57",
-  "display_date": "06/08/2026 14:06",
+  "last_updated": "2026-08-07T13:01:23",
+  "display_date": "07/08/2026 13:01",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "165ms",
+    "latency": "285ms",
     "current_games": [
       {
-        "title": "OTXO",
-        "description": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "image": "https://cdn1.epicgames.com/spt-assets/f6da0031691c4d94a6e21255b18c1710/otxo-wtcug.jpg",
-        "url": "https://store.epicgames.com/p/63e3482da69d4332bd73ce23706e78eb",
-        "price": "$14.99",
-        "start_date": "2026-07-30T15:00:00.000Z",
-        "end_date": "2026-08-06T15:00:00.000Z"
-      },
-      {
-        "title": "Sol Cesto",
-        "description": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "image": "https://cdn1.epicgames.com/spt-assets/30d70e74bab1498686aba69969a6c19e/sol-cesto-1ara2.png",
-        "url": "https://store.epicgames.com/p/sol-cesto",
-        "price": "$13.99",
-        "start_date": "2026-07-30T15:00:00.000Z",
-        "end_date": "2026-08-06T15:00:00.000Z"
-      }
-    ],
-    "upcoming_games": [
-      {
         "title": "Beacon Pines",
-        "description": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "description": "Beacon Pines é um jogo de aventura fofo e assustador. Saia escondido até tarde, faça novos amigos, descubra verdades ocultas e colete palavras que mudarão o curso do destino!",
         "image": "https://cdn1.epicgames.com/spt-assets/c89a3b955d704c3c97ddd2aba5265a38/beacon-pines-offer-1l6ky.jpg",
         "url": "https://store.epicgames.com/p/9e9a438c651a49799c3ddd94a0c3f4c0",
         "price": "$19.99",
@@ -36,8 +16,19 @@
         "end_date": "2026-08-13T15:00:00.000Z"
       },
       {
+        "title": "We Were Here Together",
+        "description": "À medida que exploramos esses resíduos congelados, o infortúnio ataca mais uma vez. Em meio à forte nevasca, um clarão ilumina o céu, seguido por um pedido de socorro no rádio - quebrado, morrendo... Ninguém mais pode vir em seu socorro. Podemos voltar juntos?",
+        "image": "https://cdn1.epicgames.com/spt-assets/f24f7e149dc64df18f14dfab4f6dae4d/we-were-here-together-1w9jc.png",
+        "url": "https://store.epicgames.com/p/a4bed38482a44c3d89029b0dbba42087",
+        "price": "$12.99",
+        "start_date": "2026-08-06T15:00:00.000Z",
+        "end_date": "2026-08-13T15:00:00.000Z"
+      }
+    ],
+    "upcoming_games": [
+      {
         "title": "Ghostrunner 2",
-        "description": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "description": "Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
         "image": "https://cdn1.epicgames.com/offer/708f57aaa04b42ef885be16c8288f0ac/EGS_Ghostrunner2_OneMoreLevel_S1_2560x1440-15845148fae1d0cfd7f3e98c9b3ba6ba",
         "url": "https://store.epicgames.com/p/ghostrunner-2",
         "price": "$39.99",
@@ -46,7 +37,7 @@
       },
       {
         "title": "Lost Castle: The Old Ones Awaken",
-        "description": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "description": "The Old Ones Awaken adiciona novos níveis para explorar, novos inimigos para derrotar e novos chefes para enfrentar, juntamente com uma série de novas armas e equipamentos emocionantes para empunhar e usar.",
         "image": "https://cdn1.epicgames.com/spt-assets/a6d76157ad884f2c9aa470b30da9e2ff/lost-castle-r390n.png",
         "url": "https://store.epicgames.com/p/lost-castle-the-old-ones-awaken",
         "price": "$3.99",
@@ -55,7 +46,7 @@
       },
       {
         "title": "LISA: The Definitive Edition",
-        "description": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "description": "Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
         "image": "https://cdn1.epicgames.com/offer/ca3a9d16d131478c97fd56c138a6511a/EGS_LISATheDefinitiveEdition_DingalingProductions_Bundles_S1_2560x1440-55b66eb2046507e58eac435c21331bd5",
         "url": "https://store.epicgames.com/p/lisa-the-definitive-edition",
         "price": "$24.99",
@@ -79,73 +70,40 @@
         "price": "$7.99",
         "start_date": "2026-09-03T15:00:00.000Z",
         "end_date": "2026-09-17T15:00:00.000Z"
-      },
-      {
-        "title": "We Were Here Together",
-        "description": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "image": "https://cdn1.epicgames.com/spt-assets/f24f7e149dc64df18f14dfab4f6dae4d/we-were-here-together-1w9jc.png",
-        "url": "https://store.epicgames.com/p/a4bed38482a44c3d89029b0dbba42087",
-        "price": "$12.99",
-        "start_date": "2026-08-06T15:00:00.000Z",
-        "end_date": "2026-08-13T15:00:00.000Z"
-      },
-      {
-        "title": "OTXO",
-        "description": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "image": "https://cdn1.epicgames.com/spt-assets/f6da0031691c4d94a6e21255b18c1710/otxo-wtcug.jpg",
-        "url": "https://store.epicgames.com/p/63e3482da69d4332bd73ce23706e78eb",
-        "price": "$14.99",
-        "start_date": "2026-08-29T23:00:00.000Z",
-        "end_date": "2026-09-12T23:00:00.000Z"
       }
     ],
     "mystery_detected": false
   },
   "items": [
     {
-      "id": "https://store.epicgames.com/p/63e3482da69d4332bd73ce23706e78eb",
-      "title": "GRÁTIS: OTXO",
-      "original_title": "OTXO",
-      "image": "https://cdn1.epicgames.com/spt-assets/f6da0031691c4d94a6e21255b18c1710/otxo-wtcug.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Free Games",
-      "date": "2026-08-06",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/63e3482da69d4332bd73ce23706e78eb"
-    },
-    {
-      "id": "https://store.epicgames.com/p/sol-cesto",
-      "title": "GRÁTIS: Sol Cesto",
-      "original_title": "Sol Cesto",
-      "image": "https://cdn1.epicgames.com/spt-assets/30d70e74bab1498686aba69969a6c19e/sol-cesto-1ara2.png",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Free Games",
-      "date": "2026-08-06",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/sol-cesto"
-    },
-    {
       "id": "https://store.epicgames.com/p/9e9a438c651a49799c3ddd94a0c3f4c0",
-      "title": "EM BREVE: Beacon Pines",
+      "title": "GRÁTIS: Beacon Pines",
       "original_title": "Beacon Pines",
       "image": "https://cdn1.epicgames.com/spt-assets/c89a3b955d704c3c97ddd2aba5265a38/beacon-pines-offer-1l6ky.jpg",
       "source_count": 1,
       "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-08-06",
-      "summary": "Disponível gratuitamente a partir de 06/08. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "category": "Free Games",
+      "date": "2026-08-07",
+      "summary": "Beacon Pines é um jogo de aventura fofo e assustador. Saia escondido até tarde, faça novos amigos, descubra verdades ocultas e colete palavras que mudarão o curso do destino!",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/9e9a438c651a49799c3ddd94a0c3f4c0"
+    },
+    {
+      "id": "https://store.epicgames.com/p/a4bed38482a44c3d89029b0dbba42087",
+      "title": "GRÁTIS: We Were Here Together",
+      "original_title": "We Were Here Together",
+      "image": "https://cdn1.epicgames.com/spt-assets/f24f7e149dc64df18f14dfab4f6dae4d/we-were-here-together-1w9jc.png",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Free Games",
+      "date": "2026-08-07",
+      "summary": "À medida que exploramos esses resíduos congelados, o infortúnio ataca mais uma vez. Em meio à forte nevasca, um clarão ilumina o céu, seguido por um pedido de socorro no rádio - quebrado, morrendo... Ninguém mais pode vir em seu socorro. Podemos voltar juntos?",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/a4bed38482a44c3d89029b0dbba42087"
     },
     {
       "id": "https://store.epicgames.com/p/ghostrunner-2",
@@ -155,8 +113,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-08-06",
-      "summary": "Disponível gratuitamente a partir de 10/09. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-08-07",
+      "summary": "Disponível gratuitamente a partir de 10/09. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
       "sources": [
         "Epic Games Store"
       ],
@@ -170,8 +128,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-08-06",
-      "summary": "Disponível gratuitamente a partir de 30/08. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-08-07",
+      "summary": "Disponível gratuitamente a partir de 30/08. The Old Ones Awaken adiciona novos níveis para explorar, novos inimigos para derrotar e novos chefes para enfrentar, juntamente com uma série de novas armas e equipamentos emocionantes para empunhar e usar.",
       "sources": [
         "Epic Games Store"
       ],
@@ -185,8 +143,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-08-06",
-      "summary": "Disponível gratuitamente a partir de 17/09. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-08-07",
+      "summary": "Disponível gratuitamente a partir de 17/09. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
       ],
@@ -200,7 +158,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-08-06",
+      "date": "2026-08-07",
       "summary": "Disponível gratuitamente a partir de 13/08. Embarque em uma jornada por vastas paisagens em Caravan SandWitch, uma cativante aventura de exploração baseada em narrativas.",
       "sources": [
         "Epic Games Store"
@@ -215,7 +173,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-08-06",
+      "date": "2026-08-07",
       "summary": "Disponível gratuitamente a partir de 03/09. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
       "sources": [
         "Epic Games Store"
@@ -223,188 +181,353 @@
       "url": "https://store.epicgames.com/p/monument-valley-02"
     },
     {
-      "id": "https://store.epicgames.com/p/a4bed38482a44c3d89029b0dbba42087",
-      "title": "EM BREVE: We Were Here Together",
-      "original_title": "We Were Here Together",
-      "image": "https://cdn1.epicgames.com/spt-assets/f24f7e149dc64df18f14dfab4f6dae4d/we-were-here-together-1w9jc.png",
+      "id": "https://www.eurogamer.net/ps5-boxes-labels-physical-media-2028",
+      "title": "A Sony parece estar colocando etiquetas nas caixas do console PS5 para alertar as pessoas que está encerrando a produção de discos",
+      "original_title": "Sony appears to be putting labels on PS5 console boxes to warn people it's ending disc production",
+      "image": "https://assetsio.gnwcdn.com/warning-ps5-discs.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-08-06",
-      "summary": "Disponível gratuitamente a partir de 06/08. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "category": "News",
+      "date": "2026-08-07",
+      "summary": "Caso haja dúvidas, parece que a Sony não está desistindo de sua controversa decisão de parar de fabricar jogos baseados em discos físicos. Parece que um aviso está sendo enviado com os novos consoles PS5 que possuem unidades de disco para alertar os usuários que, como ...",
       "sources": [
-        "Epic Games Store"
+        "Eurogamer"
       ],
-      "url": "https://store.epicgames.com/p/a4bed38482a44c3d89029b0dbba42087"
+      "url": "https://www.eurogamer.net/ps5-boxes-labels-physical-media-2028"
     },
     {
-      "id": "https://store.epicgames.com/p/63e3482da69d4332bd73ce23706e78eb",
-      "title": "EM BREVE: OTXO",
-      "original_title": "OTXO",
-      "image": "https://cdn1.epicgames.com/spt-assets/f6da0031691c4d94a6e21255b18c1710/otxo-wtcug.jpg",
+      "id": "https://www.eurogamer.net/john-romero-doom-id-software-taiwanese-pirates",
+      "title": "O criador de Doom, id Software, usou piratas taiwaneses para ajudar a distribuir o jogo, revela John Romero",
+      "original_title": "Doom creator id Software used Taiwanese pirates to help distribute the game, John Romero reveals",
+      "image": "https://assetsio.gnwcdn.com/john-romero-pirate-hat.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-08-06",
-      "summary": "Disponível gratuitamente a partir de 29/08. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "category": "News",
+      "date": "2026-08-07",
+      "summary": "John Romero, o lendário cofundador da id Software e pai da série de jogos Quake and Doom, contou uma história sobre quando a id Software trabalhou com piratas taiwaneses para espalhar Doom. Leia mais...",
       "sources": [
-        "Epic Games Store"
+        "Eurogamer"
       ],
-      "url": "https://store.epicgames.com/p/63e3482da69d4332bd73ce23706e78eb"
+      "url": "https://www.eurogamer.net/john-romero-doom-id-software-taiwanese-pirates"
     },
     {
-      "id": "https://www.eurogamer.net/monster-hunter-wilds-surpass-worlds-price-ascendance-demo",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "A generous demo, a big expansion, and \"pricing measures\": What Capcom is doing to get Monster Hunter Wilds' sales to \"surpass\" Monster Hunter World",
-      "image": "https://assetsio.gnwcdn.com/mh-world-wilds.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/marvel-tokon-fighting-souls-pc-problems-stuttering-lag",
+      "title": "Marvel Tokon: Fighting Souls sofre de problemas generalizados de PC no lançamento",
+      "original_title": "Marvel Tokon: Fighting Souls suffers from widespread PC issues at launch",
+      "image": "https://assetsio.gnwcdn.com/marvel-tokon-carnage.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-08-07",
+      "summary": "Marvel Tokonn: Fighting Souls finalmente foi lançado e, embora os jogadores de console pareçam estar se divertindo com o jogo de luta 4v4, os jogadores de PC estão relatando problemas técnicos significativos, que vão desde gagueira até problemas de código de rede. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/marvel-tokon-fighting-souls-pc-problems-stuttering-lag"
+    },
+    {
+      "id": "https://www.eurogamer.net/quake-expansion-dawn-of-the-machine-quakecon",
+      "title": "Surpresa! O Quake original ganha uma expansão gratuita em todas as plataformas para comemorar seu 30º aniversário",
+      "original_title": "Surprise! The original Quake gets a free expansion on all platforms to celebrate its 30th birthday",
+      "image": "https://assetsio.gnwcdn.com/quake-dawn-of-the-machine.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-08-07",
+      "summary": "A cerimônia de abertura da QuakeCon teve uma surpresa agradável ontem: o anúncio e o lançamento de uma nova expansão gratuita para o jogo Quake original. Isto é para todas as plataformas (exceto Epic Games Store e Gog) em que Quake foi lançado...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/quake-expansion-dawn-of-the-machine-quakecon"
+    },
+    {
+      "id": "https://www.eurogamer.net/andrew-ceo-real-pay-chart-77-million",
+      "title": "O salário de 2026 do CEO da EA, Andrew Wilson, pode ter sido muito maior do que se pensava anteriormente",
+      "original_title": "EA CEO Andrew Wilson's 2026 pay may have been much larger than previously thought",
+      "image": "https://assetsio.gnwcdn.com/andrew-wilson-custom-header-cut.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-08-07",
+      "summary": "No início deste mês, o pacote salarial do ano fiscal de 2026 do CEO da EA, Andrew Wilson, chamou muita atenção, devido ao seu tamanho, francamente. Bem, acontece que ele pode ter levado para casa mais dinheiro do que se pensava anteriormente. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/andrew-ceo-real-pay-chart-77-million"
+    },
+    {
+      "id": "https://www.eurogamer.net/archive-of-retro-computing-showcase-2026-south-london-preview",
+      "title": "“Há muito a aprender” – como os anos pioneiros dos jogos estão sendo preservados para uma nova geração em um canto do sul de Londres",
+      "original_title": "\"There's a huge amount to be learned\" - how the pioneering years of gaming are being preserved for a new generation in a corner of south London",
+      "image": "https://assetsio.gnwcdn.com/arc-header-crop-2.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-08-07",
+      "summary": "Passeie pela trilha sinuosa até a Kingston University, em Londres, na próxima semana e você encontrará um pequeno pedaço da história dos jogos esperando por lá. O Archive of Retro Computing (ARC) é gratuito para explorar e apresenta mais de 65 computadores pessoais retrô e g...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/archive-of-retro-computing-showcase-2026-south-london-preview"
+    },
+    {
+      "id": "https://www.techpowerup.com/351425/attack-shark-unveils-the-f1-air-39g-flagship-gaming-mouse",
+      "title": "(PR) Attack Shark revela o principal mouse para jogos F1 AIR 39g",
+      "original_title": "(PR) Attack Shark Unveils the F1 AIR 39g Flagship Gaming Mouse",
+      "image": "https://tpucdn.com/img/AT3FEp6UHD8yxHAr_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-08-07",
+      "summary": "A marca de periféricos para jogos Attack Shark anunciou o próximo lançamento do F1 AIR, um novo mouse para jogos ultraleve projetado para jogadores competitivos de esportes eletrônicos que buscam desempenho, capacidade de resposta e precisão de alto nível. Pesando apenas 39...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/351425/attack-shark-unveils-the-f1-air-39g-flagship-gaming-mouse"
+    },
+    {
+      "id": "https://www.techpowerup.com/351422/sk-hynix-invests-54-trillion-won-in-yongin-y2-and-cheongju-m17-to-secure-mid-to-long-term-production-for-ai-memory-demand",
+      "title": "(PR) SK hynix investe 54 trilhões de won em Yongin Y2 e Cheongju M17 para garantir produção de médio a longo prazo para demanda de memória de IA",
+      "original_title": "(PR) SK hynix Invests 54 Trillion Won in Yongin Y2 and Cheongju M17 to Secure Mid-to-Long-Term Production for AI Memory Demand",
+      "image": "https://tpucdn.com/img/0FJF3Y2Xi2P2aKTh_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-08-07",
+      "summary": "anunciou hoje que decidiu construir novas fábricas em Yongin e Cheongju para responder à crescente demanda por memória na era da IA. \nA empresa aprovou um investimento total de aproximadamente 54 trilhões, 35,2 trilhões de dólares...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/351422/sk-hynix-invests-54-trillion-won-in-yongin-y2-and-cheongju-m17-to-secure-mid-to-long-term-production-for-ai-memory-demand"
+    },
+    {
+      "id": "https://www.techpowerup.com/350687/dropreference-launches-in-the-us-with-pc-part-price-comparison-and-gaming-performance-estimates",
+      "title": "DropReference é lançado nos EUA com comparação de preços de peças de PC e estimativas de desempenho de jogos",
+      "original_title": "DropReference Launches in the US with PC Part Price Comparison and Gaming Performance Estimates",
+      "image": "https://tpucdn.com/img/o5Oy7xOEcq5wx7nB_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-08-07",
+      "summary": "DropReference, uma plataforma de comparação de hardware de PC e planejamento de construção que atrai mais de 200.000 visitantes únicos a cada mês, está se expandindo oficialmente para os Estados Unidos. Já estabelecido entre os fabricantes europeus de PCs, o DropReference permite aos usuários c...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/350687/dropreference-launches-in-the-us-with-pc-part-price-comparison-and-gaming-performance-estimates"
+    },
+    {
+      "id": "https://www.techpowerup.com/351420/gadhouse-unveils-the-wesley-wired-headphones",
+      "title": "(PR) Gadhouse revela os fones de ouvido com fio Wesley",
+      "original_title": "(PR) Gadhouse Unveils the Wesley Wired Headphones",
+      "image": "https://tpucdn.com/img/kmGUSIuBtiqVypwF_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-08-07",
+      "summary": "A marca de estilo de vida de áudio Gadhouse anunciou hoje um foco renovado na cultura de audição analógica, liderada por seus fones de ouvido Wesley Wired On-Ear de inspiração retrô. À medida que as fitas cassete, os formatos de áudio com fio e de música física continuam a experimentar um ressurgimento global...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/351420/gadhouse-unveils-the-wesley-wired-headphones"
+    },
+    {
+      "id": "https://www.eurogamer.net/marvel-tokon-deadpool-references",
+      "title": "Quantas pequenas referências divertidas Arc System Works inseriu na lista de movimentos de Deadpool no Marvel Tokon? Muitos para contar, parece",
+      "original_title": "How many fun little references has Arc System Works snuck into Deadpool's move list in Marvel Tokon? Too many to count, it seems",
+      "image": "https://assetsio.gnwcdn.com/it-was-me-deadpool.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
       "date": "2026-08-06",
-      "summary": "O Monster Hunter Wilds do ano passado ainda representa um foco importante para a Capcom, revelou seu último relatório financeiro. O jogo, que teve um lançamento mais lento do que a editora gostaria devido a problemas contínuos de desempenho e um final de jogo atrasado,...",
+      "summary": "Marvel Tokon finalmente foi lançado e os jogadores estão mergulhando e brincando com o elenco completo de personagens jogáveis. No entanto, um desses lutadores é verdadeiramente – e talvez apropriadamente – único entre o elenco. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/monster-hunter-wilds-surpass-worlds-price-ascendance-demo"
+      "url": "https://www.eurogamer.net/marvel-tokon-deadpool-references"
     },
     {
-      "id": "https://www.eurogamer.net/pokemon-pokopia-version-bubbly-basin-patch-notes",
-      "title": "A atualização 2.0 gratuita do Pokémon Pokopia chegou e está causando sucesso com novos recursos e melhorias subaquáticas",
-      "original_title": "Pokémon Pokopia's free 2.0 update is here, and it's making a splash with new underwater features and improvements",
-      "image": "https://assetsio.gnwcdn.com/Pokopia_Portal_Pod_Header.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/guild-wars-3-more-playable-races-blog-post",
+      "title": "Mais espécies jogáveis ​​podem chegar a Guild Wars 3 mais tarde, de acordo com a última postagem do blog do desenvolvedor",
+      "original_title": "More playable species might be coming to Guild Wars 3 later down the line, according to latest developer blog post",
+      "image": "https://assetsio.gnwcdn.com/guild-wars-3-art.png?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
       "date": "2026-08-06",
-      "summary": "A grande atualização 2.0 do Pokémon Pokopia está aqui, permitindo aos jogadores se aventurarem nas profundezas das ondas para conhecer novos Poké-amigos e brincar com uma variedade de novos recursos. Leia mais...",
+      "summary": "Uma nova postagem no blog da ArenaNet iniciou a conversa sobre raças jogáveis ​​​​em Guild Wars 3. Ela apresenta algumas informações interessantes sobre as quatro disponíveis no lançamento - e sugere que espécies adicionais poderão ser adicionadas posteriormente. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/pokemon-pokopia-version-bubbly-basin-patch-notes"
+      "url": "https://www.eurogamer.net/guild-wars-3-more-playable-races-blog-post"
     },
     {
-      "id": "https://www.eurogamer.net/call-of-duty-black-ops-1-and-2-playstation-ports-sales",
-      "title": "As portas PS4 e PS5 de Call of Duty: Black Ops 1 e 2 venderam mais de 11 milhões de cópias em menos de um mês",
-      "original_title": "The Call of Duty: Black Ops 1&2 PS4 and PS5 ports sold more than 11 million copies in under a month",
-      "image": "https://assetsio.gnwcdn.com/black-ops-2-call-of-duty.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/baldurs-gate-3-third-anniversary-statistics",
+      "title": "As estatísticas do terceiro aniversário de Baldur's Gate 3 revelam os NPCs mais mortos, as armas mais usadas e os jogadores do Dark Urge não são os mais assassinos no jogo",
+      "original_title": "Baldur's Gate 3 third anniversary stats reveal most killed NPCs, most used weapons, and Dark Urge players aren't the most murderous playing the game",
+      "image": "https://assetsio.gnwcdn.com/shadowheart-baldurs-gate-3_fRdLVe5.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
       "date": "2026-08-06",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "summary": "Já se passaram três anos desde que Baldur’s Gate 3 foi lançado, então o desenvolvedor Larian mergulhou em dados para recuperar algumas estatísticas esclarecedoras. Tais como: jogadores não-Dark Urge sendo surpreendentemente assassinos. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/call-of-duty-black-ops-1-and-2-playstation-ports-sales"
+      "url": "https://www.eurogamer.net/baldurs-gate-3-third-anniversary-statistics"
     },
     {
-      "id": "https://www.eurogamer.net/gta-6-extended-look-trailer-netflix-announcement",
-      "title": "Teremos uma “visão ampliada” de Grand Theft Auto 6 em 27 de agosto",
-      "original_title": "We're getting an \"extended look\" at Grand Theft Auto 6 on 27th August",
-      "image": "https://assetsio.gnwcdn.com/gta-6-extended-look.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/ps5-fimrware-update-beta-ps5-pro-pssr-2-0",
+      "title": "Uma nova atualização beta do firmware do PS5 chegou e é uma boa notícia para os proprietários do PS5 Pro",
+      "original_title": "A new PS5 firmware beta update is here, and it's good news for PS5 Pro owners",
+      "image": "https://assetsio.gnwcdn.com/ps5-pro-promo-shot-titled-1.jpeg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
       "date": "2026-08-06",
-      "summary": "A Rockstar Games e a Take Two anunciaram que um trailer de “visual estendido” de Grand Theft Auto 6 estreará primeiro na Netflix na quinta-feira, 27 de agosto, às 15h ET (20h BST). Leia mais...",
+      "summary": "Chegou uma nova versão beta do firmware do PlayStation 5 para quem faz parte do programa beta da Sony. O proprietário da plataforma enviou um e-mail aos que se inscreveram para notificá-los de que uma nova atualização está disponível para teste. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/gta-6-extended-look-trailer-netflix-announcement"
+      "url": "https://www.eurogamer.net/ps5-fimrware-update-beta-ps5-pro-pssr-2-0"
     },
     {
-      "id": "https://www.eurogamer.net/capcom-playstation-discless-90-percent-digital",
-      "title": "Capcom ignora o futuro totalmente digital do PlayStation e sugere que o encolhimento do mercado físico não terá um “impacto significativo” em suas operações",
-      "original_title": "Capcom shrugs off PlayStation's all-digital future, suggests shrinking physical market will not have a \"significant impact\" on its operations",
-      "image": "https://assetsio.gnwcdn.com/chun-li-discs-burger.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vhkgai/gamesbeat_halo_studios_reportedly_did_not_conduct/",
+      "title": "GamesBeat: Halo Studios supostamente não realizou demissões internas após o lançamento do Halo Campaign Evolved",
+      "original_title": "GamesBeat: Halo Studios reportedly did not conduct internal layoffs following Halo Campaign Evolved’s launch",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
       "category": "News",
       "date": "2026-08-06",
-      "summary": "A Capcom revelou que “aproximadamente 90 por cento de [suas] vendas unitárias são digitais”, em seu último relatório de lucros trimestrais, observando que a editora japonesa “não prevê um impacto significativo” em suas operações enquanto o PlayStation se prepara para matar...",
+      "summary": "Após relatos de que vários funcionários perderam seus empregos após o lançamento do Halo Campaign Evolved em 28 de julho, a GamesBeat diz que foi informado que nenhum funcionário interno do Halo Studios foi demitido. Uma fonte do Xbox disse à GamesBeat que as mudanças envolvem...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/capcom-playstation-discless-90-percent-digital"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vhkgai/gamesbeat_halo_studios_reportedly_did_not_conduct/"
     },
     {
-      "id": "https://www.eurogamer.net/roblox-major-decline-second-quarter-earnings-2026",
-      "title": "A série de azar de Roblox persiste à medida que o número de jogadores continua a despencar e o preço das ações da empresa com isso",
-      "original_title": "Roblox's string of bad luck persists as player numbers continue to plummet and the company's stock price with it",
-      "image": "https://assetsio.gnwcdn.com/roblox-characters_LHW6U2o.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vhcy6p/gta_vi_a_extended_look_will_last_approximately_20/",
+      "title": "GTA VI: A Extended Look durará aproximadamente 20 minutos de acordo com o suporte da Netflix",
+      "original_title": "GTA VI: A Extended Look will last approximately 20 minutes long according to Netflix support",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
       "category": "News",
       "date": "2026-08-06",
-      "summary": "Roblox publicou os lucros do seu segundo trimestre financeiro, revelando um declínio significativo em quase todos os níveis. O trimestre decepcionante da empresa fez com que o preço das ações caísse mais de um quarto - quase 27% - desde o anúncio...",
+      "summary": "Alinha-se com o que DarkViperAU ouviu anteriormente de suas “fontes Rockstar”. NateTheHate também especulou que seria uma “aparência significativa”, então 20 minutos não parece improvável. Poderia muito bem ser um chatbot inventando coisas Fonte: http...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/roblox-major-decline-second-quarter-earnings-2026"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vhcy6p/gta_vi_a_extended_look_will_last_approximately_20/"
     },
     {
-      "id": "https://www.eurogamer.net/ill-horror-game-team-clout-half-life-2",
-      "title": "Ficando doente: entendendo o jogo de terror mais grosseiro em desenvolvimento e como ele leva mais do que algumas dicas do jogo de tiro seminal da Valve, Half-Life 2",
-      "original_title": "Getting Ill: Understanding the grossest horror game in development and how it takes more than a few cues from Valve's seminal shooter Half-Life 2",
-      "image": "https://assetsio.gnwcdn.com/ill-homepage-image.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vhfbtc/sma_neill_yvonne_strahovski_and_dichen_lachman/",
+      "title": "Sma Neill, Yvonne Strahovski e Dichen Lachman também foram escalados para o filme Zelda",
+      "original_title": "Sma Neill, Yvonne Strahovski and Dichen Lachman cast in the Zelda movie as well",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
       "category": "News",
       "date": "2026-08-06",
-      "summary": "Eu tenho chamado a atenção desde a revelação do Summer Game Fest 2025. É, possivelmente, o jogo mais grosseiro em desenvolvimento. Trailers surpreendentemente realistas nos deram uma visão enjoativa de um mundo carnudo de monstros humanóides inchados que podemos ver...",
+      "summary": "https://deadline.com/2026/08/legend-of-zelda-sam-neill-yvonne-strahovski-dichen-lachman-1237027957/ Lachman se alinha com o set de filmagem vazado do ano passado enviado por /u/robertman21 [link] [comentários]...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/ill-horror-game-team-clout-half-life-2"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vhfbtc/sma_neill_yvonne_strahovski_and_dichen_lachman/"
     },
     {
-      "id": "https://www.eurogamer.net/halo-studios-layoffs-campaign-evolved",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Halo Studios hit by layoffs after release of Halo: Campaign Evolved",
-      "image": "https://assetsio.gnwcdn.com/halo-campaign-evolved-master-chief-back.jpeg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vh5i2u/some_redditors_have_reported_a_glitch_within_the/",
+      "title": "Alguns Redditors relataram uma falha no aplicativo Netflix revelando que o trailer estendido do GTA 6 pode ter 30 minutos de duração",
+      "original_title": "Some Redditors have reported a glitch within the Netflix app revealing that GTA 6 extended trailer could be 30 mins long",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
       "category": "News",
       "date": "2026-08-06",
-      "summary": "Halo Studios parece ter sido atingido por demissões, apenas uma semana após o lançamento de Halo: Campaign Evolved. Leia mais...",
+      "summary": "Exemplos: https://www.reddit.com/r/GTA6/s/ouPjLy4Ls6 https://www.reddit.com/r/GTA6/s/FBZ0NOdpju https://www.reddit.com/r/GTA6unmoderated/s/Xz7SBfUGvu Editar: é possível que seja um bug https://www.reddit.com/r/GTA6/s/Bndp4iEY1m enviado por ...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/halo-studios-layoffs-campaign-evolved"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vh5i2u/some_redditors_have_reported_a_glitch_within_the/"
     },
     {
-      "id": "https://www.eurogamer.net/minecraft-switch-2-release-date-upgrade-path",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Minecraft finally has a Switch 2 release date, but there may be bad news for Switch 1 owners",
-      "image": "https://assetsio.gnwcdn.com/minecraft-switch-2.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vhb69o/deadline_says_uli_latukefu_has_inked_a/",
+      "title": "O prazo final diz que Uli Latukefu assinou um “acordo multi-filmes” com a Sony por seu papel como Ganondorf – sugerindo sequências já planejadas para ‘The Legend of Zelda’ de 2027",
+      "original_title": "Deadline says Uli Latukefu has inked a \"multi-picture deal\" with Sony for his role as Ganondorf - suggesting sequels already lined up for 2027's 'The Legend of Zelda'",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
       "category": "News",
       "date": "2026-08-06",
-      "summary": "Minecraft no Switch 2 é uma porta que faz sentido. Todos, incluindo o desenvolvedor Mojang, concordam. Na quarta-feira, o desenvolvedor confirmou oficialmente a data de lançamento em 27 de outubro para a versão Switch 2. Leia mais...",
+      "summary": "Ganondorf é um poderoso rei Gerudo que pretende dominar o reino de Hyrule de Link e da Princesa Zelda. Ouvimos dizer que Latukefu assinou um contrato para vários filmes.  https://deadline.com/2026/08/legend-of-zelda-uli-latukefu-ganondorf-1237027872/ enviado por /u/C...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/minecraft-switch-2-release-date-upgrade-path"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vhb69o/deadline_says_uli_latukefu_has_inked_a/"
     },
     {
-      "id": "https://www.eurogamer.net/diablo-4-switch-2-release-date-price-leak-code-in-box",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Diablo 4 may finally arrive on Switch 2 next month as a code-in-the-box physical version, according to reliable leaker",
-      "image": "https://assetsio.gnwcdn.com/diablo-4-altars-of-lilith-locations.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vh2for/gta_6_extended_look_coming_august_27th_on_netflix/",
+      "title": "Visual estendido de GTA 6 chegando em 27 de agosto na Netflix",
+      "original_title": "GTA 6 extended look coming August 27th on Netflix",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-08-06",
+      "summary": "Fonte original: https://xcancel.com/NateTheHate2/status/2083684594579075112#m Acho que Nate e todos os outros estavam certos sobre agosto https://www.ign.com/articles/grand-theft-auto-6-an-extended-look-premieres-on-netflix-this-month-rockstar-confirms Bu...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vh2for/gta_6_extended_look_coming_august_27th_on_netflix/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vh86y9/australian_actor_uli_latukefu_young_rock_is/",
+      "title": "O ator australiano Uli Latukefu ('Young Rock') supostamente interpretará Ganondorf no filme 'The Legend of Zelda'",
+      "original_title": "Australian actor Uli Latukefu ('Young Rock') is supposedly playing Ganondorf in 'The Legend of Zelda' movie",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-08-06",
+      "summary": "Faltam meses para o filme LEGEND OF ZELDA e eles ainda não anunciaram nenhum ator além dos dois protagonistas! Então aqui vai um brinde: tenho ouvido falar que o icônico vilão da série Ganondorf é interpretado pelo ator australiano Uli Latukefu, mais conhecido pelo...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vh86y9/australian_actor_uli_latukefu_young_rock_is/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vh8lqc/the_20minute_showcase_prediction_by_darkviperau/",
+      "title": "A previsão do showcase de 20 minutos da DarkViperAU (via fonte R*) começa a soar agora",
+      "original_title": "The 20-minute showcase prediction by DarkViperAU (via R* source) starts sounding right now",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-08-06",
+      "summary": "Ele disse que uma fonte da Rockstar Games lhe contou sobre um showcase de 20 minutos, ele errou no mês, mas foi o único a prever um showcase longo. https://www.reddit.com/r/GTA6unmoderated/comments/1u9c8hz/darkviperau_made_a_video_a_few_days_ago_sa...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vh8lqc/the_20minute_showcase_prediction_by_darkviperau/"
+    },
+    {
+      "id": "https://www.techpowerup.com/351415/nanya-announces-usd-10-7b-investment-in-fab5a-aims-for-10-nm-class-euv-dram",
+      "title": "Nanya anuncia investimento de US$ 10,7 bilhões na Fab5A, visando DRAM EUV de classe de 10 nm",
+      "original_title": "Nanya Announces $10.7B Investment in Fab5A, Aims for 10 nm-Class EUV DRAM",
+      "image": "https://tpucdn.com/img/mUGthRKky9SddB9X_thm.jpg",
       "source_count": 1,
       "reliability": "High",
-      "category": "Rumor",
+      "category": "Hardware",
       "date": "2026-08-06",
-      "summary": "Temos mais um sinal de que Diablo 4 está a caminho do Nintendo Switch 2. Um novo relatório do billbil-kun da Dealabs, um vazador com um sólido histórico de vazamentos na indústria, indicou que estamos mais perto do que nunca do lançamento do jogo no console híbrido...",
+      "summary": "O Conselho de Administração da Nanya Technology anunciou em 5 de agosto que a empresa lançou seu maior programa de investimentos, comprometendo até NT$ 346,6 bilhões (cerca de US$ 10,7 bilhões) para suas instalações Fab5A até 2026-2029. O projeto cobre placas de classe 10 nm...",
       "sources": [
-        "Eurogamer"
+        "TechPowerUp"
       ],
-      "url": "https://www.eurogamer.net/diablo-4-switch-2-release-date-price-leak-code-in-box"
+      "url": "https://www.techpowerup.com/351415/nanya-announces-usd-10-7b-investment-in-fab5a-aims-for-10-nm-class-euv-dram"
     },
     {
       "id": "https://www.techpowerup.com/351413/arctic-announces-u-s-price-rollback-program-following-import-tariffs-repeal",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "Arctic anuncia programa de redução de preços nos EUA após revogação de tarifas de importação",
       "original_title": "Arctic Announces U.S. Price Rollback Program Following Import Tariffs Repeal",
       "image": "https://tpucdn.com/img/MGqmwnpvzOEEMByo_thm.jpg",
       "source_count": 1,
@@ -416,21 +539,6 @@
         "TechPowerUp"
       ],
       "url": "https://www.techpowerup.com/351413/arctic-announces-u-s-price-rollback-program-following-import-tariffs-repeal"
-    },
-    {
-      "id": "https://www.techpowerup.com/351402/nvidia-neural-texture-compression-now-runs-on-rtx-spark",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "NVIDIA Neural Texture Compression Now Runs on RTX Spark",
-      "image": "https://tpucdn.com/img/1lp0lJRMMf9ffaIo_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-08-06",
-      "summary": "A NVIDIA trouxe oficialmente sua tecnologia RTX Neural Texture Compression (NTC) para o Windows-on-Arm, preparando-se para um lançamento geral em sua plataforma RTX Spark PC. Demonstrado pela primeira vez no GTC 2026 em maio, a NVIDIA mostrou como o NTC pode reduzir significativamente...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/351402/nvidia-neural-texture-compression-now-runs-on-rtx-spark"
     },
     {
       "id": "https://www.techpowerup.com/351313/while-everyones-chasing-ai-coding-agents-this-ide-is-usd-30-for-life",
@@ -448,6 +556,21 @@
       "url": "https://www.techpowerup.com/351313/while-everyones-chasing-ai-coding-agents-this-ide-is-usd-30-for-life"
     },
     {
+      "id": "https://www.techpowerup.com/351402/nvidia-neural-texture-compression-now-runs-on-rtx-spark",
+      "title": "A compressão de textura neural NVIDIA agora é executada no RTX Spark",
+      "original_title": "NVIDIA Neural Texture Compression Now Runs on RTX Spark",
+      "image": "https://tpucdn.com/img/1lp0lJRMMf9ffaIo_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-08-06",
+      "summary": "A NVIDIA trouxe oficialmente sua tecnologia RTX Neural Texture Compression (NTC) para o Windows-on-Arm, preparando-se para um lançamento geral em sua plataforma RTX Spark PC. Demonstrado pela primeira vez no GTC 2026 em maio, a NVIDIA mostrou como o NTC pode reduzir significativamente...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/351402/nvidia-neural-texture-compression-now-runs-on-rtx-spark"
+    },
+    {
       "id": "https://www.techpowerup.com/351410/asus-displaywidget-center-update-introduces-ai-agent-ready-controls",
       "title": "(PR) A atualização do ASUS DisplayWidget Center apresenta controles prontos para agentes de IA",
       "original_title": "(PR) ASUS DisplayWidget Center Update Introduces AI Agent-Ready Controls",
@@ -463,38 +586,8 @@
       "url": "https://www.techpowerup.com/351410/asus-displaywidget-center-update-introduces-ai-agent-ready-controls"
     },
     {
-      "id": "https://www.techpowerup.com/351409/jsaux-gaming-announces-voidjoy-controller-focused-sub-brand",
-      "title": "(PR) Jsaux Gaming anuncia submarca focada no controlador Voidjoy",
-      "original_title": "(PR) Jsaux Gaming Announces Voidjoy Controller-Focused Sub-Brand",
-      "image": "https://tpucdn.com/img/Rs50i4P5NRuuaX3H_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-08-06",
-      "summary": "JSAUX GAMING anunciou hoje Voidjoy, uma nova submarca JSAUX focada em controladores de jogos e acessórios para controladores. O anúncio marca a mudança da JSAUX GAMING para uma categoria de controladores dedicados em seu décimo ano.\n\nVoidjoy será apresentado na IFA...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/351409/jsaux-gaming-announces-voidjoy-controller-focused-sub-brand"
-    },
-    {
-      "id": "https://www.techpowerup.com/351408/synology-introduces-diskstation-neo-series-lineup",
-      "title": "(PR) Synology apresenta linha da série DiskStation neo+",
-      "original_title": "(PR) Synology Introduces DiskStation neo+ Series Lineup",
-      "image": "https://tpucdn.com/img/PjXpclwX13wXTFYJ_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-08-06",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/351408/synology-introduces-diskstation-neo-series-lineup"
-    },
-    {
       "id": "https://www.techpowerup.com/351314/own-microsoft-office-professional-2021-for-windows-for-just-usd-33",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "Adquira o Microsoft Office Professional 2021 para Windows por apenas US$ 33",
       "original_title": "Own Microsoft Office Professional 2021 for Windows for Just $33",
       "image": "https://tpucdn.com/img/g9KecHQWNNdQtNYY_thm.jpg",
       "source_count": 1,
@@ -506,51 +599,6 @@
         "TechPowerUp"
       ],
       "url": "https://www.techpowerup.com/351314/own-microsoft-office-professional-2021-for-windows-for-just-usd-33"
-    },
-    {
-      "id": "https://www.techpowerup.com/351406/agon-by-aoc-unveils-cq32g4za-31-5-inch-curved-gaming-monitor-with-triple-refresh-rate",
-      "title": "(PR) AGON by AOC lança monitor de jogos curvo CQ32G4ZA de 31,5 polegadas com taxa de atualização tripla",
-      "original_title": "(PR) AGON by AOC Unveils CQ32G4ZA 31.5-inch Curved Gaming Monitor with Triple Refresh Rate",
-      "image": "https://tpucdn.com/img/v0VDXRPgLGUc27cE_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-08-06",
-      "summary": "AGON by AOC, marca líder mundial de monitores para jogos, está expandindo sua linha de jogos G4 com o AOC GAMING CQ32G4ZA. A tela curva de 31,5 polegadas (80 cm) combina um painel 1500R Fast VA com tecnologia Triple Refresh Rate, tempos de resposta de 0,3 ms ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/351406/agon-by-aoc-unveils-cq32g4za-31-5-inch-curved-gaming-monitor-with-triple-refresh-rate"
-    },
-    {
-      "id": "https://www.techpowerup.com/351404/cherry-expand-its-security-portfolio-with-the-smart-board-1150-and-smart-terminal-st-1150",
-      "title": "(PR) Cherry amplia seu portfólio de segurança com Smart Board 1150 e Smart Terminal ST-1150",
-      "original_title": "(PR) Cherry Expand Its Security Portfolio with the Smart Board 1150 and Smart Terminal ST-1150",
-      "image": "https://tpucdn.com/img/SxDd6X9fdXLIojHB_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-08-06",
-      "summary": "A CHERRY está expandindo seu portfólio de segurança com o Smart Board 1150 e o Smart Terminal ST-1150. Como sucessores do CHERRY KC 1000 SC e do Smart Terminal ST-1144, ambos os modelos são baseados em uma eletrônica proprietária completamente nova e...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/351404/cherry-expand-its-security-portfolio-with-the-smart-board-1150-and-smart-terminal-st-1150"
-    },
-    {
-      "id": "https://www.techpowerup.com/350687/dropreference-launches-in-the-us-with-pc-part-price-comparison-and-gaming-performance-estimates",
-      "title": "DropReference é lançado nos EUA com comparação de preços de peças de PC e estimativas de desempenho de jogos",
-      "original_title": "DropReference Launches in the US with PC Part Price Comparison and Gaming Performance Estimates",
-      "image": "https://tpucdn.com/img/o5Oy7xOEcq5wx7nB_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-08-06",
-      "summary": "DropReference, uma plataforma de comparação de hardware de PC e planejamento de construção que atrai mais de 200.000 visitantes únicos a cada mês, está se expandindo oficialmente para os Estados Unidos. Já estabelecido entre os fabricantes europeus de PCs, o DropReference permite aos usuários c...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/350687/dropreference-launches-in-the-us-with-pc-part-price-comparison-and-gaming-performance-estimates"
     }
   ]
 }
