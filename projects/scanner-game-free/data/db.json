@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-08-08T12:46:16",
-  "display_date": "08/08/2026 12:46",
+  "last_updated": "2026-08-09T12:48:37",
+  "display_date": "09/08/2026 12:48",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "71ms",
+    "latency": "485ms",
     "current_games": [
       {
         "title": "Beacon Pines",
@@ -83,7 +83,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-08-08",
+      "date": "2026-08-09",
       "summary": "Beacon Pines é um jogo de aventura fofo e assustador. Saia escondido até tarde, faça novos amigos, descubra verdades ocultas e colete palavras que mudarão o curso do destino!",
       "sources": [
         "Epic Games Store"
@@ -98,7 +98,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-08-08",
+      "date": "2026-08-09",
       "summary": "À medida que exploramos esses resíduos congelados, o infortúnio ataca mais uma vez. Em meio à forte nevasca, um clarão ilumina o céu, seguido por um pedido de socorro no rádio - quebrado, morrendo... Ninguém mais pode vir em seu socorro. Podemos voltar juntos?",
       "sources": [
         "Epic Games Store"
@@ -113,7 +113,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-08-08",
+      "date": "2026-08-09",
       "summary": "Disponível gratuitamente a partir de 10/09. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
       "sources": [
         "Epic Games Store"
@@ -128,7 +128,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-08-08",
+      "date": "2026-08-09",
       "summary": "Disponível gratuitamente a partir de 30/08. The Old Ones Awaken adiciona novos níveis para explorar, novos inimigos para derrotar e novos chefes para enfrentar, juntamente com uma série de novas armas e equipamentos emocionantes para empunhar e usar.",
       "sources": [
         "Epic Games Store"
@@ -143,7 +143,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-08-08",
+      "date": "2026-08-09",
       "summary": "Disponível gratuitamente a partir de 17/09. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
@@ -158,7 +158,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-08-08",
+      "date": "2026-08-09",
       "summary": "Disponível gratuitamente a partir de 13/08. Embarque em uma jornada por vastas paisagens em Caravan SandWitch, uma cativante aventura de exploração baseada em narrativas.",
       "sources": [
         "Epic Games Store"
@@ -173,12 +173,117 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-08-08",
+      "date": "2026-08-09",
       "summary": "Disponível gratuitamente a partir de 03/09. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/monument-valley-02"
+    },
+    {
+      "id": "https://www.eurogamer.net/peak-final-major-update",
+      "title": "Peak recebe sua última grande atualização e um “novo segredo para você descobrir” na próxima semana",
+      "original_title": "Peak gets its final major update and a \"new secret for you to discover\" next week",
+      "image": "https://assetsio.gnwcdn.com/ss_84436aac3675c39a9e21a14a4a9a3a8a7d9dea26.1920x1080.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-08-09",
+      "summary": "Aggro Crab confirmou que seu jogo de escalada cooperativo, Peak, receberá sua última grande atualização em 11 de agosto. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/peak-final-major-update"
+    },
+    {
+      "id": "https://www.eurogamer.net/toem-2-release-date",
+      "title": "A aclamada sequência do quebra-cabeça fotográfico Toem 2 ganha data de lançamento",
+      "original_title": "Acclaimed photography puzzler sequel Toem 2 gets a release date",
+      "image": "https://assetsio.gnwcdn.com/ss_1c07f1d7fd75d139d3858b277bd2ffc5420f0d55.1920x1080.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-08-09",
+      "summary": "Toem 2 será lançado para Nintendo Switch 1 e 2, PC e PS5 em 29 de setembro de 2026. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/toem-2-release-date"
+    },
+    {
+      "id": "https://www.eurogamer.net/revisiting-the-original-no-mans-sky-10-years-on",
+      "title": "Revisitando o No Man's Sky original, 10 anos depois - e por que sempre foi bom à sua maneira",
+      "original_title": "Revisiting the original No Man's Sky, 10 years on - and why it was always good in its own way",
+      "image": "https://assetsio.gnwcdn.com/nms-2019-3.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-08-09",
+      "summary": "\"Iniciando o sistema de inicialização do traje Atlus\", estala uma voz feminina sintetizada na tela da minha TV. “Sistemas de suporte de vida ativados”, continua ela. E, eventualmente, \"Sequência de inicialização do usuário concluída\". É uma sequência de inicialização que ouvi...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/revisiting-the-original-no-mans-sky-10-years-on"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vjmzvg/windows_central_leaked_internal_blizzard_email/",
+      "title": "Windows Central: E-mail interno vazado da Blizzard diz que o estúdio teve o melhor desempenho do Xbox no ano fiscal de 26",
+      "original_title": "Windows Central: Leaked internal Blizzard email says the studio was Xbox’s top performer in FY26",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Rumor",
+      "date": "2026-08-09",
+      "summary": "De acordo com o Windows Central, um e-mail interno da presidente da Blizzard, Johanna Faries, obtido pelo meio de comunicação, revela que a Blizzard encerrou o ano fiscal de 26 como o estúdio de melhor desempenho na divisão de estúdios do Xbox. Faries teria dito à equipe que o ano fiscal de 26 foi um...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vjmzvg/windows_central_leaked_internal_blizzard_email/"
+    },
+    {
+      "id": "https://www.techpowerup.com/351461/this-week-in-gaming-week-33",
+      "title": "Esta semana em jogos (semana 33)",
+      "original_title": "This Week in Gaming (Week 33)",
+      "image": "https://tpucdn.com/img/AuLjUc4PXPsLp1LO_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-08-09",
+      "summary": "Bem-vindo à segunda semana de agosto e esta semana começa com um jogo de guerra PvP online apresentando o conflito entre os Estados Unidos e o Vietnã. Se esse não é o seu tipo de jogo, que tal ser o líder de uma colônia totalitária ou talvez um segredo...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/351461/this-week-in-gaming-week-33"
+    },
+    {
+      "id": "https://www.eurogamer.net/br1-infinite-extraction-pays-for-kills",
+      "title": "O atirador de extração BR1 Infinite está pagando aos jogadores por cada morte no jogo, gerando preocupações sobre jogos de azar e trapaças",
+      "original_title": "Extraction shooter BR1 Infinite is paying players for every in-game kill, drawing concerns about gambling and cheating",
+      "image": "https://assetsio.gnwcdn.com/Screenshot-2026-08-08-at-17.50.30-(2).png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-08-08",
+      "summary": "O novo jogo de tiro de extração, BR1 Infinite, está supostamente trazendo um novo significado ao termo “pagar para jogar”, pagando aos jogadores por cada morte no jogo. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/br1-infinite-extraction-pays-for-kills"
+    },
+    {
+      "id": "https://www.eurogamer.net/final-fantasy-y-revelation-gamescom-new-look",
+      "title": "Dê uma “nova olhada” em Final Fantasy 7 Revelation na Opening Night Live da Gamescom",
+      "original_title": "Get a \"new look\" at Final Fantasy 7 Revelation at Gamescom's Opening Night Live",
+      "image": "https://assetsio.gnwcdn.com/hamaguchi-ff7-r.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-08-08",
+      "summary": "Final Fantasy 7 Revelation, o capítulo final da trilogia Remake, será apresentado no Gamescom Opening Night Live deste ano. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/final-fantasy-y-revelation-gamescom-new-look"
     },
     {
       "id": "https://www.eurogamer.net/silent-hill-2-remake-performance-mode-bugs",
@@ -256,79 +361,109 @@
       "url": "https://www.eurogamer.net/what-weve-been-playing-ive-wanted-to-go-to-demon-school-for-a-while"
     },
     {
-      "id": "https://www.eurogamer.net/take-two-strauss-zelnick-not-concerned-rockstar-union-busting-gta-6",
-      "title": "O chefe da Take-Two “nem um pouco” preocupado com a má imprensa em torno do tribunal de trabalho da Rockstar afetará o lançamento do GTA 6",
-      "original_title": "Take-Two boss \"not in the least\" concerned bad press around Rockstar's employment tribunal will affect GTA 6 launch",
-      "image": "https://assetsio.gnwcdn.com/strauss-zelnick-gta-6.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vj1w2a/new_evidence_seems_to_suggest_an_irl_freddy/",
+      "title": "Novas evidências parecem sugerir que uma IRL Freddy Fazbear’s Pizza pode estar chegando ao American Dream Mall",
+      "original_title": "New evidence seems to suggest an IRL Freddy Fazbear’s Pizza may be coming to the American Dream Mall",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
       "category": "News",
-      "date": "2026-08-07",
-      "summary": "O chefe da Take-Two, Strauss Zelnick, que dirige a empresa à qual a Rockstar pertence, disse que \"não está nem um pouco\" preocupado que a má imprensa sobre a suposta violação de sindicatos afete o lançamento de Grand Theft Auto 6. Leia mais...",
+      "date": "2026-08-08",
+      "summary": "https://xcancel.com/spacedouttracey/status/2086125538549133539?s=46 Por mais insano que isso pareça, há uma quantidade muito estranha de evidências ligando especificamente o American Dream Mall a qualquer que seja o pôster do 12º aniversário que Scott Cawthon enviou...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/take-two-strauss-zelnick-not-concerned-rockstar-union-busting-gta-6"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vj1w2a/new_evidence_seems_to_suggest_an_irl_freddy/"
     },
     {
-      "id": "https://www.eurogamer.net/sam-neill-legend-of-zelda-film",
-      "title": "O falecido Sam Neill supostamente aparecerá no filme The Legend of Zelda, tornando-o muito provavelmente o último papel do ator na tela",
-      "original_title": "The late Sam Neill will reportedly feature in The Legend of Zelda film, making it very probably the actor's final on-screen role",
-      "image": "https://assetsio.gnwcdn.com/sam-neill-zelda.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vj1vrg/sleeping_dog_2011_prototype_seems_leaked/",
+      "title": "Protótipo de Sleeping Dog 2011 parece vazar",
+      "original_title": "Sleeping dog 2011 prototype seems leaked",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-08-07",
-      "summary": "Tem havido uma enxurrada de notícias relacionadas ao elenco do próximo filme de ação ao vivo Legend of Zelda, incluindo o nome do ator que conseguiu o papel de antagonista de Ganondorf - mas também que o ator Sam Neill, recentemente falecido, aparentemente irá...",
+      "reliability": "Medium",
+      "category": "Rumor",
+      "date": "2026-08-08",
+      "summary": "https://www.reddit.com/r/gaming/s/X8p4Qn2v6I enviado por /u/Sure-Nebula7909 [link] [comentários]...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/sam-neill-legend-of-zelda-film"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vj1vrg/sleeping_dog_2011_prototype_seems_leaked/"
     },
     {
-      "id": "https://www.eurogamer.net/devolver-digital-goes-private",
-      "title": "A editora independente de jogos Devolver Digital quer se tornar privada",
-      "original_title": "Indie game publisher Devolver Digital wants to go private",
-      "image": "https://assetsio.gnwcdn.com/cult-of-the-lamb_VKlo228.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1viz7lr/kingdom_hearts_4_codirector_tai_yasue_listed_for/",
+      "title": "O co-diretor de Kingdom Hearts 4, Tai Yasue, listado para D23, pode significar um novo visual para o jogo",
+      "original_title": "Kingdom Hearts 4 co-director Tai Yasue listed for D23, could mean a new look for the game",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
       "category": "News",
-      "date": "2026-08-07",
-      "summary": "A editora independente de jogos Devolver Digital está tentando retornar à propriedade privada, depois de alguns anos difíceis como uma empresa de capital aberto. Leia mais...",
+      "date": "2026-08-08",
+      "summary": "O aplicativo D23 revelou que Tai Yasue, codiretor de Kingdom Hearts 4, estará presente no D23 ao lado do dublador de Sora, Haley Joel Osment, e do dublador de Riku, David Gallagher. Os três estão listados antes do painel “DEEP DIVE into KINGDOM HEARTS”...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/devolver-digital-goes-private"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1viz7lr/kingdom_hearts_4_codirector_tai_yasue_listed_for/"
     },
     {
-      "id": "https://www.eurogamer.net/strauss-zelnick-take-two-streaming-gta-6",
-      "title": "Todos estaremos transmitindo nossos jogos em cerca de “três anos”, diz o chefe da Take-Two, levantando algumas questões pós-lançamento sobre GTA 6",
-      "original_title": "We'll all be streaming our games in about \"three years\", says Take-Two boss, raising some post-release questions about GTA 6",
-      "image": "https://assetsio.gnwcdn.com/zelnick-gta-streaming-final.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vihn5q/lance_mcdonald_newly_discovered_demons_souls/",
+      "title": "Lance McDonald: Conteúdo invisível de Demon's Souls recém-descoberto — Uma apresentação completa da primeira versão do protótipo de Demon's Souls demonstra a visão original da jogabilidade em primeira pessoa, esquema de controle no estilo esquecimento e muitos aspectos diferentes de inimigos e layout de mapa.",
+      "original_title": "Lance McDonald: Newly discovered Demon's Souls unseen content — A full presentation of the earliest prototype version of Demon's Souls demonstrates the original vision of first-person gameplay, oblivion-style control scheme, and many different aspects of enemies and map layout.",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
       "category": "News",
-      "date": "2026-08-07",
-      "summary": "No último relatório financeiro da Take-Two, o CEO Strauss Zelnick faz algumas declarações ousadas sobre o futuro da indústria de jogos. Enquanto a indústria cambaleia com a controversa decisão da Sony de parar de fabricar jogos baseados em discos físicos e de mudar para uma...",
+      "date": "2026-08-08",
+      "summary": "Link aqui para ver o vídeo completo e a apresentação: https://youtu.be/qVK_rc-tnGY (https://www.youtube.com/watch?v=qVK\\_rc-tnGY) No vídeo, Lance McDonald compartilha uma apresentação de protótipo recém-descoberta de Demon’s Souls para Gameshare IV em 2...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/strauss-zelnick-take-two-streaming-gta-6"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vihn5q/lance_mcdonald_newly_discovered_demons_souls/"
     },
     {
-      "id": "https://www.eurogamer.net/take-two-stock-digital-gta6-physical",
-      "title": "Enquanto a editora de GTA 6, Take-Two, revisa suas reservas líquidas de 2027 para US$ 8,2 bilhões, Strauss Zelnick confirma que suas vendas são “bem mais de 90% digitais”",
-      "original_title": "As GTA 6 publisher Take-Two revises its 2027 net bookings up to $8.2bn, Strauss Zelnick confirms its sales are \"well over 90% digital\"",
-      "image": "https://assetsio.gnwcdn.com/strauss-zelnick-gta-take-two.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1viiw8k/ghost_recon_wildlands_added_60fps_to_the_last_gen/",
+      "title": "Ghost Recon Wildlands adicionou 60FPS às versões da última geração",
+      "original_title": "Ghost Recon Wildlands added 60FPS to the last gen versions",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-08-08",
+      "summary": "Observe que não existe uma versão nativa para a geração atual. Esta é uma atualização para a última geração funcionar melhor na geração atual. Esse foi o meu erro, desculpas! Vazamento https://www.reddit.com/r/GamingLeaksAndRumours/s/t1APBmtTzB Anúncio https://youtu.be/...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1viiw8k/ghost_recon_wildlands_added_60fps_to_the_last_gen/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1viedkx/jason_schreier_rockstar_are_not_planning_to_talk/",
+      "title": "Jason Schreier: A Rockstar não planeja falar sobre GTA Online no GTA VI “tão cedo”",
+      "original_title": "Jason Schreier: Rockstar are not planning to talk about GTA Online on GTA VI \"anytime soon\"",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
       "category": "News",
       "date": "2026-08-07",
-      "summary": "Os últimos dados financeiros da Take-Two chegaram e trazem algumas surpresas. Em primeiro lugar, o CEO da Take-Two, Strauss Zelnick, confirmou que as vendas da editora são maioritariamente digitais, em resposta à controversa decisão da Sony de parar de fabricar produtos físicos...",
+      "summary": "Por volta da marca de 5:50 minutos: https://youtu.be/goR\\_wYUS\\_l4?si=I2C0mLAqBVAqYEiB enviado por /u/Comfortable-Pie56 [link] [comments]...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/take-two-stock-digital-gta6-physical"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1viedkx/jason_schreier_rockstar_are_not_planning_to_talk/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vi1lx7/beyond_good_evil_2_is_rumoured_to_be_getting_a/",
+      "title": "Há rumores de que Beyond Good & Evil 2 receberá um novo título e poderá ser revelado ainda este ano",
+      "original_title": "Beyond Good & Evil 2 is rumoured to be getting a brand new title and could be revealed later this year",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Rumor",
+      "date": "2026-08-07",
+      "summary": "- O jogo poderá ser exibido em um grande evento ainda este ano, provavelmente no The Game Awards 2026 - Espera-se que tenha uma porta Switch 2 - O jogo está sendo desenvolvido em um motor extremamente escalável Fonte: Attack The Backlog - https://youtu.be/EFJ_k0TN7r...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vi1lx7/beyond_good_evil_2_is_rumoured_to_be_getting_a/"
     },
     {
       "id": "https://www.techpowerup.com/351435/intel-appoints-dean-jarnac-as-executive-vp-and-chief-sales-officer",
@@ -346,21 +481,6 @@
       "url": "https://www.techpowerup.com/351435/intel-appoints-dean-jarnac-as-executive-vp-and-chief-sales-officer"
     },
     {
-      "id": "https://www.techpowerup.com/351431/amd-rdna-4m-igpu-support-arrives-in-open-source-mesa-gpu-driver",
-      "title": "Suporte AMD RDNA 4m iGPU chega em driver de GPU Mesa de código aberto",
-      "original_title": "AMD RDNA 4m iGPU Support Arrives in Open-Source Mesa GPU Driver",
-      "image": "https://tpucdn.com/img/Ofb26XAtqMxJr7Bz_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-08-07",
-      "summary": "Os misteriosos gráficos integrados RDNA 4m da AMD reapareceram após alguns meses de silêncio, quando a GPU foi oficialmente incorporada à pilha de drivers de código aberto Mesa 26.3. Executando sob o alvo de GPU GFX1171, este RDNA 4m não é um verdadeiro RDNA 4...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/351431/amd-rdna-4m-igpu-support-arrives-in-open-source-mesa-gpu-driver"
-    },
-    {
       "id": "https://www.techpowerup.com/350687/dropreference-launches-in-the-us-with-pc-part-price-comparison-and-gaming-performance-estimates",
       "title": "DropReference é lançado nos EUA com comparação de preços de peças de PC e estimativas de desempenho de jogos",
       "original_title": "DropReference Launches in the US with PC Part Price Comparison and Gaming Performance Estimates",
@@ -374,6 +494,21 @@
         "TechPowerUp"
       ],
       "url": "https://www.techpowerup.com/350687/dropreference-launches-in-the-us-with-pc-part-price-comparison-and-gaming-performance-estimates"
+    },
+    {
+      "id": "https://www.techpowerup.com/351431/amd-rdna-4m-igpu-support-arrives-in-open-source-mesa-gpu-driver",
+      "title": "Suporte AMD RDNA 4m iGPU chega em driver de GPU Mesa de código aberto",
+      "original_title": "AMD RDNA 4m iGPU Support Arrives in Open-Source Mesa GPU Driver",
+      "image": "https://tpucdn.com/img/Ofb26XAtqMxJr7Bz_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-08-07",
+      "summary": "Os misteriosos gráficos integrados RDNA 4m da AMD reapareceram após alguns meses de silêncio, quando a GPU foi oficialmente incorporada à pilha de drivers de código aberto Mesa 26.3. Executando sob o alvo de GPU GFX1171, este RDNA 4m não é um verdadeiro RDNA 4...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/351431/amd-rdna-4m-igpu-support-arrives-in-open-source-mesa-gpu-driver"
     },
     {
       "id": "https://www.techpowerup.com/351432/lenovo-rises-to-153-on-fortune-global-500-with-ai-business-growth",
@@ -406,21 +541,6 @@
       "url": "https://www.techpowerup.com/351430/cabletime-launches-the-screendock-5-5-inch-720p-portable-display-and-docking-station"
     },
     {
-      "id": "https://www.techpowerup.com/351429/corsair-reports-strong-second-quarter-2026-profit-growth-and-cash-generation",
-      "title": "(PR) Corsair relata forte crescimento de lucro e geração de caixa no segundo trimestre de 2026",
-      "original_title": "(PR) Corsair Reports Strong Second Quarter 2026 Profit Growth and Cash Generation",
-      "image": "https://tpucdn.com/img/SGCGGEAWy0nVUDow_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-08-07",
-      "summary": "(Nasdaq: CRSR) (\"Corsair\" ou a \"Empresa\"), fornecedora líder global e inovadora de produtos de alto desempenho para jogadores, streamers, criadores de conteúdo, construtores de PC de alto desempenho e entusiastas de Sim Racing, anunciou hoje o financiamento...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/351429/corsair-reports-strong-second-quarter-2026-profit-growth-and-cash-generation"
-    },
-    {
       "id": "https://www.techpowerup.com/351313/while-everyones-chasing-ai-coding-agents-this-ide-is-usd-30-for-life",
       "title": "Enquanto todo mundo está perseguindo agentes de codificação de IA, este IDE custa US$ 30 vitalícios",
       "original_title": "While Everyone's Chasing AI Coding Agents, This IDE Is $30 for Life",
@@ -436,6 +556,21 @@
       "url": "https://www.techpowerup.com/351313/while-everyones-chasing-ai-coding-agents-this-ide-is-usd-30-for-life"
     },
     {
+      "id": "https://www.techpowerup.com/351429/corsair-reports-strong-second-quarter-2026-profit-growth-and-cash-generation",
+      "title": "(PR) Corsair relata forte crescimento de lucro e geração de caixa no segundo trimestre de 2026",
+      "original_title": "(PR) Corsair Reports Strong Second Quarter 2026 Profit Growth and Cash Generation",
+      "image": "https://tpucdn.com/img/SGCGGEAWy0nVUDow_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-08-07",
+      "summary": "(Nasdaq: CRSR) (\"Corsair\" ou a \"Empresa\"), fornecedora líder global e inovadora de produtos de alto desempenho para jogadores, streamers, criadores de conteúdo, construtores de PC de alto desempenho e entusiastas de Sim Racing, anunciou hoje o financiamento...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/351429/corsair-reports-strong-second-quarter-2026-profit-growth-and-cash-generation"
+    },
+    {
       "id": "https://www.techpowerup.com/351426/bose-updates-its-quietcomfort-headphones-series",
       "title": "(PR) Bose atualiza sua série de fones de ouvido QuietComfort",
       "original_title": "(PR) Bose Updates Its QuietComfort Headphones Series",
@@ -449,21 +584,6 @@
         "TechPowerUp"
       ],
       "url": "https://www.techpowerup.com/351426/bose-updates-its-quietcomfort-headphones-series"
-    },
-    {
-      "id": "https://www.techpowerup.com/351425/attack-shark-unveils-the-f1-air-39g-flagship-gaming-mouse",
-      "title": "(PR) Attack Shark revela o principal mouse para jogos F1 AIR 39g",
-      "original_title": "(PR) Attack Shark Unveils the F1 AIR 39g Flagship Gaming Mouse",
-      "image": "https://tpucdn.com/img/AT3FEp6UHD8yxHAr_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-08-07",
-      "summary": "A marca de periféricos para jogos Attack Shark anunciou o próximo lançamento do F1 AIR, um novo mouse para jogos ultraleve projetado para jogadores competitivos de esportes eletrônicos que buscam desempenho, capacidade de resposta e precisão de alto nível. Pesando apenas 39...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/351425/attack-shark-unveils-the-f1-air-39g-flagship-gaming-mouse"
     },
     {
       "id": "https://www.techpowerup.com/351314/own-microsoft-office-professional-2021-for-windows-for-just-usd-33",
