@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-08-12T13:06:53",
-  "display_date": "12/08/2026 13:06",
+  "last_updated": "2026-08-13T13:08:05",
+  "display_date": "13/08/2026 13:08",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "124ms",
+    "latency": "340ms",
     "current_games": [
       {
         "title": "Beacon Pines",
@@ -26,6 +26,15 @@
       }
     ],
     "upcoming_games": [
+      {
+        "title": "Cardpocalypse Standard Edition",
+        "description": "Jess, de 10 anos, acidentalmente bane o jogo de cartas colecionável favorito de todos na escola primária de Dudsdale - pior ainda, é seu primeiro dia! Mas quando surgem problemas e os mutantes do jogo começam a ganhar vida, cabe a Jess e seus amigos detê-los. Torne-se um Mega...",
+        "image": "https://cdn1.epicgames.com/offer/2bfd5ca43ef443739ada168e017e1b78/s1_2560x1440-8d68e37943d666ad0f05093481c4d7df",
+        "url": "https://store.epicgames.com/p/cardpocalypsegeneralaudience",
+        "price": "$24.99",
+        "start_date": "2026-08-20T15:00:00.000Z",
+        "end_date": "2026-08-27T15:00:00.000Z"
+      },
       {
         "title": "Ghostrunner 2",
         "description": "Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
@@ -83,7 +92,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-08-12",
+      "date": "2026-08-13",
       "summary": "Beacon Pines é um jogo de aventura fofo e assustador. Saia escondido até tarde, faça novos amigos, descubra verdades ocultas e colete palavras que mudarão o curso do destino!",
       "sources": [
         "Epic Games Store"
@@ -98,12 +107,27 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-08-12",
+      "date": "2026-08-13",
       "summary": "À medida que exploramos esses resíduos congelados, o infortúnio ataca mais uma vez. Em meio à forte nevasca, um clarão ilumina o céu, seguido por um pedido de socorro no rádio - quebrado, morrendo... Ninguém mais pode vir em seu socorro. Podemos voltar juntos?",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/a4bed38482a44c3d89029b0dbba42087"
+    },
+    {
+      "id": "https://store.epicgames.com/p/cardpocalypsegeneralaudience",
+      "title": "EM BREVE: Cardpocalypse Standard Edition",
+      "original_title": "Cardpocalypse Standard Edition",
+      "image": "https://cdn1.epicgames.com/offer/2bfd5ca43ef443739ada168e017e1b78/s1_2560x1440-8d68e37943d666ad0f05093481c4d7df",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-08-13",
+      "summary": "Disponível gratuitamente a partir de 20/08. Jess, de 10 anos, acidentalmente bane o jogo de cartas colecionável favorito de todos na escola primária de Dudsdale - pior ainda, é seu primeiro dia! Mas quando surgem problemas e os mutantes do jogo começam a ganhar vida, cabe a Jess e seus amigos detê-los. Torne-se um Mega...",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/cardpocalypsegeneralaudience"
     },
     {
       "id": "https://store.epicgames.com/p/ghostrunner-2",
@@ -113,7 +137,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-08-12",
+      "date": "2026-08-13",
       "summary": "Disponível gratuitamente a partir de 10/09. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
       "sources": [
         "Epic Games Store"
@@ -128,7 +152,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-08-12",
+      "date": "2026-08-13",
       "summary": "Disponível gratuitamente a partir de 30/08. The Old Ones Awaken adiciona novos níveis para explorar, novos inimigos para derrotar e novos chefes para enfrentar, juntamente com uma série de novas armas e equipamentos emocionantes para empunhar e usar.",
       "sources": [
         "Epic Games Store"
@@ -143,7 +167,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-08-12",
+      "date": "2026-08-13",
       "summary": "Disponível gratuitamente a partir de 17/09. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
@@ -158,7 +182,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-08-12",
+      "date": "2026-08-13",
       "summary": "Disponível gratuitamente a partir de 13/08. Embarque em uma jornada por vastas paisagens em Caravan SandWitch, uma cativante aventura de exploração baseada em narrativas.",
       "sources": [
         "Epic Games Store"
@@ -173,7 +197,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-08-12",
+      "date": "2026-08-13",
       "summary": "Disponível gratuitamente a partir de 03/09. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
       "sources": [
         "Epic Games Store"
@@ -181,229 +205,259 @@
       "url": "https://store.epicgames.com/p/monument-valley-02"
     },
     {
-      "id": "https://www.eurogamer.net/meccha-chameleon-20-million-sales",
-      "title": "Meccha Chameleon já vendeu 20 milhões de cópias em dois meses",
-      "original_title": "Meccha Chameleon has now sold 20 million copies in two months",
-      "image": "https://assetsio.gnwcdn.com/meccha-chameleon.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/fire-emblem-fortunes-weave-preview",
+      "title": "Depois de 20 horas, não consigo acreditar na escala, complexidade e ambição de Fire Emblem: Fortune's Weave",
+      "original_title": "20 hours in, I cannot believe the scale, complexity, and ambition of Fire Emblem: Fortune's Weave",
+      "image": "https://assetsio.gnwcdn.com/Fire-Emblem-header-1.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-08-12",
-      "summary": "Meccha Chameleon, o jogo independente de esconde-esconde lançado no Steam há dois meses, consolidou-se como um dos maiores sucessos do ano. O desenvolvedor do jogo postou hoje uma atualização do marco de vendas, anunciando que as vendas ultrapassaram um nível impressionante...",
+      "date": "2026-08-13",
+      "summary": "Fire Emblem: Fortune's Weave é enorme. Se você estiver vindo para o RPG Switch 2 da Intelligent Systems depois de jogar Three Houses ou Engage, ficará chocado com a escala disso. Nas primeiras 10 horas de jogo, você terá opções que...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/meccha-chameleon-20-million-sales"
+      "url": "https://www.eurogamer.net/fire-emblem-fortunes-weave-preview"
     },
     {
-      "id": "https://www.eurogamer.net/amazon-smilegate-lost-ark-servers",
-      "title": "Smilegate resgatará os servidores ocidentais de Lost Ark, enquanto a Amazon abandona o suporte enquanto se retira do desenvolvimento de MMO",
-      "original_title": "Smilegate will rescue Lost Ark's western servers, as Amazon ditches support while retreating from MMO development",
-      "image": "https://assetsio.gnwcdn.com/lost-ark-best-class-9201-1646758585227.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/the-elder-scrolls-6-subtitle-fan-theory-starfield",
+      "title": "Após a provocação de Elder Scrolls 6 desta semana, os fãs acham que descobriram seu nome completo – e ele estava escondido em Starfield o tempo todo",
+      "original_title": "After this week's Elder Scrolls 6 tease, fans think they've figured out its full name - and it was hidden in Starfield all along",
+      "image": "https://assetsio.gnwcdn.com/TGS6.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-08-12",
-      "summary": "A Amazon Game Studios anunciou que não oferecerá mais suporte aos servidores de jogos ocidentais para o RPG de ação online multijogador Lost Ark, a partir de 2027. Leia mais...",
+      "date": "2026-08-13",
+      "summary": "Após a recente provocação editada pelo CEO do Xbox, Asha Sharma, de um subtítulo para o tão aguardado Elder Scrolls 6, foi descoberto que o nome completo do jogo pode estar escondido no lançamento mais recente da desenvolvedora Bethesda, Starfield, o tempo todo. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/amazon-smilegate-lost-ark-servers"
+      "url": "https://www.eurogamer.net/the-elder-scrolls-6-subtitle-fan-theory-starfield"
     },
     {
-      "id": "https://www.eurogamer.net/xbox-july-outage-issue-fixed-cto-update",
-      "title": "O Xbox promete que as causas da recente interrupção, que tornou impossível reproduzir até mesmo os discos do jogo, foram corrigidas",
-      "original_title": "Xbox promises that the causes of the recent outage, which rendered even game discs unplayable, have been fixed",
-      "image": "https://assetsio.gnwcdn.com/xbox-logo_yqqi6oN.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/ea-private-experts-financial-strain-cuts-politics",
+      "title": "Abandonar o modo single player, transferir o desenvolvimento para a Arábia Saudita, “reduzir o trabalho”? Especialistas sobre o que a enorme dívida de aquisição da EA poderia realmente significar",
+      "original_title": "Abandon single-player, move development to Saudi Arabia, \"reduce labour\"? Experts on what EA's huge buyout debt could really mean",
+      "image": "https://assetsio.gnwcdn.com/image-(4)_hn7CZkQ.png?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-08-12",
-      "summary": "O Xbox afirma que corrigiu o problema subjacente à grande interrupção do serviço sofrida em julho. O diretor técnico Scott Van Vliet, que inicialmente ofereceu uma explicação sobre por que tantos serviços foram afetados, prometeu investigar mais detalhadamente...",
+      "date": "2026-08-13",
+      "summary": "Na semana passada, finalmente aconteceu a aquisição privada da Electronic Arts. Após meses de aprovação e debate governamental, uma das maiores editoras de jogos tornou-se privada, co-propriedade de uma combinação de empresas de capital privado e do Reino de S...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/xbox-july-outage-issue-fixed-cto-update"
+      "url": "https://www.eurogamer.net/ea-private-experts-financial-strain-cuts-politics"
     },
     {
-      "id": "https://www.eurogamer.net/lord-of-the-rings-co-op-game-remaster-war-in-north",
-      "title": "Um antigo jogo cooperativo esquecido do Senhor dos Anéis foi inesperadamente remasterizado e relançado, e há uma promessa de mais por vir",
-      "original_title": "A forgotten old co-op Lord of the Rings game has been unexpectedly remastered and re-released, and there's a promise of more to come",
-      "image": "https://assetsio.gnwcdn.com/lotr-war-in-the-north.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/the-elder-scrolls-4-oblivion-remastered-performance-patch-switch-2",
+      "title": "Bethesda finalmente “estudando” o patch do Oblivion Remastered no PC, PS5 e Xbox em meio a elogios ao lançamento do Switch 2",
+      "original_title": "Bethesda finally \"looking into\" patching Oblivion Remastered on PC, PS5 and Xbox amid praise for Switch 2 release",
+      "image": "https://assetsio.gnwcdn.com/oblivion-remastered-screen-crop-1.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-08-12",
-      "summary": "Aspyr inesperadamente remasterizou e relançou um antigo RPG de ação do Senhor dos Anéis, que era notável por ter cooperação para três jogadores e uma história paralela sobre um dos poderosos servos de Sauron fazendo coisas perversas no norte. Leia mais...",
+      "date": "2026-08-13",
+      "summary": "The Elder Scrolls 4: Oblivion Remastered chegou ao Switch 2 no início desta semana, atraindo imediatamente elogios por seu estado bem otimizado. Na verdade, isso é um pouco problemático - não por causa de como ele funciona no Switch 2, mas por causa de como ele continua...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/lord-of-the-rings-co-op-game-remaster-war-in-north"
+      "url": "https://www.eurogamer.net/the-elder-scrolls-4-oblivion-remastered-performance-patch-switch-2"
     },
     {
-      "id": "https://www.eurogamer.net/elder-scrolls-6-giant-inflatable-rat",
-      "title": "O jogo interno de The Elder Scrolls 6 do CEO do Xbox, Asha Sharma, foi interrompido por um rato inflável gigante, enquanto o sindicato da Bethesda protestava contra cortes",
-      "original_title": "Xbox CEO Asha Sharma's internal playthrough of The Elder Scrolls 6 disrupted by a giant inflatable rat, as Bethesda union protests cuts",
-      "image": "https://assetsio.gnwcdn.com/giant-rat-bethesda.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/saber-ceo-sacco-chatgpt-ai-rideshare-stimulator-public-spat",
+      "title": "'Eu francamente teria ficado feliz em substituí-la por IA' - a extraordinária briga pública entre o CEO do Sabre e o escritor \"substituído por ChatGPT\" se intensifica",
+      "original_title": "'I would frankly have been happy to replace her with AI' - extraordinary public spat between Saber CEO and writer \"replaced with ChatGPT\" intensifies",
+      "image": "https://assetsio.gnwcdn.com/rideshare-saber-sacco.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-08-12",
-      "summary": "Uma prévia interna de The Elder Scrolls 6 feita pelo CEO do Xbox, Asha Sharma, foi recebida por um rato inflável gigante pairando sobre os escritórios da Bethesda em Rockville, Maryland. Leia mais...",
+      "date": "2026-08-13",
+      "summary": "Uma briga pública entre o Sabre Interactive - criador de Warhammer 40,000: Space Marine 2, o próximo jogo Suntman: Hollywood e muitos outros - e uma ex-funcionária que afirma ter sido \"substituída\" pelo ChatGPT eclodiu nos últimos dias, e em t...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/elder-scrolls-6-giant-inflatable-rat"
+      "url": "https://www.eurogamer.net/saber-ceo-sacco-chatgpt-ai-rideshare-stimulator-public-spat"
     },
     {
-      "id": "https://www.eurogamer.net/halo-campaign-evolved-launch-sales-numbers",
-      "title": "Halo: Campaign Evolved luta para vender em quantidades próximas das quantidades que os recentes avivamentos de Black Ops venderam, e o motivo provável? Falta de multijogador",
-      "original_title": "Halo: Campaign Evolved struggles to sell in anywhere near the quantities the recent Black Ops revivals did, and the probable reason? Lack of multiplayer",
-      "image": "https://assetsio.gnwcdn.com/halo-campaign-evolved-avery-johnson-1.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/halo-campaign-evolved-marcus-lehto-art-style-criticism",
+      "title": "“A coisa mais ofensiva que vemos toda vez que iniciamos o jogo” O co-criador de Halo critica a direção de arte do Campaign Evolved",
+      "original_title": "\"The most offensive thing we see every time we boot up the game\" Halo co-creator takes shots at Campaign Evolved art direction",
+      "image": "https://assetsio.gnwcdn.com/Halo-ring-comparison.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-08-12",
-      "summary": "Halo: Campaign Evolved – o remake da campanha original de Halo 1 e o primeiro jogo Halo lançado para PlayStation – tem lutado para vender em quantidades significativas, e a provável razão para isso? Falta de multijogador. Leia mais...",
+      "date": "2026-08-13",
+      "summary": "Foi um período de lançamento interessante para Halo: Campaign Evolved. Apesar da boa análise, o jogo não vendeu particularmente bem no PS5, onde as portas Black Ops 1 e 2 de baixo esforço aparentemente superaram as vendas do título da Microsoft na proporção de 16 para 1. Depois da ga...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/halo-campaign-evolved-launch-sales-numbers"
+      "url": "https://www.eurogamer.net/halo-campaign-evolved-marcus-lehto-art-style-criticism"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vm9ozf/shpeshal_nick_currently_the_ports_of_pokémon/",
-      "title": "Shpeshal Nick: \"Atualmente, os portes de Pokémon Ruby/Emerald/Sapphire estão planejados para o final de setembro/outubro\"",
-      "original_title": "Shpeshal Nick: \"Currently, the ports of Pokémon Ruby/Emerald/Sapphire are planned for late September/October\"",
+      "id": "https://www.eurogamer.net/twitch-tv-generative-ai-training-opt-out-nobody-would-opt-in",
+      "title": "Twitch está treinando IA em transmissões ao vivo, diz que é um recurso de exclusão, já que “ninguém aceitaria”",
+      "original_title": "Twitch is training AI on livestreams, says it's an opt out feature as \"nobody would opt in\"",
+      "image": "https://assetsio.gnwcdn.com/OpenLetterHeader_1920x1080.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-08-13",
+      "summary": "Twitch – a popular plataforma de jogos e streaming IRL – anunciou que começará a treinar modelos generativos de IA nas transmissões ao vivo na plataforma. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/twitch-tv-generative-ai-training-opt-out-nobody-would-opt-in"
+    },
+    {
+      "id": "https://www.eurogamer.net/stop-killing-games-consumer-rights-lawsuit-netherlands-sony-playstation-monopoly",
+      "title": "Stop Killing Games apóia processo holandês de direitos do consumidor contra o \"monopólio\" da loja digital PlayStation da Sony",
+      "original_title": "Stop Killing Games backs Dutch consumer rights lawsuit against Sony's PlayStation digital store \"monopoly\"",
+      "image": "https://assetsio.gnwcdn.com/stop-killing-games-eu-v2.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-08-13",
+      "summary": "Stop Killing Games, a iniciativa popular que luta para impedir que os editores de jogos desliguem servidores sem oferecer uma alternativa, juntou-se a uma ação movida na Holanda contra a Sony por seu suposto monopólio de venda de jogos digitais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/stop-killing-games-consumer-rights-lawsuit-netherlands-sony-playstation-monopoly"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vn7hkq/mafia_definitive_edition_rated_by_the_esrb_for/",
+      "title": "Mafia Definitive Edition avaliada pela ESRB para PS5 e Xbox Series",
+      "original_title": "Mafia Definitive Edition rated by the ESRB For PS5 & Xbox Series",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
       "category": "News",
-      "date": "2026-08-12",
-      "summary": "https://xcancel.com/Shpeshal_Nick/status/2087367781843161291 Atualmente, as portas de Pokémon Ruby/Emerald/Sapphire estão planejadas para o final de setembro/outubro. Nick parece estar acertando um número razoável de coisas da Nintendo ultimamente, então imaginei que isso seria...",
+      "date": "2026-08-13",
+      "summary": "Pelo que eu sei este jogo não possui versão nativa para esses consoles, apenas compatibilidade com versões anteriores. Link: http://www.esrb.org/ratings/Synopsis.aspx?Certificate=41423&Title=Mafia%3A+Definitive+Edition enviado por /u/Howerev [link] [com...",
       "sources": [
         "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vm9ozf/shpeshal_nick_currently_the_ports_of_pokémon/"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vn7hkq/mafia_definitive_edition_rated_by_the_esrb_for/"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vm0oti/phantom_blade_0s_demo_page_was_up_on_playstation/",
-      "title": "A página de demonstração do Phantom Blade 0 estava no Playstation antes de ser rapidamente retirada",
-      "original_title": "Phantom Blade 0’s demo page was up on Playstation before quickly being taken down",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vn10or/ingame_screenshots_leaked_from_the_weavers/",
+      "title": "Capturas de tela do jogo vazaram de The Weavers (Monster Hunter de HoYoverse)",
+      "original_title": "In-game screenshots leaked from The Weavers (HoYoverse’s Monster Hunter)",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Rumor",
+      "date": "2026-08-13",
+      "summary": "Compêndio do chefe (?): https://ibb.co/5gxkps3B Mapa mundial completo: https://ibb.co/sBjWTRS Capturas de tela do jogo: https://ibb.co/album/yft8Q2 Jogabilidade da espada grande: https://streamable.com/d6rrva Jogabilidade do arco mágico: https://streamable.com/787ccu Flying li...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vn10or/ingame_screenshots_leaked_from_the_weavers/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vn11jj/midnight_club_3_2004_prototype_leaked/",
+      "title": "Protótipo do Midnight Club 3 2004 vazado",
+      "original_title": "Midnight Club 3 2004 Prototype Leaked",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Rumor",
+      "date": "2026-08-13",
+      "summary": "https://www.reddit.com/r/midnightclub/s/ekCOcI4LkB Comentário com arquivo: https://www.reddit.com/r/midnightclub/s/iP3ThICtMB Mudanças na jogabilidade, mudanças no mapa, novos veículos, etc. enviado por /u/ethanw04 [link] [comentários]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vn11jj/midnight_club_3_2004_prototype_leaked/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vmyrwb/the_duskbloods_preview_listed_for_august_20th/",
+      "title": "A prévia de Duskbloods está listada para 20 de agosto.",
+      "original_title": "The Duskbloods Preview listed for August 20th.",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
       "category": "News",
-      "date": "2026-08-12",
-      "summary": "Fonte: https://ibb.co/wF7HZBMX EDIT: A situação do PB0 foi anunciada para 17 de agosto, potencialmente quando o anúncio da demonstração pode acontecer.    enviado por /u/ZamnBoii [link] [comentários]...",
+      "date": "2026-08-13",
+      "summary": "Esta é a programação do canal de internet Rocketbeans e seu programa \"Game Two\", que inclui uma prévia da estreia de Duskbloods no dia 20 de agosto, e será postado em vídeo. Historicamente, FromSoftware Network Test pressiona embargos ...",
       "sources": [
         "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vm0oti/phantom_blade_0s_demo_page_was_up_on_playstation/"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vmyrwb/the_duskbloods_preview_listed_for_august_20th/"
     },
     {
-      "id": "https://www.techpowerup.com/351546/cps-pccooler-unveils-a-new-lineup-of-high-performance-products-for-ai-workstations",
-      "title": "CPS PCCOOLER revela uma nova linha de produtos de alto desempenho para estações de trabalho de IA",
-      "original_title": "CPS PCCOOLER Unveils a New Lineup of High-Performance Products for AI Workstations",
-      "image": "https://tpucdn.com/img/sh9QTQFWfQo2dqx8_thm.jpg",
+      "id": "https://www.techpowerup.com/351578/qualcomm-introduces-usd-300-laptops-with-snapdragon-c-outruns-intel-n250-by-up-to-67",
+      "title": "Qualcomm lança laptops de US$ 300 com Snapdragon C e supera Intel N250 em até 67%",
+      "original_title": "Qualcomm Introduces $300 Laptops With Snapdragon C, Outruns Intel N250 by Up to 67%",
+      "image": "https://tpucdn.com/img/rrpE74Yl8NTG5Waz_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-08-12",
-      "summary": "Com mais de 20 anos de experiência em engenharia térmica, o CPS PCCOOLER está se expandindo para a computação profissional com novas soluções de resfriamento, chassi e energia para estações de trabalho e servidores de IA.\n\nDo resfriamento do PC à infraestrutura de IA\nCargas de trabalho de IA não são...",
+      "date": "2026-08-13",
+      "summary": "A Qualcomm está finalmente revelando as especificações de sua plataforma Snapdragon C básica e de baixo custo. De acordo com as especificações, a plataforma apresenta até oito núcleos Arm para sistemas com lançamento previsto para cerca de US$ 300. Em um mercado onde DR...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/351546/cps-pccooler-unveils-a-new-lineup-of-high-performance-products-for-ai-workstations"
+      "url": "https://www.techpowerup.com/351578/qualcomm-introduces-usd-300-laptops-with-snapdragon-c-outruns-intel-n250-by-up-to-67"
     },
     {
-      "id": "https://www.techpowerup.com/351543/ymtc-surpasses-micron-kioxia-and-sandisk-in-global-storage-market-share",
-      "title": "YMTC supera Micron, Kioxia e Sandisk em participação no mercado global de armazenamento",
-      "original_title": "YMTC Surpasses Micron, Kioxia, and Sandisk in Global Storage Market Share",
-      "image": "https://tpucdn.com/img/WUo1KABqS1w0UtpG_thm.jpg",
+      "id": "https://www.techpowerup.com/351577/zotac-gaming-launches-geforce-rtx-5080-solid-core-oc-20th-anniversary-edition",
+      "title": "(PR) Zotac Gaming lança edição de 20º aniversário da GeForce RTX 5080 SOLID CORE OC",
+      "original_title": "(PR) Zotac Gaming Launches GeForce RTX 5080 SOLID CORE OC 20th Anniversary Edition",
+      "image": "https://tpucdn.com/img/u1llKTTijNEwHgxA_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-08-12",
-      "summary": "O YMTC chinês está em ascensão significativa, conforme confirmado pelo rastreador global de participação de mercado de remessas NAND Flash para o segundo trimestre deste ano. De acordo com dados da Counterpoint Research, a YMTC se tornou o terceiro maior player no segundo trimestre, superando...",
+      "date": "2026-08-13",
+      "summary": "ZOTAC Tecnologia PTE. Limited, fabricante líder global de tecnologia e hardware para jogos para PC, lança oficialmente hoje a ZOTAC GAMING GeForce RTX 5080 SOLID CORE OC 20th Anniversary Edition para comemorar o 20º aniversário da marca ZOTAC.\n\n...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/351543/ymtc-surpasses-micron-kioxia-and-sandisk-in-global-storage-market-share"
+      "url": "https://www.techpowerup.com/351577/zotac-gaming-launches-geforce-rtx-5080-solid-core-oc-20th-anniversary-edition"
     },
     {
-      "id": "https://www.techpowerup.com/351542/windows-11-gets-dynamic-file-sizes-in-file-explorer-low-latency-profile-for-apps-and-more",
-      "title": "O Windows 11 obtém tamanhos de arquivo dinâmicos no File Explorer, perfil de baixa latência para aplicativos e muito mais",
-      "original_title": "Windows 11 Gets Dynamic File Sizes in File Explorer, Low Latency Profile for Apps, and More",
-      "image": "https://tpucdn.com/img/lvWjWAnQ9A1L2yDu_thm.jpg",
+      "id": "https://www.techpowerup.com/351576/alphacool-unveils-apex-2-thermal-grease",
+      "title": "(PR) Alphacool lança graxa térmica Apex 2",
+      "original_title": "(PR) Alphacool Unveils Apex 2 Thermal Grease",
+      "image": "https://tpucdn.com/img/SajR7l2gwSRir3Wo_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-08-12",
-      "summary": "A Microsoft lançou hoje sua atualização de agosto, KB5121003, que finalmente traz mais recursos solicitados pelos usuários como parte de uma simples atualização de segurança do Patch Tuesday. Uma das mudanças mais úteis é a forma como o File Explorer agora exibe os tamanhos dos arquivos. Em vez disso...",
+      "date": "2026-08-13",
+      "summary": "Alphacool International GmbH de Braunschweig é pioneira na tecnologia de refrigeração líquida para PCs. Com um dos portfólios de produtos mais abrangentes do setor e mais de 20 anos de experiência, a Alphacool agora expande sua linha com o Apex 2 Therma...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/351542/windows-11-gets-dynamic-file-sizes-in-file-explorer-low-latency-profile-for-apps-and-more"
+      "url": "https://www.techpowerup.com/351576/alphacool-unveils-apex-2-thermal-grease"
     },
     {
-      "id": "https://www.techpowerup.com/350687/dropreference-launches-in-the-us-with-pc-part-price-comparison-and-gaming-performance-estimates",
-      "title": "DropReference é lançado nos EUA com comparação de preços de peças de PC e estimativas de desempenho de jogos",
-      "original_title": "DropReference Launches in the US with PC Part Price Comparison and Gaming Performance Estimates",
-      "image": "https://tpucdn.com/img/o5Oy7xOEcq5wx7nB_thm.jpg",
+      "id": "https://www.techpowerup.com/351574/lenovo-reports-record-usd-26-9b-revenue-for-q1-2026-27",
+      "title": "(PR) Lenovo relata receita recorde de US$ 26,9 bilhões para o primeiro trimestre de 2026/27",
+      "original_title": "(PR) Lenovo Reports Record $26.9B Revenue for Q1 2026/27",
+      "image": "https://tpucdn.com/img/F4TJlikA56gsRuLy_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-08-12",
-      "summary": "DropReference, uma plataforma de comparação de hardware de PC e planejamento de construção que atrai mais de 200.000 visitantes únicos a cada mês, está se expandindo oficialmente para os Estados Unidos. Já estabelecido entre os fabricantes europeus de PCs, o DropReference permite aos usuários c...",
+      "date": "2026-08-13",
+      "summary": "Lenovo Group Limited (HKSE: 992) (ADR: LNVGY), juntamente com suas subsidiárias ('o Grupo'), relataram hoje os resultados do primeiro trimestre para o ano fiscal de 2026/27, marcando o maior crescimento de receita trimestral nos últimos cinco anos e o trimestre mais forte...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/350687/dropreference-launches-in-the-us-with-pc-part-price-comparison-and-gaming-performance-estimates"
+      "url": "https://www.techpowerup.com/351574/lenovo-reports-record-usd-26-9b-revenue-for-q1-2026-27"
     },
     {
-      "id": "https://www.techpowerup.com/351541/chieftec-announces-the-vista-max-gx-30b-op-chassis",
-      "title": "(PR) Chieftec Anuncia Chassi Vista Max GX-30B-OP",
-      "original_title": "(PR) Chieftec Announces the Vista Max GX-30B-OP Chassis",
-      "image": "https://tpucdn.com/img/mBJtBR2GF3qHtn9I_thm.jpg",
+      "id": "https://www.techpowerup.com/351572/subnautica-2-gets-experimental-branch-to-test-new-updates-before-launch",
+      "title": "Subnautica 2 obtém ramificação experimental para testar novas atualizações antes do lançamento",
+      "original_title": "Subnautica 2 Gets Experimental Branch To Test New Updates Before Launch",
+      "image": "https://tpucdn.com/img/A1YHABCkoVJE7Tls_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-08-12",
-      "summary": "A Chieftec tem o prazer de apresentar o Chieftec Vista Max, nosso mais recente chassi ATX panorâmico projetado para entusiastas de PC que exigem estética premium, flexibilidade máxima e excelente desempenho de refrigeração. Apresentando um design panorâmico elegante com ...",
+      "date": "2026-08-13",
+      "summary": "Subnautica 2 foi lançado com enorme sucesso em meados de maio, acumulando rapidamente centenas de milhares de jogadores simultâneos no Steam. Agora, três meses após o lançamento, Unknown Worlds anunciou uma nova versão experimental para o jogo Early Access, bem como...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/351541/chieftec-announces-the-vista-max-gx-30b-op-chassis"
-    },
-    {
-      "id": "https://www.techpowerup.com/351540/intel-razor-lake-ax-preliminary-support-lands-in-hwinfo",
-      "title": "Suporte preliminar Intel “Razor Lake-AX” chega ao HWiNFO",
-      "original_title": "Intel \"Razor Lake-AX\" Preliminary Support Lands in HWiNFO",
-      "image": "https://tpucdn.com/img/MZaun34qd3ihCzHj_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-08-12",
-      "summary": "Os SoCs “Razor Lake-AX” da Intel estão cada vez mais perto de serem lançados, pois recebemos mais confirmação de que a Intel está trabalhando ativamente nesses chips para o público. Na última atualização do HWiNFO, os criadores da ferramenta anunciaram suporte preliminar para...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/351540/intel-razor-lake-ax-preliminary-support-lands-in-hwinfo"
-    },
-    {
-      "id": "https://www.techpowerup.com/351484/intel-is-selling-usd-20b-of-its-own-stock-to-build-more-fab-capacity",
-      "title": "Intel está vendendo US$ 20 bilhões de seu próprio estoque para construir mais capacidade fabulosa",
-      "original_title": "Intel is Selling $20B of its Own Stock to Build More Fab Capacity",
-      "image": "https://tpucdn.com/img/MqTCoWsYGUob35st_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-08-12",
-      "summary": "A Intel anunciou hoje que oferecerá oficialmente uma oferta pública subscrita de ações ordinárias no valor de US$ 20 bilhões para financiar sua expansão de fundição de capital intensivo. Isso significa que a empresa está procurando diluir a participação acionária existente emitindo mais ações...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/351484/intel-is-selling-usd-20b-of-its-own-stock-to-build-more-fab-capacity"
+      "url": "https://www.techpowerup.com/351572/subnautica-2-gets-experimental-branch-to-test-new-updates-before-launch"
     },
     {
       "id": "https://www.techpowerup.com/351503/compare-gpt-4o-claude-and-gemini-side-by-side-for-usd-59-25",
@@ -413,7 +467,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-08-12",
+      "date": "2026-08-13",
       "summary": "Todos os principais laboratórios de IA afirmam que seu modelo é o melhor. ChatPlayground AI ignora o debate executando um prompt em mais de 20 modelos ao mesmo tempo, incluindo GPT-4o, Claude Sonnet 4, Gemini 1.5 Flash, DeepSeek V3 e Llama, então as saídas ficam lado a lado...",
       "sources": [
         "TechPowerUp"
@@ -421,184 +475,154 @@
       "url": "https://www.techpowerup.com/351503/compare-gpt-4o-claude-and-gemini-side-by-side-for-usd-59-25"
     },
     {
-      "id": "https://www.techpowerup.com/351535/ryzen-ai-9-powered-piston-v-mystery-mini-pc-dual-boots-bazzite-and-windows",
-      "title": "Ryzen AI 9-Powered “Piston V” Mystery Mini PC com inicialização dupla Bazzite e Windows",
-      "original_title": "Ryzen AI 9-Powered \"Piston V\" Mystery Mini PC Dual-Boots Bazzite and Windows",
-      "image": "https://tpucdn.com/img/xZMYUdPX43HBNDkt_thm.jpg",
+      "id": "https://www.techpowerup.com/351570/keychron-launches-comically-large-c100-8k-100-key-mechanical-macro-pad",
+      "title": "Keychron lança bloco macro mecânico comicamente grande C100 8K de 100 teclas",
+      "original_title": "Keychron Launches Comically Large C100 8K 100-Key Mechanical Macro Pad",
+      "image": "https://tpucdn.com/img/ZkmR5LCXI4eGYBB7_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
+      "date": "2026-08-13",
+      "summary": "Pouco depois de anunciar vários novos mouses para jogos – o G6 HE e uma versão atualizada do M4 – a Keychron lançou oficialmente o C100 8K, um novo macro pad com 100 teclas programáveis ​​e retroiluminação RGB por tecla. O bloco macro personalizado gigante C100 8K...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/351570/keychron-launches-comically-large-c100-8k-100-key-mechanical-macro-pad"
+    },
+    {
+      "id": "https://www.techpowerup.com/350687/dropreference-launches-in-the-us-with-pc-part-price-comparison-and-gaming-performance-estimates",
+      "title": "DropReference é lançado nos EUA com comparação de preços de peças de PC e estimativas de desempenho de jogos",
+      "original_title": "DropReference Launches in the US with PC Part Price Comparison and Gaming Performance Estimates",
+      "image": "https://tpucdn.com/img/o5Oy7xOEcq5wx7nB_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-08-13",
+      "summary": "DropReference, uma plataforma de comparação de hardware de PC e planejamento de construção que atrai mais de 200.000 visitantes únicos a cada mês, está se expandindo oficialmente para os Estados Unidos. Já estabelecido entre os fabricantes europeus de PCs, o DropReference permite aos usuários c...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/350687/dropreference-launches-in-the-us-with-pc-part-price-comparison-and-gaming-performance-estimates"
+    },
+    {
+      "id": "https://www.techpowerup.com/351569/xbox-reveals-special-edition-gears-of-war-e-day-wireless-controller-design-and-design-lab-elements",
+      "title": "Xbox revela edição especial de Gears of War: E-Day Wireless Controller Design e Design Lab Elements",
+      "original_title": "Xbox Reveals Special Edition Gears of War: E-Day Wireless Controller Design and Design Lab Elements",
+      "image": "https://tpucdn.com/img/z4LeXaLFNzQIDehu_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-08-13",
+      "summary": "Gears of War: E-Day está programado para ser lançado em 6 de outubro de 2026 e, antes do lançamento do jogo, a Microsoft revelou oficialmente a edição especial do controlador Xbox sem fio Gears of War: E-Day. O controlador está disponível para pré-encomenda pelo preço de US$ 8...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/351569/xbox-reveals-special-edition-gears-of-war-e-day-wireless-controller-design-and-design-lab-elements"
+    },
+    {
+      "id": "https://www.techpowerup.com/351504/stop-putting-it-off-windows-11-pro-drops-to-usd-11-23",
+      "title": "Pare de adiar: o Windows 11 Pro cai para US$ 11,23",
+      "original_title": "Stop Putting It Off: Windows 11 Pro Drops to $11.23",
+      "image": "https://tpucdn.com/img/mKTJ4Opkg1PQblO2_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-08-13",
+      "summary": "Uma licença completa do Windows 11 Pro normalmente custa US$ 199. No momento custa US$ 11,23 com o código Aug25, uma compra única que agregará mais valor ao seu tempo no PC.\n\nPor que você precisa atualizar o BitLocker para criptografia de disco completoHyper-V e Windows Sandbox para executar v...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/351504/stop-putting-it-off-windows-11-pro-drops-to-usd-11-23"
+    },
+    {
+      "id": "https://www.eurogamer.net/sam-barlow-immortality-precognition-brandon-cronenberg",
+      "title": "O novo jogo de vídeo-limpeza do criador da imortalidade, Sam Barlow, é o terror de ficção científica Precognition, uma colaboração com o cineasta Brandon Cronenberg, no qual você vê e muda o futuro",
+      "original_title": "Immortality creator Sam Barlow's new video-scouring game is sci-fi horror Precognition, a collab with filmmaker Brandon Cronenberg, in which you see and change the future",
+      "image": "https://assetsio.gnwcdn.com/precognition-key-art.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
       "date": "2026-08-12",
-      "summary": "Parece que os mini PCs nunca foram tão populares, com marcas como Minisforum e Geekom lançando novos modelos a um ritmo quase alarmante. Um novo vídeo da ETA Prime no YouTube, no entanto, mostrou algo diferente: um M misterioso e sem marca...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/351535/ryzen-ai-9-powered-piston-v-mystery-mini-pc-dual-boots-bazzite-and-windows"
-    },
-    {
-      "id": "https://www.eurogamer.net/wardogs-steam-early-access-release-date-closed-beta",
-      "title": "O tão desejado jogo de tiro para 100 jogadores Wardogs recebe uma data de lançamento de acesso antecipado e promete reembolso para quem estiver insatisfeito com o beta fechado",
-      "original_title": "Much-wishlisted 100-player shooter Wardogs gets an early access release date and promises refunds for anyone unhappy with the closed beta",
-      "image": "https://assetsio.gnwcdn.com/wardogs-screen-crop.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-08-11",
-      "summary": "Wardogs, o ambicioso jogo de tiro do Batalhão 1944 e Bulkhead, desenvolvedor do The Turing Test, chegará em breve ao Steam com acesso antecipado. O estúdio anunciou hoje, após meses de testes apenas para convidados, Wardogs será finalmente lançado em 10 de setembro. Rea...",
+      "summary": "O novo jogo do criador de Her Story and Immortality, Sam Barlow – e de seu estúdio Half Mermaid – tem um nome: chama-se Precognition. É um terror de ficção científica e será lançado na primavera de 2028, como um dos jogos de estreia da empresa Phasmophobia Kinetic's ...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/wardogs-steam-early-access-release-date-closed-beta"
+      "url": "https://www.eurogamer.net/sam-barlow-immortality-precognition-brandon-cronenberg"
     },
     {
-      "id": "https://www.eurogamer.net/1666-amsterdam-ai-tools-controversy",
-      "title": "“Vivemos em um mundo cheio de IA, sejamos honestos conosco mesmos” - 1666: Desenvolvedor de Amsterdã ainda usa ferramentas de IA apesar da recente controvérsia",
-      "original_title": "\"We live in a world full of AI, let's be honest with ourselves\" - 1666: Amsterdam developer still using AI tools despite recent controversy",
-      "image": "https://assetsio.gnwcdn.com/1666-amsterdam-header.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/dawn-of-war-4-release-date-delay-december",
+      "title": "Dawn of War 4 recebe um atraso na data de lançamento para “refinar ainda mais a experiência antes do lançamento”",
+      "original_title": "Dawn of War 4 gets a release date delay to \"further refine the experience ahead of launch\"",
+      "image": "https://assetsio.gnwcdn.com/dawn-of-war-4-lion.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-08-11",
-      "summary": "A desenvolvedora canadense Panache Digital, cofundada pelo criador de Assassin's Creed, Patrice Désilets, disse que ainda está usando ferramentas de IA para ajudar a desenvolver seu jogo de ação de bruxa 1666: Amsterdam, embora \"cada vez menos\". Leia mais...",
+      "date": "2026-08-12",
+      "summary": "Dawn of War 4 foi adiado para o final deste ano, para que os desenvolvedores da King Art games possam “refinar ainda mais a experiência antes do lançamento”. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/1666-amsterdam-ai-tools-controversy"
+      "url": "https://www.eurogamer.net/dawn-of-war-4-release-date-delay-december"
     },
     {
-      "id": "https://www.eurogamer.net/star-wars-zero-company-preview-xcom",
-      "title": "Star Wars: Zero Company será brilhante porque XCOM é brilhante",
-      "original_title": "Star Wars: Zero Company will be brilliant because XCOM is brilliant",
-      "image": "https://assetsio.gnwcdn.com/star-wars-zero-company-preview-8.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-08-11",
-      "summary": "Há uma coisa engraçada com os gêneros de videogame em particular: muitos deles são baseados apenas em traçar de perto as linhas de jogos pré-existentes, apenas com alguns pequenos ajustes mecânicos e uma configuração diferente o suficiente por cima. E poucos gêneros são bastante...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/star-wars-zero-company-preview-xcom"
-    },
-    {
-      "id": "https://www.eurogamer.net/little-nightmares-3-dark-pictures-supermassive-layoffs",
-      "title": "Até Dawn e Little Nightmares 3, o estúdio Supermassive anuncia novas demissões, com expectativa de que até 75 pessoas percam seus empregos",
-      "original_title": "Until Dawn and Little Nightmares 3 studio Supermassive announces further layoffs, with as many as 75 people expected to lose their jobs",
-      "image": "https://assetsio.gnwcdn.com/little-nightmares-3-header.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-08-11",
-      "summary": "Supermassive – o estúdio do Reino Unido mais conhecido por seus jogos de terror cinematográficos, incluindo Until Dawn, The Quarry e a série Dark Pictures Anthology – anunciou mais demissões, desta vez afetando até 75 funcionários. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/little-nightmares-3-dark-pictures-supermassive-layoffs"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vly90p/eurogamers_early_preview_of_wolverine_deadline/",
-      "title": "Antevisão inicial da Eurogamer da entrevista de Wolverine + Deadline com Liam McIntyre",
-      "original_title": "Eurogamer's early preview of Wolverine + Deadline interview with Liam McIntyre",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vms6yg/the_elder_scrolls_vi_subtitle_possibly_deciphered/",
+      "title": "Legenda de The Elder Scrolls VI possivelmente decifrada",
+      "original_title": "The Elder Scrolls VI subtitle possibly deciphered",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
       "category": "News",
-      "date": "2026-08-11",
-      "summary": "Ambos os artigos foram publicados hoje cedo, depois retirados e arquivados. Prazo Entrevista Prévia do Eurogamer | Fotos 1/2/3/4/5 As cenas de abertura de Wolverine da Marvel mostram Logan em um estado selvagem, correndo pela selva antes de ser subjugado e resgatado...",
+      "date": "2026-08-12",
+      "summary": "Então, depois do tweet de ontem de Sharma onde o TES VI foi mencionado com oito estrelas mascarando a legenda, o pessoal dos respectivos subtítulos rapidamente percebeu que possivelmente corresponde à palavra \"SENTINEL\" que já era uma das legendas comentadas.",
       "sources": [
         "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vly90p/eurogamers_early_preview_of_wolverine_deadline/"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vms6yg/the_elder_scrolls_vi_subtitle_possibly_deciphered/"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vlkfa8/zelda_anniversary_switch_2_and_zelda_anniversary/",
-      "title": "Zelda Anniversary Switch 2 e Zelda Anniversary Pro Controller vazaram",
-      "original_title": "Zelda Anniversary Switch 2 and Zelda Anniversary Pro Controller have leaked",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Rumor",
-      "date": "2026-08-11",
-      "summary": "https://i.postimg.cc/FKwh7xYb/IMG-1575.jpg https://i.postimg.cc/Z59gCzpN/IMG-1578.jpg enviado por /u/Enryx25 [link] [comentários]...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vlkfa8/zelda_anniversary_switch_2_and_zelda_anniversary/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vllwcu/former_lead_writer_for_saber_interactives/",
-      "title": "O ex-redator principal do próximo Rideshare \"Simulator\" do Sabre Interactive afirma que eles foram substituídos pelo ChatGPT no meio do desenvolvimento e que todas as vozes dos passageiros estavam usando IA naquele momento",
-      "original_title": "Former lead writer for Saber Interactive's upcoming Rideshare \"Simulator\" claims they were replaced with ChatGPT midway through development and all the passenger voices were using AI at that time",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vmp2o4/hoyoverse_is_working_on_a_monster_hunter_type/",
+      "title": "HoYoverse está trabalhando em um jogo do tipo Monster Hunter chamado The Weavers",
+      "original_title": "HoYoverse is working on a Monster Hunter type game called The Weavers",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
       "category": "News",
-      "date": "2026-08-11",
-      "summary": "https://bsky.app/profile/antlervel.vet/post/3mssv7pyows2l Eu nem vi que isso havia sido anunciado. Eu fui o redator principal deste! E o Sabre me substituiu pelo ChatGPT no meio do desenvolvimento. Todas as vozes dos passageiros também eram IA. Ou eles podem...",
+      "date": "2026-08-12",
+      "summary": "Potencialmente o anunciado jogo de fantasia foto-realista UE5 baseado na imagem vazada Imagens: https://ibb.co/album/KjF4vg Fonte: https://xcancel.com/zenlesszoneleak/status/2087588179863801886#m enviado por /u/ZamnBoii [link] [comentários]...",
       "sources": [
         "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vllwcu/former_lead_writer_for_saber_interactives/"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vmp2o4/hoyoverse_is_working_on_a_monster_hunter_type/"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vlo1a2/centroleaks_pokémon_winds_and_waves_will_be/",
-      "title": "CentroLeaks: Pokémon Winds and Waves será dirigido por Hiroyuki Tani, diretor do DLC Pokémon Sword/Shield e Katsuhiko Ichiraku, diretor do DLC Pokémon Scarlet/Violet. Isso significaria que, após 10 longos anos, a era de Shigeru Ohmori como diretor de novas gerações de Pokémon acabou.",
-      "original_title": "CentroLeaks: Pokémon Winds and Waves will be directed by Hiroyuki Tani, the director of Pokémon Sword/Shield DLC and Katsuhiko Ichiraku, the director of Pokémon Scarlet/Violet DLC. This would mean that after 10 long years, the era of Shigeru Ohmori as director of new Pokémon generations is over.",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Rumor",
-      "date": "2026-08-11",
-      "summary": "https://xcancel.com/centroleaks/status/2087215871236161883?s=46&t=hc5NrTRIWu5hhJBvuuWS9g CentroLeaks: “RUMOR: Pokémon Winds and Waves será dirigido por Hiroyuki Tani, o diretor de Pokémon SWSH DLC e Katsuhiko Ichiraku, o diretor de Pokémon ...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vlo1a2/centroleaks_pokémon_winds_and_waves_will_be/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vls36m/someone_got_hold_of_xbox_elite_controller_series_3/",
-      "title": "Alguém conseguiu o Xbox Elite Controller Series 3",
-      "original_title": "Someone got hold of Xbox Elite Controller Series 3",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vmdz1q/they_found_gambit_daredevil_and_the_fantastic/",
+      "title": "Eles encontraram Gambit, Demolidor e o Quarteto Fantástico nos arquivos de Tokon.",
+      "original_title": "They found Gambit, Daredevil, and the Fantastic Four in Tokon's files.",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
       "category": "News",
-      "date": "2026-08-11",
-      "summary": "https://www.reddit.com/r/Controller/comments/1vllg3j/anyone_know_what_controller_this_is_is_this_the/ Não parece funcionar com ou sem fio através de um Xbox e PC, como disse o OP. Provavelmente está bloqueado em um console de desenvolvimento ou na lista negra. Ele também posta...",
+      "date": "2026-08-12",
+      "summary": "https://xcancel.com/sociedadexmen/status/2087479521461075984#m enviado por /u/Midnight_M_ [link] [comentários]...",
       "sources": [
         "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vls36m/someone_got_hold_of_xbox_elite_controller_series_3/"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vmdz1q/they_found_gambit_daredevil_and_the_fantastic/"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vlllvt/lord_of_the_rings_war_in_the_north_legacy_edition/",
-      "title": "Senhor dos Anéis: Guerra no Norte Edição Legacy Shadowdrop",
-      "original_title": "Lord of the Rings: War in the North Legacy Edition Shadowdropped",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vmfl6l/kotaku_the_witcher_multiplayer_project_project/",
+      "title": "Projeto multijogador Kotaku: The Witcher, Projeto Sirius, atingiu outra rodada de demissões",
+      "original_title": "Kotaku: The Witcher multiplayer project Project Sirius hit with another round of layoffs",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
       "category": "News",
-      "date": "2026-08-11",
-      "summary": "Disponível no PS5, Xbox Series, Switch 2, Switch, PC Leaks: https://www.reddit.com/r/GamingLeaksAndRumours/s/QumW9DjNP3 https://www.reddit.com/r/GamingLeaksAndRumours/s/TfUagNXFfm Trailer: https://youtu.be/m7BTKU4oDcE?is=Ij61MhXuHsX\\_ahlk enviado...",
+      "date": "2026-08-12",
+      "summary": "De acordo com Kotaku, nove desenvolvedores que trabalham no Projeto Sirius da CD Projekt Red foram demitidos hoje, enquanto outros nove estão sendo transferidos para outros projetos dentro do estúdio enquanto o desenvolvimento passa por outra mudança estratégica. Projeto Sirius, um projeto único...",
       "sources": [
         "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vlllvt/lord_of_the_rings_war_in_the_north_legacy_edition/"
-    },
-    {
-      "id": "https://www.techpowerup.com/351534/marvel-tokon-fighting-souls-gets-pc-performance-improvements-in-new-update",
-      "title": "Marvel Tokon: Fighting Souls obtém melhorias de desempenho do PC em nova atualização",
-      "original_title": "Marvel Tokon: Fighting Souls Gets PC Performance Improvements in New Update",
-      "image": "https://tpucdn.com/img/4B3UhDaAVku90Kto_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-08-11",
-      "summary": "Quando Marvel Tōkon: Fighting Souls foi lançado no final de julho de 2026, os espaços online estavam repletos de reclamações sobre tudo, desde falhas nos serviços online do PlayStation até problemas de desempenho do PC que aparentemente afetaram os jogadores de ambas as marcas...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/351534/marvel-tokon-fighting-souls-gets-pc-performance-improvements-in-new-update"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vmfl6l/kotaku_the_witcher_multiplayer_project_project/"
     }
   ]
 }
