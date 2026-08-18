@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-08-17T12:41:33",
-  "display_date": "17/08/2026 12:41",
+  "last_updated": "2026-08-18T12:43:25",
+  "display_date": "18/08/2026 12:43",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "56ms",
+    "latency": "331ms",
     "current_games": [
       {
         "title": "Caravan SandWitch",
@@ -37,7 +37,7 @@
       },
       {
         "title": "Lost Castle: The Old Ones Awaken",
-        "description": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "description": "The Old Ones Awaken adiciona novos níveis para explorar, novos inimigos para derrotar e novos chefes para enfrentar, juntamente com uma série de novas armas e equipamentos emocionantes para empunhar e usar.",
         "image": "https://cdn1.epicgames.com/spt-assets/a6d76157ad884f2c9aa470b30da9e2ff/lost-castle-r390n.png",
         "url": "https://store.epicgames.com/p/lost-castle-the-old-ones-awaken",
         "price": "$3.99",
@@ -52,6 +52,15 @@
         "price": "$24.99",
         "start_date": "2026-09-17T15:00:00.000Z",
         "end_date": "2026-10-02T05:59:00.000Z"
+      },
+      {
+        "title": "Castlevania Anniversary Collection",
+        "description": "A Coleção de Aniversário de Castlevania da Konami traça as origens da histórica franquia de vampiros. Está incluído um e-book exclusivo com detalhes fornecidos por desenvolvedores, artistas e outros inspirados no legado de Castlevania, que lança uma nova luz sobre o mundo de Castlevania.",
+        "image": "https://cdn1.epicgames.com/spt-assets/1ff2f74ba0ef4019b6905d8abe268819/castlevania-anniversary-collection-yex6f.jpg",
+        "url": "https://store.epicgames.com/p/32b3e0adbe0c4399be1874958194f97f",
+        "price": "$19.99",
+        "start_date": "2026-09-03T15:00:00.000Z",
+        "end_date": "2026-09-17T15:00:00.000Z"
       },
       {
         "title": "Monument Valley",
@@ -83,7 +92,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-08-17",
+      "date": "2026-08-18",
       "summary": "Embarque em uma jornada por vastas paisagens em Caravan SandWitch, uma cativante aventura de exploração baseada em narrativas.",
       "sources": [
         "Epic Games Store"
@@ -98,7 +107,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-08-17",
+      "date": "2026-08-18",
       "summary": "Disponível gratuitamente a partir de 20/08. Jess, de 10 anos, acidentalmente bane o jogo de cartas colecionável favorito de todos na escola primária de Dudsdale - pior ainda, é seu primeiro dia! Mas quando surgem problemas e os mutantes do jogo começam a ganhar vida, cabe a Jess e seus amigos detê-los. Torne-se um Mega...",
       "sources": [
         "Epic Games Store"
@@ -113,7 +122,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-08-17",
+      "date": "2026-08-18",
       "summary": "Disponível gratuitamente a partir de 10/09. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
       "sources": [
         "Epic Games Store"
@@ -128,8 +137,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-08-17",
-      "summary": "Disponível gratuitamente a partir de 30/08. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-08-18",
+      "summary": "Disponível gratuitamente a partir de 30/08. The Old Ones Awaken adiciona novos níveis para explorar, novos inimigos para derrotar e novos chefes para enfrentar, juntamente com uma série de novas armas e equipamentos emocionantes para empunhar e usar.",
       "sources": [
         "Epic Games Store"
       ],
@@ -143,12 +152,27 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-08-17",
+      "date": "2026-08-18",
       "summary": "Disponível gratuitamente a partir de 17/09. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/lisa-the-definitive-edition"
+    },
+    {
+      "id": "https://store.epicgames.com/p/32b3e0adbe0c4399be1874958194f97f",
+      "title": "EM BREVE: Castlevania Anniversary Collection",
+      "original_title": "Castlevania Anniversary Collection",
+      "image": "https://cdn1.epicgames.com/spt-assets/1ff2f74ba0ef4019b6905d8abe268819/castlevania-anniversary-collection-yex6f.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-08-18",
+      "summary": "Disponível gratuitamente a partir de 03/09. A Coleção de Aniversário de Castlevania da Konami traça as origens da histórica franquia de vampiros. Está incluído um e-book exclusivo com detalhes fornecidos por desenvolvedores, artistas e outros inspirados no legado de Castlevania, que lança uma nova luz sobre o mundo de Castlevania.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/32b3e0adbe0c4399be1874958194f97f"
     },
     {
       "id": "https://store.epicgames.com/p/monument-valley-02",
@@ -158,7 +182,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-08-17",
+      "date": "2026-08-18",
       "summary": "Disponível gratuitamente a partir de 03/09. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
       "sources": [
         "Epic Games Store"
@@ -173,7 +197,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-08-17",
+      "date": "2026-08-18",
       "summary": "Disponível gratuitamente a partir de 20/08. Reivindique um presente grátis mágico avaliado em mais de US$ 55! Melhore sua jornada em Albion com itens de beleza encantados, duas skins de montaria exclusivas e um tesouro de recompensas de progressão essenciais.",
       "sources": [
         "Epic Games Store"
@@ -181,424 +205,424 @@
       "url": "https://store.epicgames.com/p/epic-mage-bundle"
     },
     {
-      "id": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-anti-cheat-tpm-2-0-secure-boot",
-      "title": "Call of Duty agora tem um guia sobre como habilitar seus complicados recursos de segurança para que você possa jogar Modern Warfare 4 beta no PC",
-      "original_title": "Call of Duty now has a guide on how to enable its convoluted security features so you can play the Modern Warfare 4 beta on PC",
-      "image": "https://assetsio.gnwcdn.com/mw4-price-anti-cheat-header.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/battlefield-6-free-trial-call-of-duty-modern-warfare-4-beta",
+      "title": "Battlefield 6 está hospedando um teste gratuito, bem a tempo para a versão beta de Call of Duty: Modern Warfare 4",
+      "original_title": "Battlefield 6 is hosting a free trial, just in time for Call of Duty: Modern Warfare 4's beta",
+      "image": "https://assetsio.gnwcdn.com/battlefield-6-top-gun-cockpit-crop.jpeg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-08-17",
-      "summary": "À medida que nos aproximamos do primeiro fim de semana da versão beta de Call of Duty: Modern Warfare 4, a equipe anti-cheat Ricochet da Activision publicou um guia detalhado para ajudar os jogadores de PC a ativar certos recursos de segurança necessários para jogar online. Leia mais...",
+      "date": "2026-08-18",
+      "summary": "O último teste gratuito de Battlefield 6 começa hoje junto com a atualização de meio da temporada 4 e, embora isso possa não ser especialmente notável por si só, o momento é ainda maior: coincide com o altamente aguardado Call of Duty: Modern Warfare 4, e outras coisas...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-anti-cheat-tpm-2-0-secure-boot"
+      "url": "https://www.eurogamer.net/battlefield-6-free-trial-call-of-duty-modern-warfare-4-beta"
     },
     {
-      "id": "https://www.eurogamer.net/halo-multiplayer-activision--sledgehammer-games",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Call of Duty studio Sledgehammer reportedly worked on a Halo multiplayer prototype before it got canned",
-      "image": "https://assetsio.gnwcdn.com/halo-campaign-evolved-cheif-crop-1.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/grace-ashcroft-actor-replacing-jennifer-english-tides-of-annihlation",
+      "title": "A atriz Grace Ashcroft de Resident Evil Requiem supostamente substituiu Jennifer English como protagonista do luxuoso jogo de ação chinês Tides of Annihilation",
+      "original_title": "Resident Evil Requiem's Grace Ashcroft actor reportedly replacing Jennifer English as lead of lavish Chinese action game Tides of Annihilation",
+      "image": "https://assetsio.gnwcdn.com/tides-of-annihilation-grace-ashcroft.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-08-17",
-      "summary": "Um jogo Halo feito por um estúdio da Activision não parece uma ideia rebuscada e, na verdade, é algo que o Xbox considerou de acordo com um novo relatório. Sledgehammer Games, o estúdio por trás de vários jogos Call of Duty como WW2, Vanguard e Modern Warfare 3, está...",
+      "date": "2026-08-18",
+      "summary": "O luxuoso jogo de ação chinês Tides of Annihilation parece ter encontrado um substituto para Jennifer English, a premiada atriz que desistiu de dublar a personagem principal do jogo, Gwendolyn, no mês passado. E a substituta parece ser Angela Sant'...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/halo-multiplayer-activision--sledgehammer-games"
+      "url": "https://www.eurogamer.net/grace-ashcroft-actor-replacing-jennifer-english-tides-of-annihlation"
     },
     {
-      "id": "https://www.eurogamer.net/star-wars-magellan-footage-cancelled-action-rpg",
-      "title": "Imagens de jogo do cancelado Star Wars: Magellan apareceram online",
-      "original_title": "Gameplay footage for the cancelled Star Wars: Magellan has appeared online",
-      "image": "https://assetsio.gnwcdn.com/fnbr-35-00-c6ms1-outfit-stormtrooper-inline-1920x1080-1920x1080-70b3d55526d8.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/touching-grass-gaming-going-outside-optimism-week",
+      "title": "Acontece que tocar na grama é a resposta: jogar é ótimo quando você sai de casa",
+      "original_title": "It turns out touching grass is the answer: Gaming is great when you leave the house",
+      "image": "https://assetsio.gnwcdn.com/eg26-going-outside-optimism-week-header.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-08-17",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-08-18",
+      "summary": "Olá! Esta peça faz parte da Semana do Otimismo no Eurogamer - uma semana de reportagens sobre o próprio otimismo ou sobre aqueles que esperam inspirá-lo. Para mais artigos como este, você pode visitar nosso hub da Semana do Otimismo. Obrigado como sempre pela leitura!\n Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/star-wars-magellan-footage-cancelled-action-rpg"
+      "url": "https://www.eurogamer.net/touching-grass-gaming-going-outside-optimism-week"
     },
     {
-      "id": "https://www.eurogamer.net/hayden-panettiere-heroes-until-dawn-dies",
-      "title": "Hayden Panettiere, estrela de Heroes e Until Dawn, morre aos 36 anos",
-      "original_title": "Heroes and Until Dawn star Hayden Panettiere dies aged 36",
-      "image": "https://assetsio.gnwcdn.com/hayden-panettiere-until-dawn.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/fallout-4-creations-update-mods-breaking",
+      "title": "Esteja avisado: a próxima atualização do Fallout 4 pode quebrar seus mods – e há uma semelhante para Skyrim em andamento também",
+      "original_title": "Be warned: Fallout 4's next update may break your mods - and there's a similar one for Skyrim in the works, too",
+      "image": "https://assetsio.gnwcdn.com/fallout-4-update.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-08-17",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-08-18",
+      "summary": "Para a maioria dos jogos, a notícia de um novo patch costuma ser recebida com entusiasmo. Isso também vale para jogos feitos pela Bethesda, é claro, mas não quando eles são tão antigos quanto Fallout 4 e Skyrim. A razão? Modificações. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/hayden-panettiere-heroes-until-dawn-dies"
+      "url": "https://www.eurogamer.net/fallout-4-creations-update-mods-breaking"
     },
     {
-      "id": "https://www.eurogamer.net/fortnite-chapter-7-season-4-roblox-gaming-legends",
-      "title": "Parece que Fortnite está conseguindo uma colaboração Roblox, meses depois que o chefe da Epic, Tim Sweeney, se referiu ao jogo rival como uma força que poderia “crescer e consumir jogos”",
-      "original_title": "It looks like Fortnite is getting a Roblox collaboration, months after Epic boss Tim Sweeney referred to the rival game as a force that could \"grow and eat gaming\"",
-      "image": "https://assetsio.gnwcdn.com/Roblox-in-fortnite.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/gunz-the-duel-steam-problems-network-ai",
+      "title": "Gunz the Duel, de 20 anos, é relançado no Steam, recebe duras críticas sobre problemas de rede e suspeita de uso de IA generativa",
+      "original_title": "20-year-old Gunz the Duel gets Steam re-release, receives harsh criticism over network issues and suspected use of generative AI",
+      "image": "https://assetsio.gnwcdn.com/gunz-header.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
-      "category": "Epic News",
-      "date": "2026-08-17",
-      "summary": "Parece que Fortnite está recebendo um crossover do Roblox. Na última temporada do jogo – chamada Fortnite Chapter 7 Season 4: Override – o maior Battle Royale do mundo apresenta uma riqueza de propriedades de jogos em seu mundo. Desenvolvedor Epic...",
+      "category": "News",
+      "date": "2026-08-18",
+      "summary": "Gunz the Duel, o clássico jogo de ação em 3ª pessoa lançado pela primeira vez em 2006, está de volta ao Steam. Mas o tão esperado retorno do jogo que definiu o gênero foi prejudicado por problemas técnicos e alegações de uso de IA. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/fortnite-chapter-7-season-4-roblox-gaming-legends"
+      "url": "https://www.eurogamer.net/gunz-the-duel-steam-problems-network-ai"
     },
     {
-      "id": "https://www.eurogamer.net/fire-emblem-fortunes-weave-switch-2-mouse",
-      "title": "Não durma com os controles do mouse Fire Emblem: Fortune's Weave - acredite ou não, tornou-se minha maneira favorita de jogar",
-      "original_title": "Don't sleep on Fire Emblem: Fortune's Weave mouse controls - believe it or not, it's become my favourite way to play",
-      "image": "https://assetsio.gnwcdn.com/Fire-Emblem-mice.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/tomb-raider-legacy-of-atlantis-remake-rpg-focus-crafting",
+      "title": "Tomb Raider: Legacy of Atlantis, um remake do primeiro jogo, está recebendo árvores de habilidades de RPG, mecânica de criação e um ‘medidor de foco’",
+      "original_title": "Tomb Raider: Legacy of Atlantis, a remake of the first game, is getting RPG skill trees, crafting mechanics and a 'focus meter'",
+      "image": "https://assetsio.gnwcdn.com/legacy-of-atlantis-lara.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-08-17",
-      "summary": "No início deste ano, Pokopia me convenceu de que os controles de mouse enigmáticos do Switch 2 eram, afinal, uma adição valiosa ao console. Desde então, tenho experimentado outros jogos com o mouse como principal método de controle. Meus favoritos, antes...",
+      "date": "2026-08-18",
+      "summary": "Amazon Game Studios e Crystal Dynamics lançaram um novo trailer de Tomb Raider: Legacy of Atlantis. É o sexto episódio de uma série de vídeos dos bastidores que narram a produção do próximo remake, que está sendo desenvolvido por ...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/fire-emblem-fortunes-weave-switch-2-mouse"
+      "url": "https://www.eurogamer.net/tomb-raider-legacy-of-atlantis-remake-rpg-focus-crafting"
     },
     {
-      "id": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-beta-maps-modes-campaign",
-      "title": "Pela primeira vez em um beta de Call of Duty, o beta de Modern Warfare 4 inclui uma missão de campanha",
-      "original_title": "For the first time ever in a Call of Duty beta, the Modern Warfare 4 beta includes a campaign mission",
-      "image": "https://assetsio.gnwcdn.com/modern-warfare-4-multiplayer-crop-1.jpeg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/warren-spector-announces-retirement",
+      "title": "“Tenho certeza que estou falando sério” – Lendário desenvolvedor de jogos Warren Spector anuncia aposentadoria",
+      "original_title": "\"I'm pretty sure I mean it\" - Legendary game developer Warren Spector announces retirement",
+      "image": "https://assetsio.gnwcdn.com/spector-games.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-08-17",
-      "summary": "A Activision anunciou vários novos detalhes sobre o beta de Call of Duty: Modern Warfare 4, cuja primeira etapa está marcada para começar sexta-feira. A conta oficial do Call of Duty X postou uma imagem densa mostrando todo o conteúdo ao qual os jogadores têm acesso, e é certo...",
+      "date": "2026-08-18",
+      "summary": "Warren Spector, o lendário desenvolvedor de jogos conhecido por ser uma parte fundamental no desenvolvimento da série Deus Ex, bem como por seu papel em Epic Mickey, Ultima e System Shock, anunciou sua aposentadoria. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-beta-maps-modes-campaign"
+      "url": "https://www.eurogamer.net/warren-spector-announces-retirement"
     },
     {
-      "id": "https://www.techpowerup.com/351646/intels-new-cpu-cores-debut-on-nova-lake-s-desktop-before-xeon-servers",
-      "title": "Estreia dos novos núcleos de CPU da Intel no desktop “Nova Lake-S” antes dos servidores Xeon",
-      "original_title": "Intel's New CPU Cores Debut on \"Nova Lake-S\" Desktop Before Xeon Servers",
-      "image": "https://tpucdn.com/img/F5ppYyiAApFMYZ8x_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-08-17",
-      "summary": "A abordagem da Intel para lançar a mais recente tecnologia de CPU difere significativamente da da AMD. Robert Hallock, vice-presidente da empresa e gerente geral de negócios para entusiastas, confirma que os entusiastas do DIY de PCs desktop são os primeiros a experimentar as mais recentes...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/351646/intels-new-cpu-cores-debut-on-nova-lake-s-desktop-before-xeon-servers"
-    },
-    {
-      "id": "https://www.techpowerup.com/351642/this-week-in-gaming-week-34",
-      "title": "Esta semana em jogos (semana 34)",
-      "original_title": "This Week in Gaming (Week 34)",
-      "image": "https://tpucdn.com/img/wg691oTGmEc6uTxI_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-08-17",
-      "summary": "Bem-vindo a mais uma semana de lançamentos de novos jogos e começamos a semana com uma sequência de um jogo ARPG bastante popular de 2020 que está atualmente em beta aberto para aqueles que desejam experimentá-lo antes de ser lançado. Os lançamentos gerais desta semana começam...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/351642/this-week-in-gaming-week-34"
-    },
-    {
-      "id": "https://www.eurogamer.net/saber-rideshare-stimulator-steam-ai-disclaimer",
-      "title": "Sabre Interactive finalmente adiciona um aviso de isenção de responsabilidade de IA à página Steam do Rideshare Stimulator",
-      "original_title": "Saber Interactive finally adds an AI disclaimer to Rideshare Stimulator's Steam page",
-      "image": "https://assetsio.gnwcdn.com/Screenshot-2026-08-16-at-18.13.56.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/expedition-33-shuehi-yoshida-warning-turn-based-rpg",
+      "title": "Shuhei Yoshida disse ao estúdio Expedition 33 para evitar termos como ‘RPG baseado em turnos’ porque isso pode fazer com que as pessoas “ignorem” o jogo",
+      "original_title": "Shuhei Yoshida told Expedition 33 studio to avoid terms like 'turn-based RPG' because it may cause people to \"overlook\" the game",
+      "image": "https://assetsio.gnwcdn.com/Clair-Obscur_-Expedition-33_20250412215558.png?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-08-16",
-      "summary": "Em meio à briga entre o CEO do Sabre Interactive, Matthew Karch, e a ex-escritora Stella Sacco, depois que ele disse que teria \"ficado feliz em substituí-la\" pela IA, o estúdio finalmente adicionou a isenção de responsabilidade da IA ​​à página Steam do Rideshare Stimulator que havia sido c...",
+      "date": "2026-08-18",
+      "summary": "Uma das razões pelas quais Clair Obscur: Expedition 33 se destacou tanto nas primeiras filmagens foi a aparência de seu combate cheio de ação, apesar de ser um RPG baseado em turnos. Mas embora o desenvolvedor Sandfall Interactive tenha descrito o jogo como um RPG baseado em turnos - e rein...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/saber-rideshare-stimulator-steam-ai-disclaimer"
+      "url": "https://www.eurogamer.net/expedition-33-shuehi-yoshida-warning-turn-based-rpg"
     },
     {
-      "id": "https://www.eurogamer.net/matthew-mcconaughey-last-of-us-joel-turned-down",
-      "title": "Matthew McConaughey explica por que recusou o papel de Joel em The Last of Us",
-      "original_title": "Matthew McConaughey explains why he turned down the role of Joel in The Last of Us",
-      "image": "https://assetsio.gnwcdn.com/Pedro-Pascal-as-Joel-in-The-Last-of-Us.-He-is-holding-a-guitar-on-his-porch_8VtlBhU.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-08-16",
-      "summary": "Matthew McConaughey explicou por que acabou deixando de interpretar Joel em The Last of Us, da HBO – um papel que, é claro, foi para Pedro Pascal. Leia mais...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/matthew-mcconaughey-last-of-us-joel-turned-down"
-    },
-    {
-      "id": "https://www.eurogamer.net/kingdom-hearts-nomura-anime-series-tease-d23",
-      "title": "O criador de Kingdom Hearts, Tetsuya Nomura, provoca seu papel na nova série de anime e diz aos fãs para “deixarem sua imaginação correr solta”",
-      "original_title": "Kingdom Hearts creator Tetsuya Nomura teases his role in the new anime series, tells fans to \"let your imagination run wild\"",
-      "image": "https://assetsio.gnwcdn.com/Screenshot-2026-08-15-at-11.52.30.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-08-16",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/kingdom-hearts-nomura-anime-series-tease-d23"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vqag4j/need4games_seems_like_grace_ashcrofts_va_is/",
-      "title": "Need4Games: Parece que o VA de Grace Ashcroft está substituindo Jennifer English em Tides of Annihilation",
-      "original_title": "Need4Games: Seems like Grace Ashcroft's VA is replacing Jennifer English in Tides of Annihilation",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-08-16",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vqag4j/need4games_seems_like_grace_ashcrofts_va_is/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vq7sbe/male_v_coming_to_fortnite_next_season_in_the_3rd/",
-      "title": "Male V chegando ao Fortnite na próxima temporada na 3ª onda Cyberpunk",
-      "original_title": "Male V coming to fortnite next season in the 3rd Cyberpunk wave",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-08-16",
-      "summary": "https://xcancel.com/i/status/2089086338809172313 enviado por /u/KvasirTheOld [link] [comentários]...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vq7sbe/male_v_coming_to_fortnite_next_season_in_the_3rd/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vq8quf/info_and_details_about_the_cancelled_star_wars/",
-      "title": "Informações e detalhes sobre o ARPG cancelado de Star Wars Magellan",
-      "original_title": "Info and details about the Cancelled Star Wars Magellan ARPG",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-08-16",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vq8quf/info_and_details_about_the_cancelled_star_wars/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vq2nmu/fortnite_officially_confirms_the_leaked_keyart/",
-      "title": "Fortnite confirma oficialmente o keyart vazado com uma versão atualizada",
-      "original_title": "Fortnite officially confirms the leaked keyart with an updated version",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vrklpn/duskbloods_charactersclasses_have_leaked/",
+      "title": "Personagens/classes de Duskbloods vazaram",
+      "original_title": "Duskbloods Characters/Classes have Leaked",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
       "category": "Rumor",
-      "date": "2026-08-16",
-      "summary": "Intitulado como \"Spoiler.V2_TheRealDeal\" lol Alguns personagens mudaram de posição Mais importante ainda, Pac-man recuperou seus olhos Fonte: https://xcancel.com/Fortnite/status/2089034556079046669#m Vazamento anterior: https://www.reddit.com/r/GamingL...",
+      "date": "2026-08-18",
+      "summary": "https://dark-soku.blog.jp/archives/97633850.html enviado por /u/LorDeus71 [link] [comentários]...",
       "sources": [
         "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vq2nmu/fortnite_officially_confirms_the_leaked_keyart/"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vrklpn/duskbloods_charactersclasses_have_leaked/"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vpzgyz/playasia_states_phantom_blade_0_will_have_a/",
-      "title": "PlayAsia afirma que Phantom Blade 0 terá um lançamento físico, apesar das pré-encomendas apenas digitais até agora",
-      "original_title": "PlayAsia states Phantom Blade 0 will have a physical release, despite digital only pre-orders so far",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vrkkzi/discussion_news_and_request_thread_week_beginning/",
+      "title": "⛈️Tópico de discussão, notícias e solicitação - Semana que começa em 17/08/26⛈️",
+      "original_title": "⛈️Discussion, News, and Request Thread - Week Beginning 08/17/26⛈️",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
       "category": "News",
-      "date": "2026-08-16",
-      "summary": "O trailer mais recente foi atualizado para remover o disco PS5 com um PS5 digital também, jogo publicado pela S-Games, então talvez eles ainda não tenham encontrado um parceiro de distribuição física Fonte: https://ibb.co/gMpSgrLB enviado por /u/ZamnBoii [link]...",
+      "date": "2026-08-18",
+      "summary": "Ainda pensando em Auramemnon Os tópicos de discussão são o seu centro central semanal para todas as solicitações, notícias de jogos e quaisquer outros tópicos de jogos sobre os quais você queira conversar. Por favor, mantenha todo o conteúdo que não precisa de postagem própria neste tópico para organizar o ...",
       "sources": [
         "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vpzgyz/playasia_states_phantom_blade_0_will_have_a/"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vrkkzi/discussion_news_and_request_thread_week_beginning/"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vq1lc3/lego_super_mario_minifigure_sets_reportedly/",
-      "title": "Conjuntos de minifiguras LEGO Super Mario supostamente vazados antes do lançamento em janeiro de 2027",
-      "original_title": "LEGO Super Mario Minifigure Sets Reportedly Leaked Ahead of January 2027 Release",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "id": "https://www.techpowerup.com/351681/be-quiet-announces-the-dark-power-pro-14-io-power-supply-series",
+      "title": "(PR) fique quieto! Anuncia a série de fontes de alimentação Dark Power Pro 14 IO",
+      "original_title": "(PR) be quiet! Announces the Dark Power Pro 14 IO Power Supply Series",
+      "image": "https://tpucdn.com/img/XaQ5bHI6H1nRfd1n_thm.jpg",
       "source_count": 1,
-      "reliability": "Medium",
-      "category": "Rumor",
-      "date": "2026-08-16",
-      "summary": "Vários próximos conjuntos de minifiguras LEGO Super Mario vazaram online, junto com seus preços. A programação vazada inclui: ● 72052 – Mario’s Pipe Jump — US$ 9,99 ● 72054 – Mario Kart: Racing with Mario — US$ 14,99 ● 72055 – Mario’s Beach Adventures — US$ 19,9...",
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-08-18",
+      "summary": "fique quieto!, o fabricante alemão de componentes e periféricos premium para PC, anuncia o lançamento da série de fontes de alimentação Dark Power Pro 14 IO. Disponível em dois modelos de 1600 W e 1300 W, Dark Power Pro 14 IO é uma potência com alto desempenho...",
       "sources": [
-        "r/GamingLeaksAndRumours"
+        "TechPowerUp"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vq1lc3/lego_super_mario_minifigure_sets_reportedly/"
+      "url": "https://www.techpowerup.com/351681/be-quiet-announces-the-dark-power-pro-14-io-power-supply-series"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vpxb9n/cancelled_avalanche_game_contraband_files_found/",
-      "title": "Arquivos de contrabando do jogo Avalanche cancelados encontrados em theHunter: Call of the Wild",
-      "original_title": "Cancelled Avalanche game Contraband files found in theHunter: Call of the Wild",
+      "id": "https://www.techpowerup.com/351679/noctua-remains-focused-on-performance-no-plans-for-rgb-or-screens-in-coolers",
+      "title": "Noctua continua focada no desempenho, sem planos para RGB ou telas em coolers",
+      "original_title": "Noctua Remains Focused on Performance, No Plans for RGB or Screens in Coolers",
+      "image": "https://tpucdn.com/img/cpPfsGw4w1NU1zmt_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-08-18",
+      "summary": "O entusiasmo da Noctua pelo desempenho no espaço de refrigeração de PCs permanece exclusivamente focado na praticidade. De acordo com uma entrevista recente ao Club386, o Diretor de Produto da empresa, Jakob Dellinger, confirmou que recursos como iluminação RGB e LCD...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/351679/noctua-remains-focused-on-performance-no-plans-for-rgb-or-screens-in-coolers"
+    },
+    {
+      "id": "https://www.techpowerup.com/351664/get-word-excel-powerpoint-and-more-for-life-for-usd-55",
+      "title": "Obtenha Word, Excel, PowerPoint e muito mais para o resto da vida por US$ 55",
+      "original_title": "Get Word, Excel, PowerPoint, and More for Life for $55",
+      "image": "https://tpucdn.com/img/vifhzZ7lUB2UrjKM_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-08-18",
+      "summary": "O Microsoft 365 custa no mínimo US$ 99,99 por ano. Se você não quiser pagar custos recorrentes por aplicativos básicos de produtividade, mude para o Microsoft Office. No momento, uma licença vitalícia do Microsoft Office 2024 para PC custa apenas US$ 54,99 (US$ 249,99).\n\nO que...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/351664/get-word-excel-powerpoint-and-more-for-life-for-usd-55"
+    },
+    {
+      "id": "https://www.techpowerup.com/351676/combined-revenue-of-top-five-nand-flash-brands-rises-77-qoq-in-2q26-micron-moves-up-to-third-place",
+      "title": "(PR) Receita Combinada das Cinco Principais Marcas NAND Flash Aumenta 77% QoQ no 2T26; Micron sobe para o terceiro lugar",
+      "original_title": "(PR) Combined Revenue of Top Five NAND Flash Brands Rises 77% QoQ in 2Q26; Micron Moves Up to Third Place",
+      "image": "https://tpucdn.com/img/0sazmyGSaJguArMe_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-08-18",
+      "summary": "A mais recente pesquisa da indústria NAND Flash da TrendForce revela que a demanda por servidores de IA permaneceu estável no segundo trimestre de 2026 – especialmente para SSDs empresariais – resultando em uma escassez de oferta em todo o mercado NAND Flash. Isso permitiu que os fornecedores aumentassem...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/351676/combined-revenue-of-top-five-nand-flash-brands-rises-77-qoq-in-2q26-micron-moves-up-to-third-place"
+    },
+    {
+      "id": "https://www.techpowerup.com/351672/steelseries-wireless-keyboard-battery-becomes-spicy-pillow-after-being-plugged-in-24-7",
+      "title": "A bateria do teclado sem fio SteelSeries se torna um travesseiro picante depois de ser conectada 24 horas por dia, 7 dias por semana",
+      "original_title": "SteelSeries Wireless Keyboard Battery Becomes Spicy Pillow After Being Plugged in 24/7",
+      "image": "https://tpucdn.com/img/udvqCMn3fH379IvT_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-08-18",
+      "summary": "A saúde da bateria é algo que muitos usuários consideram ao usar e carregar dispositivos como laptops e smartphones, mas é igualmente importante considerar quando se fala sobre periféricos sem fio, como descobriu recentemente um usuário do Reddit chamado u/Molti_gfx...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/351672/steelseries-wireless-keyboard-battery-becomes-spicy-pillow-after-being-plugged-in-24-7"
+    },
+    {
+      "id": "https://www.eurogamer.net/diablo-4-switch-2-release-date-rumour-expansions",
+      "title": "A tão esperada versão Switch 2 de Diablo 4 será lançada dias após a BlizzCon e inclui ambas as expansões do jogo",
+      "original_title": "Long-awaited Switch 2 version of Diablo 4 reportedly releases days after BlizzCon, and includes both game expansions",
+      "image": "https://assetsio.gnwcdn.com/diablo-4-switch-2_IpuO7Y4.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-08-17",
+      "summary": "A tão comentada versão Switch 2 de Diablo 4 aparentemente inclui ambas as expansões do RPG de ação – Vessel of Hatred e Lord of Hatred – tudo em uma coleção Age of Hatred. E supostamente será lançado em 15 de setembro. Leia m...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/diablo-4-switch-2-release-date-rumour-expansions"
+    },
+    {
+      "id": "https://www.eurogamer.net/battlefield-6-top-gun-carrier-strike-wake-island",
+      "title": "A colaboração Top Gun do Battlefield 6 é mais envolvente do que eu esperava e me convenceu de que Carrier Strike deveria ser um modo permanente",
+      "original_title": "Battlefield 6's Top Gun collaboration is more involved than I expected, and it convinced me that Carrier Strike should be a permanent mode",
+      "image": "https://assetsio.gnwcdn.com/top-gun-bf6.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-08-17",
+      "summary": "A quarta temporada de Battlefield 6 foi um destaque. Desde a introdução do combate naval ao jogo até a adição de seu maior mapa até agora - há muito para os fãs mais velhos do Battlefield se divertirem. Esse mesmo grupo, aposto - contando-me entre eles - irá naturalmente...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/battlefield-6-top-gun-carrier-strike-wake-island"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vr679b/natethehate_rumored_new_xbox_game_is_a_sequel_to/",
+      "title": "NateTheHate: rumores de que o novo jogo do Xbox é uma sequência de algo recente, em vez de um IP antigo sendo revivido; e o desenvolvedor por trás disso o intrigou.",
+      "original_title": "NateTheHate: rumored new Xbox game is a sequel to something recent instead of an old IP being revived; and the developer behind it intrigued him.",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
       "category": "News",
-      "date": "2026-08-16",
-      "summary": "Do Youtuber Luke JC: https://www.youtube.com/watch?v=QQGu7YKrMgU enviado por /u/h3LLyEaHh [link] [comentários]...",
+      "date": "2026-08-17",
+      "summary": "Fonte: https://www.resetera.com/threads/xbox-game-studios-ot-38.1592677/page-27#post-159248635 https://www.resetera.com/threads/xbox-game-studios-ot-38.1592677/page-27#post-159248752 Minha aposta é em Ori 3 ou As Dusk Falls parte 2. enviado por /u/...",
       "sources": [
         "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vpxb9n/cancelled_avalanche_game_contraband_files_found/"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vr679b/natethehate_rumored_new_xbox_game_is_a_sequel_to/"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vplboa/marvels_wolverine_almost_had_a_crossbow_adaptive/",
-      "title": "O Wolverine da Marvel quase teve uma besta, garras de gatilho adaptativas, Nightcrawler e muito mais. (Retrospectiva de vazamento de insônia)",
-      "original_title": "Marvel's Wolverine almost had a crossbow, adaptive trigger claws, Nightcrawler and more. (Insomniac Leak Retrospective)",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vqynt0/natethehate_xbox_will_have_a_new_game/",
+      "title": "NateTheHate: Xbox terá anúncio de novo jogo na Gamescom",
+      "original_title": "NateTheHate: Xbox will have a new game announcement at Gamescom",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-08-17",
+      "summary": "Algo que despertou meu interesse e curiosidade.  Fonte: https://xcancel.com/NateTheHate2/status/2088674549428556273#m https://xcancel.com/NateTheHate2/status/2088730734898900995#m enviado por /u/cat__statue [link] [comentários]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vqynt0/natethehate_xbox_will_have_a_new_game/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vr3r07/rumoured_xbox_game_announcement_sequel_to_a_ms/",
+      "title": "Rumores de anúncio de jogo para Xbox: sequência de um IP de propriedade da MS, desenvolvedor externo",
+      "original_title": "Rumoured Xbox game announcement: sequel to a MS owned IP, external dev",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
       "category": "Rumor",
-      "date": "2026-08-16",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-08-17",
+      "summary": "De acordo com Nate, não é o jogo de tiro StarCraft, Wolfenstein 3 ou qualquer coisa que já tenha sido anunciada como TES6. (também não é Banjo e pode ser lançado este ano) https://www.resetera.com/threads/natethehate-has-heard-of-a-new-xbox-game-announ...",
       "sources": [
         "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vplboa/marvels_wolverine_almost_had_a_crossbow_adaptive/"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vr3r07/rumoured_xbox_game_announcement_sequel_to_a_ms/"
     },
     {
-      "id": "https://www.techpowerup.com/351628/injustice-2-tops-9-million-units-sold-7-million-more-than-gods-among-us",
-      "title": "Injustice 2 supera 9 milhões de unidades vendidas – 7 milhões a mais que “Gods Among Us”",
-      "original_title": "Injustice 2 Tops 9 Million Units Sold—7 Million More than \"Gods Among Us\"",
-      "image": "https://tpucdn.com/img/46vQS5eS9hdq2TQ8_thm.jpg",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vr490a/lego_skylines_will_be_revealed_at_gamescom/",
+      "title": "LEGO Skylines será revelado na Gamescom",
+      "original_title": "LEGO Skylines will be revealed at Gamescom",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-08-17",
+      "summary": "LEGO e Paradox estarão ambos na Gamescom, a classificação do jogo confirma que será lançado este ano. Fonte: https://www.instagram.com/gamescom/reel/DbBGNB5t0ok/ / https://www.gamescom.global/en Vazamento original: https://www.gematsu.com/2026/05/lego-skyli...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vr490a/lego_skylines_will_be_revealed_at_gamescom/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vqxqha/dusk_golem_screenfire_germany_resident_evil/",
+      "title": "Dusk Golem & Screenfire Germany: Resident Evil Veronica não estará na Gamescom; Sem demonstração pública e sem prévias para jornalistas",
+      "original_title": "Dusk Golem & Screenfire Germany: Resident Evil Veronica won't be at Gamescom; No Public Demo & No Previews for Journalists",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-08-17",
+      "summary": "Postagem de Dusk Golem de 24 de julho: Silent Hill Townfall está confirmado para estar na Gamescom, mas Resident Evil Veronica não. E eu teria assumido que provavelmente seria na Gamescom devido ao marketing de Requiem, mas tenho ouvido dizer que provavelmente não. eu não...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vqxqha/dusk_golem_screenfire_germany_resident_evil/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vqxw86/ffvii_revelation_playable_public_demo_might/",
+      "title": "Demo pública jogável de FFVII Revelation pode vazar acidentalmente",
+      "original_title": "FFVII Revelation playable public demo might accidently leaked",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Rumor",
+      "date": "2026-08-17",
+      "summary": "O site de notícias alemão \"Gameswirtschaft\" tem um artigo que lista jogos e demos jogáveis. O artigo foi atualizado, excluindo a parte demo do Apocalipse. https://www.gameswirtschaft.de/gamescom/gamescom-opening-night-live-onl-2026-spiele-liste-14...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vqxw86/ffvii_revelation_playable_public_demo_might/"
+    },
+    {
+      "id": "https://www.techpowerup.com/351669/roblox-in-hot-water-again-for-priotitizing-revenue-over-child-safety",
+      "title": "Roblox em maus lençóis novamente por “priorizar a receita” em vez da segurança infantil",
+      "original_title": "Roblox In Hot Water Again for \"Priotitizing Revenue\" Over Child Safety",
+      "image": "https://tpucdn.com/img/aPeeW3l1pTZPyvI9_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-08-15",
-      "summary": "Acontece que a série de jogos Injustice é uma lição de como a contagem de jogadores simultâneos não prevê necessariamente o sucesso comercial de um jogo. Apesar de atingir apenas um pico de jogadores simultâneos no Steam de 2.131 jogadores, o jogo de super-heróis de 2017 vendeu 9 milhões...",
+      "date": "2026-08-17",
+      "summary": "Roblox já foi criticado por não proteger seus usuários, especialmente menores de idade, de usuários predatórios, após o que a plataforma introduziu novas medidas de segurança e adicionou verificação de idade para bate-papos, supostamente em um esforço para...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/351628/injustice-2-tops-9-million-units-sold-7-million-more-than-gods-among-us"
+      "url": "https://www.techpowerup.com/351669/roblox-in-hot-water-again-for-priotitizing-revenue-over-child-safety"
     },
     {
-      "id": "https://www.techpowerup.com/351503/compare-gpt-4o-claude-and-gemini-side-by-side-for-usd-59-25",
-      "title": "Compare GPT-4o, Claude e Gemini lado a lado por US$ 59,25",
-      "original_title": "Compare GPT-4o, Claude, and Gemini Side by Side for $59.25",
-      "image": "https://tpucdn.com/img/rmMDtkvj6bW27kIh_thm.jpg",
+      "id": "https://www.techpowerup.com/351665/lock-in-microsoft-project-professional-2024-for-just-usd-45-through-aug-16",
+      "title": "Garanta o Microsoft Project Professional 2024 por apenas US$ 45 até 16 de agosto",
+      "original_title": "Lock In Microsoft Project Professional 2024 for Just $45 Through Aug. 16",
+      "image": "https://tpucdn.com/img/OPE3ZMe6PfbPY70u_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-08-15",
-      "summary": "Todos os principais laboratórios de IA afirmam que seu modelo é o melhor. ChatPlayground AI ignora o debate executando um prompt em mais de 20 modelos ao mesmo tempo, incluindo GPT-4o, Claude Sonnet 4, Gemini 1.5 Flash, DeepSeek V3 e Llama, então as saídas ficam lado a lado...",
+      "date": "2026-08-17",
+      "summary": "O Microsoft Project Professional 2024 é um aplicativo de gerenciamento de projetos de desktop para planejar tarefas, atribuir recursos, acompanhar o progresso e relatar resultados. Uma licença vitalícia para um PC com Windows custa US$ 44,97 em vez de US$ 1.129,99 até 16 de agosto.\n\n...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/351503/compare-gpt-4o-claude-and-gemini-side-by-side-for-usd-59-25"
+      "url": "https://www.techpowerup.com/351665/lock-in-microsoft-project-professional-2024-for-just-usd-45-through-aug-16"
     },
     {
-      "id": "https://www.techpowerup.com/351624/resident-evil-requiem-reaches-up-to-55-physical-sales-in-some-regions",
-      "title": "Resident Evil: Requiem atinge até 55% das vendas físicas em algumas regiões",
-      "original_title": "Resident Evil: Requiem Reaches Up to 55% Physical Sales in Some Regions",
-      "image": "https://tpucdn.com/img/LE5AVjYuMFpWswlA_thm.jpg",
+      "id": "https://www.techpowerup.com/351670/entry-level-gpus-and-monitors-face-price-hikes-in-h2-2026",
+      "title": "GPUs e monitores de nível básico enfrentam aumentos de preços no segundo semestre de 2026",
+      "original_title": "Entry-Level GPUs and Monitors Face Price Hikes in H2 2026",
+      "image": "https://tpucdn.com/img/GOb1EPHxic3LZwZQ_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-08-14",
-      "summary": "O afastamento da Sony dos jogos físicos tem sido fonte de muitas críticas, mas a gigante dos jogos continua insistindo que a mudança é a correta, argumentando que a maioria das vendas de jogos são digitais. No entanto, algumas das resistências contra isso ...",
+      "date": "2026-08-17",
+      "summary": "De acordo com VideoCardz, tanto as placas gráficas básicas quanto os monitores de PC estão caminhando para aumentos de preços no segundo semestre de 2026. PC Partner Group, a empresa por trás de ZOTAC, Inno3D e Manli, descreveu a situação em seu público de resultados financeiros...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/351624/resident-evil-requiem-reaches-up-to-55-physical-sales-in-some-regions"
+      "url": "https://www.techpowerup.com/351670/entry-level-gpus-and-monitors-face-price-hikes-in-h2-2026"
     },
     {
-      "id": "https://www.techpowerup.com/351625/s-t-a-l-k-e-r-2-heart-of-chornobyl-update-2-0-arrives-august-20",
-      "title": "(PR) S.T.A.L.K.E.R. 2: A atualização 2.0 do Heart of Chornobyl chega em 20 de agosto",
-      "original_title": "(PR) S.T.A.L.K.E.R. 2: Heart of Chornobyl Update 2.0 Arrives August 20",
-      "image": "https://tpucdn.com/img/IlHZP7ChIvB57MLZ_thm.jpg",
+      "id": "https://www.techpowerup.com/351668/mortal-shell-ii-advanced-access-sees-20-000-concurrent-players-ahead-of-launch",
+      "title": "Mortal Shell II Advanced Access vê 20.000 jogadores simultâneos antes do lançamento",
+      "original_title": "Mortal Shell II Advanced Access Sees 20,000 Concurrent Players Ahead of Launch",
+      "image": "https://tpucdn.com/img/0yzFZleJz2BF8qhK_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-08-14",
-      "summary": "GSC Game World tem o prazer de anunciar que a Atualização 2.0 para S.T.A.L.K.E.R. 2: Heart of Chornobyl será lançado em 20 de agosto, apresentando uma nova versão do motor, uma revisão gráfica, três tipos de binóculos e muito mais.\n\nAqui está o que todos os proprietários de ...",
+      "date": "2026-08-17",
+      "summary": "Mortal Shell II já foi lançado no Acesso Avançado nos consoles Steam, PlayStation 5 e Xbox Series antes do lançamento mundial oficial em 20 de agosto, e parece já ter bastante sucesso, com quase 20.000 jogadores fazendo login no novo...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/351625/s-t-a-l-k-e-r-2-heart-of-chornobyl-update-2-0-arrives-august-20"
+      "url": "https://www.techpowerup.com/351668/mortal-shell-ii-advanced-access-sees-20-000-concurrent-players-ahead-of-launch"
     },
     {
-      "id": "https://www.techpowerup.com/351623/arc-raiders-surpasses-16-million-sales-as-nexon-looks-to-replicate-its-success",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Arc Raiders Surpasses 16 Million Sales as Nexon Looks to Replicate its Success",
-      "image": "https://tpucdn.com/img/sONqwvkV2l4LUTQz_thm.jpg",
+      "id": "https://www.techpowerup.com/351667/lexar-introduces-thor-ultra-pcie-gen-5-nvme-ssds",
+      "title": "Lexar apresenta SSDs Thor Ultra PCIe Gen 5 NVMe",
+      "original_title": "Lexar Introduces Thor Ultra PCIe Gen 5 NVMe SSDs",
+      "image": "https://tpucdn.com/img/HBsPHF56Xm586WGt_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-08-14",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-08-17",
+      "summary": "A Lexar lançou a série Thor Ultra de SSDs PCIe 5.0 NVMe com capacidades de 512 GB, 1 TB, 2 TB e 4 TB. Os drives M.2 2280 usam uma interface PCIe 5.0 x4 e, de acordo com a Lexar, podem atingir velocidades de até 11 GB/s de leitura sequencial e 10 GB/s de leitura sequencial...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/351623/arc-raiders-surpasses-16-million-sales-as-nexon-looks-to-replicate-its-success"
-    },
-    {
-      "id": "https://www.techpowerup.com/351504/stop-putting-it-off-windows-11-pro-drops-to-usd-11-23",
-      "title": "Pare de adiar: o Windows 11 Pro cai para US$ 11,23",
-      "original_title": "Stop Putting It Off: Windows 11 Pro Drops to $11.23",
-      "image": "https://tpucdn.com/img/mKTJ4Opkg1PQblO2_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-08-14",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/351504/stop-putting-it-off-windows-11-pro-drops-to-usd-11-23"
-    },
-    {
-      "id": "https://www.techpowerup.com/351619/iqunix-officially-launches-ec75-he-gaming-keyboard-at-usd-179-99",
-      "title": "Iqunix lança oficialmente teclado para jogos EC75 HE por US$ 179,99",
-      "original_title": "Iqunix Officially Launches EC75 HE Gaming Keyboard at $179.99",
-      "image": "https://tpucdn.com/img/DS0OgNt6AeS1NyzE_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-08-14",
-      "summary": "A Iqunix exibiu o EC75 no início deste ano na Computex, mas o fabricante de periféricos agora lançou oficialmente o EC75 HE para venda, revelando simultaneamente o preço e os detalhes do teclado. No momento em que este artigo foi escrito, havia uma página da loja...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/351619/iqunix-officially-launches-ec75-he-gaming-keyboard-at-usd-179-99"
-    },
-    {
-      "id": "https://www.techpowerup.com/351615/epomaker-launches-rt75-retro-wireless-mechanical-keyboard-with-hot-swap-tft-screen",
-      "title": "Epomaker lança teclado mecânico sem fio retrô RT75 com tela TFT hot-swap",
-      "original_title": "Epomaker Launches RT75 Retro Wireless Mechanical Keyboard With Hot-Swap TFT Screen",
-      "image": "https://tpucdn.com/img/sEmPq8Ir3vwLATPi_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-08-14",
-      "summary": "A Epomaker anunciou oficialmente o mais recente teclado de sua série RT de inspiração retrô, o RT75. Como o nome sugere, o RT75 é um teclado 75% com intenções de design retrô. O novo teclado pré-construído tem como alvo a faixa de preço de nível básico superior, vindo...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/351615/epomaker-launches-rt75-retro-wireless-mechanical-keyboard-with-hot-swap-tft-screen"
+      "url": "https://www.techpowerup.com/351667/lexar-introduces-thor-ultra-pcie-gen-5-nvme-ssds"
     }
   ]
 }
