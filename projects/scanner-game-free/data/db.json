@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-08-25T12:44:21",
-  "display_date": "25/08/2026 12:44",
+  "last_updated": "2026-08-26T12:50:01",
+  "display_date": "26/08/2026 12:50",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "237ms",
+    "latency": "87ms",
     "current_games": [
       {
         "title": "Cardpocalypse Standard Edition",
-        "description": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "description": "Jess, de 10 anos, acidentalmente bane o jogo de cartas colecionável favorito de todos na escola primária de Dudsdale - pior ainda, é seu primeiro dia! Mas quando surgem problemas e os mutantes do jogo começam a ganhar vida, cabe a Jess e seus amigos detê-los. Torne-se um Mega...",
         "image": "https://cdn1.epicgames.com/offer/2bfd5ca43ef443739ada168e017e1b78/s1_2560x1440-8d68e37943d666ad0f05093481c4d7df",
         "url": "https://store.epicgames.com/p/cardpocalypsegeneralaudience",
         "price": "$24.99",
@@ -17,7 +17,7 @@
       },
       {
         "title": "Epic Mage Bundle",
-        "description": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "description": "Reivindique um presente grátis mágico avaliado em mais de US$ 55! Melhore sua jornada em Albion com itens de beleza encantados, duas skins de montaria exclusivas e um tesouro de recompensas de progressão essenciais.",
         "image": "https://cdn1.epicgames.com/spt-assets/92837229023341268267ff64cae425a5/albion-online-7k7df.png",
         "url": "https://store.epicgames.com/p/epic-mage-bundle",
         "price": "0",
@@ -28,16 +28,7 @@
     "upcoming_games": [
       {
         "title": "Breathedge",
-        "description": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "image": "https://cdn1.epicgames.com/08ae29e4f70a4b62aa055e383381aa82/offer/egs-breathedge-redruinssoftworks-s1-2560x1440-76fd08cd9c2d-2560x1440-783424f6d4a7f32a0e75fc074f2f928e.jpg",
-        "url": "https://store.epicgames.com/p/osmiumgeneralaudience",
-        "price": "$24.99",
-        "start_date": "2026-09-03T15:00:00.000Z",
-        "end_date": "2026-09-17T15:00:00.000Z"
-      },
-      {
-        "title": "Breathedge",
-        "description": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "description": "Sobreviva no espaço sideral! Junto com sua galinha imortal, descubra a verdade por trás da queda repentina de sua nave espacial. Crie ferramentas, pilote veículos e até controle estações espaciais para sobreviver e explorar os destroços.",
         "image": "https://cdn1.epicgames.com/08ae29e4f70a4b62aa055e383381aa82/offer/egs-breathedge-redruinssoftworks-s1-2560x1440-76fd08cd9c2d-2560x1440-783424f6d4a7f32a0e75fc074f2f928e.jpg",
         "url": "https://store.epicgames.com/p/osmiumgeneralaudience",
         "price": "$24.99",
@@ -45,8 +36,17 @@
         "end_date": "2026-09-03T15:00:00.000Z"
       },
       {
+        "title": "Breathedge",
+        "description": "Sobreviva no espaço sideral! Junto com sua galinha imortal, descubra a verdade por trás da queda repentina de sua nave espacial. Crie ferramentas, pilote veículos e até controle estações espaciais para sobreviver e explorar os destroços.",
+        "image": "https://cdn1.epicgames.com/08ae29e4f70a4b62aa055e383381aa82/offer/egs-breathedge-redruinssoftworks-s1-2560x1440-76fd08cd9c2d-2560x1440-783424f6d4a7f32a0e75fc074f2f928e.jpg",
+        "url": "https://store.epicgames.com/p/osmiumgeneralaudience",
+        "price": "$24.99",
+        "start_date": "2026-09-03T15:00:00.000Z",
+        "end_date": "2026-09-17T15:00:00.000Z"
+      },
+      {
         "title": "Ghostrunner 2",
-        "description": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "description": "Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
         "image": "https://cdn1.epicgames.com/offer/708f57aaa04b42ef885be16c8288f0ac/EGS_Ghostrunner2_OneMoreLevel_S1_2560x1440-15845148fae1d0cfd7f3e98c9b3ba6ba",
         "url": "https://store.epicgames.com/p/ghostrunner-2",
         "price": "$39.99",
@@ -55,7 +55,7 @@
       },
       {
         "title": "Lost Castle: The Old Ones Awaken",
-        "description": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "description": "The Old Ones Awaken adiciona novos níveis para explorar, novos inimigos para derrotar e novos chefes para enfrentar, juntamente com uma série de novas armas e equipamentos emocionantes para empunhar e usar.",
         "image": "https://cdn1.epicgames.com/spt-assets/a6d76157ad884f2c9aa470b30da9e2ff/lost-castle-r390n.png",
         "url": "https://store.epicgames.com/p/lost-castle-the-old-ones-awaken",
         "price": "$3.99",
@@ -64,7 +64,7 @@
       },
       {
         "title": "LISA: The Definitive Edition",
-        "description": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "description": "Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
         "image": "https://cdn2.unrealengine.com/egs-lisathedefinitiveedition-dingalingproductions-bundles-s1-2560x1440-5be18c558828.jpg",
         "url": "https://store.epicgames.com/p/lisa-the-definitive-edition",
         "price": "$24.99",
@@ -73,7 +73,7 @@
       },
       {
         "title": "Castlevania Anniversary Collection",
-        "description": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "description": "A Coleção de Aniversário de Castlevania da Konami traça as origens da histórica franquia de vampiros. Está incluído um e-book exclusivo com detalhes fornecidos por desenvolvedores, artistas e outros inspirados no legado de Castlevania, que lança uma nova luz sobre o mundo de Castlevania.",
         "image": "https://cdn1.epicgames.com/spt-assets/1ff2f74ba0ef4019b6905d8abe268819/castlevania-anniversary-collection-yex6f.jpg",
         "url": "https://store.epicgames.com/p/32b3e0adbe0c4399be1874958194f97f",
         "price": "$19.99",
@@ -82,7 +82,7 @@
       },
       {
         "title": "Monument Valley",
-        "description": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "description": "Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
         "image": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
         "url": "https://store.epicgames.com/p/monument-valley-02",
         "price": "$7.99",
@@ -91,7 +91,7 @@
       },
       {
         "title": "Rival Stars Horse Racing : Desktop Edition",
-        "description": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "description": "Com cavalos impressionantes e realistas, um sistema de criação aprofundado e uma variedade de modos de jogo emocionantes, Rival Stars Horse Racing oferece aos fãs de cavalos a melhor experiência em corridas e equitação. Assuma as rédeas e torne-se uma lenda equestre!",
         "image": "https://cdn1.epicgames.com/spt-assets/3355791f5b4740618adac242cf0dd46c/rival-stars-horse-racing-scu1x.jpg",
         "url": "https://store.epicgames.com/p/c27af3c6ec3a47afb720e580138de63e",
         "price": "$24.99",
@@ -110,8 +110,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-08-25",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-08-26",
+      "summary": "Jess, de 10 anos, acidentalmente bane o jogo de cartas colecionável favorito de todos na escola primária de Dudsdale - pior ainda, é seu primeiro dia! Mas quando surgem problemas e os mutantes do jogo começam a ganhar vida, cabe a Jess e seus amigos detê-los. Torne-se um Mega...",
       "sources": [
         "Epic Games Store"
       ],
@@ -125,8 +125,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-08-25",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-08-26",
+      "summary": "Reivindique um presente grátis mágico avaliado em mais de US$ 55! Melhore sua jornada em Albion com itens de beleza encantados, duas skins de montaria exclusivas e um tesouro de recompensas de progressão essenciais.",
       "sources": [
         "Epic Games Store"
       ],
@@ -140,8 +140,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-08-25",
-      "summary": "Disponível gratuitamente a partir de 03/09. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-08-26",
+      "summary": "Disponível gratuitamente a partir de 27/08. Sobreviva no espaço sideral! Junto com sua galinha imortal, descubra a verdade por trás da queda repentina de sua nave espacial. Crie ferramentas, pilote veículos e até controle estações espaciais para sobreviver e explorar os destroços.",
       "sources": [
         "Epic Games Store"
       ],
@@ -155,8 +155,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-08-25",
-      "summary": "Disponível gratuitamente a partir de 27/08. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-08-26",
+      "summary": "Disponível gratuitamente a partir de 03/09. Sobreviva no espaço sideral! Junto com sua galinha imortal, descubra a verdade por trás da queda repentina de sua nave espacial. Crie ferramentas, pilote veículos e até controle estações espaciais para sobreviver e explorar os destroços.",
       "sources": [
         "Epic Games Store"
       ],
@@ -170,8 +170,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-08-25",
-      "summary": "Disponível gratuitamente a partir de 10/09. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-08-26",
+      "summary": "Disponível gratuitamente a partir de 10/09. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
       "sources": [
         "Epic Games Store"
       ],
@@ -185,8 +185,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-08-25",
-      "summary": "Disponível gratuitamente a partir de 30/08. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-08-26",
+      "summary": "Disponível gratuitamente a partir de 30/08. The Old Ones Awaken adiciona novos níveis para explorar, novos inimigos para derrotar e novos chefes para enfrentar, juntamente com uma série de novas armas e equipamentos emocionantes para empunhar e usar.",
       "sources": [
         "Epic Games Store"
       ],
@@ -200,8 +200,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-08-25",
-      "summary": "Disponível gratuitamente a partir de 17/09. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-08-26",
+      "summary": "Disponível gratuitamente a partir de 17/09. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
       ],
@@ -215,8 +215,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-08-25",
-      "summary": "Disponível gratuitamente a partir de 03/09. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-08-26",
+      "summary": "Disponível gratuitamente a partir de 03/09. A Coleção de Aniversário de Castlevania da Konami traça as origens da histórica franquia de vampiros. Está incluído um e-book exclusivo com detalhes fornecidos por desenvolvedores, artistas e outros inspirados no legado de Castlevania, que lança uma nova luz sobre o mundo de Castlevania.",
       "sources": [
         "Epic Games Store"
       ],
@@ -230,8 +230,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-08-25",
-      "summary": "Disponível gratuitamente a partir de 03/09. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-08-26",
+      "summary": "Disponível gratuitamente a partir de 03/09. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
       "sources": [
         "Epic Games Store"
       ],
@@ -245,252 +245,237 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-08-25",
-      "summary": "Disponível gratuitamente a partir de 27/08. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-08-26",
+      "summary": "Disponível gratuitamente a partir de 27/08. Com cavalos impressionantes e realistas, um sistema de criação aprofundado e uma variedade de modos de jogo emocionantes, Rival Stars Horse Racing oferece aos fãs de cavalos a melhor experiência em corridas e equitação. Assuma as rédeas e torne-se uma lenda equestre!",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/c27af3c6ec3a47afb720e580138de63e"
     },
     {
-      "id": "https://www.eurogamer.net/iron-man-avalanche-studios-gameplay-leak",
+      "id": "https://www.eurogamer.net/state-of-decay-3-lives-on-after-studios-separation-from-xbox-with-a-closed-beta-promised-for-this-year",
+      "title": "State of Decay 3 continua vivo após a separação do estúdio do Xbox, com um beta fechado prometido para este ano",
+      "original_title": "State of Decay 3 lives on after studio's separation from Xbox, with a closed beta promised for this year",
+      "image": "https://assetsio.gnwcdn.com/Image-from-State-of-Decay-3-showing-a-male-character-with-a-crossbow-and-a-backpack.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-08-26",
+      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/state-of-decay-3-lives-on-after-studios-separation-from-xbox-with-a-closed-beta-promised-for-this-year"
+    },
+    {
+      "id": "https://www.eurogamer.net/anime-rpg-ananta-release-date-january-pre-registrations",
       "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Open-world Iron Man game footage leaks, showing an hour of Just Cause dev Avalanche's cancelled Marvel game",
-      "image": "https://assetsio.gnwcdn.com/iron-man_aJ1y3LP.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "original_title": "Hugely anticipated anime RPG Ananta gets a January release date, as pre-registrations hit a whopping 17m sign-ups",
+      "image": "https://assetsio.gnwcdn.com/Ananta_5q4mv6M.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-08-26",
+      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/anime-rpg-ananta-release-date-january-pre-registrations"
+    },
+    {
+      "id": "https://www.eurogamer.net/gta-6-leaks-rockstar-statement-spoilers",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "original_title": "Rockstar issues statement on GTA 6 gameplay leaks, calling them \"heartbreaking\" and warning they may include some spoilers",
+      "image": "https://assetsio.gnwcdn.com/gta-6-vintage-pack-crop-1.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "Rumor",
-      "date": "2026-08-25",
+      "date": "2026-08-26",
       "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/iron-man-avalanche-studios-gameplay-leak"
+      "url": "https://www.eurogamer.net/gta-6-leaks-rockstar-statement-spoilers"
     },
     {
-      "id": "https://www.eurogamer.net/optimism-week-games-industry-side-projects-creativity",
+      "id": "https://www.eurogamer.net/crimson-desert-enhanced-patch-2-00-details",
       "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Synths, impossible physics, and an \"erotic experience with a PS5 controller\" - the side projects of game devs are a reminder creativity is undimmable",
-      "image": "https://assetsio.gnwcdn.com/optimisim-week-side-projects.png?width=690&quality=85&format=jpg&auto=webp",
+      "original_title": "Crimson Desert Enhanced is a free upgrade that's out now and revamps the story, adds new skills and comes with all previously-released updates",
+      "image": "https://assetsio.gnwcdn.com/crimson-desert-screen-crop-1.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-08-25",
+      "date": "2026-08-26",
       "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/optimism-week-games-industry-side-projects-creativity"
+      "url": "https://www.eurogamer.net/crimson-desert-enhanced-patch-2-00-details"
     },
     {
-      "id": "https://www.eurogamer.net/the-duskbloods-closed-network-test-more-applications-nightreign",
+      "id": "https://www.eurogamer.net/tides-of-annihilation-hands-on-preview-gamescom",
       "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Despite being a Switch 2 exclusive, The Duskbloods closed network test had more applications than Elden Ring Nightreign",
-      "image": "https://assetsio.gnwcdn.com/The-Duskbloods-%E2%80%93-Nintendo-Direct-_-Nintendo-Switch-2-1-46-screenshot.png?width=690&quality=85&format=jpg&auto=webp",
+      "original_title": "Having played it, Tides of Annihilation looks to be a flashy, combo-heavy game of Simon Says",
+      "image": "https://assetsio.gnwcdn.com/tides-of-annihilation-2.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-08-25",
+      "date": "2026-08-26",
       "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/the-duskbloods-closed-network-test-more-applications-nightreign"
+      "url": "https://www.eurogamer.net/tides-of-annihilation-hands-on-preview-gamescom"
     },
     {
-      "id": "https://www.eurogamer.net/take-two-rockstar-gta-6-leaks-subpoena-discord-response",
+      "id": "https://www.eurogamer.net/path-of-exile-2-version-1-0-free-to-play-date",
       "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Discord is yet to be served Take-Two's GTA 6 leak subpoena, which is set to demand broad access to user data",
-      "image": "https://assetsio.gnwcdn.com/gta-6-ultimate-screen-crop-1.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "original_title": "Path of Exile 2 finally has its 1.0 release date and it's coming this year",
+      "image": "https://assetsio.gnwcdn.com/path-of-exile-2-duelist-key-art-crop-1.jpeg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
-      "category": "Rumor",
-      "date": "2026-08-25",
+      "category": "News",
+      "date": "2026-08-26",
       "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/take-two-rockstar-gta-6-leaks-subpoena-discord-response"
+      "url": "https://www.eurogamer.net/path-of-exile-2-version-1-0-free-to-play-date"
     },
     {
-      "id": "https://www.techpowerup.com/351916/u-s-wants-korean-chipmakers-to-invest-in-us-based-fabrication",
+      "id": "https://www.eurogamer.net/witcher-3-songs-of-the-past-romance-geralt",
       "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "U.S. Wants Korean Chipmakers to Invest in US-Based Fabrication",
-      "image": "https://tpucdn.com/img/Zbutcb3QDwVoGJUa_thm.jpg",
+      "original_title": "It sure seems like The Witcher 3: Songs of the Past is introducing at least one new romanceable character for Geralt to woo",
+      "image": "https://assetsio.gnwcdn.com/witcher-3-songs-of-past-romance.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-08-26",
+      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/witcher-3-songs-of-the-past-romance-geralt"
+    },
+    {
+      "id": "https://www.eurogamer.net/witcher-3-songs-of-the-past-story-written-years-ago-interview",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "original_title": "The story for Witcher 3: Songs of the Past was actually written  \"years ago\", according to Fool's Theory CEO",
+      "image": "https://assetsio.gnwcdn.com/songs-of-the-past-header.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-08-26",
+      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/witcher-3-songs-of-the-past-story-written-years-ago-interview"
+    },
+    {
+      "id": "https://www.eurogamer.net/heroes-of-might-and-magic-3-remade-ubisoft",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "original_title": "The legendary Heroes of Might and Magic 3 is being remade by Ubisoft, and while it's visually redone, it's reportedly like-for-like in terms of gameplay",
+      "image": "https://assetsio.gnwcdn.com/heroes-of-might-and-magic-remake-11.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-08-26",
+      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/heroes-of-might-and-magic-3-remade-ubisoft"
+    },
+    {
+      "id": "https://www.eurogamer.net/humankind-2-announcement-trailer-gamescom-ai-studio-response",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "original_title": "No, the Humankind 2 announcement trailer wasn't made with gen-AI, despite it sharing a similar kind of look",
+      "image": "https://assetsio.gnwcdn.com/humankind-2-trailer-shot-crop-3.jpeg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-08-26",
+      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/humankind-2-announcement-trailer-gamescom-ai-studio-response"
+    },
+    {
+      "id": "https://www.techpowerup.com/351977/samsung-showcases-p9-and-p7-ssds-featuring-usb4-at-gamescom-2026",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "original_title": "(PR) Samsung Showcases P9 and P7 SSDs Featuring USB4 at Gamescom 2026",
+      "image": "https://tpucdn.com/img/DS1vKNcCho0ZE6gT_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-08-25",
+      "date": "2026-08-26",
       "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/351916/u-s-wants-korean-chipmakers-to-invest-in-us-based-fabrication"
+      "url": "https://www.techpowerup.com/351977/samsung-showcases-p9-and-p7-ssds-featuring-usb4-at-gamescom-2026"
     },
     {
-      "id": "https://www.techpowerup.com/351913/sk-hynix-next-gen-hbm-memory-to-use-intel-emib-t-packaging",
+      "id": "https://www.techpowerup.com/351976/memory-prices-soar-dram-and-nand-flash-to-account-for-68-of-major-csp-capex-in-2027",
       "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "SK Hynix Next-Gen HBM Memory to Use Intel EMIB-T Packaging",
-      "image": "https://tpucdn.com/img/Sh2ndpYuHDUjQbZV_thm.jpg",
+      "original_title": "(PR) Memory Prices Soar; DRAM and NAND Flash to Account for 68% of Major CSP CapEx in 2027",
+      "image": "https://tpucdn.com/img/dXwr1ewxyh6GP9RL_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-08-25",
+      "date": "2026-08-26",
       "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/351913/sk-hynix-next-gen-hbm-memory-to-use-intel-emib-t-packaging"
+      "url": "https://www.techpowerup.com/351976/memory-prices-soar-dram-and-nand-flash-to-account-for-68-of-major-csp-capex-in-2027"
     },
     {
-      "id": "https://www.techpowerup.com/351750/godeal24-back-to-school-sale-deep-discounts-on-genuine-software",
+      "id": "https://www.techpowerup.com/351974/turtle-beach-launches-vulcan-ii-xp-gaming-keyboard",
       "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "GoDeal24 Back to School Sale: Deep Discounts on Genuine Software",
-      "image": "https://tpucdn.com/img/Eu7eol5NCJKSEyBV_thm.jpg",
+      "original_title": "(PR) Turtle Beach Launches Vulcan II XP Gaming Keyboard",
+      "image": "https://tpucdn.com/img/zbkOGMD8TKAFq6uf_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-08-25",
+      "date": "2026-08-26",
       "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/351750/godeal24-back-to-school-sale-deep-discounts-on-genuine-software"
+      "url": "https://www.techpowerup.com/351974/turtle-beach-launches-vulcan-ii-xp-gaming-keyboard"
     },
     {
-      "id": "https://www.techpowerup.com/351909/the-witcher-4-gets-2028-release-window-but-no-gamescom-gameplay-preview",
+      "id": "https://www.techpowerup.com/351973/2026-msi-katana-15-hx-gaming-laptop-is-now-available",
       "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "The Witcher 4 Gets 2028 Release Window but No Gamescom Gameplay Preview",
-      "image": "https://tpucdn.com/img/FofNmXRRady9gSEi_thm.jpg",
+      "original_title": "(PR) 2026 MSI Katana 15 HX Gaming Laptop Is Now Available",
+      "image": "https://tpucdn.com/img/NCdRfNEkg8EpaZg7_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-08-25",
+      "date": "2026-08-26",
       "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/351909/the-witcher-4-gets-2028-release-window-but-no-gamescom-gameplay-preview"
+      "url": "https://www.techpowerup.com/351973/2026-msi-katana-15-hx-gaming-laptop-is-now-available"
     },
     {
-      "id": "https://www.eurogamer.net/the-witcher-4-release-date-2028",
+      "id": "https://www.techpowerup.com/351972/intel-arc-gpu-graphics-drivers-101-8891-whql-released",
       "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "CD Projekt Red is \"targeting\" a 2028 release date for The Witcher 4, per a new update from the developer",
-      "image": "https://assetsio.gnwcdn.com/Witcher-4_Ciri-UE5-demo.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-08-24",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/the-witcher-4-release-date-2028"
-    },
-    {
-      "id": "https://www.eurogamer.net/people-of-video-games-what-gives-hope-optimism-week",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "The people of video games on what gives them cause for hope",
-      "image": "https://assetsio.gnwcdn.com/optimism-week-devs.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-08-24",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/people-of-video-games-what-gives-hope-optimism-week"
-    },
-    {
-      "id": "https://www.eurogamer.net/hideo-kojima-63-years-old-still-wants-to-make-games",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "\"I want to keep pouring my energy into game creation going forward\" - Hideo Kojima still wants to make games even at 63",
-      "image": "https://assetsio.gnwcdn.com/Hideo-Kojima-in-Prada's-space-based-short-film.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-08-24",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/hideo-kojima-63-years-old-still-wants-to-make-games"
-    },
-    {
-      "id": "https://www.eurogamer.net/the-blood-of-dawnwalker-60fps-performance-mode-ps5-xbox-series-x",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "The Blood of Dawnwalker is getting a 60fps mode on PS5 and Xbox Series X, after all",
-      "image": "https://assetsio.gnwcdn.com/the-blood-of-dawnwalker-screen-crop-1.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-08-24",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/the-blood-of-dawnwalker-60fps-performance-mode-ps5-xbox-series-x"
-    },
-    {
-      "id": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-switch-2-code-in-box",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Call of Duty: Modern Warfare 4 Switch 2 physical version is seemingly a code-in-box",
-      "image": "https://assetsio.gnwcdn.com/modern-warfare-4-campaign-shot-crop-1.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-08-24",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-switch-2-code-in-box"
-    },
-    {
-      "id": "https://www.eurogamer.net/how-to-fish-one-million-sales-steam",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "How to Fish is the latest Steam indie sensation, selling 1 million copies in just two days",
-      "image": "https://assetsio.gnwcdn.com/how-to-fish-screen-1.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-08-24",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/how-to-fish-one-million-sales-steam"
-    },
-    {
-      "id": "https://www.techpowerup.com/351908/amd-gains-ground-as-intel-x86-market-share-goes-back-to-1995-levels",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "AMD Gains Ground as Intel x86 Market Share Goes Back to 1995 Levels",
-      "image": "https://tpucdn.com/img/gWeVK7JlEde1ovCs_thm.jpg",
+      "original_title": "Intel Arc GPU Graphics Drivers 101.8891 WHQL Released",
+      "image": "https://tpucdn.com/img/3uCH5CNwV9frTT7S_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-08-24",
+      "date": "2026-08-26",
       "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/351908/amd-gains-ground-as-intel-x86-market-share-goes-back-to-1995-levels"
-    },
-    {
-      "id": "https://www.techpowerup.com/351904/double-fine-hosts-amnesia-fortnight-to-raise-funds-and-vote-for-first-post-xbox-game",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Double Fine Hosts Amnesia Fortnight To Raise Funds and Vote for First Post-Xbox Game",
-      "image": "https://tpucdn.com/img/dhmvLyBIoOQHXizM_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-08-24",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/351904/double-fine-hosts-amnesia-fortnight-to-raise-funds-and-vote-for-first-post-xbox-game"
+      "url": "https://www.techpowerup.com/351972/intel-arc-gpu-graphics-drivers-101-8891-whql-released"
     },
     {
       "id": "https://www.techpowerup.com/351882/while-everyones-chasing-ai-coding-agents-this-ide-is-usd-30-for-life",
@@ -500,7 +485,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-08-24",
+      "date": "2026-08-26",
       "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "sources": [
         "TechPowerUp"
@@ -508,49 +493,64 @@
       "url": "https://www.techpowerup.com/351882/while-everyones-chasing-ai-coding-agents-this-ide-is-usd-30-for-life"
     },
     {
-      "id": "https://www.techpowerup.com/351906/hyperx-launches-new-gaming-headphones-mouse-and-microphone-series",
+      "id": "https://www.techpowerup.com/351965/worms-galactic-tactics-announced-at-gamescom-as-tactical-roguelike-with-destructible-environments",
       "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "HyperX Launches New Gaming Headphones, Mouse, and Microphone Series",
-      "image": "https://tpucdn.com/img/Bjon8YlXrnBDYaG3_thm.jpg",
+      "original_title": "Worms: Galactic Tactics Announced at Gamescom As Tactical Roguelike With Destructible Environments",
+      "image": "https://tpucdn.com/img/VRsU2TxWh1jnrMVR_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-08-24",
+      "date": "2026-08-26",
       "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/351906/hyperx-launches-new-gaming-headphones-mouse-and-microphone-series"
+      "url": "https://www.techpowerup.com/351965/worms-galactic-tactics-announced-at-gamescom-as-tactical-roguelike-with-destructible-environments"
     },
     {
-      "id": "https://www.techpowerup.com/351900/minisforum-launches-usd-1-800-m2-pro-mini-pc-with-intel-arc-b390-igpu-and-32-gb-ram",
+      "id": "https://www.techpowerup.com/351964/kbd0-launches-stainless-steel-curve0-v2-keywell-mechanical-keyboard",
       "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Minisforum Launches $1,800 M2 Pro Mini PC With Intel Arc B390 iGPU and 32 GB RAM",
-      "image": "https://tpucdn.com/img/4TAJ8rlXZjK45yzc_thm.jpg",
+      "original_title": "KBD0 Launches Stainless Steel Curve0 v2 Keywell Mechanical Keyboard",
+      "image": "https://tpucdn.com/img/NxF7KD6kaZtCLIsp_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-08-24",
+      "date": "2026-08-26",
       "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/351900/minisforum-launches-usd-1-800-m2-pro-mini-pc-with-intel-arc-b390-igpu-and-32-gb-ram"
+      "url": "https://www.techpowerup.com/351964/kbd0-launches-stainless-steel-curve0-v2-keywell-mechanical-keyboard"
     },
     {
-      "id": "https://www.techpowerup.com/351901/intel-details-crescent-island-graphics-32-xe3p-cores-up-to-480-gb-lpddr5x-memory",
+      "id": "https://www.techpowerup.com/351750/godeal24-back-to-school-sale-deep-discounts-on-genuine-software",
       "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Intel Details \"Crescent Island\" Graphics: 32 Xe3P Cores, up to 480 GB LPDDR5X Memory",
-      "image": "https://tpucdn.com/img/tXvRATBFoyp302JW_thm.jpg",
+      "original_title": "GoDeal24 Back to School Sale: Deep Discounts on Genuine Software",
+      "image": "https://tpucdn.com/img/Eu7eol5NCJKSEyBV_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-08-24",
+      "date": "2026-08-26",
       "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/351901/intel-details-crescent-island-graphics-32-xe3p-cores-up-to-480-gb-lpddr5x-memory"
+      "url": "https://www.techpowerup.com/351750/godeal24-back-to-school-sale-deep-discounts-on-genuine-software"
+    },
+    {
+      "id": "https://www.techpowerup.com/351958/asus-launches-rog-spatha-x-65k-gaming-mouse-with-new-sensor-and-hot-swappable-switches",
+      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "original_title": "ASUS Launches ROG Spatha X 65K Gaming Mouse With New Sensor and Hot-Swappable Switches",
+      "image": "https://tpucdn.com/img/HirGdzCA9cCoD8nF_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-08-26",
+      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/351958/asus-launches-rog-spatha-x-65k-gaming-mouse-with-new-sensor-and-hot-swappable-switches"
     }
   ]
 }
