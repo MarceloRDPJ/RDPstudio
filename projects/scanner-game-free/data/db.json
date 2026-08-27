@@ -1,31 +1,11 @@
 {
-  "last_updated": "2026-08-26T12:50:01",
-  "display_date": "26/08/2026 12:50",
+  "last_updated": "2026-08-27T21:50:51",
+  "display_date": "27/08/2026 21:50",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "87ms",
+    "latency": "125ms",
     "current_games": [
-      {
-        "title": "Cardpocalypse Standard Edition",
-        "description": "Jess, de 10 anos, acidentalmente bane o jogo de cartas colecionável favorito de todos na escola primária de Dudsdale - pior ainda, é seu primeiro dia! Mas quando surgem problemas e os mutantes do jogo começam a ganhar vida, cabe a Jess e seus amigos detê-los. Torne-se um Mega...",
-        "image": "https://cdn1.epicgames.com/offer/2bfd5ca43ef443739ada168e017e1b78/s1_2560x1440-8d68e37943d666ad0f05093481c4d7df",
-        "url": "https://store.epicgames.com/p/cardpocalypsegeneralaudience",
-        "price": "$24.99",
-        "start_date": "2026-08-20T15:00:00.000Z",
-        "end_date": "2026-08-27T15:00:00.000Z"
-      },
-      {
-        "title": "Epic Mage Bundle",
-        "description": "Reivindique um presente grátis mágico avaliado em mais de US$ 55! Melhore sua jornada em Albion com itens de beleza encantados, duas skins de montaria exclusivas e um tesouro de recompensas de progressão essenciais.",
-        "image": "https://cdn1.epicgames.com/spt-assets/92837229023341268267ff64cae425a5/albion-online-7k7df.png",
-        "url": "https://store.epicgames.com/p/epic-mage-bundle",
-        "price": "0",
-        "start_date": "2026-08-20T15:00:00.000Z",
-        "end_date": "2026-08-27T15:00:00.000Z"
-      }
-    ],
-    "upcoming_games": [
       {
         "title": "Breathedge",
         "description": "Sobreviva no espaço sideral! Junto com sua galinha imortal, descubra a verdade por trás da queda repentina de sua nave espacial. Crie ferramentas, pilote veículos e até controle estações espaciais para sobreviver e explorar os destroços.",
@@ -35,6 +15,17 @@
         "start_date": "2026-08-27T15:00:00.000Z",
         "end_date": "2026-09-03T15:00:00.000Z"
       },
+      {
+        "title": "Rival Stars Horse Racing : Desktop Edition",
+        "description": "Com cavalos impressionantes e realistas, um sistema de criação aprofundado e uma variedade de modos de jogo emocionantes, Rival Stars Horse Racing oferece aos fãs de cavalos a melhor experiência em corridas e equitação. Assuma as rédeas e torne-se uma lenda equestre!",
+        "image": "https://cdn1.epicgames.com/spt-assets/3355791f5b4740618adac242cf0dd46c/rival-stars-horse-racing-scu1x.jpg",
+        "url": "https://store.epicgames.com/p/c27af3c6ec3a47afb720e580138de63e",
+        "price": "$24.99",
+        "start_date": "2026-08-27T15:00:00.000Z",
+        "end_date": "2026-09-03T15:00:00.000Z"
+      }
+    ],
+    "upcoming_games": [
       {
         "title": "Breathedge",
         "description": "Sobreviva no espaço sideral! Junto com sua galinha imortal, descubra a verdade por trás da queda repentina de sua nave espacial. Crie ferramentas, pilote veículos e até controle estações espaciais para sobreviver e explorar os destroços.",
@@ -90,64 +81,49 @@
         "end_date": "2026-09-17T15:00:00.000Z"
       },
       {
-        "title": "Rival Stars Horse Racing : Desktop Edition",
-        "description": "Com cavalos impressionantes e realistas, um sistema de criação aprofundado e uma variedade de modos de jogo emocionantes, Rival Stars Horse Racing oferece aos fãs de cavalos a melhor experiência em corridas e equitação. Assuma as rédeas e torne-se uma lenda equestre!",
-        "image": "https://cdn1.epicgames.com/spt-assets/3355791f5b4740618adac242cf0dd46c/rival-stars-horse-racing-scu1x.jpg",
-        "url": "https://store.epicgames.com/p/c27af3c6ec3a47afb720e580138de63e",
-        "price": "$24.99",
-        "start_date": "2026-08-27T15:00:00.000Z",
-        "end_date": "2026-09-03T15:00:00.000Z"
+        "title": "Alone With You",
+        "description": "ALONE WITH YOU é um jogo de aventura de ficção científica de apontar e clicar que conta uma rica história sobre relacionamentos. Você é o último sobrevivente de uma colônia espacial condenada, tentando escapar de um planeta antes que ele imploda ao seu redor.",
+        "image": "https://cdn1.epicgames.com/spt-assets/04b7a1d78c904065b5c24f9e7816c99a/alone-with-you-cllc3.png",
+        "url": "https://store.epicgames.com/p/68a0e4e0a68d42ffba405593a89c55ba",
+        "price": "$9.99",
+        "start_date": "2026-09-03T15:00:00.000Z",
+        "end_date": "2026-09-10T15:00:00.000Z"
       }
     ],
     "mystery_detected": false
   },
   "items": [
     {
-      "id": "https://store.epicgames.com/p/cardpocalypsegeneralaudience",
-      "title": "GRÁTIS: Cardpocalypse Standard Edition",
-      "original_title": "Cardpocalypse Standard Edition",
-      "image": "https://cdn1.epicgames.com/offer/2bfd5ca43ef443739ada168e017e1b78/s1_2560x1440-8d68e37943d666ad0f05093481c4d7df",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Free Games",
-      "date": "2026-08-26",
-      "summary": "Jess, de 10 anos, acidentalmente bane o jogo de cartas colecionável favorito de todos na escola primária de Dudsdale - pior ainda, é seu primeiro dia! Mas quando surgem problemas e os mutantes do jogo começam a ganhar vida, cabe a Jess e seus amigos detê-los. Torne-se um Mega...",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/cardpocalypsegeneralaudience"
-    },
-    {
-      "id": "https://store.epicgames.com/p/epic-mage-bundle",
-      "title": "GRÁTIS: Epic Mage Bundle",
-      "original_title": "Epic Mage Bundle",
-      "image": "https://cdn1.epicgames.com/spt-assets/92837229023341268267ff64cae425a5/albion-online-7k7df.png",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Free Games",
-      "date": "2026-08-26",
-      "summary": "Reivindique um presente grátis mágico avaliado em mais de US$ 55! Melhore sua jornada em Albion com itens de beleza encantados, duas skins de montaria exclusivas e um tesouro de recompensas de progressão essenciais.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/epic-mage-bundle"
-    },
-    {
       "id": "https://store.epicgames.com/p/osmiumgeneralaudience",
-      "title": "EM BREVE: Breathedge",
+      "title": "GRÁTIS: Breathedge",
       "original_title": "Breathedge",
       "image": "https://cdn1.epicgames.com/08ae29e4f70a4b62aa055e383381aa82/offer/egs-breathedge-redruinssoftworks-s1-2560x1440-76fd08cd9c2d-2560x1440-783424f6d4a7f32a0e75fc074f2f928e.jpg",
       "source_count": 1,
       "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-08-26",
-      "summary": "Disponível gratuitamente a partir de 27/08. Sobreviva no espaço sideral! Junto com sua galinha imortal, descubra a verdade por trás da queda repentina de sua nave espacial. Crie ferramentas, pilote veículos e até controle estações espaciais para sobreviver e explorar os destroços.",
+      "category": "Free Games",
+      "date": "2026-08-27",
+      "summary": "Sobreviva no espaço sideral! Junto com sua galinha imortal, descubra a verdade por trás da queda repentina de sua nave espacial. Crie ferramentas, pilote veículos e até controle estações espaciais para sobreviver e explorar os destroços.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/osmiumgeneralaudience"
     },
     {
+      "id": "https://store.epicgames.com/p/c27af3c6ec3a47afb720e580138de63e",
+      "title": "GRÁTIS: Rival Stars Horse Racing : Desktop Edition",
+      "original_title": "Rival Stars Horse Racing : Desktop Edition",
+      "image": "https://cdn1.epicgames.com/spt-assets/3355791f5b4740618adac242cf0dd46c/rival-stars-horse-racing-scu1x.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Free Games",
+      "date": "2026-08-27",
+      "summary": "Com cavalos impressionantes e realistas, um sistema de criação aprofundado e uma variedade de modos de jogo emocionantes, Rival Stars Horse Racing oferece aos fãs de cavalos a melhor experiência em corridas e equitação. Assuma as rédeas e torne-se uma lenda equestre!",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/c27af3c6ec3a47afb720e580138de63e"
+    },
+    {
       "id": "https://store.epicgames.com/p/osmiumgeneralaudience",
       "title": "EM BREVE: Breathedge",
       "original_title": "Breathedge",
@@ -155,7 +131,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-08-26",
+      "date": "2026-08-27",
       "summary": "Disponível gratuitamente a partir de 03/09. Sobreviva no espaço sideral! Junto com sua galinha imortal, descubra a verdade por trás da queda repentina de sua nave espacial. Crie ferramentas, pilote veículos e até controle estações espaciais para sobreviver e explorar os destroços.",
       "sources": [
         "Epic Games Store"
@@ -170,7 +146,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-08-26",
+      "date": "2026-08-27",
       "summary": "Disponível gratuitamente a partir de 10/09. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cyber ninja.",
       "sources": [
         "Epic Games Store"
@@ -185,7 +161,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-08-26",
+      "date": "2026-08-27",
       "summary": "Disponível gratuitamente a partir de 30/08. The Old Ones Awaken adiciona novos níveis para explorar, novos inimigos para derrotar e novos chefes para enfrentar, juntamente com uma série de novas armas e equipamentos emocionantes para empunhar e usar.",
       "sources": [
         "Epic Games Store"
@@ -200,7 +176,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-08-26",
+      "date": "2026-08-27",
       "summary": "Disponível gratuitamente a partir de 17/09. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
@@ -215,7 +191,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-08-26",
+      "date": "2026-08-27",
       "summary": "Disponível gratuitamente a partir de 03/09. A Coleção de Aniversário de Castlevania da Konami traça as origens da histórica franquia de vampiros. Está incluído um e-book exclusivo com detalhes fornecidos por desenvolvedores, artistas e outros inspirados no legado de Castlevania, que lança uma nova luz sobre o mundo de Castlevania.",
       "sources": [
         "Epic Games Store"
@@ -230,7 +206,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-08-26",
+      "date": "2026-08-27",
       "summary": "Disponível gratuitamente a partir de 03/09. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
       "sources": [
         "Epic Games Store"
@@ -238,319 +214,454 @@
       "url": "https://store.epicgames.com/p/monument-valley-02"
     },
     {
-      "id": "https://store.epicgames.com/p/c27af3c6ec3a47afb720e580138de63e",
-      "title": "EM BREVE: Rival Stars Horse Racing : Desktop Edition",
-      "original_title": "Rival Stars Horse Racing : Desktop Edition",
-      "image": "https://cdn1.epicgames.com/spt-assets/3355791f5b4740618adac242cf0dd46c/rival-stars-horse-racing-scu1x.jpg",
+      "id": "https://store.epicgames.com/p/68a0e4e0a68d42ffba405593a89c55ba",
+      "title": "EM BREVE: Alone With You",
+      "original_title": "Alone With You",
+      "image": "https://cdn1.epicgames.com/spt-assets/04b7a1d78c904065b5c24f9e7816c99a/alone-with-you-cllc3.png",
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-08-26",
-      "summary": "Disponível gratuitamente a partir de 27/08. Com cavalos impressionantes e realistas, um sistema de criação aprofundado e uma variedade de modos de jogo emocionantes, Rival Stars Horse Racing oferece aos fãs de cavalos a melhor experiência em corridas e equitação. Assuma as rédeas e torne-se uma lenda equestre!",
+      "date": "2026-08-27",
+      "summary": "Disponível gratuitamente a partir de 03/09. ALONE WITH YOU é um jogo de aventura de ficção científica de apontar e clicar que conta uma rica história sobre relacionamentos. Você é o último sobrevivente de uma colônia espacial condenada, tentando escapar de um planeta antes que ele imploda ao seu redor.",
       "sources": [
         "Epic Games Store"
       ],
-      "url": "https://store.epicgames.com/p/c27af3c6ec3a47afb720e580138de63e"
+      "url": "https://store.epicgames.com/p/68a0e4e0a68d42ffba405593a89c55ba"
     },
     {
-      "id": "https://www.eurogamer.net/state-of-decay-3-lives-on-after-studios-separation-from-xbox-with-a-closed-beta-promised-for-this-year",
-      "title": "State of Decay 3 continua vivo após a separação do estúdio do Xbox, com um beta fechado prometido para este ano",
-      "original_title": "State of Decay 3 lives on after studio's separation from Xbox, with a closed beta promised for this year",
-      "image": "https://assetsio.gnwcdn.com/Image-from-State-of-Decay-3-showing-a-male-character-with-a-crossbow-and-a-backpack.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/gta-6-map-size-length-how-big-revealed",
+      "title": "O mapa do GTA 6 é tão grande que você poderia colocar dois GTA 5 nele – e sabemos aproximadamente quanto tempo levará para vencê-lo também",
+      "original_title": "GTA 6's map is so massive, you could fit two GTA 5s in it - and we know roughly how long it'll take to beat too",
+      "image": "https://assetsio.gnwcdn.com/GTA-6-Extended-Look-Sky-Diving.png?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-08-26",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-08-27",
+      "summary": "Como parte de sua enorme divulgação de informações sobre GTA 6, a Rockstar tem falado sobre tamanhos - tanto do tipo de mapa quanto do comprimento - confirmando que seu mais recente épico de mundo aberto se desenrola em um mundo que é duas vezes maior que o de GTA 5 e deve levar cerca de 80 horas para...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/state-of-decay-3-lives-on-after-studios-separation-from-xbox-with-a-closed-beta-promised-for-this-year"
+      "url": "https://www.eurogamer.net/gta-6-map-size-length-how-big-revealed"
     },
     {
-      "id": "https://www.eurogamer.net/anime-rpg-ananta-release-date-january-pre-registrations",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Hugely anticipated anime RPG Ananta gets a January release date, as pre-registrations hit a whopping 17m sign-ups",
-      "image": "https://assetsio.gnwcdn.com/Ananta_5q4mv6M.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/twitch-down-outage-grand-theft-auto-6",
+      "title": "Twitch sofre grande interrupção após a estreia do trailer de gameplay estendido de Grand Theft Auto 6",
+      "original_title": "Twitch suffers major outage following Grand Theft Auto 6's extended look gameplay trailer premiere",
+      "image": "https://assetsio.gnwcdn.com/grand-theft-auto-6-man-holding-phone-near-lucia.png?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-08-26",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-08-27",
+      "summary": "A popular plataforma de transmissão ao vivo Twitch sofreu uma grande interrupção logo após a estreia do visual estendido de Grand Theft Auto 6 na Netflix. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/anime-rpg-ananta-release-date-january-pre-registrations"
+      "url": "https://www.eurogamer.net/twitch-down-outage-grand-theft-auto-6"
     },
     {
-      "id": "https://www.eurogamer.net/gta-6-leaks-rockstar-statement-spoilers",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Rockstar issues statement on GTA 6 gameplay leaks, calling them \"heartbreaking\" and warning they may include some spoilers",
-      "image": "https://assetsio.gnwcdn.com/gta-6-vintage-pack-crop-1.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/gta-6-has-more-than-10-times-the-animations-in-gta-5-and-double-the-amount-in-red-dead-redemption-2-rockstar-confirms",
+      "title": "GTA 6 tem mais de 10 vezes mais animações do GTA 5 e o dobro do Red Dead Redemption 2, confirma Rockstar",
+      "original_title": "GTA 6 has more than 10 times the animations in GTA 5, and double the amount in Red Dead Redemption 2, Rockstar confirms",
+      "image": "https://assetsio.gnwcdn.com/GTA-6-Extended-Look-Masks.png?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
+      "category": "News",
+      "date": "2026-08-27",
+      "summary": "Todo mundo esperava que GTA 6 fosse enorme, claro, mas comparar a quantidade de animações exclusivas do jogo com o que foi incluído no trabalho anterior da Rockstar Games realmente coloca as coisas em perspectiva. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/gta-6-has-more-than-10-times-the-animations-in-gta-5-and-double-the-amount-in-red-dead-redemption-2-rockstar-confirms"
+    },
+    {
+      "id": "https://www.eurogamer.net/gta-6-reaction-this-is-what-a-billion-dollars-gets-you",
+      "title": "GTA 6: Isso é o que você ganha com um bilhão de dólares",
+      "original_title": "GTA 6: This is what a billion dollars gets you",
+      "image": "https://assetsio.gnwcdn.com/grand-theft-auto-6-city-shot-sunset.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-08-27",
+      "summary": "Existem muitas camadas no GTA 6, se o teaser do Netflix de 26 minutos do jogo servir de referência. Leia mais...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/gta-6-reaction-this-is-what-a-billion-dollars-gets-you"
+    },
+    {
+      "id": "https://www.eurogamer.net/gta-6-shift-towards-realism-rockstar-taking-huge-risk",
+      "title": "A aparente mudança do GTA 6 em direção ao ultra-realismo estranho é um risco enorme – e é exatamente por isso que é a coisa certa a fazer",
+      "original_title": "GTA 6's apparent shift towards awkward ultra-realism is a huge risk - and that's exactly why it's the right thing to do",
+      "image": "https://assetsio.gnwcdn.com/GTA-6-Extended-Look-Raul.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-08-27",
+      "summary": "Junte todas as várias informações díspares divulgadas sobre Grand Theft Auto 6 desde sua grande estreia no Netflix e você poderá detectar um padrão emergente: a Rockstar está se tornando completa, com realismo no estilo Red Dead Redemption 2 com GTA 6. Em ...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/gta-6-shift-towards-realism-rockstar-taking-huge-risk"
+    },
+    {
+      "id": "https://www.eurogamer.net/gta-6-activities-things-to-do-spotted-so-far",
+      "title": "Todas as atividades que vimos no trailer estendido e nas prévias do GTA 6 até agora",
+      "original_title": "Every activity we've spotted in GTA 6's extended look trailer and previews so far",
+      "image": "https://assetsio.gnwcdn.com/grand-theft-auto-6-lucia-lifting-weights.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-08-27",
+      "summary": "Qualquer pessoa que já tenha jogado Grand Theft Auto antes dirá que grande parte da diversão vem de tudo o que você pode fazer fora das sequências de história roteirizadas. GTA 6 procura oferecer uma ampla gama de coisas para fazer em Leonida que não incluem atirar em pessoas...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/gta-6-activities-things-to-do-spotted-so-far"
+    },
+    {
+      "id": "https://www.eurogamer.net/grand-theft-auto-6-netflix-something-went-wrong",
+      "title": "A estreia do trailer do Netflix de GTA 6 foi tão popular que travou temporariamente o serviço de streaming",
+      "original_title": "GTA 6's Netflix trailer premiere was so popular it temporarily crashed the streaming service",
+      "image": "https://assetsio.gnwcdn.com/gta-crash.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-08-27",
+      "summary": "Aqueles ansiosos para ver a grande revelação do Netflix de GTA 6 esta noite foram recebidos com uma mensagem “Algo deu errado” no momento em que o vídeo deveria ir ao ar, com a pressa para ver o mais recente épico de mundo aberto da Rockstar aparentemente trazendo o serviço de streaming para...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/grand-theft-auto-6-netflix-something-went-wrong"
+    },
+    {
+      "id": "https://www.eurogamer.net/gta-6-romance-relationship-system-jason-lucia",
+      "title": "GTA 6 tem um sistema de relacionamento e parece que você pode fazer ou destruir o romance de Jason e Lucia",
+      "original_title": "GTA 6 has a relationship system, and it sounds as though you can make-or-break Jason and Lucia's romance",
+      "image": "https://assetsio.gnwcdn.com/grand-theft-auto-6-lady-phone.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-08-27",
+      "summary": "A Rockstar revelou um sistema de relacionamento em Grand Theft Auto 6, para sustentar e apoiar o vínculo entre os co-protagonistas e amantes Jason e Lucia. Usando este sistema você pode nutrir o vínculo deles, aproximando-os, ou negligenciá-lo, po...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/gta-6-romance-relationship-system-jason-lucia"
+    },
+    {
+      "id": "https://www.eurogamer.net/gta-6-driving-car-theft-more-challenging-rockstar-realism-push",
+      "title": "A direção e o roubo de carros do GTA 6 serão “mais desafiadores”, diz a Rockstar, em meio a um impulso aparentemente grande pelo realismo",
+      "original_title": "GTA 6's driving and car-jacking will be \"more challenging\", Rockstar says, amid a seemingly big push for realism",
+      "image": "https://assetsio.gnwcdn.com/grand-theft-auto-6-lucia-screaming-car.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-08-27",
+      "summary": "Dois dos sistemas entrelaçados mais proeminentes da série Grand Theft Auto - roubar carros e dirigi-los - estão prestes a sofrer uma grande mudança em Grand Theft Auto 6, já que a desenvolvedora Rockstar disse que os sistemas pick-up-and-play agora serão \"mais c...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/gta-6-driving-car-theft-more-challenging-rockstar-realism-push"
+    },
+    {
+      "id": "https://www.eurogamer.net/gta-6-revamping-wanted-system-adding-criminal-profiles",
+      "title": "GTA 6 está renovando o sistema de procurados e oferecendo um perfil criminal",
+      "original_title": "GTA 6 is revamping the Wanted system and giving you a Criminal Profile",
+      "image": "https://assetsio.gnwcdn.com/grand-theft-auto-6-police-car.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-08-27",
+      "summary": "Talvez não haja nenhum recurso de jogo que seja mais sinônimo de Grand Theft Auto do que o sistema Wanted da série. Mas, como muitas das mecânicas que sustentam o núcleo da série, ao que parece, o sistema Wanted em GTA 6 evoluiu de maneira significativa....",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/gta-6-revamping-wanted-system-adding-criminal-profiles"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w01g81/gta_6_leaks_could_be_over_as_cyberleek_withdraws/",
+      "title": "Vazamentos de GTA 6 podem acabar enquanto Cyberleek retira US$ 250.000 e deixa Memecoin para quebrar",
+      "original_title": "GTA 6 Leaks Could Be Over As Cyberleek Withdraws $250,000 And Leaves Memecoin To Crash",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
       "category": "Rumor",
-      "date": "2026-08-26",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-08-27",
+      "summary": "Artigo aqui: https://kotaku.com/gta6-grand-theft-auto-6-leaks-cyberleek-memecoin-rockstar-cash-out-2000728825 enviado por /u/catman1900 [link] [comentários]...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/gta-6-leaks-rockstar-statement-spoilers"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w01g81/gta_6_leaks_could_be_over_as_cyberleek_withdraws/"
     },
     {
-      "id": "https://www.eurogamer.net/crimson-desert-enhanced-patch-2-00-details",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Crimson Desert Enhanced is a free upgrade that's out now and revamps the story, adds new skills and comes with all previously-released updates",
-      "image": "https://assetsio.gnwcdn.com/crimson-desert-screen-crop-1.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w05hn6/a_lot_of_new_information_from_brazilian_youtube/",
+      "title": "MUITAS informações novas do YouTube brasileiro \"Davy Jones\"",
+      "original_title": "A LOT of new information from Brazilian YouTube \"Davy Jones\"",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
       "category": "News",
-      "date": "2026-08-26",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-08-27",
+      "summary": "> Não será possível capotar o carro; será \"menos parecido com um arcade\". -> GTA 6 rodará a 30 fps em todos os consoles. -> Quando o telefone é aberto, a câmera dá um zoom por cima do ombro na tela. -> O mapa tem o dobro do tamanho do GTA 5,...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/crimson-desert-enhanced-patch-2-00-details"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w05hn6/a_lot_of_new_information_from_brazilian_youtube/"
     },
     {
-      "id": "https://www.eurogamer.net/tides-of-annihilation-hands-on-preview-gamescom",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Having played it, Tides of Annihilation looks to be a flashy, combo-heavy game of Simon Says",
-      "image": "https://assetsio.gnwcdn.com/tides-of-annihilation-2.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w03p6g/rockstar_confirms_they_briefly_considered_having/",
+      "title": "Rockstar confirma que considerou brevemente ter quatro protagonistas em GTA 6",
+      "original_title": "Rockstar confirms they briefly considered having four protagonists in GTA 6",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
       "category": "News",
-      "date": "2026-08-26",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-08-27",
+      "summary": "Boato anterior de 2022 (artigo de Jason na Bloomberg): https://www.reddit.com/r/GamingLeaksAndRumours/comments/wc447h/scrapped_gta_6_plans_included_3_cities_and_4/ Fonte: https://www.ign.com/articles/gta-6-four-protagonists-considered-by-rockstar ...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/tides-of-annihilation-hands-on-preview-gamescom"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w03p6g/rockstar_confirms_they_briefly_considered_having/"
     },
     {
-      "id": "https://www.eurogamer.net/path-of-exile-2-version-1-0-free-to-play-date",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Path of Exile 2 finally has its 1.0 release date and it's coming this year",
-      "image": "https://assetsio.gnwcdn.com/path-of-exile-2-duelist-key-art-crop-1.jpeg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w02qry/modders_unlock_experimental_nvidia_dlss_5_hours/",
+      "title": "Modders desbloqueiam NVIDIA DLSS experimental 5 horas após descoberta de DLL",
+      "original_title": "Modders unlock experimental NVIDIA DLSS 5 hours after DLL discovery",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
       "category": "News",
-      "date": "2026-08-26",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-08-27",
+      "summary": "Vídeo do YouTube mostrando comparações: https://www.youtube.com/watch?v=oxXdIVc9Suo Fonte: https://videocardz.com/newz/breaking-modders-unlock-experimental-nvidia-dlss-5-hours-after-dll-discovery Hoje cedo, informamos que o acesso antecipado do NBA 2K27 shi...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/path-of-exile-2-version-1-0-free-to-play-date"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w02qry/modders_unlock_experimental_nvidia_dlss_5_hours/"
     },
     {
-      "id": "https://www.eurogamer.net/witcher-3-songs-of-the-past-romance-geralt",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "It sure seems like The Witcher 3: Songs of the Past is introducing at least one new romanceable character for Geralt to woo",
-      "image": "https://assetsio.gnwcdn.com/witcher-3-songs-of-past-romance.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w02vb4/ign_leaks_a_new_screenshot_of_jason_just_before/",
+      "title": "IGN vaza uma nova captura de tela de Jason pouco antes do Extended Look",
+      "original_title": "IGN leaks a new screenshot of Jason just before the Extended Look",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-08-26",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "reliability": "Medium",
+      "category": "Rumor",
+      "date": "2026-08-27",
+      "summary": "Mesma roupa do vazamento da Rideout Customs IGN retirou a postagem haha ​​Imagem: https://ibb.co/PGmdsbBk enviada por /u/ZamnBoii [link] [comentários]...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/witcher-3-songs-of-the-past-romance-geralt"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w02vb4/ign_leaks_a_new_screenshot_of_jason_just_before/"
     },
     {
-      "id": "https://www.eurogamer.net/witcher-3-songs-of-the-past-story-written-years-ago-interview",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "The story for Witcher 3: Songs of the Past was actually written  \"years ago\", according to Fool's Theory CEO",
-      "image": "https://assetsio.gnwcdn.com/songs-of-the-past-header.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vzvkn4/possible_gta_6_handson_experience_happened_at/",
+      "title": "Possível experiência prática de GTA 6 aconteceu na Rockstar North",
+      "original_title": "Possible GTA 6 hands-on experience happened at Rockstar North",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
       "category": "News",
-      "date": "2026-08-26",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-08-27",
+      "summary": "(Não é possível postar o link, pois este subreddit requer xcancel para links X, mas xcancel está atualmente morto) MikeShowSha (o youtuber italiano selecionado pela Rockstar e convidado na sede da Rockstar North) está sugerindo em seu último post X uma experiência prática que ele ...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/witcher-3-songs-of-the-past-story-written-years-ago-interview"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vzvkn4/possible_gta_6_handson_experience_happened_at/"
     },
     {
-      "id": "https://www.eurogamer.net/heroes-of-might-and-magic-3-remade-ubisoft",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "The legendary Heroes of Might and Magic 3 is being remade by Ubisoft, and while it's visually redone, it's reportedly like-for-like in terms of gameplay",
-      "image": "https://assetsio.gnwcdn.com/heroes-of-might-and-magic-remake-11.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vzti4v/tom_warren_im_not_expecting_to_see_forza_horizon/",
+      "title": "Tom Warren: “Não espero ver Forza Horizon 6 no PS5 em 2026”",
+      "original_title": "Tom Warren: \"I'm not expecting to see Forza Horizon 6 on PS5 in 2026\"",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
       "category": "News",
-      "date": "2026-08-26",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-08-27",
+      "summary": "É verdade que há uma chance de que ele esteja especulando aqui. Ele diz que definitivamente ainda está sendo lançado. Fonte: https://twitterwebviewer.com/?tweet=2092876324683526568 enviado por /u/Blue_Sheepz [link] [comentários]...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/heroes-of-might-and-magic-3-remade-ubisoft"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vzti4v/tom_warren_im_not_expecting_to_see_forza_horizon/"
     },
     {
-      "id": "https://www.eurogamer.net/humankind-2-announcement-trailer-gamescom-ai-studio-response",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "No, the Humankind 2 announcement trailer wasn't made with gen-AI, despite it sharing a similar kind of look",
-      "image": "https://assetsio.gnwcdn.com/humankind-2-trailer-shot-crop-3.jpeg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vzy0gl/potential_leak_of_the_danganronpa_2x2_release/",
+      "title": "Potencial vazamento da data de lançamento de Danganronpa 2x2 e arte do pôster",
+      "original_title": "Potential leak of the Danganronpa 2x2 Release Date and poster artwork",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-08-26",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "reliability": "Medium",
+      "category": "Rumor",
+      "date": "2026-08-27",
+      "summary": "VAZAMENTO Hoje cedo no subreddit r/danganronpa, um pôster do próximo remake de Danganronpa 2 vazou. Outra postagem aponta que usando a pesquisa reversa de imagens do Google, algumas partes da obra de arte podem ser vinculadas diretamente ao Dangan oficial...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/humankind-2-announcement-trailer-gamescom-ai-studio-response"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vzy0gl/potential_leak_of_the_danganronpa_2x2_release/"
     },
     {
-      "id": "https://www.techpowerup.com/351977/samsung-showcases-p9-and-p7-ssds-featuring-usb4-at-gamescom-2026",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "(PR) Samsung Showcases P9 and P7 SSDs Featuring USB4 at Gamescom 2026",
-      "image": "https://tpucdn.com/img/DS1vKNcCho0ZE6gT_thm.jpg",
+      "id": "https://www.techpowerup.com/352059/xeron-debuts-nex-a61-argb-cpu-air-coolers-and-affordable-case-fans-at-gamescom",
+      "title": "Xeron lança coolers de ar para CPU Nex A61 ARGB e ventiladores de gabinete acessíveis na Gamescom",
+      "original_title": "Xeron Debuts Nex A61 ARGB CPU Air Coolers and Affordable Case Fans at Gamescom",
+      "image": "https://tpucdn.com/img/zQ1flLyJaClW1FjW_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-08-26",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-08-27",
+      "summary": "Xeron, a empresa de hardware para PC que lançou recentemente na Computex 2026, cujos gabinetes e coolers líquidos AIO já vimos na Gamescom, também lançou o NEX A61 ARGB, um novo cooler em torre de CPU projetado para o soquete AM5 da AMD. O cooler da torre de CPU ...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/351977/samsung-showcases-p9-and-p7-ssds-featuring-usb4-at-gamescom-2026"
+      "url": "https://www.techpowerup.com/352059/xeron-debuts-nex-a61-argb-cpu-air-coolers-and-affordable-case-fans-at-gamescom"
     },
     {
-      "id": "https://www.techpowerup.com/351976/memory-prices-soar-dram-and-nand-flash-to-account-for-68-of-major-csp-capex-in-2027",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "(PR) Memory Prices Soar; DRAM and NAND Flash to Account for 68% of Major CSP CapEx in 2027",
-      "image": "https://tpucdn.com/img/dXwr1ewxyh6GP9RL_thm.jpg",
+      "id": "https://www.techpowerup.com/352058/xeron-shows-off-c-lab-semi-open-air-pc-cases-at-gamescom-2026",
+      "title": "Xeron mostra gabinetes de PC semi-abertos C Lab na Gamescom 2026",
+      "original_title": "Xeron Shows Off C Lab Semi-Open-Air PC Cases At Gamescom 2026",
+      "image": "https://tpucdn.com/img/cgjqUU1YHDofvYZn_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-08-26",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-08-27",
+      "summary": "Após seu lançamento na Computex no início deste ano, a Xeron fez uma aparição na Gamescom 2026, lançando uma linha de coolers ARGB AIO chamativos e com preços razoáveis ​​para construções de PC DIY. Também na Gamescom, a nova equipe de hardware exibiu sua linha de C...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/351976/memory-prices-soar-dram-and-nand-flash-to-account-for-68-of-major-csp-capex-in-2027"
+      "url": "https://www.techpowerup.com/352058/xeron-shows-off-c-lab-semi-open-air-pc-cases-at-gamescom-2026"
     },
     {
-      "id": "https://www.techpowerup.com/351974/turtle-beach-launches-vulcan-ii-xp-gaming-keyboard",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "(PR) Turtle Beach Launches Vulcan II XP Gaming Keyboard",
-      "image": "https://tpucdn.com/img/zbkOGMD8TKAFq6uf_thm.jpg",
+      "id": "https://www.techpowerup.com/352055/windows-11-26h2-goes-into-release-preview-channel",
+      "title": "Windows 11 26H2 entra no canal de pré-lançamento",
+      "original_title": "Windows 11 26H2 Goes Into Release Preview Channel",
+      "image": "https://tpucdn.com/img/oInduQd6AonhKCnq_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-08-26",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-08-27",
+      "summary": "A Microsoft lançou o Windows 11 versão 26H2 para o Release Preview Channel, com número de compilação 26300.9278, para Windows Insiders. Como mencionamos há poucos dias, o Windows 11 26H2 é um dos lançamentos mais enfadonhos em termos de novos recursos. Esse ...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/351974/turtle-beach-launches-vulcan-ii-xp-gaming-keyboard"
+      "url": "https://www.techpowerup.com/352055/windows-11-26h2-goes-into-release-preview-channel"
     },
     {
-      "id": "https://www.techpowerup.com/351973/2026-msi-katana-15-hx-gaming-laptop-is-now-available",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "(PR) 2026 MSI Katana 15 HX Gaming Laptop Is Now Available",
-      "image": "https://tpucdn.com/img/NCdRfNEkg8EpaZg7_thm.jpg",
+      "id": "https://www.techpowerup.com/352054/windows-11-gets-major-taskbar-and-start-menu-customization-in-new-feature-update",
+      "title": "Windows 11 obtém grande personalização da barra de tarefas e do menu Iniciar em nova atualização de recursos",
+      "original_title": "Windows 11 Gets Major Taskbar and Start Menu Customization in New Feature Update",
+      "image": "https://tpucdn.com/img/LzjY8PT8uIxqR02X_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-08-26",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-08-27",
+      "summary": "A Microsoft começou a lançar uma nova atualização de recurso KB5120998 para Windows 11, introduzindo mudanças visuais significativas na experiência do usuário. Entre as adições notáveis ​​está a tão esperada personalização expandida da barra de tarefas, permitindo aos usuários posicionar...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/351973/2026-msi-katana-15-hx-gaming-laptop-is-now-available"
+      "url": "https://www.techpowerup.com/352054/windows-11-gets-major-taskbar-and-start-menu-customization-in-new-feature-update"
     },
     {
-      "id": "https://www.techpowerup.com/351972/intel-arc-gpu-graphics-drivers-101-8891-whql-released",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Intel Arc GPU Graphics Drivers 101.8891 WHQL Released",
-      "image": "https://tpucdn.com/img/3uCH5CNwV9frTT7S_thm.jpg",
+      "id": "https://www.techpowerup.com/352052/xeron-launches-nex-l360-argb-aio-liquid-cpu-coolers-at-gamescom-2026",
+      "title": "XERON lança coolers líquidos para CPU NEX L360 ARGB AIO na Gamescom 2026",
+      "original_title": "XERON Launches NEX L360 ARGB AIO Liquid CPU Coolers at Gamescom 2026",
+      "image": "https://tpucdn.com/img/obxyW2lFAVvHY7HL_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-08-26",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-08-27",
+      "summary": "A Xeron fez sua estreia global na Computex 2026 no início deste ano e agora está mostrando a programação completa na Gamescom 2026, dando ao público europeu a primeira visão do portfólio completo, abrangendo gabinetes, coolers, fontes de alimentação, pastas térmicas e...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/351972/intel-arc-gpu-graphics-drivers-101-8891-whql-released"
+      "url": "https://www.techpowerup.com/352052/xeron-launches-nex-l360-argb-aio-liquid-cpu-coolers-at-gamescom-2026"
     },
     {
       "id": "https://www.techpowerup.com/351882/while-everyones-chasing-ai-coding-agents-this-ide-is-usd-30-for-life",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "Enquanto todo mundo está perseguindo agentes de codificação de IA, este IDE custa US$ 30 vitalícios",
       "original_title": "While Everyone's Chasing AI Coding Agents, This IDE Is $30 for Life",
       "image": "https://tpucdn.com/img/BA4I6lesGLCFFrrn_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-08-26",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-08-27",
+      "summary": "OpenAI, Anthropic e Google promoveram atualizações importantes em seus modelos de codificação, Cursor acaba de ultrapassar US$ 1 bilhão em receita recorrente anual e os desenvolvedores estão adotando a IA em um ritmo cada vez maior. Por trás de todo esse hype, a maior parte desse código ainda fica errada...",
       "sources": [
         "TechPowerUp"
       ],
       "url": "https://www.techpowerup.com/351882/while-everyones-chasing-ai-coding-agents-this-ide-is-usd-30-for-life"
     },
     {
-      "id": "https://www.techpowerup.com/351965/worms-galactic-tactics-announced-at-gamescom-as-tactical-roguelike-with-destructible-environments",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Worms: Galactic Tactics Announced at Gamescom As Tactical Roguelike With Destructible Environments",
-      "image": "https://tpucdn.com/img/VRsU2TxWh1jnrMVR_thm.jpg",
+      "id": "https://www.techpowerup.com/352048/warlock-dungeons-dragons-game-previewed-at-gamescom-with-responsive-environments",
+      "title": "Jogo Warlock: Dungeons & Dragons apresentado na Gamescom com ambientes responsivos",
+      "original_title": "Warlock: Dungeons & Dragons Game Previewed at Gamescom with Responsive Environments",
+      "image": "https://tpucdn.com/img/cMMthPaGC5ltLWab_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-08-26",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-08-27",
+      "summary": "Já se sabe há algum tempo que a Wizards of the Coast está trabalhando em um novo jogo ambientado no universo Dungeons & Dragons, e na Gamescom Opening Night Live, revelou Warlock: Dungeons & Dragons, um RPG de terceira pessoa para um jogador em desenvolvimento...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/351965/worms-galactic-tactics-announced-at-gamescom-as-tactical-roguelike-with-destructible-environments"
+      "url": "https://www.techpowerup.com/352048/warlock-dungeons-dragons-game-previewed-at-gamescom-with-responsive-environments"
     },
     {
-      "id": "https://www.techpowerup.com/351964/kbd0-launches-stainless-steel-curve0-v2-keywell-mechanical-keyboard",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "KBD0 Launches Stainless Steel Curve0 v2 Keywell Mechanical Keyboard",
-      "image": "https://tpucdn.com/img/NxF7KD6kaZtCLIsp_thm.jpg",
+      "id": "https://www.techpowerup.com/352051/msi-xpertstation-ws300-based-on-nvidia-dgx-station-now-available",
+      "title": "(PR) MSI XpertStation WS300 baseado em NVIDIA DGX Station já disponível",
+      "original_title": "(PR) MSI XpertStation WS300 Based on NVIDIA DGX Station Now Available",
+      "image": "https://tpucdn.com/img/ACzRzYPErSw0kR7a_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-08-26",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-08-27",
+      "summary": "A MSI anunciou que o XpertStation WS300 baseado na arquitetura NVIDIA DGX Station já está disponível. Equipado com NVIDIA GB300 Grace Blackwell Ultra Desktop Superchip, o supercomputador de IA de mesa agora está disponível através de ASI, D&H e Newegg, trazendo...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/351964/kbd0-launches-stainless-steel-curve0-v2-keywell-mechanical-keyboard"
+      "url": "https://www.techpowerup.com/352051/msi-xpertstation-ws300-based-on-nvidia-dgx-station-now-available"
     },
     {
-      "id": "https://www.techpowerup.com/351750/godeal24-back-to-school-sale-deep-discounts-on-genuine-software",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "GoDeal24 Back to School Sale: Deep Discounts on Genuine Software",
-      "image": "https://tpucdn.com/img/Eu7eol5NCJKSEyBV_thm.jpg",
+      "id": "https://www.techpowerup.com/352049/toshiba-brings-s300-ai-surveillance-hard-drive-series-to-retail-channels",
+      "title": "(PR) Toshiba traz a série de discos rígidos de vigilância S300 AI para canais de varejo",
+      "original_title": "(PR) Toshiba Brings S300 AI Surveillance Hard Drive Series to Retail Channels",
+      "image": "https://tpucdn.com/img/Wd4vqCyUXIK1QJDJ_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-08-26",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-08-27",
+      "summary": "A Toshiba Electronics Europe GmbH (Toshiba) anunciou a disponibilidade de seu disco rígido de vigilância S300 AI em embalagens de varejo, tornando seu armazenamento de vigilância otimizado por IA mais fácil para usuários profissionais adquirirem por meio de lojas de varejo e comércio eletrônico...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/351750/godeal24-back-to-school-sale-deep-discounts-on-genuine-software"
+      "url": "https://www.techpowerup.com/352049/toshiba-brings-s300-ai-surveillance-hard-drive-series-to-retail-channels"
     },
     {
-      "id": "https://www.techpowerup.com/351958/asus-launches-rog-spatha-x-65k-gaming-mouse-with-new-sensor-and-hot-swappable-switches",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "ASUS Launches ROG Spatha X 65K Gaming Mouse With New Sensor and Hot-Swappable Switches",
-      "image": "https://tpucdn.com/img/HirGdzCA9cCoD8nF_thm.jpg",
+      "id": "https://www.techpowerup.com/352043/xbox-ceo-asha-sharma-dodges-questions-about-helix-disc-drive",
+      "title": "CEO do Xbox, Asha Sharma, evita perguntas sobre a unidade de disco Helix",
+      "original_title": "Xbox CEO Asha Sharma Dodges Questions About Helix Disc Drive",
+      "image": "https://tpucdn.com/img/70Rrr9P9oPPnQ709_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-08-26",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-08-27",
+      "summary": "Postulamos recentemente que o lançamento antecipado do sistema de direitos de disco para digital do Xbox significava que o próximo console Xbox Helix não seria lançado com uma unidade de disco física. Embora não tenha havido confirmação de que este seja o caso, é claro...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/351958/asus-launches-rog-spatha-x-65k-gaming-mouse-with-new-sensor-and-hot-swappable-switches"
+      "url": "https://www.techpowerup.com/352043/xbox-ceo-asha-sharma-dodges-questions-about-helix-disc-drive"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vz5af6/megathread_grand_theft_auto_vi_an_extended_look/",
+      "title": "[MEGATHREAD] Grand Theft Auto VI: uma visão ampliada",
+      "original_title": "[MEGATHREAD] Grand Theft Auto VI: An Extended Look",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-08-26",
+      "summary": "Estreia da Netflix: 27 de agosto de 2026, às 15h ET (12h PT / 12h30 IST em 28 de agosto). Clique no seu fuso horário se você for um bebê chorão. Lançamento no YouTube: seis horas depois, às 21h (horário do leste dos EUA), no canal e site oficial da Rockstar Games gratuitamente.    sub...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1vz5af6/megathread_grand_theft_auto_vi_an_extended_look/"
     }
   ]
 }
