@@ -1,43 +1,25 @@
 {
-  "last_updated": "2026-09-02T16:01:27",
-  "display_date": "02/09/2026 16:01",
+  "last_updated": "2026-09-03T15:52:36",
+  "display_date": "03/09/2026 15:52",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "104ms",
+    "latency": "71ms",
     "current_games": [
       {
-        "title": "Breathedge",
-        "description": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "image": "https://cdn1.epicgames.com/08ae29e4f70a4b62aa055e383381aa82/offer/egs-breathedge-redruinssoftworks-s1-2560x1440-76fd08cd9c2d-2560x1440-783424f6d4a7f32a0e75fc074f2f928e.jpg",
-        "url": "https://store.epicgames.com/p/osmiumgeneralaudience",
-        "price": "$24.99",
-        "start_date": "2026-08-27T15:00:00.000Z",
-        "end_date": "2026-09-03T15:00:00.000Z"
-      },
-      {
-        "title": "Rival Stars Horse Racing : Desktop Edition",
-        "description": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "image": "https://cdn1.epicgames.com/spt-assets/3355791f5b4740618adac242cf0dd46c/rival-stars-horse-racing-scu1x.jpg",
-        "url": "https://store.epicgames.com/p/c27af3c6ec3a47afb720e580138de63e",
-        "price": "$24.99",
-        "start_date": "2026-08-27T15:00:00.000Z",
-        "end_date": "2026-09-03T15:00:00.000Z"
+        "title": "Alone With You",
+        "description": "ALONE WITH YOU é um jogo de aventura de ficção científica de apontar e clicar que conta uma rica história sobre relacionamentos. Você é o último sobrevivente de uma colônia espacial condenada, tentando escapar de um planeta antes que ele imploda ao seu redor.",
+        "image": "https://cdn1.epicgames.com/spt-assets/04b7a1d78c904065b5c24f9e7816c99a/alone-with-you-cllc3.png",
+        "url": "https://store.epicgames.com/p/68a0e4e0a68d42ffba405593a89c55ba",
+        "price": "$9.99",
+        "start_date": "2026-09-03T15:00:00.000Z",
+        "end_date": "2026-09-10T15:00:00.000Z"
       }
     ],
     "upcoming_games": [
       {
-        "title": "Breathedge",
-        "description": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "image": "https://cdn1.epicgames.com/08ae29e4f70a4b62aa055e383381aa82/offer/egs-breathedge-redruinssoftworks-s1-2560x1440-76fd08cd9c2d-2560x1440-783424f6d4a7f32a0e75fc074f2f928e.jpg",
-        "url": "https://store.epicgames.com/p/osmiumgeneralaudience",
-        "price": "$24.99",
-        "start_date": "2026-09-03T15:00:00.000Z",
-        "end_date": "2026-09-17T15:00:00.000Z"
-      },
-      {
         "title": "Ghostrunner 2",
-        "description": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "description": "Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cibernética.",
         "image": "https://cdn1.epicgames.com/offer/708f57aaa04b42ef885be16c8288f0ac/EGS_Ghostrunner2_OneMoreLevel_S1_2560x1440-15845148fae1d0cfd7f3e98c9b3ba6ba",
         "url": "https://store.epicgames.com/p/ghostrunner-2",
         "price": "$39.99",
@@ -46,7 +28,7 @@
       },
       {
         "title": "LISA: The Definitive Edition",
-        "description": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "description": "Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
         "image": "https://cdn2.unrealengine.com/egs-lisathedefinitiveedition-dingalingproductions-bundles-s1-2560x1440-5be18c558828.jpg",
         "url": "https://store.epicgames.com/p/lisa-the-definitive-edition",
         "price": "$24.99",
@@ -54,80 +36,41 @@
         "end_date": "2026-10-02T05:59:00.000Z"
       },
       {
-        "title": "Castlevania Anniversary Collection",
-        "description": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "image": "https://cdn1.epicgames.com/spt-assets/1ff2f74ba0ef4019b6905d8abe268819/castlevania-anniversary-collection-yex6f.jpg",
-        "url": "https://store.epicgames.com/p/32b3e0adbe0c4399be1874958194f97f",
-        "price": "$19.99",
-        "start_date": "2026-09-03T15:00:00.000Z",
-        "end_date": "2026-09-17T15:00:00.000Z"
-      },
-      {
-        "title": "Monument Valley",
-        "description": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "image": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
-        "url": "https://store.epicgames.com/p/monument-valley-02",
-        "price": "$7.99",
-        "start_date": "2026-09-03T15:00:00.000Z",
-        "end_date": "2026-09-17T15:00:00.000Z"
-      },
-      {
-        "title": "Alone With You",
-        "description": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "image": "https://cdn1.epicgames.com/spt-assets/04b7a1d78c904065b5c24f9e7816c99a/alone-with-you-cllc3.png",
-        "url": "https://store.epicgames.com/p/68a0e4e0a68d42ffba405593a89c55ba",
+        "title": "Luftrausers",
+        "description": "Os céus estão em chamas e os mares transbordarão de destroços no elegante jogo de tiro arcade LUFTRAUSERS de Vlambeer! Suba aos céus em aviões de combate personalizados para combater navios de guerra, submarinos e ases rivais em busca de glória, honra e pontuações mais altas.",
+        "image": "https://cdn1.epicgames.com/spt-assets/85ddeeec9d4243b3a2d78aab87bfae7f/luftrausers-1mxb1.png",
+        "url": "https://store.epicgames.com/p/luftrausers",
         "price": "$9.99",
-        "start_date": "2026-09-03T15:00:00.000Z",
-        "end_date": "2026-09-10T15:00:00.000Z"
+        "start_date": "2026-09-10T15:00:00.000Z",
+        "end_date": "2026-09-17T15:00:00.000Z"
+      },
+      {
+        "title": "Astral Ascent",
+        "description": "Escolha um dos quatro heróis e explore o Jardim, uma prisão astral guardada por 12 poderosos chefes místicos: os Zodíacos. Desafie-os com dezenas de feitiços únicos e amigos fiéis ao seu lado para desvendar a história deste roguelite de plataforma com combates extremamente rápidos.",
+        "image": "https://cdn1.epicgames.com/spt-assets/974c8a587d714d8d9e0c3b0fefe61a35/astral-ascent-b0gcm.png",
+        "url": "https://store.epicgames.com/p/d72ccf025e574bb4a725e3079ea34081",
+        "price": "$24.99",
+        "start_date": "2026-09-10T15:00:00.000Z",
+        "end_date": "2026-09-17T15:00:00.000Z"
       }
     ],
     "mystery_detected": false
   },
   "items": [
     {
-      "id": "https://store.epicgames.com/p/osmiumgeneralaudience",
-      "title": "GRÁTIS: Breathedge",
-      "original_title": "Breathedge",
-      "image": "https://cdn1.epicgames.com/08ae29e4f70a4b62aa055e383381aa82/offer/egs-breathedge-redruinssoftworks-s1-2560x1440-76fd08cd9c2d-2560x1440-783424f6d4a7f32a0e75fc074f2f928e.jpg",
+      "id": "https://store.epicgames.com/p/68a0e4e0a68d42ffba405593a89c55ba",
+      "title": "GRÁTIS: Alone With You",
+      "original_title": "Alone With You",
+      "image": "https://cdn1.epicgames.com/spt-assets/04b7a1d78c904065b5c24f9e7816c99a/alone-with-you-cllc3.png",
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-09-02",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-09-03",
+      "summary": "ALONE WITH YOU é um jogo de aventura de ficção científica de apontar e clicar que conta uma rica história sobre relacionamentos. Você é o último sobrevivente de uma colônia espacial condenada, tentando escapar de um planeta antes que ele imploda ao seu redor.",
       "sources": [
         "Epic Games Store"
       ],
-      "url": "https://store.epicgames.com/p/osmiumgeneralaudience"
-    },
-    {
-      "id": "https://store.epicgames.com/p/c27af3c6ec3a47afb720e580138de63e",
-      "title": "GRÁTIS: Rival Stars Horse Racing : Desktop Edition",
-      "original_title": "Rival Stars Horse Racing : Desktop Edition",
-      "image": "https://cdn1.epicgames.com/spt-assets/3355791f5b4740618adac242cf0dd46c/rival-stars-horse-racing-scu1x.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Free Games",
-      "date": "2026-09-02",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/c27af3c6ec3a47afb720e580138de63e"
-    },
-    {
-      "id": "https://store.epicgames.com/p/osmiumgeneralaudience",
-      "title": "EM BREVE: Breathedge",
-      "original_title": "Breathedge",
-      "image": "https://cdn1.epicgames.com/08ae29e4f70a4b62aa055e383381aa82/offer/egs-breathedge-redruinssoftworks-s1-2560x1440-76fd08cd9c2d-2560x1440-783424f6d4a7f32a0e75fc074f2f928e.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-09-02",
-      "summary": "Disponível gratuitamente a partir de 03/09. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/osmiumgeneralaudience"
+      "url": "https://store.epicgames.com/p/68a0e4e0a68d42ffba405593a89c55ba"
     },
     {
       "id": "https://store.epicgames.com/p/ghostrunner-2",
@@ -137,8 +80,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-02",
-      "summary": "Disponível gratuitamente a partir de 10/09. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-09-03",
+      "summary": "Disponível gratuitamente a partir de 10/09. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cibernética.",
       "sources": [
         "Epic Games Store"
       ],
@@ -152,477 +95,612 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-02",
-      "summary": "Disponível gratuitamente a partir de 17/09. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-09-03",
+      "summary": "Disponível gratuitamente a partir de 17/09. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/lisa-the-definitive-edition"
     },
     {
-      "id": "https://store.epicgames.com/p/32b3e0adbe0c4399be1874958194f97f",
-      "title": "EM BREVE: Castlevania Anniversary Collection",
-      "original_title": "Castlevania Anniversary Collection",
-      "image": "https://cdn1.epicgames.com/spt-assets/1ff2f74ba0ef4019b6905d8abe268819/castlevania-anniversary-collection-yex6f.jpg",
+      "id": "https://store.epicgames.com/p/luftrausers",
+      "title": "EM BREVE: Luftrausers",
+      "original_title": "Luftrausers",
+      "image": "https://cdn1.epicgames.com/spt-assets/85ddeeec9d4243b3a2d78aab87bfae7f/luftrausers-1mxb1.png",
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-02",
-      "summary": "Disponível gratuitamente a partir de 03/09. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-09-03",
+      "summary": "Disponível gratuitamente a partir de 10/09. Os céus estão em chamas e os mares transbordarão de destroços no elegante jogo de tiro arcade LUFTRAUSERS de Vlambeer! Suba aos céus em aviões de combate personalizados para combater navios de guerra, submarinos e ases rivais em busca de glória, honra e pontuações mais altas.",
       "sources": [
         "Epic Games Store"
       ],
-      "url": "https://store.epicgames.com/p/32b3e0adbe0c4399be1874958194f97f"
+      "url": "https://store.epicgames.com/p/luftrausers"
     },
     {
-      "id": "https://store.epicgames.com/p/monument-valley-02",
-      "title": "EM BREVE: Monument Valley",
-      "original_title": "Monument Valley",
-      "image": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
+      "id": "https://store.epicgames.com/p/d72ccf025e574bb4a725e3079ea34081",
+      "title": "EM BREVE: Astral Ascent",
+      "original_title": "Astral Ascent",
+      "image": "https://cdn1.epicgames.com/spt-assets/974c8a587d714d8d9e0c3b0fefe61a35/astral-ascent-b0gcm.png",
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-02",
-      "summary": "Disponível gratuitamente a partir de 03/09. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-09-03",
+      "summary": "Disponível gratuitamente a partir de 10/09. Escolha um dos quatro heróis e explore o Jardim, uma prisão astral guardada por 12 poderosos chefes místicos: os Zodíacos. Desafie-os com dezenas de feitiços únicos e amigos fiéis ao seu lado para desvendar a história deste roguelite de plataforma com combates extremamente rápidos.",
       "sources": [
         "Epic Games Store"
       ],
-      "url": "https://store.epicgames.com/p/monument-valley-02"
+      "url": "https://store.epicgames.com/p/d72ccf025e574bb4a725e3079ea34081"
     },
     {
-      "id": "https://store.epicgames.com/p/68a0e4e0a68d42ffba405593a89c55ba",
-      "title": "EM BREVE: Alone With You",
-      "original_title": "Alone With You",
-      "image": "https://cdn1.epicgames.com/spt-assets/04b7a1d78c904065b5c24f9e7816c99a/alone-with-you-cllc3.png",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-09-02",
-      "summary": "Disponível gratuitamente a partir de 03/09. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/68a0e4e0a68d42ffba405593a89c55ba"
-    },
-    {
-      "id": "https://www.eurogamer.net/lego-skylines-gamescom-preview",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Lego Skylines is already looking like a treat, but I suspect the real magic's in the stuff Paradox won't talk about just yet",
-      "image": "https://assetsio.gnwcdn.com/lego-skylines-fisherman-header.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/final-fantasy-7-revelation-release-date-resonance-demo",
+      "title": "Final Fantasy 7 Revelation finalmente ganha data de lançamento em 2027, enquanto Final Fantasy Resonance recebe uma demonstração surpresa",
+      "original_title": "Final Fantasy 7 Revelation finally gets a 2027 release date, as Final Fantasy Resonance gets a surprise demo",
+      "image": "https://assetsio.gnwcdn.com/FF-header-7-reso.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-09-02",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-09-03",
+      "summary": "Já sabíamos que Final Fantasy 7 Revelation seria lançado em algum momento da 'primavera de 2027', mas hoje o diretor Naoki Hamaguchi acessou a transmissão ao vivo do State of Play da Sony para informar a todos nós que o jogo tem uma data de lançamento definida: 8 de abril de 2027. Eu...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/lego-skylines-gamescom-preview"
+      "url": "https://www.eurogamer.net/final-fantasy-7-revelation-release-date-resonance-demo"
     },
     {
-      "id": "https://www.eurogamer.net/dlss-5-release-date-nvidia-nba-2k7-frame-rate",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Nvidia's controversial, face-changing, gen-AI DLSS 5 tech releases tomorrow for one game, and seems to tank frame-rates",
-      "image": "https://assetsio.gnwcdn.com/nvida-dlss-5.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/lego-playstation-sony-state-of-play",
+      "title": "Uma réplica Lego do PlayStation original estará disponível no próximo mês",
+      "original_title": "A Lego replica of the original PlayStation will be available next month",
+      "image": "https://assetsio.gnwcdn.com/sony-state-of-play-lego-playstation-jpg.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-09-02",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-09-03",
+      "summary": "Uma réplica Lego do Playstation original acaba de ser revelada no Sony State of Play e estará disponível para encomenda a partir do próximo mês. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/dlss-5-release-date-nvidia-nba-2k7-frame-rate"
+      "url": "https://www.eurogamer.net/lego-playstation-sony-state-of-play"
     },
     {
-      "id": "https://www.eurogamer.net/square-enix-denies-going-private-report",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Square Enix denies it's going private following Japanese reports to the contrary",
-      "image": "https://assetsio.gnwcdn.com/FINAL-FANTASY-VII-REMAKE-INTERGRADE---One-Winged-Angel-Trailer-_-Switch-2-%26-Xbox-0-25-screenshot.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/gta6-ps5-controllers-white-black-state-of-play",
+      "title": "GTA 6 está recebendo dois controladores PS5 dualsense de edição limitada",
+      "original_title": "GTA 6 is getting two limited edition dualsense PS5 controllers",
+      "image": "https://assetsio.gnwcdn.com/grand-theft-auto-6-duelsense-controllers.png?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-09-02",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-09-03",
+      "summary": "Dois controladores Grand Theft Auto 6 PS5 Dualsense de edição limitada acabaram de ser revelados durante a transmissão ao vivo do Sony State of Play. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/square-enix-denies-going-private-report"
+      "url": "https://www.eurogamer.net/gta6-ps5-controllers-white-black-state-of-play"
     },
     {
-      "id": "https://www.eurogamer.net/world-of-warcraft-classic-plus-wow-2-colours-website-css-datamine",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "World of Warcraft fans so eager to find confirmation of \"Classic Plus\", they've dug \"wow 2\" evidence out of Blizzards' backend",
-      "image": "https://assetsio.gnwcdn.com/the-world-of-warcraft-classic-demo-has-a-90-minute-cooldown-1541159729527.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/final-fantasy-resonance-hands-on-preview-even-better-than-it-looks",
+      "title": "Final Fantasy Resonance é de alguma forma ainda melhor do que todos aqueles lindos trailers fazem parecer",
+      "original_title": "Final Fantasy Resonance is somehow even better than all those beautiful trailers make it look",
+      "image": "https://assetsio.gnwcdn.com/resonance-header-(1).jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-09-02",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-09-03",
+      "summary": "Deixe-me pintar um quadro para você. É o segundo dia da Gamescom 2026, todo mundo está com calor e suado, a programação está se deteriorando rapidamente à medida que as prévias se atrasam, os entrevistados ultrapassam os horários estipulados e correr de estande em estande acrescenta minutos a cada...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/world-of-warcraft-classic-plus-wow-2-colours-website-css-datamine"
+      "url": "https://www.eurogamer.net/final-fantasy-resonance-hands-on-preview-even-better-than-it-looks"
     },
     {
-      "id": "https://www.eurogamer.net/september-2026-xbox-pc-game-pass-list",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "September's first wave of Xbox Game Pass games revealed, and it brings RuneScape to console for the first time",
-      "image": "https://assetsio.gnwcdn.com/RuneScape-Dragonwilds-Weapons-Header.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/until-dawn-2-release-date-pre-order-details",
+      "title": "Até que o terror beijado pelo sol de Dawn 2 receba uma data de lançamento no PS5 – e o estúdio por trás do brilhante Dispatch do ano passado esteja envolvido",
+      "original_title": "Until Dawn 2's sun-kissed horror gets a PS5 release date - and the studio behind last year's brilliant Dispatch is involved",
+      "image": "https://assetsio.gnwcdn.com/until-dawn-2-header_RhJFfHQ.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-09-02",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-09-03",
+      "summary": "Após a inauguração do grande Summer Game Fest no início deste ano, Until Dawn 2 recebeu uma data de lançamento como parte do mais recente showcase State of Play da Sony. E não está longe, lançamento para PS5 nas profundezas adequadamente escuras do inverno: chegando...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/september-2026-xbox-pc-game-pass-list"
+      "url": "https://www.eurogamer.net/until-dawn-2-release-date-pre-order-details"
     },
     {
-      "id": "https://www.eurogamer.net/tomb-raider-legacy-of-atlantis-gamescom-preview",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Tomb Raider: Legacy of Atlantis isn't even out yet, but already it feels like an old relic - in all the wrong ways",
-      "image": "https://assetsio.gnwcdn.com/Tomb-Raider-Legacy-of-Atlantis-(1).png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/crimson-desert-charting-the-unknown-dlc-date",
+      "title": "O primeiro DLC do Crimson Desert se chama Charting the Unknown e será lançado no próximo mês",
+      "original_title": "Crimson Desert's first DLC is called Charting the Unknown, and it's out next month",
+      "image": "https://assetsio.gnwcdn.com/Crimson-Desert---Charting-the-Unknown-DLC-Reveal-Trailer-_-PS5-Games-0-15-screenshot.png?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-09-02",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-09-03",
+      "summary": "Não demorou muito para que Crimson Desert ganhasse algumas novidades. Durante a apresentação State of Play de hoje, a desenvolvedora Pearl Abyss revelou Charting the Unknown. Este é o primeiro DLC pós-lançamento do jogo e está previsto para chegar em 15 de outubro no PC, PS5 e...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/tomb-raider-legacy-of-atlantis-gamescom-preview"
+      "url": "https://www.eurogamer.net/crimson-desert-charting-the-unknown-dlc-date"
     },
     {
-      "id": "https://www.eurogamer.net/tomb-raider-amazon-tv-series-broke-uk-safety-laws",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Amazon's Sophie Turner-led Tomb Raider series broke UK safety laws during production",
-      "image": "https://assetsio.gnwcdn.com/G-tZ8YqWkAAE2iF.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/sony-state-of-play-no-disc-no-buy-destiny-3",
+      "title": "O desastre de relações públicas do PlayStation da Sony não vai desaparecer, já que o State of Play mais uma vez foi inundado de protestos",
+      "original_title": "Sony's discless PlayStation PR disaster isn't going away as State of Play once again flooded with protests",
+      "image": "https://assetsio.gnwcdn.com/state-of-play-no-disc-no-buy.png?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-09-02",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-09-03",
+      "summary": "A transmissão ao vivo do Sony State of Play de hoje estava repleta de novos trailers de jogos, revelações e anúncios para os fãs do PlayStation. No entanto, se você der uma olhada no chat ao vivo, verá dois grupos de fãs furiosos clamando por discos...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/tomb-raider-amazon-tv-series-broke-uk-safety-laws"
+      "url": "https://www.eurogamer.net/sony-state-of-play-no-disc-no-buy-destiny-3"
     },
     {
-      "id": "https://www.eurogamer.net/monster-hunter-wilds-ascendance-boost-weapons",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Capcom quietly releases new trailers for Monster Hunter Wilds Ascendance, teasing changes to all 14 weapon types",
-      "image": "https://assetsio.gnwcdn.com/mh-ascendance-boosted.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/ghost-of-yotei-complete-edition-most-wanted-jin-first-look",
+      "title": "O modo roguelike Most Wanted de Ghost of Yōtei: Complete Edition traz de volta Jin Sakai de Tsushima",
+      "original_title": "Ghost of Yōtei: Complete Edition's Most Wanted roguelike mode brings back Tsushima's Jin Sakai",
+      "image": "https://assetsio.gnwcdn.com/Ghost-of-Yo%CC%84tei-Complete-Edition---Most-Wanted-Trailer-_-PS5-Games-1-41-screenshot.png?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-09-02",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-09-03",
+      "summary": "Durante o showcase State of Play de hoje, o desenvolvedor do Ghost of Y & omacrtei, Sucker Punch, trouxe um trailer inicial de Most Wanted. Este é o modo roguelike que o estúdio anunciou junto com a Edição Completa no início de agosto. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/monster-hunter-wilds-ascendance-boost-weapons"
+      "url": "https://www.eurogamer.net/ghost-of-yotei-complete-edition-most-wanted-jin-first-look"
     },
     {
-      "id": "https://www.eurogamer.net/starcraft-sequel-nexon-deal-report",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "The next StarCraft may not be made by Blizzard, according to a new report",
-      "image": "https://assetsio.gnwcdn.com/starcraft-zerg.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/monster-hunter-ascendance-sony-state-of-play-trailer",
+      "title": "Monster Hunter Ascendance recebe um novo trailer de jogo, mostrando novos dragões mais velhos, uma região de ilha flutuante e um grande brilho para um determinado personagem",
+      "original_title": "Monster Hunter Ascendance gets a new gameplay trailer, showing new elder dragons, a floating island region, and a major glow up for a certain character",
+      "image": "https://assetsio.gnwcdn.com/monster-hunter-wilds-ascendance-announced-releasing-2027-v0-arpmn7wnhj5h1.webp?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-09-02",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-09-03",
+      "summary": "Um novo trailer de gameplay de Monster Hunter Wilds: Ascendance acaba de ser mostrado no Sony State of Play, mostrando uma variedade de novos recursos que virão com a expansão no próximo ano. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/starcraft-sequel-nexon-deal-report"
+      "url": "https://www.eurogamer.net/monster-hunter-ascendance-sony-state-of-play-trailer"
     },
     {
-      "id": "https://www.eurogamer.net/witcher-3-songs-of-the-past-behind-closed-doors-preview",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "A behind-closed-doors demo of The Witcher 3: Songs of the Past has been a great reminder: CDPR's writing is some of gaming's very best",
-      "image": "https://assetsio.gnwcdn.com/songs-of-the-past-geralt-woods.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/everything-announced-at-sonys-state-of-play-september-2026",
+      "title": "Tudo anunciado no State of Play da Sony, setembro de 2026",
+      "original_title": "Everything announced at Sony's State of Play September 2026",
+      "image": "https://assetsio.gnwcdn.com/Logan-with-his-claws-out-in-Marvel's-Wolverine.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-09-02",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-09-03",
+      "summary": "É hora da vitrine! Depois de uma Gamescom lotada, a Sony está fazendo seu próprio trabalho mais uma vez, desta vez dando um gostinho de tudo que chegará ao PlayStation 5 nos próximos meses e além. Isso inclui uma última olhada no Wolverine da Marvel antes de seu iminente ...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/witcher-3-songs-of-the-past-behind-closed-doors-preview"
+      "url": "https://www.eurogamer.net/everything-announced-at-sonys-state-of-play-september-2026"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w58hyy/lego_ps1_images_leak/",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Lego PS1 images leak",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w67xrx/keeper_shadowdropped_on_ps5/",
+      "title": "Keeper Shadowdrop no PS5",
+      "original_title": "Keeper Shadowdropped On PS5",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
-      "category": "Rumor",
-      "date": "2026-09-02",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "category": "News",
+      "date": "2026-09-03",
+      "summary": "https://youtu.be/PilyJu1DDEo?is=4uEDO0J8dmiko2mP https://www.reddit.com/r/GamingLeaksAndRumours/s/095zkDdYSeja enviado por /u/Howerev [link] [comentários]...",
       "sources": [
         "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w58hyy/lego_ps1_images_leak/"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w67xrx/keeper_shadowdropped_on_ps5/"
     },
     {
-      "id": "https://www.techpowerup.com/352267/tsmc-skips-hybrid-bonding-for-now-betting-on-conventional-microbumps-to-lead-the-way",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "TSMC Skips Hybrid Bonding For Now, Betting on Conventional Microbumps to Lead The Way",
-      "image": "https://tpucdn.com/img/BFjMQZwOkHABBx1d_thm.jpg",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w64orq/kepler_l2_amd_rdna_5_reportedly_targets_31_to_34/",
+      "title": "Kepler_L2: AMD RDNA 5 supostamente tem como alvo clocks de GPU de 3,1 a 3,4 GHz.",
+      "original_title": "Kepler_L2: AMD RDNA 5 reportedly targets 3.1 to 3.4 GHz GPU clocks.",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-09-03",
+      "summary": "O comentário apareceu durante uma discussão nos fóruns da AnandTech (sim, eles ainda existem) sobre as frequências esperadas para gráficos integrados RDNA 5. Outro membro do fórum argumentou que é improvável que as próximas GPUs APU atinjam 4 GHz. Kepler_L2 então...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w64orq/kepler_l2_amd_rdna_5_reportedly_targets_31_to_34/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w5vscv/possible_two_nintendo_directs_next_week/",
+      "title": "Possíveis dois Nintendo Directs na próxima semana.",
+      "original_title": "Possible two Nintendo Directs next week.",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-09-03",
+      "summary": "https://www.youtube.com/watch?v=_ajd30PbFQA Não tenho plena consciência de que isso é verdade, o boato afirma dois Directs nos dias 8 e 10. Esse boato, embora eu mal acredite, parece interessante. Embora enviado por /u/NewMarioBobFan [link] [comentários...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w5vscv/possible_two_nintendo_directs_next_week/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w5u3br/lollipop_chainsaw_sequel_will_be_revealed_by/",
+      "title": "Sequência da motosserra Lollipop será revelada pelo jogo dragami",
+      "original_title": "Lollipop chainsaw sequel will be revealed by dragami game",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-09-03",
+      "summary": "https://www.gematsu.com/2026/09/new-lollipop-chainsaw-game-playable-at-tgs-2026 enviado por /u/Sure-Nebula7909 [link] [comentários]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w5u3br/lollipop_chainsaw_sequel_will_be_revealed_by/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w5yhc5/keeper_ps5_trophies_surface/",
+      "title": "Superfície de troféus do Keeper PS5",
+      "original_title": "Keeper PS5 trophies surface",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-09-03",
+      "summary": "https://bsky.app/profile/gematsu.com/post/3mulknmmqus2k Talvez seja um dos anúncios SoP enviados por /u/AngieK22 [link] [comentários]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w5yhc5/keeper_ps5_trophies_surface/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1w693xd/next_week_pc_freebieastral_ascent/",
+      "title": "Brinde para PC na próxima semana｜Astral Ascent",
+      "original_title": "Next Week PC Freebie｜Astral Ascent",
+      "image": "https://preview.redd.it/cnlobr0yfbnh1.png?width=320&crop=smart&auto=webp&s=dda5348a9e20d9cf0164c7e7f7b5d047bb9c83b8",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-09-03",
+      "summary": "enviado por /u/MeguminShiro [link] [comentários] ...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1w693xd/next_week_pc_freebieastral_ascent/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1w68rie/mobile_freebieevans_remains/",
+      "title": "Brinde móvel ｜ Restos mortais de Evan",
+      "original_title": "Mobile Freebie｜Evan's Remains",
+      "image": "https://preview.redd.it/05bshnyodbnh1.png?width=140&height=119&auto=webp&s=459e2cb12327ce984920c99eec3e962a345bb5d4",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-09-03",
+      "summary": "link Finalizar compra...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1w68rie/mobile_freebieevans_remains/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1w69wv9/next_week_pc_freebieluftrausers/",
+      "title": "Brinde para PC na próxima semana｜Luftrausers",
+      "original_title": "Next Week PC Freebie｜Luftrausers",
+      "image": "https://preview.redd.it/r6gjrfwblbnh1.png?width=320&crop=smart&auto=webp&s=1f6c5fb2c90012983fa299736f26afaf74d25448",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-09-03",
+      "summary": "enviado por /u/MeguminShiro [link] [comentários] ...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1w69wv9/next_week_pc_freebieluftrausers/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1w62qxc/now_you_can_make_a_party_in_epic_games_store/",
+      "title": "Agora você pode fazer uma festa na Epic Games Store",
+      "original_title": "Now you can make a party in epic games store",
+      "image": "https://preview.redd.it/iwvc1cgn0anh1.png?width=140&height=53&auto=webp&s=ffa0ef0533d1390e477b8d79fe547cb9d27f1548",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Epic News",
+      "date": "2026-09-03",
+      "summary": "enviado por /u/Natural_Recover3022 [link] [comentários] ...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1w62qxc/now_you_can_make_a_party_in_epic_games_store/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1w6a5yp/the_end_of_summer_sale_has_begun/",
+      "title": "A \"Promoção de Fim de Verão\" já começou!",
+      "original_title": "The \"End of Summer Sale\" has begun!",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-09-03",
+      "summary": "Encontre descontos em muitos jogos excelentes, como Resident Evil Requiem, 007 First Light, Reanimal, Cronos: The New Dawn, Silent Hill 2 e muito mais!    enviado por /u/relay-app [link] [comentários]...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1w6a5yp/the_end_of_summer_sale_has_begun/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1w68x9h/epic_games_store_update_issues_on_handheld_devices/",
+      "title": "Problemas de atualização da Epic Games Store em dispositivos portáteis",
+      "original_title": "Epic Games Store Update Issues on Handheld Devices",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Epic News",
+      "date": "2026-09-03",
+      "summary": "Aqui estão os principais problemas que encontrei no Lenovo Legion Go 1- Touch não funciona para deslizar para cima ou para baixo ou para tocar em determinados itens da tela. ❌ 2- Ao digitar agora, o teclado muda para um teclado de jogo. ❌ 3- Ao deslizar para cima ou d...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1w68x9h/epic_games_store_update_issues_on_handheld_devices/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1w68kmk/final_fantasy_7_revelations_is_now_available_for/",
+      "title": "Final Fantasy 7 Revelations já está disponível para pré-compra na loja!",
+      "original_title": "Final Fantasy 7 Revelations is now available for prepurchase on the store!",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-09-03",
+      "summary": "Na parte de trás do PlayStation, as pré-compras do State of Play foram ao ar, com data de lançamento em 8 de abril de 2027. Também vale a pena notar que a Premium Edition dá acesso antecipado de 24 horas ao jogo e o \"Expansion Story Pass\" enviado por /u/ImAnth...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1w68kmk/final_fantasy_7_revelations_is_now_available_for/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1w6apbi/pc_freebiealone_with_you/",
+      "title": "Brinde para PC｜Sozinho com você",
+      "original_title": "PC Freebie｜Alone With You",
+      "image": "https://preview.redd.it/teqwh03nqbnh1.png?width=140&height=109&auto=webp&s=79f8017bb725d02dcb4237a1781bca7067f843cd",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-09-03",
+      "summary": "https://preview.redd.it/teqwh03nqbnh1.png?width=754&format=png&auto=webp&s=138b2e6e5f90dbd0c4b676b7e0a8cb775ec2f3fe 📝 Página de transações (para ver se você reivindicou ou não) ⏩ Checkout instantâneo (faça login na Epic Games primeiro a usar) Check-out instantâneo do item...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1w6apbi/pc_freebiealone_with_you/"
+    },
+    {
+      "id": "https://www.techpowerup.com/352288/leak-confirms-intels-long-term-socket-plan-with-lga-1954",
+      "title": "Vazamento confirma plano de soquete de longo prazo da Intel com LGA-1954",
+      "original_title": "Leak Confirms Intel's Long-Term Socket Plan with LGA-1954",
+      "image": "https://tpucdn.com/img/A0TfekXzbpSAvjAh_thm.jpg",
       "source_count": 1,
       "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-02",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "category": "Rumor",
+      "date": "2026-09-03",
+      "summary": "Os processadores de desktop “Nova Lake-S” da Intel estão se aproximando e hoje um slide vazado de um parceiro da China confirmou muitos dos planos que prevíamos. Começando pelo soquete LGA-1954, as ferramentas de teste da Intel já verificaram a contagem de pinos. Este deslize...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/352267/tsmc-skips-hybrid-bonding-for-now-betting-on-conventional-microbumps-to-lead-the-way"
+      "url": "https://www.techpowerup.com/352288/leak-confirms-intels-long-term-socket-plan-with-lga-1954"
     },
     {
-      "id": "https://www.techpowerup.com/352264/asus-and-galax-raise-geforce-rtx-50-series-prices-by-up-to-usd-74",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "ASUS and Galax Raise GeForce RTX 50-Series Prices by Up to $74",
-      "image": "https://tpucdn.com/img/miD6jRvwFcFNQnHi_thm.jpg",
+      "id": "https://www.techpowerup.com/352296/edifier-showcases-cross-scenario-audio-innovations-at-ifa",
+      "title": "(PR) Edifier apresenta inovações de áudio em vários cenários na IFA",
+      "original_title": "(PR) Edifier Showcases Cross-Scenario Audio Innovations at IFA",
+      "image": "https://tpucdn.com/img/xjfyI2vOIZCIso48_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-09-02",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-09-03",
+      "summary": "No momento em que a Edifier comemora seu 30º aniversário, a marca global de tecnologia de áudio chega à IFA com uma visão que vai além dos produtos individuais. Sob o tema \"Soluções completas de áudio para cada cenário auditivo\", a Edifier apresentará sua compreens...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/352264/asus-and-galax-raise-geforce-rtx-50-series-prices-by-up-to-usd-74"
+      "url": "https://www.techpowerup.com/352296/edifier-showcases-cross-scenario-audio-innovations-at-ifa"
     },
     {
       "id": "https://www.techpowerup.com/352202/autocad-lt-is-usd-199-for-a-year-existing-autodesk-users-qualify-too",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "O AutoCAD LT custa US$ 199 por ano – os usuários existentes da Autodesk também se qualificam",
       "original_title": "AutoCAD LT Is $199 for a Year—Existing Autodesk Users Qualify Too",
       "image": "https://tpucdn.com/img/7Y3Mb0ZUIKprJCez_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-09-02",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-09-03",
+      "summary": "O software CAD profissional geralmente vem com um preço empresarial, mesmo para equipes que precisam apenas de desenho 2D em vez de ferramentas completas de projeto 3D. O AutoCAD LT reduz isso à funcionalidade 2D básica, e uma assinatura de 1 ano está à venda por US$ 199 (reg. ...",
       "sources": [
         "TechPowerUp"
       ],
       "url": "https://www.techpowerup.com/352202/autocad-lt-is-usd-199-for-a-year-existing-autodesk-users-qualify-too"
     },
     {
-      "id": "https://www.techpowerup.com/352263/nexus-mods-acquires-steamdb-features-to-remain-free-for-now",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Nexus Mods Acquires SteamDB, Features to Remain Free for Now",
-      "image": "https://tpucdn.com/img/iHW0EKooM7sO5c1n_thm.jpg",
+      "id": "https://www.techpowerup.com/352295/htc-announces-vive-eagle-privacy-centric-ai-smart-glasses",
+      "title": "(PR) HTC Anuncia VIVE Eagle - Óculos Inteligentes com IA Centrados na Privacidade",
+      "original_title": "(PR) HTC Announces VIVE Eagle - Privacy-Centric AI Smart Glasses",
+      "image": "https://tpucdn.com/img/lvLUWa3npXn8AAsa_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-09-02",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-09-03",
+      "summary": "VIVE Eagle - os novos óculos inteligentes de IA da HTC - chegou à Europa, América do Norte e Austrália, trazendo recursos avançados e uma abordagem centrada na privacidade que capacita o usuário e as pessoas ao seu redor a proteger sua privacidade. O verso...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/352263/nexus-mods-acquires-steamdb-features-to-remain-free-for-now"
+      "url": "https://www.techpowerup.com/352295/htc-announces-vive-eagle-privacy-centric-ai-smart-glasses"
     },
     {
-      "id": "https://www.techpowerup.com/352262/early-dlss-5-testing-suggests-the-rtx-5090s-single-power-connector-might-be-the-bottleneck",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Early DLSS 5 Testing Suggests the RTX 5090's Single Power Connector Might Be the Bottleneck",
-      "image": "https://tpucdn.com/img/K4hRqPsQDWhnXdvu_thm.jpg",
+      "id": "https://www.techpowerup.com/352293/belkin-expands-soundform-audio-lineup-at-ifa-2026",
+      "title": "(PR) Belkin expande linha de áudio SoundForm na IFA 2026",
+      "original_title": "(PR) Belkin Expands SoundForm Audio Lineup at IFA 2026",
+      "image": "https://tpucdn.com/img/UjRNfFal51aw08TE_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-09-02",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-09-03",
+      "summary": "A Belkin, líder global em eletrônicos de consumo há mais de 40 anos, expandiu hoje seu portfólio de áudio SoundForm by Belkin com três novos produtos na IFA 2026: SoundForm Isolate, SoundForm Dot e SoundForm Play. A programação traz recursos como ativos...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/352262/early-dlss-5-testing-suggests-the-rtx-5090s-single-power-connector-might-be-the-bottleneck"
+      "url": "https://www.techpowerup.com/352293/belkin-expands-soundform-audio-lineup-at-ifa-2026"
     },
     {
-      "id": "https://www.techpowerup.com/352261/lenovo-unveils-first-laptop-manufactured-in-saudi-arabia-supporting-the-kingdoms-vision-for-advanced-manufacturing",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "(PR) Lenovo Unveils First Laptop Manufactured in Saudi Arabia, Supporting the Kingdom's Vision for Advanced Manufacturing",
-      "image": "https://tpucdn.com/img/omcsk1I3CXFeJ34B_thm.jpg",
+      "id": "https://www.techpowerup.com/352292/acer-showcases-sff-rtx-spark-with-a-unique-chassis-design",
+      "title": "Acer apresenta SFF RTX Spark com design de chassi exclusivo",
+      "original_title": "Acer Showcases SFF RTX Spark with a Unique Chassis Design",
+      "image": "https://tpucdn.com/img/ujcpYWWRF9ZXMRdS_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-09-02",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-09-03",
+      "summary": "Na IFA 2026, a Acer apresentou sua abordagem única à nova plataforma de PC desktop NVIDIA RTX Spark com um novo chassi. Em um pacote que a Acer chama de SFF RTX Spark, provavelmente enfatizando o formato pequeno deste PC, o design difere do DGX Spark anterior...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/352261/lenovo-unveils-first-laptop-manufactured-in-saudi-arabia-supporting-the-kingdoms-vision-for-advanced-manufacturing"
+      "url": "https://www.techpowerup.com/352292/acer-showcases-sff-rtx-spark-with-a-unique-chassis-design"
     },
     {
       "id": "https://www.techpowerup.com/352203/skip-adobe-acrobat-and-get-indypdf-for-life-for-usd-20",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "Ignore o Adobe Acrobat e obtenha o IndyPDF para toda a vida por US$ 20",
       "original_title": "Skip Adobe Acrobat and Get IndyPDF for Life for $20",
       "image": "https://tpucdn.com/img/CPPkiC6miSvAbeOw_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-09-02",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-09-03",
+      "summary": "Editar um PDF geralmente significa pagar por uma assinatura do Acrobat ou enviar arquivos confidenciais para conversores online aleatórios. Nenhuma das opções parece ótima para contratos ou documentos privados. Uma assinatura vitalícia do IndyPDF evita ambos os problemas e é...",
       "sources": [
         "TechPowerUp"
       ],
       "url": "https://www.techpowerup.com/352203/skip-adobe-acrobat-and-get-indypdf-for-life-for-usd-20"
     },
     {
-      "id": "https://www.techpowerup.com/352260/eizo-unveils-coloredge-cg3200x-31-5-inch-4k-uhd-oled-professional-monitor",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "(PR) EIZO Unveils ColorEdge CG3200X 31.5-Inch 4K UHD OLED Professional Monitor",
-      "image": "https://tpucdn.com/img/qPdaTTXCc9Su9m3A_thm.jpg",
+      "id": "https://www.techpowerup.com/352291/hands-on-with-the-acer-predator-atlas-7-gaming-handheld-at-ifa-2026",
+      "title": "Prática com o portátil para jogos Acer Predator Atlas 7 na IFA 2026",
+      "original_title": "Hands-On with the Acer Predator Atlas 7 Gaming Handheld at IFA 2026",
+      "image": "https://tpucdn.com/img/ztaMbCdDCoaRiE5y_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-09-02",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-09-03",
+      "summary": "É o dia zero da IFA 2026 em Berlim, e a equipe da TechPowerUp está no local verificando o que as empresas estão oferecendo. Hoje, paramos no estande da Acer para explorar o mais recente dispositivo portátil para jogos Predator Atlas 7 da empresa, equipado com Intel ...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/352260/eizo-unveils-coloredge-cg3200x-31-5-inch-4k-uhd-oled-professional-monitor"
+      "url": "https://www.techpowerup.com/352291/hands-on-with-the-acer-predator-atlas-7-gaming-handheld-at-ifa-2026"
     },
     {
-      "id": "https://www.techpowerup.com/352259/dell-q2-fiscal-2027-results-record-usd-47b-revenues-projects-usd-192b-full-year-outlook",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "(PR) Dell Q2 Fiscal 2027 Results: Record $47B Revenues, Projects $192B Full-Year Outlook",
-      "image": "https://tpucdn.com/img/fLHZU3bJCbQUFIdm_thm.jpg",
+      "id": "https://www.techpowerup.com/352290/acer-shows-off-the-799g-swift-blade-14-at-ifa",
+      "title": "Acer mostra o Swift Blade 14 799g na IFA",
+      "original_title": "Acer Shows Off the 799g Swift Blade 14 at IFA",
+      "image": "https://tpucdn.com/img/7AYAfKSE6X9wSrTO_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-09-02",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-09-03",
+      "summary": "Estamos na IFA em Berlim esta semana, e uma das máquinas mais interessantes pelas quais passamos no salão do show foi o Acer Swift Blade 14. É uma nova submarca da linha Swift da Acer, e a primeira coisa que você percebe ao pegá-lo é apenas...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/352259/dell-q2-fiscal-2027-results-record-usd-47b-revenues-projects-usd-192b-full-year-outlook"
+      "url": "https://www.techpowerup.com/352290/acer-shows-off-the-799g-swift-blade-14-at-ifa"
     },
     {
-      "id": "https://www.techpowerup.com/352257/acer-focuses-on-repairability-and-ai-powered-performance-with-new-vero-16-laptop",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "(PR) Acer Focuses on Repairability and AI-powered Performance With New Vero 16 Laptop",
-      "image": "https://tpucdn.com/img/pMGxa58LFs8E9JVK_thm.jpg",
+      "id": "https://www.techpowerup.com/352287/modders-get-gta-5-running-natively-on-the-original-nintendo-switch",
+      "title": "Modders fazem GTA 5 rodar nativamente no Nintendo Switch original",
+      "original_title": "Modders Get GTA 5 Running Natively on the Original Nintendo Switch",
+      "image": "https://tpucdn.com/img/IU6sfEKipg3yo0Xt_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-09-02",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-09-03",
+      "summary": "Um grupo de modding chamado Paralympics Productions fez Grand Theft Auto 5 rodar nativamente no Nintendo Switch original, usando uma versão homebrew construída a partir do código-fonte vazado de 2023 do jogo. A Rockstar nunca lançou GTA 5 no hardware Switch, apesar...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/352257/acer-focuses-on-repairability-and-ai-powered-performance-with-new-vero-16-laptop"
+      "url": "https://www.techpowerup.com/352287/modders-get-gta-5-running-natively-on-the-original-nintendo-switch"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w4hnxr/wolverine_trophy_list_leak_all_bosses_collectibles/",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Wolverine Trophy List Leak - All Bosses & Collectibles",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w5mbbc/megathread_playstation_state_of_play_090326/",
+      "title": "[MEGATHREAD] Situação do PlayStation 09.03.26",
+      "original_title": "[MEGATHREAD] PlayStation State of Play 09.03.26",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-09-02",
+      "summary": "... ESTADO DO JOGO DO PLAYSTATION Data/Hora: 3 de setembro de 2026, 6h PT/ 9h ET (VEJA NO SEU FUSO HORÁRIO) Onde assistir: PlayStation YT O que esperar enviado por /u/ChiefLeef22 [link] [comentários]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w5mbbc/megathread_playstation_state_of_play_090326/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w5psto/monolith_soft_listed_as_developer_of_zelda/",
+      "title": "Monolith Soft listada como desenvolvedora de Zelda: Ocarina of Time Remake varejista norueguesa",
+      "original_title": "Monolith Soft Listed as Developer of Zelda: Ocarina of Time Remake Norwegian retailer",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-09-02",
+      "summary": "O varejista norueguês Elkjøp listou a Monolith Soft como desenvolvedora do remake de The Legend of Zelda: Ocarina of Time para Nintendo Switch 2. Fonte: https://www.elkjop.no/product/gaming/spill/the-legend-of-zelda-ocarina-of-time-switch-2/1...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w5psto/monolith_soft_listed_as_developer_of_zelda/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w5hizm/marvels_wolverine_all_32_suits_leak/",
+      "title": "Vazamento de todos os 32 trajes do Wolverine da Marvel",
+      "original_title": "Marvel's Wolverine All 32 Suits Leak",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
       "category": "Rumor",
-      "date": "2026-09-01",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-09-02",
+      "summary": "https://imgur.com/a/Nbp3E3A enviado por /u/Star_Powerup [link] [comentários]...",
       "sources": [
         "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w4hnxr/wolverine_trophy_list_leak_all_bosses_collectibles/"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w5hizm/marvels_wolverine_all_32_suits_leak/"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w4k1cc/the_switch_2_display_panel_manufactured_by_sharp/",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "The Switch 2 display panel manufactured by Sharp (LS0DAS7081) is now appearing more often on Chinese seller sites, potentially indicating mass production of Switch 2 consoles with this panel has begun or is beginning soon",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w5h97e/banjokazooie_composer_says_like_3_companies_have/",
+      "title": "O compositor de Banjo-Kazooie diz que “tipo 3 empresas” lançaram uma nova entrada na série, mas “A Rare normalmente diz não para tudo”",
+      "original_title": "Banjo-Kazooie composer says \"like 3 companies\" have pitched a new entry in the series, but \"Rare just typically say no to everything\"",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-09-02",
+      "summary": "https://www.gamesradar.com/games/platformer/banjo-kazooie-composer-says-like-3-companies-have-pitched-a-new-entry-in-the-series-but-rare-just-tiply-say-no-to-everything/ enviado por /u/ThinWhiteDuke00 [link] [comentários]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w5h97e/banjokazooie_composer_says_like_3_companies_have/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1w424xo/monthly_tech_support_and_simple_questions_thread/",
+      "title": "Tópico mensal de suporte técnico e perguntas simples",
+      "original_title": "Monthly Tech Support and Simple Questions Thread",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
       "category": "News",
       "date": "2026-09-01",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "summary": "AVISO LEGAL Somos um subreddit administrado pela comunidade e não temos afiliação com a Epic. Nenhum dos moderadores é da Epic, não podemos resolver nenhum problema diretamente para você e cabe à comunidade ajudar uns aos outros quando possível. Se você tiver comentários sobre ...",
       "sources": [
-        "r/GamingLeaksAndRumours"
+        "r/EpicGamesPC"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w4k1cc/the_switch_2_display_panel_manufactured_by_sharp/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w4h3mb/saw_ii_flesh_blood_2010_playable_pc_build/",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Saw II: Flesh & Blood (2010) playable PC build contained in Steam2 leak",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Rumor",
-      "date": "2026-09-01",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w4h3mb/saw_ii_flesh_blood_2010_playable_pc_build/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w4im3k/completely_cut_and_previously_unseen_comic_style/",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Completely cut and previously unseen comic style intro cutscene found in a The darkness 2 prototype",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-09-01",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w4im3k/completely_cut_and_previously_unseen_comic_style/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w496s6/mafia_2_the_original_ending_has_been_found_april/",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Mafia 2 - The Original Ending Has Been Found! (April build from Steam 2 Leak)",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Rumor",
-      "date": "2026-09-01",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w496s6/mafia_2_the_original_ending_has_been_found_april/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w4ijeo/lego_harry_potter_collection_releases_oct_16th_on/",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Lego Harry Potter Collection Releases Oct 16th on Switch 2",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-09-01",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w4ijeo/lego_harry_potter_collection_releases_oct_16th_on/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w3zanz/stephen_totilo_80_of_bit_reactor_the_devs_behind/",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Stephen Totilo: 80% of Bit Reactor (the devs behind Star Wars Zero Company) were furloughed three weeks ago after the studio ran out of money",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-09-01",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1w3zanz/stephen_totilo_80_of_bit_reactor_the_devs_behind/"
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1w424xo/monthly_tech_support_and_simple_questions_thread/"
     }
   ]
 }
