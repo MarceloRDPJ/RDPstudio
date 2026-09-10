@@ -1,19 +1,28 @@
 {
-  "last_updated": "2026-09-09T15:59:47",
-  "display_date": "09/09/2026 15:59",
+  "last_updated": "2026-09-10T15:54:47",
+  "display_date": "10/09/2026 15:54",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "132ms",
+    "latency": "273ms",
     "current_games": [
       {
-        "title": "Alone With You",
-        "description": "ALONE WITH YOU é um jogo de aventura de ficção científica de apontar e clicar que conta uma rica história sobre relacionamentos. Você é o último sobrevivente de uma colônia espacial condenada, tentando escapar de um planeta antes que ele imploda ao seu redor.",
-        "image": "https://cdn1.epicgames.com/spt-assets/04b7a1d78c904065b5c24f9e7816c99a/alone-with-you-cllc3.png",
-        "url": "https://store.epicgames.com/p/68a0e4e0a68d42ffba405593a89c55ba",
+        "title": "Luftrausers",
+        "description": "Os céus estão em chamas e os mares transbordarão de destroços no elegante jogo de tiro arcade LUFTRAUSERS de Vlambeer! Suba aos céus em aviões de combate personalizados para combater navios de guerra, submarinos e ases rivais em busca de glória, honra e pontuações mais altas.",
+        "image": "https://cdn1.epicgames.com/spt-assets/85ddeeec9d4243b3a2d78aab87bfae7f/luftrausers-1mxb1.png",
+        "url": "https://store.epicgames.com/p/luftrausers",
         "price": "$9.99",
-        "start_date": "2026-09-03T15:00:00.000Z",
-        "end_date": "2026-09-10T15:00:00.000Z"
+        "start_date": "2026-09-10T15:00:00.000Z",
+        "end_date": "2026-09-17T15:00:00.000Z"
+      },
+      {
+        "title": "Astral Ascent",
+        "description": "Escolha um dos quatro heróis e explore o Jardim, uma prisão astral guardada por 12 poderosos chefes místicos: os Zodíacos. Desafie-os com dezenas de feitiços únicos e amigos fiéis ao seu lado para desvendar a história deste roguelite de plataforma com combates extremamente rápidos.",
+        "image": "https://cdn1.epicgames.com/spt-assets/974c8a587d714d8d9e0c3b0fefe61a35/astral-ascent-b0gcm.png",
+        "url": "https://store.epicgames.com/p/d72ccf025e574bb4a725e3079ea34081",
+        "price": "$24.99",
+        "start_date": "2026-09-10T15:00:00.000Z",
+        "end_date": "2026-09-17T15:00:00.000Z"
       }
     ],
     "upcoming_games": [
@@ -36,13 +45,22 @@
         "end_date": "2026-10-02T05:59:00.000Z"
       },
       {
-        "title": "Monument Valley",
-        "description": "Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
-        "image": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
-        "url": "https://store.epicgames.com/p/monument-valley-02",
-        "price": "$7.99",
+        "title": "LISA: The Definitive Edition",
+        "description": "Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
+        "image": "https://cdn2.unrealengine.com/egs-lisathedefinitiveedition-dingalingproductions-bundles-s1-2560x1440-5be18c558828.jpg",
+        "url": "https://store.epicgames.com/p/lisa-the-definitive-edition",
+        "price": "$24.99",
         "start_date": "2026-12-10T16:00:00.000Z",
         "end_date": "2027-01-07T16:00:00.000Z"
+      },
+      {
+        "title": "LISA: The Definitive Edition",
+        "description": "Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
+        "image": "https://cdn2.unrealengine.com/egs-lisathedefinitiveedition-dingalingproductions-bundles-s1-2560x1440-5be18c558828.jpg",
+        "url": "https://store.epicgames.com/p/lisa-the-definitive-edition",
+        "price": "$24.99",
+        "start_date": "2026-11-01T06:00:00.000Z",
+        "end_date": "2026-11-10T06:59:00.000Z"
       },
       {
         "title": "Monument Valley",
@@ -54,41 +72,65 @@
         "end_date": "2026-11-02T16:00:00.000Z"
       },
       {
-        "title": "Luftrausers",
-        "description": "Os céus estão em chamas e os mares transbordarão de destroços no elegante jogo de tiro arcade LUFTRAUSERS de Vlambeer! Suba aos céus em aviões de combate personalizados para combater navios de guerra, submarinos e ases rivais em busca de glória, honra e pontuações mais altas.",
-        "image": "https://cdn1.epicgames.com/spt-assets/85ddeeec9d4243b3a2d78aab87bfae7f/luftrausers-1mxb1.png",
-        "url": "https://store.epicgames.com/p/luftrausers",
-        "price": "$9.99",
-        "start_date": "2026-09-10T15:00:00.000Z",
-        "end_date": "2026-09-17T15:00:00.000Z"
+        "title": "Monument Valley",
+        "description": "Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
+        "image": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
+        "url": "https://store.epicgames.com/p/monument-valley-02",
+        "price": "$7.99",
+        "start_date": "2026-12-10T16:00:00.000Z",
+        "end_date": "2027-01-07T16:00:00.000Z"
       },
       {
-        "title": "Astral Ascent",
-        "description": "Escolha um dos quatro heróis e explore o Jardim, uma prisão astral guardada por 12 poderosos chefes místicos: os Zodíacos. Desafie-os com dezenas de feitiços únicos e amigos fiéis ao seu lado para desvendar a história deste roguelite de plataforma com combates extremamente rápidos.",
-        "image": "https://cdn1.epicgames.com/spt-assets/974c8a587d714d8d9e0c3b0fefe61a35/astral-ascent-b0gcm.png",
-        "url": "https://store.epicgames.com/p/d72ccf025e574bb4a725e3079ea34081",
-        "price": "$24.99",
-        "start_date": "2026-09-10T15:00:00.000Z",
-        "end_date": "2026-09-17T15:00:00.000Z"
+        "title": "Mindcop",
+        "description": "Mindcop é um jogo de detetive não linear “whodunnit”. Ele mistura uma aventura baseada em uma história com quebra-cabeças match-3 em tempo real. Como o infame Mindcop, você pode mergulhar nas mentes de seus suspeitos para descobrir seus segredos e desvendar suas mentiras.​",
+        "image": "https://cdn1.epicgames.com/spt-assets/984cdc148ea6423e866ca6e04a1b429f/mindcop-kplp1.jpg",
+        "url": "https://store.epicgames.com/p/1513de80f23f42e584540be749826057",
+        "price": "$14.99",
+        "start_date": "2026-09-17T15:00:00.000Z",
+        "end_date": "2026-09-24T15:00:00.000Z"
+      },
+      {
+        "title": "Shogun Showdown",
+        "description": "Shogun Showdown é um jogo de combate baseado em turnos com elementos de rogue-like e de construção de deck. Posicione-se e ataque na hora certa, atualize suas peças e combine-as para se preparar para enfrentar o Shogun!",
+        "image": "https://cdn1.epicgames.com/spt-assets/450bcfdb9c00453394d7ccc2948ba5db/shogun-showdown-hz1yh.jpg",
+        "url": "https://store.epicgames.com/p/shogun-showdown",
+        "price": "$14.99",
+        "start_date": "2026-09-17T15:00:00.000Z",
+        "end_date": "2026-09-24T15:00:00.000Z"
       }
     ],
     "mystery_detected": false
   },
   "items": [
     {
-      "id": "https://store.epicgames.com/p/68a0e4e0a68d42ffba405593a89c55ba",
-      "title": "GRÁTIS: Alone With You",
-      "original_title": "Alone With You",
-      "image": "https://cdn1.epicgames.com/spt-assets/04b7a1d78c904065b5c24f9e7816c99a/alone-with-you-cllc3.png",
+      "id": "https://store.epicgames.com/p/luftrausers",
+      "title": "GRÁTIS: Luftrausers",
+      "original_title": "Luftrausers",
+      "image": "https://cdn1.epicgames.com/spt-assets/85ddeeec9d4243b3a2d78aab87bfae7f/luftrausers-1mxb1.png",
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-09-09",
-      "summary": "ALONE WITH YOU é um jogo de aventura de ficção científica de apontar e clicar que conta uma rica história sobre relacionamentos. Você é o último sobrevivente de uma colônia espacial condenada, tentando escapar de um planeta antes que ele imploda ao seu redor.",
+      "date": "2026-09-10",
+      "summary": "Os céus estão em chamas e os mares transbordarão de destroços no elegante jogo de tiro arcade LUFTRAUSERS de Vlambeer! Suba aos céus em aviões de combate personalizados para combater navios de guerra, submarinos e ases rivais em busca de glória, honra e pontuações mais altas.",
       "sources": [
         "Epic Games Store"
       ],
-      "url": "https://store.epicgames.com/p/68a0e4e0a68d42ffba405593a89c55ba"
+      "url": "https://store.epicgames.com/p/luftrausers"
+    },
+    {
+      "id": "https://store.epicgames.com/p/d72ccf025e574bb4a725e3079ea34081",
+      "title": "GRÁTIS: Astral Ascent",
+      "original_title": "Astral Ascent",
+      "image": "https://cdn1.epicgames.com/spt-assets/974c8a587d714d8d9e0c3b0fefe61a35/astral-ascent-b0gcm.png",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Free Games",
+      "date": "2026-09-10",
+      "summary": "Escolha um dos quatro heróis e explore o Jardim, uma prisão astral guardada por 12 poderosos chefes místicos: os Zodíacos. Desafie-os com dezenas de feitiços únicos e amigos fiéis ao seu lado para desvendar a história deste roguelite de plataforma com combates extremamente rápidos.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/d72ccf025e574bb4a725e3079ea34081"
     },
     {
       "id": "https://store.epicgames.com/p/ghostrunner-2",
@@ -98,7 +140,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-09",
+      "date": "2026-09-10",
       "summary": "Disponível gratuitamente a partir de 10/09. Ghostrunner 2 é um slasher FPP hardcore ambientado em um mundo cyberpunk pós-apocalíptico. Apresentando tudo o que os fãs adoraram em Ghostrunner, além de incríveis lutas contra chefes, nova história interativa, níveis emocionantes de motocicleta, habilidades aprimoradas e mais ação cibernética.",
       "sources": [
         "Epic Games Store"
@@ -113,8 +155,38 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-09",
+      "date": "2026-09-10",
       "summary": "Disponível gratuitamente a partir de 17/09. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/lisa-the-definitive-edition"
+    },
+    {
+      "id": "https://store.epicgames.com/p/lisa-the-definitive-edition",
+      "title": "EM BREVE: LISA: The Definitive Edition",
+      "original_title": "LISA: The Definitive Edition",
+      "image": "https://cdn2.unrealengine.com/egs-lisathedefinitiveedition-dingalingproductions-bundles-s1-2560x1440-5be18c558828.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-09-10",
+      "summary": "Disponível gratuitamente a partir de 10/12. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/lisa-the-definitive-edition"
+    },
+    {
+      "id": "https://store.epicgames.com/p/lisa-the-definitive-edition",
+      "title": "EM BREVE: LISA: The Definitive Edition",
+      "original_title": "LISA: The Definitive Edition",
+      "image": "https://cdn2.unrealengine.com/egs-lisathedefinitiveedition-dingalingproductions-bundles-s1-2560x1440-5be18c558828.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-09-10",
+      "summary": "Disponível gratuitamente a partir de 01/11. Explore Olathe e desmascare seus segredos distorcidos com LISA: The Definitive Edition, incluindo o RPG narrativo original LISA: The Painful e sua sequência LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
       ],
@@ -128,8 +200,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-09",
-      "summary": "Disponível gratuitamente a partir de 10/12. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
+      "date": "2026-09-10",
+      "summary": "Disponível gratuitamente a partir de 19/10. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
       "sources": [
         "Epic Games Store"
       ],
@@ -143,207 +215,432 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-09",
-      "summary": "Disponível gratuitamente a partir de 19/10. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
+      "date": "2026-09-10",
+      "summary": "Disponível gratuitamente a partir de 10/12. Embarque em uma jornada de perdão através de ambientes impossíveis e quebra-cabeças ilusórios. Experimente este jogo meditativo e calmante manipulando monumentos e criando caminhos em evolução para explorar mundos novos, surreais e misteriosos.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/monument-valley-02"
     },
     {
-      "id": "https://store.epicgames.com/p/luftrausers",
-      "title": "EM BREVE: Luftrausers",
-      "original_title": "Luftrausers",
-      "image": "https://cdn1.epicgames.com/spt-assets/85ddeeec9d4243b3a2d78aab87bfae7f/luftrausers-1mxb1.png",
+      "id": "https://store.epicgames.com/p/1513de80f23f42e584540be749826057",
+      "title": "EM BREVE: Mindcop",
+      "original_title": "Mindcop",
+      "image": "https://cdn1.epicgames.com/spt-assets/984cdc148ea6423e866ca6e04a1b429f/mindcop-kplp1.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-09",
-      "summary": "Disponível gratuitamente a partir de 10/09. Os céus estão em chamas e os mares transbordarão de destroços no elegante jogo de tiro arcade LUFTRAUSERS de Vlambeer! Suba aos céus em aviões de combate personalizados para combater navios de guerra, submarinos e ases rivais em busca de glória, honra e pontuações mais altas.",
+      "date": "2026-09-10",
+      "summary": "Disponível gratuitamente a partir de 17/09. Mindcop é um jogo de detetive não linear “whodunnit”. Ele mistura uma aventura baseada em uma história com quebra-cabeças match-3 em tempo real. Como o infame Mindcop, você pode mergulhar nas mentes de seus suspeitos para descobrir seus segredos e desvendar suas mentiras.​",
       "sources": [
         "Epic Games Store"
       ],
-      "url": "https://store.epicgames.com/p/luftrausers"
+      "url": "https://store.epicgames.com/p/1513de80f23f42e584540be749826057"
     },
     {
-      "id": "https://store.epicgames.com/p/d72ccf025e574bb4a725e3079ea34081",
-      "title": "EM BREVE: Astral Ascent",
-      "original_title": "Astral Ascent",
-      "image": "https://cdn1.epicgames.com/spt-assets/974c8a587d714d8d9e0c3b0fefe61a35/astral-ascent-b0gcm.png",
+      "id": "https://store.epicgames.com/p/shogun-showdown",
+      "title": "EM BREVE: Shogun Showdown",
+      "original_title": "Shogun Showdown",
+      "image": "https://cdn1.epicgames.com/spt-assets/450bcfdb9c00453394d7ccc2948ba5db/shogun-showdown-hz1yh.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-09",
-      "summary": "Disponível gratuitamente a partir de 10/09. Escolha um dos quatro heróis e explore o Jardim, uma prisão astral guardada por 12 poderosos chefes místicos: os Zodíacos. Desafie-os com dezenas de feitiços únicos e amigos fiéis ao seu lado para desvendar a história deste roguelite de plataforma com combates extremamente rápidos.",
+      "date": "2026-09-10",
+      "summary": "Disponível gratuitamente a partir de 17/09. Shogun Showdown é um jogo de combate baseado em turnos com elementos de rogue-like e de construção de deck. Posicione-se e ataque na hora certa, atualize suas peças e combine-as para se preparar para enfrentar o Shogun!",
       "sources": [
         "Epic Games Store"
       ],
-      "url": "https://store.epicgames.com/p/d72ccf025e574bb4a725e3079ea34081"
+      "url": "https://store.epicgames.com/p/shogun-showdown"
     },
     {
-      "id": "https://www.eurogamer.net/kirby-and-the-world-beyond-reveal-trailer-nintendo-direct",
-      "title": "Kirby and the World Beyond chegando ao Nintendo Switch 2 na primavera de 2027",
-      "original_title": "Kirby and the World Beyond coming to Nintendo Switch 2 in Spring 2027",
-      "image": "https://assetsio.gnwcdn.com/kirby-and-the-world-buffed-up-link.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/nintendo-american-tarrif-refund-sale",
+      "title": "A Nintendo of America agradece aos fãs por lidarem com os aumentos de preços relacionados às tarifas, incentivando-os a gastar mais dinheiro em uma nova venda",
+      "original_title": "Nintendo of America thanks fans for dealing with tariff-related price hikes by encouraging them to spend more money in a new sale",
+      "image": "https://assetsio.gnwcdn.com/Close-up-of-Donkey-Kong-and-Pauline-in-Donkey-Kong-Bananza-on-Switch-2.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-09-09",
-      "summary": "Soa os alarmes! Um trailer de revelação de um novo jogo Kirby foi revelado no Nintendo Direct de hoje. Chamado Kirby and the World Beyond, o jogo será lançado no Nintendo Switch 2 na primavera de 2027. Leia mais...",
+      "date": "2026-09-10",
+      "summary": "A Nintendo of America está atualmente enfrentando uma ação coletiva por se recusar a repassar reembolsos de tarifas aos clientes, e é nesse contexto que anunciou hoje uma “Venda de Valorização do Cliente”, aparentemente possibilitada por esses descontos. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/kirby-and-the-world-beyond-reveal-trailer-nintendo-direct"
+      "url": "https://www.eurogamer.net/nintendo-american-tarrif-refund-sale"
     },
     {
-      "id": "https://www.eurogamer.net/stage-fright-overcooked-studio-first-gameplay",
-      "title": "A equipe Overcooked retorna com uma primeira olhada em sua adorável e assustadora aventura cooperativa Stage Fright, e será lançada no próximo ano",
-      "original_title": "Overcooked team returns with a first proper look at its adorably spooky co-op adventure Stage Fright, and it's out next year",
-      "image": "https://assetsio.gnwcdn.com/stage-fright-monster-chase-crop.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/marvels-wolverine-review",
+      "title": "Crítica do Wolverine da Marvel",
+      "original_title": "Marvel's Wolverine review",
+      "image": "https://assetsio.gnwcdn.com/Marvels-Wolverine-review-6.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-09-09",
-      "summary": "Volte sua mente para dezembro de 2024 e você deve se lembrar de uma pequena provocação divertida para a intrigante - e adoravelmente assustadora - aventura cooperativa Stage Fright do estúdio Overcooked Ghost Town Games. Quase dois anos depois, o estúdio está de volta com algumas primeiras...",
+      "date": "2026-09-10",
+      "summary": "Sempre pensei que havia alguns personagens por aí que combinavam perfeitamente com videogames. Batman é sempre meu exemplo clássico: ele derrota bandidos, faz ataques furtivos e tem um arsenal integrado de dispositivos que podem ser convenientemente desmontados.",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/stage-fright-overcooked-studio-first-gameplay"
+      "url": "https://www.eurogamer.net/marvels-wolverine-review"
     },
     {
-      "id": "https://www.eurogamer.net/metroid-ravenous-switch-2-release-date",
-      "title": "Metroid Ravenous anunciado, será lançado em janeiro de 2027 exclusivamente para Nintendo Switch 2",
-      "original_title": "Metroid Ravenous announced, launches January 2027 exclusively for Nintendo Switch 2",
-      "image": "https://assetsio.gnwcdn.com/HRyBZh7bcAA13-p.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/runescape-generative-ai-clone-taken-down",
+      "title": "“O que diabos é isso” – os jogadores do RuneScape se revoltam quando o jogo imitador da geração AI aparece e eventualmente atrai a atenção da Jagex",
+      "original_title": "\"What in the vibe-coded s*** is this\" - RuneScape players revolt as gen-AI copycat game appears and eventually attracts the eye of Jagex",
+      "image": "https://assetsio.gnwcdn.com/old-school-runescape-dancing-on-bridge.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-09-09",
-      "summary": "Durante o Nintendo Direct de hoje, a editora e detentora da plataforma anunciou o próximo jogo Metroid 2D, chamado Metroid Ravenous. Leia mais...",
+      "date": "2026-09-10",
+      "summary": "Um clone do Old School RuneScape que apareceu na internet esta semana e despertou a ira da comunidade do RuneScape foi rapidamente encerrado. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/metroid-ravenous-switch-2-release-date"
+      "url": "https://www.eurogamer.net/runescape-generative-ai-clone-taken-down"
     },
     {
-      "id": "https://www.eurogamer.net/onyx-the-dark-grip-nintendo-switch-2-reveal",
-      "title": "Onyx: The Dark Grip é um novo jogo de terror da Bloober Team que chega exclusivamente ao Nintendo Switch 2",
-      "original_title": "Onyx: The Dark Grip is a new Bloober Team horror game coming exclusively to the Nintendo Switch 2",
-      "image": "https://assetsio.gnwcdn.com/onyx-the-dark-grip-reveal.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/ubisoft-connect-steam-launcher-requirement-update",
+      "title": "Os jogos Steam da Ubisoft não exigirão mais o inicializador Connect, em “passo inicial em direção a uma experiência de lançamento mais suave e simplificada”",
+      "original_title": "Ubisoft Steam games to no longer require the Connect launcher, in \"initial step toward a smoother and more streamlined launch experience\"",
+      "image": "https://assetsio.gnwcdn.com/PrinceOfPersia_HERO.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-09-09",
-      "summary": "Um novo jogo de terror da Bloober Team, mais conhecido por Silent Hill 2 Remake e Cronos: The New Dawn, foi revelado no Nintendo Direct. Chama-se Onyx: The Dark Grip e será lançado no próximo ano. Leia mais...",
+      "date": "2026-09-10",
+      "summary": "Em uma jogada surpresa, a Ubisoft anunciou sua intenção de eliminar a necessidade do Ubisoft Connect iniciar sempre que você iniciar um de seus jogos no Steam. Ubisoft Connect, anteriormente conhecido como Uplay, é uma loja e lançador de jogos da Ubisoft. Começa q...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/onyx-the-dark-grip-nintendo-switch-2-reveal"
+      "url": "https://www.eurogamer.net/ubisoft-connect-steam-launcher-requirement-update"
     },
     {
-      "id": "https://www.eurogamer.net/monster-hunter-wilds-nintendo-switch-2-release-date",
-      "title": "Monster Hunter Wilds chegará ao Switch 2 ainda este ano e virá com jogo cooperativo local",
-      "original_title": "Monster Hunter Wilds is headed to the Switch 2 on later this year, comes with local co-operative play",
-      "image": "https://assetsio.gnwcdn.com/monster-hunter-wilds-seregios.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/rockstar-employment-tribunal-fired-gta-6-employees-iwgb",
+      "title": "“Hoje, estamos lutando contra o medo” – começa a audiência final na Rockstar Games vs. tribunal de desenvolvedores do GTA 6 demitido",
+      "original_title": "\"Today, we are fighting fear\" - Final hearing in Rockstar Games vs. fired GTA 6 developers tribunal begins",
+      "image": "https://assetsio.gnwcdn.com/Jason_Duval_07.0ca326xbl~oyh.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-09-09",
-      "summary": "Monster Hunter Wilds está chegando ao Nintendo Switch 2, acaba de ser revelado durante o Nintendo Direct. Leia mais...",
+      "date": "2026-09-10",
+      "summary": "A audiência final na Rockstar Games contra os 31 demitidos do tribunal de trabalho dos desenvolvedores do GTA 6 começou na Escócia, e está aberta a comícios e discursos entusiasmados das pessoas que marcharam sem cerimônia para fora dos escritórios da empresa em outubro passado...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/monster-hunter-wilds-nintendo-switch-2-release-date"
+      "url": "https://www.eurogamer.net/rockstar-employment-tribunal-fired-gta-6-employees-iwgb"
     },
     {
-      "id": "https://www.eurogamer.net/meccha-chameleon-switch-2",
-      "title": "Depois de vender mais de 20 milhões de cópias no Steam, Meccha Chameleon chega ao Nintendo Switch 2 ainda hoje",
-      "original_title": "After selling over 20 million copies on Steam, Meccha Chameleon comes to Nintendo Switch 2 later today",
-      "image": "https://assetsio.gnwcdn.com/meccha-chameleon.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/until-dawn-2-price-cheaper",
+      "title": "Until Dawn 2 é notavelmente mais barato do que a maioria dos jogos originais do PlayStation, mas isso é algo para se preocupar?",
+      "original_title": "Until Dawn 2 is notably cheaper than most first-party PlayStation games, but is this anything to be worried about?",
+      "image": "https://assetsio.gnwcdn.com/until-dawn-2-face-close-up-crop-1.jpeg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-09-09",
-      "summary": "Meccha Chameleon, o jogo independente de esconde-esconde lançado no Steam há alguns meses, já é um dos maiores sucessos do ano, conquistando o mercado de PCs. Agora, conforme revelado no Nintendo Direct de hoje, o grande sucesso indie está chegando ao Nin...",
+      "date": "2026-09-10",
+      "summary": "O jogo de terror de escolha e consequência Until Dawn 2, que acaba de ganhar uma data de lançamento, também está disponível para pré-encomenda na PlayStation Store. E o que é revelador sobre isso é que o título exclusivo do PS5 custa £ 45 na PS Store do Reino Unido (como sp...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/meccha-chameleon-switch-2"
+      "url": "https://www.eurogamer.net/until-dawn-2-price-cheaper"
     },
     {
-      "id": "https://www.eurogamer.net/everything-announced-nintendo-direct-september-2026",
-      "title": "Tudo anunciado no Nintendo Direct de setembro de 2026",
-      "original_title": "Everything announced in September 2026's Nintendo Direct",
-      "image": "https://assetsio.gnwcdn.com/mario-scream-direct-header.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/final-fantasy-7-revelation-preview",
+      "title": "Se você pensou que Final Fantasy 7 Rebirth estava inchado, você não vai gostar de Revelation – mas eu prefiro ter muito o que fazer do que pouco",
+      "original_title": "If you thought Final Fantasy 7 Rebirth was bloated, you're not going to like Revelation - but I'd much rather have too much to do than too little",
+      "image": "https://assetsio.gnwcdn.com/final-fantasy-7-revelation-gameplay-screen-1.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-09-09",
-      "summary": "Devíamos parar de nos encontrar assim! Sim, pela segunda vez em dois dias, nossos destinos se entrelaçaram graças ao matchmaking da Nintendo. Após o showcase do 40º aniversário de Legend of Zelda de ontem, estamos fazendo a transmissão ao vivo do anúncio...",
+      "date": "2026-09-10",
+      "summary": "Instalando-me na minha demonstração de Final Fantasy 7 Revelation, fiquei um pouco chocado com a quantidade de pop-ups de tutorial que tive que clicar para apenas jogar o maldito jogo. É verdade que a fatia que estou jogando vem de 'algumas horas' de experiência - nosso r...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/everything-announced-nintendo-direct-september-2026"
+      "url": "https://www.eurogamer.net/final-fantasy-7-revelation-preview"
     },
     {
-      "id": "https://www.eurogamer.net/the-blood-of-dawnwalker-patch-controller-issues-sequel",
-      "title": "Os problemas do controlador de The Blood of Dawnwalker foram resolvidos no último hotfix, e Rebel Wolves fala mais sobre uma sequência",
-      "original_title": "The Blood of Dawnwalker controller issues tackled in latest hotfix, and Rebel Wolves talks more about a sequel",
-      "image": "https://assetsio.gnwcdn.com/brencis-dawnwalker.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/playstation-plus-september-2026-games",
+      "title": "Aqui estão nossos jogos PS Plus Premium e Extra de setembro",
+      "original_title": "Here are our PS Plus Premium and Extra games for September",
+      "image": "https://assetsio.gnwcdn.com/runescape-dragonwilds_4qrgKUs.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-09-09",
-      "summary": "A opinião parece ser favorável sobre o RPG de fantasia sombria tipo Witcher, The Blood of Dawnwalker - exceto alguns problemas técnicos, é claro. Problemas com problemas de desempenho, problemas de controle e bugs (e talvez a falta de um New Game + ...",
+      "date": "2026-09-10",
+      "summary": "A Sony revelou os jogos que chegarão ao PlayStation Plus Premium e Extra em setembro e há algumas coisas decentes, embora falte uma atração principal chamativa como, digamos, Big Walk no mês passado. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/the-blood-of-dawnwalker-patch-controller-issues-sequel"
+      "url": "https://www.eurogamer.net/playstation-plus-september-2026-games"
     },
     {
-      "id": "https://www.eurogamer.net/no-mans-sky-10th-anniversary-cosmos-update-revealed",
-      "title": "A atualização do 10º aniversário do No Man’s Sky está aqui, e isso significa bases orbitais, propriedade de estações espaciais – e sim, você pode finalmente voar para o sol",
-      "original_title": "No Man's Sky 10th anniversary update is here, and that means orbital bases, space station ownership - and yes, you can finally fly to the sun",
-      "image": "https://assetsio.gnwcdn.com/nms-cosmos-update-header.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/untangling-my-response-to-how-ocarina-of-time-remake-looks",
+      "title": "Estou tentando desvendar minha resposta sobre a aparência do remake de Ocarina of Time",
+      "original_title": "I'm trying to untangle my response to how the Ocarina of Time remake looks",
+      "image": "https://assetsio.gnwcdn.com/ocarina-of-time-remake-2.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-09-09",
-      "summary": "Depois de muitas provocações e especulações, a atualização do Cosmos do 10º aniversário de No Man’s Sky está aqui e, sim, é uma grande novidade, trazendo uma “revisão completa do espaço”. O que significa, entre outras coisas, alianças, bases orbitais, capacidade de comprar e viver...",
+      "date": "2026-09-10",
+      "summary": "Meu primeiro pensamento sobre a nova arte do remake de The Legend of Zelda: Ocarina of Time foi: Ah, estamos vendo demais. Esse foi meu primeiro pensamento, mas não minha primeira reação. Minha primeira reação foi pura resposta emocional. Um personagem familiar virou-se...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/no-mans-sky-10th-anniversary-cosmos-update-revealed"
+      "url": "https://www.eurogamer.net/untangling-my-response-to-how-ocarina-of-time-remake-looks"
     },
     {
-      "id": "https://www.eurogamer.net/nintendo-direct-switch-winter-2026-line-up",
-      "title": "Reportagem ao vivo do Nintendo Direct – as grandes notícias e anúncios revelados pela programação de inverno do Switch 2",
-      "original_title": "Nintendo Direct live report - the big news and announcements as Switch 2's winter line-up revealed",
-      "image": "https://assetsio.gnwcdn.com/nintendo-direct-duskbloods.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/project-zeta-preview-immediate-gratification-gamescom",
+      "title": "“Todo mundo quer gratificação imediata” – estúdio Project Zeta sobre como fazer um novo MOBA focado em ação sem todas as bobagens",
+      "original_title": "\"Everyone wants immediate gratification\" - Project Zeta studio on making a new action-focused MOBA without all the fluff",
+      "image": "https://assetsio.gnwcdn.com/0605_ZETA_Gamescom_2026_KV_FIN-Copy.png?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-09-09",
-      "summary": "É o segundo dia dos showcases Direct de setembro da Nintendo, e hoje o foco são os jogos Switch que chegam neste inverno. O programa de hoje começa às 15h, horário do Reino Unido, e cobriremos os grandes anúncios aqui, ao vivo, conforme eles acontecem. Leia mais...",
+      "date": "2026-09-10",
+      "summary": "Não há nada como um bom MOBA: a confiança no trabalho em equipe, a complexidade de uma boa construção, a capacidade de escolher um personagem e dominá-lo. Perdi muitas noites da minha vida para o gênero e me arrependo de poucas delas. Leia mais...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/nintendo-direct-switch-winter-2026-line-up"
+      "url": "https://www.eurogamer.net/project-zeta-preview-immediate-gratification-gamescom"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wbac7b/megathread_steam_achievement_leaks/",
-      "title": "[MEGATHREAD] Vazamentos de conquistas do Steam",
-      "original_title": "[MEGATHREAD] Steam Achievement Leaks",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wcdcxd/twin_peaks_unannounced_game_is_real_according_to/",
+      "title": "O jogo não anunciado de Twin Peaks é real, segundo a produtora Sabrina Sutherland",
+      "original_title": "Twin Peaks unannounced game is real, according to producer Sabrina Sutherland",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-09-10",
+      "summary": "Fonte Ela trabalhou como coordenadora de produção na série original e produtora executiva no revival de 2017 enviado por /u/ImNoahWaddupp [link] [comentários]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wcdcxd/twin_peaks_unannounced_game_is_real_according_to/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wca3r4/nintendo_switch_2_os_update_230_adds_docked_vrr/",
+      "title": "A atualização 23.0 do sistema operacional Nintendo Switch 2 adiciona suporte VRR acoplado",
+      "original_title": "Nintendo Switch 2 OS update 23.0 adds docked VRR support",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-09-10",
+      "summary": "https://bsky.app/profile/did:plc:tf7tjgkrqwai2kbxpx2dbr6k/post/3mv5ce3nt4m2l boato anterior sobre uma lista de empregos mencionando suporte VRR sendo trabalhado em https://www.reddit.com/r/GamingLeaksAndRumours/comments/1us720k/nintendo_job_listing_suggests_docke...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wca3r4/nintendo_switch_2_os_update_230_adds_docked_vrr/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wc5xxq/rumour_new_aaa_2d_fighter_spotted_via_upcoming/",
+      "title": "[Rumor] Novo lutador AAA 2D descoberto no próximo teste de jogo competitivo (potencialmente da Capcom)",
+      "original_title": "[Rumour] New AAA 2D Fighter spotted via upcoming competitive player playtest (Potentially from Capcom)",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Rumor",
+      "date": "2026-09-10",
+      "summary": "Good Gamer Group (GGG) está realizando um teste pago para um jogo de luta AAA não anunciado. O link pode ser encontrado aqui. Menciona que o playtest está localizado em Culver City, CA e eles estão procurando veteranos de jogos de luta 2D para testar o jogo.  Algum...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wc5xxq/rumour_new_aaa_2d_fighter_spotted_via_upcoming/"
+    },
+    {
+      "id": "https://www.techpowerup.com/352561/microsoft-fixes-nearly-1-000-vulnerabilities-across-windows-office-and-azure",
+      "title": "Microsoft corrige quase 1.000 vulnerabilidades no Windows, Office e Azure",
+      "original_title": "Microsoft Fixes Nearly 1,000 Vulnerabilities Across Windows, Office, and Azure",
+      "image": "https://tpucdn.com/img/i0JO5X3KiXphMfC7_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-10",
+      "summary": "Em setembro, a Microsoft lançou correções para 999 vulnerabilidades, tornando-se um dos maiores lotes de correções que a empresa já emitiu. Desses 999 patches, 723 vulnerabilidades foram corrigidas apenas no Windows. Para escritório e fora...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352561/microsoft-fixes-nearly-1-000-vulnerabilities-across-windows-office-and-azure"
+    },
+    {
+      "id": "https://www.techpowerup.com/352559/audio-technica-introduces-ath-al5nc-open-back-wireless-headphones",
+      "title": "(PR) Audio-Technica apresenta fones de ouvido sem fio abertos ATH-AL5NC",
+      "original_title": "(PR) Audio-Technica Introduces ATH-AL5NC Open-Back Wireless Headphones",
+      "image": "https://tpucdn.com/img/xB6I0pX9vYw8XOou_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-10",
+      "summary": "A Audio-Technica anunciou o lançamento de seus fones de ouvido sem fio abertos ATH-AL5NC, combinando a apresentação espaçosa e natural de um design aberto com a liberdade e os recursos modernos da audição sem fio. Após o sucesso da Série R...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352559/audio-technica-introduces-ath-al5nc-open-back-wireless-headphones"
+    },
+    {
+      "id": "https://www.techpowerup.com/352532/blockchance-offers-1-000-kh-s-solo-mining-without-a-dedicated-pc-for-just-usd-50-through-today",
+      "title": "BlockChance oferece mineração solo de 1.000 KH/s sem um PC dedicado por apenas US$ 50 até hoje",
+      "original_title": "BlockChance Offers 1,000 KH/s Solo Mining Without a Dedicated PC for Just $50 Through Today",
+      "image": "https://tpucdn.com/img/6yNnDZlHsExGl8HI_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-10",
+      "summary": "A mineração de Bitcoin normalmente traz à mente hardware especializado, consumo substancial de energia e grandes operações de mineração. O BlockChance Bitcoin Ticket Miner, disponível por US$ 49,97 (MSRP US$ 149,99) até 10 de setembro, leva um preço muito menor e mais provável...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352532/blockchance-offers-1-000-kh-s-solo-mining-without-a-dedicated-pc-for-just-usd-50-through-today"
+    },
+    {
+      "id": "https://www.techpowerup.com/352558/tsmc-reports-record-usd-16-26-billion-august-revenue",
+      "title": "Relatórios TSMC registram receita de agosto de US$ 16,26 bilhões",
+      "original_title": "TSMC Reports Record $16.26 Billion August Revenue",
+      "image": "https://tpucdn.com/img/VLBkjoEhi7cHIT7S_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-10",
+      "summary": "A TSMC anunciou hoje seus resultados financeiros de agosto, reportando NT$ 514,81 bilhões, ou cerca de US$ 16,26 bilhões no momento em que este artigo foi escrito. Isto representa um aumento significativo de 10,1% em relação aos 14,49 mil milhões de dólares de Julho, indicando que a procura permanece robusta. Crescendo...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352558/tsmc-reports-record-usd-16-26-billion-august-revenue"
+    },
+    {
+      "id": "https://www.techpowerup.com/352557/other-world-computing-owc-announces-acquisition-of-opendrives",
+      "title": "(PR) Other World Computing (OWC) anuncia aquisição de OpenDrives",
+      "original_title": "(PR) Other World Computing (OWC) Announces Acquisition of OpenDrives",
+      "image": "https://tpucdn.com/img/HdVq0fSAoawLNm2c_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-10",
+      "summary": "A Other World Computing (OWC), líder confiável em armazenamento de alto desempenho, memória, conectividade, software e acessórios que capacitam profissionais criativos e de negócios a maximizar o desempenho, aumentar a confiabilidade e agilizar os fluxos de trabalho, hoje...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352557/other-world-computing-owc-announces-acquisition-of-opendrives"
+    },
+    {
+      "id": "https://www.techpowerup.com/352554/nvidias-statistics-overlay-finally-shows-cpu-temperature-and-power-draw",
+      "title": "A sobreposição de estatísticas da NVIDIA finalmente mostra a temperatura da CPU e o consumo de energia",
+      "original_title": "NVIDIA's Statistics Overlay Finally Shows CPU Temperature and Power Draw",
+      "image": "https://tpucdn.com/img/E7wQDMj82nzge9JQ_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-10",
+      "summary": "O aplicativo NVIDIA versão 11.0.9 adicionou temperatura da CPU, velocidade do clock e consumo de energia à sua sobreposição de estatísticas integrada. Anteriormente, os proprietários de GeForce precisavam executar uma ferramenta separada como HWiNFO ou MSI Afterburner apenas para verificar as térmicas do processador no meio do jogo,...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352554/nvidias-statistics-overlay-finally-shows-cpu-temperature-and-power-draw"
+    },
+    {
+      "id": "https://www.techpowerup.com/352533/productivity-for-less-windows-11-pro-is-just-usd-9-97-right-now",
+      "title": "Produtividade por menos – o Windows 11 Pro custa apenas US$ 9,97 agora",
+      "original_title": "Productivity for Less—Windows 11 Pro Is Just $9.97 Right Now",
+      "image": "https://tpucdn.com/img/kTACciyEujo3nkTo_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-10",
+      "summary": "O Microsoft Windows 11 Pro está disponível por apenas US$ 9,97 (MSRP US$ 199) até 27 de setembro, fornecendo uma licença vitalícia para um PC compatível sem taxas de assinatura recorrentes. A edição Pro adiciona vários recursos destinados a profissionais, negócios, des...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352533/productivity-for-less-windows-11-pro-is-just-usd-9-97-right-now"
+    },
+    {
+      "id": "https://www.techpowerup.com/352551/samsung-and-mistral-ai-announce-partnership-for-intelligence-driven-semiconductor-infrastructure",
+      "title": "(PR) Samsung e Mistral AI anunciam parceria para infraestrutura de semicondutores baseada em inteligência",
+      "original_title": "(PR) Samsung and Mistral AI Announce Partnership for Intelligence-Driven Semiconductor Infrastructure",
+      "image": "https://tpucdn.com/img/WEp4wXilluGLtMZW_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-10",
+      "summary": "A Samsung Electronics anunciou hoje que firmou uma parceria estratégica com a Mistral AI para aprimorar suas capacidades de engenharia e fabricação de semicondutores, o que reforçará sua liderança em tecnologias de chips de IA. O anúncio d...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352551/samsung-and-mistral-ai-announce-partnership-for-intelligence-driven-semiconductor-infrastructure"
+    },
+    {
+      "id": "https://www.techpowerup.com/352549/majority-of-tpu-users-dont-see-microsofts-promised-windows-11-improvements",
+      "title": "A maioria dos usuários de TPU não vê as melhorias prometidas pela Microsoft para o Windows 11",
+      "original_title": "Majority of TPU Users Don't See Microsoft's Promised Windows 11 Improvements",
+      "image": "https://tpucdn.com/img/c386UsALDJ5qeyUy_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-10",
+      "summary": "Há alguns meses, a Microsoft prometeu à sua comunidade de entusiastas do Windows que a empresa implementaria uma grande reformulação para melhorar o desempenho e a estabilidade do sistema operacional Windows 11. Realizamos uma enquete e recebemos quase 33.000 respostas...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352549/majority-of-tpu-users-dont-see-microsofts-promised-windows-11-improvements"
+    },
+    {
+      "id": "https://www.techpowerup.com/352548/kepler-computing-emerges-to-build-hbm-alternative-using-feram",
+      "title": "Kepler Computing surge para construir alternativa HBM usando FeRAM",
+      "original_title": "Kepler Computing Emerges to Build HBM Alternative Using FeRAM",
+      "image": "https://tpucdn.com/img/sDVqIGj0263EGmcF_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-10",
+      "summary": "Após sete anos operando em modo furtivo, uma nova startup chamada Kepler Computing surgiu para resolver a crise de memória usando uma tecnologia de memória personalizada. A startup afirma ter desenvolvido uma alternativa ao HBM usando uma nova técnica de empilhamento 3D...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352548/kepler-computing-emerges-to-build-hbm-alternative-using-feram"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wc0ft9/the_japanese_version_of_kingdom_hearts_4s/",
+      "title": "A versão japonesa das conquistas de Kingdom Hearts 4 tem descrições completas e revela um pouco mais de detalhes da história de spoiler",
+      "original_title": "The Japanese version of Kingdom Hearts 4's achievements have their full descriptions, and reveal a bit more of spoilery story details",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-09-09",
+      "summary": "exophase.com/game/kingdom-hearts-iv-steam/achievements/jp/ Não há muitos detalhes novos em comparação com as versões em inglês, mas as japonesas têm todas as descrições intactas em comparação com as em inglês, onde muitas delas estavam...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wc0ft9/the_japanese_version_of_kingdom_hearts_4s/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wbu7xw/possible_gta_6_collectors_edition/",
+      "title": "Possível edição de colecionador de GTA 6",
+      "original_title": "Possible GTA 6 collectors edition",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-09-09",
+      "summary": "https://xcancel.com/iGrandTheftAuto/status/2097751899847971073#m OP excluiu o tweet para “evitar problemas legais” (disse em um tweet separado que a caixa é maior que uma caixa PS5, o que significa que é enorme) enviado por /u/anonymoususercake [link] [comentário...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wbu7xw/possible_gta_6_collectors_edition/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wby8ql/project_dream_snes_prototype_leaked/",
+      "title": "Protótipo do Project Dream SNES vazou",
+      "original_title": "Project Dream SNES Prototype leaked",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
       "category": "Rumor",
       "date": "2026-09-09",
-      "summary": "OK! Obviamente, há muitos vazamentos de conquistas surgindo agora. Está ficando um pouco fora de controle e, honestamente, há algumas pás sendo postadas também que mal valem a postagem. Vamos mover todos os vazamentos de conquistas do Steam aqui....",
+      "summary": "https://bsky.app/profile/factsaboutbk.bsky.social/post/3mv4dsl6plk2c Carregado por alguém que afirma tê-lo em sua coleção pessoal; desconhecido se é legítimo/real, mas funciona no emulador e no console \"Espero que, ao lançar isso, seja um...",
       "sources": [
         "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wbac7b/megathread_steam_achievement_leaks/"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wby8ql/project_dream_snes_prototype_leaked/"
     },
     {
       "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wbnc63/metroid_ravenous_officially_revealed_in_ns2/",
@@ -361,244 +658,19 @@
       "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wbnc63/metroid_ravenous_officially_revealed_in_ns2/"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wb678a/persona_6_achievements_leak/",
-      "title": "Vazamento de conquistas da Persona 6",
-      "original_title": "Persona 6 Achievements Leak",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wbpdyj/leaker_lolilolailo_on_resetera_shares_some/",
+      "title": "Leaker lolilolailo no resetera compartilha alguns detalhes sobre o elenco de Persona6",
+      "original_title": "Leaker lolilolailo on resetera shares some details on Persona6's cast",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
       "category": "Rumor",
       "date": "2026-09-09",
-      "summary": "https://www.exophase.com/game/persona-6-steam/achievements/ enviado por /u/Fun-Dog3413 [link] [comentários]...",
+      "summary": "O mesmo usuário também vazou/corroborou algumas informações sobre jogos da Atlus no passado. Ele descreve o grupo principal como um esquadrão de detetives paranormais, aparentemente conectado à atual polícia japonesa e mais próximo dos Arquivos X do que algo como Scooby-Doo ou o Fantasma...",
       "sources": [
         "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wb678a/persona_6_achievements_leak/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wb9oci/every_games_achievements_that_ive_seen_a_post_for/",
-      "title": "As conquistas de todos os jogos que vi uma postagem hoje à noite",
-      "original_title": "Every game’s achievements that I’ve seen a post for tonight",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-09-09",
-      "summary": "Persona 4 Revival Persona 6 Tomb Raider: Legacy of Atlantis Jogo de traficante de drogas brasileiro 4 Walking Dead Star Wars Galactic Racers Clive Barker's Hellraiser Caçadores Horizon reunindo Hobo personalizado Minecrafft Dungeons 2 Kena: Scars of Kosmora DRAGON BALL X...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wb9oci/every_games_achievements_that_ive_seen_a_post_for/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wb95t0/kingdom_hearts_iv_achievements_leak/",
-      "title": "Vazamento de conquistas de Kingdom Hearts IV",
-      "original_title": "Kingdom Hearts IV Achievements Leak",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Rumor",
-      "date": "2026-09-09",
-      "summary": "https://steamdb.info/app/3216600/stats/ enviado por /u/Player0914 [link] [comentários]...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wb95t0/kingdom_hearts_iv_achievements_leak/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wb78g0/steam_achievements_for_brazilian_drug_dealer/",
-      "title": "Conquistas da Steam para traficante de drogas BRASILEIRO ANTES 4: DEMÔNIOS DO PORTAL PARA O INFERNO QUE ABRI AINDA ESTÃO NA FAVELA E AGORA TENHO QUE SALVAR MAMADAS DO RONALDO Vazou",
-      "original_title": "Steam Achievements for BRAZILIAN DRUG DEALER BEFORE 4: DEMONS FROM THE PORTAL TO HELL I OPENED ARE STILL IN THE FAVELA AND NOW I HAVE TO SAVE MAMADAS FROM RONALDO Leaked",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Rumor",
-      "date": "2026-09-09",
-      "summary": "https://www.exophase.com/game/brazilian-drug-dealer-before-4-demons-from-the-portal-to-hell-i-opened-are-still-in-the-favela-and-now-i-have-to-save-mamadas-from-ronaldo-steam/achievements/ enviado por /u/YaboiTonyC [link] [comentários]...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wb78g0/steam_achievements_for_brazilian_drug_dealer/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wbo50h/romancing_saga_3_destinies_united_announced/",
-      "title": "Romancing SaGa 3: Destinies United anunciado, lançamento em 16 de fevereiro de 2027 para PS5, Xbox Series, Switch 2, Switch, PC",
-      "original_title": "Romancing SaGa 3: Destinies United Announced, Releases Feb 16th 2027 For PS5, Xbox Series, Switch 2, Switch, PC",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-09-09",
-      "summary": "https://youtu.be/wtX1kIvG7-g?is=RiA1hTVCM9C7uluA https://www.reddit.com/r/GamingLeaksAndRumours/s/gu4jFqApkr enviado por /u/Howerev [link] [comentários]...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wbo50h/romancing_saga_3_destinies_united_announced/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wb8nwz/placeholder_steam_achievements_for_an_unannounced/",
-      "title": "Conquistas de espaço reservado do Steam para um jogo Twin Peaks não anunciado",
-      "original_title": "Placeholder Steam achievements for an unannounced Twin Peaks game",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-09-09",
-      "summary": "https://www.exophase.com/game/3886550-steam/achievements/ enviado por /u/Skyplayer37 [link] [comentários]...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wb8nwz/placeholder_steam_achievements_for_an_unannounced/"
-    },
-    {
-      "id": "https://www.techpowerup.com/352513/aaeon-releases-max-q870a-and-max-h810a-microatx-industrial-motherboards",
-      "title": "(PR) AAEON lança placas-mãe industriais microATX MAX-Q870A e MAX-H810A",
-      "original_title": "(PR) AAEON Releases MAX-Q870A and MAX-H810A microATX Industrial Motherboards",
-      "image": "https://tpucdn.com/img/jOaVR2gmA0vHavk4_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-09",
-      "summary": "AAEON (código de estoque: 6579) anunciou hoje o lançamento de duas novas placas-mãe industriais microATX com processadores Intel Core Ultra série 200S (anteriormente Arrow Lake-S), a MAX-Q870A e a MAX-H810A.\n\nAs duas placas são compatíveis com uma gama de A...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352513/aaeon-releases-max-q870a-and-max-h810a-microatx-industrial-motherboards"
-    },
-    {
-      "id": "https://www.techpowerup.com/352511/cxmt-reportedly-struggles-with-hbm3e-yields-are-only-25",
-      "title": "CXMT supostamente luta com HBM3E, os rendimentos são de apenas 25%",
-      "original_title": "CXMT Reportedly Struggles With HBM3E, Yields Are Only 25%",
-      "image": "https://tpucdn.com/img/OASSkeh54CYS2hrk_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-09",
-      "summary": "A gigante chinesa de memória CXMT está enfrentando dificuldades com a produção do HBM3, de acordo com a mídia sul-coreana. No final do mês passado, foi revelado que a CXMT havia iniciado a produção de risco de memória HBM3E, ficando duas gerações atrás da Samsung, SK hynix,...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352511/cxmt-reportedly-struggles-with-hbm3e-yields-are-only-25"
-    },
-    {
-      "id": "https://www.techpowerup.com/352508/modders-unlock-dlss-multi-frame-generation-for-rtx-30-series-ampere-gpus",
-      "title": "Modders desbloqueiam geração de múltiplos quadros DLSS para GPUs “Ampere” da série RTX 30",
-      "original_title": "Modders Unlock DLSS Multi Frame Generation For RTX 30-Series \"Ampere\" GPUs",
-      "image": "https://tpucdn.com/img/GFaSt7ca5PPmBoPB_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-09",
-      "summary": "Depois de portar o DLSS 5 para todas as gerações recentes da NVIDIA, a comunidade modding agora parece estar voltando seu foco para a geração de quadros. Um novo mod chamado DLSSG SM86 permite que proprietários de GeForce RTX série 30 executem DLSS Multi Frame Generation nos modos 2X e 4X, um f...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352508/modders-unlock-dlss-multi-frame-generation-for-rtx-30-series-ampere-gpus"
-    },
-    {
-      "id": "https://www.techpowerup.com/352507/modder-brings-nvidias-canceled-16gb-rtx-3070-ti-back-to-life",
-      "title": "Modder traz de volta à vida o RTX 3070 Ti de 16 GB cancelado da NVIDIA",
-      "original_title": "Modder Brings NVIDIA's Canceled 16GB RTX 3070 Ti Back to Life",
-      "image": "https://tpucdn.com/img/02BI2yB9rRXGFC9g_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-09",
-      "summary": "Um modder brasileiro da fmklab construiu um RTX 3070 Ti funcional com 16 GB de memória, uma configuração que a NVIDIA supostamente planejou anos atrás, mas nunca trouxe ao mercado. Em vez de instalar chips de memória maiores em uma placa 3070 Ti de varejo, Fabio, também conhecido como f...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352507/modder-brings-nvidias-canceled-16gb-rtx-3070-ti-back-to-life"
-    },
-    {
-      "id": "https://www.techpowerup.com/352503/windows-11-will-get-faster-boot-times-and-more-optimizations-for-8-gb-ram-systems",
-      "title": "O Windows 11 terá tempos de inicialização mais rápidos e mais otimizações para sistemas com 8 GB de RAM",
-      "original_title": "Windows 11 Will Get Faster Boot Times and More Optimizations for 8 GB RAM Systems",
-      "image": "https://tpucdn.com/img/Lswz2Co0BGZFXkkt_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-09",
-      "summary": "Na IFA 2026 em Berlim, Alemanha, a Microsoft confirmou que a empresa está ouvindo o feedback dos usuários sobre vários aspectos da experiência do Windows, incluindo tempos de inicialização, Windows Hello e otimizações para sistemas de PC com 8 GB de RAM. Falando no e...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352503/windows-11-will-get-faster-boot-times-and-more-optimizations-for-8-gb-ram-systems"
-    },
-    {
-      "id": "https://www.techpowerup.com/352505/g-skill-launches-trident-z5-royal-neox-series-ddr5-memory-with-amd-expo-ull",
-      "title": "(PR) G.Skill lança memória DDR5 Trident Z5 Royal NeoX Series com AMD EXPO-ULL",
-      "original_title": "(PR) G.Skill Launches Trident Z5 Royal NeoX Series DDR5 Memory with AMD EXPO-ULL",
-      "image": "https://tpucdn.com/img/RwtYV1yE4ekcFKcw_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-09",
-      "summary": "G.SKILL International Enterprise Co., Ltd., marca líder mundial em memória de overclock de desempenho, tem o prazer de anunciar o lançamento da nova memória DDR5 da série Trident Z5 Royal NeoX, apresentando \"Tecnologia AMD EXPO: Apresentando Latência Ultra Baixa\"...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352505/g-skill-launches-trident-z5-royal-neox-series-ddr5-memory-with-amd-expo-ull"
-    },
-    {
-      "id": "https://www.techpowerup.com/352502/amd-radeon-rx-9070-xt-is-amds-most-popular-discrete-gpu-on-steam-survey",
-      "title": "AMD Radeon RX 9070 XT é a GPU discreta mais popular da AMD na pesquisa Steam",
-      "original_title": "AMD Radeon RX 9070 XT is AMD's Most Popular Discrete GPU on Steam Survey",
-      "image": "https://tpucdn.com/img/dEzIqhqGcRIWVKRD_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-09",
-      "summary": "De acordo com a última atualização da Steam Hardware and Software Survey, em agosto, a Radeon RX 9070 XT da AMD, o carro-chefe da família RDNA 4, tornou-se a placa gráfica discreta mais popular da empresa. Com uma participação de 1,46% entre os jogadores do Steam pesquisados, o...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352502/amd-radeon-rx-9070-xt-is-amds-most-popular-discrete-gpu-on-steam-survey"
-    },
-    {
-      "id": "https://www.techpowerup.com/352495/attack-shark-teases-mega-b2-mouse-as-logitech-g-pro-x2-superstrike-competitor",
-      "title": "Attack Shark provoca Mega B2 Mouse como concorrente do Logitech G Pro X2 Superstrike",
-      "original_title": "Attack Shark Teases Mega B2 Mouse As Logitech G Pro X2 Superstrike Competitor",
-      "image": "https://tpucdn.com/img/kEMZZCv2cVcumADz_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-09",
-      "summary": "Desde o lançamento do Logitech G Pro X2 Superstrike, tem havido uma enxurrada de efeitos Hall e outros mouses analógicos para jogos que afirmam oferecer desempenho semelhante e benefícios de personalização, do G6 HE da Keychron ao Leviathan econômico da RAWM ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352495/attack-shark-teases-mega-b2-mouse-as-logitech-g-pro-x2-superstrike-competitor"
-    },
-    {
-      "id": "https://www.techpowerup.com/352482/lattepanda-launches-the-lattepanda-mu-ultra-a-micro-x86-compute-module-for-on-device-ai",
-      "title": "(PR) LattePanda lança o LattePanda Mu Ultra: um módulo de computação Micro x86 para IA no dispositivo",
-      "original_title": "(PR) LattePanda Launches the LattePanda Mu Ultra: A Micro x86 Compute Module for On-Device AI",
-      "image": "https://tpucdn.com/img/FNzJPc6oUsn4FchV_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-09",
-      "summary": "A equipe LattePanda lançou hoje o LattePanda Mu Ultra, um módulo de computação micro x86 desenvolvido especificamente para IA no dispositivo. Equipado com processadores Intel Core Ultra 5 226V e Ultra 7 256V, ele oferece até 115 TOPS de desempenho de IA em um formato compacto de 69,6 mm × 60 mm.",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352482/lattepanda-launches-the-lattepanda-mu-ultra-a-micro-x86-compute-module-for-on-device-ai"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wauawg/megathread_nintendo_direct_992026/",
-      "title": "[MEGATHREAD] Nintendo Direct 9.9.2026",
-      "original_title": "[MEGATHREAD] Nintendo Direct 9.9.2026",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-09-08",
-      "summary": "|Nintendo Direct 9.9.26| |Data/hora: 9 de setembro de 2026 9h CST (clique para ver seu fuso horário)| |Onde assistir: Youtube da Nintendo, Youtube da IGN | |O que esperar|    enviado por /u/Spheromancer [link] [comentários]...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wauawg/megathread_nintendo_direct_992026/"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wbpdyj/leaker_lolilolailo_on_resetera_shares_some/"
     },
     {
       "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wak8ho/discussion_news_and_request_thread_week_beginning/",
@@ -614,21 +686,6 @@
         "r/GamingLeaksAndRumours"
       ],
       "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wak8ho/discussion_news_and_request_thread_week_beginning/"
-    },
-    {
-      "id": "https://www.techpowerup.com/352493/the-blood-of-dawnwalker-2-already-in-the-works",
-      "title": "The Blood of Dawnwalker 2 já está em andamento",
-      "original_title": "The Blood of Dawnwalker 2 Already in the Works",
-      "image": "https://tpucdn.com/img/AwCC2QTy3OqREg27_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-08",
-      "summary": "The Blood of Dawnwalker tem sido um sucesso notável para Rebel Wolves, com o jogo ultrapassando 1 milhão de vendas poucos dias após o lançamento, e parece que o estúdio está tentando dobrar esse sucesso com Blood of Dawnwalker 2, que parece...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352493/the-blood-of-dawnwalker-2-already-in-the-works"
     }
   ]
 }
