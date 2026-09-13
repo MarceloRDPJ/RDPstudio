@@ -1,14 +1,14 @@
 {
-  "last_updated": "2026-09-12T15:04:12",
-  "display_date": "12/09/2026 15:04",
+  "last_updated": "2026-09-13T15:41:37",
+  "display_date": "13/09/2026 15:41",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "233ms",
+    "latency": "167ms",
     "current_games": [
       {
         "title": "Luftrausers",
-        "description": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "description": "The skies are aflame and the seas will overflow with wreckage in Vlambeer’s stylish arcade shooter LUFTRAUSERS! Take to the skies in customized fighter planes to battle battleships, submarines, and rival aces for glory, honor, and high scores.",
         "image": "https://cdn1.epicgames.com/spt-assets/85ddeeec9d4243b3a2d78aab87bfae7f/luftrausers-1mxb1.png",
         "url": "https://store.epicgames.com/p/luftrausers",
         "price": "$9.99",
@@ -17,7 +17,7 @@
       },
       {
         "title": "Astral Ascent",
-        "description": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "description": "Choose one of four heroes and explore the Garden, an astral prison guarded by 12 powerful mystical bosses: the Zodiacs. Challenge them with dozens of unique spells and faithful friends by your side to unfold the story of this platform roguelite with lightning fast combat.",
         "image": "https://cdn1.epicgames.com/spt-assets/974c8a587d714d8d9e0c3b0fefe61a35/astral-ascent-b0gcm.png",
         "url": "https://store.epicgames.com/p/d72ccf025e574bb4a725e3079ea34081",
         "price": "$24.99",
@@ -28,7 +28,16 @@
     "upcoming_games": [
       {
         "title": "LISA: The Definitive Edition",
-        "description": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "description": "Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
+        "image": "https://cdn2.unrealengine.com/egs-lisathedefinitiveedition-dingalingproductions-bundles-s1-2560x1440-5be18c558828.jpg",
+        "url": "https://store.epicgames.com/p/lisa-the-definitive-edition",
+        "price": "$24.99",
+        "start_date": "2026-09-17T15:00:00.000Z",
+        "end_date": "2026-10-02T05:59:00.000Z"
+      },
+      {
+        "title": "LISA: The Definitive Edition",
+        "description": "Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
         "image": "https://cdn2.unrealengine.com/egs-lisathedefinitiveedition-dingalingproductions-bundles-s1-2560x1440-5be18c558828.jpg",
         "url": "https://store.epicgames.com/p/lisa-the-definitive-edition",
         "price": "$24.99",
@@ -37,7 +46,7 @@
       },
       {
         "title": "LISA: The Definitive Edition",
-        "description": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "description": "Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
         "image": "https://cdn2.unrealengine.com/egs-lisathedefinitiveedition-dingalingproductions-bundles-s1-2560x1440-5be18c558828.jpg",
         "url": "https://store.epicgames.com/p/lisa-the-definitive-edition",
         "price": "$24.99",
@@ -45,17 +54,17 @@
         "end_date": "2027-01-07T16:00:00.000Z"
       },
       {
-        "title": "LISA: The Definitive Edition",
-        "description": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "image": "https://cdn2.unrealengine.com/egs-lisathedefinitiveedition-dingalingproductions-bundles-s1-2560x1440-5be18c558828.jpg",
-        "url": "https://store.epicgames.com/p/lisa-the-definitive-edition",
-        "price": "$24.99",
-        "start_date": "2026-09-17T15:00:00.000Z",
-        "end_date": "2026-10-02T05:59:00.000Z"
+        "title": "Monument Valley",
+        "description": "Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
+        "image": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
+        "url": "https://store.epicgames.com/p/monument-valley-02",
+        "price": "$7.99",
+        "start_date": "2026-12-10T16:00:00.000Z",
+        "end_date": "2027-01-07T16:00:00.000Z"
       },
       {
         "title": "Monument Valley",
-        "description": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "description": "Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
         "image": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
         "url": "https://store.epicgames.com/p/monument-valley-02",
         "price": "$7.99",
@@ -63,17 +72,8 @@
         "end_date": "2026-11-02T16:00:00.000Z"
       },
       {
-        "title": "Monument Valley",
-        "description": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-        "image": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
-        "url": "https://store.epicgames.com/p/monument-valley-02",
-        "price": "$7.99",
-        "start_date": "2026-12-10T16:00:00.000Z",
-        "end_date": "2027-01-07T16:00:00.000Z"
-      },
-      {
         "title": "Mindcop",
-        "description": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "description": "Mindcop is a non-linear „whodunnit“ detective game. It mixes a story driven adventure with real-time match-3 puzzle. As the infamous Mindcop, you can dive into the minds of your suspects to uncover their secrets and unravel their lies.​",
         "image": "https://cdn1.epicgames.com/spt-assets/984cdc148ea6423e866ca6e04a1b429f/mindcop-kplp1.jpg",
         "url": "https://store.epicgames.com/p/1513de80f23f42e584540be749826057",
         "price": "$14.99",
@@ -82,7 +82,7 @@
       },
       {
         "title": "Shogun Showdown",
-        "description": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+        "description": "Shogun Showdown is a turn-based combat game with rogue-like and deck-building elements. Position yourself and attack at the right time, upgrade your tiles and combo them to get ready to face the Shogun!",
         "image": "https://cdn1.epicgames.com/spt-assets/450bcfdb9c00453394d7ccc2948ba5db/shogun-showdown-hz1yh.jpg",
         "url": "https://store.epicgames.com/p/shogun-showdown",
         "price": "$14.99",
@@ -101,8 +101,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-09-12",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-09-13",
+      "summary": "The skies are aflame and the seas will overflow with wreckage in Vlambeer’s stylish arcade shooter LUFTRAUSERS! Take to the skies in customized fighter planes to battle battleships, submarines, and rival aces for glory, honor, and high scores.",
       "sources": [
         "Epic Games Store"
       ],
@@ -116,8 +116,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-09-12",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-09-13",
+      "summary": "Choose one of four heroes and explore the Garden, an astral prison guarded by 12 powerful mystical bosses: the Zodiacs. Challenge them with dozens of unique spells and faithful friends by your side to unfold the story of this platform roguelite with lightning fast combat.",
       "sources": [
         "Epic Games Store"
       ],
@@ -131,8 +131,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-12",
-      "summary": "Disponível gratuitamente a partir de 01/11. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-09-13",
+      "summary": "Disponível gratuitamente a partir de 17/09. Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
       ],
@@ -146,8 +146,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-12",
-      "summary": "Disponível gratuitamente a partir de 10/12. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-09-13",
+      "summary": "Disponível gratuitamente a partir de 01/11. Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
       ],
@@ -161,8 +161,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-12",
-      "summary": "Disponível gratuitamente a partir de 17/09. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-09-13",
+      "summary": "Disponível gratuitamente a partir de 10/12. Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
       ],
@@ -176,8 +176,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-12",
-      "summary": "Disponível gratuitamente a partir de 19/10. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-09-13",
+      "summary": "Disponível gratuitamente a partir de 10/12. Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
       "sources": [
         "Epic Games Store"
       ],
@@ -191,8 +191,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-12",
-      "summary": "Disponível gratuitamente a partir de 10/12. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-09-13",
+      "summary": "Disponível gratuitamente a partir de 19/10. Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
       "sources": [
         "Epic Games Store"
       ],
@@ -206,8 +206,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-12",
-      "summary": "Disponível gratuitamente a partir de 17/09. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-09-13",
+      "summary": "Disponível gratuitamente a partir de 17/09. Mindcop is a non-linear „whodunnit“ detective game. It mixes a story driven adventure with real-time match-3 puzzle. As the infamous Mindcop, you can dive into the minds of your suspects to uncover their secrets and unravel their lies.​",
       "sources": [
         "Epic Games Store"
       ],
@@ -221,23 +221,278 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-12",
-      "summary": "Disponível gratuitamente a partir de 17/09. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-09-13",
+      "summary": "Disponível gratuitamente a partir de 17/09. Shogun Showdown is a turn-based combat game with rogue-like and deck-building elements. Position yourself and attack at the right time, upgrade your tiles and combo them to get ready to face the Shogun!",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/shogun-showdown"
     },
     {
+      "id": "https://www.eurogamer.net/level-5-ceo-apologises-generative-ai-professor-layton-yo-kai-watch",
+      "title": "Professor Layton studio Level-5's CEO admits using AI to make its digital showcase \"more spectacular\"",
+      "original_title": "Professor Layton studio Level-5's CEO admits using AI to make its digital showcase \"more spectacular\"",
+      "image": "https://assetsio.gnwcdn.com/HSAF3N1bIAAQilG.jpeg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-09-13",
+      "summary": " Level-5 president and CEO Akihiro Hino has confirmed that generative AI was used in the studio's recent showcase. Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/level-5-ceo-apologises-generative-ai-professor-layton-yo-kai-watch"
+    },
+    {
+      "id": "https://www.eurogamer.net/diablo-4-season-of-hells-legacy-switch-2-amazon-class",
+      "title": "Diablo 4's new season brings back Deckard Cain and all three Prime Evils as the game arrives on Switch 2",
+      "original_title": "Diablo 4's new season brings back Deckard Cain and all three Prime Evils as the game arrives on Switch 2",
+      "image": "https://assetsio.gnwcdn.com/diablo-4-switch-2_IpuO7Y4.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-09-13",
+      "summary": " Diablo 4's next season, Season of Hell's Legacy, will go live on 15th September to celebrate the franchise's 30th anniversary and Nintendo Switch 2 debut. Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/diablo-4-season-of-hells-legacy-switch-2-amazon-class"
+    },
+    {
+      "id": "https://www.eurogamer.net/world-of-warcraft-forever-announced-blizzcon-2026-classic-plus",
+      "title": "The World of Warcraft \"Classic+\" rumours were true and it's called World of Warcraft: Forever",
+      "original_title": "The World of Warcraft \"Classic+\" rumours were true and it's called World of Warcraft: Forever",
+      "image": "https://assetsio.gnwcdn.com/Screenshot-2026-09-13-at-13.59.19.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Rumor",
+      "date": "2026-09-13",
+      "summary": " Blizzard has officially confirmed World of Warcraft: Forever, the long-rumoured \"Classic+\" experience. Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/world-of-warcraft-forever-announced-blizzcon-2026-classic-plus"
+    },
+    {
+      "id": "https://www.eurogamer.net/starcraft-open-world-shooter-announced-blizzcon-2026",
+      "title": "StarCraft is back, but it's not the RTS you remember - it's an open-world shooter coming spring 2030",
+      "original_title": "StarCraft is back, but it's not the RTS you remember - it's an open-world shooter coming spring 2030",
+      "image": "https://assetsio.gnwcdn.com/Screenshot-2026-09-13-at-12.38.52.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-09-13",
+      "summary": " Blizzard's next StarCraft game will be an original open-world shooter and it's coming spring 2030. Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/starcraft-open-world-shooter-announced-blizzcon-2026"
+    },
+    {
+      "id": "https://www.eurogamer.net/diablo-5-announced-blizzcon-2026-spring-2029",
+      "title": "Diablo 5 is coming spring 2029, and a Netflix show is in development",
+      "original_title": "Diablo 5 is coming spring 2029, and a Netflix show is in development",
+      "image": "https://assetsio.gnwcdn.com/Screenshot-2026-09-13-at-11.57.18.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-09-13",
+      "summary": " Blizzard has officially announced Diablo 5, confirming the next mainline entry in the series is expected to arrive in spring 2029. Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/diablo-5-announced-blizzcon-2026-spring-2029"
+    },
+    {
+      "id": "https://www.eurogamer.net/the-weird-wonderful-world-of-miles-buckle-instagrams-parallel-universe-of-video-games",
+      "title": "The weird, wonderful world of Miles Buckle, Instagram's parallel universe of video games",
+      "original_title": "The weird, wonderful world of Miles Buckle, Instagram's parallel universe of video games",
+      "image": "https://assetsio.gnwcdn.com/miles-buckle-2.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-09-13",
+      "summary": " Going through Miles Buckle's Instagram feed is like stumbling into a parallel universe where cinema's greats – Lynch, Hitchcock, Fellini, Kubrick – are reimagined in the familiar but distinctly different visual language of video games. The \"here's J...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/the-weird-wonderful-world-of-miles-buckle-instagrams-parallel-universe-of-video-games"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wf92xp/bloomberg_apple_to_make_gaming_controllers_for/",
+      "title": "Bloomberg: Apple to make gaming controllers for the iPhone",
+      "original_title": "Bloomberg: Apple to make gaming controllers for the iPhone",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-09-13",
+      "summary": "  In development for a bit over a year, with the goal of competing with a slew of popular third-party options. Apple sees this as a growing market and wants in.  These controllers are destined to launch under Apple’s Beats brand  Will have haptic fee...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wf92xp/bloomberg_apple_to_make_gaming_controllers_for/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wf7rhy/blizzard_looking_for_multiplayer_live_game_staff/",
+      "title": "Blizzard looking for multiplayer, live game staff for StarCraft shooter",
+      "original_title": "Blizzard looking for multiplayer, live game staff for StarCraft shooter",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-09-13",
+      "summary": "There is quite a number of these (21 in total). Lots of them talk about multiplayer, ”live service”, or “live game” development and generally talk about it as an ongoing title. They are clear it has a big narrative and everything though. That part of...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wf7rhy/blizzard_looking_for_multiplayer_live_game_staff/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wf4fa3/fortnite_x_one_piece_black_clover_coming_this_year/",
+      "title": "Fortnite X One Piece & Black Clover coming this year",
+      "original_title": "Fortnite X One Piece & Black Clover coming this year",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-09-13",
+      "summary": " Leaked through Rocket League Most likely will be a One Piece themed mini-season Official description reads:   \"Wealth, fame, power. Gold Roger, the king of the pirates, obtained this and everything else the world had to offer. And his dying words dr...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wf4fa3/fortnite_x_one_piece_black_clover_coming_this_year/"
+    },
+    {
+      "id": "https://www.techpowerup.com/352655/demons-souls-remake-goes-from-unplayable-to-30-fps-on-ps5-emulator-in-days",
+      "title": "Demon's Souls Remake Goes From Unplayable to 30 FPS on PS5 Emulator in Days",
+      "original_title": "Demon's Souls Remake Goes From Unplayable to 30 FPS on PS5 Emulator in Days",
+      "image": "https://tpucdn.com/img/S9sm9zql2H9kwPA3_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-13",
+      "summary": "PS5 emulator KyTyPS5 just hit 30 FPS running Demon's Souls Remake, and the speed of progress is incredibly impressive. Just two days ago the game was crawling along at 10 to 18 FPS, which was itself an 800% jump from the 1 to 2 FPS it managed a day b...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352655/demons-souls-remake-goes-from-unplayable-to-30-fps-on-ps5-emulator-in-days"
+    },
+    {
+      "id": "https://www.techpowerup.com/352653/windows-11-september-update-kills-audio-output-on-some-pcs",
+      "title": "Windows 11 September Update Kills Audio Output on Some PCs",
+      "original_title": "Windows 11 September Update Kills Audio Output on Some PCs",
+      "image": "https://tpucdn.com/img/Jj0wiRoQJShEboQQ_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-13",
+      "summary": "Windows 11 continues its streak of breaking things, as Microsoft has confirmed that there is an issue with the latest September security update. According to the updated support document, Microsoft confirmed that the KB5124008 Windows security update...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352653/windows-11-september-update-kills-audio-output-on-some-pcs"
+    },
+    {
+      "id": "https://www.techpowerup.com/352532/blockchance-offers-1-000-kh-s-solo-mining-without-a-dedicated-pc-for-just-usd-50-through-today",
+      "title": "BlockChance Offers 1,000 KH/s Solo Mining Without a Dedicated PC for Just $50 Through Today",
+      "original_title": "BlockChance Offers 1,000 KH/s Solo Mining Without a Dedicated PC for Just $50 Through Today",
+      "image": "https://tpucdn.com/img/6yNnDZlHsExGl8HI_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-13",
+      "summary": "Bitcoin mining typically brings to mind specialized hardware, substantial power consumption, and large mining operations. The BlockChance Bitcoin Ticket Miner, available for $49.97 (MSRP $149.99) through Sept. 10, takes a much smaller and more probab...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352532/blockchance-offers-1-000-kh-s-solo-mining-without-a-dedicated-pc-for-just-usd-50-through-today"
+    },
+    {
+      "id": "https://www.techpowerup.com/352649/starcraft-returns-as-an-open-world-shooter-set-for-2030",
+      "title": "StarCraft Returns as an Open-World Shooter, Set for 2030",
+      "original_title": "StarCraft Returns as an Open-World Shooter, Set for 2030",
+      "image": "https://tpucdn.com/img/SaeXxk8ol3az4uzg_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-13",
+      "summary": "Blizzard has confirmed a new StarCraft game during the BlizzCon 2026 Opening Ceremony, thus ending a wait that stretched back to StarCraft II's last expansion in 2015. The game is simply called StarCraft, not StarCraft III, and it drops the series' r...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352649/starcraft-returns-as-an-open-world-shooter-set-for-2030"
+    },
+    {
+      "id": "https://www.techpowerup.com/352647/this-week-in-gaming-week-38",
+      "title": "This Week in Gaming (Week 38)",
+      "original_title": "This Week in Gaming (Week 38)",
+      "image": "https://tpucdn.com/img/R0IWI9mVC08uvK9p_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-13",
+      "summary": "As we enter the middle of September, we kick off the week with an open world creature collector that doesn't appear to borrow too heavily from the famous Nintendo franchise, but some parallels can obviously be drawn. As for the rest of this week's re...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352647/this-week-in-gaming-week-38"
+    },
+    {
+      "id": "https://www.techpowerup.com/352640/diablo-5-officially-revealed-at-blizzcon-2026-set-to-arrive-spring-2029",
+      "title": "Diablo 5 Officially Revealed at BlizzCon 2026, Set to Arrive Spring 2029",
+      "original_title": "Diablo 5 Officially Revealed at BlizzCon 2026, Set to Arrive Spring 2029",
+      "image": "https://tpucdn.com/img/MxC2UwE6nQbtd1dm_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-13",
+      "summary": "Blizzard has officially announced Diablo 5 at BlizzCon 2026, confirming a Spring 2029 release window for the next mainline entry in its action RPG series. The reveal came during the event's opening ceremony alongside a cinematic marking Diablo's 30th...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352640/diablo-5-officially-revealed-at-blizzcon-2026-set-to-arrive-spring-2029"
+    },
+    {
+      "id": "https://www.eurogamer.net/wardogs-million-copies-sold-steam-early-access",
+      "title": "UK studio Bulkhead's Wardogs sells over a million copies and tops 350,000 concurrent players on launch day",
+      "original_title": "UK studio Bulkhead's Wardogs sells over a million copies and tops 350,000 concurrent players on launch day",
+      "image": "https://assetsio.gnwcdn.com/Wardogs-screenshot-(1).jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-09-12",
+      "summary": " Wardogs, the new tactical shooter from Derby-based studio Bulkhead, has sold more than a million copies and passed 350,000 concurrent players within hours of launching into Steam early access. Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/wardogs-million-copies-sold-steam-early-access"
+    },
+    {
+      "id": "https://www.eurogamer.net/zelda-40th-anniversary-switch-2-scalpers-ebay-resale",
+      "title": "Scalpers are already reselling the sold-out Zelda 40th Anniversary Switch 2 for £700+",
+      "original_title": "Scalpers are already reselling the sold-out Zelda 40th Anniversary Switch 2 for £700+",
+      "image": "https://assetsio.gnwcdn.com/Screenshot-2026-09-12-at-16.09.04.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-09-12",
+      "summary": " Nintendo's new Legend of Zelda 40th anniversary Switch 2 sold out within hours of preorders opening, and scalpers are already scalping, with dozens of orders popping up on eBay for close to double its retail price. Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/zelda-40th-anniversary-switch-2-scalpers-ebay-resale"
+    },
+    {
       "id": "https://www.eurogamer.net/blizzcon-2026-announcements-live-report-starcraft-diablo-overwatch-wow",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "BlizzCon 2026 Opening Ceremony live report - all the news and announcements as Blizzard's convention returns",
+      "title": "Everything announced in the BlizzCon 2026 Opening Ceremony",
+      "original_title": "Everything announced in the BlizzCon 2026 Opening Ceremony",
       "image": "https://assetsio.gnwcdn.com/blizzcon-2026-opening-ceremony.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
       "date": "2026-09-12",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "summary": " UPDATE 13TH SEPTEMBER: Below you'll find a blow-by-blow account of everything announced during yesterday's BlizzCon 2026 Opening Ceremony. It was a big show, revealing a new StarCraft shooter for 2030, the surprise reveal of Diablo 5 for 2029, and W...",
       "sources": [
         "Eurogamer"
       ],
@@ -245,408 +500,153 @@
     },
     {
       "id": "https://www.eurogamer.net/thief-remastered-tarnished-mirror-campaign-confirmed-nightdive",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "Nightdive confirms Thief Remastered's leaked new campaign, The Tarnished Mirror, with a November reveal date",
       "original_title": "Nightdive confirms Thief Remastered's leaked new campaign, The Tarnished Mirror, with a November reveal date",
       "image": "https://assetsio.gnwcdn.com/thief-remastered-header.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "Rumor",
       "date": "2026-09-12",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "summary": " Nightdive Studios has officially confirmed The Tarnished Mirror, a new campaign for its upcoming Thief: The Dark Project Remastered, days after the name leaked through a mass Steam achievements leak. Read more...",
       "sources": [
         "Eurogamer"
       ],
       "url": "https://www.eurogamer.net/thief-remastered-tarnished-mirror-campaign-confirmed-nightdive"
     },
     {
-      "id": "https://www.eurogamer.net/polyarc-moss-studio-closure-vr-industry-2026",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Moss studio Polyarc shuts down, becoming the latest casualty of a brutal year for VR",
-      "image": "https://assetsio.gnwcdn.com/polyarc_champion_keyart_OcqxNPv.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wei9xw/shortcircuitlinus_30_minutes_with_the_steam_frame/",
+      "title": "ShortCircuit/Linus: 30 minutes with the Steam Frame, uploaded early by mistake",
+      "original_title": "ShortCircuit/Linus: 30 minutes with the Steam Frame, uploaded early by mistake",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
       "category": "News",
       "date": "2026-09-12",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "summary": " They've taken it down but there's a mirror up already  Video: https://gofile.io/d/eTUSFBax    submitted by    /u/ZamnBoii   [link] [comments]...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/polyarc-moss-studio-closure-vr-industry-2026"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wei9xw/shortcircuitlinus_30_minutes_with_the_steam_frame/"
     },
     {
-      "id": "https://www.eurogamer.net/kingdom-hearts-4-final-fantasy-7-revelation-creative-studio-1",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Final Fantasy 7 Revelation director confirms his studio is also making Kingdom Hearts 4",
-      "image": "https://assetsio.gnwcdn.com/Screenshot-2026-08-15-at-11.38.20.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wejkdr/starcraft_fps_announced_coming_in_2030/",
+      "title": "Starcraft FPS announced, coming in 2030",
+      "original_title": "Starcraft FPS announced, coming in 2030",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
       "category": "News",
       "date": "2026-09-12",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "summary": " Open world shooter worked led by Dan Hay who previous worked on all Far Cry game from FC3 onwards Coming to Xbox as well   Source: https://xcancel.com/geoffkeighley/status/2098833554901766653#m Previous rumour: https://www.reddit.com/r/GamingLeaksAn...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/kingdom-hearts-4-final-fantasy-7-revelation-creative-studio-1"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wejkdr/starcraft_fps_announced_coming_in_2030/"
     },
     {
-      "id": "https://www.eurogamer.net/chronicles-medieval-gamescom-history-nerds-hands-off-preview",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "With Chronicles Medieval, a team of \"history nerds\" is mixing authentic historical world-building and stimulating strategy to promising effect",
-      "image": "https://assetsio.gnwcdn.com/CM_Screenshot_Logo_005.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wek1cb/diablo_v_is_announced_at_blizzcon_2026_release/",
+      "title": "Diablo V is announced at Blizzcon 2026 - Release planned in 2029",
+      "original_title": "Diablo V is announced at Blizzcon 2026 - Release planned in 2029",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
       "category": "News",
       "date": "2026-09-12",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "summary": "Source - https://www.youtube.com/watch?v=GxCN_AKYtts Previous discussions -  https://www.reddit.com/r/GamingLeaksAndRumours/comments/1way9j1/windows_centraljez_corden_blizzard_wants_shorter/ https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ut...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/chronicles-medieval-gamescom-history-nerds-hands-off-preview"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wek1cb/diablo_v_is_announced_at_blizzcon_2026_release/"
     },
     {
-      "id": "https://www.eurogamer.net/what-weve-been-playing-i-dont-think-this-is-this-games-biggest-problem",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "What we've been playing - \"I don't think this is this game's biggest problem\"",
-      "image": "https://assetsio.gnwcdn.com/wolverine-logan-and-jean.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wejfsb/best_buy_is_already_selling_diablo_4_for_switch_2/",
+      "title": "Best Buy is already selling Diablo 4 for Switch 2",
+      "original_title": "Best Buy is already selling Diablo 4 for Switch 2",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
       "category": "News",
       "date": "2026-09-12",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "summary": "Source: https://www.reddit.com/r/NSCollectors/comments/1wehxa8/so_apparently_diablo_4_is_out_on_switch_2/ Front pic of case: https://preview.redd.it/so-apparently-diablo-4-is-out-on-switch-2-v0-7n6unkwze4ph1.jpeg?width=640&crop=smart&auto=webp&s=d8a2...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/what-weve-been-playing-i-dont-think-this-is-this-games-biggest-problem"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wejfsb/best_buy_is_already_selling_diablo_4_for_switch_2/"
     },
     {
       "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1we63fd/fortnite_first_gameplay_footage_from_behind/",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "Fortnite first gameplay footage from behind closed doors, comic con 2012. Leaked Lost media i still had on my harddrive.",
       "original_title": "Fortnite first gameplay footage from behind closed doors, comic con 2012. Leaked Lost media i still had on my harddrive.",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
       "category": "Rumor",
       "date": "2026-09-12",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "summary": "https://youtu.be/gE943VYD15k Had this leaked footage on my hard drive since 2012, found it on a russian VK forum in 2012. Posted it back then on youtube and got quickly a strike on my channel from Epic. So i removed it but still had it on my hdd.  Se...",
       "sources": [
         "r/GamingLeaksAndRumours"
       ],
       "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1we63fd/fortnite_first_gameplay_footage_from_behind/"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1we60o9/gears_of_war_eday_a_new_character_from_a_certain/",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Gears Of War E-Day: A New Character From A Certain Family in the Series Might Show Up",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-09-12",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1we60o9/gears_of_war_eday_a_new_character_from_a_certain/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1we9zix/the_cyberpunk_edgerunners_x_fortnite_collab_is/",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "The Cyberpunk Edgerunners x Fortnite collab is real and it's coming very soon",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-09-12",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1we9zix/the_cyberpunk_edgerunners_x_fortnite_collab_is/"
-    },
-    {
-      "id": "https://www.techpowerup.com/352621/nvidia-is-giving-away-rtx-5090s-through-an-nba-2k27-screenshot-contest",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "NVIDIA is Giving Away RTX 5090s Through an NBA 2K27 Screenshot Contest",
-      "image": "https://tpucdn.com/img/BrDNPSjDudiwu1Mt_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-12",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352621/nvidia-is-giving-away-rtx-5090s-through-an-nba-2k27-screenshot-contest"
-    },
-    {
-      "id": "https://www.techpowerup.com/352611/cooler-master-gpu-shield-adapter-officially-launches-in-the-us",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Cooler Master GPU Shield Adapter Officially Launches in the US",
-      "image": "https://tpucdn.com/img/UjVeX5qs7UpzwxLV_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-12",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352611/cooler-master-gpu-shield-adapter-officially-launches-in-the-us"
-    },
-    {
-      "id": "https://www.techpowerup.com/352532/blockchance-offers-1-000-kh-s-solo-mining-without-a-dedicated-pc-for-just-usd-50-through-today",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "BlockChance Offers 1,000 KH/s Solo Mining Without a Dedicated PC for Just $50 Through Today",
-      "image": "https://tpucdn.com/img/6yNnDZlHsExGl8HI_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-12",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352532/blockchance-offers-1-000-kh-s-solo-mining-without-a-dedicated-pc-for-just-usd-50-through-today"
-    },
-    {
-      "id": "https://www.techpowerup.com/352609/glorious-eternal-launches-as-96-compact-gaming-keyboard-with-a-num-pad",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Glorious Eternal Launches as 96% Compact Gaming Keyboard With a Num Pad",
-      "image": "https://tpucdn.com/img/AGGuxyGn0AUkosHH_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-12",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352609/glorious-eternal-launches-as-96-compact-gaming-keyboard-with-a-num-pad"
-    },
-    {
-      "id": "https://www.eurogamer.net/consumer-rights-tracking-playstation-digital-games-ownership",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "After Sony tells fans they don't own digital games, one Consumer Rights group is tracking all the times PlayStation said the opposite",
-      "image": "https://assetsio.gnwcdn.com/wolverine-promo-image-insomniac-ps5-store.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-09-11",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/consumer-rights-tracking-playstation-digital-games-ownership"
-    },
-    {
-      "id": "https://www.eurogamer.net/final-fantasy-7-revelation-compromise-quality-physical-disc",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Final Fantasy 7 Revelation director says Square Enix would have to compromise \"the quality of the final chapter\" to ship the game fully on disc",
-      "image": "https://assetsio.gnwcdn.com/final-fantasy-7-revelation-red.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-09-11",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/final-fantasy-7-revelation-compromise-quality-physical-disc"
-    },
-    {
-      "id": "https://www.eurogamer.net/xbox-game-pass-playstation-plus-nintendo-cancellations-rising-costs",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "More than 40% of people cancelling Xbox Game Pass, PlayStation Plus and Nintendo Switch Online subscriptions blame rising costs",
-      "image": "https://assetsio.gnwcdn.com/ace90859-7340-415e-9bc6-6d4bbd45edd5.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-09-11",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/xbox-game-pass-playstation-plus-nintendo-cancellations-rising-costs"
-    },
-    {
-      "id": "https://www.eurogamer.net/google-fly-brain-doom-beat-saber",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "\"The more aroused the fly is the harder it tries to shoot\" - Google's fully mapped fly brain is now playing Doom, Beat Saber, and more",
-      "image": "https://assetsio.gnwcdn.com/doom-fly.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-09-11",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/google-fly-brain-doom-beat-saber"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wdgq3b/playstation_ditched_hideo_kojimas_physint_on/",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "PlayStation Ditched Hideo Kojima’s ‘Physint’ on Budget Concerns, Missed Deadlines",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-09-11",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wdgq3b/playstation_ditched_hideo_kojimas_physint_on/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wdcb2r/alleged_4chan_physint_cast_list_leaks_ahead_of/",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Alleged 4chan Physint Cast List Leaks Ahead of Reported Announcement",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Rumor",
-      "date": "2026-09-11",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wdcb2r/alleged_4chan_physint_cast_list_leaks_ahead_of/"
-    },
-    {
-      "id": "https://www.techpowerup.com/352610/modified-geforce-rtx-5090-with-96-gb-memory-shows-up-on-alibaba-for-nearly-usd-4-000",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Modified GeForce RTX 5090 with 96 GB Memory Shows Up on Alibaba for Nearly $4,000",
-      "image": "https://tpucdn.com/img/RYhqKPYtBBQVzlNW_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-11",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352610/modified-geforce-rtx-5090-with-96-gb-memory-shows-up-on-alibaba-for-nearly-usd-4-000"
-    },
-    {
-      "id": "https://www.techpowerup.com/352606/kojimas-playstation-split-blamed-on-expensive-production-that-ran-behind-schedule",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Kojima's PlayStation Split Blamed on Expensive Production that Ran Behind Schedule",
-      "image": "https://tpucdn.com/img/33qn9XfT70xZxe8g_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-11",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352606/kojimas-playstation-split-blamed-on-expensive-production-that-ran-behind-schedule"
-    },
-    {
       "id": "https://www.techpowerup.com/352533/productivity-for-less-windows-11-pro-is-just-usd-9-97-right-now",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "title": "Productivity for Less—Windows 11 Pro Is Just $9.97 Right Now",
       "original_title": "Productivity for Less—Windows 11 Pro Is Just $9.97 Right Now",
       "image": "https://tpucdn.com/img/kTACciyEujo3nkTo_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-09-11",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-09-12",
+      "summary": "Microsoft Windows 11 Pro is available for only $9.97 (MSRP $199) through Sept. 27, providing a lifetime license for one compatible PC with no recurring subscription fees. The Pro edition adds several features intended for professional, business, deve...",
       "sources": [
         "TechPowerUp"
       ],
       "url": "https://www.techpowerup.com/352533/productivity-for-less-windows-11-pro-is-just-usd-9-97-right-now"
     },
     {
-      "id": "https://www.techpowerup.com/352608/maxsun-launches-new-amd-b850-am5-microatx-motherboards",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Maxsun Launches New AMD B850 AM5 microATX Motherboards",
-      "image": "https://tpucdn.com/img/xaWW4KQOWCszP7Xx_thm.jpg",
+      "id": "https://www.techpowerup.com/352638/steam-frame-first-look-video-accidentally-leaked-by-linus-tech-tips",
+      "title": "Steam Frame First Look Video Accidentally Leaked by Linus Tech Tips",
+      "original_title": "Steam Frame First Look Video Accidentally Leaked by Linus Tech Tips",
+      "image": "https://tpucdn.com/img/iZkrmynlXcJEV1sS_thm.jpg",
       "source_count": 1,
       "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-11",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "category": "Rumor",
+      "date": "2026-09-12",
+      "summary": "YouTube juggernaut Linus Media Group's secondary channel, ShortCircuit, accidentally published its Steam Frame first impressions video ahead of Valve's embargo, giving us an early hands-on look at the headset before official coverage. The video, fram...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/352608/maxsun-launches-new-amd-b850-am5-microatx-motherboards"
+      "url": "https://www.techpowerup.com/352638/steam-frame-first-look-video-accidentally-leaked-by-linus-tech-tips"
     },
     {
-      "id": "https://www.techpowerup.com/352607/yunzii-releases-al98-pro-wireless-aluminium-mechanical-keyboard",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "(PR) Yunzii Releases AL98 PRO Wireless Aluminium Mechanical Keyboard",
-      "image": "https://tpucdn.com/img/0SgJIaDtHGC6D4K0_thm.jpg",
+      "id": "https://www.techpowerup.com/352635/early-fortnite-gameplay-footage-from-2012-comic-con-demo-surfaces-online",
+      "title": "Early Fortnite Gameplay Footage From 2012 Comic-Con Demo Surfaces Online",
+      "original_title": "Early Fortnite Gameplay Footage From 2012 Comic-Con Demo Surfaces Online",
+      "image": "https://tpucdn.com/img/mQ3KkvRyGtg2UWIL_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-09-11",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-09-12",
+      "summary": "Some of the earliest known gameplay footage of Fortnite has resurfaced online, nearly 14 years after it was first shown behind closed doors at Comic-Con 2012. Reddit user u/kleuscher posted the clip to YouTube, saying they'd kept it saved on a USB dr...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/352607/yunzii-releases-al98-pro-wireless-aluminium-mechanical-keyboard"
+      "url": "https://www.techpowerup.com/352635/early-fortnite-gameplay-footage-from-2012-comic-con-demo-surfaces-online"
     },
     {
-      "id": "https://www.techpowerup.com/352603/colorful-launches-ryzen-gorgon-halo-mini-pc-and-ryzen-max-395-laptop-under-colorfire-brand",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Colorful Launches Ryzen Gorgon Halo Mini PC and Ryzen Max+ 395 Laptop Under Colorfire Brand",
-      "image": "https://tpucdn.com/img/3tIhlVCCNvS5fCZ7_thm.jpg",
+      "id": "https://www.techpowerup.com/352624/amd-confirms-ryzen-5-7500-at-usd-189-ryzen-5-5500f-at-usd-99",
+      "title": "AMD Confirms Ryzen 5 7500 at $189, Ryzen 5 5500F at $99",
+      "original_title": "AMD Confirms Ryzen 5 7500 at $189, Ryzen 5 5500F at $99",
+      "image": "https://tpucdn.com/img/mFbnlQGzsUjfbVx3_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-09-11",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "date": "2026-09-12",
+      "summary": "AMD has confirmed pricing for the Ryzen 5 7500 and Ryzen 5 5500F, the two budget CPUs it quietly added to its lineup earlier this week. The Ryzen 5 7500 will retail for $189, while the Ryzen 5 5500F comes in at just $99, according to official SEP fig...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/352603/colorful-launches-ryzen-gorgon-halo-mini-pc-and-ryzen-max-395-laptop-under-colorfire-brand"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wcsv0j/stellar_blade_sw2_marketing_confirms_the_rumored/",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Stellar Blade SW2 marketing confirms the rumored 32GB cartridges are real.",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-09-10",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wcsv0j/stellar_blade_sw2_marketing_confirms_the_rumored/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wcofhd/saudis_weigh_merging_ea_with_savvy_to_create/",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "Saudis Weigh Merging EA With Savvy to Create Global Gaming Giant",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-09-10",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wcofhd/saudis_weigh_merging_ea_with_savvy_to_create/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wcpt32/im_pretty_confident_fairgame_is_getting_a_secret/",
-      "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "original_title": "I’m pretty confident FAIRGAME$ is getting A secret player test under the name “ PROJECT ESPRESSO”",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-09-10",
-      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wcpt32/im_pretty_confident_fairgame_is_getting_a_secret/"
+      "url": "https://www.techpowerup.com/352624/amd-confirms-ryzen-5-7500-at-usd-189-ryzen-5-5500f-at-usd-99"
     }
   ]
 }
