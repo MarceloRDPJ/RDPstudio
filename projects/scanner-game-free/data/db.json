@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-15T16:22:13",
-  "display_date": "15/09/2026 16:22",
+  "last_updated": "2026-09-16T16:13:48",
+  "display_date": "16/09/2026 16:13",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "488ms",
+    "latency": "78ms",
     "current_games": [
       {
         "title": "Luftrausers",
@@ -32,15 +32,6 @@
         "image": "https://cdn2.unrealengine.com/egs-lisathedefinitiveedition-dingalingproductions-bundles-s1-2560x1440-5be18c558828.jpg",
         "url": "https://store.epicgames.com/p/lisa-the-definitive-edition",
         "price": "$24.99",
-        "start_date": "2026-12-10T16:00:00.000Z",
-        "end_date": "2027-01-07T16:00:00.000Z"
-      },
-      {
-        "title": "LISA: The Definitive Edition",
-        "description": "Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
-        "image": "https://cdn2.unrealengine.com/egs-lisathedefinitiveedition-dingalingproductions-bundles-s1-2560x1440-5be18c558828.jpg",
-        "url": "https://store.epicgames.com/p/lisa-the-definitive-edition",
-        "price": "$24.99",
         "start_date": "2026-09-17T15:00:00.000Z",
         "end_date": "2026-10-02T05:59:00.000Z"
       },
@@ -54,13 +45,13 @@
         "end_date": "2026-11-10T06:59:00.000Z"
       },
       {
-        "title": "Monument Valley",
-        "description": "Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
-        "image": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
-        "url": "https://store.epicgames.com/p/monument-valley-02",
-        "price": "$7.99",
-        "start_date": "2026-10-19T15:00:00.000Z",
-        "end_date": "2026-11-02T16:00:00.000Z"
+        "title": "LISA: The Definitive Edition",
+        "description": "Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
+        "image": "https://cdn2.unrealengine.com/egs-lisathedefinitiveedition-dingalingproductions-bundles-s1-2560x1440-5be18c558828.jpg",
+        "url": "https://store.epicgames.com/p/lisa-the-definitive-edition",
+        "price": "$24.99",
+        "start_date": "2026-12-10T16:00:00.000Z",
+        "end_date": "2027-01-07T16:00:00.000Z"
       },
       {
         "title": "Monument Valley",
@@ -70,6 +61,24 @@
         "price": "$7.99",
         "start_date": "2026-12-10T16:00:00.000Z",
         "end_date": "2027-01-07T16:00:00.000Z"
+      },
+      {
+        "title": "Monument Valley",
+        "description": "Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
+        "image": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
+        "url": "https://store.epicgames.com/p/monument-valley-02",
+        "price": "$7.99",
+        "start_date": "2026-10-19T15:00:00.000Z",
+        "end_date": "2026-11-02T16:00:00.000Z"
+      },
+      {
+        "title": "Mechabellum",
+        "description": "Command massive armies in this epic mech auto-battler. Draft your troops, customize your units, master your formations, and crush enemies in spectacular 3D battles. All strategy, no clickfest. Outsmart opponents in 1v1, 2v2, free-for-all, or Survival Mode.",
+        "image": "https://cdn1.epicgames.com/spt-assets/131adc2288294d74aaff6a2f02b51d59/mechabellum-95319.jpg",
+        "url": "https://store.epicgames.com/p/6a87570c28144b9cb50eb0ba46a7e19e",
+        "price": "$14.99",
+        "start_date": "2026-09-24T15:00:00.000Z",
+        "end_date": "2026-10-01T15:00:00.000Z"
       },
       {
         "title": "Mindcop",
@@ -101,7 +110,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "summary": "The skies are aflame and the seas will overflow with wreckage in Vlambeer’s stylish arcade shooter LUFTRAUSERS! Take to the skies in customized fighter planes to battle battleships, submarines, and rival aces for glory, honor, and high scores.",
       "sources": [
         "Epic Games Store"
@@ -116,7 +125,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "summary": "Choose one of four heroes and explore the Garden, an astral prison guarded by 12 powerful mystical bosses: the Zodiacs. Challenge them with dozens of unique spells and faithful friends by your side to unfold the story of this platform roguelite with lightning fast combat.",
       "sources": [
         "Epic Games Store"
@@ -131,22 +140,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-15",
-      "summary": "Disponível gratuitamente a partir de 10/12. Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/lisa-the-definitive-edition"
-    },
-    {
-      "id": "https://store.epicgames.com/p/lisa-the-definitive-edition",
-      "title": "EM BREVE: LISA: The Definitive Edition",
-      "original_title": "LISA: The Definitive Edition",
-      "image": "https://cdn2.unrealengine.com/egs-lisathedefinitiveedition-dingalingproductions-bundles-s1-2560x1440-5be18c558828.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "summary": "Disponível gratuitamente a partir de 17/09. Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
@@ -161,8 +155,23 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "summary": "Disponível gratuitamente a partir de 01/11. Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/lisa-the-definitive-edition"
+    },
+    {
+      "id": "https://store.epicgames.com/p/lisa-the-definitive-edition",
+      "title": "EM BREVE: LISA: The Definitive Edition",
+      "original_title": "LISA: The Definitive Edition",
+      "image": "https://cdn2.unrealengine.com/egs-lisathedefinitiveedition-dingalingproductions-bundles-s1-2560x1440-5be18c558828.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-09-16",
+      "summary": "Disponível gratuitamente a partir de 10/12. Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
       ],
@@ -176,8 +185,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-15",
-      "summary": "Disponível gratuitamente a partir de 19/10. Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
+      "date": "2026-09-16",
+      "summary": "Disponível gratuitamente a partir de 10/12. Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
       "sources": [
         "Epic Games Store"
       ],
@@ -191,12 +200,27 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-15",
-      "summary": "Disponível gratuitamente a partir de 10/12. Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
+      "date": "2026-09-16",
+      "summary": "Disponível gratuitamente a partir de 19/10. Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/monument-valley-02"
+    },
+    {
+      "id": "https://store.epicgames.com/p/6a87570c28144b9cb50eb0ba46a7e19e",
+      "title": "EM BREVE: Mechabellum",
+      "original_title": "Mechabellum",
+      "image": "https://cdn1.epicgames.com/spt-assets/131adc2288294d74aaff6a2f02b51d59/mechabellum-95319.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-09-16",
+      "summary": "Disponível gratuitamente a partir de 24/09. Command massive armies in this epic mech auto-battler. Draft your troops, customize your units, master your formations, and crush enemies in spectacular 3D battles. All strategy, no clickfest. Outsmart opponents in 1v1, 2v2, free-for-all, or Survival Mode.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/6a87570c28144b9cb50eb0ba46a7e19e"
     },
     {
       "id": "https://store.epicgames.com/p/1513de80f23f42e584540be749826057",
@@ -206,7 +230,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "summary": "Disponível gratuitamente a partir de 17/09. Mindcop is a non-linear „whodunnit“ detective game. It mixes a story driven adventure with real-time match-3 puzzle. As the infamous Mindcop, you can dive into the minds of your suspects to uncover their secrets and unravel their lies.​",
       "sources": [
         "Epic Games Store"
@@ -221,12 +245,297 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-15",
+      "date": "2026-09-16",
       "summary": "Disponível gratuitamente a partir de 17/09. Shogun Showdown is a turn-based combat game with rogue-like and deck-building elements. Position yourself and attack at the right time, upgrade your tiles and combo them to get ready to face the Shogun!",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/shogun-showdown"
+    },
+    {
+      "id": "https://www.eurogamer.net/fable-vital-dna-of-xbox-playground-games",
+      "title": "Xbox's Fable reboot was allowed a 10-year development because the RPG series is \"vital to the DNA of the platform\", developer Playground Games says",
+      "original_title": "Xbox's Fable reboot was allowed a 10-year development because the RPG series is \"vital to the DNA of the platform\", developer Playground Games says",
+      "image": "https://assetsio.gnwcdn.com/fighting-a-fire-breathing-chicken-in-Fable.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-09-16",
+      "summary": " Fable developer Playground Games has said \"many people within Xbox view Fable as being vital to the DNA of the platform\", which is why this game has been allowed such a long and \"protected\" development. Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/fable-vital-dna-of-xbox-playground-games"
+    },
+    {
+      "id": "https://www.eurogamer.net/hbo-last-of-us-final-season-3-maizin",
+      "title": "HBO boss continues to suggest The Last of Us Season 3 is the series' final season",
+      "original_title": "HBO boss continues to suggest The Last of Us Season 3 is the series' final season",
+      "image": "https://assetsio.gnwcdn.com/Bella-Ramsey-as-Ellie-looks-menacingly-towards-Nora-(off-camera)-while-bathed-in-red-light.jfif?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-09-16",
+      "summary": " HBO boss Casey Bloys has mentioned again that he believes The Last of Us series will be finished in three seasons. Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/hbo-last-of-us-final-season-3-maizin"
+    },
+    {
+      "id": "https://www.eurogamer.net/fire-emblem-fortunes-weave-review",
+      "title": "Fire Emblem: Fortune's Weave review",
+      "original_title": "Fire Emblem: Fortune's Weave review",
+      "image": "https://assetsio.gnwcdn.com/Leda-FE-FW.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-09-16",
+      "summary": " I cannot remember the last time I put this many hours into a game for a review. And still, I'm sitting here, writing this, itching to play more of Fire Emblem: Fortune's Weave. Despite some odd decisions for an RPG of this depth and scale - a single...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/fire-emblem-fortunes-weave-review"
+    },
+    {
+      "id": "https://www.eurogamer.net/xbox-game-pass-second-wave-september-gears-of-war",
+      "title": "Here's the second wave of Xbox Game Pass games coming in September",
+      "original_title": "Here's the second wave of Xbox Game Pass games coming in September",
+      "image": "https://assetsio.gnwcdn.com/gears-of-war-e-day-marcus-crop.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-09-16",
+      "summary": " The second wave of games coming to Xbox Game Pass in September has been announced, and the list considerably improves what's already on offer, with a huge new arrival in Gears of War: E-Day, and notable arrivals in Dune Awakening, and Minecraft Dung...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/xbox-game-pass-second-wave-september-gears-of-war"
+    },
+    {
+      "id": "https://www.eurogamer.net/xbox-game-pass-big-changes-2027-rumour-microsoft-responds",
+      "title": "Microsoft doesn't dismiss rumours a major Xbox Game Pass shake-up is on the way, which reportedly removes day-one game offerings entirely",
+      "original_title": "Microsoft doesn't dismiss rumours a major Xbox Game Pass shake-up is on the way, which reportedly removes day-one game offerings entirely",
+      "image": "https://assetsio.gnwcdn.com/game-pass-negative-stonks.webp?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Rumor",
+      "date": "2026-09-16",
+      "summary": " Xbox could be planning another major shake-up of its Game Pass subscription service, this time removing key benefits the service is known for. That's according to a new leak from ResetEra user Slayven, who in 2025 revealed Microsoft's plans to raise...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/xbox-game-pass-big-changes-2027-rumour-microsoft-responds"
+    },
+    {
+      "id": "https://www.eurogamer.net/wo-long-2-wings-of-ember-demo-release-date",
+      "title": "You can play a sizeable demo of Wo Long 2: Wings of Ember right now, getting you ready for its March 2027 release date",
+      "original_title": "You can play a sizeable demo of Wo Long 2: Wings of Ember right now, getting you ready for its March 2027 release date",
+      "image": "https://assetsio.gnwcdn.com/Wo-long-2-header-1.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-09-16",
+      "summary": " Overnight, in the run up to Tokyo Game Show, Koei Tecmo and Team Ninja announced that Wo Long 2: Wings of Ember, the latest instalment in the studios' dark Three Kingdoms-inspired action-RPG series, will be released worldwide on 4th March 2027. The ...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/wo-long-2-wings-of-ember-demo-release-date"
+    },
+    {
+      "id": "https://www.eurogamer.net/diablo-4-season-of-hells-legacy-30th-anniversary-delayed",
+      "title": "Login errors delay Diablo 4's big new Season of Hell's Legacy anniversary update",
+      "original_title": "Login errors delay Diablo 4's big new Season of Hell's Legacy anniversary update",
+      "image": "https://assetsio.gnwcdn.com/diablo-4-season-of-hells-legacy-keyart-1.jpeg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-09-16",
+      "summary": " The launch of Diablo 4's Season of Hell's Legacy got off to a rough start. The anticipated season was announced at BlizzCon over the weekend to arrive alongside a 30th anniversary celebration of the Diablo franchise. And though Season of Hell's Lega...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/diablo-4-season-of-hells-legacy-30th-anniversary-delayed"
+    },
+    {
+      "id": "https://www.eurogamer.net/wo-long-2-wings-of-ember-preview",
+      "title": "Wo Long 2: Wings of Ember isn't just a sequel - it's a culmination of everything Team Ninja has learned from Nioh, Ninja Gaiden, and Dead or Alive",
+      "original_title": "Wo Long 2: Wings of Ember isn't just a sequel - it's a culmination of everything Team Ninja has learned from Nioh, Ninja Gaiden, and Dead or Alive",
+      "image": "https://assetsio.gnwcdn.com/Wo-long-2-nunchuck.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-09-16",
+      "summary": " The original Wo Long is an overlooked gem. Fast-paced, brutal, and compelling, the game made a name for itself amongst hardcore action-RPG aficionados because of its key gimmick: that basically every single attack could be deflected. While some crit...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/wo-long-2-wings-of-ember-preview"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wi0t1o/kepler_l2_amd_and_nvidia_delay_nextgen_gpus_to/",
+      "title": "Kepler_L2: AMD and NVIDIA Delay Next-Gen GPUs To 2028, Except One RDNA 5-Based AT2 Chip Launching In 2027.",
+      "original_title": "Kepler_L2: AMD and NVIDIA Delay Next-Gen GPUs To 2028, Except One RDNA 5-Based AT2 Chip Launching In 2027.",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-09-16",
+      "summary": "Kepler claims NVIDIA is delaying its RTX 60 series launch to 2028, unlike some reports that claim the company has already prepared for an early 2027 launch. Keep in mind that all these reports and claims are unofficial and are mostly based on interna...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wi0t1o/kepler_l2_amd_and_nvidia_delay_nextgen_gpus_to/"
+    },
+    {
+      "id": "https://www.techpowerup.com/352752/iqunix-adds-controller-emulation-to-ev63-gaming-keyboard",
+      "title": "Iqunix Adds Controller Emulation to EV63 Gaming Keyboard",
+      "original_title": "Iqunix Adds Controller Emulation to EV63 Gaming Keyboard",
+      "image": "https://tpucdn.com/img/tGYrMMBROqlhIVOD_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-16",
+      "summary": "It seems as though Iqunix is finally getting serious about its Hall effect gaming keyboards, with firmware updates becoming more frequent for keyboards like the EV63. The latest firmware update for the EV63 HE keyboard adds controller emulation, a fe...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352752/iqunix-adds-controller-emulation-to-ev63-gaming-keyboard"
+    },
+    {
+      "id": "https://www.techpowerup.com/352757/astros-playroom-joins-kytyps5s-growing-list-of-supported-ps5-exclusives",
+      "title": "Astro's Playroom Joins KytyPS5's Growing List of Supported PS5 Exclusives",
+      "original_title": "Astro's Playroom Joins KytyPS5's Growing List of Supported PS5 Exclusives",
+      "image": "https://tpucdn.com/img/lN6Lzl7HwYYfCxAW_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-16",
+      "summary": "PS5 emulator KytyPS5 has added another PlayStation 5 exclusive to its compatibility list, with Astro's Playroom now booting into gameplay. YouTuber Unreal Gaming shared footage of the pack-in platformer running on a Ryzen 7 9800X3D and RTX 4080, the ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352757/astros-playroom-joins-kytyps5s-growing-list-of-supported-ps5-exclusives"
+    },
+    {
+      "id": "https://www.techpowerup.com/352687/acemagic-mini-pc-deals-save-up-to-40-prices-start-at-usd-359-99",
+      "title": "ACEMAGIC Mini PC Deals, Save Up to 40%, Prices Start at $359.99",
+      "original_title": "ACEMAGIC Mini PC Deals, Save Up to 40%, Prices Start at $359.99",
+      "image": "https://tpucdn.com/img/ECYA7izSNulYatkG_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-16",
+      "summary": "ACEMAGIC and ACEMAGICIAN have deals on three mini PCs. Discounts go as high as 40%, and savings reach $210. All three ship with Windows 11 Pro already installed. Pick the Intel model for everyday desk work, or the 8-core AMD machine if you juggle a l...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352687/acemagic-mini-pc-deals-save-up-to-40-prices-start-at-usd-359-99"
+    },
+    {
+      "id": "https://www.techpowerup.com/352756/asrock-brings-taichi-brand-to-monitor-sector-with-up-to-720-hz-panels",
+      "title": "ASRock Brings Taichi Brand to Monitor Sector With Up to 720 Hz Panels",
+      "original_title": "ASRock Brings Taichi Brand to Monitor Sector With Up to 720 Hz Panels",
+      "image": "https://tpucdn.com/img/o0YnaNQI1KtM03zA_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-16",
+      "summary": "ASRock announced today that it is updating its monitor lineup with its flagship Taichi brand, introducing three new 27-inch models to the company's offerings. First in line is the new TCO27USA, designed as a flagship model with a 27-inch 4K UHD Penta...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352756/asrock-brings-taichi-brand-to-monitor-sector-with-up-to-720-hz-panels"
+    },
+    {
+      "id": "https://www.techpowerup.com/352754/nvidia-reportedly-rejected-rtx-5090-rma-over-faded-serial-number",
+      "title": "NVIDIA Reportedly Rejected RTX 5090 RMA Over Faded Serial Number",
+      "original_title": "NVIDIA Reportedly Rejected RTX 5090 RMA Over Faded Serial Number",
+      "image": "https://tpucdn.com/img/dFrPHwGy8rlII5pW_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-16",
+      "summary": "An RTX 5090 Founders Edition owner says NVIDIA turned down a warranty claim because the serial number on the card's metal bracket had faded past the point of being readable. According to a Reddit post on r/NVIDIA from user Willing-Avocado-4830, the c...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352754/nvidia-reportedly-rejected-rtx-5090-rma-over-faded-serial-number"
+    },
+    {
+      "id": "https://www.techpowerup.com/352753/intel-and-sk-hynix-could-start-dram-production-in-united-states",
+      "title": "Intel and SK hynix Could Start DRAM Production in United States",
+      "original_title": "Intel and SK hynix Could Start DRAM Production in United States",
+      "image": "https://tpucdn.com/img/gGUAhFlFtgFKH3lt_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-16",
+      "summary": "According to anonymous sources close to Reuters, Intel and SK hynix are in talks to start DRAM production lines in the United States for the first time. This means that Intel might either collaborate with SK hynix to acquire memory IP technology in a...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352753/intel-and-sk-hynix-could-start-dram-production-in-united-states"
+    },
+    {
+      "id": "https://www.techpowerup.com/352532/blockchance-offers-1-000-kh-s-solo-mining-without-a-dedicated-pc-for-just-usd-50-through-today",
+      "title": "BlockChance Offers 1,000 KH/s Solo Mining Without a Dedicated PC for Just $50 Through Today",
+      "original_title": "BlockChance Offers 1,000 KH/s Solo Mining Without a Dedicated PC for Just $50 Through Today",
+      "image": "https://tpucdn.com/img/6yNnDZlHsExGl8HI_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-16",
+      "summary": "Bitcoin mining typically brings to mind specialized hardware, substantial power consumption, and large mining operations. The BlockChance Bitcoin Ticket Miner, available for $49.97 (MSRP $149.99) through Sept. 10, takes a much smaller and more probab...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352532/blockchance-offers-1-000-kh-s-solo-mining-without-a-dedicated-pc-for-just-usd-50-through-today"
+    },
+    {
+      "id": "https://www.techpowerup.com/352751/sony-unveils-the-playstation-pulse-and-pulse-edge-wireless-headsets",
+      "title": "(PR) Sony Unveils the PlayStation Pulse and Pulse Edge Wireless Headsets",
+      "original_title": "(PR) Sony Unveils the PlayStation Pulse and Pulse Edge Wireless Headsets",
+      "image": "https://tpucdn.com/img/giNOi67MW7kHnnGR_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-16",
+      "summary": "When we introduced Pulse Elite in 2024, our first wireless headset featuring planar magnetic drivers and PlayStation Link connectivity, we saw positive feedback from players who enjoyed the greater precision, clarity, and level of detail it brought t...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352751/sony-unveils-the-playstation-pulse-and-pulse-edge-wireless-headsets"
+    },
+    {
+      "id": "https://www.techpowerup.com/352750/amd-rumored-to-have-dlss-5-like-neural-rendering-coming-with-rdna-5",
+      "title": "AMD Rumored To Have DLSS 5-Like Neural Rendering Coming With RDNA 5",
+      "original_title": "AMD Rumored To Have DLSS 5-Like Neural Rendering Coming With RDNA 5",
+      "image": "https://tpucdn.com/img/uUO1gNKw4HMLTQz1_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-16",
+      "summary": "AMD's next-gen RDNA 5 architecture might get its own neural rendering feature, something in the same ballpark as NVIDIA's DLSS 5. That's according to Kepler_L2, a well-known AMD leaker, though it's worth being clear that this is a single-source claim...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352750/amd-rumored-to-have-dlss-5-like-neural-rendering-coming-with-rdna-5"
+    },
+    {
+      "id": "https://www.techpowerup.com/352533/productivity-for-less-windows-11-pro-is-just-usd-9-97-right-now",
+      "title": "Productivity for Less—Windows 11 Pro Is Just $9.97 Right Now",
+      "original_title": "Productivity for Less—Windows 11 Pro Is Just $9.97 Right Now",
+      "image": "https://tpucdn.com/img/kTACciyEujo3nkTo_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-16",
+      "summary": "Microsoft Windows 11 Pro is available for only $9.97 (MSRP $199) through Sept. 27, providing a lifetime license for one compatible PC with no recurring subscription fees. The Pro edition adds several features intended for professional, business, deve...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352533/productivity-for-less-windows-11-pro-is-just-usd-9-97-right-now"
     },
     {
       "id": "https://www.eurogamer.net/two-point-museum-rides-and-relics-dlc-announced",
@@ -237,7 +546,7 @@
       "reliability": "High",
       "category": "News",
       "date": "2026-09-15",
-      "summary": " Well this made me chuckle. After starting out with Two Point Hospital - a spiritual successor to developer Bullfrog's classic sick-fixing sim Theme Hospital, Two Point Studios is now going even further into the past. Its newly announced Rides & Reli...",
+      "summary": " Well this made me chuckle. After starting out with Two Point Hospital - a spiritual successor to developer Bullfrog Productions' classic sick-fixing sim Theme Hospital, Two Point Studios is now going even further into the past. Its newly announced R...",
       "sources": [
         "Eurogamer"
       ],
@@ -259,94 +568,49 @@
       "url": "https://www.eurogamer.net/blizzard-wow-2-sequel-forever"
     },
     {
-      "id": "https://www.eurogamer.net/valve-steam-deck-2-plans-component-crisis",
-      "title": "Steam Deck 2 plans aren't affected by ongoing component crisis, Valve maintains, as Steam Frame arrives later and more expensive than expected",
-      "original_title": "Steam Deck 2 plans aren't affected by ongoing component crisis, Valve maintains, as Steam Frame arrives later and more expensive than expected",
-      "image": "https://assetsio.gnwcdn.com/overview_oled.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wh7elw/kepler_l2_amds_rdna_5_to_feature_neural_rendering/",
+      "title": "Kepler_L2: AMD's RDNA 5 to Feature Neural Rendering, But It Takes a Different Approach Than NVIDIA's DLSS 5 on a Fundamental Level.",
+      "original_title": "Kepler_L2: AMD's RDNA 5 to Feature Neural Rendering, But It Takes a Different Approach Than NVIDIA's DLSS 5 on a Fundamental Level.",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
       "category": "News",
       "date": "2026-09-15",
-      "summary": " Valve is in the news again thanks to the impending launch of its Steam Frame VR headset. The developer recently opened up pre-order registration for the £889 / $1,059 standalone headset following months of wait. Read more...",
+      "summary": "AMD’s next-generation RDNA 5 GPUs will introduce Neural Rendering as a part of it's FSR 5 suite. Rather than taking a rendered 2D frame and calculating how to adjust lighting, materials, and tonal balance after the fact, AMD is hooking It's version o...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/valve-steam-deck-2-plans-component-crisis"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wh7elw/kepler_l2_amds_rdna_5_to_feature_neural_rendering/"
     },
     {
-      "id": "https://www.eurogamer.net/alien-deathstorm-gamescom-preview",
-      "title": "Alien Deathstorm's intense, relentless FPS action was a surprise Gamescom highlight - even if it nearly made my brain explode",
-      "original_title": "Alien Deathstorm's intense, relentless FPS action was a surprise Gamescom highlight - even if it nearly made my brain explode",
-      "image": "https://assetsio.gnwcdn.com/alien-deathstorm-header-2.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wh7479/unseen_developers_of_kemuri_have_seemingly_lost/",
+      "title": "UNSEEN (developers of KEMURI) have seemingly lost many key staff members since the game's State of Play reveal this year",
+      "original_title": "UNSEEN (developers of KEMURI) have seemingly lost many key staff members since the game's State of Play reveal this year",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
       "category": "News",
       "date": "2026-09-15",
-      "summary": " Let me paint a picture: it is day three of Gamescom; I have seen dozens of fantastic games, spoken to many enthusiastic developers. I am excited and energised by it all, but also at the point of slightly delirious fatigue (not helped by the Gamescom...",
+      "summary": "Not sure if this fits the sub, but apparently part of the reason why UNSEEN doesn't want to work on an Xbox port of KEMURI is because the studio has lost many key staff members in, like, the last 3 months. Not just contractors, but senior directors, ...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/alien-deathstorm-gamescom-preview"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wh7479/unseen_developers_of_kemuri_have_seemingly_lost/"
     },
     {
-      "id": "https://www.eurogamer.net/rayman-legends-remake-retold-release-date-delay",
-      "title": "Ubisoft delays Rayman Legends remake Retold a couple of months \"to make sure every detail gets the care it deserves\"",
-      "original_title": "Ubisoft delays Rayman Legends remake Retold a couple of months \"to make sure every detail gets the care it deserves\"",
-      "image": "https://assetsio.gnwcdn.com/rayman-legends-remake-untold.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1whdiko/mp1st_shares_info_on_unreleased_tiny_tinas/",
+      "title": "MP1st shares info on unreleased Tiny Tina's Wonderlands sequel and Brothers in Arms game",
+      "original_title": "MP1st shares info on unreleased Tiny Tina's Wonderlands sequel and Brothers in Arms game",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
       "category": "News",
       "date": "2026-09-15",
-      "summary": " Ubisoft has delayed the Rayman Legends remake - Rayman Legends Retold - in order to \"make sure every detail gets the care it deserves\". The game's release date has moved two months from 1st October to 3rd December. Read more...",
+      "summary": "The article linked below contains photos and concept art for both games, which were being developed by Lost Boys Interactive. Tiny Tina's Wonderlands 2 may still happen, but it will likely be developed by Gearbox itself instead  Source: https://mp1st...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/rayman-legends-remake-retold-release-date-delay"
-    },
-    {
-      "id": "https://www.eurogamer.net/diablo-5-all-gameplay-details",
-      "title": "Everything we've gleaned about Diablo 5 since its BlizzCon 2026 reveal - a game that appears to be much more than Diablo 4.5",
-      "original_title": "Everything we've gleaned about Diablo 5 since its BlizzCon 2026 reveal - a game that appears to be much more than Diablo 4.5",
-      "image": "https://assetsio.gnwcdn.com/diablo-5-plague-knight-concept-art-crop-1.jpeg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-09-15",
-      "summary": " I knew going into BlizzCon 2026 that we'd get some Diablo news, but I expected a Diablo 4 expansion introducing a new Baal storyline, not Diablo 5. It's a long way away, scheduled for a spring 2029 release, but that didn't stop Blizzard revealing en...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/diablo-5-all-gameplay-details"
-    },
-    {
-      "id": "https://www.eurogamer.net/007-first-light-switch-2-delay",
-      "title": "007 First Light catches a big delay on Switch 2, pushing it into next year",
-      "original_title": "007 First Light catches a big delay on Switch 2, pushing it into next year",
-      "image": "https://assetsio.gnwcdn.com/james-bond-007-first-light-cressida.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-09-15",
-      "summary": " IO Interactive has announced it's pushing back the release of 007 First Light on Switch 2. The game's Switch 2 adaptation was expected to be released this summer, but has now been delayed to March 2027. Read more...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/007-first-light-switch-2-delay"
-    },
-    {
-      "id": "https://www.eurogamer.net/injustice-3-playtests-leak",
-      "title": "Injustice 3 is seemingly the mysterious, unannounced fighting game that's been hosting playtests in California",
-      "original_title": "Injustice 3 is seemingly the mysterious, unannounced fighting game that's been hosting playtests in California",
-      "image": "https://assetsio.gnwcdn.com/harley-ij-2_7lWU0aR.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-09-15",
-      "summary": " NetherRealm's next project has yet to be officially announced, but many believe it to be the third entry in the studio's superhero fighting game series Injustice. Now, there are new signs that select few outside the studio are playing Injustice 3. R...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/injustice-3-playtests-leak"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1whdiko/mp1st_shares_info_on_unreleased_tiny_tinas/"
     },
     {
       "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wguy22/injustice_3_is_seemingly_the_mysterious/",
@@ -379,201 +643,6 @@
       "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wgkmsn/resetera_moderator_details_upcoming_xbox_game/"
     },
     {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1wgyejq/runescape_dragonwilds_had_released_on_the_store/",
-      "title": "RuneScape: Dragonwilds had released on the store with their 1.0 update!",
-      "original_title": "RuneScape: Dragonwilds had released on the store with their 1.0 update!",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-09-15",
-      "summary": "  submitted by    /u/ImAnthlon   [link] [comments]...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1wgyejq/runescape_dragonwilds_had_released_on_the_store/"
-    },
-    {
-      "id": "https://www.techpowerup.com/352720/steam-deck-2-plans-havent-changed-despite-ram-crisis-claims-valve",
-      "title": "Steam Deck 2 Plans Haven't Changed Despite RAM Crisis, Claims Valve",
-      "original_title": "Steam Deck 2 Plans Haven't Changed Despite RAM Crisis, Claims Valve",
-      "image": "https://tpucdn.com/img/5ZHVWJ3BAweHiBLl_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-15",
-      "summary": "Valve has confirmed that the ongoing DRAM shortage hasn't changed anything about its plans for a Steam Deck 2, even though the crisis has driven up prices on the company's other hardware. Speaking with IGN's Jacqueline Thomas, Valve developer Pierre-...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352720/steam-deck-2-plans-havent-changed-despite-ram-crisis-claims-valve"
-    },
-    {
-      "id": "https://www.techpowerup.com/352718/microsoft-rolls-out-emergency-windows-11-patch-but-amd-gpu-driver-and-file-explorer-crashes-remain",
-      "title": "Microsoft Rolls Out Emergency Windows 11 Patch, But AMD GPU Driver and File Explorer Crashes Remain",
-      "original_title": "Microsoft Rolls Out Emergency Windows 11 Patch, But AMD GPU Driver and File Explorer Crashes Remain",
-      "image": "https://tpucdn.com/img/jl4M4pHTLFDTDKjh_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-15",
-      "summary": "Microsoft today rolled out an out-of-band emergency Windows 11 patch with KB5129195, which is being distributed to everyone. This emergency update is automatically downloading across every PC, as it fixes crucial issues and patches privilege elevatio...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352718/microsoft-rolls-out-emergency-windows-11-patch-but-amd-gpu-driver-and-file-explorer-crashes-remain"
-    },
-    {
-      "id": "https://www.techpowerup.com/352687/acemagic-mini-pc-deals-save-up-to-40-prices-start-at-usd-359-99",
-      "title": "ACEMAGIC Mini PC Deals, Save Up to 40%, Prices Start at $359.99",
-      "original_title": "ACEMAGIC Mini PC Deals, Save Up to 40%, Prices Start at $359.99",
-      "image": "https://tpucdn.com/img/ECYA7izSNulYatkG_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-15",
-      "summary": "ACEMAGIC and ACEMAGICIAN have deals on three mini PCs. Discounts go as high as 40%, and savings reach $210. All three ship with Windows 11 Pro already installed. Pick the Intel model for everyday desk work, or the 8-core AMD machine if you juggle a l...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352687/acemagic-mini-pc-deals-save-up-to-40-prices-start-at-usd-359-99"
-    },
-    {
-      "id": "https://www.techpowerup.com/352717/finalwire-releases-aida64-v8-40",
-      "title": "(PR) FinalWire Releases AIDA64 v8.40",
-      "original_title": "(PR) FinalWire Releases AIDA64 v8.40",
-      "image": "https://tpucdn.com/img/Uwk6okMaBqAzNuEM_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-15",
-      "summary": "FinalWire Ltd. today announced the immediate availability of AIDA64 Extreme v8.40, a streamlined diagnostic and benchmarking tool for home users; AIDA64 Engineer v8.40, a professional diagnostic and benchmarking solution for corporate IT technicians ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352717/finalwire-releases-aida64-v8-40"
-    },
-    {
-      "id": "https://www.techpowerup.com/352715/cd-projekt-red-expands-onto-battle-net-offers-new-geralt-skin-for-diablo-4",
-      "title": "CD Projekt Red Expands Onto Battle.net, Offers New Geralt Skin For Diablo 4",
-      "original_title": "CD Projekt Red Expands Onto Battle.net, Offers New Geralt Skin For Diablo 4",
-      "image": "https://tpucdn.com/img/WnKmwNYPCL0G3WTG_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-15",
-      "summary": "CD Projekt Red is bringing its games to Battle.net. The Witcher 3: Wild Hunt Remastered was announced for the platform at Gamescom, and Cyberpunk 2077, with its Phantom Liberty expansion, is coming to Battle.net later this year. As part of the crosso...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352715/cd-projekt-red-expands-onto-battle-net-offers-new-geralt-skin-for-diablo-4"
-    },
-    {
-      "id": "https://www.techpowerup.com/352714/intels-big-12-xe-core-igpu-for-nova-lake-s-postponed-to-razor-lake",
-      "title": "Intel's Big 12 Xe Core iGPU for \"Nova Lake-S\" Postponed to \"Razor Lake\"",
-      "original_title": "Intel's Big 12 Xe Core iGPU for \"Nova Lake-S\" Postponed to \"Razor Lake\"",
-      "image": "https://tpucdn.com/img/lNuLsSiXCDuCD3AE_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-15",
-      "summary": "Intel's long-rumored \"big iGPU\" version of the upcoming \"Nova Lake-S\" desktop processor family might not materialize, according to well-known Intel leaker Jaykihn. Intel had been working on a desktop \"Nova Lake-S\" version with 12 Xe3P cores and a 16-...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352714/intels-big-12-xe-core-igpu-for-nova-lake-s-postponed-to-razor-lake"
-    },
-    {
-      "id": "https://www.techpowerup.com/352532/blockchance-offers-1-000-kh-s-solo-mining-without-a-dedicated-pc-for-just-usd-50-through-today",
-      "title": "BlockChance Offers 1,000 KH/s Solo Mining Without a Dedicated PC for Just $50 Through Today",
-      "original_title": "BlockChance Offers 1,000 KH/s Solo Mining Without a Dedicated PC for Just $50 Through Today",
-      "image": "https://tpucdn.com/img/6yNnDZlHsExGl8HI_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-15",
-      "summary": "Bitcoin mining typically brings to mind specialized hardware, substantial power consumption, and large mining operations. The BlockChance Bitcoin Ticket Miner, available for $49.97 (MSRP $149.99) through Sept. 10, takes a much smaller and more probab...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352532/blockchance-offers-1-000-kh-s-solo-mining-without-a-dedicated-pc-for-just-usd-50-through-today"
-    },
-    {
-      "id": "https://www.techpowerup.com/352713/sharkoon-unveils-stealthbite-gaming-in-ear-monitors",
-      "title": "(PR) Sharkoon Unveils Stealthbite Gaming In-ear Monitors",
-      "original_title": "(PR) Sharkoon Unveils Stealthbite Gaming In-ear Monitors",
-      "image": "https://tpucdn.com/img/WJZg3gYpVp7dLrze_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-15",
-      "summary": "The Sharkoon Stealthbite IEM delivers precise sound for gaming, music, and content creation - at home and on the go. Featuring a hybrid driver system, the included Stealthbite DAC, and extensive accessories, it adapts flexibly to a wide range of appl...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352713/sharkoon-unveils-stealthbite-gaming-in-ear-monitors"
-    },
-    {
-      "id": "https://www.techpowerup.com/352711/xpg-expands-its-gaming-monitor-lineup-with-four-new-rift-and-aperture-models",
-      "title": "(PR) XPG Expands Its Gaming Monitor Lineup with Four New RIFT and APERTURE Models",
-      "original_title": "(PR) XPG Expands Its Gaming Monitor Lineup with Four New RIFT and APERTURE Models",
-      "image": "https://tpucdn.com/img/LTecLpQE8HN5EMQL_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-15",
-      "summary": "As gaming continues to evolve, players are looking for more immersive and responsive visual experiences, with growing expectations for smooth gameplay, higher\nresolution, and greater visual immersion. XPG, the gaming brand of ADATA Technology, contin...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352711/xpg-expands-its-gaming-monitor-lineup-with-four-new-rift-and-aperture-models"
-    },
-    {
-      "id": "https://www.techpowerup.com/352533/productivity-for-less-windows-11-pro-is-just-usd-9-97-right-now",
-      "title": "Productivity for Less—Windows 11 Pro Is Just $9.97 Right Now",
-      "original_title": "Productivity for Less—Windows 11 Pro Is Just $9.97 Right Now",
-      "image": "https://tpucdn.com/img/kTACciyEujo3nkTo_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-15",
-      "summary": "Microsoft Windows 11 Pro is available for only $9.97 (MSRP $199) through Sept. 27, providing a lifetime license for one compatible PC with no recurring subscription fees. The Pro edition adds several features intended for professional, business, deve...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352533/productivity-for-less-windows-11-pro-is-just-usd-9-97-right-now"
-    },
-    {
-      "id": "https://www.eurogamer.net/gta-6-confirmed-actor-king-of-the-hill-stephen-root",
-      "title": "GTA 6's first confirmed actor is King of the Hill's Stephen Root: \"It's an amazing thing to look at\"",
-      "original_title": "GTA 6's first confirmed actor is King of the Hill's Stephen Root: \"It's an amazing thing to look at\"",
-      "image": "https://assetsio.gnwcdn.com/GTA-6-Brian-Heder.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-09-14",
-      "summary": " Rockstar Games hasn't said much about who's voicing the GTA 6 cast, but we now know at least one big-name actor attached to the upcoming crime epic: Stephen Root. Read more...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/gta-6-confirmed-actor-king-of-the-hill-stephen-root"
-    },
-    {
-      "id": "https://www.eurogamer.net/marathon-pve-mode-delay-bungie-major-update",
-      "title": "Marathon's permanent PvE mode and next major update delayed to December days before launch, and Bungie's \"moving away from a strict season schedule\"",
-      "original_title": "Marathon's permanent PvE mode and next major update delayed to December days before launch, and Bungie's \"moving away from a strict season schedule\"",
-      "image": "https://assetsio.gnwcdn.com/Marathon_N0UraGO.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-09-14",
-      "summary": " Marathon Season 3 and everything that was due to come alongside it has been delayed, including the sci-fi shooter's long-awaited full PvE mode. Bungie's next major update is now launching in December instead, and the famed studio is pivoting away fr...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/marathon-pve-mode-delay-bungie-major-update"
-    },
-    {
       "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wgfaxn/kotaku_ign_hit_with_another_round_of_layoffs/",
       "title": "Kotaku: IGN Hit With Another Round of Layoffs, Including Seth Macy and Brian Altano",
       "original_title": "Kotaku: IGN Hit With Another Round of Layoffs, Including Seth Macy and Brian Altano",
@@ -602,111 +671,6 @@
         "r/GamingLeaksAndRumours"
       ],
       "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wg9c2o/steam_frame_to_be_priced_at_1059_includes/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wgb4tq/half_life_alyx_test_build_beta_code_leaked_by_ltt/",
-      "title": "Half Life Alyx test build beta code leaked by LTT in their review video",
-      "original_title": "Half Life Alyx test build beta code leaked by LTT in their review video",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Rumor",
-      "date": "2026-09-14",
-      "summary": "https://youtu.be/3PGKMwgjla0?t=680    submitted by    /u/KyoN_tHe_DeStRoYeR   [link] [comments]...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wgb4tq/half_life_alyx_test_build_beta_code_leaked_by_ltt/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wg4whb/neowiz_trademarks_wonders_of_o_possible_lies_of_p/",
-      "title": "NEOWIZ trademarks “Wonders of O” (Possible Lies of P sequel title?)",
-      "original_title": "NEOWIZ trademarks “Wonders of O” (Possible Lies of P sequel title?)",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-09-14",
-      "summary": "Source: https://euipo.europa.eu/eSearch/#details/trademarks/019420678     submitted by    /u/-LastGrail-   [link] [comments]...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wg4whb/neowiz_trademarks_wonders_of_o_possible_lies_of_p/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wfvxyp/the_art_bible_for_the_homeless_hitman_has_finally/",
-      "title": "The art bible for the homeless hitman has FINALLY been found (canceled dark and gritty hitman that became absolution)",
-      "original_title": "The art bible for the homeless hitman has FINALLY been found (canceled dark and gritty hitman that became absolution)",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-09-14",
-      "summary": "https://imgur.com/a/4z2sttV more to come! And big props to my friend everycafe720 for getting the current owner to send us pictures and soon scans! Also use a VPN if your in the UK and imgur dosent work by the way homeless hitman would have been an A...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wfvxyp/the_art_bible_for_the_homeless_hitman_has_finally/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wfwck6/sega_lists_a_physical_version_for_persona_6_on/",
-      "title": "Sega lists a physical version for Persona 6 on Switch 2",
-      "original_title": "Sega lists a physical version for Persona 6 on Switch 2",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-09-14",
-      "summary": "https://www.sega.co.jp/release/260910\\_1.html?year=2026&category=1&page=1 This is in addition to the previously confirmed PS5 version  Sega Switch 2 games are apparently all GKCs, but something is better than nothing?     submitted by    /u/FrierenKi...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wfwck6/sega_lists_a_physical_version_for_persona_6_on/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1wg2a5p/pc_dev_freebievanakan/",
-      "title": "PC Dev Freebie｜Vanakan",
-      "original_title": "PC Dev Freebie｜Vanakan",
-      "image": "https://external-preview.redd.it/Fa7W3Vy5_MjLWyWT_BfWgpwVcU05ACwxSKB7cfv-SWA.png?width=640&crop=smart&auto=webp&s=1ad09899a02812abd39d0ce0ec0b7afb7fbc7b09",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-09-14",
-      "summary": "        submitted by    /u/MeguminShiro   [link] [comments] ...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1wg2a5p/pc_dev_freebievanakan/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1wfftep/how_can_i_go_offline_on_epic_games/",
-      "title": "how can i go offline on epic games ?",
-      "original_title": "how can i go offline on epic games ?",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Epic News",
-      "date": "2026-09-13",
-      "summary": "i want to go offline for disturbance reasons but i dont know how    submitted by    /u/RiPerK123   [link] [comments]...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1wfftep/how_can_i_go_offline_on_epic_games/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1wfg21q/is_epic_games_considered_spyware/",
-      "title": "Is Epic Games considered Spyware?",
-      "original_title": "Is Epic Games considered Spyware?",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Epic News",
-      "date": "2026-09-13",
-      "summary": "To preface this I'm not tech savvy at all. I remember a few years back that there was a scandal about this and I can only find old threads that confirm this. My tech literate friend told me to stay away from it for this reason. I want to play the fre...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1wfg21q/is_epic_games_considered_spyware/"
     }
   ]
 }
