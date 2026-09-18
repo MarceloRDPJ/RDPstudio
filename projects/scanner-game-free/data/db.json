@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-17T16:19:56",
-  "display_date": "17/09/2026 16:19",
+  "last_updated": "2026-09-18T15:55:03",
+  "display_date": "18/09/2026 15:55",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "122ms",
+    "latency": "108ms",
     "current_games": [
       {
         "title": "Mindcop",
@@ -32,8 +32,8 @@
         "image": "https://cdn1.epicgames.com/spt-assets/4515173972ae4444a2582bc690c150bd/astrea-six-sided-oracles-offer-bvy0n.png",
         "url": "https://store.epicgames.com/p/915d7181013c40d980e1924513c7b8ec",
         "price": "$24.99",
-        "start_date": "2026-10-19T15:00:00.000Z",
-        "end_date": "2026-11-02T16:00:00.000Z"
+        "start_date": "2026-09-24T15:00:00.000Z",
+        "end_date": "2026-10-01T15:00:00.000Z"
       },
       {
         "title": "Astrea Six Sided Oracles",
@@ -41,17 +41,8 @@
         "image": "https://cdn1.epicgames.com/spt-assets/4515173972ae4444a2582bc690c150bd/astrea-six-sided-oracles-offer-bvy0n.png",
         "url": "https://store.epicgames.com/p/915d7181013c40d980e1924513c7b8ec",
         "price": "$24.99",
-        "start_date": "2026-09-24T15:00:00.000Z",
-        "end_date": "2026-10-01T15:00:00.000Z"
-      },
-      {
-        "title": "LISA: The Definitive Edition",
-        "description": "Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
-        "image": "https://cdn2.unrealengine.com/egs-lisathedefinitiveedition-dingalingproductions-bundles-s1-2560x1440-5be18c558828.jpg",
-        "url": "https://store.epicgames.com/p/lisa-the-definitive-edition",
-        "price": "$24.99",
-        "start_date": "2026-11-01T06:00:00.000Z",
-        "end_date": "2026-11-10T06:59:00.000Z"
+        "start_date": "2026-10-19T15:00:00.000Z",
+        "end_date": "2026-11-02T16:00:00.000Z"
       },
       {
         "title": "LISA: The Definitive Edition",
@@ -61,6 +52,15 @@
         "price": "$24.99",
         "start_date": "2026-12-10T16:00:00.000Z",
         "end_date": "2027-01-07T16:00:00.000Z"
+      },
+      {
+        "title": "LISA: The Definitive Edition",
+        "description": "Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
+        "image": "https://cdn2.unrealengine.com/egs-lisathedefinitiveedition-dingalingproductions-bundles-s1-2560x1440-5be18c558828.jpg",
+        "url": "https://store.epicgames.com/p/lisa-the-definitive-edition",
+        "price": "$24.99",
+        "start_date": "2026-11-01T06:00:00.000Z",
+        "end_date": "2026-11-10T06:59:00.000Z"
       },
       {
         "title": "Monument Valley",
@@ -101,7 +101,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-09-17",
+      "date": "2026-09-18",
       "summary": "Mindcop is a non-linear „whodunnit“ detective game. It mixes a story driven adventure with real-time match-3 puzzle. As the infamous Mindcop, you can dive into the minds of your suspects to uncover their secrets and unravel their lies.​",
       "sources": [
         "Epic Games Store"
@@ -116,7 +116,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-09-17",
+      "date": "2026-09-18",
       "summary": "Shogun Showdown is a turn-based combat game with rogue-like and deck-building elements. Position yourself and attack at the right time, upgrade your tiles and combo them to get ready to face the Shogun!",
       "sources": [
         "Epic Games Store"
@@ -131,8 +131,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-17",
-      "summary": "Disponível gratuitamente a partir de 19/10. An all new dice-deck-building roguelike, Astrea, has you chart a path through the ruins of a lost civilization as one of six brave Oracles. Using an ever-changing deck of dice and enchanted Sentinels, Purify waves of Corrupted foes and a decayed goddess to save the Star System.",
+      "date": "2026-09-18",
+      "summary": "Disponível gratuitamente a partir de 24/09. An all new dice-deck-building roguelike, Astrea, has you chart a path through the ruins of a lost civilization as one of six brave Oracles. Using an ever-changing deck of dice and enchanted Sentinels, Purify waves of Corrupted foes and a decayed goddess to save the Star System.",
       "sources": [
         "Epic Games Store"
       ],
@@ -146,8 +146,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-17",
-      "summary": "Disponível gratuitamente a partir de 24/09. An all new dice-deck-building roguelike, Astrea, has you chart a path through the ruins of a lost civilization as one of six brave Oracles. Using an ever-changing deck of dice and enchanted Sentinels, Purify waves of Corrupted foes and a decayed goddess to save the Star System.",
+      "date": "2026-09-18",
+      "summary": "Disponível gratuitamente a partir de 19/10. An all new dice-deck-building roguelike, Astrea, has you chart a path through the ruins of a lost civilization as one of six brave Oracles. Using an ever-changing deck of dice and enchanted Sentinels, Purify waves of Corrupted foes and a decayed goddess to save the Star System.",
       "sources": [
         "Epic Games Store"
       ],
@@ -161,8 +161,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-17",
-      "summary": "Disponível gratuitamente a partir de 01/11. Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
+      "date": "2026-09-18",
+      "summary": "Disponível gratuitamente a partir de 10/12. Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
       ],
@@ -176,8 +176,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-17",
-      "summary": "Disponível gratuitamente a partir de 10/12. Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
+      "date": "2026-09-18",
+      "summary": "Disponível gratuitamente a partir de 01/11. Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
       ],
@@ -191,7 +191,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-17",
+      "date": "2026-09-18",
       "summary": "Disponível gratuitamente a partir de 10/12. Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
       "sources": [
         "Epic Games Store"
@@ -206,7 +206,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-17",
+      "date": "2026-09-18",
       "summary": "Disponível gratuitamente a partir de 19/10. Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
       "sources": [
         "Epic Games Store"
@@ -221,12 +221,252 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-17",
+      "date": "2026-09-18",
       "summary": "Disponível gratuitamente a partir de 24/09. Command massive armies in this epic mech auto-battler. Draft your troops, customize your units, master your formations, and crush enemies in spectacular 3D battles. All strategy, no clickfest. Outsmart opponents in 1v1, 2v2, free-for-all, or Survival Mode.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/6a87570c28144b9cb50eb0ba46a7e19e"
+    },
+    {
+      "id": "https://www.eurogamer.net/final-fantasy-7-revelation-200gb-file-size-dlc",
+      "title": "Final Fantasy 7 Revelation will be \"around 200GB\" says game director, as he details Sephiroth and Vincent Valentine DLC plans",
+      "original_title": "Final Fantasy 7 Revelation will be \"around 200GB\" says game director, as he details Sephiroth and Vincent Valentine DLC plans",
+      "image": "https://assetsio.gnwcdn.com/revelation-storage.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-09-18",
+      "summary": " We're still about six months out from the release of Final Fantasy 7 Revelation, the final part of the FF7 Remake trilogy. But, already, there is a lot of discussion about the size of the game; whether it's all the divisive side activities on offer ...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/final-fantasy-7-revelation-200gb-file-size-dlc"
+    },
+    {
+      "id": "https://www.eurogamer.net/control-resonant-review",
+      "title": "Control Resonant review",
+      "original_title": "Control Resonant review",
+      "image": "https://assetsio.gnwcdn.com/control-resonant-review-21.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-09-18",
+      "summary": " The first time I ate mold was like something out of a Victorian morality play. It was in boarding school, when fuzzy blue-grey discs would sometimes appear on the bottom of a quiche, or after I saw one of the kitchen ladies use a cleaning rag to cov...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/control-resonant-review"
+    },
+    {
+      "id": "https://www.eurogamer.net/switch-2-sales-ocarina-of-time-just-the-beginning",
+      "title": "Bolstered by Switch 2 sales and Zelda: Ocarina of Time remake's reveal, Nintendo of America COO promises: \"This is just the beginning\"",
+      "original_title": "Bolstered by Switch 2 sales and Zelda: Ocarina of Time remake's reveal, Nintendo of America COO promises: \"This is just the beginning\"",
+      "image": "https://assetsio.gnwcdn.com/devon-pritchard-nintendo-coo-2.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-09-18",
+      "summary": " Nintendo is having a pretty good time of it at the moment. Last year, we learned that the Switch 2 became the fastest selling video game hardware device in US history, usurping the PS4's golden record. Then, earlier this year, we learned that Switch...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/switch-2-sales-ocarina-of-time-just-the-beginning"
+    },
+    {
+      "id": "https://www.eurogamer.net/gta-6-online-release-date-twitch-ceo",
+      "title": "Rockstar hasn't said anything about a GTA 6 Online multiplayer mode just yet, but Twitch's CEO reckons it'll land next year",
+      "original_title": "Rockstar hasn't said anything about a GTA 6 Online multiplayer mode just yet, but Twitch's CEO reckons it'll land next year",
+      "image": "https://assetsio.gnwcdn.com/GTA-Online-6_vy3MsZh.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-09-18",
+      "summary": " Rockstar has remained very tight-lipped about GTA 6's multiplayer component, the potential successor to GTA 5's incredibly popular Grand Theft Auto Online, not yet commenting on whether it will even launch one. All we know currently is that when Gra...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/gta-6-online-release-date-twitch-ceo"
+    },
+    {
+      "id": "https://www.eurogamer.net/japan-game-development-layoffs-exec-money",
+      "title": "Why do Japanese studios suffer fewer layoffs? Because they have smaller teams and don't pay their execs $30m, says one expert",
+      "original_title": "Why do Japanese studios suffer fewer layoffs? Because they have smaller teams and don't pay their execs $30m, says one expert",
+      "image": "https://assetsio.gnwcdn.com/link-layoff-japan.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-09-18",
+      "summary": " It's been a pretty grim year for video games. Aside from the \"return of Xbox\" new CEO Asha Sharma promised awhen taking over, which enacted the announcement of 3,200 layoffs and four studio departures, we've also seen mass layoffs in other studios, ...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/japan-game-development-layoffs-exec-money"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wjjqyx/gta_v_200gb_source_code_leak_contains_early_gta/",
+      "title": "GTA V 200GB source code leak: contains early GTA VI assets",
+      "original_title": "GTA V 200GB source code leak: contains early GTA VI assets",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Rumor",
+      "date": "2026-09-18",
+      "summary": "The long-rumoured 200GB version of the 2023 source code leak is finally public. The original 2023 source code leak was mostly just code, around 4gb in size for comparison. According to Spider-Vice (GTAForums Admin), this is the full package of the GT...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wjjqyx/gta_v_200gb_source_code_leak_contains_early_gta/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wjtnlt/jason_schreier_the_blood_of_dawnwalker_cost_40/",
+      "title": "Jason Schreier: The Blood of Dawnwalker cost $40 million to produce",
+      "original_title": "Jason Schreier: The Blood of Dawnwalker cost $40 million to produce",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-09-18",
+      "summary": "Source: https://www.bloomberg.com/news/newsletters/2026-09-18/the-40-million-journey-behind-the-blood-of-dawnwalker?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc4OTc0MzY1OSwiZXhwIjoxNzkwM...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wjtnlt/jason_schreier_the_blood_of_dawnwalker_cost_40/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wjos60/another_control_resonant_review_leaked_7510/",
+      "title": "Another Control Resonant review leaked (7.5/10)",
+      "original_title": "Another Control Resonant review leaked (7.5/10)",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Rumor",
+      "date": "2026-09-18",
+      "summary": " \"Story and character work are where Control Resonant remains unmistakably a Remedy game, for better and for worse.\"    This outlet (CG Magazine Online) gave Alan Wake 2 a 9.5/10 for reference  Recently gave Wolverine a 7/10, Onimusha an 8/10 and Daw...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wjos60/another_control_resonant_review_leaked_7510/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wjgedh/kane_parsons_posted_a_literal_valve_on_his_story/",
+      "title": "Kane Parsons posted a literal valve on his story. Half-Life / Portal movie tease?",
+      "original_title": "Kane Parsons posted a literal valve on his story. Half-Life / Portal movie tease?",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-09-18",
+      "summary": "https://i.redd.it/1dbiyprnu6qh1.jpeg He visited Valve HQ multiple times this year, and has been teasing stuff Reminder that a Half-Life / Portal movie by JJ Abrams had been confirmed to be in the works, but it was later abandoned  https://www.reddit....",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wjgedh/kane_parsons_posted_a_literal_valve_on_his_story/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wjorbh/control_resonant_review_added_early/",
+      "title": "Control Resonant review added early",
+      "original_title": "Control Resonant review added early",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-09-18",
+      "summary": "https://opencritic.com/game/20766/control-resonant Looking at the same reviewer scores... 9 for UFC 26 and 9.5 for Wolverine. Onimusha from same site 7.5/10.    submitted by    /u/Desperate_Green6838   [link] [comments]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wjorbh/control_resonant_review_added_early/"
+    },
+    {
+      "id": "https://www.techpowerup.com/352829/palit-unveils-the-geforce-rtx-5060-ti-8-gb-ritona-oc",
+      "title": "(PR) PALIT Unveils the GeForce RTX 5060 Ti 8 GB RiTONA OC",
+      "original_title": "(PR) PALIT Unveils the GeForce RTX 5060 Ti 8 GB RiTONA OC",
+      "image": "https://tpucdn.com/img/hi05PmfW9mQnFJxl_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-18",
+      "summary": "As a leading innovator in graphics card technology, PALIT Microsystems Ltd. is excited to announce the official global debut of our digital ambassador, RiTONA, alongside a special edition graphics card: the GeForce RTX 5060 Ti 8 GB RiTONA OC.\n\nMeet R...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352829/palit-unveils-the-geforce-rtx-5060-ti-8-gb-ritona-oc"
+    },
+    {
+      "id": "https://www.techpowerup.com/352827/ps3-emulator-rpcs3-gets-major-fps-boost-after-nvidia-driver-bug-fix",
+      "title": "PS3 Emulator RPCS3 Gets Major FPS Boost After NVIDIA Driver Bug Fix",
+      "original_title": "PS3 Emulator RPCS3 Gets Major FPS Boost After NVIDIA Driver Bug Fix",
+      "image": "https://tpucdn.com/img/2yJhhfOcBUi6M8eP_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-18",
+      "summary": "The RPCS3 team says it found a workaround for an NVIDIA driver bug that was holding back performance in the popular PlayStation 3 emulator on GeForce cards. Contributor \"Yahfz\" reportedly tracked the issue down, and the fix apparently boosts frame ra...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352827/ps3-emulator-rpcs3-gets-major-fps-boost-after-nvidia-driver-bug-fix"
+    },
+    {
+      "id": "https://www.techpowerup.com/352687/acemagic-mini-pc-deals-save-up-to-40-prices-start-at-usd-359-99",
+      "title": "ACEMAGIC Mini PC Deals, Save Up to 40%, Prices Start at $359.99",
+      "original_title": "ACEMAGIC Mini PC Deals, Save Up to 40%, Prices Start at $359.99",
+      "image": "https://tpucdn.com/img/ECYA7izSNulYatkG_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-18",
+      "summary": "ACEMAGIC and ACEMAGICIAN have deals on three mini PCs. Discounts go as high as 40%, and savings reach $210. All three ship with Windows 11 Pro already installed. Pick the Intel model for everyday desk work, or the 8-core AMD machine if you juggle a l...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352687/acemagic-mini-pc-deals-save-up-to-40-prices-start-at-usd-359-99"
+    },
+    {
+      "id": "https://www.techpowerup.com/352824/asus-announces-the-snapdragon-x2-elite-based-ascent-qn10-mini-pc",
+      "title": "(PR) ASUS Announces the Snapdragon X2 Elite Based Ascent QN10 Mini PC",
+      "original_title": "(PR) ASUS Announces the Snapdragon X2 Elite Based Ascent QN10 Mini PC",
+      "image": "https://tpucdn.com/img/DAFrAk2NQB7G6H8q_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-18",
+      "summary": "ASUS today announced ASUS Ascent QN10, the world's first AI mini PC featuring an 80 TOPS NPU, redefining AI computing in an ultracompact form factor. Powered by the latest Snapdragon X2 Elite platform with an 18-core Qualcomm Oryon CPU, Ascent QN10 e...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352824/asus-announces-the-snapdragon-x2-elite-based-ascent-qn10-mini-pc"
+    },
+    {
+      "id": "https://www.techpowerup.com/352820/microsofts-automatic-super-resolution-comes-to-intel-panther-lake",
+      "title": "Microsoft's Automatic Super Resolution Comes to Intel \"Panther Lake\"",
+      "original_title": "Microsoft's Automatic Super Resolution Comes to Intel \"Panther Lake\"",
+      "image": "https://tpucdn.com/img/ydqhjXnUm16jxKZM_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-18",
+      "summary": "Microsoft announced that it has expanded device support for its Automatic Super Resolution (Auto SR) feature, which provides resolution upscaling to nearly every NPU-powered device, to Intel's flagship \"Panther Lake\" mobile platform. Introduced in 20...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352820/microsofts-automatic-super-resolution-comes-to-intel-panther-lake"
+    },
+    {
+      "id": "https://www.techpowerup.com/352815/spotify-teases-gta-6-collaboration-with-billboards-in-major-us-cities",
+      "title": "Spotify Teases GTA 6 Collaboration With Billboards in Major US Cities",
+      "original_title": "Spotify Teases GTA 6 Collaboration With Billboards in Major US Cities",
+      "image": "https://tpucdn.com/img/vlu2cDfCyfp3LMDs_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-18",
+      "summary": "Spotify has started displaying GTA 6-themed artwork on massive billboards in New York, Los Angeles, and Miami, adding a new layer to the game's already active marketing rollout. The images match ones recently posted by musicians including Travis Scot...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352815/spotify-teases-gta-6-collaboration-with-billboards-in-major-us-cities"
     },
     {
       "id": "https://www.eurogamer.net/valor-mortis-40-usd-price-stacked-autumn-season",
@@ -304,229 +544,109 @@
       "url": "https://www.eurogamer.net/wardogs-marathon-revenue-arc-raiders-helldivers-2-steam"
     },
     {
-      "id": "https://www.eurogamer.net/helldivers-2-horizon-forbidden-west-delisted-steam-uk-sony-valve",
-      "title": "Helldivers 2 and Horizon Forbidden West mysteriously delisted from Steam in the UK, Sony promises to \"address the issue\" with Valve",
-      "original_title": "Helldivers 2 and Horizon Forbidden West mysteriously delisted from Steam in the UK, Sony promises to \"address the issue\" with Valve",
-      "image": "https://assetsio.gnwcdn.com/Steam-critter-playstation.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wizlmb/twitch_ceo_hints_at_gta_vi_multiplayer_launching/",
+      "title": "Twitch CEO hints at GTA VI multiplayer launching in 2027 in an interview with Bloomberg",
+      "original_title": "Twitch CEO hints at GTA VI multiplayer launching in 2027 in an interview with Bloomberg",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
       "category": "News",
       "date": "2026-09-17",
-      "summary": " Yesterday, Helldivers 2 and Horizon Forbidden West mysteriously disappeared from the Steam store in the UK. There was no announcement about this move, nor any indication it would happen before players began noticing that neither game was listed on t...",
+      "summary": "  Twitch CEO Dan Clancy said that he’s spent “a lot of time” talking to Rockstar about GTA 6’s launch and its impact on the platform  Since GTA RP is huge on Twitch, it’s possible we get a PC launch with GTA VI online   \"We spent a lot of time talkin...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/helldivers-2-horizon-forbidden-west-delisted-steam-uk-sony-valve"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wizlmb/twitch_ceo_hints_at_gta_vi_multiplayer_launching/"
     },
     {
-      "id": "https://www.eurogamer.net/monster-hunter-ascendance-teostra-reveal",
-      "title": "Monster Hunter Wilds upcoming expansion, Ascendance, reveals an infamous returning monster - and it looks like it'll address the difficulty complaints",
-      "original_title": "Monster Hunter Wilds upcoming expansion, Ascendance, reveals an infamous returning monster - and it looks like it'll address the difficulty complaints",
-      "image": "https://assetsio.gnwcdn.com/MHW-teo.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wj35jb/control_resonant_review_leaked/",
+      "title": "Control Resonant review leaked",
+      "original_title": "Control Resonant review leaked",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
+      "category": "Rumor",
+      "date": "2026-09-17",
+      "summary": "https://culturageek.com.ar/review-control-resonant/ Most likely taken down already. Spotted on metacritic. “Control Resonant reverses the roles of the original: this time, Dylan searches for Jesse in a Manhattan overtaken by the Hiss, while facing th...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wj35jb/control_resonant_review_leaked/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wiytyf/tom_warren_microsoft_was_exploring_the_idea_of/",
+      "title": "Tom Warren: Microsoft was exploring the idea of true Xbox digital ownership in 2011, but they scrapped it",
+      "original_title": "Tom Warren: Microsoft was exploring the idea of true Xbox digital ownership in 2011, but they scrapped it",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
       "category": "News",
       "date": "2026-09-17",
-      "summary": " Brace yourselves, everyone: the Monster Hunter Wilds Ascendance marketing machine is spinning up. Today, at Tokyo Game Show, Capcom released the an extended cut of the first official trailer for Ascendance, revealing the explosion-loving leonine mon...",
+      "summary": "Here's an excerpt from Warren's latest Notepad article on The Verge:  Sources familiar with Microsoft’s plans tell me the company was exploring the idea of true Xbox digital ownership in 2011, including digital gifting, recycling digital games, and t...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/monster-hunter-ascendance-teostra-reveal"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wiytyf/tom_warren_microsoft_was_exploring_the_idea_of/"
     },
     {
-      "id": "https://www.eurogamer.net/ps5-firmware-update-14-00-00-community-activity-missing-feature",
-      "title": "PlayStation 5's latest firmware update takes Community Activity out of beta, but it's missing a key feature",
-      "original_title": "PlayStation 5's latest firmware update takes Community Activity out of beta, but it's missing a key feature",
-      "image": "https://assetsio.gnwcdn.com/ps5pro_5gw0RGb.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-09-17",
-      "summary": " A new PlayStation 5 firmware update has officially arrived for everyone, after about a month of testing. The change log for firmware version 26.06-14.00.00 has changed in one major way since the beta first went live in August. Read more...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/ps5-firmware-update-14-00-00-community-activity-missing-feature"
-    },
-    {
-      "id": "https://www.techpowerup.com/352797/razer-unveils-the-tartarus-v2-pro",
-      "title": "(PR) Razer Unveils the Tartarus V2 Pro",
-      "original_title": "(PR) Razer Unveils the Tartarus V2 Pro",
-      "image": "https://tpucdn.com/img/g0wqforaDESMXnhl_thm.jpg",
+      "id": "https://www.techpowerup.com/352813/bloomwalker-gameplay-detailed-as-cozy-crafting-adventure-with-anime-art-style",
+      "title": "Bloomwalker Gameplay Detailed As \"Cozy Crafting Adventure\" With Anime Art Style",
+      "original_title": "Bloomwalker Gameplay Detailed As \"Cozy Crafting Adventure\" With Anime Art Style",
+      "image": "https://tpucdn.com/img/najb7Mi4pbElyExR_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-09-17",
-      "summary": "Razer, the leading global lifestyle brand for gamers, today announced the Razer Tartarus V2 Pro, the next evolution of its Tartarus gaming keypad line. Built to carry forward the accuracy and speed players expect from the Tartarus name, the Tartarus ...",
+      "summary": "During the recent Xbox showcase at the Tokyo Game Show, Netmarble Neo showed off new gameplay for Bloomwalker, an upcoming cozy crafting game that it has been working on for PC and consoles. No release date has yet been attached to the project, but t...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/352797/razer-unveils-the-tartarus-v2-pro"
+      "url": "https://www.techpowerup.com/352813/bloomwalker-gameplay-detailed-as-cozy-crafting-adventure-with-anime-art-style"
     },
     {
-      "id": "https://www.techpowerup.com/352796/nvidia-dlss-5-neural-rendering-now-runs-in-a-web-browser-via-webgpu",
-      "title": "NVIDIA DLSS 5 Neural Rendering Now Runs in a Web Browser Via WebGPU",
-      "original_title": "NVIDIA DLSS 5 Neural Rendering Now Runs in a Web Browser Via WebGPU",
-      "image": "https://tpucdn.com/img/7yqHgz3Nx3tAzT6p_thm.jpg",
+      "id": "https://www.techpowerup.com/352814/intel-reportedly-preparing-8p-8e-raptor-lake-next-chip-to-replace-core-i5-14600k",
+      "title": "Intel Reportedly Preparing 8P+8E ''Raptor Lake Next\" Chip to Replace Core i5-14600K",
+      "original_title": "Intel Reportedly Preparing 8P+8E ''Raptor Lake Next\" Chip to Replace Core i5-14600K",
+      "image": "https://tpucdn.com/img/yC4HrKdmqBjAwkG9_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-09-17",
-      "summary": "A developer going by MAAN has demonstrated NVIDIA DLSS 5 Neural Rendering running inside a web browser using WebGPU, and according to their post on X, it works on macOS too. A live demo is up now, and MAAN says people can try it with their own models...",
+      "summary": "Intel is reportedly preparing to retire the Core i5-14600K in favor of a new \"Raptor Lake Next\" chip with eight P-cores and eight E-cores. According to leaker Jaykihn on X (spotted by VideoCardz), the successor will have two more Performance cores th...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/352796/nvidia-dlss-5-neural-rendering-now-runs-in-a-web-browser-via-webgpu"
+      "url": "https://www.techpowerup.com/352814/intel-reportedly-preparing-8p-8e-raptor-lake-next-chip-to-replace-core-i5-14600k"
     },
     {
-      "id": "https://www.techpowerup.com/352687/acemagic-mini-pc-deals-save-up-to-40-prices-start-at-usd-359-99",
-      "title": "ACEMAGIC Mini PC Deals, Save Up to 40%, Prices Start at $359.99",
-      "original_title": "ACEMAGIC Mini PC Deals, Save Up to 40%, Prices Start at $359.99",
-      "image": "https://tpucdn.com/img/ECYA7izSNulYatkG_thm.jpg",
+      "id": "https://www.techpowerup.com/352812/gta-vi-online-tipped-for-2027-launch",
+      "title": "GTA VI Online Tipped for 2027 Launch",
+      "original_title": "GTA VI Online Tipped for 2027 Launch",
+      "image": "https://tpucdn.com/img/tUPG1SHjIXz8CuE2_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-09-17",
-      "summary": "ACEMAGIC and ACEMAGICIAN have deals on three mini PCs. Discounts go as high as 40%, and savings reach $210. All three ship with Windows 11 Pro already installed. Pick the Intel model for everyday desk work, or the 8-core AMD machine if you juggle a l...",
+      "summary": "It's long been known that Grand Theft Auto VI would initially launch as a single-player game when it arrives in November 2026, and there has been no indication of when an actual GTA VI Online would launch. However, recently, Dan Clancy, CEO of Twitch...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/352687/acemagic-mini-pc-deals-save-up-to-40-prices-start-at-usd-359-99"
+      "url": "https://www.techpowerup.com/352812/gta-vi-online-tipped-for-2027-launch"
     },
     {
-      "id": "https://www.techpowerup.com/352795/corsair-launches-voxara-its-first-premium-usb-gaming-condenser-microphone",
-      "title": "(PR) Corsair Launches Voxara, Its First Premium USB Gaming Condenser Microphone",
-      "original_title": "(PR) Corsair Launches Voxara, Its First Premium USB Gaming Condenser Microphone",
-      "image": "https://tpucdn.com/img/PwjDkti0CjHBEcBE_thm.jpg",
+      "id": "https://www.techpowerup.com/352811/g-wolves-announces-22-7-g-lupine-ii-asymmetrical-fingertip-gaming-mouse",
+      "title": "G-Wolves Announces 22.7 g Lupine II Asymmetrical Fingertip Gaming Mouse",
+      "original_title": "G-Wolves Announces 22.7 g Lupine II Asymmetrical Fingertip Gaming Mouse",
+      "image": "https://tpucdn.com/img/WL2w4gj3oQXlvChN_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-09-17",
-      "summary": "Corsair is excited to announce the launch of Voxara, the company's first premium USB gaming condenser microphone. Built from Corsair hardware expertise and Elgato's industry-leading Wave Link software, Voxara delivers studio-grade vocals with deep cu...",
+      "summary": "G-Wolves, maker of the Fenrir—which helped popularize the idea of the ultra-light fingertip gaming mouse—has officially announced that pre-orders for its next ultra-light gaming mouse, the Lupine II, will start on September 18. The actual shape of th...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/352795/corsair-launches-voxara-its-first-premium-usb-gaming-condenser-microphone"
-    },
-    {
-      "id": "https://www.techpowerup.com/352794/bose-advances-open-ear-audio-with-new-sport-open-earbuds-and-ultra-open-earbuds-2nd-gen",
-      "title": "(PR) Bose Advances Open-ear Audio with New Sport Open Earbuds and Ultra Open Earbuds (2nd Gen)",
-      "original_title": "(PR) Bose Advances Open-ear Audio with New Sport Open Earbuds and Ultra Open Earbuds (2nd Gen)",
-      "image": "https://tpucdn.com/img/MCzvCCDRfkyytjQt_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-17",
-      "summary": "Today, Bose unveils the Bose Sport Open Earbuds and Bose Ultra Open Earbuds (2nd Gen), expanding its open-ear line with two products designed to create more listening moments across active pursuits and everyday life. Engineered for running, workouts,...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352794/bose-advances-open-ear-audio-with-new-sport-open-earbuds-and-ultra-open-earbuds-2nd-gen"
-    },
-    {
-      "id": "https://www.techpowerup.com/352793/rockstar-announces-gta-6-the-album-prices-go-up-to-usd-125",
-      "title": "Rockstar Announces GTA 6: The Album, Prices Go Up to $125",
-      "original_title": "Rockstar Announces GTA 6: The Album, Prices Go Up to $125",
-      "image": "https://tpucdn.com/img/vxpM9G0UySIL4Yf6_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-17",
-      "summary": "Rockstar Games has announced Grand Theft Auto 6: The Album, a 34-track record made in collaboration with Atlantic Records and set to release alongside the game on November 19. Six songs are already streaming on Spotify and Apple Music, including trac...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352793/rockstar-announces-gta-6-the-album-prices-go-up-to-usd-125"
-    },
-    {
-      "id": "https://www.techpowerup.com/352792/intel-z990-motherboards-spotted-in-shipping-records-ahead-of-nova-lake-launch",
-      "title": "Intel Z990 Motherboards Spotted In Shipping Records Ahead Of Nova Lake Launch",
-      "original_title": "Intel Z990 Motherboards Spotted In Shipping Records Ahead Of Nova Lake Launch",
-      "image": "https://tpucdn.com/img/TBtY7iLgfiQQDAeS_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-17",
-      "summary": "Some Z990 motherboards for Intel's upcoming Nova Lake platform have started showing up in shipping records, suggesting the launch is getting closer. Club386 spotted at least five ASRock boards with \"Z990\" in their names listed in customs data from Ta...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352792/intel-z990-motherboards-spotted-in-shipping-records-ahead-of-nova-lake-launch"
-    },
-    {
-      "id": "https://www.techpowerup.com/352790/sp-industrial-launches-new-emmc-5-1-series-for-embedded-applications",
-      "title": "(PR) SP Industrial Launches New eMMC 5.1 Series for Embedded Applications",
-      "original_title": "(PR) SP Industrial Launches New eMMC 5.1 Series for Embedded Applications",
-      "image": "https://tpucdn.com/img/pRfEG6wuLEFYV3Lt_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-17",
-      "summary": "SP Industrial today announced the launch of its new eMMC 5.1 Series, expanding its embedded storage portfolio with compact, reliable solutions designed for space-constrained and power-conscious industrial systems. As industrial and embedded devices b...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352790/sp-industrial-launches-new-emmc-5-1-series-for-embedded-applications"
-    },
-    {
-      "id": "https://www.techpowerup.com/352788/amd-plans-10-price-hike-across-gpus-chipsets-and-possibly-cpus",
-      "title": "AMD Plans 10% Price Hike Across GPUs, Chipsets, and Possibly CPUs",
-      "original_title": "AMD Plans 10% Price Hike Across GPUs, Chipsets, and Possibly CPUs",
-      "image": "https://tpucdn.com/img/Nthahpb8toxZXmer_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-17",
-      "summary": "AMD is preparing for a series of price hikes in response to rising costs of acquiring silicon from its supply chain. According to ChannelGate, AMD is working on a 10% price increase across its products due to the upstream supply chain squeeze. Since ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352788/amd-plans-10-price-hike-across-gpus-chipsets-and-possibly-cpus"
-    },
-    {
-      "id": "https://www.techpowerup.com/352785/asus-rog-announces-new-rog-cronox-eatx-pc-case-and-rog-eurux-gr120-case-fan",
-      "title": "(PR) ASUS ROG Announces New ROG Cronox EATX PC Case and ROG Eurux GR120 Case Fan",
-      "original_title": "(PR) ASUS ROG Announces New ROG Cronox EATX PC Case and ROG Eurux GR120 Case Fan",
-      "image": "https://tpucdn.com/img/JmFwQhCHkENGpZEt_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-17",
-      "summary": "ASUS Republic of Gamers (ROG) today announced the ROG Cronox ARGB PC case and ROG Eurux GR120 ARGB case fan. The ROG Cronox is an EATX full tower gaming case with a tool free, curved, and tempered-glass side panel, hinged 9.2-inch LCD screen, and rot...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352785/asus-rog-announces-new-rog-cronox-eatx-pc-case-and-rog-eurux-gr120-case-fan"
-    },
-    {
-      "id": "https://www.eurogamer.net/wardogs-ceo-new-response-crunch-backlash-social-media-monitoring-statement",
-      "title": "Wardogs studio CEO issues new statement, after backlash for saying his studio won't hire people who \"constantly tweet anti-crunch messaging\"",
-      "original_title": "Wardogs studio CEO issues new statement, after backlash for saying his studio won't hire people who \"constantly tweet anti-crunch messaging\"",
-      "image": "https://assetsio.gnwcdn.com/joe-brammer-header.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-09-16",
-      "summary": " Joe Brammer, CEO of Bulkhead, the developer behind The Turing Test, Battalion 1944, and now the hugely successful new release Wardogs, has found himself in somewhat hot water, following a revealing interview where he discussed work culture at the UK...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/wardogs-ceo-new-response-crunch-backlash-social-media-monitoring-statement"
-    },
-    {
-      "id": "https://www.eurogamer.net/mindseye-developers-laid-off-gta-studio-shutting-down",
-      "title": "More MindsEye developers have been laid off, and GTA veteran Leslie Benzie's studio is reportedly shutting down",
-      "original_title": "More MindsEye developers have been laid off, and GTA veteran Leslie Benzie's studio is reportedly shutting down",
-      "image": "https://assetsio.gnwcdn.com/mindseye-build-a-rocket-boy-(9).jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-09-16",
-      "summary": " Another round of layoffs is seemingly sweeping through Build A Rocket Boy, the studio responsible for MindsEye and founded by GTA veteran Leslie Benzies. The studio's future is now uncertain. Read more...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/mindseye-developers-laid-off-gta-studio-shutting-down"
+      "url": "https://www.techpowerup.com/352811/g-wolves-announces-22-7-g-lupine-ii-asymmetrical-fingertip-gaming-mouse"
     }
   ]
 }
