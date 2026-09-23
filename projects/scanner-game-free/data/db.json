@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-22T16:22:10",
-  "display_date": "22/09/2026 16:22",
+  "last_updated": "2026-09-23T16:12:22",
+  "display_date": "23/09/2026 16:12",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "141ms",
+    "latency": "334ms",
     "current_games": [
       {
         "title": "Mindcop",
@@ -32,8 +32,8 @@
         "image": "https://cdn1.epicgames.com/spt-assets/4515173972ae4444a2582bc690c150bd/astrea-six-sided-oracles-offer-bvy0n.png",
         "url": "https://store.epicgames.com/p/915d7181013c40d980e1924513c7b8ec",
         "price": "$24.99",
-        "start_date": "2026-09-24T15:00:00.000Z",
-        "end_date": "2026-10-01T15:00:00.000Z"
+        "start_date": "2026-10-19T15:00:00.000Z",
+        "end_date": "2026-11-02T16:00:00.000Z"
       },
       {
         "title": "Astrea Six Sided Oracles",
@@ -41,17 +41,8 @@
         "image": "https://cdn1.epicgames.com/spt-assets/4515173972ae4444a2582bc690c150bd/astrea-six-sided-oracles-offer-bvy0n.png",
         "url": "https://store.epicgames.com/p/915d7181013c40d980e1924513c7b8ec",
         "price": "$24.99",
-        "start_date": "2026-10-19T15:00:00.000Z",
-        "end_date": "2026-11-02T16:00:00.000Z"
-      },
-      {
-        "title": "LISA: The Definitive Edition",
-        "description": "Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
-        "image": "https://cdn2.unrealengine.com/egs-lisathedefinitiveedition-dingalingproductions-bundles-s1-2560x1440-5be18c558828.jpg",
-        "url": "https://store.epicgames.com/p/lisa-the-definitive-edition",
-        "price": "$24.99",
-        "start_date": "2026-11-01T06:00:00.000Z",
-        "end_date": "2026-11-10T06:59:00.000Z"
+        "start_date": "2026-09-24T15:00:00.000Z",
+        "end_date": "2026-10-01T15:00:00.000Z"
       },
       {
         "title": "LISA: The Definitive Edition",
@@ -61,6 +52,15 @@
         "price": "$24.99",
         "start_date": "2026-12-10T16:00:00.000Z",
         "end_date": "2027-01-07T16:00:00.000Z"
+      },
+      {
+        "title": "LISA: The Definitive Edition",
+        "description": "Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
+        "image": "https://cdn2.unrealengine.com/egs-lisathedefinitiveedition-dingalingproductions-bundles-s1-2560x1440-5be18c558828.jpg",
+        "url": "https://store.epicgames.com/p/lisa-the-definitive-edition",
+        "price": "$24.99",
+        "start_date": "2026-11-01T06:00:00.000Z",
+        "end_date": "2026-11-10T06:59:00.000Z"
       },
       {
         "title": "Monument Valley",
@@ -101,7 +101,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-09-22",
+      "date": "2026-09-23",
       "summary": "Mindcop is a non-linear „whodunnit“ detective game. It mixes a story driven adventure with real-time match-3 puzzle. As the infamous Mindcop, you can dive into the minds of your suspects to uncover their secrets and unravel their lies.​",
       "sources": [
         "Epic Games Store"
@@ -116,7 +116,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-09-22",
+      "date": "2026-09-23",
       "summary": "Shogun Showdown is a turn-based combat game with rogue-like and deck-building elements. Position yourself and attack at the right time, upgrade your tiles and combo them to get ready to face the Shogun!",
       "sources": [
         "Epic Games Store"
@@ -131,8 +131,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-22",
-      "summary": "Disponível gratuitamente a partir de 24/09. An all new dice-deck-building roguelike, Astrea, has you chart a path through the ruins of a lost civilization as one of six brave Oracles. Using an ever-changing deck of dice and enchanted Sentinels, Purify waves of Corrupted foes and a decayed goddess to save the Star System.",
+      "date": "2026-09-23",
+      "summary": "Disponível gratuitamente a partir de 19/10. An all new dice-deck-building roguelike, Astrea, has you chart a path through the ruins of a lost civilization as one of six brave Oracles. Using an ever-changing deck of dice and enchanted Sentinels, Purify waves of Corrupted foes and a decayed goddess to save the Star System.",
       "sources": [
         "Epic Games Store"
       ],
@@ -146,8 +146,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-22",
-      "summary": "Disponível gratuitamente a partir de 19/10. An all new dice-deck-building roguelike, Astrea, has you chart a path through the ruins of a lost civilization as one of six brave Oracles. Using an ever-changing deck of dice and enchanted Sentinels, Purify waves of Corrupted foes and a decayed goddess to save the Star System.",
+      "date": "2026-09-23",
+      "summary": "Disponível gratuitamente a partir de 24/09. An all new dice-deck-building roguelike, Astrea, has you chart a path through the ruins of a lost civilization as one of six brave Oracles. Using an ever-changing deck of dice and enchanted Sentinels, Purify waves of Corrupted foes and a decayed goddess to save the Star System.",
       "sources": [
         "Epic Games Store"
       ],
@@ -161,8 +161,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-22",
-      "summary": "Disponível gratuitamente a partir de 01/11. Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
+      "date": "2026-09-23",
+      "summary": "Disponível gratuitamente a partir de 10/12. Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
       ],
@@ -176,8 +176,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-22",
-      "summary": "Disponível gratuitamente a partir de 10/12. Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
+      "date": "2026-09-23",
+      "summary": "Disponível gratuitamente a partir de 01/11. Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
       ],
@@ -191,7 +191,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-22",
+      "date": "2026-09-23",
       "summary": "Disponível gratuitamente a partir de 10/12. Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
       "sources": [
         "Epic Games Store"
@@ -206,7 +206,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-22",
+      "date": "2026-09-23",
       "summary": "Disponível gratuitamente a partir de 19/10. Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
       "sources": [
         "Epic Games Store"
@@ -221,12 +221,417 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-22",
+      "date": "2026-09-23",
       "summary": "Disponível gratuitamente a partir de 24/09. Command massive armies in this epic mech auto-battler. Draft your troops, customize your units, master your formations, and crush enemies in spectacular 3D battles. All strategy, no clickfest. Outsmart opponents in 1v1, 2v2, free-for-all, or Survival Mode.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/6a87570c28144b9cb50eb0ba46a7e19e"
+    },
+    {
+      "id": "https://www.eurogamer.net/lord-of-the-rings-shadow-of-mordor-war-switch-2",
+      "title": "Beloved cockney-orc Lord of the Rings games Shadow of Mordor and Shadow of War finally make their way to Switch 2",
+      "original_title": "Beloved cockney-orc Lord of the Rings games Shadow of Mordor and Shadow of War finally make their way to Switch 2",
+      "image": "https://assetsio.gnwcdn.com/ea-opens-new-studio-led-by-former-shadow-of-mordor-exec-1621505264249.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-09-23",
+      "summary": " As if this season wasn't packed enough with games to play,  the acclaimed 'Nemesis system' Lord of the Rings games Shadow of Mordor and Shadow of War finally come to Switch 2 later this month. Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/lord-of-the-rings-shadow-of-mordor-war-switch-2"
+    },
+    {
+      "id": "https://www.eurogamer.net/diablo-5-level-scaling-diablo-2-blizzard",
+      "title": "Blizzard to take \"a somewhat different approach\" to level-scaling in Diablo 5, suggesting more influence from Diablo 2 than Diablo 4",
+      "original_title": "Blizzard to take \"a somewhat different approach\" to level-scaling in Diablo 5, suggesting more influence from Diablo 2 than Diablo 4",
+      "image": "https://assetsio.gnwcdn.com/Screenshot-2026-09-13-at-11.57.18.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-09-23",
+      "summary": " Blizzard has hinted at yet another core mechanic in Diablo 5 seemingly inspired by Diablo 2. Notably, the in-development action-RPG will tackle level-scaling differently from the way it's done in Diablo 4. Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/diablo-5-level-scaling-diablo-2-blizzard"
+    },
+    {
+      "id": "https://www.eurogamer.net/halo-studios-closure-xbox-cuts-kiki-wolfkill-bonnie-ross",
+      "title": "Former Halo leaders lament effective closure of Halo Studios, as one employee finds themselves promoted and fired in same week",
+      "original_title": "Former Halo leaders lament effective closure of Halo Studios, as one employee finds themselves promoted and fired in same week",
+      "image": "https://assetsio.gnwcdn.com/halo-campaign-evolved-master-chief-back.jpeg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-09-23",
+      "summary": " Former Halo leaders Bonnie Ross and Kiki Wolfkill have added their voices to the chorus of people wishing laid-off Halo Studios employees well after Microsoft's drastic downsizing of the studio yesterday. Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/halo-studios-closure-xbox-cuts-kiki-wolfkill-bonnie-ross"
+    },
+    {
+      "id": "https://www.eurogamer.net/stellar-blade-rocky-development-three-months-salary",
+      "title": "Stellar Blade is a success now but once came close to the brink: \"We could only pay salaries for about three months\"",
+      "original_title": "Stellar Blade is a success now but once came close to the brink: \"We could only pay salaries for about three months\"",
+      "image": "https://assetsio.gnwcdn.com/stellar-blade-eve-closeup.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-09-23",
+      "summary": " Shift UP CEO Hyung-Tae Kim has spoken about the troubles faced during Stellar Blade's development, including doubts from investors about the game's ability to break even, and rapidly depleting funds to pay staff with. Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/stellar-blade-rocky-development-three-months-salary"
+    },
+    {
+      "id": "https://www.eurogamer.net/age-of-empire-worlds-edge-studio-xbox-cuts",
+      "title": "Age of Empires studio World's Edge reportedly lost \"nearly half\" of its staff during yesterday's Xbox cuts and move to Activision",
+      "original_title": "Age of Empires studio World's Edge reportedly lost \"nearly half\" of its staff during yesterday's Xbox cuts and move to Activision",
+      "image": "https://assetsio.gnwcdn.com/age-of-empires-2-definitive-edition-cover-art-1.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-09-23",
+      "summary": " Yesterday's Xbox cuts saw organisational restructuring that moved Age of Empires studio World's Edge under Activision's control. The initial announcement did not specify whether the Age of Empire studio would lose any staff as part of this transitio...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/age-of-empire-worlds-edge-studio-xbox-cuts"
+    },
+    {
+      "id": "https://www.eurogamer.net/star-wars-zero-company-xcom-sales-furloughed-staff",
+      "title": "Star Wars Zero Company finds success in passing 1m sales, so can the furloughed development team be reinstated and paid now?",
+      "original_title": "Star Wars Zero Company finds success in passing 1m sales, so can the furloughed development team be reinstated and paid now?",
+      "image": "https://assetsio.gnwcdn.com/star-wars-zero-company-screen-4.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-09-23",
+      "summary": " Star Wars Zero Company, the XCOM-like turn-based tactics game from Bit Reactor, appears to have been a success, selling more than 1m copies, according to estimates from industry analyst Alinea Analytics. Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/star-wars-zero-company-xcom-sales-furloughed-staff"
+    },
+    {
+      "id": "https://www.eurogamer.net/gears-of-war-e-day-story-director-laid-off-xbox-cuts",
+      "title": "Xbox lays off Gears of War: E-Day's story director barely two weeks before the game's launch",
+      "original_title": "Xbox lays off Gears of War: E-Day's story director barely two weeks before the game's launch",
+      "image": "https://assetsio.gnwcdn.com/gears-of-war-e-day-june-2026-screen-4.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-09-23",
+      "summary": " The story director for Gears of War: E-Day has been laid off as part of yesterday's Xbox cuts, barely two weeks before the game he's worked on for more than four years is released. Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/gears-of-war-e-day-story-director-laid-off-xbox-cuts"
+    },
+    {
+      "id": "https://www.eurogamer.net/resident-evil-movie-review",
+      "title": "Resident Evil movie review - the best video game adaptation of playing a video game",
+      "original_title": "Resident Evil movie review - the best video game adaptation of playing a video game",
+      "image": "https://assetsio.gnwcdn.com/resident-evil-movie-header.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-09-23",
+      "summary": " There's a bit somewhere in the middle of the rubbish Doom movie, where the perspective suddenly switches to first-person. Look, it seems to say, it's just like you playing the video game! But what Zach Cregger's new Resident Evil movie gets is that,...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/resident-evil-movie-review"
+    },
+    {
+      "id": "https://www.eurogamer.net/undead-labs-independent-xbox-restructuring-state-of-decay",
+      "title": "State of Decay studio Undead Labs goes independent after Xbox restructuring, but lays off \"a significant number\" of the team in doing so",
+      "original_title": "State of Decay studio Undead Labs goes independent after Xbox restructuring, but lays off \"a significant number\" of the team in doing so",
+      "image": "https://assetsio.gnwcdn.com/State-of-Decay-3-screenshot-showing-a-character-aiming-a-shotgun.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-09-23",
+      "summary": " State of Decay studio Undead Labs has shared good and bad news following Xbox's second round of job cuts this year. Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/undead-labs-independent-xbox-restructuring-state-of-decay"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wo30ht/kepler_l2_ps6_will_be_40tf_helix_will_be_56tf/",
+      "title": "[Kepler_L2] PS6 will be 40TF, Helix will be 56TF. Both chips are taped out.",
+      "original_title": "[Kepler_L2] PS6 will be 40TF, Helix will be 56TF. Both chips are taped out.",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-09-23",
+      "summary": "If we are talking about comparisons with PS5, PS6 has double the \"raw power\", but has functional dual issue, 12 times faster ray tracing hardware and like 50-70x faster AI compute. Both chips being taped out heavily suggests a november 2027 release. ...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wo30ht/kepler_l2_ps6_will_be_40tf_helix_will_be_56tf/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wo6o0h/control_resonants_pc_build_leaked_one_day_before/",
+      "title": "Control Resonant’s PC build leaked one day before launch",
+      "original_title": "Control Resonant’s PC build leaked one day before launch",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Rumor",
+      "date": "2026-09-23",
+      "summary": "  Links are already up on the usual piracy sites  Source: https://en.gamegpu.com/news/igry/pk-versiya-control-resonant-utekla-za-sutki-do-ofitsialnogo-reliza    submitted by    /u/ZamnBoii   [link] [comments]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wo6o0h/control_resonants_pc_build_leaked_one_day_before/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wo8b5l/paul_tassi_destiny_2_campaign_unvaults_will_be/",
+      "title": "Paul Tassi: Destiny 2 campaign unvaults will be free for everyone, won't include any of the 25+ seasons and no more holiday events",
+      "original_title": "Paul Tassi: Destiny 2 campaign unvaults will be free for everyone, won't include any of the 25+ seasons and no more holiday events",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-09-23",
+      "summary": " Back to more regular patches until the unvaulting Shattered Cycle isn’t going to be finished and released  Source: https://www.forbes.com/sites/paultassi/2026/09/23/more-information-about-bungies-destiny-2-content-unvaulting-plans/    submitted by  ...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wo8b5l/paul_tassi_destiny_2_campaign_unvaults_will_be/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wnx1sh/gta_v_content_from_cut_cops_and_crooks_update/",
+      "title": "[GTA V] Content from cut Cops and Crooks update",
+      "original_title": "[GTA V] Content from cut Cops and Crooks update",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-09-23",
+      "summary": "Taken from leaked dev build of GTA V https://postimg.cc/gallery/3hT8h3b    submitted by    /u/Flashy-Switch6694   [link] [comments]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wnx1sh/gta_v_content_from_cut_cops_and_crooks_update/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wnuvx7/technicalhalo_halo_is_a_reboot_a_new_chapter_lore/",
+      "title": "TechnicalHalo: \"'Halo' is a reboot, a new chapter, lore is not going to be continued\"",
+      "original_title": "TechnicalHalo: \"'Halo' is a reboot, a new chapter, lore is not going to be continued\"",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-09-23",
+      "summary": "According to big baby beluga aka TechnicalHalo on twitter, franchise will be undergoing a reboot under Activitision. At this time they do not know if its a full reboot or just 343 games.    submitted by    /u/Astro4545   [link] [comments]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wnuvx7/technicalhalo_halo_is_a_reboot_a_new_chapter_lore/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1wo1dc9/fastest_purchase_of_my_life/",
+      "title": "Fastest purchase of my life.",
+      "original_title": "Fastest purchase of my life.",
+      "image": "https://preview.redd.it/zu736rlcq8rh1.jpeg?width=640&crop=smart&auto=webp&s=66651b0727782ba2b00abdfc84547ad793d32905",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-09-23",
+      "summary": "      Thanks epic for putting these games on sale I love you.    submitted by    /u/woistmeindoublecup   [link] [comments] ...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1wo1dc9/fastest_purchase_of_my_life/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1wo2xml/mobile_freebiecardpocalypse/",
+      "title": "Mobile Freebie｜Cardpocalypse",
+      "original_title": "Mobile Freebie｜Cardpocalypse",
+      "image": "https://preview.redd.it/dtuua4ui59rh1.png?width=140&height=118&auto=webp&s=025b42eca117bc085d928b0adcc6e6d8bcca60eb",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-09-23",
+      "summary": "      It starts on Sep 24 15:00 UTC (tmr) so not active/live yet. But just trying to keep one thread for it so no double threads. https://preview.redd.it/dtuua4ui59rh1.png?width=1245&format=png&auto=webp&s=4faf0ea137b43a576a8c98ecfe98d61fa32d7ca0    ...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1wo2xml/mobile_freebiecardpocalypse/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1wnuet6/its_almost_october_may_i_ask_where_my_epic_games/",
+      "title": "It's almost October, may I ask where my Epic Games Store v2 is?",
+      "original_title": "It's almost October, may I ask where my Epic Games Store v2 is?",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Epic News",
+      "date": "2026-09-23",
+      "summary": "Doesn't the Epic team have anyone tracking progress? They just bailed on the closed test in August, and there's no sign of the next test plan, not even a schedule. With this level of project management, they totally don't deserve the big company labe...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1wnuet6/its_almost_october_may_i_ask_where_my_epic_games/"
+    },
+    {
+      "id": "https://www.techpowerup.com/353001/undead-labs-suffers-layoffs-after-xbox-split",
+      "title": "Undead Labs Suffers Layoffs After Xbox Split",
+      "original_title": "Undead Labs Suffers Layoffs After Xbox Split",
+      "image": "https://tpucdn.com/img/rgCwlGRobmCQxW7l_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-23",
+      "summary": "It was recently confirmed that Undead Labs, the game studio behind the State of Decay series, had successfully split from Microsoft's Xbox in what appears to be a management buyout of some sort, leaving the studio to fend for itself and with creative...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/353001/undead-labs-suffers-layoffs-after-xbox-split"
+    },
+    {
+      "id": "https://www.techpowerup.com/352997/counter-strike-2-gets-new-rush-game-mode-with-40-second-3v3-rounds",
+      "title": "Counter-Strike 2 Gets New Rush Game Mode With 40 Second, 3v3 Rounds",
+      "original_title": "Counter-Strike 2 Gets New Rush Game Mode With 40 Second, 3v3 Rounds",
+      "image": "https://tpucdn.com/img/B1Oudt2m7mgMUwVG_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-23",
+      "summary": "Counter-Strike 2 just received a rare, sizeable content update that both introduces a brand-new game mode and makes several tweaks and changes to how the game works, looks, and feels. The biggest change to Counter-Strike 2 is the new Rush game mode, ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352997/counter-strike-2-gets-new-rush-game-mode-with-40-second-3v3-rounds"
+    },
+    {
+      "id": "https://www.techpowerup.com/352906/godeal24-unveils-back-to-school-sale-great-deals-on-genuine-software",
+      "title": "GoDeal24 Unveils Back to School Sale: Great Deals on Genuine Software",
+      "original_title": "GoDeal24 Unveils Back to School Sale: Great Deals on Genuine Software",
+      "image": "https://tpucdn.com/img/O6UIEZ2LBDIDsBC7_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-23",
+      "summary": "As autumn sets in, it is the perfect time to give your digital workspace a much-needed overhaul. Running outdated software not only drags down productivity with missing features, but legacy suites—including Office 2021—are rapidly approaching or have...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352906/godeal24-unveils-back-to-school-sale-great-deals-on-genuine-software"
+    },
+    {
+      "id": "https://www.techpowerup.com/352994/zyxel-networks-launches-xs1935-10g-multi-gigabit-switches",
+      "title": "(PR) Zyxel Networks Launches XS1935 10G Multi-Gigabit Switches",
+      "original_title": "(PR) Zyxel Networks Launches XS1935 10G Multi-Gigabit Switches",
+      "image": "https://tpucdn.com/img/qvK0aqsWhoThZFLD_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-23",
+      "summary": "Zyxel Networks, a leader in delivering secure and AI-powered cloud networking solutions, today announced the XS1935 series of 10G multi-gigabit lite-L3 smart managed switches. The new series gives small and medium-sized businesses (SMBs) the performa...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352994/zyxel-networks-launches-xs1935-10g-multi-gigabit-switches"
+    },
+    {
+      "id": "https://www.techpowerup.com/352993/supermicro-now-shipping-nvidia-vera-rubin-nvl72-racks",
+      "title": "(PR) Supermicro Now Shipping NVIDIA Vera Rubin NVL72 Racks",
+      "original_title": "(PR) Supermicro Now Shipping NVIDIA Vera Rubin NVL72 Racks",
+      "image": "https://tpucdn.com/img/H9LBZe1O3JjBZuJW_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-23",
+      "summary": "Super Micro Computer, Inc. (NASDAQ: SMCI), an AI, Enterprise, Storage, and 5G/Edge IT Total Solution Provider, is now shipping NVIDIA Vera Rubin NVL72 racks integrated with Supermicro's Data Center Building Block Solutions (DCBBS) and its direct liqu...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352993/supermicro-now-shipping-nvidia-vera-rubin-nvl72-racks"
+    },
+    {
+      "id": "https://www.techpowerup.com/352992/msi-ipc-unveils-ms-c9za-edge-ai-box-pc-powered-by-nvidia-jetson-orin-nano",
+      "title": "(PR) MSI IPC Unveils MS-C9ZA Edge AI Box PC Powered by NVIDIA Jetson Orin Nano",
+      "original_title": "(PR) MSI IPC Unveils MS-C9ZA Edge AI Box PC Powered by NVIDIA Jetson Orin Nano",
+      "image": "https://tpucdn.com/img/8KTVja6c4cFum3wJ_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-23",
+      "summary": "MSI IPC introduces the MS-C9ZA, a compact fanless Edge AI Box PC powered by NVIDIA Jetson Orin Nano 8 GB for machine vision, robotics, and embedded edge AI applications. It integrates local AI inference, industrial I/O, dual Gigabit Ethernet, M.2 exp...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352992/msi-ipc-unveils-ms-c9za-edge-ai-box-pc-powered-by-nvidia-jetson-orin-nano"
+    },
+    {
+      "id": "https://www.techpowerup.com/352900/babbels-lifetime-language-plan-is-now-available-through-this-exclusive-offer",
+      "title": "Babbel's Lifetime Language Plan Is Now Available Through This Exclusive Offer",
+      "original_title": "Babbel's Lifetime Language Plan Is Now Available Through This Exclusive Offer",
+      "image": "https://tpucdn.com/img/hNdHrBNDf9jMSRG8_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-23",
+      "summary": "Sticking with a new language usually comes down to whether the lessons feel like an actual conversation or like homework, and most apps lean hard toward the second. Babbel takes the opposite approach with a lifetime subscription to all 14 languages, ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352900/babbels-lifetime-language-plan-is-now-available-through-this-exclusive-offer"
+    },
+    {
+      "id": "https://www.techpowerup.com/352989/nvidia-smooth-motion-reaches-geforce-rtx-30-series-ampere-gpus-through-mods",
+      "title": "NVIDIA Smooth Motion Reaches GeForce RTX 30-Series \"Ampere\" GPUs Through Mods",
+      "original_title": "NVIDIA Smooth Motion Reaches GeForce RTX 30-Series \"Ampere\" GPUs Through Mods",
+      "image": "https://tpucdn.com/img/s0wpjc6PjHqPIFTk_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-23",
+      "summary": "Modders have gotten NVIDIA's Smooth Motion frame generation running on GeForce RTX 30 series cards, VideoCardz reports. Smooth Motion is NVIDIA's driver-level frame generation feature, similar in spirit to AMD's AFMF, and NVIDIA only exposes it offic...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352989/nvidia-smooth-motion-reaches-geforce-rtx-30-series-ampere-gpus-through-mods"
+    },
+    {
+      "id": "https://www.techpowerup.com/352984/steelseries-unveils-limited-edition-cyber-and-steel-apex-pro-tkl-gen-3-keyboards",
+      "title": "(PR) SteelSeries Unveils Limited-Edition Cyber and Steel Apex Pro TKL Gen 3 Keyboards",
+      "original_title": "(PR) SteelSeries Unveils Limited-Edition Cyber and Steel Apex Pro TKL Gen 3 Keyboards",
+      "image": "https://tpucdn.com/img/gmh1Rn4D7OwBTU5g_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-23",
+      "summary": "SteelSeries, the original esports brand that fuses gaming & culture, is leading the way in defining a \"gaming lifestyle.\" The worldwide brand creates industry-defining esports and gaming peripherals with a focus on premium quality, innovation, and fu...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352984/steelseries-unveils-limited-edition-cyber-and-steel-apex-pro-tkl-gen-3-keyboards"
+    },
+    {
+      "id": "https://www.techpowerup.com/352901/ditch-the-microsoft-365-subscription-with-this-lifetime-office-license-at-usd-55",
+      "title": "Ditch the Microsoft 365 Subscription With This Lifetime Office License at $55",
+      "original_title": "Ditch the Microsoft 365 Subscription With This Lifetime Office License at $55",
+      "image": "https://tpucdn.com/img/1Fswt9AiTj6fvwQa_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-23",
+      "summary": "Microsoft 365 renews monthly or annually, whether Word is opened once or fifty times, and canceling never refunds the months already paid for. Microsoft Office 2024 Professional Plus skips that recurring bill entirely with a lifetime license for one ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352901/ditch-the-microsoft-365-subscription-with-this-lifetime-office-license-at-usd-55"
     },
     {
       "id": "https://www.eurogamer.net/francesca-baerald-game-map-art-book",
@@ -244,141 +649,6 @@
       "url": "https://www.eurogamer.net/francesca-baerald-game-map-art-book"
     },
     {
-      "id": "https://www.eurogamer.net/rayman-legends-iconic-music-levels-retold-interview",
-      "title": "With \"a dozen\" music levels, Rayman Legends Retold doubles down on the best bit of the original game, and having played it I couldn't be happier",
-      "original_title": "With \"a dozen\" music levels, Rayman Legends Retold doubles down on the best bit of the original game, and having played it I couldn't be happier",
-      "image": "https://assetsio.gnwcdn.com/rayman-music.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-09-22",
-      "summary": " I own Rayman Legends on six platforms. The game, a 2D platformer that launched back in 2013, initially released onto the PS3, Xbox 360, PC, Wii U and PS Vita. A year later, it came to Xbox One and PS4. Fast-forward three years and it's on Switch, an...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/rayman-legends-iconic-music-levels-retold-interview"
-    },
-    {
-      "id": "https://www.eurogamer.net/xbox-layoffs-activision-rare-halo-ninja-theory",
-      "title": "Xbox confirms 268 more layoffs, further studio closures, and Obsidian's shift to Bethesda as major restructuring continues",
-      "original_title": "Xbox confirms 268 more layoffs, further studio closures, and Obsidian's shift to Bethesda as major restructuring continues",
-      "image": "https://assetsio.gnwcdn.com/grounded-1.2-wasps-screen.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-09-22",
-      "summary": " Following reports that further job cuts were imminent at Xbox, Microsoft has confirmed more sweeping changes as its major restructuring continues. As a result, some Xbox studios will combine, others are set for closure, and 268 more layoffs have bee...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/xbox-layoffs-activision-rare-halo-ninja-theory"
-    },
-    {
-      "id": "https://www.eurogamer.net/ninja-theory-closed-shut-down-xbox-layoffs",
-      "title": "Hellblade developer Ninja Theory heading towards closure in new wave of Xbox cuts, as two separate agreements collapse",
-      "original_title": "Hellblade developer Ninja Theory heading towards closure in new wave of Xbox cuts, as two separate agreements collapse",
-      "image": "https://assetsio.gnwcdn.com/senuas-saga-hellblade-2-1024x576.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-09-22",
-      "summary": " Ninja Theory - developer of the Hellblade series of games, Enslaved: Odyssey to the West, DmC: Devil May Cry, and Heavenly Sword - is entering consultation in preperation for the studio's closure as part of today's sweeping Xbox cuts and layoffs. Re...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/ninja-theory-closed-shut-down-xbox-layoffs"
-    },
-    {
-      "id": "https://www.eurogamer.net/next-halo-game-developer-call-of-duty-stuidio-xbox-restructuring",
-      "title": "Next major Halo game being developed by Activision, as Halo Studios all but closes as part of Microsoft's Xbox restructuring",
-      "original_title": "Next major Halo game being developed by Activision, as Halo Studios all but closes as part of Microsoft's Xbox restructuring",
-      "image": "https://assetsio.gnwcdn.com/halo-infinite_U4Ia556.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-09-22",
-      "summary": " Halo Studios (formerly 343 Industries) won't develop the next mainline Halo game because it's being what sounds like drastically reduced in size. Microsoft has instead given development duty to Activision, which is making \"a new purpose-built team\" ...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/next-halo-game-developer-call-of-duty-stuidio-xbox-restructuring"
-    },
-    {
-      "id": "https://www.eurogamer.net/playstation-store-wallet-credits-rewards",
-      "title": "Sony appears to be testing PlayStation Store credit offers when you buy certain games",
-      "original_title": "Sony appears to be testing PlayStation Store credit offers when you buy certain games",
-      "image": "https://assetsio.gnwcdn.com/SIE_InnovationHubHMD_BlogHeader_1920x1080.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-09-22",
-      "summary": " Sony appears to be testing a new PlayStation rewards programme. A number of posts on social media and Reddit have recently appeared showing that purchasing certain games from the PlayStation Store now comes with an associated wallet credit bonus. Re...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/playstation-store-wallet-credits-rewards"
-    },
-    {
-      "id": "https://www.eurogamer.net/blizzard-layoffs-xbox-cuts",
-      "title": "Blizzard layoffs are reportedly imminent,  days after an exciting BlizzCon and a seemingly popular World of Warcraft: Forever beta",
-      "original_title": "Blizzard layoffs are reportedly imminent,  days after an exciting BlizzCon and a seemingly popular World of Warcraft: Forever beta",
-      "image": "https://assetsio.gnwcdn.com/blizzard-logo_YP7kJpn.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-09-22",
-      "summary": " UPDATE 4PM BST: Game Developer has reportedly seen an email Blizzard sent to employees that indicates it - or at least the World of Warcraft department - isn't affected by \"today's announcements\". An Xbox representative apparently verified the email...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/blizzard-layoffs-xbox-cuts"
-    },
-    {
-      "id": "https://www.eurogamer.net/injustice-3-supergirl-batwoman-leak",
-      "title": "Another Injustice 3 leak reveals two characters in the rumoured DC fighting game - one that's expected and one that's a big surprise",
-      "original_title": "Another Injustice 3 leak reveals two characters in the rumoured DC fighting game - one that's expected and one that's a big surprise",
-      "image": "https://assetsio.gnwcdn.com/injustice-2-supergirl-blast-crop-1.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Rumor",
-      "date": "2026-09-22",
-      "summary": " We now have even more confirmation a new Injustice game is in development. Following last week's playtest leak, information has emerged that sheds more light on the upcoming DC fighting game. Read more...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/injustice-3-supergirl-batwoman-leak"
-    },
-    {
-      "id": "https://www.eurogamer.net/world-of-warcraft-fans-torn-about-whether-forevers-skyborne-starting-zone-fits-tonally-with-classic-wow",
-      "title": "World of Warcraft fans are torn about whether Forever's Skyborne starting zone fits tonally with Classic WoW",
-      "original_title": "World of Warcraft fans are torn about whether Forever's Skyborne starting zone fits tonally with Classic WoW",
-      "image": "https://assetsio.gnwcdn.com/world-of-warcraft-skyborne-jpg.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-09-22",
-      "summary": " World of Warcraft: Forever's beta is here, offering us our first look at WoW's reimagined vanilla or classic experience, and already it's proving extremely popular. But there are points of contention, one being whether the new Skyborne race's starti...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/world-of-warcraft-fans-torn-about-whether-forevers-skyborne-starting-zone-fits-tonally-with-classic-wow"
-    },
-    {
-      "id": "https://www.eurogamer.net/xbox-second-wave-cuts-layoffs-report",
-      "title": "Second wave of Xbox cuts reported to be happening this week, with \"several\" studios apparently facing consolidation",
-      "original_title": "Second wave of Xbox cuts reported to be happening this week, with \"several\" studios apparently facing consolidation",
-      "image": "https://assetsio.gnwcdn.com/xbox-logo_OJRhRlL.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-09-22",
-      "summary": " Xbox is reportedly preparing to lay off hundreds more people this week as the company plans to consolidate several of its studios. Read more...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/xbox-second-wave-cuts-layoffs-report"
-    },
-    {
       "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wnaknn/xbox_confirms_layoffs_and_consolidation_we_are/",
       "title": "XBOX confirms layoffs and consolidation: \"We are eliminating 268 roles across Halo Studios, other first-party studios, and the XBOX Game Studios management. Additionally: Activision will oversee development on the next 'Halo' title; Bethesda will expand its remit to Obsidian; and more\"",
       "original_title": "XBOX confirms layoffs and consolidation: \"We are eliminating 268 roles across Halo Studios, other first-party studios, and the XBOX Game Studios management. Additionally: Activision will oversee development on the next 'Halo' title; Bethesda will expand its remit to Obsidian; and more\"",
@@ -394,244 +664,94 @@
       "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wnaknn/xbox_confirms_layoffs_and_consolidation_we_are/"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wnbizp/vgg_sega_wanted_to_cancel_the_entire_sonic_series/",
-      "title": "VGG : Sega wanted to cancel the entire Sonic series but the first movie saved it, says Sonic Team head Iizuka",
-      "original_title": "VGG : Sega wanted to cancel the entire Sonic series but the first movie saved it, says Sonic Team head Iizuka",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wnmnz0/windows_central_sources_suggest_that_the_total/",
+      "title": "Windows Central: Sources suggest that the total amount of people laid off at Xbox as part of its reset will be less than the initial 3,200 estimate",
+      "original_title": "Windows Central: Sources suggest that the total amount of people laid off at Xbox as part of its reset will be less than the initial 3,200 estimate",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
       "category": "News",
       "date": "2026-09-22",
-      "summary": "source In an interview with One More Game, Iizuka was asked about the history of the series, which turned 35 this year. “It has been 35 years, which means it has been longer than actually my children, so I look upon this franchise like sort of like m...",
+      "summary": "This is coming from Jez Corden of Windows Central:   Last July, Microsoft announced it would be looking to reduce its gaming workforce by around 3,200 staffers. Sources suggest that the total figure will fall short of that previous estimate, as Micro...",
       "sources": [
         "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wnbizp/vgg_sega_wanted_to_cancel_the_entire_sonic_series/"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wnmnz0/windows_central_sources_suggest_that_the_total/"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wnbjf5/sources_have_told_the_hollywood_reporter_that_the/",
-      "title": "Sources have told The Hollywood Reporter that the next Halo game (under Activision) will be a full-feature, mainline installment in the franchise",
-      "original_title": "Sources have told The Hollywood Reporter that the next Halo game (under Activision) will be a full-feature, mainline installment in the franchise",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wnh85t/micron_reportedly_ends_production_of_2gb_gddr7/",
+      "title": "Micron reportedly ends production of 2GB GDDR7 used by GeForce RTX 50.",
+      "original_title": "Micron reportedly ends production of 2GB GDDR7 used by GeForce RTX 50.",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
       "category": "News",
       "date": "2026-09-22",
-      "summary": "https://www.hollywoodreporter.com/business/business-news/xbox-layoffs-reorg-activision-takes-over-halo-games-1236707478/  And then there is the big consumer news of the day: Activision, the Call of Duty studio, will make the next Halo game, which THR...",
+      "summary": " Micron appears to be moving away from its 2GB GDDR7 memory chips, including the 28 Gbps part already used on some GeForce RTX 50 graphics cards. UNIKO’s Hardware reports that the D8FHL chip listed as MT68A512M32DF-28:A, has reached end of life. The ...",
       "sources": [
         "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wnbjf5/sources_have_told_the_hollywood_reporter_that_the/"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wnh85t/micron_reportedly_ends_production_of_2gb_gddr7/"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wn5j06/the_information_xbox_plans_to_lay_off_hundreds_of/",
-      "title": "The Information: Xbox Plans to Lay Off Hundreds of Employees and Consolidate Studios",
-      "original_title": "The Information: Xbox Plans to Lay Off Hundreds of Employees and Consolidate Studios",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1wndloa/24th_of_this_month_is_going_to_be_very_competitive/",
+      "title": "24th of this month is going to be very competitive!",
+      "original_title": "24th of this month is going to be very competitive!",
+      "image": "https://preview.redd.it/hgchxgmih3rh1.png?width=640&crop=smart&auto=webp&s=2451bb008ac1bab5e617740088c8782bc1ede340",
       "source_count": 1,
       "reliability": "Medium",
       "category": "News",
       "date": "2026-09-22",
-      "summary": "According to an exclusive report from The Information, Xbox is planning to lay off hundreds of employees this week, marking its second major staff reduction of 2026. The gaming division is also reportedly planning to consolidate several of its game s...",
+      "summary": "      Unfortunate for Silent Hill and Control to launch on the same day as Garfield: Escape from Monday    submitted by    /u/ImAnthlon   [link] [comments] ...",
       "sources": [
-        "r/GamingLeaksAndRumours"
+        "r/EpicGamesPC"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wn5j06/the_information_xbox_plans_to_lay_off_hundreds_of/"
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1wndloa/24th_of_this_month_is_going_to_be_very_competitive/"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wn9vzp/rebsgaming_activision_halo_prototype_exists/",
-      "title": "RebsGaming: Activision Halo prototype exists",
-      "original_title": "RebsGaming: Activision Halo prototype exists",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1wngryt/control_resonant_release_times_have_been_released/",
+      "title": "Control Resonant release times have been released, pre-load will be available on the 23rd September at 7am PT",
+      "original_title": "Control Resonant release times have been released, pre-load will be available on the 23rd September at 7am PT",
+      "image": "https://preview.redd.it/plrrboqr14rh1.png?width=640&crop=smart&auto=webp&s=3ca3c583c8662b30e9904c4db3cbd3017aa56a95",
       "source_count": 1,
       "reliability": "Medium",
       "category": "News",
       "date": "2026-09-22",
-      "summary": "Two days ago my source informed me that an official email confirmed Activision’s recent Halo prototype (which I reported on last month) still exists and is pending Microsoft’s approval. As I was preparing my report about it yesterday, insiders reveal...",
+      "summary": "       CONTROL Resonant launches September 24th. Pre-load for Steam and the Epic Games Store will be available tomorrow, September 23rd, starting 7am PT. Pre-load for PlayStation 5 and Xbox Series X|S is available now.  https://bsky.app/profile/remed...",
       "sources": [
-        "r/GamingLeaksAndRumours"
+        "r/EpicGamesPC"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wn9vzp/rebsgaming_activision_halo_prototype_exists/"
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1wngryt/control_resonant_release_times_have_been_released/"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wmyyp6/natethehate_on_the_xbox_layoffs_and_clarifying/",
-      "title": "NateTheHate: On the Xbox layoffs and clarifying consolidation of studios. \"Well, more than just Halo will be moving under ABK. And other studios will move to different companies within Xbox/MS.\"",
-      "original_title": "NateTheHate: On the Xbox layoffs and clarifying consolidation of studios. \"Well, more than just Halo will be moving under ABK. And other studios will move to different companies within Xbox/MS.\"",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1wnkh46/star_trek_online_rediscovered_launch_trailer/",
+      "title": "Star Trek Online: Rediscovered | Launch Trailer",
+      "original_title": "Star Trek Online: Rediscovered | Launch Trailer",
+      "image": "https://external-preview.redd.it/2sUZ-MaR6RH8n7w7y0v7LcEEsk3QeLtvrZhRsQ4vcHQ.jpeg?width=320&crop=smart&auto=webp&s=5af46f5a379c89f2b99b3fd7079c45a9de13fbf4",
       "source_count": 1,
       "reliability": "Medium",
       "category": "News",
       "date": "2026-09-22",
-      "summary": "Source: https://www.resetera.com/threads/the-information-xbox-to-cut-hundreds-of-jobs-consolidate-game-studios.1639576/post-160868569 EDIT: Nate says Halo as a franchise is moving to ABK but not Halo Studios itself. \"Just for clarity sake: I said Hal...",
+      "summary": "        submitted by    /u/Bynairee   [link] [comments] ...",
       "sources": [
-        "r/GamingLeaksAndRumours"
+        "r/EpicGamesPC"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wmyyp6/natethehate_on_the_xbox_layoffs_and_clarifying/"
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1wnkh46/star_trek_online_rediscovered_launch_trailer/"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wmwklh/natethehate_on_the_upcoming_halo_news_the_halo/",
-      "title": "NateTheHate: On the upcoming Halo news. “The Halo news will vary individual to individual. Layoffs are bad, of course; but as for the series' future... people will react in a variety of ways.”",
-      "original_title": "NateTheHate: On the upcoming Halo news. “The Halo news will vary individual to individual. Layoffs are bad, of course; but as for the series' future... people will react in a variety of ways.”",
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1wndv20/game_asking_for_access_to_my_epic_games_account/",
+      "title": "Game asking for access to my EPIC Games Account",
+      "original_title": "Game asking for access to my EPIC Games Account",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
-      "category": "News",
+      "category": "Epic News",
       "date": "2026-09-22",
-      "summary": "Source: https://www.resetera.com/threads/jez-corden-news-about-the-future-of-halo-%E2%80%9Ccoming-within-a-day%E2%80%9D.1639549/post-160865071    submitted by    /u/-LastGrail-   [link] [comments]...",
+      "summary": "So I bought this game Kernel Hearts on the Epic Games store (pre-order) They had a promotion going to receive a free skin of one of the characters in FN. After the transaction, it was immediately awarded upon logging into the game. The full game rele...",
       "sources": [
-        "r/GamingLeaksAndRumours"
+        "r/EpicGamesPC"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wmwklh/natethehate_on_the_upcoming_halo_news_the_halo/"
-    },
-    {
-      "id": "https://www.techpowerup.com/352954/microsoft-surveys-insiders-about-physical-discs-for-next-gen-xbox-console",
-      "title": "Microsoft Surveys Insiders About Physical Discs for Next-Gen Xbox Console",
-      "original_title": "Microsoft Surveys Insiders About Physical Discs for Next-Gen Xbox Console",
-      "image": "https://tpucdn.com/img/VAFZrsyyZXjGywd6_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-22",
-      "summary": "Microsoft is reportedly surveying gamers about the importance of physical disc media for its next-generation Xbox console. According to findings from Power Up Gaming, Microsoft is conducting this survey through the Xbox Insider Hub application, where...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352954/microsoft-surveys-insiders-about-physical-discs-for-next-gen-xbox-console"
-    },
-    {
-      "id": "https://www.techpowerup.com/352951/jsaux-gamings-e-ink-and-pixel-matrix-faceplates-for-steam-machine-are-now-available",
-      "title": "(PR) Jsaux Gaming's E-Ink and Pixel Matrix Faceplates for Steam Machine Are Now Available",
-      "original_title": "(PR) Jsaux Gaming's E-Ink and Pixel Matrix Faceplates for Steam Machine Are Now Available",
-      "image": "https://tpucdn.com/img/AUulJMs5ttv98p4U_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-22",
-      "summary": "JSAUX GAMING today announced that its new E-Ink Faceplate and Pixel Matrix Faceplate for Steam Machine are now available, giving Steam Machine owners a new third-party option for customizing their system. Designed as magnetic replacement faceplates, ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352951/jsaux-gamings-e-ink-and-pixel-matrix-faceplates-for-steam-machine-are-now-available"
-    },
-    {
-      "id": "https://www.techpowerup.com/352906/godeal24-unveils-back-to-school-sale-great-deals-on-genuine-software",
-      "title": "GoDeal24 Unveils Back to School Sale: Great Deals on Genuine Software",
-      "original_title": "GoDeal24 Unveils Back to School Sale: Great Deals on Genuine Software",
-      "image": "https://tpucdn.com/img/O6UIEZ2LBDIDsBC7_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-22",
-      "summary": "As autumn sets in, it is the perfect time to give your digital workspace a much-needed overhaul. Running outdated software not only drags down productivity with missing features, but legacy suites—including Office 2021—are rapidly approaching or have...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352906/godeal24-unveils-back-to-school-sale-great-deals-on-genuine-software"
-    },
-    {
-      "id": "https://www.techpowerup.com/352952/nvidia-releases-geforce-617-14-whql-game-ready-drivers",
-      "title": "NVIDIA Releases GeForce 617.14 WHQL Game Ready Drivers",
-      "original_title": "NVIDIA Releases GeForce 617.14 WHQL Game Ready Drivers",
-      "image": "https://tpucdn.com/img/lWtOP9wh4Qxj35L4_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-22",
-      "summary": "NVIDIA today released the latest version of its GeForce Game Ready drivers. Version 617.14 WHQL comes with optimization for \"CONTROL: Resonant,\" \"Gears of War: E-Day,\" \"The Witcher 3: Wild Hunt Remastered,\" and \"AION 2.\" Among the gaming bugs fixed w...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352952/nvidia-releases-geforce-617-14-whql-game-ready-drivers"
-    },
-    {
-      "id": "https://www.techpowerup.com/352950/manufacturers-are-reportedly-planning-4-gb-and-6-gb-gddr7-chips-for-2027-28",
-      "title": "Manufacturers Are Reportedly Planning 4 GB And 6 GB GDDR7 Chips For 2027-28",
-      "original_title": "Manufacturers Are Reportedly Planning 4 GB And 6 GB GDDR7 Chips For 2027-28",
-      "image": "https://tpucdn.com/img/5Xomd5JGuamzFdsj_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-22",
-      "summary": "The NVIDIA GeForce RTX 5090 currently ships with 2 GB GDDR7 modules, and even 3 GB versions have seen limited adoption due to their high cost. However, that could change soon. According to Weibo leaker Golden Pig Upgrade, memory manufacturers are rep...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352950/manufacturers-are-reportedly-planning-4-gb-and-6-gb-gddr7-chips-for-2027-28"
-    },
-    {
-      "id": "https://www.techpowerup.com/352940/amd-adds-gddr7-support-in-gpu-driver-preparing-for-rdna-5-launch",
-      "title": "AMD Adds GDDR7 Support in GPU Driver, Preparing for RDNA 5 Launch",
-      "original_title": "AMD Adds GDDR7 Support in GPU Driver, Preparing for RDNA 5 Launch",
-      "image": "https://tpucdn.com/img/W7ROIYNlkywF1TIq_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-22",
-      "summary": "AMD has submitted patches to its open-source graphics card drivers for Linux, adding support for GDDR7 memory, as anticipation builds for the company's next-generation RDNA 5 GPUs. In the AMDGPU open-source driver, GDDR7 is now listed among the suppo...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352940/amd-adds-gddr7-support-in-gpu-driver-preparing-for-rdna-5-launch"
-    },
-    {
-      "id": "https://www.techpowerup.com/352900/babbels-lifetime-language-plan-is-now-available-through-this-exclusive-offer",
-      "title": "Babbel's Lifetime Language Plan Is Now Available Through This Exclusive Offer",
-      "original_title": "Babbel's Lifetime Language Plan Is Now Available Through This Exclusive Offer",
-      "image": "https://tpucdn.com/img/hNdHrBNDf9jMSRG8_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-22",
-      "summary": "Sticking with a new language usually comes down to whether the lessons feel like an actual conversation or like homework, and most apps lean hard toward the second. Babbel takes the opposite approach with a lifetime subscription to all 14 languages, ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352900/babbels-lifetime-language-plan-is-now-available-through-this-exclusive-offer"
-    },
-    {
-      "id": "https://www.techpowerup.com/352917/nzxt-introduces-the-s5-rgb-and-s5-rgb-deluxe-atx-mid-tower-cases",
-      "title": "(PR) NZXT Introduces the S5 RGB and S5 RGB Deluxe ATX Mid-Tower Cases",
-      "original_title": "(PR) NZXT Introduces the S5 RGB and S5 RGB Deluxe ATX Mid-Tower Cases",
-      "image": "https://tpucdn.com/img/2zou6mcQYuRdxDDC_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-22",
-      "summary": "NZXT, a leading brand in PC gaming components and prebuilt systems, today introduced the S5 RGB and S5 RGB Deluxe, two compact steel ATX mid-tower cases with panoramic dual tempered glass and RGB cooling pre-installed. Both models share one chassis, ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352917/nzxt-introduces-the-s5-rgb-and-s5-rgb-deluxe-atx-mid-tower-cases"
-    },
-    {
-      "id": "https://www.techpowerup.com/352948/beats-unveils-beats-360-its-first-customizable-over-ear-headphone",
-      "title": "(PR) Beats Unveils Beats 360, Its First Customizable Over-Ear Headphone",
-      "original_title": "(PR) Beats Unveils Beats 360, Its First Customizable Over-Ear Headphone",
-      "image": "https://tpucdn.com/img/ryk4EGfpGs0J56z6_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-22",
-      "summary": "Beats today unveils Beats 360, an all-new flagship over-ear headphone that introduces the brand's most personal listening experience yet. For the first time from Beats, interchangeable ear cushions and headband cushions let users customize their head...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352948/beats-unveils-beats-360-its-first-customizable-over-ear-headphone"
-    },
-    {
-      "id": "https://www.techpowerup.com/352901/ditch-the-microsoft-365-subscription-with-this-lifetime-office-license-at-usd-55",
-      "title": "Ditch the Microsoft 365 Subscription With This Lifetime Office License at $55",
-      "original_title": "Ditch the Microsoft 365 Subscription With This Lifetime Office License at $55",
-      "image": "https://tpucdn.com/img/1Fswt9AiTj6fvwQa_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-22",
-      "summary": "Microsoft 365 renews monthly or annually, whether Word is opened once or fifty times, and canceling never refunds the months already paid for. Microsoft Office 2024 Professional Plus skips that recurring bill entirely with a lifetime license for one ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352901/ditch-the-microsoft-365-subscription-with-this-lifetime-office-license-at-usd-55"
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1wndv20/game_asking_for_access_to_my_epic_games_account/"
     },
     {
       "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wmenc3/discussion_news_and_request_thread_week_beginning/",
@@ -649,19 +769,19 @@
       "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wmenc3/discussion_news_and_request_thread_week_beginning/"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wmsid9/upcoming_layoffs_this_week_at_xbox_and_blizzard/",
-      "title": "Upcoming layoffs this week at Xbox and Blizzard potentially",
-      "original_title": "Upcoming layoffs this week at Xbox and Blizzard potentially",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1wlnog4/months_ago_i_contacted_the_developer_of_rave/",
+      "title": "Months ago I contacted the developer of Rave Heart+ about adding Epic Achievements and they just responded to me today confirming that they've been added!",
+      "original_title": "Months ago I contacted the developer of Rave Heart+ about adding Epic Achievements and they just responded to me today confirming that they've been added!",
+      "image": "https://preview.redd.it/2lrvvsgtppqh1.png?width=640&crop=smart&auto=webp&s=54f1985a40ec5a997fcd11da58308dc85bd169d5",
       "source_count": 1,
       "reliability": "Medium",
-      "category": "News",
-      "date": "2026-09-21",
-      "summary": "Per Jason Schreier's most recent guest spot on the 8-4 Podcast: https://eightfour.libsyn.com/8-4-play-9182026-tokyo-game-show-2026 Timestamp is at 1:24:50, conversation was centered around Blizzcon and Jason Schreier said in no unclear terms:  \"The B...",
+      "category": "Epic News",
+      "date": "2026-09-20",
+      "summary": "      I contacted the developer back in March and they confirmed to me that they couldn't get achievements working on Epic because of the Engine version that they are using, I just thought it was the end of it, but to my surprise they contacted me to...",
       "sources": [
-        "r/GamingLeaksAndRumours"
+        "r/EpicGamesPC"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wmsid9/upcoming_layoffs_this_week_at_xbox_and_blizzard/"
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1wlnog4/months_ago_i_contacted_the_developer_of_rave/"
     }
   ]
 }
