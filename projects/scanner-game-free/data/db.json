@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-09-29T17:43:23",
-  "display_date": "29/09/2026 17:43",
+  "last_updated": "2026-09-30T17:40:27",
+  "display_date": "30/09/2026 17:40",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "136ms",
+    "latency": "472ms",
     "current_games": [
       {
         "title": "Astrea Six Sided Oracles",
@@ -41,8 +41,8 @@
         "image": "https://cdn2.unrealengine.com/egs-lisathedefinitiveedition-dingalingproductions-bundles-s1-2560x1440-5be18c558828.jpg",
         "url": "https://store.epicgames.com/p/lisa-the-definitive-edition",
         "price": "$24.99",
-        "start_date": "2026-11-01T06:00:00.000Z",
-        "end_date": "2026-11-10T06:59:00.000Z"
+        "start_date": "2026-12-10T16:00:00.000Z",
+        "end_date": "2027-01-07T16:00:00.000Z"
       },
       {
         "title": "LISA: The Definitive Edition",
@@ -50,8 +50,17 @@
         "image": "https://cdn2.unrealengine.com/egs-lisathedefinitiveedition-dingalingproductions-bundles-s1-2560x1440-5be18c558828.jpg",
         "url": "https://store.epicgames.com/p/lisa-the-definitive-edition",
         "price": "$24.99",
-        "start_date": "2026-12-10T16:00:00.000Z",
-        "end_date": "2027-01-07T16:00:00.000Z"
+        "start_date": "2026-11-01T06:00:00.000Z",
+        "end_date": "2026-11-10T06:59:00.000Z"
+      },
+      {
+        "title": "Castlevania Anniversary Collection",
+        "description": "Konami's Castlevania Anniversary Collection traces the origins of the historic vampire franchise. Included is a unique eBook with details provided by developers, artists and others inspired by the Castlevania legacy which sheds a fresh light into the world of Castlevania.",
+        "image": "https://cdn1.epicgames.com/spt-assets/1ff2f74ba0ef4019b6905d8abe268819/castlevania-anniversary-collection-yex6f.jpg",
+        "url": "https://store.epicgames.com/p/32b3e0adbe0c4399be1874958194f97f",
+        "price": "$19.99",
+        "start_date": "2026-10-19T15:00:00.000Z",
+        "end_date": "2026-11-02T16:00:00.000Z"
       },
       {
         "title": "System Shock 2: 25th Anniversary Remaster",
@@ -101,7 +110,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "summary": "An all new dice-deck-building roguelike, Astrea, has you chart a path through the ruins of a lost civilization as one of six brave Oracles. Using an ever-changing deck of dice and enchanted Sentinels, Purify waves of Corrupted foes and a decayed goddess to save the Star System.",
       "sources": [
         "Epic Games Store"
@@ -116,7 +125,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "summary": "Command massive armies in this epic mech auto-battler. Draft your troops, customize your units, master your formations, and crush enemies in spectacular 3D battles. All strategy, no clickfest. Outsmart opponents in 1v1, 2v2, free-for-all, or Survival Mode.",
       "sources": [
         "Epic Games Store"
@@ -131,7 +140,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "summary": "Disponível gratuitamente a partir de 19/10. An all new dice-deck-building roguelike, Astrea, has you chart a path through the ruins of a lost civilization as one of six brave Oracles. Using an ever-changing deck of dice and enchanted Sentinels, Purify waves of Corrupted foes and a decayed goddess to save the Star System.",
       "sources": [
         "Epic Games Store"
@@ -146,8 +155,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-29",
-      "summary": "Disponível gratuitamente a partir de 01/11. Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
+      "date": "2026-09-30",
+      "summary": "Disponível gratuitamente a partir de 10/12. Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
       ],
@@ -161,12 +170,27 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-29",
-      "summary": "Disponível gratuitamente a partir de 10/12. Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
+      "date": "2026-09-30",
+      "summary": "Disponível gratuitamente a partir de 01/11. Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/lisa-the-definitive-edition"
+    },
+    {
+      "id": "https://store.epicgames.com/p/32b3e0adbe0c4399be1874958194f97f",
+      "title": "EM BREVE: Castlevania Anniversary Collection",
+      "original_title": "Castlevania Anniversary Collection",
+      "image": "https://cdn1.epicgames.com/spt-assets/1ff2f74ba0ef4019b6905d8abe268819/castlevania-anniversary-collection-yex6f.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-09-30",
+      "summary": "Disponível gratuitamente a partir de 19/10. Konami's Castlevania Anniversary Collection traces the origins of the historic vampire franchise. Included is a unique eBook with details provided by developers, artists and others inspired by the Castlevania legacy which sheds a fresh light into the world of Castlevania.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/32b3e0adbe0c4399be1874958194f97f"
     },
     {
       "id": "https://store.epicgames.com/p/system-shock-2-25th-anniversary-remaster",
@@ -176,7 +200,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "summary": "Disponível gratuitamente a partir de 01/10. System Shock® 2: 25th Anniversary Remaster is a genre defining experience that established innovative game-play mechanics that are a staple of the FPS and RPG genre today. Survive the wretched corridors of the Von Braun. Your training has prepared you for this.",
       "sources": [
         "Epic Games Store"
@@ -191,7 +215,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "summary": "Disponível gratuitamente a partir de 19/10. Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
       "sources": [
         "Epic Games Store"
@@ -206,7 +230,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "summary": "Disponível gratuitamente a partir de 10/12. Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
       "sources": [
         "Epic Games Store"
@@ -221,7 +245,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "summary": "Disponível gratuitamente a partir de 01/10. A mystery adventure set at the collapse site of a live survival audition show.\nTrapped contestants communicate with each other—and the outside world through social media—as they wait for rescue. But trust begins to crack, and survival becomes far more complicated.",
       "sources": [
         "Epic Games Store"
@@ -229,154 +253,349 @@
       "url": "https://store.epicgames.com/p/buried-stars"
     },
     {
-      "id": "https://www.eurogamer.net/witcher-3-steam-most-played-record-remastered",
-      "title": "The Witcher 3 surges to its highest Steam concurrent player-count ever, following Remastered edition's release",
-      "original_title": "The Witcher 3 surges to its highest Steam concurrent player-count ever, following Remastered edition's release",
-      "image": "https://assetsio.gnwcdn.com/witcher-3-geralt-roach-lanterns.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/gta6-rockstar-weather-systems-hurricanes-rainbows-rain",
+      "title": "GTA 6 completely \"re-engineered\" Rockstar's weather systems to \"achieve a sense of scale we haven't felt before,\" adding hurricanes, rainbows and heavy rain",
+      "original_title": "GTA 6 completely \"re-engineered\" Rockstar's weather systems to \"achieve a sense of scale we haven't felt before,\" adding hurricanes, rainbows and heavy rain",
+      "image": "https://assetsio.gnwcdn.com/gta-6_XFAse3R.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-09-29",
-      "summary": " The Witcher 3's newly released Remastered edition has dramatically rekindled interest in the 11-year-old role-playing game, which is currently enjoying its highest concurrent player-count on Steam ever. Read more...",
+      "date": "2026-09-30",
+      "summary": " If you thought Red Dead Redemption 2's heavy winds and even heavier rain looked impressive, you might be happy to learn that Rockstar Games went back and \"re-engineered our weather system\" for GTA 6. Hurricanes, rainbows and \"vertiginous cumulonimbu...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/witcher-3-steam-most-played-record-remastered"
+      "url": "https://www.eurogamer.net/gta6-rockstar-weather-systems-hurricanes-rainbows-rain"
     },
     {
-      "id": "https://www.eurogamer.net/watch-hades-orchestral-performance-recording",
-      "title": "You can now watch one of this year's best orchestral game-music performances, celebrating Hades 1 and 2, online for free",
-      "original_title": "You can now watch one of this year's best orchestral game-music performances, celebrating Hades 1 and 2, online for free",
-      "image": "https://assetsio.gnwcdn.com/Nintendo-Direct-%E2%80%93-12_09_2025-59-21-screenshot.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/deadlock-update-steam-most-played-games",
+      "title": "It's not even out yet, but Valve's Deadlock just became one of the most played games on Steam",
+      "original_title": "It's not even out yet, but Valve's Deadlock just became one of the most played games on Steam",
+      "image": "https://assetsio.gnwcdn.com/deadlock-hidden-king.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-09-29",
-      "summary": " The outrageously enjoyable Hades musical orchestral concert, Ballads of the Underworld, is now available to watch in its entirety, online, for free. Read more...",
+      "date": "2026-09-30",
+      "summary": " Valve's new MOBA Deadlock - a sort of cross between Dota and Overwatch - might not be fully released yet, or even accessible by vast portions of the public,but that hasn't stopped its latest update propelling it to being one of the most played games...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/watch-hades-orchestral-performance-recording"
+      "url": "https://www.eurogamer.net/deadlock-update-steam-most-played-games"
     },
     {
-      "id": "https://www.eurogamer.net/blood-of-dawnwalker-harder-as-human-easier-as-vampire",
-      "title": "Don't worry if you're struggling in human form in The Blood of Dawnwalker - \"it should be harder\" playing that way",
-      "original_title": "Don't worry if you're struggling in human form in The Blood of Dawnwalker - \"it should be harder\" playing that way",
-      "image": "https://assetsio.gnwcdn.com/lacra-dawnawlker.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/world-of-warcraft-forever-class-survey",
+      "title": "Tinker, Bard, Illusionist - Blizzard seemingly surveying World of Warcraft: Forever players about never-before-seen classes to add to the game",
+      "original_title": "Tinker, Bard, Illusionist - Blizzard seemingly surveying World of Warcraft: Forever players about never-before-seen classes to add to the game",
+      "image": "https://assetsio.gnwcdn.com/world-of-warcraft-forever-dwarf-shaman-jpg.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-09-29",
-      "summary": " If you've been playing Medieval vampire RPG The Blood of Dawnwalker and you're wondering why you're having a hard time during the day, as a human, versus as at night as a vampire, then don't worry: you're experiencing the game as intended. It's not ...",
+      "date": "2026-09-30",
+      "summary": " World of Warcraft: Forever players claim to have been sent a survey asking whether they'd be interested in a variety of new classes for the upcoming MMO - and  some of them are very interesting. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/blood-of-dawnwalker-harder-as-human-easier-as-vampire"
+      "url": "https://www.eurogamer.net/world-of-warcraft-forever-class-survey"
     },
     {
-      "id": "https://www.eurogamer.net/ace-combat-8-the-belkan-war-pre-order-bonus-steam-community-reaction",
-      "title": "Controversy erupts around Ace Combat 8 on PC as bundled Belkan War re-release remains problematically attached to the new game, whereas it's standalone on console",
-      "original_title": "Controversy erupts around Ace Combat 8 on PC as bundled Belkan War re-release remains problematically attached to the new game, whereas it's standalone on console",
-      "image": "https://assetsio.gnwcdn.com/ace-combat-8-character-shot-crop-1.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/witcher-3-remastered-community-reaction-lighting",
+      "title": "\"My god this new lighting is lifeless\" - The Witcher 3 Remastered Edition divides players for a few key reasons",
+      "original_title": "\"My god this new lighting is lifeless\" - The Witcher 3 Remastered Edition divides players for a few key reasons",
+      "image": "https://assetsio.gnwcdn.com/witcher-3-geralt-remastered.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-09-29",
-      "summary": " Early access to Ace Combat 8: Wings of Theve is now available to owners of the game's Deluxe Edition, but the launch has been soured due to publisher Bandai Namco's handling of one particular pre-order bonus. Read more...",
+      "date": "2026-09-30",
+      "summary": " Yesterday's free Witcher 3: Wild Hunt - Remastered upgrade might have propelled the old role-playing game to new heights, in terms of player popularity, but not everyone is happy with what's changed. A particular point of contention concerns the gam...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/ace-combat-8-the-belkan-war-pre-order-bonus-steam-community-reaction"
+      "url": "https://www.eurogamer.net/witcher-3-remastered-community-reaction-lighting"
     },
     {
-      "id": "https://www.eurogamer.net/mexican-lawmakers-join-fight-digital-games-ownership",
-      "title": "Mexican lawmakers join the fight for digital games ownership with a new consumer rights initiative",
-      "original_title": "Mexican lawmakers join the fight for digital games ownership with a new consumer rights initiative",
-      "image": "https://assetsio.gnwcdn.com/mexican-digital-rights-header-fixed.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/warlock-dungeons-dragons-gamescom-preview",
+      "title": "Warlock: Dungeons & Dragons developers hope to set aside the Baldur's Gate 3 comparisons and build their own kind of open world",
+      "original_title": "Warlock: Dungeons & Dragons developers hope to set aside the Baldur's Gate 3 comparisons and build their own kind of open world",
+      "image": "https://assetsio.gnwcdn.com/warlock-header-closer.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-09-29",
-      "summary": " Another country has entered the fray as ongoing debates around digital video game ownership ignite across the world. Read more...",
+      "date": "2026-09-30",
+      "summary": " This probably feels like a bit of an odd place to start, but Warlock: Dungeons & Dragons isn't Fable. Yet, when I sat down to watch developer Invoke Studios' Gamescom demo of Warlock with no real idea of what to expect, it was the first thing that p...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/mexican-lawmakers-join-fight-digital-games-ownership"
+      "url": "https://www.eurogamer.net/warlock-dungeons-dragons-gamescom-preview"
     },
     {
-      "id": "https://www.eurogamer.net/gears-of-war-eday-difficulty-hardcore",
-      "title": "What's the intended difficulty for Gears of War: E-Day? \"I can tell you right now, it's Hardcore\" says The Coalition creative director",
-      "original_title": "What's the intended difficulty for Gears of War: E-Day? \"I can tell you right now, it's Hardcore\" says The Coalition creative director",
-      "image": "https://assetsio.gnwcdn.com/gears-eday-difficulty.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/control-resonant-yellow-paint-conscious-decision-marvels-wolverine",
+      "title": "As handholding mechanics come under fire elsewhere, Control Resonant devs confirm they made a \"conscious decision\" not to use yellow paint",
+      "original_title": "As handholding mechanics come under fire elsewhere, Control Resonant devs confirm they made a \"conscious decision\" not to use yellow paint",
+      "image": "https://assetsio.gnwcdn.com/control-resonant-launch-screen-2.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-09-29",
-      "summary": " Xbox and The Coalition are making a big deal about Gears of War: E-Day's campaign, ahead of its Xbox and PC launch on 1st October. The game goes back in time to study the origins of the Locust scourge, placing you in the big, stompy shoes of a young...",
+      "date": "2026-09-30",
+      "summary": " Control Resonant is one of the few modern open-world games which doesn't always point you to where you should go next. This desire to give players time to figure their way around is the reason why, according to the game's director, Resonant does not...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/gears-of-war-eday-difficulty-hardcore"
+      "url": "https://www.eurogamer.net/control-resonant-yellow-paint-conscious-decision-marvels-wolverine"
     },
     {
-      "id": "https://www.eurogamer.net/the-elder-scrolls-online-skyrim-spin-off-fallout-new-vegas-bethesda",
-      "title": "The Elder Scrolls Online is partly why Skyrim never got a Fallout: New Vegas-style spin-off, says Bethesda veteran",
-      "original_title": "The Elder Scrolls Online is partly why Skyrim never got a Fallout: New Vegas-style spin-off, says Bethesda veteran",
-      "image": "https://assetsio.gnwcdn.com/the-elder-scrolls-online-image-portal.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/monster-hunter-wilds-switch-2-performance-capcom",
+      "title": "Monster Hunter Wilds on Switch 2 runs at a stable 30FPS, but it took Capcom a \"painstaking, seemingly endless process\" to get there",
+      "original_title": "Monster Hunter Wilds on Switch 2 runs at a stable 30FPS, but it took Capcom a \"painstaking, seemingly endless process\" to get there",
+      "image": "https://assetsio.gnwcdn.com/mhw-switch-2.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-09-29",
-      "summary": " Why did The Elder Scrolls 5: Skyrim never receive a spin-off like Bethesda's Fallout 3 did, with Fallout: New Vegas? According to Skyrim co-lead designer Kurt Kuhlmann, it's because of The Elder Scrolls Online. Speaking to FRVR (via VGC), the 20-yea...",
+      "date": "2026-09-30",
+      "summary": " A lot has already been said of Monster Hunter Wilds' upcoming Switch 2 port. The game, with all its free DLC updates - including new monsters - will be available 5th December, arriving with local co-op support to harken back to those old Gathering H...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/the-elder-scrolls-online-skyrim-spin-off-fallout-new-vegas-bethesda"
+      "url": "https://www.eurogamer.net/monster-hunter-wilds-switch-2-performance-capcom"
     },
     {
-      "id": "https://www.eurogamer.net/wardogs-early-access-review",
-      "title": "Wardogs early access review",
-      "original_title": "Wardogs early access review",
-      "image": "https://assetsio.gnwcdn.com/wardogs-review-header.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/crimson-desert-charting-the-unknown-dlc-delayed",
+      "title": "Crimson Desert's Charting the Unknown DLC delayed by two weeks \"to deliver a more polished and stable gameplay experience\"",
+      "original_title": "Crimson Desert's Charting the Unknown DLC delayed by two weeks \"to deliver a more polished and stable gameplay experience\"",
+      "image": "https://assetsio.gnwcdn.com/crimson-desert-charting-the-unknown-dlc-screen-1.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-09-29",
-      "summary": " It took me four attempts to successfully parachute into a Wardogs match. On the first try, I opened my parachute far too early, and was promptly sniped from the sky by one of the many sharpshooters that populate Wardogs' battlefield. The second time...",
+      "date": "2026-09-30",
+      "summary": " Crimson Desert developer Pearl Abyss today announced it's delaying Charting the Unknown, the game's first post-launch add-on. Previously set for release 15th October, the DLC's release date has been pushed back to 29th October - a two-week delay. Re...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/wardogs-early-access-review"
+      "url": "https://www.eurogamer.net/crimson-desert-charting-the-unknown-dlc-delayed"
     },
     {
-      "id": "https://www.eurogamer.net/all-versions-of-the-witcher-3-that-exist-in-the-world-will-be-upgraded-with-the-free-remastered-edition-today",
-      "title": "All versions of The Witcher 3 \"that exist in the world\" will be upgraded with the free Remastered edition today",
-      "original_title": "All versions of The Witcher 3 \"that exist in the world\" will be upgraded with the free Remastered edition today",
-      "image": "https://assetsio.gnwcdn.com/20260925144028_1.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/xbox-mythic-achievements-playstation-trophies",
+      "title": "Xbox Mythic Achievements roll out to Insiders and are retroactively awarded as far back as Xbox 360 games",
+      "original_title": "Xbox Mythic Achievements roll out to Insiders and are retroactively awarded as far back as Xbox 360 games",
+      "image": "https://assetsio.gnwcdn.com/xbox-insider.png?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-09-29",
-      "summary": " CD Projekt Red has clarified to Eurogamer that \"all versions of The Witcher 3: Wild Hunt that exist in the world\" are to be updated with the free Remastered edition upgrade today. That update, by the way, rolls out from 11am BST. Read more...",
+      "date": "2026-09-30",
+      "summary": " The rumoured Xbox Mythic Achievements - the equivalent of PlayStation's Platinum Trophies - have been officially announced, and they're rolling out for Xbox Insiders now. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/all-versions-of-the-witcher-3-that-exist-in-the-world-will-be-upgraded-with-the-free-remastered-edition-today"
+      "url": "https://www.eurogamer.net/xbox-mythic-achievements-playstation-trophies"
     },
     {
-      "id": "https://www.eurogamer.net/sony-ps5-pro-lottery-system-japan-supply-shortage",
-      "title": "Sony is introducing an anti-scalping lottery system for PS5 Pros in Japan as supply shortages persist",
-      "original_title": "Sony is introducing an anti-scalping lottery system for PS5 Pros in Japan as supply shortages persist",
-      "image": "https://assetsio.gnwcdn.com/where-to-preorder-ps5-pro-eurogamer.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/xbox-disc-to-digital-convert-ownership-release",
+      "title": "Xbox's disc-to-digital feature rolls out for Series consoles and Xbox One, allowing you to digitise your game-disc collection",
+      "original_title": "Xbox's disc-to-digital feature rolls out for Series consoles and Xbox One, allowing you to digitise your game-disc collection",
+      "image": "https://assetsio.gnwcdn.com/GoW-Reloaded_COG-squad.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-09-29",
-      "summary": " Sony is introducing a lottery system for PS5 Pros on its Japanese online store for when demand for new consoles outstrips the limited supply. Read more...",
+      "date": "2026-09-30",
+      "summary": " After about a month in testing, Xbox's disc-to-digital feature has officially launched for all owners of Xbox consoles. The feature allows users to turn Xbox One and Xbox Series X discs into digital copies. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/sony-ps5-pro-lottery-system-japan-supply-shortage"
+      "url": "https://www.eurogamer.net/xbox-disc-to-digital-convert-ownership-release"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wu6hv7/the_guardian_breaks_embargo_for_gears_of_war_e/",
+      "title": "The Guardian Breaks Embargo For Gears of War E Day Review",
+      "original_title": "The Guardian Breaks Embargo For Gears of War E Day Review",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-09-30",
+      "summary": "\"The bulk of it is spent in large, open areas stuffed to the gills with collectibles. There are hundreds of them and you get a little audio chime whenever one is close. At one point, there was a particularly poignant cutscene where one of the emotion...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wu6hv7/the_guardian_breaks_embargo_for_gears_of_war_e/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wu7fn9/jedi_3_might_release_in_2027_and_the_announcement/",
+      "title": "Jedi 3 might release in 2027 and the announcement could come soon",
+      "original_title": "Jedi 3 might release in 2027 and the announcement could come soon",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-09-30",
+      "summary": "Source is \"FivesWalker\", a fairly recent Star Wars scooper but considered reliable so far in r/StarWarsLeaks. They likely have sources at LucasFilm. This is what they wrote: \"Yes, Jedi 3 will be next year. Marketing will start to occur sooner than yo...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wu7fn9/jedi_3_might_release_in_2027_and_the_announcement/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wua1vs/physints_xbox_deal_was_substantially_below_what/",
+      "title": "Physint's Xbox deal was \"substantially below what Xbox would typically spend to develop a premium game\"",
+      "original_title": "Physint's Xbox deal was \"substantially below what Xbox would typically spend to develop a premium game\"",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-09-30",
+      "summary": "\"After hours of diplomatic conversation about her competitors, Sharma had a rare moment of speechlessness when discussing the deal for Kojima’s upcoming stealth game Physint. She laughed at the idea of apologizing to Sony before shrugging and saying ...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wua1vs/physints_xbox_deal_was_substantially_below_what/"
+    },
+    {
+      "id": "https://www.techpowerup.com/353266/amd-igpus-to-get-promising-performance-boost-on-linux-via-perfopt-patch",
+      "title": "AMD iGPUs To Get Promising Performance Boost on Linux via PerfOpt Patch",
+      "original_title": "AMD iGPUs To Get Promising Performance Boost on Linux via PerfOpt Patch",
+      "image": "https://tpucdn.com/img/eKEDHXACg1QwjQWa_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-30",
+      "summary": "The Linux kernel 7.4 is still a way out, with a late October/early November release anticipated, but it's already showing promising and usability updates for Linux PCs all around, with proper HDMI support with VRR and FreeSync support being just one ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/353266/amd-igpus-to-get-promising-performance-boost-on-linux-via-perfopt-patch"
+    },
+    {
+      "id": "https://www.techpowerup.com/353262/minisforum-atomman-g1-pro-89a6-mini-pc-launches-with-rx-9060-xt-joining-rtx-5060-sku",
+      "title": "Minisforum AtomMan G1 Pro-89A6 Mini PC Launches With RX 9060 XT Joining RTX 5060 SKU",
+      "original_title": "Minisforum AtomMan G1 Pro-89A6 Mini PC Launches With RX 9060 XT Joining RTX 5060 SKU",
+      "image": "https://tpucdn.com/img/WStJ17dsYLcgbGnQ_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-30",
+      "summary": "Minisforum launched an NVIDIA GeForce RTX 5070-powered AtomMan G7 Pro mini PC in January 2026, and the brand has just announced the latest iteration in the AtomMan line-up, the AtomMan G1 Pro-89A6, which is now available with the AMD Radeon RX 9060 X...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/353262/minisforum-atomman-g1-pro-89a6-mini-pc-launches-with-rx-9060-xt-joining-rtx-5060-sku"
+    },
+    {
+      "id": "https://www.techpowerup.com/352890/reverse-engineering-without-cad-data-how-metroy-ultra-turns-physical-parts-into-digital-designs",
+      "title": "Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs",
+      "original_title": "Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs",
+      "image": "https://tpucdn.com/img/hTrBxbVCHKUOu5AX_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-30",
+      "summary": "Reverse engineering often starts with a physical part but no reliable digital data. In restoration and customization, manual measurement can provide basic dimensions, but it becomes limiting when complex curves, mounting points, and tight clearances ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/352890/reverse-engineering-without-cad-data-how-metroy-ultra-turns-physical-parts-into-digital-designs"
+    },
+    {
+      "id": "https://www.techpowerup.com/353265/logitech-unveils-the-zone-vibe-pro-headphones-with-anc-and-bluetooth-6-0",
+      "title": "(PR) Logitech Unveils the Zone Vibe Pro Headphones with ANC and Bluetooth 6.0",
+      "original_title": "(PR) Logitech Unveils the Zone Vibe Pro Headphones with ANC and Bluetooth 6.0",
+      "image": "https://tpucdn.com/img/nuBxDV199cHshmeo_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-30",
+      "summary": "Logitech today announced Zone Vibe Pro and Zone Vibe Pro for Business headsets. With 79% of employees now working hybrid, these comfortable over-ear headsets eliminate the daily hassle of constantly swapping between dedicated office headsets and pers...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/353265/logitech-unveils-the-zone-vibe-pro-headphones-with-anc-and-bluetooth-6-0"
+    },
+    {
+      "id": "https://www.techpowerup.com/353264/panasonic-connect-launches-the-toughbook-34-and-toughbook-g3-fully-rugged-2-in-1-mobile-computers",
+      "title": "(PR) Panasonic Connect Launches the TOUGHBOOK 34 and TOUGHBOOK G3, Fully Rugged 2-in-1 Mobile Computers",
+      "original_title": "(PR) Panasonic Connect Launches the TOUGHBOOK 34 and TOUGHBOOK G3, Fully Rugged 2-in-1 Mobile Computers",
+      "image": "https://tpucdn.com/img/Axcwv2URABO30kLw_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-30",
+      "summary": "Panasonic Connect North America, a Division of Panasonic Corporation of North America, today expanded its line of fully rugged computing devices with the TOUGHBOOK 34 and TOUGHBOOK G3 2-in-1 mobile devices. Targeted at mission-critical workers includ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/353264/panasonic-connect-launches-the-toughbook-34-and-toughbook-g3-fully-rugged-2-in-1-mobile-computers"
+    },
+    {
+      "id": "https://www.techpowerup.com/353263/the-witchers-henry-cavill-will-build-a-video-game-on-a-googlebook-this-november",
+      "title": "The Witcher's Henry Cavill Will Build a Video Game on a Googlebook This November",
+      "original_title": "The Witcher's Henry Cavill Will Build a Video Game on a Googlebook This November",
+      "image": "https://tpucdn.com/img/NkKfMhvpdPR3eOvG_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-30",
+      "summary": "Google has announced that actor Henry Cavill will build a video game on a Googlebook this November, as part of a marketing partnership for its new Android-based laptops. In its blog post, Google describes Cavill as an actor, producer, and tech enthus...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/353263/the-witchers-henry-cavill-will-build-a-video-game-on-a-googlebook-this-november"
+    },
+    {
+      "id": "https://www.techpowerup.com/353085/pcb-prototyping-from-design-to-pcba-with-easyeda-and-jlcpcb",
+      "title": "PCB Prototyping: From Design to PCBA with EasyEDA and JLCPCB",
+      "original_title": "PCB Prototyping: From Design to PCBA with EasyEDA and JLCPCB",
+      "image": "https://tpucdn.com/img/pqGbG22bYjSICXIC_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-30",
+      "summary": "Learn how EasyEDA and JLCPCB connect PCB design, component sourcing, DFM, fabrication, and PCBA to simplify hardware prototyping. Modern electronic products increasingly demand smaller, denser, and more complex PCBs. High-speed interfaces, multilayer...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/353085/pcb-prototyping-from-design-to-pcba-with-easyeda-and-jlcpcb"
+    },
+    {
+      "id": "https://www.techpowerup.com/353261/intel-media-driver-gets-crescent-island-xe3p-gpu-support",
+      "title": "Intel Media Driver Gets \"Crescent Island\" Xe3P GPU Support",
+      "original_title": "Intel Media Driver Gets \"Crescent Island\" Xe3P GPU Support",
+      "image": "https://tpucdn.com/img/MgVo0VBwMZVHwxvO_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-30",
+      "summary": "Intel has added its highly anticipated \"Crescent Island\" Xe3P GPU IP as a supported platform to its Media Driver in the 2026Q3 release. This confirms that the company is working on bringing another GPU generation to the masses soon. With the Intel Me...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/353261/intel-media-driver-gets-crescent-island-xe3p-gpu-support"
+    },
+    {
+      "id": "https://www.techpowerup.com/353257/official-minecraft-dungeons-2-fix-coming-to-steam-deck-following-fiddly-community-fixes",
+      "title": "Official Minecraft Dungeons 2 Fix Coming to Steam Deck Following Fiddly Community Fixes",
+      "original_title": "Official Minecraft Dungeons 2 Fix Coming to Steam Deck Following Fiddly Community Fixes",
+      "image": "https://tpucdn.com/img/sUiyRqFQmHVCoQGy_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-30",
+      "summary": "Minecraft Dungeons 2 recently launched on Steam to a decent-but-not-stellar 32,556 peak concurrent players, but not without its fair share of complaints. Both Windows and Linux users alike seem to be experiencing issues launching the Steam version of...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/353257/official-minecraft-dungeons-2-fix-coming-to-steam-deck-following-fiddly-community-fixes"
+    },
+    {
+      "id": "https://www.techpowerup.com/353222/plan-tasks-resources-and-deadlines-in-one-place-with-microsoft-project-2024-for-usd-49-97",
+      "title": "Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97",
+      "original_title": "Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97",
+      "image": "https://tpucdn.com/img/Wm7OkZN9FMvZfKlO_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-09-30",
+      "summary": "Microsoft Project Professional 2024 is built for managing projects from the initial plan through completion, with tools for organizing tasks, coordinating resources, monitoring progress, and creating reports. For a limited time, you can get the deskt...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/353222/plan-tasks-resources-and-deadlines-in-one-place-with-microsoft-project-2024-for-usd-49-97"
     },
     {
       "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wtf0ui/all_screenshots_from_the_gta_vi_story_by_game/",
@@ -394,34 +613,19 @@
       "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wtf0ui/all_screenshots_from_the_gta_vi_story_by_game/"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wtaa91/mobile_suits_gundam_battle_operation_3_network/",
-      "title": "MOBILE SUITS GUNDAM BATTLE OPERATION 3 Network Test appears on steamdb",
-      "original_title": "MOBILE SUITS GUNDAM BATTLE OPERATION 3 Network Test appears on steamdb",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wtj2he/world_of_warcraft_forever_was_classified_for/",
+      "title": "World of Warcraft: Forever was classified for consoles in Brazil via the Ministry of Justice",
+      "original_title": "World of Warcraft: Forever was classified for consoles in Brazil via the Ministry of Justice",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
       "category": "News",
       "date": "2026-09-29",
-      "summary": "https://steamdb.info/app/4946920/ Noticed by user @tera101245 on X    submitted by    /u/Algae-Prize   [link] [comments]...",
+      "summary": "EDIT: /u/birizinho noticed that these platforms have since been removed from the listing, meaning it likely may have been done in error  https://reddit.com/r/wowforever/comments/1wtfe1a/world_of_warcraft_forever_was_classified_for/ OP from the shared...",
       "sources": [
         "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wtaa91/mobile_suits_gundam_battle_operation_3_network/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wswx7w/neil_druckmann_confirms_there_are_a_total_of_3/",
-      "title": "Neil Druckmann confirms there are a total of 3 projects being worked on at Naughty Dog, 2 of them are Last of Us related",
-      "original_title": "Neil Druckmann confirms there are a total of 3 projects being worked on at Naughty Dog, 2 of them are Last of Us related",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-09-29",
-      "summary": "He confirms the existence of 2 Last of us projects being worked on alongside Intergalcatic From Neil Druckmann: “We have a couple of very exciting new projects in very early stages – so we can’t say much about them at this point. I will tell you that...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wswx7w/neil_druckmann_confirms_there_are_a_total_of_3/"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wtj2he/world_of_warcraft_forever_was_classified_for/"
     },
     {
       "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wtgjqi/natethehate_says_shaun_escaygs_project_at_naughty/",
@@ -439,214 +643,34 @@
       "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wtgjqi/natethehate_says_shaun_escaygs_project_at_naughty/"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wsviwj/redditor_shares_behind_the_scenes_pic_of_welcome/",
-      "title": "Redditor shares behind the scenes pic of welcome to vice city promo sign production",
-      "original_title": "Redditor shares behind the scenes pic of welcome to vice city promo sign production",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wtik9b/void_interactive_filed_a_trademark_for_new_ready/",
+      "title": "Void Interactive filed a trademark for new Ready or Not project",
+      "original_title": "Void Interactive filed a trademark for new Ready or Not project",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
       "category": "News",
       "date": "2026-09-29",
-      "summary": "Link to post https://www.reddit.com/r/GTA/s/ThLRewxXt2 Edit: original was removed, there is a reup-load here    submitted by    /u/HotHoneyMustardFan   [link] [comments]...",
+      "summary": "https://mp1st.com/news/ready-or-not-dedicated-story-mode-in-the-works-void-interactive-trademarks-warrants The trademark is called \"Warrants: A Ready or Not Story\".    submitted by    /u/Sea-Country8245   [link] [comments]...",
       "sources": [
         "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wsviwj/redditor_shares_behind_the_scenes_pic_of_welcome/"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wtik9b/void_interactive_filed_a_trademark_for_new_ready/"
     },
     {
-      "id": "https://www.techpowerup.com/353217/protect-our-games-act-aims-to-save-online-games-in-the-united-states",
-      "title": "\"Protect Our Games\" Act Aims to Save Online Games in the United States",
-      "original_title": "\"Protect Our Games\" Act Aims to Save Online Games in the United States",
-      "image": "https://tpucdn.com/img/eYCokZxskHrxup2V_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-29",
-      "summary": "According to a newly proposed bill called the \"Protect Our Games Act,\" United States Democratic Senator John Kane has introduced an initiative aimed at preserving games and assisting consumers who already own them. We've seen countless instances wher...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/353217/protect-our-games-act-aims-to-save-online-games-in-the-united-states"
-    },
-    {
-      "id": "https://www.techpowerup.com/353206/nuphy-launches-nuphylab-github-with-3d-models-for-keyboard-accessories-and-mods",
-      "title": "NuPhy Launches NuPhyLab GitHub with 3D Models for Keyboard Accessories and Mods",
-      "original_title": "NuPhy Launches NuPhyLab GitHub with 3D Models for Keyboard Accessories and Mods",
-      "image": "https://tpucdn.com/img/SUS9F87STuriGah0_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-29",
-      "summary": "It seems as though NuPhy is following in the footsteps of Keychron with its latest launch, which is a new GitHub repository, called NuPhyLab, that will host a collection of 3D models and engineering documentation for some of the brand's keyboard acce...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/353206/nuphy-launches-nuphylab-github-with-3d-models-for-keyboard-accessories-and-mods"
-    },
-    {
-      "id": "https://www.techpowerup.com/352890/reverse-engineering-without-cad-data-how-metroy-ultra-turns-physical-parts-into-digital-designs",
-      "title": "Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs",
-      "original_title": "Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs",
-      "image": "https://tpucdn.com/img/hTrBxbVCHKUOu5AX_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-29",
-      "summary": "Reverse engineering often starts with a physical part but no reliable digital data. In restoration and customization, manual measurement can provide basic dimensions, but it becomes limiting when complex curves, mounting points, and tight clearances ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/352890/reverse-engineering-without-cad-data-how-metroy-ultra-turns-physical-parts-into-digital-designs"
-    },
-    {
-      "id": "https://www.techpowerup.com/353212/take-two-sends-cease-and-desist-to-gta-5-switch-port-modder-android-version-canceled",
-      "title": "Take-Two Sends Cease-and-Desist to GTA 5 Switch Port Modder, Android Version Canceled",
-      "original_title": "Take-Two Sends Cease-and-Desist to GTA 5 Switch Port Modder, Android Version Canceled",
-      "image": "https://tpucdn.com/img/glWYAkTPOvC0GFNu_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-29",
-      "summary": "Paralympics Productions, the modding group that got GTA 5 running natively on the original Nintendo Switch, is shutting down on October 3. Project lead M0jso announced on X that Take-Two Interactive sent him a cease-and-desist letter, after which he ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/353212/take-two-sends-cease-and-desist-to-gta-5-switch-port-modder-android-version-canceled"
-    },
-    {
-      "id": "https://www.techpowerup.com/353213/razer-expands-sanrio-collection-with-pompompurin-eared-headset-and-kuromi-earbuds",
-      "title": "(PR) Razer Expands Sanrio Collection With Pompompurin Eared Headset And Kuromi Earbuds",
-      "original_title": "(PR) Razer Expands Sanrio Collection With Pompompurin Eared Headset And Kuromi Earbuds",
-      "image": "https://tpucdn.com/img/p04gGYNdj8xSv8sE_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-29",
-      "summary": "Razer, the leading global lifestyle brand for gamers, today announced two new additions to its Sanrio collaboration:Razer Hammerhead V3 X HyperSpeed - Kuromi Edition: Arrives in celebration of Kuromi's birthday, channeling her mischievous, rule-break...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/353213/razer-expands-sanrio-collection-with-pompompurin-eared-headset-and-kuromi-earbuds"
-    },
-    {
-      "id": "https://www.techpowerup.com/353211/montage-technology-announces-mass-production-of-ddr5-9200-clock-driver-ckd",
-      "title": "(PR) Montage Technology Announces Mass-Production of DDR5-9200 Clock Driver (CKD)",
-      "original_title": "(PR) Montage Technology Announces Mass-Production of DDR5-9200 Clock Driver (CKD)",
-      "image": "https://tpucdn.com/img/APp23MMxSWK0Z6aQ_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-29",
-      "summary": "Montage Technology announced the mass-production of its DDR5 Clock Driver Plus (CK01P), designed to deliver stable and reliable clocking for next-generation client memory modules.\n\nCompliant with the JEDEC DDR5CKD01 clock driver specification, the CK...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/353211/montage-technology-announces-mass-production-of-ddr5-9200-clock-driver-ckd"
-    },
-    {
-      "id": "https://www.techpowerup.com/353210/marshall-announces-the-bromley-150-portable-speaker-with-user-replaceable-battery",
-      "title": "(PR) Marshall Announces the Bromley 150 Portable Speaker with User Replaceable Battery",
-      "original_title": "(PR) Marshall Announces the Bromley 150 Portable Speaker with User Replaceable Battery",
-      "image": "https://tpucdn.com/img/DljNDBl9X5GBhY1R_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-29",
-      "summary": "Featuring True Stereophonic 360° technology, inspired by the origins of stereo recording, Bromley 150 uses Marshall's patented acoustic design to preserve depth and detail. By spreading rich mids, detailed highs, and deep bass evenly, every corner of...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/353210/marshall-announces-the-bromley-150-portable-speaker-with-user-replaceable-battery"
-    },
-    {
-      "id": "https://www.techpowerup.com/353209/amd-publishes-full-epyc-9006-venice-specs-and-pricing-8-core-at-usd-700-256-core-at-usd-14-904",
-      "title": "AMD Publishes Full EPYC 9006 \"Venice\" Specs and Pricing: 8-Core at $700, 256-Core at $14,904",
-      "original_title": "AMD Publishes Full EPYC 9006 \"Venice\" Specs and Pricing: 8-Core at $700, 256-Core at $14,904",
-      "image": "https://tpucdn.com/img/KYq3OXnf4hg4k6oy_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-29",
-      "summary": "AMD has published the full EPYC 9006 \"Venice\" lineup on its product page, listing specifications and 1,000-unit pricing for all 31 Zen 6 server processors across the SP7 and SP8 platforms. Prices start at $700 for the 8-core EPYC 9016 and top out at ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/353209/amd-publishes-full-epyc-9006-venice-specs-and-pricing-8-core-at-usd-700-256-core-at-usd-14-904"
-    },
-    {
-      "id": "https://www.techpowerup.com/353208/asrock-industrial-expands-mainstream-edge-computing-with-intel-core-series-3-platforms",
-      "title": "(PR) ASRock Industrial Expands Mainstream Edge Computing With Intel Core Series 3 Platforms",
-      "original_title": "(PR) ASRock Industrial Expands Mainstream Edge Computing With Intel Core Series 3 Platforms",
-      "image": "https://tpucdn.com/img/DVblmVuwNNJP8JVM_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-29",
-      "summary": "ASRock Industrial proudly presents its latest lineup of industrial edge computing platform powered by Intel Core Series 3 processors (Wildcat Lake-U), designed to bring power-efficient computing and integrated AI acceleration to mainstream industrial...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/353208/asrock-industrial-expands-mainstream-edge-computing-with-intel-core-series-3-platforms"
-    },
-    {
-      "id": "https://www.techpowerup.com/353205/aaeon-launches-panther-lake-edge-mini-pc-with-airjet-active-cooling",
-      "title": "(PR) AAEON Launches Panther Lake Edge Mini PC With AirJet Active Cooling",
-      "original_title": "(PR) AAEON Launches Panther Lake Edge Mini PC With AirJet Active Cooling",
-      "image": "https://tpucdn.com/img/aCK7SmHtuzQiWxVc_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-09-29",
-      "summary": "AAEON (Stock Code: 6579) today announced the release of the UP Xtreme PTL Edge Air, a Panther Lake-powered Mini PC featuring Frore Systems' AirJet solid-state active cooling technology.\n\nWith this innovative thermal management, the Mini PC replaces c...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/353205/aaeon-launches-panther-lake-edge-mini-pc-with-airjet-active-cooling"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wsrxo3/nintendo_switch_online_datamine_hints_at_new/",
-      "title": "Nintendo Switch Online Datamine Hints at New Event Gift System",
-      "original_title": "Nintendo Switch Online Datamine Hints at New Event Gift System",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wtaa91/mobile_suits_gundam_battle_operation_3_network/",
+      "title": "MOBILE SUITS GUNDAM BATTLE OPERATION 3 Network Test appears on steamdb",
+      "original_title": "MOBILE SUITS GUNDAM BATTLE OPERATION 3 Network Test appears on steamdb",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
       "category": "News",
-      "date": "2026-09-28",
-      "summary": "A recent datamine of the Nintendo Switch Online app may have revealed plans for a new event gift system for Nintendo Switch and Switch 2. According to findings shared by a user on twitter, the app contains references to multiple gift events that coul...",
+      "date": "2026-09-29",
+      "summary": "https://steamdb.info/app/4946920/ Noticed by user @tera101245 on X    submitted by    /u/Algae-Prize   [link] [comments]...",
       "sources": [
         "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wsrxo3/nintendo_switch_online_datamine_hints_at_new/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ws4cu4/gta_forum_user_claims_la_noir_sequel_as_rockstars/",
-      "title": "GTA Forum user claims LA Noir sequel as Rockstar's next game",
-      "original_title": "GTA Forum user claims LA Noir sequel as Rockstar's next game",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-09-28",
-      "summary": "This guy stated in 2023 that GTA 6 was supposed to have 4 characters and was only recently confirmed by Rob Nelson a few weeks ago. He also described the relationship and criminal profile system. The relationship system was known in 2022, but the cri...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1ws4cu4/gta_forum_user_claims_la_noir_sequel_as_rockstars/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wrko8m/ecc_redline_trademarked_by_netease_seems_to_be_a/",
-      "title": "'ECC: Redline' Trademarked by Netease, seems to be a new MMO",
-      "original_title": "'ECC: Redline' Trademarked by Netease, seems to be a new MMO",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-09-27",
-      "summary": "Link to article covering it: https://insider-gaming.com/where-winds-meet-mmorpg/    submitted by    /u/Howerev   [link] [comments]...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wrko8m/ecc_redline_trademarked_by_netease_seems_to_be_a/"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wtaa91/mobile_suits_gundam_battle_operation_3_network/"
     }
   ]
 }
