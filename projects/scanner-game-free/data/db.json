@@ -1,28 +1,28 @@
 {
-  "last_updated": "2026-10-14T16:38:28",
-  "display_date": "14/10/2026 16:38",
+  "last_updated": "2026-10-15T16:23:24",
+  "display_date": "15/10/2026 16:23",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "171ms",
+    "latency": "115ms",
     "current_games": [
       {
-        "title": "Out of Sight",
-        "description": "You’re Sophie, a young blind girl who sees through her teddy bear’s eyes. Escape your captors and uncover the evil history of the dark mansion you desperately seek to escape in this unique, atmospheric horror puzzle/adventure game.",
-        "image": "https://cdn1.epicgames.com/spt-assets/6e1bf54cfa6344c89d41e4e7af036ac9/out-of-sight-1l12n.jpg",
-        "url": "https://store.epicgames.com/p/f350878fcb5242d6851cfe2fa1316e76",
-        "price": "$14.99",
-        "start_date": "2026-10-08T15:00:00.000Z",
-        "end_date": "2026-10-15T15:00:00.000Z"
+        "title": "Bad Cheese",
+        "description": "Bad Cheese is a psychological horror inspired by the eerie charm of 1920s animation. \nStep into the tiny paws of a mouse spending the weekend at home with a dysfunctional Dad while Mom's away. \nBe on your best behavior and KEEP DADDY HAPPY.",
+        "image": "https://cdn1.epicgames.com/spt-assets/6cbb0e3805c4436bafd028cafff48307/bad-cheese-16hj0.png",
+        "url": "https://store.epicgames.com/p/ae5d8fc5541f42eea105f64121dba382",
+        "price": "$12.99",
+        "start_date": "2026-10-15T15:00:00.000Z",
+        "end_date": "2026-10-22T15:00:00.000Z"
       },
       {
-        "title": "TerraScape",
-        "description": "Build gorgeous kingdoms on floating islands by strategically placing buildings in this cozy, medieval City-Puzzler. Discover secret combinations, take on monthly challenges and explore randomly generated maps in various single- and multiplayer game modes.",
-        "image": "https://cdn1.epicgames.com/spt-assets/a740a2eed807469f88b9dff17e7cd3a3/terrascape-j7p8d.png",
-        "url": "https://store.epicgames.com/p/f229ed53ddba40788e0ab62978e9eaf9",
-        "price": "$16.99",
-        "start_date": "2026-10-08T15:00:00.000Z",
-        "end_date": "2026-10-15T15:00:00.000Z"
+        "title": "Agent A: A puzzle in disguise",
+        "description": "A suave secret agent adventure game. Your mission (should you choose to accept) is to infiltrate enemy spy Ruby La Rouge’s secret hideaway and put a stop to her evil plans!",
+        "image": "https://cdn1.epicgames.com/spt-assets/45db4fbe68fe43f4b025dec2014d42e7/agent-a-a-puzzle-in-disguise-3cppl.png",
+        "url": "https://store.epicgames.com/p/agent-a-a-puzzle-in-disguise",
+        "price": "$19.99",
+        "start_date": "2026-10-15T15:00:00.000Z",
+        "end_date": "2026-10-22T15:00:00.000Z"
       }
     ],
     "upcoming_games": [
@@ -50,8 +50,8 @@
         "image": "https://cdn2.unrealengine.com/egs-lisathedefinitiveedition-dingalingproductions-bundles-s1-2560x1440-5be18c558828.jpg",
         "url": "https://store.epicgames.com/p/lisa-the-definitive-edition",
         "price": "$24.99",
-        "start_date": "2026-12-10T16:00:00.000Z",
-        "end_date": "2027-01-07T16:00:00.000Z"
+        "start_date": "2026-11-01T06:00:00.000Z",
+        "end_date": "2026-11-10T06:59:00.000Z"
       },
       {
         "title": "LISA: The Definitive Edition",
@@ -59,8 +59,17 @@
         "image": "https://cdn2.unrealengine.com/egs-lisathedefinitiveedition-dingalingproductions-bundles-s1-2560x1440-5be18c558828.jpg",
         "url": "https://store.epicgames.com/p/lisa-the-definitive-edition",
         "price": "$24.99",
-        "start_date": "2026-11-01T06:00:00.000Z",
-        "end_date": "2026-11-10T06:59:00.000Z"
+        "start_date": "2026-12-10T16:00:00.000Z",
+        "end_date": "2027-01-07T16:00:00.000Z"
+      },
+      {
+        "title": "Sker Ritual",
+        "description": "The round-based co-op survival FPS and spin-off to the award-winning British horror, Maid of Sker. Play solo or up to 4 players to survive the supernatural onslaught of the Quiet Ones.",
+        "image": "https://cdn1.epicgames.com/spt-assets/43d96f4437e34c87b7eff08831d1b1de/sker-ritual-1tuka.png",
+        "url": "https://store.epicgames.com/p/8dbc8d70481d4c0b8412d3aec76a35a1",
+        "price": "$24.99",
+        "start_date": "2026-10-22T15:00:00.000Z",
+        "end_date": "2026-10-29T15:00:00.000Z"
       },
       {
         "title": "Castlevania Anniversary Collection",
@@ -77,8 +86,8 @@
         "image": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
         "url": "https://store.epicgames.com/p/monument-valley-02",
         "price": "$7.99",
-        "start_date": "2026-12-10T16:00:00.000Z",
-        "end_date": "2027-01-07T16:00:00.000Z"
+        "start_date": "2026-10-19T15:00:00.000Z",
+        "end_date": "2026-11-02T16:00:00.000Z"
       },
       {
         "title": "Monument Valley",
@@ -86,60 +95,51 @@
         "image": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
         "url": "https://store.epicgames.com/p/monument-valley-02",
         "price": "$7.99",
-        "start_date": "2026-10-19T15:00:00.000Z",
-        "end_date": "2026-11-02T16:00:00.000Z"
+        "start_date": "2026-12-10T16:00:00.000Z",
+        "end_date": "2027-01-07T16:00:00.000Z"
       },
       {
-        "title": "Bad Cheese",
-        "description": "Bad Cheese is a psychological horror inspired by the eerie charm of 1920s animation. \nStep into the tiny paws of a mouse spending the weekend at home with a dysfunctional Dad while Mom's away. \nBe on your best behavior and KEEP DADDY HAPPY.",
-        "image": "https://cdn1.epicgames.com/spt-assets/6cbb0e3805c4436bafd028cafff48307/bad-cheese-16hj0.png",
-        "url": "https://store.epicgames.com/p/ae5d8fc5541f42eea105f64121dba382",
-        "price": "$12.99",
-        "start_date": "2026-10-15T15:00:00.000Z",
-        "end_date": "2026-10-22T15:00:00.000Z"
-      },
-      {
-        "title": "Agent A: A puzzle in disguise",
-        "description": "A suave secret agent adventure game. Your mission (should you choose to accept) is to infiltrate enemy spy Ruby La Rouge’s secret hideaway and put a stop to her evil plans!",
-        "image": "https://cdn1.epicgames.com/spt-assets/45db4fbe68fe43f4b025dec2014d42e7/agent-a-a-puzzle-in-disguise-3cppl.png",
-        "url": "https://store.epicgames.com/p/agent-a-a-puzzle-in-disguise",
-        "price": "$19.99",
-        "start_date": "2026-10-15T15:00:00.000Z",
-        "end_date": "2026-10-22T15:00:00.000Z"
+        "title": "Home - A Unique Horror Adventure",
+        "description": "Home is a unique horror adventure set in a beautifully-realized pixel world. It’s a murder mystery with a twist – because you decide what ultimately happens.",
+        "image": "https://cdn1.epicgames.com/spt-assets/46fc0cdb9f164a848e916249a8f68fc7/home-1f6qi.png",
+        "url": "https://store.epicgames.com/p/ff70f2b02fd842f8961f7729af25cda9",
+        "price": "$4.99",
+        "start_date": "2026-10-22T15:00:00.000Z",
+        "end_date": "2026-10-29T15:00:00.000Z"
       }
     ],
     "mystery_detected": false
   },
   "items": [
     {
-      "id": "https://store.epicgames.com/p/f350878fcb5242d6851cfe2fa1316e76",
-      "title": "GRÁTIS: Out of Sight",
-      "original_title": "Out of Sight",
-      "image": "https://cdn1.epicgames.com/spt-assets/6e1bf54cfa6344c89d41e4e7af036ac9/out-of-sight-1l12n.jpg",
+      "id": "https://store.epicgames.com/p/ae5d8fc5541f42eea105f64121dba382",
+      "title": "GRÁTIS: Bad Cheese",
+      "original_title": "Bad Cheese",
+      "image": "https://cdn1.epicgames.com/spt-assets/6cbb0e3805c4436bafd028cafff48307/bad-cheese-16hj0.png",
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-10-14",
-      "summary": "You’re Sophie, a young blind girl who sees through her teddy bear’s eyes. Escape your captors and uncover the evil history of the dark mansion you desperately seek to escape in this unique, atmospheric horror puzzle/adventure game.",
+      "date": "2026-10-15",
+      "summary": "Bad Cheese is a psychological horror inspired by the eerie charm of 1920s animation. \nStep into the tiny paws of a mouse spending the weekend at home with a dysfunctional Dad while Mom's away. \nBe on your best behavior and KEEP DADDY HAPPY.",
       "sources": [
         "Epic Games Store"
       ],
-      "url": "https://store.epicgames.com/p/f350878fcb5242d6851cfe2fa1316e76"
+      "url": "https://store.epicgames.com/p/ae5d8fc5541f42eea105f64121dba382"
     },
     {
-      "id": "https://store.epicgames.com/p/f229ed53ddba40788e0ab62978e9eaf9",
-      "title": "GRÁTIS: TerraScape",
-      "original_title": "TerraScape",
-      "image": "https://cdn1.epicgames.com/spt-assets/a740a2eed807469f88b9dff17e7cd3a3/terrascape-j7p8d.png",
+      "id": "https://store.epicgames.com/p/agent-a-a-puzzle-in-disguise",
+      "title": "GRÁTIS: Agent A: A puzzle in disguise",
+      "original_title": "Agent A: A puzzle in disguise",
+      "image": "https://cdn1.epicgames.com/spt-assets/45db4fbe68fe43f4b025dec2014d42e7/agent-a-a-puzzle-in-disguise-3cppl.png",
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-10-14",
-      "summary": "Build gorgeous kingdoms on floating islands by strategically placing buildings in this cozy, medieval City-Puzzler. Discover secret combinations, take on monthly challenges and explore randomly generated maps in various single- and multiplayer game modes.",
+      "date": "2026-10-15",
+      "summary": "A suave secret agent adventure game. Your mission (should you choose to accept) is to infiltrate enemy spy Ruby La Rouge’s secret hideaway and put a stop to her evil plans!",
       "sources": [
         "Epic Games Store"
       ],
-      "url": "https://store.epicgames.com/p/f229ed53ddba40788e0ab62978e9eaf9"
+      "url": "https://store.epicgames.com/p/agent-a-a-puzzle-in-disguise"
     },
     {
       "id": "https://store.epicgames.com/p/a9152a8924cc4e438f0e61106ec02f7d",
@@ -149,7 +149,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-10-14",
+      "date": "2026-10-15",
       "summary": "Disponível gratuitamente a partir de 19/10. Eternal Threads is a single-player, first-person story-driven puzzle game of time manipulation, choice and consequence.",
       "sources": [
         "Epic Games Store"
@@ -164,7 +164,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-10-14",
+      "date": "2026-10-15",
       "summary": "Disponível gratuitamente a partir de 10/12. Ghostrunner 2 is a hardcore FPP slasher set in a post-apocalyptic, cyberpunk world. Featuring everything fans loved about Ghostrunner plus incredible boss fights, new interactive story, thrilling motorbike levels, improved skills, and more cyber ninja action. ",
       "sources": [
         "Epic Games Store"
@@ -179,8 +179,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-10-14",
-      "summary": "Disponível gratuitamente a partir de 10/12. Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
+      "date": "2026-10-15",
+      "summary": "Disponível gratuitamente a partir de 01/11. Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
       ],
@@ -194,12 +194,27 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-10-14",
-      "summary": "Disponível gratuitamente a partir de 01/11. Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
+      "date": "2026-10-15",
+      "summary": "Disponível gratuitamente a partir de 10/12. Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/lisa-the-definitive-edition"
+    },
+    {
+      "id": "https://store.epicgames.com/p/8dbc8d70481d4c0b8412d3aec76a35a1",
+      "title": "EM BREVE: Sker Ritual",
+      "original_title": "Sker Ritual",
+      "image": "https://cdn1.epicgames.com/spt-assets/43d96f4437e34c87b7eff08831d1b1de/sker-ritual-1tuka.png",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-10-15",
+      "summary": "Disponível gratuitamente a partir de 22/10. The round-based co-op survival FPS and spin-off to the award-winning British horror, Maid of Sker. Play solo or up to 4 players to survive the supernatural onslaught of the Quiet Ones.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/8dbc8d70481d4c0b8412d3aec76a35a1"
     },
     {
       "id": "https://store.epicgames.com/p/32b3e0adbe0c4399be1874958194f97f",
@@ -209,7 +224,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-10-14",
+      "date": "2026-10-15",
       "summary": "Disponível gratuitamente a partir de 19/10. Konami's Castlevania Anniversary Collection traces the origins of the historic vampire franchise. Included is a unique eBook with details provided by developers, artists and others inspired by the Castlevania legacy which sheds a fresh light into the world of Castlevania.",
       "sources": [
         "Epic Games Store"
@@ -224,8 +239,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-10-14",
-      "summary": "Disponível gratuitamente a partir de 10/12. Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
+      "date": "2026-10-15",
+      "summary": "Disponível gratuitamente a partir de 19/10. Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
       "sources": [
         "Epic Games Store"
       ],
@@ -239,192 +254,402 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-10-14",
-      "summary": "Disponível gratuitamente a partir de 19/10. Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
+      "date": "2026-10-15",
+      "summary": "Disponível gratuitamente a partir de 10/12. Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/monument-valley-02"
     },
     {
-      "id": "https://store.epicgames.com/p/ae5d8fc5541f42eea105f64121dba382",
-      "title": "EM BREVE: Bad Cheese",
-      "original_title": "Bad Cheese",
-      "image": "https://cdn1.epicgames.com/spt-assets/6cbb0e3805c4436bafd028cafff48307/bad-cheese-16hj0.png",
+      "id": "https://store.epicgames.com/p/ff70f2b02fd842f8961f7729af25cda9",
+      "title": "EM BREVE: Home - A Unique Horror Adventure",
+      "original_title": "Home - A Unique Horror Adventure",
+      "image": "https://cdn1.epicgames.com/spt-assets/46fc0cdb9f164a848e916249a8f68fc7/home-1f6qi.png",
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-10-14",
-      "summary": "Disponível gratuitamente a partir de 15/10. Bad Cheese is a psychological horror inspired by the eerie charm of 1920s animation. \nStep into the tiny paws of a mouse spending the weekend at home with a dysfunctional Dad while Mom's away. \nBe on your best behavior and KEEP DADDY HAPPY.",
+      "date": "2026-10-15",
+      "summary": "Disponível gratuitamente a partir de 22/10. Home is a unique horror adventure set in a beautifully-realized pixel world. It’s a murder mystery with a twist – because you decide what ultimately happens.",
       "sources": [
         "Epic Games Store"
       ],
-      "url": "https://store.epicgames.com/p/ae5d8fc5541f42eea105f64121dba382"
+      "url": "https://store.epicgames.com/p/ff70f2b02fd842f8961f7729af25cda9"
     },
     {
-      "id": "https://store.epicgames.com/p/agent-a-a-puzzle-in-disguise",
-      "title": "EM BREVE: Agent A: A puzzle in disguise",
-      "original_title": "Agent A: A puzzle in disguise",
-      "image": "https://cdn1.epicgames.com/spt-assets/45db4fbe68fe43f4b025dec2014d42e7/agent-a-a-puzzle-in-disguise-3cppl.png",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-10-14",
-      "summary": "Disponível gratuitamente a partir de 15/10. A suave secret agent adventure game. Your mission (should you choose to accept) is to infiltrate enemy spy Ruby La Rouge’s secret hideaway and put a stop to her evil plans!",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/agent-a-a-puzzle-in-disguise"
-    },
-    {
-      "id": "https://www.eurogamer.net/guild-wars-2-living-world-expansions",
-      "title": "ArenaNet solves an ongoing Guild Wars 2 issue by ditching paid Living World add-ons and bundling them with expansions",
-      "original_title": "ArenaNet solves an ongoing Guild Wars 2 issue by ditching paid Living World add-ons and bundling them with expansions",
-      "image": "https://assetsio.gnwcdn.com/guild-wars-2-characters.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/gta-6-the-game-awards-eligibility-geoff-keighley",
+      "title": "GTA 6 squeaks into eligibility for The Game Awards 2026 by the smallest of margins - but can it break Clair Obscur: Expedition 33's record number of wins?",
+      "original_title": "GTA 6 squeaks into eligibility for The Game Awards 2026 by the smallest of margins - but can it break Clair Obscur: Expedition 33's record number of wins?",
+      "image": "https://assetsio.gnwcdn.com/VINTAGE_VICE_CITY_PACK_EXCLUSIVE_LOOKS_04.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-10-14",
-      "summary": " ArenaNet has announced a major shift in its live service Guild Wars 2 operation today, ditching separate payments for Living World seasonal add-ons and packaging the narrative storylines alongside the MMO's expansions instead. Read more...",
+      "date": "2026-10-15",
+      "summary": " This generation's mega-game, Grand Theft Auto 6, will be eligible for The Game Awards 2026 by a matter of one day. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/guild-wars-2-living-world-expansions"
+      "url": "https://www.eurogamer.net/gta-6-the-game-awards-eligibility-geoff-keighley"
     },
     {
-      "id": "https://www.eurogamer.net/summer-eternal-studio-structure-player-non-profit",
-      "title": "\"This non-profit will be the 'voice of the gamers'\" - Former Disco Elysium devs break new ground with player- and developer-owned studio structure",
-      "original_title": "\"This non-profit will be the 'voice of the gamers'\" - Former Disco Elysium devs break new ground with player- and developer-owned studio structure",
-      "image": "https://assetsio.gnwcdn.com/come-home-to-roost-red-rooster.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/fire-emblem-fortunes-weave-expansion-pass",
+      "title": "Fire Emblem: Fortune's Weave gets its first wave of DLC today, and an expansion pass to include it",
+      "original_title": "Fire Emblem: Fortune's Weave gets its first wave of DLC today, and an expansion pass to include it",
+      "image": "https://assetsio.gnwcdn.com/FireEmblem_FortunesWeave_scrn_07.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-10-14",
-      "summary": " Elsewhere on the site, you can read a big reveal piece that outlines the new game from former Disco Elysium devs under the name of Summer Eternal - an \"incendiary RPG\" fusing the best bits of text-heavy isometric role-playing games with the world-bu...",
+      "date": "2026-10-15",
+      "summary": " Nintendo and Intelligent Systems have released an expansion pass for Fire Emblem: Fortune's Weave, introducing a string of DLC additions to the tactical RPG starting today, and through into 2027. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/summer-eternal-studio-structure-player-non-profit"
+      "url": "https://www.eurogamer.net/fire-emblem-fortunes-weave-expansion-pass"
     },
     {
-      "id": "https://www.eurogamer.net/gta-6-cyberleek-ending-crypto-coin-crash",
-      "title": "GTA 6 leaker's latest video allegedly shows scenes from the final mission, as they indicate the leaks may have come to an end",
-      "original_title": "GTA 6 leaker's latest video allegedly shows scenes from the final mission, as they indicate the leaks may have come to an end",
-      "image": "https://assetsio.gnwcdn.com/gta-6-jason_9MumaLo.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/grand-theft-auto-6-launch-trailer",
+      "title": "Grand Theft Auto 6 launch trailer suddenly drops, showing a saucy shower scene, a tense police chase, and high-flying heists",
+      "original_title": "Grand Theft Auto 6 launch trailer suddenly drops, showing a saucy shower scene, a tense police chase, and high-flying heists",
+      "image": "https://assetsio.gnwcdn.com/gta-header_xwcN3Jm.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-10-15",
+      "summary": " Rockstar Games has released the launch trailer for Grand Theft Auto 6 ahead of its 19th November release. Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/grand-theft-auto-6-launch-trailer"
+    },
+    {
+      "id": "https://www.eurogamer.net/castlevania-belmonts-curse-review",
+      "title": "Castlevania: Belmont's Curse review - inspired by great ideas, but doomed by questionable execution",
+      "original_title": "Castlevania: Belmont's Curse review - inspired by great ideas, but doomed by questionable execution",
+      "image": "https://assetsio.gnwcdn.com/Castlevania-belmont.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-10-15",
+      "summary": " In my office, I have a collage of Ordnance Survey maps plastered across my wall. They're from places I've lived - Derbyshire, East London, Bournemouth, Bristol - with cycle routes, country roads, and parks highlighted and circled. It's an atlas of m...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/castlevania-belmonts-curse-review"
+    },
+    {
+      "id": "https://www.eurogamer.net/dean-hall-brutal-framework-ksp-epic-unreal-unity",
+      "title": "DayZ creator Dean Hall says \"our industry is rotting from its core\" because of big-company \"greed\", aiming shots at Epic's Unreal and Unity",
+      "original_title": "DayZ creator Dean Hall says \"our industry is rotting from its core\" because of big-company \"greed\", aiming shots at Epic's Unreal and Unity",
+      "image": "https://assetsio.gnwcdn.com/dean-hall-astronaut.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Epic News",
+      "date": "2026-10-15",
+      "summary": " UPDATED 3.30PM BST: Dean Hall has explained more about his idea in an email exchange with Eurogamer, clarifying issues such as whether it uses or welcomes any form of generative AI, while offering some more strongly worded criticisms about Epic's Un...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/dean-hall-brutal-framework-ksp-epic-unreal-unity"
+    },
+    {
+      "id": "https://www.eurogamer.net/league-of-legends-classic-ending-permanent-three-months",
+      "title": "Riot Games has announced the end League of Legends Classic as an on-going mode, just three months after its release",
+      "original_title": "Riot Games has announced the end League of Legends Classic as an on-going mode, just three months after its release",
+      "image": "https://assetsio.gnwcdn.com/league-of-legends-ahri-classic-splash-art.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-10-15",
+      "summary": " League of Legends Classic, the recreation of an older version of the popular MOBA, will be taken down at the end of the current season. The reason given is simple: most players have moved on to other areas of League of Legends. Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/league-of-legends-classic-ending-permanent-three-months"
+    },
+    {
+      "id": "https://www.eurogamer.net/007-first-light-switch-2-release-date-james-bond-game",
+      "title": "007 First Light gets Switch 2 release date, with IO Interactive saying time for \"optimisation and performance\" was needed",
+      "original_title": "007 First Light gets Switch 2 release date, with IO Interactive saying time for \"optimisation and performance\" was needed",
+      "image": "https://assetsio.gnwcdn.com/007-first-light-switch-2.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-10-15",
+      "summary": " The Switch 2 version of 007 First Light will be released 18th March, 2027, IO Interactive has announced. The game had originally been expected this summer but IOI announced a delay to an unspecific date in March roughly a month ago. Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/007-first-light-switch-2-release-date-james-bond-game"
+    },
+    {
+      "id": "https://www.eurogamer.net/big-walk-xbox-version-bds-boycott",
+      "title": "Big Walk developer explains the lack of Xbox version is due to Microsoft's place on the BDS boycott",
+      "original_title": "Big Walk developer explains the lack of Xbox version is due to Microsoft's place on the BDS boycott",
+      "image": "https://assetsio.gnwcdn.com/big-walk-headline_wkdGGSC.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-10-15",
+      "summary": " Big Walk developer House House has explained the lack of an Xbox version for the popular co-operative puzzle game, pointing to the ongoing BDS boycott as the core reason behind its decision. Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/big-walk-xbox-version-bds-boycott"
+    },
+    {
+      "id": "https://www.eurogamer.net/monster-hunter-wilds-switch-2-prologue-demo",
+      "title": "Monster Hunter Wilds' fairly generous Prologue Demo comes to Switch 2 next week",
+      "original_title": "Monster Hunter Wilds' fairly generous Prologue Demo comes to Switch 2 next week",
+      "image": "https://assetsio.gnwcdn.com/mhw-switch-2.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-10-15",
+      "summary": " Capcom is letting players 'try before they buy' Monster Hunter Wilds' on Switch 2, bringing the fairly generous 'Prologue demo' to the console before the game's full release on the platform on 4th December. Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/monster-hunter-wilds-switch-2-prologue-demo"
+    },
+    {
+      "id": "https://www.techpowerup.com/353758/sp-industrial-introduces-six-new-enterprise-ssd-solutions",
+      "title": "(PR) SP Industrial Introduces Six New Enterprise SSD Solutions",
+      "original_title": "(PR) SP Industrial Introduces Six New Enterprise SSD Solutions",
+      "image": "https://tpucdn.com/img/G3MYJuHEQlZFW5hl_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-10-15",
+      "summary": "SP Industrial introduces six new Enterprise SSD solutions designed for AI, data center storage, and boot drive applications. Built with 3D eTLC Flash, advanced controllers, DRAM, and Power Failure Protection (PFP), and spanning E1.S, U.2, M.2 2280, a...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/353758/sp-industrial-introduces-six-new-enterprise-ssd-solutions"
+    },
+    {
+      "id": "https://www.techpowerup.com/353214/atk-introduces-the-blazing-sky-phantom-a-44g-carbon-fiber-wireless-gaming-mouse-with-dual-8k-polling",
+      "title": "ATK Introduces the Blazing Sky Phantom, a 44g Carbon-Fiber Wireless Gaming Mouse With Dual 8K Polling",
+      "original_title": "ATK Introduces the Blazing Sky Phantom, a 44g Carbon-Fiber Wireless Gaming Mouse With Dual 8K Polling",
+      "image": "https://tpucdn.com/img/5ANpBHYw4iXeJIHu_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-10-15",
+      "summary": "ATK GEAR has expanded its Blazing Sky mouse lineup with the new ATK Blazing Sky Phantom Hollow Carbon Fiber Composite Wireless Gaming Mouse, a lightweight esports-focused model built around a composite carbon-fiber shell, an open cutout structure, an...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/353214/atk-introduces-the-blazing-sky-phantom-a-44g-carbon-fiber-wireless-gaming-mouse-with-dual-8k-polling"
+    },
+    {
+      "id": "https://www.techpowerup.com/353757/leaker-hints-at-512-gb-partner-versions-of-intels-gpu-d-series",
+      "title": "Leaker Hints at 512 GB Partner Versions of Intel's GPU D-Series",
+      "original_title": "Leaker Hints at 512 GB Partner Versions of Intel's GPU D-Series",
+      "image": "https://tpucdn.com/img/bOm5F4xIi7B5OeGL_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Rumor",
-      "date": "2026-10-14",
-      "summary": " Cyberleek, the leaker who's been releasing footage from Grand Theft Auto 6 for weeks now, is seemingly done posting leaks. Cyberleek released a new - seemingly final - video today which supposedly shows parts of the game's ending. Read more...",
+      "date": "2026-10-15",
+      "summary": "A leaker going by Haze on X claims that some partner-built versions of Intel's new GPU D-Series accelerator will come with as much as 512 GB of memory. The October 13 post, spotted by VideoCardz, names no board partners and gives no other specs, so t...",
       "sources": [
-        "Eurogamer"
+        "TechPowerUp"
       ],
-      "url": "https://www.eurogamer.net/gta-6-cyberleek-ending-crypto-coin-crash"
+      "url": "https://www.techpowerup.com/353757/leaker-hints-at-512-gb-partner-versions-of-intels-gpu-d-series"
     },
     {
-      "id": "https://www.eurogamer.net/summer-eternal-red-rooster-zaum-disco-like-incendiary-rpg",
-      "title": "Ex-ZA/UM developers reveal Red Rooster, an \"incendiary RPG\" that is very intentionally not trying to be a \"Disco Elysium successor\" or \"Disco-like\"",
-      "original_title": "Ex-ZA/UM developers reveal Red Rooster, an \"incendiary RPG\" that is very intentionally not trying to be a \"Disco Elysium successor\" or \"Disco-like\"",
-      "image": "https://assetsio.gnwcdn.com/Red-Rooster-header.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.techpowerup.com/353756/fadu-reveals-worlds-first-file-semantic-ssd-fs-ssd-at-ocp-2026",
+      "title": "(PR) FADU Reveals World's First \"File-Semantic SSD\" (FS-SSD) at OCP 2026",
+      "original_title": "(PR) FADU Reveals World's First \"File-Semantic SSD\" (FS-SSD) at OCP 2026",
+      "image": "https://tpucdn.com/img/2bp2yL3su3aQ5rnr_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-10-15",
+      "summary": "Data center semiconductor company FADU (CEO: Ehyun Nam) announced on the 15th that it revealed the world's first 'File-Semantic SSD' (FS-SSD) at '2026 OCP Global Summit' currently being held in San Jose Convention Center, California, U.S. and showcas...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/353756/fadu-reveals-worlds-first-file-semantic-ssd-fs-ssd-at-ocp-2026"
+    },
+    {
+      "id": "https://www.techpowerup.com/353755/baseus-launches-the-spacemate-rd1-plus-the-definitive-14-in-1-desk-tower-with-4k-120-hz",
+      "title": "(PR) Baseus Launches the Spacemate RD1 Plus: The Definitive 14-in-1 Desk Tower with 4K @ 120 Hz",
+      "original_title": "(PR) Baseus Launches the Spacemate RD1 Plus: The Definitive 14-in-1 Desk Tower with 4K @ 120 Hz",
+      "image": "https://tpucdn.com/img/bu3XQpDltlQhd2dC_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-10-15",
+      "summary": "Baseus today announced the launch of the Baseus Spacemate RD1 Plus 14-in-1 (WIN) Station, a next-generation docking station that combines integrated GaN power, high-refresh display output, and intelligent workspace organization in one compact device....",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/353755/baseus-launches-the-spacemate-rd1-plus-the-definitive-14-in-1-desk-tower-with-4k-120-hz"
+    },
+    {
+      "id": "https://www.techpowerup.com/353730/awol-vision-opens-pre-orders-for-luxvision-worlds-first-optical-shift-4k-120hz-projector",
+      "title": "AWOL Vision Opens Pre-Orders for LuxVision: World's First Optical-Shift 4K 120Hz Projector",
+      "original_title": "AWOL Vision Opens Pre-Orders for LuxVision: World's First Optical-Shift 4K 120Hz Projector",
+      "image": "https://tpucdn.com/img/t5ez0AGyZWfqNp3N_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-10-15",
+      "summary": "AWOL Vision, a global home entertainment brand delivering immersive audiovisual experiences through large-format displays, home cinema technology, and connected entertainment, announced that the AWOL LuxVision, first unveiled at IFA 2026, is now offi...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/353730/awol-vision-opens-pre-orders-for-luxvision-worlds-first-optical-shift-4k-120hz-projector"
+    },
+    {
+      "id": "https://www.techpowerup.com/353750/razer-unveils-the-barracuda-v2-pro-wireless-gaming-headset",
+      "title": "(PR) Razer Unveils the Barracuda V2 Pro Wireless Gaming Headset",
+      "original_title": "(PR) Razer Unveils the Barracuda V2 Pro Wireless Gaming Headset",
+      "image": "https://tpucdn.com/img/wScQfeVLiZKpOa0Y_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-10-15",
+      "summary": "Razer, the leading global lifestyle brand for gamers, today announced the Razer Barracuda V2 Pro, a premium multi-platform wireless gaming headset engineered for gamers who move seamlessly between desktop gaming and mobile use, with added flexibility...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/353750/razer-unveils-the-barracuda-v2-pro-wireless-gaming-headset"
+    },
+    {
+      "id": "https://www.techpowerup.com/353754/alphatheta-unveils-hdj-f9-professional-on-ear-wireless-dj-headphones",
+      "title": "(PR) AlphaTheta Unveils HDJ-F9 Professional On-ear Wireless DJ Headphones",
+      "original_title": "(PR) AlphaTheta Unveils HDJ-F9 Professional On-ear Wireless DJ Headphones",
+      "image": "https://tpucdn.com/img/HgHx4ryxnIWuLKC2_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-10-15",
+      "summary": "Feel a higher level of freedom when you perform with the new HDJ-F9 professional on-ear wireless DJ headphones from AlphaTheta—a world-class manufacturer of DJ equipment, featuring SonicLink ultra-low-latency wireless technology. SonicLink is the ans...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/353754/alphatheta-unveils-hdj-f9-professional-on-ear-wireless-dj-headphones"
+    },
+    {
+      "id": "https://www.techpowerup.com/353629/block-ads-and-trackers-on-up-to-9-devices-with-this-usd-14-97-adguard-deal",
+      "title": "Block Ads and Trackers on Up to 9 Devices With This $14.97 AdGuard Deal",
+      "original_title": "Block Ads and Trackers on Up to 9 Devices With This $14.97 AdGuard Deal",
+      "image": "https://tpucdn.com/img/BnMA3fL2FZ53Qpi5_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-10-15",
+      "summary": "Most ad blockers protect one browser on one device, and covering a whole household usually means paying for several subscriptions. An AdGuard Family Plan lifetime subscription covers up to 9 devices, and it's on sale for $14.97 (reg. $169.99) during ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/353629/block-ads-and-trackers-on-up-to-9-devices-with-this-usd-14-97-adguard-deal"
+    },
+    {
+      "id": "https://www.techpowerup.com/353753/microsoft-confirms-20-faster-windows-11-experience-8-gb-systems-also-run-better",
+      "title": "Microsoft Confirms 20% Faster Windows 11 Experience, 8 GB Systems Also Run Better",
+      "original_title": "Microsoft Confirms 20% Faster Windows 11 Experience, 8 GB Systems Also Run Better",
+      "image": "https://tpucdn.com/img/1iROl0pTG3FtJbrV_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-10-15",
+      "summary": "Microsoft is making its long-promised Windows 11 changes official! Today, the company confirmed that Windows 11 is finally getting a responsiveness improvement, up to 20% more noticeable than the older Windows experience. In footnotes, Microsoft stat...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/353753/microsoft-confirms-20-faster-windows-11-experience-8-gb-systems-also-run-better"
+    },
+    {
+      "id": "https://www.eurogamer.net/zero-escape-hundred-line-new-studio-crash-game-cancellation",
+      "title": "Zero Escape and The Hundred Line co-creator's new studio \"might literally crash into a million pieces\" after the cancellation of its next game",
+      "original_title": "Zero Escape and The Hundred Line co-creator's new studio \"might literally crash into a million pieces\" after the cancellation of its next game",
+      "image": "https://assetsio.gnwcdn.com/Hundred-Line_CVhkHXD.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
       "date": "2026-10-14",
-      "summary": " Back in 2024, we heard about the formation of Summer Eternal: a new studio composed of Disco Elysium writer and world-builder, Argo Tuulik, and other veteran ZA/UM staff such as Dora Klind&zcaroni&cacute, Anastasia Ivanova, and Michael Oswell. Aleks...",
+      "summary": " UPDATE 21:37pm UK: In a follow-up tweet, Uchikoshi clarified that he's still part of TooKyo Games and he hasn't fallen out with fellow studio co-founder Kazutaka Kodaka. In fact, Kodaka jokes he \"may have fallen in love\" with the Danganronpa dev. \"W...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/summer-eternal-red-rooster-zaum-disco-like-incendiary-rpg"
+      "url": "https://www.eurogamer.net/zero-escape-hundred-line-new-studio-crash-game-cancellation"
     },
     {
-      "id": "https://www.eurogamer.net/ocarina-of-time-remake-switch-2-preview",
-      "title": "No matter what your opinion is on the art style, The Legend of Zelda: Ocarina of Time  is shaping up to be a brilliant remake",
-      "original_title": "No matter what your opinion is on the art style, The Legend of Zelda: Ocarina of Time  is shaping up to be a brilliant remake",
-      "image": "https://assetsio.gnwcdn.com/link-epona-ocarina.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x5x83i/discussion_news_and_request_thread_week_beginning/",
+      "title": "Discussion, News, and Request Thread - Week Beginning 10/12/26",
+      "original_title": "Discussion, News, and Request Thread - Week Beginning 10/12/26",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
       "category": "News",
       "date": "2026-10-14",
-      "summary": " I honestly can't tell you how many times I've completed The Legend of Zelda: Ocarina of Time, let alone how many hours I've spent in its bucolic version of Hyrule. Though, when I told my Mum about the upcoming remake she said, 'Oh the one with the m...",
+      "summary": "jiggy  Discussion threads are your weekly central hub for all requests, gaming news, and any other gaming topics you want to talk about. Please keep all content that doesn't need it's own post to this thread to de-clutter the sub for proper leaks and...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/ocarina-of-time-remake-switch-2-preview"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x5x83i/discussion_news_and_request_thread_week_beginning/"
     },
     {
-      "id": "https://www.eurogamer.net/legend-zelda-ocarina-of-time-switch2-remake-owl",
-      "title": "The Legend of Zelda: Ocarina of Time's infamous tutorial owl seemingly won't trap you in conversation in the Switch 2 remake",
-      "original_title": "The Legend of Zelda: Ocarina of Time's infamous tutorial owl seemingly won't trap you in conversation in the Switch 2 remake",
-      "image": "https://assetsio.gnwcdn.com/owl-ocarina-2.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x6190u/natethehate_gta_vi_review_copies_go_out_before/",
+      "title": "NateTheHate: GTA VI review copies go out before the end of the month",
+      "original_title": "NateTheHate: GTA VI review copies go out before the end of the month",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
       "category": "News",
       "date": "2026-10-14",
-      "summary": " It looks like the owl known Kaepora Gaebora - part-tutorial,  part-tip giver - will be far less talkative in the Nintendo Switch 2 remake of The Legend of Zelda: Ocarina of Time. Read more...",
+      "summary": " This is in response to Insider Gaming's article Seems like reviewers will get a month of playtime roughly if this lines up  Source: https://www.resetera.com/threads/insider-gaming-gta-6-reviews-will-be-released-before-launch.1660690/#post-161782981 ...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/legend-zelda-ocarina-of-time-switch2-remake-owl"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x6190u/natethehate_gta_vi_review_copies_go_out_before/"
     },
     {
-      "id": "https://www.eurogamer.net/max-payne-3-rockstar-dan-houser-failure-blame",
-      "title": "Rockstar co-founder Dan Houser blames himself for Max Payne 3 - \"a large amount of that failure was on me\"",
-      "original_title": "Rockstar co-founder Dan Houser blames himself for Max Payne 3 - \"a large amount of that failure was on me\"",
-      "image": "https://assetsio.gnwcdn.com/max-payne-3-screen-front-profile-1.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x5zhrv/insider_gaming_gta_6_reviews_will_be_released/",
+      "title": "Insider Gaming: GTA 6 Reviews Will Be Released Before November 19th",
+      "original_title": "Insider Gaming: GTA 6 Reviews Will Be Released Before November 19th",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
       "category": "News",
       "date": "2026-10-14",
-      "summary": " Max Payne 3 is a bit of a strange project. Unlike its two predecessors, the game wasn't developed by original creator Remedy Entertainment, rather it was the product of Grand Theft Auto and Red Dead Redemption studio Rockstar Games. Read more...",
+      "summary": "https://insider-gaming.com/gta-6-reviews-released-before-launch/  Insider Gaming has learned that Grand Theft Auto 6’s review estate will go live before the release on November 19. This may come as a surprise to some, as plenty of gamers out there be...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/max-payne-3-rockstar-dan-houser-failure-blame"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x5zhrv/insider_gaming_gta_6_reviews_will_be_released/"
     },
     {
-      "id": "https://www.eurogamer.net/rockstar-iwgb-employment-tribunal-delay-november",
-      "title": "Conclusion of Rockstar's employment tribunal delayed into November, almost day and date with GTA 6's release",
-      "original_title": "Conclusion of Rockstar's employment tribunal delayed into November, almost day and date with GTA 6's release",
-      "image": "https://assetsio.gnwcdn.com/grand-theft-auto-6-lucia-jason-masks.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x64yv1/retailers_have_started_listing_rtx_5090_models_as/",
+      "title": "Retailers have started listing RTX 5090 models as \"discontinued\" or \"not carried\"",
+      "original_title": "Retailers have started listing RTX 5090 models as \"discontinued\" or \"not carried\"",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
       "category": "News",
       "date": "2026-10-14",
-      "summary": " The ongoing employment tribunal between Grand Theft Auto 6 developer Rockstar Games and IWBG union members laid off from the studio has been extended into November.. Read more...",
+      "summary": "Some sources:  Micro Center has all 5090 models as \"not carried\" on their website: https://www.reddit.com/r/gpu/comments/1x5ko92/microcenter_now_lists_all_5090s_as_not_carried/ This person said Micro Center employees knew about discontinuations two w...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/rockstar-iwgb-employment-tribunal-delay-november"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x64yv1/retailers_have_started_listing_rtx_5090_models_as/"
     },
     {
-      "id": "https://www.eurogamer.net/ubisoft-closing-trials-studio-redlyx-layoffs-singapore-black-flag",
-      "title": "Ubisoft closing Trials developer RedLynx and downsizing Assassin's Creed: Black Flag Resynced team in Singapore",
-      "original_title": "Ubisoft closing Trials developer RedLynx and downsizing Assassin's Creed: Black Flag Resynced team in Singapore",
-      "image": "https://assetsio.gnwcdn.com/trials-rising-ubisoft-redlynx.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x63pw0/shrek_appears_in_the_announcement_video_for_the/",
+      "title": "Shrek appears in the announcement video for the upcoming ID@XBOX",
+      "original_title": "Shrek appears in the announcement video for the upcoming ID@XBOX",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
       "category": "News",
       "date": "2026-10-14",
-      "summary": " The video game layoffs continue. Ubisoft has announced it's closing Finnish studio RedLynx, creator of the Trials series of games, and that there's to be significant layoffs at Assassin's Creed: Black Flag Resynced studio, Ubisoft Singapore. Read mo...",
+      "summary": "Shrek 2 Remastered announcement incoming?? Announcement on IGN    submitted by    /u/ShrekHistory   [link] [comments]...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/ubisoft-closing-trials-studio-redlyx-layoffs-singapore-black-flag"
-    },
-    {
-      "id": "https://www.eurogamer.net/gta-6-project-americas-rockstar-crunch-delays-leaks",
-      "title": "GTA 6 was originally Project Americas and covered \"big swaths\" of country's north and south, Rockstar reveals, in interview tackling crunch, delays, and leaks",
-      "original_title": "GTA 6 was originally Project Americas and covered \"big swaths\" of country's north and south, Rockstar reveals, in interview tackling crunch, delays, and leaks",
-      "image": "https://assetsio.gnwcdn.com/Jason_and_Lucia_11.13lmeyci.i-yw.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Rumor",
-      "date": "2026-10-14",
-      "summary": " Rockstar Games has revealed the original codename for Grand Theft Auto 6 was Project Americas, and that its intention was for the game to cover large areas of land in both the north of the country and the south. Read more...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/gta-6-project-americas-rockstar-crunch-delays-leaks"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x63pw0/shrek_appears_in_the_announcement_video_for_the/"
     },
     {
       "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x5q962/gameplay_tidbits_from_the_final_gta_vi_leak_end/",
@@ -442,21 +667,6 @@
       "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x5q962/gameplay_tidbits_from_the_final_gta_vi_leak_end/"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x5p8jm/valve_is_making_a_steam_frame_oled/",
-      "title": "Valve is making a Steam Frame OLED",
-      "original_title": "Valve is making a Steam Frame OLED",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-10-14",
-      "summary": "https://steamframehub.com/exclusive-here-we-go-again-valve-is-making-an-oled-steam-frame/ The Steam Frame kernel source code appears to contain references to another, in development headset with OLED panels, referred to as Plano. The panels appear to...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x5p8jm/valve_is_making_a_steam_frame_oled/"
-    },
-    {
       "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x5umd9/peak_the_coop_mountain_climbing_survival_game_on/",
       "title": "PEAK (The co-op mountain climbing survival game on Steam) rated for PS5",
       "original_title": "PEAK (The co-op mountain climbing survival game on Steam) rated for PS5",
@@ -472,229 +682,34 @@
       "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x5umd9/peak_the_coop_mountain_climbing_survival_game_on/"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x5mgul/vgc_ubisoft_plans_to_close_trials_developer/",
-      "title": "VGC: Ubisoft Plans to Close Trials Developer RedLynx and Lay Off 70 Staff at Ubisoft Singapore",
-      "original_title": "VGC: Ubisoft Plans to Close Trials Developer RedLynx and Lay Off 70 Staff at Ubisoft Singapore",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x61x5x/possible_zero_escape_arg_found/",
+      "title": "Possible Zero Escape ARG found",
+      "original_title": "Possible Zero Escape ARG found",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
       "category": "News",
       "date": "2026-10-14",
-      "summary": "According to VGC, Ubisoft plans to propose closing RedLynx, the Finnish studio behind the Trials series, affecting around 52 employees. VGC understands that RedLynx currently has no active project and that downsizing alone would not make the studio s...",
+      "summary": "Creator Kotaro Uchikoshi on twitter: \"Hi everyone, how's it going? Honestly, I'm not doing well at all... Why, you ask...? Because the game our whole team had poured our hearts and souls into for about a year and a half was suddenly canceled...!! I m...",
       "sources": [
         "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x5mgul/vgc_ubisoft_plans_to_close_trials_developer/"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x61x5x/possible_zero_escape_arg_found/"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x5oht5/monster_train_2_rated_for_switch_2_by_the_esrb/",
-      "title": "Monster Train 2 Rated for Switch 2 By The ESRB",
-      "original_title": "Monster Train 2 Rated for Switch 2 By The ESRB",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x5p8jm/valve_is_making_a_steam_frame_oled/",
+      "title": "Valve is making a Steam Frame OLED",
+      "original_title": "Valve is making a Steam Frame OLED",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
       "category": "News",
       "date": "2026-10-14",
-      "summary": "I had to take a screenshot because for whatever reason the link I copied for monster train 2 would link to League of Legends??? (Edit: Now it's working) http://www.esrb.org/ratings/Synopsis.aspx?Certificate=41606&Title=Monster+Train+2    submitted by...",
+      "summary": "https://steamframehub.com/exclusive-here-we-go-again-valve-is-making-an-oled-steam-frame/ The Steam Frame kernel source code appears to contain references to another, in development headset with OLED panels, referred to as Plano. The panels appear to...",
       "sources": [
         "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x5oht5/monster_train_2_rated_for_switch_2_by_the_esrb/"
-    },
-    {
-      "id": "https://www.techpowerup.com/353718/apple-announces-homeview-a-usd-299-smart-home-hub",
-      "title": "Apple Announces HomeView, a $299 Smart Home Hub",
-      "original_title": "Apple Announces HomeView, a $299 Smart Home Hub",
-      "image": "https://tpucdn.com/img/VaP8vGWmT2xKi8Ze_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-10-14",
-      "summary": "Apple has officially announced HomeView, its long-rumored smart home hub, priced at $299 in the US. It comes in two versions, a tabletop model and a wall-mounted one, both built around a 7-inch Liquid Retina display with True Tone that ranges from 50...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/353718/apple-announces-homeview-a-usd-299-smart-home-hub"
-    },
-    {
-      "id": "https://www.techpowerup.com/353720/fortnite-is-coming-to-linux-confirms-epic-games",
-      "title": "Fortnite is Coming to Linux, Confirms Epic Games",
-      "original_title": "Fortnite is Coming to Linux, Confirms Epic Games",
-      "image": "https://tpucdn.com/img/twn5GV9wjyXR6rFO_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-10-14",
-      "summary": "Epic Games announced today that its biggest game, Fortnite, is officially coming to Linux, bringing joy to millions of Linux gamers who will no longer have to deal with translation layers and compatibility issues on their own. While the game is not a...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/353720/fortnite-is-coming-to-linux-confirms-epic-games"
-    },
-    {
-      "id": "https://www.techpowerup.com/353214/atk-introduces-the-blazing-sky-phantom-a-44g-carbon-fiber-wireless-gaming-mouse-with-dual-8k-polling",
-      "title": "ATK Introduces the Blazing Sky Phantom, a 44g Carbon-Fiber Wireless Gaming Mouse With Dual 8K Polling",
-      "original_title": "ATK Introduces the Blazing Sky Phantom, a 44g Carbon-Fiber Wireless Gaming Mouse With Dual 8K Polling",
-      "image": "https://tpucdn.com/img/5ANpBHYw4iXeJIHu_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-10-14",
-      "summary": "ATK GEAR has expanded its Blazing Sky mouse lineup with the new ATK Blazing Sky Phantom Hollow Carbon Fiber Composite Wireless Gaming Mouse, a lightweight esports-focused model built around a composite carbon-fiber shell, an open cutout structure, an...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/353214/atk-introduces-the-blazing-sky-phantom-a-44g-carbon-fiber-wireless-gaming-mouse-with-dual-8k-polling"
-    },
-    {
-      "id": "https://www.techpowerup.com/353717/startech-releases-dual-monitor-usb-c-dock-its-first-with-smart-management-and-dedicated-software",
-      "title": "(PR) StarTech Releases Dual-Monitor USB-C Dock, Its First With Smart Management and Dedicated Software",
-      "original_title": "(PR) StarTech Releases Dual-Monitor USB-C Dock, Its First With Smart Management and Dedicated Software",
-      "image": "https://tpucdn.com/img/kDO94U7q6j7hsTWA_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-10-14",
-      "summary": "StarTech's new Dual-Monitor USB-C Smart Dock (194N-USBC-SmartDock) is the company's first dock supporting smart management and its own management software, giving IT teams a live dashboard view into every unit they've deployed. \n\nWith most docking st...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/353717/startech-releases-dual-monitor-usb-c-dock-its-first-with-smart-management-and-dedicated-software"
-    },
-    {
-      "id": "https://www.techpowerup.com/353714/hyte-launches-nexus-app-to-unify-pc-monitoring-rgb-control-and-more",
-      "title": "HYTE Launches Nexus App to Unify PC Monitoring, RGB Control, and More",
-      "original_title": "HYTE Launches Nexus App to Unify PC Monitoring, RGB Control, and More",
-      "image": "https://tpucdn.com/img/DOK5PxHA934jqZdC_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-10-14",
-      "summary": "Today, HYTE officially launched the Nexus 3.1.0 desktop application, a completely rebuilt PC management tool that unifies hardware monitoring, lighting control, gaming statistics, and system customization into one package. The software is designed to...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/353714/hyte-launches-nexus-app-to-unify-pc-monitoring-rgb-control-and-more"
-    },
-    {
-      "id": "https://www.techpowerup.com/353629/block-ads-and-trackers-on-up-to-9-devices-with-this-usd-14-97-adguard-deal",
-      "title": "Block Ads and Trackers on Up to 9 Devices With This $14.97 AdGuard Deal",
-      "original_title": "Block Ads and Trackers on Up to 9 Devices With This $14.97 AdGuard Deal",
-      "image": "https://tpucdn.com/img/BnMA3fL2FZ53Qpi5_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-10-14",
-      "summary": "Most ad blockers protect one browser on one device, and covering a whole household usually means paying for several subscriptions. An AdGuard Family Plan lifetime subscription covers up to 9 devices, and it's on sale for $14.97 (reg. $169.99) during ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/353629/block-ads-and-trackers-on-up-to-9-devices-with-this-usd-14-97-adguard-deal"
-    },
-    {
-      "id": "https://www.techpowerup.com/353713/rockstar-expects-faster-development-for-games-after-gta-6",
-      "title": "Rockstar Expects Faster Development For Games After GTA 6",
-      "original_title": "Rockstar Expects Faster Development For Games After GTA 6",
-      "image": "https://tpucdn.com/img/eIjfXyk2AA5rRuSr_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-10-14",
-      "summary": "Rockstar's next game after GTA 6 probably won't take another eight years to make, at least according to the studio's own leadership. In a making-of feature on Grand Theft Auto 6 by Bloomberg, heads of development Phil Hooker and Aaron Garbut explaine...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/353713/rockstar-expects-faster-development-for-games-after-gta-6"
-    },
-    {
-      "id": "https://www.techpowerup.com/353712/qnap-launches-new-qsw-2000-series-lite-managed-switches",
-      "title": "(PR) QNAP Launches New QSW 2000 Series Lite Managed Switches",
-      "original_title": "(PR) QNAP Launches New QSW 2000 Series Lite Managed Switches",
-      "image": "https://tpucdn.com/img/8YqVizEOv97lukgH_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-10-14",
-      "summary": "QNAP Systems, Inc., a leading innovator in storage, networking, and data protection solutions, today launched two new models in the QSW-L2110 Lite Managed Switch series, including the QSW-L2110-10T with 10G Base-T copper connectivity and the QSW-L211...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/353712/qnap-launches-new-qsw-2000-series-lite-managed-switches"
-    },
-    {
-      "id": "https://www.techpowerup.com/353630/microsoft-visual-studio-professional-2026-is-only-usd-29-97",
-      "title": "Microsoft Visual Studio Professional 2026 Is Only $29.97",
-      "original_title": "Microsoft Visual Studio Professional 2026 Is Only $29.97",
-      "image": "https://tpucdn.com/img/vNafweGQJSpQ8Dyo_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-10-14",
-      "summary": "Microsoft Visual Studio Professional 2026 is currently available for $29.97 (MSRP $499.99) through Oct. 11. The 64-bit integrated development environment combines cross-platform development capabilities with AI-assisted coding, collaboration tools, a...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/353630/microsoft-visual-studio-professional-2026-is-only-usd-29-97"
-    },
-    {
-      "id": "https://www.techpowerup.com/353711/ibm-and-siemens-collaborate-on-research-to-advance-nanostack-architecture",
-      "title": "(PR) IBM and Siemens Collaborate on Research to Advance Nanostack Architecture",
-      "original_title": "(PR) IBM and Siemens Collaborate on Research to Advance Nanostack Architecture",
-      "image": "https://tpucdn.com/img/CFE5ga65O7BNrFum_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-10-14",
-      "summary": "Today, IBM (NYSE: IBM), in collaboration with Siemens, announced new research aimed at advancing IBM's nanostack architecture, a new transistor architecture unveiled by IBM earlier this year. The collaboration will bring together IBM's leadership in ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/353711/ibm-and-siemens-collaborate-on-research-to-advance-nanostack-architecture"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x4x03w/grand_theft_auto_vis_pc_release_is_slated_for_q1/",
-      "title": "Grand Theft Auto VI’s PC release is slated for Q1 2027",
-      "original_title": "Grand Theft Auto VI’s PC release is slated for Q1 2027",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-10-13",
-      "summary": "https://gamesbeat.com/grand-theft-auto-vis-pc-release-is-slated-for-q1-2027/ GamesBeat has confirmed that Rockstar plans to release the PC version of GTA VI in the first quarter of 2027, according to four industry sources familiar with the studio’s p...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x4x03w/grand_theft_auto_vis_pc_release_is_slated_for_q1/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x55k7p/jason_schreier_epic_games_ai_first_pivot_includes/",
-      "title": "Jason Schreier: Epic Games AI first pivot includes Unreal Engine development. “they believe in going AI first on their games and their engines”",
-      "original_title": "Jason Schreier: Epic Games AI first pivot includes Unreal Engine development. “they believe in going AI first on their games and their engines”",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Epic News",
-      "date": "2026-10-13",
-      "summary": "https://i.ytimg.com/vi/nYYHo_eEcMw/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCPK9A8LnESe4epWIx4Qppc_PEwAA Timestamped link to beginning of discussion about Unreal Engine: https://youtu.be/nYYHo_eEcMw?t=813&si=Tz7VpVPPiNMz0tbe  T...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x55k7p/jason_schreier_epic_games_ai_first_pivot_includes/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x557hf/necro_felipe_teasing_more_ocarina_of_time_news/",
-      "title": "Necro Felipe teasing more Ocarina of Time news tomorrow",
-      "original_title": "Necro Felipe teasing more Ocarina of Time news tomorrow",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-10-13",
-      "summary": "Could possibly be when previews drop? I know his record is spotty, but bunch of journalists were at a Nintendo event a couple weeks ago playing Switch Sports Resort… but I have to assume those people didn’t fly all the way out just for that game lol....",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x557hf/necro_felipe_teasing_more_ocarina_of_time_news/"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x5p8jm/valve_is_making_a_steam_frame_oled/"
     }
   ]
 }
