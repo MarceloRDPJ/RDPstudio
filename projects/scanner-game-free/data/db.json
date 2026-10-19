@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-10-18T15:26:56",
-  "display_date": "18/10/2026 15:26",
+  "last_updated": "2026-10-19T18:23:20",
+  "display_date": "19/10/2026 18:23",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "253ms",
+    "latency": "606ms",
     "current_games": [
       {
         "title": "Bad Cheese",
@@ -26,15 +26,6 @@
       }
     ],
     "upcoming_games": [
-      {
-        "title": "Eternal Threads",
-        "description": "Eternal Threads is a single-player, first-person story-driven puzzle game of time manipulation, choice and consequence.",
-        "image": "https://cdn1.epicgames.com/spt-assets/08813e055af64315b8a55b2e521f4e04/eternal-threads-1vm6i.jpg",
-        "url": "https://store.epicgames.com/p/a9152a8924cc4e438f0e61106ec02f7d",
-        "price": "$19.99",
-        "start_date": "2026-10-19T15:00:00.000Z",
-        "end_date": "2026-11-02T16:00:00.000Z"
-      },
       {
         "title": "Ghostrunner 2",
         "description": "Ghostrunner 2 is a hardcore FPP slasher set in a post-apocalyptic, cyberpunk world. Featuring everything fans loved about Ghostrunner plus incredible boss fights, new interactive story, thrilling motorbike levels, improved skills, and more cyber ninja action. ",
@@ -72,15 +63,6 @@
         "end_date": "2026-10-29T15:00:00.000Z"
       },
       {
-        "title": "Castlevania Anniversary Collection",
-        "description": "Konami's Castlevania Anniversary Collection traces the origins of the historic vampire franchise. Included is a unique eBook with details provided by developers, artists and others inspired by the Castlevania legacy which sheds a fresh light into the world of Castlevania.",
-        "image": "https://cdn1.epicgames.com/spt-assets/1ff2f74ba0ef4019b6905d8abe268819/castlevania-anniversary-collection-yex6f.jpg",
-        "url": "https://store.epicgames.com/p/32b3e0adbe0c4399be1874958194f97f",
-        "price": "$19.99",
-        "start_date": "2026-10-19T15:00:00.000Z",
-        "end_date": "2026-11-02T16:00:00.000Z"
-      },
-      {
         "title": "Monument Valley",
         "description": "Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
         "image": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
@@ -88,15 +70,6 @@
         "price": "$7.99",
         "start_date": "2026-12-10T16:00:00.000Z",
         "end_date": "2027-01-07T16:00:00.000Z"
-      },
-      {
-        "title": "Monument Valley",
-        "description": "Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
-        "image": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
-        "url": "https://store.epicgames.com/p/monument-valley-02",
-        "price": "$7.99",
-        "start_date": "2026-10-19T15:00:00.000Z",
-        "end_date": "2026-11-02T16:00:00.000Z"
       },
       {
         "title": "Home - A Unique Horror Adventure",
@@ -119,7 +92,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "summary": "Bad Cheese is a psychological horror inspired by the eerie charm of 1920s animation. \nStep into the tiny paws of a mouse spending the weekend at home with a dysfunctional Dad while Mom's away. \nBe on your best behavior and KEEP DADDY HAPPY.",
       "sources": [
         "Epic Games Store"
@@ -134,27 +107,12 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "summary": "A suave secret agent adventure game. Your mission (should you choose to accept) is to infiltrate enemy spy Ruby La Rouge’s secret hideaway and put a stop to her evil plans!",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/agent-a-a-puzzle-in-disguise"
-    },
-    {
-      "id": "https://store.epicgames.com/p/a9152a8924cc4e438f0e61106ec02f7d",
-      "title": "EM BREVE: Eternal Threads",
-      "original_title": "Eternal Threads",
-      "image": "https://cdn1.epicgames.com/spt-assets/08813e055af64315b8a55b2e521f4e04/eternal-threads-1vm6i.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-10-18",
-      "summary": "Disponível gratuitamente a partir de 19/10. Eternal Threads is a single-player, first-person story-driven puzzle game of time manipulation, choice and consequence.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/a9152a8924cc4e438f0e61106ec02f7d"
     },
     {
       "id": "https://store.epicgames.com/p/ghostrunner-2",
@@ -164,7 +122,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "summary": "Disponível gratuitamente a partir de 10/12. Ghostrunner 2 is a hardcore FPP slasher set in a post-apocalyptic, cyberpunk world. Featuring everything fans loved about Ghostrunner plus incredible boss fights, new interactive story, thrilling motorbike levels, improved skills, and more cyber ninja action. ",
       "sources": [
         "Epic Games Store"
@@ -179,7 +137,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "summary": "Disponível gratuitamente a partir de 10/12. Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
@@ -194,7 +152,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "summary": "Disponível gratuitamente a partir de 01/11. Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
@@ -209,7 +167,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "summary": "Disponível gratuitamente a partir de 22/10. The round-based co-op survival FPS and spin-off to the award-winning British horror, Maid of Sker. Play solo or up to 4 players to survive the supernatural onslaught of the Quiet Ones.",
       "sources": [
         "Epic Games Store"
@@ -217,21 +175,6 @@
       "url": "https://store.epicgames.com/p/8dbc8d70481d4c0b8412d3aec76a35a1"
     },
     {
-      "id": "https://store.epicgames.com/p/32b3e0adbe0c4399be1874958194f97f",
-      "title": "EM BREVE: Castlevania Anniversary Collection",
-      "original_title": "Castlevania Anniversary Collection",
-      "image": "https://cdn1.epicgames.com/spt-assets/1ff2f74ba0ef4019b6905d8abe268819/castlevania-anniversary-collection-yex6f.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-10-18",
-      "summary": "Disponível gratuitamente a partir de 19/10. Konami's Castlevania Anniversary Collection traces the origins of the historic vampire franchise. Included is a unique eBook with details provided by developers, artists and others inspired by the Castlevania legacy which sheds a fresh light into the world of Castlevania.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/32b3e0adbe0c4399be1874958194f97f"
-    },
-    {
       "id": "https://store.epicgames.com/p/monument-valley-02",
       "title": "EM BREVE: Monument Valley",
       "original_title": "Monument Valley",
@@ -239,23 +182,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "summary": "Disponível gratuitamente a partir de 10/12. Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/monument-valley-02"
-    },
-    {
-      "id": "https://store.epicgames.com/p/monument-valley-02",
-      "title": "EM BREVE: Monument Valley",
-      "original_title": "Monument Valley",
-      "image": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-10-18",
-      "summary": "Disponível gratuitamente a partir de 19/10. Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
       "sources": [
         "Epic Games Store"
       ],
@@ -269,7 +197,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "summary": "Disponível gratuitamente a partir de 22/10. Home is a unique horror adventure set in a beautifully-realized pixel world. It’s a murder mystery with a twist – because you decide what ultimately happens.",
       "sources": [
         "Epic Games Store"
@@ -277,184 +205,499 @@
       "url": "https://store.epicgames.com/p/ff70f2b02fd842f8961f7729af25cda9"
     },
     {
-      "id": "https://www.eurogamer.net/liquid-swords-samson-developer-bankrupt",
-      "title": "Samson dev Liquid Swords has reportedly gone bankrupt",
-      "original_title": "Samson dev Liquid Swords has reportedly gone bankrupt",
-      "image": "https://assetsio.gnwcdn.com/ss_c74b6df6643c4b6c0c0e015be9013a4c68fd3deb.1920x1080.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/arc-raiders-frozen-trails-player-numbers-six-month-high",
+      "title": "Arc Raiders player numbers hit a six-month high following the release of the extraction shooter's huge Frozen Trails update",
+      "original_title": "Arc Raiders player numbers hit a six-month high following the release of the extraction shooter's huge Frozen Trails update",
+      "image": "https://assetsio.gnwcdn.com/arc-raiders-headline.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-10-18",
-      "summary": " Swedish studio Liquid Swords, maker of action game Samson, has reportedly been put into bankruptcy. Read more...",
+      "date": "2026-10-19",
+      "summary": " Arc Raiders is still going strong almost a year after finding viral success, and it's all thanks to Embark Studios' one-two-punch strategy of launching a huge new update, Frozen Trails, to coincide with a free weekend. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/liquid-swords-samson-developer-bankrupt"
+      "url": "https://www.eurogamer.net/arc-raiders-frozen-trails-player-numbers-six-month-high"
     },
     {
-      "id": "https://www.eurogamer.net/god-of-war-laufey-collector-box-no-game",
-      "title": "God of War Laufey's £130 Collector Box doesn't come with the game",
-      "original_title": "God of War Laufey's £130 Collector Box doesn't come with the game",
-      "image": "https://assetsio.gnwcdn.com/A-peaceful-looking-Faye-in-God-of-War-Laufey.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/ken-kutaragi-playstation-discs",
+      "title": "PlayStation founder Ken Kutaragi says discs became \"metaphor for 'owning' games\", and that upset at their discontinuation is a \"mentality issue\"",
+      "original_title": "PlayStation founder Ken Kutaragi says discs became \"metaphor for 'owning' games\", and that upset at their discontinuation is a \"mentality issue\"",
+      "image": "https://assetsio.gnwcdn.com/ken-kutaragi-playstation_Jl1uSYR.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-10-18",
-      "summary": " God of War Laufey's Collector Box will cost £129.99 and will not include the game. Read more...",
+      "date": "2026-10-19",
+      "summary": " Ken Kutaragi, the founder of PlayStation and architect of the first three PlayStation consoles, has said that people being upset about Sony's discontinuation of game discs is probably a \"mentality issue\". He understands it, he noted, but that doesn'...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/god-of-war-laufey-collector-box-no-game"
+      "url": "https://www.eurogamer.net/ken-kutaragi-playstation-discs"
     },
     {
-      "id": "https://www.eurogamer.net/game-boy-musuem-cartridge-marcel-pflug",
-      "title": "In the age of AI, one man spent years squeezing an entire museum onto a Game Boy - Why? For the most human of reasons",
-      "original_title": "In the age of AI, one man spent years squeezing an entire museum onto a Game Boy - Why? For the most human of reasons",
-      "image": "https://assetsio.gnwcdn.com/game-boy-museum-(1).jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/japanese-voice-acting-union-generative-ai",
+      "title": "Japanese acting union fights back against AI-generated voice use, proposing strict new guidelines, especially regarding the use of a deceased actor's voice",
+      "original_title": "Japanese acting union fights back against AI-generated voice use, proposing strict new guidelines, especially regarding the use of a deceased actor's voice",
+      "image": "https://assetsio.gnwcdn.com/binary-domain-robot-face.webp?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-10-18",
-      "summary": " \"Let me be honest from the start: nobody was waiting for this. The world has many needs, and a Game Boy cartridge with no game inside it was not high on the list.\" So begins Dr Marcel Pflug's  explanation for one of the most unexpected projects I've...",
+      "date": "2026-10-19",
+      "summary": " The Japan Actors Union has issued  new rules, guidelines, and restrictions related to AI-generated voice use. This includes an outright ban on the replication of the voices of dead actors, unless the actor had authorised its use during their lifetim...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/game-boy-musuem-cartridge-marcel-pflug"
+      "url": "https://www.eurogamer.net/japanese-voice-acting-union-generative-ai"
     },
     {
-      "id": "https://www.techpowerup.com/353842/this-week-in-gaming-week-43",
-      "title": "This Week in Gaming (Week 43)",
-      "original_title": "This Week in Gaming (Week 43)",
-      "image": "https://tpucdn.com/img/yLDr6tQRbi2ZBFLV_thm.jpg",
+      "id": "https://www.eurogamer.net/saros-update-zenith-ps5-new-game-plus",
+      "title": "PS5 \"bullet ballet\" game Saros gets a big update to make it both easier and harder",
+      "original_title": "PS5 \"bullet ballet\" game Saros gets a big update to make it both easier and harder",
+      "image": "https://assetsio.gnwcdn.com/saros-screenshot-01-en-14feb25.webp?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-10-18",
-      "summary": "Welcome to a new week of games and this week's AAA release comes with a fishy smell, which kind of goes with its Friday release, but it looks like fans of the franchise will be having a good time based on advanced access feedback. As for this week's ...",
+      "category": "News",
+      "date": "2026-10-19",
+      "summary": " Bullet-dodging PlayStation shooter Saros has welcomed a sizeable Zenith update today, which has the twin aims of making the game both more accessible for those who haven't played it (or are struggling to get into it) and more replayable for those wh...",
       "sources": [
-        "TechPowerUp"
+        "Eurogamer"
       ],
-      "url": "https://www.techpowerup.com/353842/this-week-in-gaming-week-43"
+      "url": "https://www.eurogamer.net/saros-update-zenith-ps5-new-game-plus"
     },
     {
-      "id": "https://www.techpowerup.com/353835/call-of-duty-modern-warfare-4-gets-a-warm-steam-welcome-with-90-positive-reviews",
-      "title": "Call of Duty: Modern Warfare 4 Gets a Warm Steam Welcome With 90% Positive Reviews",
-      "original_title": "Call of Duty: Modern Warfare 4 Gets a Warm Steam Welcome With 90% Positive Reviews",
-      "image": "https://tpucdn.com/img/IsFjpFuaHLAhbxGU_thm.jpg",
+      "id": "https://www.eurogamer.net/star-wars-games-small-developers-lucasfilm-games-plan",
+      "title": "We've had two great Star Wars games this year, probably because Lucasfilm Games says it's now \"more flexible\" about who it takes pitches from",
+      "original_title": "We've had two great Star Wars games this year, probably because Lucasfilm Games says it's now \"more flexible\" about who it takes pitches from",
+      "image": "https://assetsio.gnwcdn.com/star-wars-galactic-racer-biddy-blas-capture-1.png?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-10-18",
-      "summary": "Call of Duty: Modern Warfare 4 is off to an unusually good start on Steam. The campaign early access went live for pre-order customers on October 16, and at the time of writing, 1,630 of the game's 1,812 Steam user reviews are positive, giving it a \"...",
+      "category": "News",
+      "date": "2026-10-19",
+      "summary": " This year has seen two highly-rated and beloved Star Wars games in the XCOM-like Zero Company, and the Burnout-like Galactic Racer. And both were made by independent studios rather than much bigger companies, which have typically taken on Star Wars ...",
       "sources": [
-        "TechPowerUp"
+        "Eurogamer"
       ],
-      "url": "https://www.techpowerup.com/353835/call-of-duty-modern-warfare-4-gets-a-warm-steam-welcome-with-90-positive-reviews"
+      "url": "https://www.eurogamer.net/star-wars-games-small-developers-lucasfilm-games-plan"
     },
     {
-      "id": "https://www.eurogamer.net/vampire-the-masquerade-bloodlines-remaster-rumour",
-      "title": "Vampire: The Masquerade - Bloodlines remaster rumoured, with leaker insisting it's not a remake",
-      "original_title": "Vampire: The Masquerade - Bloodlines remaster rumoured, with leaker insisting it's not a remake",
-      "image": "https://assetsio.gnwcdn.com/0000001155.1920x1080.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/star-wars-zero-company-review",
+      "title": "Star Wars Zero Company review",
+      "original_title": "Star Wars Zero Company review",
+      "image": "https://assetsio.gnwcdn.com/star-wars-zero-company-review-4.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
+      "category": "News",
+      "date": "2026-10-19",
+      "summary": " It took me longer than I'd like to admit to realise something obvious about Star Wars Zero Company. The fate of its eponymous crew - short of cash, betrayed by the shifting sands of circumstance in a tumultuous wider world, scrambling to just about ...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/star-wars-zero-company-review"
+    },
+    {
+      "id": "https://www.eurogamer.net/witcher-3-switch-2-patch-update-resolution-brightness",
+      "title": "Witcher 3 Switch 2 patch rolls out today with a number of changes, including alterations to resolution and \"visual clarity\"",
+      "original_title": "Witcher 3 Switch 2 patch rolls out today with a number of changes, including alterations to resolution and \"visual clarity\"",
+      "image": "https://assetsio.gnwcdn.com/geralt-posing-witcher-3.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-10-19",
+      "summary": " CD Projekt Red is currently rolling the promised Switch 2 patch for The Witcher 3: Wild Hunt - Remastered, addressing a number of issues in the game. Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/witcher-3-switch-2-patch-update-resolution-brightness"
+    },
+    {
+      "id": "https://www.eurogamer.net/call-of-duty-next-game-new-sub-franchise",
+      "title": "The next Call of Duty will introduce a new sub-series to the franchise",
+      "original_title": "The next Call of Duty will introduce a new sub-series to the franchise",
+      "image": "https://assetsio.gnwcdn.com/Farrah-Call-of-Duty-Modern-Warfare-3-2023.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-10-19",
+      "summary": " Next year's Call of Duty game will not be part of any of the franchise's existing sub-series. In an interview with The Game Business, Activision confirmed it's finally ready to create a new sub-series. Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/call-of-duty-next-game-new-sub-franchise"
+    },
+    {
+      "id": "https://www.eurogamer.net/funcom-dune-awakening-layoffs-restructuring",
+      "title": "Dune: Awakening studio faces layoffs as it restructures following console release",
+      "original_title": "Dune: Awakening studio faces layoffs as it restructures following console release",
+      "image": "https://assetsio.gnwcdn.com/dune-awakening_eBRRA9O.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-10-19",
+      "summary": " Norwegian developer Funcom, creator of Dune: Awakening and Conan Exiles - and many other games - is entering a period of restructuring and bracing for layoffs as a result. You may remember the company making a similar move this time last year, month...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/funcom-dune-awakening-layoffs-restructuring"
+    },
+    {
+      "id": "https://www.eurogamer.net/steam-next-fest-2026-over-double",
+      "title": "Steam Next Fest 2026 has more than double the number of demos than last year, but how much of it is generative 'AI slop'?",
+      "original_title": "Steam Next Fest 2026 has more than double the number of demos than last year, but how much of it is generative 'AI slop'?",
+      "image": "https://assetsio.gnwcdn.com/steam-next-fest_myGmpAu.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-10-19",
+      "summary": " Steam Next Fest 2026 starts today, offering PC players a chance to get their hands on a staggering number of playable demos. With the full count coming to more than double last year's event, concerns about generative AI 'slop', plagiarism, and disco...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/steam-next-fest-2026-over-double"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xa1su3/jason_schreier_shares_new_info_on_gta_vi_rdr2/",
+      "title": "Jason Schreier shares new info on GTA VI & RDR2 development that didn’t make into his Bloomberg article",
+      "original_title": "Jason Schreier shares new info on GTA VI & RDR2 development that didn’t make into his Bloomberg article",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-10-19",
+      "summary": "  Some Rockstar artists have been working on GTA 6 for 11 years. In 2015 especially on the map as this is the first thing to be worked on, some of them didn’t even work on RDR2 at all as they were still busy with GTA 6. Some designers left Rockstar a...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xa1su3/jason_schreier_shares_new_info_on_gta_vi_rdr2/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xa1xp9/jeff_grubb_disney_in_talks_with_bungie_and_dice/",
+      "title": "Jeff Grubb: Disney in talks with Bungie and DICE as they look for a development partner for Star Wars Battlefront 3",
+      "original_title": "Jeff Grubb: Disney in talks with Bungie and DICE as they look for a development partner for Star Wars Battlefront 3",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-10-19",
+      "summary": "As discussed here: https://www.youtube.com/watch?v=ladA0cCcOpA    submitted by    /u/Com_Raven   [link] [comments]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xa1xp9/jeff_grubb_disney_in_talks_with_bungie_and_dice/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xa3gyh/has_it_leaked_daft_punk_was_pitched_to_do_the_gta/",
+      "title": "Has It Leaked: Daft Punk was pitched to do the GTA VI soundtrack as a “final comeback” before Justice",
+      "original_title": "Has It Leaked: Daft Punk was pitched to do the GTA VI soundtrack as a “final comeback” before Justice",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
       "category": "Rumor",
-      "date": "2026-10-17",
-      "summary": " A remaster of cult 2004 RPG Vampire: The Masquerade - Bloodlines may be in the works. Read more...",
+      "date": "2026-10-19",
+      "summary": " Daft Punk's management (yes, still exist) were pitched \"a final comeback\" of the duo for the GTAVI soundtrack with what was \"essentially an unlimited budget\". Justice were Rockstar's second choice.  Source: https://twitterviewer.net/hasitleaked/stat...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/vampire-the-masquerade-bloodlines-remaster-rumour"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xa3gyh/has_it_leaked_daft_punk_was_pitched_to_do_the_gta/"
     },
     {
-      "id": "https://www.eurogamer.net/total-war-shogun-2-complete-edition-pulled-from-sale",
-      "title": "Sega pulls Total War: Shogun 2 - Complete Edition from sale amid AI accusations, admitting it has \"fallen short\"",
-      "original_title": "Sega pulls Total War: Shogun 2 - Complete Edition from sale amid AI accusations, admitting it has \"fallen short\"",
-      "image": "https://assetsio.gnwcdn.com/ss_e8ac96fa71486d51feba7f79f1b226d52be4b016.1920x1080.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x9xvqu/frostpunk_spinoff_could_be_a_firstperson/",
+      "title": "Frostpunk spin-off could be a first-person open-world multiplayer survival game",
+      "original_title": "Frostpunk spin-off could be a first-person open-world multiplayer survival game",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
       "category": "News",
-      "date": "2026-10-17",
-      "summary": " Sega and Creative Assembly are temporarily removing Total War: Shogun 2 - Complete Edition from sale just days after release. Read more...",
+      "date": "2026-10-19",
+      "summary": " 11 Bit Studios is hiring a Level Designer for an unannounced project, who is expected to work on large-scale open-world locations. The designer will also oversee development of both outdoor and indoor spaces, including shelters, abandoned locations,...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/total-war-shogun-2-complete-edition-pulled-from-sale"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x9xvqu/frostpunk_spinoff_could_be_a_firstperson/"
     },
     {
-      "id": "https://www.eurogamer.net/steam-achievement-sets-beta",
-      "title": "Steam's Achievement Sets beta aims to stop new content breaking your completion status",
-      "original_title": "Steam's Achievement Sets beta aims to stop new content breaking your completion status",
-      "image": "https://assetsio.gnwcdn.com/10d318260b61ca375da8e210197b7eae40665e30.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xa31qy/shrek_2_remastered_ps5_trophies_are_now_up_on/",
+      "title": "Shrek 2 Remastered PS5 Trophies are now up on Exophase",
+      "original_title": "Shrek 2 Remastered PS5 Trophies are now up on Exophase",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
       "category": "News",
-      "date": "2026-10-17",
-      "summary": " Valve is beta testing Steam Achievement Sets, a feature that lets developers group a game's achievements into collections. Read more...",
+      "date": "2026-10-19",
+      "summary": "This is the 4th(?) Time something about shrek 2 remastered has leaked? https://www.exophase.com/game/shrek-2-remastered-psn/trophies/    submitted by    /u/Howerev   [link] [comments]...",
       "sources": [
-        "Eurogamer"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.eurogamer.net/steam-achievement-sets-beta"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xa31qy/shrek_2_remastered_ps5_trophies_are_now_up_on/"
     },
     {
-      "id": "https://www.eurogamer.net/assassins-creed-destiny-cancelled-gameplay-footage-timi-tencent",
-      "title": "Gameplay footage emerges of reportedly cancelled Assassin's Creed game Destiny",
-      "original_title": "Gameplay footage emerges of reportedly cancelled Assassin's Creed game Destiny",
-      "image": "https://assetsio.gnwcdn.com/9c3104985e567ab2095613a493ebbe84.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1x9zpno/the_halloween_sale_has_begun_on_the_store/",
+      "title": "The Halloween Sale has begun on the store!",
+      "original_title": "The Halloween Sale has begun on the store!",
+      "image": "https://external-preview.redd.it/AQa9ei8dnT4CWuU5_PprNSZYAop5V_pKAfzYBLyVox4.png?width=640&crop=smart&auto=webp&s=19b6d9135dc000d4731626124e24e5282e9c5086",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
       "category": "News",
-      "date": "2026-10-17",
-      "summary": " Footage of a reportedly cancelled Assassin's Creed game set in ancient China has emerged online, including stealth kills, the series' leap of faith, and a spinning umbrella weapon. Read more...",
+      "date": "2026-10-19",
+      "summary": "      Boo! Some scary sales have landed on the store today, it's the beginning of the Halloween Sale! Delve into some spooky sales for terrifying games with this sale running until 2nd November 3pm UTC. Some games worth checking out are:  Cronos: The...",
       "sources": [
-        "Eurogamer"
+        "r/EpicGamesPC"
       ],
-      "url": "https://www.eurogamer.net/assassins-creed-destiny-cancelled-gameplay-footage-timi-tencent"
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1x9zpno/the_halloween_sale_has_begun_on_the_store/"
     },
     {
-      "id": "https://www.eurogamer.net/blood-of-dawnwalker-update-1-1-story-mode-pet-animals",
-      "title": "The Blood of Dawnwalker Update 1.1 adds an easier Story mode, a respec potion and animal petting",
-      "original_title": "The Blood of Dawnwalker Update 1.1 adds an easier Story mode, a respec potion and animal petting",
-      "image": "https://assetsio.gnwcdn.com/dawnwalker-artwork-blood.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1x9zgqt/pc_dev_freebiegethighexe/",
+      "title": "PC Dev Freebie｜GetHigh.EXE",
+      "original_title": "PC Dev Freebie｜GetHigh.EXE",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
-      "reliability": "High",
+      "reliability": "Medium",
       "category": "News",
-      "date": "2026-10-17",
-      "summary": " Update 1.1 for The Blood of Dawnwalker will add a new Story mode with additional combat assist, a potion that lets you forget your abilities and master new ones, and the ability to pet dogs and cats. Read more...",
+      "date": "2026-10-19",
+      "summary": "  submitted by    /u/MeguminShiro   [link] [comments]...",
       "sources": [
-        "Eurogamer"
+        "r/EpicGamesPC"
       ],
-      "url": "https://www.eurogamer.net/blood-of-dawnwalker-update-1-1-story-mode-pet-animals"
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1x9zgqt/pc_dev_freebiegethighexe/"
     },
     {
-      "id": "https://www.eurogamer.net/over-the-hill-now-playing",
-      "title": "Art of Rally follow-up Over the Hill's biggest success is finding a way to be a driving game that asks you to take it slow",
-      "original_title": "Art of Rally follow-up Over the Hill's biggest success is finding a way to be a driving game that asks you to take it slow",
-      "image": "https://assetsio.gnwcdn.com/over-the-hill-37.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1x9yoju/epic_games_halloween_sale_2026/",
+      "title": "Epic Games Halloween Sale 2026",
+      "original_title": "Epic Games Halloween Sale 2026",
+      "image": "https://preview.redd.it/4vtdtyexqfwh1.jpeg?width=640&crop=smart&auto=webp&s=750261e73bb9efada8d51c97939ff5283423ce19",
       "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-10-17",
-      "summary": " I'd nearly forgotten Over the Hill's predecessor, Art of Rally, was a racing game. But that's not meant as a slight. It's just that, for all the happy hours I poured into it, I don't recall doing a single race. Instead, it was the aimless meandering...",
+      "reliability": "Medium",
+      "category": "Epic News",
+      "date": "2026-10-19",
+      "summary": "      Discounts on all kinds of scary games will start very soon! What would you like to buy? Or maybe some DLC for Dead by Daylight? Date: 19 October- 02 November https://store.epicgames.com/browse?sortBy=currentPrice&sortDir=DESC&tag=Halloween%20Sa...",
       "sources": [
-        "Eurogamer"
+        "r/EpicGamesPC"
       ],
-      "url": "https://www.eurogamer.net/over-the-hill-now-playing"
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1x9yoju/epic_games_halloween_sale_2026/"
     },
     {
-      "id": "https://www.eurogamer.net/what-weve-been-plaing-guns-of-eschaton-ftl-marvel-cosmic-invasion",
-      "title": "What we've been playing -  \"I simply didn't know if a first-person shooter could work as a Soulslike\"",
-      "original_title": "What we've been playing -  \"I simply didn't know if a first-person shooter could work as a Soulslike\"",
-      "image": "https://assetsio.gnwcdn.com/guns-of-eschaton-header-2.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1xa3ppp/save_60_on_powerwash_simulator_2_on_epic_games/",
+      "title": "Save 60% on PowerWash Simulator 2 on Epic Games Store (Historical Low)",
+      "original_title": "Save 60% on PowerWash Simulator 2 on Epic Games Store (Historical Low)",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Epic News",
+      "date": "2026-10-19",
+      "summary": "  submitted by    /u/mr_MADAFAKA   [link] [comments]...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1xa3ppp/save_60_on_powerwash_simulator_2_on_epic_games/"
+    },
+    {
+      "id": "https://www.techpowerup.com/353885/xodus-nexus-launcher-brings-xbox-game-pass-to-steamos-and-linux-with-easy-management-and-installs",
+      "title": "Xodus Nexus Launcher Brings Xbox Game Pass to SteamOS and Linux with Easy Management and Installs",
+      "original_title": "Xodus Nexus Launcher Brings Xbox Game Pass to SteamOS and Linux with Easy Management and Installs",
+      "image": "https://tpucdn.com/img/6fgFmKFRYuPARZZY_thm.jpg",
       "source_count": 1,
       "reliability": "High",
-      "category": "News",
-      "date": "2026-10-17",
-      "summary": " Hello and welcome back to our regular feature where we write a little about the games we've been playing. This week, Connor plays a classic, and ticks it off his bucket list; Sherif isn't sure about a first-person shooter foray into Soulslikes; Matt...",
+      "category": "Hardware",
+      "date": "2026-10-19",
+      "summary": "We previously covered Xodus, a new open-source project that aimed to bring Xbox Game Pass and Xbox on PC games to Linux via reverse-engineered runtimes and Valve's Proton compatibility layer. Since then, the project has been forked and Xodus Nexus ha...",
       "sources": [
-        "Eurogamer"
+        "TechPowerUp"
       ],
-      "url": "https://www.eurogamer.net/what-weve-been-plaing-guns-of-eschaton-ftl-marvel-cosmic-invasion"
+      "url": "https://www.techpowerup.com/353885/xodus-nexus-launcher-brings-xbox-game-pass-to-steamos-and-linux-with-easy-management-and-installs"
+    },
+    {
+      "id": "https://www.techpowerup.com/353881/amd-ryzen-ai-7-hx-455-surfaces-with-16-cu-radeon-graphics",
+      "title": "AMD Ryzen AI 7 HX 455 Surfaces with 16 CU Radeon Graphics",
+      "original_title": "AMD Ryzen AI 7 HX 455 Surfaces with 16 CU Radeon Graphics",
+      "image": "https://tpucdn.com/img/7Gf7uQWZ28CXbmpw_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-10-19",
+      "summary": "It seems as though AMD is readying a new mobile APU that bears a striking resemblance to the existing Ryzen Z2 Extreme. The AMD Ryzen AI 7 HX 455 was recently leaked by Golden Pig Upgrade on Weibo, with the post suggesting that the new CPU would laun...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/353881/amd-ryzen-ai-7-hx-455-surfaces-with-16-cu-radeon-graphics"
+    },
+    {
+      "id": "https://www.techpowerup.com/353884/intel-readies-xmx-accelerated-xess-support-for-valves-proton-compatibility-layer",
+      "title": "Intel Readies XMX-Accelerated XeSS Support for Valve's Proton Compatibility Layer",
+      "original_title": "Intel Readies XMX-Accelerated XeSS Support for Valve's Proton Compatibility Layer",
+      "image": "https://tpucdn.com/img/tAwH8Ean4hp0TSsG_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-10-19",
+      "summary": "Intel is preparing to add support for XeSS, accelerated by XMX cores in its graphics cards, to Valve's Proton compatibility layer. This is great news because the Valve Proton layer currently uses a slower version of the upscaler that is not very effi...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/353884/intel-readies-xmx-accelerated-xess-support-for-valves-proton-compatibility-layer"
+    },
+    {
+      "id": "https://www.techpowerup.com/353883/galax-prepares-geforce-rtx-5090-hof-with-swarovski-crystals",
+      "title": "GALAX Prepares GeForce RTX 5090 HOF with Swarovski Crystals",
+      "original_title": "GALAX Prepares GeForce RTX 5090 HOF with Swarovski Crystals",
+      "image": "https://tpucdn.com/img/lY9h7OQtGy9fsBov_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-10-19",
+      "summary": "GALAX has officially teased its GeForce RTX 5090 Hall of Fame Edition GPU, featuring unique details with Swarovski crystals. What the company originally showcased at Computex 2026 now appears to be a product scheduled for launch on October 22. The Ge...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/353883/galax-prepares-geforce-rtx-5090-hof-with-swarovski-crystals"
+    },
+    {
+      "id": "https://www.techpowerup.com/353882/samsung-taps-tsmc-for-nvhbm-base-die-production",
+      "title": "Samsung Taps TSMC for NVHBM Base Die Production",
+      "original_title": "Samsung Taps TSMC for NVHBM Base Die Production",
+      "image": "https://tpucdn.com/img/W5WVzzVsdqXFj2VH_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-10-19",
+      "summary": "Samsung is reportedly collaborating with the world's largest chip maker, TSMC, to secure a base die supply for NVIDIA's newly announced NVHBM memory standard. NVHBM integrates the controller into the 3D HBM stack, significantly enhancing performance ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/353882/samsung-taps-tsmc-for-nvhbm-base-die-production"
+    },
+    {
+      "id": "https://www.techpowerup.com/353730/awol-vision-opens-pre-orders-for-luxvision-worlds-first-optical-shift-4k-120hz-projector",
+      "title": "AWOL Vision Opens Pre-Orders for LuxVision: World's First Optical-Shift 4K 120Hz Projector",
+      "original_title": "AWOL Vision Opens Pre-Orders for LuxVision: World's First Optical-Shift 4K 120Hz Projector",
+      "image": "https://tpucdn.com/img/t5ez0AGyZWfqNp3N_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-10-19",
+      "summary": "AWOL Vision, a global home entertainment brand delivering immersive audiovisual experiences through large-format displays, home cinema technology, and connected entertainment, announced that the AWOL LuxVision, first unveiled at IFA 2026, is now offi...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/353730/awol-vision-opens-pre-orders-for-luxvision-worlds-first-optical-shift-4k-120hz-projector"
+    },
+    {
+      "id": "https://www.techpowerup.com/353878/attack-shark-launches-r5-turbo-flagship-carbon-fiber-gaming-mouse",
+      "title": "(PR) Attack Shark Launches R5 Turbo Flagship Carbon Fiber Gaming Mouse",
+      "original_title": "(PR) Attack Shark Launches R5 Turbo Flagship Carbon Fiber Gaming Mouse",
+      "image": "https://tpucdn.com/img/9rcvBzEf9Ogv477E_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-10-19",
+      "summary": "High-performance gaming peripheral brand ATTACK SHARK today announced the upcoming release of the R5 TURBO. This next-generation flagship wireless gaming mouse builds on the R5 ULTRA's success with upgraded hardware, dual 8K connectivity, a design op...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/353878/attack-shark-launches-r5-turbo-flagship-carbon-fiber-gaming-mouse"
+    },
+    {
+      "id": "https://www.techpowerup.com/353877/heroquest-digital-edition-lands-on-pc-via-steam-in-2027-closed-beta-starts-soon",
+      "title": "(PR) HeroQuest: Digital Edition Lands on PC via Steam in 2027, Closed Beta Starts Soon",
+      "original_title": "(PR) HeroQuest: Digital Edition Lands on PC via Steam in 2027, Closed Beta Starts Soon",
+      "image": "https://tpucdn.com/img/hclWhC9Pf1zQCdpL_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-10-19",
+      "summary": "Nomad Games and Balor Games are thrilled to reveal HeroQuest: Digital Edition, an officially licensed adaptation of HeroQuest, the iconic tabletop classic that helped define the dungeon-crawling adventure genre. Unveiled during The MIX Fall Showcase,...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/353877/heroquest-digital-edition-lands-on-pc-via-steam-in-2027-closed-beta-starts-soon"
+    },
+    {
+      "id": "https://www.techpowerup.com/353876/tp-link-and-key-tronic-sign-letter-of-intent-to-bring-router-assembly-to-the-united-states",
+      "title": "(PR) TP-Link and Key Tronic Sign Letter of Intent to Bring Router Assembly to the United States",
+      "original_title": "(PR) TP-Link and Key Tronic Sign Letter of Intent to Bring Router Assembly to the United States",
+      "image": "https://tpucdn.com/img/pJw93uMGy79i9FuX_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-10-19",
+      "summary": "TP-Link Systems Inc., a global leader in networking and smart home solutions, today announced that it has entered into a Letter of Intent (LOI) with Key Tronic Corp., a premier U.S.-based electronics manufacturer, to bring next-generation product ass...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/353876/tp-link-and-key-tronic-sign-letter-of-intent-to-bring-router-assembly-to-the-united-states"
+    },
+    {
+      "id": "https://www.techpowerup.com/353875/hiby-launches-rs2-ii-portable-hi-fi-player-with-flagship-darwin-iii-architecture",
+      "title": "(PR) HiBy Launches RS2 II Portable Hi-Fi Player with Flagship DARWIN III Architecture",
+      "original_title": "(PR) HiBy Launches RS2 II Portable Hi-Fi Player with Flagship DARWIN III Architecture",
+      "image": "https://tpucdn.com/img/izIdblBymuIwk6CJ_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-10-19",
+      "summary": "HiBy has officially launched the RS2 II, a compact portable Hi-fi player featuring the company's third-generation DARWIN III audio architecture, the same architecture used in the flagship RS8 II. Designed for audiophiles seeking flagship-level sound ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/353875/hiby-launches-rs2-ii-portable-hi-fi-player-with-flagship-darwin-iii-architecture"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x9ba6z/new_job_listing_suggests_that_xbox_may_be_looking/",
+      "title": "New job listing suggests that Xbox may be looking to improve its presence in the physical games market",
+      "original_title": "New job listing suggests that Xbox may be looking to improve its presence in the physical games market",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-10-18",
+      "summary": " On October 14, Microsoft announced that it was looking to hire an Xbox Games Supply Strategist for its Supply Chain team. This strategist, according to Microsoft, will “coordinate the launch of physical Xbox games across all platforms, lead developm...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x9ba6z/new_job_listing_suggests_that_xbox_may_be_looking/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1x9e88m/huh_what_is_disallowed_about_this_name/",
+      "title": "Huh?! What is disallowed about this name",
+      "original_title": "Huh?! What is disallowed about this name",
+      "image": "https://preview.redd.it/az7cr8nxhawh1.jpeg?width=640&crop=smart&auto=webp&s=8949022c1b0a721cfd11f5f0b141eaa745a412b3",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-10-18",
+      "summary": "        submitted by    /u/Risk_Runner   [link] [comments] ...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1x9e88m/huh_what_is_disallowed_about_this_name/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1x976by/droiddeck_050_adds_epics_official_linux_launcher/",
+      "title": "DroidDeck 0.5.0 adds Epic’s official Linux launcher (running under FEX), so Epic games now launch through it for proper online services, EOS, and Steam Input.",
+      "original_title": "DroidDeck 0.5.0 adds Epic’s official Linux launcher (running under FEX), so Epic games now launch through it for proper online services, EOS, and Steam Input.",
+      "image": "https://external-preview.redd.it/60_sJ8XGKb3ka0lYUeVPRfcB9LyrogL4OG2cxrB2LqY.gif?width=640&crop=smart&s=11f1954274fae43f633cd571cafa033b0f636e52",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Epic News",
+      "date": "2026-10-18",
+      "summary": "      https://github.com/Droid-Deck/DroidDeck/releases/tag/0.5.0    submitted by    /u/mr_MADAFAKA   [link] [comments] ...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1x976by/droiddeck_050_adds_epics_official_linux_launcher/"
+    },
+    {
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1x8pitp/the_new_launcher_is_horrendous/",
+      "title": "The new launcher is horrendous",
+      "original_title": "The new launcher is horrendous",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-10-18",
+      "summary": "Is it faster than Steam to open? Maybe. But everything else about this launcher is atrocious. The Social tab takes up way to much space and unlike the old launcher, can not be hidden, the download speeds are inaccurate and constantly fluctuate which ...",
+      "sources": [
+        "r/EpicGamesPC"
+      ],
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1x8pitp/the_new_launcher_is_horrendous/"
     },
     {
       "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x8dk9i/kepler_l2_ps6_ram_and_ssd_costs_alone_are_over_680/",
@@ -487,214 +730,19 @@
       "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x83zmb/remaster_of_original_vampire_the_masquerade/"
     },
     {
-      "id": "https://www.techpowerup.com/353834/ps6-ram-and-storage-alone-reportedly-cost-sony-over-usd-680-claims-leaker",
-      "title": "PS6 RAM and Storage Alone Reportedly Cost Sony Over $680, Claims Leaker",
-      "original_title": "PS6 RAM and Storage Alone Reportedly Cost Sony Over $680, Claims Leaker",
-      "image": "https://tpucdn.com/img/mI7fH91sOOzBBX6E_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Rumor",
-      "date": "2026-10-17",
-      "summary": "The memory crunch looks like it is hitting the PlayStation 6 harder than expected. Hardware leaker KeplerL2 claims on NeoGAF that the RAM and NAND flash storage in Sony's next console alone cost over $680. He posted it as a reply to a forum member wh...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/353834/ps6-ram-and-storage-alone-reportedly-cost-sony-over-usd-680-claims-leaker"
-    },
-    {
-      "id": "https://www.techpowerup.com/353829/konami-president-says-ai-wont-significantly-change-the-games-market-creators-come-first",
-      "title": "Konami President Says AI Won't Significantly Change the Games Market, Creators Come First",
-      "original_title": "Konami President Says AI Won't Significantly Change the Games Market, Creators Come First",
-      "image": "https://tpucdn.com/img/H8vLjYBlqaYpRU7e_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-10-17",
-      "summary": "Konami Digital Entertainment president Hideki Hayakawa doesn't expect generative AI to shake up the games market much. In Konami Group's Integrated Report for the fiscal year ended March 2026, first spotted by Dengeki Online, Hayakawa responds to the...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/353829/konami-president-says-ai-wont-significantly-change-the-games-market-creators-come-first"
-    },
-    {
-      "id": "https://www.techpowerup.com/353827/rep-ritchie-torres-wants-gamers-to-own-the-games-they-buy-announces-power-to-the-players-act",
-      "title": "Rep. Ritchie Torres Wants Gamers to Own the Games They Buy, Announces Power To The Players Act",
-      "original_title": "Rep. Ritchie Torres Wants Gamers to Own the Games They Buy, Announces Power To The Players Act",
-      "image": "https://tpucdn.com/img/Yq4kmuBbOAIYhf2O_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-10-17",
-      "summary": "U.S. Representative Ritchie Torres (D-NY) has announced plans to introduce the \"Power To The Players Act,\" a federal bill that would direct the FTC to write rules making a game purchase actual ownership rather than a revocable license. Games that rel...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/353827/rep-ritchie-torres-wants-gamers-to-own-the-games-they-buy-announces-power-to-the-players-act"
-    },
-    {
-      "id": "https://www.techpowerup.com/353730/awol-vision-opens-pre-orders-for-luxvision-worlds-first-optical-shift-4k-120hz-projector",
-      "title": "AWOL Vision Opens Pre-Orders for LuxVision: World's First Optical-Shift 4K 120Hz Projector",
-      "original_title": "AWOL Vision Opens Pre-Orders for LuxVision: World's First Optical-Shift 4K 120Hz Projector",
-      "image": "https://tpucdn.com/img/t5ez0AGyZWfqNp3N_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-10-17",
-      "summary": "AWOL Vision, a global home entertainment brand delivering immersive audiovisual experiences through large-format displays, home cinema technology, and connected entertainment, announced that the AWOL LuxVision, first unveiled at IFA 2026, is now offi...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/353730/awol-vision-opens-pre-orders-for-luxvision-worlds-first-optical-shift-4k-120hz-projector"
-    },
-    {
-      "id": "https://www.techpowerup.com/353826/asus-makes-its-first-intel-arc-card-a-32-gb-arc-pro-b70-under-the-ugen-ai-brand",
-      "title": "ASUS Makes Its First Intel Arc Card, a 32 GB Arc Pro B70 Under the UGen AI Brand",
-      "original_title": "ASUS Makes Its First Intel Arc Card, a 32 GB Arc Pro B70 Under the UGen AI Brand",
-      "image": "https://tpucdn.com/img/0TNOoBH3O4MHuURc_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-10-17",
-      "summary": "ASUS has listed the UGen Arc Pro B70 32 GB on its website, which makes it the company's first Intel Arc graphics card. ASUS sat out both the Alchemist and Battlemage consumer generations, and its last Intel discrete card was the passively cooled Iris...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/353826/asus-makes-its-first-intel-arc-card-a-32-gb-arc-pro-b70-under-the-ugen-ai-brand"
-    },
-    {
-      "id": "https://www.techpowerup.com/353825/intel-razor-lake-ax-to-pack-700-tops-of-ai-compute",
-      "title": "Intel \"Razor Lake-AX\" to Pack 700 TOPS of AI Compute",
-      "original_title": "Intel \"Razor Lake-AX\" to Pack 700 TOPS of AI Compute",
-      "image": "https://tpucdn.com/img/cR6fo2QSGawJI9ZT_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-10-17",
-      "summary": "Intel's senior vice president, Cho Min-sung, announced at the Semiconductors Powering Humanoids summit in South Korea that the next-generation \"Razor Lake-AX\" platform will be a computing powerhouse, featuring 700 TOPS of AI compute on die. This mean...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/353825/intel-razor-lake-ax-to-pack-700-tops-of-ai-compute"
-    },
-    {
-      "id": "https://www.techpowerup.com/353629/block-ads-and-trackers-on-up-to-9-devices-with-this-usd-14-97-adguard-deal",
-      "title": "Block Ads and Trackers on Up to 9 Devices With This $14.97 AdGuard Deal",
-      "original_title": "Block Ads and Trackers on Up to 9 Devices With This $14.97 AdGuard Deal",
-      "image": "https://tpucdn.com/img/BnMA3fL2FZ53Qpi5_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-10-17",
-      "summary": "Most ad blockers protect one browser on one device, and covering a whole household usually means paying for several subscriptions. An AdGuard Family Plan lifetime subscription covers up to 9 devices, and it's on sale for $14.97 (reg. $169.99) during ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/353629/block-ads-and-trackers-on-up-to-9-devices-with-this-usd-14-97-adguard-deal"
-    },
-    {
-      "id": "https://www.techpowerup.com/353380/intel-core-ultra-4000-naming-reportedly-extends-to-nova-lake-hx-mobile-processors",
-      "title": "Intel Core Ultra 4000 Naming Reportedly Extends to \"Nova Lake-HX\" Mobile Processors",
-      "original_title": "Intel Core Ultra 4000 Naming Reportedly Extends to \"Nova Lake-HX\" Mobile Processors",
-      "image": "https://tpucdn.com/img/kxXebz6bV997Stp8_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-10-17",
-      "summary": "Intel's \"new\" four-digit Core Ultra 4000 naming apparently isn't limited to desktop chips. Prominent leaker Jaykihn says on X that \"Nova Lake-HX\" laptop processors will use the same four-number format, while H-series and suffix-less mobile chips cont...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/353380/intel-core-ultra-4000-naming-reportedly-extends-to-nova-lake-hx-mobile-processors"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x7t4bb/samson_developer_liquid_swords_goes_bankrupt/",
-      "title": "Samson developer Liquid Swords goes bankrupt",
-      "original_title": "Samson developer Liquid Swords goes bankrupt",
+      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1x8733c/warning_i_downloaded_and_tried_the_new_epic_game/",
+      "title": "[WARNING] I downloaded and tried the new epic game launcher, it's overlay caused some fps drop in some games, so I uninstalled it to reinstall the old normal version and it remove all games that were installed via epic games, almost 300GB of games gone in an instant",
+      "original_title": "[WARNING] I downloaded and tried the new epic game launcher, it's overlay caused some fps drop in some games, so I uninstalled it to reinstall the old normal version and it remove all games that were installed via epic games, almost 300GB of games gone in an instant",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
-      "category": "News",
-      "date": "2026-10-16",
-      "summary": "https://www.breakit.se/artikel/47736/christofer-sundbergs-studio-liquid-swords-i-konkurs-30-anstallda-drabbas \"The troubled game developer Liquid Swords has not paid salaries for several months. Now bankruptcy is definitely a fact, which means the st...",
+      "category": "Epic News",
+      "date": "2026-10-17",
+      "summary": "this might not be a problem for anyone with good internet connection, but for someone like me who is still struggling with slow internet, redownloading those games will take forever. so think twice before uninstalling the new epic launcher.    submit...",
       "sources": [
-        "r/GamingLeaksAndRumours"
+        "r/EpicGamesPC"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x7t4bb/samson_developer_liquid_swords_goes_bankrupt/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x7q1lf/sony_patents_machine_learning_frame_extrapolation/",
-      "title": "Sony patents Machine Learning Frame Extrapolation technique (Frame Generation with minimal additional lag)",
-      "original_title": "Sony patents Machine Learning Frame Extrapolation technique (Frame Generation with minimal additional lag)",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-10-16",
-      "summary": "In essence the patent describes an Auto Encoder model that takes previous frames, motion vectors as well as user input as input for the model, and attempt to generate the next frame before a new one is rendered.  This is similar to Frame Generation, ...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x7q1lf/sony_patents_machine_learning_frame_extrapolation/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x7kqpy/shrek_2_remastered_on_xbox_store_early_published/",
-      "title": "Shrek 2 Remastered on Xbox Store Early, Published By Aspyr",
-      "original_title": "Shrek 2 Remastered on Xbox Store Early, Published By Aspyr",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-10-16",
-      "summary": "https://www.xbox.com/en-US/games/store/shrek-2-remastered/9pcw6x6zqp4z (Edit: it's been removed, here's the gematsu link talking about it (will most likely be officially announced at id@xbox showcase on the 20th)) https://www.gematsu.com/2026/10/shre...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x7kqpy/shrek_2_remastered_on_xbox_store_early_published/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x7kxtc/phantom_blade_zeros_download_size_is_134857_gbs/",
-      "title": "Phantom Blade Zero's download size is 134.857 GBs, preload begins on October 27",
-      "original_title": "Phantom Blade Zero's download size is 134.857 GBs, preload begins on October 27",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-10-16",
-      "summary": "https://twitterviewer.net/PlaystationSize/status/2111124096125731313    submitted by    /u/Technical_Weird1991   [link] [comments]...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x7kxtc/phantom_blade_zeros_download_size_is_134857_gbs/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x7ns8j/smyths_toys_uk_retailer_has_listed_separate_zelda/",
-      "title": "Smyths Toys (UK retailer) has listed separate Zelda 40th Anniversary Edition Pro Controllers and Switch 2 consoles with user-replaceable batteries and a later release date, suggesting those who pre-ordered early will not get hardware with user-replaceable batteries",
-      "original_title": "Smyths Toys (UK retailer) has listed separate Zelda 40th Anniversary Edition Pro Controllers and Switch 2 consoles with user-replaceable batteries and a later release date, suggesting those who pre-ordered early will not get hardware with user-replaceable batteries",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-10-16",
-      "summary": "tl;dr: early 40th edition pre orders will be stuck with difficult to replace batteries while those who waited might potentially get the battery revision versions (in regions where these new revisions exist) Sources:  Original Switch 2 40th anniversar...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x7ns8j/smyths_toys_uk_retailer_has_listed_separate_zelda/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x7efe0/vampire_the_masquerade_bloodlines_remake/",
-      "title": "Vampire the Masquerade - Bloodlines remake mentioned by Genitorturers.",
-      "original_title": "Vampire the Masquerade - Bloodlines remake mentioned by Genitorturers.",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-10-16",
-      "summary": "https://www.reddit.com/r/vtmb/s/gk7dcJx735 Band involved with the original soundtrack for the game.     submitted by    /u/ThinWhiteDuke00   [link] [comments]...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x7efe0/vampire_the_masquerade_bloodlines_remake/"
+      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1x8733c/warning_i_downloaded_and_tried_the_new_epic_game/"
     }
   ]
 }
