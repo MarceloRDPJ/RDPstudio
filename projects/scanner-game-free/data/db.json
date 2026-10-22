@@ -1,28 +1,28 @@
 {
-  "last_updated": "2026-10-21T16:41:27",
-  "display_date": "21/10/2026 16:41",
+  "last_updated": "2026-10-22T16:42:06",
+  "display_date": "22/10/2026 16:42",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "654ms",
+    "latency": "50ms",
     "current_games": [
       {
-        "title": "Bad Cheese",
-        "description": "Bad Cheese is a psychological horror inspired by the eerie charm of 1920s animation. \nStep into the tiny paws of a mouse spending the weekend at home with a dysfunctional Dad while Mom's away. \nBe on your best behavior and KEEP DADDY HAPPY.",
-        "image": "https://cdn1.epicgames.com/spt-assets/6cbb0e3805c4436bafd028cafff48307/bad-cheese-16hj0.png",
-        "url": "https://store.epicgames.com/p/ae5d8fc5541f42eea105f64121dba382",
-        "price": "$12.99",
-        "start_date": "2026-10-15T15:00:00.000Z",
-        "end_date": "2026-10-22T15:00:00.000Z"
+        "title": "Sker Ritual",
+        "description": "The round-based co-op survival FPS and spin-off to the award-winning British horror, Maid of Sker. Play solo or up to 4 players to survive the supernatural onslaught of the Quiet Ones.",
+        "image": "https://cdn1.epicgames.com/spt-assets/43d96f4437e34c87b7eff08831d1b1de/sker-ritual-1tuka.png",
+        "url": "https://store.epicgames.com/p/8dbc8d70481d4c0b8412d3aec76a35a1",
+        "price": "$24.99",
+        "start_date": "2026-10-22T15:00:00.000Z",
+        "end_date": "2026-10-29T15:00:00.000Z"
       },
       {
-        "title": "Agent A: A puzzle in disguise",
-        "description": "A suave secret agent adventure game. Your mission (should you choose to accept) is to infiltrate enemy spy Ruby La Rouge’s secret hideaway and put a stop to her evil plans!",
-        "image": "https://cdn1.epicgames.com/spt-assets/45db4fbe68fe43f4b025dec2014d42e7/agent-a-a-puzzle-in-disguise-3cppl.png",
-        "url": "https://store.epicgames.com/p/agent-a-a-puzzle-in-disguise",
-        "price": "$19.99",
-        "start_date": "2026-10-15T15:00:00.000Z",
-        "end_date": "2026-10-22T15:00:00.000Z"
+        "title": "Home - A Unique Horror Adventure",
+        "description": "Home is a unique horror adventure set in a beautifully-realized pixel world. It’s a murder mystery with a twist – because you decide what ultimately happens.",
+        "image": "https://cdn1.epicgames.com/spt-assets/46fc0cdb9f164a848e916249a8f68fc7/home-1f6qi.png",
+        "url": "https://store.epicgames.com/p/ff70f2b02fd842f8961f7729af25cda9",
+        "price": "$4.99",
+        "start_date": "2026-10-22T15:00:00.000Z",
+        "end_date": "2026-10-29T15:00:00.000Z"
       }
     ],
     "upcoming_games": [
@@ -54,13 +54,22 @@
         "end_date": "2027-01-07T16:00:00.000Z"
       },
       {
-        "title": "Sker Ritual",
-        "description": "The round-based co-op survival FPS and spin-off to the award-winning British horror, Maid of Sker. Play solo or up to 4 players to survive the supernatural onslaught of the Quiet Ones.",
-        "image": "https://cdn1.epicgames.com/spt-assets/43d96f4437e34c87b7eff08831d1b1de/sker-ritual-1tuka.png",
-        "url": "https://store.epicgames.com/p/8dbc8d70481d4c0b8412d3aec76a35a1",
+        "title": "Sorry We're Closed",
+        "description": "Sorry We're Closed is a story-driven survival horror game about demons, angels and what happens when both sides collide. A mix of fixed-camera exploration and arcade-style shooting where Michelle must use her Third Eye to see between worlds, uncover secrets and solve puzzles.",
+        "image": "https://cdn1.epicgames.com/spt-assets/9ab7eaaeb2f041969b350955b789f0f7/sorry-were-closed-1orqh.png",
+        "url": "https://store.epicgames.com/p/f2dae10b3c45425ba1e91b4604262283",
         "price": "$24.99",
-        "start_date": "2026-10-22T15:00:00.000Z",
-        "end_date": "2026-10-29T15:00:00.000Z"
+        "start_date": "2026-12-10T16:00:00.000Z",
+        "end_date": "2027-01-07T16:00:00.000Z"
+      },
+      {
+        "title": "Sorry We're Closed",
+        "description": "Sorry We're Closed is a story-driven survival horror game about demons, angels and what happens when both sides collide. A mix of fixed-camera exploration and arcade-style shooting where Michelle must use her Third Eye to see between worlds, uncover secrets and solve puzzles.",
+        "image": "https://cdn1.epicgames.com/spt-assets/9ab7eaaeb2f041969b350955b789f0f7/sorry-were-closed-1orqh.png",
+        "url": "https://store.epicgames.com/p/f2dae10b3c45425ba1e91b4604262283",
+        "price": "$24.99",
+        "start_date": "2026-10-29T15:00:00.000Z",
+        "end_date": "2026-11-05T16:00:00.000Z"
       },
       {
         "title": "Monument Valley",
@@ -70,49 +79,40 @@
         "price": "$7.99",
         "start_date": "2026-12-10T16:00:00.000Z",
         "end_date": "2027-01-07T16:00:00.000Z"
-      },
-      {
-        "title": "Home - A Unique Horror Adventure",
-        "description": "Home is a unique horror adventure set in a beautifully-realized pixel world. It’s a murder mystery with a twist – because you decide what ultimately happens.",
-        "image": "https://cdn1.epicgames.com/spt-assets/46fc0cdb9f164a848e916249a8f68fc7/home-1f6qi.png",
-        "url": "https://store.epicgames.com/p/ff70f2b02fd842f8961f7729af25cda9",
-        "price": "$4.99",
-        "start_date": "2026-10-22T15:00:00.000Z",
-        "end_date": "2026-10-29T15:00:00.000Z"
       }
     ],
     "mystery_detected": false
   },
   "items": [
     {
-      "id": "https://store.epicgames.com/p/ae5d8fc5541f42eea105f64121dba382",
-      "title": "GRÁTIS: Bad Cheese",
-      "original_title": "Bad Cheese",
-      "image": "https://cdn1.epicgames.com/spt-assets/6cbb0e3805c4436bafd028cafff48307/bad-cheese-16hj0.png",
+      "id": "https://store.epicgames.com/p/8dbc8d70481d4c0b8412d3aec76a35a1",
+      "title": "GRÁTIS: Sker Ritual",
+      "original_title": "Sker Ritual",
+      "image": "https://cdn1.epicgames.com/spt-assets/43d96f4437e34c87b7eff08831d1b1de/sker-ritual-1tuka.png",
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-10-21",
-      "summary": "Bad Cheese is a psychological horror inspired by the eerie charm of 1920s animation. \nStep into the tiny paws of a mouse spending the weekend at home with a dysfunctional Dad while Mom's away. \nBe on your best behavior and KEEP DADDY HAPPY.",
+      "date": "2026-10-22",
+      "summary": "The round-based co-op survival FPS and spin-off to the award-winning British horror, Maid of Sker. Play solo or up to 4 players to survive the supernatural onslaught of the Quiet Ones.",
       "sources": [
         "Epic Games Store"
       ],
-      "url": "https://store.epicgames.com/p/ae5d8fc5541f42eea105f64121dba382"
+      "url": "https://store.epicgames.com/p/8dbc8d70481d4c0b8412d3aec76a35a1"
     },
     {
-      "id": "https://store.epicgames.com/p/agent-a-a-puzzle-in-disguise",
-      "title": "GRÁTIS: Agent A: A puzzle in disguise",
-      "original_title": "Agent A: A puzzle in disguise",
-      "image": "https://cdn1.epicgames.com/spt-assets/45db4fbe68fe43f4b025dec2014d42e7/agent-a-a-puzzle-in-disguise-3cppl.png",
+      "id": "https://store.epicgames.com/p/ff70f2b02fd842f8961f7729af25cda9",
+      "title": "GRÁTIS: Home - A Unique Horror Adventure",
+      "original_title": "Home - A Unique Horror Adventure",
+      "image": "https://cdn1.epicgames.com/spt-assets/46fc0cdb9f164a848e916249a8f68fc7/home-1f6qi.png",
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-10-21",
-      "summary": "A suave secret agent adventure game. Your mission (should you choose to accept) is to infiltrate enemy spy Ruby La Rouge’s secret hideaway and put a stop to her evil plans!",
+      "date": "2026-10-22",
+      "summary": "Home is a unique horror adventure set in a beautifully-realized pixel world. It’s a murder mystery with a twist – because you decide what ultimately happens.",
       "sources": [
         "Epic Games Store"
       ],
-      "url": "https://store.epicgames.com/p/agent-a-a-puzzle-in-disguise"
+      "url": "https://store.epicgames.com/p/ff70f2b02fd842f8961f7729af25cda9"
     },
     {
       "id": "https://store.epicgames.com/p/ghostrunner-2",
@@ -122,7 +122,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-10-21",
+      "date": "2026-10-22",
       "summary": "Disponível gratuitamente a partir de 10/12. Ghostrunner 2 is a hardcore FPP slasher set in a post-apocalyptic, cyberpunk world. Featuring everything fans loved about Ghostrunner plus incredible boss fights, new interactive story, thrilling motorbike levels, improved skills, and more cyber ninja action. ",
       "sources": [
         "Epic Games Store"
@@ -137,7 +137,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-10-21",
+      "date": "2026-10-22",
       "summary": "Disponível gratuitamente a partir de 01/11. Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
@@ -152,7 +152,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-10-21",
+      "date": "2026-10-22",
       "summary": "Disponível gratuitamente a partir de 10/12. Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
@@ -160,19 +160,34 @@
       "url": "https://store.epicgames.com/p/lisa-the-definitive-edition"
     },
     {
-      "id": "https://store.epicgames.com/p/8dbc8d70481d4c0b8412d3aec76a35a1",
-      "title": "EM BREVE: Sker Ritual",
-      "original_title": "Sker Ritual",
-      "image": "https://cdn1.epicgames.com/spt-assets/43d96f4437e34c87b7eff08831d1b1de/sker-ritual-1tuka.png",
+      "id": "https://store.epicgames.com/p/f2dae10b3c45425ba1e91b4604262283",
+      "title": "EM BREVE: Sorry We're Closed",
+      "original_title": "Sorry We're Closed",
+      "image": "https://cdn1.epicgames.com/spt-assets/9ab7eaaeb2f041969b350955b789f0f7/sorry-were-closed-1orqh.png",
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-10-21",
-      "summary": "Disponível gratuitamente a partir de 22/10. The round-based co-op survival FPS and spin-off to the award-winning British horror, Maid of Sker. Play solo or up to 4 players to survive the supernatural onslaught of the Quiet Ones.",
+      "date": "2026-10-22",
+      "summary": "Disponível gratuitamente a partir de 10/12. Sorry We're Closed is a story-driven survival horror game about demons, angels and what happens when both sides collide. A mix of fixed-camera exploration and arcade-style shooting where Michelle must use her Third Eye to see between worlds, uncover secrets and solve puzzles.",
       "sources": [
         "Epic Games Store"
       ],
-      "url": "https://store.epicgames.com/p/8dbc8d70481d4c0b8412d3aec76a35a1"
+      "url": "https://store.epicgames.com/p/f2dae10b3c45425ba1e91b4604262283"
+    },
+    {
+      "id": "https://store.epicgames.com/p/f2dae10b3c45425ba1e91b4604262283",
+      "title": "EM BREVE: Sorry We're Closed",
+      "original_title": "Sorry We're Closed",
+      "image": "https://cdn1.epicgames.com/spt-assets/9ab7eaaeb2f041969b350955b789f0f7/sorry-were-closed-1orqh.png",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-10-22",
+      "summary": "Disponível gratuitamente a partir de 29/10. Sorry We're Closed is a story-driven survival horror game about demons, angels and what happens when both sides collide. A mix of fixed-camera exploration and arcade-style shooting where Michelle must use her Third Eye to see between worlds, uncover secrets and solve puzzles.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/f2dae10b3c45425ba1e91b4604262283"
     },
     {
       "id": "https://store.epicgames.com/p/monument-valley-02",
@@ -182,7 +197,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-10-21",
+      "date": "2026-10-22",
       "summary": "Disponível gratuitamente a partir de 10/12. Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
       "sources": [
         "Epic Games Store"
@@ -190,289 +205,244 @@
       "url": "https://store.epicgames.com/p/monument-valley-02"
     },
     {
-      "id": "https://store.epicgames.com/p/ff70f2b02fd842f8961f7729af25cda9",
-      "title": "EM BREVE: Home - A Unique Horror Adventure",
-      "original_title": "Home - A Unique Horror Adventure",
-      "image": "https://cdn1.epicgames.com/spt-assets/46fc0cdb9f164a848e916249a8f68fc7/home-1f6qi.png",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-10-21",
-      "summary": "Disponível gratuitamente a partir de 22/10. Home is a unique horror adventure set in a beautifully-realized pixel world. It’s a murder mystery with a twist – because you decide what ultimately happens.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/ff70f2b02fd842f8961f7729af25cda9"
-    },
-    {
-      "id": "https://www.eurogamer.net/cyberpunk-2077-update-edgerunners-2-mod-support",
-      "title": "CD Projekt Red details new Cyberpunk 2077 update - adding dual-wielding, cross-platform mods, Edgerunners story quests, and more",
-      "original_title": "CD Projekt Red details new Cyberpunk 2077 update - adding dual-wielding, cross-platform mods, Edgerunners story quests, and more",
-      "image": "https://assetsio.gnwcdn.com/judy-cyberpunk.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/video-games-down-php-vulnerability",
+      "title": "Final Fantasy 14, Umamusume: Pretty Derby, and more impacted as PHP vulnerability outages hit games around the globe",
+      "original_title": "Final Fantasy 14, Umamusume: Pretty Derby, and more impacted as PHP vulnerability outages hit games around the globe",
+      "image": "https://assetsio.gnwcdn.com/Final-Fantasy-14-Dawntrail-Review-5-Wuk-Lamat-.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-10-21",
-      "summary": " CD Projekt Red has detailed the substantial update coming to Cyberpunk 2077, revealing a new dual-wielding skill for pistols and revolvers, cyberware customisation, cross-platform mod support, and a brand-new Edgerunners-related story quest featurin...",
+      "date": "2026-10-22",
+      "summary": " Multiple games - including Final Fantasy 14 and Umamusume: Pretty Derby - have faced outages and other issues following this week's discovery of a serious PHP vulnerability. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/cyberpunk-2077-update-edgerunners-2-mod-support"
+      "url": "https://www.eurogamer.net/video-games-down-php-vulnerability"
     },
     {
-      "id": "https://www.eurogamer.net/beyond-good-and-evil-bge2-report-ubisoft",
-      "title": "Beyond Good & Evil 2 reportedly still in development 18 years after being announced, now a \"solo-first\" adventure",
-      "original_title": "Beyond Good & Evil 2 reportedly still in development 18 years after being announced, now a \"solo-first\" adventure",
-      "image": "https://assetsio.gnwcdn.com/pejy-bge2-beyond-good-and-evil-2-pig.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/cancelled-mass-effect-bioware-unprecedented-levels-of-autonomy",
+      "title": "BioWare's cancelled Mass Effect game would've learned from Baldur's Gate 3 and The Witcher to deliver \"a level of autonomy and choice that no other game has\"",
+      "original_title": "BioWare's cancelled Mass Effect game would've learned from Baldur's Gate 3 and The Witcher to deliver \"a level of autonomy and choice that no other game has\"",
+      "image": "https://assetsio.gnwcdn.com/mass-effect-shepard-sad.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-10-21",
-      "summary": " Beyond Good & Evil 2 is reportedly still in pre-production a staggering 18 years after it was first announced, and it has apparently evolved from being a multiplayer-first project to being \"solo-first\" and story based, with additional, optional co-o...",
+      "date": "2026-10-22",
+      "summary": " EA has closed its longtime studio partner BioWare, the iconic development house behind Mass Effect and Dragon Age, impacting around 50 staff who were in pre-production on the next Mass Effect game. In the aftermath of EA's decision, one of those aff...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/beyond-good-and-evil-bge2-report-ubisoft"
+      "url": "https://www.eurogamer.net/cancelled-mass-effect-bioware-unprecedented-levels-of-autonomy"
     },
     {
-      "id": "https://www.eurogamer.net/world-of-warcraft-forever-beta-extended",
-      "title": "World of Warcraft: Forever's beta has been extended, as community members mourn the loss of their hunter pets",
-      "original_title": "World of Warcraft: Forever's beta has been extended, as community members mourn the loss of their hunter pets",
-      "image": "https://assetsio.gnwcdn.com/world-of-warcraft-forever-camp.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/marvels-wolverine-top-seling-september-us-circana",
+      "title": "Despite its mixed reception, Marvel's Wolverine was September's top-selling new game in the US, making Sony launch revenues it hasn't seen since Helldivers 2",
+      "original_title": "Despite its mixed reception, Marvel's Wolverine was September's top-selling new game in the US, making Sony launch revenues it hasn't seen since Helldivers 2",
+      "image": "https://assetsio.gnwcdn.com/marvel's-wolverine-logan-launching-at-a-reaver.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-10-21",
-      "summary": " World of Warcraft: Forever's beta has been extended until this Friday, much to the joy of the community of early players. Read more...",
+      "date": "2026-10-22",
+      "summary": " Marvel's Wolverine may not have had the best critical reception, but that clearly didn't discourage consumers. The action-adventure from Marvel's Spider-Man studio Insomniac has topped US video game sales in September, despite releasing exactly half...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/world-of-warcraft-forever-beta-extended"
+      "url": "https://www.eurogamer.net/marvels-wolverine-top-seling-september-us-circana"
     },
     {
-      "id": "https://www.eurogamer.net/xbox-series-x-s-amd-fsr-4-1-upscaling",
-      "title": "Xbox follows in PlayStation's footsteps, introducing AMD FSR 4.1, targeting better graphics and performance on Series X/S",
-      "original_title": "Xbox follows in PlayStation's footsteps, introducing AMD FSR 4.1, targeting better graphics and performance on Series X/S",
-      "image": "https://assetsio.gnwcdn.com/Untitled-1_4YYolkc.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/video-game-industry-reacts-to-bioware-closure",
+      "title": "Games industry mourns sudden BioWare closure - \"Anyone who participated in this travesty should be ashamed\"",
+      "original_title": "Games industry mourns sudden BioWare closure - \"Anyone who participated in this travesty should be ashamed\"",
+      "image": "https://assetsio.gnwcdn.com/solas_dragon_age_veilguard.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-10-21",
-      "summary": " AMD, the company that designs the chips inside Xbox and PlayStation consoles, made a big announcement this week: it's bringing the latest version of its advanced, AI-driven image upscaling technology, FSR 4.1, to Xbox Series X, Series S, and handhel...",
+      "date": "2026-10-22",
+      "summary": " Following the sudden closure of Bioware last night, people from across the games industry have shared their sympathies for those employees losing their jobs, and said farewell to one of the most influential RPG developers of all time. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/xbox-series-x-s-amd-fsr-4-1-upscaling"
+      "url": "https://www.eurogamer.net/video-game-industry-reacts-to-bioware-closure"
     },
     {
-      "id": "https://www.eurogamer.net/stranger-than-heaven-preview",
-      "title": "After a few hours with Yakuza studio's soulful Stranger Than Heaven, I'm smitten, but I suspect it'll be a divisive game",
-      "original_title": "After a few hours with Yakuza studio's soulful Stranger Than Heaven, I'm smitten, but I suspect it'll be a divisive game",
-      "image": "https://assetsio.gnwcdn.com/stranger-than-heaven-header-2.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/ea-cuts-massive-ripple-effect-motive-full-circle-respawn",
+      "title": "Following shock BioWare closure, scope of EA job cuts becomes clear as layoffs hit Respawn, Maxis, Full Circle, EA Motive, and more",
+      "original_title": "Following shock BioWare closure, scope of EA job cuts becomes clear as layoffs hit Respawn, Maxis, Full Circle, EA Motive, and more",
+      "image": "https://assetsio.gnwcdn.com/apex-legends-season-24-ash-and-ballistic-promo-art.png?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-10-21",
-      "summary": " Who doesn't love a big swing, a bold new direction, especially when so many video game publishers seem increasingly determined to walk the safest route?  While Stranger Than Heaven might look familiar at first glance -  particularly if you're a fan ...",
+      "date": "2026-10-22",
+      "summary": " EA announced overnight it's closing Mass Effect and Dragon Age studio BioWare in a new round of cuts that include the elimination of 400 roles across the publisher. But while it confirmed BioWare's 50 workers are affected, and that Skate studio Ripp...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/stranger-than-heaven-preview"
+      "url": "https://www.eurogamer.net/ea-cuts-massive-ripple-effect-motive-full-circle-respawn"
     },
     {
-      "id": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-dmz-spawn-runover",
-      "title": "COD: Modern Warfare 4 DMZ players are spawning in the middle of a road and being flattened before they can do anything",
-      "original_title": "COD: Modern Warfare 4 DMZ players are spawning in the middle of a road and being flattened before they can do anything",
-      "image": "https://assetsio.gnwcdn.com/modern-warfare-4-dmz-screen-2-crop.jpeg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/xbox-cloud-gaming-prices-revealed",
+      "title": "Xbox cloud gaming prices revealed, with 50 hours of ad-free game-time priced $11.99",
+      "original_title": "Xbox cloud gaming prices revealed, with 50 hours of ad-free game-time priced $11.99",
+      "image": "https://assetsio.gnwcdn.com/asobo-talks-opening-up-flight-simulators-world-to-everyone-via-xbox-cloud-gaming-1646154881580.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-10-21",
-      "summary": " Infinity Ward opened up early access to Call of Duty: Modern Warfare 4's DMZ extraction mode overnight, meaning anyone who has pre-ordered a copy can now play the game's campaign as well as DMZ. And while early reactions to DMZ are fairly positive, ...",
+      "date": "2026-10-22",
+      "summary": " Microsoft has revealed how much its Xbox cloud gaming service is going to cost, with 50 hours of stream-time selling for an introductory price of $11.99. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-dmz-spawn-runover"
+      "url": "https://www.eurogamer.net/xbox-cloud-gaming-prices-revealed"
     },
     {
-      "id": "https://www.eurogamer.net/dawn-of-war-4-blood-ravens-space-marine-origins-questions",
-      "title": "Warhammer 40K fans have some very specific questions about the Blood Ravens' origins, so I put them to Dawn of War 4's director",
-      "original_title": "Warhammer 40K fans have some very specific questions about the Blood Ravens' origins, so I put them to Dawn of War 4's director",
-      "image": "https://assetsio.gnwcdn.com/blood-ravens-lore.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/star-wars-battlefront-3-developer-respawn-dice-report",
+      "title": "Star Wars: Battlefront 3 reportedly being co-developed by Battlefield studio DICE and Apex Legends studio Respawn",
+      "original_title": "Star Wars: Battlefront 3 reportedly being co-developed by Battlefield studio DICE and Apex Legends studio Respawn",
+      "image": "https://assetsio.gnwcdn.com/ea-is-forging-ahead-with-star-wars-titles-despite-end-of-exclusivity-deal-1612351239770.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-10-21",
-      "summary": " Right, let's get one important thing out of the way first: I've played a fair bit more of Dawn of War 4's main campaign, after my initial impressions of a single mission last year, and I think it is very good. The action is as screen-filling as ever...",
+      "date": "2026-10-22",
+      "summary": " A new Star Wars: Battlefront game is reportedly in the works, and it's said to have Apex Legends and Star Wars Jedi studio Respawn working on it, as well as Battlefield and Battlefront developer DICE. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/dawn-of-war-4-blood-ravens-space-marine-origins-questions"
+      "url": "https://www.eurogamer.net/star-wars-battlefront-3-developer-respawn-dice-report"
     },
     {
-      "id": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-parry-melee-best-moments",
-      "title": "Even Call of Duty has a parry now and it's kind of brilliant - but do we need it in every game?",
-      "original_title": "Even Call of Duty has a parry now and it's kind of brilliant - but do we need it in every game?",
-      "image": "https://assetsio.gnwcdn.com/modern-warfare-4-price-parry-prompt-header.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-10-21",
-      "summary": " I, for my sins, enjoy parry mechanics. I use 'parry slop' lovingly as a shorthand to refer to action games I want to play which feature parrying as a predominant mechanic. I am also a Call of Duty campaign enjoyer, and those games rarely feature any...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-parry-melee-best-moments"
-    },
-    {
-      "id": "https://www.eurogamer.net/xbox-game-pass-list-october-2026",
-      "title": "Here's our second wave of Xbox Game Pass games for October 2026",
-      "original_title": "Here's our second wave of Xbox Game Pass games for October 2026",
-      "image": "https://assetsio.gnwcdn.com/mouthwashing-2.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-10-21",
-      "summary": " Microsoft has revealed the second batch of games coming to Xbox Game Pass this month, and there are few genuine corkers, including the console debuts of The Séance of Blake Manor and  Mouthwashing, and the addition of Final Fantasy 7 Remake Intergra...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/xbox-game-pass-list-october-2026"
-    },
-    {
-      "id": "https://www.eurogamer.net/subnautica-2-scariest-region-ever-made-update",
-      "title": "Subnautica 2 adding its \"scariest\" region ever in next major update, the developers say",
-      "original_title": "Subnautica 2 adding its \"scariest\" region ever in next major update, the developers say",
-      "image": "https://assetsio.gnwcdn.com/subnautica-2-header-2.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-10-21",
-      "summary": " Subnautica 2 has begun its \"voyage to Early Access 2.0\", developer Unknown Worlds has said, with the revelation of a new update containing the \"scariest\" region they've ever made for the underwater game. Delightful. Read more...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/subnautica-2-scariest-region-ever-made-update"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xbk3yh/beyond_good_evil_2_is_still_in_preproduction_at/",
-      "title": "Beyond Good & Evil 2 is still in pre-production at Ubisoft Montpellier with a new focus on a \"solo first\" experience",
-      "original_title": "Beyond Good & Evil 2 is still in pre-production at Ubisoft Montpellier with a new focus on a \"solo first\" experience",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xcmjtx/former_bioware_employee_uploads_trailer_for_the/",
+      "title": "Former BioWare employee uploads trailer for the cancelled Mass Effect Universe.",
+      "original_title": "Former BioWare employee uploads trailer for the cancelled Mass Effect Universe.",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
       "category": "News",
-      "date": "2026-10-21",
-      "summary": " Switching to single-player mainly with a strong story that can also be playable in co-op. At least 250 people working on it currently, the project is now looking to go into the alpha stage Still being built using the Voyager Engine, described as \"lo...",
+      "date": "2026-10-22",
+      "summary": "Found this on r/masseffect: https://www.reddit.com/r/masseffect/comments/1xc8nqi/according_to_an_employee_there_was_a_trailer_for/19rhgxp2ts23k/    submitted by    /u/ShiSensei   [link] [comments]...",
       "sources": [
         "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xbk3yh/beyond_good_evil_2_is_still_in_preproduction_at/"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xcmjtx/former_bioware_employee_uploads_trailer_for_the/"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xbfknr/kepler_l2_ps6_costs_200_less_to_make_than_magnus/",
-      "title": "Kepler_L2: PS6 costs $200 less to make than Magnus (next-gen Xbox)",
-      "original_title": "Kepler_L2: PS6 costs $200 less to make than Magnus (next-gen Xbox)",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xcijov/kotaku_gears_of_war_eday_cost_over_500_million_to/",
+      "title": "[Kotaku] - Gears Of War: E-Day Cost Over $500 Million To Make",
+      "original_title": "[Kotaku] - Gears Of War: E-Day Cost Over $500 Million To Make",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
       "category": "News",
-      "date": "2026-10-21",
-      "summary": " Back in October 2025, he reported the cost difference as $600 (PS5) and $1200 (Xbox) so just goes to show how much the memory crisis has affected these prices  Source: https://twitterviewer.net/Kepler_L2/status/2112645711456313687    submitted by   ...",
+      "date": "2026-10-22",
+      "summary": "https://kotaku.com/the-case-for-exclusivity-when-gears-of-war-e-day-cost-over-500-million-to-make-2000747986 By Ethan Gach  Gears of War: E-Day is a terrific game and it has the highest Metacritic score of any entry in the franchise since the origina...",
       "sources": [
         "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xbfknr/kepler_l2_ps6_costs_200_less_to_make_than_magnus/"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xcijov/kotaku_gears_of_war_eday_cost_over_500_million_to/"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xb9czx/the_information_private_equity_firms_weighed_100/",
-      "title": "The Information: 'Private Equity Firms Weighed $100 Billion-Plus Buyout of Microsoft’s Xbox'",
-      "original_title": "The Information: 'Private Equity Firms Weighed $100 Billion-Plus Buyout of Microsoft’s Xbox'",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xcn7wc/mass_effect_5_leaked_trailer/",
+      "title": "Mass Effect 5 (Leaked Trailer)",
+      "original_title": "Mass Effect 5 (Leaked Trailer)",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
-      "category": "News",
-      "date": "2026-10-21",
-      "summary": "https://www.theinformation.com/articles/private-equity-firms-weighed-100-billion-plus-buyout-microsofts-xbox Cliff notes from Wario64 since the article is behind a paywall: -PE firms valued Xbox between $100 billion and $150 billion  -Short-lived dis...",
+      "category": "Rumor",
+      "date": "2026-10-22",
+      "summary": "Mass Effect 5, leaked trailer from Mass Effect subreddit: https://gofile.io/d/DJ8CePQG    submitted by    /u/Bubbla_24285   [link] [comments]...",
       "sources": [
         "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xb9czx/the_information_private_equity_firms_weighed_100/"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xcn7wc/mass_effect_5_leaked_trailer/"
     },
     {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1xbhju9/the_wolf_among_us_remastered_will_be_50_off_for/",
-      "title": "The Wolf Among Us Remastered will be 50% off for owners of the original game",
-      "original_title": "The Wolf Among Us Remastered will be 50% off for owners of the original game",
-      "image": "https://preview.redd.it/x8m8o8tn6swh1.jpeg?width=640&crop=smart&auto=webp&s=f7524376af09d3978cd6dd86fde04589777e8d5e",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-10-21",
-      "summary": "      https://telltale.com/games/the-wolf-among-us-remastered/launch-discount    submitted by    /u/mr_MADAFAKA   [link] [comments] ...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1xbhju9/the_wolf_among_us_remastered_will_be_50_off_for/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1xb9m3h/the_new_launchers_design_needs_a_fix_asap/",
-      "title": "The new launcher's design needs a fix asap",
-      "original_title": "The new launcher's design needs a fix asap",
-      "image": "https://preview.redd.it/bnz3fjv10qwh1.jpeg?width=640&crop=smart&auto=webp&s=66616df82317709965dda2e3bfdf2b114482b03c",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-10-21",
-      "summary": "      Current one looks awful, especially with that big ass social tab.    submitted by    /u/Sea-Country8245   [link] [comments] ...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1xb9m3h/the_new_launchers_design_needs_a_fix_asap/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1xbrytf/what_should_i_get/",
-      "title": "What should I get",
-      "original_title": "What should I get",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xci97w/activisions_elsewhere_rpg_aims_to_compete_against/",
+      "title": "Activision’s Elsewhere RPG Aims to Compete Against GTA and Cyberpunk With “Reactive World” And Emergent Gameplay",
+      "original_title": "Activision’s Elsewhere RPG Aims to Compete Against GTA and Cyberpunk With “Reactive World” And Emergent Gameplay",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
       "category": "News",
-      "date": "2026-10-21",
-      "summary": "I have about 15 bucks in epic rewards. What should I get from the sale, or should wait for a better sale    submitted by    /u/Main_Confection_5094   [link] [comments]...",
+      "date": "2026-10-22",
+      "summary": "Activision’s Elsewhere studio is reportedly working on a third-person open-world RPG, which aims to rival the likes of GTA and Cyberpunk. Elsewhere is targeting a reactive world with emergent gameplay for its title, which hints that the game world re...",
       "sources": [
-        "r/EpicGamesPC"
+        "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1xbrytf/what_should_i_get/"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xci97w/activisions_elsewhere_rpg_aims_to_compete_against/"
     },
     {
-      "id": "https://www.techpowerup.com/353976/warhammer-40-000-dawn-of-war-iv-deploys-massive-game-overview-trailer",
-      "title": "(PR) Warhammer 40,000: Dawn of War IV Deploys Massive Game Overview Trailer",
-      "original_title": "(PR) Warhammer 40,000: Dawn of War IV Deploys Massive Game Overview Trailer",
-      "image": "https://tpucdn.com/img/vRsPQl8hLcvyajH2_thm.jpg",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xcelq3/star_wars_zero_company_might_be_getting_a_dlc_a/",
+      "title": "Star Wars: Zero Company might be getting a DLC + a new SW RPG early in dev?",
+      "original_title": "Star Wars: Zero Company might be getting a DLC + a new SW RPG early in dev?",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-10-22",
+      "summary": "Same source as the Jedi 3 in 2027 rumor made a post about the future of the SW games. Aside what we already know they mention a \"Zero Company DLC\" and a possible \"RPG by a new and recently successful studio\". It could be just their speculation though...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xcelq3/star_wars_zero_company_might_be_getting_a_dlc_a/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xcn90d/jez_corden_on_eday_budget_500m_figure_is_correct/",
+      "title": "Jez Corden on E-Day budget: $500m figure is correct, but unsure if it's entirely E-Day or The Coalition's OpEx for the last 7 years",
+      "original_title": "Jez Corden on E-Day budget: $500m figure is correct, but unsure if it's entirely E-Day or The Coalition's OpEx for the last 7 years",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-10-22",
+      "summary": "https://twstalker.com/JezCorden/status/2113291909523292462 \"they aint wrong on the figure, but seems to be some disagreement among my sources how that figure was allocated between e-day and general tc operations/atg contributions.\" Corden had dispute...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xcn90d/jez_corden_on_eday_budget_500m_figure_is_correct/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xcna3h/what_is_the_best_way_to_release_leaks_anonymously/",
+      "title": "What is the best way to release leaks anonymously?",
+      "original_title": "What is the best way to release leaks anonymously?",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Rumor",
+      "date": "2026-10-22",
+      "summary": "I have code from something. Friend of a friend sort of deal, how do I leak it anonymously?    submitted by    /u/dumname2_1   [link] [comments]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xcna3h/what_is_the_best_way_to_release_leaks_anonymously/"
+    },
+    {
+      "id": "https://www.techpowerup.com/354033/lg-display-reports-third-quarter-2026-results",
+      "title": "(PR) LG Display Reports Third Quarter 2026 Results",
+      "original_title": "(PR) LG Display Reports Third Quarter 2026 Results",
+      "image": "https://tpucdn.com/img/hOPlctGJWaFdGvz0_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-10-21",
-      "summary": "Deep Silver and KING Art Games today deployed the Game Overview trailer for Warhammer 40,000: Dawn of War IV, a colossal, nine-minute deep-dive into the biggest title in series history. Four playable factions, more than 70 missions, 30 multiplayer ma...",
+      "date": "2026-10-22",
+      "summary": "LG Display today reported unaudited earnings results based on consolidated K-IFRS (International Financial Reporting Standards) for the three-month period ending September 30, 2026.Revenues in the third quarter of 2026 increased by 12% to KRW 6,277 b...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/353976/warhammer-40-000-dawn-of-war-iv-deploys-massive-game-overview-trailer"
+      "url": "https://www.techpowerup.com/354033/lg-display-reports-third-quarter-2026-results"
     },
     {
-      "id": "https://www.techpowerup.com/353974/razer-unveils-kraken-kitty-v3-wired-rgb-headset",
-      "title": "(PR) Razer Unveils Kraken Kitty V3 Wired RGB Headset",
-      "original_title": "(PR) Razer Unveils Kraken Kitty V3 Wired RGB Headset",
-      "image": "https://tpucdn.com/img/iJXGv5KFVVHDx07b_thm.jpg",
+      "id": "https://www.techpowerup.com/354030/corsair-and-cd-projekt-red-return-to-night-city-with-two-new-cyberpunk-collections",
+      "title": "(PR) Corsair and CD Projekt Red Return to Night City With Two New Cyberpunk Collections",
+      "original_title": "(PR) Corsair and CD Projekt Red Return to Night City With Two New Cyberpunk Collections",
+      "image": "https://tpucdn.com/img/KnAWRFScfz2yb3q7_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-10-21",
-      "summary": "Razer, the leading global lifestyle brand for gamers, today announced the Razer Kraken Kitty V3, a wired RGB headset designed for streamers looking to showcase their style and engage with their community. Building on the legacy of the iconic Kraken K...",
+      "date": "2026-10-22",
+      "summary": "Corsair (Nasdaq: CRSR), a leading global developer and manufacturer of high-performance gear and technology for gamers, content creators, and PC enthusiasts, today announced two special edition collections of officially licensed gaming peripherals ma...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/353974/razer-unveils-kraken-kitty-v3-wired-rgb-headset"
+      "url": "https://www.techpowerup.com/354030/corsair-and-cd-projekt-red-return-to-night-city-with-two-new-cyberpunk-collections"
     },
     {
       "id": "https://www.techpowerup.com/353931/this-usd-39-99-ai-tool-turns-your-story-ideas-into-print-ready-illustrated-books",
@@ -482,7 +452,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-10-21",
+      "date": "2026-10-22",
       "summary": "AI image generators can draw a character once, but keeping that character's look consistent across page 12 usually means regenerating images repeatedly. Turning those images into a laid-out book takes another program on top of that. IllustratorMagic ...",
       "sources": [
         "TechPowerUp"
@@ -490,109 +460,169 @@
       "url": "https://www.techpowerup.com/353931/this-usd-39-99-ai-tool-turns-your-story-ideas-into-print-ready-illustrated-books"
     },
     {
-      "id": "https://www.techpowerup.com/353970/thermaltake-releases-view-590-tg-argb-mid-tower-chassis",
-      "title": "(PR) Thermaltake Releases View 590 TG ARGB Mid-Tower Chassis",
-      "original_title": "(PR) Thermaltake Releases View 590 TG ARGB Mid-Tower Chassis",
-      "image": "https://tpucdn.com/img/xkmzD8GWf1MwFl9C_thm.jpg",
+      "id": "https://www.techpowerup.com/353798/lattepanda-launches-lattepanda-sigma-2-the-embeddable-ai-single-board-server",
+      "title": "LattePanda Launches LattePanda Sigma 2: The Embeddable AI Single Board Server",
+      "original_title": "LattePanda Launches LattePanda Sigma 2: The Embeddable AI Single Board Server",
+      "image": "https://tpucdn.com/img/uUhk4796OGS7H1Tn_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-10-21",
-      "summary": "Thermaltake, a leading brand in gaming PCs, AI workstations, and gaming PC components, offering a comprehensive portfolio of PC cases, power supplies, cooling solutions, gaming peripherals, memory, and racing simulators, today introduces the View 590...",
+      "date": "2026-10-22",
+      "summary": "The LattePanda Team today launched LattePanda Sigma 2, an x86 single-board server designed to bring high-performance local AI computing directly into intelligent products and systems. Built around the Intel Core Ultra X7 358H processor with Intel Arc...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/353970/thermaltake-releases-view-590-tg-argb-mid-tower-chassis"
+      "url": "https://www.techpowerup.com/353798/lattepanda-launches-lattepanda-sigma-2-the-embeddable-ai-single-board-server"
     },
     {
-      "id": "https://www.techpowerup.com/353971/corsair-launches-rm1200e-power-supply-with-built-in-pinprotect-gpu-ocp",
-      "title": "(PR) Corsair Launches RM1200e Power Supply with Built-in PinProtect GPU OCP",
-      "original_title": "(PR) Corsair Launches RM1200e Power Supply with Built-in PinProtect GPU OCP",
-      "image": "https://tpucdn.com/img/EtPhI8boDlWWYq5q_thm.jpg",
+      "id": "https://www.techpowerup.com/354026/playstation-6-predicted-to-undercut-xbox-helix-by-usd-200",
+      "title": "PlayStation 6 Predicted to Undercut Xbox Helix by $200",
+      "original_title": "PlayStation 6 Predicted to Undercut Xbox Helix by $200",
+      "image": "https://tpucdn.com/img/haztMEBuI5gWtWry_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-10-21",
-      "summary": "Corsair is proud to announce the launch of the upgraded RM1200e with Platinum-certified efficiency, the new flagship of the best-selling RMe power supply family. It joins the latest generation of the RMe PSU series as a high-powered option for system...",
+      "date": "2026-10-22",
+      "summary": "The rumor mill has long been abuzz with estimations and updates about the supposed price of both the Xbox Helix and the PlayStation 6. The latest update from notable leaker, Kepler_L2 on X, suggests that Sony may have the upper-hand on pricing for th...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/353971/corsair-launches-rm1200e-power-supply-with-built-in-pinprotect-gpu-ocp"
+      "url": "https://www.techpowerup.com/354026/playstation-6-predicted-to-undercut-xbox-helix-by-usd-200"
     },
     {
-      "id": "https://www.techpowerup.com/353966/asus-ships-zenwifi-bn12-the-worlds-first-wifi-8-mesh-system",
-      "title": "(PR) ASUS Ships ZenWiFi BN12, the World's First WiFi 8 Mesh System",
-      "original_title": "(PR) ASUS Ships ZenWiFi BN12, the World's First WiFi 8 Mesh System",
-      "image": "https://tpucdn.com/img/xvOtE0zCWK6cojE2_thm.jpg",
+      "id": "https://www.techpowerup.com/354029/sama-introduces-s32-wood-compact-microatx-case-bundled-with-an-80-plus-gold-psu",
+      "title": "(PR) SAMA Introduces S32 WOOD Compact microATX Case Bundled with an 80 Plus Gold PSU",
+      "original_title": "(PR) SAMA Introduces S32 WOOD Compact microATX Case Bundled with an 80 Plus Gold PSU",
+      "image": "https://tpucdn.com/img/nTKILniZHVSW9KCq_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-10-21",
-      "summary": "ASUS today announced that the ASUS ZenWiFi BN12, the world's first WiFi 8 mesh router, originally unveiled at Computex, is now shipping. It combines ultra-high reliability with intelligent mesh coordination to deliver stable, efficient, and seamless ...",
+      "date": "2026-10-22",
+      "summary": "SAMA, a global leader in PC hardware, introduces the S32 WOOD and G650E/G850E bundle, combining a compact PC case with a 650 W or 850 W 80 Plus Gold-certified power supply. Designed to deliver excellent value, the bundles offer PC builders a convenie...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/353966/asus-ships-zenwifi-bn12-the-worlds-first-wifi-8-mesh-system"
+      "url": "https://www.techpowerup.com/354029/sama-introduces-s32-wood-compact-microatx-case-bundled-with-an-80-plus-gold-psu"
     },
     {
-      "id": "https://www.techpowerup.com/353730/awol-vision-opens-pre-orders-for-luxvision-worlds-first-optical-shift-4k-120hz-projector",
-      "title": "AWOL Vision Opens Pre-Orders for LuxVision: World's First Optical-Shift 4K 120Hz Projector",
-      "original_title": "AWOL Vision Opens Pre-Orders for LuxVision: World's First Optical-Shift 4K 120Hz Projector",
-      "image": "https://tpucdn.com/img/t5ez0AGyZWfqNp3N_thm.jpg",
+      "id": "https://www.techpowerup.com/354027/thermaltake-unveils-complete-lineup-of-ai-workstations-and-gaming-pcs",
+      "title": "(PR) Thermaltake Unveils Complete Lineup of AI Workstations and Gaming PCs",
+      "original_title": "(PR) Thermaltake Unveils Complete Lineup of AI Workstations and Gaming PCs",
+      "image": "https://tpucdn.com/img/oYOnDKFE5NEbvPml_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-10-21",
-      "summary": "AWOL Vision, a global home entertainment brand delivering immersive audiovisual experiences through large-format displays, home cinema technology, and connected entertainment, announced that the AWOL LuxVision, first unveiled at IFA 2026, is now offi...",
+      "date": "2026-10-22",
+      "summary": "Thermaltake, a leading brand in gaming PCs, AI workstations, and gaming PC components, offering a comprehensive portfolio of PC cases, power supplies, cooling solutions, gaming peripherals, memory, and racing simulators, today announced its complete ...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/353730/awol-vision-opens-pre-orders-for-luxvision-worlds-first-optical-shift-4k-120hz-projector"
+      "url": "https://www.techpowerup.com/354027/thermaltake-unveils-complete-lineup-of-ai-workstations-and-gaming-pcs"
     },
     {
-      "id": "https://www.techpowerup.com/353964/chieftec-launches-two-new-compact-cpu-coolers",
-      "title": "Chieftec Launches Two New Compact CPU Coolers",
-      "original_title": "Chieftec Launches Two New Compact CPU Coolers",
-      "image": "https://tpucdn.com/img/uL2BzpjEpYiDHk1A_thm.jpg",
+      "id": "https://www.techpowerup.com/354025/innodisk-launches-all-in-one-gmsl2-camera-starter-kit-to-accelerate-edge-ai-vision-deployment",
+      "title": "(PR) Innodisk Launches All-in-One GMSL2 Camera Starter Kit to Accelerate Edge AI Vision Deployment",
+      "original_title": "(PR) Innodisk Launches All-in-One GMSL2 Camera Starter Kit to Accelerate Edge AI Vision Deployment",
+      "image": "https://tpucdn.com/img/GSyuj5yVgTvZwCc4_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-10-21",
-      "summary": "Chieftec has launched two compact CPU coolers, the CAC-S90PWM-T120 tower cooler and the CAC-S92PWM-LP45 low-profile model. Both were first previewed at Computex 2026, as we reported earlier. They follow the recent release of the taller CAC-S120PWM-T1...",
+      "date": "2026-10-22",
+      "summary": "Innodisk, a leading global AI solution provider, today announced the Innodisk GMSL2 Camera Starter Kit, an all-in-one vision solution that bundles four 3MP GMSL2 camera modules, a capture card, FAKRA cables, and other necessary accessories.\n\nA milest...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/353964/chieftec-launches-two-new-compact-cpu-coolers"
+      "url": "https://www.techpowerup.com/354025/innodisk-launches-all-in-one-gmsl2-camera-starter-kit-to-accelerate-edge-ai-vision-deployment"
     },
     {
-      "id": "https://www.techpowerup.com/353963/microsoft-scales-back-copilot-integration-in-windows-11-removes-eight-file-explorer-actions",
-      "title": "Microsoft Scales Back Copilot Integration in Windows 11, Removes Eight File Explorer Actions",
-      "original_title": "Microsoft Scales Back Copilot Integration in Windows 11, Removes Eight File Explorer Actions",
-      "image": "https://tpucdn.com/img/tI3kXicLBcT3raFm_thm.jpg",
+      "id": "https://www.techpowerup.com/354024/eizo-releases-flexscan-ev2401s-energy-efficient-23-8-inch-monitor",
+      "title": "(PR) EIZO Releases FlexScan EV2401S Energy-Efficient 23.8-inch Monitor",
+      "original_title": "(PR) EIZO Releases FlexScan EV2401S Energy-Efficient 23.8-inch Monitor",
+      "image": "https://tpucdn.com/img/ZbIJ62SQiETmqxcJ_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-10-21",
-      "summary": "Microsoft is officially cutting back on forced AI adoption that has been troubling Windows 11 users by working to simplify AI use across its operating system. According to a report by Windows Latest, Microsoft is removing Copilot actions related to O...",
+      "date": "2026-10-22",
+      "summary": "EIZO Corporation (TSE: 6737) today announced the FlexScan EV2401S - a 23.8-inch Full HD (1920 x 1080) monitor designed for extended deployment across office and homework environments. Building on the proven performance of its predecessor, the EV2480,...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/353963/microsoft-scales-back-copilot-integration-in-windows-11-removes-eight-file-explorer-actions"
+      "url": "https://www.techpowerup.com/354024/eizo-releases-flexscan-ev2401s-energy-efficient-23-8-inch-monitor"
     },
     {
-      "id": "https://www.techpowerup.com/353957/synaptics-announces-astra-sr200-multimodal-edge-ai-processors-with-google-coral-npu",
-      "title": "(PR) Synaptics Announces Astra SR200 Multimodal Edge AI Processors with Google Coral NPU",
-      "original_title": "(PR) Synaptics Announces Astra SR200 Multimodal Edge AI Processors with Google Coral NPU",
-      "image": "https://tpucdn.com/img/m4usX7PahDuglpJs_thm.jpg",
+      "id": "https://www.techpowerup.com/354023/bose-corporation-acquires-skullcandy-expanding-its-consumer-audio-portfolio",
+      "title": "(PR) Bose Corporation Acquires Skullcandy, Expanding Its Consumer Audio Portfolio",
+      "original_title": "(PR) Bose Corporation Acquires Skullcandy, Expanding Its Consumer Audio Portfolio",
+      "image": "https://tpucdn.com/img/E0vQ3dWKU6GaqPyw_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-10-21",
-      "summary": "Synaptics Incorporated (Nasdaq: SYNA) today introduced the xMCU, a new class of microcontrollers that runs multimodal Edge AI, with the launch of the Synaptics Astra SR200 Series. Unlike conventional MCUs constrained by limited on-chip memory and com...",
+      "date": "2026-10-22",
+      "summary": "Bose Corporation, a global leader in audio innovation and research, announced today it has acquired Skullcandy, a lifestyle audio brand known for its bold products that bring together sound, style, and performance. Bose and Skullcandy have each spent...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/353957/synaptics-announces-astra-sr200-multimodal-edge-ai-processors-with-google-coral-npu"
+      "url": "https://www.techpowerup.com/354023/bose-corporation-acquires-skullcandy-expanding-its-consumer-audio-portfolio"
+    },
+    {
+      "id": "https://www.eurogamer.net/ea-cancels-sims-skate-400-layoffs",
+      "title": "EA cancels unannounced The Sims project, trims the Skate team and reportedly plans to lay off 400 workers: \"We're the number one publisher in Western HD gaming\"",
+      "original_title": "EA cancels unannounced The Sims project, trims the Skate team and reportedly plans to lay off 400 workers: \"We're the number one publisher in Western HD gaming\"",
+      "image": "https://assetsio.gnwcdn.com/the-sims-coach-collab.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-10-21",
+      "summary": " Not only is EA closing down BioWare and cancelling the next Mass Effect - Electronic Arts has now announced a heap of drastic changes that include cutting 400 jobs across the company, pausing development on a project connected to The Sims, and bring...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/ea-cancels-sims-skate-400-layoffs"
+    },
+    {
+      "id": "https://www.eurogamer.net/bioware-closing-down-mass-effect-5-cancelled",
+      "title": "BioWare is closing down and Mass Effect 5 is cancelled, months after Saudi Arabia's $55bn EA buyout",
+      "original_title": "BioWare is closing down and Mass Effect 5 is cancelled, months after Saudi Arabia's $55bn EA buyout",
+      "image": "https://assetsio.gnwcdn.com/image-(4)_hn7CZkQ.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-10-21",
+      "summary": " After over three decades of iconic RPGs, developer BioWare is closing down and its in-development Mass Effect game is no more. The move comes just months after corporate owner EA was bought out by a group of investment firms for $55 billion. Read mo...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/bioware-closing-down-mass-effect-5-cancelled"
+    },
+    {
+      "id": "https://www.eurogamer.net/soulslike-valor-mortis-making-profit-seven-days",
+      "title": "First-person Soulslike Valor Mortis is already making a profit after seven days, despite launching against some stiff competition",
+      "original_title": "First-person Soulslike Valor Mortis is already making a profit after seven days, despite launching against some stiff competition",
+      "image": "https://assetsio.gnwcdn.com/Valor-Mortis_nqM7WPG.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-10-21",
+      "summary": " Developer One More Level is wall-running toward another big success with its recently-released first-person Soulslike, Valor Mortis, which has already broken even after its first week. Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/soulslike-valor-mortis-making-profit-seven-days"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xbt0q7/ea_shuts_down_bioware_jason_schreier/",
+      "title": "EA Shuts Down BioWare - Jason Schreier",
+      "original_title": "EA Shuts Down BioWare - Jason Schreier",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-10-21",
+      "summary": "https://www.youtube.com/watch?v=GopCYu89gJ4 About 400 total people will lose their job, 50 of which are from BioWare    submitted by    /u/roohwaam   [link] [comments]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xbt0q7/ea_shuts_down_bioware_jason_schreier/"
     },
     {
       "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xawozt/minithread_idxbox_showcase/",
@@ -608,156 +638,6 @@
         "r/GamingLeaksAndRumours"
       ],
       "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xawozt/minithread_idxbox_showcase/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xazai2/fortune_major_game_pass_overhaul_12001800_nextgen/",
-      "title": "Fortune: Major Game Pass Overhaul, $1,200–$1,800 Next-Gen Console, 2027 Handheld, 2028 Console, and November Layoffs Planned. Tensions between Windows and Xbox Teams",
-      "original_title": "Fortune: Major Game Pass Overhaul, $1,200–$1,800 Next-Gen Console, 2027 Handheld, 2028 Console, and November Layoffs Planned. Tensions between Windows and Xbox Teams",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-10-20",
-      "summary": "Some scoops to note from this piece: - Xbox is planning a major overhaul of Game Pass that would have players choose features à la carte, including add-ons for console-only games, cloud gaming, and multiplayer. - Xbox and Windows teams have clashed o...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xazai2/fortune_major_game_pass_overhaul_12001800_nextgen/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xatln0/cyberpunk_2077_patch_250_content_revealed_early/",
-      "title": "Cyberpunk 2077 Patch 2.50 Content revealed early by YouTuber Was Nemo",
-      "original_title": "Cyberpunk 2077 Patch 2.50 Content revealed early by YouTuber Was Nemo",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-10-20",
-      "summary": "Summary of the video: - Dual Wielding PISTOLS in Cool Tree (Double Trouble perk) - New Edgerunners 2 Gig (Clampdown) - New NC Tour mystery Sidequest - 5 new clothing sets - new radio station w/ Edgerunners soundtracks - Glamdocs that customize your a...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xatln0/cyberpunk_2077_patch_250_content_revealed_early/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xb1fsd/us_alcohol_and_tobacco_tax_and_trade_bureau/",
-      "title": "US Alcohol and Tobacco Tax and Trade Bureau database reveals images and info for GTA 6 promotional Beers",
-      "original_title": "US Alcohol and Tobacco Tax and Trade Bureau database reveals images and info for GTA 6 promotional Beers",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-10-20",
-      "summary": "Article: https://www.gtavice.net/news/exclusive-gta-6-beer-labels-for-piwasser-patriot-and-no-mames-vice-city-discovered-in-official-us-database#google\\_vignette The entry showed 3 different lagers including Pißwasser, Patriot, and a No Mames Vice Ci...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xb1fsd/us_alcohol_and_tobacco_tax_and_trade_bureau/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xaykns/shrek_2_remastered_announced_releases_nov_10th/",
-      "title": "Shrek 2 Remastered announced, releases Nov 10th 2026",
-      "original_title": "Shrek 2 Remastered announced, releases Nov 10th 2026",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-10-20",
-      "summary": "Releases on PS5, Xbox Series, Switch 2, Switch, PC Link: https://youtu.be/CL36wpvgeis?is=zZFlwyII7VCI7TGC Leaks: https://www.reddit.com/r/GamingLeaksAndRumours/s/4vSgmZM2pt https://www.reddit.com/r/GamingLeaksAndRumours/s/cJf6TZCstX https://www.reddi...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xaykns/shrek_2_remastered_announced_releases_nov_10th/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xb1g5p/ea_sports_fight_night_is_coming_back/",
-      "title": "EA Sports Fight Night is coming back.",
-      "original_title": "EA Sports Fight Night is coming back.",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-10-20",
-      "summary": "Previous rumor that seems to have been right, judging by the dates: https://www.reddit.com/r/GamingLeaksAndRumours/comments/qqtz60/vgc_fight_night_revival_greenlit_by_ea/ To everyone who stayed in our corner: Fight Night is coming back. 🥊♥️ FightNigh...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xb1g5p/ea_sports_fight_night_is_coming_back/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1xazcwk/this_is_how_to_fix_epic_games_new_launcher/",
-      "title": "This is how to fix Epic Games new launcher",
-      "original_title": "This is how to fix Epic Games new launcher",
-      "image": "https://preview.redd.it/sn6mhofbwnwh1.jpeg?width=140&height=74&auto=webp&s=e0e5cd7ad225f7229629e495f2433e67598983e1",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Epic News",
-      "date": "2026-10-20",
-      "summary": "        submitted by    /u/AAN-_-TRUEMAN   [link] [comments] ...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1xazcwk/this_is_how_to_fix_epic_games_new_launcher/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1xaz4n7/how_epic_v2_should_look_once_they_are_done/",
-      "title": "How Epic v2 should look once they are done (compared to what we have now)",
-      "original_title": "How Epic v2 should look once they are done (compared to what we have now)",
-      "image": "https://preview.redd.it/zvg7scykunwh1.png?width=640&crop=smart&auto=webp&s=c6fbb5632aac321536348eb87bec3f83d623d818",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Epic News",
-      "date": "2026-10-20",
-      "summary": "      The biggest change of course collapsed friends list which can be expanded when needed.     submitted by    /u/EnvironmentalRun1671   [link] [comments] ...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1xaz4n7/how_epic_v2_should_look_once_they_are_done/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1xas0v1/kernel_hearts_developer_confirms_majority_of/",
-      "title": "Kernel Hearts developer confirms majority of sales are through Epic and discusses the benefits of the revenue sharing",
-      "original_title": "Kernel Hearts developer confirms majority of sales are through Epic and discusses the benefits of the revenue sharing",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Epic News",
-      "date": "2026-10-20",
-      "summary": "Interesting information with the game having done 160k sales so far and the majority of those sales being done through Epic, with every ten copies being split with six through Epic, three through Steam and one through Xbox. They also talk about how t...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1xas0v1/kernel_hearts_developer_confirms_majority_of/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1xauaua/heroic_flair_please/",
-      "title": "\"Heroic\" flair, please!",
-      "original_title": "\"Heroic\" flair, please!",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-10-20",
-      "summary": "Or a freely customisable one. Or both.    submitted by    /u/Otherwise_Rabbit3049   [link] [comments]...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1xauaua/heroic_flair_please/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1xaf0v1/sort_by_release_date/",
-      "title": "Sort by Release Date",
-      "original_title": "Sort by Release Date",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-10-20",
-      "summary": "Please add this as fast as you can, love you guyz<3 Sort by Release is really helpful    submitted by    /u/PiotrasLec   [link] [comments]...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1xaf0v1/sort_by_release_date/"
     }
   ]
 }
