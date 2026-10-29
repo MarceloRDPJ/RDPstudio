@@ -1,31 +1,40 @@
 {
-  "last_updated": "2026-10-28T17:56:30",
-  "display_date": "28/10/2026 17:56",
+  "last_updated": "2026-10-29T18:04:51",
+  "display_date": "29/10/2026 18:04",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "632ms",
+    "latency": "113ms",
     "current_games": [
       {
-        "title": "Sker Ritual",
-        "description": "The round-based co-op survival FPS and spin-off to the award-winning British horror, Maid of Sker. Play solo or up to 4 players to survive the supernatural onslaught of the Quiet Ones.",
-        "image": "https://cdn1.epicgames.com/spt-assets/43d96f4437e34c87b7eff08831d1b1de/sker-ritual-14x61.jpg",
-        "url": "https://store.epicgames.com/p/8dbc8d70481d4c0b8412d3aec76a35a1",
+        "title": "Sorry We're Closed",
+        "description": "Sorry We're Closed is a story-driven survival horror game about demons, angels and what happens when both sides collide. A mix of fixed-camera exploration and arcade-style shooting where Michelle must use her Third Eye to see between worlds, uncover secrets and solve puzzles.",
+        "image": "https://cdn1.epicgames.com/spt-assets/9ab7eaaeb2f041969b350955b789f0f7/sorry-were-closed-1orqh.png",
+        "url": "https://store.epicgames.com/p/f2dae10b3c45425ba1e91b4604262283",
         "price": "$24.99",
-        "start_date": "2026-10-22T15:00:00.000Z",
-        "end_date": "2026-10-29T15:00:00.000Z"
+        "start_date": "2026-10-19T15:00:00.000Z",
+        "end_date": "2026-11-02T16:00:00.000Z"
       },
       {
-        "title": "Home - A Unique Horror Adventure",
-        "description": "Home is a unique horror adventure set in a beautifully-realized pixel world. It’s a murder mystery with a twist – because you decide what ultimately happens.",
-        "image": "https://cdn1.epicgames.com/spt-assets/46fc0cdb9f164a848e916249a8f68fc7/home-1f6qi.png",
-        "url": "https://store.epicgames.com/p/ff70f2b02fd842f8961f7729af25cda9",
-        "price": "$4.99",
-        "start_date": "2026-10-22T15:00:00.000Z",
-        "end_date": "2026-10-29T15:00:00.000Z"
+        "title": "Sorry We're Closed",
+        "description": "Sorry We're Closed is a story-driven survival horror game about demons, angels and what happens when both sides collide. A mix of fixed-camera exploration and arcade-style shooting where Michelle must use her Third Eye to see between worlds, uncover secrets and solve puzzles.",
+        "image": "https://cdn1.epicgames.com/spt-assets/9ab7eaaeb2f041969b350955b789f0f7/sorry-were-closed-1orqh.png",
+        "url": "https://store.epicgames.com/p/f2dae10b3c45425ba1e91b4604262283",
+        "price": "$24.99",
+        "start_date": "2026-10-19T15:00:00.000Z",
+        "end_date": "2026-11-02T16:00:00.000Z"
       }
     ],
     "upcoming_games": [
+      {
+        "title": "Idle Champions of the Forgotten Realms",
+        "description": "Idle Champions of the Forgotten Realms is a Dungeons & Dragons strategy management game uniting characters from throughout the D&D multiverse into a grand adventure.",
+        "image": "https://cdn1.epicgames.com/spt-assets/a53f91e55c6840018cb5de0b204f1ad9/idle-champions-of-the-forgotten-realms-1xbn9.jpg",
+        "url": "https://store.epicgames.com/p/banegeneralaudience",
+        "price": "0",
+        "start_date": "2026-11-05T16:00:00.000Z",
+        "end_date": "2026-11-12T16:00:00.000Z"
+      },
       {
         "title": "Ghostrunner 2",
         "description": "Ghostrunner 2 is a hardcore FPP slasher set in a post-apocalyptic, cyberpunk world. Featuring everything fans loved about Ghostrunner plus incredible boss fights, new interactive story, thrilling motorbike levels, improved skills, and more cyber ninja action. ",
@@ -63,15 +72,6 @@
         "end_date": "2027-01-07T16:00:00.000Z"
       },
       {
-        "title": "Sorry We're Closed",
-        "description": "Sorry We're Closed is a story-driven survival horror game about demons, angels and what happens when both sides collide. A mix of fixed-camera exploration and arcade-style shooting where Michelle must use her Third Eye to see between worlds, uncover secrets and solve puzzles.",
-        "image": "https://cdn1.epicgames.com/spt-assets/9ab7eaaeb2f041969b350955b789f0f7/sorry-were-closed-1orqh.png",
-        "url": "https://store.epicgames.com/p/f2dae10b3c45425ba1e91b4604262283",
-        "price": "$24.99",
-        "start_date": "2026-10-29T15:00:00.000Z",
-        "end_date": "2026-11-05T16:00:00.000Z"
-      },
-      {
         "title": "Monument Valley",
         "description": "Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
         "image": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
@@ -79,40 +79,64 @@
         "price": "$7.99",
         "start_date": "2026-12-10T16:00:00.000Z",
         "end_date": "2027-01-07T16:00:00.000Z"
+      },
+      {
+        "title": "Flotsam",
+        "description": "The floating garbage town survival game! Scavenge what precious garbage you can from the ocean's surface and grow your city while doing your best to survive in this colorful post-apocalyptic world.",
+        "image": "https://cdn1.epicgames.com/spt-assets/5c36b876e80d4285b9993947efeeaf2b/flotsam-1yczl.jpg",
+        "url": "https://store.epicgames.com/p/7ca01ab906ad4eff92d4ed1efa5fbfcb",
+        "price": "$24.99",
+        "start_date": "2026-11-05T16:00:00.000Z",
+        "end_date": "2026-11-12T16:00:00.000Z"
       }
     ],
     "mystery_detected": false
   },
   "items": [
     {
-      "id": "https://store.epicgames.com/p/8dbc8d70481d4c0b8412d3aec76a35a1",
-      "title": "GRÁTIS: Sker Ritual",
-      "original_title": "Sker Ritual",
-      "image": "https://cdn1.epicgames.com/spt-assets/43d96f4437e34c87b7eff08831d1b1de/sker-ritual-14x61.jpg",
+      "id": "https://store.epicgames.com/p/f2dae10b3c45425ba1e91b4604262283",
+      "title": "GRÁTIS: Sorry We're Closed",
+      "original_title": "Sorry We're Closed",
+      "image": "https://cdn1.epicgames.com/spt-assets/9ab7eaaeb2f041969b350955b789f0f7/sorry-were-closed-1orqh.png",
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-10-28",
-      "summary": "The round-based co-op survival FPS and spin-off to the award-winning British horror, Maid of Sker. Play solo or up to 4 players to survive the supernatural onslaught of the Quiet Ones.",
+      "date": "2026-10-29",
+      "summary": "Sorry We're Closed is a story-driven survival horror game about demons, angels and what happens when both sides collide. A mix of fixed-camera exploration and arcade-style shooting where Michelle must use her Third Eye to see between worlds, uncover secrets and solve puzzles.",
       "sources": [
         "Epic Games Store"
       ],
-      "url": "https://store.epicgames.com/p/8dbc8d70481d4c0b8412d3aec76a35a1"
+      "url": "https://store.epicgames.com/p/f2dae10b3c45425ba1e91b4604262283"
     },
     {
-      "id": "https://store.epicgames.com/p/ff70f2b02fd842f8961f7729af25cda9",
-      "title": "GRÁTIS: Home - A Unique Horror Adventure",
-      "original_title": "Home - A Unique Horror Adventure",
-      "image": "https://cdn1.epicgames.com/spt-assets/46fc0cdb9f164a848e916249a8f68fc7/home-1f6qi.png",
+      "id": "https://store.epicgames.com/p/f2dae10b3c45425ba1e91b4604262283",
+      "title": "GRÁTIS: Sorry We're Closed",
+      "original_title": "Sorry We're Closed",
+      "image": "https://cdn1.epicgames.com/spt-assets/9ab7eaaeb2f041969b350955b789f0f7/sorry-were-closed-1orqh.png",
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-10-28",
-      "summary": "Home is a unique horror adventure set in a beautifully-realized pixel world. It’s a murder mystery with a twist – because you decide what ultimately happens.",
+      "date": "2026-10-29",
+      "summary": "Sorry We're Closed is a story-driven survival horror game about demons, angels and what happens when both sides collide. A mix of fixed-camera exploration and arcade-style shooting where Michelle must use her Third Eye to see between worlds, uncover secrets and solve puzzles.",
       "sources": [
         "Epic Games Store"
       ],
-      "url": "https://store.epicgames.com/p/ff70f2b02fd842f8961f7729af25cda9"
+      "url": "https://store.epicgames.com/p/f2dae10b3c45425ba1e91b4604262283"
+    },
+    {
+      "id": "https://store.epicgames.com/p/banegeneralaudience",
+      "title": "EM BREVE: Idle Champions of the Forgotten Realms",
+      "original_title": "Idle Champions of the Forgotten Realms",
+      "image": "https://cdn1.epicgames.com/spt-assets/a53f91e55c6840018cb5de0b204f1ad9/idle-champions-of-the-forgotten-realms-1xbn9.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-10-29",
+      "summary": "Disponível gratuitamente a partir de 05/11. Idle Champions of the Forgotten Realms is a Dungeons & Dragons strategy management game uniting characters from throughout the D&D multiverse into a grand adventure.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/banegeneralaudience"
     },
     {
       "id": "https://store.epicgames.com/p/ghostrunner-2",
@@ -122,7 +146,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-10-28",
+      "date": "2026-10-29",
       "summary": "Disponível gratuitamente a partir de 10/12. Ghostrunner 2 is a hardcore FPP slasher set in a post-apocalyptic, cyberpunk world. Featuring everything fans loved about Ghostrunner plus incredible boss fights, new interactive story, thrilling motorbike levels, improved skills, and more cyber ninja action. ",
       "sources": [
         "Epic Games Store"
@@ -137,7 +161,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-10-28",
+      "date": "2026-10-29",
       "summary": "Disponível gratuitamente a partir de 01/11. Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
@@ -152,7 +176,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-10-28",
+      "date": "2026-10-29",
       "summary": "Disponível gratuitamente a partir de 10/12. Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
@@ -167,23 +191,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-10-28",
+      "date": "2026-10-29",
       "summary": "Disponível gratuitamente a partir de 10/12. Sorry We're Closed is a story-driven survival horror game about demons, angels and what happens when both sides collide. A mix of fixed-camera exploration and arcade-style shooting where Michelle must use her Third Eye to see between worlds, uncover secrets and solve puzzles.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/f2dae10b3c45425ba1e91b4604262283"
-    },
-    {
-      "id": "https://store.epicgames.com/p/f2dae10b3c45425ba1e91b4604262283",
-      "title": "EM BREVE: Sorry We're Closed",
-      "original_title": "Sorry We're Closed",
-      "image": "https://cdn1.epicgames.com/spt-assets/9ab7eaaeb2f041969b350955b789f0f7/sorry-were-closed-1orqh.png",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-10-28",
-      "summary": "Disponível gratuitamente a partir de 29/10. Sorry We're Closed is a story-driven survival horror game about demons, angels and what happens when both sides collide. A mix of fixed-camera exploration and arcade-style shooting where Michelle must use her Third Eye to see between worlds, uncover secrets and solve puzzles.",
       "sources": [
         "Epic Games Store"
       ],
@@ -197,7 +206,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-10-28",
+      "date": "2026-10-29",
       "summary": "Disponível gratuitamente a partir de 10/12. Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
       "sources": [
         "Epic Games Store"
@@ -205,154 +214,379 @@
       "url": "https://store.epicgames.com/p/monument-valley-02"
     },
     {
-      "id": "https://www.eurogamer.net/dont-nod-insolvency-life-is-strange-aphelion",
-      "title": "\"This company has been driven into a wall for years\" - Life is Strange studio Don't Nod faces unrest while teetering on insolvency",
-      "original_title": "\"This company has been driven into a wall for years\" - Life is Strange studio Don't Nod faces unrest while teetering on insolvency",
-      "image": "https://assetsio.gnwcdn.com/lost-records-bloom-and-rage-a.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://store.epicgames.com/p/7ca01ab906ad4eff92d4ed1efa5fbfcb",
+      "title": "EM BREVE: Flotsam",
+      "original_title": "Flotsam",
+      "image": "https://cdn1.epicgames.com/spt-assets/5c36b876e80d4285b9993947efeeaf2b/flotsam-1yczl.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-10-29",
+      "summary": "Disponível gratuitamente a partir de 05/11. The floating garbage town survival game! Scavenge what precious garbage you can from the ocean's surface and grow your city while doing your best to survive in this colorful post-apocalyptic world.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/7ca01ab906ad4eff92d4ed1efa5fbfcb"
+    },
+    {
+      "id": "https://www.eurogamer.net/mario-kart-world-dataminer-spiny",
+      "title": "Dataminer uncovers that Spiny - a character seemingly with no way to operate a car - was meant to be playable in Mario Kart World",
+      "original_title": "Dataminer uncovers that Spiny - a character seemingly with no way to operate a car - was meant to be playable in Mario Kart World",
+      "image": "https://assetsio.gnwcdn.com/spiny-mario-kart-world-custom-header.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-10-28",
-      "summary": " There's deep unrest at French studio Don't Nod - creator of Life is Strange, Remember Me, Vampyr, Banishers: New Eden, and most recently Aphelion - as it scrambles to restructure itself and guard against insolvency. Read more...",
+      "date": "2026-10-29",
+      "summary": " A dataminer has uncovered something peculiar in the code of Mario Kart World. Spiny, a tiny little turtle-looking fella with a spiky shell, was meant to be a driver in the game. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/dont-nod-insolvency-life-is-strange-aphelion"
+      "url": "https://www.eurogamer.net/mario-kart-world-dataminer-spiny"
     },
     {
-      "id": "https://www.eurogamer.net/playstation-plus-monthly-games-november-2026",
-      "title": "Here are our PS Plus monthly games for November 2026",
-      "original_title": "Here are our PS Plus monthly games for November 2026",
-      "image": "https://assetsio.gnwcdn.com/dead-island-2-expansion-pass.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/bioware-co-founder-greg-zeschuk-closure-interview",
+      "title": "EA's sale to Saudi-led consortium was \"final nail in the coffin\" for BioWare, says studio co-founder",
+      "original_title": "EA's sale to Saudi-led consortium was \"final nail in the coffin\" for BioWare, says studio co-founder",
+      "image": "https://assetsio.gnwcdn.com/greg-ray-bioware.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-10-28",
-      "summary": " Sony has announced the monthly games coming to PlayStation Plus Premium and Extra next month, bringing a mix of triple-A bangers and remastered classics to the service on the 3rd November. All are, of course, coming at the start of what is almost ce...",
+      "date": "2026-10-29",
+      "summary": " One of BioWare's famous doctor-founders, Greg Zeschuk, has finally spoken about the studio's closure last week, saying it's \"kind of sad\" and that EA's leveraged buyout by a Saudi-involved consortium \"was the final nail in the coffin\". Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/playstation-plus-monthly-games-november-2026"
+      "url": "https://www.eurogamer.net/bioware-co-founder-greg-zeschuk-closure-interview"
     },
     {
-      "id": "https://www.eurogamer.net/capcom-financial-report-onimusha-sales-pragmata-monster-hunter-wilds",
-      "title": "Capcom's golden streak continues as Onimusha and Pragmata sell well, but Monster Hunter Wilds conspicuously absent from financial report",
-      "original_title": "Capcom's golden streak continues as Onimusha and Pragmata sell well, but Monster Hunter Wilds conspicuously absent from financial report",
-      "image": "https://assetsio.gnwcdn.com/IMG_6379.JPG?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/fromsofts-switch-2-exclusive-the-duskbloods-has-been-delayed-into-2027",
+      "title": "FromSoft's Switch 2 exclusive, The Duskbloods, has been delayed into 2027",
+      "original_title": "FromSoft's Switch 2 exclusive, The Duskbloods, has been delayed into 2027",
+      "image": "https://assetsio.gnwcdn.com/duskbloods-calendar.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-10-28",
-      "summary": " Capcom has revealed updated sales figures for its new and successful games, including Onimusha: Way of the Sword, Pragmata, and Resident Evil Requiem. But for some reason, Monster Hunter Wilds is absent from the report. Read more...",
+      "date": "2026-10-29",
+      "summary": " FromSoftware's The Duskbloods - a game that is best described as Bloodborne meets Sekiro meets Dark Souls, with jetpacks and dinos thrown in - has been delayed from its 2026 launch window into an unspecified time in 2027. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/capcom-financial-report-onimusha-sales-pragmata-monster-hunter-wilds"
+      "url": "https://www.eurogamer.net/fromsofts-switch-2-exclusive-the-duskbloods-has-been-delayed-into-2027"
     },
     {
-      "id": "https://www.eurogamer.net/steam-ai-clone-game-problem-valve-response",
-      "title": "Valve addresses Steam's AI game cloning problem - by suggesting developers make their games less copyable",
-      "original_title": "Valve addresses Steam's AI game cloning problem - by suggesting developers make their games less copyable",
-      "image": "https://assetsio.gnwcdn.com/needle-in-a-haystack-(1).jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/inside-ea-layoffs-report-bioware-morale-secrecy",
+      "title": "\"A cold dead place that's slowly decaying\" - EA employees reveal a culture of secrecy and terrible morale following layoffs",
+      "original_title": "\"A cold dead place that's slowly decaying\" - EA employees reveal a culture of secrecy and terrible morale following layoffs",
+      "image": "https://assetsio.gnwcdn.com/dragon-age-veilguard-review-conversation.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-10-28",
-      "summary": " Valve has responded to the worrying trend of games being cloned using generative-AI and sold on Steam, but instead of admonishing those games or promising to do something about them, it appears to have put the onus on developers to make their games ...",
+      "date": "2026-10-29",
+      "summary": " Last week, EA announced it's laying off 400 workers across multiple studios, cancelling projects and refocusing on its biggest money-makers. As part of that, EA closed down the iconic BioWare studio, letting go of most of its remaining staff of arou...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/steam-ai-clone-game-problem-valve-response"
+      "url": "https://www.eurogamer.net/inside-ea-layoffs-report-bioware-morale-secrecy"
     },
     {
-      "id": "https://www.eurogamer.net/mass-effect-universe-trailer-rescore-composer-n7-day",
-      "title": "Mass Effect composer wants to rescore leaked internal ME Universe trailer to \"properly represent my musical vision\"",
-      "original_title": "Mass Effect composer wants to rescore leaked internal ME Universe trailer to \"properly represent my musical vision\"",
-      "image": "https://assetsio.gnwcdn.com/bioware-breaks-down-mass-effect-legendary-editions-extensive-changes-1617748136618.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Rumor",
-      "date": "2026-10-28",
-      "summary": " Mass Effect trilogy composer Sam Hulick has expressed his intent to rescore the tantalising trailer for BioWare's cancelled Mass Effect Universe for N7 day. Read more...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/mass-effect-universe-trailer-rescore-composer-n7-day"
-    },
-    {
-      "id": "https://www.eurogamer.net/palworld-switch-2-port-legal-battle-nintendo",
-      "title": "Palworld studio still hopes to release the game on Switch 2 one day, despite being in a legal battle with Nintendo",
-      "original_title": "Palworld studio still hopes to release the game on Switch 2 one day, despite being in a legal battle with Nintendo",
-      "image": "https://assetsio.gnwcdn.com/palworld-grizzbolt-wielding-machine-gun-minigun.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-review",
+      "title": "Call of Duty Modern Warfare 4 review",
+      "original_title": "Call of Duty Modern Warfare 4 review",
+      "image": "https://assetsio.gnwcdn.com/CoD-MW4_i33XbuE.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-10-28",
-      "summary": " Palworld, the survival crafting game featuring adorable animals seemingly inspired by Pokémon, has been embroiled in a legal battle with Nintendo over what the company alleges is patent infringement. But although the lawsuit is ongoing, Palworld dev...",
+      "date": "2026-10-29",
+      "summary": " It's easy to dislike Call of Duty. Aside from the annual cycle of development, marketing, and controversy that has defined the series identity for the past 22 years, the series has become an integral part of how video games prop up the military-indu...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/palworld-switch-2-port-legal-battle-nintendo"
+      "url": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-review"
     },
     {
-      "id": "https://www.eurogamer.net/no-mans-sky-forsaken-update-release-ipad-iphone",
-      "title": "As No Man's Sky arrives on mobile, Hello Games celebrates with a spooky update for all that includes delivery missions and \"seamless\" interstellar travel",
-      "original_title": "As No Man's Sky arrives on mobile, Hello Games celebrates with a spooky update for all that includes delivery missions and \"seamless\" interstellar travel",
-      "image": "https://assetsio.gnwcdn.com/no-mans-sky-forsaken-header.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/mouthwashing-game-pass-ps5-ps4-switch-xbox-now-playing",
+      "title": "Mouthwashing is finally on consoles and Xbox Game Pass, and it's a Halloween must for horror fans",
+      "original_title": "Mouthwashing is finally on consoles and Xbox Game Pass, and it's a Halloween must for horror fans",
+      "image": "https://assetsio.gnwcdn.com/mouthwashing-2.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-10-28",
-      "summary": " Today's the day iPhone and iPad owners finally get to boldly go into No Man's Sky's procedurally generated universe, adding two more devices to the game's already long list of compatible platforms. But developer Hello Games isn't stopping there. It'...",
+      "date": "2026-10-29",
+      "summary": " A mutilated man stares at you, his single piercing eye following as you move around the room. His filthy bandages hide a ruined face, raw lips circling disturbingly perfect teeth, and his moans echo through the halls. But that eye: it knows somethin...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/no-mans-sky-forsaken-update-release-ipad-iphone"
+      "url": "https://www.eurogamer.net/mouthwashing-game-pass-ps5-ps4-switch-xbox-now-playing"
     },
     {
-      "id": "https://www.eurogamer.net/dawn-of-war-4-preview-most-generous-rts",
-      "title": "Dawn of War 4 may be the most generous RTS I've played",
-      "original_title": "Dawn of War 4 may be the most generous RTS I've played",
-      "image": "https://assetsio.gnwcdn.com/dow-4-preview-header.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/football-manager-27-preview-interview-tactical-effectiveness-ui-strike-team",
+      "title": "With a cracking new tactical feature and dedicated UI \"strike team\", Football Manager 27 is a huge step back towards FM's best form",
+      "original_title": "With a cracking new tactical feature and dedicated UI \"strike team\", Football Manager 27 is a huge step back towards FM's best form",
+      "image": "https://assetsio.gnwcdn.com/fm27-preview-header.png?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-10-28",
-      "summary": " Maybe the best way to understand the kind of game Dawn of War 4 wants to be is through a single button. If you're playing a campaign mission in DoW 4 and you're not really feeling it, or you made a silly mistake right at the end and got summarily wi...",
+      "date": "2026-10-29",
+      "summary": " Welcome back, Football Manager. I've only played half a day or so of it, whistling through my inductions, board meetings and opening transfer window, but already the positive signs are there. Football Manager 27 is a big, much-appreciated step in th...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/dawn-of-war-4-preview-most-generous-rts"
+      "url": "https://www.eurogamer.net/football-manager-27-preview-interview-tactical-effectiveness-ui-strike-team"
     },
     {
-      "id": "https://www.eurogamer.net/skydance-return-to-office-voluntary-buyouts",
-      "title": "As Skydance merges with Warner Bros. and Paramount, the company offers voluntary redundancy and mandates return to the office",
-      "original_title": "As Skydance merges with Warner Bros. and Paramount, the company offers voluntary redundancy and mandates return to the office",
-      "image": "https://assetsio.gnwcdn.com/batman-arkham-spin-offs-gotham-knights.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/world-of-warcraft-halloween-housing-cosmetics-controversy-kul-tiran",
+      "title": "World of Warcraft players angry after Blizzard seems to contradict housing cosmetics policy with Halloween additions",
+      "original_title": "World of Warcraft players angry after Blizzard seems to contradict housing cosmetics policy with Halloween additions",
+      "image": "https://assetsio.gnwcdn.com/world-of-warcraft-grimtide-housejpeg.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-10-28",
-      "summary": " Skydance - the newly formed corporate megazord combining  Warner Bros and Paramount - has issued a full five-day return-to-office mandate to employees, and offered voluntary buyouts as the merging of the companies begins. Read more...",
+      "date": "2026-10-29",
+      "summary": " The World of Warcraft team has found itself at the centre of controversy after recently-added housing cosmetics appeared to go against previous pledges not to sell decorations tied to the visual identity of the game's races and factions. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/skydance-return-to-office-voluntary-buyouts"
+      "url": "https://www.eurogamer.net/world-of-warcraft-halloween-housing-cosmetics-controversy-kul-tiran"
     },
     {
-      "id": "https://www.eurogamer.net/arc-raiders-pve-mode-embark-undecided",
-      "title": "\"We need to understand what the need is here\" - Arc Raiders studio still undecided about the future of PvE despite a seemingly successful test",
-      "original_title": "\"We need to understand what the need is here\" - Arc Raiders studio still undecided about the future of PvE despite a seemingly successful test",
-      "image": "https://assetsio.gnwcdn.com/Arc-Raiders_Riven-Tides-skins.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-dmz-possum-nerf",
+      "title": "COD Modern Warfare 4's controversial Possum ability nerfed to stop it being used \"as a combat mechanic instead of a survival mechanic\"",
+      "original_title": "COD Modern Warfare 4's controversial Possum ability nerfed to stop it being used \"as a combat mechanic instead of a survival mechanic\"",
+      "image": "https://assetsio.gnwcdn.com/modern-warfare-4-dmz-season-1-shot-crop-1.jpeg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-10-28",
-      "summary": " Arc Raiders recently ended its first-ever test for a dedicated PvE mode, following months of player requests. While feedback has generally been favourable, developer Embark has gone quiet about whether the mode will return as a permanent addition. R...",
+      "date": "2026-10-29",
+      "summary": " Since the launch of Call of Duty: Modern Warfare 4's DMZ mode, players have been mainly arguing about two topics: whether there's a need for a PvE-only mode, and whether Possum - an in-game trait - has a place in an extraction experience. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/arc-raiders-pve-mode-embark-undecided"
+      "url": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-dmz-possum-nerf"
+    },
+    {
+      "id": "https://www.eurogamer.net/xbox-financials-sales-asha-sharma-microsoft",
+      "title": "Xbox leader Asha Sharma says there's \"more demand than consoles available\" as Xbox hardware sales dip by 14%",
+      "original_title": "Xbox leader Asha Sharma says there's \"more demand than consoles available\" as Xbox hardware sales dip by 14%",
+      "image": "https://assetsio.gnwcdn.com/asha-sharma-xbox-showcase-2026.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-10-29",
+      "summary": " Xbox leader Asha Sharma has claimed there's \"more demand than consoles available\" when it comes to Xbox, and that console sales \"remain constrained by supply\". Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/xbox-financials-sales-asha-sharma-microsoft"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xiobit/the_elder_scrolls_vi_will_be_named_sentinel/",
+      "title": "The Elder Scrolls VI will be named Sentinel",
+      "original_title": "The Elder Scrolls VI will be named Sentinel",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-10-29",
+      "summary": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad Per Tom Warren  \"Sources familiar with Bethesda’s plans tell me that the Xbox-owned publisher is about to announce that the next Elder Scrolls game will officially be called T...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xiobit/the_elder_scrolls_vi_will_be_named_sentinel/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xip7po/natethehate_gta_6_copies_are_not_watermarked/",
+      "title": "Natethehate: GTA 6 Copies are not watermarked",
+      "original_title": "Natethehate: GTA 6 Copies are not watermarked",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-10-29",
+      "summary": "https://xcancel.com/NateTheHate2/status/2115846477314445799? https://xcancel.com/Tom_Henderson_/status/2115808233948582308? (Previous claim) https://www.reddit.com/r/GamingLeaksAndRumours/s/9exCsRS5Ff Nate: \"To my knowledge, this is not accurate. Rev...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xip7po/natethehate_gta_6_copies_are_not_watermarked/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xiizzt/death_stranding_odradek_has_been_trademarked_by/",
+      "title": "Death Stranding Odradek has been trademarked by Kojima Productions",
+      "original_title": "Death Stranding Odradek has been trademarked by Kojima Productions",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-10-29",
+      "summary": "https://chizai-watch.com/t/2026122299?a=株式会社コジマプロダクション What on earth is an Odradek? /s    submitted by    /u/scott1swann   [link] [comments]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xiizzt/death_stranding_odradek_has_been_trademarked_by/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xi6zoz/simon_parkin_edge_in_grand_theft_auto_vi_the/",
+      "title": "Simon Parkin, Edge: In Grand Theft Auto VI, the Criminal Profile system ranges from 'Irredeemable' to 'Professional', and \"your Criminal Profile will influence how Jason and Lucia's story unfolds.\"",
+      "original_title": "Simon Parkin, Edge: In Grand Theft Auto VI, the Criminal Profile system ranges from 'Irredeemable' to 'Professional', and \"your Criminal Profile will influence how Jason and Lucia's story unfolds.\"",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-10-29",
+      "summary": "Confirms the following: https://www.reddit.com/r/GamingLeaksAndRumours/comments/1wvea2a/gta_vi_4chan_leak_story_outline_ending/  Note the specific parameters they've mentioned for the different endings: platonic or romantic, chaotic or organized. Any...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xi6zoz/simon_parkin_edge_in_grand_theft_auto_vi_the/"
+    },
+    {
+      "id": "https://www.techpowerup.com/354276/microsoft-reports-22-decline-in-windows-oem-and-devices-revenue",
+      "title": "Microsoft Reports 22% Decline in Windows OEM and Devices Revenue",
+      "original_title": "Microsoft Reports 22% Decline in Windows OEM and Devices Revenue",
+      "image": "https://tpucdn.com/img/bXmfY8MlfKDwbeET_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-10-29",
+      "summary": "Microsoft reported strong Q3 2026 results with $92.3 billion in revenue. However, the company's earnings report also revealed that, despite overall revenue growing 19% year-over-year, the Windows OEM licensing business is struggling, with a 22% decli...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354276/microsoft-reports-22-decline-in-windows-oem-and-devices-revenue"
+    },
+    {
+      "id": "https://www.techpowerup.com/354275/havn-launches-the-hs-360-hs-360-vgpu-pc-cases",
+      "title": "(PR) HAVN Launches the HS 360 & HS 360 VGPU PC Cases",
+      "original_title": "(PR) HAVN Launches the HS 360 & HS 360 VGPU PC Cases",
+      "image": "https://tpucdn.com/img/KgpHdBiXPZ5BeGip_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-10-29",
+      "summary": "HAVN is proud to announce the launch of its latest PC cases, the HS 360 and HS 360 VGPU. The HS 360 builds on the success of the HS 420 and has been refined through direct feedback from partners and reviewers. As a result, we have packed HAVN's panor...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354275/havn-launches-the-hs-360-hs-360-vgpu-pc-cases"
+    },
+    {
+      "id": "https://www.techpowerup.com/354178/g-skill-and-newegg-offer-limited-time-amd-ryzen-7-9800x3d-combo-deals-featuring-amd-expo-ull-ddr5-memory",
+      "title": "G.SKILL and Newegg Offer Limited-Time AMD Ryzen 7 9800X3D Combo Deals Featuring AMD EXPO ULL DDR5 Memory",
+      "original_title": "G.SKILL and Newegg Offer Limited-Time AMD Ryzen 7 9800X3D Combo Deals Featuring AMD EXPO ULL DDR5 Memory",
+      "image": "https://tpucdn.com/img/7U6oaY7vfSdVAm9k_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-10-29",
+      "summary": "G.SKILL, a leading manufacturer of high-performance memory and PC gaming peripherals, is teaming up with Newegg to offer a series of limited-time PC hardware combo deals, featuring the AMD Ryzen 7 9800X3D processor, G.SKILL Trident Z5 NeoX RGB DDR5 m...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354178/g-skill-and-newegg-offer-limited-time-amd-ryzen-7-9800x3d-combo-deals-featuring-amd-expo-ull-ddr5-memory"
+    },
+    {
+      "id": "https://www.techpowerup.com/354273/keychron-launches-steampunk-q19-he-8k-gaming-keyboard",
+      "title": "Keychron Launches Steampunk Q19 HE 8K Gaming Keyboard",
+      "original_title": "Keychron Launches Steampunk Q19 HE 8K Gaming Keyboard",
+      "image": "https://tpucdn.com/img/rLjDi80IimkX1zH5_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-10-29",
+      "summary": "Keychron's ongoing efforts to update its keyboard line-up with new models has produced the Q19 HE 8K as its latest special colorway of the 60% Hall effect PCB first introduced with the Q16 HE 8K and recently made another appearance in the Carbon 60 H...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354273/keychron-launches-steampunk-q19-he-8k-gaming-keyboard"
+    },
+    {
+      "id": "https://www.techpowerup.com/354272/gxtrust-and-thx-announce-strategic-partnership-to-bring-immersive-audio-to-gamers",
+      "title": "(PR) GXTrust and THX Announce Strategic Partnership to Bring Immersive Audio to Gamers",
+      "original_title": "(PR) GXTrust and THX Announce Strategic Partnership to Bring Immersive Audio to Gamers",
+      "image": "https://tpucdn.com/img/4TYcXfrwuFDTnVI3_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-10-29",
+      "summary": "GXTrust, a well-established European brand in gaming accessories, and THX Ltd., a world-class high-fidelity audio and video tuning, certification, and technology company, today announced a strategic partnership to elevate gaming audio across GXTrust ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354272/gxtrust-and-thx-announce-strategic-partnership-to-bring-immersive-audio-to-gamers"
+    },
+    {
+      "id": "https://www.techpowerup.com/354270/razer-introduces-new-evangelion-eva-01-collection",
+      "title": "(PR) Razer Introduces New Evangelion (EVA-01) Collection",
+      "original_title": "(PR) Razer Introduces New Evangelion (EVA-01) Collection",
+      "image": "https://tpucdn.com/img/ICG0fp4vasBCfL8i_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-10-29",
+      "summary": "Razer, the leading global lifestyle brand for gamers, has partnered with EVANGELION to unveil the Razer│EVANGELION (EVA-01) Collection, a new collaboration that brings the striking design of Evangelion Test Type-01 (EVA-01) into Razer's suite of high...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354270/razer-introduces-new-evangelion-eva-01-collection"
+    },
+    {
+      "id": "https://www.techpowerup.com/354269/gravastar-introduces-the-mercury-edge-series-of-wireless-gaming-headsets",
+      "title": "(PR) GravaStar Introduces the Mercury Edge Series of Wireless Gaming Headsets",
+      "original_title": "(PR) GravaStar Introduces the Mercury Edge Series of Wireless Gaming Headsets",
+      "image": "https://tpucdn.com/img/29nUTLNy8dOX9GX9_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-10-29",
+      "summary": "GravaStar, the design-driven gaming hardware brand known for its sci-fi aesthetic, today announced the Mercury Edge Series. Led by Mercury Edge Pro, the lineup pairs GravaStar's distinctive design language with 53 mm dynamic drivers and spatial gamin...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354269/gravastar-introduces-the-mercury-edge-series-of-wireless-gaming-headsets"
+    },
+    {
+      "id": "https://www.techpowerup.com/354098/techpowerup-x-chieftec-giveaway-win-cases-coolers-and-psus",
+      "title": "TechPowerUp x Chieftec Giveaway: Win Cases, Coolers, and PSUs!",
+      "original_title": "TechPowerUp x Chieftec Giveaway: Win Cases, Coolers, and PSUs!",
+      "image": "https://tpucdn.com/img/WDliYXlcs7Wsw4jg_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-10-29",
+      "summary": "TechPowerUp partners with Chieftec to bring our readers from the European Union a unique opportunity to bag one of six fine pieces of Chieftec hardware. The company specializes in gaming PC case, cooling, and power-supply hardware, and have opened th...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354098/techpowerup-x-chieftec-giveaway-win-cases-coolers-and-psus"
+    },
+    {
+      "id": "https://www.techpowerup.com/354268/biostar-introduces-the-edgecomp-ms-u320-fanless-edge-ai-system",
+      "title": "(PR) Biostar Introduces the EdgeComp MS-U320 Fanless Edge AI System",
+      "original_title": "(PR) Biostar Introduces the EdgeComp MS-U320 Fanless Edge AI System",
+      "image": "https://tpucdn.com/img/saDGjJRJG1lw96jH_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-10-29",
+      "summary": "BIOSTAR, a leading manufacturer of edge AI solution, IPC systems, motherboards, graphics cards, and storage devices, today introduced the EdgeComp MS-U320, a compact fanless edge AI system powered by the Intel Core 5 320 processor (Wildcat Lake). Des...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354268/biostar-introduces-the-edgecomp-ms-u320-fanless-edge-ai-system"
+    },
+    {
+      "id": "https://www.techpowerup.com/354241/windows-11-pro-lifetime-license-is-just-usd-10-through-nov-1",
+      "title": "Windows 11 Pro Lifetime License Is Just $10 Through Nov 1",
+      "original_title": "Windows 11 Pro Lifetime License Is Just $10 Through Nov 1",
+      "image": "https://tpucdn.com/img/lzqXZ5HCx5H5QI3A_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-10-29",
+      "summary": "Microsoft Windows 11 Pro is available for $9.97 (MSRP $199) through Nov. 1, a saving of $189.03. The purchase provides a lifetime license for one PC, with no subscription or recurring fees. The license is non-transferable.\n\nThe main reason to choose ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354241/windows-11-pro-lifetime-license-is-just-usd-10-through-nov-1"
     },
     {
       "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xho5ax/minithread_nintendo_indie_world_showcase/",
@@ -370,19 +604,19 @@
       "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xho5ax/minithread_nintendo_indie_world_showcase/"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xhts2p/mass_effect_5_studio_was_reportedly_told_to_tone/",
-      "title": "Mass Effect 5 studio was reportedly told to tone down inclusivity by EA after Saudi Arabia buyout, former BioWare dev alleges, \"so as to not cause offense\"",
-      "original_title": "Mass Effect 5 studio was reportedly told to tone down inclusivity by EA after Saudi Arabia buyout, former BioWare dev alleges, \"so as to not cause offense\"",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xhuk18/apparently_the_pride_flags_story_for_mass_effect/",
+      "title": "Apparently the 'pride flags' story for Mass Effect: Universe was fake, there weren't any such flags in the game to begin with.",
+      "original_title": "Apparently the 'pride flags' story for Mass Effect: Universe was fake, there weren't any such flags in the game to begin with.",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
       "category": "News",
       "date": "2026-10-28",
-      "summary": "  It was allegedly instructed to remove a flag \"too similar to the LGBTQIA+ flag\" according to an ex-dev  Source: https://www.gamesradar.com/games/mass-effect/mass-effect-5-studio-was-reportedly-told-to-tone-down-inclusivity-by-ea-after-saudi-arabia-...",
+      "summary": "https://www.reddit.com/r/masseffect/comments/1xhu7vb/theres_a_lot_of_misinformation_going_on/ This person has worked alongside BioWare in the past.    submitted by    /u/CatherineSimp69   [link] [comments]...",
       "sources": [
         "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xhts2p/mass_effect_5_studio_was_reportedly_told_to_tone/"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xhuk18/apparently_the_pride_flags_story_for_mass_effect/"
     },
     {
       "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xho7ri/gta_vi_performance_and_fidelity_mode/",
@@ -428,216 +662,6 @@
         "r/GamingLeaksAndRumours"
       ],
       "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xhmayc/a_new_justice_track_from_gta_vi_original_score_is/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xhtqjs/insider_gaming_insomniac_games_upcoming_xmen_game/",
-      "title": "Insider Gaming: ‘INSOMNIAC GAMES’ UPCOMING X-MEN GAME TO FEATURE MULTIPLE PLAYABLE CHARACTERS’",
-      "original_title": "Insider Gaming: ‘INSOMNIAC GAMES’ UPCOMING X-MEN GAME TO FEATURE MULTIPLE PLAYABLE CHARACTERS’",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-10-28",
-      "summary": "https://insider-gaming.com/x-men-insomniac-games/ Insider dug up multiple job listings, including Staff Hero Designer position, where Insomniac is looking for someone to focus on the “combat, traversal, and 3Cs (Camera, Character, Controls) for an up...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xhtqjs/insider_gaming_insomniac_games_upcoming_xmen_game/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xhdvgd/kane_parsons_backrooms_director_21_years_old_im/",
-      "title": "Kane Parsons (Backrooms Director, 21 years old): \"I'm working right now on three dream projects... they'll get me with their space lasers if I speak about it\", while wearing a Valve hoodie",
-      "original_title": "Kane Parsons (Backrooms Director, 21 years old): \"I'm working right now on three dream projects... they'll get me with their space lasers if I speak about it\", while wearing a Valve hoodie",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-10-28",
-      "summary": "Snippet of the Kyle Buchanan Show interview: https://streamable.com/5f2b79   \"... they can see through walls and they're very serious.\"  This is likely all a stretch but we do know Kane was heavily inspired by the Portal series and one of his \"dream ...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xhdvgd/kane_parsons_backrooms_director_21_years_old_im/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xhrhte/sword_of_the_sea_releases_oct_29th_on_xbox_series/",
-      "title": "Sword of the Sea releases Oct 29th on Xbox Series & Switch 2",
-      "original_title": "Sword of the Sea releases Oct 29th on Xbox Series & Switch 2",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-10-28",
-      "summary": "https://www.reddit.com/r/GamingLeaksAndRumours/s/unRTPErc9a https://youtu.be/VvwPyMxuipM?is=CCEb7vLI0zpUfmEC    submitted by    /u/Howerev   [link] [comments]...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xhrhte/sword_of_the_sea_releases_oct_29th_on_xbox_series/"
-    },
-    {
-      "id": "https://www.techpowerup.com/354230/formula-v-line-launches-crystal-z3-panoramic-pc-case-series",
-      "title": "(PR) Formula V Line Launches Crystal Z3 Panoramic PC Case Series",
-      "original_title": "(PR) Formula V Line Launches Crystal Z3 Panoramic PC Case Series",
-      "image": "https://tpucdn.com/img/NetBPygEIwfmvbG7_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-10-28",
-      "summary": "Formula V Line today launches the Crystal Z3 series of panoramic ATX mid-tower PC cases, combining a 90° rotatable rear PCIe bracket with bottom air intake integrated into the case design. The initial shipment consists of Crystal Z3 Plus models in Bl...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354230/formula-v-line-launches-crystal-z3-panoramic-pc-case-series"
-    },
-    {
-      "id": "https://www.techpowerup.com/354229/apple-unveils-macbook-pro-with-proled-xdr-display-and-touch-for-the-first-time-on-mac",
-      "title": "(PR) Apple Unveils MacBook Pro With PROLED XDR Display and Touch for the First Time on Mac",
-      "original_title": "(PR) Apple Unveils MacBook Pro With PROLED XDR Display and Touch for the First Time on Mac",
-      "image": "https://tpucdn.com/img/UEEGYoCRBtFsFo9M_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-10-28",
-      "summary": "Apple today introduced the all-new MacBook Pro with PROLED XDR Display, featuring breakthrough tandem OLED technology that delivers game-changing front-of-screen performance. Available in 14- and 16-inch models, MacBook Pro with PROLED XDR Display of...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354229/apple-unveils-macbook-pro-with-proled-xdr-display-and-touch-for-the-first-time-on-mac"
-    },
-    {
-      "id": "https://www.techpowerup.com/354178/g-skill-and-newegg-offer-limited-time-amd-ryzen-7-9800x3d-combo-deals-featuring-amd-expo-ull-ddr5-memory",
-      "title": "G.SKILL and Newegg Offer Limited-Time AMD Ryzen 7 9800X3D Combo Deals Featuring AMD EXPO ULL DDR5 Memory",
-      "original_title": "G.SKILL and Newegg Offer Limited-Time AMD Ryzen 7 9800X3D Combo Deals Featuring AMD EXPO ULL DDR5 Memory",
-      "image": "https://tpucdn.com/img/7U6oaY7vfSdVAm9k_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-10-28",
-      "summary": "G.SKILL, a leading manufacturer of high-performance memory and PC gaming peripherals, is teaming up with Newegg to offer a series of limited-time PC hardware combo deals, featuring the AMD Ryzen 7 9800X3D processor, G.SKILL Trident Z5 NeoX RGB DDR5 m...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354178/g-skill-and-newegg-offer-limited-time-amd-ryzen-7-9800x3d-combo-deals-featuring-amd-expo-ull-ddr5-memory"
-    },
-    {
-      "id": "https://www.techpowerup.com/354228/valve-wont-be-gatekeepers-by-banning-ai-games-as-ai-slop-complaints-grow",
-      "title": "Valve Won't \"Be Gatekeepers\" by Banning AI Games, As \"AI Slop\" Complaints Grow",
-      "original_title": "Valve Won't \"Be Gatekeepers\" by Banning AI Games, As \"AI Slop\" Complaints Grow",
-      "image": "https://tpucdn.com/img/D4URRJfYd376vqVw_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-10-28",
-      "summary": "Valve has a growing AI problem on its storefront, and it's not only that game developers are using AI, which is a point of contention for many gamers but not necessarily the biggest concern for developers. Instead, game developers are increasingly re...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354228/valve-wont-be-gatekeepers-by-banning-ai-games-as-ai-slop-complaints-grow"
-    },
-    {
-      "id": "https://www.techpowerup.com/354227/lenovo-launches-thinkvision-t34wd-4v-ultrawide-professional-monitor",
-      "title": "Lenovo Launches ThinkVision T34WD-4v Ultrawide Professional Monitor",
-      "original_title": "Lenovo Launches ThinkVision T34WD-4v Ultrawide Professional Monitor",
-      "image": "https://tpucdn.com/img/8M3TdgNH3Ef9UDPj_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-10-28",
-      "summary": "Lenovo has added the ThinkVision T34WD-4v monitor to its Product Specifications Reference (PSREF) website. We now have the full specifications of the 34-inch ultrawide curved professional monitor first shown at IFA 2026. The new ThinkVision features ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354227/lenovo-launches-thinkvision-t34wd-4v-ultrawide-professional-monitor"
-    },
-    {
-      "id": "https://www.techpowerup.com/354226/cxmt-to-start-hbm3e-mass-production-by-the-end-of-2026",
-      "title": "CXMT to Start HBM3E Mass Production by the End of 2026",
-      "original_title": "CXMT to Start HBM3E Mass Production by the End of 2026",
-      "image": "https://tpucdn.com/img/CtoGIxr2p6PfzJSb_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-10-28",
-      "summary": "CXMT is expected to start mass production of its first-ever HBM memory in the HBM3E form factor. According to an exclusive report from Reuters, this mass production is anticipated to begin within the next two months, meaning CXMT will officially star...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354226/cxmt-to-start-hbm3e-mass-production-by-the-end-of-2026"
-    },
-    {
-      "id": "https://www.techpowerup.com/353798/lattepanda-launches-lattepanda-sigma-2-the-embeddable-ai-single-board-server",
-      "title": "LattePanda Launches LattePanda Sigma 2: The Embeddable AI Single Board Server",
-      "original_title": "LattePanda Launches LattePanda Sigma 2: The Embeddable AI Single Board Server",
-      "image": "https://tpucdn.com/img/uUhk4796OGS7H1Tn_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-10-28",
-      "summary": "The LattePanda Team today launched LattePanda Sigma 2, an x86 single-board server designed to bring high-performance local AI computing directly into intelligent products and systems. Built around the Intel Core Ultra X7 358H processor with Intel Arc...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/353798/lattepanda-launches-lattepanda-sigma-2-the-embeddable-ai-single-board-server"
-    },
-    {
-      "id": "https://www.techpowerup.com/354223/nintendo-switch-2-exclusives-already-booting-on-iphone-and-pc-days-after-first-jailbreak",
-      "title": "Nintendo Switch 2 Exclusives Already Booting on iPhone and PC, Days After First Jailbreak",
-      "original_title": "Nintendo Switch 2 Exclusives Already Booting on iPhone and PC, Days After First Jailbreak",
-      "image": "https://tpucdn.com/img/he3Q2yPkWyDX14HE_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-10-28",
-      "summary": "Less than a week after the Switch 2's first jailbreak went public, Switch 2 exclusives are already showing up on hardware Nintendo doesn't make. Developer Will Faust posted footage of Mario Kart World running on an iPhone 18 Pro through a private for...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354223/nintendo-switch-2-exclusives-already-booting-on-iphone-and-pc-days-after-first-jailbreak"
-    },
-    {
-      "id": "https://www.techpowerup.com/354098/techpowerup-x-chieftec-giveaway-win-cases-coolers-and-psus",
-      "title": "TechPowerUp x Chieftec Giveaway: Win Cases, Coolers, and PSUs!",
-      "original_title": "TechPowerUp x Chieftec Giveaway: Win Cases, Coolers, and PSUs!",
-      "image": "https://tpucdn.com/img/WDliYXlcs7Wsw4jg_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-10-28",
-      "summary": "TechPowerUp partners with Chieftec to bring our readers from the European Union a unique opportunity to bag one of six fine pieces of Chieftec hardware. The company specializes in gaming PC case, cooling, and power-supply hardware, and have opened th...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354098/techpowerup-x-chieftec-giveaway-win-cases-coolers-and-psus"
-    },
-    {
-      "id": "https://www.techpowerup.com/354221/intels-lip-bu-tan-discusses-possible-amd-cooperation-lays-out-cpu-and-foundry-plans",
-      "title": "Intel's Lip-Bu Tan Discusses Possible AMD Cooperation, Lays Out CPU and Foundry Plans",
-      "original_title": "Intel's Lip-Bu Tan Discusses Possible AMD Cooperation, Lays Out CPU and Foundry Plans",
-      "image": "https://tpucdn.com/img/XyOQfd6Vy2BVBCNM_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-10-28",
-      "summary": "Intel CEO Lip-Bu Tan has spoken with AMD CEO Lisa Su about exploring potential areas of cooperation. Tan brought it up during an October 24 fireside chat with Jimmy Cheng, president of the Chinese American Semiconductor Professional Association (CASP...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354221/intels-lip-bu-tan-discusses-possible-amd-cooperation-lays-out-cpu-and-foundry-plans"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xh1hkp/gta_vi_review_copies_are_apparently_watermarked/",
-      "title": "GTA VI review copies are apparently watermarked, with the reviewer's name flashing on the screen to prevent leaks as Rockstar is spooked",
-      "original_title": "GTA VI review copies are apparently watermarked, with the reviewer's name flashing on the screen to prevent leaks as Rockstar is spooked",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Rumor",
-      "date": "2026-10-27",
-      "summary": " The GTA 6 leaks really spooked Rockstar. The review copies apparently are watermarked, with the reviewer's name flashing on the screen to prevent leaks. This way if anyone leaks footage, Rockstar knows exactly what copy it came from and that reviewe...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xh1hkp/gta_vi_review_copies_are_apparently_watermarked/"
     },
     {
       "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xg684u/discussion_news_and_request_thread_week_beginning/",
