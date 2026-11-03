@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-11-02T21:26:33",
-  "display_date": "02/11/2026 21:26",
+  "last_updated": "2026-11-03T19:06:57",
+  "display_date": "03/11/2026 19:06",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "197ms",
+    "latency": "52ms",
     "current_games": [
       {
         "title": "Sorry We're Closed",
@@ -83,7 +83,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-11-02",
+      "date": "2026-11-03",
       "summary": "Sorry We're Closed is a story-driven survival horror game about demons, angels and what happens when both sides collide. A mix of fixed-camera exploration and arcade-style shooting where Michelle must use her Third Eye to see between worlds, uncover secrets and solve puzzles.",
       "sources": [
         "Epic Games Store"
@@ -98,7 +98,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-02",
+      "date": "2026-11-03",
       "summary": "Disponível gratuitamente a partir de 05/11. Idle Champions of the Forgotten Realms is a Dungeons & Dragons strategy management game uniting characters from throughout the D&D multiverse into a grand adventure.",
       "sources": [
         "Epic Games Store"
@@ -113,7 +113,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-02",
+      "date": "2026-11-03",
       "summary": "Disponível gratuitamente a partir de 10/12. Ghostrunner 2 is a hardcore FPP slasher set in a post-apocalyptic, cyberpunk world. Featuring everything fans loved about Ghostrunner plus incredible boss fights, new interactive story, thrilling motorbike levels, improved skills, and more cyber ninja action. ",
       "sources": [
         "Epic Games Store"
@@ -128,7 +128,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-02",
+      "date": "2026-11-03",
       "summary": "Disponível gratuitamente a partir de 10/12. Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
@@ -143,7 +143,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-02",
+      "date": "2026-11-03",
       "summary": "Disponível gratuitamente a partir de 10/12. Sorry We're Closed is a story-driven survival horror game about demons, angels and what happens when both sides collide. A mix of fixed-camera exploration and arcade-style shooting where Michelle must use her Third Eye to see between worlds, uncover secrets and solve puzzles.",
       "sources": [
         "Epic Games Store"
@@ -158,7 +158,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-02",
+      "date": "2026-11-03",
       "summary": "Disponível gratuitamente a partir de 10/12. Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
       "sources": [
         "Epic Games Store"
@@ -173,12 +173,402 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-02",
+      "date": "2026-11-03",
       "summary": "Disponível gratuitamente a partir de 05/11. The floating garbage town survival game! Scavenge what precious garbage you can from the ocean's surface and grow your city while doing your best to survive in this colorful post-apocalyptic world.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/7ca01ab906ad4eff92d4ed1efa5fbfcb"
+    },
+    {
+      "id": "https://www.eurogamer.net/arc-raiders-ai-voice-acting-would-go-crazy",
+      "title": "Arc Raiders devs say that using generative AI voice acting was necessary as actors \"would just go crazy if they had to read all of that\"",
+      "original_title": "Arc Raiders devs say that using generative AI voice acting was necessary as actors \"would just go crazy if they had to read all of that\"",
+      "image": "https://assetsio.gnwcdn.com/Arc-Raiders-Escalation-story.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-11-03",
+      "summary": " Developers at Embark Studios, the company behind Arc Raiders, have spoken on the use of generative AI voice acting in the extraction shooter. It's argued that the initial use of generative AI line reads was a benefit to the voice actors, as they: \"w...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/arc-raiders-ai-voice-acting-would-go-crazy"
+    },
+    {
+      "id": "https://www.eurogamer.net/grand-theft-auto-6-pre-load-date",
+      "title": "Grand Theft Auto 6 pre-load begins on 10th November, file size and regional timings released",
+      "original_title": "Grand Theft Auto 6 pre-load begins on 10th November, file size and regional timings released",
+      "image": "https://assetsio.gnwcdn.com/gta-6-pre-load.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-11-03",
+      "summary": " Rockstar Games have revealed the pre-load date and time for Grand Theft Auto 6. You better be prepared to clear out some storage space, and burn the midnight oil. Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/grand-theft-auto-6-pre-load-date"
+    },
+    {
+      "id": "https://www.eurogamer.net/the-elder-scrolls-6-sentinel-revealed-bethesda-xbox",
+      "title": "The Elder Scrolls 6: Sentinel is confirmed, finally getting new trailer and full name, 8 years, 4 months, and 23 days after its reveal",
+      "original_title": "The Elder Scrolls 6: Sentinel is confirmed, finally getting new trailer and full name, 8 years, 4 months, and 23 days after its reveal",
+      "image": "https://assetsio.gnwcdn.com/ES-6.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-11-03",
+      "summary": " Today, Xbox and Bethesda have finally revealed the name and more information about The Elder Scrolls 6. The game, which we now know carries the subtitle Sentinel, was revealed in a special video that took place today, 3rd November 2026, almost exact...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/the-elder-scrolls-6-sentinel-revealed-bethesda-xbox"
+    },
+    {
+      "id": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-dmz-uav-tower-nerf",
+      "title": "COD: Modern Warfare 4 DMZ patch has nerfed UAV Towers so you're not immediately visible everywhere you go",
+      "original_title": "COD: Modern Warfare 4 DMZ patch has nerfed UAV Towers so you're not immediately visible everywhere you go",
+      "image": "https://assetsio.gnwcdn.com/DMZ-COD-MW4-(6).jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-11-03",
+      "summary": " The Call of Duty: Modern Warfare 4 patches continue, with the latest delivering some big changes to the game's extraction mode DMZ. The latest hotfix introduced a key balance change to one of DMZ's most controversial mechanics: UAV Towers. Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-dmz-uav-tower-nerf"
+    },
+    {
+      "id": "https://www.eurogamer.net/itchio-generative-ai-filters-slop",
+      "title": "Indie game website itch.io expands its AI disclosure filter as 'AI slop' continues to overwhelm Steam and other storefronts",
+      "original_title": "Indie game website itch.io expands its AI disclosure filter as 'AI slop' continues to overwhelm Steam and other storefronts",
+      "image": "https://assetsio.gnwcdn.com/itch-logo-black-new-svg.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-11-03",
+      "summary": " Indie game storefront itch.io has expanded its AI disclosure filters, allowing its users to better separate games made with the controversial technology from those who don't. Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/itchio-generative-ai-filters-slop"
+    },
+    {
+      "id": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-player-engagement-black-ops-7",
+      "title": "It looks like Call of Duty: Modern Warfare 4 had fewer active players at launch in the US compared to last year's Black Ops 7",
+      "original_title": "It looks like Call of Duty: Modern Warfare 4 had fewer active players at launch in the US compared to last year's Black Ops 7",
+      "image": "https://assetsio.gnwcdn.com/DMZ-COD-MW4-(4).jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-11-03",
+      "summary": " It's been speculated for a while that Call of Duty may be losing its lustre. Although we don't have concrete data with detailed statistics for each game released in the last several years, there's an observable trend in player numbers that's hard to...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-player-engagement-black-ops-7"
+    },
+    {
+      "id": "https://www.eurogamer.net/control-resonant-remedy-revenue-leaps",
+      "title": "Remedy revenue soars by 226% following release of Control Resonant, the developer's fastest-selling game ever",
+      "original_title": "Remedy revenue soars by 226% following release of Control Resonant, the developer's fastest-selling game ever",
+      "image": "https://assetsio.gnwcdn.com/Control-Resonant_Dhpy5QW.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-11-03",
+      "summary": " Remedy - the developer behind the recently released Control Resonant - has released a scorcher of a quarterly financial report. It shows that following Resonant's release in September, the company's revenue surged by 226 percent, bringing in €39.6m ...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/control-resonant-remedy-revenue-leaps"
+    },
+    {
+      "id": "https://www.eurogamer.net/sony-bend-studio-next-playstation-game-2027",
+      "title": "Days Gone studio's next PlayStation exclusive to be revealed and released in 2027, according to new report",
+      "original_title": "Days Gone studio's next PlayStation exclusive to be revealed and released in 2027, according to new report",
+      "image": "https://assetsio.gnwcdn.com/The-main-character-from-Days-Gone-holding-a-large-gun-in-his-hands.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-11-03",
+      "summary": " Sony's Bend Studio, perhaps one of its lesser discussed development houses, has apparently been deep in development on its next title. The game is reportedly set to be announced in 2027, and released in the same year. Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/sony-bend-studio-next-playstation-game-2027"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xmv9ls/confirmed_the_elder_scrolls_vi_is_named_sentinel/",
+      "title": "Confirmed: The Elder Scrolls VI is named Sentinel",
+      "original_title": "Confirmed: The Elder Scrolls VI is named Sentinel",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-11-03",
+      "summary": "As just confirmed by Todd Howard in Bethesda Game Studios’ 40th anniversary video, The Elder Scrolls VI will be subtitled Sentinel. Celebrating 40 Years of Bethesda Game Studios Previous rumor: https://www.reddit.com/r/GamingLeaksAndRumours/comments/...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xmv9ls/confirmed_the_elder_scrolls_vi_is_named_sentinel/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xmwpd7/schreier_es6_more_than_2_years_away/",
+      "title": "Schreier - ES6 more than 2 years away",
+      "original_title": "Schreier - ES6 more than 2 years away",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-11-03",
+      "summary": "\"I think a lot of people forget that The Elder Scrolls VI was only announced in 2018 (along with Starfield) to soften the blow of Fallout 76 — \"Don't worry, even though we're making a multiplayer game we've got single-player stuff coming too!\" Sorry ...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xmwpd7/schreier_es6_more_than_2_years_away/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xmzfy5/jason_schreier_on_his_2_years_away_statement_its/",
+      "title": "Jason Schreier on his 2+ years away statement : It's not a prediction. I know the time frame the game is targeting",
+      "original_title": "Jason Schreier on his 2+ years away statement : It's not a prediction. I know the time frame the game is targeting",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-11-03",
+      "summary": "Jason Schreier was asked about his \"prediction\" in the BlueSky post. But he doubles down saying it's not a prediction. https://bsky.app/profile/jasonschreier.bsky.social/post/3mzgbaspm7s2q    submitted by    /u/XTRevivals   [link] [comments]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xmzfy5/jason_schreier_on_his_2_years_away_statement_its/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xmubmr/ocarina_of_time_remake_review_uploaded_early_by/",
+      "title": "Ocarina of Time Remake review uploaded early by NPR",
+      "original_title": "Ocarina of Time Remake review uploaded early by NPR",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-11-03",
+      "summary": "Uploaded by NPR, but quickly deleted The Legend of Zelda: Ocarina of Time remake is superb, streamlined and safe. November 3, 2026 James Perkins Mastromarino The Legend of Zelda: Ocarina of Time is a story about growing up. Link leaves the shelter of...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xmubmr/ocarina_of_time_remake_review_uploaded_early_by/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xmsfin/gaming_youtuber_the_spiffing_brit_seemingly/",
+      "title": "Gaming YouTuber The Spiffing Brit Seemingly Teasing Something TES:6 Related Today",
+      "original_title": "Gaming YouTuber The Spiffing Brit Seemingly Teasing Something TES:6 Related Today",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-11-03",
+      "summary": "Could be something, could be absolutely nothing, but The Spiffing Brit has made both a Twitter and YouTube community post seemingly teasing something happening today relating to TES6. I didn't see anyone discussing these so thought it would be worth ...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xmsfin/gaming_youtuber_the_spiffing_brit_seemingly/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xmzbbi/steams_review_queue_has_been_delayed_immensly/",
+      "title": "Steam's review queue has been delayed immensly from it's listed 3-5 days due the recent influx of ai games.",
+      "original_title": "Steam's review queue has been delayed immensly from it's listed 3-5 days due the recent influx of ai games.",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-11-03",
+      "summary": "I don't know if this should technically be posted here but i found it interesting and it hasn't been confirmed by steam themselves, as thier review system still lists 3-5 days. If i should delete it let me know https://xxcancel.com/StudioDaimon/statu...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xmzbbi/steams_review_queue_has_been_delayed_immensly/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xn0zr4/phantom_blade_zero_made_223m_on_steam_and_ps5_in/",
+      "title": "Phantom Blade Zero made $223M on Steam and PS5 in five days according to Alinea Analytic's Substack",
+      "original_title": "Phantom Blade Zero made $223M on Steam and PS5 in five days according to Alinea Analytic's Substack",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-11-03",
+      "summary": "Phantom Blade Zero made $223M on Steam and PS5 in five days And most of that came from outside China. Of course we need to take it with a grain of salt, but it's big if true. https://alineaanalytics.substack.com/p/phantom-blade-zero-made-223m-on-stea...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xn0zr4/phantom_blade_zero_made_223m_on_steam_and_ps5_in/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xmz68i/xj0nathan_shares_a_blurred_screenshot_of_ac_hexe/",
+      "title": "xJ0nathan shares a blurred screenshot of AC Hexe",
+      "original_title": "xJ0nathan shares a blurred screenshot of AC Hexe",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-11-03",
+      "summary": " Blurred look at Anika, the protaganist Same UI as Shadows and Black Flag Resynced it seems  Image: https://ibb.co/Fq0zQWJG    submitted by    /u/Gyatto-   [link] [comments]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xmz68i/xj0nathan_shares_a_blurred_screenshot_of_ac_hexe/"
+    },
+    {
+      "id": "https://www.techpowerup.com/354439/intel-moves-select-core-ultra-200h-and-200u-cpus-to-embedded-market",
+      "title": "Intel Moves Select Core Ultra 200H and 200U CPUs to Embedded Market",
+      "original_title": "Intel Moves Select Core Ultra 200H and 200U CPUs to Embedded Market",
+      "image": "https://tpucdn.com/img/8FZgQ8bDXpsOu8kk_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-03",
+      "summary": "Intel has released the latest Product Change Notice (PCN) document, stating that the company's mobile \"Arrow Lake-H\" and \"Arrow Lake-U\" processors, with the Core Ultra 200H and Core Ultra 200U naming schemes, will no longer be offered as standard par...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354439/intel-moves-select-core-ultra-200h-and-200u-cpus-to-embedded-market"
+    },
+    {
+      "id": "https://www.techpowerup.com/354438/hator-launches-the-pulsar-4-wireless-gaming-mouse",
+      "title": "(PR) HATOR Launches the Pulsar 4 Wireless Gaming Mouse",
+      "original_title": "(PR) HATOR Launches the Pulsar 4 Wireless Gaming Mouse",
+      "image": "https://tpucdn.com/img/ENBgo1tYpVwvXyYU_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-03",
+      "summary": "HATOR Gaming B.V. a pioneering gaming brand proudly born in Ukraine, announced today that its entry into the UK continues, with the launch of the HATOR Pulsar 4 Wireless Gaming Mouse, shipping online via hator.com. Recently announcing its entry into ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354438/hator-launches-the-pulsar-4-wireless-gaming-mouse"
+    },
+    {
+      "id": "https://www.techpowerup.com/354256/teclast-v16q-portable-monitor-with-a-16-inch-2-5k-high-refresh-rate-screen",
+      "title": "Teclast V16Q Portable Monitor with a 16-Inch 2.5K High-Refresh-Rate Screen",
+      "original_title": "Teclast V16Q Portable Monitor with a 16-Inch 2.5K High-Refresh-Rate Screen",
+      "image": "https://tpucdn.com/img/DBWUjFPD4kJA7DEj_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-03",
+      "summary": "The V16Q is a 16-inch portable monitor designed for mobile work and entertainment. It features a 2560×1600 IPS screen with a refresh rate of up to 144 Hz. It can serve as an extended display for a laptop and can also be used with compatible devices s...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354256/teclast-v16q-portable-monitor-with-a-16-inch-2-5k-high-refresh-rate-screen"
+    },
+    {
+      "id": "https://www.techpowerup.com/354437/global-semiconductor-sales-increase-24-1-from-q2-2026-to-q3-2026",
+      "title": "(PR) Global Semiconductor Sales Increase 24.1% From Q2 2026 to Q3 2026",
+      "original_title": "(PR) Global Semiconductor Sales Increase 24.1% From Q2 2026 to Q3 2026",
+      "image": "https://tpucdn.com/img/OQYsFyvOZpqXzOin_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-03",
+      "summary": "The Semiconductor Industry Association (SIA) today announced global semiconductor sales were $517.7 billion during the third quarter of 2026, an increase of 24.1% compared to the second quarter of 2026. Global sales were $172.6 billion during the mon...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354437/global-semiconductor-sales-increase-24-1-from-q2-2026-to-q3-2026"
+    },
+    {
+      "id": "https://www.techpowerup.com/354434/razer-unveils-the-raiju-v3-pro-signature-edition",
+      "title": "(PR) Razer Unveils the Raiju V3 Pro Signature Edition",
+      "original_title": "(PR) Razer Unveils the Raiju V3 Pro Signature Edition",
+      "image": "https://tpucdn.com/img/RU8q9LKvu7rkNEsc_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-03",
+      "summary": "Razer, the leading global lifestyle brand for gamers, today announced the Razer Raiju V3 Pro Signature Edition, its flagship controller officially licensed for the PlayStation 5 console, built for players who want the highest level of performance and...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354434/razer-unveils-the-raiju-v3-pro-signature-edition"
+    },
+    {
+      "id": "https://www.techpowerup.com/354433/fsp-announces-new-flagship-1200w-gold-non-modular-fsp1200-50ada-power-supply",
+      "title": "(PR) FSP Announces New Flagship 1200W Gold Non-Modular FSP1200-50ADA Power Supply",
+      "original_title": "(PR) FSP Announces New Flagship 1200W Gold Non-Modular FSP1200-50ADA Power Supply",
+      "image": "https://tpucdn.com/img/EKDdqM1Lm5GdJ9aC_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-03",
+      "summary": "With the booming development of next-generation graphics cards and AI applications, global power supply leading brand FSP Group announces the expansion of its highly popular 50ADA series, launching the new flagship 1200 W Gold non-modular power suppl...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354433/fsp-announces-new-flagship-1200w-gold-non-modular-fsp1200-50ada-power-supply"
+    },
+    {
+      "id": "https://www.techpowerup.com/354163/gigabyte-aorus-and-capcom-team-up-for-resident-evil-themed-pc-giveaway",
+      "title": "GIGABYTE AORUS and Capcom Team Up for Resident Evil-Themed PC Giveaway",
+      "original_title": "GIGABYTE AORUS and Capcom Team Up for Resident Evil-Themed PC Giveaway",
+      "image": "https://tpucdn.com/img/1mOlqKUbbWm31KUD_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-03",
+      "summary": "GIGABYTE AORUS has teamed up with Capcom and custom PC modder Sarah Carlos for its \"Evil Season Is Here\" campaign, bringing a Resident Evil-inspired custom PC build to TwitchCon 2026 alongside an online giveaway running through November 16.\n\nThe cust...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354163/gigabyte-aorus-and-capcom-team-up-for-resident-evil-themed-pc-giveaway"
+    },
+    {
+      "id": "https://www.techpowerup.com/354432/the-worst-is-yet-to-come-for-memory-shortages-warns-team-group",
+      "title": "The Worst Is Yet to Come for Memory Shortages, Warns Team Group",
+      "original_title": "The Worst Is Yet to Come for Memory Shortages, Warns Team Group",
+      "image": "https://tpucdn.com/img/0fJ7wQjkpk75E6s8_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-03",
+      "summary": "We might not be past the worst part of the global memory shortages, as the most severe supply chain squeeze could happen soon. During Team Group's earnings conference on November 2, the company stated that the worst period in memory demand is project...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354432/the-worst-is-yet-to-come-for-memory-shortages-warns-team-group"
+    },
+    {
+      "id": "https://www.techpowerup.com/354098/techpowerup-x-chieftec-giveaway-win-cases-coolers-and-psus",
+      "title": "TechPowerUp x Chieftec Giveaway: Win Cases, Coolers, and PSUs!",
+      "original_title": "TechPowerUp x Chieftec Giveaway: Win Cases, Coolers, and PSUs!",
+      "image": "https://tpucdn.com/img/WDliYXlcs7Wsw4jg_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-03",
+      "summary": "TechPowerUp partners with Chieftec to bring our readers from the European Union a unique opportunity to bag one of six fine pieces of Chieftec hardware. The company specializes in gaming PC case, cooling, and power-supply hardware, and have opened th...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354098/techpowerup-x-chieftec-giveaway-win-cases-coolers-and-psus"
+    },
+    {
+      "id": "https://www.techpowerup.com/354427/nvidia-geforce-rtx-50-series-scheduled-for-up-to-usd-500-price-hike-this-week",
+      "title": "NVIDIA GeForce RTX 50-Series Scheduled for up to $500 Price Hike This Week",
+      "original_title": "NVIDIA GeForce RTX 50-Series Scheduled for up to $500 Price Hike This Week",
+      "image": "https://tpucdn.com/img/CIASCL6wLXlk8ceH_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-03",
+      "summary": "NVIDIA's GeForce RTX 50-Series \"Blackwell\" gaming graphics cards are expected to see significant price adjustments this week. According to Chinese ChannelGate, add-in card (AIC) partners have confirmed that price hikes are scheduled due to the ongoin...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354427/nvidia-geforce-rtx-50-series-scheduled-for-up-to-usd-500-price-hike-this-week"
     },
     {
       "id": "https://www.eurogamer.net/yakuza-creator-new-studio-closed-netease",
@@ -209,396 +599,6 @@
         "Eurogamer"
       ],
       "url": "https://www.eurogamer.net/borderlands-100-million-copies-gearbox"
-    },
-    {
-      "id": "https://www.eurogamer.net/nintendo-fast-travel-legend-of-zelda-ocarina-of-time-remake",
-      "title": "Nintendo tried adding fast travel to The Legend of Zelda: Ocarina of Time remake, before devs realised \"we were missing out on the moments of discovery\"",
-      "original_title": "Nintendo tried adding fast travel to The Legend of Zelda: Ocarina of Time remake, before devs realised \"we were missing out on the moments of discovery\"",
-      "image": "https://assetsio.gnwcdn.com/Ocarina-of-Time-Link.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-11-02",
-      "summary": " The Legend of Zelda: Ocarina of Time is being wrapped up in all kinds of modern touches for its imminent Nintendo Switch 2 remake (that owl seems to be less chatty, for starters), but there's at least one quality-of-life feature borrowed from Breath...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/nintendo-fast-travel-legend-of-zelda-ocarina-of-time-remake"
-    },
-    {
-      "id": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-dmz-story-missions-pve",
-      "title": "COD Modern Warfare 4 has seemingly answered DMZ players' PvE calls with new Story Mission changes - but there are major caveats",
-      "original_title": "COD Modern Warfare 4 has seemingly answered DMZ players' PvE calls with new Story Mission changes - but there are major caveats",
-      "image": "https://assetsio.gnwcdn.com/DMZ-COD-MW4-(1).webp?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-11-02",
-      "summary": " For as long as Call of Duty: Modern Warfare 4's DMZ extraction mode has been available, there've been calls for PvE-only servers. Developer Infinity Ward, for its part, has maintained the mode is designed as a PvPvE experience, but it's now seemingl...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-dmz-story-missions-pve"
-    },
-    {
-      "id": "https://www.eurogamer.net/world-of-warcraft-forever-first-person-mod-rpg",
-      "title": "One World of Warcraft: Forever player is working on a first-person mod that's a love letter to retro RPGs like Hexen and Morrowind",
-      "original_title": "One World of Warcraft: Forever player is working on a first-person mod that's a love letter to retro RPGs like Hexen and Morrowind",
-      "image": "https://assetsio.gnwcdn.com/wow-forever-retro.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-11-02",
-      "summary": " One World of Warcraft: Forever player is attempting to turn Blizzard's  new MMO endeavour into a Morrowind-esque first-person fantasy RPG, full of retro animations harkening back to the good ol' days. And there's no generative AI in sight. Read more...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/world-of-warcraft-forever-first-person-mod-rpg"
-    },
-    {
-      "id": "https://www.eurogamer.net/anthropic-claude-generative-ai-game-clones-update",
-      "title": "As the controversy around AI-created video game copies continues, Anthropic seemingly restricts Claude's cloning abilities",
-      "original_title": "As the controversy around AI-created video game copies continues, Anthropic seemingly restricts Claude's cloning abilities",
-      "image": "https://assetsio.gnwcdn.com/Stellar-Blade_robotic-old-man.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-11-02",
-      "summary": " An update to Anthropic's Claude AI software has seemingly blocked the creation of outright clones or copies of existing games. Instead, Claude has been altered to only create \"original\" games. Read more...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/anthropic-claude-generative-ai-game-clones-update"
-    },
-    {
-      "id": "https://www.eurogamer.net/bloodborne-251-000-sales-in-2016-ps4",
-      "title": "Over a decade later, Bloodborne remains so popular it reportedly sold a quarter of a million copies this year alone",
-      "original_title": "Over a decade later, Bloodborne remains so popular it reportedly sold a quarter of a million copies this year alone",
-      "image": "https://assetsio.gnwcdn.com/Bloodborne-artwork-showing-a-cloaked-male-known-as-a-Hunter-skulking-in-a-moonlit-gothic-city.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-11-02",
-      "summary": " Bloodborne, FromSoftware's singular Lovecraftian action-RPG, has reportedly sold more than 251,000 copies this year alone. Read more...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/bloodborne-251-000-sales-in-2016-ps4"
-    },
-    {
-      "id": "https://www.eurogamer.net/id-software-doing-great-losing-half-the-studio",
-      "title": "\"We're doing great,\" says id Software boss, despite losing \"about half of our studio\" amid devastating Xbox cuts",
-      "original_title": "\"We're doing great,\" says id Software boss, despite losing \"about half of our studio\" amid devastating Xbox cuts",
-      "image": "https://assetsio.gnwcdn.com/A-demonic-looking-character-in-Doom-The-Dark-Ages.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-11-02",
-      "summary": " Iconic Doom and Quake developer id Software was among the most heavily impacted Microsoft-owned studios during Xbox CEO Asha Sharma's devastating business \"reset\" earlier this year, with around 136 employees reportedly losing their jobs. Read more...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/id-software-doing-great-losing-half-the-studio"
-    },
-    {
-      "id": "https://www.eurogamer.net/soulframe-open-prelude-date-verse-of-the-veillands",
-      "title": "Soulframe to launch into free open beta this week, as Warframe devs go head-to-head with WoW: Forever",
-      "original_title": "Soulframe to launch into free open beta this week, as Warframe devs go head-to-head with WoW: Forever",
-      "image": "https://assetsio.gnwcdn.com/Soulframe_Screenshot_10.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-11-02",
-      "summary": " Soulframe's Preludes (its own version of a beta) is finally opening its doors to the whole world ahead of the Verse of the Veilands update. Starting this week, anyone who wants to can simply download the game and hop in, no invite required. Read mor...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/soulframe-open-prelude-date-verse-of-the-veillands"
-    },
-    {
-      "id": "https://www.eurogamer.net/phantom-blade-zero-4-million-copies-steam-biggest-launch",
-      "title": "Phantom Blade Zero is Steam's biggest launch of the year so far, selling over 4 million copies in three days",
-      "original_title": "Phantom Blade Zero is Steam's biggest launch of the year so far, selling over 4 million copies in three days",
-      "image": "https://assetsio.gnwcdn.com/Phantom-Blade-Zero-review-2.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-11-02",
-      "summary": " Phantom Blade Zero studio S-Game has announced that its debut title has sold more than 4m copies in its first 72 hours on sale. The game's official X account broke the news alongside a celebratory message, though without providing a per-platform bre...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/phantom-blade-zero-4-million-copies-steam-biggest-launch"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xm7254/exxbox_coo_helen_chiang_shares_linkedin_post/",
-      "title": "ex-Xbox COO Helen Chiang shares LinkedIn post denying Eurogamer's unverified source claim that she was terminated for policy violations",
-      "original_title": "ex-Xbox COO Helen Chiang shares LinkedIn post denying Eurogamer's unverified source claim that she was terminated for policy violations",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-11-02",
-      "summary": "Previous rumor: https://old.reddit.com/r/GamingLeaksAndRumours/comments/1xelvhl/source_told_eurogamer_xbox_coo_helen_chiang_had/ Source: https://www.linkedin.com/posts/helenchiang_clarity-is-kindness-there-has-been-some-share-7523070825940467712-Rzit...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xm7254/exxbox_coo_helen_chiang_shares_linkedin_post/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xm1xti/alleged_minecraft_movie_squared_logo/",
-      "title": "alleged Minecraft Movie Squared logo",
-      "original_title": "alleged Minecraft Movie Squared logo",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-11-02",
-      "summary": "source: https://xcancel.com/hileaks\\_ok/status/2117206616009261215?s=46    submitted by    /u/swiftaee   [link] [comments]...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xm1xti/alleged_minecraft_movie_squared_logo/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xlj4a8/nintendeal_grand_theft_auto_vi_preorders_from/",
-      "title": "Nintendeal: Grand Theft Auto VI pre-orders from Walmart will have a \"surprise\" included with the delivery",
-      "original_title": "Nintendeal: Grand Theft Auto VI pre-orders from Walmart will have a \"surprise\" included with the delivery",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-11-02",
-      "summary": "https://xcancel.com/Nintendeal/status/2117050523006509208 The tweet contains the text in the title, as well as an image of Walmart's system showing, amongst other information:  At the bagging station, place the GTA6 game and the surprise and delight ...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xlj4a8/nintendeal_grand_theft_auto_vi_preorders_from/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xlp3f2/nagoshi_studio_has_been_dissolved_by_a/",
-      "title": "Nagoshi Studio has been dissolved by a shareholder vote as of October 31, 2026.",
-      "original_title": "Nagoshi Studio has been dissolved by a shareholder vote as of October 31, 2026.",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-11-02",
-      "summary": "Previous rumor: https://old.reddit.com/r/GamingLeaksAndRumours/comments/1strpqz/nagoshi_studio_has_deleted_their_youtube_channel/ Confirmation: https://www.4gamer.net/games/968/G096890/20261102005/    submitted by    /u/metalreflectslime   [link] [co...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xlp3f2/nagoshi_studio_has_been_dissolved_by_a/"
-    },
-    {
-      "id": "https://www.techpowerup.com/354418/gpu-makers-focus-on-rtx-3060-3050-as-rtx-50-series-inventory-dries-up",
-      "title": "GPU Makers Focus on RTX 3060/3050 as RTX 50 Series Inventory Dries Up",
-      "original_title": "GPU Makers Focus on RTX 3060/3050 as RTX 50 Series Inventory Dries Up",
-      "image": "https://tpucdn.com/img/BDWNzPhV6QAinBTE_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-02",
-      "summary": "GPU makers across Asia, particularly in China, are reportedly redirecting their sellers to older graphics cards as an alternative due to the low supply of NVIDIA's latest GeForce RTX 50-series \"Blackwell\" graphics cards. They are focusing on the rece...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354418/gpu-makers-focus-on-rtx-3060-3050-as-rtx-50-series-inventory-dries-up"
-    },
-    {
-      "id": "https://www.techpowerup.com/354419/satechi-launches-extendview-usb4-dual-hdmi-multiport-adapter",
-      "title": "Satechi Launches ExtendView USB4 Dual HDMI Multiport Adapter",
-      "original_title": "Satechi Launches ExtendView USB4 Dual HDMI Multiport Adapter",
-      "image": "https://tpucdn.com/img/unaD2uihWlO6mOnL_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-02",
-      "summary": "Satechi has introduced the ExtendView USB4 Dual HDMI Multiport Adapter. This is a compact, seven-port hub that connects two 4K displays at 60 Hz through a USB4 cable. The adapter works with Mac and Windows laptops without additional drivers or Displa...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354419/satechi-launches-extendview-usb4-dual-hdmi-multiport-adapter"
-    },
-    {
-      "id": "https://www.techpowerup.com/354256/teclast-v16q-portable-monitor-with-a-16-inch-2-5k-high-refresh-rate-screen",
-      "title": "Teclast V16Q Portable Monitor with a 16-Inch 2.5K High-Refresh-Rate Screen",
-      "original_title": "Teclast V16Q Portable Monitor with a 16-Inch 2.5K High-Refresh-Rate Screen",
-      "image": "https://tpucdn.com/img/DBWUjFPD4kJA7DEj_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-02",
-      "summary": "The V16Q is a 16-inch portable monitor designed for mobile work and entertainment. It features a 2560×1600 IPS screen with a refresh rate of up to 144 Hz. It can serve as an extended display for a laptop and can also be used with compatible devices s...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354256/teclast-v16q-portable-monitor-with-a-16-inch-2-5k-high-refresh-rate-screen"
-    },
-    {
-      "id": "https://www.techpowerup.com/354412/asus-xg-core-radeon-rx-9060-xt-lp-heavily-downclocked-to-meet-75-w-power-limit",
-      "title": "ASUS XG Core Radeon RX 9060 XT LP Heavily Downclocked to Meet 75 W Power Limit",
-      "original_title": "ASUS XG Core Radeon RX 9060 XT LP Heavily Downclocked to Meet 75 W Power Limit",
-      "image": "https://tpucdn.com/img/Dy9cPH9nVTWJZEBS_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-02",
-      "summary": "According to the latest update on the ASUS page, the official specifications for the PCIe slot-powered 75 W ASUS XG Core Radeon RX 9060 XT LP differ significantly from those of the regular desktop card. As an external graphics solution, the XG Core p...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354412/asus-xg-core-radeon-rx-9060-xt-lp-heavily-downclocked-to-meet-75-w-power-limit"
-    },
-    {
-      "id": "https://www.techpowerup.com/354410/marvell-acquires-lumentum-for-usd-115-billion-all-stock-deal",
-      "title": "(PR) Marvell Acquires Lumentum for $115 Billion All-Stock Deal",
-      "original_title": "(PR) Marvell Acquires Lumentum for $115 Billion All-Stock Deal",
-      "image": "https://tpucdn.com/img/hlkXmHFmgQwdNwb0_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-02",
-      "summary": "Marvell Technology, Inc. (NASDAQ: MRVL) and Lumentum (NASDAQ: LITE) today announced that they have entered into a definitive agreement for Marvell to acquire Lumentum in an all-stock transaction. Under the terms of the agreement, Lumentum stockholder...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354410/marvell-acquires-lumentum-for-usd-115-billion-all-stock-deal"
-    },
-    {
-      "id": "https://www.techpowerup.com/354405/raspberry-pi-5-16-gb-hits-usd-385-following-latest-price-hikes",
-      "title": "Raspberry Pi 5 16 GB Hits $385 Following Latest Price Hikes",
-      "original_title": "Raspberry Pi 5 16 GB Hits $385 Following Latest Price Hikes",
-      "image": "https://tpucdn.com/img/uHMJcj5LWlT6k19Y_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-02",
-      "summary": "Raspberry Pi has raised prices again, and this time the 16 GB Raspberry Pi 5 takes the hit. CEO Eben Upton announced in a blog post that the 16 GB model goes up by $80 to $385, more than triple the $120 it launched at in January 2025. The 16 GB Compu...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354405/raspberry-pi-5-16-gb-hits-usd-385-following-latest-price-hikes"
-    },
-    {
-      "id": "https://www.techpowerup.com/354163/gigabyte-aorus-and-capcom-team-up-for-resident-evil-themed-pc-giveaway",
-      "title": "GIGABYTE AORUS and Capcom Team Up for Resident Evil-Themed PC Giveaway",
-      "original_title": "GIGABYTE AORUS and Capcom Team Up for Resident Evil-Themed PC Giveaway",
-      "image": "https://tpucdn.com/img/1mOlqKUbbWm31KUD_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-02",
-      "summary": "GIGABYTE AORUS has teamed up with Capcom and custom PC modder Sarah Carlos for its \"Evil Season Is Here\" campaign, bringing a Resident Evil-inspired custom PC build to TwitchCon 2026 alongside an online giveaway running through November 16.\n\nThe cust...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354163/gigabyte-aorus-and-capcom-team-up-for-resident-evil-themed-pc-giveaway"
-    },
-    {
-      "id": "https://www.techpowerup.com/354409/qualcomm-validates-hbc-silicon-samples-appear-in-first-half-of-2027",
-      "title": "Qualcomm Validates HBC Silicon, Samples Appear in First Half of 2027",
-      "original_title": "Qualcomm Validates HBC Silicon, Samples Appear in First Half of 2027",
-      "image": "https://tpucdn.com/img/MXEl7cU2DLxb2odz_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-02",
-      "summary": "Qualcomm has officially validated its High Bandwidth Compute (HBC) concept, which the company showcased this summer. Instead of using traditional HBM and compute dies, Qualcomm has developed a technology that stacks multiple LPDDR layers and embeds a...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354409/qualcomm-validates-hbc-silicon-samples-appear-in-first-half-of-2027"
-    },
-    {
-      "id": "https://www.techpowerup.com/354098/techpowerup-x-chieftec-giveaway-win-cases-coolers-and-psus",
-      "title": "TechPowerUp x Chieftec Giveaway: Win Cases, Coolers, and PSUs!",
-      "original_title": "TechPowerUp x Chieftec Giveaway: Win Cases, Coolers, and PSUs!",
-      "image": "https://tpucdn.com/img/WDliYXlcs7Wsw4jg_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-02",
-      "summary": "TechPowerUp partners with Chieftec to bring our readers from the European Union a unique opportunity to bag one of six fine pieces of Chieftec hardware. The company specializes in gaming PC case, cooling, and power-supply hardware, and have opened th...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354098/techpowerup-x-chieftec-giveaway-win-cases-coolers-and-psus"
-    },
-    {
-      "id": "https://www.techpowerup.com/354406/steam-hardware-survey-old-leaders-return-as-16-gb-ram-and-rtx-3060-are-back-on-top",
-      "title": "Steam Hardware Survey: Old Leaders Return as 16 GB RAM and RTX 3060 Are Back on Top",
-      "original_title": "Steam Hardware Survey: Old Leaders Return as 16 GB RAM and RTX 3060 Are Back on Top",
-      "image": "https://tpucdn.com/img/jtVrogETzJTAEfBC_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-02",
-      "summary": "Valve's October 2026 Steam Hardware & Software Survey shows much of September's odd data snapping back. After 32 GB system RAM overtook 16 GB last month, the 16 GB tier is back in first place at 41.42% (up 3.60 points), while 32 GB dropped 5.16 point...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354406/steam-hardware-survey-old-leaders-return-as-16-gb-ram-and-rtx-3060-are-back-on-top"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xl2r94/reddit_user_gets_ocarina_of_time_early_shares/",
-      "title": "Reddit User Gets Ocarina of Time Early, Shares Screenshots of Early-Mid Game",
-      "original_title": "Reddit User Gets Ocarina of Time Early, Shares Screenshots of Early-Mid Game",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-11-01",
-      "summary": "https://www.reddit.com/r/OcarinaOfTime/comments/1xknlqs/anyone_have_any_questions/ The most interesting things there seem to be the updated designs for the cursed Skulltula family and the ReDeads, though I haven't checked recent updates.    submitted...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xl2r94/reddit_user_gets_ocarina_of_time_early_shares/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xl12kb/former_senior_product_manager_at_xbox_clarifies/",
-      "title": "Former Senior Product Manager at Xbox clarifies Coalition costs",
-      "original_title": "Former Senior Product Manager at Xbox clarifies Coalition costs",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-11-01",
-      "summary": "\"So much of that cost is The Coalition being on the hook for the Microsoft branch of Unreal and one of the flagship titles. I should know, I tried to get leadership to support a plan to have other studios adopt it and write off the support costs. Sam...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xl12kb/former_senior_product_manager_at_xbox_clarifies/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xkzoed/warhorse_cyberattack_update_potential_kingdom/",
-      "title": "Warhorse Cyberattack Update – Potential Kingdom Come Delay",
-      "original_title": "Warhorse Cyberattack Update – Potential Kingdom Come Delay",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-11-01",
-      "summary": "​ Another small update regarding the reported cyberattack on Warhorse Studios. According to my source close to the studio, the situation is expected to be resolved within approximately a week. Hopefully, this means the developers will soon be able to...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xkzoed/warhorse_cyberattack_update_potential_kingdom/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xkrdgh/the_bioshock_infinite_prototype_that_leaked_last/",
-      "title": "The bioshock infinite prototype that leaked last year is being repaired and will soon be fully playable",
-      "original_title": "The bioshock infinite prototype that leaked last year is being repaired and will soon be fully playable",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Rumor",
-      "date": "2026-11-01",
-      "summary": "Reuploaded to have a better title sorry EDIT: The video has been swapped to 30 minutes of raw gameplay showcasing the more interesting changes like song bird screaming and the kid burning himself! Enjoy Ok so this is just a short snippet of gameplay ...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xkrdgh/the_bioshock_infinite_prototype_that_leaked_last/"
     }
   ]
 }
