@@ -1,22 +1,11 @@
 {
-  "last_updated": "2026-11-04T19:25:19",
-  "display_date": "04/11/2026 19:25",
+  "last_updated": "2026-11-05T19:32:53",
+  "display_date": "05/11/2026 19:32",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "547ms",
+    "latency": "120ms",
     "current_games": [
-      {
-        "title": "Sorry We're Closed",
-        "description": "Sorry We're Closed is a story-driven survival horror game about demons, angels and what happens when both sides collide. A mix of fixed-camera exploration and arcade-style shooting where Michelle must use her Third Eye to see between worlds, uncover secrets and solve puzzles.",
-        "image": "https://cdn1.epicgames.com/spt-assets/9ab7eaaeb2f041969b350955b789f0f7/sorry-were-closed-1orqh.png",
-        "url": "https://store.epicgames.com/p/f2dae10b3c45425ba1e91b4604262283",
-        "price": "$24.99",
-        "start_date": "2026-10-29T15:00:00.000Z",
-        "end_date": "2026-11-05T16:00:00.000Z"
-      }
-    ],
-    "upcoming_games": [
       {
         "title": "Idle Champions of the Forgotten Realms",
         "description": "Idle Champions of the Forgotten Realms is a Dungeons & Dragons strategy management game uniting characters from throughout the D&D multiverse into a grand adventure.",
@@ -26,6 +15,17 @@
         "start_date": "2026-11-05T16:00:00.000Z",
         "end_date": "2026-11-12T16:00:00.000Z"
       },
+      {
+        "title": "Flotsam",
+        "description": "The floating garbage town survival game! Scavenge what precious garbage you can from the ocean's surface and grow your city while doing your best to survive in this colorful post-apocalyptic world.",
+        "image": "https://cdn1.epicgames.com/spt-assets/5c36b876e80d4285b9993947efeeaf2b/flotsam-1yczl.jpg",
+        "url": "https://store.epicgames.com/p/7ca01ab906ad4eff92d4ed1efa5fbfcb",
+        "price": "$24.99",
+        "start_date": "2026-11-05T16:00:00.000Z",
+        "end_date": "2026-11-12T16:00:00.000Z"
+      }
+    ],
+    "upcoming_games": [
       {
         "title": "Ghostrunner 2",
         "description": "Ghostrunner 2 is a hardcore FPP slasher set in a post-apocalyptic, cyberpunk world. Featuring everything fans loved about Ghostrunner plus incredible boss fights, new interactive story, thrilling motorbike levels, improved skills, and more cyber ninja action. ",
@@ -45,15 +45,6 @@
         "end_date": "2027-01-07T16:00:00.000Z"
       },
       {
-        "title": "Sorry We're Closed",
-        "description": "Sorry We're Closed is a story-driven survival horror game about demons, angels and what happens when both sides collide. A mix of fixed-camera exploration and arcade-style shooting where Michelle must use her Third Eye to see between worlds, uncover secrets and solve puzzles.",
-        "image": "https://cdn1.epicgames.com/spt-assets/9ab7eaaeb2f041969b350955b789f0f7/sorry-were-closed-1orqh.png",
-        "url": "https://store.epicgames.com/p/f2dae10b3c45425ba1e91b4604262283",
-        "price": "$24.99",
-        "start_date": "2026-12-10T16:00:00.000Z",
-        "end_date": "2027-01-07T16:00:00.000Z"
-      },
-      {
         "title": "Monument Valley",
         "description": "Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
         "image": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
@@ -63,47 +54,56 @@
         "end_date": "2027-01-07T16:00:00.000Z"
       },
       {
-        "title": "Flotsam",
-        "description": "The floating garbage town survival game! Scavenge what precious garbage you can from the ocean's surface and grow your city while doing your best to survive in this colorful post-apocalyptic world.",
-        "image": "https://cdn1.epicgames.com/spt-assets/5c36b876e80d4285b9993947efeeaf2b/flotsam-1yczl.jpg",
-        "url": "https://store.epicgames.com/p/7ca01ab906ad4eff92d4ed1efa5fbfcb",
-        "price": "$24.99",
-        "start_date": "2026-11-05T16:00:00.000Z",
-        "end_date": "2026-11-12T16:00:00.000Z"
+        "title": "TerraScape",
+        "description": "Build gorgeous kingdoms on floating islands by strategically placing buildings in this cozy, medieval City-Puzzler. Discover secret combinations, take on monthly challenges and explore randomly generated maps in various single- and multiplayer game modes.",
+        "image": "https://cdn1.epicgames.com/spt-assets/a740a2eed807469f88b9dff17e7cd3a3/terrascape-j7p8d.png",
+        "url": "https://store.epicgames.com/p/f229ed53ddba40788e0ab62978e9eaf9",
+        "price": "$16.99",
+        "start_date": "2026-11-21T16:00:00.000Z",
+        "end_date": "2026-12-21T16:00:00.000Z"
+      },
+      {
+        "title": "Knightica",
+        "description": "Recruit units, place them strategically, and find the synergies in this Roguelike AutoBattler!\nKnightica lets you guide a warband through challenges to free the Kingdoms.\nDiscover combinations, weave powerful enchants, face dangerous monsters, and lead your army to victory!",
+        "image": "https://cdn1.epicgames.com/spt-assets/357100ca5613420e98208c5f14585e9d/knightica-1nuxm.png",
+        "url": "https://store.epicgames.com/p/72b46f5d95624fd5b7e7d81b7dcaead1",
+        "price": "$14.99",
+        "start_date": "2026-11-12T16:00:00.000Z",
+        "end_date": "2026-11-19T16:00:00.000Z"
       }
     ],
     "mystery_detected": false
   },
   "items": [
     {
-      "id": "https://store.epicgames.com/p/f2dae10b3c45425ba1e91b4604262283",
-      "title": "GRÁTIS: Sorry We're Closed",
-      "original_title": "Sorry We're Closed",
-      "image": "https://cdn1.epicgames.com/spt-assets/9ab7eaaeb2f041969b350955b789f0f7/sorry-were-closed-1orqh.png",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Free Games",
-      "date": "2026-11-04",
-      "summary": "Sorry We're Closed is a story-driven survival horror game about demons, angels and what happens when both sides collide. A mix of fixed-camera exploration and arcade-style shooting where Michelle must use her Third Eye to see between worlds, uncover secrets and solve puzzles.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/f2dae10b3c45425ba1e91b4604262283"
-    },
-    {
       "id": "https://store.epicgames.com/p/banegeneralaudience",
-      "title": "EM BREVE: Idle Champions of the Forgotten Realms",
+      "title": "GRÁTIS: Idle Champions of the Forgotten Realms",
       "original_title": "Idle Champions of the Forgotten Realms",
       "image": "https://cdn1.epicgames.com/spt-assets/a53f91e55c6840018cb5de0b204f1ad9/idle-champions-of-the-forgotten-realms-1cv5z.jpg",
       "source_count": 1,
       "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-11-04",
-      "summary": "Disponível gratuitamente a partir de 05/11. Idle Champions of the Forgotten Realms is a Dungeons & Dragons strategy management game uniting characters from throughout the D&D multiverse into a grand adventure.",
+      "category": "Free Games",
+      "date": "2026-11-05",
+      "summary": "Idle Champions of the Forgotten Realms is a Dungeons & Dragons strategy management game uniting characters from throughout the D&D multiverse into a grand adventure.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/banegeneralaudience"
+    },
+    {
+      "id": "https://store.epicgames.com/p/7ca01ab906ad4eff92d4ed1efa5fbfcb",
+      "title": "GRÁTIS: Flotsam",
+      "original_title": "Flotsam",
+      "image": "https://cdn1.epicgames.com/spt-assets/5c36b876e80d4285b9993947efeeaf2b/flotsam-1yczl.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Free Games",
+      "date": "2026-11-05",
+      "summary": "The floating garbage town survival game! Scavenge what precious garbage you can from the ocean's surface and grow your city while doing your best to survive in this colorful post-apocalyptic world.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/7ca01ab906ad4eff92d4ed1efa5fbfcb"
     },
     {
       "id": "https://store.epicgames.com/p/ghostrunner-2",
@@ -113,7 +113,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-04",
+      "date": "2026-11-05",
       "summary": "Disponível gratuitamente a partir de 10/12. Ghostrunner 2 is a hardcore FPP slasher set in a post-apocalyptic, cyberpunk world. Featuring everything fans loved about Ghostrunner plus incredible boss fights, new interactive story, thrilling motorbike levels, improved skills, and more cyber ninja action. ",
       "sources": [
         "Epic Games Store"
@@ -128,27 +128,12 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-04",
+      "date": "2026-11-05",
       "summary": "Disponível gratuitamente a partir de 10/12. Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/lisa-the-definitive-edition"
-    },
-    {
-      "id": "https://store.epicgames.com/p/f2dae10b3c45425ba1e91b4604262283",
-      "title": "EM BREVE: Sorry We're Closed",
-      "original_title": "Sorry We're Closed",
-      "image": "https://cdn1.epicgames.com/spt-assets/9ab7eaaeb2f041969b350955b789f0f7/sorry-were-closed-1orqh.png",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-11-04",
-      "summary": "Disponível gratuitamente a partir de 10/12. Sorry We're Closed is a story-driven survival horror game about demons, angels and what happens when both sides collide. A mix of fixed-camera exploration and arcade-style shooting where Michelle must use her Third Eye to see between worlds, uncover secrets and solve puzzles.",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/f2dae10b3c45425ba1e91b4604262283"
     },
     {
       "id": "https://store.epicgames.com/p/monument-valley-02",
@@ -158,7 +143,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-04",
+      "date": "2026-11-05",
       "summary": "Disponível gratuitamente a partir de 10/12. Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
       "sources": [
         "Epic Games Store"
@@ -166,169 +151,364 @@
       "url": "https://store.epicgames.com/p/monument-valley-02"
     },
     {
-      "id": "https://store.epicgames.com/p/7ca01ab906ad4eff92d4ed1efa5fbfcb",
-      "title": "EM BREVE: Flotsam",
-      "original_title": "Flotsam",
-      "image": "https://cdn1.epicgames.com/spt-assets/5c36b876e80d4285b9993947efeeaf2b/flotsam-1yczl.jpg",
+      "id": "https://store.epicgames.com/p/f229ed53ddba40788e0ab62978e9eaf9",
+      "title": "EM BREVE: TerraScape",
+      "original_title": "TerraScape",
+      "image": "https://cdn1.epicgames.com/spt-assets/a740a2eed807469f88b9dff17e7cd3a3/terrascape-j7p8d.png",
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-04",
-      "summary": "Disponível gratuitamente a partir de 05/11. The floating garbage town survival game! Scavenge what precious garbage you can from the ocean's surface and grow your city while doing your best to survive in this colorful post-apocalyptic world.",
+      "date": "2026-11-05",
+      "summary": "Disponível gratuitamente a partir de 21/11. Build gorgeous kingdoms on floating islands by strategically placing buildings in this cozy, medieval City-Puzzler. Discover secret combinations, take on monthly challenges and explore randomly generated maps in various single- and multiplayer game modes.",
       "sources": [
         "Epic Games Store"
       ],
-      "url": "https://store.epicgames.com/p/7ca01ab906ad4eff92d4ed1efa5fbfcb"
+      "url": "https://store.epicgames.com/p/f229ed53ddba40788e0ab62978e9eaf9"
     },
     {
-      "id": "https://www.eurogamer.net/nintendo-cast-navi-actor-zelda-ocarina-of-time",
-      "title": "The Legend of Zelda: Ocarina of Time's Navi actor reprises her role after 28 years, but it was a total accident due to Nintendo's blind auditions",
-      "original_title": "The Legend of Zelda: Ocarina of Time's Navi actor reprises her role after 28 years, but it was a total accident due to Nintendo's blind auditions",
-      "image": "https://assetsio.gnwcdn.com/legend-of-zelda-ocarina-remake-jpg.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://store.epicgames.com/p/72b46f5d95624fd5b7e7d81b7dcaead1",
+      "title": "EM BREVE: Knightica",
+      "original_title": "Knightica",
+      "image": "https://cdn1.epicgames.com/spt-assets/357100ca5613420e98208c5f14585e9d/knightica-1nuxm.png",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-11-05",
+      "summary": "Disponível gratuitamente a partir de 12/11. Recruit units, place them strategically, and find the synergies in this Roguelike AutoBattler!\nKnightica lets you guide a warband through challenges to free the Kingdoms.\nDiscover combinations, weave powerful enchants, face dangerous monsters, and lead your army to victory!",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/72b46f5d95624fd5b7e7d81b7dcaead1"
+    },
+    {
+      "id": "https://www.eurogamer.net/grand-theft-auto-6-38-new-screenshots",
+      "title": "Rockstar shares 38 new screenshots of Grand Theft Auto 6, showing off Vice City, Jason and Lucia, and much more",
+      "original_title": "Rockstar shares 38 new screenshots of Grand Theft Auto 6, showing off Vice City, Jason and Lucia, and much more",
+      "image": "https://assetsio.gnwcdn.com/Jason-GTA-header.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-04",
-      "summary": " For The Legend of Zelda: Ocarina of Time's shiny new remake, Nintendo unintentionally cast the same actor twice - 28 years apart - to deliver Navi's infamous \"Heys!\" and \"Listens!\" Read more...",
+      "date": "2026-11-05",
+      "summary": " Rockstar Games have released 38 new screenshots of Grand Theft Auto 6, ahead of its release later this month. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/nintendo-cast-navi-actor-zelda-ocarina-of-time"
+      "url": "https://www.eurogamer.net/grand-theft-auto-6-38-new-screenshots"
     },
     {
-      "id": "https://www.eurogamer.net/god-of-war-laufey-delayed-may-three-months",
-      "title": "God of War Laufey delayed three months to May 2027, as Sony Santa Monica escapes a packed February",
-      "original_title": "God of War Laufey delayed three months to May 2027, as Sony Santa Monica escapes a packed February",
-      "image": "https://assetsio.gnwcdn.com/A-peaceful-looking-Faye-in-God-of-War-Laufey.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/nintendo-switch-2-no-plans-for-more-price-hikes",
+      "title": "Nintendo says it isn't planning any more Switch 2 price hikes",
+      "original_title": "Nintendo says it isn't planning any more Switch 2 price hikes",
+      "image": "https://assetsio.gnwcdn.com/switch-2-stock-eurogamer.png?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-04",
-      "summary": " God of War Laufey has been delayed. Sony Santa Monica's PS5 exclusive is now dodging the crowded month of February and will instead come out on 20th May, 2027. Read more...",
+      "date": "2026-11-05",
+      "summary": " Nintendo, which unveiled the results of the first half of its fiscal year 2027 earlier today, has now said it has access to enough quantities of memory to manufacture more Switch 2 consoles. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/god-of-war-laufey-delayed-may-three-months"
+      "url": "https://www.eurogamer.net/nintendo-switch-2-no-plans-for-more-price-hikes"
     },
     {
-      "id": "https://www.eurogamer.net/the-elder-scrolls-6-sentinel-story-speculation",
-      "title": "The Elder Scrolls 6: Sentinel fans ponder split timelines, alternative histories, and more as story speculation runs wild following latest teaser",
-      "original_title": "The Elder Scrolls 6: Sentinel fans ponder split timelines, alternative histories, and more as story speculation runs wild following latest teaser",
-      "image": "https://assetsio.gnwcdn.com/elder-scrolls-6-sentinel-01.webp?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/world-of-warcraft-forever-launch-twitch-most-viewed",
+      "title": "World of Warcraft: Forever's seemingly stellar launch continues as it soars to the top of Twitch's most viewed games, beating out the likes of League of Legends and Zelda",
+      "original_title": "World of Warcraft: Forever's seemingly stellar launch continues as it soars to the top of Twitch's most viewed games, beating out the likes of League of Legends and Zelda",
+      "image": "https://assetsio.gnwcdn.com/world-of-warcraft-forever-camp.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-04",
-      "summary": " Following the release of yesterday's brief new The Elder Scrolls 6: Sentinel teaser trailer, story speculation is running rampant  across communities dedicated to the fantasy series, with fans theorising everything from alternative histories to spli...",
+      "date": "2026-11-05",
+      "summary": " World of Warcraft: Forever launched last night after a hugely successful beta, and it's not just players getting in on the fun. Blizzard's MMO is also proving quite the attraction for spectators, soaring all the way up to the top of Twitch's most vi...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/the-elder-scrolls-6-sentinel-story-speculation"
+      "url": "https://www.eurogamer.net/world-of-warcraft-forever-launch-twitch-most-viewed"
     },
     {
-      "id": "https://www.eurogamer.net/elder-scrolls-6-sentinel-bethesda-recapture-the-magic",
-      "title": "Eight years ago the idea of The Elder Scrolls 6: Sentinel had me captivated, but can Bethesda recapture the magic?",
-      "original_title": "Eight years ago the idea of The Elder Scrolls 6: Sentinel had me captivated, but can Bethesda recapture the magic?",
-      "image": "https://assetsio.gnwcdn.com/es-6-header.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/queens-domain-now-playing",
+      "title": "Before Dark Souls there was King's Field, and five hours into brilliant homage Queen's Domain, it's already one of my favourite games this year",
+      "original_title": "Before Dark Souls there was King's Field, and five hours into brilliant homage Queen's Domain, it's already one of my favourite games this year",
+      "image": "https://assetsio.gnwcdn.com/queens-domain-header.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-04",
-      "summary": " Eight years ago, I sat at my desk enthralled. Bethesda had just released the first trailer for The Elder Scrolls 6, a then mysteriously nameless, locationless sequel to one of the biggest games of all time, and I reckoned I'd just found the secrets ...",
+      "date": "2026-11-05",
+      "summary": " The clue, of course, is right there in the title. Developer Freshly Baked Games' Queen's Domain isn't just a retro-fantasy action RPG played in first-person; it's an explicit homage to King's Field, the long-dormant FromSoftware series that - as the...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/elder-scrolls-6-sentinel-bethesda-recapture-the-magic"
+      "url": "https://www.eurogamer.net/queens-domain-now-playing"
     },
     {
-      "id": "https://www.eurogamer.net/nintendo-switch-2-cartridge-macronix-ending-rom-manufacturing",
-      "title": "One of Nintendo's Switch and Switch 2 cartridge manufacturers is exiting the business, which could make physical games more expensive",
-      "original_title": "One of Nintendo's Switch and Switch 2 cartridge manufacturers is exiting the business, which could make physical games more expensive",
-      "image": "https://assetsio.gnwcdn.com/switch-2-cartridge-macronix-1.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/bioware-canada-house-of-commons-petition-save-mass-effect",
+      "title": "Mass Effect petition has enough signatures for the Canadian Government to potentially save BioWare",
+      "original_title": "Mass Effect petition has enough signatures for the Canadian Government to potentially save BioWare",
+      "image": "https://assetsio.gnwcdn.com/liara-canadaian-flag.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-04",
-      "summary": " Macronix, longtime Nintendo hardware partner and one of the main producers of ROM memory, has announced it's leaving the business. ROM chips are key components in Switch and Switch 2 cartridges. Read more...",
+      "date": "2026-11-05",
+      "summary": " Following news of EA's decision to shut down iconic RPG studio BioWare, Canadian fans of the studio have escalated their grievances to the governmental level, calling on the Canadian Government to step in and save the Canadian studio from closure, s...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/nintendo-switch-2-cartridge-macronix-ending-rom-manufacturing"
+      "url": "https://www.eurogamer.net/bioware-canada-house-of-commons-petition-save-mass-effect"
     },
     {
-      "id": "https://www.eurogamer.net/halo-destiny-composer-martin-o-donnell-projected-lose-us-congress-race",
-      "title": "Halo and Destiny composer Marty O'Donnell loses his race for a seat in the US House of Representatives",
-      "original_title": "Halo and Destiny composer Marty O'Donnell loses his race for a seat in the US House of Representatives",
-      "image": "https://assetsio.gnwcdn.com/marty-vote.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/nintendo-switch-2-hardware-decline-software-boom",
+      "title": "Nintendo game sales surge thanks to Tomodachi Life: Living the Dream, but Switch 2 hardware suffers big decline",
+      "original_title": "Nintendo game sales surge thanks to Tomodachi Life: Living the Dream, but Switch 2 hardware suffers big decline",
+      "image": "https://assetsio.gnwcdn.com/Switch-2-tabletop-mode.png?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-04",
-      "summary": " Halo and Destiny composer Marty O'Donnell's political aspirations have hit a roadblock following last night's US mid-term elections. O'Donnell was campaigning for a seat in the US House of Representatives, running as a Republican candidate in Nevada...",
+      "date": "2026-11-05",
+      "summary": " Nintendo's latest financial earnings report is here, revealing healthy software sales thanks to the enormously popular Tomodachi Life: Living the Dream. Sales of Switch 2 hardware, however, are down. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/halo-destiny-composer-martin-o-donnell-projected-lose-us-congress-race"
+      "url": "https://www.eurogamer.net/nintendo-switch-2-hardware-decline-software-boom"
     },
     {
-      "id": "https://www.eurogamer.net/nexus-mods-gen-ai-disclosure-rules",
-      "title": "Nexus Mods introduces new AI disclosure rules, but won't ban AI mods outright",
-      "original_title": "Nexus Mods introduces new AI disclosure rules, but won't ban AI mods outright",
-      "image": "https://assetsio.gnwcdn.com/nexus-mods-will-no-longer-allow-authors-to-delete-mod-files-1625239661369.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/sony-playstation-fy-2026-wolverine-sales",
+      "title": "PlayStation sees record high player numbers and increased revenue for Q2 2026, and a lot of that success is down to Marvel's Wolverine",
+      "original_title": "PlayStation sees record high player numbers and increased revenue for Q2 2026, and a lot of that success is down to Marvel's Wolverine",
+      "image": "https://assetsio.gnwcdn.com/wolverine-header_ayYS3yR.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-04",
-      "summary": " Nexus Mods, the largest website for finding and downloading PC mods, has revealed new guidelines aimed at properly identifying mods created entirely using gen-AI or those created with AI assistance. Read more...",
+      "date": "2026-11-05",
+      "summary": " As part of today's (Thursday 5th November, 2026) financial results, Sony has confirmed that monthly active users, referred to as MAU, across both PlayStation 4 and 5, reached 127 million in September. This represents a seven percent growth year-on-y...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/nexus-mods-gen-ai-disclosure-rules"
+      "url": "https://www.eurogamer.net/sony-playstation-fy-2026-wolverine-sales"
     },
     {
-      "id": "https://www.eurogamer.net/the-legend-of-zelda-ocarina-of-time-remake-review",
-      "title": "The Legend of Zelda: Ocarina of Time (2026) review",
-      "original_title": "The Legend of Zelda: Ocarina of Time (2026) review",
-      "image": "https://assetsio.gnwcdn.com/zelda-ocarina-remake-10.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/world-of-warcraft-forever-launch-smooth",
+      "title": "World of Warcraft: Forever is off to a great start with Blizzard's smoothest launch in memory",
+      "original_title": "World of Warcraft: Forever is off to a great start with Blizzard's smoothest launch in memory",
+      "image": "https://assetsio.gnwcdn.com/WoW-forever_SDQ5Y6p.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-04",
-      "summary": " I have a friend who first played The Legend of Zelda: Ocarina of Time back in the day, when the game was only just released and he was home from university for Christmas. This is objectively the best of all times to play any video game: not Christma...",
+      "date": "2026-11-05",
+      "summary": " World of Warcraft: Forever came out last night. Those who stayed up were prepared for the usual from major WoW releases: long queues, disconnects, and server lag. However, save for a few minor hiccups here and there, things went off without a hitch....",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/the-legend-of-zelda-ocarina-of-time-remake-review"
+      "url": "https://www.eurogamer.net/world-of-warcraft-forever-launch-smooth"
     },
     {
-      "id": "https://www.eurogamer.net/dragons-dogma-2-dungeon-meshi-collaboration-out-now",
-      "title": "Dragon's Dogma 2 gets a timed collaboration with beloved anime and manga series Delicious in Dungeon, and it's out right now on PC, PlayStation and Xbox",
-      "original_title": "Dragon's Dogma 2 gets a timed collaboration with beloved anime and manga series Delicious in Dungeon, and it's out right now on PC, PlayStation and Xbox",
-      "image": "https://assetsio.gnwcdn.com/dungeon-meshi-dd2.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/playstation-6-sony-financials-2026-hardware",
+      "title": "Despite hardware worries and rising costs, Sony says PlayStation 6 development is on track and \"progressing as scheduled\"",
+      "original_title": "Despite hardware worries and rising costs, Sony says PlayStation 6 development is on track and \"progressing as scheduled\"",
+      "image": "https://assetsio.gnwcdn.com/ps6-games-calendar.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-04",
-      "summary": " Have you ever seen - or read - the wonderful Dungeon Meshi (known in English as 'Delicious in Dungeon')? It's a phenomenal manga series written and illustrated by Ryoko Kui, which was adapted into an anime series produced by Trigger in 2024. Long st...",
+      "date": "2026-11-05",
+      "summary": " Today, Thursday 5th November, 2026, Sony shared its latest financial results, reporting on the second quarter of financial year 2026 for the company. In a wide-ranging set of statements, we learned that the company's overall profits have been charge...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/dragons-dogma-2-dungeon-meshi-collaboration-out-now"
+      "url": "https://www.eurogamer.net/playstation-6-sony-financials-2026-hardware"
     },
     {
-      "id": "https://www.eurogamer.net/guild-wars-1-afterlife-announced-20-years",
-      "title": "Guild Wars gets its first major gameplay update in almost 20 years",
-      "original_title": "Guild Wars gets its first major gameplay update in almost 20 years",
-      "image": "https://assetsio.gnwcdn.com/guild-wars-1-afterlife-screenshot.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/steam-games-approvals-delayed-valve-response",
+      "title": "Valve explains why it's running behind on Steam game approvals, asks developers to perform basic release checks to prevent re-reviews",
+      "original_title": "Valve explains why it's running behind on Steam game approvals, asks developers to perform basic release checks to prevent re-reviews",
+      "image": "https://assetsio.gnwcdn.com/steam-as-a-memorial.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-04",
-      "summary": " ArenaNet and co-dev studio 2Weeks have announced Guild Wars Afterlife - the first major update for the game in nearly 20 years. Read more...",
+      "date": "2026-11-05",
+      "summary": " In the wake of witnessing an unprecedented number of game submissions to Steam over the last few months, Valve has been forced to delay approvals in order to deal with the existing backlog. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/guild-wars-1-afterlife-announced-20-years"
+      "url": "https://www.eurogamer.net/steam-games-approvals-delayed-valve-response"
+    },
+    {
+      "id": "https://www.techpowerup.com/354512/beelink-me-pro-launches-on-kickstarter-with-an-innovative-swappable-motherboard-design-for-easier-nas-upgrades",
+      "title": "(PR) Beelink ME Pro Launches on Kickstarter With an Innovative Swappable Motherboard Design for Easier NAS Upgrades",
+      "original_title": "(PR) Beelink ME Pro Launches on Kickstarter With an Innovative Swappable Motherboard Design for Easier NAS Upgrades",
+      "image": "https://tpucdn.com/img/femKNetUT4kshEqH_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-05",
+      "summary": "Beelink today announced the Kickstarter launch of the ME Pro, a modular NAS available in two-bay and four-bay configurations. Its swappable motherboard design lets users upgrade performance or add drive bays as their needs change. The ME Pro uses coo...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354512/beelink-me-pro-launches-on-kickstarter-with-an-innovative-swappable-motherboard-design-for-easier-nas-upgrades"
+    },
+    {
+      "id": "https://www.techpowerup.com/354511/gamesir-introduces-nova-vision-nioh-3-edition-controller",
+      "title": "(PR) GameSir Introduces Nova Vision Nioh 3 Edition Controller",
+      "original_title": "(PR) GameSir Introduces Nova Vision Nioh 3 Edition Controller",
+      "image": "https://tpucdn.com/img/SIAbI6dBTkFxMgBw_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-05",
+      "summary": "Officially licensed with KOEI TECMO, the GameSir Nova Vision Nioh 3 Edition combines dark mythical aesthetics with next-gen performance and a matching glowing dock. Inspired by Nioh 3, the design features the Guardian Spirit Kusanagi, swirling underw...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354511/gamesir-introduces-nova-vision-nioh-3-edition-controller"
+    },
+    {
+      "id": "https://www.techpowerup.com/354458/techpowerup-x-chieftec-giveaway-entries-close-soon-hurry",
+      "title": "TechPowerUp x Chieftec Giveaway: Entries Close Soon, Hurry!",
+      "original_title": "TechPowerUp x Chieftec Giveaway: Entries Close Soon, Hurry!",
+      "image": "https://tpucdn.com/img/aEoG8ylzEcVpJ9qh_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-05",
+      "summary": "TechPowerUp partners with Chieftec to bring our readers in European Union countries a chance to bag one of six pieces of Chieftec hardware spanning cases, AIO CPU coolers, and power supplies. Up for grabs are one each of Chieftec Iceberg 240 RGB CPU ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354458/techpowerup-x-chieftec-giveaway-entries-close-soon-hurry"
+    },
+    {
+      "id": "https://www.techpowerup.com/354256/teclast-v16q-portable-monitor-with-a-16-inch-2-5k-high-refresh-rate-screen",
+      "title": "Teclast V16Q Portable Monitor with a 16-Inch 2.5K High-Refresh-Rate Screen",
+      "original_title": "Teclast V16Q Portable Monitor with a 16-Inch 2.5K High-Refresh-Rate Screen",
+      "image": "https://tpucdn.com/img/DBWUjFPD4kJA7DEj_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-05",
+      "summary": "The V16Q is a 16-inch portable monitor designed for mobile work and entertainment. It features a 2560×1600 IPS screen with a refresh rate of up to 144 Hz. It can serve as an extended display for a laptop and can also be used with compatible devices s...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354256/teclast-v16q-portable-monitor-with-a-16-inch-2-5k-high-refresh-rate-screen"
+    },
+    {
+      "id": "https://www.techpowerup.com/354510/zelda-ocarina-of-time-remake-runs-on-pc-through-switch-2-emulator-on-launch-day",
+      "title": "Zelda: Ocarina of Time Remake Runs on PC Through Switch 2 Emulator on Launch Day",
+      "original_title": "Zelda: Ocarina of Time Remake Runs on PC Through Switch 2 Emulator on Launch Day",
+      "image": "https://tpucdn.com/img/a28CxUs3wnazCQ2y_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-05",
+      "summary": "Nintendo's The Legend of Zelda: Ocarina of Time remake launches on Switch 2 today, but it looks like PC users got there first. A dump of the game was already making the rounds before launch, which Brazilian account Senhor Linguica Pro confirmed on X ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354510/zelda-ocarina-of-time-remake-runs-on-pc-through-switch-2-emulator-on-launch-day"
+    },
+    {
+      "id": "https://www.techpowerup.com/354508/cpuid-readies-cpu-z-for-intel-razor-lake-two-generations-out",
+      "title": "CPUID Readies CPU-Z for Intel Razor Lake, Two Generations Out",
+      "original_title": "CPUID Readies CPU-Z for Intel Razor Lake, Two Generations Out",
+      "image": "https://tpucdn.com/img/Qjpc90wUqHXLxZUM_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-05",
+      "summary": "CPUID has released CPU-Z 3.02, and the first line of its changelog simply reads \"Intel Razor Lake support.\" Razor Lake is the processor family expected to follow Nova Lake, and Intel has yet to officially announce it. The changelog doesn't say which ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354508/cpuid-readies-cpu-z-for-intel-razor-lake-two-generations-out"
+    },
+    {
+      "id": "https://www.techpowerup.com/354507/akasa-launches-smart-black-sc12-high-airflow-120-mm-pwm-fan",
+      "title": "(PR) Akasa Launches Smart Black SC12 High-Airflow 120 mm PWM Fan",
+      "original_title": "(PR) Akasa Launches Smart Black SC12 High-Airflow 120 mm PWM Fan",
+      "image": "https://tpucdn.com/img/OEFfELWk4vqOGWEn_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-05",
+      "summary": "Akasa, a leading provider of thermal solutions, has launched the Smart Black SC12, a 120 x 120 x 25 mm PWM fan with a strong cost-performance ratio for system integrators and PC builders. Rated for up to 88 CFM, it is the highest-airflow HD bearing f...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354507/akasa-launches-smart-black-sc12-high-airflow-120-mm-pwm-fan"
+    },
+    {
+      "id": "https://www.techpowerup.com/354163/gigabyte-aorus-and-capcom-team-up-for-resident-evil-themed-pc-giveaway",
+      "title": "GIGABYTE AORUS and Capcom Team Up for Resident Evil-Themed PC Giveaway",
+      "original_title": "GIGABYTE AORUS and Capcom Team Up for Resident Evil-Themed PC Giveaway",
+      "image": "https://tpucdn.com/img/1mOlqKUbbWm31KUD_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-05",
+      "summary": "GIGABYTE AORUS has teamed up with Capcom and custom PC modder Sarah Carlos for its \"Evil Season Is Here\" campaign, bringing a Resident Evil-inspired custom PC build to TwitchCon 2026 alongside an online giveaway running through November 16.\n\nThe cust...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354163/gigabyte-aorus-and-capcom-team-up-for-resident-evil-themed-pc-giveaway"
+    },
+    {
+      "id": "https://www.techpowerup.com/354506/intel-core-ultra-4000-series-nova-lake-h-soc-surfaces",
+      "title": "Intel Core Ultra 4000 Series \"Nova Lake-H\" SoC Surfaces",
+      "original_title": "Intel Core Ultra 4000 Series \"Nova Lake-H\" SoC Surfaces",
+      "image": "https://tpucdn.com/img/WKqSVzVB8ia7exq9_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-05",
+      "summary": "Intel's \"Nova Lake-H\" SoC, part of the Core Ultra 4000 Series, has reportedly surfaced. This is a second instance of \"Nova Lake-H\" surfacing, but this time without third-party annotations, and only coming with the raw, low-resolution SoC picture. Thi...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354506/intel-core-ultra-4000-series-nova-lake-h-soc-surfaces"
+    },
+    {
+      "id": "https://www.techpowerup.com/354505/arkane-lyon-union-blames-microsoft-for-the-delays-it-now-uses-to-justify-closure",
+      "title": "Arkane Lyon Union Blames Microsoft for the Delays It Now Uses to Justify Closure",
+      "original_title": "Arkane Lyon Union Blames Microsoft for the Delays It Now Uses to Justify Closure",
+      "image": "https://tpucdn.com/img/puq6Ggnq21znxfLX_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-05",
+      "summary": "Members of the French video game union STJV (Syndicat des travailleureuses du jeu vidéo) at Arkane Lyon have accused Microsoft of sabotaging Marvel's Blade. In a statement published on November 4, the union claims a 19-month hiring freeze created the...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354505/arkane-lyon-union-blames-microsoft-for-the-delays-it-now-uses-to-justify-closure"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xnycvi/stjv_arkanes_union_blade_devlopment_is_going_fine/",
+      "title": "Stjv (Arkane's Union): Blade devlopment is \"going fine\", Microsoft froze hiring for 19 months which artificially caused delay and additional costs, Microsoft now uses those same delays and additional costs as a reason to close down the studio",
+      "original_title": "Stjv (Arkane's Union): Blade devlopment is \"going fine\", Microsoft froze hiring for 19 months which artificially caused delay and additional costs, Microsoft now uses those same delays and additional costs as a reason to close down the studio",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-11-04",
+      "summary": "https://www.stjv.fr/en/2026/11/arkane-studios-might-close-without-having-ever-seen-failure/    submitted by    /u/Howerev   [link] [comments]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xnycvi/stjv_arkanes_union_blade_devlopment_is_going_fine/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xnyhqd/sonic_racing_crossworlds_year_2_characters_might/",
+      "title": "Sonic Racing: CrossWorlds' Year 2 characters might have leaked via the game's files (likely incomplete)",
+      "original_title": "Sonic Racing: CrossWorlds' Year 2 characters might have leaked via the game's files (likely incomplete)",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "Rumor",
+      "date": "2026-11-04",
+      "summary": "Already Confirmed  Evangelion: Ayanami (Rei), Asuka Hello Kitty: Hello Kitty, Kuromi Super Shadow Free Characters: Bayonetta, Aigis, McLaren Sonic  Unannounced  Final Fantasy VII Remake: Cloud Strife, Tifa Lockhart Free Characters: Marisa (Kirisame?)...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xnyhqd/sonic_racing_crossworlds_year_2_characters_might/"
     },
     {
       "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xntua7/it_seems_that_godzilla_destroy_all_monsters_melee/",
@@ -361,186 +541,6 @@
       "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xnje7v/macronix_is_exiting_the_rom_business_potentially/"
     },
     {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1xnhqq0/epic_while_youre_busy_cooking_the_launcher_can_we/",
-      "title": "Epic, while you're busy cooking the launcher, can we get family sharing too?",
-      "original_title": "Epic, while you're busy cooking the launcher, can we get family sharing too?",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Epic News",
-      "date": "2026-11-04",
-      "summary": "Not gonna lie, Epic has been making quite a few changes to the launcher lately, and since you're already working on improving things, can we PLEASE get family sharing added toooo. steam has had it for ages, and it would be such a nice feature to have...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1xnhqq0/epic_while_youre_busy_cooking_the_launcher_can_we/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1xnl8co/a_problem_with_text_misalignment_and_a_suggestion/",
-      "title": "A problem with text misalignment and a suggestion on how to fix it.",
-      "original_title": "A problem with text misalignment and a suggestion on how to fix it.",
-      "image": "https://preview.redd.it/rs81eo0zskzh1.png?width=640&crop=smart&auto=webp&s=979d66a26cfd4bba0d0c3c76d2126507f4dec92c",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-11-04",
-      "summary": "      Text alignment issues in the “Filter and Sort” section in the Russian localization and I believe in other localizations as well. It would make more sense to move the filter settings and installed apps from the right side of the interface to the...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1xnl8co/a_problem_with_text_misalignment_and_a_suggestion/"
-    },
-    {
-      "id": "https://www.techpowerup.com/354474/steam-wants-devs-to-play-their-games-for-at-least-5-minutes-first",
-      "title": "Steam Wants Devs to Play Their Games For At Least 5 Minutes First",
-      "original_title": "Steam Wants Devs to Play Their Games For At Least 5 Minutes First",
-      "image": "https://tpucdn.com/img/qJ3bQeze4MkCuIrw_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-04",
-      "summary": "Valve now requires developers to launch their game through the Steam client and run it for at least five minutes before submitting it for review, as part of several new additions to Steam's pre-release checklist. It doesn't have to be the developer p...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354474/steam-wants-devs-to-play-their-games-for-at-least-5-minutes-first"
-    },
-    {
-      "id": "https://www.techpowerup.com/354472/semi-reports-worldwide-silicon-wafer-shipments-increase-13-4-year-on-year-in-q3-2026",
-      "title": "(PR) SEMI Reports Worldwide Silicon Wafer Shipments Increase 13.4% Year-on-Year in Q3 2026",
-      "original_title": "(PR) SEMI Reports Worldwide Silicon Wafer Shipments Increase 13.4% Year-on-Year in Q3 2026",
-      "image": "https://tpucdn.com/img/21QgycEOk7U3Zldh_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-04",
-      "summary": "The SEMI Silicon Manufacturers Group (SMG) reported today, in its quarterly analysis of the silicon wafer industry, that worldwide silicon wafer shipments increased 13.4% year-on-year to 3,756 million square inches (MSI) from the 3,313 MSI recorded d...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354472/semi-reports-worldwide-silicon-wafer-shipments-increase-13-4-year-on-year-in-q3-2026"
-    },
-    {
-      "id": "https://www.techpowerup.com/354458/techpowerup-x-chieftec-giveaway-entries-close-soon-hurry",
-      "title": "TechPowerUp x Chieftec Giveaway: Entries Close Soon, Hurry!",
-      "original_title": "TechPowerUp x Chieftec Giveaway: Entries Close Soon, Hurry!",
-      "image": "https://tpucdn.com/img/aEoG8ylzEcVpJ9qh_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-04",
-      "summary": "TechPowerUp partners with Chieftec to bring our readers in European Union countries a chance to bag one of six pieces of Chieftec hardware spanning cases, AIO CPU coolers, and power supplies. Up for grabs are one each of Chieftec Iceberg 240 RGB CPU ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354458/techpowerup-x-chieftec-giveaway-entries-close-soon-hurry"
-    },
-    {
-      "id": "https://www.techpowerup.com/354256/teclast-v16q-portable-monitor-with-a-16-inch-2-5k-high-refresh-rate-screen",
-      "title": "Teclast V16Q Portable Monitor with a 16-Inch 2.5K High-Refresh-Rate Screen",
-      "original_title": "Teclast V16Q Portable Monitor with a 16-Inch 2.5K High-Refresh-Rate Screen",
-      "image": "https://tpucdn.com/img/DBWUjFPD4kJA7DEj_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-04",
-      "summary": "The V16Q is a 16-inch portable monitor designed for mobile work and entertainment. It features a 2560×1600 IPS screen with a refresh rate of up to 144 Hz. It can serve as an extended display for a laptop and can also be used with compatible devices s...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354256/teclast-v16q-portable-monitor-with-a-16-inch-2-5k-high-refresh-rate-screen"
-    },
-    {
-      "id": "https://www.techpowerup.com/354471/god-of-war-laufey-delayed-to-may",
-      "title": "God of War Laufey Delayed to May",
-      "original_title": "God of War Laufey Delayed to May",
-      "image": "https://tpucdn.com/img/BFNgfUdrENMXjEzD_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-04",
-      "summary": "Santa Monica Studio has delayed God of War Laufey by roughly three months, moving the PS5 exclusive from February 16 to May 20, 2027. The studio announced the change on X earlier today, and the only explanation it gave is that it needs extra time for...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354471/god-of-war-laufey-delayed-to-may"
-    },
-    {
-      "id": "https://www.techpowerup.com/354470/amd-guidance-points-to-its-first-quarter-ever-with-more-revenue-than-intel",
-      "title": "AMD Guidance Points to Its First Quarter Ever With More Revenue Than Intel",
-      "original_title": "AMD Guidance Points to Its First Quarter Ever With More Revenue Than Intel",
-      "image": "https://tpucdn.com/img/crgLSJTrgVQeq7mj_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-04",
-      "summary": "AMD looks set to bring in more quarterly revenue than Intel for what appears to be the first time ever. Alongside its record Q3 2026 results, AMD guided Q4 revenue to approximately $17 billion, plus or minus 3%, or roughly $16.5 billion to $17.5 bill...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354470/amd-guidance-points-to-its-first-quarter-ever-with-more-revenue-than-intel"
-    },
-    {
-      "id": "https://www.techpowerup.com/354468/msi-introduces-cubi-nuc-wcg-with-intel-core-processor-3-series-and-tool-less-2-0-design",
-      "title": "(PR) MSI Introduces Cubi NUC WCG with Intel Core Processor 3 Series and Tool-less 2.0 Design",
-      "original_title": "(PR) MSI Introduces Cubi NUC WCG with Intel Core Processor 3 Series and Tool-less 2.0 Design",
-      "image": "https://tpucdn.com/img/DdMsPIGG0rNZteOE_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-04",
-      "summary": "MSI announces the Cubi NUC WCG, an ultra-compact 0.55-liter mini PC designed to enhance productivity, connectivity, and operational efficiency in modern business environments. Powered by the Intel Core Processor 3 Series, the Cubi NUC WCG delivers re...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354468/msi-introduces-cubi-nuc-wcg-with-intel-core-processor-3-series-and-tool-less-2-0-design"
-    },
-    {
-      "id": "https://www.techpowerup.com/354163/gigabyte-aorus-and-capcom-team-up-for-resident-evil-themed-pc-giveaway",
-      "title": "GIGABYTE AORUS and Capcom Team Up for Resident Evil-Themed PC Giveaway",
-      "original_title": "GIGABYTE AORUS and Capcom Team Up for Resident Evil-Themed PC Giveaway",
-      "image": "https://tpucdn.com/img/1mOlqKUbbWm31KUD_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-04",
-      "summary": "GIGABYTE AORUS has teamed up with Capcom and custom PC modder Sarah Carlos for its \"Evil Season Is Here\" campaign, bringing a Resident Evil-inspired custom PC build to TwitchCon 2026 alongside an online giveaway running through November 16.\n\nThe cust...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354163/gigabyte-aorus-and-capcom-team-up-for-resident-evil-themed-pc-giveaway"
-    },
-    {
-      "id": "https://www.techpowerup.com/354467/after-xbox-sony-starts-asking-owners-to-trade-in-their-ps5",
-      "title": "After Xbox, Sony Starts Asking Owners to Trade In Their PS5",
-      "original_title": "After Xbox, Sony Starts Asking Owners to Trade In Their PS5",
-      "image": "https://tpucdn.com/img/M3hyBoLU9LjWG5N6_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-04",
-      "summary": "Sony has started nudging some PlayStation owners in the US to sell their PS5, with a PlayStation app notification shared on ResetEra offering \"up to $400\" for a standard console. The trade-in itself runs through Back Market, which inspects the hardwa...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354467/after-xbox-sony-starts-asking-owners-to-trade-in-their-ps5"
-    },
-    {
-      "id": "https://www.techpowerup.com/354465/nvidia-geforce-621-14-whql-game-ready-drivers-released",
-      "title": "NVIDIA GeForce 621.14 WHQL Game Ready Drivers Released",
-      "original_title": "NVIDIA GeForce 621.14 WHQL Game Ready Drivers Released",
-      "image": "https://tpucdn.com/img/11R5XPJ5zyxU0dyO_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-04",
-      "summary": "NVIDIA today released the latest version of GeForce Game Ready drivers. Version 621.14 WHQL comes with optimization for \"World of Warcraft: Forever,\" and the new Slaughter Mode of \"DOOM: The Dark Ages Revelations.\" The drivers also introduce support ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354465/nvidia-geforce-621-14-whql-game-ready-drivers-released"
-    },
-    {
       "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xn4qtl/jason_schreier_xboxs_arkane_studios_attracts/",
       "title": "Jason Schreier: Xbox’s Arkane Studios Attracts Multiple Bidders, Including Ubisoft",
       "original_title": "Jason Schreier: Xbox’s Arkane Studios Attracts Multiple Bidders, Including Ubisoft",
@@ -571,21 +571,6 @@
       "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xn7mmw/steam_confirms_a_significant_increase_in/"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xmv9ls/confirmed_the_elder_scrolls_vi_is_named_sentinel/",
-      "title": "Confirmed: The Elder Scrolls VI is named Sentinel",
-      "original_title": "Confirmed: The Elder Scrolls VI is named Sentinel",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-11-03",
-      "summary": "As just confirmed by Todd Howard in Bethesda Game Studios’ 40th anniversary video, The Elder Scrolls VI will be subtitled Sentinel. Celebrating 40 Years of Bethesda Game Studios Previous rumor: https://www.reddit.com/r/GamingLeaksAndRumours/comments/...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xmv9ls/confirmed_the_elder_scrolls_vi_is_named_sentinel/"
-    },
-    {
       "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xmzfy5/jason_schreier_on_his_2_years_away_statement_its/",
       "title": "Jason Schreier on his 2+ years away statement : It's not a prediction. I know the time frame the game is targeting",
       "original_title": "Jason Schreier on his 2+ years away statement : It's not a prediction. I know the time frame the game is targeting",
@@ -601,124 +586,19 @@
       "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xmzfy5/jason_schreier_on_his_2_years_away_statement_its/"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xmwpd7/schreier_es6_more_than_2_years_away/",
-      "title": "Schreier - ES6 more than 2 years away",
-      "original_title": "Schreier - ES6 more than 2 years away",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xmv9ls/confirmed_the_elder_scrolls_vi_is_named_sentinel/",
+      "title": "Confirmed: The Elder Scrolls VI is named Sentinel",
+      "original_title": "Confirmed: The Elder Scrolls VI is named Sentinel",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
       "category": "News",
       "date": "2026-11-03",
-      "summary": "\"I think a lot of people forget that The Elder Scrolls VI was only announced in 2018 (along with Starfield) to soften the blow of Fallout 76 — \"Don't worry, even though we're making a multiplayer game we've got single-player stuff coming too!\" Sorry ...",
+      "summary": "As just confirmed by Todd Howard in Bethesda Game Studios’ 40th anniversary video, The Elder Scrolls VI will be subtitled Sentinel. Celebrating 40 Years of Bethesda Game Studios Previous rumor: https://www.reddit.com/r/GamingLeaksAndRumours/comments/...",
       "sources": [
         "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xmwpd7/schreier_es6_more_than_2_years_away/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xmzbbi/steams_review_queue_has_been_delayed_immensly/",
-      "title": "Steam's review queue has been delayed immensly from it's listed 3-5 days due the recent influx of ai games.",
-      "original_title": "Steam's review queue has been delayed immensly from it's listed 3-5 days due the recent influx of ai games.",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-11-03",
-      "summary": "I don't know if this should technically be posted here but i found it interesting and it hasn't been confirmed by steam themselves, as thier review system still lists 3-5 days. If i should delete it let me know https://xxcancel.com/StudioDaimon/statu...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xmzbbi/steams_review_queue_has_been_delayed_immensly/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1xmybae/the_playstation_publisher_sale_has_begun_on_the/",
-      "title": "The PlayStation Publisher Sale has begun on the store!",
-      "original_title": "The PlayStation Publisher Sale has begun on the store!",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-11-03",
-      "summary": "The PlayStation Publisher Sale has just started on the store! The sale looks to end on the 10th November at 4pm UTC  The Marvel's Spider-Man series is on sale, Marvel's Spider-Man Remastered and Marvel's Spider-Man: Miles Morales are 60% off, with Ma...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1xmybae/the_playstation_publisher_sale_has_begun_on_the/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1xmyed3/the_squareenix_harvest_sale_has_begun_on_the_store/",
-      "title": "The Square-Enix Harvest Sale has begun on the store!",
-      "original_title": "The Square-Enix Harvest Sale has begun on the store!",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-11-03",
-      "summary": "Square couldn't let PlayStation have all the fun, so they've decided to join in with having their games on sale. The sale will look to end at the same time as the PlayStation Publisher Sale on 10th November at 4pm UTC Become prepared for Final Fantas...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1xmyed3/the_squareenix_harvest_sale_has_begun_on_the_store/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1xm0lua/you_can_now_collapse_the_social_panel/",
-      "title": "You can now collapse the social panel",
-      "original_title": "You can now collapse the social panel",
-      "image": "https://preview.redd.it/xz8kwak3z7zh1.png?width=640&crop=smart&auto=webp&s=0424566d662d6fd8bf9ae1bdba1d7937efad26b7",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-11-02",
-      "summary": "      Doesn't seem to have been done with a launcher update, if you click your profile in the top right hand side of the social panel it should collapse it Edit: New launcher update mentions this and also an account switching option is available by c...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1xm0lua/you_can_now_collapse_the_social_panel/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1xlxh16/epics_age_filter_is_broken_and_wants_age/",
-      "title": "Epic's age filter is broken and wants age verification even for kids games...",
-      "original_title": "Epic's age filter is broken and wants age verification even for kids games...",
-      "image": "https://external-preview.redd.it/TB_CWgqzszOW4n5vQZ1HkNUy09W5GEHMx3m6ApZNuvo.png?width=640&crop=smart&auto=webp&s=72baefe72fcd4cd2ccd9f861c207ee3983b9157c",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "Epic News",
-      "date": "2026-11-02",
-      "summary": "        submitted by    /u/AreYouAWiiizard   [link] [comments] ...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1xlxh16/epics_age_filter_is_broken_and_wants_age/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1xlniwu/phantom_blade_zero_sold_4_million_copies_in_72/",
-      "title": "Phantom Blade Zero sold 4 million copies in 72 hours",
-      "original_title": "Phantom Blade Zero sold 4 million copies in 72 hours",
-      "image": "https://preview.redd.it/plrrbey6k4zh1.png?width=320&crop=smart&auto=webp&s=ea0ff3f957da57f24485139619cbc17ad3c8d924",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-11-02",
-      "summary": "      Good to see it's doing well!    submitted by    /u/ImAnthlon   [link] [comments] ...",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1xlniwu/phantom_blade_zero_sold_4_million_copies_in_72/"
-    },
-    {
-      "id": "https://www.reddit.com/r/EpicGamesPC/comments/1xleimv/pc_dev_freebieyash_future_games/",
-      "title": "PC Dev Freebie｜Yash Future Games",
-      "original_title": "PC Dev Freebie｜Yash Future Games",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-11-01",
-      "summary": "Processing img 7otm8a45p2zh1... As all are same Dev/Publisher. I'll just put all of them in one there, as they just keep popping up. Don't want to spam the whole community with each GA. Hence now putting all in one, I'll try to make formatting later....",
-      "sources": [
-        "r/EpicGamesPC"
-      ],
-      "url": "https://www.reddit.com/r/EpicGamesPC/comments/1xleimv/pc_dev_freebieyash_future_games/"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xmv9ls/confirmed_the_elder_scrolls_vi_is_named_sentinel/"
     }
   ]
 }
