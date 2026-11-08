@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-11-07T17:28:42",
-  "display_date": "07/11/2026 17:28",
+  "last_updated": "2026-11-08T17:39:38",
+  "display_date": "08/11/2026 17:39",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "655ms",
+    "latency": "145ms",
     "current_games": [
       {
         "title": "Idle Champions of the Forgotten Realms",
@@ -83,7 +83,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-11-07",
+      "date": "2026-11-08",
       "summary": "Idle Champions of the Forgotten Realms is a Dungeons & Dragons strategy management game uniting characters from throughout the D&D multiverse into a grand adventure.",
       "sources": [
         "Epic Games Store"
@@ -98,7 +98,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-11-07",
+      "date": "2026-11-08",
       "summary": "The floating garbage town survival game! Scavenge what precious garbage you can from the ocean's surface and grow your city while doing your best to survive in this colorful post-apocalyptic world.",
       "sources": [
         "Epic Games Store"
@@ -113,7 +113,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-07",
+      "date": "2026-11-08",
       "summary": "Disponível gratuitamente a partir de 10/12. Ghostrunner 2 is a hardcore FPP slasher set in a post-apocalyptic, cyberpunk world. Featuring everything fans loved about Ghostrunner plus incredible boss fights, new interactive story, thrilling motorbike levels, improved skills, and more cyber ninja action. ",
       "sources": [
         "Epic Games Store"
@@ -128,7 +128,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-07",
+      "date": "2026-11-08",
       "summary": "Disponível gratuitamente a partir de 10/12. Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
@@ -143,7 +143,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-07",
+      "date": "2026-11-08",
       "summary": "Disponível gratuitamente a partir de 10/12. Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
       "sources": [
         "Epic Games Store"
@@ -158,7 +158,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-07",
+      "date": "2026-11-08",
       "summary": "Disponível gratuitamente a partir de 21/11. Build gorgeous kingdoms on floating islands by strategically placing buildings in this cozy, medieval City-Puzzler. Discover secret combinations, take on monthly challenges and explore randomly generated maps in various single- and multiplayer game modes.",
       "sources": [
         "Epic Games Store"
@@ -173,12 +173,252 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-07",
+      "date": "2026-11-08",
       "summary": "Disponível gratuitamente a partir de 12/11. Recruit units, place them strategically, and find the synergies in this Roguelike AutoBattler!\nKnightica lets you guide a warband through challenges to free the Kingdoms.\nDiscover combinations, weave powerful enchants, face dangerous monsters, and lead your army to victory!",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/72b46f5d95624fd5b7e7d81b7dcaead1"
+    },
+    {
+      "id": "https://www.eurogamer.net/phasmophobia-ghost-hunts-for-hearts-230000-american-heart-association",
+      "title": "Phasmophobia players raise over $230,000 for heart charity, more than double last year's total",
+      "original_title": "Phasmophobia players raise over $230,000 for heart charity, more than double last year's total",
+      "image": "https://assetsio.gnwcdn.com/phasmophobia_header_AdobeStock_291529108.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-11-08",
+      "summary": " The Phasmophobia community has raised more than $230,000 (around £173,000) for the American Heart Association, more than doubling last year's total. Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/phasmophobia-ghost-hunts-for-hearts-230000-american-heart-association"
+    },
+    {
+      "id": "https://www.eurogamer.net/mass-effect-5-save-cost-200m-bioware-co-founder-trent-oster",
+      "title": "Saving Mass Effect would take $200m+, says BioWare co-founder",
+      "original_title": "Saving Mass Effect would take $200m+, says BioWare co-founder",
+      "image": "https://assetsio.gnwcdn.com/mass-effect-shepard-sad.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-11-08",
+      "summary": " Anyone hoping to buy Mass Effect from EA and finish what BioWare started needs to get saving now, as it could cost over $200 million (£150m). Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/mass-effect-5-save-cost-200m-bioware-co-founder-trent-oster"
+    },
+    {
+      "id": "https://www.eurogamer.net/among-us-missing-teen-rescued-utah-oregon",
+      "title": "Missing teenager rescued after reaching out to another player in Among Us",
+      "original_title": "Missing teenager rescued after reaching out to another player in Among Us",
+      "image": "https://assetsio.gnwcdn.com/among-us-is-coming-to-xbox-next-year-1608287434062.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-11-08",
+      "summary": " A teenager who went missing in Utah more than 17 months ago has been rescued from a home in Oregon after she got in touch with another young player in Among Us. Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/among-us-missing-teen-rescued-utah-oregon"
+    },
+    {
+      "id": "https://www.eurogamer.net/wow-forever-biggest-launch-world-of-warcraft-history-concurrent-players",
+      "title": "WoW: Forever is the biggest launch in World of Warcraft history, says Blizzard",
+      "original_title": "WoW: Forever is the biggest launch in World of Warcraft history, says Blizzard",
+      "image": "https://assetsio.gnwcdn.com/wow-forever.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-11-08",
+      "summary": " World of Warcraft: Forever is the biggest launch in the MMO's history, pulling in more concurrent players than any previous WoW launch. Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/wow-forever-biggest-launch-world-of-warcraft-history-concurrent-players"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xqv74y/gta_vi_end_credits_to_be_80_minutes/",
+      "title": "GTA VI end credits to be 80+ minutes",
+      "original_title": "GTA VI end credits to be 80+ minutes",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-11-08",
+      "summary": " No idea how true this is but 12 studios and 4000+ devs and all the cast means it doesn't seem that farfetched Both GTA V and RDR2 were like 40-60 minutes long and considering how much bigger this one is going to be, 80 minutes seems appropriate  Sou...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xqv74y/gta_vi_end_credits_to_be_80_minutes/"
+    },
+    {
+      "id": "https://www.techpowerup.com/354587/call-of-duty-warzone-arrives-on-nintendo-switch-2-as-ps4-and-xbox-one-support-ends",
+      "title": "Call of Duty: Warzone Arrives on Nintendo Switch 2 as PS4 and Xbox One Support Ends",
+      "original_title": "Call of Duty: Warzone Arrives on Nintendo Switch 2 as PS4 and Xbox One Support Ends",
+      "image": "https://tpucdn.com/img/4TYbrjUZxZylHVMr_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-08",
+      "summary": "Nintendo Switch 2 owners can now play Call of Duty: Warzone for free, without buying Modern Warfare 4. The battle royale arrived on the eShop with the start of Season 1 on November 6, which also fully folds Modern Warfare 4 into Warzone. According to...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354587/call-of-duty-warzone-arrives-on-nintendo-switch-2-as-ps4-and-xbox-one-support-ends"
+    },
+    {
+      "id": "https://www.techpowerup.com/354585/microsoft-patent-application-describes-ai-that-edits-live-speech",
+      "title": "Microsoft Patent Application Describes AI That Edits Live Speech",
+      "original_title": "Microsoft Patent Application Describes AI That Edits Live Speech",
+      "image": "https://tpucdn.com/img/zH2dqvLb05frSSPM_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-08",
+      "summary": "Microsoft has filed a patent application for an AI system that can change what someone says in a live video and redraw their lips to match. The filing, US 2026/0341309 A1, was submitted in April 2025, published on October 29, 2026, and first spotted ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354585/microsoft-patent-application-describes-ai-that-edits-live-speech"
+    },
+    {
+      "id": "https://www.techpowerup.com/354466/g-skill-and-micro-center-offer-intel-core-ultra-7-270k-plus-combo-deal-featuring-ripjaws-s5-ddr5-memory",
+      "title": "G.SKILL and Micro Center Offer Intel Core Ultra 7 270K Plus Combo Deal Featuring Ripjaws S5 DDR5 Memory",
+      "original_title": "G.SKILL and Micro Center Offer Intel Core Ultra 7 270K Plus Combo Deal Featuring Ripjaws S5 DDR5 Memory",
+      "image": "https://tpucdn.com/img/WsMLLZGkXAXUamNE_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-08",
+      "summary": "G.SKILL, a leading manufacturer of high-performance memory and PC gaming peripherals, has teamed up with Micro Center to offer a specially priced PC hardware combo deal featuring the Intel Core Ultra 7 270K Plus processor, G.SKILL Ripjaws S5 DDR5 mem...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354466/g-skill-and-micro-center-offer-intel-core-ultra-7-270k-plus-combo-deal-featuring-ripjaws-s5-ddr5-memory"
+    },
+    {
+      "id": "https://www.techpowerup.com/354583/wow-forever-sets-a-new-franchise-record-for-peak-concurrent-players",
+      "title": "WoW: Forever Sets a New Franchise Record for Peak Concurrent Players",
+      "original_title": "WoW: Forever Sets a New Franchise Record for Peak Concurrent Players",
+      "image": "https://tpucdn.com/img/cDfzjONVgwYy1Nob_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-08",
+      "summary": "World of Warcraft: Forever is now the biggest launch in WoW history by peak concurrent players, according to Blizzard. The official Warcraft account also says the game brought back the highest number of returning players the franchise has ever seen. ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354583/wow-forever-sets-a-new-franchise-record-for-peak-concurrent-players"
+    },
+    {
+      "id": "https://www.techpowerup.com/354582/maxsun-readies-panther-lake-and-wildcat-lake-modt-nas-motherboards-for-november",
+      "title": "Maxsun Readies Panther Lake and Wildcat Lake MoDT NAS Motherboards for November",
+      "original_title": "Maxsun Readies Panther Lake and Wildcat Lake MoDT NAS Motherboards for November",
+      "image": "https://tpucdn.com/img/ShNS0ztkRKJmHjoR_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-08",
+      "summary": "Maxsun has shared full specifications for the SK-PTLNAS and SK-WCLAIO, two NAS-focused MoDT (Mobile on Desktop) motherboards built around Intel's Panther Lake and Wildcat Lake chips. Both were first shown at Computex 2026 and are expected to launch t...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354582/maxsun-readies-panther-lake-and-wildcat-lake-modt-nas-motherboards-for-november"
+    },
+    {
+      "id": "https://www.techpowerup.com/354580/this-week-in-gaming-week-46",
+      "title": "This Week in Gaming (Week 46)",
+      "original_title": "This Week in Gaming (Week 46)",
+      "image": "https://tpucdn.com/img/Ws6JA5sQ959HRT6Z_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-08",
+      "summary": "Welcome to the second week of November, which we could call the calm before the storm, but it doesn't mean this is a bad week for new releases. This week's major release takes us fishing in a Lovecraftian inspired world with all that it entails. When...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354580/this-week-in-gaming-week-46"
+    },
+    {
+      "id": "https://www.techpowerup.com/354575/epic-games-names-steamos-among-planned-linux-targets-for-its-new-launcher",
+      "title": "Epic Games Names SteamOS Among Planned Linux Targets for Its New Launcher",
+      "original_title": "Epic Games Names SteamOS Among Planned Linux Targets for Its New Launcher",
+      "image": "https://tpucdn.com/img/5B66ndNtAQ3U9FCj_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-08",
+      "summary": "SteamOS is now officially on the list of Linux distributions Epic Games plans to support with its new Epic Games Launcher. In a statement to GamingOnLinux, Epic communications director Jake Jones said the launcher is still in Preview, and that Epic p...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354575/epic-games-names-steamos-among-planned-linux-targets-for-its-new-launcher"
+    },
+    {
+      "id": "https://www.techpowerup.com/354574/cpu-z-data-shows-16-gb-ram-gaining-ground-while-32-gb-and-64-gb-ram-shares-shrink",
+      "title": "CPU-Z Data Shows 16 GB RAM Gaining Ground While 32 GB and 64 GB RAM Shares Shrink",
+      "original_title": "CPU-Z Data Shows 16 GB RAM Gaining Ground While 32 GB and 64 GB RAM Shares Shrink",
+      "image": "https://tpucdn.com/img/CvmyfUBRZ2vIAoSL_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-08",
+      "summary": "PCs with 32 GB and 64 GB of RAM are becoming less common, at least in the latest CPU-Z Validator statistics. According to Doc TB, one of the developers behind CPU-Z, this is the first time RAM capacity on PCs has declined year over year. 32 GB is sti...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354574/cpu-z-data-shows-16-gb-ram-gaining-ground-while-32-gb-and-64-gb-ram-shares-shrink"
+    },
+    {
+      "id": "https://www.eurogamer.net/star-wars-zero-company-bit-reactor-layoffs",
+      "title": "Star Wars Zero Company studio Bit Reactor lays off staff, a month after bringing furloughed developers back",
+      "original_title": "Star Wars Zero Company studio Bit Reactor lays off staff, a month after bringing furloughed developers back",
+      "image": "https://assetsio.gnwcdn.com/star-wars-zero-company-screen.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-11-07",
+      "summary": " Star Wars Zero Company developer Bit Reactor has laid off an unspecified number of staff, a month after bringing some of its furloughed team back to work. Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/star-wars-zero-company-bit-reactor-layoffs"
+    },
+    {
+      "id": "https://www.eurogamer.net/playstation-pulse-elevate-speakers-delayed-indefinitely-production-issue",
+      "title": "Sony delays PlayStation's Pulse Elevate speakers indefinitely, less than a week before launch",
+      "original_title": "Sony delays PlayStation's Pulse Elevate speakers indefinitely, less than a week before launch",
+      "image": "https://assetsio.gnwcdn.com/Screenshot-2026-11-07-at-19.29.39.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-11-07",
+      "summary": " Sony has delayed its Pulse Elevate wireless speakers indefinitely, less than a week before they were due to launch. Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/playstation-pulse-elevate-speakers-delayed-indefinitely-production-issue"
+    },
+    {
+      "id": "https://www.eurogamer.net/assassins-creed-mars-ancient-rome-pocket-mobile-jerusalem-rumour",
+      "title": "Assassin's Creed is reportedly going to ancient Rome, while a mobile spin-off heads to Jerusalem",
+      "original_title": "Assassin's Creed is reportedly going to ancient Rome, while a mobile spin-off heads to Jerusalem",
+      "image": "https://assetsio.gnwcdn.com/Assassins-Creed-Black-Flag-Resynced---Naval-Combat-2.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-11-07",
+      "summary": " Ubisoft is reportedly working on two new Assassin's Creed games, and one of them is set in ancient Rome. Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/assassins-creed-mars-ancient-rome-pocket-mobile-jerusalem-rumour"
     },
     {
       "id": "https://www.eurogamer.net/wardogs-season-3-release-date-limited-mode-ban-wave",
@@ -226,6 +466,36 @@
       "url": "https://www.eurogamer.net/what-weve-been-playing-vice-city-zelda-world-of-warcraft-forever"
     },
     {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xqg2yr/data_found_in_zelda_ocarina_of_time_may_hint_at/",
+      "title": "Data Found In Zelda: Ocarina Of Time May Hint At Master Quest DLC",
+      "original_title": "Data Found In Zelda: Ocarina Of Time May Hint At Master Quest DLC",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-11-07",
+      "summary": "Source: https://bsky.app/profile/mrcheeze.github.io/post/3mznlgrwvrs2j https://bsky.app/profile/mrcheeze.github.io/post/3mznuthcj6c2j    submitted by    /u/Loose_Society9485   [link] [comments]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xqg2yr/data_found_in_zelda_ocarina_of_time_may_hint_at/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xqfgft/smyths_toys_confirms_gta_6_has_double_sided/",
+      "title": "Smyths Toys confirms GTA 6 has double sided poster in case",
+      "original_title": "Smyths Toys confirms GTA 6 has double sided poster in case",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-11-07",
+      "summary": "There was doubt about whether it was a retailer-specific bonus or came in cases. https://twitterviewer.net/videotech/status/2119156813576778184 https://www.smythstoys.com/uk/en-gb/gaming-and-tech/pre-order-games/playstation-5-pre-order-games/grand-th...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xqfgft/smyths_toys_confirms_gta_6_has_double_sided/"
+    },
+    {
       "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xq66fl/physical_copy_for_gta_vi_arrives_early_back_of/",
       "title": "Physical copy for GTA VI arrives early, back of the box shows “Online Functionality Supported” + new screenshots",
       "original_title": "Physical copy for GTA VI arrives early, back of the box shows “Online Functionality Supported” + new screenshots",
@@ -256,21 +526,6 @@
       "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xq9vth/tom_henderson_as_recently_as_october_we_heard/"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xq8iwp/xj0nathan_two_new_assassins_creed_games_in_the/",
-      "title": "xj0nathan: Two new Assassin's Creed games in the works, Codename Mars and Pocket",
-      "original_title": "xj0nathan: Two new Assassin's Creed games in the works, Codename Mars and Pocket",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-11-07",
-      "summary": " AC Codename Mars is rumored to be set in Ancient Rome Assassin's Creed Pocket is a mobile game set in Jerusalem with gameplay akin to the Mastery Challenge in AC Valhalla The hero's mentor in AC Pocket is reportedly called Myriam AC Pocket will be b...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xq8iwp/xj0nathan_two_new_assassins_creed_games_in_the/"
-    },
-    {
       "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xqa1s7/playstation_game_size_gow_sons_of_sparta_is/",
       "title": "PlayStation Game Size: GOW Sons of Sparta is coming to PS4",
       "original_title": "PlayStation Game Size: GOW Sons of Sparta is coming to PS4",
@@ -284,6 +539,21 @@
         "r/GamingLeaksAndRumours"
       ],
       "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xqa1s7/playstation_game_size_gow_sons_of_sparta_is/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xq8iwp/xj0nathan_two_new_assassins_creed_games_in_the/",
+      "title": "xj0nathan: Two new Assassin's Creed games in the works, Codename Mars and Pocket",
+      "original_title": "xj0nathan: Two new Assassin's Creed games in the works, Codename Mars and Pocket",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-11-07",
+      "summary": " AC Codename Mars is rumored to be set in Ancient Rome Assassin's Creed Pocket is a mobile game set in Jerusalem with gameplay akin to the Mastery Challenge in AC Valhalla The hero's mentor in AC Pocket is reportedly called Myriam AC Pocket will be b...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xq8iwp/xj0nathan_two_new_assassins_creed_games_in_the/"
     },
     {
       "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xq40qu/an_unannounced_crossover_was_accidentally_added/",
@@ -301,304 +571,34 @@
       "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xq40qu/an_unannounced_crossover_was_accidentally_added/"
     },
     {
-      "id": "https://www.techpowerup.com/354558/tcl-csot-inkjet-oled-t8-factory-begins-equipment-installation-phase",
-      "title": "TCL CSOT Inkjet OLED t8 Factory Begins Equipment Installation Phase",
-      "original_title": "TCL CSOT Inkjet OLED t8 Factory Begins Equipment Installation Phase",
-      "image": "https://tpucdn.com/img/NWhczhfsSt1CPtAm_thm.jpg",
+      "id": "https://www.techpowerup.com/354572/googlebook-update-frees-up-ram-from-on-device-ai",
+      "title": "Googlebook Update Frees Up RAM From On-Device AI",
+      "original_title": "Googlebook Update Frees Up RAM From On-Device AI",
+      "image": "https://tpucdn.com/img/8sUeQF2T6OBRhDXh_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-11-07",
-      "summary": "TCL CSOT announced it has started moving production equipment into its t8 factory in Guangzhou, China. Feng Zhang, Senior Vice President of TCL CSOT said \"The move-in of the first piece of core production equipment marks the t8 project's transition t...",
+      "summary": "Google has started rolling out the November update for Googlebook, and the biggest change is how much memory the platform's on-device AI takes up. On the Acer Googlebook 14, ASUS Googlebook 14, and Lenovo Googlebook 15, Google's release notes say it ...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/354558/tcl-csot-inkjet-oled-t8-factory-begins-equipment-installation-phase"
+      "url": "https://www.techpowerup.com/354572/googlebook-update-frees-up-ram-from-on-device-ai"
     },
     {
-      "id": "https://www.techpowerup.com/354556/physical-games-still-make-up-30-of-owned-console-libraries-survey-finds",
-      "title": "Physical Games Still Make Up 30% of Owned Console Libraries, Survey Finds",
-      "original_title": "Physical Games Still Make Up 30% of Owned Console Libraries, Survey Finds",
-      "image": "https://tpucdn.com/img/9CJmBeSJCKloetli_thm.jpg",
+      "id": "https://www.techpowerup.com/354571/nvidia-marks-20-years-of-the-geforce-8800-gtx-with-a-free-path-traced-steam-demo",
+      "title": "NVIDIA Marks 20 Years of the GeForce 8800 GTX With a Free Path-Traced Steam Demo",
+      "original_title": "NVIDIA Marks 20 Years of the GeForce 8800 GTX With a Free Path-Traced Steam Demo",
+      "image": "https://tpucdn.com/img/t4ndXjSETeXoM862_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-11-07",
-      "summary": "Physical copies still make up close to a third of the console games people actually own, according to a new Newzoo white paper produced with support from G2A. The firm surveyed 6,166 \"premium gamers\" across the US, UK, Germany, Poland, Brazil, and Sa...",
+      "summary": "NVIDIA is celebrating 20 years of the GeForce 8800 GTX, which hit store shelves on November 8, 2006, with a free tech demo on Steam. Called GeForce 8800 GTX - 20 Years of a Legend, it was created by Unreal Engine artist Dylan Browne, the developer of...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/354556/physical-games-still-make-up-30-of-owned-console-libraries-survey-finds"
-    },
-    {
-      "id": "https://www.techpowerup.com/354466/g-skill-and-micro-center-offer-intel-core-ultra-7-270k-plus-combo-deal-featuring-ripjaws-s5-ddr5-memory",
-      "title": "G.SKILL and Micro Center Offer Intel Core Ultra 7 270K Plus Combo Deal Featuring Ripjaws S5 DDR5 Memory",
-      "original_title": "G.SKILL and Micro Center Offer Intel Core Ultra 7 270K Plus Combo Deal Featuring Ripjaws S5 DDR5 Memory",
-      "image": "https://tpucdn.com/img/WsMLLZGkXAXUamNE_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-07",
-      "summary": "G.SKILL, a leading manufacturer of high-performance memory and PC gaming peripherals, has teamed up with Micro Center to offer a specially priced PC hardware combo deal featuring the Intel Core Ultra 7 270K Plus processor, G.SKILL Ripjaws S5 DDR5 mem...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354466/g-skill-and-micro-center-offer-intel-core-ultra-7-270k-plus-combo-deal-featuring-ripjaws-s5-ddr5-memory"
-    },
-    {
-      "id": "https://www.techpowerup.com/354555/unreleased-radeon-rx-7500-and-intel-razor-lake-h-hx-s-appear-in-latest-hwinfo-beta",
-      "title": "Unreleased Radeon RX 7500 and Intel Razor Lake-H/HX/S Appear in Latest HWiNFO Beta",
-      "original_title": "Unreleased Radeon RX 7500 and Intel Razor Lake-H/HX/S Appear in Latest HWiNFO Beta",
-      "image": "https://tpucdn.com/img/XvZyMfVnZMHmKwgj_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-07",
-      "summary": "HWiNFO's newest beta, v8.55-6115, adds recognition for an AMD Radeon RX 7500, a graphics card AMD has not yet announced. The changelog entry is a single line with only the name, so the specs, the GPU underneath, and any launch plans are all unknown f...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354555/unreleased-radeon-rx-7500-and-intel-razor-lake-h-hx-s-appear-in-latest-hwinfo-beta"
-    },
-    {
-      "id": "https://www.eurogamer.net/updated-xbox-pc-app-faster-asha-sharma",
-      "title": "Updated Xbox PC app promises 60% faster loading and easier access to games, but CEO Asha Sharma says there's \"plenty more to do\"",
-      "original_title": "Updated Xbox PC app promises 60% faster loading and easier access to games, but CEO Asha Sharma says there's \"plenty more to do\"",
-      "image": "https://assetsio.gnwcdn.com/Forza-Horizon-6-i.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-11-06",
-      "summary": " The Xbox PC app hasn't had the best track record in recent years, but Microsoft is promising that it's now much faster and easier to use than before. Read more...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/updated-xbox-pc-app-faster-asha-sharma"
-    },
-    {
-      "id": "https://www.eurogamer.net/mass-effect-expanse-rpg-david-gaider",
-      "title": "Mass Effect-like RPG The Expanse: Osiris Reborn ropes in David Gaider, the original lead writer of Bioware's Dragon Age series",
-      "original_title": "Mass Effect-like RPG The Expanse: Osiris Reborn ropes in David Gaider, the original lead writer of Bioware's Dragon Age series",
-      "image": "https://assetsio.gnwcdn.com/expanse-osiris-reborn-1.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-11-06",
-      "summary": " The Expanse: Osiris Reborn looks like it's carrying the best bits of Mass Effect forward, and in an encouraging move, the developers have been collaborating with David Gaider. Read more...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/mass-effect-expanse-rpg-david-gaider"
-    },
-    {
-      "id": "https://www.eurogamer.net/bloodborne-involved-rights-former-playstation-boss",
-      "title": "Bringing Bloodborne back is tricky because \"there's a lot of involved rights associated,\" according to former PlayStation boss",
-      "original_title": "Bringing Bloodborne back is tricky because \"there's a lot of involved rights associated,\" according to former PlayStation boss",
-      "image": "https://assetsio.gnwcdn.com/Bloodborne-Lady-Maria.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-11-06",
-      "summary": " Every year, Bloodborne fans pray for the birth of another game set in FromSoftware's Lovecraftian world. Every year, we're no closer to a Bloodborne 2 or even a Bloodborne Remastered. But why? PlayStation's former head honcho, Shawn Layden, blames i...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/bloodborne-involved-rights-former-playstation-boss"
-    },
-    {
-      "id": "https://www.eurogamer.net/world-of-warcraft-forever-hotfix-flag-carrier-plainsrunning",
-      "title": "World of Warcraft: Forever hotfix puts a stop to super speedy flag carriers that were dominating PvP battlegrounds",
-      "original_title": "World of Warcraft: Forever hotfix puts a stop to super speedy flag carriers that were dominating PvP battlegrounds",
-      "image": "https://assetsio.gnwcdn.com/world-of-warcraft-forever-tauren-face-shot.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-11-06",
-      "summary": " World of Warcraft: Forever has received its first major hotfix patch, which among other things has put an end to an especially powerful bug that made PvP battlegrounds like Warsong Gulch favoured to the Horde's advantage. Read more...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/world-of-warcraft-forever-hotfix-flag-carrier-plainsrunning"
-    },
-    {
-      "id": "https://www.eurogamer.net/crimson-desert-charting-the-unknown-now-playing",
-      "title": "In Charting the Unknown, Crimson Desert doubles down on its maximalism in audacious, faintly sinister style",
-      "original_title": "In Charting the Unknown, Crimson Desert doubles down on its maximalism in audacious, faintly sinister style",
-      "image": "https://assetsio.gnwcdn.com/crimson-desert-dlc-header-lightened.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-11-06",
-      "summary": " And so we are back in Pywel: the super-sized and often super-pretty realm where the deserts are blood-red, the grass is a lurid shade of green, and Kliff and his merry gang of Greymanes seem to be pissed all the time. Yet what's this? Peace seems to...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/crimson-desert-charting-the-unknown-now-playing"
-    },
-    {
-      "id": "https://www.eurogamer.net/square-enix-nier-automata-update-required-file-size-366gb",
-      "title": "Square Enix accidentally botches a Nier: Automata update, balloons required file size from 50GB to 366GB on PC",
-      "original_title": "Square Enix accidentally botches a Nier: Automata update, balloons required file size from 50GB to 366GB on PC",
-      "image": "https://assetsio.gnwcdn.com/nier-update.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-11-06",
-      "summary": " Yesterday, Nier: Automata received a new patch on Steam, adding more language support to the title - it can now be played with Korean, Simplified Chinese, and Traditional Chinese options - but this new update also, somehow, inflated the file size of...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/square-enix-nier-automata-update-required-file-size-366gb"
-    },
-    {
-      "id": "https://www.eurogamer.net/bioware-closure-documentary-release",
-      "title": "Following BioWare's shock closure, a new documentary capturing its final moments is coming next year",
-      "original_title": "Following BioWare's shock closure, a new documentary capturing its final moments is coming next year",
-      "image": "https://assetsio.gnwcdn.com/mass-effect-legendary-edition_AmSQYAn.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-11-06",
-      "summary": " A documentary detailing the history of beloved Mass Effect studio BioWare is releasing next year, and will cover last month's shock closure of the studio, following the private acquisition of owner EA. Read more...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/bioware-closure-documentary-release"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xppbw7/the_xbox_series_sx_file_sizes_for_grand_theft/",
-      "title": "The Xbox Series S|X file sizes for Grand Theft Auto VI, compressed and uncompressed, have surfaced. Except for Japan, which is slightly less in size, the preload package is 209.86 GB and expands to 225.34 GB.",
-      "original_title": "The Xbox Series S|X file sizes for Grand Theft Auto VI, compressed and uncompressed, have surfaced. Except for Japan, which is slightly less in size, the preload package is 209.86 GB and expands to 225.34 GB.",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-11-06",
-      "summary": "Source: CokyMoky69 (dataminer):  Grand Theft Auto VI Xbox Series X|S download sizes have officially updated in Microsoft's DisplayCatalog API. Global build: 209.86 GiB / 225.34 GB (225,336,053,760 bytes) Japan build (separate regional package): 208.7...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xppbw7/the_xbox_series_sx_file_sizes_for_grand_theft/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xppw31/german_electronics_store_mediamarkt_shares/",
-      "title": "German electronics store, MediaMarkt, shares unboxed GTA VI contents. Seemingly comes with a double sided poster.",
-      "original_title": "German electronics store, MediaMarkt, shares unboxed GTA VI contents. Seemingly comes with a double sided poster.",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-11-06",
-      "summary": "May or may not be official from Rockstar or just something they're including themselves. https://xcancel.com/iGrandTheftAuto/status/2118827374863397111 Edit: changed to xcancel because twitterviewer is now dead as well. Edit2: yes I know xcancel also...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xppw31/german_electronics_store_mediamarkt_shares/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xpjx4r/new_gtavi_merch_coming_nov_16_football_like/",
-      "title": "New GTAVI merch coming Nov 16. Football like jerseys (one I saw was blue) baseball like jerseys",
-      "original_title": "New GTAVI merch coming Nov 16. Football like jerseys (one I saw was blue) baseball like jerseys",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-11-06",
-      "summary": "I’m in Miami for vacation and I’m on ocean drive and I just saw cameras and unreleased gtavi clothing. They told me I couldn’t take pictures or anything but they said they release on the 16th    submitted by    /u/XavierEL1   [link] [comments]...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xpjx4r/new_gtavi_merch_coming_nov_16_football_like/"
-    },
-    {
-      "id": "https://www.techpowerup.com/354551/six-pallets-of-nvidia-hardware-worth-usd-11-4-million-stolen-on-the-way-to-texas",
-      "title": "Six Pallets of NVIDIA Hardware Worth $11.4 Million Stolen on the Way to Texas",
-      "original_title": "Six Pallets of NVIDIA Hardware Worth $11.4 Million Stolen on the Way to Texas",
-      "image": "https://tpucdn.com/img/FFc4bMpQDE3aFrks_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-06",
-      "summary": "Police in Oakland, California, are investigating the theft of six pallets of NVIDIA hardware worth $11.4 million that were bound for Fort Worth, Texas, the Bay Area News Group reports. A truck carrying a food transportation company's logo picked up t...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354551/six-pallets-of-nvidia-hardware-worth-usd-11-4-million-stolen-on-the-way-to-texas"
-    },
-    {
-      "id": "https://www.techpowerup.com/354552/unity-in-talks-to-be-acquired-by-eas-new-owners",
-      "title": "Unity in Talks To Be Acquired By EA's New Owners",
-      "original_title": "Unity in Talks To Be Acquired By EA's New Owners",
-      "image": "https://tpucdn.com/img/6YZpjTU7XewOkpoE_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-06",
-      "summary": "A little over a year ago, PIF and Silver Lake were announced as two parts of EA's new ownership trifecta, following a $55 billion buyout agreement, and it has now been revealed in a new Reuters report that PIF and Silver Lake have met with Unity Soft...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354552/unity-in-talks-to-be-acquired-by-eas-new-owners"
-    },
-    {
-      "id": "https://www.techpowerup.com/354256/teclast-v16q-portable-monitor-with-a-16-inch-2-5k-high-refresh-rate-screen",
-      "title": "Teclast V16Q Portable Monitor with a 16-Inch 2.5K High-Refresh-Rate Screen",
-      "original_title": "Teclast V16Q Portable Monitor with a 16-Inch 2.5K High-Refresh-Rate Screen",
-      "image": "https://tpucdn.com/img/DBWUjFPD4kJA7DEj_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-06",
-      "summary": "The V16Q is a 16-inch portable monitor designed for mobile work and entertainment. It features a 2560×1600 IPS screen with a refresh rate of up to 144 Hz. It can serve as an extended display for a laptop and can also be used with compatible devices s...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354256/teclast-v16q-portable-monitor-with-a-16-inch-2-5k-high-refresh-rate-screen"
-    },
-    {
-      "id": "https://www.techpowerup.com/354548/gog-announces-new-galaxy-launcher-for-linux-in-2027-with-faster-launching-for-macos-and-windows-also-coming",
-      "title": "GOG Announces New Galaxy Launcher for Linux in 2027 With Faster Launching for macOS and Windows Also Coming",
-      "original_title": "GOG Announces New Galaxy Launcher for Linux in 2027 With Faster Launching for macOS and Windows Also Coming",
-      "image": "https://tpucdn.com/img/Jbze5EzLnnX7EnT9_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-06",
-      "summary": "GOG has long since confirmed that it was working on a Galaxy game launcher for Linux, but it has officially just previewed the updated GOG Galaxy launcher in a new announcement on X. According to the post, not only has GOG Galaxy received a proper Li...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354548/gog-announces-new-galaxy-launcher-for-linux-in-2027-with-faster-launching-for-macos-and-windows-also-coming"
-    },
-    {
-      "id": "https://www.techpowerup.com/354550/discord-is-rebuilding-its-app-in-rust-early-build-uses-just-290-mb-of-ram",
-      "title": "Discord Is Rebuilding Its App in Rust, Early Build Uses Just 290 MB of RAM",
-      "original_title": "Discord Is Rebuilding Its App in Rust, Early Build Uses Just 290 MB of RAM",
-      "image": "https://tpucdn.com/img/7eH3cdYrzhdh93b2_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-06",
-      "summary": "Discord is rewriting its desktop app in Rust and dropping Electron, and the early numbers look very promising. Discord CTO and co-founder Stanislav Vishnevskiy posted a Task Manager screenshot on X showing the new client, listed as \"Discord Phoenix,\"...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354550/discord-is-rebuilding-its-app-in-rust-early-build-uses-just-290-mb-of-ram"
-    },
-    {
-      "id": "https://www.techpowerup.com/354549/nvidia-rtx-5070-ti-climbs-usd-160-in-eight-days-now-79-over-msrp",
-      "title": "NVIDIA RTX 5070 Ti Climbs $160 in Eight Days, Now 79% Over MSRP",
-      "original_title": "NVIDIA RTX 5070 Ti Climbs $160 in Eight Days, Now 79% Over MSRP",
-      "image": "https://tpucdn.com/img/zDSDMHFV2mQnWClI_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-06",
-      "summary": "NVIDIA's GeForce RTX 5070 Ti is now close to double its $749 MSRP in the US. According to price tracking by VideoCardz, the cheapest RTX 5070 Ti at major US retailers was $1,339.99 on November 6, about 79% above MSRP, up from $1,179.99 on October 29....",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354549/nvidia-rtx-5070-ti-climbs-usd-160-in-eight-days-now-79-over-msrp"
+      "url": "https://www.techpowerup.com/354571/nvidia-marks-20-years-of-the-geforce-8800-gtx-with-a-free-path-traced-steam-demo"
     }
   ]
 }
