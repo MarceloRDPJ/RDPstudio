@@ -1,31 +1,31 @@
 {
-  "last_updated": "2026-11-11T19:16:54",
-  "display_date": "11/11/2026 19:16",
+  "last_updated": "2026-11-12T19:35:25",
+  "display_date": "12/11/2026 19:35",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "125ms",
+    "latency": "444ms",
     "current_games": [
       {
-        "title": "Idle Champions of the Forgotten Realms",
-        "description": "Idle Champions of the Forgotten Realms is a Dungeons & Dragons strategy management game uniting characters from throughout the D&D multiverse into a grand adventure.",
-        "image": "https://cdn1.epicgames.com/spt-assets/a53f91e55c6840018cb5de0b204f1ad9/idle-champions-of-the-forgotten-realms-1cv5z.jpg",
-        "url": "https://store.epicgames.com/p/banegeneralaudience",
-        "price": "0",
-        "start_date": "2026-11-05T16:00:00.000Z",
-        "end_date": "2026-11-12T16:00:00.000Z"
-      },
-      {
-        "title": "Flotsam",
-        "description": "The floating garbage town survival game! Scavenge what precious garbage you can from the ocean's surface and grow your city while doing your best to survive in this colorful post-apocalyptic world.",
-        "image": "https://cdn1.epicgames.com/spt-assets/5c36b876e80d4285b9993947efeeaf2b/flotsam-1yczl.jpg",
-        "url": "https://store.epicgames.com/p/7ca01ab906ad4eff92d4ed1efa5fbfcb",
-        "price": "$24.99",
-        "start_date": "2026-11-05T16:00:00.000Z",
-        "end_date": "2026-11-12T16:00:00.000Z"
+        "title": "Knightica",
+        "description": "Recruit units, place them strategically, and find the synergies in this Roguelike AutoBattler!\nKnightica lets you guide a warband through challenges to free the Kingdoms.\nDiscover combinations, weave powerful enchants, face dangerous monsters, and lead your army to victory!",
+        "image": "https://cdn1.epicgames.com/spt-assets/357100ca5613420e98208c5f14585e9d/knightica-1nuxm.png",
+        "url": "https://store.epicgames.com/p/72b46f5d95624fd5b7e7d81b7dcaead1",
+        "price": "$14.99",
+        "start_date": "2026-11-12T16:00:00.000Z",
+        "end_date": "2026-11-19T16:00:00.000Z"
       }
     ],
     "upcoming_games": [
+      {
+        "title": "Alien: Isolation",
+        "description": "Discover the true meaning of fear in Alien: Isolation, a survival horror set in an atmosphere of constant dread and mortal danger...   Created using the CATHODE™ engine.",
+        "image": "https://cdn1.epicgames.com/df37f065c3f14eadbf011177396e2966/offer/EGS_AlienIsolation_CreativeAssembly_S5-1920x1080-1cf3b9a86adcefeebf903451b1b3fb49.jpg",
+        "url": "https://store.epicgames.com/p/lethegeneralaudience",
+        "price": "$39.99",
+        "start_date": "2026-11-19T16:00:00.000Z",
+        "end_date": "2026-11-26T16:00:00.000Z"
+      },
       {
         "title": "Ghostrunner 2",
         "description": "Ghostrunner 2 is a hardcore FPP slasher set in a post-apocalyptic, cyberpunk world. Featuring everything fans loved about Ghostrunner plus incredible boss fights, new interactive story, thrilling motorbike levels, improved skills, and more cyber ninja action. ",
@@ -45,6 +45,15 @@
         "end_date": "2027-01-07T16:00:00.000Z"
       },
       {
+        "title": "Mark of the Deep",
+        "description": "Mark of the Deep is an epic pirate-themed adventure with a strong narrative and a thrilling mix of Metroidvania and Souls-Like elements. Embark on this journey, explore the mysteries of a cursed island and find your missing pirate crew!",
+        "image": "https://cdn1.epicgames.com/spt-assets/83a240506a884c10ad8fb99694e57a0d/mark-of-the-deep-w1ygr.png",
+        "url": "https://store.epicgames.com/p/2fd257a6cd80405a833f9004ff07993a",
+        "price": "$19.99",
+        "start_date": "2026-11-19T16:00:00.000Z",
+        "end_date": "2026-11-26T16:00:00.000Z"
+      },
+      {
         "title": "Monument Valley",
         "description": "Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
         "image": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
@@ -61,49 +70,40 @@
         "price": "$16.99",
         "start_date": "2026-11-21T16:00:00.000Z",
         "end_date": "2026-12-21T16:00:00.000Z"
-      },
-      {
-        "title": "Knightica",
-        "description": "Recruit units, place them strategically, and find the synergies in this Roguelike AutoBattler!\nKnightica lets you guide a warband through challenges to free the Kingdoms.\nDiscover combinations, weave powerful enchants, face dangerous monsters, and lead your army to victory!",
-        "image": "https://cdn1.epicgames.com/spt-assets/357100ca5613420e98208c5f14585e9d/knightica-1nuxm.png",
-        "url": "https://store.epicgames.com/p/72b46f5d95624fd5b7e7d81b7dcaead1",
-        "price": "$14.99",
-        "start_date": "2026-11-12T16:00:00.000Z",
-        "end_date": "2026-11-19T16:00:00.000Z"
       }
     ],
     "mystery_detected": false
   },
   "items": [
     {
-      "id": "https://store.epicgames.com/p/banegeneralaudience",
-      "title": "GRÁTIS: Idle Champions of the Forgotten Realms",
-      "original_title": "Idle Champions of the Forgotten Realms",
-      "image": "https://cdn1.epicgames.com/spt-assets/a53f91e55c6840018cb5de0b204f1ad9/idle-champions-of-the-forgotten-realms-1cv5z.jpg",
+      "id": "https://store.epicgames.com/p/72b46f5d95624fd5b7e7d81b7dcaead1",
+      "title": "GRÁTIS: Knightica",
+      "original_title": "Knightica",
+      "image": "https://cdn1.epicgames.com/spt-assets/357100ca5613420e98208c5f14585e9d/knightica-1nuxm.png",
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-11-11",
-      "summary": "Idle Champions of the Forgotten Realms is a Dungeons & Dragons strategy management game uniting characters from throughout the D&D multiverse into a grand adventure.",
+      "date": "2026-11-12",
+      "summary": "Recruit units, place them strategically, and find the synergies in this Roguelike AutoBattler!\nKnightica lets you guide a warband through challenges to free the Kingdoms.\nDiscover combinations, weave powerful enchants, face dangerous monsters, and lead your army to victory!",
       "sources": [
         "Epic Games Store"
       ],
-      "url": "https://store.epicgames.com/p/banegeneralaudience"
+      "url": "https://store.epicgames.com/p/72b46f5d95624fd5b7e7d81b7dcaead1"
     },
     {
-      "id": "https://store.epicgames.com/p/7ca01ab906ad4eff92d4ed1efa5fbfcb",
-      "title": "GRÁTIS: Flotsam",
-      "original_title": "Flotsam",
-      "image": "https://cdn1.epicgames.com/spt-assets/5c36b876e80d4285b9993947efeeaf2b/flotsam-1yczl.jpg",
+      "id": "https://store.epicgames.com/p/lethegeneralaudience",
+      "title": "EM BREVE: Alien: Isolation",
+      "original_title": "Alien: Isolation",
+      "image": "https://cdn1.epicgames.com/df37f065c3f14eadbf011177396e2966/offer/EGS_AlienIsolation_CreativeAssembly_S5-1920x1080-1cf3b9a86adcefeebf903451b1b3fb49.jpg",
       "source_count": 1,
       "reliability": "High",
-      "category": "Free Games",
-      "date": "2026-11-11",
-      "summary": "The floating garbage town survival game! Scavenge what precious garbage you can from the ocean's surface and grow your city while doing your best to survive in this colorful post-apocalyptic world.",
+      "category": "Release Date",
+      "date": "2026-11-12",
+      "summary": "Disponível gratuitamente a partir de 19/11. Discover the true meaning of fear in Alien: Isolation, a survival horror set in an atmosphere of constant dread and mortal danger...   Created using the CATHODE™ engine.",
       "sources": [
         "Epic Games Store"
       ],
-      "url": "https://store.epicgames.com/p/7ca01ab906ad4eff92d4ed1efa5fbfcb"
+      "url": "https://store.epicgames.com/p/lethegeneralaudience"
     },
     {
       "id": "https://store.epicgames.com/p/ghostrunner-2",
@@ -113,7 +113,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-11",
+      "date": "2026-11-12",
       "summary": "Disponível gratuitamente a partir de 10/12. Ghostrunner 2 is a hardcore FPP slasher set in a post-apocalyptic, cyberpunk world. Featuring everything fans loved about Ghostrunner plus incredible boss fights, new interactive story, thrilling motorbike levels, improved skills, and more cyber ninja action. ",
       "sources": [
         "Epic Games Store"
@@ -128,12 +128,27 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-11",
+      "date": "2026-11-12",
       "summary": "Disponível gratuitamente a partir de 10/12. Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/lisa-the-definitive-edition"
+    },
+    {
+      "id": "https://store.epicgames.com/p/2fd257a6cd80405a833f9004ff07993a",
+      "title": "EM BREVE: Mark of the Deep",
+      "original_title": "Mark of the Deep",
+      "image": "https://cdn1.epicgames.com/spt-assets/83a240506a884c10ad8fb99694e57a0d/mark-of-the-deep-w1ygr.png",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-11-12",
+      "summary": "Disponível gratuitamente a partir de 19/11. Mark of the Deep is an epic pirate-themed adventure with a strong narrative and a thrilling mix of Metroidvania and Souls-Like elements. Embark on this journey, explore the mysteries of a cursed island and find your missing pirate crew!",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/2fd257a6cd80405a833f9004ff07993a"
     },
     {
       "id": "https://store.epicgames.com/p/monument-valley-02",
@@ -143,7 +158,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-11",
+      "date": "2026-11-12",
       "summary": "Disponível gratuitamente a partir de 10/12. Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
       "sources": [
         "Epic Games Store"
@@ -158,7 +173,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-11",
+      "date": "2026-11-12",
       "summary": "Disponível gratuitamente a partir de 21/11. Build gorgeous kingdoms on floating islands by strategically placing buildings in this cozy, medieval City-Puzzler. Discover secret combinations, take on monthly challenges and explore randomly generated maps in various single- and multiplayer game modes.",
       "sources": [
         "Epic Games Store"
@@ -166,274 +181,304 @@
       "url": "https://store.epicgames.com/p/f229ed53ddba40788e0ab62978e9eaf9"
     },
     {
-      "id": "https://store.epicgames.com/p/72b46f5d95624fd5b7e7d81b7dcaead1",
-      "title": "EM BREVE: Knightica",
-      "original_title": "Knightica",
-      "image": "https://cdn1.epicgames.com/spt-assets/357100ca5613420e98208c5f14585e9d/knightica-1nuxm.png",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-11-11",
-      "summary": "Disponível gratuitamente a partir de 12/11. Recruit units, place them strategically, and find the synergies in this Roguelike AutoBattler!\nKnightica lets you guide a warband through challenges to free the Kingdoms.\nDiscover combinations, weave powerful enchants, face dangerous monsters, and lead your army to victory!",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/72b46f5d95624fd5b7e7d81b7dcaead1"
-    },
-    {
-      "id": "https://www.eurogamer.net/gta-6-censored-japan-smaller-install-size",
-      "title": "GTA 6 might be censored in Japan, if the game's smaller install size and lack of \"strong sexual content\" warning is anything to go by",
-      "original_title": "GTA 6 might be censored in Japan, if the game's smaller install size and lack of \"strong sexual content\" warning is anything to go by",
-      "image": "https://assetsio.gnwcdn.com/gta-6-sex-scene.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/microsoft-xbox-gen-ai-asha-sharma-memo",
+      "title": "Xbox boss seemingly champions gen-AI development as she celebrates 25 years of Xbox: \"A small team will be able to build worlds that today demand hundreds of developers\"",
+      "original_title": "Xbox boss seemingly champions gen-AI development as she celebrates 25 years of Xbox: \"A small team will be able to build worlds that today demand hundreds of developers\"",
+      "image": "https://assetsio.gnwcdn.com/asha-sharma-xbox-showcase-2026.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-11",
-      "summary": " GTA 6 is finally coming out worldwide next week, putting an end to a 13-year wait and at least one popular meme format, but the highly-anticipated game might look a bit different in Japan. Read more...",
+      "date": "2026-11-12",
+      "summary": " Xbox leader Asha Sharma has alluded to harnessing the power of generative AI when making games, in a memo published this afternoon. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/gta-6-censored-japan-smaller-install-size"
+      "url": "https://www.eurogamer.net/microsoft-xbox-gen-ai-asha-sharma-memo"
     },
     {
-      "id": "https://www.eurogamer.net/eu-digital-fairness-act-what-is-it-video-games",
-      "title": "The European Commission's new Digital Fairness Act could change monetisation in games forever - and not just in Europe",
-      "original_title": "The European Commission's new Digital Fairness Act could change monetisation in games forever - and not just in Europe",
-      "image": "https://assetsio.gnwcdn.com/mei-overwatch-loot-box-cs-go.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/world-of-warcraft-forever-oceania-sunlight",
+      "title": "World of Warcraft: Forever players in Australia and New Zealand are struggling to get sunlight, and not for the usual MMO reasons",
+      "original_title": "World of Warcraft: Forever players in Australia and New Zealand are struggling to get sunlight, and not for the usual MMO reasons",
+      "image": "https://assetsio.gnwcdn.com/WoW_Camelot_Announce_Zones_Riverglades_040.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-11",
-      "summary": " The European Commission has published its proposed Digital Fairness Act, which has the potential to change how video games are monetised - worldwide - forever. A draft of the Act was leaked yesterday and what's been published today appears to be, to...",
+      "date": "2026-11-12",
+      "summary": " World of Warcraft: Forever players are having a blast in the new MMO, but not everyone is basking in the rays of its successful launch.  Players located in Australia, New Zealand, and other Oceania countries are having a bit of a sunlight problem. R...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/eu-digital-fairness-act-what-is-it-video-games"
+      "url": "https://www.eurogamer.net/world-of-warcraft-forever-oceania-sunlight"
     },
     {
-      "id": "https://www.eurogamer.net/hunger-extraction-napoleonic-era-early-access-date",
-      "title": "Hell Let Loose's original developers' Napoleonic-era extraction game, Hunger, gets December early access release, and an open beta this month",
-      "original_title": "Hell Let Loose's original developers' Napoleonic-era extraction game, Hunger, gets December early access release, and an open beta this month",
-      "image": "https://assetsio.gnwcdn.com/hunger-early-access-screen-2.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/steam-game-submission-review-backlog-ai-slop-approval-delays",
+      "title": "As low-effort AI slop continues to flood Steam, yet more developers announce game delays caused by Valve's growing approval backlog",
+      "original_title": "As low-effort AI slop continues to flood Steam, yet more developers announce game delays caused by Valve's growing approval backlog",
+      "image": "https://assetsio.gnwcdn.com/australia-did-it-keyart-1.jpeg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-11",
-      "summary": " Good Fun Corp, the studio made up of the original developers behind Hell Let Loose, has finally announced a release date for its anticipated next project: Hunger. The extraction shooter-slasher game enters early access on Steam on 3rd December, and ...",
+      "date": "2026-11-12",
+      "summary": " More indie developers say they've been forced to delay the impending release of their games as a result of Steam's growing approvals backlog - a relatively recent problem that's believed to stem from an influx of AI slop on the platform. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/hunger-extraction-napoleonic-era-early-access-date"
+      "url": "https://www.eurogamer.net/steam-game-submission-review-backlog-ai-slop-approval-delays"
     },
     {
-      "id": "https://www.eurogamer.net/katsuhiro-harada-xbox-series-s-wish-it-wouldnt-release",
-      "title": "\"I wish hardware like the Xbox Series S wouldn't be released\" - former Tekken director Katsuhiro Harada trashes Microsoft's console in front of senior Xbox staff",
-      "original_title": "\"I wish hardware like the Xbox Series S wouldn't be released\" - former Tekken director Katsuhiro Harada trashes Microsoft's console in front of senior Xbox staff",
-      "image": "https://assetsio.gnwcdn.com/Harada-Series-S.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/nvidia-ceo-jensen-huang-resigns",
+      "title": "After days of controversy, Nvidia CEO Jensen Huang has resigned",
+      "original_title": "After days of controversy, Nvidia CEO Jensen Huang has resigned",
+      "image": "https://assetsio.gnwcdn.com/jensen-huang-speaking.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-11",
-      "summary": " Katsuhiro Harada, formerly director on the Tekken series, is known for not pulling his punches. This truth was reinforced recently, as he said he wished the Xbox Series S \"wouldn't be released\" at a developer panel. All while a member of the Xbox te...",
+      "date": "2026-11-12",
+      "summary": " Nvidia's founder and CEO Jensen Huang has resigned from his position as leader of one of the most valuable companies in the world. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/katsuhiro-harada-xbox-series-s-wish-it-wouldnt-release"
+      "url": "https://www.eurogamer.net/nvidia-ceo-jensen-huang-resigns"
     },
     {
-      "id": "https://www.eurogamer.net/playstation-5-100-million-sales-november-2026",
-      "title": "As of this week, PlayStation 5 has surpassed 100 million consoles sold",
-      "original_title": "As of this week, PlayStation 5 has surpassed 100 million consoles sold",
-      "image": "https://assetsio.gnwcdn.com/where-to-preorder-ps5-pro-eurogamer.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/cd-projekt-red-geralt-gen-ai-voice-polish-jacek-rozenek",
+      "title": "The Witcher 3 uses gen-AI to enhance Geralt's Polish voice following actor's stroke - \"I do think this is one of those ways where you can use AI ethically\"",
+      "original_title": "The Witcher 3 uses gen-AI to enhance Geralt's Polish voice following actor's stroke - \"I do think this is one of those ways where you can use AI ethically\"",
+      "image": "https://assetsio.gnwcdn.com/witcher-voice-over-jacek-rozenek.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-11",
-      "summary": " PlayStation 5 has officially surpassed 100m consoles sold, Sony's updated sales data revealed. The milestone was reached on 10th November, almost exactly six years on from the console's launch. Read more...",
+      "date": "2026-11-12",
+      "summary": " CD Projekt Red has revealed that it used - and is using - generative AI technology to treat and alter the voice of the Polish actor who portrayed Geralt of Rivia in upcoming Witcher 3 expansion Songs of the Past. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/playstation-5-100-million-sales-november-2026"
+      "url": "https://www.eurogamer.net/cd-projekt-red-geralt-gen-ai-voice-polish-jacek-rozenek"
     },
     {
-      "id": "https://www.eurogamer.net/world-of-warcraft-forever-secret-dawn-walker-sword",
-      "title": "World of Warcraft: Forever secret hunters have found the MMO's first hidden treasure",
-      "original_title": "World of Warcraft: Forever secret hunters have found the MMO's first hidden treasure",
-      "image": "https://assetsio.gnwcdn.com/WoW_Forever_SCENIC_Announce_Skyborne_Customization_061.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/dark-souls-2-3-servers-back-online",
+      "title": "After two weeks of multiplayer downtime, Dark Souls 2 & 3's mysterious server \"issue\" has been fixed, so it no longer feels so lonely online",
+      "original_title": "After two weeks of multiplayer downtime, Dark Souls 2 & 3's mysterious server \"issue\" has been fixed, so it no longer feels so lonely online",
+      "image": "https://assetsio.gnwcdn.com/DS2-Scholar_main.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-11",
-      "summary": " World of Warcraft secret hunters are a noble breed, known for scouring the MMO for years for hidden trinkets and treasures. With World of Warcraft: Forever's launch, they've uncovered a quest chain for an especially fancy sword. Read more...",
+      "date": "2026-11-12",
+      "summary": " Developer FromSoftware has announced that online multiplayer servers for Dark Souls 2 and 3 are back online following a nearly two-week outage. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/world-of-warcraft-forever-secret-dawn-walker-sword"
+      "url": "https://www.eurogamer.net/dark-souls-2-3-servers-back-online"
     },
     {
-      "id": "https://www.eurogamer.net/monster-hunter-wilds-ascendance-beta-steam-backend",
-      "title": "Monster Hunter Wilds' upcoming Ascendance expansion may be getting a beta, some curious Steam backend updates suggest",
-      "original_title": "Monster Hunter Wilds' upcoming Ascendance expansion may be getting a beta, some curious Steam backend updates suggest",
-      "image": "https://assetsio.gnwcdn.com/monster-hunter-wilds-lagiacrus-monster-screen-1.jpeg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/paradox-ceo-frederik-wester-stepping-down",
+      "title": "Paradox boss Frederik Wester stepping down after several tumultuous years for the Cities Skylines and Stellaris publisher",
+      "original_title": "Paradox boss Frederik Wester stepping down after several tumultuous years for the Cities Skylines and Stellaris publisher",
+      "image": "https://assetsio.gnwcdn.com/fred_wester_header.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-11",
-      "summary": " Monster Hunter Wilds's first expansion, Ascendance, is set for release sometime next year. But, judging by some very suspect recent changes to the Wilds beta app on Steam, we may be playing some of the new stuff earlier than we thought. Read more...",
+      "date": "2026-11-12",
+      "summary": " Paradox Interactive's Frederik Wester has announced he's stepping down from the role of CEO after a combined decade and a half leading the company. The news follows several tumultuous years for the publisher best known for grand strategy games inclu...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/monster-hunter-wilds-ascendance-beta-steam-backend"
+      "url": "https://www.eurogamer.net/paradox-ceo-frederik-wester-stepping-down"
     },
     {
-      "id": "https://www.eurogamer.net/world-of-warcraft-forever-now-playing",
-      "title": "World of Warcraft: Forever's magical opening week reminds us all about the power of the MMO, and the threat it poses to your free time",
-      "original_title": "World of Warcraft: Forever's magical opening week reminds us all about the power of the MMO, and the threat it poses to your free time",
-      "image": "https://assetsio.gnwcdn.com/WoW_Forever_Cinematic_Still_7.jpeg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/grand-theft-auto-gta-non-american-setting-rockstar",
+      "title": "Will a Grand Theft Auto game ever be set outside of America? Rockstar offers a small glimmer of hope",
+      "original_title": "Will a Grand Theft Auto game ever be set outside of America? Rockstar offers a small glimmer of hope",
+      "image": "https://assetsio.gnwcdn.com/GTA6_5nov-(2).jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-11",
-      "summary": " World of Warcraft: Forever is a time vampire. Since its release last Wednesday, I have spent 78 hours in Azeroth. Some of that I was AFK, sure. But for many of those hours, I was lost, happily, in the rolling hills and vast planes of Blizzard's MMO ...",
+      "date": "2026-11-12",
+      "summary": " The Grand Theft Auto games have always been synonymous with America; Americana is baked into the crime series' very being. Across its history, there's only ever been one GTA game set outside America: the London-based expansion of the original game. ...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/world-of-warcraft-forever-now-playing"
+      "url": "https://www.eurogamer.net/grand-theft-auto-gta-non-american-setting-rockstar"
     },
     {
-      "id": "https://www.eurogamer.net/zelda-ocarina-of-time-switch-2-sales-nintendo",
-      "title": "The Legend of Zelda: Ocarina of Time remake sells in huge numbers, becoming the fastest-selling Switch 2 game",
-      "original_title": "The Legend of Zelda: Ocarina of Time remake sells in huge numbers, becoming the fastest-selling Switch 2 game",
-      "image": "https://assetsio.gnwcdn.com/Zelda_Ocarina_Of_Time_Songs_Header.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/nvidia-ceo-jensen-huang-affair-share-price",
+      "title": "Nvidia board considering ousting CEO Jensen Huang, report claims, as news of a second affair comes to light",
+      "original_title": "Nvidia board considering ousting CEO Jensen Huang, report claims, as news of a second affair comes to light",
+      "image": "https://assetsio.gnwcdn.com/NVIDIA-CEO-Jensen-Huang-Keynote-at-CES-2025-20-19-screenshot.png?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-11",
-      "summary": " The Legend of Zelda: Ocarina of Time remake has been a huge success for Nintendo, becoming the fastest-selling Switch 2 game ever, shifting more than 5.2 million copies in four days. Read more...",
+      "date": "2026-11-12",
+      "summary": " Nvidia's board of directors has reportedly met to decide whether to remove the company's embattled CEO Jensen Huang, as news of a second extramarital affair has come to light. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/zelda-ocarina-of-time-switch-2-sales-nintendo"
+      "url": "https://www.eurogamer.net/nvidia-ceo-jensen-huang-affair-share-price"
     },
     {
-      "id": "https://www.eurogamer.net/fairgames-playstation-heist-shooter-live-service-cancelled-haven",
-      "title": "PlayStation's embattled shooter Fairgames has finally been cancelled, a new report says, as live service push withers away",
-      "original_title": "PlayStation's embattled shooter Fairgames has finally been cancelled, a new report says, as live service push withers away",
-      "image": "https://assetsio.gnwcdn.com/Fairgame%24---CGI-Reveal-Trailer-_-PS5-%26-PC-Games-1-31-screenshot.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/marvel-1943-rise-of-hydra-not-cancelled-skydance-says",
+      "title": "Amy Hennig's Marvel 1943: Rise of Hydra hasn't been cancelled, Skydance reportedly says, as rumours swirl to the contrary",
+      "original_title": "Amy Hennig's Marvel 1943: Rise of Hydra hasn't been cancelled, Skydance reportedly says, as rumours swirl to the contrary",
+      "image": "https://assetsio.gnwcdn.com/Marvel-1943_-Rise-of-Hydra-_-Story-Trailer-0-25-screenshot-(1).png?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
-      "category": "News",
-      "date": "2026-11-11",
-      "summary": " After years of silence, we finally know the fate of PlayStation's embattled live service game Fairgames. The Haven-developed co-op heist shooter has been cancelled, with the silver lining that the studio is not closing down or laying off staff. Read...",
+      "category": "Rumor",
+      "date": "2026-11-12",
+      "summary": " You'd be forgiven for forgetting that Amy Hennig's superhero game Marvel 1943: Rise of Hydra exists, but apparently it's still in development despite its many troubles and rumours to the contrary. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/fairgames-playstation-heist-shooter-live-service-cancelled-haven"
+      "url": "https://www.eurogamer.net/marvel-1943-rise-of-hydra-not-cancelled-skydance-says"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xtmomi/nvidia_reportedly_cancels_geforce_rtx_5080_24gb/",
-      "title": "NVIDIA reportedly cancels GeForce RTX 5080 24GB launch, brings back 16GB model over GDDR7 costs",
-      "original_title": "NVIDIA reportedly cancels GeForce RTX 5080 24GB launch, brings back 16GB model over GDDR7 costs",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xugesq/insider_gaming_south_korea_came_close_to_an/",
+      "title": "Insider Gaming: South Korea came close to an outright refusal to rate GTA VI due to “far too much genital exposure”",
+      "original_title": "Insider Gaming: South Korea came close to an outright refusal to rate GTA VI due to “far too much genital exposure”",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
       "category": "News",
-      "date": "2026-11-11",
-      "summary": "Source: https://videocardz.com/newz/nvidia-reportedly-cancels-geforce-rtx-5080-24gb-launch-brings-back-16gb-model-over-gddr7-costs    submitted by    /u/SwegulousRift   [link] [comments]...",
+      "date": "2026-11-12",
+      "summary": " The country’s regulators reportedly postponed their decision twice, with the primary concern being what was described as “out-of-context genital nudity.” During the first review on September 10, the committee was split evenly, with three votes for a...",
       "sources": [
         "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xtmomi/nvidia_reportedly_cancels_geforce_rtx_5080_24gb/"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xugesq/insider_gaming_south_korea_came_close_to_an/"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xtfkdu/monster_hunter_wilds_ascendance_may_be_getting_a/",
-      "title": "Monster Hunter Wilds Ascendance may be getting a beta test",
-      "original_title": "Monster Hunter Wilds Ascendance may be getting a beta test",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xuatt7/gta_vi_collectors_box_displayed_shows_the/",
+      "title": "GTA VI Collectors Box displayed shows the unreleased map poster with new location names",
+      "original_title": "GTA VI Collectors Box displayed shows the unreleased map poster with new location names",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
       "category": "News",
-      "date": "2026-11-11",
-      "summary": "Source: https://steamdb.info/app/3065170/history/?changeid=40777135  Changelist #40777135 - 10 November 2026 – 01:59:27 UTC Changed Name – Monster Hunter Wilds: Ascendance Beta test     submitted by    /u/Joseki100   [link] [comments]...",
+      "date": "2026-11-12",
+      "summary": "The image is AI enhanced a bit so names like Ambrosia and Lake Leonida are spelt incorrectly but it’s legit Full map: https://ibb.co/pjQNGv2p Full map (AI enhanced): https://ibb.co/C3tjLgns    submitted by    /u/Gyatto-   [link] [comments]...",
       "sources": [
         "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xtfkdu/monster_hunter_wilds_ascendance_may_be_getting_a/"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xuatt7/gta_vi_collectors_box_displayed_shows_the/"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xt3tvs/a_listing_for_mega_man_legends_has_appeared_on_an/",
-      "title": "A listing for Mega Man Legends has appeared on an Ontario film site",
-      "original_title": "A listing for Mega Man Legends has appeared on an Ontario film site",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xuhdpw/amd_to_launch_a_nucsff_apu_similar_to_xboxs_helix/",
+      "title": "AMD to launch a NUC-SFF APU similar to Xbox's Helix, now rebranded Siren Halo",
+      "original_title": "AMD to launch a NUC-SFF APU similar to Xbox's Helix, now rebranded Siren Halo",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
       "category": "News",
-      "date": "2026-11-11",
-      "summary": "https://actratoronto.com/whats-shooting/?pagenum=2 Remaster finally incoming?    submitted by    /u/MCUAvenger1992   [link] [comments]...",
+      "date": "2026-11-12",
+      "summary": "Source Number of leakers including Kepler_L2 have revealed that AMD's upcoming laptop products have been updated to include a GDDR7 APU using the same GPU chip that Xbox Helix runs. Old lineup:  Medusa Halo: 12 OR 24 Desktop Zen-6 Cores, 2 Low Power ...",
       "sources": [
         "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xt3tvs/a_listing_for_mega_man_legends_has_appeared_on_an/"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xuhdpw/amd_to_launch_a_nucsff_apu_similar_to_xboxs_helix/"
     },
     {
-      "id": "https://www.techpowerup.com/354707/first-photos-of-intels-256-core-xeon-7-diamond-rapids-package-surface",
-      "title": "First Photos of Intel's 256-Core Xeon 7 \"Diamond Rapids\" Package Surface",
-      "original_title": "First Photos of Intel's 256-Core Xeon 7 \"Diamond Rapids\" Package Surface",
-      "image": "https://tpucdn.com/img/i42aLp65Nwj3Zu0c_thm.jpg",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xu16qx/imran_khan_has_heard_marvel_1943_rise_of_hydra_is/",
+      "title": "Imran Khan has heard Marvel 1943: Rise of Hydra is not fun. Amy Henning is barely involved at one point, dev team is unhappy, and they are making it playable with as few buttons as possible",
+      "original_title": "Imran Khan has heard Marvel 1943: Rise of Hydra is not fun. Amy Henning is barely involved at one point, dev team is unhappy, and they are making it playable with as few buttons as possible",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-11-12",
+      "summary": "“It was, from what I have heard, not a game anyone was happy to be working on. Hennig was barely involved after a certain point and it was largely focused on controlling with as few buttons as possible. No one was finding it fun.”  Source: https://ww...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xu16qx/imran_khan_has_heard_marvel_1943_rise_of_hydra_is/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xu4d96/xbox_cloud_gaming_deal_with_rockstar_for_gta_6/",
+      "title": "Xbox Cloud Gaming Deal With Rockstar For GTA 6 & More Confirmed",
+      "original_title": "Xbox Cloud Gaming Deal With Rockstar For GTA 6 & More Confirmed",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-11-12",
+      "summary": "Source link. Previous leak by Tom Warren. Tom Warren also says that the deal goes beyond Cloud Gaming. Source.    submitted by    /u/LogicalError_007   [link] [comments]...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xu4d96/xbox_cloud_gaming_deal_with_rockstar_for_gta_6/"
+    },
+    {
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xum8j4/disney_will_be_present_at_the_game_awards/",
+      "title": "Disney will be present at The Game Awards, seemingly hinting towards a Star Wars Jedi 3 reveal",
+      "original_title": "Disney will be present at The Game Awards, seemingly hinting towards a Star Wars Jedi 3 reveal",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
+      "source_count": 1,
+      "reliability": "Medium",
+      "category": "News",
+      "date": "2026-11-12",
+      "summary": "Via DiscussingFilm on Twitter: \"The Game Awards will air on Disney+ this year in addition to all existing platforms like YouTube.\" \"Major announcements & surprises from Disney-owned games will be revealed throughout the event.\" Past rumour(s): https:...",
+      "sources": [
+        "r/GamingLeaksAndRumours"
+      ],
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xum8j4/disney_will_be_present_at_the_game_awards/"
+    },
+    {
+      "id": "https://www.techpowerup.com/354750/microsoft-admits-not-everyone-wants-ai-in-bing-offers-options-to-disable-it",
+      "title": "Microsoft Admits Not Everyone Wants AI in Bing, Offers Options to Disable It",
+      "original_title": "Microsoft Admits Not Everyone Wants AI in Bing, Offers Options to Disable It",
+      "image": "https://tpucdn.com/img/tlb3A54fno8d5H4y_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-11-11",
-      "summary": "Intel's Xeon 7 \"Diamond Rapids\" seems to have made its first public appearance as actual silicon. Intel had two packages on display at the Tencent Global Digital Ecosystem Conference in Shenzhen on October 29, one showing the heat spreader and the ot...",
+      "date": "2026-11-12",
+      "summary": "Bing users who would rather skip the AI answers now have two official ways to do it, according to a new post on Microsoft's Bing Search Blog. The first is the Microsoft Bing AI Search Choice extension for Chrome and Edge, which adds a single toggle f...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/354707/first-photos-of-intels-256-core-xeon-7-diamond-rapids-package-surface"
+      "url": "https://www.techpowerup.com/354750/microsoft-admits-not-everyone-wants-ai-in-bing-offers-options-to-disable-it"
     },
     {
-      "id": "https://www.techpowerup.com/354601/techpowerup-formula-v-line-giveaway-win-air-power-g10-cases-ice-nova-coolers-and-more",
-      "title": "TechPowerUp Formula V Line Giveaway: Win Air Power G10 Cases, Ice Nova Coolers, and More!",
-      "original_title": "TechPowerUp Formula V Line Giveaway: Win Air Power G10 Cases, Ice Nova Coolers, and More!",
-      "image": "https://tpucdn.com/img/cH0XRnoAoJxFUlpH_thm.jpg",
+      "id": "https://www.techpowerup.com/354747/amd-advances-built-in-protection-from-physical-attacks-for-security-critical-systems",
+      "title": "(PR) AMD Advances Built-in Protection from Physical Attacks for Security-Critical Systems",
+      "original_title": "(PR) AMD Advances Built-in Protection from Physical Attacks for Security-Critical Systems",
+      "image": "https://tpucdn.com/img/CxIWHG1l1xl8KxKV_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-11-11",
-      "summary": "TechPowerUp partners with Formula V Line to bring our readers from all over the world a chance to win one of dozens of pieces of Formula V One cases, CPU coolers, and case fans! The star attraction here is the Formula V Line G10 case, A spacious mid-...",
+      "date": "2026-11-12",
+      "summary": "What's the News? AMD today announced AMD Versal tamper-resistant (\"TR\") devices, designed to protect security-critical information against sophisticated physical attacks while delivering the high-performance heterogeneous processing capabilities of A...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/354601/techpowerup-formula-v-line-giveaway-win-air-power-g10-cases-ice-nova-coolers-and-more"
+      "url": "https://www.techpowerup.com/354747/amd-advances-built-in-protection-from-physical-attacks-for-security-critical-systems"
     },
     {
-      "id": "https://www.techpowerup.com/354704/nintendo-dmca-notice-takes-down-144-switch-modchip-firmware-repos-on-github",
-      "title": "Nintendo DMCA Notice Takes Down 144 Switch Modchip Firmware Repos on GitHub",
-      "original_title": "Nintendo DMCA Notice Takes Down 144 Switch Modchip Firmware Repos on GitHub",
-      "image": "https://tpucdn.com/img/1UMAPkg3DtfZaggE_thm.jpg",
+      "id": "https://www.techpowerup.com/354726/build-your-dream-anime-inspired-pc-with-the-aorus-ari-bundle-exclusively-at-newegg",
+      "title": "Build Your Dream Anime-Inspired PC with the AORUS ARI Bundle, Exclusively at Newegg",
+      "original_title": "Build Your Dream Anime-Inspired PC with the AORUS ARI Bundle, Exclusively at Newegg",
+      "image": "https://tpucdn.com/img/4I7yUYsJinNeUE29_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-11-11",
-      "summary": "GitHub has disabled 144 repositories hosting Nintendo Switch modchip firmware following a DMCA notice from Nintendo of America. The notice, dated November 6 and posted to GitHub's public DMCA archive this week, names a single repository called Ansem-...",
+      "date": "2026-11-12",
+      "summary": "GIGABYTE brings anime aesthetics and gaming performance together with the AORUS ARI Bundle, featuring the AORUS GeForce RTX 5060 ARI 8G graphics card and B850 AORUS ELITE-P ICE motherboard. Inspired by Ari, AORUS's original anime character, this excl...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/354704/nintendo-dmca-notice-takes-down-144-switch-modchip-firmware-repos-on-github"
+      "url": "https://www.techpowerup.com/354726/build-your-dream-anime-inspired-pc-with-the-aorus-ari-bundle-exclusively-at-newegg"
     },
     {
-      "id": "https://www.techpowerup.com/354703/msi-reportedly-plans-rtx-5080-price-hikes-of-up-to-usd-1-200-in-china",
-      "title": "MSI Reportedly Plans RTX 5080 Price Hikes of up to $1,200 in China",
-      "original_title": "MSI Reportedly Plans RTX 5080 Price Hikes of up to $1,200 in China",
-      "image": "https://tpucdn.com/img/yqZSD0dj9NzGA3Wu_thm.jpg",
+      "id": "https://www.techpowerup.com/354737/alphacool-launches-apex-benchtable-for-flexible-open-air-builds-and-test-beds",
+      "title": "Alphacool Launches Apex Benchtable For Flexible Open-Air Builds and Test Beds",
+      "original_title": "Alphacool Launches Apex Benchtable For Flexible Open-Air Builds and Test Beds",
+      "image": "https://tpucdn.com/img/T2AA6uHq6AEYrl7O_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-11-11",
-      "summary": "MSI's GeForce RTX 5080 cards could cost up to 8,000 yuan (about $1,200) more in China this month, according to a ChannelGate post shared on X by harukaze5719. The post outlines MSI's November distributor pricing compared to October, with RTX 5080 mod...",
+      "date": "2026-11-12",
+      "summary": "Alphacool is known for its high-end PC case and cooling components, and its latest product, the Apex Benchtable, is no exception. The Benchtable is an open-air case built for flexibility and rapid assembly and disassembly, and it supports everything ...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/354703/msi-reportedly-plans-rtx-5080-price-hikes-of-up-to-usd-1-200-in-china"
+      "url": "https://www.techpowerup.com/354737/alphacool-launches-apex-benchtable-for-flexible-open-air-builds-and-test-beds"
     },
     {
       "id": "https://www.techpowerup.com/354602/askanymodel-puts-six-ai-responses-side-by-side-for-just-usd-39-99",
@@ -443,7 +488,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-11-11",
+      "date": "2026-11-12",
       "summary": "AskAnyModel AI Pro Plan is now available for $39.99 (MSRP $499) for lifetime access through Nov. 8. The browser-based platform brings more than 50 AI models into one workspace, with tools for comparing responses, generating images, and switching mode...",
       "sources": [
         "TechPowerUp"
@@ -451,169 +496,109 @@
       "url": "https://www.techpowerup.com/354602/askanymodel-puts-six-ai-responses-side-by-side-for-just-usd-39-99"
     },
     {
-      "id": "https://www.techpowerup.com/354695/playstation-5-officially-tops-100-million-unit-sales-still-behind-ps1-ps2-and-ps4",
-      "title": "PlayStation 5 Officially Tops 100 Million Unit Sales—Still Behind PS1, PS2, and PS4",
-      "original_title": "PlayStation 5 Officially Tops 100 Million Unit Sales—Still Behind PS1, PS2, and PS4",
-      "image": "https://tpucdn.com/img/T8IeEwoAyMnapwZG_thm.jpg",
+      "id": "https://www.techpowerup.com/354743/penguin-solutions-introduces-cxl-enabled-ddr4-module-to-help-address-memory-shortages-in-ai-data-centers",
+      "title": "(PR) Penguin Solutions Introduces CXL-Enabled DDR4 Module to Help Address Memory Shortages in AI Data Centers",
+      "original_title": "(PR) Penguin Solutions Introduces CXL-Enabled DDR4 Module to Help Address Memory Shortages in AI Data Centers",
+      "image": "https://tpucdn.com/img/IJDjvc9I7ZmJy2Ph_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-11-11",
-      "summary": "In the six years since the PlayStation 5 launched, Sony says that the gaming console has officially sold more than 100 million units, as of a November 2026 announcement by Sony. As per the console maker, it has sold as many as 4.2 million units betwe...",
+      "date": "2026-11-12",
+      "summary": "Penguin Solutions, Inc., the AI Factory Platform Company, today introduced the SMART CXL-8F2W-D4, an eight-DIMM DDR4 Compute Express Link (CXL) memory add-in card that enables organizations to adapt DDR4 memory for use in AI systems. Using DDR4 as an...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/354695/playstation-5-officially-tops-100-million-unit-sales-still-behind-ps1-ps2-and-ps4"
+      "url": "https://www.techpowerup.com/354743/penguin-solutions-introduces-cxl-enabled-ddr4-module-to-help-address-memory-shortages-in-ai-data-centers"
     },
     {
-      "id": "https://www.techpowerup.com/354700/razer-releases-the-honkai-star-rail-collection",
-      "title": "(PR) Razer Releases the Honkai: Star Rail Collection",
-      "original_title": "(PR) Razer Releases the Honkai: Star Rail Collection",
-      "image": "https://tpucdn.com/img/dOWbT5uhGRQUlCZa_thm.jpg",
+      "id": "https://www.techpowerup.com/354742/silicon-motion-showcases-next-generation-enterprise-storage-solutions-at-sc26",
+      "title": "(PR) Silicon Motion Showcases Next-Generation Enterprise Storage Solutions at SC26",
+      "original_title": "(PR) Silicon Motion Showcases Next-Generation Enterprise Storage Solutions at SC26",
+      "image": "https://tpucdn.com/img/hO5asZ6Ha4YatEDV_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-11-11",
-      "summary": "Razer, the leading global lifestyle brand for gamers, today announced the Razer | Honkai: Star Rail Collection, developed in collaboration with HoYoverse. Following previous collaborations with Genshin Impact and Zenless Zone Zero, the collection bri...",
+      "date": "2026-11-12",
+      "summary": "Silicon Motion Technology Corporation, a global leader in designing and marketing NAND flash controllers for solid-state storage devices, today announced that it will showcase its PCIe Gen 5 and PCIe Gen 6 MonTitan enterprise SSD controllers and refe...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/354700/razer-releases-the-honkai-star-rail-collection"
+      "url": "https://www.techpowerup.com/354742/silicon-motion-showcases-next-generation-enterprise-storage-solutions-at-sc26"
     },
     {
-      "id": "https://www.techpowerup.com/354699/mounting-finished-goods-inventories-prompt-some-pc-oems-to-adjust-memory-procurement-plans-for-2027",
-      "title": "(PR) Mounting Finished-Goods Inventories Prompt Some PC OEMs to Adjust Memory Procurement Plans for 2027",
-      "original_title": "(PR) Mounting Finished-Goods Inventories Prompt Some PC OEMs to Adjust Memory Procurement Plans for 2027",
-      "image": "https://tpucdn.com/img/USvNNKxfNPPSSB8Q_thm.jpg",
+      "id": "https://www.techpowerup.com/354738/gigabytes-aorus-c510-glass-infinity-chassis-recognized-with-2027-ces-innovation-award",
+      "title": "(PR) Gigabyte's AORUS C510 GLASS INFINITY Chassis Recognized with 2027 CES Innovation Award",
+      "original_title": "(PR) Gigabyte's AORUS C510 GLASS INFINITY Chassis Recognized with 2027 CES Innovation Award",
+      "image": "https://tpucdn.com/img/edbBrQxxxyI6sEny_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-11-11",
-      "summary": "More than a year of rising memory prices has placed mounting cost pressure on the consumer electronics industry, according to TrendForce's latest memory industry research. Notebook shipments, in particular, are expected to decline sharply quarter-ove...",
+      "date": "2026-11-12",
+      "summary": "GIGABYTE, the world's leading technology brand, announced that the AORUS C510 GLASS INFINITY Chassis has received 2027 CES Innovation Award in recognition of its innovative design, practical engineering, and functionality. Featuring a built-in 16-inc...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/354699/mounting-finished-goods-inventories-prompt-some-pc-oems-to-adjust-memory-procurement-plans-for-2027"
+      "url": "https://www.techpowerup.com/354738/gigabytes-aorus-c510-glass-infinity-chassis-recognized-with-2027-ces-innovation-award"
     },
     {
-      "id": "https://www.techpowerup.com/354698/xgimi-horizon-30-pro-and-ultra-max-now-available",
-      "title": "(PR) XGIMI Horizon 30 Pro and Ultra Max Now Available",
-      "original_title": "(PR) XGIMI Horizon 30 Pro and Ultra Max Now Available",
-      "image": "https://tpucdn.com/img/WApjXJ77kYGSBRRC_thm.jpg",
+      "id": "https://www.techpowerup.com/354736/axelera-ai-unveils-titania-architecture",
+      "title": "(PR) Axelera AI Unveils Titania Architecture",
+      "original_title": "(PR) Axelera AI Unveils Titania Architecture",
+      "image": "https://tpucdn.com/img/iVK5URud2YFNDSsn_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-11-11",
-      "summary": "XGIMI, a global leader in premium smart projection and home entertainment, today announced that the HORIZON 30 Pro and HORIZON 30 Ultra Max are officially available for purchase at XGIMI.com. Following its October debut, the new generation of high-pe...",
+      "date": "2026-11-12",
+      "summary": "Axelera AI, the leading provider of purpose-built AI hardware acceleration technology, unveiled the details behind Titania, its third-generation silicon architecture in a chiplet design. Titania is highly programmable and energy efficient and will de...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/354698/xgimi-horizon-30-pro-and-ultra-max-now-available"
+      "url": "https://www.techpowerup.com/354736/axelera-ai-unveils-titania-architecture"
     },
     {
-      "id": "https://www.techpowerup.com/354466/g-skill-and-micro-center-offer-intel-core-ultra-7-270k-plus-combo-deal-featuring-ripjaws-s5-ddr5-memory",
-      "title": "G.SKILL and Micro Center Offer Intel Core Ultra 7 270K Plus Combo Deal Featuring Ripjaws S5 DDR5 Memory",
-      "original_title": "G.SKILL and Micro Center Offer Intel Core Ultra 7 270K Plus Combo Deal Featuring Ripjaws S5 DDR5 Memory",
-      "image": "https://tpucdn.com/img/WsMLLZGkXAXUamNE_thm.jpg",
+      "id": "https://www.techpowerup.com/354601/techpowerup-formula-v-line-giveaway-win-air-power-g10-cases-ice-nova-coolers-and-more",
+      "title": "TechPowerUp Formula V Line Giveaway: Win Air Power G10 Cases, Ice Nova Coolers, and More!",
+      "original_title": "TechPowerUp Formula V Line Giveaway: Win Air Power G10 Cases, Ice Nova Coolers, and More!",
+      "image": "https://tpucdn.com/img/cH0XRnoAoJxFUlpH_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-11-11",
-      "summary": "G.SKILL, a leading manufacturer of high-performance memory and PC gaming peripherals, has teamed up with Micro Center to offer a specially priced PC hardware combo deal featuring the Intel Core Ultra 7 270K Plus processor, G.SKILL Ripjaws S5 DDR5 mem...",
+      "date": "2026-11-12",
+      "summary": "TechPowerUp partners with Formula V Line to bring our readers from all over the world a chance to win one of dozens of pieces of Formula V One cases, CPU coolers, and case fans! The star attraction here is the Formula V Line G10 case, A spacious mid-...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/354466/g-skill-and-micro-center-offer-intel-core-ultra-7-270k-plus-combo-deal-featuring-ripjaws-s5-ddr5-memory"
+      "url": "https://www.techpowerup.com/354601/techpowerup-formula-v-line-giveaway-win-air-power-g10-cases-ice-nova-coolers-and-more"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xt1qum/a_song_titled_welcome_to_vice_city_potentially/",
-      "title": "A song titled \"Welcome To Vice City\", potentially the main theme of Grand Theft Auto VI, has been listed on the Mechanical Licensing Collective (MLC) music database. Bad Bunny, Diplo, Max Jaeger, Mag & La Paciencia, among others, are listed in the songwriting credits.",
-      "original_title": "A song titled \"Welcome To Vice City\", potentially the main theme of Grand Theft Auto VI, has been listed on the Mechanical Licensing Collective (MLC) music database. Bad Bunny, Diplo, Max Jaeger, Mag & La Paciencia, among others, are listed in the songwriting credits.",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xtuuxl/jason_schreier_skydance_games_told_the/",
+      "title": "Jason Schreier: Skydance Games told the development team behind Marvel 1943: Rise of Hydra on Slack this afternoon that the game is not canceled, despite a widely circulated rumor on Twitter today claiming that it was.",
+      "original_title": "Jason Schreier: Skydance Games told the development team behind Marvel 1943: Rise of Hydra on Slack this afternoon that the game is not canceled, despite a widely circulated rumor on Twitter today claiming that it was.",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
       "category": "News",
-      "date": "2026-11-10",
-      "summary": "Source – Mechanical Licensing Collective listing, \"Welcome To Vice City\":  Writers | ID | Role:  MAXIMILIAN HANS JAEGER (Max Jaeger) | 00667925691 | Composer/Author BENITO ANTONIO MARTINEZ OCASIO (Bad Bunny) | 00838031446 | Composer/Author MARCO DANI...",
+      "date": "2026-11-11",
+      "summary": "Skydance Games told the development team behind Marvel 1943: Rise of Hydra on Slack this afternoon that the game is not canceled, despite a widely circulated rumor on Twitter today claiming that it was. https://bsky.app/profile/jasonschreier.bsky.soc...",
       "sources": [
         "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xt1qum/a_song_titled_welcome_to_vice_city_potentially/"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xtuuxl/jason_schreier_skydance_games_told_the/"
     },
     {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xsyfbp/shpeshal_nick_majoras_mask_is_not_currently_in/",
-      "title": "Shpeshal Nick: Majora’s Mask is not currently in any form of production",
-      "original_title": "Shpeshal Nick: Majora’s Mask is not currently in any form of production",
+      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xtruhv/marvel_1943_rise_of_hydra_has_supposedly_been/",
+      "title": "Marvel 1943: Rise Of Hydra has supposedly been canceled with an announcement coming soon",
+      "original_title": "Marvel 1943: Rise Of Hydra has supposedly been canceled with an announcement coming soon",
       "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
       "source_count": 1,
       "reliability": "Medium",
       "category": "News",
-      "date": "2026-11-10",
-      "summary": "Shpeshal Nick: “From what I’ve been told (same source that gave me the Ocarina info in the first place) Majora’s Mask is not currently in any form of production and the third planned (production issues not withstanding) amiibo is Ganondorf. Basically...",
+      "date": "2026-11-11",
+      "summary": "  This account’s source was previously correct about the layoffs at Skydance Games before the news went public  Source: https://twitterviewer.net/Marvel1943Rise/status/2120590405167136813    submitted by    /u/Gyatto-   [link] [comments]...",
       "sources": [
         "r/GamingLeaksAndRumours"
       ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xsyfbp/shpeshal_nick_majoras_mask_is_not_currently_in/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xt0prz/gta_6_could_get_fsr_41_on_xbox_series_consoles/",
-      "title": "GTA 6 could get FSR 4.1 on Xbox Series consoles",
-      "original_title": "GTA 6 could get FSR 4.1 on Xbox Series consoles",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-11-10",
-      "summary": "https://xcancel.com/Sarrvatore/status/2120051635481088257?a=QdT\\_9rluy2hjFleIolQ&s=19 Not sure if it's 3 or the new 4.1, but Xbox has already said that they gave some devs early access. Rockstar could definitely be among those devs. Guess we'll find ...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xt0prz/gta_6_could_get_fsr_41_on_xbox_series_consoles/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xsotfp/gta_vi_psn_ratings_have_started_to_show_up_on_the/",
-      "title": "GTA VI PSN ratings have started to show up on the PSN backend (5/5 stars by 11 reviewers)",
-      "original_title": "GTA VI PSN ratings have started to show up on the PSN backend (5/5 stars by 11 reviewers)",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-11-10",
-      "summary": " For context, you can only rate games on PSN if you own it and have played it These ratings are found on the Playstation API, not publicly visible yet  Source: https://twitterviewer.net/ps_store_db/status/2120163436940407238    submitted by    /u/Gya...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xsotfp/gta_vi_psn_ratings_have_started_to_show_up_on_the/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xswnls/possible_zelda_movie_trailer_tomorrow/",
-      "title": "Possible Zelda Movie trailer tomorrow",
-      "original_title": "Possible Zelda Movie trailer tomorrow",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-11-10",
-      "summary": "KiwiTalkz said on twitter that there would be an announcement tomorrow that \"gamers will be happy about\". On another tweet, he implied he had some sort of connection with this announcement. KT is from New Zealand, where the Zelda movie reshoots were ...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xswnls/possible_zelda_movie_trailer_tomorrow/"
-    },
-    {
-      "id": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xs0kjf/discussion_news_and_request_thread_week_beginning/",
-      "title": "Discussion, News, and Request Thread - Week Beginning 11/09/26",
-      "original_title": "Discussion, News, and Request Thread - Week Beginning 11/09/26",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80",
-      "source_count": 1,
-      "reliability": "Medium",
-      "category": "News",
-      "date": "2026-11-09",
-      "summary": "#TheGunnJammed  Discussion threads are your weekly central hub for all requests, gaming news, and any other gaming topics you want to talk about. Please keep all content that doesn't need it's own post to this thread to de-clutter the sub for proper ...",
-      "sources": [
-        "r/GamingLeaksAndRumours"
-      ],
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xs0kjf/discussion_news_and_request_thread_week_beginning/"
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xtruhv/marvel_1943_rise_of_hydra_has_supposedly_been/"
     }
   ]
 }
