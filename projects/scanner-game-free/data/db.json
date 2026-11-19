@@ -1,28 +1,46 @@
 {
-  "last_updated": "2026-11-18T20:01:06",
-  "display_date": "18/11/2026 20:01",
+  "last_updated": "2026-11-19T19:59:37",
+  "display_date": "19/11/2026 19:59",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "218ms",
+    "latency": "64ms",
     "current_games": [
       {
-        "title": "Knightica",
-        "description": "Recruit units, place them strategically, and find the synergies in this Roguelike AutoBattler!\nKnightica lets you guide a warband through challenges to free the Kingdoms.\nDiscover combinations, weave powerful enchants, face dangerous monsters, and lead your army to victory!",
-        "image": "https://cdn1.epicgames.com/spt-assets/357100ca5613420e98208c5f14585e9d/knightica-1nuxm.png",
-        "url": "https://store.epicgames.com/p/72b46f5d95624fd5b7e7d81b7dcaead1",
-        "price": "$14.99",
-        "start_date": "2026-11-12T16:00:00.000Z",
-        "end_date": "2026-11-19T16:00:00.000Z"
+        "title": "Mark of the Deep",
+        "description": "Mark of the Deep is an epic pirate-themed adventure with a strong narrative and a thrilling mix of Metroidvania and Souls-Like elements. Embark on this journey, explore the mysteries of a cursed island and find your missing pirate crew!",
+        "image": "https://cdn1.epicgames.com/spt-assets/83a240506a884c10ad8fb99694e57a0d/mark-of-the-deep-w1ygr.png",
+        "url": "https://store.epicgames.com/p/2fd257a6cd80405a833f9004ff07993a",
+        "price": "$19.99",
+        "start_date": "2026-11-19T16:00:00.000Z",
+        "end_date": "2026-11-26T16:00:00.000Z"
       }
     ],
     "upcoming_games": [
       {
         "title": "Firestone – Idle Clicker Online RPG",
         "description": "Your heroes never stop fighting. Build an unstoppable team in a fantasy idle RPG with AFK progression and offline rewards. Collect heroes and powerful gear, master formations, defeat epic bosses, and return to bigger rewards and endless incremental growth.",
-        "image": "https://cdn1.epicgames.com/spt-assets/69576a28f7154fe9a0dce97508da5163/firestone-online-idle-rpg-i52vr.jpg",
+        "image": "https://cdn1.epicgames.com/spt-assets/69576a28f7154fe9a0dce97508da5163/firestone-online-idle-rpg-1inmf.jpg",
         "url": "https://store.epicgames.com/p/1185abfe7c554a1e8c528aba37bf3d0f",
         "price": "0",
+        "start_date": "2026-11-26T16:00:00.000Z",
+        "end_date": "2026-12-03T16:00:00.000Z"
+      },
+      {
+        "title": "Bread and Fred",
+        "description": "Grab your best bud for help in this new co-op challenge to help two adorable penguins, Bread and Fred, reach the top of the snowy summit. Time your jumps, cling to walls and swing across gaps to see how far you can make it before you tumble all the way back down the mountain.",
+        "image": "https://cdn1.epicgames.com/spt-assets/545b4dd8bb364c12b719268198a93ef3/bread-and-fred-3jnwn.jpg",
+        "url": "https://store.epicgames.com/p/3435439bd89847608f5299fb297d1466",
+        "price": "$14.99",
+        "start_date": "2026-12-10T16:00:00.000Z",
+        "end_date": "2027-01-07T16:00:00.000Z"
+      },
+      {
+        "title": "Bread and Fred",
+        "description": "Grab your best bud for help in this new co-op challenge to help two adorable penguins, Bread and Fred, reach the top of the snowy summit. Time your jumps, cling to walls and swing across gaps to see how far you can make it before you tumble all the way back down the mountain.",
+        "image": "https://cdn1.epicgames.com/spt-assets/545b4dd8bb364c12b719268198a93ef3/bread-and-fred-3jnwn.jpg",
+        "url": "https://store.epicgames.com/p/3435439bd89847608f5299fb297d1466",
+        "price": "$14.99",
         "start_date": "2026-11-26T16:00:00.000Z",
         "end_date": "2026-12-03T16:00:00.000Z"
       },
@@ -43,15 +61,6 @@
         "price": "$24.99",
         "start_date": "2026-12-10T16:00:00.000Z",
         "end_date": "2027-01-07T16:00:00.000Z"
-      },
-      {
-        "title": "Mark of the Deep",
-        "description": "Mark of the Deep is an epic pirate-themed adventure with a strong narrative and a thrilling mix of Metroidvania and Souls-Like elements. Embark on this journey, explore the mysteries of a cursed island and find your missing pirate crew!",
-        "image": "https://cdn1.epicgames.com/spt-assets/83a240506a884c10ad8fb99694e57a0d/mark-of-the-deep-w1ygr.png",
-        "url": "https://store.epicgames.com/p/2fd257a6cd80405a833f9004ff07993a",
-        "price": "$19.99",
-        "start_date": "2026-11-19T16:00:00.000Z",
-        "end_date": "2026-11-26T16:00:00.000Z"
       },
       {
         "title": "Monument Valley",
@@ -76,34 +85,64 @@
   },
   "items": [
     {
-      "id": "https://store.epicgames.com/p/72b46f5d95624fd5b7e7d81b7dcaead1",
-      "title": "GRÁTIS: Knightica",
-      "original_title": "Knightica",
-      "image": "https://cdn1.epicgames.com/spt-assets/357100ca5613420e98208c5f14585e9d/knightica-1nuxm.png",
+      "id": "https://store.epicgames.com/p/2fd257a6cd80405a833f9004ff07993a",
+      "title": "GRÁTIS: Mark of the Deep",
+      "original_title": "Mark of the Deep",
+      "image": "https://cdn1.epicgames.com/spt-assets/83a240506a884c10ad8fb99694e57a0d/mark-of-the-deep-w1ygr.png",
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-11-18",
-      "summary": "Recruit units, place them strategically, and find the synergies in this Roguelike AutoBattler!\nKnightica lets you guide a warband through challenges to free the Kingdoms.\nDiscover combinations, weave powerful enchants, face dangerous monsters, and lead your army to victory!",
+      "date": "2026-11-19",
+      "summary": "Mark of the Deep is an epic pirate-themed adventure with a strong narrative and a thrilling mix of Metroidvania and Souls-Like elements. Embark on this journey, explore the mysteries of a cursed island and find your missing pirate crew!",
       "sources": [
         "Epic Games Store"
       ],
-      "url": "https://store.epicgames.com/p/72b46f5d95624fd5b7e7d81b7dcaead1"
+      "url": "https://store.epicgames.com/p/2fd257a6cd80405a833f9004ff07993a"
     },
     {
       "id": "https://store.epicgames.com/p/1185abfe7c554a1e8c528aba37bf3d0f",
       "title": "EM BREVE: Firestone – Idle Clicker Online RPG",
       "original_title": "Firestone – Idle Clicker Online RPG",
-      "image": "https://cdn1.epicgames.com/spt-assets/69576a28f7154fe9a0dce97508da5163/firestone-online-idle-rpg-i52vr.jpg",
+      "image": "https://cdn1.epicgames.com/spt-assets/69576a28f7154fe9a0dce97508da5163/firestone-online-idle-rpg-1inmf.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "summary": "Disponível gratuitamente a partir de 26/11. Your heroes never stop fighting. Build an unstoppable team in a fantasy idle RPG with AFK progression and offline rewards. Collect heroes and powerful gear, master formations, defeat epic bosses, and return to bigger rewards and endless incremental growth.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/1185abfe7c554a1e8c528aba37bf3d0f"
+    },
+    {
+      "id": "https://store.epicgames.com/p/3435439bd89847608f5299fb297d1466",
+      "title": "EM BREVE: Bread and Fred",
+      "original_title": "Bread and Fred",
+      "image": "https://cdn1.epicgames.com/spt-assets/545b4dd8bb364c12b719268198a93ef3/bread-and-fred-3jnwn.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-11-19",
+      "summary": "Disponível gratuitamente a partir de 10/12. Grab your best bud for help in this new co-op challenge to help two adorable penguins, Bread and Fred, reach the top of the snowy summit. Time your jumps, cling to walls and swing across gaps to see how far you can make it before you tumble all the way back down the mountain.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/3435439bd89847608f5299fb297d1466"
+    },
+    {
+      "id": "https://store.epicgames.com/p/3435439bd89847608f5299fb297d1466",
+      "title": "EM BREVE: Bread and Fred",
+      "original_title": "Bread and Fred",
+      "image": "https://cdn1.epicgames.com/spt-assets/545b4dd8bb364c12b719268198a93ef3/bread-and-fred-3jnwn.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-11-19",
+      "summary": "Disponível gratuitamente a partir de 26/11. Grab your best bud for help in this new co-op challenge to help two adorable penguins, Bread and Fred, reach the top of the snowy summit. Time your jumps, cling to walls and swing across gaps to see how far you can make it before you tumble all the way back down the mountain.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/3435439bd89847608f5299fb297d1466"
     },
     {
       "id": "https://store.epicgames.com/p/ghostrunner-2",
@@ -113,7 +152,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "summary": "Disponível gratuitamente a partir de 10/12. Ghostrunner 2 is a hardcore FPP slasher set in a post-apocalyptic, cyberpunk world. Featuring everything fans loved about Ghostrunner plus incredible boss fights, new interactive story, thrilling motorbike levels, improved skills, and more cyber ninja action. ",
       "sources": [
         "Epic Games Store"
@@ -128,27 +167,12 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "summary": "Disponível gratuitamente a partir de 10/12. Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/lisa-the-definitive-edition"
-    },
-    {
-      "id": "https://store.epicgames.com/p/2fd257a6cd80405a833f9004ff07993a",
-      "title": "EM BREVE: Mark of the Deep",
-      "original_title": "Mark of the Deep",
-      "image": "https://cdn1.epicgames.com/spt-assets/83a240506a884c10ad8fb99694e57a0d/mark-of-the-deep-w1ygr.png",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-11-18",
-      "summary": "Disponível gratuitamente a partir de 19/11. Mark of the Deep is an epic pirate-themed adventure with a strong narrative and a thrilling mix of Metroidvania and Souls-Like elements. Embark on this journey, explore the mysteries of a cursed island and find your missing pirate crew!",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/2fd257a6cd80405a833f9004ff07993a"
     },
     {
       "id": "https://store.epicgames.com/p/monument-valley-02",
@@ -158,7 +182,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "summary": "Disponível gratuitamente a partir de 10/12. Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
       "sources": [
         "Epic Games Store"
@@ -173,7 +197,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "summary": "Disponível gratuitamente a partir de 21/11. Build gorgeous kingdoms on floating islands by strategically placing buildings in this cozy, medieval City-Puzzler. Discover secret combinations, take on monthly challenges and explore randomly generated maps in various single- and multiplayer game modes.",
       "sources": [
         "Epic Games Store"
@@ -181,184 +205,259 @@
       "url": "https://store.epicgames.com/p/f229ed53ddba40788e0ab62978e9eaf9"
     },
     {
-      "id": "https://www.eurogamer.net/delete-gta-6-free-game-devolver-digital",
-      "title": "Delete GTA 6 from your hard drive and indie publisher Devolver Digital might give you a free game",
-      "original_title": "Delete GTA 6 from your hard drive and indie publisher Devolver Digital might give you a free game",
-      "image": "https://assetsio.gnwcdn.com/Volvy-Adventure.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/wow-forever-weekly-players-15-years",
+      "title": "World of Warcraft: Forever has more weekly players than WoW has seen in 15 years, says Blizzard",
+      "original_title": "World of Warcraft: Forever has more weekly players than WoW has seen in 15 years, says Blizzard",
+      "image": "https://assetsio.gnwcdn.com/WoW_Forever_Cinematic_Still_12.jpeg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-18",
-      "summary": " GTA 6 is out at midnight everywhere (19th November), but it's far from the only game in town. Indie publisher Devolver Digital is taking on the open-world behemoth with its very own Volvy's Adventure: Reslimed, out the same day, and you can win a fr...",
+      "date": "2026-11-19",
+      "summary": " World of Warcraft: Forever now has more people playing each week than World of Warcraft has seen in 15 years, according to Blizzard. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/delete-gta-6-free-game-devolver-digital"
+      "url": "https://www.eurogamer.net/wow-forever-weekly-players-15-years"
     },
     {
-      "id": "https://www.eurogamer.net/gta-6-no-cheats-until-completing-main-story",
-      "title": "GTA 6 won't let you use cheats until you complete the main story, and locks progression when you do",
-      "original_title": "GTA 6 won't let you use cheats until you complete the main story, and locks progression when you do",
-      "image": "https://assetsio.gnwcdn.com/GTA-6-review-2.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/gta-6-ufo-bigfoot-easter-eggs",
+      "title": "GTA 6 players are being abducted by aliens and knocked out by Bigfoot",
+      "original_title": "GTA 6 players are being abducted by aliens and knocked out by Bigfoot",
+      "image": "https://assetsio.gnwcdn.com/Screenshot-2026-11-19-at-17.37.59.png?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-18",
-      "summary": " Here's a twist: you can't use cheats in Grand Theft Auto 6 until you complete the entire game's main story. Read more...",
+      "date": "2026-11-19",
+      "summary": " Grand Theft Auto 6 has only been out for a matter of hours, and players have already tracked down a UFO in the woods and a Bigfoot in the swamps. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/gta-6-no-cheats-until-completing-main-story"
+      "url": "https://www.eurogamer.net/gta-6-ufo-bigfoot-easter-eggs"
     },
     {
-      "id": "https://www.eurogamer.net/ps5-pro-not-powerful-enough-gta-6-60fps",
-      "title": "Even the PS5 Pro is \"not powerful enough\" to run GTA 6 at 60FPS or 40FPS, Rockstar says",
-      "original_title": "Even the PS5 Pro is \"not powerful enough\" to run GTA 6 at 60FPS or 40FPS, Rockstar says",
-      "image": "https://assetsio.gnwcdn.com/gta-6-shirtless-jason-weightlifting.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/ubisoft-layoffs-166-assassins-creed-far-cry-montreal-quebec",
+      "title": "Ubisoft cuts jobs at major Assassin's Creed and Far Cry studios as its year of layoffs continues",
+      "original_title": "Ubisoft cuts jobs at major Assassin's Creed and Far Cry studios as its year of layoffs continues",
+      "image": "https://assetsio.gnwcdn.com/Naoe-looks-at-a-hidden-blade-in-Assassin's-Creed-Shadows.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-18",
-      "summary": " Don't expect GTA 6 to get an update supporting higher framerate modes, at least, not on current-generation consoles. Rockstar has explained that even the most powerful console of the bunch, the PS5 Pro, isn't powerful enough to run the lavish game a...",
+      "date": "2026-11-19",
+      "summary": " Ubisoft has confirmed more layoffs as part of its previously announced operational \"reset\", this time affecting 166 employees at its major Montréal and Québec City studios - the teams responsible for game series including Assassin's Creed and Far Cr...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/ps5-pro-not-powerful-enough-gta-6-60fps"
+      "url": "https://www.eurogamer.net/ubisoft-layoffs-166-assassins-creed-far-cry-montreal-quebec"
     },
     {
-      "id": "https://www.eurogamer.net/gta-6-ultimate-edition-unlock-details-temporary-content",
-      "title": "PSA: Some GTA 6 Ultimate Edition content is only available for the first chapter, and you'll have to put in hard graft to unlock more",
-      "original_title": "PSA: Some GTA 6 Ultimate Edition content is only available for the first chapter, and you'll have to put in hard graft to unlock more",
-      "image": "https://assetsio.gnwcdn.com/ULTIMATE_EDITION_SAFEHOUSE_VEHICLES_03.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/gta-6-new-zealand-trick-2m-players-early",
+      "title": "Over 2 million Xbox players in the UK and US reportedly used the 'New Zealand trick' to play GTA 6 early - that's more than a third of the country's population",
+      "original_title": "Over 2 million Xbox players in the UK and US reportedly used the 'New Zealand trick' to play GTA 6 early - that's more than a third of the country's population",
+      "image": "https://assetsio.gnwcdn.com/jason-nz.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-18",
-      "summary": " GTA 6's Ultimate Edition has proven enormously popular, despite its hefty $100 price tag. So much so that Strauss Zelnick, boss of Rockstar parent company Take-Two, recently confirmed it's the edition most people are buying - and that's despite a la...",
+      "date": "2026-11-19",
+      "summary": " We already knew there'd be a frantic clamour for GTA 6 this week, and we also knew plenty of players would be eyeing up Xbox's 'New Zealand trick' to get in on the action early. But it's now being reported that a whopping 2m UK and US players took a...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/gta-6-ultimate-edition-unlock-details-temporary-content"
+      "url": "https://www.eurogamer.net/gta-6-new-zealand-trick-2m-players-early"
     },
     {
-      "id": "https://www.eurogamer.net/fired-rockstar-employees-named-gta-6-credits-tribunal",
-      "title": "Most, though not quite all, of the 34 fired Rockstar employees are named in the GTA 6 credits",
-      "original_title": "Most, though not quite all, of the 34 fired Rockstar employees are named in the GTA 6 credits",
-      "image": "https://assetsio.gnwcdn.com/brian-gta-6.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/gta-6-full-cast-list-jason-duval-actor",
+      "title": "Rockstar reveals full GTA 6 cast list, finally ending speculation about who plays Jason Duval in the game",
+      "original_title": "Rockstar reveals full GTA 6 cast list, finally ending speculation about who plays Jason Duval in the game",
+      "image": "https://assetsio.gnwcdn.com/GTA_6_Steal_Vehicle_Header.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-18",
-      "summary": " Eurogamer can confirm that at least 28 of the 34 employees fired by Rockstar roughly a year ago - in an action that directly led to the employment tribunal Rockstar is currently facing in Scotland - are named in the credits of Grand Theft Auto 6. Re...",
+      "date": "2026-11-19",
+      "summary": " UPDATE 5PM GMT: Actors Manni L. Perez and Dylan Rourke have announced their involvement in GTA 6, in portraying Lucia and Jason, respectively, in the game. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/fired-rockstar-employees-named-gta-6-credits-tribunal"
+      "url": "https://www.eurogamer.net/gta-6-full-cast-list-jason-duval-actor"
     },
     {
-      "id": "https://www.eurogamer.net/grand-theft-auto-6-breaks-reddit-not-out-yet",
-      "title": "GTA 6 is so big, it managed to break Reddit - and it isn't even actually out yet",
-      "original_title": "GTA 6 is so big, it managed to break Reddit - and it isn't even actually out yet",
-      "image": "https://assetsio.gnwcdn.com/reddit-gta-6.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/gta-6-easy-mode-accessibility-options",
+      "title": "Does GTA 6 have an 'easy mode'? Not officially, but there are two very important settings you can change to make the game less difficult",
+      "original_title": "Does GTA 6 have an 'easy mode'? Not officially, but there are two very important settings you can change to make the game less difficult",
+      "image": "https://assetsio.gnwcdn.com/Easy-mode-gta.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-18",
-      "summary": " Grand Theft Auto 6 isn't even out yet, and it's already causing some technical issues over at the game's official Reddit page. Read more...",
+      "date": "2026-11-19",
+      "summary": " By now, you've probably heard that you cannot use cheats in GTA 6 until you complete the main story. Not only that, but enabling cheat codes also locks story progression and deactivates the ability to save. Basically, you can use cheats to have a qu...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/grand-theft-auto-6-breaks-reddit-not-out-yet"
+      "url": "https://www.eurogamer.net/gta-6-easy-mode-accessibility-options"
     },
     {
-      "id": "https://www.eurogamer.net/grand-theft-auto-6-streaming-record-broken",
-      "title": "GTA 6 breaks the all-time livestream viewer record hours before it's  available to play for most of the world",
-      "original_title": "GTA 6 breaks the all-time livestream viewer record hours before it's  available to play for most of the world",
-      "image": "https://assetsio.gnwcdn.com/grand-theft-auto-6-man-holding-phone-near-lucia.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/gta-6-warren-spector-lambasts-billion-dollar-development",
+      "title": "Warren Spector lambasts GTA 6's \"billion dollar\" development - 'I just hope it's is the last of its kind even if it's the best we have to offer'",
+      "original_title": "Warren Spector lambasts GTA 6's \"billion dollar\" development - 'I just hope it's is the last of its kind even if it's the best we have to offer'",
+      "image": "https://assetsio.gnwcdn.com/gta-6-cash.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-18",
-      "summary": " Hours before it's even playable in most of the world, Grand Theft Auto 6 has already broken the record for the most viewers across livestreaming platforms like Twitch. Read more...",
+      "date": "2026-11-19",
+      "summary": " As GTA 6 finally arrives, increasingly outspoken games industry legend Warren Spector - known for seminal immersive sims including Deus Ex - has offered both praise for the game's achievements and lambasted its \"billion dollar\" development model, wr...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/grand-theft-auto-6-streaming-record-broken"
+      "url": "https://www.eurogamer.net/gta-6-warren-spector-lambasts-billion-dollar-development"
     },
     {
-      "id": "https://www.eurogamer.net/playstation-sony-game-awards-no-nominations",
-      "title": "PlayStation has no Game of the Year nominations at The Game Awards for the first time in 11 years",
-      "original_title": "PlayStation has no Game of the Year nominations at The Game Awards for the first time in 11 years",
-      "image": "https://assetsio.gnwcdn.com/1_NSDDo7c.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/gta-6-rockstar-tribunal-awaits-verdict",
+      "title": "As Rockstar's alleged \"union busting\" tribunal hearing comes to a close amid GTA 6 launch, judge pledges to deliver verdict \"as quickly as I possibly can\"",
+      "original_title": "As Rockstar's alleged \"union busting\" tribunal hearing comes to a close amid GTA 6 launch, judge pledges to deliver verdict \"as quickly as I possibly can\"",
+      "image": "https://assetsio.gnwcdn.com/grand-theft-auto-6-lucia-lifting-weights.png?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-18",
-      "summary": " Last night, The Game Awards 2026 nominations were officially announced, and fans immediately noticed the prestigious Game of the Year category - previously won by the likes of Astro Bot, Clair Obscur, and Elden Ring - does not feature a PlayStation-...",
+      "date": "2026-11-19",
+      "summary": " Closing statements in Rockstar and IWGB's employment tribunal case - revolving around the GTA 6 developer's alleged 'union busting' and the firing of 34 employees - have now been read, bringing the hearing to an end. There's currently no timeline fo...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/playstation-sony-game-awards-no-nominations"
+      "url": "https://www.eurogamer.net/gta-6-rockstar-tribunal-awaits-verdict"
     },
     {
-      "id": "https://www.eurogamer.net/gta-6-detailed-fridge-noise",
-      "title": "Just how detailed is the audio in GTA 6? Well, even convenience store refrigerators \"all have their own unique sounds\", says Rockstar dev",
-      "original_title": "Just how detailed is the audio in GTA 6? Well, even convenience store refrigerators \"all have their own unique sounds\", says Rockstar dev",
-      "image": "https://assetsio.gnwcdn.com/gta-waveform.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-october-top-seller",
+      "title": "Call of Duty: Modern Warfare 4 was October's biggest game in the US, but it wasn't enough to crack 2026's best-selling top 10",
+      "original_title": "Call of Duty: Modern Warfare 4 was October's biggest game in the US, but it wasn't enough to crack 2026's best-selling top 10",
+      "image": "https://assetsio.gnwcdn.com/cod-modern-warfare-4-captain-price.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-18",
-      "summary": " If you've been online at all today, you'll know that what feels like the entire world is currently fawning over GTA 6. As the reviews dropped, one thing quickly became very clear: this is a game absolutely packed with detail. Our own Chris noted tha...",
+      "date": "2026-11-19",
+      "summary": " Despite its somewhat muted critical reception, Call of Duty: Modern Warfare 4 has predictably topped the US video game charts in October. The Infinity Ward-developed shooter was October's best-selling game in the US across digital and retail, beatin...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/gta-6-detailed-fridge-noise"
+      "url": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-october-top-seller"
     },
     {
-      "id": "https://www.eurogamer.net/gta-6-multiple-save-files-replay-missions",
-      "title": "You cannot replay missions in GTA 6, but you can use multiple save files, as Rockstar explains how it made missions \"harder to fail\"",
-      "original_title": "You cannot replay missions in GTA 6, but you can use multiple save files, as Rockstar explains how it made missions \"harder to fail\"",
-      "image": "https://assetsio.gnwcdn.com/lucia-mission-failed.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/grand-theft-auto-6-no-web-social-media-apps",
+      "title": "GTA 6 has replaced websites with social media and phone apps because \"it didn't feel necessary\"",
+      "original_title": "GTA 6 has replaced websites with social media and phone apps because \"it didn't feel necessary\"",
+      "image": "https://assetsio.gnwcdn.com/GTA_6_Cheats_10.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-18",
-      "summary": " You cannot replay GTA 6 missions again once you've completed them. This might be a shock to some people, since the option to do so was included in Rockstar games as recently as GTA 5, but here once you've made progress in the story, that's it. Our r...",
+      "date": "2026-11-19",
+      "summary": " The internet of today is a far cry from the days when Grand Theft Auto 5 was released, which is partly why Rockstar didn't bring back its own satirical version of the web in GTA 6. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/gta-6-multiple-save-files-replay-missions"
+      "url": "https://www.eurogamer.net/grand-theft-auto-6-no-web-social-media-apps"
     },
     {
-      "id": "https://www.techpowerup.com/354998/gta-6-review-roundup-99-on-metacritic-and-118-perfect-scores",
-      "title": "GTA 6 Review Roundup: 99 on Metacritic and 118 Perfect Scores",
-      "original_title": "GTA 6 Review Roundup: 99 on Metacritic and 118 Perfect Scores",
-      "image": "https://tpucdn.com/img/9QEO0QUsko03hJdn_thm.jpg",
+      "id": "https://www.techpowerup.com/355037/tuxedo-launches-infinitybook-pro-15-gen11-lightweight-linux-ultrabook-with-ryzen-ai-9",
+      "title": "(PR) Tuxedo Launches InfinityBook Pro 15 Gen11 Lightweight Linux Ultrabook with Ryzen AI 9",
+      "original_title": "(PR) Tuxedo Launches InfinityBook Pro 15 Gen11 Lightweight Linux Ultrabook with Ryzen AI 9",
+      "image": "https://tpucdn.com/img/5Tri2waat8IXEGYc_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-11-18",
-      "summary": "After more than a decade of anticipation, Grand Theft Auto 6 finally launched on November 19th worldwide. Critics got early access to the game, and the reviews embargo lifted a day earlier. There was some concern about whether or not Grand Theft Auto...",
+      "date": "2026-11-19",
+      "summary": "The TUXEDO InfinityBook Pro 15 - Gen11 combines a pleasantly large, bright 15.3-inch screen with plenty of speed for software developers and media content creators, thanks to a 12-core AMD Ryzen AI 9 HX 470 and up to 128 GB of RAM. At the same time, ...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/354998/gta-6-review-roundup-99-on-metacritic-and-118-perfect-scores"
+      "url": "https://www.techpowerup.com/355037/tuxedo-launches-infinitybook-pro-15-gen11-lightweight-linux-ultrabook-with-ryzen-ai-9"
     },
     {
-      "id": "https://www.techpowerup.com/354997/highpoint-enters-enterprise-networking-marketplace-with-rocket-9500a-25gbe-and-100gbe-nic-series",
-      "title": "(PR) HighPoint Enters Enterprise Networking Marketplace with Rocket 9500A 25GbE and 100GbE NIC Series",
-      "original_title": "(PR) HighPoint Enters Enterprise Networking Marketplace with Rocket 9500A 25GbE and 100GbE NIC Series",
-      "image": "https://tpucdn.com/img/3ujtf6b5E7WBeQmv_thm.jpg",
+      "id": "https://www.techpowerup.com/355036/amd-stock-dives-15-over-shortseller-report-alleging-export-control-violations-to-china-rebounds-later",
+      "title": "AMD Stock Dives 15% Over Shortseller Report Alleging Export Control Violations to China, Rebounds Later",
+      "original_title": "AMD Stock Dives 15% Over Shortseller Report Alleging Export Control Violations to China, Rebounds Later",
+      "image": "https://tpucdn.com/img/kz2KaxVyLe1aSHDR_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-11-18",
-      "summary": "HighPoint Technologies, Inc., a U.S.-based provider of high-performance NVMe storage and PCIe connectivity solutions, today announced its entry into the enterprise networking market with the introduction of the Rocket 9500A Series of 25GbE and 100GbE...",
+      "date": "2026-11-19",
+      "summary": "The AMD stock briefly crashed 15% in 30 minutes after a report by market research firm Hunterbrook Media alleged that AMD \"has its own China problem,\" alleging export control violations resembling those by NVIDIA, which cost CEO Jensen Huang his job....",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/354997/highpoint-enters-enterprise-networking-marketplace-with-rocket-9500a-25gbe-and-100gbe-nic-series"
+      "url": "https://www.techpowerup.com/355036/amd-stock-dives-15-over-shortseller-report-alleging-export-control-violations-to-china-rebounds-later"
+    },
+    {
+      "id": "https://www.techpowerup.com/354313/max-out-your-gen-4-slot-predator-gm7-nvme-ssd-up-to-7400-mb-s",
+      "title": "Max Out Your Gen 4 Slot: Predator GM7 NVMe SSD (Up to 7400 MB/s)",
+      "original_title": "Max Out Your Gen 4 Slot: Predator GM7 NVMe SSD (Up to 7400 MB/s)",
+      "image": "https://tpucdn.com/img/OoYRVLJhnN4DJFN0_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-19",
+      "summary": "If you've been waiting for the Black Friday sales to upgrade your rig, expand your PS5 storage, or give your laptop a massive speed boost, the award-winning Predator GM7 PCIe 4.0 SSD is built to deliver top-tier performance without the top-tier heat....",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354313/max-out-your-gen-4-slot-predator-gm7-nvme-ssd-up-to-7400-mb-s"
+    },
+    {
+      "id": "https://www.techpowerup.com/355035/dapustor-introduces-the-r6-e1-s-liquid-cooled-enterprise-nvme-ssd",
+      "title": "(PR) DapuStor Introduces the R6 E1.S Liquid-Cooled Enterprise NVMe SSD",
+      "original_title": "(PR) DapuStor Introduces the R6 E1.S Liquid-Cooled Enterprise NVMe SSD",
+      "image": "https://tpucdn.com/img/pJacBmcVAxF96aVV_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-19",
+      "summary": "As AI and high-performance computing (HPC) workloads evolve, data center rack power consumption is increasing from the 10 kW range toward 100 kW. At these power densities, traditional air cooling is approaching its physical limits in efficiency, spac...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/355035/dapustor-introduces-the-r6-e1-s-liquid-cooled-enterprise-nvme-ssd"
+    },
+    {
+      "id": "https://www.techpowerup.com/355030/amd-zen-6-for-desktop-reportedly-pushed-to-computex-2027",
+      "title": "AMD \"Zen 6\" for Desktop Reportedly Pushed to Computex 2027",
+      "original_title": "AMD \"Zen 6\" for Desktop Reportedly Pushed to Computex 2027",
+      "image": "https://tpucdn.com/img/nqZt3vNmhTDspZZv_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-19",
+      "summary": "AMD's upcoming Ryzen processors based on the new \"Zen 6\" core architecture are reportedly delayed until Computex 2027, according to the latest information from Chiphell. The \"Zen 6\" EPYC lineup will utilize TSMC's N2 node, with the standard version f...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/355030/amd-zen-6-for-desktop-reportedly-pushed-to-computex-2027"
+    },
+    {
+      "id": "https://www.techpowerup.com/354429/which-water-filter-is-right-for-you-waterdrop-filters-black-friday-picks-for-different-needs",
+      "title": "Which Water Filter Is Right for You? Waterdrop Filter's Black Friday Picks for Different Needs",
+      "original_title": "Which Water Filter Is Right for You? Waterdrop Filter's Black Friday Picks for Different Needs",
+      "image": "https://tpucdn.com/img/R0nRKD5OZ2cSOQ4l_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-19",
+      "summary": "Clean, great-tasting water is part of everyday life, from the first glass in the morning to coffee, tea, and meals shared with family. A water filtration system that fits your home can make those daily moments more enjoyable.\n\nWaterdrop Filter offers...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354429/which-water-filter-is-right-for-you-waterdrop-filters-black-friday-picks-for-different-needs"
+    },
+    {
+      "id": "https://www.techpowerup.com/355031/gigabyte-debuts-the-completed-anime-themed-aorus-ari-series-with-co-branded-ddr5-memory-and-chassis",
+      "title": "(PR) Gigabyte Debuts the Completed Anime-themed AORUS ARI Series with Co-branded DDR5 Memory and Chassis",
+      "original_title": "(PR) Gigabyte Debuts the Completed Anime-themed AORUS ARI Series with Co-branded DDR5 Memory and Chassis",
+      "image": "https://tpucdn.com/img/aHXIMaiuYXBL6iND_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-19",
+      "summary": "Gigabyte, the world's leading technology brand, introduced Ari, an ACG character from AORUS' vast universe, AORUSVERSE. As the tech guardian angel, Ari embodies performance, creativity, and gaming spirit, bringing gaming performance and anime-inspire...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/355031/gigabyte-debuts-the-completed-anime-themed-aorus-ari-series-with-co-branded-ddr5-memory-and-chassis"
     },
     {
       "id": "https://www.techpowerup.com/354945/typing-365-turns-pc-building-technology-and-more-into-typing-practice",
@@ -368,7 +467,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "summary": "Typing faster is useful, but what if practice could also teach you something? Typing 365 is a free native Windows app that combines structured typing lessons, educational content, and competitive challenges.\n\nWith over 100,000 installs and nearly 4 m...",
       "sources": [
         "TechPowerUp"
@@ -376,109 +475,34 @@
       "url": "https://www.techpowerup.com/354945/typing-365-turns-pc-building-technology-and-more-into-typing-practice"
     },
     {
-      "id": "https://www.techpowerup.com/354995/jedec-previews-next-generation-ddr6-dram",
-      "title": "(PR) JEDEC Previews Next-Generation DDR6 DRAM",
-      "original_title": "(PR) JEDEC Previews Next-Generation DDR6 DRAM",
-      "image": "https://tpucdn.com/img/gAfrai5hE6Q2D3vx_thm.jpg",
+      "id": "https://www.techpowerup.com/355010/amd-software-adrenalin-26-11-2-whql-drivers-released",
+      "title": "AMD Software Adrenalin 26.11.2 WHQL Drivers Released",
+      "original_title": "AMD Software Adrenalin 26.11.2 WHQL Drivers Released",
+      "image": "https://tpucdn.com/img/XI0wmbAUlstWBKcj_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-11-18",
-      "summary": "JEDEC Solid State Technology Association, the global leader in the development of standards for the microelectronics industry, today unveiled a preview of its DDR6 DRAM standard, the next-generation main memory standard designed to support the accele...",
+      "date": "2026-11-19",
+      "summary": "AMD has released the latest Adrenalin 26.11.2 WHQL graphics drivers. This release fixes the excessive system drive write bug for Radeon RX 5000 and RX 6000 owners on Windows 10. The earlier 26.11.1 optional release only listed Radeon RX 7000 and newe...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/354995/jedec-previews-next-generation-ddr6-dram"
+      "url": "https://www.techpowerup.com/355010/amd-software-adrenalin-26-11-2-whql-drivers-released"
     },
     {
-      "id": "https://www.techpowerup.com/354994/microsoft-to-use-intels-emib-advanced-packaging-technology",
-      "title": "Microsoft to Use Intel's EMIB Advanced Packaging Technology",
-      "original_title": "Microsoft to Use Intel's EMIB Advanced Packaging Technology",
-      "image": "https://tpucdn.com/img/YTHeUsjcNXWh2B4A_thm.jpg",
+      "id": "https://www.techpowerup.com/355028/techpowerup-gpu-z-v2-72-0-released",
+      "title": "TechPowerUp GPU-Z v2.72.0 Released",
+      "original_title": "TechPowerUp GPU-Z v2.72.0 Released",
+      "image": "https://tpucdn.com/img/vXQUdr0NUrvqu6Hm_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-11-18",
-      "summary": "Microsoft announced today that it will officially adopt Intel Foundry's Embedded Multi-die Interconnect Bridge (EMIB) advanced packaging technology for its custom silicon used in Azure. Specifically, Microsoft will use Intel's EMIB-T, which includes ...",
+      "date": "2026-11-19",
+      "summary": "TechPowerUp today released the latest version of GPU-Z, the popular graphics subsystem information and diagnostic utility for gamers, PC enthusiasts, and engineers. Version 2.72.0 comes with support for the NVIDIA RTX Spark processor. Support is also...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/354994/microsoft-to-use-intels-emib-advanced-packaging-technology"
-    },
-    {
-      "id": "https://www.techpowerup.com/354991/nvidia-rtx-spark-compact-desktops-out-now",
-      "title": "(PR) NVIDIA RTX Spark Compact Desktops Out Now",
-      "original_title": "(PR) NVIDIA RTX Spark Compact Desktops Out Now",
-      "image": "https://tpucdn.com/img/crKcuP3p0Wt38hAO_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-18",
-      "summary": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC. With up to 128 GB of unified memory and NVIDIA's AI software sta...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354991/nvidia-rtx-spark-compact-desktops-out-now"
-    },
-    {
-      "id": "https://www.techpowerup.com/354886/revopoint-launches-miraco-2-on-kickstarter-scan-in-one-create-with-agents",
-      "title": "Revopoint Launches MIRACO 2 on Kickstarter: Scan in One, Create with Agents",
-      "original_title": "Revopoint Launches MIRACO 2 on Kickstarter: Scan in One, Create with Agents",
-      "image": "https://tpucdn.com/img/x7Rj0jpGtutjGte6_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-18",
-      "summary": "An all-in-one 3D scanner combining high-precision capture, powerful onboard computing, and AI-driven workflows—with Super Early Bird pricing starting at $1,425.\n\nThe Offer is available from today, November 18 on Kickstarter. Grab the Super Early Bird...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354886/revopoint-launches-miraco-2-on-kickstarter-scan-in-one-create-with-agents"
-    },
-    {
-      "id": "https://www.techpowerup.com/354990/asus-announces-availability-of-the-proart-gr1x",
-      "title": "(PR) ASUS Announces Availability of the ProArt GR1X",
-      "original_title": "(PR) ASUS Announces Availability of the ProArt GR1X",
-      "image": "https://tpucdn.com/img/xbq56Zx89Rzhc5BJ_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-18",
-      "summary": "ASUS today announced the availability of the ProArt GR1X mini PC. Built on the NVIDIA RTX Spark superchip, ProArt GR1X is a Windows PC designed as an always-on home for local AI agents. It is able to run large models on-device, keep prompts and proje...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354990/asus-announces-availability-of-the-proart-gr1x"
-    },
-    {
-      "id": "https://www.techpowerup.com/354989/supermicro-ships-first-all-flash-storage-servers-delivering-pcie-gen-6-performance-and-broad-software-defined-storage-support",
-      "title": "(PR) Supermicro Ships First All-Flash Storage Servers, Delivering PCIe Gen 6 Performance and Broad Software-Defined Storage Support",
-      "original_title": "(PR) Supermicro Ships First All-Flash Storage Servers, Delivering PCIe Gen 6 Performance and Broad Software-Defined Storage Support",
-      "image": "https://tpucdn.com/img/LfNvVOOttTNkWRCA_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-18",
-      "summary": "Supermicro, Inc., an AI, Enterprise, Storage, and 5G/Edge Total IT Solution Provider featuring Data Center Building Block Solutions (DCBBS), today announced new extensions to the broad portfolio of AMD EPYC based all-flash storage servers. The first ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354989/supermicro-ships-first-all-flash-storage-servers-delivering-pcie-gen-6-performance-and-broad-software-defined-storage-support"
-    },
-    {
-      "id": "https://www.techpowerup.com/354892/block-ads-encrypt-traffic-this-adguard-bundle-is-usd-44-this-week",
-      "title": "Block Ads, Encrypt Traffic—This AdGuard Bundle is $44 This Week",
-      "original_title": "Block Ads, Encrypt Traffic—This AdGuard Bundle is $44 This Week",
-      "image": "https://tpucdn.com/img/n1IBDoD15LyfjwcR_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-18",
-      "summary": "A VPN and an ad blocker usually come as two separate subscriptions, with two renewal dates to keep track of. A simpler option is the AdGuard VPN + Ad Blocker Family Security Suite, a bundle with a 5-year VPN subscription and a lifetime ad blocker sub...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354892/block-ads-encrypt-traffic-this-adguard-bundle-is-usd-44-this-week"
+      "url": "https://www.techpowerup.com/355028/techpowerup-gpu-z-v2-72-0-released"
     }
   ]
 }
