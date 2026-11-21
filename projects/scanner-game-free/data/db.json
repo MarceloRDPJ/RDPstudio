@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-11-20T19:39:01",
-  "display_date": "20/11/2026 19:39",
+  "last_updated": "2026-11-21T18:44:31",
+  "display_date": "21/11/2026 18:44",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "95ms",
+    "latency": "141ms",
     "current_games": [
       {
         "title": "Mark of the Deep",
@@ -32,8 +32,8 @@
         "image": "https://cdn1.epicgames.com/spt-assets/545b4dd8bb364c12b719268198a93ef3/bread-and-fred-3jnwn.jpg",
         "url": "https://store.epicgames.com/p/3435439bd89847608f5299fb297d1466",
         "price": "$14.99",
-        "start_date": "2026-12-10T16:00:00.000Z",
-        "end_date": "2027-01-07T16:00:00.000Z"
+        "start_date": "2026-11-26T16:00:00.000Z",
+        "end_date": "2026-12-03T16:00:00.000Z"
       },
       {
         "title": "Bread and Fred",
@@ -41,8 +41,8 @@
         "image": "https://cdn1.epicgames.com/spt-assets/545b4dd8bb364c12b719268198a93ef3/bread-and-fred-3jnwn.jpg",
         "url": "https://store.epicgames.com/p/3435439bd89847608f5299fb297d1466",
         "price": "$14.99",
-        "start_date": "2026-11-26T16:00:00.000Z",
-        "end_date": "2026-12-03T16:00:00.000Z"
+        "start_date": "2026-12-10T16:00:00.000Z",
+        "end_date": "2027-01-07T16:00:00.000Z"
       },
       {
         "title": "Eternal Threads",
@@ -88,15 +88,6 @@
         "price": "$7.99",
         "start_date": "2026-12-10T16:00:00.000Z",
         "end_date": "2027-01-07T16:00:00.000Z"
-      },
-      {
-        "title": "TerraScape",
-        "description": "Build gorgeous kingdoms on floating islands by strategically placing buildings in this cozy, medieval City-Puzzler. Discover secret combinations, take on monthly challenges and explore randomly generated maps in various single- and multiplayer game modes.",
-        "image": "https://cdn1.epicgames.com/spt-assets/a740a2eed807469f88b9dff17e7cd3a3/terrascape-j7p8d.png",
-        "url": "https://store.epicgames.com/p/f229ed53ddba40788e0ab62978e9eaf9",
-        "price": "$16.99",
-        "start_date": "2026-11-21T16:00:00.000Z",
-        "end_date": "2026-12-21T16:00:00.000Z"
       }
     ],
     "mystery_detected": false
@@ -110,7 +101,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "summary": "Mark of the Deep is an epic pirate-themed adventure with a strong narrative and a thrilling mix of Metroidvania and Souls-Like elements. Embark on this journey, explore the mysteries of a cursed island and find your missing pirate crew!",
       "sources": [
         "Epic Games Store"
@@ -125,7 +116,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "summary": "Disponível gratuitamente a partir de 26/11. Your heroes never stop fighting. Build an unstoppable team in a fantasy idle RPG with AFK progression and offline rewards. Collect heroes and powerful gear, master formations, defeat epic bosses, and return to bigger rewards and endless incremental growth.",
       "sources": [
         "Epic Games Store"
@@ -140,8 +131,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-20",
-      "summary": "Disponível gratuitamente a partir de 10/12. Grab your best bud for help in this new co-op challenge to help two adorable penguins, Bread and Fred, reach the top of the snowy summit. Time your jumps, cling to walls and swing across gaps to see how far you can make it before you tumble all the way back down the mountain.",
+      "date": "2026-11-21",
+      "summary": "Disponível gratuitamente a partir de 26/11. Grab your best bud for help in this new co-op challenge to help two adorable penguins, Bread and Fred, reach the top of the snowy summit. Time your jumps, cling to walls and swing across gaps to see how far you can make it before you tumble all the way back down the mountain.",
       "sources": [
         "Epic Games Store"
       ],
@@ -155,8 +146,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-20",
-      "summary": "Disponível gratuitamente a partir de 26/11. Grab your best bud for help in this new co-op challenge to help two adorable penguins, Bread and Fred, reach the top of the snowy summit. Time your jumps, cling to walls and swing across gaps to see how far you can make it before you tumble all the way back down the mountain.",
+      "date": "2026-11-21",
+      "summary": "Disponível gratuitamente a partir de 10/12. Grab your best bud for help in this new co-op challenge to help two adorable penguins, Bread and Fred, reach the top of the snowy summit. Time your jumps, cling to walls and swing across gaps to see how far you can make it before you tumble all the way back down the mountain.",
       "sources": [
         "Epic Games Store"
       ],
@@ -170,7 +161,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "summary": "Disponível gratuitamente a partir de 27/11. Eternal Threads is a single-player, first-person story-driven puzzle game of time manipulation, choice and consequence.",
       "sources": [
         "Epic Games Store"
@@ -185,7 +176,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "summary": "Disponível gratuitamente a partir de 10/12. Eternal Threads is a single-player, first-person story-driven puzzle game of time manipulation, choice and consequence.",
       "sources": [
         "Epic Games Store"
@@ -200,7 +191,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "summary": "Disponível gratuitamente a partir de 10/12. Ghostrunner 2 is a hardcore FPP slasher set in a post-apocalyptic, cyberpunk world. Featuring everything fans loved about Ghostrunner plus incredible boss fights, new interactive story, thrilling motorbike levels, improved skills, and more cyber ninja action. ",
       "sources": [
         "Epic Games Store"
@@ -215,7 +206,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "summary": "Disponível gratuitamente a partir de 10/12. Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
@@ -230,7 +221,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "summary": "Disponível gratuitamente a partir de 10/12. Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
       "sources": [
         "Epic Games Store"
@@ -238,19 +229,229 @@
       "url": "https://store.epicgames.com/p/monument-valley-02"
     },
     {
-      "id": "https://store.epicgames.com/p/f229ed53ddba40788e0ab62978e9eaf9",
-      "title": "EM BREVE: TerraScape",
-      "original_title": "TerraScape",
-      "image": "https://cdn1.epicgames.com/spt-assets/a740a2eed807469f88b9dff17e7cd3a3/terrascape-j7p8d.png",
+      "id": "https://www.eurogamer.net/nioh-3-complete-edition-rated-korea",
+      "title": "Unannounced Nioh 3 Complete Edition has been rated in Korea",
+      "original_title": "Unannounced Nioh 3 Complete Edition has been rated in Korea",
+      "image": "https://assetsio.gnwcdn.com/Screenshot-2026-11-21-at-17.11.47.png?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-11-20",
-      "summary": "Disponível gratuitamente a partir de 21/11. Build gorgeous kingdoms on floating islands by strategically placing buildings in this cozy, medieval City-Puzzler. Discover secret combinations, take on monthly challenges and explore randomly generated maps in various single- and multiplayer game modes.",
+      "category": "News",
+      "date": "2026-11-21",
+      "summary": " A rating for the unannounced Nioh 3 Complete Edition has popped up on Korea's Game Rating and Administration Committee (GRAC). Read more...",
       "sources": [
-        "Epic Games Store"
+        "Eurogamer"
       ],
-      "url": "https://store.epicgames.com/p/f229ed53ddba40788e0ab62978e9eaf9"
+      "url": "https://www.eurogamer.net/nioh-3-complete-edition-rated-korea"
+    },
+    {
+      "id": "https://www.eurogamer.net/phasmophobia-resonance-update-release-date-dowsing-rods-unity-6",
+      "title": "Phasmophobia's next update lets you ask ghosts to throw things and it's out next week",
+      "original_title": "Phasmophobia's next update lets you ask ghosts to throw things and it's out next week",
+      "image": "https://assetsio.gnwcdn.com/unnamed_6vaP0JC.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-11-21",
+      "summary": " Phasmophobia's next update, Resonance, arrives on 24th November, bringing a brand-new piece of ghost-hunting kit, more voice commands, and a move to the Unity 6 engine. Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/phasmophobia-resonance-update-release-date-dowsing-rods-unity-6"
+    },
+    {
+      "id": "https://www.eurogamer.net/gta-6-ps5-crashing-ce-108255-1-error-fix",
+      "title": "GTA 6 is crashing on some PS5s with error CE-108255-1 - here's what you can try",
+      "original_title": "GTA 6 is crashing on some PS5s with error CE-108255-1 - here's what you can try",
+      "image": "https://assetsio.gnwcdn.com/Screenshot-2026-11-21-at-14.55.00.png?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-11-21",
+      "summary": " Some Grand Theft Auto 6 players on PS5 say the game keeps crashing with error code CE-108255-1, and in some cases, it's stopping them from progressing through the story. Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/gta-6-ps5-crashing-ce-108255-1-error-fix"
+    },
+    {
+      "id": "https://www.eurogamer.net/gta-6-review-bombed-metacritic-user-score",
+      "title": "GTA 6 has a 99 Metascore from critics, but players are review bombing it",
+      "original_title": "GTA 6 has a 99 Metascore from critics, but players are review bombing it",
+      "image": "https://assetsio.gnwcdn.com/GTA-6-Radio-Station-Hosts-Tracks-Header.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-11-21",
+      "summary": " Grand Theft Auto 6 might be one of the best-reviewed games of all time, but you wouldn't know it from its Metacritic user score. Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/gta-6-review-bombed-metacritic-user-score"
+    },
+    {
+      "id": "https://www.eurogamer.net/gta-6-first-non-binary-character-jesse-james-rose",
+      "title": "GTA 6 features the series' first non-binary character, says actor Jesse James Rose, and players can't hurt them",
+      "original_title": "GTA 6 features the series' first non-binary character, says actor Jesse James Rose, and players can't hurt them",
+      "image": "https://assetsio.gnwcdn.com/gta-6-launch-jason-lucia.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-11-21",
+      "summary": " Grand Theft Auto 6 features the first non-binary character in the series' history, according to actor Jesse James Rose, who plays the role of a museum curator in the game. Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/gta-6-first-non-binary-character-jesse-james-rose"
+    },
+    {
+      "id": "https://www.eurogamer.net/grand-theft-auto-6-vampire-survivors-maniac-interview",
+      "title": "What if Vampire Survivors met Grand Theft Auto 2? Maniac is a brilliant mash-up that dares to ask that question",
+      "original_title": "What if Vampire Survivors met Grand Theft Auto 2? Maniac is a brilliant mash-up that dares to ask that question",
+      "image": "https://assetsio.gnwcdn.com/gta-week-maniac-header.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-11-21",
+      "summary": " What would you get if you combined the chaotic top-down action of old-school Grand Theft Auto 2 with the chaotic top-down action of Vampire Survivors? That's the question Soldat and King Arthur's Gold developer Transhuman asked when it started worki...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/grand-theft-auto-6-vampire-survivors-maniac-interview"
+    },
+    {
+      "id": "https://www.eurogamer.net/what-weve-been-playing-its-slow-its-awkward-its-weird-and-its-hard",
+      "title": "What we've been playing - \"It's slow, it's awkward, it's weird, and it's hard\"",
+      "original_title": "What we've been playing - \"It's slow, it's awkward, it's weird, and it's hard\"",
+      "image": "https://assetsio.gnwcdn.com/gta-6-headline-launch-gallery-4.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-11-21",
+      "summary": " Did anything notable happen this week? Not that I can remember. The weather was quite rainy - will that do? I'm just being silly, of course. We've had - and I suppose are still having - an historic week in video games, as Grand Theft Auto 6 arrives....",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/what-weve-been-playing-its-slow-its-awkward-its-weird-and-its-hard"
+    },
+    {
+      "id": "https://www.techpowerup.com/355078/28-core-intel-nova-lake-s-appears-in-testing-running-at-5-2-ghz",
+      "title": "28-Core Intel \"Nova Lake-S\" Appears in Testing Running at 5.2 GHz",
+      "original_title": "28-Core Intel \"Nova Lake-S\" Appears in Testing Running at 5.2 GHz",
+      "image": "https://tpucdn.com/img/Vow6gHxihRQkcvBZ_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-21",
+      "summary": "Intel's single-compute die \"Nova Lake-S\" variant has been spotted with a 28-core configuration and a boost frequency of 5.2 GHz, according to the OpenBenchmark testing suite. During the tests, a processor named Intel 0000 appeared with the \"NVL\" iden...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/355078/28-core-intel-nova-lake-s-appears-in-testing-running-at-5-2-ghz"
+    },
+    {
+      "id": "https://www.techpowerup.com/355075/gpd-win-mini-ultra-pricing-confirmed-intel-arc-g3-extreme-handheld-starts-at-usd-1-699",
+      "title": "GPD Win Mini Ultra Pricing Confirmed: Intel Arc G3 Extreme Handheld Starts at $1,699",
+      "original_title": "GPD Win Mini Ultra Pricing Confirmed: Intel Arc G3 Extreme Handheld Starts at $1,699",
+      "image": "https://tpucdn.com/img/A0oF8UnqXeGvU8it_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-21",
+      "summary": "GPD has officially published pricing details for the Win Mini Ultra, following the gaming handheld's spec sheet previously being published ahead of the full launch. According to a recent post on X, the Win Mini Ultra will initially be available with ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/355075/gpd-win-mini-ultra-pricing-confirmed-intel-arc-g3-extreme-handheld-starts-at-usd-1-699"
+    },
+    {
+      "id": "https://www.techpowerup.com/355019/gigabyte-and-newegg-bring-aorus-vs40-to-southern-california-in-november-2026",
+      "title": "GIGABYTE and Newegg Bring \"AORUS VS40\" to Southern California in November 2026",
+      "original_title": "GIGABYTE and Newegg Bring \"AORUS VS40\" to Southern California in November 2026",
+      "image": "https://tpucdn.com/img/dmOvxDQ8ukZGFf60_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-21",
+      "summary": "GIGABYTE and Newegg will host AORUS VS40 at the Newegg Gamer Zone in City of Industry, California, on Saturday, November 21, 2026, from 11 a.m. to 4 p.m. PST. The event invites local collegiate PC gamers and hardware enthusiasts to celebrate 40 years...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/355019/gigabyte-and-newegg-bring-aorus-vs40-to-southern-california-in-november-2026"
+    },
+    {
+      "id": "https://www.techpowerup.com/354313/max-out-your-gen-4-slot-predator-gm7-nvme-ssd-up-to-7400-mb-s",
+      "title": "Max Out Your Gen 4 Slot: Predator GM7 NVMe SSD (Up to 7400 MB/s)",
+      "original_title": "Max Out Your Gen 4 Slot: Predator GM7 NVMe SSD (Up to 7400 MB/s)",
+      "image": "https://tpucdn.com/img/OoYRVLJhnN4DJFN0_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-21",
+      "summary": "If you've been waiting for the Black Friday sales to upgrade your rig, expand your PS5 storage, or give your laptop a massive speed boost, the award-winning Predator GM7 PCIe 4.0 SSD is built to deliver top-tier performance without the top-tier heat....",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354313/max-out-your-gen-4-slot-predator-gm7-nvme-ssd-up-to-7400-mb-s"
+    },
+    {
+      "id": "https://www.techpowerup.com/355071/gta-6-glitch-enables-first-person-pov-and-open-source-app-adds-120-fps-with-dlss-5",
+      "title": "GTA 6 Glitch Enables First-Person POV and Open-Source App Adds 120 FPS with DLSS 5",
+      "original_title": "GTA 6 Glitch Enables First-Person POV and Open-Source App Adds 120 FPS with DLSS 5",
+      "image": "https://tpucdn.com/img/FIwujoTMoF2Rg9pH_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-21",
+      "summary": "Despite the game's immensely positive reception, there has been a lot of chatter online about performance issues with Grand Theft Auto VI, with several reports now circulating that the graphically intensive nature of the game appears to be causing is...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/355071/gta-6-glitch-enables-first-person-pov-and-open-source-app-adds-120-fps-with-dlss-5"
+    },
+    {
+      "id": "https://www.techpowerup.com/355074/lgs-1000-hz-ultragear-uses-a-tcl-csot-panel-inkjet-oled-monitors-could-follow",
+      "title": "LG's 1000 Hz UltraGear Uses a TCL CSOT Panel, Inkjet OLED Monitors Could Follow",
+      "original_title": "LG's 1000 Hz UltraGear Uses a TCL CSOT Panel, Inkjet OLED Monitors Could Follow",
+      "image": "https://tpucdn.com/img/OP0ZNEleY2VdL4Bg_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-21",
+      "summary": "At the DTC 2026 conference in Wuhan, China, CSOT CEO Jun Zhao confirmed that the 1000 Hz panel inside LG's UltraGear 25G590B comes from TCL CSOT. Zhao said that the company supplies a 24.5-inch FHD LCD panel with IPS technology for that monitor. Appa...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/355074/lgs-1000-hz-ultragear-uses-a-tcl-csot-panel-inkjet-oled-monitors-could-follow"
+    },
+    {
+      "id": "https://www.techpowerup.com/354429/which-water-filter-is-right-for-you-waterdrop-filters-black-friday-picks-for-different-needs",
+      "title": "Which Water Filter Is Right for You? Waterdrop Filter's Black Friday Picks for Different Needs",
+      "original_title": "Which Water Filter Is Right for You? Waterdrop Filter's Black Friday Picks for Different Needs",
+      "image": "https://tpucdn.com/img/R0nRKD5OZ2cSOQ4l_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-21",
+      "summary": "Clean, great-tasting water is part of everyday life, from the first glass in the morning to coffee, tea, and meals shared with family. A water filtration system that fits your home can make those daily moments more enjoyable.\n\nWaterdrop Filter offers...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354429/which-water-filter-is-right-for-you-waterdrop-filters-black-friday-picks-for-different-needs"
+    },
+    {
+      "id": "https://www.eurogamer.net/gta-6-biggest-entertainment-launch",
+      "title": "GTA 6 is officially the biggest entertainment launch of all time, selling 32.5 million pre-sale copies and a bonkers $3.79 billion in its first day",
+      "original_title": "GTA 6 is officially the biggest entertainment launch of all time, selling 32.5 million pre-sale copies and a bonkers $3.79 billion in its first day",
+      "image": "https://assetsio.gnwcdn.com/gta-6-headline-launch-gallery-4.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "News",
+      "date": "2026-11-20",
+      "summary": " Surprise, surprise - GTA 6 is officially the biggest entertainment launch of all time, surpassing its predecessor's 13-year-long record and the already optimistic analyst estimates. Read more...",
+      "sources": [
+        "Eurogamer"
+      ],
+      "url": "https://www.eurogamer.net/gta-6-biggest-entertainment-launch"
     },
     {
       "id": "https://www.eurogamer.net/persona-6-games-come-quicker-atlus",
@@ -283,229 +484,19 @@
       "url": "https://www.eurogamer.net/gta-6-credits-florida-joker-rockstar"
     },
     {
-      "id": "https://www.eurogamer.net/jensen-huang-nvidia-investigation-harassment",
-      "title": "Nvidia co-founder Jensen Huang accused of decades of bullying and workplace abuse in new investigation",
-      "original_title": "Nvidia co-founder Jensen Huang accused of decades of bullying and workplace abuse in new investigation",
-      "image": "https://assetsio.gnwcdn.com/jensen-huang-speaking.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-11-20",
-      "summary": " An investigation into the workplace behavior of Nvidia co-founder Jensen Huang, who resigned recently after a series of extramarital affairs came to light, has uncovered decades of harassment, verbal employee abuse and \"cultish\" behaviour at the com...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/jensen-huang-nvidia-investigation-harassment"
-    },
-    {
-      "id": "https://www.eurogamer.net/final-fantasy-7-bootleg-tifa-figurine-china-13-arrested",
-      "title": "13 arrested in Shanghai as police crackdown on bootleg Final Fantasy 7 Tifa figurine operation",
-      "original_title": "13 arrested in Shanghai as police crackdown on bootleg Final Fantasy 7 Tifa figurine operation",
-      "image": "https://assetsio.gnwcdn.com/ff7-remake-intergrade-xbox-3.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-11-20",
-      "summary": " Chinese police have arrested 13 individuals in Shanghai allegedly involved in a bootleg Final Fantasy 7 Tifa figurine business, after consumers reported the operation. They are currently being investigated on suspicion of selling infringing reproduc...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/final-fantasy-7-bootleg-tifa-figurine-china-13-arrested"
-    },
-    {
-      "id": "https://www.eurogamer.net/gta-6-plane-vehicle-stunts-impressive",
-      "title": "GTA 6 players are already pulling off high-flying tricks and other impressive stunts, just days after launch",
-      "original_title": "GTA 6 players are already pulling off high-flying tricks and other impressive stunts, just days after launch",
-      "image": "https://assetsio.gnwcdn.com/grand-theft-auto-6-lucia-screaming-car.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-11-20",
-      "summary": " One of the best things to emerge from Grand Theft Auto over the years has been the community's truly spectacular stunts: players soaring under bridges, leaping across buildings, and more. And with GTA 6's release this week, we've seen the first sign...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/gta-6-plane-vehicle-stunts-impressive"
-    },
-    {
-      "id": "https://www.eurogamer.net/biddy-blas-star-wars-galactic-racer-viral-scrib-doon",
-      "title": "Star Wars: Galactic Racer studio \"didn't dream\" Biddy Blas would be as popular as he is",
-      "original_title": "Star Wars: Galactic Racer studio \"didn't dream\" Biddy Blas would be as popular as he is",
-      "image": "https://assetsio.gnwcdn.com/biddy-blas-(1).jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-11-20",
-      "summary": " Fuse Games, the developer of Star Wars: Galactic Racer, has said it \"didn't dream\" the pod racing game's background character Biddy Blas would become as popular as he has. Read more...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/biddy-blas-star-wars-galactic-racer-viral-scrib-doon"
-    },
-    {
-      "id": "https://www.eurogamer.net/gta-6-early-game-connection-rockstar-gta-5",
-      "title": "It took me less than an hour to find my first incredibly minor Rockstar easter egg in GTA 6 - but it has some big implications for Leonida",
-      "original_title": "It took me less than an hour to find my first incredibly minor Rockstar easter egg in GTA 6 - but it has some big implications for Leonida",
-      "image": "https://assetsio.gnwcdn.com/gta-6-easter-egg.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-11-20",
-      "summary": " Are you wondering how connected the worlds of GTA 5 and GTA 6 are? Well, I've got some news for you. Keep on reading below if you'd like some very minor spoilers for the early game of GTA 6, spoilers for GTA 5, as well as some information about how ...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/gta-6-early-game-connection-rockstar-gta-5"
-    },
-    {
-      "id": "https://www.eurogamer.net/tenebrae-lux-gta-6-now-playing",
-      "title": "I completed GTA 6's indie game darling pastiche, Tenebrae Lux, and all I got was this lousy sense of accomplishment",
-      "original_title": "I completed GTA 6's indie game darling pastiche, Tenebrae Lux, and all I got was this lousy sense of accomplishment",
-      "image": "https://assetsio.gnwcdn.com/Tenebrae-lux-gta.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-11-20",
-      "summary": " \"We are but Promethean wanderers on the fringes of oblivion, clinging to a semblance of light amidst the vast abyss of our own ignorance. Voyaging uncharted waters may appear foolish to some, yet folly and heroism can often appear the same to the un...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/tenebrae-lux-gta-6-now-playing"
-    },
-    {
-      "id": "https://www.eurogamer.net/gta-6-uk-prime-minister-andy-burnham",
-      "title": "UK Prime Minister won't be playing GTA 6, government says, while hailing Rockstar Games a \"British success story\"",
-      "original_title": "UK Prime Minister won't be playing GTA 6, government says, while hailing Rockstar Games a \"British success story\"",
-      "image": "https://assetsio.gnwcdn.com/andy-burnham-prime-minister-gta-6.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-11-20",
-      "summary": " Grand Theft Auto 6's seismic launch has registered on a governmental level. A spokesperson for UK Prime Minister Andy Burnham has hailed the game as a \"British success story\", but confirmed Burnham himself won't be playing it. His diary is apparentl...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/gta-6-uk-prime-minister-andy-burnham"
-    },
-    {
-      "id": "https://www.eurogamer.net/gta-6-spoiler-free-advice",
-      "title": "Playing GTA 6 this weekend? Here's 16 spoiler-free tips for your first playthrough",
-      "original_title": "Playing GTA 6 this weekend? Here's 16 spoiler-free tips for your first playthrough",
-      "image": "https://assetsio.gnwcdn.com/gta-6-tips-header.png?width=690&quality=85&format=jpg&auto=webp",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "News",
-      "date": "2026-11-20",
-      "summary": " It's launch weekend for GTA 6 - in case you hadn't noticed - and since I've played the best part of a hundred hours of this thing, I thought it might be useful to share a few pieces of advice from my time with it. Read more...",
-      "sources": [
-        "Eurogamer"
-      ],
-      "url": "https://www.eurogamer.net/gta-6-spoiler-free-advice"
-    },
-    {
-      "id": "https://www.techpowerup.com/355061/wooting-revamps-keyboard-utility-per-app-profiles-for-linux-global-keymap-profiles-and-fresh-ui-tweaks",
-      "title": "Wooting Revamps Keyboard Utility: Per-App Profiles for Linux, Global Keymap Profiles, and Fresh UI Tweaks",
-      "original_title": "Wooting Revamps Keyboard Utility: Per-App Profiles for Linux, Global Keymap Profiles, and Fresh UI Tweaks",
-      "image": "https://tpucdn.com/img/EfsVfhsjvnjr0f3l_thm.jpg",
+      "id": "https://www.techpowerup.com/355072/nvidias-ssd-write-bug-gets-patched-in-geforce-hotfix-621-35-driver",
+      "title": "NVIDIA's SSD Write Bug Gets Patched in GeForce Hotfix 621.35 Driver",
+      "original_title": "NVIDIA's SSD Write Bug Gets Patched in GeForce Hotfix 621.35 Driver",
+      "image": "https://tpucdn.com/img/1Se6PYMg42pnjKvV_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-11-20",
-      "summary": "One of the main reasons gamers recommend Wooting keyboards to first-time Hall effect keyboard buyers is the brand's software. Wootility has continuously stood out for its quality, solid UI, and rich feature set, and with the latest Wootility beta, Wo...",
+      "summary": "NVIDIA today has released the GeForce Hotfix 621.35 driver to fix the bug that was hammering SSDs while idle. There is only one fix in the release: \"Excessive writes to file nvlog.nvlgstg may occur in the background,\" and that was all that was needed...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/355061/wooting-revamps-keyboard-utility-per-app-profiles-for-linux-global-keymap-profiles-and-fresh-ui-tweaks"
-    },
-    {
-      "id": "https://www.techpowerup.com/355062/microsoft-brings-rdma-over-usb4-to-windows-11-for-daisy-chained-pcs",
-      "title": "Microsoft Brings RDMA over USB4 to Windows 11 for Daisy-Chained PCs",
-      "original_title": "Microsoft Brings RDMA over USB4 to Windows 11 for Daisy-Chained PCs",
-      "image": "https://tpucdn.com/img/bTtGLsuARWEFEsR7_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-20",
-      "summary": "Microsoft is finally enabling Remote Direct Memory Access (RDMA) over the USB4 protocol on Windows 11, allowing multiple PCs to be daisy-chained and used together to process large workloads. This means that Windows 11 now has a mechanism to distribut...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/355062/microsoft-brings-rdma-over-usb4-to-windows-11-for-daisy-chained-pcs"
-    },
-    {
-      "id": "https://www.techpowerup.com/354313/max-out-your-gen-4-slot-predator-gm7-nvme-ssd-up-to-7400-mb-s",
-      "title": "Max Out Your Gen 4 Slot: Predator GM7 NVMe SSD (Up to 7400 MB/s)",
-      "original_title": "Max Out Your Gen 4 Slot: Predator GM7 NVMe SSD (Up to 7400 MB/s)",
-      "image": "https://tpucdn.com/img/OoYRVLJhnN4DJFN0_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-20",
-      "summary": "If you've been waiting for the Black Friday sales to upgrade your rig, expand your PS5 storage, or give your laptop a massive speed boost, the award-winning Predator GM7 PCIe 4.0 SSD is built to deliver top-tier performance without the top-tier heat....",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354313/max-out-your-gen-4-slot-predator-gm7-nvme-ssd-up-to-7400-mb-s"
-    },
-    {
-      "id": "https://www.techpowerup.com/355058/shiftup-claims-stellar-blade-blood-rain-is-handmade-start-to-finish-after-ai-music-video-backlash",
-      "title": "ShiftUp Claims Stellar Blade Blood Rain is \"Handmade Start To Finish\" After AI Music Video Backlash",
-      "original_title": "ShiftUp Claims Stellar Blade Blood Rain is \"Handmade Start To Finish\" After AI Music Video Backlash",
-      "image": "https://tpucdn.com/img/wrHcILYtm8ZBtscW_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-20",
-      "summary": "ShiftUp, the game studio behind the Stellar Blade franchise, has been open about its use of generative AI for both its games and its promotional material, with a recent Stellar Blade: Blood Rain music video receiving substantial backlash online for b...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/355058/shiftup-claims-stellar-blade-blood-rain-is-handmade-start-to-finish-after-ai-music-video-backlash"
-    },
-    {
-      "id": "https://www.techpowerup.com/355060/av-access-unveils-idock-b12-8k-kvm-docking-station",
-      "title": "(PR) AV Access Unveils iDock B12 8K KVM Docking Station",
-      "original_title": "(PR) AV Access Unveils iDock B12 8K KVM Docking Station",
-      "image": "https://tpucdn.com/img/IorNWLqfcKYEYJLw_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-20",
-      "summary": "AV Access, a leading provider of Pro AV and AV over IP solutions, has introduced the iDock B12, an 8K dual-monitor KVM docking station designed to make switching between work and gaming setups effortless. With refresh rates of up to 4K@165 Hz or 1080...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/355060/av-access-unveils-idock-b12-8k-kvm-docking-station"
-    },
-    {
-      "id": "https://www.techpowerup.com/354429/which-water-filter-is-right-for-you-waterdrop-filters-black-friday-picks-for-different-needs",
-      "title": "Which Water Filter Is Right for You? Waterdrop Filter's Black Friday Picks for Different Needs",
-      "original_title": "Which Water Filter Is Right for You? Waterdrop Filter's Black Friday Picks for Different Needs",
-      "image": "https://tpucdn.com/img/R0nRKD5OZ2cSOQ4l_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-20",
-      "summary": "Clean, great-tasting water is part of everyday life, from the first glass in the morning to coffee, tea, and meals shared with family. A water filtration system that fits your home can make those daily moments more enjoyable.\n\nWaterdrop Filter offers...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354429/which-water-filter-is-right-for-you-waterdrop-filters-black-friday-picks-for-different-needs"
-    },
-    {
-      "id": "https://www.techpowerup.com/355059/tcl-csot-announces-worlds-first-mass-production-of-ultrahigh-mobility-oxide-panels-at-dtc2026",
-      "title": "(PR) TCL CSOT Announces World's First Mass Production of Ultrahigh-Mobility Oxide Panels at DTC2026",
-      "original_title": "(PR) TCL CSOT Announces World's First Mass Production of Ultrahigh-Mobility Oxide Panels at DTC2026",
-      "image": "https://tpucdn.com/img/LXoDeYzgHQv00kIR_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-20",
-      "summary": "TCL CSOT became the world's first to achieve mass production of ultrahigh-mobility oxide technology (electron mobility of ~50 cm² V⁻¹ s⁻¹) on an 8.6-generation line. The major technical breakthrough marks the first time high mobility oxide technology...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/355059/tcl-csot-announces-worlds-first-mass-production-of-ultrahigh-mobility-oxide-panels-at-dtc2026"
+      "url": "https://www.techpowerup.com/355072/nvidias-ssd-write-bug-gets-patched-in-geforce-hotfix-621-35-driver"
     },
     {
       "id": "https://www.techpowerup.com/354945/typing-365-turns-pc-building-technology-and-more-into-typing-practice",
@@ -523,34 +514,19 @@
       "url": "https://www.techpowerup.com/354945/typing-365-turns-pc-building-technology-and-more-into-typing-practice"
     },
     {
-      "id": "https://www.techpowerup.com/355054/new-windows-search-finally-arrives-in-windows-11-update",
-      "title": "New Windows Search Finally Arrives in Windows 11 Update",
-      "original_title": "New Windows Search Finally Arrives in Windows 11 Update",
-      "image": "https://tpucdn.com/img/bWvTtPkwwefuAI85_thm.jpg",
+      "id": "https://www.techpowerup.com/355068/persona-franchise-to-continue-after-persona-6-atlus-promises-shorter-development-cycles-for-future-games",
+      "title": "Persona Franchise To Continue After Persona 6: Atlus Promises Shorter Development Cycles For Future Games",
+      "original_title": "Persona Franchise To Continue After Persona 6: Atlus Promises Shorter Development Cycles For Future Games",
+      "image": "https://tpucdn.com/img/HZuVf5J5wiHsxs3Y_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
       "date": "2026-11-20",
-      "summary": "Microsoft has released the Windows 11 KB5132057 update, which finally introduces the much-anticipated Windows Search update, addressing a longstanding issue with the operating system. The new search box can execute thousands of quick actions typed as...",
+      "summary": "It's been over ten years since the launch of Persona 5, with Persona 6 expected to launch sometime in mid-2027, however, in a recent interview with Sega Sammy, Kazuhisa Wada, the general producer at Altus's Persona Studio, commented that Persona 6 is...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/355054/new-windows-search-finally-arrives-in-windows-11-update"
-    },
-    {
-      "id": "https://www.techpowerup.com/355046/debian-linux-forms-gaming-hardware-team-for-handheld-and-bleeding-edge-hardware-testing",
-      "title": "Debian Linux Forms Gaming Hardware Team for Handheld and Bleeding Edge Hardware Testing",
-      "original_title": "Debian Linux Forms Gaming Hardware Team for Handheld and Bleeding Edge Hardware Testing",
-      "image": "https://tpucdn.com/img/RVHqmiHeMdNlw9ga_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-20",
-      "summary": "While newer gaming distributions, like CachyOS and Bazzite, are all the rage these days, Debian has always been a go-to distro for a lot of Linux users who simply need something reasonably lightweight and highly stable. This is why distributions like...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/355046/debian-linux-forms-gaming-hardware-team-for-handheld-and-bleeding-edge-hardware-testing"
+      "url": "https://www.techpowerup.com/355068/persona-franchise-to-continue-after-persona-6-atlus-promises-shorter-development-cycles-for-future-games"
     }
   ]
 }
