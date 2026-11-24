@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-11-23T23:25:58",
-  "display_date": "23/11/2026 23:25",
+  "last_updated": "2026-11-24T21:57:09",
+  "display_date": "24/11/2026 21:57",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "127ms",
+    "latency": "155ms",
     "current_games": [
       {
         "title": "Mark of the Deep",
@@ -32,8 +32,8 @@
         "image": "https://cdn1.epicgames.com/spt-assets/545b4dd8bb364c12b719268198a93ef3/bread-and-fred-3jnwn.jpg",
         "url": "https://store.epicgames.com/p/3435439bd89847608f5299fb297d1466",
         "price": "$14.99",
-        "start_date": "2026-11-26T16:00:00.000Z",
-        "end_date": "2026-12-03T16:00:00.000Z"
+        "start_date": "2026-12-10T16:00:00.000Z",
+        "end_date": "2027-01-07T16:00:00.000Z"
       },
       {
         "title": "Bread and Fred",
@@ -41,8 +41,8 @@
         "image": "https://cdn1.epicgames.com/spt-assets/545b4dd8bb364c12b719268198a93ef3/bread-and-fred-3jnwn.jpg",
         "url": "https://store.epicgames.com/p/3435439bd89847608f5299fb297d1466",
         "price": "$14.99",
-        "start_date": "2026-12-10T16:00:00.000Z",
-        "end_date": "2027-01-07T16:00:00.000Z"
+        "start_date": "2026-11-26T16:00:00.000Z",
+        "end_date": "2026-12-03T16:00:00.000Z"
       },
       {
         "title": "Eternal Threads",
@@ -88,6 +88,15 @@
         "price": "$7.99",
         "start_date": "2026-12-10T16:00:00.000Z",
         "end_date": "2027-01-07T16:00:00.000Z"
+      },
+      {
+        "title": "Luftrausers",
+        "description": "The skies are aflame and the seas will overflow with wreckage in Vlambeer’s stylish arcade shooter LUFTRAUSERS! Take to the skies in customized fighter planes to battle battleships, submarines, and rival aces for glory, honor, and high scores.",
+        "image": "https://cdn1.epicgames.com/spt-assets/85ddeeec9d4243b3a2d78aab87bfae7f/luftrausers-1mxb1.png",
+        "url": "https://store.epicgames.com/p/luftrausers",
+        "price": "$9.99",
+        "start_date": "2026-11-27T16:00:00.000Z",
+        "end_date": "2026-12-01T15:00:00.000Z"
       }
     ],
     "mystery_detected": false
@@ -101,7 +110,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-11-23",
+      "date": "2026-11-24",
       "summary": "Mark of the Deep is an epic pirate-themed adventure with a strong narrative and a thrilling mix of Metroidvania and Souls-Like elements. Embark on this journey, explore the mysteries of a cursed island and find your missing pirate crew!",
       "sources": [
         "Epic Games Store"
@@ -116,7 +125,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-23",
+      "date": "2026-11-24",
       "summary": "Disponível gratuitamente a partir de 26/11. Your heroes never stop fighting. Build an unstoppable team in a fantasy idle RPG with AFK progression and offline rewards. Collect heroes and powerful gear, master formations, defeat epic bosses, and return to bigger rewards and endless incremental growth.",
       "sources": [
         "Epic Games Store"
@@ -131,8 +140,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-23",
-      "summary": "Disponível gratuitamente a partir de 26/11. Grab your best bud for help in this new co-op challenge to help two adorable penguins, Bread and Fred, reach the top of the snowy summit. Time your jumps, cling to walls and swing across gaps to see how far you can make it before you tumble all the way back down the mountain.",
+      "date": "2026-11-24",
+      "summary": "Disponível gratuitamente a partir de 10/12. Grab your best bud for help in this new co-op challenge to help two adorable penguins, Bread and Fred, reach the top of the snowy summit. Time your jumps, cling to walls and swing across gaps to see how far you can make it before you tumble all the way back down the mountain.",
       "sources": [
         "Epic Games Store"
       ],
@@ -146,8 +155,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-23",
-      "summary": "Disponível gratuitamente a partir de 10/12. Grab your best bud for help in this new co-op challenge to help two adorable penguins, Bread and Fred, reach the top of the snowy summit. Time your jumps, cling to walls and swing across gaps to see how far you can make it before you tumble all the way back down the mountain.",
+      "date": "2026-11-24",
+      "summary": "Disponível gratuitamente a partir de 26/11. Grab your best bud for help in this new co-op challenge to help two adorable penguins, Bread and Fred, reach the top of the snowy summit. Time your jumps, cling to walls and swing across gaps to see how far you can make it before you tumble all the way back down the mountain.",
       "sources": [
         "Epic Games Store"
       ],
@@ -161,7 +170,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-23",
+      "date": "2026-11-24",
       "summary": "Disponível gratuitamente a partir de 27/11. Eternal Threads is a single-player, first-person story-driven puzzle game of time manipulation, choice and consequence.",
       "sources": [
         "Epic Games Store"
@@ -176,7 +185,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-23",
+      "date": "2026-11-24",
       "summary": "Disponível gratuitamente a partir de 10/12. Eternal Threads is a single-player, first-person story-driven puzzle game of time manipulation, choice and consequence.",
       "sources": [
         "Epic Games Store"
@@ -191,7 +200,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-23",
+      "date": "2026-11-24",
       "summary": "Disponível gratuitamente a partir de 10/12. Ghostrunner 2 is a hardcore FPP slasher set in a post-apocalyptic, cyberpunk world. Featuring everything fans loved about Ghostrunner plus incredible boss fights, new interactive story, thrilling motorbike levels, improved skills, and more cyber ninja action. ",
       "sources": [
         "Epic Games Store"
@@ -206,7 +215,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-23",
+      "date": "2026-11-24",
       "summary": "Disponível gratuitamente a partir de 10/12. Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
@@ -221,7 +230,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-23",
+      "date": "2026-11-24",
       "summary": "Disponível gratuitamente a partir de 10/12. Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
       "sources": [
         "Epic Games Store"
@@ -229,169 +238,259 @@
       "url": "https://store.epicgames.com/p/monument-valley-02"
     },
     {
-      "id": "https://www.eurogamer.net/deltarune-chapter-6-playable-toby-fox",
-      "title": "Deltarune Chapter 6 is playable \"from the beginning to the end,\" Toby Fox says, but the RPG's final part has \"only just started\"",
-      "original_title": "Deltarune Chapter 6 is playable \"from the beginning to the end,\" Toby Fox says, but the RPG's final part has \"only just started\"",
-      "image": "https://assetsio.gnwcdn.com/deltarune-characters.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://store.epicgames.com/p/luftrausers",
+      "title": "EM BREVE: Luftrausers",
+      "original_title": "Luftrausers",
+      "image": "https://cdn1.epicgames.com/spt-assets/85ddeeec9d4243b3a2d78aab87bfae7f/luftrausers-1mxb1.png",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-11-24",
+      "summary": "Disponível gratuitamente a partir de 27/11. The skies are aflame and the seas will overflow with wreckage in Vlambeer’s stylish arcade shooter LUFTRAUSERS! Take to the skies in customized fighter planes to battle battleships, submarines, and rival aces for glory, honor, and high scores.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/luftrausers"
+    },
+    {
+      "id": "https://www.eurogamer.net/lords-of-the-fallen-2-delayed-april-2027",
+      "title": "Lords of the Fallen 2 delayed to April 2027, exact release date coming next month",
+      "original_title": "Lords of the Fallen 2 delayed to April 2027, exact release date coming next month",
+      "image": "https://assetsio.gnwcdn.com/Lords-of-the-Fallen-II---Announcement-Trailer-_-PS5-Games-0-28-screenshot-(1).png?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-23",
-      "summary": " Toby Fox has given eager fans an update on the development of Deltarune Chapter 6 and Chapter 7 - the Undertale follow-up's final two episodes. Read more...",
+      "date": "2026-11-24",
+      "summary": " Lords of the Fallen 2 will now launch in April 2027, and we'll find out exactly when next month. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/deltarune-chapter-6-playable-toby-fox"
+      "url": "https://www.eurogamer.net/lords-of-the-fallen-2-delayed-april-2027"
     },
     {
-      "id": "https://www.eurogamer.net/activision-banjo-kazooie-iconic-gaming-franchise",
-      "title": "Activision calls Banjo-Kazooie one of its \"iconic gaming franchises,\" raising hopes for long-awaited new game",
-      "original_title": "Activision calls Banjo-Kazooie one of its \"iconic gaming franchises,\" raising hopes for long-awaited new game",
-      "image": "https://assetsio.gnwcdn.com/bj-freezeezy.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/steam-awards-2026-nominations-open-hall-of-fame",
+      "title": "The Steam Awards turn 10 with throwback categories and a Game of the Year Hall of Fame",
+      "original_title": "The Steam Awards turn 10 with throwback categories and a Game of the Year Hall of Fame",
+      "image": "https://assetsio.gnwcdn.com/Screenshot-2026-11-24-at-18.32.30.png?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-23",
-      "summary": " Banjo-Kazooie - the iconic Rare platformer starring an absent-minded bear and the sassy red bird he carries in a backpack - has been on hiatus for years, but a new Activision job listing has raised hopes for a new game. Read more...",
+      "date": "2026-11-24",
+      "summary": " Nominations for the 2026 Steam Awards are now open, and to mark the event's 10th anniversary, Valve has brought back some categories from years past and added a Hall of Fame. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/activision-banjo-kazooie-iconic-gaming-franchise"
+      "url": "https://www.eurogamer.net/steam-awards-2026-nominations-open-hall-of-fame"
     },
     {
-      "id": "https://www.eurogamer.net/god-of-war-laufey-faye-amazon-series",
-      "title": "God of War Laufey's Faye actor jumps from games to live-action, as Amazon casts Deborah Ann Woll in upcoming series",
-      "original_title": "God of War Laufey's Faye actor jumps from games to live-action, as Amazon casts Deborah Ann Woll in upcoming series",
-      "image": "https://assetsio.gnwcdn.com/Faye-holds-a-mythical-sword-in-new-God-of-War-game-from-Sony-Santa-Monica.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/cd-projekt-red-cdpr-witcher-3-4-gta-5-6",
+      "title": "You can expect a similar leap between The Witcher 3 and The Witcher 4 as there is between GTA 5 and GTA 6, CD Projekt Red says",
+      "original_title": "You can expect a similar leap between The Witcher 3 and The Witcher 4 as there is between GTA 5 and GTA 6, CD Projekt Red says",
+      "image": "https://assetsio.gnwcdn.com/ciri-the-witcher-4.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-23",
-      "summary": " After appearing in both God of War Ragnarok and next year's God of War Laufey, Deborah Ann Woll is about to reprise her role as Faye in Amazon Prime Video's upcoming live-action series. Read more...",
+      "date": "2026-11-24",
+      "summary": " CD Projekt Red has said people can expect a similar qualitative and technological leap from The Witcher 3 to The Witcher 4 as has been witnessed between Grand Theft Auto 5 and Grand Theft Auto 6. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/god-of-war-laufey-faye-amazon-series"
+      "url": "https://www.eurogamer.net/cd-projekt-red-cdpr-witcher-3-4-gta-5-6"
     },
     {
-      "id": "https://www.eurogamer.net/dawn-of-war-4-trailer-vashtorr-chaos-tease",
-      "title": "Dawn of War 4's newest trailer teases the appearance of a fan-favourite character in the game's post-launch DLC",
-      "original_title": "Dawn of War 4's newest trailer teases the appearance of a fan-favourite character in the game's post-launch DLC",
-      "image": "https://assetsio.gnwcdn.com/Warhammer-40%2C000_-Dawn-of-War-4---Official-Announcement-Trailer-_-gamescom-2025-0-16-screenshot.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/gta-6-call-of-duty-fortnite-fc-27-daily-players-alinea",
+      "title": "GTA 6 launch knocked Call of Duty's daily players down 42 percent, Alinea estimates",
+      "original_title": "GTA 6 launch knocked Call of Duty's daily players down 42 percent, Alinea estimates",
+      "image": "https://assetsio.gnwcdn.com/Screenshot-2026-11-24-at-17.54.07.png?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-23",
-      "summary": " As Dawn of War 4's December release date inches ever closer, a new trailer appears to have teased a fan-favourite character's inclusion in the RTS's first post-launch DLC. Read more...",
+      "date": "2026-11-24",
+      "summary": " Grand Theft Auto 6's launch took a big bite out of Call of Duty’s player base, according to new estimates from Alinea Analytics, and four days on, it still hasn't recovered. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/dawn-of-war-4-trailer-vashtorr-chaos-tease"
+      "url": "https://www.eurogamer.net/gta-6-call-of-duty-fortnite-fc-27-daily-players-alinea"
     },
     {
-      "id": "https://www.eurogamer.net/gta-6-xbox-playstation-patch-autosave-vignette",
-      "title": "GTA 6 just got a patch that fixed a progression bug on PS5 and Xbox Series X/S",
-      "original_title": "GTA 6 just got a patch that fixed a progression bug on PS5 and Xbox Series X/S",
-      "image": "https://assetsio.gnwcdn.com/GTA-6-vignette.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/grand-theft-auto-6-beer-robberies",
+      "title": "GTA 6 players are discovering, who needs a gun when it's easier to rob a store with a crate of beer?",
+      "original_title": "GTA 6 players are discovering, who needs a gun when it's easier to rob a store with a crate of beer?",
+      "image": "https://assetsio.gnwcdn.com/GTA-6-review-25.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-23",
-      "summary": " Rockstar just issued a new patch for GTA 6 on PlayStation 5 and Xbox Series X/S, targeting a few issues players have been reporting since the game launched last Thursday (19th November). Read more...",
+      "date": "2026-11-24",
+      "summary": " Guns might be the weapon of choice for most Grand Theft Auto 6 players, but it turns out some enterprising digital criminals are taking a more inventive approach to robberies. Who needs a gun by their side when you've got a crate of beer? Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/gta-6-xbox-playstation-patch-autosave-vignette"
+      "url": "https://www.eurogamer.net/grand-theft-auto-6-beer-robberies"
     },
     {
-      "id": "https://www.eurogamer.net/nvidia-jensen-huang-ceo-reinstated-affair",
-      "title": "Nvidia makes stunning decision to reinstate Jensen Huang as CEO",
-      "original_title": "Nvidia makes stunning decision to reinstate Jensen Huang as CEO",
-      "image": "https://assetsio.gnwcdn.com/NVIDIA-CEO-Jensen-Huang-Keynote-at-CES-2025-20-19-screenshot.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/remedy-max-payne-1-2-remake-rockstar-relationship",
+      "title": "Remedy CEO praises Rockstar's support for the Max Payne 1 & 2 remake and respecting Remedy's creative vision",
+      "original_title": "Remedy CEO praises Rockstar's support for the Max Payne 1 & 2 remake and respecting Remedy's creative vision",
+      "image": "https://assetsio.gnwcdn.com/max-payne-remedy.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-23",
-      "summary": " Gaming tech giant Nvidia has decided to reinstate Jensen Huang as its president and CEO, despite allegedly saying it wouldn't, and despite a string of extramarital affairs and investigations into alleged bullying, workplace harassment, and humiliati...",
+      "date": "2026-11-24",
+      "summary": " Alan Wake and Control studio Remedy Entertainment is currently developing a highly-anticipated Max Payne 1 & 2 remake. The Finnish studio is doing so in partnership with Grand Theft Auto 6 studio Rockstar, which owns the IP and is funding the remake...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/nvidia-jensen-huang-ceo-reinstated-affair"
+      "url": "https://www.eurogamer.net/remedy-max-payne-1-2-remake-rockstar-relationship"
     },
     {
-      "id": "https://www.eurogamer.net/gta-6-car-theft-gamified",
-      "title": "Has Rockstar taken the \"Grand Theft Auto\" out of GTA 6? Or has it just gamified car-jacking properly for the first time?",
-      "original_title": "Has Rockstar taken the \"Grand Theft Auto\" out of GTA 6? Or has it just gamified car-jacking properly for the first time?",
-      "image": "https://assetsio.gnwcdn.com/car-gta-6.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/blizzard-world-of-warcraft-forever-gold-exploits",
+      "title": "As Blizzard whacks one World of Warcraft: Forever gold farming exploit, it struggles to contain all of the alternatives popping up",
+      "original_title": "As Blizzard whacks one World of Warcraft: Forever gold farming exploit, it struggles to contain all of the alternatives popping up",
+      "image": "https://assetsio.gnwcdn.com/world-of-warcraft-forever-kroldrok-stronghold-jpg.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-23",
-      "summary": " It's impossible to have a big game launch these days without some section of the internet, somewhere, finding grievances with the final product because it does not align with the expectations they had pre-release. Read more...",
+      "date": "2026-11-24",
+      "summary": " World of Warcraft: Forever is in the grip of a gold-farming bonanza, as Blizzard's attempts to curb them are met with a seemingly endless wave of alternative money-making methods. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/gta-6-car-theft-gamified"
+      "url": "https://www.eurogamer.net/blizzard-world-of-warcraft-forever-gold-exploits"
     },
     {
-      "id": "https://www.eurogamer.net/grand-theft-auto-6-60-fps-glitch-xbox",
-      "title": "GTA 6 can run at 60fps on Xbox Series X if you use a glitch, but there's a catch",
-      "original_title": "GTA 6 can run at 60fps on Xbox Series X if you use a glitch, but there's a catch",
-      "image": "https://assetsio.gnwcdn.com/GTA6_5nov-(29).jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/nintendo-switch-update-version-2-2-0-borders",
+      "title": "Today's Nintendo Switch Online update finally introduces a feature players have been asking for since 2018",
+      "original_title": "Today's Nintendo Switch Online update finally introduces a feature players have been asking for since 2018",
+      "image": "https://assetsio.gnwcdn.com/border-switch.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-23",
-      "summary": " Grand Theft Auto 6 runs at 30 frames-per-second across all the consoles it's currently available on, including the more powerful PlayStation 5 Pro. The game doesn't offer a 60fps performance mode or an option to unlock the frame-rate, but one indust...",
+      "date": "2026-11-24",
+      "summary": " There's been an exciting addition to the Nintendo Classics GameCube app today, as users have discovered a small - but oft-requested - change in the software's Version 2.2.0.\n Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/grand-theft-auto-6-60-fps-glitch-xbox"
+      "url": "https://www.eurogamer.net/nintendo-switch-update-version-2-2-0-borders"
     },
     {
-      "id": "https://www.eurogamer.net/gta-6-metacritic-review-bomb",
-      "title": "Metacritic's user review problem worsens, as GTA 6's launch prompts review-bombing for completely unrelated games like Soul Calibur and The Ocarina of Time",
-      "original_title": "Metacritic's user review problem worsens, as GTA 6's launch prompts review-bombing for completely unrelated games like Soul Calibur and The Ocarina of Time",
-      "image": "https://assetsio.gnwcdn.com/grand-theft-auto-6-man-with-flour-on-his-nose.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/grand-theft-auto-6-project-leonida-discord-github-vanish",
+      "title": "Unofficial GTA 6 PC port effort suffers setback as Rockstar seemingly takes down Project Leonida, one of the internet's biggest recompilation projects",
+      "original_title": "Unofficial GTA 6 PC port effort suffers setback as Rockstar seemingly takes down Project Leonida, one of the internet's biggest recompilation projects",
+      "image": "https://assetsio.gnwcdn.com/gta-6-hackers.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-23",
-      "summary": " In the wake of Grand Theft Auto 6's release and the wave of glowing reviews it received, a war is raging in Metacritic's user reviews, with some of the medium's best games of all time caught in the crossfire. Read more...",
+      "date": "2026-11-24",
+      "summary": " A lot has happened in the last 24 hours in the community working to get Grand Theft Auto 6 running on PC. And now, Rockstar has dealt a major blow to their efforts. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/gta-6-metacritic-review-bomb"
+      "url": "https://www.eurogamer.net/grand-theft-auto-6-project-leonida-discord-github-vanish"
     },
     {
-      "id": "https://www.eurogamer.net/queens-domain-review",
-      "title": "Queen's Domain review",
-      "original_title": "Queen's Domain review",
-      "image": "https://assetsio.gnwcdn.com/queens-domain-header_not_gta2.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/red-dead-redemption-movie-tv-rights-100-million-usd-no-gta",
+      "title": "Rockstar is actively shopping Red Dead Redemption movie and TV rights around, just don't expect the same for Grand Theft Auto",
+      "original_title": "Rockstar is actively shopping Red Dead Redemption movie and TV rights around, just don't expect the same for Grand Theft Auto",
+      "image": "https://assetsio.gnwcdn.com/rdr-2-hollywood-header-1.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-23",
-      "summary": " Where to start with Queen's Domain? It's tempting to begin with King's Field; after all, FromSoftware's seminal first-person action-RPG is an explicit inspiration for developer Freshly Baked Games. But 40 hours later, it feels like so much more. It'...",
+      "date": "2026-11-24",
+      "summary": " Rockstar Games is seemingly interested in expanding Red Dead Redemption beyond video games, after years of Hollywood knocking on its doors. According to a new report, the company is looking for someone to pick up the movie and TV rights for its open...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/queens-domain-review"
+      "url": "https://www.eurogamer.net/red-dead-redemption-movie-tv-rights-100-million-usd-no-gta"
     },
     {
-      "id": "https://www.techpowerup.com/355144/gta-vi-launch-weekend-sees-nearly-45-million-copies-sold",
-      "title": "GTA VI Launch Weekend Sees Nearly 45 Million Copies Sold",
-      "original_title": "GTA VI Launch Weekend Sees Nearly 45 Million Copies Sold",
-      "image": "https://tpucdn.com/img/ubYJY51sfC1ircIr_thm.jpg",
+      "id": "https://www.techpowerup.com/355181/hp-inc-reports-fiscal-2026-full-year-and-fourth-quarter-results",
+      "title": "(PR) HP Inc. Reports Fiscal 2026 Full Year and Fourth Quarter Results",
+      "original_title": "(PR) HP Inc. Reports Fiscal 2026 Full Year and Fourth Quarter Results",
+      "image": "https://tpucdn.com/img/JiM0DJFgUF6IKL0B_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-11-23",
-      "summary": "Already on launch day, it was well reported that GTA VI had shattered entertainment industry records, but it seems as though that was just the start of a legendary opening weekend. According to Alinea Analytics's Rhys Elliott in a recent post on X, G...",
+      "date": "2026-11-24",
+      "summary": "HP Inc. and its subsidiaries (\"HP\" or the \"Company\") announced fiscal 2026 net revenue of $60.5 billion, up 9.5% (up 7.8% in constant currency) from the prior-year period.\n\nFiscal 2026 GAAP diluted net EPS was $2.62, down from $2.65 in the prior-year...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/355144/gta-vi-launch-weekend-sees-nearly-45-million-copies-sold"
+      "url": "https://www.techpowerup.com/355181/hp-inc-reports-fiscal-2026-full-year-and-fourth-quarter-results"
+    },
+    {
+      "id": "https://www.techpowerup.com/354886/revopoint-launches-miraco-2-on-kickstarter-scan-in-one-create-with-agents",
+      "title": "Revopoint Launches MIRACO 2 on Kickstarter: Scan in One, Create with Agents",
+      "original_title": "Revopoint Launches MIRACO 2 on Kickstarter: Scan in One, Create with Agents",
+      "image": "https://tpucdn.com/img/x7Rj0jpGtutjGte6_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-24",
+      "summary": "An all-in-one 3D scanner combining high-precision capture, powerful onboard computing, and AI-driven workflows—with Super Early Bird pricing starting at $1,425.\n\nThe Offer is available from today, November 18 on Kickstarter. Grab the Super Early Bird...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354886/revopoint-launches-miraco-2-on-kickstarter-scan-in-one-create-with-agents"
+    },
+    {
+      "id": "https://www.techpowerup.com/355180/dell-technologies-delivers-third-quarter-fiscal-2027-financial-results",
+      "title": "(PR) Dell Technologies Delivers Third Quarter Fiscal 2027 Financial Results",
+      "original_title": "(PR) Dell Technologies Delivers Third Quarter Fiscal 2027 Financial Results",
+      "image": "https://tpucdn.com/img/OFFkzsbGnvnGvodG_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-24",
+      "summary": "Dell Technologies (NYSE: DELL) announces financial results for its fiscal 2027 third quarter and provides guidance for its fiscal 2027 fourth quarter and full year.\n\nThird-Quarter SummaryRecord revenue of $54.9 billion, up 103% year-over-yearRecord d...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/355180/dell-technologies-delivers-third-quarter-fiscal-2027-financial-results"
+    },
+    {
+      "id": "https://www.techpowerup.com/354930/innocn-black-friday-monitor-deals-save-on-qd-oled-gaming-ultrawide-and-4k-displays",
+      "title": "INNOCN Black Friday Monitor Deals: Save on QD-OLED Gaming, Ultrawide and 4K Displays",
+      "original_title": "INNOCN Black Friday Monitor Deals: Save on QD-OLED Gaming, Ultrawide and 4K Displays",
+      "image": "https://tpucdn.com/img/JFvsK1vE70rh6lzf_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-24",
+      "summary": "Looking to upgrade your gaming setup or add more screen space to your workstation? INNOCN is running Black Friday offers on eight monitors at Amazon US from November 19 through November 30, 2026. The lineup covers fast gaming displays, expansive ultr...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354930/innocn-black-friday-monitor-deals-save-on-qd-oled-gaming-ultrawide-and-4k-displays"
+    },
+    {
+      "id": "https://www.techpowerup.com/355176/ciri-will-be-far-more-hot-headed-than-geralt-in-the-witcher-4",
+      "title": "Ciri Will Be \"Far More Hot-Headed\" Than Geralt in The Witcher 4",
+      "original_title": "Ciri Will Be \"Far More Hot-Headed\" Than Geralt in The Witcher 4",
+      "image": "https://tpucdn.com/img/2JgiBmSznfqkIWln_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-24",
+      "summary": "CD Projekt Red has been working on The Witcher 4 for a number of years at this point, with the game currently slated to launch sometime in 2028, and, while fans are expecting a continuation of the story with Ciri as the main protagonist this time aro...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/355176/ciri-will-be-far-more-hot-headed-than-geralt-in-the-witcher-4"
+    },
+    {
+      "id": "https://www.techpowerup.com/355173/ubuntu-26-10-improves-intel-panther-lake-igpu-performance-on-linux",
+      "title": "Ubuntu 26.10 Improves Intel Panther Lake iGPU Performance on Linux",
+      "original_title": "Ubuntu 26.10 Improves Intel Panther Lake iGPU Performance on Linux",
+      "image": "https://tpucdn.com/img/FNtzyaal1DvovHcc_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-24",
+      "summary": "There was much excitement when Intel's Panther Lake CPUs launched with the powerful new Arc B390 iGPUs, and although Linux gaming performance was impressive on those systems, it always takes time for mainstream distributions, like Ubuntu, to catch up...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/355173/ubuntu-26-10-improves-intel-panther-lake-igpu-performance-on-linux"
     },
     {
       "id": "https://www.techpowerup.com/354822/put-your-gpu-to-work-offline-ai-video-enhancement-with-aiarty-black-friday-deal",
@@ -401,7 +500,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-11-23",
+      "date": "2026-11-24",
       "summary": "Modern GPUs are no longer used exclusively for gaming and 3D rendering. They also support an expanding range of local AI workloads, including image and video processing. For PC enthusiasts with large collections of older recordings, compressed clips,...",
       "sources": [
         "TechPowerUp"
@@ -409,19 +508,19 @@
       "url": "https://www.techpowerup.com/354822/put-your-gpu-to-work-offline-ai-video-enhancement-with-aiarty-black-friday-deal"
     },
     {
-      "id": "https://www.techpowerup.com/355141/intel-arc-g3-extreme-powered-onexplayer-x2-handheld-gets-limited-edition-evangelion-edition",
-      "title": "Intel Arc G3 Extreme-Powered OneXPlayer X2 Handheld Gets Limited Edition Evangelion Edition",
-      "original_title": "Intel Arc G3 Extreme-Powered OneXPlayer X2 Handheld Gets Limited Edition Evangelion Edition",
-      "image": "https://tpucdn.com/img/FD58MlKArQL9ipN8_thm.jpg",
+      "id": "https://www.techpowerup.com/355175/mambasnake-unveils-m1-qi-wireless-gaming-mouse",
+      "title": "(PR) MAMBASNAKE Unveils M1 QI Wireless Gaming Mouse",
+      "original_title": "(PR) MAMBASNAKE Unveils M1 QI Wireless Gaming Mouse",
+      "image": "https://tpucdn.com/img/bmDEMka1ustrIJnZ_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-11-23",
-      "summary": "One-Netbook, the maker of the OneXPlayer gaming handhelds and mini 2-in-1 laptops, like the X1 and X1 Pro, has officially announced the OneXPlayer X2 x Neon Genesis Evangelion Unit-02 Asuka Limited Edition handheld, giving the Intel Panther Lake-powe...",
+      "date": "2026-11-24",
+      "summary": "MAMBASNAKE, a high-end gaming peripheral brand dedicated to high-performance, player-centric hardware, has officially introduced the MAMBASNAKE M1 Wireless Gaming Mouse. Combining precision tracking, tri-mode connectivity and a Qi-standard magnetic w...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/355141/intel-arc-g3-extreme-powered-onexplayer-x2-handheld-gets-limited-edition-evangelion-edition"
+      "url": "https://www.techpowerup.com/355175/mambasnake-unveils-m1-qi-wireless-gaming-mouse"
     },
     {
       "id": "https://www.techpowerup.com/355019/gigabyte-and-newegg-bring-aorus-vs40-to-southern-california-in-november-2026",
@@ -431,7 +530,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-11-23",
+      "date": "2026-11-24",
       "summary": "GIGABYTE and Newegg will host AORUS VS40 at the Newegg Gamer Zone in City of Industry, California, on Saturday, November 21, 2026, from 11 a.m. to 4 p.m. PST. The event invites local collegiate PC gamers and hardware enthusiasts to celebrate 40 years...",
       "sources": [
         "TechPowerUp"
@@ -439,94 +538,19 @@
       "url": "https://www.techpowerup.com/355019/gigabyte-and-newegg-bring-aorus-vs40-to-southern-california-in-november-2026"
     },
     {
-      "id": "https://www.techpowerup.com/355143/cyberpowerpc-expands-ai-workstation-line-with-compact-amd-ryzen-ai-max-395-powered-desktop",
-      "title": "(PR) CyberPowerPC Expands AI Workstation Line with Compact AMD Ryzen AI Max+ 395 Powered Desktop",
-      "original_title": "(PR) CyberPowerPC Expands AI Workstation Line with Compact AMD Ryzen AI Max+ 395 Powered Desktop",
-      "image": "https://tpucdn.com/img/dluXyW2ssDjsyy0u_thm.jpg",
+      "id": "https://www.techpowerup.com/355171/inno3ds-single-slot-rtx-5060-ti-pro-gets-listed-in-japan-for-about-usd-1-060",
+      "title": "INNO3D's Single-Slot RTX 5060 Ti PRO Gets Listed in Japan for About $1,060",
+      "original_title": "INNO3D's Single-Slot RTX 5060 Ti PRO Gets Listed in Japan for About $1,060",
+      "image": "https://tpucdn.com/img/qYi2l4evHCNHYOzG_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-11-23",
-      "summary": "CyberPowerPC, a leading manufacturer of high-performance custom PCs, gaming rigs, and workstations, today announced its compact AI Workstation ASRock AI BOX-A395, powered by the AMD Ryzen AI Max+ 395 processor. The company also previewed its upcoming...",
+      "date": "2026-11-24",
+      "summary": "Single-slot graphics cards are quite a rare sight nowadays, especially for the newest generations from NVIDIA and AMD. INNO3D's RTX 5060 Ti PRO is seemingly a great option for those buyers who want a single-slot GPU for their compact builds. However,...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/355143/cyberpowerpc-expands-ai-workstation-line-with-compact-amd-ryzen-ai-max-395-powered-desktop"
-    },
-    {
-      "id": "https://www.techpowerup.com/355135/wacom-goes-private-in-usd-860-million-buyout-agreement",
-      "title": "Wacom Goes Private in $860 Million Buyout Agreement",
-      "original_title": "Wacom Goes Private in $860 Million Buyout Agreement",
-      "image": "https://tpucdn.com/img/RUxamnyfcxo1Sq6z_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-23",
-      "summary": "Wacom, arguably the industry leader in pen display tech for digital artists, and the maker of the EMR tech inside Samsung's S Pens, has officially declared that it is pursuing a buyout agreement to the tune of $860 million that would see the company ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/355135/wacom-goes-private-in-usd-860-million-buyout-agreement"
-    },
-    {
-      "id": "https://www.techpowerup.com/354313/max-out-your-gen-4-slot-predator-gm7-nvme-ssd-up-to-7400-mb-s",
-      "title": "Max Out Your Gen 4 Slot: Predator GM7 NVMe SSD (Up to 7400 MB/s)",
-      "original_title": "Max Out Your Gen 4 Slot: Predator GM7 NVMe SSD (Up to 7400 MB/s)",
-      "image": "https://tpucdn.com/img/OoYRVLJhnN4DJFN0_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-23",
-      "summary": "If you've been waiting for the Black Friday sales to upgrade your rig, expand your PS5 storage, or give your laptop a massive speed boost, the award-winning Predator GM7 PCIe 4.0 SSD is built to deliver top-tier performance without the top-tier heat....",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354313/max-out-your-gen-4-slot-predator-gm7-nvme-ssd-up-to-7400-mb-s"
-    },
-    {
-      "id": "https://www.techpowerup.com/355140/independent-web-browser-engine-ladybird-goes-into-alpha-release",
-      "title": "Independent Web Browser/Engine \"Ladybird\" Goes Into Alpha Release",
-      "original_title": "Independent Web Browser/Engine \"Ladybird\" Goes Into Alpha Release",
-      "image": "https://tpucdn.com/img/kZEEB6ICYK5jz1J2_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-23",
-      "summary": "One of the few independent web browser/engine projects, called Ladybird, has entered its alpha release, moving towards the final release. After four years of independent development, Ladybird is finally in alpha, allowing users and testers to try it ...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/355140/independent-web-browser-engine-ladybird-goes-into-alpha-release"
-    },
-    {
-      "id": "https://www.techpowerup.com/354429/which-water-filter-is-right-for-you-waterdrop-filters-black-friday-picks-for-different-needs",
-      "title": "Which Water Filter Is Right for You? Waterdrop Filter's Black Friday Picks for Different Needs",
-      "original_title": "Which Water Filter Is Right for You? Waterdrop Filter's Black Friday Picks for Different Needs",
-      "image": "https://tpucdn.com/img/R0nRKD5OZ2cSOQ4l_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-23",
-      "summary": "Clean, great-tasting water is part of everyday life, from the first glass in the morning to coffee, tea, and meals shared with family. A water filtration system that fits your home can make those daily moments more enjoyable.\n\nWaterdrop Filter offers...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354429/which-water-filter-is-right-for-you-waterdrop-filters-black-friday-picks-for-different-needs"
-    },
-    {
-      "id": "https://www.techpowerup.com/355134/hwinfo-can-now-serve-sensor-readings-to-phones-and-tablets-over-your-network",
-      "title": "HWiNFO Can Now Serve Sensor Readings to Phones and Tablets Over Your Network",
-      "original_title": "HWiNFO Can Now Serve Sensor Readings to Phones and Tablets Over Your Network",
-      "image": "https://tpucdn.com/img/teL0cXuuXV4wcTYj_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-23",
-      "summary": "HWiNFO has released version 8.61 Beta (build 6125), which adds a built-in REST API server. That addition now allows HWiNFO to serve every tracked sensor as JSON over HTTP or HTTPS, along with details such as units, descriptions, and sensor groupings....",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/355134/hwinfo-can-now-serve-sensor-readings-to-phones-and-tablets-over-your-network"
+      "url": "https://www.techpowerup.com/355171/inno3ds-single-slot-rtx-5060-ti-pro-gets-listed-in-japan-for-about-usd-1-060"
     }
   ]
 }
