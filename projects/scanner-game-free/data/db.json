@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-11-24T21:57:09",
-  "display_date": "24/11/2026 21:57",
+  "last_updated": "2026-11-25T21:06:58",
+  "display_date": "25/11/2026 21:06",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "155ms",
+    "latency": "970ms",
     "current_games": [
       {
         "title": "Mark of the Deep",
@@ -81,6 +81,15 @@
         "end_date": "2027-01-07T16:00:00.000Z"
       },
       {
+        "title": "Castlevania Anniversary Collection",
+        "description": "Konami's Castlevania Anniversary Collection traces the origins of the historic vampire franchise. Included is a unique eBook with details provided by developers, artists and others inspired by the Castlevania legacy which sheds a fresh light into the world of Castlevania.",
+        "image": "https://cdn1.epicgames.com/spt-assets/1ff2f74ba0ef4019b6905d8abe268819/castlevania-anniversary-collection-yex6f.jpg",
+        "url": "https://store.epicgames.com/p/32b3e0adbe0c4399be1874958194f97f",
+        "price": "$19.99",
+        "start_date": "2026-12-10T16:00:00.000Z",
+        "end_date": "2027-01-07T16:00:00.000Z"
+      },
+      {
         "title": "Monument Valley",
         "description": "Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
         "image": "https://cdn1.epicgames.com/spt-assets/e56a7411805046d3b5b7253a6e4e0faa/monument-valley-1gys5.jpg",
@@ -110,7 +119,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Free Games",
-      "date": "2026-11-24",
+      "date": "2026-11-25",
       "summary": "Mark of the Deep is an epic pirate-themed adventure with a strong narrative and a thrilling mix of Metroidvania and Souls-Like elements. Embark on this journey, explore the mysteries of a cursed island and find your missing pirate crew!",
       "sources": [
         "Epic Games Store"
@@ -125,7 +134,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-24",
+      "date": "2026-11-25",
       "summary": "Disponível gratuitamente a partir de 26/11. Your heroes never stop fighting. Build an unstoppable team in a fantasy idle RPG with AFK progression and offline rewards. Collect heroes and powerful gear, master formations, defeat epic bosses, and return to bigger rewards and endless incremental growth.",
       "sources": [
         "Epic Games Store"
@@ -140,7 +149,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-24",
+      "date": "2026-11-25",
       "summary": "Disponível gratuitamente a partir de 10/12. Grab your best bud for help in this new co-op challenge to help two adorable penguins, Bread and Fred, reach the top of the snowy summit. Time your jumps, cling to walls and swing across gaps to see how far you can make it before you tumble all the way back down the mountain.",
       "sources": [
         "Epic Games Store"
@@ -155,7 +164,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-24",
+      "date": "2026-11-25",
       "summary": "Disponível gratuitamente a partir de 26/11. Grab your best bud for help in this new co-op challenge to help two adorable penguins, Bread and Fred, reach the top of the snowy summit. Time your jumps, cling to walls and swing across gaps to see how far you can make it before you tumble all the way back down the mountain.",
       "sources": [
         "Epic Games Store"
@@ -170,7 +179,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-24",
+      "date": "2026-11-25",
       "summary": "Disponível gratuitamente a partir de 27/11. Eternal Threads is a single-player, first-person story-driven puzzle game of time manipulation, choice and consequence.",
       "sources": [
         "Epic Games Store"
@@ -185,7 +194,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-24",
+      "date": "2026-11-25",
       "summary": "Disponível gratuitamente a partir de 10/12. Eternal Threads is a single-player, first-person story-driven puzzle game of time manipulation, choice and consequence.",
       "sources": [
         "Epic Games Store"
@@ -200,7 +209,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-24",
+      "date": "2026-11-25",
       "summary": "Disponível gratuitamente a partir de 10/12. Ghostrunner 2 is a hardcore FPP slasher set in a post-apocalyptic, cyberpunk world. Featuring everything fans loved about Ghostrunner plus incredible boss fights, new interactive story, thrilling motorbike levels, improved skills, and more cyber ninja action. ",
       "sources": [
         "Epic Games Store"
@@ -215,12 +224,27 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-24",
+      "date": "2026-11-25",
       "summary": "Disponível gratuitamente a partir de 10/12. Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/lisa-the-definitive-edition"
+    },
+    {
+      "id": "https://store.epicgames.com/p/32b3e0adbe0c4399be1874958194f97f",
+      "title": "EM BREVE: Castlevania Anniversary Collection",
+      "original_title": "Castlevania Anniversary Collection",
+      "image": "https://cdn1.epicgames.com/spt-assets/1ff2f74ba0ef4019b6905d8abe268819/castlevania-anniversary-collection-yex6f.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-11-25",
+      "summary": "Disponível gratuitamente a partir de 10/12. Konami's Castlevania Anniversary Collection traces the origins of the historic vampire franchise. Included is a unique eBook with details provided by developers, artists and others inspired by the Castlevania legacy which sheds a fresh light into the world of Castlevania.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/32b3e0adbe0c4399be1874958194f97f"
     },
     {
       "id": "https://store.epicgames.com/p/monument-valley-02",
@@ -230,7 +254,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-24",
+      "date": "2026-11-25",
       "summary": "Disponível gratuitamente a partir de 10/12. Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
       "sources": [
         "Epic Games Store"
@@ -245,7 +269,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-24",
+      "date": "2026-11-25",
       "summary": "Disponível gratuitamente a partir de 27/11. The skies are aflame and the seas will overflow with wreckage in Vlambeer’s stylish arcade shooter LUFTRAUSERS! Take to the skies in customized fighter planes to battle battleships, submarines, and rival aces for glory, honor, and high scores.",
       "sources": [
         "Epic Games Store"
@@ -253,169 +277,169 @@
       "url": "https://store.epicgames.com/p/luftrausers"
     },
     {
-      "id": "https://www.eurogamer.net/lords-of-the-fallen-2-delayed-april-2027",
-      "title": "Lords of the Fallen 2 delayed to April 2027, exact release date coming next month",
-      "original_title": "Lords of the Fallen 2 delayed to April 2027, exact release date coming next month",
-      "image": "https://assetsio.gnwcdn.com/Lords-of-the-Fallen-II---Announcement-Trailer-_-PS5-Games-0-28-screenshot-(1).png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/fable-the-witcher-3-gold-standard",
+      "title": "The Fable reboot had to look beyond Lionhead's RPG trilogy because games like The Witcher 3 \"became the gold standard\"",
+      "original_title": "The Fable reboot had to look beyond Lionhead's RPG trilogy because games like The Witcher 3 \"became the gold standard\"",
+      "image": "https://assetsio.gnwcdn.com/fighting-a-fire-breathing-chicken-in-Fable.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-24",
-      "summary": " Lords of the Fallen 2 will now launch in April 2027, and we'll find out exactly when next month. Read more...",
+      "date": "2026-11-25",
+      "summary": " Developer Playground Games had to look beyond Lionhead's original run of Fable games when rebooting the classic fantasy series, and it's all thanks to games like The Witcher 3, which changed what many players expect from their big RPGs and set a new...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/lords-of-the-fallen-2-delayed-april-2027"
+      "url": "https://www.eurogamer.net/fable-the-witcher-3-gold-standard"
     },
     {
-      "id": "https://www.eurogamer.net/steam-awards-2026-nominations-open-hall-of-fame",
-      "title": "The Steam Awards turn 10 with throwback categories and a Game of the Year Hall of Fame",
-      "original_title": "The Steam Awards turn 10 with throwback categories and a Game of the Year Hall of Fame",
-      "image": "https://assetsio.gnwcdn.com/Screenshot-2026-11-24-at-18.32.30.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/hideki-kamiya-konami-truly-insane-castlevania",
+      "title": "Original Devil May Cry and Bayonetta director Hideki Kamiya really wants Konami to let him make a \"truly insane\" Castlevania game",
+      "original_title": "Original Devil May Cry and Bayonetta director Hideki Kamiya really wants Konami to let him make a \"truly insane\" Castlevania game",
+      "image": "https://assetsio.gnwcdn.com/0608_01.png?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-24",
-      "summary": " Nominations for the 2026 Steam Awards are now open, and to mark the event's 10th anniversary, Valve has brought back some categories from years past and added a Hall of Fame. Read more...",
+      "date": "2026-11-25",
+      "summary": " Action game maestro Hideki Kamiya really wants to make a new Castlevania game with publisher Konami. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/steam-awards-2026-nominations-open-hall-of-fame"
+      "url": "https://www.eurogamer.net/hideki-kamiya-konami-truly-insane-castlevania"
     },
     {
-      "id": "https://www.eurogamer.net/cd-projekt-red-cdpr-witcher-3-4-gta-5-6",
-      "title": "You can expect a similar leap between The Witcher 3 and The Witcher 4 as there is between GTA 5 and GTA 6, CD Projekt Red says",
-      "original_title": "You can expect a similar leap between The Witcher 3 and The Witcher 4 as there is between GTA 5 and GTA 6, CD Projekt Red says",
-      "image": "https://assetsio.gnwcdn.com/ciri-the-witcher-4.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/ea-sports-fc27-dead-commentator-ai",
+      "title": "EA is resurrecting a dead commentator with AI for EA Sports FC 27, years after his last appearance in a FIFA game",
+      "original_title": "EA is resurrecting a dead commentator with AI for EA Sports FC 27, years after his last appearance in a FIFA game",
+      "image": "https://assetsio.gnwcdn.com/ea-fc-27-best-wonderkids-00.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-24",
-      "summary": " CD Projekt Red has said people can expect a similar qualitative and technological leap from The Witcher 3 to The Witcher 4 as has been witnessed between Grand Theft Auto 5 and Grand Theft Auto 6. Read more...",
+      "date": "2026-11-25",
+      "summary": " EA Sports FC 27 is using gen-AI to digitally recreate the voice of veteran football commentator John Motson - the FIFA video game series' first ever real-world announcer who died in 2023. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/cd-projekt-red-cdpr-witcher-3-4-gta-5-6"
+      "url": "https://www.eurogamer.net/ea-sports-fc27-dead-commentator-ai"
     },
     {
-      "id": "https://www.eurogamer.net/gta-6-call-of-duty-fortnite-fc-27-daily-players-alinea",
-      "title": "GTA 6 launch knocked Call of Duty's daily players down 42 percent, Alinea estimates",
-      "original_title": "GTA 6 launch knocked Call of Duty's daily players down 42 percent, Alinea estimates",
-      "image": "https://assetsio.gnwcdn.com/Screenshot-2026-11-24-at-17.54.07.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/playstation-plus-monthly-games-december-2026",
+      "title": "Here are our PS Plus monthly games for December 2026",
+      "original_title": "Here are our PS Plus monthly games for December 2026",
+      "image": "https://assetsio.gnwcdn.com/playstation-plus-june-header.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-24",
-      "summary": " Grand Theft Auto 6's launch took a big bite out of Call of Duty’s player base, according to new estimates from Alinea Analytics, and four days on, it still hasn't recovered. Read more...",
+      "date": "2026-11-25",
+      "summary": " There's a chill in the air and a snowman (plastic) at the end of the street, meaning winter is firmly upon us. So what better way to make it way through the long dark nights than a spot of festmas gaming. And hark, just in the nick of time, PlayStat...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/gta-6-call-of-duty-fortnite-fc-27-daily-players-alinea"
+      "url": "https://www.eurogamer.net/playstation-plus-monthly-games-december-2026"
     },
     {
-      "id": "https://www.eurogamer.net/grand-theft-auto-6-beer-robberies",
-      "title": "GTA 6 players are discovering, who needs a gun when it's easier to rob a store with a crate of beer?",
-      "original_title": "GTA 6 players are discovering, who needs a gun when it's easier to rob a store with a crate of beer?",
-      "image": "https://assetsio.gnwcdn.com/GTA-6-review-25.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/gta-6-empathy-criminal-profile-why-rockstar-added-it-rob-nelson",
+      "title": "Why did Rockstar Games make empathy a key mechanic in GTA 6? \"Because it's fun\" says head of development Rob Nelson",
+      "original_title": "Why did Rockstar Games make empathy a key mechanic in GTA 6? \"Because it's fun\" says head of development Rob Nelson",
+      "image": "https://assetsio.gnwcdn.com/GTA-6-review-14.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-24",
-      "summary": " Guns might be the weapon of choice for most Grand Theft Auto 6 players, but it turns out some enterprising digital criminals are taking a more inventive approach to robberies. Who needs a gun by their side when you've got a crate of beer? Read more...",
+      "date": "2026-11-25",
+      "summary": " There's been plenty of chatter about Grand Theft Auto 6's 'honour system', so to speak, implemented here via what the game calls your Criminal Profile. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/grand-theft-auto-6-beer-robberies"
+      "url": "https://www.eurogamer.net/gta-6-empathy-criminal-profile-why-rockstar-added-it-rob-nelson"
     },
     {
-      "id": "https://www.eurogamer.net/remedy-max-payne-1-2-remake-rockstar-relationship",
-      "title": "Remedy CEO praises Rockstar's support for the Max Payne 1 & 2 remake and respecting Remedy's creative vision",
-      "original_title": "Remedy CEO praises Rockstar's support for the Max Payne 1 & 2 remake and respecting Remedy's creative vision",
-      "image": "https://assetsio.gnwcdn.com/max-payne-remedy.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/world-of-warcraft-forever-revelation-enchantment-nerfed",
+      "title": "World of Warcraft: Forever's best new enchantment has been quietly changed, leaving some casters on the back foot",
+      "original_title": "World of Warcraft: Forever's best new enchantment has been quietly changed, leaving some casters on the back foot",
+      "image": "https://assetsio.gnwcdn.com/world-of-warcraft-skyborne-jpg.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-24",
-      "summary": " Alan Wake and Control studio Remedy Entertainment is currently developing a highly-anticipated Max Payne 1 & 2 remake. The Finnish studio is doing so in partnership with Grand Theft Auto 6 studio Rockstar, which owns the IP and is funding the remake...",
+      "date": "2026-11-25",
+      "summary": " As World of Warcraft: Forever players dived into the game, they quickly discovered a specific weapon enchant that took area of effect spells to a whole other level. Sadly, with a sudden hotfix last night, this particular use case for the enchant has...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/remedy-max-payne-1-2-remake-rockstar-relationship"
+      "url": "https://www.eurogamer.net/world-of-warcraft-forever-revelation-enchantment-nerfed"
     },
     {
-      "id": "https://www.eurogamer.net/blizzard-world-of-warcraft-forever-gold-exploits",
-      "title": "As Blizzard whacks one World of Warcraft: Forever gold farming exploit, it struggles to contain all of the alternatives popping up",
-      "original_title": "As Blizzard whacks one World of Warcraft: Forever gold farming exploit, it struggles to contain all of the alternatives popping up",
-      "image": "https://assetsio.gnwcdn.com/world-of-warcraft-forever-kroldrok-stronghold-jpg.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/hollow-knight-silksong-dlc-livestream-sea-of-sorrows-update",
+      "title": "Hollow Knight: Silksong devs announce a livestream for Friday, promise updates on the hotly-anticipated Sea of Sorrow DLC",
+      "original_title": "Hollow Knight: Silksong devs announce a livestream for Friday, promise updates on the hotly-anticipated Sea of Sorrow DLC",
+      "image": "https://assetsio.gnwcdn.com/cherry-time.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-24",
-      "summary": " World of Warcraft: Forever is in the grip of a gold-farming bonanza, as Blizzard's attempts to curb them are met with a seemingly endless wave of alternative money-making methods. Read more...",
+      "date": "2026-11-25",
+      "summary": " Hollow Knight: Silksong developer Team Cherry has announced it will host a 'Cherry Time Special Presentation' on 27th November, bringing more information to light about the game's first big DLC offering, Sea of Sorrows. We know that the free update ...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/blizzard-world-of-warcraft-forever-gold-exploits"
+      "url": "https://www.eurogamer.net/hollow-knight-silksong-dlc-livestream-sea-of-sorrows-update"
     },
     {
-      "id": "https://www.eurogamer.net/nintendo-switch-update-version-2-2-0-borders",
-      "title": "Today's Nintendo Switch Online update finally introduces a feature players have been asking for since 2018",
-      "original_title": "Today's Nintendo Switch Online update finally introduces a feature players have been asking for since 2018",
-      "image": "https://assetsio.gnwcdn.com/border-switch.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/grand-theft-auto-6-gen-ai-chatbots-work-faster-prompts",
+      "title": "GTA 6 recompilers and vibe-coders implore AI chatbots to 'work faster' and 'make no mistakes' as they race to get the game running on PC",
+      "original_title": "GTA 6 recompilers and vibe-coders implore AI chatbots to 'work faster' and 'make no mistakes' as they race to get the game running on PC",
+      "image": "https://assetsio.gnwcdn.com/gta-6-vice-city-car-interior-1.jpeg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-24",
-      "summary": " There's been an exciting addition to the Nintendo Classics GameCube app today, as users have discovered a small - but oft-requested - change in the software's Version 2.2.0.\n Read more...",
+      "date": "2026-11-25",
+      "summary": " Things continue to get messy in the community of players working on getting Grand Theft Auto 6 working on PC. The previous frontrunner, Project Leonida, got their Discord server and GitHub repository taken down by Rockstar, but others have seemingly...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/nintendo-switch-update-version-2-2-0-borders"
+      "url": "https://www.eurogamer.net/grand-theft-auto-6-gen-ai-chatbots-work-faster-prompts"
     },
     {
-      "id": "https://www.eurogamer.net/grand-theft-auto-6-project-leonida-discord-github-vanish",
-      "title": "Unofficial GTA 6 PC port effort suffers setback as Rockstar seemingly takes down Project Leonida, one of the internet's biggest recompilation projects",
-      "original_title": "Unofficial GTA 6 PC port effort suffers setback as Rockstar seemingly takes down Project Leonida, one of the internet's biggest recompilation projects",
-      "image": "https://assetsio.gnwcdn.com/gta-6-hackers.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/im-having-a-much-better-time-in-gta-6-now-ive-disabled-its-pesky-criminal-profile-pings",
+      "title": "I'm having a much better time in GTA 6 now I've disabled its pesky Criminal Profile pings",
+      "original_title": "I'm having a much better time in GTA 6 now I've disabled its pesky Criminal Profile pings",
+      "image": "https://assetsio.gnwcdn.com/gta-lucia-psycho.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-24",
-      "summary": " A lot has happened in the last 24 hours in the community working to get Grand Theft Auto 6 running on PC. And now, Rockstar has dealt a major blow to their efforts. Read more...",
+      "date": "2026-11-25",
+      "summary": " Do you think you'd enjoy invasive UI elements in real life? You crouch to fuss your dog, and a little ping activates in your retina, informing you that you've just earned plus-three serotonin. Your boss chews you out for coming into work 15 minutes ...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/grand-theft-auto-6-project-leonida-discord-github-vanish"
+      "url": "https://www.eurogamer.net/im-having-a-much-better-time-in-gta-6-now-ive-disabled-its-pesky-criminal-profile-pings"
     },
     {
-      "id": "https://www.eurogamer.net/red-dead-redemption-movie-tv-rights-100-million-usd-no-gta",
-      "title": "Rockstar is actively shopping Red Dead Redemption movie and TV rights around, just don't expect the same for Grand Theft Auto",
-      "original_title": "Rockstar is actively shopping Red Dead Redemption movie and TV rights around, just don't expect the same for Grand Theft Auto",
-      "image": "https://assetsio.gnwcdn.com/rdr-2-hollywood-header-1.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/diablo-4-season-16-keeping-season-15-diablo-2-anniversary",
+      "title": "Blizzard is making a lot of the Diablo 4's event-specific Diablo 2 anniversary content permanent because everyone loved it in Season 15",
+      "original_title": "Blizzard is making a lot of the Diablo 4's event-specific Diablo 2 anniversary content permanent because everyone loved it in Season 15",
+      "image": "https://assetsio.gnwcdn.com/diablo-4-season-of-hells-legacy-keyart-1.jpeg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-24",
-      "summary": " Rockstar Games is seemingly interested in expanding Red Dead Redemption beyond video games, after years of Hollywood knocking on its doors. According to a new report, the company is looking for someone to pick up the movie and TV rights for its open...",
+      "date": "2026-11-25",
+      "summary": " Blizzard has officially unveiled Diablo 4's next live-service season: Season of Tyrael's Gambit. This is the ARPG's 16th season, and it follows on from the popular and well-received Season of Hell's Legacy. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/red-dead-redemption-movie-tv-rights-100-million-usd-no-gta"
+      "url": "https://www.eurogamer.net/diablo-4-season-16-keeping-season-15-diablo-2-anniversary"
     },
     {
-      "id": "https://www.techpowerup.com/355181/hp-inc-reports-fiscal-2026-full-year-and-fourth-quarter-results",
-      "title": "(PR) HP Inc. Reports Fiscal 2026 Full Year and Fourth Quarter Results",
-      "original_title": "(PR) HP Inc. Reports Fiscal 2026 Full Year and Fourth Quarter Results",
-      "image": "https://tpucdn.com/img/JiM0DJFgUF6IKL0B_thm.jpg",
+      "id": "https://www.techpowerup.com/355214/asus-rog-xg-station-3-gets-eu-launch-and-immediately-sells-below-msrp",
+      "title": "ASUS ROG XG Station 3 Gets EU Launch and Immediately Sells Below MSRP",
+      "original_title": "ASUS ROG XG Station 3 Gets EU Launch and Immediately Sells Below MSRP",
+      "image": "https://tpucdn.com/img/4fwZGErTOcs1yJ3C_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-11-24",
-      "summary": "HP Inc. and its subsidiaries (\"HP\" or the \"Company\") announced fiscal 2026 net revenue of $60.5 billion, up 9.5% (up 7.8% in constant currency) from the prior-year period.\n\nFiscal 2026 GAAP diluted net EPS was $2.62, down from $2.65 in the prior-year...",
+      "date": "2026-11-25",
+      "summary": "ASUS announced the ROG Station 3 in early November, revealing that the new Thunderbolt 5 eGPU dock would go so far as to support ASUS's BTF 2.5 GPUs. It will also feature up to 140 W USB PD for laptop and handheld docking purposes. ASUS, however, did...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/355181/hp-inc-reports-fiscal-2026-full-year-and-fourth-quarter-results"
+      "url": "https://www.techpowerup.com/355214/asus-rog-xg-station-3-gets-eu-launch-and-immediately-sells-below-msrp"
     },
     {
       "id": "https://www.techpowerup.com/354886/revopoint-launches-miraco-2-on-kickstarter-scan-in-one-create-with-agents",
@@ -425,7 +449,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-11-24",
+      "date": "2026-11-25",
       "summary": "An all-in-one 3D scanner combining high-precision capture, powerful onboard computing, and AI-driven workflows—with Super Early Bird pricing starting at $1,425.\n\nThe Offer is available from today, November 18 on Kickstarter. Grab the Super Early Bird...",
       "sources": [
         "TechPowerUp"
@@ -433,19 +457,19 @@
       "url": "https://www.techpowerup.com/354886/revopoint-launches-miraco-2-on-kickstarter-scan-in-one-create-with-agents"
     },
     {
-      "id": "https://www.techpowerup.com/355180/dell-technologies-delivers-third-quarter-fiscal-2027-financial-results",
-      "title": "(PR) Dell Technologies Delivers Third Quarter Fiscal 2027 Financial Results",
-      "original_title": "(PR) Dell Technologies Delivers Third Quarter Fiscal 2027 Financial Results",
-      "image": "https://tpucdn.com/img/OFFkzsbGnvnGvodG_thm.jpg",
+      "id": "https://www.techpowerup.com/355211/gta-vi-console-graphics-settings-revealed-higher-framerate-theoretically-possible-on-ps5-pro",
+      "title": "GTA VI Console Graphics Settings Revealed: Higher Framerate Theoretically Possible on PS5 Pro",
+      "original_title": "GTA VI Console Graphics Settings Revealed: Higher Framerate Theoretically Possible on PS5 Pro",
+      "image": "https://tpucdn.com/img/oTSYQHiObnA54ndV_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-11-24",
-      "summary": "Dell Technologies (NYSE: DELL) announces financial results for its fiscal 2027 third quarter and provides guidance for its fiscal 2027 fourth quarter and full year.\n\nThird-Quarter SummaryRecord revenue of $54.9 billion, up 103% year-over-yearRecord d...",
+      "date": "2026-11-25",
+      "summary": "Since the launch of GTA VI, gamers, modders, and hackers alike have been hacking away at the game's files to see what they can break, whether that be in order to unofficially port the game to PC, find workarounds to Rockstar's limitations, or just fo...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/355180/dell-technologies-delivers-third-quarter-fiscal-2027-financial-results"
+      "url": "https://www.techpowerup.com/355211/gta-vi-console-graphics-settings-revealed-higher-framerate-theoretically-possible-on-ps5-pro"
     },
     {
       "id": "https://www.techpowerup.com/354930/innocn-black-friday-monitor-deals-save-on-qd-oled-gaming-ultrawide-and-4k-displays",
@@ -455,7 +479,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-11-24",
+      "date": "2026-11-25",
       "summary": "Looking to upgrade your gaming setup or add more screen space to your workstation? INNOCN is running Black Friday offers on eight monitors at Amazon US from November 19 through November 30, 2026. The lineup covers fast gaming displays, expansive ultr...",
       "sources": [
         "TechPowerUp"
@@ -463,34 +487,19 @@
       "url": "https://www.techpowerup.com/354930/innocn-black-friday-monitor-deals-save-on-qd-oled-gaming-ultrawide-and-4k-displays"
     },
     {
-      "id": "https://www.techpowerup.com/355176/ciri-will-be-far-more-hot-headed-than-geralt-in-the-witcher-4",
-      "title": "Ciri Will Be \"Far More Hot-Headed\" Than Geralt in The Witcher 4",
-      "original_title": "Ciri Will Be \"Far More Hot-Headed\" Than Geralt in The Witcher 4",
-      "image": "https://tpucdn.com/img/2JgiBmSznfqkIWln_thm.jpg",
+      "id": "https://www.techpowerup.com/355196/nvidia-cuts-rtx-50-series-supply-as-rtx-60-series-faces-possible-delay-per-reports",
+      "title": "NVIDIA Cuts RTX 50-Series Supply as RTX 60-Series Faces Possible Delay, Per Reports",
+      "original_title": "NVIDIA Cuts RTX 50-Series Supply as RTX 60-Series Faces Possible Delay, Per Reports",
+      "image": "https://tpucdn.com/img/tUfETS5WEl00Mgfj_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-11-24",
-      "summary": "CD Projekt Red has been working on The Witcher 4 for a number of years at this point, with the game currently slated to launch sometime in 2028, and, while fans are expecting a continuation of the story with Ciri as the main protagonist this time aro...",
+      "date": "2026-11-25",
+      "summary": "NVIDIA celebrated Jensen Huang's return this week, but that doesn't mean the GPU shortage is over. In fact, reports from the Chinese distribution forum Board Channels claim that NVIDIA is planning to cut RTX 50-series supply even further. Apparently,...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/355176/ciri-will-be-far-more-hot-headed-than-geralt-in-the-witcher-4"
-    },
-    {
-      "id": "https://www.techpowerup.com/355173/ubuntu-26-10-improves-intel-panther-lake-igpu-performance-on-linux",
-      "title": "Ubuntu 26.10 Improves Intel Panther Lake iGPU Performance on Linux",
-      "original_title": "Ubuntu 26.10 Improves Intel Panther Lake iGPU Performance on Linux",
-      "image": "https://tpucdn.com/img/FNtzyaal1DvovHcc_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-24",
-      "summary": "There was much excitement when Intel's Panther Lake CPUs launched with the powerful new Arc B390 iGPUs, and although Linux gaming performance was impressive on those systems, it always takes time for mainstream distributions, like Ubuntu, to catch up...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/355173/ubuntu-26-10-improves-intel-panther-lake-igpu-performance-on-linux"
+      "url": "https://www.techpowerup.com/355196/nvidia-cuts-rtx-50-series-supply-as-rtx-60-series-faces-possible-delay-per-reports"
     },
     {
       "id": "https://www.techpowerup.com/354822/put-your-gpu-to-work-offline-ai-video-enhancement-with-aiarty-black-friday-deal",
@@ -500,7 +509,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-11-24",
+      "date": "2026-11-25",
       "summary": "Modern GPUs are no longer used exclusively for gaming and 3D rendering. They also support an expanding range of local AI workloads, including image and video processing. For PC enthusiasts with large collections of older recordings, compressed clips,...",
       "sources": [
         "TechPowerUp"
@@ -508,19 +517,19 @@
       "url": "https://www.techpowerup.com/354822/put-your-gpu-to-work-offline-ai-video-enhancement-with-aiarty-black-friday-deal"
     },
     {
-      "id": "https://www.techpowerup.com/355175/mambasnake-unveils-m1-qi-wireless-gaming-mouse",
-      "title": "(PR) MAMBASNAKE Unveils M1 QI Wireless Gaming Mouse",
-      "original_title": "(PR) MAMBASNAKE Unveils M1 QI Wireless Gaming Mouse",
-      "image": "https://tpucdn.com/img/bmDEMka1ustrIJnZ_thm.jpg",
+      "id": "https://www.techpowerup.com/355210/sk-hynix-to-start-3d-dram-production-in-2031",
+      "title": "SK hynix to Start 3D DRAM Production in 2031",
+      "original_title": "SK hynix to Start 3D DRAM Production in 2031",
+      "image": "https://tpucdn.com/img/iFd4oN1sThTCKjQw_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-11-24",
-      "summary": "MAMBASNAKE, a high-end gaming peripheral brand dedicated to high-performance, player-centric hardware, has officially introduced the MAMBASNAKE M1 Wireless Gaming Mouse. Combining precision tracking, tri-mode connectivity and a Qi-standard magnetic w...",
+      "date": "2026-11-25",
+      "summary": "SK hynix is planning to begin mass production of next-generation 3D DRAM by 2031, confirmed Choi Kang-sik, a Distinguished Engineer at SK hynix, during the AI Semiconductor Forum at Seoul National University in Gwanak-gu. According to the presentatio...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/355175/mambasnake-unveils-m1-qi-wireless-gaming-mouse"
+      "url": "https://www.techpowerup.com/355210/sk-hynix-to-start-3d-dram-production-in-2031"
     },
     {
       "id": "https://www.techpowerup.com/355019/gigabyte-and-newegg-bring-aorus-vs40-to-southern-california-in-november-2026",
@@ -530,7 +539,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-11-24",
+      "date": "2026-11-25",
       "summary": "GIGABYTE and Newegg will host AORUS VS40 at the Newegg Gamer Zone in City of Industry, California, on Saturday, November 21, 2026, from 11 a.m. to 4 p.m. PST. The event invites local collegiate PC gamers and hardware enthusiasts to celebrate 40 years...",
       "sources": [
         "TechPowerUp"
@@ -538,19 +547,34 @@
       "url": "https://www.techpowerup.com/355019/gigabyte-and-newegg-bring-aorus-vs40-to-southern-california-in-november-2026"
     },
     {
-      "id": "https://www.techpowerup.com/355171/inno3ds-single-slot-rtx-5060-ti-pro-gets-listed-in-japan-for-about-usd-1-060",
-      "title": "INNO3D's Single-Slot RTX 5060 Ti PRO Gets Listed in Japan for About $1,060",
-      "original_title": "INNO3D's Single-Slot RTX 5060 Ti PRO Gets Listed in Japan for About $1,060",
-      "image": "https://tpucdn.com/img/qYi2l4evHCNHYOzG_thm.jpg",
+      "id": "https://www.techpowerup.com/355209/gamesir-introduces-nova-vision-controller-with-built-in-lcd-screen-and-adjustable-tension-sticks",
+      "title": "(PR) GameSir Introduces Nova Vision Controller with Built-In LCD Screen and Adjustable Tension Sticks",
+      "original_title": "(PR) GameSir Introduces Nova Vision Controller with Built-In LCD Screen and Adjustable Tension Sticks",
+      "image": "https://tpucdn.com/img/8hUQ8zxv5CPkz3m1_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-11-24",
-      "summary": "Single-slot graphics cards are quite a rare sight nowadays, especially for the newest generations from NVIDIA and AMD. INNO3D's RTX 5060 Ti PRO is seemingly a great option for those buyers who want a single-slot GPU for their compact builds. However,...",
+      "date": "2026-11-25",
+      "summary": "GameSir has just announced the Nova Vision, a versatile gaming controller designed to make customization more accessible through a built-in 0.96-inch LCD screen. Allowing players to adjust and view key settings directly on the controller, Nova Vision...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/355171/inno3ds-single-slot-rtx-5060-ti-pro-gets-listed-in-japan-for-about-usd-1-060"
+      "url": "https://www.techpowerup.com/355209/gamesir-introduces-nova-vision-controller-with-built-in-lcd-screen-and-adjustable-tension-sticks"
+    },
+    {
+      "id": "https://www.techpowerup.com/355199/samsung-and-sk-hynix-to-license-ymtcs-xtacking-technology",
+      "title": "Samsung and SK hynix to License YMTC's Xtacking Technology",
+      "original_title": "Samsung and SK hynix to License YMTC's Xtacking Technology",
+      "image": "https://tpucdn.com/img/WRbuQ3SV084boW6T_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-25",
+      "summary": "According to Nikkei Asia, South Korea's largest chipmakers are currently looking to license technology from China's YMTC. Specifically, SK hynix and Samsung are exploring ways to integrate YMTC's highly successful Xtacking silicon 3D NAND design. In ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/355199/samsung-and-sk-hynix-to-license-ymtcs-xtacking-technology"
     }
   ]
 }
