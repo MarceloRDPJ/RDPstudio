@@ -1,22 +1,11 @@
 {
-  "last_updated": "2026-11-25T21:06:58",
-  "display_date": "25/11/2026 21:06",
+  "last_updated": "2026-11-26T20:58:23",
+  "display_date": "26/11/2026 20:58",
   "status": "Active",
   "epic_data": {
     "status": "Online",
-    "latency": "970ms",
+    "latency": "143ms",
     "current_games": [
-      {
-        "title": "Mark of the Deep",
-        "description": "Mark of the Deep is an epic pirate-themed adventure with a strong narrative and a thrilling mix of Metroidvania and Souls-Like elements. Embark on this journey, explore the mysteries of a cursed island and find your missing pirate crew!",
-        "image": "https://cdn1.epicgames.com/spt-assets/83a240506a884c10ad8fb99694e57a0d/mark-of-the-deep-w1ygr.png",
-        "url": "https://store.epicgames.com/p/2fd257a6cd80405a833f9004ff07993a",
-        "price": "$19.99",
-        "start_date": "2026-11-19T16:00:00.000Z",
-        "end_date": "2026-11-26T16:00:00.000Z"
-      }
-    ],
-    "upcoming_games": [
       {
         "title": "Firestone – Idle Clicker Online RPG",
         "description": "Your heroes never stop fighting. Build an unstoppable team in a fantasy idle RPG with AFK progression and offline rewards. Collect heroes and powerful gear, master formations, defeat epic bosses, and return to bigger rewards and endless incremental growth.",
@@ -32,17 +21,28 @@
         "image": "https://cdn1.epicgames.com/spt-assets/545b4dd8bb364c12b719268198a93ef3/bread-and-fred-3jnwn.jpg",
         "url": "https://store.epicgames.com/p/3435439bd89847608f5299fb297d1466",
         "price": "$14.99",
-        "start_date": "2026-12-10T16:00:00.000Z",
-        "end_date": "2027-01-07T16:00:00.000Z"
-      },
+        "start_date": "2026-11-26T16:00:00.000Z",
+        "end_date": "2026-12-03T16:00:00.000Z"
+      }
+    ],
+    "upcoming_games": [
       {
         "title": "Bread and Fred",
         "description": "Grab your best bud for help in this new co-op challenge to help two adorable penguins, Bread and Fred, reach the top of the snowy summit. Time your jumps, cling to walls and swing across gaps to see how far you can make it before you tumble all the way back down the mountain.",
         "image": "https://cdn1.epicgames.com/spt-assets/545b4dd8bb364c12b719268198a93ef3/bread-and-fred-3jnwn.jpg",
         "url": "https://store.epicgames.com/p/3435439bd89847608f5299fb297d1466",
         "price": "$14.99",
-        "start_date": "2026-11-26T16:00:00.000Z",
-        "end_date": "2026-12-03T16:00:00.000Z"
+        "start_date": "2026-12-10T16:00:00.000Z",
+        "end_date": "2027-01-07T16:00:00.000Z"
+      },
+      {
+        "title": "Eternal Threads",
+        "description": "Eternal Threads is a single-player, first-person story-driven puzzle game of time manipulation, choice and consequence.",
+        "image": "https://cdn1.epicgames.com/spt-assets/08813e055af64315b8a55b2e521f4e04/eternal-threads-1vm6i.jpg",
+        "url": "https://store.epicgames.com/p/a9152a8924cc4e438f0e61106ec02f7d",
+        "price": "$19.99",
+        "start_date": "2026-12-10T16:00:00.000Z",
+        "end_date": "2027-01-07T16:00:00.000Z"
       },
       {
         "title": "Eternal Threads",
@@ -52,15 +52,6 @@
         "price": "$19.99",
         "start_date": "2026-11-27T16:00:00.000Z",
         "end_date": "2026-12-01T15:00:00.000Z"
-      },
-      {
-        "title": "Eternal Threads",
-        "description": "Eternal Threads is a single-player, first-person story-driven puzzle game of time manipulation, choice and consequence.",
-        "image": "https://cdn1.epicgames.com/spt-assets/08813e055af64315b8a55b2e521f4e04/eternal-threads-1vm6i.jpg",
-        "url": "https://store.epicgames.com/p/a9152a8924cc4e438f0e61106ec02f7d",
-        "price": "$19.99",
-        "start_date": "2026-12-10T16:00:00.000Z",
-        "end_date": "2027-01-07T16:00:00.000Z"
       },
       {
         "title": "Ghostrunner 2",
@@ -99,6 +90,15 @@
         "end_date": "2027-01-07T16:00:00.000Z"
       },
       {
+        "title": "Strange Antiquities",
+        "description": "Strange Antiquities is a game set in Undermere, where you explore occult artifacts and solve dark mysteries. As an apprentice thaumaturge, you'll identify magical items and help townsfolk. A sequel to Strange Horticulture, it blends exploration to uncover strange secrets.",
+        "image": "https://cdn1.epicgames.com/spt-assets/d0e3b7c3690c485ca7a435d298262ab2/strange-antiquities-1kl5s.png",
+        "url": "https://store.epicgames.com/p/e87a7fa33e704dedb97a9927f0750857",
+        "price": "$17.99",
+        "start_date": "2026-12-03T16:00:00.000Z",
+        "end_date": "2026-12-10T16:00:00.000Z"
+      },
+      {
         "title": "Luftrausers",
         "description": "The skies are aflame and the seas will overflow with wreckage in Vlambeer’s stylish arcade shooter LUFTRAUSERS! Take to the skies in customized fighter planes to battle battleships, submarines, and rival aces for glory, honor, and high scores.",
         "image": "https://cdn1.epicgames.com/spt-assets/85ddeeec9d4243b3a2d78aab87bfae7f/luftrausers-1mxb1.png",
@@ -112,30 +112,15 @@
   },
   "items": [
     {
-      "id": "https://store.epicgames.com/p/2fd257a6cd80405a833f9004ff07993a",
-      "title": "GRÁTIS: Mark of the Deep",
-      "original_title": "Mark of the Deep",
-      "image": "https://cdn1.epicgames.com/spt-assets/83a240506a884c10ad8fb99694e57a0d/mark-of-the-deep-w1ygr.png",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Free Games",
-      "date": "2026-11-25",
-      "summary": "Mark of the Deep is an epic pirate-themed adventure with a strong narrative and a thrilling mix of Metroidvania and Souls-Like elements. Embark on this journey, explore the mysteries of a cursed island and find your missing pirate crew!",
-      "sources": [
-        "Epic Games Store"
-      ],
-      "url": "https://store.epicgames.com/p/2fd257a6cd80405a833f9004ff07993a"
-    },
-    {
       "id": "https://store.epicgames.com/p/1185abfe7c554a1e8c528aba37bf3d0f",
-      "title": "EM BREVE: Firestone – Idle Clicker Online RPG",
+      "title": "GRÁTIS: Firestone – Idle Clicker Online RPG",
       "original_title": "Firestone – Idle Clicker Online RPG",
       "image": "https://cdn1.epicgames.com/spt-assets/69576a28f7154fe9a0dce97508da5163/firestone-online-idle-rpg-1inmf.jpg",
       "source_count": 1,
       "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-11-25",
-      "summary": "Disponível gratuitamente a partir de 26/11. Your heroes never stop fighting. Build an unstoppable team in a fantasy idle RPG with AFK progression and offline rewards. Collect heroes and powerful gear, master formations, defeat epic bosses, and return to bigger rewards and endless incremental growth.",
+      "category": "Free Games",
+      "date": "2026-11-26",
+      "summary": "Your heroes never stop fighting. Build an unstoppable team in a fantasy idle RPG with AFK progression and offline rewards. Collect heroes and powerful gear, master formations, defeat epic bosses, and return to bigger rewards and endless incremental growth.",
       "sources": [
         "Epic Games Store"
       ],
@@ -143,14 +128,14 @@
     },
     {
       "id": "https://store.epicgames.com/p/3435439bd89847608f5299fb297d1466",
-      "title": "EM BREVE: Bread and Fred",
+      "title": "GRÁTIS: Bread and Fred",
       "original_title": "Bread and Fred",
       "image": "https://cdn1.epicgames.com/spt-assets/545b4dd8bb364c12b719268198a93ef3/bread-and-fred-3jnwn.jpg",
       "source_count": 1,
       "reliability": "High",
-      "category": "Release Date",
-      "date": "2026-11-25",
-      "summary": "Disponível gratuitamente a partir de 10/12. Grab your best bud for help in this new co-op challenge to help two adorable penguins, Bread and Fred, reach the top of the snowy summit. Time your jumps, cling to walls and swing across gaps to see how far you can make it before you tumble all the way back down the mountain.",
+      "category": "Free Games",
+      "date": "2026-11-26",
+      "summary": "Grab your best bud for help in this new co-op challenge to help two adorable penguins, Bread and Fred, reach the top of the snowy summit. Time your jumps, cling to walls and swing across gaps to see how far you can make it before you tumble all the way back down the mountain.",
       "sources": [
         "Epic Games Store"
       ],
@@ -164,8 +149,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-25",
-      "summary": "Disponível gratuitamente a partir de 26/11. Grab your best bud for help in this new co-op challenge to help two adorable penguins, Bread and Fred, reach the top of the snowy summit. Time your jumps, cling to walls and swing across gaps to see how far you can make it before you tumble all the way back down the mountain.",
+      "date": "2026-11-26",
+      "summary": "Disponível gratuitamente a partir de 10/12. Grab your best bud for help in this new co-op challenge to help two adorable penguins, Bread and Fred, reach the top of the snowy summit. Time your jumps, cling to walls and swing across gaps to see how far you can make it before you tumble all the way back down the mountain.",
       "sources": [
         "Epic Games Store"
       ],
@@ -179,8 +164,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-25",
-      "summary": "Disponível gratuitamente a partir de 27/11. Eternal Threads is a single-player, first-person story-driven puzzle game of time manipulation, choice and consequence.",
+      "date": "2026-11-26",
+      "summary": "Disponível gratuitamente a partir de 10/12. Eternal Threads is a single-player, first-person story-driven puzzle game of time manipulation, choice and consequence.",
       "sources": [
         "Epic Games Store"
       ],
@@ -194,8 +179,8 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-25",
-      "summary": "Disponível gratuitamente a partir de 10/12. Eternal Threads is a single-player, first-person story-driven puzzle game of time manipulation, choice and consequence.",
+      "date": "2026-11-26",
+      "summary": "Disponível gratuitamente a partir de 27/11. Eternal Threads is a single-player, first-person story-driven puzzle game of time manipulation, choice and consequence.",
       "sources": [
         "Epic Games Store"
       ],
@@ -209,7 +194,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-25",
+      "date": "2026-11-26",
       "summary": "Disponível gratuitamente a partir de 10/12. Ghostrunner 2 is a hardcore FPP slasher set in a post-apocalyptic, cyberpunk world. Featuring everything fans loved about Ghostrunner plus incredible boss fights, new interactive story, thrilling motorbike levels, improved skills, and more cyber ninja action. ",
       "sources": [
         "Epic Games Store"
@@ -224,7 +209,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-25",
+      "date": "2026-11-26",
       "summary": "Disponível gratuitamente a partir de 10/12. Explore Olathe and unmask its twisted secrets with LISA: The Definitive Edition, including the original narrative-driven RPG LISA: The Painful and its sequel LISA: The Joyful.",
       "sources": [
         "Epic Games Store"
@@ -239,7 +224,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-25",
+      "date": "2026-11-26",
       "summary": "Disponível gratuitamente a partir de 10/12. Konami's Castlevania Anniversary Collection traces the origins of the historic vampire franchise. Included is a unique eBook with details provided by developers, artists and others inspired by the Castlevania legacy which sheds a fresh light into the world of Castlevania.",
       "sources": [
         "Epic Games Store"
@@ -254,12 +239,27 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-25",
+      "date": "2026-11-26",
       "summary": "Disponível gratuitamente a partir de 10/12. Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.",
       "sources": [
         "Epic Games Store"
       ],
       "url": "https://store.epicgames.com/p/monument-valley-02"
+    },
+    {
+      "id": "https://store.epicgames.com/p/e87a7fa33e704dedb97a9927f0750857",
+      "title": "EM BREVE: Strange Antiquities",
+      "original_title": "Strange Antiquities",
+      "image": "https://cdn1.epicgames.com/spt-assets/d0e3b7c3690c485ca7a435d298262ab2/strange-antiquities-1kl5s.png",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Release Date",
+      "date": "2026-11-26",
+      "summary": "Disponível gratuitamente a partir de 03/12. Strange Antiquities is a game set in Undermere, where you explore occult artifacts and solve dark mysteries. As an apprentice thaumaturge, you'll identify magical items and help townsfolk. A sequel to Strange Horticulture, it blends exploration to uncover strange secrets.",
+      "sources": [
+        "Epic Games Store"
+      ],
+      "url": "https://store.epicgames.com/p/e87a7fa33e704dedb97a9927f0750857"
     },
     {
       "id": "https://store.epicgames.com/p/luftrausers",
@@ -269,7 +269,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Release Date",
-      "date": "2026-11-25",
+      "date": "2026-11-26",
       "summary": "Disponível gratuitamente a partir de 27/11. The skies are aflame and the seas will overflow with wreckage in Vlambeer’s stylish arcade shooter LUFTRAUSERS! Take to the skies in customized fighter planes to battle battleships, submarines, and rival aces for glory, honor, and high scores.",
       "sources": [
         "Epic Games Store"
@@ -277,229 +277,169 @@
       "url": "https://store.epicgames.com/p/luftrausers"
     },
     {
-      "id": "https://www.eurogamer.net/fable-the-witcher-3-gold-standard",
-      "title": "The Fable reboot had to look beyond Lionhead's RPG trilogy because games like The Witcher 3 \"became the gold standard\"",
-      "original_title": "The Fable reboot had to look beyond Lionhead's RPG trilogy because games like The Witcher 3 \"became the gold standard\"",
-      "image": "https://assetsio.gnwcdn.com/fighting-a-fire-breathing-chicken-in-Fable.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/ea-removes-live-service-skate-seasons",
+      "title": "EA removes some live service fluff from Skate and ends seasonal structure \"in favour of regular, agile content updates\"",
+      "original_title": "EA removes some live service fluff from Skate and ends seasonal structure \"in favour of regular, agile content updates\"",
+      "image": "https://assetsio.gnwcdn.com/skate-header_g4XD29A.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-25",
-      "summary": " Developer Playground Games had to look beyond Lionhead's original run of Fable games when rebooting the classic fantasy series, and it's all thanks to games like The Witcher 3, which changed what many players expect from their big RPGs and set a new...",
+      "date": "2026-11-26",
+      "summary": " EA is ditching seasonal updates and shaving some of the live service fluff off Skate (for some reason stylised as skate.) going forward. Normally, such news would be cause for concern. Here, the publisher assured players the transition will lead to ...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/fable-the-witcher-3-gold-standard"
+      "url": "https://www.eurogamer.net/ea-removes-live-service-skate-seasons"
     },
     {
-      "id": "https://www.eurogamer.net/hideki-kamiya-konami-truly-insane-castlevania",
-      "title": "Original Devil May Cry and Bayonetta director Hideki Kamiya really wants Konami to let him make a \"truly insane\" Castlevania game",
-      "original_title": "Original Devil May Cry and Bayonetta director Hideki Kamiya really wants Konami to let him make a \"truly insane\" Castlevania game",
-      "image": "https://assetsio.gnwcdn.com/0608_01.png?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/the-witcher-3-patch-40-mods-bugs",
+      "title": "The Witcher 3's new patch adds 40 cross-platform mods, fixes plenty of game-breaking bugs and \"various lighting issues\"",
+      "original_title": "The Witcher 3's new patch adds 40 cross-platform mods, fixes plenty of game-breaking bugs and \"various lighting issues\"",
+      "image": "https://assetsio.gnwcdn.com/geralt-witcher-3-remastered.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-25",
-      "summary": " Action game maestro Hideki Kamiya really wants to make a new Castlevania game with publisher Konami. Read more...",
+      "date": "2026-11-26",
+      "summary": " Developer CD Projekt Red has rolled out a new patch for The Witcher 3: Wild Hunt - Remastered on all platforms, which squashes dozens of bugs and adds 40 cross-platform mods with \"more on the way.\" Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/hideki-kamiya-konami-truly-insane-castlevania"
+      "url": "https://www.eurogamer.net/the-witcher-3-patch-40-mods-bugs"
     },
     {
-      "id": "https://www.eurogamer.net/ea-sports-fc27-dead-commentator-ai",
-      "title": "EA is resurrecting a dead commentator with AI for EA Sports FC 27, years after his last appearance in a FIFA game",
-      "original_title": "EA is resurrecting a dead commentator with AI for EA Sports FC 27, years after his last appearance in a FIFA game",
-      "image": "https://assetsio.gnwcdn.com/ea-fc-27-best-wonderkids-00.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/nioh-ai-qa-game-human-hands",
+      "title": "Nioh and Ninja Gaiden studio is using AI for QA, but argues \"that a game becomes fun when crafted by human hands\"",
+      "original_title": "Nioh and Ninja Gaiden studio is using AI for QA, but argues \"that a game becomes fun when crafted by human hands\"",
+      "image": "https://assetsio.gnwcdn.com/nioh-3-gameplay-screen-6.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-25",
-      "summary": " EA Sports FC 27 is using gen-AI to digitally recreate the voice of veteran football commentator John Motson - the FIFA video game series' first ever real-world announcer who died in 2023. Read more...",
+      "date": "2026-11-26",
+      "summary": " Team Ninja (Nioh, Ninja Gaiden) is the latest game development studio to implement AI into some of its workflow, but producer Kohei Shibata still believes that fun games need to be \"crafted by human hands.\" Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/ea-sports-fc27-dead-commentator-ai"
+      "url": "https://www.eurogamer.net/nioh-ai-qa-game-human-hands"
     },
     {
-      "id": "https://www.eurogamer.net/playstation-plus-monthly-games-december-2026",
-      "title": "Here are our PS Plus monthly games for December 2026",
-      "original_title": "Here are our PS Plus monthly games for December 2026",
-      "image": "https://assetsio.gnwcdn.com/playstation-plus-june-header.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/gta-6-boxed-physical-sales-uk",
+      "title": "GTA 6 causes surge in UK physical game sales, despite there being no disc in the box",
+      "original_title": "GTA 6 causes surge in UK physical game sales, despite there being no disc in the box",
+      "image": "https://assetsio.gnwcdn.com/cal-gta-6-artwork.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-25",
-      "summary": " There's a chill in the air and a snowman (plastic) at the end of the street, meaning winter is firmly upon us. So what better way to make it way through the long dark nights than a spot of festmas gaming. And hark, just in the nick of time, PlayStat...",
+      "date": "2026-11-26",
+      "summary": " Grand Theft Auto 6 has had a huge effect on physical game sales in the UK, despite not actually containing a disc in the box. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/playstation-plus-monthly-games-december-2026"
+      "url": "https://www.eurogamer.net/gta-6-boxed-physical-sales-uk"
     },
     {
-      "id": "https://www.eurogamer.net/gta-6-empathy-criminal-profile-why-rockstar-added-it-rob-nelson",
-      "title": "Why did Rockstar Games make empathy a key mechanic in GTA 6? \"Because it's fun\" says head of development Rob Nelson",
-      "original_title": "Why did Rockstar Games make empathy a key mechanic in GTA 6? \"Because it's fun\" says head of development Rob Nelson",
-      "image": "https://assetsio.gnwcdn.com/GTA-6-review-14.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/gta-6-powerwashing-powerwash-simultor-futurlab",
+      "title": "\"Where's the ding?!!\" - I asked the PowerWash Simulator 2 team what they thought of Jason's nozzle work in GTA 6",
+      "original_title": "\"Where's the ding?!!\" - I asked the PowerWash Simulator 2 team what they thought of Jason's nozzle work in GTA 6",
+      "image": "https://assetsio.gnwcdn.com/gta-powerwash-header-2.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-25",
-      "summary": " There's been plenty of chatter about Grand Theft Auto 6's 'honour system', so to speak, implemented here via what the game calls your Criminal Profile. Read more...",
+      "date": "2026-11-26",
+      "summary": " Among the many, many side activities you can do in GTA 6, there's powerwashing. Relatively early on, as part of Chapter 1's Down to Earth mission, Jason whips out his nozzle and blasts Brian's boat to a gleaming sheen. Disappointingly for powerwashi...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/gta-6-empathy-criminal-profile-why-rockstar-added-it-rob-nelson"
+      "url": "https://www.eurogamer.net/gta-6-powerwashing-powerwash-simultor-futurlab"
     },
     {
-      "id": "https://www.eurogamer.net/world-of-warcraft-forever-revelation-enchantment-nerfed",
-      "title": "World of Warcraft: Forever's best new enchantment has been quietly changed, leaving some casters on the back foot",
-      "original_title": "World of Warcraft: Forever's best new enchantment has been quietly changed, leaving some casters on the back foot",
-      "image": "https://assetsio.gnwcdn.com/world-of-warcraft-skyborne-jpg.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/grand-theft-auto-6-first-week-hours-watched-record",
+      "title": "GTA 6 reportedly sets massive livestreaming record, watched more in its first week than Elden Ring, Diablo 4, Valorant, and Lost Ark combined",
+      "original_title": "GTA 6 reportedly sets massive livestreaming record, watched more in its first week than Elden Ring, Diablo 4, Valorant, and Lost Ark combined",
+      "image": "https://assetsio.gnwcdn.com/gta-6-vice-city-characters-gold-ak-1.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-25",
-      "summary": " As World of Warcraft: Forever players dived into the game, they quickly discovered a specific weapon enchant that took area of effect spells to a whole other level. Sadly, with a sudden hotfix last night, this particular use case for the enchant has...",
+      "date": "2026-11-26",
+      "summary": " Grand Theft Auto 6 has broken another livestreaming record. After attracting more viewers across livestreaming platforms than any game ever on its launch day, Rockstar's open-world crime sim has reportedly continued to dominate on platforms like Twi...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/world-of-warcraft-forever-revelation-enchantment-nerfed"
+      "url": "https://www.eurogamer.net/grand-theft-auto-6-first-week-hours-watched-record"
     },
     {
-      "id": "https://www.eurogamer.net/hollow-knight-silksong-dlc-livestream-sea-of-sorrows-update",
-      "title": "Hollow Knight: Silksong devs announce a livestream for Friday, promise updates on the hotly-anticipated Sea of Sorrow DLC",
-      "original_title": "Hollow Knight: Silksong devs announce a livestream for Friday, promise updates on the hotly-anticipated Sea of Sorrow DLC",
-      "image": "https://assetsio.gnwcdn.com/cherry-time.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/rockstar-games-employees-vote-against-union-recognition",
+      "title": "Rockstar Games employees vote against union recognition",
+      "original_title": "Rockstar Games employees vote against union recognition",
+      "image": "https://assetsio.gnwcdn.com/grand-theft-auto-6-character-4k-wallpaper-uhdpaper.com-269%401%40n.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-25",
-      "summary": " Hollow Knight: Silksong developer Team Cherry has announced it will host a 'Cherry Time Special Presentation' on 27th November, bringing more information to light about the game's first big DLC offering, Sea of Sorrows. We know that the free update ...",
+      "date": "2026-11-26",
+      "summary": " Rockstar Games employees have voted against official recognition of the Rockstar Game Workers Union, with 93.2 percent of staff participating in the vote. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/hollow-knight-silksong-dlc-livestream-sea-of-sorrows-update"
+      "url": "https://www.eurogamer.net/rockstar-games-employees-vote-against-union-recognition"
     },
     {
-      "id": "https://www.eurogamer.net/grand-theft-auto-6-gen-ai-chatbots-work-faster-prompts",
-      "title": "GTA 6 recompilers and vibe-coders implore AI chatbots to 'work faster' and 'make no mistakes' as they race to get the game running on PC",
-      "original_title": "GTA 6 recompilers and vibe-coders implore AI chatbots to 'work faster' and 'make no mistakes' as they race to get the game running on PC",
-      "image": "https://assetsio.gnwcdn.com/gta-6-vice-city-car-interior-1.jpeg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/citizen-sleeper-creator-gen-ai-human-made-games-signet-city",
+      "title": "We are already in a world where people think about promoting games as human-made, Citizen Sleeper creator says",
+      "original_title": "We are already in a world where people think about promoting games as human-made, Citizen Sleeper creator says",
+      "image": "https://assetsio.gnwcdn.com/citizensleeper2_cropped.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-25",
-      "summary": " Things continue to get messy in the community of players working on getting Grand Theft Auto 6 working on PC. The previous frontrunner, Project Leonida, got their Discord server and GitHub repository taken down by Rockstar, but others have seemingly...",
+      "date": "2026-11-26",
+      "summary": " Citizen Sleeper creator Gareth Damian Martin - also known by their studio name Jump Over the Age - believes we're reaching a point of gen-AI saturation whereby game-makers are starting to counter-promote games as being human-made. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/grand-theft-auto-6-gen-ai-chatbots-work-faster-prompts"
+      "url": "https://www.eurogamer.net/citizen-sleeper-creator-gen-ai-human-made-games-signet-city"
     },
     {
-      "id": "https://www.eurogamer.net/im-having-a-much-better-time-in-gta-6-now-ive-disabled-its-pesky-criminal-profile-pings",
-      "title": "I'm having a much better time in GTA 6 now I've disabled its pesky Criminal Profile pings",
-      "original_title": "I'm having a much better time in GTA 6 now I've disabled its pesky Criminal Profile pings",
-      "image": "https://assetsio.gnwcdn.com/gta-lucia-psycho.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/gta-6-30-percent-buy-flowers-punch-cats",
+      "title": "After playing the game, 30% of polled GTA 6 players want to buy flowers for a loved one, 9% accidentally punched cats",
+      "original_title": "After playing the game, 30% of polled GTA 6 players want to buy flowers for a loved one, 9% accidentally punched cats",
+      "image": "https://assetsio.gnwcdn.com/cat-gta-6.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-25",
-      "summary": " Do you think you'd enjoy invasive UI elements in real life? You crouch to fuss your dog, and a little ping activates in your retina, informing you that you've just earned plus-three serotonin. Your boss chews you out for coming into work 15 minutes ...",
+      "date": "2026-11-26",
+      "summary": " A new survey of Grand Theft Auto 6 players has found some particularly interesting results. 30 percent came away from the game with the desire to buy someone special flowers. Nine percent punched cats. Read more...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/im-having-a-much-better-time-in-gta-6-now-ive-disabled-its-pesky-criminal-profile-pings"
+      "url": "https://www.eurogamer.net/gta-6-30-percent-buy-flowers-punch-cats"
     },
     {
-      "id": "https://www.eurogamer.net/diablo-4-season-16-keeping-season-15-diablo-2-anniversary",
-      "title": "Blizzard is making a lot of the Diablo 4's event-specific Diablo 2 anniversary content permanent because everyone loved it in Season 15",
-      "original_title": "Blizzard is making a lot of the Diablo 4's event-specific Diablo 2 anniversary content permanent because everyone loved it in Season 15",
-      "image": "https://assetsio.gnwcdn.com/diablo-4-season-of-hells-legacy-keyart-1.jpeg?width=690&quality=85&format=jpg&auto=webp",
+      "id": "https://www.eurogamer.net/citizen-sleeper-signet-city-fungalpunk-1980s-rpg",
+      "title": "\"I'm betting on the sickos\" - Signet City plans to 'expand the scope of RPGs' by drawing on the success of Citizen Sleeper",
+      "original_title": "\"I'm betting on the sickos\" - Signet City plans to 'expand the scope of RPGs' by drawing on the success of Citizen Sleeper",
+      "image": "https://assetsio.gnwcdn.com/signet-city-no-logo.jpg?width=690&quality=85&format=jpg&auto=webp",
       "source_count": 1,
       "reliability": "High",
       "category": "News",
-      "date": "2026-11-25",
-      "summary": " Blizzard has officially unveiled Diablo 4's next live-service season: Season of Tyrael's Gambit. This is the ARPG's 16th season, and it follows on from the popular and well-received Season of Hell's Legacy. Read more...",
+      "date": "2026-11-26",
+      "summary": " When I last spoke to Citizen Sleeper creator Gareth Damian Martin, it was on the eve of Citizen Sleeper 2's release. Like its predecessor, the game was a critical hit, cementing Damian Martin's reputation as one of the most successful independent ga...",
       "sources": [
         "Eurogamer"
       ],
-      "url": "https://www.eurogamer.net/diablo-4-season-16-keeping-season-15-diablo-2-anniversary"
+      "url": "https://www.eurogamer.net/citizen-sleeper-signet-city-fungalpunk-1980s-rpg"
     },
     {
-      "id": "https://www.techpowerup.com/355214/asus-rog-xg-station-3-gets-eu-launch-and-immediately-sells-below-msrp",
-      "title": "ASUS ROG XG Station 3 Gets EU Launch and Immediately Sells Below MSRP",
-      "original_title": "ASUS ROG XG Station 3 Gets EU Launch and Immediately Sells Below MSRP",
-      "image": "https://tpucdn.com/img/4fwZGErTOcs1yJ3C_thm.jpg",
+      "id": "https://www.techpowerup.com/355245/gta-6-frame-rate-unlock-arrives-on-jailbroken-ps5-consoles",
+      "title": "GTA 6 Frame Rate Unlock Arrives on Jailbroken PS5 Consoles",
+      "original_title": "GTA 6 Frame Rate Unlock Arrives on Jailbroken PS5 Consoles",
+      "image": "https://tpucdn.com/img/CkE1y6MvD9OSZMIi_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-11-25",
-      "summary": "ASUS announced the ROG Station 3 in early November, revealing that the new Thunderbolt 5 eGPU dock would go so far as to support ASUS's BTF 2.5 GPUs. It will also feature up to 140 W USB PD for laptop and handheld docking purposes. ASUS, however, did...",
+      "date": "2026-11-26",
+      "summary": "While Rockstar has officially capped GTA 6 at 30 FPS on all consoles, that hasn't stopped the modding community, by the looks of it. Reddit user a_Criminai posted about an unofficial patch on the PS5 jailbreak subreddit, although that post has since ...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/355214/asus-rog-xg-station-3-gets-eu-launch-and-immediately-sells-below-msrp"
-    },
-    {
-      "id": "https://www.techpowerup.com/354886/revopoint-launches-miraco-2-on-kickstarter-scan-in-one-create-with-agents",
-      "title": "Revopoint Launches MIRACO 2 on Kickstarter: Scan in One, Create with Agents",
-      "original_title": "Revopoint Launches MIRACO 2 on Kickstarter: Scan in One, Create with Agents",
-      "image": "https://tpucdn.com/img/x7Rj0jpGtutjGte6_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-25",
-      "summary": "An all-in-one 3D scanner combining high-precision capture, powerful onboard computing, and AI-driven workflows—with Super Early Bird pricing starting at $1,425.\n\nThe Offer is available from today, November 18 on Kickstarter. Grab the Super Early Bird...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354886/revopoint-launches-miraco-2-on-kickstarter-scan-in-one-create-with-agents"
-    },
-    {
-      "id": "https://www.techpowerup.com/355211/gta-vi-console-graphics-settings-revealed-higher-framerate-theoretically-possible-on-ps5-pro",
-      "title": "GTA VI Console Graphics Settings Revealed: Higher Framerate Theoretically Possible on PS5 Pro",
-      "original_title": "GTA VI Console Graphics Settings Revealed: Higher Framerate Theoretically Possible on PS5 Pro",
-      "image": "https://tpucdn.com/img/oTSYQHiObnA54ndV_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-25",
-      "summary": "Since the launch of GTA VI, gamers, modders, and hackers alike have been hacking away at the game's files to see what they can break, whether that be in order to unofficially port the game to PC, find workarounds to Rockstar's limitations, or just fo...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/355211/gta-vi-console-graphics-settings-revealed-higher-framerate-theoretically-possible-on-ps5-pro"
-    },
-    {
-      "id": "https://www.techpowerup.com/354930/innocn-black-friday-monitor-deals-save-on-qd-oled-gaming-ultrawide-and-4k-displays",
-      "title": "INNOCN Black Friday Monitor Deals: Save on QD-OLED Gaming, Ultrawide and 4K Displays",
-      "original_title": "INNOCN Black Friday Monitor Deals: Save on QD-OLED Gaming, Ultrawide and 4K Displays",
-      "image": "https://tpucdn.com/img/JFvsK1vE70rh6lzf_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-25",
-      "summary": "Looking to upgrade your gaming setup or add more screen space to your workstation? INNOCN is running Black Friday offers on eight monitors at Amazon US from November 19 through November 30, 2026. The lineup covers fast gaming displays, expansive ultr...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/354930/innocn-black-friday-monitor-deals-save-on-qd-oled-gaming-ultrawide-and-4k-displays"
-    },
-    {
-      "id": "https://www.techpowerup.com/355196/nvidia-cuts-rtx-50-series-supply-as-rtx-60-series-faces-possible-delay-per-reports",
-      "title": "NVIDIA Cuts RTX 50-Series Supply as RTX 60-Series Faces Possible Delay, Per Reports",
-      "original_title": "NVIDIA Cuts RTX 50-Series Supply as RTX 60-Series Faces Possible Delay, Per Reports",
-      "image": "https://tpucdn.com/img/tUfETS5WEl00Mgfj_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-25",
-      "summary": "NVIDIA celebrated Jensen Huang's return this week, but that doesn't mean the GPU shortage is over. In fact, reports from the Chinese distribution forum Board Channels claim that NVIDIA is planning to cut RTX 50-series supply even further. Apparently,...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/355196/nvidia-cuts-rtx-50-series-supply-as-rtx-60-series-faces-possible-delay-per-reports"
+      "url": "https://www.techpowerup.com/355245/gta-6-frame-rate-unlock-arrives-on-jailbroken-ps5-consoles"
     },
     {
       "id": "https://www.techpowerup.com/354822/put-your-gpu-to-work-offline-ai-video-enhancement-with-aiarty-black-friday-deal",
@@ -509,27 +449,12 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-11-25",
+      "date": "2026-11-26",
       "summary": "Modern GPUs are no longer used exclusively for gaming and 3D rendering. They also support an expanding range of local AI workloads, including image and video processing. For PC enthusiasts with large collections of older recordings, compressed clips,...",
       "sources": [
         "TechPowerUp"
       ],
       "url": "https://www.techpowerup.com/354822/put-your-gpu-to-work-offline-ai-video-enhancement-with-aiarty-black-friday-deal"
-    },
-    {
-      "id": "https://www.techpowerup.com/355210/sk-hynix-to-start-3d-dram-production-in-2031",
-      "title": "SK hynix to Start 3D DRAM Production in 2031",
-      "original_title": "SK hynix to Start 3D DRAM Production in 2031",
-      "image": "https://tpucdn.com/img/iFd4oN1sThTCKjQw_thm.jpg",
-      "source_count": 1,
-      "reliability": "High",
-      "category": "Hardware",
-      "date": "2026-11-25",
-      "summary": "SK hynix is planning to begin mass production of next-generation 3D DRAM by 2031, confirmed Choi Kang-sik, a Distinguished Engineer at SK hynix, during the AI Semiconductor Forum at Seoul National University in Gwanak-gu. According to the presentatio...",
-      "sources": [
-        "TechPowerUp"
-      ],
-      "url": "https://www.techpowerup.com/355210/sk-hynix-to-start-3d-dram-production-in-2031"
     },
     {
       "id": "https://www.techpowerup.com/355019/gigabyte-and-newegg-bring-aorus-vs40-to-southern-california-in-november-2026",
@@ -539,7 +464,7 @@
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-11-25",
+      "date": "2026-11-26",
       "summary": "GIGABYTE and Newegg will host AORUS VS40 at the Newegg Gamer Zone in City of Industry, California, on Saturday, November 21, 2026, from 11 a.m. to 4 p.m. PST. The event invites local collegiate PC gamers and hardware enthusiasts to celebrate 40 years...",
       "sources": [
         "TechPowerUp"
@@ -547,34 +472,109 @@
       "url": "https://www.techpowerup.com/355019/gigabyte-and-newegg-bring-aorus-vs40-to-southern-california-in-november-2026"
     },
     {
-      "id": "https://www.techpowerup.com/355209/gamesir-introduces-nova-vision-controller-with-built-in-lcd-screen-and-adjustable-tension-sticks",
-      "title": "(PR) GameSir Introduces Nova Vision Controller with Built-In LCD Screen and Adjustable Tension Sticks",
-      "original_title": "(PR) GameSir Introduces Nova Vision Controller with Built-In LCD Screen and Adjustable Tension Sticks",
-      "image": "https://tpucdn.com/img/8hUQ8zxv5CPkz3m1_thm.jpg",
+      "id": "https://www.techpowerup.com/355236/alphacool-launches-full-tower-apex-distro-plate-nv9-mkii",
+      "title": "(PR) Alphacool Launches Full-Tower Apex Distro Plate NV9 MKII",
+      "original_title": "(PR) Alphacool Launches Full-Tower Apex Distro Plate NV9 MKII",
+      "image": "https://tpucdn.com/img/HTtAkBZaFyUl43we_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-11-25",
-      "summary": "GameSir has just announced the Nova Vision, a versatile gaming controller designed to make customization more accessible through a built-in 0.96-inch LCD screen. Allowing players to adjust and view key settings directly on the controller, Nova Vision...",
+      "date": "2026-11-26",
+      "summary": "Alphacool expands its product portfolio with the new Alphacool Apex Distro Plate NV9 MKII D5/DDC. Specifically designed for the Phanteks NV9 MKII, this full-tower distro plate replaces the entire glass front panel of the case, combining premium aesth...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/355209/gamesir-introduces-nova-vision-controller-with-built-in-lcd-screen-and-adjustable-tension-sticks"
+      "url": "https://www.techpowerup.com/355236/alphacool-launches-full-tower-apex-distro-plate-nv9-mkii"
     },
     {
-      "id": "https://www.techpowerup.com/355199/samsung-and-sk-hynix-to-license-ymtcs-xtacking-technology",
-      "title": "Samsung and SK hynix to License YMTC's Xtacking Technology",
-      "original_title": "Samsung and SK hynix to License YMTC's Xtacking Technology",
-      "image": "https://tpucdn.com/img/WRbuQ3SV084boW6T_thm.jpg",
+      "id": "https://www.techpowerup.com/355234/kioxia-announces-gp2-super-high-iops-ssd-series",
+      "title": "(PR) Kioxia Announces GP2 Super High IOPS SSD Series",
+      "original_title": "(PR) Kioxia Announces GP2 Super High IOPS SSD Series",
+      "image": "https://tpucdn.com/img/A3N8uYWlOpxEbYS2_thm.jpg",
       "source_count": 1,
       "reliability": "High",
       "category": "Hardware",
-      "date": "2026-11-25",
-      "summary": "According to Nikkei Asia, South Korea's largest chipmakers are currently looking to license technology from China's YMTC. Specifically, SK hynix and Samsung are exploring ways to integrate YMTC's highly successful Xtacking silicon 3D NAND design. In ...",
+      "date": "2026-11-26",
+      "summary": "Kioxia Corporation, a world leader in memory solutions, today announced the KIOXIA GP2 Series Super High IOPS SSD, the second product in its KIOXIA GP Series of SSDs optimized for direct GPU access. Building on the technology and architecture of the ...",
       "sources": [
         "TechPowerUp"
       ],
-      "url": "https://www.techpowerup.com/355199/samsung-and-sk-hynix-to-license-ymtcs-xtacking-technology"
+      "url": "https://www.techpowerup.com/355234/kioxia-announces-gp2-super-high-iops-ssd-series"
+    },
+    {
+      "id": "https://www.techpowerup.com/354313/max-out-your-gen-4-slot-predator-gm7-nvme-ssd-up-to-7400-mb-s",
+      "title": "Max Out Your Gen 4 Slot: Predator GM7 NVMe SSD (Up to 7400 MB/s)",
+      "original_title": "Max Out Your Gen 4 Slot: Predator GM7 NVMe SSD (Up to 7400 MB/s)",
+      "image": "https://tpucdn.com/img/OoYRVLJhnN4DJFN0_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-26",
+      "summary": "If you've been waiting for the Black Friday sales to upgrade your rig, expand your PS5 storage, or give your laptop a massive speed boost, the award-winning Predator GM7 PCIe 4.0 SSD is built to deliver top-tier performance without the top-tier heat....",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354313/max-out-your-gen-4-slot-predator-gm7-nvme-ssd-up-to-7400-mb-s"
+    },
+    {
+      "id": "https://www.techpowerup.com/355230/intel-razor-lake-ax-mop-chip-pictured-with-four-lp5x-memory-pads-memory-not-included",
+      "title": "Intel \"Razor Lake-AX\" MoP Chip Pictured with Four LP5X Memory Pads, Memory Not Included",
+      "original_title": "Intel \"Razor Lake-AX\" MoP Chip Pictured with Four LP5X Memory Pads, Memory Not Included",
+      "image": "https://tpucdn.com/img/oJSUXzGN1fD1wm3G_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-26",
+      "summary": "Intel is readying the Core Ultra \"Razor Lake-AX\" halo-segment mobile processor to compete with the likes of AMD's Ryzen AI MAX 400 \"Gorgon Halo\" and NVIDIA RTX Spark N1X processors. Pictures of this processor/package leaked to the web. The processor ...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/355230/intel-razor-lake-ax-mop-chip-pictured-with-four-lp5x-memory-pads-memory-not-included"
+    },
+    {
+      "id": "https://www.techpowerup.com/354945/typing-365-turns-pc-building-technology-and-more-into-typing-practice",
+      "title": "Typing 365 Turns PC Building, Technology and More into Typing Practice",
+      "original_title": "Typing 365 Turns PC Building, Technology and More into Typing Practice",
+      "image": "https://tpucdn.com/img/OkrfV30jh3EJDZNv_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-26",
+      "summary": "Typing faster is useful, but what if practice could also teach you something? Typing 365 is a free native Windows app that combines structured typing lessons, educational content, and competitive challenges.\n\nWith over 100,000 installs and nearly 4 m...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/354945/typing-365-turns-pc-building-technology-and-more-into-typing-practice"
+    },
+    {
+      "id": "https://www.techpowerup.com/355229/atk-reveals-hex-80-v2-hall-effect-gaming-keyboard-in-collaboration-with-qwertykeys",
+      "title": "ATK Reveals Hex 80 V2 Hall Effect Gaming Keyboard in Collaboration with Qwertykeys",
+      "original_title": "ATK Reveals Hex 80 V2 Hall Effect Gaming Keyboard in Collaboration with Qwertykeys",
+      "image": "https://tpucdn.com/img/hewFUgeGCnfsy8IS_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-26",
+      "summary": "The original ATK × Qwertykeys Hex 80 was something of a watershed moment for the Hall effect keyboard market, marking the first major collaboration between a premium mechanical keyboard maker and a gaming brand that played to the strong suits of both...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/355229/atk-reveals-hex-80-v2-hall-effect-gaming-keyboard-in-collaboration-with-qwertykeys"
+    },
+    {
+      "id": "https://www.techpowerup.com/355224/thermal-grizzly-launches-delid-heat-mate-for-lower-risk-diy-cpu-delidding",
+      "title": "Thermal Grizzly Launches Delid Heat Mate for Lower-Risk DIY CPU Delidding",
+      "original_title": "Thermal Grizzly Launches Delid Heat Mate for Lower-Risk DIY CPU Delidding",
+      "image": "https://tpucdn.com/img/8fLiZGim1EU7Gag6_thm.jpg",
+      "source_count": 1,
+      "reliability": "High",
+      "category": "Hardware",
+      "date": "2026-11-26",
+      "summary": "Thermal Grizzly has just announced the Delid-Heat-Mate, the latest tool in its ever-expanding line-up of enthusiast delidding tools and accessories. The Delid-Heat-Mate is a CPU delidding tool built for AMD AM5 and Intel LGA 1700, 1851, and 1954 CPUs...",
+      "sources": [
+        "TechPowerUp"
+      ],
+      "url": "https://www.techpowerup.com/355224/thermal-grizzly-launches-delid-heat-mate-for-lower-risk-diy-cpu-delidding"
     }
   ]
 }
